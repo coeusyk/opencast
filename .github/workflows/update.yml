@@ -61,7 +61,7 @@ jobs:
           LICHESS_TOKEN: ${{ secrets.LICHESS_TOKEN }}
         run: |
           python - <<'EOF'
-          import json, subprocess
+          import json, subprocess, os
           from pathlib import Path
           from datetime import date
 
@@ -78,8 +78,10 @@ jobs:
           month = f"{today.year:04d}-{today.month:02d}"
           if any(f"{eco}_{month}" not in existing for eco in eco_codes):
               print(f"Fetching month {month}…")
+              env = os.environ.copy()
               subprocess.run(
                   ["fetcher/target/release/fetcher", "--from", month, "--to", month],
+                  env=env,
                   check=True,
               )
           else:
@@ -113,9 +115,6 @@ jobs:
   deploy:
     needs: update
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
 
     steps:
       - name: Checkout repository

@@ -100,7 +100,7 @@ def run_engine_delta() -> pd.DataFrame:
     return df
 
 
-def recommend_openings(delta_df: pd.DataFrame = None) -> pd.DataFrame:
+def recommend_openings(delta_df: pd.DataFrame | None = None) -> pd.DataFrame:
     """Return openings ranked by delta (highest = most human-favourable).
 
     A positive delta means humans outperform the engine prediction — these are
