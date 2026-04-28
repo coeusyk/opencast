@@ -271,10 +271,10 @@ Dutch Defense, English Opening.
 ## Task Breakdown
 
 ### Phase 1 — Setup (Day 1)
-- [ ] `cargo new fetcher` — init Rust project
-- [ ] Add `reqwest`, `tokio`, `serde`, `serde_json`, `clap` to `Cargo.toml`
-- [ ] Populate `openings.json` with 20 ECO codes and their move-8 FENs
-- [ ] Create `data/raw/`, `data/processed/`, `data/output/` directories
+- [x] `cargo new fetcher` — init Rust project
+- [x] Add `reqwest`, `tokio`, `serde`, `serde_json`, `clap` to `Cargo.toml`
+- [x] Populate `openings.json` with 20 ECO codes and their move-8 FENs
+- [x] Create `data/raw/`, `data/processed/`, `data/output/` directories
 
 ### Phase 2 — Rust Fetcher (Day 2–3)
 - [ ] Write `models.rs`: serde structs matching Lichess Explorer API response
