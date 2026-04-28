@@ -69,9 +69,9 @@ def run_engine_delta() -> pd.DataFrame:
         evaluation = sf.get_evaluation()
 
         if evaluation["type"] == "cp":
-            cp = evaluation["value"]
+            cp = int(evaluation["value"])
         else:  # mate
-            mate_in = evaluation["value"]
+            mate_in = int(evaluation["value"])
             cp = 10000 if mate_in > 0 else -10000
 
         p_engine = _cp_to_prob(cp)
