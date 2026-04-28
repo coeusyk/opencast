@@ -307,8 +307,8 @@ Dutch Defense, English Opening.
 - [x] `main.py` orchestrator with stage flags already in place
 
 ### Phase 7 — Documentation (Day 9)
-- [ ] `README.md`: hypothesis + findings paragraph per opening
-- [ ] Annotate structural breaks found in forecasts with chess context
+- [x] `README.md`: hypothesis + engine-delta findings table + structural break narrative per opening
+- [x] All phases documented with actual metrics in ARCHITECTURE.md
 
 ---
 
