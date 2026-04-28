@@ -300,8 +300,11 @@ Dutch Defense, English Opening.
 - **Results:** 8 openings engine-favoured (delta < −0.04) — D70 Grünfeld (−0.0644), B01 Scandinavian (−0.0581), B07 Pirc (−0.0558), B06 Modern (−0.0526), E60 King's Indian (−0.0501), C20 King's Gambit (−0.0465), C00 French (−0.0423), B20 Sicilian (−0.0447). No opening shows humans outperforming engine at 2000-rated blitz.
 
 ### Phase 6 — Visualization (Day 8)
-- [ ] Write `visualizer.py`: 3-panel Plotly dashboard as `dashboard.html`
-- [ ] Write `main.py` orchestrator with stage flags
+- [x] Write `visualizer.py`: 3-panel Plotly dashboard as `dashboard.html` (31KB, CDN-hosted JS)
+- [x] Panel 1: Forecast line chart + shaded 95% CI for top-5 openings (B20, C44, C00, B12, A10), structural breaks as dotted vertical lines
+- [x] Panel 2: Bubble chart — engine cp vs human win rate, diagonal reference, bubble size = total volume
+- [x] Panel 3: ECO-category × month heatmap, diverging red-white-green at 0.50
+- [x] `main.py` orchestrator with stage flags already in place
 
 ### Phase 7 — Documentation (Day 9)
 - [ ] `README.md`: hypothesis + findings paragraph per opening
