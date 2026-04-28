@@ -23,7 +23,7 @@ Lichess Explorer API → Rust Fetcher → data/raw/
 **Run everything:**
 ```bash
 export LICHESS_TOKEN=<your_token>
-pip install -r requirements.txt
+uv pip install -r requirements.txt
 python main.py
 ```
 
@@ -116,7 +116,7 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for full module specifications, data sche
 - **Lichess OAuth token** — free at https://lichess.org/account/oauth/token
 
 ```bash
-pip install -r requirements.txt
+uv pip install -r requirements.txt
 ```
 
 ---
