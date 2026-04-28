@@ -4,7 +4,13 @@ target/
 .env
 LICHESS_TOKEN
 
-data/raw
+# Generated data — directories are tracked via .gitkeep
+data/raw/*.json
+data/processed/*.csv
+data/output/*.csv
+data/output/*.html
+!data/**/.gitkeep
+
 __pycache__/
 *.pyc
 

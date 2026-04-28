@@ -1,6 +1,7 @@
 import json
 import math
 import os
+import shutil
 
 import chess
 import pandas as pd
@@ -12,7 +13,7 @@ PROCESSED_CSV = os.path.join(_HERE, "..", "data", "processed", "openings_ts.csv"
 OUTPUT_CSV    = os.path.join(_HERE, "..", "data", "output", "engine_delta.csv")
 OUTPUT_DIR    = os.path.join(_HERE, "..", "data", "output")
 
-STOCKFISH_PATH = "/usr/games/stockfish"
+STOCKFISH_PATH = shutil.which("stockfish") or "/usr/games/stockfish"
 DEPTH = 20
 HASH_MB = 256
 
@@ -50,51 +51,69 @@ def run_engine_delta() -> pd.DataFrame:
         ts.groupby("eco")["white_win_rate"].mean().rename("human_win_rate_2000")
     )
 
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    rows = []
+
     sf = Stockfish(
         path=STOCKFISH_PATH,
         depth=DEPTH,
         parameters={"Hash": HASH_MB, "Threads": 1},
     )
+    try:
+        for opening in openings:
+            eco   = opening["eco"]
+            name  = opening["name"]
+            moves = opening["moves"]
 
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    rows = []
+            fen = _get_fen_from_uci_moves(moves)
+            sf.set_fen_position(fen)
+            evaluation = sf.get_evaluation()
 
-    for opening in openings:
-        eco   = opening["eco"]
-        name  = opening["name"]
-        moves = opening["moves"]
+            if evaluation["type"] == "cp":
+                cp = int(evaluation["value"])
+            else:  # mate
+                mate_in = int(evaluation["value"])
+                cp = 10000 if mate_in > 0 else -10000
 
-        fen = _get_fen_from_uci_moves(moves)
-        sf.set_fen_position(fen)
-        evaluation = sf.get_evaluation()
+            p_engine = _cp_to_prob(cp)
+            human_rate = float(human_rates.get(eco, float("nan")))
+            delta = human_rate - p_engine
 
-        if evaluation["type"] == "cp":
-            cp = int(evaluation["value"])
-        else:  # mate
-            mate_in = int(evaluation["value"])
-            cp = 10000 if mate_in > 0 else -10000
+            print(f"{eco:4s} {name:30s}  cp={cp:+5d}  P_engine={p_engine:.4f}  "
+                  f"human={human_rate:.4f}  delta={delta:+.4f}")
 
-        p_engine = _cp_to_prob(cp)
-        human_rate = float(human_rates.get(eco, float("nan")))
-        delta = human_rate - p_engine
-
-        print(f"{eco:4s} {name:30s}  cp={cp:+5d}  P_engine={p_engine:.4f}  "
-              f"human={human_rate:.4f}  delta={delta:+.4f}")
-
-        rows.append({
-            "eco": eco,
-            "opening_name": name,
-            "engine_cp": cp,
-            "p_engine": round(p_engine, 6),
-            "human_win_rate_2000": round(human_rate, 6),
-            "delta": round(delta, 6),
-            "interpretation": _interpret(delta),
-        })
+            rows.append({
+                "eco": eco,
+                "opening_name": name,
+                "engine_cp": cp,
+                "p_engine": round(p_engine, 6),
+                "human_win_rate_2000": round(human_rate, 6),
+                "delta": round(delta, 6),
+                "interpretation": _interpret(delta),
+            })
+    finally:
+        del sf
 
     df = pd.DataFrame(rows)
     df.to_csv(OUTPUT_CSV, index=False)
     print(f"\nEngine delta written → {OUTPUT_CSV}  ({len(df)} rows)")
     return df
+
+
+def recommend_openings(delta_df: pd.DataFrame = None) -> pd.DataFrame:
+    """Return openings ranked by delta (highest = most human-favourable).
+
+    A positive delta means humans outperform the engine prediction — these are
+    the best openings to play at 2000-rated blitz relative to engine expectation.
+    """
+    if delta_df is None:
+        delta_df = pd.read_csv(OUTPUT_CSV)
+    return (
+        delta_df[["eco", "opening_name", "engine_cp", "p_engine",
+                  "human_win_rate_2000", "delta", "interpretation"]]
+        .sort_values("delta", ascending=False)
+        .reset_index(drop=True)
+    )
 
 
 if __name__ == "__main__":

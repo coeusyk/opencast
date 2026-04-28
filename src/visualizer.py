@@ -19,14 +19,19 @@ ECO_COLORS = {
     "E": "#8172B3",  # purple
 }
 
-PANEL1_ECOS = ["B20", "C44", "C00", "B12", "A10"]  # top-5 by volume
+PANEL1_ECOS = ["B20", "C44", "C00", "B12", "A10"]  # fallback (overridden at runtime)
 LINE_COLORS = ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd"]
 
 
-def _build_panel1(forecasts: pd.DataFrame) -> list:
+def _top5_by_volume(ts: pd.DataFrame) -> list:
+    """Return the 5 ECO codes with the highest total game count."""
+    return ts.groupby("eco")["total"].sum().nlargest(5).index.tolist()
+
+
+def _build_panel1(forecasts: pd.DataFrame, panel1_ecos: list) -> list:
     """Forecast + CI ribbon for top-5 openings. Returns list of traces."""
     traces = []
-    for i, eco in enumerate(PANEL1_ECOS):
+    for i, eco in enumerate(panel1_ecos):
         df = forecasts[forecasts["eco"] == eco].sort_values("month")
         name = df["opening_name"].iloc[0]
         color = LINE_COLORS[i]
@@ -158,6 +163,8 @@ def run_visualizer() -> None:
     delta     = pd.read_csv(DELTA_CSV)
     ts        = pd.read_csv(TS_CSV)
 
+    panel1_ecos = _top5_by_volume(ts)
+
     fig = make_subplots(
         rows=2, cols=2,
         row_heights=[0.55, 0.45],
@@ -175,7 +182,7 @@ def run_visualizer() -> None:
         horizontal_spacing=0.08,
     )
 
-    for tr in _build_panel1(forecasts):
+    for tr in _build_panel1(forecasts, panel1_ecos):
         fig.add_trace(tr, row=1, col=1)
 
     for tr in _build_panel2(delta, ts):

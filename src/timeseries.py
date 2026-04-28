@@ -31,7 +31,7 @@ def _chow_test(y: np.ndarray, bp: int) -> tuple:
     X = sm.add_constant(t)
     rss_full = sm.OLS(y, X).fit().ssr
 
-    if bp < 3 or (n - bp) < 3:
+    if bp < 6 or (n - bp) < 6:
         return 0.0, 1.0
 
     rss_before = sm.OLS(y[:bp], sm.add_constant(t[:bp])).fit().ssr
@@ -50,7 +50,7 @@ def _chow_test(y: np.ndarray, bp: int) -> tuple:
 def _detect_breaks(y: np.ndarray, months: list, alpha: float = 0.05) -> set:
     """Return set of Timestamps where a Chow structural break is detected."""
     breaks = set()
-    for bp in range(4, len(y) - 4):
+    for bp in range(6, len(y) - 6):
         _, p = _chow_test(y, bp)
         if p < alpha:
             breaks.add(months[bp])
