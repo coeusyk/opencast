@@ -277,20 +277,21 @@ Dutch Defense, English Opening.
 - [x] Create `data/raw/`, `data/processed/`, `data/output/` directories
 
 ### Phase 2 — Rust Fetcher (Day 2–3)
-- [ ] Write `models.rs`: serde structs matching Lichess Explorer API response
-- [ ] Write `client.rs`: async GET with query params + 1s rate limit sleep
-- [ ] Write `main.rs`: loop openings × months, write JSON to `data/raw/`
-- [ ] Test against one opening (Sicilian, B20) before full batch run
+- [x] Write `models.rs`: serde structs matching Lichess Explorer API response
+- [x] Write `client.rs`: async GET with query params + 1s rate limit sleep
+- [x] Write `main.rs`: loop openings × months, write JSON to `data/raw/`
+- [x] Test against one opening (Sicilian, B20) before full batch run
+- [x] Full batch run: 20 openings × 39 months (2023-01 → 2026-03) = 780 JSON files
 
 ### Phase 3 — Ingestion (Day 4)
-- [ ] Write `ingest.py`: JSON → `openings_ts.csv` with schema above
-- [ ] Filter low-confidence months (`total < 500`)
-- [ ] Sanity-check: plot raw win rate for 3 openings, verify values in 0.45–0.60 range
+- [x] Write `ingest.py`: JSON → `openings_ts.csv` with schema above
+- [x] Filter low-confidence months (`total < 500`)
+- [x] Sanity-check: win rates confirmed in 0.46–0.51 range across all 20 openings
 
 ### Phase 4 — ARIMA (Day 5–6)
-- [ ] Write `timeseries.py`: ADF → auto_arima → forecast → break detection
-- [ ] Validate residuals with Ljung-Box test for each fitted model
-- [ ] Write `forecasts.csv`
+- [x] Write `timeseries.py`: ADF → auto_arima → forecast → break detection
+- [x] Validate residuals with Ljung-Box test for each fitted model (all 20 pass)
+- [x] Write `forecasts.csv` (840 rows: 780 actual + 60 forecast)
 
 ### Phase 5 — Engine Delta (Day 7)
 - [ ] Install Stockfish binary locally, configure path
