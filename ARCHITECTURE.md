@@ -294,9 +294,10 @@ Dutch Defense, English Opening.
 - [x] Write `forecasts.csv` (840 rows: 780 actual + 60 forecast)
 
 ### Phase 5 — Engine Delta (Day 7)
-- [ ] Install Stockfish binary locally, configure path
-- [ ] Write `engine_delta.py`: evaluate each FEN at depth 20
-- [ ] Compute sigmoid probability and delta, write `engine_delta.csv`
+- [x] Install Stockfish 16 binary (`/usr/games/stockfish`), configure path
+- [x] Write `engine_delta.py`: replay UCI moves via python-chess → get FEN → Stockfish depth-20 eval
+- [x] Compute sigmoid probability and delta, write `engine_delta.csv` (20 rows)
+- **Results:** 8 openings engine-favoured (delta < −0.04) — D70 Grünfeld (−0.0644), B01 Scandinavian (−0.0581), B07 Pirc (−0.0558), B06 Modern (−0.0526), E60 King's Indian (−0.0501), C20 King's Gambit (−0.0465), C00 French (−0.0423), B20 Sicilian (−0.0447). No opening shows humans outperforming engine at 2000-rated blitz.
 
 ### Phase 6 — Visualization (Day 8)
 - [ ] Write `visualizer.py`: 3-panel Plotly dashboard as `dashboard.html`
