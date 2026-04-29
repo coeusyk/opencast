@@ -1,0 +1,142 @@
+name: Monthly data update
+
+on:
+  schedule:
+    # 03:00 UTC on the 1st of every month
+    - cron: "0 3 1 * *"
+  workflow_dispatch:   # allow manual trigger
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ── Rust toolchain & fetcher ──────────────────────────────────────────
+      - name: Install Rust stable
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cache Cargo registry
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            fetcher/target
+          key: ${{ runner.os }}-cargo-${{ hashFiles('fetcher/Cargo.lock') }}
+          restore-keys: ${{ runner.os }}-cargo-
+
+      - name: Build Rust fetcher
+        run: cargo build --release
+        working-directory: fetcher
+
+      # ── Python environment ────────────────────────────────────────────────
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install uv
+        run: pip install uv
+
+      - name: Install Python dependencies
+        run: uv pip install --system -r requirements.txt
+
+      # ── Stockfish ────────────────────────────────────────────────────────
+      - name: Install Stockfish
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y stockfish
+
+      # ── Pipeline ─────────────────────────────────────────────────────────
+      - name: Fetch missing months (incremental)
+        env:
+          LICHESS_TOKEN: ${{ secrets.LICHESS_TOKEN }}
+        run: |
+          python - <<'EOF'
+          import json, subprocess, os
+          from pathlib import Path
+          from datetime import date
+
+          with open("openings.json") as f:
+              openings = json.load(f)
+          eco_codes = [o["eco"] for o in openings]
+
+          raw_dir = Path("data/raw")
+          raw_dir.mkdir(parents=True, exist_ok=True)
+          existing = {p.stem for p in raw_dir.glob("*.json")}
+
+          today = date.today()
+          # Fetch the *previous* month (now complete) rather than the current
+          # month which is still in progress and would snapshot incomplete data.
+          if today.month == 1:
+              prev_year, prev_month = today.year - 1, 12
+          else:
+              prev_year, prev_month = today.year, today.month - 1
+          month = f"{prev_year:04d}-{prev_month:02d}"
+          if any(f"{eco}_{month}" not in existing for eco in eco_codes):
+              print(f"Fetching month {month}…")
+              env = os.environ.copy()
+              subprocess.run(
+                  ["target/release/fetcher", "--from", month, "--to", month],
+                  env=env,
+                  check=True,
+                  cwd="fetcher",
+              )
+          else:
+              print("Nothing to fetch.")
+          EOF
+
+      - name: Run ingest → timeseries → engine delta → visualizer
+        run: |
+          # Remove cached CSVs so the pipeline regenerates them
+          rm -f data/processed/openings_ts.csv \
+                data/output/forecasts.csv \
+                data/output/engine_delta.csv \
+                data/output/dashboard.html
+          python main.py
+
+      - name: Generate FINDINGS.md
+        run: python -c "from src.report import generate_report; generate_report()"
+
+      # ── Commit updated outputs ────────────────────────────────────────────
+      - name: Commit & push results
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add FINDINGS.md data/output/dashboard.html \
+                  data/output/forecasts.csv data/output/engine_delta.csv \
+                  data/processed/openings_ts.csv
+          git diff --cached --quiet || git commit -m "chore: auto-update $(date +%Y-%m)"
+          git push
+
+  # ── Deploy dashboard to GitHub Pages ─────────────────────────────────────
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - name: Add index.html redirect for GitHub Pages
+        run: |
+          cp data/output/dashboard.html data/output/index.html
+
+      - name: Upload dashboard as Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: data/output/
+
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
