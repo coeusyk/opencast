@@ -1,7 +1,7 @@
 import json
 import os
 import subprocess
-from datetime import date, datetime
+from datetime import date
 from pathlib import Path
 
 STAGES = {
@@ -66,12 +66,13 @@ def main():
         if missing:
             first, last = missing[0], missing[-1]
             print(f"--- Stage: fetch ({len(missing)} months missing, {first}–{last}) ---")
-            fetcher_bin = Path("fetcher/target/debug/fetcher")
+            fetcher_bin = Path("target/debug/fetcher")
             if not fetcher_bin.exists():
                 print("Building fetcher…")
                 subprocess.run(["cargo", "build"], cwd="fetcher", check=True)
             subprocess.run(
                 [str(fetcher_bin), "--from", first, "--to", last],
+                cwd="fetcher",
                 check=True,
             )
         else:

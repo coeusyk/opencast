@@ -19,11 +19,16 @@ def _fmt_table(df: pd.DataFrame, columns: list[str], headers: list[str]) -> str:
 
 
 def generate_report() -> None:
-    forecasts = pd.read_csv(FORECASTS_CSV)
+    forecasts = pd.read_csv(
+        FORECASTS_CSV,
+        converters={
+            "structural_break": lambda value: str(value).strip().lower() == "true"
+        },
+    )
     delta     = pd.read_csv(ENGINE_CSV)
 
     # ── Structural breaks ───────────────────────────────────────────────────
-    breaks = forecasts[forecasts["structural_break"] == True]
+    breaks = forecasts[forecasts["structural_break"]]
     break_counts = (
         breaks.groupby("eco")["month"]
         .count()
