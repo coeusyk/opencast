@@ -10,12 +10,14 @@ STAGES = {
     "ts"     : True,
     "engine" : True,
     "viz"    : True,
+    "report" : True,
 }
 
 PROCESSED_CSV  = "data/processed/openings_ts.csv"
 FORECASTS_CSV  = "data/output/forecasts.csv"
 ENGINE_CSV     = "data/output/engine_delta.csv"
 DASHBOARD_HTML = "data/output/dashboard.html"
+FINDINGS_MD    = "FINDINGS.md"
 
 FETCH_START    = "2023-01"
 OPENINGS_JSON  = "openings.json"
@@ -96,6 +98,11 @@ def main():
         print("--- Stage: visualizer ---")
         from src.visualizer import run_visualizer
         run_visualizer()
+
+    if STAGES["report"] and os.path.exists(FORECASTS_CSV) and os.path.exists(ENGINE_CSV):
+        print("--- Stage: report ---")
+        from src.report import run_report
+        run_report()
 
 
 if __name__ == "__main__":
