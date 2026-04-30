@@ -128,6 +128,14 @@ jobs:
       - name: Generate FINDINGS.md
         run: python -c "from src.report import generate_report; generate_report()"
 
+      - name: Add index.html for GitHub Pages
+        run: cp data/output/dashboard.html data/output/index.html
+
+      - name: Upload dashboard as Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: data/output/
+
       # ── Commit updated outputs ────────────────────────────────────────────
       - name: Commit & push results
         run: |
@@ -151,11 +159,6 @@ jobs:
       url: ${{ steps.deploy.outputs.page_url }}
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          ref: ${{ github.ref }}
-
       - name: Check if GitHub Pages is enabled
         id: pages
         env:
@@ -177,17 +180,6 @@ jobs:
       - name: Configure GitHub Pages
         if: steps.pages.outputs.enabled == 'true'
         uses: actions/configure-pages@v5
-
-      - name: Add index.html redirect for GitHub Pages
-        if: steps.pages.outputs.enabled == 'true'
-        run: |
-          cp data/output/dashboard.html data/output/index.html
-
-      - name: Upload dashboard as Pages artifact
-        if: steps.pages.outputs.enabled == 'true'
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: data/output/
 
       - name: Deploy to GitHub Pages
         if: steps.pages.outputs.enabled == 'true'
