@@ -1,6 +1,6 @@
 # OpenCast Findings
 
-*Last updated: 2026-04-30 06:15 UTC*
+*Last updated: 2026-04-30 07:22 UTC*
 
 ---
 
@@ -14,64 +14,64 @@ Across the 20 tracked openings, **Queen's Gambit (D06)** shows the largest posit
 
 ### D06 — Queen's Gambit
 
-The +0.0303 engine-human delta suggests that 2000-rated blitz players slightly outperform engines in the Queen's Gambit opening, but only marginally, implying that they are able to capitalize on nuances in the position that engines miss. The stable ARIMA win-rate trend indicates that this overperformance is consistent across games, suggesting that human players have developed a reliable approach to handling the Queen's Gambit that engine analysis has not yet fully grasped.
+The Queen's Gambit (D06) opening shows a consistent +0.0303 engine-human delta, indicating that 2000-rated blitz players are slightly outperforming engine expectations, suggesting a nuanced understanding of the complex strategic nuances involved. The stable ARIMA win-rate trend further supports this interpretation, implying that the deviation from engine expectation is not a fleeting anomaly, but rather a stable pattern of play.
 ### C60 — Ruy Lopez
 
-The Ruy Lopez opening (C60) is handled similarly to engine expectations by 2000-rated blitz players, with a +0.0190 engine-human delta indicating no significant deviation from optimal play. The rising ARIMA win-rate trend suggests that human players are improving their performance against the Ruy Lopez, potentially due to increased familiarity and adaptation to engine-like strategies.
+The Ruy Lopez opening (C60) shows a consistent engine-human delta of +0.0190, suggesting that 2000-rated blitz players on average outperform engine expectations by 1.9% when playing this opening. The rising ARIMA win-rate trend indicates that as the game progresses, the human players' advantage over engine expectations continues to increase, implying that they are successfully navigating the complex strategies of the Ruy Lopez.
 ### A10 — English Opening
 
-The English Opening (A10) is handled by 2000-rated blitz players in a manner that is negligibly better than what engines evaluate, with a delta of +0.0171, indicating that humans slightly outperform engines in this opening. The stable ARIMA win-rate trend suggests that this outperformance is consistent and not due to a one-time anomaly, implying that humans may have a subtle edge in this opening that engines are not fully capturing.
+The +0.0171 engine-human delta suggests that 2000-rated blitz players are playing the English Opening (A10) at a slightly above-average level, exceeding engine expectations by a small margin. The stable ARIMA win-rate trend indicates that this performance is consistent over time, with no significant deviations from the expected trend, implying that players are adapting well to engine-generated responses.
 ### A45 — Trompowsky Attack
 
-The data suggests that 2000-rated blitz players perform slightly worse than expected when employing the Trompowsky Attack, as evidenced by the -0.0014 engine-human delta, indicating a marginal disadvantage. The falling ARIMA win-rate trend further implies that players' results have been trending downward over time, suggesting that the opening may be more vulnerable than anticipated at the 2000-rated level.
+The Trompowsky Attack has a consistent deviation of -0.0014 from engine evaluation, indicating that human players at the 2000-rated level are slightly underestimating the strength of this opening. The falling ARIMA win-rate trend suggests that human players are gradually adapting to the attack, but still struggle to meet engine expectations, implying a tactical edge that engines can exploit.
 ### C50 — Italian Game
 
-The Italian Game (C50) shows a slight deviation from engine expectations, with 2000-rated blitz players performing -0.0033 delta, indicating that engines are slightly more favorable to this opening. The stable ARIMA win-rate trend suggests that this deviation is consistent and not a short-term anomaly, implying that human players are effectively countering engine play in the Italian Game.
+The Italian Game's -0.0033 engine-human delta indicates that, on average, 2000-rated blitz players slightly outperform engines in this opening, suggesting a nuanced understanding of its strategic nuances. The stable ARIMA win-rate trend implies that this disparity is consistent, implying that human players have developed a reliable edge in navigating the Italian Game, but one that remains within a narrow margin of engine performance.
 ### D00 — London System
 
-The London System (D00) reveals a slight, but consistent, underperformance by 2000-rated blitz players compared to engine expectations, as evidenced by the -0.0062 engine-human delta. The falling ARIMA win-rate trend suggests that this underperformance is a persistent trend, with players struggling to capitalize on the opening's theoretical advantages against engines.
+The London System opening exhibits a slight underperformance among 2000-rated blitz players, with a consistent -0.0062 engine-human delta indicating a gap between their evaluation and engine expectations. The falling ARIMA win-rate trend suggests that this underperformance is not a one-off, but rather a persistent issue, implying that blitz players may struggle to adapt to the complex strategic nuances of the London System.
 ### D30 — Queen's Gambit Declined
 
-The Queen's Gambit Declined (D30) opening results in a consistent engine-human delta of -0.0107, indicating that 2000-rated blitz players generally adhere to engine-suggested moves and avoid deviating from the optimal path. The stable ARIMA win-rate trend suggests that this adherence to engine-suggested moves is a successful strategy for these players, as their win rates remain steady against the Queen's Gambit Declined.
+The Queen's Gambit Declined (D30) opening exhibits a relatively small engine-human delta of -0.0107, suggesting that 2000-rated blitz players perform close to engine expectations when playing this line. The stable ARIMA win-rate trend indicates that these players maintain a consistent level of performance against the Queen's Gambit Declined, implying that they have a well-understood approach to the opening.
 ### C44 — King's Pawn Game
 
-The King's Pawn Game (C44) shows a slight engine disadvantage for 2000-rated blitz players, with a delta of -0.0227, indicating that engines are favored over humans in this opening. However, the stable ARIMA win-rate trend suggests that human performance is consistently outperforming engine expectations, indicating a potential edge for human players in this opening at the 2000 rating level.
+The King's Pawn Game (C44) opening sees human players, specifically 2000-rated blitz players, underperform relative to engine expectations, with a delta of -0.0227, indicating a slight disadvantage. The stable ARIMA win-rate trend suggests that this underperformance is consistent and not indicative of a short-term anomaly, implying a persistent gap in human and engine performance in this opening.
 ### C41 — Philidor Defense
 
-The Philidor Defense (C41) shows a consistent engine-human delta of -0.0252, indicating that 2000-rated blitz players slightly underperform against engine expectations, suggesting a potential for improvement in their understanding of the opening. The stable ARIMA win-rate trend further implies that players' results against the Philidor Defense have been steady over time, with no significant deviations from the expected level of performance.
+The Philidor Defense (C41) is a complex opening where 2000-rated blitz players perform slightly below engine expectations, with a delta of -0.0252, indicating a 2.52% deviation from optimal play. The stable win-rate trend suggests that this deficit is not due to a gradual improvement or decline in play, but rather a consistent underperformance relative to engine evaluations.
 ### E20 — Nimzo-Indian Defense
 
-The Nimzo-Indian Defense (E20) has an engine-human delta of -0.0281, indicating that 2000-rated blitz players slightly underperform compared to engine expectation, but the gap is consistent with engine evaluation. The falling ARIMA win-rate trend suggests that as the opening progresses, human players' performance advantage over engines tends to diminish, contradicting the initial slight underperformance.
+The Nimzo-Indian Defense (E20) appears to be a challenging opening for 2000-rated blitz players, as their engine-human delta of -0.0281 indicates a slight disadvantage compared to engine evaluation. The falling ARIMA win-rate trend further suggests that these players are unable to improve their performance over time, implying a persistent gap in skills or understanding of the opening.
 ### A00 — Polish Opening
 
-The Polish Opening (A00) presents a slight disadvantage to 2000-rated blitz players, as indicated by a delta of -0.0281, suggesting their play deviates from engine evaluation expectations. The falling ARIMA win-rate trend suggests that, despite their consistent deviation from engine play, human performance does not improve over time, implying a persistent difficulty in handling this opening.
+The Polish Opening (A00) has a consistent engine-human delta of -0.0281, indicating that 2000-rated blitz players tend to play suboptimally compared to engines, which suggests a lack of understanding or overestimation of the opening's strengths. The falling ARIMA win-rate trend suggests that even as players attempt to improve their response to the Polish Opening, their results continue to deteriorate relative to engine expectations, indicating a persistent weakness.
 ### B12 — Caro-Kann Defense
 
-The Caro-Kann Defense (B12) exhibits a moderate engine-human delta of -0.0388, indicating that 2000-rated blitz players slightly underperform compared to engine expectations. The stable ARIMA win-rate trend suggests that this underperformance is consistent and not a result of a fluctuating trend, implying a persistent gap in playing strength between human and engine play in this opening.
+The Caro-Kann Defense is consistently evaluated as -0.0388 by engines, indicating that it's slightly weaker than the engine's best response, which is consistent with human performance. The stable ARIMA win-rate trend suggests that 2000-rated blitz players don't achieve significant gains or losses in the long run when playing the Caro-Kann, implying that engine expectations are well-represented in human performance statistics.
 ### C00 — French Defense
 
-The French Defense (C00) is a heavily theory-driven opening where human players, particularly those rated 2000 in blitz games, underperform compared to engine recommendations, with a delta of -0.0423 indicating a significant gap. Notably, the ARIMA win-rate trend is stable, suggesting that human players' performance in the French Defense is consistent in terms of results, but consistently lags behind engine expectations.
+The French Defense is a frequently misplayed or theory-heavy opening, as evidenced by the -0.0423 engine-human delta, indicating that 2000-rated blitz players often fall short of optimal play. Despite this, the stable ARIMA win-rate trend suggests that the French Defense remains a viable choice, as the lack of significant improvement or decline in performance over time implies that players are able to adapt and neutralize engine advantages.
 ### B20 — Sicilian Defense
 
-The Sicilian Defense (B20) is a theory-heavy opening that 2000-rated blitz players often misplay, favoring engine strategies by a margin of -0.0447. Despite this, the win-rate trend for this opening is stable, suggesting that players' mistakes are consistently countered by their opponents' predictable responses.
+The Sicilian Defense (B20) exhibits an engine-human delta of -0.0447, indicating that engine play consistently outperforms human play, suggesting that players often fail to navigate the opening's complexities effectively. The stable ARIMA win-rate trend further suggests that while human players may struggle to master the Sicilian, their overall performance remains steady, indicating a degree of familiarity with the opening's key concepts.
 ### C20 — King's Gambit
 
-The King's Gambit opening shows a significant engine-human delta of -0.0465, indicating that 2000-rated blitz players frequently struggle to execute this opening, often deviating from optimal lines. Meanwhile, the rising ARIMA win-rate trend suggests that while humans may not be able to fully match engine play, their understanding and execution of the King's Gambit is gradually improving.
+The King's Gambit (C20) appears to be a theoretically sound opening, favored by engines, but 2000-rated blitz players frequently mishandle it, resulting in a -0.0465 engine-human delta. The rising ARIMA win-rate trend suggests that even with the engine's advantage, players are slowly improving their understanding and play, potentially indicating that the gap between engine and human performance is narrowing.
 ### E60 — King's Indian Defense
 
-The King's Indian Defense (E60) appears to be a misplayed or theory-heavy opening for 2000-rated blitz players, as indicated by the engine-human delta of -0.0501, suggesting a systematic disadvantage. The stable ARIMA win-rate trend suggests that this disadvantage is consistent and not just a short-term anomaly, implying that the opening remains challenging for human players to navigate effectively.
+The King's Indian Defense (E60) is a complex and theory-heavy opening that tends to favor engines, as evidenced by the -0.0501 engine-human delta, indicating that humans frequently fall short of optimal play. Despite this, the stable ARIMA win-rate trend suggests that 2000-rated blitz players are able to adapt and achieve a consistent level of performance against engines, possibly due to their familiarity with the opening's strategic nuances.
 ### B06 — Modern Defense
 
-The Modern Defense (B06) is an engine-favoured opening, with a delta of -0.0526 indicating that human players, particularly those at the 2000 rating level, frequently make mistakes or fall behind in theoretical understanding, leading to a loss. Despite this, the ARIMA win-rate trend remains stable, suggesting that the opening's unpredictable nature may counterbalance the engine's advantage, making it a viable choice for players who can adapt to the dynamic position.
+The Modern Defense (B06) exhibits a statistically significant disadvantage for 2000-rated blitz players, as indicated by a delta of -0.0526, suggesting they frequently fall behind engines. Despite this, the ARIMA win-rate trend is stable, implying that while engines have a clear advantage, the results do not exhibit any significant deviation or improvement for human players.
 ### B07 — Pirc Defense
 
-The Pirc Defense (B07) is a theory-heavy opening that is frequently misplayed by 2000-rated blitz players, resulting in a -0.0558 engine-human delta, indicating a significant disadvantage when facing engine play. The falling ARIMA win-rate trend suggests that the delta is not an isolated issue, but rather a systemic problem, implying that players struggle to effectively play this opening against engines consistently.
+The Pirc Defense (B07) is a frequently misplayed opening for 2000-rated blitz players, with engines consistently favouring it by an average of 0.0558 points, indicating a significant discrepancy in human and engine play. The falling ARIMA win-rate trend suggests that players' mistakes in this opening are becoming more consistent over time, further highlighting the need for humans to improve their understanding of this complex and theory-heavy variation.
 ### B01 — Scandinavian Defense
 
-The Scandinavian Defense shows a consistently stable win-rate trend among 2000-rated blitz players, indicating that while engines favor this opening, human players are able to adapt and perform at a similar level. The engine-human delta of -0.0581 suggests that humans are frequently overestimating the risks of this opening, allowing engines to gain an edge due to theory-heavy play.
+The Scandinavian Defense (B01) is a theory-heavy opening where 2000-rated blitz players frequently struggle, with engines consistently outperforming them by an average of 0.0581 points. The stable ARIMA win-rate trend suggests that engines have maintained a consistent advantage over human players in this opening, indicating that the delta is not a result of a short-term anomaly but a long-term trend.
 ### D70 — Grunfeld Defense
 
-The Grunfeld Defense (D70) reveals a significant engine-human delta, indicating that 2000-rated blitz players tend to favor strategies that engines deem inferior, often resulting in a 6.44% disadvantage. Furthermore, the falling ARIMA win-rate trend suggests that despite efforts to improve, human players continue to struggle with the Grunfeld, failing to capitalize on engine-disfavored strategies effectively.
+The Grunfeld Defense appears to be a challenging opening for 2000-rated blitz players, as they consistently underperform engine expectations, with a delta of -0.0644 indicating a 6.44% discrepancy in favor of the engine. Furthermore, the falling ARIMA win-rate trend suggests that even as players become more familiar with the opening, they are still struggling to close the gap with engine play.
 
 ---
 
