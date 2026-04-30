@@ -55,7 +55,7 @@ python main.py
 
 > **Stockfish 16** must be installed separately: `sudo apt install stockfish`
 
-> **Ollama** (optional, for LLM-generated findings): install from [ollama.com](https://ollama.com) and run `ollama pull qwen3.5:9b`. If unavailable, `report.py` falls back to templated text.
+> **Ollama** (optional, for LLM-generated findings): install from [ollama.com](https://ollama.com) and run `ollama pull llama3.1:latest`. If unavailable, `report.py` falls back to templated text.
 
 ---
 
@@ -84,7 +84,7 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for full module specifications, data sche
 - **Python** ≥ 3.11 — for analytics pipeline  
 - **Stockfish 16** — `sudo apt install stockfish` (or set `STOCKFISH_PATH`)  
 - **Lichess OAuth token** — free at https://lichess.org/account/oauth/token  
-- **Ollama** (optional) — `ollama pull qwen3.5:9b` for LLM-generated findings
+- **Ollama** (optional) — `ollama pull llama3.1:latest` for LLM-generated findings
 
 ```bash
 pip install -r requirements.txt
