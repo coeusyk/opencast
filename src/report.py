@@ -91,18 +91,20 @@ def _forecast_directions(forecasts: pd.DataFrame) -> dict[str, str]:
 
 def _steepest_trend(forecasts: pd.DataFrame) -> tuple[str, str, float]:
     """Return (eco, name, slope) for the opening with the steepest forecast trend."""
-    best_eco, best_name, best_slope = "", "", 0.0
+    best_eco: str = ""
+    best_name: str = ""
+    best_slope: float = 0.0
     for eco, grp in forecasts.groupby("eco"):
         grp = grp.sort_values("month")
         actual_rows   = grp[~grp["is_forecast"]]
         forecast_rows = grp[grp["is_forecast"]]
         if actual_rows.empty or forecast_rows.empty:
             continue
-        slope = forecast_rows["forecast"].iloc[-1] - actual_rows["actual"].iloc[-1]
+        slope = float(forecast_rows["forecast"].iloc[-1] - actual_rows["actual"].iloc[-1])
         if abs(slope) > abs(best_slope):
             best_slope = slope
-            best_eco   = eco
-            best_name  = grp["opening_name"].iloc[0]
+            best_eco   = str(eco)
+            best_name  = str(grp["opening_name"].iloc[0])
     return best_eco, best_name, best_slope
 
 
