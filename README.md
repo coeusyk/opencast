@@ -48,7 +48,7 @@ python main.py
 
 > **Stockfish 16** must be installed separately: `sudo apt install stockfish`
 
-> **Ollama** (optional, for LLM-generated findings): install from [ollama.com](https://ollama.com) and run `ollama pull qwen3:0.6b`. If unavailable, `report.py` falls back to templated text.
+> **Ollama** (optional, for LLM-generated findings): install from [ollama.com](https://ollama.com) and run `ollama pull qwen3.5:9b`. If unavailable, `report.py` falls back to templated text.
 
 ---
 
