@@ -143,6 +143,9 @@ jobs:
   deploy:
     needs: update
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
 
     steps:
       - name: Checkout repository
@@ -150,15 +153,40 @@ jobs:
         with:
           ref: ${{ github.ref }}
 
+      - name: Check if GitHub Pages is enabled
+        id: pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          status_code=$(curl -s -o /dev/null -w "%{http_code}" \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/pages")
+
+          if [ "$status_code" = "200" ]; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+            echo "GitHub Pages is enabled."
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::GitHub Pages is not enabled for ${{ github.repository }}. Enable it in Settings > Pages > Source: GitHub Actions."
+          fi
+
+      - name: Configure GitHub Pages
+        if: steps.pages.outputs.enabled == 'true'
+        uses: actions/configure-pages@v5
+
       - name: Add index.html redirect for GitHub Pages
+        if: steps.pages.outputs.enabled == 'true'
         run: |
           cp data/output/dashboard.html data/output/index.html
 
       - name: Upload dashboard as Pages artifact
+        if: steps.pages.outputs.enabled == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: data/output/
 
       - name: Deploy to GitHub Pages
+        if: steps.pages.outputs.enabled == 'true'
         id: deploy
         uses: actions/deploy-pages@v4
