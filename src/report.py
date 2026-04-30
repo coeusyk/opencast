@@ -111,7 +111,13 @@ def _steepest_trend(forecasts: pd.DataFrame) -> tuple[str, str, float]:
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def run_report() -> None:
-    forecasts = pd.read_csv(FORECASTS_CSV)
+    forecasts = pd.read_csv(
+        FORECASTS_CSV,
+        converters={
+            "structural_break": lambda value: str(value).strip().lower() == "true",
+            "is_forecast": lambda v: str(v).strip().lower() == "true",
+        },
+    )
     delta_df  = pd.read_csv(ENGINE_CSV)
 
     directions = _forecast_directions(forecasts)

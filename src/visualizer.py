@@ -70,7 +70,7 @@ def _build_panel1(forecasts: pd.DataFrame, panel1_ecos: list) -> list:
             ))
 
         # Structural break annotations (vertical lines via shapes handled separately)
-        breaks = actual[actual["structural_break"] == True]["month"].tolist()
+        breaks = actual[actual["structural_break"]]["month"].tolist()
         for bm in breaks:
             traces.append(go.Scatter(
                 x=[bm, bm],
@@ -159,7 +159,13 @@ def _build_panel3(ts: pd.DataFrame) -> list:
 
 
 def run_visualizer() -> None:
-    forecasts = pd.read_csv(FORECASTS_CSV)
+    forecasts = pd.read_csv(
+        FORECASTS_CSV,
+        converters={
+            "is_forecast": lambda v: str(v).strip().lower() == "true",
+            "structural_break": lambda v: str(v).strip().lower() == "true",
+        },
+    )
     delta     = pd.read_csv(DELTA_CSV)
     ts        = pd.read_csv(TS_CSV)
 

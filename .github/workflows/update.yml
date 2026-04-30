@@ -74,15 +74,21 @@ jobs:
           existing = {p.stem for p in raw_dir.glob("*.json")}
 
           today = date.today()
-          # Only fetch the current month (previous months already present)
-          month = f"{today.year:04d}-{today.month:02d}"
+          # Fetch the *previous* month (now complete) rather than the current
+          # month which is still in progress and would snapshot incomplete data.
+          if today.month == 1:
+              prev_year, prev_month = today.year - 1, 12
+          else:
+              prev_year, prev_month = today.year, today.month - 1
+          month = f"{prev_year:04d}-{prev_month:02d}"
           if any(f"{eco}_{month}" not in existing for eco in eco_codes):
               print(f"Fetching month {month}…")
               env = os.environ.copy()
               subprocess.run(
-                  ["fetcher/target/release/fetcher", "--from", month, "--to", month],
+                  ["target/release/fetcher", "--from", month, "--to", month],
                   env=env,
                   check=True,
+                  cwd="fetcher",
               )
           else:
               print("Nothing to fetch.")
@@ -121,6 +127,10 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: ${{ github.ref }}
+
+      - name: Add index.html redirect for GitHub Pages
+        run: |
+          cp data/output/dashboard.html data/output/index.html
 
       - name: Upload dashboard as Pages artifact
         uses: actions/upload-pages-artifact@v3
