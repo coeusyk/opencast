@@ -77,7 +77,7 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for full module specifications, data sche
 - **Python** ≥ 3.11 — for analytics pipeline  
 - **Stockfish 16** — `sudo apt install stockfish` (or set `STOCKFISH_PATH`)  
 - **Lichess OAuth token** — free at https://lichess.org/account/oauth/token  
-- **Ollama** (optional) — `ollama pull qwen3:0.6b` for LLM-generated findings
+- **Ollama** (optional) — `ollama pull qwen3.5:9b` for LLM-generated findings
 
 ```bash
 pip install -r requirements.txt
