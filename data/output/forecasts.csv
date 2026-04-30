@@ -45,7 +45,7 @@ A10,English Opening,2023-01,0.4992596656997268,,,,False,False
 A10,English Opening,2023-02,0.5007322670810227,,,,False,False
 A10,English Opening,2023-03,0.504802966214039,,,,False,False
 A10,English Opening,2023-04,0.5027367055239159,,,,False,False
-A10,English Opening,2023-05,0.5003182891354623,,,,False,True
+A10,English Opening,2023-05,0.5003182891354623,,,,False,False
 A10,English Opening,2023-06,0.5027856480639096,,,,False,False
 A10,English Opening,2023-07,0.500529298477576,,,,False,False
 A10,English Opening,2023-08,0.5000467150804774,,,,False,False
@@ -410,8 +410,8 @@ C20,King's Gambit,2025-06,0.4824753099390628,,,,False,False
 C20,King's Gambit,2025-07,0.4775807918009753,,,,False,False
 C20,King's Gambit,2025-08,0.4811152570480929,,,,False,False
 C20,King's Gambit,2025-09,0.474769325857578,,,,False,False
-C20,King's Gambit,2025-10,0.4836599901034831,,,,False,True
-C20,King's Gambit,2025-11,0.4864841182913472,,,,False,True
+C20,King's Gambit,2025-10,0.4836599901034831,,,,False,False
+C20,King's Gambit,2025-11,0.4864841182913472,,,,False,False
 C20,King's Gambit,2025-12,0.4840906251301486,,,,False,False
 C20,King's Gambit,2026-01,0.4800193192079124,,,,False,False
 C20,King's Gambit,2026-02,0.4791465738279504,,,,False,False
@@ -494,8 +494,8 @@ C44,King's Pawn Game,2025-06,0.4978176466356763,,,,False,True
 C44,King's Pawn Game,2025-07,0.4979807118954597,,,,False,True
 C44,King's Pawn Game,2025-08,0.4968958236108667,,,,False,True
 C44,King's Pawn Game,2025-09,0.4959354040186122,,,,False,True
-C44,King's Pawn Game,2025-10,0.4959389888415246,,,,False,True
-C44,King's Pawn Game,2025-11,0.495500319486274,,,,False,True
+C44,King's Pawn Game,2025-10,0.4959389888415246,,,,False,False
+C44,King's Pawn Game,2025-11,0.495500319486274,,,,False,False
 C44,King's Pawn Game,2025-12,0.4952737561895779,,,,False,False
 C44,King's Pawn Game,2026-01,0.4934312046639601,,,,False,False
 C44,King's Pawn Game,2026-02,0.4953030514872942,,,,False,False
@@ -536,8 +536,8 @@ C50,Italian Game,2025-06,0.4875827814569536,,,,False,False
 C50,Italian Game,2025-07,0.489029880515928,,,,False,False
 C50,Italian Game,2025-08,0.4889749528054025,,,,False,False
 C50,Italian Game,2025-09,0.4883807940137186,,,,False,False
-C50,Italian Game,2025-10,0.4851082480531659,,,,False,True
-C50,Italian Game,2025-11,0.4849279433952448,,,,False,True
+C50,Italian Game,2025-10,0.4851082480531659,,,,False,False
+C50,Italian Game,2025-11,0.4849279433952448,,,,False,False
 C50,Italian Game,2025-12,0.4838898082351796,,,,False,False
 C50,Italian Game,2026-01,0.4797638024201229,,,,False,False
 C50,Italian Game,2026-02,0.4866567232675539,,,,False,False
@@ -621,7 +621,7 @@ D00,London System,2025-07,0.4887098648282272,,,,False,False
 D00,London System,2025-08,0.4905797378377345,,,,False,False
 D00,London System,2025-09,0.4867933946175284,,,,False,False
 D00,London System,2025-10,0.4901354120625226,,,,False,False
-D00,London System,2025-11,0.4839214690699839,,,,False,True
+D00,London System,2025-11,0.4839214690699839,,,,False,False
 D00,London System,2025-12,0.4865664383839203,,,,False,False
 D00,London System,2026-01,0.4931884663602173,,,,False,False
 D00,London System,2026-02,0.4879778191900368,,,,False,False
@@ -662,8 +662,8 @@ D06,Queen's Gambit,2025-06,0.5099013802265102,,,,False,False
 D06,Queen's Gambit,2025-07,0.5074228270250613,,,,False,False
 D06,Queen's Gambit,2025-08,0.5073015220074044,,,,False,False
 D06,Queen's Gambit,2025-09,0.5111554238833181,,,,False,True
-D06,Queen's Gambit,2025-10,0.5107636035074924,,,,False,True
-D06,Queen's Gambit,2025-11,0.5120363791388376,,,,False,True
+D06,Queen's Gambit,2025-10,0.5107636035074924,,,,False,False
+D06,Queen's Gambit,2025-11,0.5120363791388376,,,,False,False
 D06,Queen's Gambit,2025-12,0.5107057377579404,,,,False,False
 D06,Queen's Gambit,2026-01,0.5099153485548548,,,,False,False
 D06,Queen's Gambit,2026-02,0.5085109267727502,,,,False,False
@@ -752,9 +752,9 @@ D70,Grunfeld Defense,2025-12,0.4718450230472156,,,,False,False
 D70,Grunfeld Defense,2026-01,0.4738757473355862,,,,False,False
 D70,Grunfeld Defense,2026-02,0.4682454251883746,,,,False,False
 D70,Grunfeld Defense,2026-03,0.4737350728239111,,,,False,False
-D70,Grunfeld Defense,2026-04,,0.470109,0.459769,0.480449,True,False
-D70,Grunfeld Defense,2026-05,,0.47024,0.459899,0.480581,True,False
-D70,Grunfeld Defense,2026-06,,0.470373,0.460032,0.480715,True,False
+D70,Grunfeld Defense,2026-04,,0.470264,0.459833,0.480695,True,False
+D70,Grunfeld Defense,2026-05,,0.470364,0.459922,0.480806,True,False
+D70,Grunfeld Defense,2026-06,,0.470499,0.46005,0.480948,True,False
 E20,Nimzo-Indian Defense,2023-01,0.4785653650254668,,,,False,False
 E20,Nimzo-Indian Defense,2023-02,0.4806987497859222,,,,False,False
 E20,Nimzo-Indian Defense,2023-03,0.4788309030442568,,,,False,False
