@@ -33,14 +33,21 @@ See [FINDINGS.md](FINDINGS.md) — auto-generated monthly by the pipeline.
 git clone https://github.com/coeusyk/opencast.git
 cd opencast
 
+# Install Cargo/Rust toolchain if not already installed
+command -v cargo >/dev/null 2>&1 || sudo apt install -y cargo rustc
+
 # Lichess API token (free at https://lichess.org/account/oauth/token)
 export LICHESS_TOKEN=<your_token>
 
 # Build the Rust fetcher
 cd fetcher && cargo build --release && cd ..
 
-# Install Python dependencies
-pip install -r requirements.txt
+# Create and activate Python virtual environment with uv
+uv venv .venv
+source .venv/bin/activate
+
+# Install Python dependencies with uv
+uv pip install -r requirements.txt
 
 # Run the full pipeline
 python main.py
