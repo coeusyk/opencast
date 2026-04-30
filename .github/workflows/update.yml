@@ -65,6 +65,20 @@ jobs:
           from pathlib import Path
           from datetime import date
 
+          FETCH_START = "2023-01"
+
+          def month_range(start: str, end: str) -> list[str]:
+            sy, sm = map(int, start.split("-"))
+            ey, em = map(int, end.split("-"))
+            y, m = sy, sm
+            out = []
+            while (y, m) <= (ey, em):
+              out.append(f"{y:04d}-{m:02d}")
+              m += 1
+              if m > 12:
+                m, y = 1, y + 1
+            return out
+
           with open("openings.json") as f:
               openings = json.load(f)
           eco_codes = [o["eco"] for o in openings]
@@ -80,12 +94,20 @@ jobs:
               prev_year, prev_month = today.year - 1, 12
           else:
               prev_year, prev_month = today.year, today.month - 1
-          month = f"{prev_year:04d}-{prev_month:02d}"
-          if any(f"{eco}_{month}" not in existing for eco in eco_codes):
-              print(f"Fetching month {month}…")
+
+          latest_complete = f"{prev_year:04d}-{prev_month:02d}"
+          months = month_range(FETCH_START, latest_complete)
+          missing = [
+            month for month in months
+            if any(f"{eco}_{month}" not in existing for eco in eco_codes)
+          ]
+
+          if missing:
+            first, last = missing[0], missing[-1]
+            print(f"Fetching {len(missing)} missing month(s): {first}..{last}")
               env = os.environ.copy()
               subprocess.run(
-                  ["target/release/fetcher", "--from", month, "--to", month],
+              ["target/release/fetcher", "--from", first, "--to", last],
                   env=env,
                   check=True,
                   cwd="fetcher",

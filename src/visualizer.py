@@ -33,6 +33,8 @@ def _build_panel1(forecasts: pd.DataFrame, panel1_ecos: list) -> list:
     traces = []
     for i, eco in enumerate(panel1_ecos):
         df = forecasts[forecasts["eco"] == eco].sort_values("month")
+        if df.empty:
+            continue
         name = df["opening_name"].iloc[0]
         color = LINE_COLORS[i]
 
@@ -40,13 +42,14 @@ def _build_panel1(forecasts: pd.DataFrame, panel1_ecos: list) -> list:
         fcast  = df[df["is_forecast"]]
 
         # Actual line
-        traces.append(go.Scatter(
-            x=actual["month"], y=actual["actual"],
-            mode="lines", name=f"{eco} {name}",
-            line=dict(color=color, width=2),
-            legendgroup=eco, showlegend=True,
-            xaxis="x1", yaxis="y1",
-        ))
+        if not actual.empty:
+            traces.append(go.Scatter(
+                x=actual["month"], y=actual["actual"],
+                mode="lines", name=f"{eco} {name}",
+                line=dict(color=color, width=2),
+                legendgroup=eco, showlegend=True,
+                xaxis="x1", yaxis="y1",
+            ))
 
         if not fcast.empty:
             # Confidence ribbon
@@ -70,17 +73,18 @@ def _build_panel1(forecasts: pd.DataFrame, panel1_ecos: list) -> list:
             ))
 
         # Structural break annotations (vertical lines via shapes handled separately)
-        breaks = actual[actual["structural_break"]]["month"].tolist()
-        for bm in breaks:
-            traces.append(go.Scatter(
-                x=[bm, bm],
-                y=[actual["actual"].min() * 0.99, actual["actual"].max() * 1.01],
-                mode="lines",
-                line=dict(color=color, width=1, dash="dot"),
-                hovertemplate=f"{eco} structural break: {bm}<extra></extra>",
-                showlegend=False, legendgroup=eco,
-                xaxis="x1", yaxis="y1",
-            ))
+        if not actual.empty:
+            breaks = actual[actual["structural_break"]]["month"].tolist()
+            for bm in breaks:
+                traces.append(go.Scatter(
+                    x=[bm, bm],
+                    y=[actual["actual"].min() * 0.99, actual["actual"].max() * 1.01],
+                    mode="lines",
+                    line=dict(color=color, width=1, dash="dot"),
+                    hovertemplate=f"{eco} structural break: {bm}<extra></extra>",
+                    showlegend=False, legendgroup=eco,
+                    xaxis="x1", yaxis="y1",
+                ))
 
     return traces
 
@@ -159,13 +163,31 @@ def _build_panel3(ts: pd.DataFrame) -> list:
 
 
 def run_visualizer() -> None:
-    forecasts = pd.read_csv(
-        FORECASTS_CSV,
-        converters={
-            "is_forecast": lambda v: str(v).strip().lower() == "true",
-            "structural_break": lambda v: str(v).strip().lower() == "true",
-        },
-    )
+    forecast_columns = [
+        "eco",
+        "opening_name",
+        "month",
+        "actual",
+        "forecast",
+        "lower_ci",
+        "upper_ci",
+        "is_forecast",
+        "structural_break",
+    ]
+    try:
+        forecasts = pd.read_csv(
+            FORECASTS_CSV,
+            converters={
+                "is_forecast": lambda v: str(v).strip().lower() == "true",
+                "structural_break": lambda v: str(v).strip().lower() == "true",
+            },
+        )
+    except pd.errors.EmptyDataError:
+        forecasts = pd.DataFrame(columns=forecast_columns)
+
+    if forecasts.empty:
+        forecasts = pd.DataFrame(columns=forecast_columns)
+
     delta     = pd.read_csv(DELTA_CSV)
     ts        = pd.read_csv(TS_CSV)
 
