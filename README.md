@@ -76,6 +76,30 @@ python main.py
 
 See [ARCHITECTURE.md](ARCHITECTURE.md) for full module specifications, data schemas, and mathematical derivations.
 
+```mermaid
+flowchart LR
+  A[Lichess Opening Explorer API] --> B[Rust fetcher]
+  B --> C[data/raw/*.json]
+  C --> D[src/ingest.py]
+  D --> E[data/processed/openings_ts.csv]
+  E --> F[src/timeseries.py]
+  E --> G[src/engine_delta.py]
+  F --> H[data/output/forecasts.csv]
+  G --> I[data/output/engine_delta.csv]
+  H --> J[src/visualizer.py]
+  I --> J
+  J --> K[data/output/dashboard.html]
+  H --> L[src/report.py]
+  I --> L
+  L --> M[FINDINGS.md]
+  N[main.py orchestrator] --> B
+  N --> D
+  N --> F
+  N --> G
+  N --> J
+  N --> L
+```
+
 ---
 
 ## Requirements

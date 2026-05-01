@@ -2,8 +2,10 @@ name: Monthly data update
 
 on:
   schedule:
-    # 03:00 UTC on the 1st of every month
+    # Primary run: 03:00 UTC on the 1st of every month
     - cron: "0 3 1 * *"
+    # Fallback run: 03:30 UTC on the 1st to reduce missed-trigger risk
+    - cron: "30 3 1 * *"
   workflow_dispatch:   # allow manual trigger
 
 permissions:
