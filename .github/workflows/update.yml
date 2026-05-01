@@ -1,17 +1,13 @@
-name: Monthly data update
+name: Update Data
 
 on:
   schedule:
-    # Primary run: 03:00 UTC on the 1st of every month
-    - cron: "0 3 1 * *"
-    # Fallback run: 03:30 UTC on the 1st to reduce missed-trigger risk
-    - cron: "30 3 1 * *"
-  workflow_dispatch:   # allow manual trigger
+    - cron: '0 4 1 * *'   # 1st of every month, 4am UTC
+  workflow_dispatch:       # manual trigger
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
+  actions: write           # required to trigger report.yml
 
 jobs:
   update:
@@ -90,8 +86,6 @@ jobs:
           existing = {p.stem for p in raw_dir.glob("*.json")}
 
           today = date.today()
-          # Fetch the *previous* month (now complete) rather than the current
-          # month which is still in progress and would snapshot incomplete data.
           if today.month == 1:
               prev_year, prev_month = today.year - 1, 12
           else:
@@ -118,72 +112,36 @@ jobs:
               print("Nothing to fetch.")
           EOF
 
-      - name: Run ingest → timeseries → engine delta → visualizer
+      - name: Run ingest → timeseries → engine delta
         run: |
-          # Remove cached CSVs so the pipeline regenerates them
           rm -f data/processed/openings_ts.csv \
                 data/output/forecasts.csv \
-                data/output/engine_delta.csv \
-                data/output/dashboard.html
-          python main.py
+                data/output/engine_delta.csv
+          python -c "
+          from src.ingest import run_ingest
+          from src.timeseries import run_timeseries
+          from src.engine_delta import run_engine_delta
+          run_ingest()
+          run_timeseries()
+          run_engine_delta()
+          "
 
-      - name: Generate FINDINGS.md
-        run: python -c "from src.report import generate_report; generate_report()"
-
-      - name: Add index.html for GitHub Pages
-        run: cp data/output/dashboard.html data/output/index.html
-
-      - name: Upload dashboard as Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: data/output/
-
-      # ── Commit updated outputs ────────────────────────────────────────────
-      - name: Commit & push results
+      - name: Commit updated outputs
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add FINDINGS.md data/output/dashboard.html \
-                  data/output/forecasts.csv data/output/engine_delta.csv \
-                  data/processed/openings_ts.csv
+          git add data/output/forecasts.csv \
+                  data/output/engine_delta.csv \
+                  data/processed/openings_ts.csv \
+                  data/raw/
           git diff --cached --quiet || git commit -m "chore: auto-update $(date +%Y-%m)"
           git push
 
-  # ── Deploy dashboard to GitHub Pages ─────────────────────────────────────
-  deploy:
-    needs: update
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
-
-    steps:
-      - name: Check if GitHub Pages is enabled
-        id: pages
+      - name: Trigger report workflow
+        if: success()
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          status_code=$(curl -s -o /dev/null -w "%{http_code}" \
-            -H "Authorization: Bearer $GH_TOKEN" \
-            -H "Accept: application/vnd.github+json" \
-            "https://api.github.com/repos/${{ github.repository }}/pages")
-
-          if [ "$status_code" = "200" ]; then
-            echo "enabled=true" >> "$GITHUB_OUTPUT"
-            echo "GitHub Pages is enabled."
-          else
-            echo "enabled=false" >> "$GITHUB_OUTPUT"
-            echo "::warning::GitHub Pages is not enabled for ${{ github.repository }}. Enable it in Settings > Pages > Source: GitHub Actions."
-          fi
-
-      - name: Configure GitHub Pages
-        if: steps.pages.outputs.enabled == 'true'
-        uses: actions/configure-pages@v5
-
-      - name: Deploy to GitHub Pages
-        if: steps.pages.outputs.enabled == 'true'
-        id: deploy
-        uses: actions/deploy-pages@v5
+          gh workflow run report.yml \
+            --repo "${{ github.repository }}" \
+            --ref "${{ github.ref_name }}"

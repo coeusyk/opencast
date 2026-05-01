@@ -1,5 +1,6 @@
-"""Generate FINDINGS.md using Ollama LLM analysis with template fallback."""
+"""Generate findings/findings.md and findings/findings.json using Gemini API."""
 
+import json
 import logging
 import os
 from datetime import datetime
@@ -9,48 +10,39 @@ import pandas as pd
 _HERE = os.path.dirname(__file__)
 FORECASTS_CSV = os.path.join(_HERE, "..", "data", "output", "forecasts.csv")
 ENGINE_CSV    = os.path.join(_HERE, "..", "data", "output", "engine_delta.csv")
-OUTPUT_MD     = os.path.join(_HERE, "..", "FINDINGS.md")
+FINDINGS_DIR  = os.path.join(_HERE, "..", "findings")
+OUTPUT_MD     = os.path.join(FINDINGS_DIR, "findings.md")
+OUTPUT_JSON   = os.path.join(FINDINGS_DIR, "findings.json")
 
-OLLAMA_HOST  = "http://localhost:11434"
-OLLAMA_MODEL = "llama3.1:latest"
+GEMINI_MODEL = "gemini-2.5-flash"
 
 log = logging.getLogger(__name__)
 
 
-# ── Ollama helpers ────────────────────────────────────────────────────────────
+# ── Gemini helpers ────────────────────────────────────────────────────────────
 
-def _ollama_available() -> bool:
-    """Return True if Ollama is reachable at OLLAMA_HOST."""
+def _get_gemini_client():
+    """Return a configured Gemini GenerativeModel, or None if API key is missing."""
     try:
-        import ollama
-        ollama.Client(host=OLLAMA_HOST).list()
-        return True
+        from dotenv import load_dotenv
+        load_dotenv(os.path.join(_HERE, "..", ".env"))
+        load_dotenv()
     except Exception:
-        return False
+        # Optional dependency in runtime environments that inject env directly.
+        pass
 
-
-def _llm_finding(eco: str, name: str, delta: float, interpretation: str,
-                 trend: str, client) -> str:
-    """Ask Ollama for a 2-sentence analyst finding about this opening."""
-    prompt = (
-        f"You are a chess analytics assistant. Write exactly 2 sentences about the "
-        f"following opening based on the data provided. Be concise and analytical.\n\n"
-        f"Opening: {name} ({eco})\n"
-        f"Engine-human delta: {delta:+.4f} ({interpretation})\n"
-        f"ARIMA win-rate trend: {trend}\n\n"
-        f"Focus on what the delta and trend together reveal about how 2000-rated blitz "
-        f"players handle this opening versus engine expectation."
-    )
-    try:
-        import ollama
-        response = client.chat(
-            model=OLLAMA_MODEL,
-            messages=[{"role": "user", "content": prompt}],
+    api_key = os.environ.get("GEMINI_API_KEY", "").strip()
+    if not api_key:
+        log.warning(
+            "GEMINI_API_KEY is not set — skipping LLM analysis and using templated findings."
         )
-        return response.message.content.strip()
+        return None
+    try:
+        from google import genai
+        return genai.Client(api_key=api_key)
     except Exception as exc:
-        log.warning("Ollama call failed for %s: %s", eco, exc)
-        return _template_finding(eco, name, delta, interpretation, trend)
+        log.warning("Failed to initialise Gemini client: %s", exc)
+        return None
 
 
 def _template_finding(eco: str, name: str, delta: float, interpretation: str,
@@ -63,6 +55,94 @@ def _template_finding(eco: str, name: str, delta: float, interpretation: str,
         f"Stockfish's prediction by {abs(delta):.4f} — {interpretation}. "
         f"The ARIMA model projects a {trend} trend over the next three months."
     )
+
+
+# ── JSON schema validation ────────────────────────────────────────────────────
+
+_REQUIRED_KEYS = {"generated_at", "month", "headline", "panels", "full_report_md"}
+_REQUIRED_PANELS = {"forecast", "engine_delta", "heatmap"}
+
+
+def _validate_findings_json(data: dict) -> bool:
+    """Return True if *data* matches the required findings.json schema."""
+    if not isinstance(data, dict):
+        return False
+    if not _REQUIRED_KEYS.issubset(data.keys()):
+        log.warning("findings.json missing keys: %s", _REQUIRED_KEYS - data.keys())
+        return False
+    panels = data.get("panels", {})
+    if not isinstance(panels, dict) or not _REQUIRED_PANELS.issubset(panels.keys()):
+        log.warning("findings.json panels missing: %s", _REQUIRED_PANELS - panels.keys())
+        return False
+    for panel_name in _REQUIRED_PANELS:
+        if "insight" not in panels.get(panel_name, {}):
+            log.warning("findings.json panel '%s' missing 'insight'", panel_name)
+            return False
+    return True
+
+
+def _build_templated_findings_json(
+    *,
+    report_date: str,
+    report_month: str,
+    delta_df: pd.DataFrame,
+    directions: dict[str, str],
+    full_report_md: str,
+) -> dict:
+    """Build deterministic findings.json content when Gemini is unavailable."""
+    top_pos = delta_df.loc[delta_df["delta"].idxmax()]
+    top_neg = delta_df.loc[delta_df["delta"].idxmin()]
+
+    rising = [eco for eco, trend in directions.items() if trend == "rising"]
+    falling = [eco for eco, trend in directions.items() if trend == "falling"]
+
+    outliers = (
+        delta_df.iloc[delta_df["delta"].abs().sort_values(ascending=False).index]
+        .head(4)["eco"]
+        .astype(str)
+        .tolist()
+    )
+
+    highlight_ecos = []
+    highlight_ecos.extend(rising[:2])
+    highlight_ecos.extend(falling[:2])
+    if not highlight_ecos:
+        highlight_ecos = delta_df.head(2)["eco"].astype(str).tolist()
+
+    data = {
+        "generated_at": report_date,
+        "month": report_month,
+        "headline": (
+            f"{top_pos['opening_name']} ({top_pos['eco']}) shows the strongest positive human-vs-engine "
+            f"gap, while {top_neg['opening_name']} ({top_neg['eco']}) remains the largest negative outlier."
+        ),
+        "panels": {
+            "forecast": {
+                "insight": (
+                    f"Forecast directions suggest mixed momentum across openings, with {len(rising)} rising and "
+                    f"{len(falling)} falling trajectories in the next horizon. The strongest signals are best read "
+                    "alongside uncertainty bands to separate stable trends from short-term noise."
+                ),
+                "highlight_ecos": list(dict.fromkeys(highlight_ecos))[:4],
+            },
+            "engine_delta": {
+                "insight": (
+                    f"Engine-human deltas remain asymmetric: {top_pos['eco']} leads positive outperformance, "
+                    f"while {top_neg['eco']} underperforms most against engine expectation. These outliers "
+                    "flag openings where practical play diverges most from theoretical evaluation."
+                ),
+                "outliers": outliers,
+            },
+            "heatmap": {
+                "insight": (
+                    "Category-level heatmap patterns continue to show non-uniform performance over time, with "
+                    "month-to-month variation indicating shifting practical preferences across ECO families."
+                ),
+            },
+        },
+        "full_report_md": full_report_md,
+    }
+    return data
 
 
 # ── Forecast direction ────────────────────────────────────────────────────────
@@ -140,17 +220,6 @@ def run_report() -> None:
     )
 
     # ── Per-opening findings ─────────────────────────────────────────────────
-    use_llm = _ollama_available()
-    if use_llm:
-        import ollama
-        client = ollama.Client(host=OLLAMA_HOST)
-        log.info("Ollama reachable — generating LLM findings with %s", OLLAMA_MODEL)
-    else:
-        client = None
-        log.warning(
-            "Ollama not reachable at %s — falling back to templated findings", OLLAMA_HOST
-        )
-
     findings: list[str] = []
     for _, row in delta_df.sort_values("delta", ascending=False).iterrows():
         eco   = row["eco"]
@@ -158,16 +227,12 @@ def run_report() -> None:
         delta = float(row["delta"])
         interp = row["interpretation"]
         trend = directions.get(eco, "stable")
-
-        if use_llm and client is not None:
-            text = _llm_finding(eco, name, delta, interp, trend, client)
-        else:
-            text = _template_finding(eco, name, delta, interp, trend)
-
+        text = _template_finding(eco, name, delta, interp, trend)
         findings.append(f"### {eco} — {name}\n\n{text}")
 
-    # ── Write FINDINGS.md ────────────────────────────────────────────────────
+    # ── Build FINDINGS.md content ────────────────────────────────────────────
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M UTC")
+    report_month = datetime.now().strftime("%Y-%m")
     lines = [
         f"# OpenCast Findings",
         f"",
@@ -187,14 +252,147 @@ def run_report() -> None:
         f"",
         f"---",
         f"",
-        f"*Generated {'with Ollama (' + OLLAMA_MODEL + ')' if use_llm else 'using templated analysis (Ollama unavailable)'}.*",
+        f"*Generated using templated analysis (Gemini LLM call below).*",
     ]
+    md_content = "\n".join(lines) + "\n"
 
-    content = "\n".join(lines) + "\n"
-    os.makedirs(os.path.dirname(os.path.abspath(OUTPUT_MD)), exist_ok=True)
+    # ── Build data summaries for Gemini prompt ───────────────────────────────
+    top5_delta = delta_df.sort_values("delta", ascending=False).head(5)
+    bot5_delta = delta_df.sort_values("delta").head(5)
+    forecast_summary_rows = []
+    for eco, grp in forecasts.groupby("eco"):
+        actual_rows = grp[~grp["is_forecast"]]
+        fcast_rows = grp[grp["is_forecast"]]
+        if actual_rows.empty or fcast_rows.empty:
+            continue
+        last_actual = float(actual_rows["actual"].iloc[-1])
+        last_fcast = float(fcast_rows["forecast"].iloc[-1])
+        name = str(grp["opening_name"].iloc[0])
+        forecast_summary_rows.append({
+            "eco": eco, "name": name,
+            "last_actual": round(last_actual, 4),
+            "last_forecast": round(last_fcast, 4),
+            "direction": directions.get(str(eco), "stable"),
+        })
+
+    # ── Gemini structured JSON prompt ────────────────────────────────────────
+    today_str = datetime.now().strftime("%Y-%m-%d")
+    schema_example = {
+        "generated_at": today_str,
+        "month": report_month,
+        "headline": "<single most important finding, 1-2 sentences>",
+        "panels": {
+            "forecast": {
+                "insight": "<2-3 sentences directly about the win-rate forecast chart>",
+                "highlight_ecos": ["ECO1", "ECO2"],
+            },
+            "engine_delta": {
+                "insight": "<2-3 sentences directly about the engine-human delta chart>",
+                "outliers": ["ECO1", "ECO2", "ECO3"],
+            },
+            "heatmap": {
+                "insight": "<2-3 sentences directly about the ECO category heatmap>",
+            },
+        },
+        "full_report_md": "<full findings.md content as a single escaped string>",
+    }
+
+    gemini_prompt = f"""You are a chess analytics expert. Analyse the data below and return ONLY a single valid JSON object matching the exact schema provided. No markdown fences, no preamble, no explanation — just the raw JSON.
+
+Schema:
+{json.dumps(schema_example, indent=2)}
+
+Data:
+
+Top 5 positive engine-human delta (humans outperform Stockfish prediction):
+{top5_delta[['eco','opening_name','delta','interpretation']].to_string(index=False)}
+
+Top 5 negative delta (humans underperform):
+{bot5_delta[['eco','opening_name','delta','interpretation']].to_string(index=False)}
+
+ARIMA forecast summary (last actual vs last forecast win rate):
+{json.dumps(forecast_summary_rows, indent=2)}
+
+Summary paragraph:
+{summary}
+
+Per-opening analysis (templated):
+{chr(10).join(findings)}
+
+Full report (findings.md):
+{md_content}
+
+Instructions:
+- "generated_at" must be exactly "{today_str}"
+- "month" must be exactly "{report_month}"
+- "headline": the single most important finding from the data, 1-2 sentences
+- panels.forecast.insight: 2-3 sentences specifically about the win-rate forecast trends
+- panels.forecast.highlight_ecos: list of ECO codes worth highlighting in the forecast chart (2-4 codes)
+- panels.engine_delta.insight: 2-3 sentences specifically about the engine-human delta patterns
+- panels.engine_delta.outliers: list of ECO codes that are notable outliers (2-5 codes)
+- panels.heatmap.insight: 2-3 sentences specifically about category-level win-rate patterns across time
+- "full_report_md": the exact content of the findings.md above, as a JSON string (escape newlines as \\n)
+- Return ONLY the JSON object. No markdown, no explanation."""
+
+    gemini_client = _get_gemini_client()
+    findings_json_data: dict | None = None
+
+    if gemini_client is not None:
+        try:
+            from google.genai import types
+            response = gemini_client.models.generate_content(
+                model=GEMINI_MODEL,
+                contents=gemini_prompt,
+                config=types.GenerateContentConfig(
+                    response_mime_type="application/json",
+                ),
+            )
+            raw_text = response.text.strip()
+
+            # Strip markdown fences if the SDK didn't honour response_mime_type
+            if raw_text.startswith("```"):
+                raw_text = raw_text.split("\n", 1)[-1]
+                if raw_text.endswith("```"):
+                    raw_text = raw_text[: raw_text.rfind("```")]
+
+            parsed = json.loads(raw_text)
+
+            if _validate_findings_json(parsed):
+                findings_json_data = parsed
+                # Ensure full_report_md reflects the actual md_content
+                findings_json_data["full_report_md"] = md_content
+                log.info("Gemini returned valid findings.json structure.")
+            else:
+                log.warning("Gemini response failed schema validation — using templated findings.json.")
+
+        except Exception as exc:
+            log.warning("Gemini call failed: %s — using templated findings.json.", exc)
+
+    if findings_json_data is None:
+        findings_json_data = _build_templated_findings_json(
+            report_date=today_str,
+            report_month=report_month,
+            delta_df=delta_df,
+            directions=directions,
+            full_report_md=md_content,
+        )
+        if not _validate_findings_json(findings_json_data):
+            log.warning("Templated findings.json failed validation — skipping JSON write.")
+            findings_json_data = None
+
+    # ── Write findings.md ────────────────────────────────────────────────────
+    os.makedirs(FINDINGS_DIR, exist_ok=True)
     with open(OUTPUT_MD, "w") as f:
-        f.write(content)
-    print(f"FINDINGS.md written → {OUTPUT_MD}  ({'LLM' if use_llm else 'template'})")
+        f.write(md_content)
+    print(f"findings.md written → {OUTPUT_MD}")
+
+    # ── Write findings.json ──────────────────────────────────────────────────
+    if findings_json_data is not None:
+        with open(OUTPUT_JSON, "w") as f:
+            json.dump(findings_json_data, f, indent=2)
+        print(f"findings.json written → {OUTPUT_JSON}")
+    else:
+        log.info("findings.json not written (Gemini unavailable or validation failed).")
 
 
 # Keep the old name as an alias for backward compatibility
