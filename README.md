@@ -154,10 +154,6 @@ flowchart TB
 - **Lichess OAuth token** — free at https://lichess.org/account/oauth/token  
 - **Ollama** (optional) — `ollama pull llama3.1:latest` for LLM-generated findings
 
-```bash
-pip install -r requirements.txt
-```
-
 ---
 
 ## Repository Structure
