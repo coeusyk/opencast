@@ -19,6 +19,17 @@ OUTPUT_CSV = os.path.join(_HERE, "..", "data", "output", "forecasts.csv")
 
 MIN_POINTS = 24
 FORECAST_STEPS = 3
+OUTPUT_COLUMNS = [
+    "eco",
+    "opening_name",
+    "month",
+    "actual",
+    "forecast",
+    "lower_ci",
+    "upper_ci",
+    "is_forecast",
+    "structural_break",
+]
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 log = logging.getLogger(__name__)
@@ -57,7 +68,7 @@ def _detect_breaks(y: np.ndarray, months: list, alpha: float = 0.05) -> set:
     return breaks
 
 
-def run_timeseries(df: pd.DataFrame = None) -> pd.DataFrame:
+def run_timeseries(df: pd.DataFrame | None = None) -> pd.DataFrame:
     if df is None:
         df = pd.read_csv(PROCESSED_CSV)
     else:
@@ -77,7 +88,7 @@ def run_timeseries(df: pd.DataFrame = None) -> pd.DataFrame:
             log.warning("%s: only %d data points, need ≥ %d — skipping", eco, n, MIN_POINTS)
             continue
 
-        y = grp["white_win_rate"].values
+        y = np.asarray(grp["white_win_rate"].values, dtype=float)
         months = grp["month"].tolist()
 
         # ADF test: first-difference if non-stationary
@@ -141,7 +152,7 @@ def run_timeseries(df: pd.DataFrame = None) -> pd.DataFrame:
                 "structural_break": False,
             })
 
-    out = pd.DataFrame(records)
+    out = pd.DataFrame(records, columns=OUTPUT_COLUMNS)
     out.to_csv(OUTPUT_CSV, index=False)
     print(f"Forecasts written → {OUTPUT_CSV}  ({len(out)} rows)")
     return out

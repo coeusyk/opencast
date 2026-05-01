@@ -2,8 +2,10 @@ name: Monthly data update
 
 on:
   schedule:
-    # 03:00 UTC on the 1st of every month
+    # Primary run: 03:00 UTC on the 1st of every month
     - cron: "0 3 1 * *"
+    # Fallback run: 03:30 UTC on the 1st to reduce missed-trigger risk
+    - cron: "30 3 1 * *"
   workflow_dispatch:   # allow manual trigger
 
 permissions:
@@ -65,6 +67,20 @@ jobs:
           from pathlib import Path
           from datetime import date
 
+          FETCH_START = "2023-01"
+
+          def month_range(start: str, end: str) -> list[str]:
+              sy, sm = map(int, start.split("-"))
+              ey, em = map(int, end.split("-"))
+              y, m = sy, sm
+              out = []
+              while (y, m) <= (ey, em):
+                  out.append(f"{y:04d}-{m:02d}")
+                  m += 1
+                  if m > 12:
+                      m, y = 1, y + 1
+              return out
+
           with open("openings.json") as f:
               openings = json.load(f)
           eco_codes = [o["eco"] for o in openings]
@@ -80,12 +96,20 @@ jobs:
               prev_year, prev_month = today.year - 1, 12
           else:
               prev_year, prev_month = today.year, today.month - 1
-          month = f"{prev_year:04d}-{prev_month:02d}"
-          if any(f"{eco}_{month}" not in existing for eco in eco_codes):
-              print(f"Fetching month {month}…")
+
+          latest_complete = f"{prev_year:04d}-{prev_month:02d}"
+          months = month_range(FETCH_START, latest_complete)
+          missing = [
+              month for month in months
+              if any(f"{eco}_{month}" not in existing for eco in eco_codes)
+          ]
+
+          if missing:
+              first, last = missing[0], missing[-1]
+              print(f"Fetching {len(missing)} missing month(s): {first}..{last}")
               env = os.environ.copy()
               subprocess.run(
-                  ["target/release/fetcher", "--from", month, "--to", month],
+                  ["target/release/fetcher", "--from", first, "--to", last],
                   env=env,
                   check=True,
                   cwd="fetcher",
@@ -106,6 +130,14 @@ jobs:
       - name: Generate FINDINGS.md
         run: python -c "from src.report import generate_report; generate_report()"
 
+      - name: Add index.html for GitHub Pages
+        run: cp data/output/dashboard.html data/output/index.html
+
+      - name: Upload dashboard as Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: data/output/
+
       # ── Commit updated outputs ────────────────────────────────────────────
       - name: Commit & push results
         run: |
@@ -121,22 +153,37 @@ jobs:
   deploy:
     needs: update
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          ref: ${{ github.ref }}
-
-      - name: Add index.html redirect for GitHub Pages
+      - name: Check if GitHub Pages is enabled
+        id: pages
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          cp data/output/dashboard.html data/output/index.html
+          status_code=$(curl -s -o /dev/null -w "%{http_code}" \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/pages")
 
-      - name: Upload dashboard as Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: data/output/
+          if [ "$status_code" = "200" ]; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+            echo "GitHub Pages is enabled."
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::GitHub Pages is not enabled for ${{ github.repository }}. Enable it in Settings > Pages > Source: GitHub Actions."
+          fi
+
+      - name: Configure GitHub Pages
+        if: steps.pages.outputs.enabled == 'true'
+        uses: actions/configure-pages@v5
 
       - name: Deploy to GitHub Pages
+        if: steps.pages.outputs.enabled == 'true'
         id: deploy
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

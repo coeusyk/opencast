@@ -12,7 +12,7 @@ ENGINE_CSV    = os.path.join(_HERE, "..", "data", "output", "engine_delta.csv")
 OUTPUT_MD     = os.path.join(_HERE, "..", "FINDINGS.md")
 
 OLLAMA_HOST  = "http://localhost:11434"
-OLLAMA_MODEL = "qwen3:0.6b"
+OLLAMA_MODEL = "llama3.1:latest"
 
 log = logging.getLogger(__name__)
 

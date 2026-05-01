@@ -8,7 +8,7 @@ OpenCast is a data pipeline that fetches monthly win-rate snapshots for 20 ECO o
 
 [https://coeusyk.github.io/opencast/dashboard.html](https://coeusyk.github.io/opencast/dashboard.html)
 
-Dashboard is published via GitHub Pages on each pipeline run. Enable GitHub Pages in repository Settings → Pages → Source: GitHub Actions to activate.
+Dashboard is published via GitHub Pages on each pipeline run.
 
 ---
 
@@ -33,14 +33,21 @@ See [FINDINGS.md](FINDINGS.md) — auto-generated monthly by the pipeline.
 git clone https://github.com/coeusyk/opencast.git
 cd opencast
 
+# Install Cargo/Rust toolchain if not already installed
+command -v cargo >/dev/null 2>&1 || sudo apt install -y cargo rustc
+
 # Lichess API token (free at https://lichess.org/account/oauth/token)
 export LICHESS_TOKEN=<your_token>
 
 # Build the Rust fetcher
 cd fetcher && cargo build --release && cd ..
 
-# Install Python dependencies
-pip install -r requirements.txt
+# Create and activate Python virtual environment with uv
+uv venv .venv
+source .venv/bin/activate
+
+# Install Python dependencies with uv
+uv pip install -r requirements.txt
 
 # Run the full pipeline
 python main.py
@@ -48,7 +55,7 @@ python main.py
 
 > **Stockfish 16** must be installed separately: `sudo apt install stockfish`
 
-> **Ollama** (optional, for LLM-generated findings): install from [ollama.com](https://ollama.com) and run `ollama pull qwen3:0.6b`. If unavailable, `report.py` falls back to templated text.
+> **Ollama** (optional, for LLM-generated findings): install from [ollama.com](https://ollama.com) and run `ollama pull llama3.1:latest`. If unavailable, `report.py` falls back to templated text.
 
 ---
 
@@ -69,6 +76,74 @@ python main.py
 
 See [ARCHITECTURE.md](ARCHITECTURE.md) for full module specifications, data schemas, and mathematical derivations.
 
+```mermaid
+---
+config:
+  layout: dagre
+---
+flowchart TB
+ subgraph FETCH["1. Fetch"]
+    direction LR
+        LICHESS["Lichess games data"]
+        SNAP["Collect monthly snapshots"]
+        RAW["Raw opening files"]
+  end
+ subgraph INGEST["2. Ingest"]
+    direction LR
+        CLEAN["Clean and organise data"]
+        HIST["Single historical dataset"]
+  end
+ subgraph ANALYSE["3. Analyse"]
+    direction TB
+        FORECAST["Forecast future win rates"]
+        DELTA["Compare human play vs engine expectations"]
+  end
+ subgraph OUTPUTS["4. Output artifacts"]
+    direction TB
+        FOUT["Forecast output"]
+        DOUT["Engine-human delta output"]
+  end
+ subgraph PUBLISH["5. Publish"]
+    direction TB
+        DASH["Build interactive dashboard"]
+        FIND["Generate written findings"]
+        PAGE["Published dashboard page"]
+        REPORT["Monthly insights report"]
+  end
+    LICHESS --> SNAP
+    SNAP --> RAW
+    CLEAN --> HIST
+    RUNNER["OpenCast pipeline runner"] --> FETCH & INGEST & ANALYSE & OUTPUTS & PUBLISH
+    RAW --> CLEAN
+    HIST --> FORECAST & DELTA
+    FORECAST --> FOUT
+    DELTA --> DOUT
+    FOUT --> DASH & FIND
+    DOUT --> DASH & FIND
+    DASH --> PAGE
+    FIND --> REPORT
+
+     LICHESS:::data
+     SNAP:::ingest
+     RAW:::data
+     CLEAN:::ingest
+     HIST:::data
+     FORECAST:::analyse
+     DELTA:::analyse
+     FOUT:::output
+     DOUT:::output
+     DASH:::output
+     FIND:::output
+     PAGE:::data
+     REPORT:::data
+     RUNNER:::runner
+    classDef runner  fill:#0f2742,stroke:#4a90d9,stroke-width:2px,color:#d9ecff
+    classDef ingest  fill:#13281d,stroke:#4caf82,stroke-width:1.5px,color:#daf5e4
+    classDef analyse fill:#241633,stroke:#9b72cf,stroke-width:1.5px,color:#f0e4ff
+    classDef output  fill:#332011,stroke:#e07b39,stroke-width:1.5px,color:#ffe9d6
+    classDef data    fill:#1b1f24,stroke:#6e7681,stroke-width:1px,color:#e6edf3
+```
+
 ---
 
 ## Requirements
@@ -77,11 +152,7 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for full module specifications, data sche
 - **Python** ≥ 3.11 — for analytics pipeline  
 - **Stockfish 16** — `sudo apt install stockfish` (or set `STOCKFISH_PATH`)  
 - **Lichess OAuth token** — free at https://lichess.org/account/oauth/token  
-- **Ollama** (optional) — `ollama pull qwen3:0.6b` for LLM-generated findings
-
-```bash
-pip install -r requirements.txt
-```
+- **Ollama** (optional) — `ollama pull llama3.1:latest` for LLM-generated findings
 
 ---
 
