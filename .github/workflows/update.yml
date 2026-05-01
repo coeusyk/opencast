@@ -117,7 +117,9 @@ jobs:
 
   process:
     needs: fetch
-    if: needs.fetch.outputs.months_fetched != '0'
+    if: >
+      needs.fetch.outputs.months_fetched != '0' ||
+      github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
 
     steps:
@@ -147,6 +149,10 @@ jobs:
       # ── Pipeline ─────────────────────────────────────────────────────────
       - name: Run ingest → timeseries → engine delta
         run: |
+          rm -f data/processed/openings_ts.csv \
+                data/output/forecasts.csv \
+                data/output/engine_delta.csv \
+                data/output/dashboard.html
           python -c "
           from src.ingest import ingest
           from src.timeseries import run_timeseries
