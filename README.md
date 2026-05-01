@@ -8,7 +8,7 @@ OpenCast is a data pipeline that fetches monthly win-rate snapshots for 20 ECO o
 
 [https://coeusyk.github.io/opencast/dashboard.html](https://coeusyk.github.io/opencast/dashboard.html)
 
-Dashboard is published via GitHub Pages on each pipeline run. Enable GitHub Pages in repository Settings → Pages → Source: GitHub Actions to activate.
+Dashboard is published via GitHub Pages on each pipeline run.
 
 ---
 
