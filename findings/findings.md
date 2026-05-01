@@ -1,6 +1,6 @@
 # OpenCast Findings
 
-*Last updated: 2026-05-01 08:54 UTC*
+*Last updated: 2026-05-01 12:58 UTC*
 
 ---
 
@@ -75,4 +75,4 @@ The Grunfeld Defense (D70) shows a human win rate that is notably below Stockfis
 
 ---
 
-*Generated using templated analysis (Ollama unavailable).*
+*Generated using templated analysis (Gemini LLM call below).*

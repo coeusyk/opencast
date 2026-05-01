@@ -1,3 +1,4 @@
+import json
 import os
 from datetime import datetime, timezone
 
@@ -9,6 +10,8 @@ FORECASTS_CSV   = os.path.join(_HERE, "..", "data", "output", "forecasts.csv")
 DELTA_CSV       = os.path.join(_HERE, "..", "data", "output", "engine_delta.csv")
 TS_CSV          = os.path.join(_HERE, "..", "data", "processed", "openings_ts.csv")
 OUTPUT_HTML     = os.path.join(_HERE, "..", "data", "output", "dashboard.html")
+FINDINGS_JSON   = os.path.join(_HERE, "..", "findings", "findings.json")
+FINDINGS_MD_REL = "../../findings/findings.md"  # relative path from data/output/ to findings/
 
 # Dashboard design tokens
 PANEL_BG = "#121821"
@@ -412,8 +415,22 @@ def _build_panel3_figure(ts: pd.DataFrame) -> go.Figure:
     return fig
 
 
+def _load_findings_json() -> dict | None:
+    """Load findings/findings.json if it exists; return None otherwise."""
+    try:
+        with open(FINDINGS_JSON, encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return None
+    except Exception as exc:
+        import logging
+        logging.getLogger(__name__).warning("Could not load findings.json: %s", exc)
+        return None
+
+
 def _build_dashboard_html(fig_forecast: go.Figure, fig_scatter: go.Figure, fig_heatmap: go.Figure,
-                          last_month: str, generated_at: str) -> str:
+                          last_month: str, generated_at: str,
+                          findings: dict | None) -> str:
     plot_config = {
         "displayModeBar": False,
         "responsive": True,
@@ -424,15 +441,62 @@ def _build_dashboard_html(fig_forecast: go.Figure, fig_scatter: go.Figure, fig_h
     scatter_html = fig_scatter.to_html(full_html=False, include_plotlyjs=False, config=plot_config)
     heatmap_html = fig_heatmap.to_html(full_html=False, include_plotlyjs=False, config=plot_config)
 
+    # Inline findings.json as a JS variable for offline / GH Pages use
+    findings_js_var = "null"
+    if findings is not None:
+      findings_for_embed = {
+        key: value for key, value in findings.items() if key != "full_report_md"
+      }
+      findings_js_var = json.dumps(findings_for_embed, ensure_ascii=False)
+
+    # Report month display
+    report_month_display = findings["month"] if findings and "month" in findings else last_month
+
+    # ── Headline card ────────────────────────────────────────────────────────
+    headline_html = ""
+    if findings and findings.get("headline"):
+        headline_text = findings["headline"].replace("<", "&lt;").replace(">", "&gt;")
+        headline_html = f"""
+    <div class="headline-card">
+      <div class="headline-label">This month's key finding</div>
+      <p class="headline-text">{headline_text}</p>
+    </div>"""
+
+    # ── Panel insight cards ──────────────────────────────────────────────────
+    def _insight_card(panel_key: str, title: str) -> str:
+        if findings is None:
+            return ""
+        panel = findings.get("panels", {}).get(panel_key, {})
+        insight = panel.get("insight", "")
+        if not insight:
+            return ""
+        chips_html = ""
+        for chip_key in ("highlight_ecos", "outliers"):
+            chips = panel.get(chip_key, [])
+            if chips:
+                chip_items = "".join(f'<span class="eco-chip">{c}</span>' for c in chips)
+                chips_html = f'<div class="eco-chips">{chip_items}</div>'
+        insight_escaped = insight.replace("<", "&lt;").replace(">", "&gt;")
+        return f"""
+      <div class="insight-card">
+        <div class="insight-title">{title}</div>
+        <p class="insight-text">{insight_escaped}</p>
+        {chips_html}
+      </div>"""
+
+    forecast_insight = _insight_card("forecast", "Win-Rate Forecast")
+    scatter_insight  = _insight_card("engine_delta", "Engine vs Human Delta")
+    heatmap_insight  = _insight_card("heatmap", "ECO Category Heatmap")
+
     return f"""<!doctype html>
-<html lang=\"en\">
+<html lang="en">
 <head>
-  <meta charset=\"utf-8\" />
-  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>OpenCast Dashboard</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
   <style>
     :root {{
       --bg: #0B1017;
@@ -443,6 +507,13 @@ def _build_dashboard_html(fig_forecast: go.Figure, fig_scatter: go.Figure, fig_h
       --accent: #57C7FF;
       --border: #253246;
       --ring: rgba(87, 199, 255, 0.18);
+      --headline-bg: rgba(18, 32, 50, 0.85);
+      --headline-border: #57C7FF;
+      --insight-bg: rgba(14, 22, 34, 0.70);
+      --insight-border: #253246;
+      --chip-bg: rgba(87, 199, 255, 0.12);
+      --chip-text: #57C7FF;
+      --chip-border: rgba(87, 199, 255, 0.30);
     }}
 
     * {{ box-sizing: border-box; }}
@@ -451,36 +522,37 @@ def _build_dashboard_html(fig_forecast: go.Figure, fig_scatter: go.Figure, fig_h
       margin: 0;
       background: radial-gradient(1200px 700px at 0% -10%, #132238 0%, var(--bg) 54%);
       color: var(--text);
-            font-family: {BODY_FONT};
+      font-family: {BODY_FONT};
       -webkit-font-smoothing: antialiased;
       text-rendering: optimizeLegibility;
     }}
 
-        body, .plotly-graph-div {{
-            font-family: {BODY_FONT} !important;
-        }}
+    body, .plotly-graph-div {{
+      font-family: {BODY_FONT} !important;
+    }}
 
-        h1, .dashboard-title {{
-            font-family: {DISPLAY_FONT} !important;
-            font-weight: 400;
-            letter-spacing: -0.01em;
-        }}
+    h1, .dashboard-title, .headline-text {{
+      font-family: {DISPLAY_FONT} !important;
+      font-weight: 400;
+      letter-spacing: -0.01em;
+    }}
 
-        h2, h3, .panel-title {{
-            font-family: {DISPLAY_FONT} !important;
-            font-weight: 400;
-        }}
+    h2, h3, .panel-title {{
+      font-family: {DISPLAY_FONT} !important;
+      font-weight: 400;
+    }}
 
-        .meta-bar, .meta-tag, footer, .dashboard-footer, .meta, .pill, .footer-note {{
-            font-family: {BODY_FONT} !important;
-            font-weight: 300;
-        }}
+    .meta-bar, .meta-tag, .meta, .pill, .footer-note, .insight-text, .insight-title, .eco-chip, .headline-label {{
+      font-family: {BODY_FONT} !important;
+      font-weight: 300;
+    }}
 
     .shell {{
       width: min(1320px, 94vw);
       margin: 28px auto 36px;
     }}
 
+    /* ── Header ──────────────────────────────────────────────── */
     .header {{
       padding: 22px 24px;
       border: 1px solid var(--border);
@@ -502,7 +574,7 @@ def _build_dashboard_html(fig_forecast: go.Figure, fig_scatter: go.Figure, fig_h
       margin: 0;
       font-size: clamp(1.5rem, 2.6vw, 2.2rem);
       line-height: 1.15;
-            font-family: {DISPLAY_FONT};
+      font-family: {DISPLAY_FONT};
       letter-spacing: 0.01em;
     }}
 
@@ -529,6 +601,35 @@ def _build_dashboard_html(fig_forecast: go.Figure, fig_scatter: go.Figure, fig_h
       background: rgba(10, 15, 22, 0.6);
     }}
 
+    /* ── Headline card ───────────────────────────────────────── */
+    .headline-card {{
+      margin-top: 18px;
+      padding: 18px 22px;
+      border-left: 4px solid var(--headline-border);
+      border-radius: 10px;
+      background: var(--headline-bg);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--headline-border);
+      box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18);
+    }}
+
+    .headline-label {{
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+      font-weight: 600;
+      margin-bottom: 8px;
+    }}
+
+    .headline-text {{
+      margin: 0;
+      font-size: 1.12rem;
+      line-height: 1.6;
+      color: var(--text);
+    }}
+
+    /* ── Grid + cards ────────────────────────────────────────── */
     .grid {{
       margin-top: 18px;
       display: grid;
@@ -567,11 +668,71 @@ def _build_dashboard_html(fig_forecast: go.Figure, fig_scatter: go.Figure, fig_h
       width: 100% !important;
     }}
 
-    .footer-note {{
+    /* ── Per-panel insight card ──────────────────────────────── */
+    .insight-card {{
       margin-top: 12px;
+      padding: 14px 16px;
+      border: 1px solid var(--insight-border);
+      border-left: 3px solid var(--accent);
+      border-radius: 8px;
+      background: var(--insight-bg);
+    }}
+
+    .insight-title {{
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--accent);
+      font-weight: 600;
+      margin-bottom: 6px;
+    }}
+
+    .insight-text {{
+      margin: 0 0 8px 0;
+      font-size: 0.90rem;
+      line-height: 1.55;
+      color: var(--muted);
+    }}
+
+    .eco-chips {{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 4px;
+    }}
+
+    .eco-chip {{
+      padding: 2px 9px;
+      border-radius: 999px;
+      background: var(--chip-bg);
+      border: 1px solid var(--chip-border);
+      color: var(--chip-text);
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+    }}
+
+    /* ── Footer ──────────────────────────────────────────────── */
+    .footer-note {{
+      margin-top: 18px;
+      padding: 14px 18px;
       color: #7D8FA4;
       font-size: 12px;
-      text-align: right;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }}
+
+    .footer-note a {{
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 12px;
+    }}
+
+    .footer-note a:hover {{
+      text-decoration: underline;
     }}
 
     @media (max-width: 1024px) {{
@@ -585,39 +746,46 @@ def _build_dashboard_html(fig_forecast: go.Figure, fig_scatter: go.Figure, fig_h
       .grid {{ gap: 12px; }}
       .card {{ padding: 8px; border-radius: 12px; }}
       .subtitle {{ font-size: 0.93rem; }}
-      .footer-note {{ text-align: left; }}
+      .footer-note {{ justify-content: flex-start; }}
     }}
   </style>
+  <script>
+    // Inline findings data for offline / GitHub Pages use
+    window.__OPENCAST_FINDINGS__ = {findings_js_var};
+  </script>
 </head>
 <body>
-  <main class=\"shell\">
-        <section class=\"header\">
-      <div class=\"eyebrow\">OpenCast intelligence</div>
-      <h1>Chess Opening Analytics Dashboard</h1>
-      <p class=\"subtitle\">Monthly opening dynamics across practical play: forecast direction, engine-human gaps, and category-level momentum in one editorial analytics view.</p>
-      <div class=\"meta\">
-        <span class=\"pill\">Source: Lichess Opening Explorer</span>
-        <span class=\"pill\">Rating focus: 2000 blitz</span>
-        <span class=\"pill\">Latest complete month: {last_month}</span>
-        <span class=\"pill\">Generated: {generated_at}</span>
+  <main class="shell">
+    <section class="header">
+      <div class="eyebrow">OpenCast intelligence</div>
+      <h1>OpenCast</h1>
+      <p class="subtitle">Chess Opening Analytics &middot; {report_month_display}</p>
+      <div class="meta">
+        <span class="pill">Source: Lichess Opening Explorer</span>
+        <span class="pill">Rating focus: 2000 blitz</span>
+        <span class="pill">Latest complete month: {last_month}</span>
+        <span class="pill">Generated: {generated_at}</span>
       </div>
     </section>
-
-    <section class=\"grid\">
-      <article class=\"card hero\">
-        <div class=\"plot-wrap\">{forecast_html}</div>
+{headline_html}
+    <section class="grid">
+      <article class="card hero">
+        <div class="plot-wrap">{forecast_html}</div>{forecast_insight}
       </article>
 
-      <article class=\"card half\">
-        <div class=\"plot-wrap\">{scatter_html}</div>
+      <article class="card half">
+        <div class="plot-wrap">{scatter_html}</div>{scatter_insight}
       </article>
 
-      <article class=\"card half\">
-        <div class=\"plot-wrap\">{heatmap_html}</div>
+      <article class="card half">
+        <div class="plot-wrap">{heatmap_html}</div>{heatmap_insight}
       </article>
     </section>
 
-    <div class=\"footer-note\">OpenCast dashboard · static HTML export for GitHub Pages</div>
+    <footer class="footer-note">
+      <span>OpenCast &middot; Static HTML export for GitHub Pages</span>
+      <a href="{FINDINGS_MD_REL}">Full findings report &rarr;</a>
+    </footer>
   </main>
 </body>
 </html>
@@ -641,12 +809,20 @@ def run_visualizer() -> None:
 
     generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
+    findings = _load_findings_json()
+    if findings is None:
+        import logging
+        logging.getLogger(__name__).info(
+            "findings.json not found — rendering dashboard without insight panels."
+        )
+
     html = _build_dashboard_html(
         fig_forecast,
         fig_scatter,
         fig_heatmap,
         latest_month,
         generated_at,
+        findings,
     )
 
     os.makedirs(os.path.dirname(OUTPUT_HTML), exist_ok=True)
