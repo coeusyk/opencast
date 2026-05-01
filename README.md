@@ -77,27 +77,71 @@ python main.py
 See [ARCHITECTURE.md](ARCHITECTURE.md) for full module specifications, data schemas, and mathematical derivations.
 
 ```mermaid
-flowchart LR
-  A[Lichess Opening Explorer API] --> B[Rust fetcher]
-  B --> C[data/raw/*.json]
-  C --> D[src/ingest.py]
-  D --> E[data/processed/openings_ts.csv]
-  E --> F[src/timeseries.py]
-  E --> G[src/engine_delta.py]
-  F --> H[data/output/forecasts.csv]
-  G --> I[data/output/engine_delta.csv]
-  H --> J[src/visualizer.py]
-  I --> J
-  J --> K[data/output/dashboard.html]
-  H --> L[src/report.py]
-  I --> L
-  L --> M[FINDINGS.md]
-  N[main.py orchestrator] --> B
-  N --> D
-  N --> F
-  N --> G
-  N --> J
-  N --> L
+---
+config:
+  layout: dagre
+---
+flowchart TB
+ subgraph FETCH["1. Fetch"]
+    direction LR
+        LICHESS["Lichess games data"]
+        SNAP["Collect monthly snapshots"]
+        RAW["Raw opening files"]
+  end
+ subgraph INGEST["2. Ingest"]
+    direction LR
+        CLEAN["Clean and organise data"]
+        HIST["Single historical dataset"]
+  end
+ subgraph ANALYSE["3. Analyse"]
+    direction TB
+        FORECAST["Forecast future win rates"]
+        DELTA["Compare human play vs engine expectations"]
+  end
+ subgraph OUTPUTS["4. Output artifacts"]
+    direction TB
+        FOUT["Forecast output"]
+        DOUT["Engine-human delta output"]
+  end
+ subgraph PUBLISH["5. Publish"]
+    direction TB
+        DASH["Build interactive dashboard"]
+        FIND["Generate written findings"]
+        PAGE["Published dashboard page"]
+        REPORT["Monthly insights report"]
+  end
+    LICHESS --> SNAP
+    SNAP --> RAW
+    CLEAN --> HIST
+    RUNNER["OpenCast pipeline runner"] --> FETCH & INGEST & ANALYSE & OUTPUTS & PUBLISH
+    RAW --> CLEAN
+    HIST --> FORECAST & DELTA
+    FORECAST --> FOUT
+    DELTA --> DOUT
+    FOUT --> DASH & FIND
+    DOUT --> DASH & FIND
+    DASH --> PAGE
+    FIND --> REPORT
+
+     LICHESS:::data
+     SNAP:::ingest
+     RAW:::data
+     CLEAN:::ingest
+     HIST:::data
+     FORECAST:::analyse
+     DELTA:::analyse
+     FOUT:::output
+     DOUT:::output
+     DASH:::output
+     FIND:::output
+     PAGE:::data
+     REPORT:::data
+     RUNNER:::runner
+    classDef runner  fill:#0f2742,stroke:#4a90d9,stroke-width:2px,color:#d9ecff
+    classDef ingest  fill:#13281d,stroke:#4caf82,stroke-width:1.5px,color:#daf5e4
+    classDef analyse fill:#241633,stroke:#9b72cf,stroke-width:1.5px,color:#f0e4ff
+    classDef output  fill:#332011,stroke:#e07b39,stroke-width:1.5px,color:#ffe9d6
+    classDef data    fill:#1b1f24,stroke:#6e7681,stroke-width:1px,color:#e6edf3
 ```
 
 ---
