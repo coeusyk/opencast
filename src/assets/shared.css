@@ -1,4 +1,5 @@
 /* OpenCast shared styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&family=Roboto+Slab:wght@300;400;600;700&display=swap');
 
 :root {
   --panel-bg:       #121821;
@@ -6,8 +7,8 @@
   --text-secondary: #9FB0C3;
   --accent:         #57C7FF;
   --border-subtle:  rgba(148, 163, 184, 0.18);
-  --font-body:      'DM Sans', system-ui, sans-serif;
-  --font-display:   'DM Serif Display', Georgia, serif;
+  --font-body:      'Roboto Condensed', system-ui, sans-serif;
+  --font-display:   'Roboto Slab', Georgia, serif;
 }
 
 *, *::before, *::after { box-sizing: border-box; }

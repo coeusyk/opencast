@@ -20,8 +20,8 @@ TEXT_PRIMARY   = "#E6EEF8"
 TEXT_SECONDARY = "#9FB0C3"
 ACCENT         = "#57C7FF"
 ECO_COLORS     = {"A": "#7CC7FF", "B": "#7BE495", "C": "#F6C177", "D": "#F28DA6", "E": "#B9A5FF"}
-BODY_FONT      = "'DM Sans', system-ui, sans-serif"
-DISPLAY_FONT   = "'DM Serif Display', Georgia, serif"
+BODY_FONT      = "'Roboto Condensed', system-ui, sans-serif"
+DISPLAY_FONT   = "'Roboto Slab', Georgia, serif"
 
 FORECAST_COLUMNS = [
     "eco",
@@ -217,6 +217,9 @@ def _page_shell(title: str, nav_fragment: str, body: str) -> str:
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{title} — OpenCast</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&family=Roboto+Slab:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/shared.css">
 </head>
 <body style="background:{PANEL_BG}; color:{TEXT_PRIMARY}; font-family:{BODY_FONT}; margin:0;">

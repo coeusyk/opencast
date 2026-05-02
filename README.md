@@ -21,9 +21,9 @@ See [FINDINGS.md](FINDINGS.md) — auto-generated monthly by the pipeline.
 ## How It Works
 
 1. **Fetch** — A Rust binary queries `explorer.lichess.ovh` month-by-month for each opening, writing one JSON file per opening per month into `data/raw/`.
-2. **Ingest** — Python normalises all JSONs into `data/processed/openings_ts.csv` (780 rows, one per opening × month).
-3. **Analyse** — `timeseries.py` fits `auto_arima` models (AIC) per opening, runs Ljung-Box and Chow structural-break tests, and writes 3-month forecasts with 95% CI to `data/output/forecasts.csv`. `engine_delta.py` evaluates each opening with Stockfish at depth 20 and writes the engine-vs-human delta to `data/output/engine_delta.csv`.
-4. **Report & Visualise** — `report.py` generates `FINDINGS.md` (LLM-powered via Ollama, with template fallback). `visualizer.py` renders a 3-panel Plotly dashboard: forecast ribbons for the top-5 openings by volume, a bubble chart of engine cp vs human win rate, and an ECO × month win-rate heatmap.
+2. **Ingest** — Python normalises all JSONs into `data/processed/openings_ts.csv`, one row per opening per month.
+3. **Analyse** — `select_openings.py` classifies each ECO into model tiers. `timeseries.py` fits ARIMA (Tier 1) or Holt-Winters (Tier 2) models per opening, runs Ljung-Box and Chow structural-break tests, and writes 3-month forecasts with 95% CI to `data/output/forecasts.csv`. `engine_delta.py` evaluates Tier-1 openings with Stockfish at depth 20 and writes the engine-vs-human delta to `data/output/engine_delta.csv`.
+4. **Report & Visualise** — `report.py` generates `FINDINGS.md` (Gemini-powered, with template fallback). `visualizer.py` builds a multi-page static site: an overview with headline insights and 3 Plotly panels, a sortable openings table, ECO family summaries, and per-opening detail pages.
 
 ---
 
@@ -61,7 +61,7 @@ python main.py
 
 > **Stockfish 16** must be installed separately: `sudo apt install stockfish`
 
-> **Ollama** (optional, for LLM-generated findings): install from [ollama.com](https://ollama.com) and run `ollama pull llama3.1:latest`. If unavailable, `report.py` falls back to templated text.
+> **Gemini API key** (optional): `GEMINI_API_KEY` in `.env` powers AI-generated findings. `report.py` falls back to templated text if the key is absent.
 
 ---
 
@@ -70,11 +70,10 @@ python main.py
 | Metric | Value |
 |---|---|
 | Openings tracked | 20 (ECO A–E) |
-| Date range | 2023-01 → 2026-03 (39 months) |
-| Raw JSON files | 780 |
-| Processed rows | 780 (all total ≥ 500 games) |
-| Forecast rows | 840 (780 actual + 60 forecast, 3 months per opening) |
-| Total games analysed | ~123 million |
+| Date range | 2023-01 → present |
+| Raw JSON files | one per opening per month (gitignored) |
+| Processed rows | one per opening per month (total ≥ 500 games filter applied) |
+| Forecast horizon | 3 months ahead per opening, with 95% CI |
 
 ---
 
@@ -158,24 +157,37 @@ flowchart TB
 - **Python** ≥ 3.11 — for analytics pipeline  
 - **Stockfish 16** — `sudo apt install stockfish` (or set `STOCKFISH_PATH`)  
 - **Lichess OAuth token** — free at https://lichess.org/account/oauth/token  
-- **Gemini API key** (optional) — set `GEMINI_API_KEY` (for Gemini-generated findings)  
-- **Ollama** (optional) — `ollama pull llama3.1:latest` for LLM-generated findings
+- **Gemini API key** (optional) — set `GEMINI_API_KEY` in `.env` (for AI-generated findings)
 
 ---
 
 ## Repository Structure
 
 ```
-fetcher/          ← Rust binary (Lichess Explorer → JSON)
+fetcher/              ← Rust binary (Lichess Explorer → JSON)
 src/
-  ingest.py       ← JSON → openings_ts.csv
-  timeseries.py   ← ARIMA forecasting + break detection
-  engine_delta.py ← Stockfish centipawn → win probability delta
-  visualizer.py   ← 3-panel Plotly HTML dashboard
+  ingest.py           ← JSON → openings_ts.csv + long_tail_stats.csv
+  select_openings.py  ← per-ECO tier classification → openings_catalog.csv
+  timeseries.py       ← ARIMA (Tier 1) + Holt-Winters (Tier 2) forecasting
+  engine_delta.py     ← Stockfish centipawn → win probability delta
+  visualizer.py       ← multi-page static site generator
+  assets/
+    shared.css        ← design tokens + component styles
+    nav.js            ← active-link highlight
 data/
-  raw/            ← 780 JSON files (gitignored)
-  processed/      ← openings_ts.csv
-  output/         ← forecasts.csv, engine_delta.csv, dashboard/ (multi-page site)
-openings.json     ← 20 ECO codes with UCI move sequences
-main.py           ← pipeline orchestrator
+  raw/                ← one JSON per opening per month (gitignored)
+  processed/          ← openings_ts.csv
+  openings_catalog.csv ← ECO tier flags (is_tracked_core, model_tier, …)
+  output/
+    forecasts.csv     ← ARIMA / HW forecasts with confidence intervals
+    engine_delta.csv  ← centipawn vs human win rate delta
+    long_tail_stats.csv
+    dashboard/        ← multi-page static site (GitHub Pages root)
+      index.html      ← overview + 3 panels
+      openings.html   ← sortable table of all ECOs
+      families.html   ← ECO family (A–E) summary
+      opening_*.html  ← per-opening detail pages
+      assets/         ← shared.css, nav.js
+openings.json         ← 20 ECO codes with UCI move sequences
+main.py               ← pipeline orchestrator
 ```
