@@ -36,8 +36,14 @@ cd opencast
 # Install Cargo/Rust toolchain if not already installed
 command -v cargo >/dev/null 2>&1 || sudo apt install -y cargo rustc
 
+# Create local environment file from template (if needed)
+cp -n .env.example .env
+
 # Lichess API token (free at https://lichess.org/account/oauth/token)
 export LICHESS_TOKEN=<your_token>
+
+# Gemini API key (optional, for Gemini-generated findings)
+export GEMINI_API_KEY=<your_gemini_api_key>
 
 # Build the Rust fetcher
 cd fetcher && cargo build --release && cd ..
@@ -152,6 +158,7 @@ flowchart TB
 - **Python** ≥ 3.11 — for analytics pipeline  
 - **Stockfish 16** — `sudo apt install stockfish` (or set `STOCKFISH_PATH`)  
 - **Lichess OAuth token** — free at https://lichess.org/account/oauth/token  
+- **Gemini API key** (optional) — set `GEMINI_API_KEY` (for Gemini-generated findings)  
 - **Ollama** (optional) — `ollama pull llama3.1:latest` for LLM-generated findings
 
 ---
