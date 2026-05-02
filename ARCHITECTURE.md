@@ -57,13 +57,16 @@ opencast/
 │   ├── raw/                   ← JSON files from Rust fetcher (one per opening/month)
 │   ├── processed/
 │   │   └── openings_ts.csv    ← (month, eco, opening_name, rating, white, draws, black, total)
+│   ├── openings_catalog.csv   ← canonical opening catalogue with tier flags
 │   └── output/
 │       ├── forecasts.csv      ← ARIMA forecasts with confidence intervals
-│       └── engine_delta.csv   ← centipawn vs human win rate delta per opening
+│       ├── engine_delta.csv   ← centipawn vs human win rate delta per opening
+│       └── long_tail_stats.csv ← descriptive stats for long-tail openings
 │
 ├── src/
 │   ├── __init__.py
 │   ├── ingest.py              ← reads data/raw/ JSONs → openings_ts.csv
+│   ├── select_openings.py     ← computes selection flags and model tiers
 │   ├── timeseries.py          ← ARIMA fitting, forecasting, structural break detection
 │   ├── engine_delta.py        ← Stockfish eval → delta computation
 │   └── visualizer.py          ← Plotly 3-panel dashboard (exports .html)
@@ -116,6 +119,7 @@ with `?`, struct-based deserialization, file I/O with `std::fs`.
 ```
 INPUT  : data/raw/*.json
 OUTPUT : data/processed/openings_ts.csv
+         data/output/long_tail_stats.csv
 ```
 
 **Output schema:**
@@ -128,6 +132,28 @@ month | eco | opening_name | rating_bracket | white | draws | black | total | wh
 - Compute `white_win_rate = white / (white + draws + black)`
 - Drop rows where `total < 500` — statistically unreliable months
 - Flag months where `total < 2000` with a `low_confidence` boolean column
+- After writing `openings_ts.csv`, compute long-tail stats from catalog and write `long_tail_stats.csv`
+
+---
+
+### `src/select_openings.py` — Python
+
+**Responsibility:** Compute per-ECO selection flags and model tiers from time series
+data and merge them into `data/openings_catalog.csv`.
+
+**Interface:**
+```
+INPUT  : data/processed/openings_ts.csv
+         data/openings_catalog.csv
+OUTPUT : data/openings_catalog.csv (updated in-place)
+```
+
+**Selection rules:**
+- `is_tracked_core = True` if `avg_monthly_games ≥ 1000` AND `months_with_data ≥ 24`
+- `is_long_tail = True` if `avg_monthly_games ≥ 100` AND NOT `is_tracked_core`
+- `model_tier = 1` if `is_tracked_core`
+- `model_tier = 2` if `is_long_tail` AND `avg_monthly_games ≥ 500`
+- `model_tier = 3` if `is_long_tail` AND `avg_monthly_games < 500`
 
 ---
 
@@ -139,6 +165,7 @@ month | eco | opening_name | rating_bracket | white | draws | black | total | wh
 **Interface:**
 ```
 INPUT  : data/processed/openings_ts.csv
+         data/openings_catalog.csv
 OUTPUT : data/output/forecasts.csv
 ```
 
@@ -154,6 +181,8 @@ eco | opening_name | month | actual | forecast | lower_ci | upper_ci | is_foreca
 4. Forecast 3 months ahead with 95% confidence intervals
 5. Structural break detection via `statsmodels` Chow test at each month
 6. Ljung-Box test on residuals — log warning if autocorrelation remains
+
+**Tier filtering:** Only processes ECOs with `model_tier == 1` (Tier 2/3 added in Phase B).
 
 **Libraries:** `pmdarima`, `statsmodels`, `pandas`, `numpy`
 
@@ -172,6 +201,7 @@ actual human win rates.
 ```
 INPUT  : openings.json (ECO → FEN after move 8)
          data/processed/openings_ts.csv (for human win rates at 2000+ bracket)
+         data/openings_catalog.csv
 OUTPUT : data/output/engine_delta.csv
 ```
 
@@ -179,6 +209,8 @@ OUTPUT : data/output/engine_delta.csv
 ```
 eco | opening_name | engine_cp | p_engine | human_win_rate_2000 | delta | interpretation
 ```
+
+**Tier filtering:** Only evaluates ECOs with `model_tier == 1`.
 
 **Centipawn → probability conversion:**
 
@@ -239,6 +271,7 @@ already exists (avoid re-fetching).
 STAGES = {
     "fetch"   : True,   # set False after first run
     "ingest"  : True,
+    "select"  : True,
     "ts"      : True,
     "engine"  : True,
     "viz"     : True,
@@ -302,3 +335,4 @@ requests
 | ARIMA requires ≥ 24 data points per opening | Fetch from 2023-01 → 2026-03 (27 months) |
 | Stockfish must be installed locally | Document path config in README |
 | Opening Explorer FENs must match mainline exactly | Validate FENs in openings.json against Lichess Explorer UI |
+| Opening catalogue coverage | openings_catalog.csv drives all pipeline stages; openings absent from it are silently ignored |
