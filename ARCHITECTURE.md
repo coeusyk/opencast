@@ -268,50 +268,6 @@ Dutch Defense, English Opening.
 
 ---
 
-## Task Breakdown
-
-### Phase 1 — Setup (Day 1)
-- [x] `cargo new fetcher` — init Rust project
-- [x] Add `reqwest`, `tokio`, `serde`, `serde_json`, `clap` to `Cargo.toml`
-- [x] Populate `openings.json` with 20 ECO codes and their move-8 FENs
-- [x] Create `data/raw/`, `data/processed/`, `data/output/` directories
-
-### Phase 2 — Rust Fetcher (Day 2–3)
-- [x] Write `models.rs`: serde structs matching Lichess Explorer API response
-- [x] Write `client.rs`: async GET with query params + 1s rate limit sleep
-- [x] Write `main.rs`: loop openings × months, write JSON to `data/raw/`
-- [x] Test against one opening (Sicilian, B20) before full batch run
-- [x] Full batch run: 20 openings × 39 months (2023-01 → 2026-03) = 780 JSON files
-
-### Phase 3 — Ingestion (Day 4)
-- [x] Write `ingest.py`: JSON → `openings_ts.csv` with schema above
-- [x] Filter low-confidence months (`total < 500`)
-- [x] Sanity-check: win rates confirmed in 0.46–0.51 range across all 20 openings
-
-### Phase 4 — ARIMA (Day 5–6)
-- [x] Write `timeseries.py`: ADF → auto_arima → forecast → break detection
-- [x] Validate residuals with Ljung-Box test for each fitted model (all 20 pass)
-- [x] Write `forecasts.csv` (840 rows: 780 actual + 60 forecast)
-
-### Phase 5 — Engine Delta (Day 7)
-- [x] Install Stockfish 16 binary (`/usr/games/stockfish`), configure path
-- [x] Write `engine_delta.py`: replay UCI moves via python-chess → get FEN → Stockfish depth-20 eval
-- [x] Compute sigmoid probability and delta, write `engine_delta.csv` (20 rows)
-- **Results:** 8 openings engine-favoured (delta < −0.04) — D70 Grünfeld (−0.0644), B01 Scandinavian (−0.0581), B07 Pirc (−0.0558), B06 Modern (−0.0526), E60 King's Indian (−0.0501), C20 King's Gambit (−0.0465), C00 French (−0.0423), B20 Sicilian (−0.0447). No opening shows humans outperforming engine at 2000-rated blitz.
-
-### Phase 6 — Visualization (Day 8)
-- [x] Write `visualizer.py`: 3-panel Plotly dashboard as `dashboard.html` (31KB, CDN-hosted JS)
-- [x] Panel 1: Forecast line chart + shaded 95% CI for top-5 openings (B20, C44, C00, B12, A10), structural breaks as dotted vertical lines
-- [x] Panel 2: Bubble chart — engine cp vs human win rate, diagonal reference, bubble size = total volume
-- [x] Panel 3: ECO-category × month heatmap, diverging red-white-green at 0.50
-- [x] `main.py` orchestrator with stage flags already in place
-
-### Phase 7 — Documentation (Day 9)
-- [x] `README.md`: hypothesis + engine-delta findings table + structural break narrative per opening
-- [x] All phases documented with actual metrics in ARCHITECTURE.md
-
----
-
 ## Dependencies
 
 ### Rust (`Cargo.toml`)
