@@ -24,7 +24,7 @@ PROCESSED_CSV  = "data/processed/openings_ts.csv"
 CATALOG_CSV    = "data/openings_catalog.csv"
 FORECASTS_CSV  = "data/output/forecasts.csv"
 ENGINE_CSV     = "data/output/engine_delta.csv"
-DASHBOARD_HTML = "data/output/dashboard.html"
+DASHBOARD_HTML = "data/output/dashboard/index.html"
 FINDINGS_MD    = "FINDINGS.md"
 
 with open("config.json") as _f:
@@ -95,14 +95,12 @@ def get_missing_months() -> list[str]:
 
     missing_months = []
     for month in all_months:
-        # Month is complete only when every ECO has a file
         if any(f"{eco}_{month}" not in existing for eco in eco_codes):
             missing_months.append(month)
     return missing_months
 
 
 def _should_fetch_missing_data(missing: list[str]) -> bool:
-    """Decide whether to fetch missing data based on config, env, or prompt."""
     if STAGES.get("fetch", False):
         return True
     if not missing:
@@ -132,7 +130,6 @@ def _should_fetch_missing_data(missing: list[str]) -> bool:
 
 
 def _run_fetch_for_missing_months(missing: list[str]) -> bool:
-    """Fetch missing month range and return True if data was fetched."""
     if not missing:
         print("Fetch: all expected files present, nothing to do.")
         return False
@@ -170,7 +167,6 @@ def _run_fetch_for_missing_months(missing: list[str]) -> bool:
 
 
 def _skip_or_force(path: str, label: str, force: bool) -> bool:
-    """Skip existing output unless recompute is forced."""
     if force and os.path.exists(path):
         print(f"Recomputing {label}: ignoring existing {path} due to fresh fetch")
         return False

@@ -30,13 +30,10 @@ jobs:
       - name: Install Python dependencies
         run: uv pip install --system -r requirements.txt
 
-      - name: Build dashboard.html
+      - name: Build modular dashboard
         # findings/findings.json is read by run_visualizer() if it exists;
         # if it has not been generated yet the dashboard still renders (graceful degradation).
         run: python -c "from src.visualizer import run_visualizer; run_visualizer()"
-
-      - name: Add index.html for GitHub Pages
-        run: cp data/output/dashboard.html data/output/index.html
 
       - name: Check if GitHub Pages is enabled
         id: pages-check
@@ -62,7 +59,7 @@ jobs:
         if: steps.pages-check.outputs.enabled == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
-          path: data/output/
+          path: data/output/dashboard/
 
       - name: Deploy to GitHub Pages
         if: steps.pages-check.outputs.enabled == 'true'

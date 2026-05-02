@@ -33,7 +33,7 @@ Lichess Opening Explorer API
               centipawn scores ──▶  data/output/engine_delta.csv
         │
         ▼
-  [Visualizer]  ──── 3-panel Plotly HTML dashboard
+  [Visualizer]  ──── multi-page static site (data/output/dashboard/)
 ```
 
 **Key API constraint:** Lichess Explorer supports `since` and `until` as `YYYY-MM`
@@ -61,7 +61,15 @@ opencast/
 │   └── output/
 │       ├── forecasts.csv      ← ARIMA / HW forecasts with confidence intervals
 │       ├── engine_delta.csv   ← centipawn vs human win rate delta per opening
-│       └── long_tail_stats.csv ← descriptive stats for long-tail openings
+│       ├── long_tail_stats.csv ← descriptive stats for long-tail openings
+│       └── dashboard/         ← multi-page static site (served as GitHub Pages)
+│           ├── index.html     ← overview: headline insights + 3 panels
+│           ├── openings.html  ← sortable table of all openings
+│           ├── families.html  ← ECO family summary
+│           ├── opening_*.html ← per-opening detail pages (one per ECO)
+│           └── assets/
+│               ├── shared.css ← design tokens, nav, table, widget styles
+│               └── nav.js     ← active-link highlight script
 │
 ├── src/
 │   ├── __init__.py
@@ -69,7 +77,10 @@ opencast/
 │   ├── select_openings.py     ← computes selection flags and model tiers
 │   ├── timeseries.py          ← ARIMA (Tier 1) + Holt-Winters (Tier 2) + break detection
 │   ├── engine_delta.py        ← Stockfish eval → delta computation (Tier 1 only)
-│   └── visualizer.py          ← Plotly 3-panel dashboard (exports .html)
+│   ├── visualizer.py          ← multi-page static site generator
+│   └── assets/
+│       ├── shared.css         ← design tokens + component styles (source)
+│       └── nav.js             ← active-nav script (source)
 │
 ├── openings.json              ← config: ECO codes to track + move-8 FENs
 ├── main.py                    ← orchestrator: runs all pipeline stages in order
@@ -238,32 +249,50 @@ depth 20, hash 256MB.
 
 ### `src/visualizer.py` — Python
 
-**Responsibility:** Produce a 3-panel Plotly HTML dashboard from output CSVs.
+**Responsibility:** Generate a multi-page static HTML site from output CSVs.
+All pages share a navigation bar and design token set.
 
 **Interface:**
 ```
-INPUT  : data/output/forecasts.csv, data/output/engine_delta.csv
-OUTPUT : data/output/dashboard.html
+INPUT  : data/output/forecasts.csv
+         data/output/engine_delta.csv
+         data/openings_catalog.csv
+         findings/findings.json          (optional; graceful degradation if absent)
+OUTPUT : data/output/dashboard/          (directory; served as GitHub Pages root)
 ```
 
-**Panel 1 — Forecast chart (line + shaded CI)**
-- X: month, Y: white_win_rate
-- Solid line for actuals, dashed for forecast, shaded band for 95% CI
-- One trace per opening (5 openings max for readability)
-- Annotate detected structural breaks with vertical dashed lines
+**Page structure:**
 
-**Panel 2 — Engine delta scatter (bubble chart)**
-- X: engine centipawn score, Y: human win rate at 2000+
-- Diagonal reference line = "engine-expected" win rate
-- Bubble size = total game volume; color = ECO category (A/B/C/D/E)
-- Openings above the line: human skill amplifiers
-- Openings below the line: theory-heavy, engine-correct
+| File | Purpose |
+|---|---|
+| `index.html` | Overview: headline insights from findings.json + 3 Plotly panels |
+| `openings.html` | Sortable table of all openings with last win rate and engine delta |
+| `families.html` | ECO family summary (A–E) with avg win rate |
+| `opening_{ECO}.html` | Per-opening detail: Plotly forecast, engine box, AI narrative |
+| `assets/shared.css` | Design tokens, nav, table, widget component styles |
+| `assets/nav.js` | Active-link highlight script |
 
-**Panel 3 — ECO heatmap by rating bracket**
-- Y: ECO category (A/B/C/D/E), X: rating bucket (1200/1500/1800/2000/2200/2500)
-- Cell value: average white_win_rate
-- Color scale: diverging Red-White-Green centered at 0.50
-- Reveals which opening categories only work at low ELO
+**Render functions:**
+- `render_overview(forecasts, engine_df, findings_json)` → `index.html`
+- `render_openings_table(forecasts, engine_df, catalog)` → `openings.html`
+- `render_families(forecasts)` → `families.html`
+- `render_opening_page(eco, forecasts, engine_df, findings_json)` → `opening_{eco}.html`
+- `run_visualizer()` — orchestrates all four renders + asset copy
+
+**Design tokens** (preserved):
+```python
+PANEL_BG = "#121821"; GRID_COLOR = "rgba(148, 163, 184, 0.18)"; TEXT_PRIMARY = "#E6EEF8"
+TEXT_SECONDARY = "#9FB0C3"; ACCENT = "#57C7FF"
+ECO_COLORS = {"A":"#7CC7FF","B":"#7BE495","C":"#F6C177","D":"#F28DA6","E":"#B9A5FF"}
+BODY_FONT = "'DM Sans', system-ui, sans-serif"
+DISPLAY_FONT = "'DM Serif Display', Georgia, serif"
+```
+
+**`findings.json` contract for per-opening narratives:**
+```json
+{ "per_opening": { "B20": "narrative text ...", ... } }
+```
+Falls back to "No analysis available yet." if the key is absent.
 
 ---
 
@@ -344,3 +373,4 @@ requests
 | Opening catalogue coverage | openings_catalog.csv drives all pipeline stages; openings absent from it are silently ignored |
 | Engine delta CI budget | Total Stockfish evaluation must complete in < 5 min; warning logged if exceeded |
 | Timeseries per-ECO budget | Each ECO must complete in < 60s; warning logged if exceeded |
+| GitHub Pages root path | deploy.yml uploads `data/output/dashboard/`; `index.html` is the Pages entry point |
