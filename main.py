@@ -25,7 +25,8 @@ ENGINE_CSV     = "data/output/engine_delta.csv"
 DASHBOARD_HTML = "data/output/dashboard.html"
 FINDINGS_MD    = "FINDINGS.md"
 
-FETCH_START    = "2023-01"
+with open("config.json") as _f:
+    FETCH_START: str = json.load(_f)["fetch_start"]
 OPENINGS_JSON  = "openings.json"
 
 

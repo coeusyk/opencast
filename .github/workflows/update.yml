@@ -10,12 +10,16 @@ permissions:
   actions: write           # required to trigger report.yml
 
 jobs:
-  update:
+  fetch:
     runs-on: ubuntu-latest
+    outputs:
+      months_fetched: ${{ steps.fetch_step.outputs.months_fetched }}
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
 
       # ── Rust toolchain & fetcher ──────────────────────────────────────────
       - name: Install Rust stable
@@ -35,26 +39,9 @@ jobs:
         run: cargo build --release
         working-directory: fetcher
 
-      # ── Python environment ────────────────────────────────────────────────
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
-      - name: Install uv
-        run: pip install uv
-
-      - name: Install Python dependencies
-        run: uv pip install --system -r requirements.txt
-
-      # ── Stockfish ────────────────────────────────────────────────────────
-      - name: Install Stockfish
-        run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y stockfish
-
-      # ── Pipeline ─────────────────────────────────────────────────────────
+      # ── Fetch missing months ──────────────────────────────────────────────
       - name: Fetch missing months (incremental)
+        id: fetch_step
         env:
           LICHESS_TOKEN: ${{ secrets.LICHESS_TOKEN }}
         run: |
@@ -63,9 +50,11 @@ jobs:
           from pathlib import Path
           from datetime import date
 
-          FETCH_START = "2023-01"
+          with open("config.json") as f:
+              cfg = json.load(f)
+          FETCH_START = cfg["fetch_start"]
 
-          def month_range(start: str, end: str) -> list[str]:
+          def month_range(start: str, end: str) -> list:
               sy, sm = map(int, start.split("-"))
               ey, em = map(int, end.split("-"))
               y, m = sy, sm
@@ -98,6 +87,8 @@ jobs:
               if any(f"{eco}_{month}" not in existing for eco in eco_codes)
           ]
 
+          fetched_count = len(missing) if missing else 0
+
           if missing:
               first, last = missing[0], missing[-1]
               print(f"Fetching {len(missing)} missing month(s): {first}..{last}")
@@ -110,18 +101,63 @@ jobs:
               )
           else:
               print("Nothing to fetch.")
+
+          with open(os.environ["GITHUB_OUTPUT"], "a") as fh:
+              fh.write(f"months_fetched={fetched_count}\n")
           EOF
 
+      - name: Commit fetched raw data
+        if: steps.fetch_step.outputs.months_fetched != '0'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/raw/
+          git diff --cached --quiet || git commit -m "chore: fetch raw data $(date +%Y-%m)"
+          git push
+
+  process:
+    needs: fetch
+    if: >
+      needs.fetch.outputs.months_fetched != '0' ||
+      github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      # ── Python environment ────────────────────────────────────────────────
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install uv
+        run: pip install uv
+
+      - name: Install Python dependencies
+        run: uv pip install --system -r requirements.txt
+
+      # ── Stockfish ────────────────────────────────────────────────────────
+      - name: Install Stockfish
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y stockfish
+
+      # ── Pipeline ─────────────────────────────────────────────────────────
       - name: Run ingest → timeseries → engine delta
         run: |
           rm -f data/processed/openings_ts.csv \
                 data/output/forecasts.csv \
-                data/output/engine_delta.csv
+                data/output/engine_delta.csv \
+                data/output/dashboard.html
           python -c "
-          from src.ingest import run_ingest
+          from src.ingest import ingest
           from src.timeseries import run_timeseries
           from src.engine_delta import run_engine_delta
-          run_ingest()
+          ingest()
           run_timeseries()
           run_engine_delta()
           "
@@ -130,10 +166,9 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/output/forecasts.csv \
-                  data/output/engine_delta.csv \
-                  data/processed/openings_ts.csv \
-                  data/raw/
+          git add data/processed/openings_ts.csv \
+                  data/output/forecasts.csv \
+                  data/output/engine_delta.csv
           git diff --cached --quiet || git commit -m "chore: auto-update $(date +%Y-%m)"
           git push
 
