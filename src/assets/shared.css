@@ -1,0 +1,147 @@
+/* OpenCast shared styles */
+
+:root {
+  --panel-bg:       #121821;
+  --text-primary:   #E6EEF8;
+  --text-secondary: #9FB0C3;
+  --accent:         #57C7FF;
+  --border-subtle:  rgba(148, 163, 184, 0.18);
+  --font-body:      'DM Sans', system-ui, sans-serif;
+  --font-display:   'DM Serif Display', Georgia, serif;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  background: var(--panel-bg);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  margin: 0;
+  min-height: 100vh;
+}
+
+/* Navigation */
+#main-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.75rem 2rem;
+  background: rgba(18, 24, 33, 0.95);
+  border-bottom: 1px solid var(--border-subtle);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+#main-nav .brand {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  color: var(--accent);
+  margin-right: auto;
+}
+
+#main-nav a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  transition: color 0.15s, background 0.15s;
+}
+
+#main-nav a:hover,
+#main-nav a.active {
+  color: var(--text-primary);
+  background: var(--border-subtle);
+}
+
+/* Page titles */
+.page-title {
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+}
+
+h1, h2, h3 { font-family: var(--font-display); }
+
+/* Sections */
+.panel { margin-bottom: 3rem; }
+
+/* Headlines / insight widgets */
+.headlines {
+  margin-bottom: 2rem;
+}
+
+.insight-widget {
+  background: rgba(87, 199, 255, 0.06);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 6px 6px 0;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.insight-label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.insight-text { margin: 0; color: var(--text-primary); }
+
+/* Narrative box */
+.narrative {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-subtle);
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Engine eval box */
+.engine-box {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-subtle);
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.engine-box h3 { margin-top: 0; }
+
+/* Data tables */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.data-table th,
+.data-table td {
+  padding: 0.6rem 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.data-table thead th {
+  color: var(--text-secondary);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+}
+
+.data-table tbody tr {
+  cursor: pointer;
+  transition: background 0.1s;
+}
+
+.data-table tbody tr:hover {
+  background: rgba(87, 199, 255, 0.05);
+}
