@@ -1,7 +1,9 @@
 import json
+import logging
 import math
 import os
 import shutil
+import time
 
 import chess
 import pandas as pd
@@ -17,6 +19,9 @@ OUTPUT_DIR    = os.path.join(_HERE, "..", "data", "output")
 STOCKFISH_PATH = shutil.which("stockfish") or "/usr/games/stockfish"
 DEPTH = 20
 HASH_MB = 256
+ENGINE_TOTAL_WARN_S = 300.0  # warn if total evaluation exceeds 5 min
+
+log = logging.getLogger(__name__)
 
 
 def _get_fen_from_uci_moves(uci_moves: str) -> str:
@@ -36,9 +41,9 @@ def _cp_to_prob(cp: int) -> float:
 
 def _interpret(delta: float) -> str:
     if delta > 0.04:
-        return "humans outperform engine — rewards human skill"
+        return "humans outperform engine \u2014 rewards human skill"
     elif delta < -0.04:
-        return "engine-favoured — frequently misplayed or theory-heavy"
+        return "engine-favoured \u2014 frequently misplayed or theory-heavy"
     else:
         return "consistent with engine evaluation"
 
@@ -51,8 +56,6 @@ def run_engine_delta() -> pd.DataFrame:
     catalog = pd.read_csv(CATALOG_CSV)
     tier1_ecos = set(catalog.loc[catalog["model_tier"] == 1, "eco"])
     openings = [o for o in all_openings if o["eco"] in tier1_ecos]
-    import logging
-    log = logging.getLogger(__name__)
     log.info("Engine delta: evaluating %d Tier-1 ECOs", len(openings))
 
     ts = pd.read_csv(PROCESSED_CSV)
@@ -68,6 +71,7 @@ def run_engine_delta() -> pd.DataFrame:
         depth=DEPTH,
         parameters={"Hash": HASH_MB, "Threads": 1},
     )
+    t_start = time.perf_counter()
     try:
         for opening in openings:
             eco   = opening["eco"]
@@ -103,6 +107,14 @@ def run_engine_delta() -> pd.DataFrame:
     finally:
         del sf
 
+    total_elapsed = time.perf_counter() - t_start
+    log.info("Engine delta: completed in %.1fs", total_elapsed)
+    if total_elapsed > ENGINE_TOTAL_WARN_S:
+        log.warning(
+            "WARNING: engine_delta total time %.1fs exceeded 5 min budget",
+            total_elapsed,
+        )
+
     df = pd.DataFrame(rows)
     df.to_csv(OUTPUT_CSV, index=False)
     print(f"\nEngine delta written \u2192 {OUTPUT_CSV}  ({len(df)} rows)")
@@ -110,11 +122,7 @@ def run_engine_delta() -> pd.DataFrame:
 
 
 def recommend_openings(delta_df: pd.DataFrame | None = None) -> pd.DataFrame:
-    """Return openings ranked by delta (highest = most human-favourable).
-
-    A positive delta means humans outperform the engine prediction \u2014 these are
-    the best openings to play at 2000-rated blitz relative to engine expectation.
-    """
+    """Return openings ranked by delta (highest = most human-favourable)."""
     if delta_df is None:
         delta_df = pd.read_csv(OUTPUT_CSV)
     return (
