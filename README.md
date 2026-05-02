@@ -6,7 +6,7 @@ OpenCast is a data pipeline that fetches monthly win-rate snapshots for 20 ECO o
 
 ## Live Dashboard
 
-[https://coeusyk.github.io/opencast/dashboard.html](https://coeusyk.github.io/opencast/dashboard.html)
+[https://coeusyk.github.io/opencast/](https://coeusyk.github.io/opencast/)
 
 Dashboard is published via GitHub Pages on each pipeline run.
 
@@ -175,7 +175,7 @@ src/
 data/
   raw/            ← 780 JSON files (gitignored)
   processed/      ← openings_ts.csv
-  output/         ← forecasts.csv, engine_delta.csv, dashboard.html
+  output/         ← forecasts.csv, engine_delta.csv, dashboard/ (multi-page site)
 openings.json     ← 20 ECO codes with UCI move sequences
 main.py           ← pipeline orchestrator
 ```

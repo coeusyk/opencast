@@ -151,8 +151,8 @@ jobs:
         run: |
           rm -f data/processed/openings_ts.csv \
                 data/output/forecasts.csv \
-                data/output/engine_delta.csv \
-                data/output/dashboard.html
+                data/output/engine_delta.csv
+          rm -rf data/output/dashboard/
           python -c "
           from src.ingest import ingest
           from src.select_openings import run_select_openings

@@ -169,7 +169,7 @@ def _build_panel3_figure(forecasts: pd.DataFrame) -> go.Figure:
     pivot = (
         actuals.groupby(["eco_group", "rating_bracket"])["actual"]
         .mean()
-        .unstack(fill_value=float("nan"))
+        .unstack(fill_value=None)
         if "rating_bracket" in actuals.columns
         else actuals.groupby("eco_group")["actual"].mean().to_frame()
     )
@@ -451,8 +451,8 @@ def render_opening_page(
         )
 
     body = (
-        f'<h1><a href="openings.html" style="color:{TEXT_SECONDARY}; "
-        f'text-decoration:none; font-size:0.85rem;">← All openings</a> "
+        f'<h1><a href="openings.html" style="color:{TEXT_SECONDARY}; '
+        f'text-decoration:none; font-size:0.85rem;">← All openings</a> '
         f"{name} ({eco})</h1>\n"
         + f'<div class="narrative"><p>{narrative}</p></div>\n'
         + fig_html
