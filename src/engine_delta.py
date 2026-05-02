@@ -10,6 +10,7 @@ from stockfish import Stockfish
 _HERE = os.path.dirname(__file__)
 OPENINGS_JSON = os.path.join(_HERE, "..", "openings.json")
 PROCESSED_CSV = os.path.join(_HERE, "..", "data", "processed", "openings_ts.csv")
+CATALOG_CSV   = os.path.join(_HERE, "..", "data", "openings_catalog.csv")
 OUTPUT_CSV    = os.path.join(_HERE, "..", "data", "output", "engine_delta.csv")
 OUTPUT_DIR    = os.path.join(_HERE, "..", "data", "output")
 
@@ -44,7 +45,15 @@ def _interpret(delta: float) -> str:
 
 def run_engine_delta() -> pd.DataFrame:
     with open(OPENINGS_JSON) as f:
-        openings = json.load(f)
+        all_openings = json.load(f)
+
+    # Filter to Tier-1 openings only
+    catalog = pd.read_csv(CATALOG_CSV)
+    tier1_ecos = set(catalog.loc[catalog["model_tier"] == 1, "eco"])
+    openings = [o for o in all_openings if o["eco"] in tier1_ecos]
+    import logging
+    log = logging.getLogger(__name__)
+    log.info("Engine delta: evaluating %d Tier-1 ECOs", len(openings))
 
     ts = pd.read_csv(PROCESSED_CSV)
     human_rates = (
@@ -96,14 +105,14 @@ def run_engine_delta() -> pd.DataFrame:
 
     df = pd.DataFrame(rows)
     df.to_csv(OUTPUT_CSV, index=False)
-    print(f"\nEngine delta written → {OUTPUT_CSV}  ({len(df)} rows)")
+    print(f"\nEngine delta written \u2192 {OUTPUT_CSV}  ({len(df)} rows)")
     return df
 
 
 def recommend_openings(delta_df: pd.DataFrame | None = None) -> pd.DataFrame:
     """Return openings ranked by delta (highest = most human-favourable).
 
-    A positive delta means humans outperform the engine prediction — these are
+    A positive delta means humans outperform the engine prediction \u2014 these are
     the best openings to play at 2000-rated blitz relative to engine expectation.
     """
     if delta_df is None:

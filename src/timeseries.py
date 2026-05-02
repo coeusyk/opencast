@@ -15,7 +15,8 @@ warnings.filterwarnings("ignore")
 
 _HERE = os.path.dirname(__file__)
 PROCESSED_CSV = os.path.join(_HERE, "..", "data", "processed", "openings_ts.csv")
-OUTPUT_CSV = os.path.join(_HERE, "..", "data", "output", "forecasts.csv")
+CATALOG_CSV   = os.path.join(_HERE, "..", "data", "openings_catalog.csv")
+OUTPUT_CSV    = os.path.join(_HERE, "..", "data", "output", "forecasts.csv")
 
 MIN_POINTS = 24
 FORECAST_STEPS = 3
@@ -46,7 +47,7 @@ def _chow_test(y: np.ndarray, bp: int) -> tuple:
         return 0.0, 1.0
 
     rss_before = sm.OLS(y[:bp], sm.add_constant(t[:bp])).fit().ssr
-    rss_after = sm.OLS(y[bp:], sm.add_constant(t[bp:])).fit().ssr
+    rss_after  = sm.OLS(y[bp:], sm.add_constant(t[bp:])).fit().ssr
 
     k = 2  # intercept + slope
     denom = rss_before + rss_after
@@ -74,6 +75,12 @@ def run_timeseries(df: pd.DataFrame | None = None) -> pd.DataFrame:
     else:
         df = df.copy()
 
+    # Filter to Tier-1 openings only
+    catalog = pd.read_csv(CATALOG_CSV)
+    tier1_ecos = set(catalog.loc[catalog["model_tier"] == 1, "eco"])
+    df = df[df["eco"].isin(tier1_ecos)]
+    log.info("Timeseries: processing %d Tier-1 ECOs", len(tier1_ecos))
+
     df["month"] = pd.to_datetime(df["month"])
     os.makedirs(os.path.dirname(OUTPUT_CSV), exist_ok=True)
 
@@ -85,7 +92,7 @@ def run_timeseries(df: pd.DataFrame | None = None) -> pd.DataFrame:
         n = len(grp)
 
         if n < MIN_POINTS:
-            log.warning("%s: only %d data points, need ≥ %d — skipping", eco, n, MIN_POINTS)
+            log.warning("%s: only %d data points, need \u2265 %d \u2014 skipping", eco, n, MIN_POINTS)
             continue
 
         y = np.asarray(grp["white_win_rate"].values, dtype=float)
@@ -154,7 +161,7 @@ def run_timeseries(df: pd.DataFrame | None = None) -> pd.DataFrame:
 
     out = pd.DataFrame(records, columns=OUTPUT_COLUMNS)
     out.to_csv(OUTPUT_CSV, index=False)
-    print(f"Forecasts written → {OUTPUT_CSV}  ({len(out)} rows)")
+    print(f"Forecasts written \u2192 {OUTPUT_CSV}  ({len(out)} rows)")
     return out
 
 
