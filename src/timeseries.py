@@ -1,5 +1,6 @@
 import logging
 import os
+import time
 import warnings
 
 import numpy as np
@@ -8,6 +9,7 @@ import statsmodels.api as sm
 from scipy import stats
 from statsmodels.tsa.stattools import adfuller
 from statsmodels.stats.diagnostic import acorr_ljungbox
+from statsmodels.tsa.holtwinters import ExponentialSmoothing
 
 import pmdarima as pm
 
@@ -30,10 +32,13 @@ OUTPUT_COLUMNS = [
     "upper_ci",
     "is_forecast",
     "structural_break",
+    "model_tier",
 ]
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 log = logging.getLogger(__name__)
+
+ECO_TIMING_WARN_S = 60.0  # warn if a single ECO takes longer than this
 
 
 def _chow_test(y: np.ndarray, bp: int) -> tuple:
@@ -75,18 +80,24 @@ def run_timeseries(df: pd.DataFrame | None = None) -> pd.DataFrame:
     else:
         df = df.copy()
 
-    # Filter to Tier-1 openings only
+    # Load catalog and split into tiers
     catalog = pd.read_csv(CATALOG_CSV)
     tier1_ecos = set(catalog.loc[catalog["model_tier"] == 1, "eco"])
-    df = df[df["eco"].isin(tier1_ecos)]
+    tier2_ecos = set(catalog.loc[catalog["model_tier"] == 2, "eco"])
+    tier3_ecos = set(catalog.loc[catalog["model_tier"] == 3, "eco"])
     log.info("Timeseries: processing %d Tier-1 ECOs", len(tier1_ecos))
 
     df["month"] = pd.to_datetime(df["month"])
     os.makedirs(os.path.dirname(OUTPUT_CSV), exist_ok=True)
 
     records = []
+    tier1_times: list[float] = []
+    tier2_times: list[float] = []
 
-    for eco, grp in df.groupby("eco"):
+    # ── Tier 1: ARIMA + Chow + Ljung-Box ─────────────────────────────────────
+    tier1_df = df[df["eco"].isin(tier1_ecos)]
+    for eco, grp in tier1_df.groupby("eco"):
+        t0 = time.perf_counter()
         grp = grp.sort_values("month").reset_index(drop=True)
         opening_name = grp["opening_name"].iloc[0]
         n = len(grp)
@@ -143,6 +154,7 @@ def run_timeseries(df: pd.DataFrame | None = None) -> pd.DataFrame:
                 "upper_ci": None,
                 "is_forecast": False,
                 "structural_break": row["month"] in break_months,
+                "model_tier": 1,
             })
 
         # Forecast rows
@@ -157,7 +169,85 @@ def run_timeseries(df: pd.DataFrame | None = None) -> pd.DataFrame:
                 "upper_ci": round(float(ci[1]), 6),
                 "is_forecast": True,
                 "structural_break": False,
+                "model_tier": 1,
             })
+
+        elapsed = time.perf_counter() - t0
+        tier1_times.append(elapsed)
+        if elapsed > ECO_TIMING_WARN_S:
+            log.warning("%s (Tier 1): took %.1fs, exceeds %.0fs budget", eco, elapsed, ECO_TIMING_WARN_S)
+
+    # ── Tier 2: Holt-Winters (additive trend, no seasonality) ────────────────
+    tier2_df = df[df["eco"].isin(tier2_ecos)]
+    for eco, grp in tier2_df.groupby("eco"):
+        t0 = time.perf_counter()
+        grp = grp.sort_values("month").reset_index(drop=True)
+        opening_name = grp["opening_name"].iloc[0]
+
+        y = np.asarray(grp["white_win_rate"].values, dtype=float)
+        months = grp["month"].tolist()
+
+        if len(y) < 6:  # need at least 6 points for HW with additive trend
+            log.warning("%s (Tier 2): only %d data points, skipping", eco, len(y))
+            continue
+
+        hw_fit = ExponentialSmoothing(y, trend="add", seasonal=None).fit()
+        hw_forecast = hw_fit.forecast(FORECAST_STEPS)
+        residual_std = float(np.std(hw_fit.resid, ddof=1))
+        half_ci = 1.96 * residual_std
+
+        last_month = months[-1]
+        future_months = pd.date_range(start=last_month, periods=FORECAST_STEPS + 1, freq="MS")[1:]
+
+        # Historical rows
+        for _, row in grp.iterrows():
+            records.append({
+                "eco": eco,
+                "opening_name": opening_name,
+                "month": row["month"].strftime("%Y-%m"),
+                "actual": row["white_win_rate"],
+                "forecast": None,
+                "lower_ci": None,
+                "upper_ci": None,
+                "is_forecast": False,
+                "structural_break": False,
+                "model_tier": 2,
+            })
+
+        # Forecast rows
+        for fm, fc in zip(future_months, hw_forecast):
+            records.append({
+                "eco": eco,
+                "opening_name": opening_name,
+                "month": fm.strftime("%Y-%m"),
+                "actual": None,
+                "forecast": round(float(fc), 6),
+                "lower_ci": round(float(fc) - half_ci, 6),
+                "upper_ci": round(float(fc) + half_ci, 6),
+                "is_forecast": True,
+                "structural_break": False,
+                "model_tier": 2,
+            })
+
+        elapsed = time.perf_counter() - t0
+        tier2_times.append(elapsed)
+        if elapsed > ECO_TIMING_WARN_S:
+            log.warning("%s (Tier 2): took %.1fs, exceeds %.0fs budget", eco, elapsed, ECO_TIMING_WARN_S)
+
+    # ── Tier 3: descriptive stats only, no rows written ───────────────────────
+    log.info("Timeseries: skipping %d Tier-3 ECOs (descriptive stats only)", len(tier3_ecos))
+
+    # ── Summary log ───────────────────────────────────────────────────────────
+    total_s = sum(tier1_times) + sum(tier2_times)
+    t1_avg = sum(tier1_times) / len(tier1_times) if tier1_times else 0.0
+    t2_avg = sum(tier2_times) / len(tier2_times) if tier2_times else 0.0
+    log.info(
+        "Timeseries: %d openings processed in %.1fs (Tier1: %.1fs avg, Tier2: %.1fs avg)",
+        len(tier1_times) + len(tier2_times),
+        total_s,
+        t1_avg,
+        t2_avg,
+    )
 
     out = pd.DataFrame(records, columns=OUTPUT_COLUMNS)
     out.to_csv(OUTPUT_CSV, index=False)

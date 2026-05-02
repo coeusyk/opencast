@@ -59,7 +59,7 @@ opencast/
 │   │   └── openings_ts.csv    ← (month, eco, opening_name, rating, white, draws, black, total)
 │   ├── openings_catalog.csv   ← canonical opening catalogue with tier flags
 │   └── output/
-│       ├── forecasts.csv      ← ARIMA forecasts with confidence intervals
+│       ├── forecasts.csv      ← ARIMA / HW forecasts with confidence intervals
 │       ├── engine_delta.csv   ← centipawn vs human win rate delta per opening
 │       └── long_tail_stats.csv ← descriptive stats for long-tail openings
 │
@@ -67,8 +67,8 @@ opencast/
 │   ├── __init__.py
 │   ├── ingest.py              ← reads data/raw/ JSONs → openings_ts.csv
 │   ├── select_openings.py     ← computes selection flags and model tiers
-│   ├── timeseries.py          ← ARIMA fitting, forecasting, structural break detection
-│   ├── engine_delta.py        ← Stockfish eval → delta computation
+│   ├── timeseries.py          ← ARIMA (Tier 1) + Holt-Winters (Tier 2) + break detection
+│   ├── engine_delta.py        ← Stockfish eval → delta computation (Tier 1 only)
 │   └── visualizer.py          ← Plotly 3-panel dashboard (exports .html)
 │
 ├── openings.json              ← config: ECO codes to track + move-8 FENs
@@ -159,8 +159,8 @@ OUTPUT : data/openings_catalog.csv (updated in-place)
 
 ### `src/timeseries.py` — Python (primary differentiator)
 
-**Responsibility:** Fit ARIMA models on monthly win rate series and forecast
-3 months ahead. Detect structural breaks (regime changes in opening popularity).
+**Responsibility:** Fit models on monthly win rate series and forecast 3 months
+ahead. Dispatches to different model tiers based on opening data volume.
 
 **Interface:**
 ```
@@ -171,23 +171,26 @@ OUTPUT : data/output/forecasts.csv
 
 **Output schema:**
 ```
-eco | opening_name | month | actual | forecast | lower_ci | upper_ci | is_forecast
+eco | opening_name | month | actual | forecast | lower_ci | upper_ci | is_forecast | structural_break | model_tier
 ```
 
-**Pipeline per opening:**
-1. Extract monthly `white_win_rate` series (min 24 data points required)
-2. ADF test for stationarity — first-difference if non-stationary (d=1)
-3. Fit `ARIMA(p,d,q)` via `pmdarima.auto_arima` (information criterion: AIC)
-4. Forecast 3 months ahead with 95% confidence intervals
-5. Structural break detection via `statsmodels` Chow test at each month
-6. Ljung-Box test on residuals — log warning if autocorrelation remains
+**Tier structure:**
 
-**Tier filtering:** Only processes ECOs with `model_tier == 1` (Tier 2/3 added in Phase B).
+| Tier | Model | Extras | Condition |
+|---|---|---|---|
+| 1 | ARIMA (auto, AIC) | Chow break test + Ljung-Box | `model_tier == 1` |
+| 2 | Holt-Winters (`trend='add'`, no seasonality) | CI = ±1.96 × residual std | `model_tier == 2` |
+| 3 | Skipped | Descriptive stats only (logged) | `model_tier == 3` |
+
+**Per-ECO timing:** each ECO is timed with `time.perf_counter()`; a warning is
+logged if a single ECO exceeds 60s.
+
+**Summary log:**
+```
+Timeseries: N openings processed in X.Xs (Tier1: Xs avg, Tier2: Xs avg)
+```
 
 **Libraries:** `pmdarima`, `statsmodels`, `pandas`, `numpy`
-
-**Mathematical note:** Win probability from engine centipawn score uses the
-standard sigmoid transformation applied in engine delta module (see below).
 
 ---
 
@@ -211,6 +214,9 @@ eco | opening_name | engine_cp | p_engine | human_win_rate_2000 | delta | interp
 ```
 
 **Tier filtering:** Only evaluates ECOs with `model_tier == 1`.
+
+**Timing guardrail:** Total evaluation time is measured; a warning is logged if it
+exceeds 300s (5 min budget).
 
 **Centipawn → probability conversion:**
 
@@ -336,3 +342,5 @@ requests
 | Stockfish must be installed locally | Document path config in README |
 | Opening Explorer FENs must match mainline exactly | Validate FENs in openings.json against Lichess Explorer UI |
 | Opening catalogue coverage | openings_catalog.csv drives all pipeline stages; openings absent from it are silently ignored |
+| Engine delta CI budget | Total Stockfish evaluation must complete in < 5 min; warning logged if exceeded |
+| Timeseries per-ECO budget | Each ECO must complete in < 60s; warning logged if exceeded |
