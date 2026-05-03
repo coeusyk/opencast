@@ -1,4 +1,3 @@
-import json
 import logging
 import math
 import os
@@ -10,7 +9,6 @@ import pandas as pd
 from stockfish import Stockfish
 
 _HERE = os.path.dirname(__file__)
-OPENINGS_JSON = os.path.join(_HERE, "..", "openings.json")
 PROCESSED_CSV = os.path.join(_HERE, "..", "data", "processed", "openings_ts.csv")
 CATALOG_CSV   = os.path.join(_HERE, "..", "data", "openings_catalog.csv")
 OUTPUT_CSV    = os.path.join(_HERE, "..", "data", "output", "engine_delta.csv")
@@ -49,13 +47,11 @@ def _interpret(delta: float) -> str:
 
 
 def run_engine_delta() -> pd.DataFrame:
-    with open(OPENINGS_JSON) as f:
-        all_openings = json.load(f)
-
-    # Filter to Tier-1 openings only
+    # Load Tier-1 openings directly from the catalogue (single source of truth)
     catalog = pd.read_csv(CATALOG_CSV)
-    tier1_ecos = set(catalog.loc[catalog["model_tier"] == 1, "eco"])
-    openings = [o for o in all_openings if o["eco"] in tier1_ecos]
+    tier1 = catalog[catalog["model_tier"] == 1][["eco", "name", "moves"]].copy()
+    tier1 = tier1.dropna(subset=["moves"])
+    openings = tier1.to_dict("records")
     log.info("Engine delta: evaluating %d Tier-1 ECOs", len(openings))
 
     ts = pd.read_csv(PROCESSED_CSV)

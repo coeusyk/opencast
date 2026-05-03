@@ -29,7 +29,6 @@ FINDINGS_MD    = "FINDINGS.md"
 
 with open("config.json") as _f:
     FETCH_START: str = json.load(_f)["fetch_start"]
-OPENINGS_JSON  = "openings.json"
 
 
 def _load_env() -> None:
@@ -85,9 +84,13 @@ def _latest_complete_month() -> str:
 
 def get_missing_months() -> list[str]:
     """Return complete months (YYYY-MM) not fully represented in data/raw/."""
-    with open(OPENINGS_JSON) as f:
-        openings = json.load(f)
-    eco_codes = [o["eco"] for o in openings]
+    import csv as _csv
+    with open(CATALOG_CSV, newline="") as f:
+        eco_codes = [
+            row["eco"] for row in _csv.DictReader(f)
+            if row.get("is_tracked_core", "").lower() == "true"
+            or row.get("is_long_tail", "").lower() == "true"
+        ]
     all_months = _month_range_to(FETCH_START, _latest_complete_month())
 
     raw_dir = Path("data/raw")
