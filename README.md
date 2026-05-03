@@ -186,8 +186,8 @@ data/
       index.html      ← overview + 3 panels
       openings.html   ← sortable table of all ECOs
       families.html   ← ECO family (A–E) summary
-      opening_*.html  ← per-opening detail pages
-      assets/         ← shared.css, nav.js
+      opening.html    ← single per-opening template (use ?eco=B20)
+      assets/         ← shared.css, nav.js, openings_data.json
 openings.json         ← 20 ECO codes with UCI move sequences
 main.py               ← pipeline orchestrator
 ```
