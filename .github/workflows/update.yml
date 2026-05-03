@@ -46,7 +46,7 @@ jobs:
           LICHESS_TOKEN: ${{ secrets.LICHESS_TOKEN }}
         run: |
           python - <<'EOF'
-          import json, subprocess, os
+          import csv, json, subprocess, os
           from pathlib import Path
           from datetime import date
 
@@ -66,9 +66,13 @@ jobs:
                       m, y = 1, y + 1
               return out
 
-          with open("openings.json") as f:
-              openings = json.load(f)
-          eco_codes = [o["eco"] for o in openings]
+          import csv
+          with open("data/openings_catalog.csv", newline="") as f:
+              eco_codes = [
+                  row["eco"] for row in csv.DictReader(f)
+                  if row.get("is_tracked_core", "").lower() == "true"
+                  or row.get("is_long_tail", "").lower() == "true"
+              ]
 
           raw_dir = Path("data/raw")
           raw_dir.mkdir(parents=True, exist_ok=True)
