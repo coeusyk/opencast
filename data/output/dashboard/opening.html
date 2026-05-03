@@ -6,11 +6,11 @@
   <title>Opening Detail — OpenCast</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&family=Roboto+Slab:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300..600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/shared.css">
     <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
 </head>
-<body style="background:#121821; color:#E6EEF8; font-family:'Roboto Condensed', system-ui, sans-serif; margin:0;">
+<body>
 
 <nav id="main-nav">
   <span class="brand">OpenCast</span>
@@ -20,7 +20,7 @@
 
 </nav>
 
-<main style="padding:2rem;">
+<main><div class="page-content">
 
 <h1 id="opening-title">Opening Detail</h1>
 <p style="margin:0 0 1rem 0;">
@@ -33,12 +33,12 @@
 <script>
 let openingsDataCache = null;
 const ECO_COLORS = {"A": "#7CC7FF", "B": "#7BE495", "C": "#F6C177", "D": "#F28DA6", "E": "#B9A5FF"};
-const PANEL_BG = "#121821";
-const GRID_COLOR = "rgba(148, 163, 184, 0.18)";
-const TEXT_PRIMARY = "#E6EEF8";
-const TEXT_SECONDARY = "#9FB0C3";
-const BODY_FONT = "'Roboto Condensed', system-ui, sans-serif";
-const DISPLAY_FONT = "'Roboto Slab', Georgia, serif";
+const PANEL_BG = "#0e0e0f";
+const GRID_COLOR = "rgba(255, 255, 255, 0.06)";
+const TEXT_PRIMARY = "#ededee";
+const TEXT_SECONDARY = "#8b8b8f";
+const BODY_FONT = "'Inter', system-ui, sans-serif";
+const DISPLAY_FONT = "'Instrument Serif', Georgia, serif";
 const FALLBACK_NARRATIVE = "No analysis available yet.";
 
 function hexToRgba(hexColor, alpha) {
@@ -53,7 +53,7 @@ async function loadOpeningsData() {
   if (openingsDataCache) {
     return openingsDataCache;
   }
-  const response = await fetch("assets/openings_data.json", { cache: "no-store" });
+  const response = await fetch("assets/openings_data.json");
   if (!response.ok) {
     throw new Error(`Failed to load openings_data.json (${response.status})`);
   }
@@ -192,7 +192,7 @@ async function init() {
 init();
 </script>
 
-</main>
+</div></main>
 <script src="assets/nav.js"></script>
 </body>
 </html>
