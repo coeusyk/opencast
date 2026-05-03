@@ -1,29 +1,29 @@
 {
   "generated_at": "2026-05-03",
   "month": "2026-05",
-  "headline": "Queen's Gambit (D06) shows the largest positive delta, with human players outperforming Stockfish's win-probability prediction by a significant margin. Conversely, Grunfeld Defense (D70) exhibits the largest negative delta, indicating it is the most frequently misplayed or theory-dependent opening.",
+  "headline": "Across the 20 tracked openings, Queen's Gambit (D06) shows the largest positive delta (+0.0303), meaning humans outperform Stockfish's win-probability prediction, while Grunfeld Defense (D70) records the largest negative delta (-0.0644), indicating it is the most frequently misplayed opening.",
   "panels": {
     "forecast": {
-      "insight": "The ARIMA forecast indicates varied trends across openings for the next three months. While Ruy Lopez (C60) and King's Gambit (C20) show rising win rates, several openings, including Pirc Defense (B07), Grunfeld Defense (D70), and Nimzo-Indian Defense (E20), are projected to have falling win rates. This suggests dynamic shifts in performance for different opening strategies.",
+      "insight": "The win-rate forecast indicates dynamic shifts, with openings like the Pirc Defense (B07) and Grunfeld Defense (D70) projected to experience falling win rates, suggesting increasing difficulty for human players. Conversely, the Ruy Lopez (C60) and King's Gambit (C20) show rising trends, potentially offering more favorable outcomes in the near future.",
       "highlight_ecos": [
         "B07",
         "D70",
         "C60",
-        "E20"
+        "C20"
       ]
     },
     "engine_delta": {
-      "insight": "The data reveals a clear dichotomy in human performance against Stockfish's predictions. Openings like Queen's Gambit (D06) demonstrate superior human play, indicating areas where players exceed engine expectations. Conversely, complex or theory-heavy openings such as Grunfeld Defense (D70) and Scandinavian Defense (B01) show significant underperformance, suggesting frequent misplays or difficulties in executing engine-favored lines.",
+      "insight": "There's a clear divergence between human and engine performance, with humans significantly outperforming Stockfish's predictions in openings like the Queen's Gambit (D06). In contrast, several complex or theory-heavy openings, such as the Grunfeld Defense (D70) and Scandinavian Defense (B01), see humans notably underperforming, suggesting these are frequently misplayed or demand deeper theoretical knowledge.",
       "outliers": [
         "D06",
         "D70",
         "B01",
         "B07",
-        "C60"
+        "E60"
       ]
     },
     "heatmap": {
-      "insight": "While a direct heatmap analysis is not explicitly provided, the individual opening performances reveal potential category-level patterns. Several defenses, notably the Grunfeld, Scandinavian, Pirc, Modern, and King's Indian, consistently show significant negative human-engine deltas, hinting at broad challenges within these defense categories for human players. In contrast, classical openings like Queen's Gambit and Ruy Lopez tend to show positive human deltas."
+      "insight": "While a direct heatmap is not provided, the opening analysis suggests distinct regional patterns. Openings known for positional play or early simplicity (e.g., Queen's Gambit D-codes) show positive human deltas, implying they might form 'green' zones on a heatmap. Conversely, aggressive or theory-rich defenses (e.g., certain B- and E-codes like Grunfeld, Scandinavian, King's Indian) consistently show negative human deltas, hinting at 'red' zones where human play struggles against engine expectations over time."
     }
   }
 }
