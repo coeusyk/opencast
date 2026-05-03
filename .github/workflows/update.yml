@@ -171,8 +171,7 @@ jobs:
           git add data/processed/openings_ts.csv \
                   data/output/forecasts.csv \
                   data/output/engine_delta.csv \
-                  data/openings_catalog.csv \
-                  data/output/long_tail_stats.csv
+                  data/openings_catalog.csv
           git diff --cached --quiet || git commit -m "chore: auto-update $(date +%Y-%m)"
           git push
 
