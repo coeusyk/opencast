@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Opening Detail — OpenCast</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&family=Roboto+Slab:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/shared.css">
+    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+</head>
+<body style="background:#121821; color:#E6EEF8; font-family:'Roboto Condensed', system-ui, sans-serif; margin:0;">
+
+<nav id="main-nav">
+  <span class="brand">OpenCast</span>
+  <a href="index.html">Overview</a>
+<a href="openings.html" class="active">Openings</a>
+<a href="families.html">Families</a>
+
+</nav>
+
+<main style="padding:2rem;">
+
+<h1 id="opening-title">Opening Detail</h1>
+<p style="margin:0 0 1rem 0;">
+  <a href="openings.html" style="color:#9FB0C3; text-decoration:none; font-size:0.85rem;">← All openings</a>
+</p>
+<div id="opening-narrative" class="narrative"><p></p></div>
+<div id="opening-chart"></div>
+<div id="engine-box" class="engine-box" style="display:none;"></div>
+
+<script>
+let openingsDataCache = null;
+const ECO_COLORS = {"A": "#7CC7FF", "B": "#7BE495", "C": "#F6C177", "D": "#F28DA6", "E": "#B9A5FF"};
+const PANEL_BG = "#121821";
+const GRID_COLOR = "rgba(148, 163, 184, 0.18)";
+const TEXT_PRIMARY = "#E6EEF8";
+const TEXT_SECONDARY = "#9FB0C3";
+const BODY_FONT = "'Roboto Condensed', system-ui, sans-serif";
+const DISPLAY_FONT = "'Roboto Slab', Georgia, serif";
+const FALLBACK_NARRATIVE = "No analysis available yet.";
+
+function hexToRgba(hexColor, alpha) {
+  const h = hexColor.replace("#", "");
+  const r = parseInt(h.slice(0, 2), 16);
+  const g = parseInt(h.slice(2, 4), 16);
+  const b = parseInt(h.slice(4, 6), 16);
+  return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+}
+
+async function loadOpeningsData() {
+  if (openingsDataCache) {
+    return openingsDataCache;
+  }
+  const response = await fetch("assets/openings_data.json", { cache: "no-store" });
+  if (!response.ok) {
+    throw new Error(`Failed to load openings_data.json (${response.status})`);
+  }
+  openingsDataCache = await response.json();
+  return openingsDataCache;
+}
+
+function resolveEco(data) {
+  const ecos = Object.keys(data);
+  if (!ecos.length) {
+    return null;
+  }
+  const requested = new URLSearchParams(window.location.search).get("eco");
+  if (requested && data[requested]) {
+    return requested;
+  }
+  return ecos[0];
+}
+
+function renderOpening(eco, opening) {
+  const name = opening.name || eco;
+  document.getElementById("opening-title").textContent = `${name} (${eco})`;
+  document.title = `${eco} — ${name} | OpenCast`;
+
+  const narrativeEl = document.querySelector("#opening-narrative p");
+  const narrative = opening.narrative || FALLBACK_NARRATIVE;
+  narrativeEl.textContent = narrative;
+  narrativeEl.style.color = narrative === FALLBACK_NARRATIVE ? TEXT_SECONDARY : TEXT_PRIMARY;
+
+  const color = ECO_COLORS[(opening.eco_group || eco.charAt(0) || "").toUpperCase()] || "#57C7FF";
+  const actuals = opening.actuals || [];
+  const forecasts = opening.forecast || [];
+
+  const traces = [
+    {
+      x: actuals.map((d) => d.month),
+      y: actuals.map((d) => d.win_rate),
+      mode: "lines",
+      name: "Actual",
+      line: { color, width: 2 },
+      type: "scatter",
+    },
+  ];
+
+  if (forecasts.length) {
+    traces.push({
+      x: forecasts.map((d) => d.month),
+      y: forecasts.map((d) => d.value),
+      mode: "lines",
+      name: "Forecast",
+      line: { color, width: 1.5, dash: "dash" },
+      type: "scatter",
+    });
+
+    traces.push({
+      x: forecasts.map((d) => d.month).concat(forecasts.map((d) => d.month).slice().reverse()),
+      y: forecasts.map((d) => d.upper).concat(forecasts.map((d) => d.lower).slice().reverse()),
+      fill: "toself",
+      fillcolor: hexToRgba(color, 0.12),
+      line: { color: "rgba(0,0,0,0)" },
+      showlegend: false,
+      name: "95% CI",
+      type: "scatter",
+    });
+  }
+
+  const layout = {
+    title: `${eco} — ${name}`,
+    xaxis: { title: "Month", gridcolor: GRID_COLOR, zerolinecolor: GRID_COLOR, tickfont: { color: TEXT_SECONDARY } },
+    yaxis: { title: "White Win Rate", gridcolor: GRID_COLOR, zerolinecolor: GRID_COLOR, tickfont: { color: TEXT_SECONDARY } },
+    plot_bgcolor: PANEL_BG,
+    paper_bgcolor: PANEL_BG,
+    font: { family: BODY_FONT, color: TEXT_PRIMARY },
+    title_font: { family: DISPLAY_FONT, size: 18, color: TEXT_PRIMARY },
+    margin: { t: 60, r: 30, b: 60, l: 60 },
+  };
+
+  Plotly.newPlot("opening-chart", traces, layout, { responsive: true }).then(() => {
+    const shapes = (opening.structural_breaks || []).map((month) => ({
+      type: "line",
+      x0: month,
+      x1: month,
+      y0: 0,
+      y1: 1,
+      yref: "paper",
+      line: { color, dash: "dot", width: 1 },
+    }));
+    Plotly.relayout("opening-chart", { shapes });
+  });
+
+  const engineBox = document.getElementById("engine-box");
+  const hasEngine =
+    opening.engine_cp !== null &&
+    opening.p_engine !== null &&
+    opening.human_win_rate !== null &&
+    opening.delta !== null;
+
+  if (!hasEngine) {
+    engineBox.style.display = "none";
+    engineBox.innerHTML = "";
+    return;
+  }
+
+  const cp = Number(opening.engine_cp);
+  const pEngine = Number(opening.p_engine);
+  const human = Number(opening.human_win_rate);
+  const delta = Number(opening.delta);
+  const interpretation = opening.interpretation || "";
+
+  engineBox.style.display = "block";
+  engineBox.innerHTML = `
+    <h3>Engine Evaluation</h3>
+    <p>Stockfish depth-20: <strong>${cp >= 0 ? "+" : ""}${cp} cp</strong> → P(white wins) = ${pEngine.toFixed(3)}</p>
+    <p>Human win rate (2000+): ${human.toFixed(3)}</p>
+    <p>Delta: <strong>${delta >= 0 ? "+" : ""}${delta.toFixed(3)}</strong>${interpretation ? ` — ${interpretation}` : ""}</p>
+  `;
+}
+
+async function init() {
+  try {
+    const data = await loadOpeningsData();
+    const eco = resolveEco(data);
+    if (!eco) {
+      document.getElementById("opening-title").textContent = "No opening data available";
+      return;
+    }
+    renderOpening(eco, data[eco]);
+  } catch (error) {
+    document.getElementById("opening-title").textContent = "Failed to load opening data";
+    const narrativeEl = document.querySelector("#opening-narrative p");
+    narrativeEl.textContent = String(error);
+    narrativeEl.style.color = TEXT_SECONDARY;
+  }
+}
+
+init();
+</script>
+
+</main>
+<script src="assets/nav.js"></script>
+</body>
+</html>

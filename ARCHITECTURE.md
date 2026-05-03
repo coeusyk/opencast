@@ -33,7 +33,7 @@ Lichess Opening Explorer API
               centipawn scores ──▶  data/output/engine_delta.csv
         │
         ▼
-  [Visualizer]  ──── 3-panel Plotly HTML dashboard
+  [Visualizer]  ──── multi-page static site (data/output/dashboard/)
 ```
 
 **Key API constraint:** Lichess Explorer supports `since` and `until` as `YYYY-MM`
@@ -57,16 +57,30 @@ opencast/
 │   ├── raw/                   ← JSON files from Rust fetcher (one per opening/month)
 │   ├── processed/
 │   │   └── openings_ts.csv    ← (month, eco, opening_name, rating, white, draws, black, total)
+│   ├── openings_catalog.csv   ← canonical opening catalogue with tier flags
 │   └── output/
-│       ├── forecasts.csv      ← ARIMA forecasts with confidence intervals
-│       └── engine_delta.csv   ← centipawn vs human win rate delta per opening
+│       ├── forecasts.csv      ← ARIMA / HW forecasts with confidence intervals
+│       ├── engine_delta.csv   ← centipawn vs human win rate delta per opening
+│       ├── long_tail_stats.csv ← descriptive stats for long-tail openings
+│       └── dashboard/         ← multi-page static site (served as GitHub Pages)
+│           ├── index.html     ← overview: headline insights + 3 panels
+│           ├── openings.html  ← sortable table of all openings
+│           ├── families.html  ← ECO family summary
+│           ├── opening_*.html ← per-opening detail pages (one per ECO)
+│           └── assets/
+│               ├── shared.css ← design tokens, nav, table, widget styles
+│               └── nav.js     ← active-link highlight script
 │
 ├── src/
 │   ├── __init__.py
 │   ├── ingest.py              ← reads data/raw/ JSONs → openings_ts.csv
-│   ├── timeseries.py          ← ARIMA fitting, forecasting, structural break detection
-│   ├── engine_delta.py        ← Stockfish eval → delta computation
-│   └── visualizer.py          ← Plotly 3-panel dashboard (exports .html)
+│   ├── select_openings.py     ← computes selection flags and model tiers
+│   ├── timeseries.py          ← ARIMA (Tier 1) + Holt-Winters (Tier 2) + break detection
+│   ├── engine_delta.py        ← Stockfish eval → delta computation (Tier 1 only)
+│   ├── visualizer.py          ← multi-page static site generator
+│   └── assets/
+│       ├── shared.css         ← design tokens + component styles (source)
+│       └── nav.js             ← active-nav script (source)
 │
 ├── openings.json              ← config: ECO codes to track + move-8 FENs
 ├── main.py                    ← orchestrator: runs all pipeline stages in order
@@ -116,6 +130,7 @@ with `?`, struct-based deserialization, file I/O with `std::fs`.
 ```
 INPUT  : data/raw/*.json
 OUTPUT : data/processed/openings_ts.csv
+         data/output/long_tail_stats.csv
 ```
 
 **Output schema:**
@@ -128,37 +143,65 @@ month | eco | opening_name | rating_bracket | white | draws | black | total | wh
 - Compute `white_win_rate = white / (white + draws + black)`
 - Drop rows where `total < 500` — statistically unreliable months
 - Flag months where `total < 2000` with a `low_confidence` boolean column
+- After writing `openings_ts.csv`, compute long-tail stats from catalog and write `long_tail_stats.csv`
+
+---
+
+### `src/select_openings.py` — Python
+
+**Responsibility:** Compute per-ECO selection flags and model tiers from time series
+data and merge them into `data/openings_catalog.csv`.
+
+**Interface:**
+```
+INPUT  : data/processed/openings_ts.csv
+         data/openings_catalog.csv
+OUTPUT : data/openings_catalog.csv (updated in-place)
+```
+
+**Selection rules:**
+- `is_tracked_core = True` if `avg_monthly_games ≥ 1000` AND `months_with_data ≥ 24`
+- `is_long_tail = True` if `avg_monthly_games ≥ 100` AND NOT `is_tracked_core`
+- `model_tier = 1` if `is_tracked_core`
+- `model_tier = 2` if `is_long_tail` AND `avg_monthly_games ≥ 500`
+- `model_tier = 3` if `is_long_tail` AND `avg_monthly_games < 500`
 
 ---
 
 ### `src/timeseries.py` — Python (primary differentiator)
 
-**Responsibility:** Fit ARIMA models on monthly win rate series and forecast
-3 months ahead. Detect structural breaks (regime changes in opening popularity).
+**Responsibility:** Fit models on monthly win rate series and forecast 3 months
+ahead. Dispatches to different model tiers based on opening data volume.
 
 **Interface:**
 ```
 INPUT  : data/processed/openings_ts.csv
+         data/openings_catalog.csv
 OUTPUT : data/output/forecasts.csv
 ```
 
 **Output schema:**
 ```
-eco | opening_name | month | actual | forecast | lower_ci | upper_ci | is_forecast
+eco | opening_name | month | actual | forecast | lower_ci | upper_ci | is_forecast | structural_break | model_tier
 ```
 
-**Pipeline per opening:**
-1. Extract monthly `white_win_rate` series (min 24 data points required)
-2. ADF test for stationarity — first-difference if non-stationary (d=1)
-3. Fit `ARIMA(p,d,q)` via `pmdarima.auto_arima` (information criterion: AIC)
-4. Forecast 3 months ahead with 95% confidence intervals
-5. Structural break detection via `statsmodels` Chow test at each month
-6. Ljung-Box test on residuals — log warning if autocorrelation remains
+**Tier structure:**
+
+| Tier | Model | Extras | Condition |
+|---|---|---|---|
+| 1 | ARIMA (auto, AIC) | Chow break test + Ljung-Box | `model_tier == 1` |
+| 2 | Holt-Winters (`trend='add'`, no seasonality) | CI = ±1.96 × residual std | `model_tier == 2` |
+| 3 | Skipped | Descriptive stats only (logged) | `model_tier == 3` |
+
+**Per-ECO timing:** each ECO is timed with `time.perf_counter()`; a warning is
+logged if a single ECO exceeds 60s.
+
+**Summary log:**
+```
+Timeseries: N openings processed in X.Xs (Tier1: Xs avg, Tier2: Xs avg)
+```
 
 **Libraries:** `pmdarima`, `statsmodels`, `pandas`, `numpy`
-
-**Mathematical note:** Win probability from engine centipawn score uses the
-standard sigmoid transformation applied in engine delta module (see below).
 
 ---
 
@@ -172,6 +215,7 @@ actual human win rates.
 ```
 INPUT  : openings.json (ECO → FEN after move 8)
          data/processed/openings_ts.csv (for human win rates at 2000+ bracket)
+         data/openings_catalog.csv
 OUTPUT : data/output/engine_delta.csv
 ```
 
@@ -179,6 +223,11 @@ OUTPUT : data/output/engine_delta.csv
 ```
 eco | opening_name | engine_cp | p_engine | human_win_rate_2000 | delta | interpretation
 ```
+
+**Tier filtering:** Only evaluates ECOs with `model_tier == 1`.
+
+**Timing guardrail:** Total evaluation time is measured; a warning is logged if it
+exceeds 300s (5 min budget).
 
 **Centipawn → probability conversion:**
 
@@ -200,32 +249,50 @@ depth 20, hash 256MB.
 
 ### `src/visualizer.py` — Python
 
-**Responsibility:** Produce a 3-panel Plotly HTML dashboard from output CSVs.
+**Responsibility:** Generate a multi-page static HTML site from output CSVs.
+All pages share a navigation bar and design token set.
 
 **Interface:**
 ```
-INPUT  : data/output/forecasts.csv, data/output/engine_delta.csv
-OUTPUT : data/output/dashboard.html
+INPUT  : data/output/forecasts.csv
+         data/output/engine_delta.csv
+         data/openings_catalog.csv
+         findings/findings.json          (optional; graceful degradation if absent)
+OUTPUT : data/output/dashboard/          (directory; served as GitHub Pages root)
 ```
 
-**Panel 1 — Forecast chart (line + shaded CI)**
-- X: month, Y: white_win_rate
-- Solid line for actuals, dashed for forecast, shaded band for 95% CI
-- One trace per opening (5 openings max for readability)
-- Annotate detected structural breaks with vertical dashed lines
+**Page structure:**
 
-**Panel 2 — Engine delta scatter (bubble chart)**
-- X: engine centipawn score, Y: human win rate at 2000+
-- Diagonal reference line = "engine-expected" win rate
-- Bubble size = total game volume; color = ECO category (A/B/C/D/E)
-- Openings above the line: human skill amplifiers
-- Openings below the line: theory-heavy, engine-correct
+| File | Purpose |
+|---|---|
+| `index.html` | Overview: headline insights from findings.json + 3 Plotly panels |
+| `openings.html` | Sortable table of all openings with last win rate and engine delta |
+| `families.html` | ECO family summary (A–E) with avg win rate |
+| `opening_{ECO}.html` | Per-opening detail: Plotly forecast, engine box, AI narrative |
+| `assets/shared.css` | Design tokens, nav, table, widget component styles |
+| `assets/nav.js` | Active-link highlight script |
 
-**Panel 3 — ECO heatmap by rating bracket**
-- Y: ECO category (A/B/C/D/E), X: rating bucket (1200/1500/1800/2000/2200/2500)
-- Cell value: average white_win_rate
-- Color scale: diverging Red-White-Green centered at 0.50
-- Reveals which opening categories only work at low ELO
+**Render functions:**
+- `render_overview(forecasts, engine_df, findings_json)` → `index.html`
+- `render_openings_table(forecasts, engine_df, catalog)` → `openings.html`
+- `render_families(forecasts)` → `families.html`
+- `render_opening_page(eco, forecasts, engine_df, findings_json)` → `opening_{eco}.html`
+- `run_visualizer()` — orchestrates all four renders + asset copy
+
+**Design tokens** (preserved):
+```python
+PANEL_BG = "#121821"; GRID_COLOR = "rgba(148, 163, 184, 0.18)"; TEXT_PRIMARY = "#E6EEF8"
+TEXT_SECONDARY = "#9FB0C3"; ACCENT = "#57C7FF"
+ECO_COLORS = {"A":"#7CC7FF","B":"#7BE495","C":"#F6C177","D":"#F28DA6","E":"#B9A5FF"}
+BODY_FONT = "'DM Sans', system-ui, sans-serif"
+DISPLAY_FONT = "'DM Serif Display', Georgia, serif"
+```
+
+**`findings.json` contract for per-opening narratives:**
+```json
+{ "per_opening": { "B20": "narrative text ...", ... } }
+```
+Falls back to "No analysis available yet." if the key is absent.
 
 ---
 
@@ -239,6 +306,7 @@ already exists (avoid re-fetching).
 STAGES = {
     "fetch"   : True,   # set False after first run
     "ingest"  : True,
+    "select"  : True,
     "ts"      : True,
     "engine"  : True,
     "viz"     : True,
@@ -265,50 +333,6 @@ Covers 20 openings across ECO categories A–E, including:
 Sicilian Defense, London System, King's Indian Defense, Caro-Kann,
 Queen's Gambit Declined, Ruy Lopez, French Defense, King's Gambit,
 Dutch Defense, English Opening.
-
----
-
-## Task Breakdown
-
-### Phase 1 — Setup (Day 1)
-- [x] `cargo new fetcher` — init Rust project
-- [x] Add `reqwest`, `tokio`, `serde`, `serde_json`, `clap` to `Cargo.toml`
-- [x] Populate `openings.json` with 20 ECO codes and their move-8 FENs
-- [x] Create `data/raw/`, `data/processed/`, `data/output/` directories
-
-### Phase 2 — Rust Fetcher (Day 2–3)
-- [x] Write `models.rs`: serde structs matching Lichess Explorer API response
-- [x] Write `client.rs`: async GET with query params + 1s rate limit sleep
-- [x] Write `main.rs`: loop openings × months, write JSON to `data/raw/`
-- [x] Test against one opening (Sicilian, B20) before full batch run
-- [x] Full batch run: 20 openings × 39 months (2023-01 → 2026-03) = 780 JSON files
-
-### Phase 3 — Ingestion (Day 4)
-- [x] Write `ingest.py`: JSON → `openings_ts.csv` with schema above
-- [x] Filter low-confidence months (`total < 500`)
-- [x] Sanity-check: win rates confirmed in 0.46–0.51 range across all 20 openings
-
-### Phase 4 — ARIMA (Day 5–6)
-- [x] Write `timeseries.py`: ADF → auto_arima → forecast → break detection
-- [x] Validate residuals with Ljung-Box test for each fitted model (all 20 pass)
-- [x] Write `forecasts.csv` (840 rows: 780 actual + 60 forecast)
-
-### Phase 5 — Engine Delta (Day 7)
-- [x] Install Stockfish 16 binary (`/usr/games/stockfish`), configure path
-- [x] Write `engine_delta.py`: replay UCI moves via python-chess → get FEN → Stockfish depth-20 eval
-- [x] Compute sigmoid probability and delta, write `engine_delta.csv` (20 rows)
-- **Results:** 8 openings engine-favoured (delta < −0.04) — D70 Grünfeld (−0.0644), B01 Scandinavian (−0.0581), B07 Pirc (−0.0558), B06 Modern (−0.0526), E60 King's Indian (−0.0501), C20 King's Gambit (−0.0465), C00 French (−0.0423), B20 Sicilian (−0.0447). No opening shows humans outperforming engine at 2000-rated blitz.
-
-### Phase 6 — Visualization (Day 8)
-- [x] Write `visualizer.py`: 3-panel Plotly dashboard as `dashboard.html` (31KB, CDN-hosted JS)
-- [x] Panel 1: Forecast line chart + shaded 95% CI for top-5 openings (B20, C44, C00, B12, A10), structural breaks as dotted vertical lines
-- [x] Panel 2: Bubble chart — engine cp vs human win rate, diagonal reference, bubble size = total volume
-- [x] Panel 3: ECO-category × month heatmap, diverging red-white-green at 0.50
-- [x] `main.py` orchestrator with stage flags already in place
-
-### Phase 7 — Documentation (Day 9)
-- [x] `README.md`: hypothesis + engine-delta findings table + structural break narrative per opening
-- [x] All phases documented with actual metrics in ARCHITECTURE.md
 
 ---
 
@@ -346,3 +370,7 @@ requests
 | ARIMA requires ≥ 24 data points per opening | Fetch from 2023-01 → 2026-03 (27 months) |
 | Stockfish must be installed locally | Document path config in README |
 | Opening Explorer FENs must match mainline exactly | Validate FENs in openings.json against Lichess Explorer UI |
+| Opening catalogue coverage | openings_catalog.csv drives all pipeline stages; openings absent from it are silently ignored |
+| Engine delta CI budget | Total Stockfish evaluation must complete in < 5 min; warning logged if exceeded |
+| Timeseries per-ECO budget | Each ECO must complete in < 60s; warning logged if exceeded |
+| GitHub Pages root path | deploy.yml uploads `data/output/dashboard/`; `index.html` is the Pages entry point |

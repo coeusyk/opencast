@@ -1,35 +1,27 @@
 import json
 import os
-from datetime import datetime, timezone
+from pathlib import Path
 
 import pandas as pd
 import plotly.graph_objects as go
 
 _HERE = os.path.dirname(__file__)
-FORECASTS_CSV   = os.path.join(_HERE, "..", "data", "output", "forecasts.csv")
-DELTA_CSV       = os.path.join(_HERE, "..", "data", "output", "engine_delta.csv")
-TS_CSV          = os.path.join(_HERE, "..", "data", "processed", "openings_ts.csv")
-OUTPUT_HTML     = os.path.join(_HERE, "..", "data", "output", "dashboard.html")
-FINDINGS_JSON   = os.path.join(_HERE, "..", "findings", "findings.json")
-FINDINGS_MD_REL = "../../findings/findings.md"  # relative path from data/output/ to findings/
+FORECASTS_CSV = os.path.join(_HERE, "..", "data", "output", "forecasts.csv")
+ENGINE_CSV = os.path.join(_HERE, "..", "data", "output", "engine_delta.csv")
+CATALOG_CSV = os.path.join(_HERE, "..", "data", "openings_catalog.csv")
+FINDINGS_JSON = os.path.join(_HERE, "..", "findings", "findings.json")
+OUTPUT_DIR = os.path.join(_HERE, "..", "data", "output", "dashboard")
+ASSETS_DIR = os.path.join(OUTPUT_DIR, "assets")
 
-# Dashboard design tokens
+# -- Design tokens -------------------------------------------------------------
 PANEL_BG = "#121821"
 GRID_COLOR = "rgba(148, 163, 184, 0.18)"
 TEXT_PRIMARY = "#E6EEF8"
 TEXT_SECONDARY = "#9FB0C3"
 ACCENT = "#57C7FF"
-
-ECO_COLORS = {
-    "A": "#7CC7FF",
-    "B": "#7BE495",
-    "C": "#F6C177",
-    "D": "#F28DA6",
-    "E": "#B9A5FF",
-}
-
-PANEL1_ECOS = ["B20", "C44", "C00", "B12", "A10"]
-LINE_COLORS = ["#57C7FF", "#7BE495", "#F6C177", "#F28DA6", "#B9A5FF"]
+ECO_COLORS = {"A": "#7CC7FF", "B": "#7BE495", "C": "#F6C177", "D": "#F28DA6", "E": "#B9A5FF"}
+BODY_FONT = "'Roboto Condensed', system-ui, sans-serif"
+DISPLAY_FONT = "'Roboto Slab', Georgia, serif"
 
 FORECAST_COLUMNS = [
     "eco",
@@ -41,794 +33,751 @@ FORECAST_COLUMNS = [
     "upper_ci",
     "is_forecast",
     "structural_break",
+    "model_tier",
 ]
 
-BODY_FONT = "'DM Sans', system-ui, sans-serif"
-DISPLAY_FONT = "'DM Serif Display', Georgia, serif"
+PANEL1_ECOS = ["B20", "C44", "C00", "B12", "A10"]
+LINE_COLORS = ["#57C7FF", "#7BE495", "#F6C177", "#F28DA6", "#B9A5FF"]
+
+
+# -- Private helpers -----------------------------------------------------------
+def _hex_to_rgba(hex_color: str, alpha: float = 0.12) -> str:
+    """Convert hex color (e.g., '#57C7FF') to RGBA string (e.g., 'rgba(87, 199, 255, 0.12)')."""
+    h = hex_color.lstrip("#")
+    r, g, b = int(h[0:2], 16), int(h[2:4], 16), int(h[4:6], 16)
+    return f"rgba({r}, {g}, {b}, {alpha})"
 
 
 def _apply_plotly_typography(fig: go.Figure, title_size: int) -> None:
     fig.update_layout(
-        font=dict(
-            family=BODY_FONT,
-            size=12,
-        ),
-        title=dict(
-            font=dict(
-                family=DISPLAY_FONT,
-                size=title_size,
-            )
-        ),
+        font=dict(family=BODY_FONT, color=TEXT_PRIMARY),
+        title_font=dict(family=DISPLAY_FONT, size=title_size, color=TEXT_PRIMARY),
+        plot_bgcolor=PANEL_BG,
+        paper_bgcolor=PANEL_BG,
     )
-    if fig.layout.annotations:  # type: ignore[attr-defined]
-        for annotation in fig.layout.annotations:  # type: ignore[attr-defined]
-            annotation.font = dict(
-                family=DISPLAY_FONT,
-                size=14,
-                color=annotation.font.color if annotation.font and annotation.font.color else TEXT_SECONDARY,
-            )
+    fig.update_xaxes(
+        gridcolor=GRID_COLOR,
+        zerolinecolor=GRID_COLOR,
+        tickfont=dict(color=TEXT_SECONDARY),
+    )
+    fig.update_yaxes(
+        gridcolor=GRID_COLOR,
+        zerolinecolor=GRID_COLOR,
+        tickfont=dict(color=TEXT_SECONDARY),
+    )
 
 
 def _safe_read_forecasts() -> pd.DataFrame:
     try:
-        forecasts = pd.read_csv(
-            FORECASTS_CSV,
-            converters={
-                "is_forecast": lambda value: str(value).strip().lower() == "true",
-                "structural_break": lambda value: str(value).strip().lower() == "true",
-            },
-        )
-    except pd.errors.EmptyDataError:
-        forecasts = pd.DataFrame(columns=FORECAST_COLUMNS)
-
-    if forecasts.empty:
-        forecasts = pd.DataFrame(columns=FORECAST_COLUMNS)
+        df = pd.read_csv(FORECASTS_CSV)
+    except Exception:
+        return pd.DataFrame(columns=FORECAST_COLUMNS)
 
     for col in FORECAST_COLUMNS:
-        if col not in forecasts.columns:
-            forecasts[col] = pd.Series(dtype="object")
-    return forecasts
+        if col not in df.columns:
+            df[col] = None
+    return df
 
 
-def _top5_by_volume(ts: pd.DataFrame) -> list:
-    """Return the 5 ECO codes with the highest total game count."""
-    if ts.empty:
-        return PANEL1_ECOS
-    return ts.groupby("eco")["total"].sum().nlargest(5).index.tolist()
+def _top5_by_volume(forecasts: pd.DataFrame) -> list[str]:
+    actuals = forecasts[forecasts["is_forecast"] == False].copy()
+    if actuals.empty or "actual" not in actuals.columns:
+        return PANEL1_ECOS[:]
+
+    top = actuals.groupby("eco")["actual"].count().nlargest(5).index.tolist()
+    return top if top else PANEL1_ECOS[:]
 
 
-def _build_panel1_figure(forecasts: pd.DataFrame, panel1_ecos: list) -> go.Figure:
-    """Forecast + CI ribbon for top openings."""
+def _build_panel1_figure(forecasts: pd.DataFrame) -> go.Figure:
     fig = go.Figure()
-    has_series = False
+    top_ecos = _top5_by_volume(forecasts)
 
-    for i, eco in enumerate(panel1_ecos):
-        df = forecasts[forecasts["eco"] == eco].sort_values("month")
-        if df.empty:
+    for eco, color in zip(top_ecos, LINE_COLORS):
+        grp = forecasts[forecasts["eco"] == eco].copy()
+        if grp.empty:
             continue
-        has_series = True
-        name = df["opening_name"].iloc[0]
-        color = LINE_COLORS[i]
 
-        actual = df[~df["is_forecast"]]
-        fcast  = df[df["is_forecast"]]
+        grp["month"] = pd.to_datetime(grp["month"])
+        grp = grp.sort_values("month")
+        actuals = grp[grp["is_forecast"] == False]
+        fc_rows = grp[grp["is_forecast"] == True]
 
-        if not actual.empty:
-            fig.add_trace(go.Scatter(
-                x=actual["month"], y=actual["actual"],
-                mode="lines", name=f"{eco} {name}",
-                line=dict(color=color, width=2.5),
-                legendgroup=eco, showlegend=True,
-                hovertemplate=(
-                    f"<b>{eco} {name}</b><br>Month: %{{x}}"
-                    "<br>Win rate: %{y:.3f}<extra></extra>"
-                ),
-            ))
+        fig.add_trace(
+            go.Scatter(
+                x=actuals["month"],
+                y=actuals["actual"],
+                name=eco,
+                mode="lines",
+                line=dict(color=color, width=2),
+            )
+        )
 
-        if not fcast.empty:
-            fig.add_trace(go.Scatter(
-                x=pd.concat([fcast["month"], fcast["month"][::-1]]),
-                y=pd.concat([fcast["upper_ci"], fcast["lower_ci"][::-1]]),
-                fill="toself",
-                fillcolor=(
-                    f"rgba({int(color[1:3], 16)},"
-                    f"{int(color[3:5], 16)},"
-                    f"{int(color[5:7], 16)},0.14)"
-                ),
-                line=dict(color="rgba(255,255,255,0)"),
-                hoverinfo="skip", showlegend=False,
-                legendgroup=eco,
-            ))
-
-            fig.add_trace(go.Scatter(
-                x=fcast["month"], y=fcast["forecast"],
-                mode="lines", name=f"{eco} forecast",
-                line=dict(color=color, width=2, dash="dot"),
-                legendgroup=eco, showlegend=False,
-                hovertemplate=(
-                    f"<b>{eco} forecast</b><br>Month: %{{x}}"
-                    "<br>Forecast: %{y:.3f}<extra></extra>"
-                ),
-            ))
-
-        if not actual.empty:
-            breaks = actual[actual["structural_break"]]["month"].tolist()
-            for bm in breaks:
-                fig.add_vline(
-                    x=bm,
-                    line_width=1,
-                    line_dash="dot",
-                    line_color="rgba(196, 204, 216, 0.28)",
+        if not fc_rows.empty:
+            fig.add_trace(
+                go.Scatter(
+                    x=fc_rows["month"],
+                    y=fc_rows["forecast"],
+                    name=f"{eco} forecast",
+                    mode="lines",
+                    line=dict(color=color, dash="dash", width=1.5),
+                    showlegend=False,
                 )
+            )
+            fig.add_trace(
+                go.Scatter(
+                    x=pd.concat([fc_rows["month"], fc_rows["month"].iloc[::-1]]),
+                    y=pd.concat([fc_rows["upper_ci"], fc_rows["lower_ci"].iloc[::-1]]),
+                    fill="toself",
+                    fillcolor=_hex_to_rgba(color),
+                    line=dict(color="rgba(0,0,0,0)"),
+                    showlegend=False,
+                    name=f"{eco} CI",
+                )
+            )
 
-    if not has_series:
-        fig.add_annotation(
-            text="No forecast series available yet",
-            x=0.5,
-            y=0.5,
-            xref="paper",
-            yref="paper",
-            showarrow=False,
-            font=dict(color=TEXT_SECONDARY, size=14),
-        )
+        breaks = actuals[actuals["structural_break"] == True]["month"]
+        for brk in breaks:
+            fig.add_vline(
+                x=brk.timestamp() * 1000,
+                line=dict(color=color, dash="dot", width=1),
+            )
 
     fig.update_layout(
-        title=dict(
-            text="Win-Rate Forecasts (Top Openings by Volume)",
-            x=0.0,
-            y=0.97,
-            font=dict(size=18, color=TEXT_PRIMARY),
-        ),
-        paper_bgcolor="rgba(0,0,0,0)",
-        plot_bgcolor=PANEL_BG,
-        margin=dict(l=58, r=28, t=70, b=56),
-        height=500,
-        legend=dict(
-            orientation="h",
-            yanchor="bottom",
-            y=1.01,
-            xanchor="left",
-            x=0,
-            font=dict(color=TEXT_SECONDARY, size=11),
-            bgcolor="rgba(0,0,0,0)",
-            itemclick="toggle",
-        ),
-        hoverlabel=dict(
-            bgcolor="#111923",
-            bordercolor="#2B3747",
-            font=dict(color=TEXT_PRIMARY, size=12),
-        ),
+        title="Win Rate Forecast by Opening",
+        xaxis_title="Month",
+        yaxis_title="White Win Rate",
     )
-    _apply_plotly_typography(fig, 18)
-    fig.update_xaxes(
-        title_text="Month",
-        tickangle=-35,
-        gridcolor=GRID_COLOR,
-        linecolor="rgba(148, 163, 184, 0.34)",
-        tickfont=dict(color=TEXT_SECONDARY),
-        title_font=dict(color=TEXT_SECONDARY),
-    )
-    fig.update_yaxes(
-        title_text="White win rate",
-        tickformat=".1%",
-        gridcolor=GRID_COLOR,
-        linecolor="rgba(148, 163, 184, 0.34)",
-        tickfont=dict(color=TEXT_SECONDARY),
-        title_font=dict(color=TEXT_SECONDARY),
-    )
+    _apply_plotly_typography(fig, title_size=16)
     return fig
 
 
-def _build_panel2_figure(delta: pd.DataFrame, ts: pd.DataFrame) -> go.Figure:
-    """Bubble chart: engine cp vs human win rate."""
+def _build_panel2_figure(engine_df: pd.DataFrame) -> go.Figure:
     fig = go.Figure()
-
-    if delta.empty or ts.empty:
-        fig.add_annotation(
-            text="No engine-delta data available",
-            x=0.5,
-            y=0.5,
-            xref="paper",
-            yref="paper",
-            showarrow=False,
-            font=dict(color=TEXT_SECONDARY, size=14),
-        )
-        fig.update_layout(
-            title=dict(text="Engine vs Human Performance", x=0.0, font=dict(color=TEXT_PRIMARY, size=16)),
-            paper_bgcolor="rgba(0,0,0,0)",
-            plot_bgcolor=PANEL_BG,
-            margin=dict(l=58, r=28, t=68, b=56),
-            height=430,
-        )
-        _apply_plotly_typography(fig, 16)
+    if engine_df.empty:
+        _apply_plotly_typography(fig, title_size=16)
         return fig
 
-    volume = ts.groupby("eco")["total"].sum()
-    delta = delta.copy()
-    delta["volume"] = delta["eco"].map(volume)
-    delta["eco_cat"] = delta["eco"].str[0]
-    delta["color"] = delta["eco_cat"].map(ECO_COLORS)
-    delta = delta.sort_values("volume", ascending=False)
+    for eco_cat, color in ECO_COLORS.items():
+        sub = engine_df[engine_df["eco"].str.startswith(eco_cat)]
+        if sub.empty:
+            continue
 
-    vol_min = float(delta["volume"].min())
-    vol_max = float(delta["volume"].max())
-    span = max(vol_max - vol_min, 1.0)
-    delta["marker_size"] = 12 + ((delta["volume"] - vol_min) / span) ** 0.5 * 30
+        fig.add_trace(
+            go.Scatter(
+                x=sub["engine_cp"],
+                y=sub["human_win_rate_2000"],
+                mode="markers+text",
+                name=f"ECO {eco_cat}",
+                text=sub["eco"],
+                textposition="top center",
+                marker=dict(
+                    color=color,
+                    size=12,
+                    opacity=0.85,
+                    line=dict(width=1, color=PANEL_BG),
+                ),
+                hovertemplate="<b>%{text}</b><br>Engine cp: %{x}<br>Human win rate: %{y:.3f}<br><extra></extra>",
+            )
+        )
 
-    label_ecos = set(delta.head(8)["eco"].tolist())
-    delta["label"] = delta["eco"].where(delta["eco"].isin(label_ecos), "")
-
-    import math
-    cp_range = list(range(-80, 81, 5))
-    p_range = [1.0 / (1.0 + math.exp(-cp / 400)) for cp in cp_range]
-
-    fig.add_trace(go.Scatter(
-        x=cp_range,
-        y=p_range,
-        mode="lines",
-        name="Engine expected baseline",
-        line=dict(color="rgba(230, 238, 248, 0.48)", width=1.8, dash="dot"),
-        hovertemplate="Engine baseline<extra></extra>",
-    ))
-
-    fig.add_trace(go.Scatter(
-        x=delta["engine_cp"],
-        y=delta["human_win_rate_2000"],
-        mode="markers+text",
-        text=delta["label"],
-        textposition="top center",
-        textfont=dict(color="#DEE8F5", size=11),
-        marker=dict(
-            size=delta["marker_size"],
-            color=delta["color"],
-            opacity=0.88,
-            line=dict(width=1.1, color="rgba(8, 11, 16, 0.85)"),
-        ),
-        customdata=delta[["eco", "opening_name", "delta", "volume"]],
-        hovertemplate=(
-            "<b>%{customdata[0]} - %{customdata[1]}</b>"
-            "<br>Engine cp: %{x}"
-            "<br>Human WR: %{y:.3f}"
-            "<br>Delta: %{customdata[2]:+.4f}"
-            "<br>Total games: %{customdata[3]:,.0f}<extra></extra>"
-        ),
-        name="Opening",
-        showlegend=False,
-    ))
+    cp_range = list(range(-300, 301, 10))
+    ref_probs = [1.0 / (1.0 + 10 ** (-cp / 400)) for cp in cp_range]
+    fig.add_trace(
+        go.Scatter(
+            x=cp_range,
+            y=ref_probs,
+            mode="lines",
+            name="Engine expected",
+            line=dict(color=TEXT_SECONDARY, dash="dash", width=1),
+        )
+    )
 
     fig.update_layout(
-        title=dict(
-            text="Engine Centipawn vs Human Win Rate",
-            x=0.0,
-            y=0.96,
-            font=dict(size=16, color=TEXT_PRIMARY),
-        ),
-        paper_bgcolor="rgba(0,0,0,0)",
-        plot_bgcolor=PANEL_BG,
-        margin=dict(l=58, r=24, t=68, b=56),
-        height=430,
-        hoverlabel=dict(
-            bgcolor="#111923",
-            bordercolor="#2B3747",
-            font=dict(color=TEXT_PRIMARY, size=12),
-        ),
+        title="Engine Delta: Human vs Engine Win Rate",
+        xaxis_title="Engine centipawn score",
+        yaxis_title="Human win rate (2000+)",
     )
-    _apply_plotly_typography(fig, 16)
-    fig.update_xaxes(
-        title_text="Engine centipawn (white advantage)",
-        gridcolor=GRID_COLOR,
-        zerolinecolor="rgba(230, 238, 248, 0.30)",
-        linecolor="rgba(148, 163, 184, 0.34)",
-        tickfont=dict(color=TEXT_SECONDARY),
-        title_font=dict(color=TEXT_SECONDARY),
-    )
-    fig.update_yaxes(
-        title_text="Human win rate (2000 blitz)",
-        tickformat=".1%",
-        gridcolor=GRID_COLOR,
-        zerolinecolor="rgba(230, 238, 248, 0.30)",
-        linecolor="rgba(148, 163, 184, 0.34)",
-        tickfont=dict(color=TEXT_SECONDARY),
-        title_font=dict(color=TEXT_SECONDARY),
-    )
+    _apply_plotly_typography(fig, title_size=16)
     return fig
 
 
-def _build_panel3_figure(ts: pd.DataFrame) -> go.Figure:
-    """ECO × month heatmap of average white_win_rate."""
+def _build_panel3_figure(forecasts: pd.DataFrame) -> go.Figure:
     fig = go.Figure()
-
-    if ts.empty:
-        fig.add_annotation(
-            text="No heatmap data available",
-            x=0.5,
-            y=0.5,
-            xref="paper",
-            yref="paper",
-            showarrow=False,
-            font=dict(color=TEXT_SECONDARY, size=14),
-        )
-        fig.update_layout(
-            title=dict(text="ECO Category Heatmap", x=0.0, font=dict(color=TEXT_PRIMARY, size=16)),
-            paper_bgcolor="rgba(0,0,0,0)",
-            plot_bgcolor=PANEL_BG,
-            margin=dict(l=58, r=24, t=68, b=70),
-            height=430,
-        )
-        _apply_plotly_typography(fig, 16)
+    actuals = forecasts[forecasts["is_forecast"] == False].copy()
+    if actuals.empty:
+        _apply_plotly_typography(fig, title_size=16)
         return fig
 
-    ts = ts.copy()
-    ts["eco_cat"] = ts["eco"].str[0]
-    pivot = ts.groupby(["month", "eco_cat"])["white_win_rate"].mean().reset_index()
-    pivot_wide = pivot.pivot(index="eco_cat", columns="month", values="white_win_rate")
+    actuals["eco_group"] = actuals["eco"].str[0]
+    pivot = (
+        actuals.groupby(["eco_group", "rating_bracket"])["actual"].mean().unstack(fill_value=None)
+        if "rating_bracket" in actuals.columns
+        else actuals.groupby("eco_group")["actual"].mean().to_frame()
+    )
 
-    fig.add_trace(go.Heatmap(
-        z=pivot_wide.values,
-        x=pivot_wide.columns.tolist(),
-        y=pivot_wide.index.tolist(),
-        colorscale=[
-            [0.0, "#1E3A8A"],
-            [0.45, "#0F172A"],
-            [0.50, "#334155"],
-            [0.65, "#0E7490"],
-            [1.0, "#34D399"],
-        ],
-        zmid=0.50,
-        zmin=0.46,
-        zmax=0.54,
-        colorbar=dict(
-            title=dict(text="White WR", font=dict(color=TEXT_SECONDARY)),
-            x=1.02,
-            thickness=12,
-            tickcolor=TEXT_SECONDARY,
-            tickfont=dict(color=TEXT_SECONDARY),
-        ),
-        hovertemplate="ECO cat: %{y}<br>Month: %{x}<br>Win rate: %{z:.4f}<extra></extra>",
-    ))
+    fig.add_trace(
+        go.Heatmap(
+            z=pivot.values,
+            x=[str(c) for c in pivot.columns],
+            y=list(pivot.index),
+            colorscale="RdYlGn",
+            zmid=0.50,
+            colorbar=dict(title="Win rate", tickfont=dict(color=TEXT_SECONDARY)),
+        )
+    )
 
     fig.update_layout(
-        title=dict(
-            text="ECO Category Heatmap by Month",
-            x=0.0,
-            y=0.96,
-            font=dict(size=16, color=TEXT_PRIMARY),
-        ),
-        paper_bgcolor="rgba(0,0,0,0)",
-        plot_bgcolor=PANEL_BG,
-        margin=dict(l=58, r=24, t=68, b=70),
-        height=430,
+        title="Average White Win Rate by ECO Family & Rating",
+        xaxis_title="Rating bracket",
+        yaxis_title="ECO family",
     )
-    _apply_plotly_typography(fig, 16)
-    fig.update_xaxes(
-        title_text="Month",
-        tickangle=-90,
-        nticks=10,
-        tickfont=dict(color=TEXT_SECONDARY),
-        title_font=dict(color=TEXT_SECONDARY),
-    )
-    fig.update_yaxes(
-        title_text="ECO category",
-        tickfont=dict(color=TEXT_SECONDARY),
-        title_font=dict(color=TEXT_SECONDARY),
-    )
+    _apply_plotly_typography(fig, title_size=16)
     return fig
 
 
 def _load_findings_json() -> dict | None:
-    """Load findings/findings.json if it exists; return None otherwise."""
     try:
         with open(FINDINGS_JSON, encoding="utf-8") as f:
             return json.load(f)
-    except FileNotFoundError:
-        return None
-    except Exception as exc:
-        import logging
-        logging.getLogger(__name__).warning("Could not load findings.json: %s", exc)
+    except Exception:
         return None
 
 
-def _build_dashboard_html(fig_forecast: go.Figure, fig_scatter: go.Figure, fig_heatmap: go.Figure,
-                          last_month: str, generated_at: str,
-                          findings: dict | None) -> str:
-    plot_config = {
-        "displayModeBar": False,
-        "responsive": True,
-        "scrollZoom": False,
-    }
+def _nav_html(current: str) -> str:
+    pages = [
+        ("index.html", "Overview"),
+        ("openings.html", "Openings"),
+        ("families.html", "Families"),
+    ]
+    links = ""
+    for href, label in pages:
+        active = ' class="active"' if href == current else ""
+        links += f'<a href="{href}"{active}>{label}</a>\n'
 
-    forecast_html = fig_forecast.to_html(full_html=False, include_plotlyjs="cdn", config=plot_config)
-    scatter_html = fig_scatter.to_html(full_html=False, include_plotlyjs=False, config=plot_config)
-    heatmap_html = fig_heatmap.to_html(full_html=False, include_plotlyjs=False, config=plot_config)
+    return f"""
+<nav id="main-nav">
+  <span class="brand">OpenCast</span>
+  {links}
+</nav>
+"""
 
-    # Inline findings.json as a JS variable for offline / GH Pages use
-    findings_js_var = "null"
-    if findings is not None:
-      findings_for_embed = {
-        key: value for key, value in findings.items() if key != "full_report_md"
-      }
-      findings_js_var = json.dumps(findings_for_embed, ensure_ascii=False)
 
-    # Report month display
-    report_month_display = findings["month"] if findings and "month" in findings else last_month
-
-    # ── Headline card ────────────────────────────────────────────────────────
-    headline_html = ""
-    if findings and findings.get("headline"):
-        headline_text = findings["headline"].replace("<", "&lt;").replace(">", "&gt;")
-        headline_html = f"""
-    <div class="headline-card">
-      <div class="headline-label">This month's key finding</div>
-      <p class="headline-text">{headline_text}</p>
-    </div>"""
-
-    # ── Panel insight cards ──────────────────────────────────────────────────
-    def _insight_card(panel_key: str, title: str) -> str:
-        if findings is None:
-            return ""
-        panel = findings.get("panels", {}).get(panel_key, {})
-        insight = panel.get("insight", "")
-        if not insight:
-            return ""
-        chips_html = ""
-        for chip_key in ("highlight_ecos", "outliers"):
-            chips = panel.get(chip_key, [])
-            if chips:
-                chip_items = "".join(f'<span class="eco-chip">{c}</span>' for c in chips)
-                chips_html = f'<div class="eco-chips">{chip_items}</div>'
-        insight_escaped = insight.replace("<", "&lt;").replace(">", "&gt;")
-        return f"""
-      <div class="insight-card">
-        <div class="insight-title">{title}</div>
-        <p class="insight-text">{insight_escaped}</p>
-        {chips_html}
-      </div>"""
-
-    forecast_insight = _insight_card("forecast", "Win-Rate Forecast")
-    scatter_insight  = _insight_card("engine_delta", "Engine vs Human Delta")
-    heatmap_insight  = _insight_card("heatmap", "ECO Category Heatmap")
-
-    return f"""<!doctype html>
+def _page_shell(title: str, nav_fragment: str, body: str, head_extras: str = "") -> str:
+    return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>OpenCast Dashboard</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{title} — OpenCast</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
-  <style>
-    :root {{
-      --bg: #0B1017;
-      --panel: #121821;
-      --panel-strong: #162030;
-      --text: #E6EEF8;
-      --muted: #9FB0C3;
-      --accent: #57C7FF;
-      --border: #253246;
-      --ring: rgba(87, 199, 255, 0.18);
-      --headline-bg: rgba(18, 32, 50, 0.85);
-      --headline-border: #57C7FF;
-      --insight-bg: rgba(14, 22, 34, 0.70);
-      --insight-border: #253246;
-      --chip-bg: rgba(87, 199, 255, 0.12);
-      --chip-text: #57C7FF;
-      --chip-border: rgba(87, 199, 255, 0.30);
-    }}
-
-    * {{ box-sizing: border-box; }}
-
-    body {{
-      margin: 0;
-      background: radial-gradient(1200px 700px at 0% -10%, #132238 0%, var(--bg) 54%);
-      color: var(--text);
-      font-family: {BODY_FONT};
-      -webkit-font-smoothing: antialiased;
-      text-rendering: optimizeLegibility;
-    }}
-
-    body, .plotly-graph-div {{
-      font-family: {BODY_FONT} !important;
-    }}
-
-    h1, .dashboard-title, .headline-text {{
-      font-family: {DISPLAY_FONT} !important;
-      font-weight: 400;
-      letter-spacing: -0.01em;
-    }}
-
-    h2, h3, .panel-title {{
-      font-family: {DISPLAY_FONT} !important;
-      font-weight: 400;
-    }}
-
-    .meta-bar, .meta-tag, .meta, .pill, .footer-note, .insight-text, .insight-title, .eco-chip, .headline-label {{
-      font-family: {BODY_FONT} !important;
-      font-weight: 300;
-    }}
-
-    .shell {{
-      width: min(1320px, 94vw);
-      margin: 28px auto 36px;
-    }}
-
-    /* ── Header ──────────────────────────────────────────────── */
-    .header {{
-      padding: 22px 24px;
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      background: linear-gradient(180deg, rgba(22, 32, 48, 0.92) 0%, rgba(18, 24, 33, 0.95) 100%);
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.22);
-    }}
-
-    .eyebrow {{
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--accent);
-      font-size: 11px;
-      margin-bottom: 10px;
-      font-weight: 600;
-    }}
-
-    .header h1 {{
-      margin: 0;
-      font-size: clamp(1.5rem, 2.6vw, 2.2rem);
-      line-height: 1.15;
-      font-family: {DISPLAY_FONT};
-      letter-spacing: 0.01em;
-    }}
-
-    .subtitle {{
-      margin-top: 10px;
-      color: var(--muted);
-      font-size: 0.98rem;
-      max-width: 78ch;
-    }}
-
-    .meta {{
-      margin-top: 16px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }}
-
-    .pill {{
-      border: 1px solid var(--border);
-      border-radius: 999px;
-      padding: 6px 10px;
-      font-size: 12px;
-      color: var(--muted);
-      background: rgba(10, 15, 22, 0.6);
-    }}
-
-    /* ── Headline card ───────────────────────────────────────── */
-    .headline-card {{
-      margin-top: 18px;
-      padding: 18px 22px;
-      border-left: 4px solid var(--headline-border);
-      border-radius: 10px;
-      background: var(--headline-bg);
-      border: 1px solid var(--border);
-      border-left: 4px solid var(--headline-border);
-      box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18);
-    }}
-
-    .headline-label {{
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--accent);
-      font-weight: 600;
-      margin-bottom: 8px;
-    }}
-
-    .headline-text {{
-      margin: 0;
-      font-size: 1.12rem;
-      line-height: 1.6;
-      color: var(--text);
-    }}
-
-    /* ── Grid + cards ────────────────────────────────────────── */
-    .grid {{
-      margin-top: 18px;
-      display: grid;
-      gap: 16px;
-      grid-template-columns: repeat(12, minmax(0, 1fr));
-    }}
-
-    .card {{
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      background: var(--panel);
-      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
-      padding: 12px;
-      overflow: hidden;
-    }}
-
-    .card.hero {{
-      grid-column: span 12;
-      background: linear-gradient(180deg, rgba(24, 35, 52, 0.95) 0%, rgba(18, 24, 33, 0.98) 100%);
-      border-color: #2A3B55;
-      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.28), inset 0 0 0 1px var(--ring);
-    }}
-
-    .card.half {{
-      grid-column: span 6;
-    }}
-
-    .plot-wrap {{
-      width: 100%;
-      min-height: 320px;
-    }}
-
-    .plot-wrap .js-plotly-plot,
-    .plot-wrap .plot-container,
-    .plot-wrap .svg-container {{
-      width: 100% !important;
-    }}
-
-    /* ── Per-panel insight card ──────────────────────────────── */
-    .insight-card {{
-      margin-top: 12px;
-      padding: 14px 16px;
-      border: 1px solid var(--insight-border);
-      border-left: 3px solid var(--accent);
-      border-radius: 8px;
-      background: var(--insight-bg);
-    }}
-
-    .insight-title {{
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 0.07em;
-      color: var(--accent);
-      font-weight: 600;
-      margin-bottom: 6px;
-    }}
-
-    .insight-text {{
-      margin: 0 0 8px 0;
-      font-size: 0.90rem;
-      line-height: 1.55;
-      color: var(--muted);
-    }}
-
-    .eco-chips {{
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-      margin-top: 4px;
-    }}
-
-    .eco-chip {{
-      padding: 2px 9px;
-      border-radius: 999px;
-      background: var(--chip-bg);
-      border: 1px solid var(--chip-border);
-      color: var(--chip-text);
-      font-size: 11px;
-      font-weight: 500;
-      letter-spacing: 0.04em;
-    }}
-
-    /* ── Footer ──────────────────────────────────────────────── */
-    .footer-note {{
-      margin-top: 18px;
-      padding: 14px 18px;
-      color: #7D8FA4;
-      font-size: 12px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 8px;
-    }}
-
-    .footer-note a {{
-      color: var(--accent);
-      text-decoration: none;
-      font-size: 12px;
-    }}
-
-    .footer-note a:hover {{
-      text-decoration: underline;
-    }}
-
-    @media (max-width: 1024px) {{
-      .shell {{ width: min(1100px, 96vw); }}
-      .card.half {{ grid-column: span 12; }}
-    }}
-
-    @media (max-width: 640px) {{
-      .shell {{ margin-top: 14px; }}
-      .header {{ padding: 16px 16px; border-radius: 12px; }}
-      .grid {{ gap: 12px; }}
-      .card {{ padding: 8px; border-radius: 12px; }}
-      .subtitle {{ font-size: 0.93rem; }}
-      .footer-note {{ justify-content: flex-start; }}
-    }}
-  </style>
-  <script>
-    // Inline findings data for offline / GitHub Pages use
-    window.__OPENCAST_FINDINGS__ = {findings_js_var};
-  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&family=Roboto+Slab:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/shared.css">
+    {head_extras}
 </head>
-<body>
-  <main class="shell">
-    <section class="header">
-      <div class="eyebrow">OpenCast intelligence</div>
-      <h1>OpenCast</h1>
-      <p class="subtitle">Chess Opening Analytics &middot; {report_month_display}</p>
-      <div class="meta">
-        <span class="pill">Source: Lichess Opening Explorer</span>
-        <span class="pill">Rating focus: 2000 blitz</span>
-        <span class="pill">Latest complete month: {last_month}</span>
-        <span class="pill">Generated: {generated_at}</span>
-      </div>
-    </section>
-{headline_html}
-    <section class="grid">
-      <article class="card hero">
-        <div class="plot-wrap">{forecast_html}</div>{forecast_insight}
-      </article>
-
-      <article class="card half">
-        <div class="plot-wrap">{scatter_html}</div>{scatter_insight}
-      </article>
-
-      <article class="card half">
-        <div class="plot-wrap">{heatmap_html}</div>{heatmap_insight}
-      </article>
-    </section>
-
-    <footer class="footer-note">
-      <span>OpenCast &middot; Static HTML export for GitHub Pages</span>
-      <a href="{FINDINGS_MD_REL}">Full findings report &rarr;</a>
-    </footer>
-  </main>
+<body style="background:{PANEL_BG}; color:{TEXT_PRIMARY}; font-family:{BODY_FONT}; margin:0;">
+{nav_fragment}
+<main style="padding:2rem;">
+{body}
+</main>
+<script src="assets/nav.js"></script>
 </body>
 </html>
 """
 
 
-def run_visualizer() -> None:
-    forecasts = _safe_read_forecasts()
-    delta     = pd.read_csv(DELTA_CSV)
-    ts        = pd.read_csv(TS_CSV)
+def _serialize_openings_data(
+    forecasts: pd.DataFrame,
+    engine_df: pd.DataFrame,
+    catalog: pd.DataFrame,
+    findings_json: dict | None,
+) -> dict[str, dict]:
+    fallback_narrative = "No analysis available yet."
+    per_opening = findings_json.get("per_opening", {}) if findings_json else {}
 
-    panel1_ecos = _top5_by_volume(ts)
+    ecos = catalog["eco"].astype(str).tolist() if (not catalog.empty and "eco" in catalog.columns) else []
+    if not ecos and not forecasts.empty and "eco" in forecasts.columns:
+        ecos = sorted(forecasts["eco"].dropna().astype(str).unique().tolist())
 
-    fig_forecast = _build_panel1_figure(forecasts, panel1_ecos)
-    fig_scatter = _build_panel2_figure(delta, ts)
-    fig_heatmap = _build_panel3_figure(ts)
+    serialized: dict[str, dict] = {}
 
-    latest_month = "n/a"
-    if not ts.empty and "month" in ts.columns:
-        latest_month = str(ts["month"].max())
+    for eco in ecos:
+        fc_eco = forecasts[forecasts["eco"] == eco].copy()
+        if not fc_eco.empty:
+            fc_eco = fc_eco.sort_values("month")
 
-    generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-
-    findings = _load_findings_json()
-    if findings is None:
-        import logging
-        logging.getLogger(__name__).info(
-            "findings.json not found — rendering dashboard without insight panels."
+        cat_row = catalog[catalog["eco"] == eco] if not catalog.empty else pd.DataFrame()
+        name = (
+            str(cat_row["name"].iloc[0])
+            if (not cat_row.empty and "name" in cat_row.columns)
+            else (str(fc_eco["opening_name"].iloc[0]) if not fc_eco.empty else eco)
         )
 
-    html = _build_dashboard_html(
-        fig_forecast,
-        fig_scatter,
-        fig_heatmap,
-        latest_month,
-        generated_at,
-        findings,
-    )
+        model_tier = None
+        if not cat_row.empty and "model_tier" in cat_row.columns:
+            try:
+                model_tier = int(cat_row["model_tier"].iloc[0])
+            except Exception:
+                model_tier = None
 
-    os.makedirs(os.path.dirname(OUTPUT_HTML), exist_ok=True)
-    with open(OUTPUT_HTML, "w", encoding="utf-8") as file:
-        file.write(html)
-    print(f"Dashboard written → {OUTPUT_HTML}")
+        actuals_rows = fc_eco[fc_eco["is_forecast"] == False] if not fc_eco.empty else pd.DataFrame()
+        forecast_rows = fc_eco[fc_eco["is_forecast"] == True] if not fc_eco.empty else pd.DataFrame()
+
+        actuals = []
+        for _, row in actuals_rows.iterrows():
+            if pd.notna(row.get("actual")):
+                actuals.append({"month": str(row["month"]), "win_rate": float(row["actual"])})
+
+        forecast = []
+        for _, row in forecast_rows.iterrows():
+            forecast.append(
+                {
+                    "month": str(row["month"]),
+                    "value": float(row["forecast"]) if pd.notna(row.get("forecast")) else None,
+                    "lower": float(row["lower_ci"]) if pd.notna(row.get("lower_ci")) else None,
+                    "upper": float(row["upper_ci"]) if pd.notna(row.get("upper_ci")) else None,
+                }
+            )
+
+        structural_breaks = []
+        if not fc_eco.empty and "structural_break" in fc_eco.columns:
+            structural_breaks = sorted(
+                fc_eco[fc_eco["structural_break"] == True]["month"].astype(str).dropna().unique().tolist()
+            )
+
+        ed_row = engine_df[engine_df["eco"] == eco] if not engine_df.empty else pd.DataFrame()
+        if ed_row.empty:
+            engine_cp = None
+            p_engine = None
+            human_win_rate = None
+            delta = None
+            interpretation = None
+        else:
+            engine_cp = int(ed_row["engine_cp"].iloc[0]) if pd.notna(ed_row["engine_cp"].iloc[0]) else None
+            p_engine = float(ed_row["p_engine"].iloc[0]) if pd.notna(ed_row["p_engine"].iloc[0]) else None
+            human_win_rate = (
+                float(ed_row["human_win_rate_2000"].iloc[0])
+                if pd.notna(ed_row["human_win_rate_2000"].iloc[0])
+                else None
+            )
+            delta = float(ed_row["delta"].iloc[0]) if pd.notna(ed_row["delta"].iloc[0]) else None
+            interpretation = (
+                str(ed_row["interpretation"].iloc[0]) if pd.notna(ed_row["interpretation"].iloc[0]) else None
+            )
+
+        narrative = per_opening.get(eco, fallback_narrative)
+        serialized[eco] = {
+            "name": name,
+            "eco_group": eco[0] if eco else None,
+            "model_tier": model_tier,
+            "actuals": actuals,
+            "forecast": forecast,
+            "structural_breaks": structural_breaks,
+            "engine_cp": engine_cp,
+            "p_engine": p_engine,
+            "human_win_rate": human_win_rate,
+            "delta": delta,
+            "interpretation": interpretation,
+            "narrative": str(narrative) if narrative is not None else fallback_narrative,
+        }
+
+    return serialized
+
+
+def render_opening_template() -> str:
+    body = f"""
+<h1 id="opening-title">Opening Detail</h1>
+<p style="margin:0 0 1rem 0;">
+  <a href="openings.html" style="color:{TEXT_SECONDARY}; text-decoration:none; font-size:0.85rem;">← All openings</a>
+</p>
+<div id="opening-narrative" class="narrative"><p></p></div>
+<div id="opening-chart"></div>
+<div id="engine-box" class="engine-box" style="display:none;"></div>
+
+<script>
+let openingsDataCache = null;
+const ECO_COLORS = {json.dumps(ECO_COLORS)};
+const PANEL_BG = "{PANEL_BG}";
+const GRID_COLOR = "{GRID_COLOR}";
+const TEXT_PRIMARY = "{TEXT_PRIMARY}";
+const TEXT_SECONDARY = "{TEXT_SECONDARY}";
+const BODY_FONT = {json.dumps(BODY_FONT)};
+const DISPLAY_FONT = {json.dumps(DISPLAY_FONT)};
+const FALLBACK_NARRATIVE = "No analysis available yet.";
+
+function hexToRgba(hexColor, alpha) {{
+  const h = hexColor.replace("#", "");
+  const r = parseInt(h.slice(0, 2), 16);
+  const g = parseInt(h.slice(2, 4), 16);
+  const b = parseInt(h.slice(4, 6), 16);
+  return `rgba(${{r}}, ${{g}}, ${{b}}, ${{alpha}})`;
+}}
+
+async function loadOpeningsData() {{
+  if (openingsDataCache) {{
+    return openingsDataCache;
+  }}
+  const response = await fetch("assets/openings_data.json", {{ cache: "no-store" }});
+  if (!response.ok) {{
+    throw new Error(`Failed to load openings_data.json (${{response.status}})`);
+  }}
+  openingsDataCache = await response.json();
+  return openingsDataCache;
+}}
+
+function resolveEco(data) {{
+  const ecos = Object.keys(data);
+  if (!ecos.length) {{
+    return null;
+  }}
+  const requested = new URLSearchParams(window.location.search).get("eco");
+  if (requested && data[requested]) {{
+    return requested;
+  }}
+  return ecos[0];
+}}
+
+function renderOpening(eco, opening) {{
+  const name = opening.name || eco;
+  document.getElementById("opening-title").textContent = `${{name}} (${{eco}})`;
+  document.title = `${{eco}} — ${{name}} | OpenCast`;
+
+  const narrativeEl = document.querySelector("#opening-narrative p");
+  const narrative = opening.narrative || FALLBACK_NARRATIVE;
+  narrativeEl.textContent = narrative;
+  narrativeEl.style.color = narrative === FALLBACK_NARRATIVE ? TEXT_SECONDARY : TEXT_PRIMARY;
+
+  const color = ECO_COLORS[(opening.eco_group || eco.charAt(0) || "").toUpperCase()] || "{ACCENT}";
+  const actuals = opening.actuals || [];
+  const forecasts = opening.forecast || [];
+
+  const traces = [
+    {{
+      x: actuals.map((d) => d.month),
+      y: actuals.map((d) => d.win_rate),
+      mode: "lines",
+      name: "Actual",
+      line: {{ color, width: 2 }},
+      type: "scatter",
+    }},
+  ];
+
+  if (forecasts.length) {{
+    traces.push({{
+      x: forecasts.map((d) => d.month),
+      y: forecasts.map((d) => d.value),
+      mode: "lines",
+      name: "Forecast",
+      line: {{ color, width: 1.5, dash: "dash" }},
+      type: "scatter",
+    }});
+
+    traces.push({{
+      x: forecasts.map((d) => d.month).concat(forecasts.map((d) => d.month).slice().reverse()),
+      y: forecasts.map((d) => d.upper).concat(forecasts.map((d) => d.lower).slice().reverse()),
+      fill: "toself",
+      fillcolor: hexToRgba(color, 0.12),
+      line: {{ color: "rgba(0,0,0,0)" }},
+      showlegend: false,
+      name: "95% CI",
+      type: "scatter",
+    }});
+  }}
+
+  const layout = {{
+    title: `${{eco}} — ${{name}}`,
+    xaxis: {{ title: "Month", gridcolor: GRID_COLOR, zerolinecolor: GRID_COLOR, tickfont: {{ color: TEXT_SECONDARY }} }},
+    yaxis: {{ title: "White Win Rate", gridcolor: GRID_COLOR, zerolinecolor: GRID_COLOR, tickfont: {{ color: TEXT_SECONDARY }} }},
+    plot_bgcolor: PANEL_BG,
+    paper_bgcolor: PANEL_BG,
+    font: {{ family: BODY_FONT, color: TEXT_PRIMARY }},
+    title_font: {{ family: DISPLAY_FONT, size: 18, color: TEXT_PRIMARY }},
+    margin: {{ t: 60, r: 30, b: 60, l: 60 }},
+  }};
+
+  Plotly.newPlot("opening-chart", traces, layout, {{ responsive: true }}).then(() => {{
+    const shapes = (opening.structural_breaks || []).map((month) => ({{
+      type: "line",
+      x0: month,
+      x1: month,
+      y0: 0,
+      y1: 1,
+      yref: "paper",
+      line: {{ color, dash: "dot", width: 1 }},
+    }}));
+    Plotly.relayout("opening-chart", {{ shapes }});
+  }});
+
+  const engineBox = document.getElementById("engine-box");
+  const hasEngine =
+    opening.engine_cp !== null &&
+    opening.p_engine !== null &&
+    opening.human_win_rate !== null &&
+    opening.delta !== null;
+
+  if (!hasEngine) {{
+    engineBox.style.display = "none";
+    engineBox.innerHTML = "";
+    return;
+  }}
+
+  const cp = Number(opening.engine_cp);
+  const pEngine = Number(opening.p_engine);
+  const human = Number(opening.human_win_rate);
+  const delta = Number(opening.delta);
+  const interpretation = opening.interpretation || "";
+
+  engineBox.style.display = "block";
+  engineBox.innerHTML = `
+    <h3>Engine Evaluation</h3>
+    <p>Stockfish depth-20: <strong>${{cp >= 0 ? "+" : ""}}${{cp}} cp</strong> → P(white wins) = ${{pEngine.toFixed(3)}}</p>
+    <p>Human win rate (2000+): ${{human.toFixed(3)}}</p>
+    <p>Delta: <strong>${{delta >= 0 ? "+" : ""}}${{delta.toFixed(3)}}</strong>${{interpretation ? ` — ${{interpretation}}` : ""}}</p>
+  `;
+}}
+
+async function init() {{
+  try {{
+    const data = await loadOpeningsData();
+    const eco = resolveEco(data);
+    if (!eco) {{
+      document.getElementById("opening-title").textContent = "No opening data available";
+      return;
+    }}
+    renderOpening(eco, data[eco]);
+  }} catch (error) {{
+    document.getElementById("opening-title").textContent = "Failed to load opening data";
+    const narrativeEl = document.querySelector("#opening-narrative p");
+    narrativeEl.textContent = String(error);
+    narrativeEl.style.color = TEXT_SECONDARY;
+  }}
+}}
+
+init();
+</script>
+"""
+    head_extras = '<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>'
+    return _page_shell("Opening Detail", _nav_html("openings.html"), body, head_extras=head_extras)
+
+
+# -- Page renderers ------------------------------------------------------------
+def render_overview(
+    forecasts: pd.DataFrame,
+    engine_df: pd.DataFrame,
+    findings_json: dict | None,
+) -> str:
+    """Render data/output/dashboard/index.html — 3-panel overview."""
+    headline = ""
+    if findings_json:
+        panels = findings_json.get("panels", {})
+        fc_insight = panels.get("forecast", {}).get("insight", "")
+        ed_insight = panels.get("engine_delta", {}).get("insight", "")
+        hm_insight = panels.get("heatmap", {}).get("insight", "")
+        main_headline = findings_json.get("headline", "")
+
+        def _widget(label: str, text: str) -> str:
+            if not text:
+                return ""
+            return (
+                f'<div class="insight-widget">'
+                f'<span class="insight-label">{label}</span>'
+                f'<p class="insight-text">{text}</p>'
+                f"</div>"
+            )
+
+        headline = (
+            f'<section class="headlines">'
+            f'<h1 class="page-title">{main_headline}</h1>'
+            + _widget("Forecasts", fc_insight)
+            + _widget("Engine Delta", ed_insight)
+            + _widget("Heatmap", hm_insight)
+            + "</section>"
+        )
+    else:
+        headline = '<h1 class="page-title">OpenCast Dashboard</h1>'
+
+    fig1_html = _build_panel1_figure(forecasts).to_html(full_html=False, include_plotlyjs="cdn")
+    fig2_html = _build_panel2_figure(engine_df).to_html(full_html=False, include_plotlyjs=False)
+    fig3_html = _build_panel3_figure(forecasts).to_html(full_html=False, include_plotlyjs=False)
+
+    body = (
+        headline
+        + '<section class="panel">'
+        + "<h2>Win Rate Forecasts</h2>"
+        + fig1_html
+        + "</section>"
+        + '<section class="panel">'
+        + "<h2>Engine Delta</h2>"
+        + fig2_html
+        + "</section>"
+        + '<section class="panel">'
+        + "<h2>ECO Heatmap</h2>"
+        + fig3_html
+        + "</section>"
+        + '<p style="text-align:right; color:'
+        + TEXT_SECONDARY
+        + '; font-size:0.8rem;">'
+        + '<a href="openings.html" style="color:'
+        + ACCENT
+        + ';">-> Browse all openings</a>'
+        + "</p>"
+    )
+    return _page_shell("Overview", _nav_html("index.html"), body)
+
+
+def render_openings_table(
+    forecasts: pd.DataFrame,
+    engine_df: pd.DataFrame,
+    catalog: pd.DataFrame,
+) -> str:
+    """Render data/output/dashboard/openings.html — sortable table of all openings."""
+    rows_html = ""
+    ecos = catalog["eco"].tolist()
+
+    for eco in ecos:
+        cat_row = catalog[catalog["eco"] == eco]
+        name = cat_row["name"].values[0] if not cat_row.empty else eco
+        tier = int(cat_row["model_tier"].values[0]) if not cat_row.empty else "-"
+        eco_group = eco[0] if eco else "-"
+        color = ECO_COLORS.get(eco_group, TEXT_PRIMARY)
+
+        fc_eco = forecasts[forecasts["eco"] == eco]
+        actuals = fc_eco[fc_eco["is_forecast"] == False].sort_values("month")
+        last_wr = f"{actuals['actual'].iloc[-1]:.3f}" if not actuals.empty else "-"
+
+        ed_row = engine_df[engine_df["eco"] == eco]
+        delta = f"{ed_row['delta'].values[0]:+.3f}" if not ed_row.empty else "-"
+
+        rows_html += (
+            f'<tr data-eco="{eco}" tabindex="0" role="link" aria-label="Open {name} ({eco}) details">'
+            f'<td><span style="color:{color}; font-weight:600;">{eco}</span></td>'
+            f"<td>{name}</td>"
+            f"<td>{tier}</td>"
+            f"<td>{last_wr}</td>"
+            f"<td>{delta}</td>"
+            "</tr>\n"
+        )
+
+    table_html = f"""
+<h1>All Openings</h1>
+<table id="openings-table" class="data-table">
+  <thead>
+    <tr>
+      <th>ECO</th><th>Name</th><th>Tier</th><th>Win Rate (last)</th><th>Engine Δ</th>
+    </tr>
+  </thead>
+  <tbody>
+    {rows_html}
+  </tbody>
+</table>
+<p style="color:{TEXT_SECONDARY}; font-size:0.85rem; margin-top:1rem;">
+  Click any row to view the per-opening detail page.
+</p>
+<script>
+(() => {{
+  const rows = document.querySelectorAll("#openings-table tbody tr[data-eco]");
+  rows.forEach((row) => {{
+    const eco = row.getAttribute("data-eco");
+    const navigate = () => {{
+      window.location.href = `opening.html?eco=${{encodeURIComponent(eco)}}`;
+    }};
+    row.addEventListener("click", navigate);
+    row.addEventListener("keydown", (event) => {{
+      if (event.key === "Enter" || event.key === " ") {{
+        event.preventDefault();
+        navigate();
+      }}
+    }});
+  }});
+}})();
+</script>
+"""
+    return _page_shell("All Openings", _nav_html("openings.html"), table_html)
+
+
+def render_families(forecasts: pd.DataFrame) -> str:
+    """Render data/output/dashboard/families.html — ECO family summary."""
+    actuals = forecasts[forecasts["is_forecast"] == False].copy()
+    actuals["eco_group"] = actuals["eco"].str[0]
+
+    rows_html = ""
+    for group in sorted(ECO_COLORS):
+        sub = actuals[actuals["eco_group"] == group]
+        avg_wr = f"{sub['actual'].mean():.3f}" if not sub.empty else "-"
+        n_ecos = sub["eco"].nunique() if not sub.empty else 0
+        color = ECO_COLORS.get(group, TEXT_PRIMARY)
+        rows_html += (
+            "<tr>"
+            f'<td><span style="color:{color}; font-weight:700; font-size:1.1rem;">{group}</span></td>'
+            f"<td>{n_ecos}</td>"
+            f"<td>{avg_wr}</td>"
+            "</tr>\n"
+        )
+
+    body = f"""
+<h1>ECO Families</h1>
+<table class="data-table">
+  <thead>
+    <tr><th>Family</th><th>Openings tracked</th><th>Avg win rate</th></tr>
+  </thead>
+  <tbody>{rows_html}</tbody>
+</table>
+"""
+    return _page_shell("Families", _nav_html("families.html"), body)
+
+
+# -- Orchestrator --------------------------------------------------------------
+def run_visualizer() -> None:
+    os.makedirs(ASSETS_DIR, exist_ok=True)
+
+    forecasts = _safe_read_forecasts()
+    engine_df = pd.read_csv(ENGINE_CSV) if os.path.exists(ENGINE_CSV) else pd.DataFrame()
+    catalog = pd.read_csv(CATALOG_CSV) if os.path.exists(CATALOG_CSV) else pd.DataFrame()
+    findings = _load_findings_json()
+
+    for asset_name in ("shared.css", "nav.js"):
+        src = Path(__file__).parent / "assets" / asset_name
+        dst = Path(ASSETS_DIR) / asset_name
+        if src.exists():
+            import shutil
+
+            shutil.copy2(src, dst)
+
+    overview_html = render_overview(forecasts, engine_df, findings)
+    overview_path = os.path.join(OUTPUT_DIR, "index.html")
+    Path(overview_path).write_text(overview_html, encoding="utf-8")
+    print(f"Overview written -> {overview_path}")
+
+    if not catalog.empty:
+        openings_html = render_openings_table(forecasts, engine_df, catalog)
+        openings_path = os.path.join(OUTPUT_DIR, "openings.html")
+        Path(openings_path).write_text(openings_html, encoding="utf-8")
+        print(f"Openings table written -> {openings_path}")
+
+    openings_data = _serialize_openings_data(forecasts, engine_df, catalog, findings)
+    openings_data_path = os.path.join(ASSETS_DIR, "openings_data.json")
+    Path(openings_data_path).write_text(json.dumps(openings_data, indent=2), encoding="utf-8")
+    print(f"Openings data written -> {openings_data_path}")
+
+    opening_template_html = render_opening_template()
+    opening_template_path = os.path.join(OUTPUT_DIR, "opening.html")
+    Path(opening_template_path).write_text(opening_template_html, encoding="utf-8")
+    print(f"Opening template written -> {opening_template_path}")
+
+    for stale_file in Path(OUTPUT_DIR).glob("opening_*.html"):
+        stale_file.unlink(missing_ok=True)
+    stale_dir = Path(OUTPUT_DIR) / "opening"
+    if stale_dir.exists() and stale_dir.is_dir():
+        import shutil
+
+        shutil.rmtree(stale_dir)
+
+    families_html = render_families(forecasts)
+    families_path = os.path.join(OUTPUT_DIR, "families.html")
+    Path(families_path).write_text(families_html, encoding="utf-8")
+    print(f"Families page written -> {families_path}")
+
+    print(f"\nDashboard written -> {OUTPUT_DIR}/ ({len(openings_data)} ECOs)")
 
 
 if __name__ == "__main__":

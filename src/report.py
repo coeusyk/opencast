@@ -59,7 +59,7 @@ def _template_finding(eco: str, name: str, delta: float, interpretation: str,
 
 # ── JSON schema validation ────────────────────────────────────────────────────
 
-_REQUIRED_KEYS = {"generated_at", "month", "headline", "panels", "full_report_md"}
+_REQUIRED_KEYS = {"generated_at", "month", "headline", "panels"}
 _REQUIRED_PANELS = {"forecast", "engine_delta", "heatmap"}
 
 
@@ -87,7 +87,6 @@ def _build_templated_findings_json(
     report_month: str,
     delta_df: pd.DataFrame,
     directions: dict[str, str],
-    full_report_md: str,
 ) -> dict:
     """Build deterministic findings.json content when Gemini is unavailable."""
     top_pos = delta_df.loc[delta_df["delta"].idxmax()]
@@ -140,7 +139,6 @@ def _build_templated_findings_json(
                 ),
             },
         },
-        "full_report_md": full_report_md,
     }
     return data
 
@@ -294,7 +292,6 @@ def run_report() -> None:
                 "insight": "<2-3 sentences directly about the ECO category heatmap>",
             },
         },
-        "full_report_md": "<full findings.md content as a single escaped string>",
     }
 
     gemini_prompt = f"""You are a chess analytics expert. Analyse the data below and return ONLY a single valid JSON object matching the exact schema provided. No markdown fences, no preamble, no explanation — just the raw JSON.
@@ -331,7 +328,6 @@ Instructions:
 - panels.engine_delta.insight: 2-3 sentences specifically about the engine-human delta patterns
 - panels.engine_delta.outliers: list of ECO codes that are notable outliers (2-5 codes)
 - panels.heatmap.insight: 2-3 sentences specifically about category-level win-rate patterns across time
-- "full_report_md": the exact content of the findings.md above, as a JSON string (escape newlines as \\n)
 - Return ONLY the JSON object. No markdown, no explanation."""
 
     gemini_client = _get_gemini_client()
@@ -347,6 +343,10 @@ Instructions:
                     response_mime_type="application/json",
                 ),
             )
+            
+            if response.text is None:
+                raise ValueError("Gemini returned empty response")
+            
             raw_text = response.text.strip()
 
             # Strip markdown fences if the SDK didn't honour response_mime_type
@@ -359,8 +359,6 @@ Instructions:
 
             if _validate_findings_json(parsed):
                 findings_json_data = parsed
-                # Ensure full_report_md reflects the actual md_content
-                findings_json_data["full_report_md"] = md_content
                 log.info("Gemini returned valid findings.json structure.")
             else:
                 log.warning("Gemini response failed schema validation — using templated findings.json.")
@@ -374,7 +372,6 @@ Instructions:
             report_month=report_month,
             delta_df=delta_df,
             directions=directions,
-            full_report_md=md_content,
         )
         if not _validate_findings_json(findings_json_data):
             log.warning("Templated findings.json failed validation — skipping JSON write.")
