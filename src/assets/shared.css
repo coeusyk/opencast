@@ -108,31 +108,38 @@ h3 { font-size: 14px; font-weight: 500; }
 .panel { margin-bottom: 3rem; }
 
 /* Headlines / insight widgets */
-.headlines { margin-bottom: 2rem; }
+/* Headlines / insight widgets */
+.headlines {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
 
 .insight-widget {
   background: var(--surface-raised);
-  border: 1px solid var(--border);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: var(--radius-md);
-  padding: 0.875rem 1rem;
-  margin-bottom: 0.625rem;
+  padding: 1rem 1.25rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
 }
 
 .insight-label {
   display: block;
-  font-size: 10.5px;
+  font-size: 0.75rem;
   font-weight: 600;
-  text-transform: uppercase;
   letter-spacing: 0.08em;
+  text-transform: uppercase;
   color: var(--text-faint);
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.5rem;
 }
 
 .insight-text {
-  margin: 0;
-  font-size: 13px;
-  color: var(--text-secondary);
+  font-size: 1rem;
+  color: var(--text-primary);
   line-height: 1.55;
+  max-width: 65ch;
+  margin: 0;
 }
 
 /* Narrative box */

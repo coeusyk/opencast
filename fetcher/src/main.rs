@@ -25,12 +25,26 @@ struct Args {
 }
 
 
-#[derive(Deserialize, Debug)]
-struct OpeningConfig {
+#[derive(Debug, Deserialize)]
+struct CatalogRow {
     eco: String,
     #[allow(dead_code)]
     name: String,
+    #[allow(dead_code)]
+    eco_group: String,
     moves: String,
+    is_tracked_core: String,
+    is_long_tail: String,
+    #[allow(dead_code)]
+    model_tier: String,
+}
+
+impl CatalogRow {
+    fn is_active(&self) -> bool {
+        let core = self.is_tracked_core.trim().eq_ignore_ascii_case("true");
+        let tail  = self.is_long_tail.trim().eq_ignore_ascii_case("true");
+        core || tail
+    }
 }
 
 
@@ -56,6 +70,23 @@ fn parse_ym(s: &str) -> (u32, u32) {
 }
 
 
+fn load_openings_from_catalog(catalog_path: &str) -> Result<Vec<(String, String)>, Box<dyn std::error::Error>> {
+    let mut reader = csv::Reader::from_path(catalog_path)?;
+    let mut openings: Vec<(String, String)> = Vec::new();
+
+    for result in reader.deserialize::<CatalogRow>() {
+        match result {
+            Ok(row) if row.is_active() && !row.moves.is_empty() => {
+                openings.push((row.eco, row.moves));
+            }
+            Ok(_) => {}
+            Err(e) => eprintln!("Warning: skipping catalog row: {e}"),
+        }
+    }
+    Ok(openings)
+}
+
+
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let args = Args::parse();
@@ -74,8 +105,34 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         Client::builder().default_headers(headers).build()?
     };
 
-    let config_raw = fs::read_to_string("../openings.json")?;
-    let openings: Vec<OpeningConfig> = serde_json::from_str(&config_raw)?;
+    // Prefer catalog CSV over legacy openings.json
+    let catalog_path = "../data/openings_catalog.csv";
+    let mut openings: Vec<(String, String)> = if fs::metadata(catalog_path).is_ok() {
+        println!("Loading openings from catalog: {catalog_path}");
+        load_openings_from_catalog(catalog_path)?
+    } else {
+        println!("Catalog not found — falling back to openings.json");
+        let raw = fs::read_to_string("../openings.json")?;
+        let entries: Vec<serde_json::Value> = serde_json::from_str(&raw)?;
+        entries
+            .into_iter()
+            .filter_map(|v| {
+                let eco   = v["eco"].as_str()?.to_string();
+                let moves = v["moves"].as_str()?.to_string();
+                Some((eco, moves))
+            })
+            .collect()
+    };
+
+    // Honour OPENCAST_ECO_LIMIT for local development / quick runs
+    if let Ok(limit_str) = std::env::var("OPENCAST_ECO_LIMIT") {
+        if let Ok(limit) = limit_str.parse::<usize>() {
+            if limit < openings.len() {
+                println!("OPENCAST_ECO_LIMIT={limit} — capping to {limit} openings");
+                openings.truncate(limit);
+            }
+        }
+    }
 
     let months = generate_months(&args.from, &args.to);
 
@@ -86,15 +143,15 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         openings.len() * months.len()
     );
 
-    for opening in &openings {
+    for (eco, moves) in &openings {
         for month in &months {
             client::fetch_opening_month(
                 &client,
-                &opening.moves,
+                moves,
                 month,
                 args.rating,
                 &args.speed,
-                &opening.eco,
+                eco,
             )
             .await?;
         }

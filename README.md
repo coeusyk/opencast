@@ -16,14 +16,15 @@ Dashboard is published via GitHub Pages on each pipeline run.
 
 See [FINDINGS.md](FINDINGS.md) — auto-generated monthly by the pipeline.
 
----
 
+## How It Works
 ## How It Works
 
 1. **Fetch** — A Rust binary queries `explorer.lichess.ovh` month-by-month for each opening, writing one JSON file per opening per month into `data/raw/`.
 2. **Ingest** — Python normalises all JSONs into `data/processed/openings_ts.csv`, one row per opening per month.
 3. **Analyse** — `select_openings.py` classifies each ECO into model tiers. `timeseries.py` fits ARIMA (Tier 1) or Holt-Winters (Tier 2) models per opening, runs Ljung-Box and Chow structural-break tests, and writes 3-month forecasts with 95% CI to `data/output/forecasts.csv`. `engine_delta.py` evaluates Tier-1 openings with Stockfish at depth 20 and writes the engine-vs-human delta to `data/output/engine_delta.csv`.
 4. **Report & Visualise** — `report.py` generates `FINDINGS.md` (Gemini-powered, with template fallback). `visualizer.py` builds a multi-page static site: an overview with headline insights and 3 Plotly panels, a sortable openings table, ECO family summaries, and per-opening detail pages.
+4. **Report & Visualise** — `report.py` generates `findings/findings.json` (Gemini-powered, with template fallback) and `findings/narratives.json` (per-opening narrative text, merged incrementally). `visualizer.py` builds a multi-page static site: an overview with headline insights and 3 Plotly panels, a searchable/filterable/sortable openings table, ECO family summaries, and per-opening detail pages (Tier 3 shows descriptive stats instead of a forecast chart).
 
 ---
 
@@ -45,6 +46,9 @@ export LICHESS_TOKEN=<your_token>
 # Gemini API key (optional, for Gemini-generated findings)
 export GEMINI_API_KEY=<your_gemini_api_key>
 
+# Groq API key (optional, for fast LLM inference)
+export GROQ_API_KEY=<your_groq_api_key>
+
 # Build the Rust fetcher
 cd fetcher && cargo build --release && cd ..
 
@@ -62,6 +66,8 @@ python main.py
 > **Stockfish 16** must be installed separately: `sudo apt install stockfish`
 
 > **Gemini API key** (optional): `GEMINI_API_KEY` in `.env` powers AI-generated findings. `report.py` falls back to templated text if the key is absent.
+
+> **Groq API key** (optional): `GROQ_API_KEY` in `.env` enables fast LLM inference as an alternative backend.
 
 ---
 
@@ -126,7 +132,8 @@ flowchart TB
     FOUT --> DASH & FIND
     DOUT --> DASH & FIND
     DASH --> PAGE
-    FIND --> REPORT
+      FIND --> NARRATIVE["narratives.json"]
+      NARRATIVE --> DASH
 
      LICHESS:::data
      SNAP:::ingest
@@ -139,8 +146,8 @@ flowchart TB
      DOUT:::output
      DASH:::output
      FIND:::output
-     PAGE:::data
-     REPORT:::data
+    NARRATIVE:::output
+    PAGE:::data
      RUNNER:::runner
     classDef runner  fill:#0f2742,stroke:#4a90d9,stroke-width:2px,color:#d9ecff
     classDef ingest  fill:#13281d,stroke:#4caf82,stroke-width:1.5px,color:#daf5e4
@@ -158,6 +165,7 @@ flowchart TB
 - **Stockfish 16** — `sudo apt install stockfish` (or set `STOCKFISH_PATH`)  
 - **Lichess OAuth token** — free at https://lichess.org/account/oauth/token  
 - **Gemini API key** (optional) — set `GEMINI_API_KEY` in `.env` (for AI-generated findings)
+- **Groq API key** (optional) — set `GROQ_API_KEY` in `.env` (for fast LLM inference)
 
 ---
 

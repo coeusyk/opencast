@@ -9,19 +9,21 @@ _HERE = os.path.dirname(__file__)
 FORECASTS_CSV = os.path.join(_HERE, "..", "data", "output", "forecasts.csv")
 ENGINE_CSV = os.path.join(_HERE, "..", "data", "output", "engine_delta.csv")
 CATALOG_CSV = os.path.join(_HERE, "..", "data", "openings_catalog.csv")
-FINDINGS_JSON = os.path.join(_HERE, "..", "findings", "findings.json")
+FINDINGS_JSON   = os.path.join(_HERE, "..", "findings", "findings.json")
+NARRATIVES_JSON = os.path.join(_HERE, "..", "findings", "narratives.json")
+LONG_TAIL_CSV   = os.path.join(_HERE, "..", "data", "output", "long_tail_stats.csv")
 OUTPUT_DIR = os.path.join(_HERE, "..", "data", "output", "dashboard")
 ASSETS_DIR = os.path.join(OUTPUT_DIR, "assets")
 
 # -- Design tokens -------------------------------------------------------------
-PANEL_BG = "#121821"
-GRID_COLOR = "rgba(148, 163, 184, 0.18)"
-TEXT_PRIMARY = "#E6EEF8"
-TEXT_SECONDARY = "#9FB0C3"
+PANEL_BG = "#0e0e0f"
+GRID_COLOR = "rgba(255, 255, 255, 0.06)"
+TEXT_PRIMARY = "#ededee"
+TEXT_SECONDARY = "#8b8b8f"
 ACCENT = "#57C7FF"
 ECO_COLORS = {"A": "#7CC7FF", "B": "#7BE495", "C": "#F6C177", "D": "#F28DA6", "E": "#B9A5FF"}
-BODY_FONT = "'Roboto Condensed', system-ui, sans-serif"
-DISPLAY_FONT = "'Roboto Slab', Georgia, serif"
+BODY_FONT    = "'Inter', system-ui, sans-serif"
+DISPLAY_FONT = "'Instrument Serif', Georgia, serif"
 
 FORECAST_COLUMNS = [
     "eco",
@@ -36,7 +38,6 @@ FORECAST_COLUMNS = [
     "model_tier",
 ]
 
-PANEL1_ECOS = ["B20", "C44", "C00", "B12", "A10"]
 LINE_COLORS = ["#57C7FF", "#7BE495", "#F6C177", "#F28DA6", "#B9A5FF"]
 
 
@@ -82,10 +83,10 @@ def _safe_read_forecasts() -> pd.DataFrame:
 def _top5_by_volume(forecasts: pd.DataFrame) -> list[str]:
     actuals = forecasts[forecasts["is_forecast"] == False].copy()
     if actuals.empty or "actual" not in actuals.columns:
-        return PANEL1_ECOS[:]
+        return []
 
     top = actuals.groupby("eco")["actual"].count().nlargest(5).index.tolist()
-    return top if top else PANEL1_ECOS[:]
+    return top if top else []
 
 
 def _build_panel1_figure(forecasts: pd.DataFrame) -> go.Figure:
@@ -243,6 +244,18 @@ def _load_findings_json() -> dict | None:
         return None
 
 
+def _load_narratives_json() -> dict:
+    """Load findings/narratives.json, returning empty structure on failure."""
+    try:
+        with open(NARRATIVES_JSON, encoding="utf-8") as f:
+            data = json.load(f)
+        if not isinstance(data, dict) or "per_opening" not in data:
+            return {"per_opening": {}}
+        return data
+    except Exception:
+        return {"per_opening": {}}
+
+
 def _nav_html(current: str) -> str:
     pages = [
         ("index.html", "Overview"),
@@ -271,15 +284,15 @@ def _page_shell(title: str, nav_fragment: str, body: str, head_extras: str = "")
   <title>{title} — OpenCast</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&family=Roboto+Slab:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300..600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/shared.css">
     {head_extras}
 </head>
-<body style="background:{PANEL_BG}; color:{TEXT_PRIMARY}; font-family:{BODY_FONT}; margin:0;">
+<body>
 {nav_fragment}
-<main style="padding:2rem;">
+<main><div class="page-content">
 {body}
-</main>
+</div></main>
 <script src="assets/nav.js"></script>
 </body>
 </html>
@@ -291,9 +304,17 @@ def _serialize_openings_data(
     engine_df: pd.DataFrame,
     catalog: pd.DataFrame,
     findings_json: dict | None,
+    narratives: dict | None = None,
+    long_tail_df: pd.DataFrame | None = None,
 ) -> dict[str, dict]:
     fallback_narrative = "No analysis available yet."
-    per_opening = findings_json.get("per_opening", {}) if findings_json else {}
+    # Prefer narratives.json for per-opening text (#18); fall back to findings.json
+    if narratives and "per_opening" in narratives:
+        per_opening = narratives["per_opening"]
+    elif findings_json:
+        per_opening = findings_json.get("per_opening", {})
+    else:
+        per_opening = {}
 
     ecos = catalog["eco"].astype(str).tolist() if (not catalog.empty and "eco" in catalog.columns) else []
     if not ecos and not forecasts.empty and "eco" in forecasts.columns:
@@ -366,6 +387,23 @@ def _serialize_openings_data(
             )
 
         narrative = per_opening.get(eco, fallback_narrative)
+
+        # Long-tail stats for Tier-3 openings (#29)
+        lt_stats: dict = {}
+        if model_tier == 3 and long_tail_df is not None and not long_tail_df.empty:
+            lt_row = long_tail_df[long_tail_df["eco"] == eco]
+            if not lt_row.empty:
+                r = lt_row.iloc[0]
+                lt_stats = {
+                    "last_month": str(r.get("last_month", "")),
+                    "last_win_rate": float(r["last_win_rate"]) if pd.notna(r.get("last_win_rate")) else None,
+                    "mean_win_rate": float(r["mean_win_rate"]) if pd.notna(r.get("mean_win_rate")) else None,
+                    "std_win_rate": float(r["std_win_rate"]) if pd.notna(r.get("std_win_rate")) else None,
+                    "ma3": float(r["ma3"]) if pd.notna(r.get("ma3")) else None,
+                    "trend_direction": str(r.get("trend_direction", "flat")),
+                    "months_available": int(r["months_available"]) if pd.notna(r.get("months_available")) else None,
+                }
+
         serialized[eco] = {
             "name": name,
             "eco_group": eco[0] if eco else None,
@@ -379,6 +417,7 @@ def _serialize_openings_data(
             "delta": delta,
             "interpretation": interpretation,
             "narrative": str(narrative) if narrative is not None else fallback_narrative,
+            **lt_stats,
         }
 
     return serialized
@@ -442,14 +481,63 @@ function renderOpening(eco, opening) {{
   document.getElementById("opening-title").textContent = `${{name}} (${{eco}})`;
   document.title = `${{eco}} — ${{name}} | OpenCast`;
 
-  const narrativeEl = document.querySelector("#opening-narrative p");
+  const narrativeBox = document.getElementById("opening-narrative");
   const narrative = opening.narrative || FALLBACK_NARRATIVE;
-  narrativeEl.textContent = narrative;
-  narrativeEl.style.color = narrative === FALLBACK_NARRATIVE ? TEXT_SECONDARY : TEXT_PRIMARY;
+  if (!narrative || narrative === FALLBACK_NARRATIVE || !narrative.trim()) {{
+    narrativeBox.style.display = "none";
+  }} else {{
+    narrativeBox.style.display = "";
+    const narrativeEl = document.querySelector("#opening-narrative p");
+    narrativeEl.textContent = narrative;
+    narrativeEl.style.color = TEXT_PRIMARY;
+  }}
 
-  const color = ECO_COLORS[(opening.eco_group || eco.charAt(0) || "").toUpperCase()] || "{ACCENT}";
-  const actuals = opening.actuals || [];
-  const forecasts = opening.forecast || [];
+    // ── Tier 3: stats-only view ─────────────────────────────────────────────
+    if (opening.model_tier === 3) {{
+        document.getElementById("opening-chart").style.display = "none";
+        document.getElementById("engine-box").style.display = "none";
+
+        const trend = opening.trend_direction || "flat";
+        const trendArrow = trend === "up" ? "↑" : trend === "down" ? "↓" : "→";
+        const trendColor = trend === "up" ? "#7BE495" : trend === "down" ? "#F28DA6" : TEXT_SECONDARY;
+
+        const fmtPct = (v) => (v != null ? (v * 100).toFixed(2) + "%" : "—");
+        const fmt2   = (v) => (v != null ? (v * 100).toFixed(2) : "—");
+
+        const statsHtml = `
+            <div class="tier3-stats" style="margin-top:1.5rem;">
+                <h2 style="font-size:1rem;font-weight:600;margin-bottom:1rem;color:${{TEXT_SECONDARY}};">
+                    Descriptive Statistics <span style="font-size:0.75rem;font-weight:400;">(Tier 3 — insufficient data for modelling)</span>
+                </h2>
+                <table style="border-collapse:collapse;width:100%;max-width:540px;">
+                    <tbody>
+                        <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">Last month</td>
+                                <td style="padding:0.4rem 0;">${{opening.last_month || "—"}}</td></tr>
+                        <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">Last win rate</td>
+                                <td style="padding:0.4rem 0;">${{fmtPct(opening.last_win_rate)}}</td></tr>
+                        <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">Mean win rate</td>
+                                <td style="padding:0.4rem 0;">${{fmtPct(opening.mean_win_rate)}}</td></tr>
+                        <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">Std dev</td>
+                                <td style="padding:0.4rem 0;">${{fmt2(opening.std_win_rate)}} pp</td></tr>
+                        <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">3-month MA</td>
+                                <td style="padding:0.4rem 0;">${{fmtPct(opening.ma3)}}</td></tr>
+                        <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">Trend</td>
+                                <td style="padding:0.4rem 0;color:${{trendColor}};">${{trendArrow}} ${{trend}}</td></tr>
+                        <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">Months of data</td>
+                                <td style="padding:0.4rem 0;">${{opening.months_available ?? "—"}}</td></tr>
+                    </tbody>
+                </table>
+            </div>`;
+
+        const chartEl = document.getElementById("opening-chart");
+        chartEl.style.display = "block";
+        chartEl.innerHTML = statsHtml;
+        return;
+    }}
+
+    const color = ECO_COLORS[(opening.eco_group || eco.charAt(0) || "").toUpperCase()] || "{ACCENT}";
+    const actuals = opening.actuals || [];
+    const forecasts = opening.forecast || [];
 
   const traces = [
     {{
@@ -586,15 +674,16 @@ def render_overview(
             )
 
         headline = (
+            f'<h1 class="page-title">Overview</h1>'
             f'<section class="headlines">'
-            f'<h1 class="page-title">{main_headline}</h1>'
+            + _widget("Summary", main_headline)
             + _widget("Forecasts", fc_insight)
             + _widget("Engine Delta", ed_insight)
             + _widget("Heatmap", hm_insight)
             + "</section>"
         )
     else:
-        headline = '<h1 class="page-title">OpenCast Dashboard</h1>'
+        headline = '<h1 class="page-title">Overview</h1>'
 
     fig1_html = _build_panel1_figure(forecasts).to_html(full_html=False, include_plotlyjs="cdn")
     fig2_html = _build_panel2_figure(engine_df).to_html(full_html=False, include_plotlyjs=False)
@@ -625,70 +714,272 @@ def render_overview(
     return _page_shell("Overview", _nav_html("index.html"), body)
 
 
+
+
 def render_openings_table(
     forecasts: pd.DataFrame,
     engine_df: pd.DataFrame,
     catalog: pd.DataFrame,
 ) -> str:
-    """Render data/output/dashboard/openings.html — sortable table of all openings."""
-    rows_html = ""
-    ecos = catalog["eco"].tolist()
+    """Render data/output/dashboard/openings.html - client-side searchable/filterable/sortable table (#30)."""
+    eco_colors_js = json.dumps(ECO_COLORS)
 
-    for eco in ecos:
-        cat_row = catalog[catalog["eco"] == eco]
-        name = cat_row["name"].values[0] if not cat_row.empty else eco
-        tier = int(cat_row["model_tier"].values[0]) if not cat_row.empty else "-"
-        eco_group = eco[0] if eco else "-"
-        color = ECO_COLORS.get(eco_group, TEXT_PRIMARY)
-
-        fc_eco = forecasts[forecasts["eco"] == eco]
-        actuals = fc_eco[fc_eco["is_forecast"] == False].sort_values("month")
-        last_wr = f"{actuals['actual'].iloc[-1]:.3f}" if not actuals.empty else "-"
-
-        ed_row = engine_df[engine_df["eco"] == eco]
-        delta = f"{ed_row['delta'].values[0]:+.3f}" if not ed_row.empty else "-"
-
-        rows_html += (
-            f'<tr data-eco="{eco}" tabindex="0" role="link" aria-label="Open {name} ({eco}) details">'
-            f'<td><span style="color:{color}; font-weight:600;">{eco}</span></td>'
-            f"<td>{name}</td>"
-            f"<td>{tier}</td>"
-            f"<td>{last_wr}</td>"
-            f"<td>{delta}</td>"
-            "</tr>\n"
-        )
+    grp_buttons = " ".join(
+        f'<button class="grp-btn active" data-group="{g}"' +
+        f' style="padding:0.3rem 0.6rem;border-radius:4px;border:1px solid rgba(255,255,255,0.15);' +
+        f'background:transparent;color:{ECO_COLORS.get(g, TEXT_SECONDARY)};font-weight:600;' +
+        f'cursor:pointer;font-size:0.85rem;">{g}</button>'
+        for g in sorted(ECO_COLORS)
+    )
 
     table_html = f"""
-<h1>All Openings</h1>
-<table id="openings-table" class="data-table">
+<h1 class="page-title">All Openings</h1>
+
+<div id="table-controls" style="display:flex;flex-wrap:wrap;gap:0.75rem;align-items:center;margin-bottom:1.25rem;">
+  <input id="search-box" type="search" placeholder="Search ECO or name..."
+    aria-label="Search openings"
+    style="flex:1;min-width:200px;max-width:360px;padding:0.4rem 0.75rem;
+           background:var(--surface-raised);border:1px solid rgba(255,255,255,0.12);
+           border-radius:6px;color:var(--text-primary);font-size:0.9rem;outline:none;" />
+
+  <div id="group-toggles" style="display:flex;gap:0.35rem;" aria-label="Filter by ECO group" role="group">
+    {grp_buttons}
+  </div>
+
+  <select id="tier-select"
+    style="padding:0.35rem 0.6rem;background:var(--surface-raised);
+           border:1px solid rgba(255,255,255,0.12);border-radius:6px;
+           color:var(--text-primary);font-size:0.85rem;cursor:pointer;">
+    <option value="">All tiers</option>
+    <option value="1">Tier 1</option>
+    <option value="2">Tier 2</option>
+    <option value="3">Tier 3</option>
+  </select>
+
+  <span id="row-count" style="color:{TEXT_SECONDARY};font-size:0.85rem;margin-left:auto;white-space:nowrap;"></span>
+</div>
+
+<div style="overflow-x:auto;">
+<table id="openings-table" class="data-table" style="width:100%;border-collapse:collapse;">
   <thead>
     <tr>
-      <th>ECO</th><th>Name</th><th>Tier</th><th>Win Rate (last)</th><th>Engine Δ</th>
+      <th class="sortable" data-col="eco"      style="cursor:pointer;white-space:nowrap;">ECO <span class="sort-icon"></span></th>
+      <th class="sortable" data-col="name"     style="cursor:pointer;white-space:nowrap;">Name <span class="sort-icon"></span></th>
+      <th class="sortable" data-col="tier"     style="cursor:pointer;white-space:nowrap;">Tier <span class="sort-icon"></span></th>
+      <th class="sortable" data-col="win_rate" style="cursor:pointer;white-space:nowrap;">Win Rate (last) <span class="sort-icon"></span></th>
+      <th class="sortable" data-col="trend"    style="cursor:pointer;white-space:nowrap;">Trend <span class="sort-icon"></span></th>
+      <th class="sortable" data-col="has_fc"   style="cursor:pointer;white-space:nowrap;">Forecast <span class="sort-icon"></span></th>
+      <th class="sortable" data-col="delta"    style="cursor:pointer;white-space:nowrap;">Engine Delta <span class="sort-icon"></span></th>
+      <th>Detail</th>
     </tr>
   </thead>
-  <tbody>
-    {rows_html}
-  </tbody>
+  <tbody id="openings-tbody"></tbody>
 </table>
-<p style="color:{TEXT_SECONDARY}; font-size:0.85rem; margin-top:1rem;">
-  Click any row to view the per-opening detail page.
+</div>
+<p id="empty-state" style="display:none;color:{TEXT_SECONDARY};text-align:center;padding:2rem;">
+  No openings match the current filters.
 </p>
+
+<style>
+#openings-table tbody tr:hover {{ background: rgba(255,255,255,0.04); cursor:pointer; }}
+#openings-table th {{ user-select:none; }}
+.sort-icon {{ font-size:0.75rem; opacity:0.5; }}
+.tier-badge {{ display:inline-block;padding:0.15em 0.55em;border-radius:4px;font-size:0.75rem;font-weight:600;letter-spacing:0.04em; }}
+.tier-badge-1 {{ background:rgba(74,158,255,0.18);color:#4a9eff; }}
+.tier-badge-2 {{ background:rgba(169,117,255,0.18);color:#a975ff; }}
+.tier-badge-3 {{ background:rgba(139,139,143,0.2);color:{TEXT_SECONDARY}; }}
+.grp-btn.active {{ background:rgba(255,255,255,0.08)!important; }}
+</style>
+
 <script>
-(() => {{
-  const rows = document.querySelectorAll("#openings-table tbody tr[data-eco]");
-  rows.forEach((row) => {{
-    const eco = row.getAttribute("data-eco");
-    const navigate = () => {{
-      window.location.href = `opening.html?eco=${{encodeURIComponent(eco)}}`;
+(async () => {{
+  const ECO_COLORS = {eco_colors_js};
+  const TEXT_SECONDARY = "{TEXT_SECONDARY}";
+  const TEXT_PRIMARY   = "{TEXT_PRIMARY}";
+  const ACCENT         = "{ACCENT}";
+
+  let openingsData = {{}};
+  try {{
+    const resp = await fetch("assets/openings_data.json", {{ cache: "no-store" }});
+    if (!resp.ok) throw new Error("HTTP " + resp.status);
+    openingsData = await resp.json();
+  }} catch (e) {{
+    const es = document.getElementById("empty-state");
+    es.style.display = "block";
+    es.textContent = "Failed to load openings data.";
+    return;
+  }}
+
+  const allRows = Object.entries(openingsData).map(([eco, d]) => {{
+    const actuals = d.actuals || [];
+    const lastActual = actuals.length ? actuals[actuals.length - 1].win_rate : null;
+    return {{
+      eco,
+      name: d.name || eco,
+      group: (eco[0] || "").toUpperCase(),
+      tier: d.model_tier != null ? d.model_tier : 99,
+      win_rate: lastActual,
+      trend: d.trend_direction || null,
+      has_fc: (d.forecast || []).length > 0,
+      delta: d.delta != null ? d.delta : null,
     }};
-    row.addEventListener("click", navigate);
-    row.addEventListener("keydown", (event) => {{
-      if (event.key === "Enter" || event.key === " ") {{
-        event.preventDefault();
-        navigate();
+  }});
+  const total = allRows.length;
+
+  const state = {{
+    q: "",
+    groups: new Set(Object.keys(ECO_COLORS)),
+    tier: "",
+    sortCol: "eco",
+    asc: true,
+  }};
+
+  function readHash() {{
+    const h = window.location.hash.slice(1);
+    if (!h) return;
+    try {{
+      const p = new URLSearchParams(h);
+      if (p.has("q"))     state.q = p.get("q");
+      if (p.has("group")) state.groups = new Set(p.get("group").split(",").map(s => s.trim()));
+      if (p.has("tier"))  state.tier = p.get("tier");
+      if (p.has("sort"))  state.sortCol = p.get("sort");
+      if (p.has("asc"))   state.asc = p.get("asc") !== "0";
+    }} catch (_) {{}}
+  }}
+
+  function writeHash() {{
+    const p = new URLSearchParams();
+    if (state.q)   p.set("q", state.q);
+    const grpArr = [...state.groups].sort();
+    if (grpArr.length !== Object.keys(ECO_COLORS).length) p.set("group", grpArr.join(","));
+    if (state.tier) p.set("tier", state.tier);
+    p.set("sort", state.sortCol);
+    p.set("asc", state.asc ? "1" : "0");
+    history.replaceState(null, "", "#" + p.toString());
+  }}
+
+  readHash();
+
+  const searchBox  = document.getElementById("search-box");
+  const tierSelect = document.getElementById("tier-select");
+  const grpButtons = document.querySelectorAll(".grp-btn");
+  const tbody      = document.getElementById("openings-tbody");
+  const rowCount   = document.getElementById("row-count");
+  const emptyState = document.getElementById("empty-state");
+  const sortHeaders = document.querySelectorAll(".sortable");
+
+  searchBox.value  = state.q;
+  tierSelect.value = state.tier;
+  grpButtons.forEach(btn => {{
+    btn.classList.toggle("active", state.groups.has(btn.getAttribute("data-group")));
+  }});
+
+  function applyFilters() {{
+    const q    = state.q.toLowerCase();
+    const tier = state.tier;
+    let visible = allRows.filter(r => {{
+      if (!state.groups.has(r.group)) return false;
+      if (tier && String(r.tier) !== tier) return false;
+      if (q && !r.eco.toLowerCase().includes(q) && !r.name.toLowerCase().includes(q)) return false;
+      return true;
+    }});
+    visible.sort((a, b) => {{
+      let av = a[state.sortCol], bv = b[state.sortCol];
+      if (av == null && bv == null) return 0;
+      if (av == null) return 1;
+      if (bv == null) return -1;
+      if (typeof av === "string") av = av.toLowerCase();
+      if (typeof bv === "string") bv = bv.toLowerCase();
+      if (av < bv) return state.asc ? -1 : 1;
+      if (av > bv) return state.asc ? 1 : -1;
+      return 0;
+    }});
+    renderRows(visible);
+    rowCount.textContent = "Showing " + visible.length + " of " + total;
+    emptyState.style.display = visible.length === 0 ? "block" : "none";
+    updateSortIcons();
+    writeHash();
+  }}
+
+  function fmtPct(v)   {{ return v != null ? (v * 100).toFixed(2) + "%" : "—"; }}
+  function fmtDelta(v) {{
+    if (v == null) return "—";
+    return (v >= 0 ? "+" : "") + (v * 100).toFixed(2) + " pp";
+  }}
+  function trendHtml(trend, tier) {{
+    if (tier !== 3 || !trend) return '<span style="color:' + TEXT_SECONDARY + '">—</span>';
+    const arrow = trend === "up" ? "+" : trend === "down" ? "-" : "~";
+    const clr   = trend === "up" ? "#7BE495" : trend === "down" ? "#F28DA6" : TEXT_SECONDARY;
+    return '<span style="color:' + clr + '">' + arrow + " " + trend + '</span>';
+  }}
+  function deltaColor(v) {{
+    if (v == null) return TEXT_SECONDARY;
+    return v > 0.005 ? "#7BE495" : v < -0.005 ? "#F28DA6" : TEXT_SECONDARY;
+  }}
+  function tierBadge(t) {{
+    return '<span class="tier-badge tier-badge-' + t + '">T' + t + '</span>';
+  }}
+
+  function renderRows(rows) {{
+    const html = rows.map(r => {{
+      const color = ECO_COLORS[r.group] || TEXT_PRIMARY;
+      const href  = "opening.html?eco=" + encodeURIComponent(r.eco);
+      return '<tr tabindex="0" role="link"' +
+        ' onclick="location.href=\'' + href + '\'"' +
+          ' onkeydown="if(event.key===\'Enter\'||event.key===\' \'){{event.preventDefault();location.href=\'' + href + '\'}}">' +
+        '<td style="font-weight:600;color:' + color + '">' + r.eco + '</td>' +
+        '<td>' + r.name + '</td>' +
+        '<td style="text-align:center;">' + tierBadge(r.tier) + '</td>' +
+        '<td style="text-align:right;">' + fmtPct(r.win_rate) + '</td>' +
+        '<td style="text-align:center;">' + trendHtml(r.trend, r.tier) + '</td>' +
+        '<td style="text-align:center;">' + (r.has_fc ? "Yes" : '<span style="color:' + TEXT_SECONDARY + '">No</span>') + '</td>' +
+        '<td style="text-align:right;color:' + deltaColor(r.delta) + '">' + fmtDelta(r.delta) + '</td>' +
+        '<td style="text-align:center;"><a href="' + href + '" style="color:{ACCENT};text-decoration:none;" onclick="event.stopPropagation()">Details</a></td>' +
+        '</tr>';
+    }}).join("");
+    tbody.innerHTML = html || "";
+  }}
+
+  function updateSortIcons() {{
+    sortHeaders.forEach(th => {{
+      const icon = th.querySelector(".sort-icon");
+      if (th.getAttribute("data-col") === state.sortCol) {{
+        icon.textContent = state.asc ? " ^" : " v";
+        icon.style.opacity = "1";
+      }} else {{
+        icon.textContent = " ^v";
+        icon.style.opacity = "0.3";
       }}
     }});
+  }}
+
+  let debounceTimer;
+  searchBox.addEventListener("input", () => {{
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(() => {{ state.q = searchBox.value.trim(); applyFilters(); }}, 200);
   }});
+  tierSelect.addEventListener("change", () => {{ state.tier = tierSelect.value; applyFilters(); }});
+  grpButtons.forEach(btn => {{
+    btn.addEventListener("click", () => {{
+      const g = btn.getAttribute("data-group");
+      if (state.groups.has(g)) {{
+        if (state.groups.size > 1) {{ state.groups.delete(g); btn.classList.remove("active"); }}
+      }} else {{
+        state.groups.add(g); btn.classList.add("active");
+      }}
+      applyFilters();
+    }});
+  }});
+  sortHeaders.forEach(th => {{
+    th.addEventListener("click", () => {{
+      const col = th.getAttribute("data-col");
+      if (state.sortCol === col) {{ state.asc = !state.asc; }}
+      else {{ state.sortCol = col; state.asc = true; }}
+      applyFilters();
+    }});
+  }});
+
+  applyFilters();
 }})();
 </script>
 """
@@ -696,7 +987,7 @@ def render_openings_table(
 
 
 def render_families(forecasts: pd.DataFrame) -> str:
-    """Render data/output/dashboard/families.html — ECO family summary."""
+    """Render data/output/dashboard/families.html - ECO family summary."""
     actuals = forecasts[forecasts["is_forecast"] == False].copy()
     actuals["eco_group"] = actuals["eco"].str[0]
 
@@ -734,6 +1025,8 @@ def run_visualizer() -> None:
     engine_df = pd.read_csv(ENGINE_CSV) if os.path.exists(ENGINE_CSV) else pd.DataFrame()
     catalog = pd.read_csv(CATALOG_CSV) if os.path.exists(CATALOG_CSV) else pd.DataFrame()
     findings = _load_findings_json()
+    narratives = _load_narratives_json()
+    long_tail_df = pd.read_csv(LONG_TAIL_CSV) if os.path.exists(LONG_TAIL_CSV) else pd.DataFrame()
 
     for asset_name in ("shared.css", "nav.js"):
         src = Path(__file__).parent / "assets" / asset_name
@@ -754,7 +1047,7 @@ def run_visualizer() -> None:
         Path(openings_path).write_text(openings_html, encoding="utf-8")
         print(f"Openings table written -> {openings_path}")
 
-    openings_data = _serialize_openings_data(forecasts, engine_df, catalog, findings)
+    openings_data = _serialize_openings_data(forecasts, engine_df, catalog, findings, narratives, long_tail_df)
     openings_data_path = os.path.join(ASSETS_DIR, "openings_data.json")
     Path(openings_data_path).write_text(json.dumps(openings_data, indent=2), encoding="utf-8")
     print(f"Openings data written -> {openings_data_path}")

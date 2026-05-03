@@ -13,8 +13,11 @@ ENGINE_CSV    = os.path.join(_HERE, "..", "data", "output", "engine_delta.csv")
 FINDINGS_DIR  = os.path.join(_HERE, "..", "findings")
 OUTPUT_MD     = os.path.join(FINDINGS_DIR, "findings.md")
 OUTPUT_JSON   = os.path.join(FINDINGS_DIR, "findings.json")
+NARRATIVES_JSON = os.path.join(FINDINGS_DIR, "narratives.json")
+CATALOG_CSV   = os.path.join(_HERE, "..", "data", "openings_catalog.csv")
 
 GEMINI_MODEL = "gemini-2.5-flash"
+MAX_NARRATIVE_OPENINGS = 30
 
 log = logging.getLogger(__name__)
 
@@ -186,6 +189,18 @@ def _steepest_trend(forecasts: pd.DataFrame) -> tuple[str, str, float]:
     return best_eco, best_name, best_slope
 
 
+def _load_narratives_json() -> dict:
+    """Load existing narratives.json or return an empty structure."""
+    try:
+        with open(NARRATIVES_JSON, encoding="utf-8") as f:
+            data = json.load(f)
+        if not isinstance(data, dict) or "per_opening" not in data:
+            return {"per_opening": {}}
+        return data
+    except Exception:
+        return {"per_opening": {}}
+
+
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def run_report() -> None:
@@ -293,6 +308,10 @@ def run_report() -> None:
             },
         },
     }
+    schema_example["per_opening"] = {
+        "<ECO1>": "<2-3 sentences covering trend direction, engine delta, structural breaks, and what it means for the player. Under 60 words.>",
+        "<ECO2>": "<narrative...>",
+    }
 
     gemini_prompt = f"""You are a chess analytics expert. Analyse the data below and return ONLY a single valid JSON object matching the exact schema provided. No markdown fences, no preamble, no explanation — just the raw JSON.
 
@@ -328,7 +347,12 @@ Instructions:
 - panels.engine_delta.insight: 2-3 sentences specifically about the engine-human delta patterns
 - panels.engine_delta.outliers: list of ECO codes that are notable outliers (2-5 codes)
 - panels.heatmap.insight: 2-3 sentences specifically about category-level win-rate patterns across time
+- per_opening: for EVERY ECO in the forecast summary, write 2-3 sentences covering trend direction, engine delta, structural breaks, and what it means practically for the player. Each entry MUST be under 60 words.
 - Return ONLY the JSON object. No markdown, no explanation."""
+
+    # Load existing narratives for incremental merge (#18)
+    existing_narratives = _load_narratives_json()
+    new_per_opening: dict[str, str] = {}
 
     gemini_client = _get_gemini_client()
     findings_json_data: dict | None = None
@@ -343,10 +367,10 @@ Instructions:
                     response_mime_type="application/json",
                 ),
             )
-            
+
             if response.text is None:
                 raise ValueError("Gemini returned empty response")
-            
+
             raw_text = response.text.strip()
 
             # Strip markdown fences if the SDK didn't honour response_mime_type
@@ -356,6 +380,16 @@ Instructions:
                     raw_text = raw_text[: raw_text.rfind("```")]
 
             parsed = json.loads(raw_text)
+
+            # Extract per_opening narratives (goes to narratives.json, NOT findings.json)
+            if isinstance(parsed.get("per_opening"), dict):
+                new_per_opening = {
+                    k: str(v) for k, v in parsed["per_opening"].items()
+                    if isinstance(v, str) and v.strip()
+                }
+                log.info("Gemini returned %d per-opening narratives.", len(new_per_opening))
+            # Remove per_opening from the dict before findings.json validation
+            parsed.pop("per_opening", None)
 
             if _validate_findings_json(parsed):
                 findings_json_data = parsed
@@ -383,13 +417,27 @@ Instructions:
         f.write(md_content)
     print(f"findings.md written → {OUTPUT_MD}")
 
-    # ── Write findings.json ──────────────────────────────────────────────────
+    # ── Write findings.json (no per_opening key) ─────────────────────────────
     if findings_json_data is not None:
         with open(OUTPUT_JSON, "w") as f:
             json.dump(findings_json_data, f, indent=2)
         print(f"findings.json written → {OUTPUT_JSON}")
     else:
         log.info("findings.json not written (Gemini unavailable or validation failed).")
+
+    # ── Write narratives.json (incremental merge) ─────────────────────────────
+    if new_per_opening:
+        merged_per_opening = existing_narratives.get("per_opening", {}).copy()
+        merged_per_opening.update(new_per_opening)  # new overrides old for same ECOs
+        narratives_out = {
+            "generated_at": today_str,
+            "per_opening": merged_per_opening,
+        }
+        with open(NARRATIVES_JSON, "w", encoding="utf-8") as f:
+            json.dump(narratives_out, f, indent=2, ensure_ascii=False)
+        print(f"narratives.json written → {NARRATIVES_JSON}  ({len(merged_per_opening)} ECOs)")
+    else:
+        log.info("No per-opening narratives generated — narratives.json unchanged.")
 
 
 # Keep the old name as an alias for backward compatibility
