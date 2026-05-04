@@ -51,6 +51,16 @@ pub async fn fetch_opening_month(
     // Store the full Lichess response as-is (preserves topGames, opening, etc.).
     let month_data: Value = response.json().await?;
 
+    // Skip months where Lichess hasn't indexed the data yet (returns 0 games).
+    let total_games = month_data["white"].as_u64().unwrap_or(0)
+        + month_data["draws"].as_u64().unwrap_or(0)
+        + month_data["black"].as_u64().unwrap_or(0);
+    if total_games == 0 {
+        println!("Skipping {} {} (0 games — not yet indexed)", eco, month);
+        tokio::time::sleep(tokio::time::Duration::from_secs(1)).await;
+        return Ok(());
+    }
+
     consolidated["months"][month] = month_data;
 
     // Atomic write: write to .tmp then rename to avoid corruption on crash.

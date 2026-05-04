@@ -14,8 +14,13 @@ OUTPUT_CSV    = os.path.join(PROCESSED_DIR, "openings_ts.csv")
 LONG_TAIL_CSV = os.path.join(_HERE, "..", "data", "output", "long_tail_stats.csv")
 
 RATING_BRACKET = 2000
-MIN_GAMES = 500
 LOW_CONFIDENCE_THRESHOLD = 2000
+
+
+def _load_min_games() -> int:
+    config_path = os.path.join(_HERE, "..", "config.json")
+    with open(config_path, encoding="utf-8") as f:
+        return int(json.load(f).get("min_monthly_games", 500))
 
 
 def _load_name_map() -> dict:
@@ -79,6 +84,7 @@ def _compute_long_tail_stats(df: pd.DataFrame) -> pd.DataFrame:
 
 def ingest() -> pd.DataFrame:
     name_map = _load_name_map()
+    min_games = _load_min_games()
     os.makedirs(PROCESSED_DIR, exist_ok=True)
 
     rows = []
@@ -100,7 +106,7 @@ def ingest() -> pd.DataFrame:
             black = data.get("black", 0)
             total = white + draws + black
 
-            if total < MIN_GAMES:
+            if total < min_games:
                 continue
 
             rows.append({
