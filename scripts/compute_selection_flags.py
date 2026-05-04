@@ -23,7 +23,6 @@ from __future__ import annotations
 
 import argparse
 import json
-import re
 from pathlib import Path
 
 import pandas as pd
@@ -40,26 +39,27 @@ def load_config() -> dict:
 
 
 def compute_monthly_games() -> dict[str, list[int]]:
-    """Return {eco: [game_count_per_month, ...]} from raw JSON files."""
+    """Return {eco: [game_count_per_month, ...]} from consolidated raw JSON files."""
     eco_months: dict[str, list[int]] = {}
-    pattern = re.compile(r"^([A-Z]\d{2})_(\d{4}-\d{2})\.json$")
 
     for fpath in sorted(RAW_DATA_DIR.glob("*.json")):
-        m = pattern.match(fpath.name)
-        if not m:
-            continue
-        eco = m.group(1)
         try:
             data = json.loads(fpath.read_text(encoding="utf-8"))
-            # Lichess opening API: top-level field is "white" + "draws" + "black"
-            games = (
-                data.get("white", 0)
-                + data.get("draws", 0)
-                + data.get("black", 0)
-            )
         except Exception:
-            games = 0
-        eco_months.setdefault(eco, []).append(games)
+            continue
+
+        if "months" not in data:
+            print(f"Warning: {fpath.name} has no 'months' key — skipping (legacy/corrupt)")
+            continue
+
+        eco = data.get("eco", fpath.stem)
+        for month_data in data["months"].values():
+            games = (
+                month_data.get("white", 0)
+                + month_data.get("draws", 0)
+                + month_data.get("black", 0)
+            )
+            eco_months.setdefault(eco, []).append(games)
 
     return eco_months
 

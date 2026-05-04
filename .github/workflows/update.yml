@@ -76,7 +76,19 @@ jobs:
 
           raw_dir = Path("data/raw")
           raw_dir.mkdir(parents=True, exist_ok=True)
-          existing = {p.stem for p in raw_dir.glob("*.json")}
+
+          # Load per-ECO month sets from consolidated files.
+          eco_month_sets = {}
+          for eco in eco_codes:
+              eco_file = raw_dir / f"{eco}.json"
+              if eco_file.exists():
+                  try:
+                      data = json.loads(eco_file.read_text(encoding="utf-8"))
+                      eco_month_sets[eco] = set(data.get("months", {}).keys())
+                  except Exception:
+                      eco_month_sets[eco] = set()
+              else:
+                  eco_month_sets[eco] = set()
 
           today = date.today()
           if today.month == 1:
@@ -88,7 +100,7 @@ jobs:
           months = month_range(FETCH_START, latest_complete)
           missing = [
               month for month in months
-              if any(f"{eco}_{month}" not in existing for eco in eco_codes)
+              if any(month not in eco_month_sets[eco] for eco in eco_codes)
           ]
 
           fetched_count = len(missing) if missing else 0
