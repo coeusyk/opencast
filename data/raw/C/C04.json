@@ -1,0 +1,7984 @@
+{
+  "_meta": {
+    "skipped_months": {
+      "2026-04": "zero_games"
+    }
+  },
+  "eco": "C04",
+  "months": {
+    "2023-01": {
+      "black": 236,
+      "draws": 26,
+      "moves": [
+        {
+          "averageRating": 2118,
+          "black": 203,
+          "draws": 21,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 184
+        },
+        {
+          "averageRating": 2108,
+          "black": 23,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 28
+        },
+        {
+          "averageRating": 2133,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 11
+        },
+        {
+          "averageRating": 2137,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 3
+        },
+        {
+          "averageRating": 2034,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 0
+        },
+        {
+          "averageRating": 2012,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "DieterLi",
+              "rating": 2144
+            },
+            "id": "Fv7tG2L6",
+            "mode": "rated",
+            "month": "2023-01",
+            "speed": "blitz",
+            "white": {
+              "name": "LSar1",
+              "rating": 2012
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 0
+        },
+        {
+          "averageRating": 2198,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Morgarten",
+              "rating": 2191
+            },
+            "id": "fJT6G8QU",
+            "mode": "rated",
+            "month": "2023-01",
+            "speed": "blitz",
+            "white": {
+              "name": "VAK69273",
+              "rating": 2198
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "clarel",
+            "rating": 2012
+          },
+          "id": "JE25r8S3",
+          "mode": "rated",
+          "month": "2023-01",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Syahrilpolman",
+            "rating": 1989
+          },
+          "winner": null,
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "danes123",
+            "rating": 2017
+          },
+          "id": "giRIbD6X",
+          "mode": "rated",
+          "month": "2023-01",
+          "speed": "blitz",
+          "uci": "f1d3",
+          "white": {
+            "name": "K-Luf",
+            "rating": 2033
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "grobbenkuiken",
+            "rating": 2197
+          },
+          "id": "N416EhDC",
+          "mode": "rated",
+          "month": "2023-01",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "dietgol",
+            "rating": 1914
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "Griesgramix",
+            "rating": 2168
+          },
+          "id": "08rIcLUa",
+          "mode": "rated",
+          "month": "2023-01",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Mart0302",
+            "rating": 2184
+          },
+          "winner": "white",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "CODINICA",
+            "rating": 2121
+          },
+          "id": "3zfEFway",
+          "mode": "rated",
+          "month": "2023-01",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "brahimos007",
+            "rating": 1994
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "Jul64",
+            "rating": 2062
+          },
+          "id": "XojINXme",
+          "mode": "rated",
+          "month": "2023-01",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Callisto57",
+            "rating": 2179
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "fabio76",
+            "rating": 1975
+          },
+          "id": "6T004i3B",
+          "mode": "rated",
+          "month": "2023-01",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "dpomerantz",
+            "rating": 2051
+          },
+          "winner": "white",
+          "year": 2023
+        }
+      ],
+      "topGames": [],
+      "white": 226
+    },
+    "2023-02": {
+      "black": 195,
+      "draws": 12,
+      "moves": [
+        {
+          "averageRating": 2121,
+          "black": 169,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 178
+        },
+        {
+          "averageRating": 2120,
+          "black": 19,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 12
+        },
+        {
+          "averageRating": 2093,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 6
+        },
+        {
+          "averageRating": 2076,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 0
+        },
+        {
+          "averageRating": 2169,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 3
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "Brookner",
+            "rating": 2180
+          },
+          "id": "TU8yIj28",
+          "mode": "rated",
+          "month": "2023-02",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "chalo88",
+            "rating": 2195
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "Fishermensfriend",
+            "rating": 2119
+          },
+          "id": "cXXnmD5j",
+          "mode": "rated",
+          "month": "2023-02",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "YassinoV",
+            "rating": 2251
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "alex6644",
+            "rating": 2125
+          },
+          "id": "Ut101Oxf",
+          "mode": "rated",
+          "month": "2023-02",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Klutchik",
+            "rating": 2140
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "alex6644",
+            "rating": 2121
+          },
+          "id": "GAACmZ7q",
+          "mode": "rated",
+          "month": "2023-02",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "sandjoha",
+            "rating": 2039
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "le_mozart_des_echecs",
+            "rating": 2080
+          },
+          "id": "XznEWh4x",
+          "mode": "rated",
+          "month": "2023-02",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Yuriy1962",
+            "rating": 1950
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "e4ftw",
+            "rating": 2034
+          },
+          "id": "tHCELoP5",
+          "mode": "rated",
+          "month": "2023-02",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Matze112",
+            "rating": 2051
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "SlongSlong",
+            "rating": 1988
+          },
+          "id": "oBn8q4FK",
+          "mode": "rated",
+          "month": "2023-02",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "RogCov",
+            "rating": 2109
+          },
+          "winner": null,
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "Rudi128",
+            "rating": 2140
+          },
+          "id": "FCsiiXjw",
+          "mode": "rated",
+          "month": "2023-02",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Nhongsky",
+            "rating": 2215
+          },
+          "winner": "white",
+          "year": 2023
+        }
+      ],
+      "topGames": [],
+      "white": 199
+    },
+    "2023-03": {
+      "black": 205,
+      "draws": 17,
+      "moves": [
+        {
+          "averageRating": 2120,
+          "black": 177,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 173
+        },
+        {
+          "averageRating": 2115,
+          "black": 21,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 18
+        },
+        {
+          "averageRating": 2106,
+          "black": 5,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 5
+        },
+        {
+          "averageRating": 2115,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "schorschie",
+            "rating": 2060
+          },
+          "id": "IObz2H4o",
+          "mode": "rated",
+          "month": "2023-03",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "france1999",
+            "rating": 2077
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "Chancentod71",
+            "rating": 2139
+          },
+          "id": "BdTVsEHz",
+          "mode": "rated",
+          "month": "2023-03",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "kapturer",
+            "rating": 2139
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "Karpenin",
+            "rating": 2206
+          },
+          "id": "RTnpTcXT",
+          "mode": "rated",
+          "month": "2023-03",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "gardelito90",
+            "rating": 2159
+          },
+          "winner": "white",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "Enteresan1",
+            "rating": 2178
+          },
+          "id": "PXR6hdhn",
+          "mode": "rated",
+          "month": "2023-03",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "superidiot",
+            "rating": 2192
+          },
+          "winner": "white",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "tarakon",
+            "rating": 2207
+          },
+          "id": "NGFvZaIC",
+          "mode": "rated",
+          "month": "2023-03",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "T-3485",
+            "rating": 2149
+          },
+          "winner": "white",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "halftrusim",
+            "rating": 2177
+          },
+          "id": "3iFsIDyo",
+          "mode": "rated",
+          "month": "2023-03",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "ThierryP",
+            "rating": 2147
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "phalsbourg",
+            "rating": 2098
+          },
+          "id": "9QeMJgWr",
+          "mode": "rated",
+          "month": "2023-03",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "schauderbasis",
+            "rating": 2083
+          },
+          "winner": "white",
+          "year": 2023
+        }
+      ],
+      "topGames": [],
+      "white": 196
+    },
+    "2023-04": {
+      "black": 245,
+      "draws": 23,
+      "moves": [
+        {
+          "averageRating": 2119,
+          "black": 206,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 182
+        },
+        {
+          "averageRating": 2088,
+          "black": 28,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 24
+        },
+        {
+          "averageRating": 2068,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 6
+        },
+        {
+          "averageRating": 2074,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 0
+        },
+        {
+          "averageRating": 1709,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Gustavomk22",
+              "rating": 2330
+            },
+            "id": "Mg7aiOTF",
+            "mode": "rated",
+            "month": "2023-04",
+            "speed": "blitz",
+            "white": {
+              "name": "deliriochess",
+              "rating": 1709
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "hugo64",
+            "rating": 1994
+          },
+          "id": "ogWtZHuB",
+          "mode": "rated",
+          "month": "2023-04",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Skabichevsky-Panaev",
+            "rating": 2062
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "achimb",
+            "rating": 2108
+          },
+          "id": "pIEJUdYq",
+          "mode": "rated",
+          "month": "2023-04",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Ilongavab",
+            "rating": 2038
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "Dedal86",
+            "rating": 2191
+          },
+          "id": "khv4Bcft",
+          "mode": "rated",
+          "month": "2023-04",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "charlieone",
+            "rating": 2186
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "Polypoid",
+            "rating": 2119
+          },
+          "id": "1iNzjgq0",
+          "mode": "rated",
+          "month": "2023-04",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "DimonZh",
+            "rating": 2175
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "eduardorp49",
+            "rating": 2181
+          },
+          "id": "YXTuhqJo",
+          "mode": "rated",
+          "month": "2023-04",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Pajaresteso",
+            "rating": 2149
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "underweather",
+            "rating": 2090
+          },
+          "id": "Cz6P9JpN",
+          "mode": "rated",
+          "month": "2023-04",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "pittttttttttttttt",
+            "rating": 2059
+          },
+          "winner": "white",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "Reditachi",
+            "rating": 2188
+          },
+          "id": "RzdxmpAW",
+          "mode": "rated",
+          "month": "2023-04",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "MustafaCevher-57",
+            "rating": 2039
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "PapillonStyle",
+            "rating": 2056
+          },
+          "id": "9px07hYn",
+          "mode": "rated",
+          "month": "2023-04",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Rhich60",
+            "rating": 2140
+          },
+          "winner": "white",
+          "year": 2023
+        }
+      ],
+      "topGames": [],
+      "white": 213
+    },
+    "2023-05": {
+      "black": 242,
+      "draws": 21,
+      "moves": [
+        {
+          "averageRating": 2106,
+          "black": 208,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 173
+        },
+        {
+          "averageRating": 2105,
+          "black": 23,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 16
+        },
+        {
+          "averageRating": 2084,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 8
+        },
+        {
+          "averageRating": 2102,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 4
+        },
+        {
+          "averageRating": 2199,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "LuizMachado17",
+              "rating": 2136
+            },
+            "id": "lTNt3obZ",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "Kosmo00",
+              "rating": 2199
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "mbitton24",
+            "rating": 2110
+          },
+          "id": "IUar5pFI",
+          "mode": "rated",
+          "month": "2023-05",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "wonderman2",
+            "rating": 2215
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "juegue_marico",
+            "rating": 2056
+          },
+          "id": "kQtDKJag",
+          "mode": "rated",
+          "month": "2023-05",
+          "speed": "blitz",
+          "uci": "f1b5",
+          "white": {
+            "name": "grim_trigger",
+            "rating": 2073
+          },
+          "winner": "white",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "FredUcorsu",
+            "rating": 1990
+          },
+          "id": "5t05MZ5k",
+          "mode": "rated",
+          "month": "2023-05",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "WesMontgomery",
+            "rating": 2096
+          },
+          "winner": "white",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "matulik",
+            "rating": 2350
+          },
+          "id": "rulXqAYN",
+          "mode": "rated",
+          "month": "2023-05",
+          "speed": "blitz",
+          "uci": "f1d3",
+          "white": {
+            "name": "oliverkudela",
+            "rating": 1921
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "vadimka55555",
+            "rating": 1999
+          },
+          "id": "zSmz76Kg",
+          "mode": "rated",
+          "month": "2023-05",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Czess4",
+            "rating": 2101
+          },
+          "winner": "black",
+          "year": 2023
+        }
+      ],
+      "topGames": [],
+      "white": 202
+    },
+    "2023-06": {
+      "black": 245,
+      "draws": 27,
+      "moves": [
+        {
+          "averageRating": 2117,
+          "black": 214,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 213
+        },
+        {
+          "averageRating": 2109,
+          "black": 18,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 25
+        },
+        {
+          "averageRating": 2073,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 10
+        },
+        {
+          "averageRating": 2171,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 2
+        },
+        {
+          "averageRating": 2130,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 2
+        },
+        {
+          "averageRating": 2123,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "mott_65",
+              "rating": 2230
+            },
+            "id": "qPwnucjN",
+            "mode": "rated",
+            "month": "2023-06",
+            "speed": "blitz",
+            "white": {
+              "name": "mm1340",
+              "rating": 2123
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "ga64",
+            "rating": 2100
+          },
+          "id": "FDc7c11e",
+          "mode": "rated",
+          "month": "2023-06",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "good_forest",
+            "rating": 2166
+          },
+          "winner": "white",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "Zerquetschnikow",
+            "rating": 2144
+          },
+          "id": "m9PDWykk",
+          "mode": "rated",
+          "month": "2023-06",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "liglev",
+            "rating": 2104
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "omii12",
+            "rating": 2011
+          },
+          "id": "0fS1FWbL",
+          "mode": "rated",
+          "month": "2023-06",
+          "speed": "blitz",
+          "uci": "f1d3",
+          "white": {
+            "name": "J1981NEMESIS",
+            "rating": 1996
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "Karpenin",
+            "rating": 2140
+          },
+          "id": "V8gmQHyq",
+          "mode": "rated",
+          "month": "2023-06",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "wfreiberg",
+            "rating": 2100
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "larsbrastein",
+            "rating": 2124
+          },
+          "id": "iNZ3ZSKD",
+          "mode": "rated",
+          "month": "2023-06",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "tourabs",
+            "rating": 2088
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "mbitton24",
+            "rating": 2167
+          },
+          "id": "OxuljAOP",
+          "mode": "rated",
+          "month": "2023-06",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "PKscorpion",
+            "rating": 2167
+          },
+          "winner": "white",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "Bashkurd102",
+            "rating": 2087
+          },
+          "id": "9uldCduJ",
+          "mode": "rated",
+          "month": "2023-06",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "yo_envio",
+            "rating": 2061
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "smart_666",
+            "rating": 2109
+          },
+          "id": "4cbvV2Fa",
+          "mode": "rated",
+          "month": "2023-06",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "kimyongsucunnu",
+            "rating": 2248
+          },
+          "winner": "white",
+          "year": 2023
+        }
+      ],
+      "topGames": [],
+      "white": 253
+    },
+    "2023-07": {
+      "black": 199,
+      "draws": 26,
+      "moves": [
+        {
+          "averageRating": 2117,
+          "black": 177,
+          "draws": 24,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 205
+        },
+        {
+          "averageRating": 2098,
+          "black": 15,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 29
+        },
+        {
+          "averageRating": 2093,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 4
+        },
+        {
+          "averageRating": 2169,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "grobbenkuiken",
+              "rating": 2129
+            },
+            "id": "iLQc124c",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "slabac",
+              "rating": 2169
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 1
+        },
+        {
+          "averageRating": 1985,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "HeavensQuake",
+              "rating": 2303
+            },
+            "id": "LszJsDxd",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "Cosmic_zero",
+              "rating": 1985
+            },
+            "winner": null,
+            "year": 2023
+          },
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "Green-point",
+            "rating": 2069
+          },
+          "id": "HYvPG1jS",
+          "mode": "rated",
+          "month": "2023-07",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "tim808",
+            "rating": 2246
+          },
+          "winner": "white",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "Jessica_85",
+            "rating": 2133
+          },
+          "id": "ktbj7q1h",
+          "mode": "rated",
+          "month": "2023-07",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "ThreeCheckFun",
+            "rating": 2202
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "Kurky",
+            "rating": 2102
+          },
+          "id": "PPwaS4fY",
+          "mode": "rated",
+          "month": "2023-07",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "TaniaMon",
+            "rating": 2043
+          },
+          "winner": "white",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "shahta",
+            "rating": 2227
+          },
+          "id": "GRTd7PlC",
+          "mode": "rated",
+          "month": "2023-07",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "az_-ote1962",
+            "rating": 2092
+          },
+          "winner": null,
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "ChicoRubio",
+            "rating": 2155
+          },
+          "id": "830K3Hga",
+          "mode": "rated",
+          "month": "2023-07",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Sharmagedon",
+            "rating": 2148
+          },
+          "winner": "white",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "Jessica_85",
+            "rating": 2122
+          },
+          "id": "upANLlKp",
+          "mode": "rated",
+          "month": "2023-07",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "cAb122",
+            "rating": 2194
+          },
+          "winner": "white",
+          "year": 2023
+        }
+      ],
+      "topGames": [],
+      "white": 239
+    },
+    "2023-08": {
+      "black": 214,
+      "draws": 31,
+      "moves": [
+        {
+          "averageRating": 2116,
+          "black": 185,
+          "draws": 23,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 185
+        },
+        {
+          "averageRating": 2109,
+          "black": 16,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 24
+        },
+        {
+          "averageRating": 2110,
+          "black": 8,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 6
+        },
+        {
+          "averageRating": 2125,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 1
+        },
+        {
+          "averageRating": 2146,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 1
+        },
+        {
+          "averageRating": 2167,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "op99",
+              "rating": 2111
+            },
+            "id": "Ovcoef8o",
+            "mode": "rated",
+            "month": "2023-08",
+            "speed": "blitz",
+            "white": {
+              "name": "Plorel",
+              "rating": 2167
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "Luckyboy20",
+            "rating": 1987
+          },
+          "id": "RmphEXUp",
+          "mode": "rated",
+          "month": "2023-08",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "ghorbani1352",
+            "rating": 2017
+          },
+          "winner": "white",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "vadimka55555",
+            "rating": 2160
+          },
+          "id": "2ttWwqbg",
+          "mode": "rated",
+          "month": "2023-08",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Stalemate-king",
+            "rating": 2066
+          },
+          "winner": "white",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "MarcRameaux",
+            "rating": 2115
+          },
+          "id": "1a1pKmn7",
+          "mode": "rated",
+          "month": "2023-08",
+          "speed": "blitz",
+          "uci": "f1d3",
+          "white": {
+            "name": "HosseinGhahramanpour",
+            "rating": 2072
+          },
+          "winner": "white",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "ThinkTwice65",
+            "rating": 1945
+          },
+          "id": "nYhWbUpD",
+          "mode": "rated",
+          "month": "2023-08",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Mikhail-Stepanenko71",
+            "rating": 2111
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "GusDulloh",
+            "rating": 2037
+          },
+          "id": "1WZL4f2u",
+          "mode": "rated",
+          "month": "2023-08",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "phantomfive",
+            "rating": 2020
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "alex6644",
+            "rating": 2167
+          },
+          "id": "VDL1DUQr",
+          "mode": "rated",
+          "month": "2023-08",
+          "speed": "blitz",
+          "uci": "f1d3",
+          "white": {
+            "name": "Karenius",
+            "rating": 2227
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "remy__080",
+            "rating": 2127
+          },
+          "id": "Atjw14mZ",
+          "mode": "rated",
+          "month": "2023-08",
+          "speed": "blitz",
+          "uci": "f1b5",
+          "white": {
+            "name": "Magicabula",
+            "rating": 2147
+          },
+          "winner": "black",
+          "year": 2023
+        }
+      ],
+      "topGames": [],
+      "white": 217
+    },
+    "2023-09": {
+      "black": 251,
+      "draws": 18,
+      "moves": [
+        {
+          "averageRating": 2109,
+          "black": 215,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 188
+        },
+        {
+          "averageRating": 2101,
+          "black": 26,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 24
+        },
+        {
+          "averageRating": 2121,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 3
+        },
+        {
+          "averageRating": 2137,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 0
+        },
+        {
+          "averageRating": 2097,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "Alejandre76",
+            "rating": 2170
+          },
+          "id": "JOgIf6GK",
+          "mode": "rated",
+          "month": "2023-09",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Jalalattar",
+            "rating": 2157
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "Ekkamai",
+            "rating": 2351
+          },
+          "id": "MwP3shGW",
+          "mode": "rated",
+          "month": "2023-09",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "alechandr19606",
+            "rating": 1940
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "Morgarten",
+            "rating": 2152
+          },
+          "id": "7PTaLDBi",
+          "mode": "rated",
+          "month": "2023-09",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "gatets2017",
+            "rating": 2183
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "Vfcnth62",
+            "rating": 2115
+          },
+          "id": "0KUfEEys",
+          "mode": "rated",
+          "month": "2023-09",
+          "speed": "blitz",
+          "uci": "f1d3",
+          "white": {
+            "name": "todleise26",
+            "rating": 2207
+          },
+          "winner": "white",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "Innere23",
+            "rating": 2086
+          },
+          "id": "IcwI9nRm",
+          "mode": "rated",
+          "month": "2023-09",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "TAELNA",
+            "rating": 2119
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "erdenet",
+            "rating": 2181
+          },
+          "id": "O9Ugx7K0",
+          "mode": "rated",
+          "month": "2023-09",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "ZexhHA",
+            "rating": 2193
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "Tralli",
+            "rating": 2212
+          },
+          "id": "Y00Xt6GI",
+          "mode": "rated",
+          "month": "2023-09",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "YopeWoody",
+            "rating": 2175
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "GuinevereAthangi",
+            "rating": 2094
+          },
+          "id": "Wqw6ZV3q",
+          "mode": "rated",
+          "month": "2023-09",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "tosu-KCI",
+            "rating": 2118
+          },
+          "winner": "black",
+          "year": 2023
+        }
+      ],
+      "topGames": [],
+      "white": 215
+    },
+    "2023-10": {
+      "black": 272,
+      "draws": 24,
+      "moves": [
+        {
+          "averageRating": 2116,
+          "black": 227,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 189
+        },
+        {
+          "averageRating": 2102,
+          "black": 31,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 24
+        },
+        {
+          "averageRating": 2104,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 8
+        },
+        {
+          "averageRating": 2111,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 4
+        },
+        {
+          "averageRating": 2074,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "Alcharion",
+            "rating": 2042
+          },
+          "id": "7xFhgKpo",
+          "mode": "rated",
+          "month": "2023-10",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "marlongiraldo",
+            "rating": 2097
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "Ilias1979",
+            "rating": 2176
+          },
+          "id": "EDcY5J3c",
+          "mode": "rated",
+          "month": "2023-10",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "achpurbek",
+            "rating": 1913
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "CaptainWDEvans",
+            "rating": 2122
+          },
+          "id": "NqLdcxZW",
+          "mode": "rated",
+          "month": "2023-10",
+          "speed": "blitz",
+          "uci": "f1d3",
+          "white": {
+            "name": "spurv",
+            "rating": 2070
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "VladimirTambov",
+            "rating": 2432
+          },
+          "id": "cQYBuHja",
+          "mode": "rated",
+          "month": "2023-10",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "imodoudou",
+            "rating": 1842
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "andrzejop",
+            "rating": 2030
+          },
+          "id": "fMMH9gp6",
+          "mode": "rated",
+          "month": "2023-10",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "kannmamachen",
+            "rating": 2109
+          },
+          "winner": "white",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "BosnianMK",
+            "rating": 2042
+          },
+          "id": "pfp9pJ8U",
+          "mode": "rated",
+          "month": "2023-10",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "yuzenay",
+            "rating": 2169
+          },
+          "winner": "white",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "AntonAguirre",
+            "rating": 2133
+          },
+          "id": "qzbsa3EN",
+          "mode": "rated",
+          "month": "2023-10",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "AleksandrKameko",
+            "rating": 2146
+          },
+          "winner": "white",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "vitast88",
+            "rating": 2168
+          },
+          "id": "HXz28fT9",
+          "mode": "rated",
+          "month": "2023-10",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "SadPeterson",
+            "rating": 2186
+          },
+          "winner": "white",
+          "year": 2023
+        }
+      ],
+      "topGames": [],
+      "white": 226
+    },
+    "2023-11": {
+      "black": 232,
+      "draws": 19,
+      "moves": [
+        {
+          "averageRating": 2107,
+          "black": 197,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 193
+        },
+        {
+          "averageRating": 2103,
+          "black": 23,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 26
+        },
+        {
+          "averageRating": 2123,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 5
+        },
+        {
+          "averageRating": 2108,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 2
+        },
+        {
+          "averageRating": 2091,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "Team_Durruti",
+            "rating": 2171
+          },
+          "id": "nbXYHnIr",
+          "mode": "rated",
+          "month": "2023-11",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "lebarondunord",
+            "rating": 2174
+          },
+          "winner": "white",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "sasha546",
+            "rating": 2147
+          },
+          "id": "NPfxpd8Z",
+          "mode": "rated",
+          "month": "2023-11",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "mrTake2",
+            "rating": 2113
+          },
+          "winner": null,
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "Innere23",
+            "rating": 2070
+          },
+          "id": "pberJoss",
+          "mode": "rated",
+          "month": "2023-11",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Rishigayle",
+            "rating": 2012
+          },
+          "winner": "white",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "Tralli",
+            "rating": 2241
+          },
+          "id": "LTZUzuK0",
+          "mode": "rated",
+          "month": "2023-11",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "BlunderI2",
+            "rating": 2145
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "Garompudo3",
+            "rating": 2226
+          },
+          "id": "URLZLeMx",
+          "mode": "rated",
+          "month": "2023-11",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Mehrojbek2010",
+            "rating": 2093
+          },
+          "winner": "white",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "Kringo",
+            "rating": 2126
+          },
+          "id": "6UWpvtXO",
+          "mode": "rated",
+          "month": "2023-11",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "norb3rgh",
+            "rating": 2072
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "eduardorp49",
+            "rating": 2121
+          },
+          "id": "bOV0icaV",
+          "mode": "rated",
+          "month": "2023-11",
+          "speed": "blitz",
+          "uci": "f1d3",
+          "white": {
+            "name": "nicocurotto",
+            "rating": 2227
+          },
+          "winner": "white",
+          "year": 2023
+        }
+      ],
+      "topGames": [],
+      "white": 227
+    },
+    "2023-12": {
+      "black": 271,
+      "draws": 27,
+      "moves": [
+        {
+          "averageRating": 2111,
+          "black": 241,
+          "draws": 21,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 223
+        },
+        {
+          "averageRating": 2114,
+          "black": 16,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 27
+        },
+        {
+          "averageRating": 2098,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 6
+        },
+        {
+          "averageRating": 2104,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 3
+        },
+        {
+          "averageRating": 2035,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "CaptainWDEvans",
+            "rating": 2068
+          },
+          "id": "dlB7oaG4",
+          "mode": "rated",
+          "month": "2023-12",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Jumpingcastle5",
+            "rating": 2053
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "Mr-RichardFeynman",
+            "rating": 2255
+          },
+          "id": "7Xp1cNky",
+          "mode": "rated",
+          "month": "2023-12",
+          "speed": "blitz",
+          "uci": "f1d3",
+          "white": {
+            "name": "W-N-R",
+            "rating": 2144
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "CaptainWDEvans",
+            "rating": 2076
+          },
+          "id": "iPCToqaW",
+          "mode": "rated",
+          "month": "2023-12",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Lil_Pump_Jetski",
+            "rating": 2068
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "fritzhonka",
+            "rating": 2163
+          },
+          "id": "E4AYJwyp",
+          "mode": "rated",
+          "month": "2023-12",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "liglev",
+            "rating": 2062
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "ZB_G",
+            "rating": 2205
+          },
+          "id": "59Rbq5K2",
+          "mode": "rated",
+          "month": "2023-12",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "zonk123",
+            "rating": 2145
+          },
+          "winner": "white",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "m0528lm",
+            "rating": 1983
+          },
+          "id": "LAbFgXnJ",
+          "mode": "rated",
+          "month": "2023-12",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "jelenciak",
+            "rating": 2040
+          },
+          "winner": "black",
+          "year": 2023
+        },
+        {
+          "black": {
+            "name": "Lukas1904",
+            "rating": 1993
+          },
+          "id": "IY6ZV99x",
+          "mode": "rated",
+          "month": "2023-12",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "drtson",
+            "rating": 2049
+          },
+          "winner": "white",
+          "year": 2023
+        }
+      ],
+      "topGames": [],
+      "white": 259
+    },
+    "2024-01": {
+      "black": 248,
+      "draws": 19,
+      "moves": [
+        {
+          "averageRating": 2116,
+          "black": 220,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 186
+        },
+        {
+          "averageRating": 2123,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 28
+        },
+        {
+          "averageRating": 2071,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 8
+        },
+        {
+          "averageRating": 2123,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 1
+        },
+        {
+          "averageRating": 2017,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "nihilator",
+            "rating": 2055
+          },
+          "id": "xbckT8yu",
+          "mode": "rated",
+          "month": "2024-01",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Daavid100",
+            "rating": 2088
+          },
+          "winner": "white",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "f33579ng",
+            "rating": 2156
+          },
+          "id": "2SF2DdYQ",
+          "mode": "rated",
+          "month": "2024-01",
+          "speed": "blitz",
+          "uci": "e4d5",
+          "white": {
+            "name": "kingalanfirst",
+            "rating": 2032
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "Worstsalad",
+            "rating": 2173
+          },
+          "id": "n13JioMJ",
+          "mode": "rated",
+          "month": "2024-01",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "SteliosTheocharous",
+            "rating": 2132
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "ATShame",
+            "rating": 2078
+          },
+          "id": "WzwspudS",
+          "mode": "rated",
+          "month": "2024-01",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "laventurier",
+            "rating": 2144
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "ATShame",
+            "rating": 2058
+          },
+          "id": "8FIU8nup",
+          "mode": "rated",
+          "month": "2024-01",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Killoalej",
+            "rating": 2076
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "gamal_atia66",
+            "rating": 2048
+          },
+          "id": "evYsOdWY",
+          "mode": "rated",
+          "month": "2024-01",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Roteblume",
+            "rating": 2106
+          },
+          "winner": "white",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "blitz_vegan",
+            "rating": 2029
+          },
+          "id": "A8IdJr5v",
+          "mode": "rated",
+          "month": "2024-01",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "nanang_123",
+            "rating": 2140
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "Chamelot",
+            "rating": 2056
+          },
+          "id": "PHbLmhuc",
+          "mode": "rated",
+          "month": "2024-01",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "MissionMagnus",
+            "rating": 2069
+          },
+          "winner": "black",
+          "year": 2024
+        }
+      ],
+      "topGames": [],
+      "white": 224
+    },
+    "2024-02": {
+      "black": 226,
+      "draws": 28,
+      "moves": [
+        {
+          "averageRating": 2114,
+          "black": 197,
+          "draws": 24,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 168
+        },
+        {
+          "averageRating": 2108,
+          "black": 23,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 29
+        },
+        {
+          "averageRating": 2105,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 6
+        },
+        {
+          "averageRating": 2153,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "daskapitallesen",
+              "rating": 2164
+            },
+            "id": "CdNOwTTq",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Dgitaro58",
+              "rating": 2153
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 0
+        },
+        {
+          "averageRating": 2184,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "zanchetov",
+              "rating": 2036
+            },
+            "id": "pOKTItcP",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "alltoohuman",
+              "rating": 2184
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "iTonyStark",
+            "rating": 2151
+          },
+          "id": "84s235j4",
+          "mode": "rated",
+          "month": "2024-03",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "snake6565",
+            "rating": 2183
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "m0528lm",
+            "rating": 2082
+          },
+          "id": "88i5nj31",
+          "mode": "rated",
+          "month": "2024-02",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "General_Mbuto",
+            "rating": 2138
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "m0528lm",
+            "rating": 2067
+          },
+          "id": "o9COyi75",
+          "mode": "rated",
+          "month": "2024-02",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Gummisko",
+            "rating": 2124
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "Karpenin",
+            "rating": 2137
+          },
+          "id": "EBvvx3Ep",
+          "mode": "rated",
+          "month": "2024-02",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Samir1963",
+            "rating": 2112
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "BosnianMK",
+            "rating": 2049
+          },
+          "id": "7NRDttP1",
+          "mode": "rated",
+          "month": "2024-02",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "PetrN-UL",
+            "rating": 2071
+          },
+          "winner": "white",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "smart_666",
+            "rating": 2124
+          },
+          "id": "wEbuHByY",
+          "mode": "rated",
+          "month": "2024-02",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "isabellag",
+            "rating": 2031
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "petsie9",
+            "rating": 2037
+          },
+          "id": "VpkXWVGg",
+          "mode": "rated",
+          "month": "2024-02",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Hugo_Boss76",
+            "rating": 1972
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "BosnianMK",
+            "rating": 2054
+          },
+          "id": "Ep6qmxXK",
+          "mode": "rated",
+          "month": "2024-02",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "andrewsmacbeir",
+            "rating": 2054
+          },
+          "winner": "white",
+          "year": 2024
+        }
+      ],
+      "topGames": [],
+      "white": 203
+    },
+    "2024-03": {
+      "black": 258,
+      "draws": 32,
+      "moves": [
+        {
+          "averageRating": 2111,
+          "black": 216,
+          "draws": 24,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 189
+        },
+        {
+          "averageRating": 2079,
+          "black": 32,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 22
+        },
+        {
+          "averageRating": 2123,
+          "black": 9,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 5
+        },
+        {
+          "averageRating": 2122,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 1
+        },
+        {
+          "averageRating": 2079,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "underweather",
+            "rating": 2036
+          },
+          "id": "HvNK6jDD",
+          "mode": "rated",
+          "month": "2024-03",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "AndreAshek",
+            "rating": 1972
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "MarcRameaux",
+            "rating": 2100
+          },
+          "id": "Dhz6Z6cp",
+          "mode": "rated",
+          "month": "2024-03",
+          "speed": "blitz",
+          "uci": "f1d3",
+          "white": {
+            "name": "Naroth30",
+            "rating": 2139
+          },
+          "winner": null,
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "chak98",
+            "rating": 2085
+          },
+          "id": "xk7eot4n",
+          "mode": "rated",
+          "month": "2024-03",
+          "speed": "blitz",
+          "uci": "e4d5",
+          "white": {
+            "name": "Rod_Villa_Zambo",
+            "rating": 2094
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "pongpongista",
+            "rating": 2036
+          },
+          "id": "J7s0AUIf",
+          "mode": "rated",
+          "month": "2024-03",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Monty63",
+            "rating": 2043
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "jas-m",
+            "rating": 2176
+          },
+          "id": "bdauZDPH",
+          "mode": "rated",
+          "month": "2024-03",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Rhich60",
+            "rating": 2095
+          },
+          "winner": "white",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "Nesajrak",
+            "rating": 2001
+          },
+          "id": "GVPZT9fg",
+          "mode": "rated",
+          "month": "2024-03",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Lasker23",
+            "rating": 2043
+          },
+          "winner": "white",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "King_geoden",
+            "rating": 2038
+          },
+          "id": "bnx0HAMd",
+          "mode": "rated",
+          "month": "2024-03",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Ausha",
+            "rating": 2036
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "King_geoden",
+            "rating": 2039
+          },
+          "id": "m7k4XjUi",
+          "mode": "rated",
+          "month": "2024-03",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Alexbogerd",
+            "rating": 1998
+          },
+          "winner": "black",
+          "year": 2024
+        }
+      ],
+      "topGames": [],
+      "white": 218
+    },
+    "2024-04": {
+      "black": 252,
+      "draws": 26,
+      "moves": [
+        {
+          "averageRating": 2111,
+          "black": 220,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 187
+        },
+        {
+          "averageRating": 2083,
+          "black": 17,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 26
+        },
+        {
+          "averageRating": 2094,
+          "black": 10,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 4
+        },
+        {
+          "averageRating": 2123,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 1
+        },
+        {
+          "averageRating": 2128,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "jbvlonly",
+            "rating": 2031
+          },
+          "id": "Q164e2UX",
+          "mode": "rated",
+          "month": "2024-04",
+          "speed": "blitz",
+          "uci": "f1d3",
+          "white": {
+            "name": "cbsPassmores",
+            "rating": 2031
+          },
+          "winner": "white",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "mahmoud55azmy",
+            "rating": 2153
+          },
+          "id": "ayvwSLk9",
+          "mode": "rated",
+          "month": "2024-04",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Laerte",
+            "rating": 2166
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "Morgarten",
+            "rating": 2098
+          },
+          "id": "3QY2q7Uj",
+          "mode": "rated",
+          "month": "2024-04",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "ContrastiveReasons24",
+            "rating": 2080
+          },
+          "winner": "white",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "Mauro082",
+            "rating": 2059
+          },
+          "id": "92VxXmNF",
+          "mode": "rated",
+          "month": "2024-04",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "SanPanRancio",
+            "rating": 2171
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "DVedu",
+            "rating": 2124
+          },
+          "id": "qIYgFySC",
+          "mode": "rated",
+          "month": "2024-04",
+          "speed": "blitz",
+          "uci": "f1d3",
+          "white": {
+            "name": "Vadim_Sim",
+            "rating": 2197
+          },
+          "winner": "white",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "sveg67",
+            "rating": 2155
+          },
+          "id": "x1xI0PVA",
+          "mode": "rated",
+          "month": "2024-04",
+          "speed": "blitz",
+          "uci": "f1d3",
+          "white": {
+            "name": "dmitriyrostov",
+            "rating": 2157
+          },
+          "winner": "white",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "Bashkurd102",
+            "rating": 2130
+          },
+          "id": "xT8E4fyP",
+          "mode": "rated",
+          "month": "2024-04",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "ChessPatsi",
+            "rating": 2033
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "Melo2100",
+            "rating": 2029
+          },
+          "id": "enlDYZL9",
+          "mode": "rated",
+          "month": "2024-04",
+          "speed": "blitz",
+          "uci": "f1d3",
+          "white": {
+            "name": "Hassan_Sinno",
+            "rating": 2042
+          },
+          "winner": null,
+          "year": 2024
+        }
+      ],
+      "topGames": [],
+      "white": 218
+    },
+    "2024-05": {
+      "black": 240,
+      "draws": 22,
+      "moves": [
+        {
+          "averageRating": 2113,
+          "black": 210,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 187
+        },
+        {
+          "averageRating": 2106,
+          "black": 20,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 22
+        },
+        {
+          "averageRating": 2121,
+          "black": 6,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 10
+        },
+        {
+          "averageRating": 2081,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 2
+        },
+        {
+          "averageRating": 2116,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "Ruthlomyst",
+            "rating": 2087
+          },
+          "id": "Cmw5pJcj",
+          "mode": "rated",
+          "month": "2024-05",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "HisokaCC",
+            "rating": 2147
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "LikeableScissors",
+            "rating": 2100
+          },
+          "id": "DexzfqbH",
+          "mode": "rated",
+          "month": "2024-05",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "gitarast",
+            "rating": 2170
+          },
+          "winner": "white",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "consagracion",
+            "rating": 2028
+          },
+          "id": "YMoh2obc",
+          "mode": "rated",
+          "month": "2024-05",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Romanoe",
+            "rating": 1986
+          },
+          "winner": "white",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "IHoti",
+            "rating": 2053
+          },
+          "id": "nMhDT2hc",
+          "mode": "rated",
+          "month": "2024-05",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "xazail",
+            "rating": 2037
+          },
+          "winner": "white",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "Ruthlomyst",
+            "rating": 2067
+          },
+          "id": "jzN6Xzs6",
+          "mode": "rated",
+          "month": "2024-05",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Caribking",
+            "rating": 2173
+          },
+          "winner": "white",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "kasparov0810",
+            "rating": 2051
+          },
+          "id": "kWhmrWzJ",
+          "mode": "rated",
+          "month": "2024-05",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "SavDiego",
+            "rating": 2050
+          },
+          "winner": "black",
+          "year": 2024
+        }
+      ],
+      "topGames": [],
+      "white": 221
+    },
+    "2024-06": {
+      "black": 235,
+      "draws": 26,
+      "moves": [
+        {
+          "averageRating": 2112,
+          "black": 212,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 196
+        },
+        {
+          "averageRating": 2115,
+          "black": 16,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 24
+        },
+        {
+          "averageRating": 2084,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 6
+        },
+        {
+          "averageRating": 2052,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Kl100",
+              "rating": 2056
+            },
+            "id": "PpfPBeZ8",
+            "mode": "rated",
+            "month": "2024-06",
+            "speed": "blitz",
+            "white": {
+              "name": "kildin",
+              "rating": 2052
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Ng1",
+          "uci": "f3g1",
+          "white": 0
+        },
+        {
+          "averageRating": 1815,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "mahmoud55azmy",
+              "rating": 2191
+            },
+            "id": "mH3kgYFh",
+            "mode": "rated",
+            "month": "2024-06",
+            "speed": "blitz",
+            "white": {
+              "name": "TAHER_FISHER",
+              "rating": 1815
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 0
+        },
+        {
+          "averageRating": 2004,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "FireFin",
+              "rating": 2019
+            },
+            "id": "azz3tuxk",
+            "mode": "rated",
+            "month": "2024-06",
+            "speed": "blitz",
+            "white": {
+              "name": "ibohar",
+              "rating": 2004
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "DonBaltimor",
+            "rating": 2173
+          },
+          "id": "ds41VqwT",
+          "mode": "rated",
+          "month": "2024-06",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "M_Killer_12",
+            "rating": 2010
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "Chandon2020",
+            "rating": 2115
+          },
+          "id": "oq00barf",
+          "mode": "rated",
+          "month": "2024-06",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "ProfessorSalva",
+            "rating": 2131
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "blitz_vegan",
+            "rating": 2020
+          },
+          "id": "HGp6PVyJ",
+          "mode": "rated",
+          "month": "2024-06",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "BigRedMachine",
+            "rating": 2075
+          },
+          "winner": "white",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "Ulemdzhin_Baatr",
+            "rating": 2017
+          },
+          "id": "larzTpBR",
+          "mode": "rated",
+          "month": "2024-06",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "elevenhydroxy",
+            "rating": 2112
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "velryba",
+            "rating": 2141
+          },
+          "id": "UCNcvxvw",
+          "mode": "rated",
+          "month": "2024-06",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "elnano_33",
+            "rating": 2128
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "ReneD",
+            "rating": 2176
+          },
+          "id": "0qXgL6PR",
+          "mode": "rated",
+          "month": "2024-06",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Rhich60",
+            "rating": 2103
+          },
+          "winner": "white",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "AbdelrahmanWalid",
+            "rating": 2050
+          },
+          "id": "luCqOITt",
+          "mode": "rated",
+          "month": "2024-06",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "EvgeniyAkimov",
+            "rating": 2136
+          },
+          "winner": "white",
+          "year": 2024
+        }
+      ],
+      "topGames": [],
+      "white": 226
+    },
+    "2024-07": {
+      "black": 257,
+      "draws": 31,
+      "moves": [
+        {
+          "averageRating": 2110,
+          "black": 234,
+          "draws": 28,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 218
+        },
+        {
+          "averageRating": 2113,
+          "black": 11,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 19
+        },
+        {
+          "averageRating": 2106,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 4
+        },
+        {
+          "averageRating": 2161,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 5
+        },
+        {
+          "averageRating": 2054,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "RaptorTi",
+              "rating": 2056
+            },
+            "id": "QXwoKAbO",
+            "mode": "rated",
+            "month": "2024-07",
+            "speed": "blitz",
+            "white": {
+              "name": "spurv",
+              "rating": 2054
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "rafauga",
+            "rating": 2149
+          },
+          "id": "nCvLg3vP",
+          "mode": "rated",
+          "month": "2024-07",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "karloenrico",
+            "rating": 2226
+          },
+          "winner": "white",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "DiegoBrinc",
+            "rating": 2029
+          },
+          "id": "Qm6We97z",
+          "mode": "rated",
+          "month": "2024-07",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "NurSajat",
+            "rating": 2023
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "Artemiy1893",
+            "rating": 2165
+          },
+          "id": "OaIn4ZWX",
+          "mode": "rated",
+          "month": "2024-07",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Schachpimmel",
+            "rating": 2092
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "Jessica_85",
+            "rating": 2167
+          },
+          "id": "ZH0WI00G",
+          "mode": "rated",
+          "month": "2024-07",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Albi_1991",
+            "rating": 2232
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "mbitton24",
+            "rating": 2131
+          },
+          "id": "Iw5RSMGy",
+          "mode": "rated",
+          "month": "2024-07",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Hikura_Nakamaru",
+            "rating": 2096
+          },
+          "winner": "white",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "curious1101",
+            "rating": 2081
+          },
+          "id": "posbFNCp",
+          "mode": "rated",
+          "month": "2024-07",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "pp12",
+            "rating": 1989
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "Thommj",
+            "rating": 2045
+          },
+          "id": "zoYbAuz6",
+          "mode": "rated",
+          "month": "2024-07",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "ryan_mehr",
+            "rating": 2055
+          },
+          "winner": "white",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "alms",
+            "rating": 2129
+          },
+          "id": "3yqEbvmj",
+          "mode": "rated",
+          "month": "2024-07",
+          "speed": "blitz",
+          "uci": "f1d3",
+          "white": {
+            "name": "medinasiyasa",
+            "rating": 2075
+          },
+          "winner": "white",
+          "year": 2024
+        }
+      ],
+      "topGames": [],
+      "white": 247
+    },
+    "2024-08": {
+      "black": 311,
+      "draws": 19,
+      "moves": [
+        {
+          "averageRating": 2111,
+          "black": 278,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 218
+        },
+        {
+          "averageRating": 2102,
+          "black": 22,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 18
+        },
+        {
+          "averageRating": 2103,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 9
+        },
+        {
+          "averageRating": 2101,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 0
+        },
+        {
+          "averageRating": 1961,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "ackord",
+            "rating": 2122
+          },
+          "id": "g4spaPl5",
+          "mode": "rated",
+          "month": "2024-08",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "rodovoy",
+            "rating": 2105
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "Grathieben",
+            "rating": 2209
+          },
+          "id": "clxF95Ga",
+          "mode": "rated",
+          "month": "2024-08",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "ImperialWolf",
+            "rating": 2156
+          },
+          "winner": "white",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "sasha546",
+            "rating": 2073
+          },
+          "id": "yLklGWDW",
+          "mode": "rated",
+          "month": "2024-08",
+          "speed": "blitz",
+          "uci": "f1d3",
+          "white": {
+            "name": "Rambo03",
+            "rating": 1961
+          },
+          "winner": "white",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "IHoti",
+            "rating": 2055
+          },
+          "id": "TaNMjvat",
+          "mode": "rated",
+          "month": "2024-08",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "lmdw123",
+            "rating": 2120
+          },
+          "winner": null,
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "Euler1988",
+            "rating": 2146
+          },
+          "id": "MHFMmez0",
+          "mode": "rated",
+          "month": "2024-08",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "equation_7219",
+            "rating": 2215
+          },
+          "winner": null,
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "champion1357",
+            "rating": 2192
+          },
+          "id": "FIVN55y6",
+          "mode": "rated",
+          "month": "2024-08",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "KiKi2003",
+            "rating": 2204
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "Lafuenfer",
+            "rating": 2103
+          },
+          "id": "SsnDFDNx",
+          "mode": "rated",
+          "month": "2024-08",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "DigimonMaster",
+            "rating": 2206
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "Temurbek_0000",
+            "rating": 2148
+          },
+          "id": "7m2JieBh",
+          "mode": "rated",
+          "month": "2024-08",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "BakhtiyorDjumaev",
+            "rating": 2141
+          },
+          "winner": "black",
+          "year": 2024
+        }
+      ],
+      "topGames": [],
+      "white": 245
+    },
+    "2024-09": {
+      "black": 246,
+      "draws": 29,
+      "moves": [
+        {
+          "averageRating": 2121,
+          "black": 219,
+          "draws": 23,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 205
+        },
+        {
+          "averageRating": 2107,
+          "black": 20,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 29
+        },
+        {
+          "averageRating": 2091,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 12
+        },
+        {
+          "averageRating": 2087,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "sportginger",
+            "rating": 2199
+          },
+          "id": "Cwf1LzjI",
+          "mode": "rated",
+          "month": "2024-09",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "RipunjBansal9-D",
+            "rating": 1927
+          },
+          "winner": "white",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "ziadarnaout",
+            "rating": 2101
+          },
+          "id": "lQxODGlC",
+          "mode": "rated",
+          "month": "2024-09",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Gausdal",
+            "rating": 2189
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "geertver",
+            "rating": 2107
+          },
+          "id": "VORLGbNJ",
+          "mode": "rated",
+          "month": "2024-09",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "fonadura22",
+            "rating": 2170
+          },
+          "winner": "white",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "Lafuenfer",
+            "rating": 2073
+          },
+          "id": "z2sBfzbO",
+          "mode": "rated",
+          "month": "2024-09",
+          "speed": "blitz",
+          "uci": "f1d3",
+          "white": {
+            "name": "GarusK",
+            "rating": 2045
+          },
+          "winner": "white",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "sk_gr",
+            "rating": 2113
+          },
+          "id": "QrOHhHF7",
+          "mode": "rated",
+          "month": "2024-09",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "trenerrr",
+            "rating": 2104
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "Natashakitty",
+            "rating": 2159
+          },
+          "id": "5jp0iUuX",
+          "mode": "rated",
+          "month": "2024-09",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Milutin60",
+            "rating": 2054
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "JanVerbist",
+            "rating": 2031
+          },
+          "id": "qTmxa86K",
+          "mode": "rated",
+          "month": "2024-09",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Opals123",
+            "rating": 2021
+          },
+          "winner": "black",
+          "year": 2024
+        }
+      ],
+      "topGames": [],
+      "white": 247
+    },
+    "2024-10": {
+      "black": 246,
+      "draws": 39,
+      "moves": [
+        {
+          "averageRating": 2119,
+          "black": 225,
+          "draws": 34,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 165
+        },
+        {
+          "averageRating": 2111,
+          "black": 13,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 17
+        },
+        {
+          "averageRating": 2110,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 5
+        },
+        {
+          "averageRating": 2106,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "Morgarten",
+            "rating": 2161
+          },
+          "id": "xUuL66Cn",
+          "mode": "rated",
+          "month": "2024-10",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Contra2011",
+            "rating": 2187
+          },
+          "winner": "white",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "Melo2100",
+            "rating": 2034
+          },
+          "id": "iYvG8Q6K",
+          "mode": "rated",
+          "month": "2024-10",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "newellsoldboys",
+            "rating": 1987
+          },
+          "winner": null,
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "kapko1",
+            "rating": 2128
+          },
+          "id": "jtKH3pV4",
+          "mode": "rated",
+          "month": "2024-10",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Skari10",
+            "rating": 2092
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "fritzhonka",
+            "rating": 2193
+          },
+          "id": "DLRbvEax",
+          "mode": "rated",
+          "month": "2024-10",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "kapturer",
+            "rating": 2199
+          },
+          "winner": "white",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "kapko1",
+            "rating": 2119
+          },
+          "id": "j5yytPo6",
+          "mode": "rated",
+          "month": "2024-10",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Der_Bo",
+            "rating": 2162
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "aninda78",
+            "rating": 2188
+          },
+          "id": "VVDTP6dQ",
+          "mode": "rated",
+          "month": "2024-10",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "oskarov53",
+            "rating": 2190
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "RaptorTi",
+            "rating": 2031
+          },
+          "id": "INUQYHT5",
+          "mode": "rated",
+          "month": "2024-10",
+          "speed": "blitz",
+          "uci": "f1d3",
+          "white": {
+            "name": "smurphin",
+            "rating": 2006
+          },
+          "winner": null,
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "ReneD",
+            "rating": 2112
+          },
+          "id": "SYpmOj9y",
+          "mode": "rated",
+          "month": "2024-10",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "goodnewsman",
+            "rating": 2173
+          },
+          "winner": "black",
+          "year": 2024
+        }
+      ],
+      "topGames": [],
+      "white": 188
+    },
+    "2024-11": {
+      "black": 226,
+      "draws": 23,
+      "moves": [
+        {
+          "averageRating": 2112,
+          "black": 206,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 154
+        },
+        {
+          "averageRating": 2106,
+          "black": 12,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 18
+        },
+        {
+          "averageRating": 2086,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 6
+        },
+        {
+          "averageRating": 2159,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 1
+        },
+        {
+          "averageRating": 2046,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "tvy13",
+              "rating": 2103
+            },
+            "id": "MczsV99W",
+            "mode": "rated",
+            "month": "2024-11",
+            "speed": "blitz",
+            "white": {
+              "name": "lucipurka",
+              "rating": 2046
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "urz57",
+            "rating": 2131
+          },
+          "id": "mISQxULc",
+          "mode": "rated",
+          "month": "2024-11",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "pozzkley",
+            "rating": 2116
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "Reflekt0r",
+            "rating": 2054
+          },
+          "id": "hLVi8PwT",
+          "mode": "rated",
+          "month": "2024-11",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Tovino",
+            "rating": 2092
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "Bauer-B2",
+            "rating": 2112
+          },
+          "id": "xc6g0Gto",
+          "mode": "rated",
+          "month": "2024-11",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Squirrelchess",
+            "rating": 2097
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "VolkhardH",
+            "rating": 2123
+          },
+          "id": "yI1RtTPB",
+          "mode": "rated",
+          "month": "2024-11",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Squirrelchess",
+            "rating": 2096
+          },
+          "winner": "white",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "pongpongista",
+            "rating": 2042
+          },
+          "id": "Df3KF1lM",
+          "mode": "rated",
+          "month": "2024-11",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "GeefZeVanJetje",
+            "rating": 2053
+          },
+          "winner": "white",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "Pkaroly",
+            "rating": 2178
+          },
+          "id": "YUTLUc6x",
+          "mode": "rated",
+          "month": "2024-11",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "irineo1958",
+            "rating": 2202
+          },
+          "winner": "white",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "Jaap6",
+            "rating": 2122
+          },
+          "id": "Bm7AqsyI",
+          "mode": "rated",
+          "month": "2024-11",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "DarkkAbbys",
+            "rating": 2106
+          },
+          "winner": "white",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "orestesking",
+            "rating": 2031
+          },
+          "id": "few7eQnj",
+          "mode": "rated",
+          "month": "2024-11",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "karaya14",
+            "rating": 2040
+          },
+          "winner": "black",
+          "year": 2024
+        }
+      ],
+      "topGames": [],
+      "white": 179
+    },
+    "2024-12": {
+      "black": 259,
+      "draws": 24,
+      "moves": [
+        {
+          "averageRating": 2117,
+          "black": 236,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 207
+        },
+        {
+          "averageRating": 2128,
+          "black": 15,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 23
+        },
+        {
+          "averageRating": 2057,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 2
+        },
+        {
+          "averageRating": 2149,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 1
+        },
+        {
+          "averageRating": 2188,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "gueler73",
+              "rating": 2188
+            },
+            "id": "rBYa2NkS",
+            "mode": "rated",
+            "month": "2024-12",
+            "speed": "blitz",
+            "white": {
+              "name": "emmadiogu",
+              "rating": 2188
+            },
+            "winner": null,
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "Karpuff",
+            "rating": 2192
+          },
+          "id": "tAzYuCXv",
+          "mode": "rated",
+          "month": "2024-12",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "MarcusAV",
+            "rating": 2178
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "mistakesareallthere",
+            "rating": 2078
+          },
+          "id": "Z3LngRWS",
+          "mode": "rated",
+          "month": "2024-12",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "slavigor73",
+            "rating": 2162
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "mahmoud55azmy",
+            "rating": 2153
+          },
+          "id": "fDZNp7Fu",
+          "mode": "rated",
+          "month": "2024-12",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "taisiaya2006",
+            "rating": 2177
+          },
+          "winner": "white",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "nigud",
+            "rating": 2208
+          },
+          "id": "HmLqPkmz",
+          "mode": "rated",
+          "month": "2024-12",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "KeVoRkIaN19",
+            "rating": 2151
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "ziadarnaout",
+            "rating": 2129
+          },
+          "id": "eotszHi0",
+          "mode": "rated",
+          "month": "2024-12",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "taisiaya2006",
+            "rating": 2158
+          },
+          "winner": "white",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "MikeLeo33",
+            "rating": 1967
+          },
+          "id": "3iV5XR4A",
+          "mode": "rated",
+          "month": "2024-12",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "tiredandhungry247",
+            "rating": 2041
+          },
+          "winner": "black",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "halftrusim",
+            "rating": 2129
+          },
+          "id": "p2R3aNxP",
+          "mode": "rated",
+          "month": "2024-12",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "superidiot",
+            "rating": 2241
+          },
+          "winner": "white",
+          "year": 2024
+        },
+        {
+          "black": {
+            "name": "savoz",
+            "rating": 2133
+          },
+          "id": "RskwVJP8",
+          "mode": "rated",
+          "month": "2024-12",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "hlchess",
+            "rating": 2207
+          },
+          "winner": "black",
+          "year": 2024
+        }
+      ],
+      "topGames": [],
+      "white": 233
+    },
+    "2025-01": {
+      "black": 277,
+      "draws": 25,
+      "moves": [
+        {
+          "averageRating": 2119,
+          "black": 250,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 211
+        },
+        {
+          "averageRating": 2102,
+          "black": 16,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 19
+        },
+        {
+          "averageRating": 2128,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 2
+        },
+        {
+          "averageRating": 2091,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 4
+        },
+        {
+          "averageRating": 2181,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 0
+        },
+        {
+          "averageRating": 2055,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "Euler1988",
+            "rating": 2144
+          },
+          "id": "YRqhAxze",
+          "mode": "rated",
+          "month": "2025-01",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "NewTapok",
+            "rating": 2166
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "LightKnight79",
+            "rating": 2130
+          },
+          "id": "7KSiW7Aw",
+          "mode": "rated",
+          "month": "2025-01",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "cdqdnc",
+            "rating": 2115
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "MikaFin2020",
+            "rating": 2103
+          },
+          "id": "5VafqDoJ",
+          "mode": "rated",
+          "month": "2025-01",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "james_here",
+            "rating": 2034
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "hot_dog_beast",
+            "rating": 2104
+          },
+          "id": "X7sBlrBo",
+          "mode": "rated",
+          "month": "2025-01",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "deleju",
+            "rating": 2093
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "volkovsergei",
+            "rating": 2181
+          },
+          "id": "7J5GOWuN",
+          "mode": "rated",
+          "month": "2025-01",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Chonkyboy24",
+            "rating": 2184
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "alex6644",
+            "rating": 2104
+          },
+          "id": "WWYCXd7K",
+          "mode": "rated",
+          "month": "2025-01",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "mohsen5157m",
+            "rating": 2166
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "kapko1",
+            "rating": 2100
+          },
+          "id": "d7R7GpFN",
+          "mode": "rated",
+          "month": "2025-01",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "la_trieste",
+            "rating": 2054
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "Testator",
+            "rating": 2097
+          },
+          "id": "2EWaVUz7",
+          "mode": "rated",
+          "month": "2025-01",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "easy-way",
+            "rating": 2068
+          },
+          "winner": "black",
+          "year": 2025
+        }
+      ],
+      "topGames": [],
+      "white": 236
+    },
+    "2025-02": {
+      "black": 243,
+      "draws": 28,
+      "moves": [
+        {
+          "averageRating": 2108,
+          "black": 212,
+          "draws": 27,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 193
+        },
+        {
+          "averageRating": 2098,
+          "black": 21,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 21
+        },
+        {
+          "averageRating": 2083,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 6
+        },
+        {
+          "averageRating": 2117,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 2
+        },
+        {
+          "averageRating": 2091,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 1
+        },
+        {
+          "averageRating": 2089,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "kapko1",
+              "rating": 2099
+            },
+            "id": "8TOnMx6J",
+            "mode": "rated",
+            "month": "2025-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Nikolai123456789",
+              "rating": 2089
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "Johann-Velasquez",
+            "rating": 2100
+          },
+          "id": "ZVhtyv0d",
+          "mode": "rated",
+          "month": "2025-02",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Zargal1972",
+            "rating": 2233
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "fritzhonka",
+            "rating": 2132
+          },
+          "id": "uV397hli",
+          "mode": "rated",
+          "month": "2025-02",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Toniraj",
+            "rating": 2107
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "ViktorBugaiev",
+            "rating": 2164
+          },
+          "id": "j8kSyZTd",
+          "mode": "rated",
+          "month": "2025-02",
+          "speed": "blitz",
+          "uci": "f1d3",
+          "white": {
+            "name": "Sunday_2025",
+            "rating": 2173
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "BankKing",
+            "rating": 2157
+          },
+          "id": "mWWDtx30",
+          "mode": "rated",
+          "month": "2025-02",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "blascofe",
+            "rating": 2218
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "fnkwnsidknli",
+            "rating": 2234
+          },
+          "id": "H9gPVz8r",
+          "mode": "rated",
+          "month": "2025-02",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "PassedPawn222",
+            "rating": 2142
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "ziadarnaout",
+            "rating": 2140
+          },
+          "id": "ezOTmOTO",
+          "mode": "rated",
+          "month": "2025-02",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "xCapivaraOficialx",
+            "rating": 2170
+          },
+          "winner": null,
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "jaze67",
+            "rating": 2023
+          },
+          "id": "XSTKSFGo",
+          "mode": "rated",
+          "month": "2025-02",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "LeRefractorist",
+            "rating": 2060
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "BMV_CS",
+            "rating": 1990
+          },
+          "id": "zg8MFmc0",
+          "mode": "rated",
+          "month": "2025-02",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "hectorluis2019",
+            "rating": 2365
+          },
+          "winner": "white",
+          "year": 2025
+        }
+      ],
+      "topGames": [],
+      "white": 223
+    },
+    "2025-03": {
+      "black": 254,
+      "draws": 27,
+      "moves": [
+        {
+          "averageRating": 2114,
+          "black": 223,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 181
+        },
+        {
+          "averageRating": 2100,
+          "black": 19,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 20
+        },
+        {
+          "averageRating": 2091,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 9
+        },
+        {
+          "averageRating": 2058,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 1
+        },
+        {
+          "averageRating": 2056,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 0
+        },
+        {
+          "averageRating": 2002,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "CarlosHSS",
+              "rating": 2102
+            },
+            "id": "ZXG6kiap",
+            "mode": "rated",
+            "month": "2025-03",
+            "speed": "blitz",
+            "white": {
+              "name": "speedrunsergipe",
+              "rating": 2002
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "AbleDGC",
+            "rating": 2152
+          },
+          "id": "QHfeKrHf",
+          "mode": "rated",
+          "month": "2025-03",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "aandres44",
+            "rating": 2204
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "NoAnalysisJustVibes",
+            "rating": 2098
+          },
+          "id": "bZWZAHXP",
+          "mode": "rated",
+          "month": "2025-03",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "boogeyman76",
+            "rating": 2137
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "jaze67",
+            "rating": 2047
+          },
+          "id": "QKnJEv6M",
+          "mode": "rated",
+          "month": "2025-03",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "BobChessop",
+            "rating": 2098
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "SpiritOfTheWind",
+            "rating": 2137
+          },
+          "id": "QLKfhcGM",
+          "mode": "rated",
+          "month": "2025-03",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "SGW2",
+            "rating": 2101
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "Ramez99",
+            "rating": 1998
+          },
+          "id": "SiRJ1Z0F",
+          "mode": "rated",
+          "month": "2025-03",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "mamakovt",
+            "rating": 2089
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "LightKnight79",
+            "rating": 2206
+          },
+          "id": "pTQTbYd4",
+          "mode": "rated",
+          "month": "2025-03",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Vasec",
+            "rating": 2192
+          },
+          "winner": "black",
+          "year": 2025
+        }
+      ],
+      "topGames": [],
+      "white": 211
+    },
+    "2025-04": {
+      "black": 218,
+      "draws": 20,
+      "moves": [
+        {
+          "averageRating": 2121,
+          "black": 191,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 211
+        },
+        {
+          "averageRating": 2089,
+          "black": 19,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 18
+        },
+        {
+          "averageRating": 2113,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 9
+        },
+        {
+          "averageRating": 2120,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 2
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "Reflekt0r",
+            "rating": 2182
+          },
+          "id": "zmOqndYD",
+          "mode": "rated",
+          "month": "2025-04",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "traininged",
+            "rating": 2184
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "ronvw",
+            "rating": 2102
+          },
+          "id": "oPeU1Dyd",
+          "mode": "rated",
+          "month": "2025-04",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Clayboard",
+            "rating": 2147
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "dezwarteloper",
+            "rating": 2079
+          },
+          "id": "EEftevoK",
+          "mode": "rated",
+          "month": "2025-04",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "wilfriedesque",
+            "rating": 2118
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "GuizGuizGuizGuiz",
+            "rating": 2010
+          },
+          "id": "DVYOnu2m",
+          "mode": "rated",
+          "month": "2025-04",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "robibuc88",
+            "rating": 2013
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "melih345",
+            "rating": 2081
+          },
+          "id": "CNqDP2it",
+          "mode": "rated",
+          "month": "2025-04",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Entite",
+            "rating": 2141
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "Winti-Turm",
+            "rating": 2205
+          },
+          "id": "JcWBpxMu",
+          "mode": "rated",
+          "month": "2025-04",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Mannas2024",
+            "rating": 2156
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "Mishura0610",
+            "rating": 2024
+          },
+          "id": "vUSglT8H",
+          "mode": "rated",
+          "month": "2025-04",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "JozefT24",
+            "rating": 2025
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "Teolo1",
+            "rating": 2041
+          },
+          "id": "YsYtGz82",
+          "mode": "rated",
+          "month": "2025-04",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "OTEZ",
+            "rating": 2035
+          },
+          "winner": "white",
+          "year": 2025
+        }
+      ],
+      "topGames": [],
+      "white": 240
+    },
+    "2025-05": {
+      "black": 231,
+      "draws": 28,
+      "moves": [
+        {
+          "averageRating": 2121,
+          "black": 202,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 177
+        },
+        {
+          "averageRating": 2105,
+          "black": 17,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 26
+        },
+        {
+          "averageRating": 2093,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 9
+        },
+        {
+          "averageRating": 2145,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 3
+        },
+        {
+          "averageRating": 2129,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "Jonas_1990",
+            "rating": 2144
+          },
+          "id": "1w6UtzLX",
+          "mode": "rated",
+          "month": "2025-05",
+          "speed": "blitz",
+          "uci": "f1d3",
+          "white": {
+            "name": "AbdouOrabi",
+            "rating": 2128
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "najly",
+            "rating": 2184
+          },
+          "id": "ZdCaqhIr",
+          "mode": "rated",
+          "month": "2025-05",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "gorditoperro",
+            "rating": 2201
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "TheyCensoredMyName",
+            "rating": 2102
+          },
+          "id": "JC6QXIPD",
+          "mode": "rated",
+          "month": "2025-05",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "potrerillos94",
+            "rating": 2092
+          },
+          "winner": null,
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "seisycuatro",
+            "rating": 2137
+          },
+          "id": "ZYDrFtGT",
+          "mode": "rated",
+          "month": "2025-05",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "bobr12",
+            "rating": 2000
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "Anarco-capitalista",
+            "rating": 2096
+          },
+          "id": "ocPAeocr",
+          "mode": "rated",
+          "month": "2025-05",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "m-nagendra3",
+            "rating": 2103
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "PolishCrow",
+            "rating": 2022
+          },
+          "id": "auJger8T",
+          "mode": "rated",
+          "month": "2025-05",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "christopheh",
+            "rating": 2040
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "picsouchess",
+            "rating": 2246
+          },
+          "id": "mD70RWc2",
+          "mode": "rated",
+          "month": "2025-05",
+          "speed": "blitz",
+          "uci": "f1d3",
+          "white": {
+            "name": "Mate-in-One",
+            "rating": 2083
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "Anarco-capitalista",
+            "rating": 2103
+          },
+          "id": "En9pLuuf",
+          "mode": "rated",
+          "month": "2025-05",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Dusiekk",
+            "rating": 2093
+          },
+          "winner": null,
+          "year": 2025
+        }
+      ],
+      "topGames": [],
+      "white": 216
+    },
+    "2025-06": {
+      "black": 270,
+      "draws": 18,
+      "moves": [
+        {
+          "averageRating": 2116,
+          "black": 241,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 214
+        },
+        {
+          "averageRating": 2105,
+          "black": 22,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 30
+        },
+        {
+          "averageRating": 2139,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 6
+        },
+        {
+          "averageRating": 2171,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 1
+        },
+        {
+          "averageRating": 2000,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 2
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "brilliantmap",
+            "rating": 2183
+          },
+          "id": "tNNmPzN5",
+          "mode": "rated",
+          "month": "2025-06",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Jamice",
+            "rating": 1939
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "Raphaelevi",
+            "rating": 2011
+          },
+          "id": "2MtyUqnD",
+          "mode": "rated",
+          "month": "2025-06",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "sanBez",
+            "rating": 2023
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "Tigerkakao",
+            "rating": 2130
+          },
+          "id": "Di6idOT1",
+          "mode": "rated",
+          "month": "2025-06",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "MOMAS-2",
+            "rating": 2143
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "Sale70",
+            "rating": 2235
+          },
+          "id": "RvH7Vil2",
+          "mode": "rated",
+          "month": "2025-06",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Mr-Lionel-Hutz",
+            "rating": 2088
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "IHoti",
+            "rating": 2022
+          },
+          "id": "ZOP9EgvX",
+          "mode": "rated",
+          "month": "2025-06",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "SezginSen",
+            "rating": 2052
+          },
+          "winner": null,
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "BankKing",
+            "rating": 2195
+          },
+          "id": "RGq6jOJS",
+          "mode": "rated",
+          "month": "2025-06",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Caissa75",
+            "rating": 2130
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "urakih_arumakan1",
+            "rating": 2174
+          },
+          "id": "nHYeShCC",
+          "mode": "rated",
+          "month": "2025-06",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "shur239",
+            "rating": 2185
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "BankKing",
+            "rating": 2205
+          },
+          "id": "i6WAtjOg",
+          "mode": "rated",
+          "month": "2025-06",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "HekkeHijs",
+            "rating": 2123
+          },
+          "winner": "white",
+          "year": 2025
+        }
+      ],
+      "topGames": [],
+      "white": 253
+    },
+    "2025-07": {
+      "black": 291,
+      "draws": 34,
+      "moves": [
+        {
+          "averageRating": 2115,
+          "black": 255,
+          "draws": 29,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 230
+        },
+        {
+          "averageRating": 2084,
+          "black": 23,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 26
+        },
+        {
+          "averageRating": 2062,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 5
+        },
+        {
+          "averageRating": 2079,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 1
+        },
+        {
+          "averageRating": 2141,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 2
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "Jonas_1990",
+            "rating": 2095
+          },
+          "id": "SUXEHGMb",
+          "mode": "rated",
+          "month": "2025-07",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "sergo89dron",
+            "rating": 2106
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "vieto",
+            "rating": 2210
+          },
+          "id": "uSUUiR7J",
+          "mode": "rated",
+          "month": "2025-07",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "rkt981",
+            "rating": 2152
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "nigud",
+            "rating": 2208
+          },
+          "id": "5Yfe1krL",
+          "mode": "rated",
+          "month": "2025-07",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "ChessBobbyFan96",
+            "rating": 2188
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "BerndEgger",
+            "rating": 2154
+          },
+          "id": "tfrSkQPB",
+          "mode": "rated",
+          "month": "2025-07",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Cheffgatt",
+            "rating": 2014
+          },
+          "winner": null,
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "chessklok",
+            "rating": 2054
+          },
+          "id": "pCQgDJrW",
+          "mode": "rated",
+          "month": "2025-07",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "dusan800",
+            "rating": 2097
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "VS-OE-martin",
+            "rating": 2042
+          },
+          "id": "6cW1coKB",
+          "mode": "rated",
+          "month": "2025-07",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "kotishca",
+            "rating": 2215
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "DoctorWhoNoDoctorWtf",
+            "rating": 2164
+          },
+          "id": "nJef03UW",
+          "mode": "rated",
+          "month": "2025-07",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "djangdevdenz",
+            "rating": 2071
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "VictorySword45",
+            "rating": 2064
+          },
+          "id": "sixsliuA",
+          "mode": "rated",
+          "month": "2025-07",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "iamtarungautam58",
+            "rating": 2131
+          },
+          "winner": "black",
+          "year": 2025
+        }
+      ],
+      "topGames": [],
+      "white": 264
+    },
+    "2025-08": {
+      "black": 274,
+      "draws": 28,
+      "moves": [
+        {
+          "averageRating": 2115,
+          "black": 238,
+          "draws": 24,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 225
+        },
+        {
+          "averageRating": 2112,
+          "black": 27,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 27
+        },
+        {
+          "averageRating": 2098,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 9
+        },
+        {
+          "averageRating": 2090,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 1
+        },
+        {
+          "averageRating": 2083,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "NeSaJRaK",
+              "rating": 1950
+            },
+            "id": "F6dtdlnC",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "pregol",
+              "rating": 2083
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 0
+        },
+        {
+          "averageRating": 2071,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Woerni",
+              "rating": 2011
+            },
+            "id": "46qAPje9",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "hb1982",
+              "rating": 2071
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "iparodi",
+            "rating": 2152
+          },
+          "id": "AZBNrfEE",
+          "mode": "rated",
+          "month": "2025-08",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Rakzus",
+            "rating": 2143
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "Aleix1704",
+            "rating": 2169
+          },
+          "id": "lBucbfV9",
+          "mode": "rated",
+          "month": "2025-08",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Mr-Lionel-Hutz",
+            "rating": 2161
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "wardrobes",
+            "rating": 2032
+          },
+          "id": "C5sTqnNe",
+          "mode": "rated",
+          "month": "2025-08",
+          "speed": "blitz",
+          "uci": "e4d5",
+          "white": {
+            "name": "siffmeister12",
+            "rating": 2073
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "UmExcuseMe",
+            "rating": 2015
+          },
+          "id": "bwZlOhsy",
+          "mode": "rated",
+          "month": "2025-08",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Biyiyo",
+            "rating": 2132
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "Antohast",
+            "rating": 2242
+          },
+          "id": "lo6pjnqt",
+          "mode": "rated",
+          "month": "2025-08",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "FVP-NCh_74",
+            "rating": 2019
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "Steinitzfan",
+            "rating": 2137
+          },
+          "id": "UbPTXh7V",
+          "mode": "rated",
+          "month": "2025-08",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Totoechecs",
+            "rating": 2117
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "CheepSteep",
+            "rating": 2119
+          },
+          "id": "HGEo26i1",
+          "mode": "rated",
+          "month": "2025-08",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "karvash493",
+            "rating": 2040
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "Tigerkakao",
+            "rating": 2090
+          },
+          "id": "Ngz8jkFO",
+          "mode": "rated",
+          "month": "2025-08",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Mouseslip101",
+            "rating": 2220
+          },
+          "winner": "white",
+          "year": 2025
+        }
+      ],
+      "topGames": [],
+      "white": 262
+    },
+    "2025-09": {
+      "black": 232,
+      "draws": 21,
+      "moves": [
+        {
+          "averageRating": 2107,
+          "black": 209,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 173
+        },
+        {
+          "averageRating": 2110,
+          "black": 18,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 24
+        },
+        {
+          "averageRating": 2134,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 2
+        },
+        {
+          "averageRating": 2046,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "sscracker",
+              "rating": 2005
+            },
+            "id": "Z1oDFJzk",
+            "mode": "rated",
+            "month": "2025-09",
+            "speed": "blitz",
+            "white": {
+              "name": "AnnSolomon",
+              "rating": 2046
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 1
+        },
+        {
+          "averageRating": 2152,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "PasupathyVK",
+              "rating": 2098
+            },
+            "id": "Txz964ix",
+            "mode": "rated",
+            "month": "2025-09",
+            "speed": "blitz",
+            "white": {
+              "name": "Kram99",
+              "rating": 2152
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "Jospov",
+            "rating": 2059
+          },
+          "id": "k0TxsXiv",
+          "mode": "rated",
+          "month": "2025-09",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "mgruba",
+            "rating": 1991
+          },
+          "winner": null,
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "computerrat",
+            "rating": 2115
+          },
+          "id": "4DqWAb0L",
+          "mode": "rated",
+          "month": "2025-09",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Klaus50",
+            "rating": 2143
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "Ottertje123",
+            "rating": 2213
+          },
+          "id": "J2WDdqEm",
+          "mode": "rated",
+          "month": "2025-09",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "doubrrriouchkouf",
+            "rating": 2123
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "Vitmed",
+            "rating": 2253
+          },
+          "id": "3NemENUU",
+          "mode": "rated",
+          "month": "2025-09",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "istoler",
+            "rating": 2143
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "papapaulo100",
+            "rating": 1869
+          },
+          "id": "FwhMaPSK",
+          "mode": "rated",
+          "month": "2025-09",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Balties",
+            "rating": 2327
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "longteng666",
+            "rating": 2119
+          },
+          "id": "OQWr5vS3",
+          "mode": "rated",
+          "month": "2025-09",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "LisaAnna03",
+            "rating": 2091
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "PranzoSkeng",
+            "rating": 2194
+          },
+          "id": "WiiWuvjE",
+          "mode": "rated",
+          "month": "2025-09",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "gardelito90",
+            "rating": 2145
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "rdw123",
+            "rating": 2050
+          },
+          "id": "tKqlbldA",
+          "mode": "rated",
+          "month": "2025-09",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Vladimir24122023",
+            "rating": 2071
+          },
+          "winner": "white",
+          "year": 2025
+        }
+      ],
+      "topGames": [],
+      "white": 201
+    },
+    "2025-10": {
+      "black": 270,
+      "draws": 31,
+      "moves": [
+        {
+          "averageRating": 2114,
+          "black": 247,
+          "draws": 30,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 216
+        },
+        {
+          "averageRating": 2097,
+          "black": 15,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 17
+        },
+        {
+          "averageRating": 2123,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 9
+        },
+        {
+          "averageRating": 2205,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 1
+        },
+        {
+          "averageRating": 2025,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "MikaFin2020",
+              "rating": 2051
+            },
+            "id": "40g1KGPZ",
+            "mode": "rated",
+            "month": "2025-10",
+            "speed": "blitz",
+            "white": {
+              "name": "Dumbo99",
+              "rating": 2025
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 1
+        },
+        {
+          "averageRating": 2023,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Jospov",
+              "rating": 2029
+            },
+            "id": "9JN0bZXB",
+            "mode": "rated",
+            "month": "2025-10",
+            "speed": "blitz",
+            "white": {
+              "name": "GavinTheChessKid",
+              "rating": 2023
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "Mr-RichardFeynman",
+            "rating": 2231
+          },
+          "id": "aGsxqhF8",
+          "mode": "rated",
+          "month": "2025-10",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "absolute64",
+            "rating": 2118
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "Euler1988",
+            "rating": 2132
+          },
+          "id": "HsbXvVwl",
+          "mode": "rated",
+          "month": "2025-10",
+          "speed": "blitz",
+          "uci": "f1d3",
+          "white": {
+            "name": "Falkoner22",
+            "rating": 2248
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "jas-m",
+            "rating": 2167
+          },
+          "id": "PafgEE1M",
+          "mode": "rated",
+          "month": "2025-10",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "draltube",
+            "rating": 2100
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "CBpoet",
+            "rating": 2107
+          },
+          "id": "iw8U1bAQ",
+          "mode": "rated",
+          "month": "2025-10",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Andriy-UA",
+            "rating": 2184
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "Nickorov",
+            "rating": 2151
+          },
+          "id": "hPxOYO7c",
+          "mode": "rated",
+          "month": "2025-10",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "four_season_chess",
+            "rating": 2206
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "ATShame",
+            "rating": 2114
+          },
+          "id": "WERi8Pfn",
+          "mode": "rated",
+          "month": "2025-10",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Docpaw",
+            "rating": 2261
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "blitz_vegan",
+            "rating": 2065
+          },
+          "id": "v3CmZlKN",
+          "mode": "rated",
+          "month": "2025-10",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "ramparashar",
+            "rating": 2066
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "trainingaccount33",
+            "rating": 2147
+          },
+          "id": "ZhlHinsO",
+          "mode": "rated",
+          "month": "2025-10",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Roadwork00",
+            "rating": 2160
+          },
+          "winner": "black",
+          "year": 2025
+        }
+      ],
+      "topGames": [],
+      "white": 244
+    },
+    "2025-11": {
+      "black": 260,
+      "draws": 33,
+      "moves": [
+        {
+          "averageRating": 2119,
+          "black": 224,
+          "draws": 29,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 215
+        },
+        {
+          "averageRating": 2104,
+          "black": 18,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 23
+        },
+        {
+          "averageRating": 2116,
+          "black": 14,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 8
+        },
+        {
+          "averageRating": 2104,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 2
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "Winti-Turm",
+            "rating": 2167
+          },
+          "id": "Iomv4pKK",
+          "mode": "rated",
+          "month": "2025-11",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Falkoner22",
+            "rating": 2192
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "EckiDo",
+            "rating": 2034
+          },
+          "id": "xQV9GBfq",
+          "mode": "rated",
+          "month": "2025-11",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Speedy_Dorsch",
+            "rating": 2126
+          },
+          "winner": null,
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "stale_mate_1",
+            "rating": 2153
+          },
+          "id": "gYQVX0OH",
+          "mode": "rated",
+          "month": "2025-11",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "theJoker95",
+            "rating": 2187
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "sportginger",
+            "rating": 2148
+          },
+          "id": "KX47kzNf",
+          "mode": "rated",
+          "month": "2025-11",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "niclang",
+            "rating": 2180
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "Jaap6",
+            "rating": 2035
+          },
+          "id": "gYK1sFKV",
+          "mode": "rated",
+          "month": "2025-11",
+          "speed": "blitz",
+          "uci": "f1b5",
+          "white": {
+            "name": "superewe",
+            "rating": 2110
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "LupaTawce",
+            "rating": 2163
+          },
+          "id": "wJB6Dark",
+          "mode": "rated",
+          "month": "2025-11",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "gardelito90",
+            "rating": 2161
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "Morgarten",
+            "rating": 2089
+          },
+          "id": "UlIe7XUK",
+          "mode": "rated",
+          "month": "2025-11",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "RemiElfe",
+            "rating": 2074
+          },
+          "winner": "black",
+          "year": 2025
+        }
+      ],
+      "topGames": [],
+      "white": 248
+    },
+    "2025-12": {
+      "black": 280,
+      "draws": 30,
+      "moves": [
+        {
+          "averageRating": 2112,
+          "black": 245,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 238
+        },
+        {
+          "averageRating": 2105,
+          "black": 26,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 22
+        },
+        {
+          "averageRating": 2108,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 5
+        },
+        {
+          "averageRating": 2068,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 1
+        },
+        {
+          "averageRating": 2171,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "iojiz",
+              "rating": 2185
+            },
+            "id": "z17P9TJG",
+            "mode": "rated",
+            "month": "2025-12",
+            "speed": "blitz",
+            "white": {
+              "name": "jokros",
+              "rating": 2171
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "Davidothagreat_II",
+            "rating": 2199
+          },
+          "id": "cSEKDGme",
+          "mode": "rated",
+          "month": "2025-12",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "christopherxue00",
+            "rating": 2120
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "Morgarten",
+            "rating": 2179
+          },
+          "id": "Kw4zx2eB",
+          "mode": "rated",
+          "month": "2025-12",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "haxmatist2400",
+            "rating": 2136
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "toTone2U",
+            "rating": 2127
+          },
+          "id": "HbNYnQew",
+          "mode": "rated",
+          "month": "2025-12",
+          "speed": "blitz",
+          "uci": "f1d3",
+          "white": {
+            "name": "Joyza",
+            "rating": 2139
+          },
+          "winner": "black",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "Duhovnaja_skrepa",
+            "rating": 2203
+          },
+          "id": "Wq59dv2F",
+          "mode": "rated",
+          "month": "2025-12",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Exlord",
+            "rating": 2181
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "NoAnalysisJustVibes",
+            "rating": 2122
+          },
+          "id": "qf5ax2iS",
+          "mode": "rated",
+          "month": "2025-12",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Antonio421004802",
+            "rating": 2134
+          },
+          "winner": null,
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "Semen_Kolomatckij",
+            "rating": 2017
+          },
+          "id": "9tK4X1BX",
+          "mode": "rated",
+          "month": "2025-12",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Jockel_DBB",
+            "rating": 2002
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "vitaliy-poletaev50",
+            "rating": 1960
+          },
+          "id": "oxWotl1b",
+          "mode": "rated",
+          "month": "2025-12",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "GIRINATHP76",
+            "rating": 2278
+          },
+          "winner": "white",
+          "year": 2025
+        },
+        {
+          "black": {
+            "name": "Roma2702",
+            "rating": 2158
+          },
+          "id": "esXXUjml",
+          "mode": "rated",
+          "month": "2025-12",
+          "speed": "blitz",
+          "uci": "f1d3",
+          "white": {
+            "name": "Oluwagbotemi",
+            "rating": 2109
+          },
+          "winner": "white",
+          "year": 2025
+        }
+      ],
+      "topGames": [],
+      "white": 266
+    },
+    "2026-01": {
+      "black": 257,
+      "draws": 20,
+      "moves": [
+        {
+          "averageRating": 2110,
+          "black": 224,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 175
+        },
+        {
+          "averageRating": 2116,
+          "black": 20,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 27
+        },
+        {
+          "averageRating": 2099,
+          "black": 10,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 6
+        },
+        {
+          "averageRating": 2126,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 2
+        },
+        {
+          "averageRating": 2062,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 2
+        },
+        {
+          "averageRating": 2119,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "toTone2U",
+              "rating": 2148
+            },
+            "id": "Sd1Y27qK",
+            "mode": "rated",
+            "month": "2026-01",
+            "speed": "blitz",
+            "white": {
+              "name": "lige_1",
+              "rating": 2119
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "Babayaga2015",
+            "rating": 2101
+          },
+          "id": "NMeSivyj",
+          "mode": "rated",
+          "month": "2026-01",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Gausdal",
+            "rating": 2152
+          },
+          "winner": "white",
+          "year": 2026
+        },
+        {
+          "black": {
+            "name": "dezwarteloper",
+            "rating": 2077
+          },
+          "id": "uUeitOZc",
+          "mode": "rated",
+          "month": "2026-01",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "nebrs_donat",
+            "rating": 2180
+          },
+          "winner": "white",
+          "year": 2026
+        },
+        {
+          "black": {
+            "name": "IHoti",
+            "rating": 2074
+          },
+          "id": "XVffTTsl",
+          "mode": "rated",
+          "month": "2026-01",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "smmmmy",
+            "rating": 2173
+          },
+          "winner": "black",
+          "year": 2026
+        },
+        {
+          "black": {
+            "name": "omaori",
+            "rating": 2096
+          },
+          "id": "a46EiZei",
+          "mode": "rated",
+          "month": "2026-01",
+          "speed": "blitz",
+          "uci": "f1d3",
+          "white": {
+            "name": "dengkulmu17",
+            "rating": 2057
+          },
+          "winner": "white",
+          "year": 2026
+        },
+        {
+          "black": {
+            "name": "sergeititkov",
+            "rating": 2180
+          },
+          "id": "VfDGX8aO",
+          "mode": "rated",
+          "month": "2026-01",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Calonia007",
+            "rating": 2198
+          },
+          "winner": "white",
+          "year": 2026
+        },
+        {
+          "black": {
+            "name": "PasupathyVK",
+            "rating": 2089
+          },
+          "id": "YYR6AB0v",
+          "mode": "rated",
+          "month": "2026-01",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Maximilian1969",
+            "rating": 2087
+          },
+          "winner": "black",
+          "year": 2026
+        },
+        {
+          "black": {
+            "name": "Vitmed",
+            "rating": 2203
+          },
+          "id": "98G3susR",
+          "mode": "rated",
+          "month": "2026-01",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "BarmyWinner7912",
+            "rating": 2115
+          },
+          "winner": "white",
+          "year": 2026
+        }
+      ],
+      "topGames": [],
+      "white": 212
+    },
+    "2026-02": {
+      "black": 234,
+      "draws": 25,
+      "moves": [
+        {
+          "averageRating": 2113,
+          "black": 208,
+          "draws": 23,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 202
+        },
+        {
+          "averageRating": 2124,
+          "black": 17,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 23
+        },
+        {
+          "averageRating": 2103,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 6
+        },
+        {
+          "averageRating": 2188,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 1
+        },
+        {
+          "averageRating": 2109,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "CaptainWDEvans",
+              "rating": 2138
+            },
+            "id": "Z9YVcCBU",
+            "mode": "rated",
+            "month": "2026-02",
+            "speed": "blitz",
+            "white": {
+              "name": "mwana",
+              "rating": 2109
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "Morgarten",
+            "rating": 2085
+          },
+          "id": "Mx15GiNR",
+          "mode": "rated",
+          "month": "2026-02",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "ToppleTheKing",
+            "rating": 2116
+          },
+          "winner": "black",
+          "year": 2026
+        },
+        {
+          "black": {
+            "name": "raulov51",
+            "rating": 2197
+          },
+          "id": "rubycINv",
+          "mode": "rated",
+          "month": "2026-02",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Lietadlo",
+            "rating": 2159
+          },
+          "winner": "black",
+          "year": 2026
+        },
+        {
+          "black": {
+            "name": "hopz",
+            "rating": 2084
+          },
+          "id": "HHXQs6vZ",
+          "mode": "rated",
+          "month": "2026-02",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "PaulBoccuse",
+            "rating": 1958
+          },
+          "winner": "black",
+          "year": 2026
+        },
+        {
+          "black": {
+            "name": "Vitmed",
+            "rating": 2154
+          },
+          "id": "c7vidh7B",
+          "mode": "rated",
+          "month": "2026-02",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "janbrychta",
+            "rating": 2149
+          },
+          "winner": "white",
+          "year": 2026
+        },
+        {
+          "black": {
+            "name": "BraquedeWeimar",
+            "rating": 2013
+          },
+          "id": "ngdwnKx4",
+          "mode": "rated",
+          "month": "2026-02",
+          "speed": "blitz",
+          "uci": "f1d3",
+          "white": {
+            "name": "AlexeyKud",
+            "rating": 2141
+          },
+          "winner": "white",
+          "year": 2026
+        },
+        {
+          "black": {
+            "name": "Laoraos",
+            "rating": 2008
+          },
+          "id": "C6Zeogh2",
+          "mode": "rated",
+          "month": "2026-02",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "markovka_0",
+            "rating": 2015
+          },
+          "winner": "black",
+          "year": 2026
+        },
+        {
+          "black": {
+            "name": "erdenet",
+            "rating": 2211
+          },
+          "id": "Dj9XNk8w",
+          "mode": "rated",
+          "month": "2026-02",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Biyiyo",
+            "rating": 2148
+          },
+          "winner": "black",
+          "year": 2026
+        },
+        {
+          "black": {
+            "name": "BeardMachine",
+            "rating": 2027
+          },
+          "id": "6VOSl2Q9",
+          "mode": "rated",
+          "month": "2026-02",
+          "speed": "blitz",
+          "uci": "f1d3",
+          "white": {
+            "name": "Yevgeniy12",
+            "rating": 2045
+          },
+          "winner": "white",
+          "year": 2026
+        }
+      ],
+      "topGames": [],
+      "white": 232
+    },
+    "2026-03": {
+      "black": 266,
+      "draws": 25,
+      "moves": [
+        {
+          "averageRating": 2109,
+          "black": 240,
+          "draws": 24,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 237
+        },
+        {
+          "averageRating": 2083,
+          "black": 15,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 26
+        },
+        {
+          "averageRating": 2072,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "exd5",
+          "uci": "e4d5",
+          "white": 5
+        },
+        {
+          "averageRating": 2083,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 2
+        },
+        {
+          "averageRating": 2112,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "batmanchita",
+              "rating": 2125
+            },
+            "id": "vAayPmQE",
+            "mode": "rated",
+            "month": "2026-03",
+            "speed": "blitz",
+            "white": {
+              "name": "ghostbusters_2_super",
+              "rating": 2112
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C04",
+        "name": "French Defense: Tarrasch Variation, Guimard Defense, Main Line"
+      },
+      "recentGames": [
+        {
+          "black": {
+            "name": "uji_diamont",
+            "rating": 2098
+          },
+          "id": "aYIfPamo",
+          "mode": "rated",
+          "month": "2026-03",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "MasterLoloyd",
+            "rating": 2119
+          },
+          "winner": "white",
+          "year": 2026
+        },
+        {
+          "black": {
+            "name": "Phazmora",
+            "rating": 2036
+          },
+          "id": "SqVLadtN",
+          "mode": "rated",
+          "month": "2026-03",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "ivanklimenko09",
+            "rating": 2145
+          },
+          "winner": "white",
+          "year": 2026
+        },
+        {
+          "black": {
+            "name": "gmspeedrunpl",
+            "rating": 2141
+          },
+          "id": "etppUv7C",
+          "mode": "rated",
+          "month": "2026-03",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Passing",
+            "rating": 2037
+          },
+          "winner": null,
+          "year": 2026
+        },
+        {
+          "black": {
+            "name": "Phazmora",
+            "rating": 2026
+          },
+          "id": "AHqaoN2b",
+          "mode": "rated",
+          "month": "2026-03",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "BallAndBiscuit",
+            "rating": 2008
+          },
+          "winner": "black",
+          "year": 2026
+        },
+        {
+          "black": {
+            "name": "KingLouis97",
+            "rating": 2061
+          },
+          "id": "Jb5fR5uU",
+          "mode": "rated",
+          "month": "2026-03",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Balage75",
+            "rating": 2154
+          },
+          "winner": "white",
+          "year": 2026
+        },
+        {
+          "black": {
+            "name": "sphere515",
+            "rating": 2054
+          },
+          "id": "VQ5Lp4mK",
+          "mode": "rated",
+          "month": "2026-03",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "tashkentka",
+            "rating": 2107
+          },
+          "winner": "white",
+          "year": 2026
+        },
+        {
+          "black": {
+            "name": "VaterTSM",
+            "rating": 2148
+          },
+          "id": "mREYKMhA",
+          "mode": "rated",
+          "month": "2026-03",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "tashkentka",
+            "rating": 2099
+          },
+          "winner": "white",
+          "year": 2026
+        },
+        {
+          "black": {
+            "name": "daskapitallesen",
+            "rating": 2127
+          },
+          "id": "V4BtVPjL",
+          "mode": "rated",
+          "month": "2026-03",
+          "speed": "blitz",
+          "uci": "e4e5",
+          "white": {
+            "name": "Japonist",
+            "rating": 2125
+          },
+          "winner": "black",
+          "year": 2026
+        }
+      ],
+      "topGames": [],
+      "white": 271
+    }
+  }
+}

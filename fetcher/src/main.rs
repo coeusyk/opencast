@@ -1,10 +1,10 @@
-mod models;
 mod client;
 
 use clap::Parser;
 use reqwest::header::{HeaderMap, HeaderValue, AUTHORIZATION};
 use reqwest::Client;
 use serde::Deserialize;
+use std::collections::HashSet;
 use std::fs;
 
 
@@ -22,6 +22,15 @@ struct Args {
 
     #[arg(long, default_value = "blitz")]
     speed: String,
+
+    /// Skip writing any month whose total games (white+draws+black) is below this threshold.
+    #[arg(long, default_value_t = 0)]
+    min_games: u64,
+
+    /// Early-stop an ECO when below-min skipped months reach this ratio of the requested range.
+    /// Example: 0.4 over a 40-month range stops after 16 below-min skips.
+    #[arg(long, default_value_t = 0.4)]
+    max_skipped_ratio: f64,
 }
 
 
@@ -90,14 +99,12 @@ fn load_openings_from_catalog(catalog_path: &str) -> Result<Vec<(String, String)
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let args = Args::parse();
+    let user_agent = format!("opencast-fetcher/{}", env!("CARGO_PKG_VERSION"));
 
     let token = std::env::var("LICHESS_TOKEN").ok();
     let client = {
         let mut headers = HeaderMap::new();
-        headers.insert(
-            reqwest::header::USER_AGENT,
-            HeaderValue::from_static("opencast-fetcher/0.1"),
-        );
+        headers.insert(reqwest::header::USER_AGENT, HeaderValue::from_str(&user_agent)?);
         if let Some(ref t) = token {
             let value = HeaderValue::from_str(&format!("Bearer {}", t))?;
             headers.insert(AUTHORIZATION, value);
@@ -134,6 +141,22 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         }
     }
 
+    // Optional precise filter for bootstrap runs: only fetch these ECO codes.
+    if let Ok(eco_only) = std::env::var("OPENCAST_ECO_ONLY") {
+        let allowed: HashSet<String> = eco_only
+            .split(',')
+            .map(|s| s.trim().to_uppercase())
+            .filter(|s| !s.is_empty())
+            .collect();
+        if !allowed.is_empty() {
+            openings.retain(|(eco, _)| allowed.contains(eco));
+            println!(
+                "OPENCAST_ECO_ONLY set — filtered openings to {} entries",
+                openings.len()
+            );
+        }
+    }
+
     let months = generate_months(&args.from, &args.to);
 
     println!(
@@ -144,16 +167,50 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     );
 
     for (eco, moves) in &openings {
+        let total_months = months.len();
+        let skip_cutoff = if args.max_skipped_ratio > 0.0 && total_months > 0 {
+            ((args.max_skipped_ratio * total_months as f64).ceil() as usize).max(1)
+        } else {
+            usize::MAX
+        };
+        let mut below_min_skips: usize = 0;
+
         for month in &months {
-            client::fetch_opening_month(
+            let outcome = client::fetch_opening_month(
                 &client,
                 moves,
                 month,
                 args.rating,
                 &args.speed,
                 eco,
+                args.min_games,
             )
             .await?;
+
+            if matches!(outcome, client::MonthFetchOutcome::SkippedBelowMinGames) {
+                below_min_skips += 1;
+                if below_min_skips >= skip_cutoff {
+                    println!(
+                        "Early-stopping {} after {} below-min skips (ratio limit {:.3}, total months {})",
+                        eco,
+                        below_min_skips,
+                        args.max_skipped_ratio,
+                        total_months
+                    );
+                    let output_path = format!("../data/raw/{}/{}.json", &eco[0..1], eco);
+                    if fs::metadata(&output_path).is_ok() {
+                        match fs::remove_file(&output_path) {
+                            Ok(_) => println!("Removed {} due to early-stop verdict", output_path),
+                            Err(e) => eprintln!("Warning: could not remove {}: {}", output_path, e),
+                        }
+                    }
+                    let tmp_path = format!("../data/raw/{}/{}.tmp.json", &eco[0..1], eco);
+                    if fs::metadata(&tmp_path).is_ok() {
+                        let _ = fs::remove_file(&tmp_path);
+                    }
+                    break;
+                }
+            }
         }
     }
 
