@@ -215,22 +215,71 @@ def _forecast_directions(
     return directions, signals
 
 
-def _steepest_trend(forecasts: pd.DataFrame) -> tuple[str, str, float]:
-    """Return (eco, name, slope) for the opening with the steepest forecast trend."""
+def _full_series_ols(
+    forecasts: pd.DataFrame,
+) -> list[tuple[str, str, float, float]]:
+    """Compute OLS on full actuals (no break truncation) matching the JS chart logic.
+
+    Returns list of (eco, direction, slope, r_squared) sorted by slope descending.
+    """
+    import numpy as np
+    from scipy import stats as _stats
+
+    _SLOPE_THRESHOLD = 0.0003
+    _MIN_R2 = 0.15
+    results: list[tuple[str, str, float, float]] = []
+    
+    for eco, grp in forecasts.groupby("eco"):
+        grp = grp.sort_values("month")
+        actuals = grp[~grp["is_forecast"]]["actual"].dropna().values.astype(float)
+        if len(actuals) < 6:
+            continue
+
+        x = np.arange(len(actuals), dtype=float)
+        reg_result = _stats.linregress(x, actuals)  # type: ignore
+        slope = float(reg_result[0])  # type: ignore
+        r_value = float(reg_result[2])  # type: ignore
+        r_sq = r_value ** 2
+
+        if abs(slope) < _SLOPE_THRESHOLD or r_sq < _MIN_R2:
+            direction = "stable"
+        elif slope > 0:
+            direction = "rising"
+        else:
+            direction = "falling"
+
+        results.append((str(eco), direction, slope, r_sq))
+
+    results.sort(key=lambda t: -t[2])
+    return results
+
+
+def _steepest_trend(
+    forecasts: pd.DataFrame,
+    signals: dict,
+) -> tuple[str, str, float]:
+    """Return (eco, name, slope) for the opening with the steepest full-series OLS trend."""
     best_eco: str = ""
     best_name: str = ""
     best_slope: float = 0.0
-    for eco, grp in forecasts.groupby("eco"):
-        grp = grp.sort_values("month")
-        actual_rows   = grp[~grp["is_forecast"]]
-        forecast_rows = grp[grp["is_forecast"]]
-        if actual_rows.empty or forecast_rows.empty:
+
+    for eco, direction, slope, r_sq in _full_series_ols(forecasts):
+        if direction == "stable":
             continue
-        slope = float(forecast_rows["forecast"].iloc[-1] - actual_rows["actual"].iloc[-1])
         if abs(slope) > abs(best_slope):
             best_slope = slope
-            best_eco   = str(eco)
-            best_name  = str(grp["opening_name"].iloc[0])
+            best_eco = eco
+            grp = forecasts[forecasts["eco"] == eco]
+            name_candidate = str(grp["opening_name"].iloc[0]).strip() if not grp.empty else ""
+            if not name_candidate or name_candidate == eco:
+                try:
+                    cat = pd.read_csv(CATALOG_CSV)
+                    cat_row = cat[cat["eco"] == eco]
+                    name_candidate = str(cat_row["name"].iloc[0]) if not cat_row.empty else ""
+                except Exception:
+                    name_candidate = ""
+            best_name = name_candidate
+
     return best_eco, best_name, best_slope
 
 
@@ -263,7 +312,7 @@ def run_report() -> None:
     # ── Summary statistics ───────────────────────────────────────────────────
     top_pos = delta_df.loc[delta_df["delta"].idxmax()]
     top_neg = delta_df.loc[delta_df["delta"].idxmin()]
-    steep_eco, steep_name, steep_slope = _steepest_trend(forecasts)
+    steep_eco, steep_name, steep_slope = _steepest_trend(forecasts, signals)
     steep_dir = "rising" if steep_slope > 0 else "falling"
 
     summary = (
@@ -273,7 +322,7 @@ def run_report() -> None:
         f"margin. At the other extreme, **{top_neg['opening_name']} ({top_neg['eco']})** "
         f"has the largest negative delta ({top_neg['delta']:+.4f}), indicating it is the "
         f"most frequently misplayed or theory-dependent opening in the dataset. "
-        f"The steepest ARIMA forecast trend belongs to **{steep_name} ({steep_eco})**, "
+        f"The steepest ARIMA forecast trend belongs to **{steep_name + ' ' if steep_name and steep_name != steep_eco else ''}({steep_eco})**, "
         f"whose win rate is projected to be {steep_dir} most sharply over the next three months."
     )
 
@@ -470,12 +519,35 @@ Schema example:
 Openings to analyse:
 {json.dumps(batch_data, indent=2)}
 
-For each opening:
-- Use 'direction' and 'trend_confidence' together: only assert "rising" or "falling" when trend_confidence is "medium" or "high". When trend_confidence is "low", describe the win-rate as "erratic" or "range-bound" instead of stating a direction.
-- Delta significance: |delta| > 0.04 = major gap; 0.02–0.04 = notable gap; < 0.02 = minor gap.
-- 'recent_volatility' is the std dev of the last 6 months of win-rate. High volatility (> 0.004) means the series is noisy — mention this if relevant.
-- 'sustained_streak_months' is how many consecutive recent months moved in the trend direction — a streak of 1 is weak, 3+ is strong.
-Keep each narrative under 60 words. Return ONLY the JSON object."""
+RULES — apply to every opening, in order:
+
+1. TREND LANGUAGE (based on trend_confidence + direction):
+    - trend_confidence = "high" AND sustained_streak_months >= 3: assert direction firmly — "has been rising/falling consistently"
+    - trend_confidence = "medium" OR sustained_streak_months in [1, 2]: hedge — "shows signs of rising/falling" or "has trended upward/downward recently"
+    - trend_confidence = "low" OR direction = "stable": never use "rising"/"falling" — use "erratic", "range-bound", or "showing no clear trend"
+
+2. DELTA COHERENCE (engine-human gap):
+    - delta > 0: humans outperform engine prediction → practical play favours white
+    - delta < 0: humans underperform engine prediction → white's theoretical advantage is not being realised in play
+    - |delta| > 0.04: describe as a "major gap"
+    - |delta| 0.02–0.04: describe as a "notable gap"
+    - |delta| < 0.02: describe as a "minor gap"
+    - CRITICAL: never write that a trend is "rising" and simultaneously imply delta is negative without acknowledging the contradiction. If direction says "rising" but delta is negative, the win rate trend and the engine gap are telling different stories — say so.
+
+3. VOLATILITY (recent_volatility = std dev of last 6 months of win-rate):
+    - recent_volatility > 0.005: mention the series is "noisy" or "highly variable month-to-month"
+    - recent_volatility 0.002–0.005: optionally note "moderate variability"
+    - recent_volatility < 0.002: do not mention volatility
+
+4. PLAYER RECOMMENDATION:
+    - End each narrative with one concrete implication for a 2000-rated player: should they adopt, avoid, or monitor this opening?
+    - Base the recommendation on the direction+confidence combination and the delta sign — not just delta magnitude alone.
+
+5. FORMAT:
+    - Under 60 words per narrative.
+    - No bullet points. Flowing prose only.
+    - Do not start with the ECO code or the opening name — begin with the insight.
+    - Return ONLY the JSON object."""
             try:
                 raw = _groq_call(groq_client, narrative_prompt, max_tokens=600)
                 if raw:

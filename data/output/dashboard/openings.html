@@ -107,7 +107,6 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
       <th class="sortable" data-col="name"     style="cursor:pointer;white-space:nowrap;">Name <span class="sort-icon"></span></th>
       <th class="sortable" data-col="tier"     style="cursor:pointer;white-space:nowrap;">Tier <span class="sort-icon"></span></th>
       <th class="sortable" data-col="win_rate" style="cursor:pointer;white-space:nowrap;">Win Rate (last) <span class="sort-icon"></span></th>
-      <th class="sortable" data-col="trend"    style="cursor:pointer;white-space:nowrap;">Trend <span class="sort-icon"></span></th>
       <th class="sortable" data-col="has_fc"   style="cursor:pointer;white-space:nowrap;">Forecast <span class="sort-icon"></span></th>
       <th class="sortable" data-col="delta"    style="cursor:pointer;white-space:nowrap;">Engine Delta <span class="sort-icon"></span></th>
       <th>Detail</th>
@@ -158,7 +157,6 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
       group: (eco[0] || "").toUpperCase(),
       tier: d.model_tier != null ? d.model_tier : 99,
       win_rate: lastActual,
-      trend: d.trend_direction || null,
       has_fc: (d.forecast || []).length > 0,
       delta: d.delta != null ? d.delta : null,
     };
@@ -242,12 +240,6 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
     if (v == null) return "—";
     return (v >= 0 ? "+" : "") + (v * 100).toFixed(2) + " pp";
   }
-  function trendHtml(trend, tier) {
-    if (tier !== 3 || !trend) return '<span style="color:' + TEXT_SECONDARY + '">—</span>';
-    const arrow = trend === "up" ? "+" : trend === "down" ? "-" : "~";
-    const clr   = trend === "up" ? "#7BE495" : trend === "down" ? "#F28DA6" : TEXT_SECONDARY;
-    return '<span style="color:' + clr + '">' + arrow + " " + trend + '</span>';
-  }
   function deltaColor(v) {
     if (v == null) return TEXT_SECONDARY;
     return v > 0.005 ? "#7BE495" : v < -0.005 ? "#F28DA6" : TEXT_SECONDARY;
@@ -260,7 +252,7 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
   function renderRows(rows) {
     const html = rows.map(r => {
       const color = ECO_COLORS[r.group] || TEXT_PRIMARY;
-      const backState = encodeURIComponent(window.location.hash.slice(1));
+      const backState = window.location.hash.slice(1);
       const href  = "opening.html?eco=" + encodeURIComponent(r.eco) + (backState ? "&back=" + backState : "");
       return '<tr tabindex="0" role="link"' +
         ' onclick="location.href=\'' + href + '\'"' +
@@ -269,7 +261,6 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
         '<td>' + r.name + '</td>' +
         '<td style="text-align:center;">' + tierBadge(r.tier) + '</td>' +
         '<td style="text-align:right;">' + fmtPct(r.win_rate) + '</td>' +
-        '<td style="text-align:center;">' + trendHtml(r.trend, r.tier) + '</td>' +
         '<td style="text-align:center;">' + (r.has_fc ? "Yes" : '<span style="color:' + TEXT_SECONDARY + '">No</span>') + '</td>' +
         '<td style="text-align:right;color:' + deltaColor(r.delta) + '">' + fmtDelta(r.delta) + '</td>' +
         '<td style="text-align:center;"><a href="' + href + '" style="color:#57C7FF;text-decoration:none;" onclick="event.stopPropagation()">Details</a></td>' +

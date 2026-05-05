@@ -1,27 +1,26 @@
 {
   "generated_at": "2026-05-05",
   "month": "2026-05",
-  "headline": "Benoni Defense: Taimanov Variation (A67) shows the largest positive delta (+0.0901), while Benoni Defense: Old Benoni (A44) has the largest negative delta (-0.1105).",
+  "headline": "King's Indian Defense: Orthodox Variation, Classical System (E98) shows the largest positive delta, while Benoni Defense: Old Benoni (A44) is the most frequently misplayed or theory-dependent opening.",
   "panels": {
     "forecast": {
-      "insight": "The ARIMA forecast suggests that win-rate trends are generally stable across the 20 tracked openings. However, B83 shows the steepest rising trend, indicating a potential shift in the balance of power.",
+      "insight": "The ARIMA forecast shows stable win-rate trends for most openings, with King's Indian Defense: Orthodox Variation, Classical System (E98) and Benoni Defense: Old Benoni (A44) being notable exceptions. The forecast suggests that humans at 2000-rated blitz outperform Stockfish's win-probability prediction in E98, while A44 is the most frequently misplayed or theory-dependent opening.",
       "highlight_ecos": [
-        "A67",
-        "A21",
-        "E69"
+        "E98",
+        "A44"
       ]
     },
     "engine_delta": {
-      "insight": "The engine-human delta analysis reveals that humans outperform Stockfish in openings where human skill is rewarded, such as Benoni Defense: Taimanov Variation (A67). Conversely, humans underperform in openings that are frequently misplayed or theory-dependent, like Benoni Defense: Old Benoni (A44).",
+      "insight": "The engine-human delta analysis reveals that humans outperform Stockfish in openings like King's Indian Defense: Orthodox Variation, Classical System (E98) and underperform in openings like Benoni Defense: Old Benoni (A44).",
       "outliers": [
+        "E98",
         "A44",
-        "B39",
-        "B29",
-        "A89"
+        "A21",
+        "A18"
       ]
     },
     "heatmap": {
-      "insight": "The ECO category heatmap indicates that openings in the Benoni Defense family tend to have the largest positive or negative deltas, suggesting a strong correlation between opening choice and win-rate performance."
+      "insight": "The category-level analysis of the engine-human delta heatmap shows that openings with a high delta tend to be more complex and theory-dependent, while openings with a low delta tend to be more straightforward and intuitive."
     }
   }
 }

@@ -4,6 +4,7 @@ Reads data/processed/openings_ts.csv, computes per-ECO statistics, applies
 selection rules, and merges results into data/openings_catalog.csv.
 """
 
+import json
 import logging
 import os
 
@@ -13,11 +14,15 @@ import pandas as pd
 _HERE = os.path.dirname(__file__)
 PROCESSED_CSV = os.path.join(_HERE, "..", "data", "processed", "openings_ts.csv")
 CATALOG_CSV   = os.path.join(_HERE, "..", "data", "openings_catalog.csv")
+_CONFIG_PATH  = os.path.join(_HERE, "..", "config.json")
 
-MIN_GAMES_CORE     = 1000
+with open(_CONFIG_PATH) as _f:
+    _cfg = json.load(_f)
+
+MIN_GAMES_CORE     = int(_cfg.get("min_monthly_games_tier1", 1000))
 MIN_MONTHS_CORE    = 24
 MIN_GAMES_LONGTAIL = 100
-MIN_GAMES_TIER2    = 500
+MIN_GAMES_TIER2    = int(_cfg.get("min_monthly_games", 400))
 
 log = logging.getLogger(__name__)
 
@@ -29,7 +34,7 @@ def _compute_eco_stats(ts: pd.DataFrame) -> pd.DataFrame:
         grp = grp.sort_values("month").reset_index(drop=True)
 
         avg_monthly_games  = float(grp["total"].mean())
-        months_with_data   = int((grp["total"] >= 500).sum())
+        months_with_data   = int((grp["total"] >= MIN_GAMES_TIER2).sum())
 
         # Linear regression slope of white_win_rate over time (index as x)
         y = grp["white_win_rate"].values.astype(float)
@@ -87,10 +92,11 @@ def _compute_data_status(stats_indexed: pd.DataFrame, catalog: pd.DataFrame) -> 
     for eco in catalog["eco"]:
         if eco not in stats_indexed.index:
             result[eco] = "missing"
-        elif int(stats_indexed.at[eco, "months_with_data"]) < 12:
+        elif stats_indexed.at[eco, "months_with_data"] < 12:  # type: ignore[operator]
             result[eco] = "sparse"
         else:
             result[eco] = "ok"
+
     return pd.Series(result)
 
 

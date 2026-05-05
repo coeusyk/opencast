@@ -106,6 +106,50 @@ function hexToRgba(hexColor, alpha) {
   return `rgba(${r}, ${g}, ${b}, ${alpha})`;
 }
 
+function computeOlsTrend(actuals) {
+  if (!Array.isArray(actuals) || actuals.length < 3) return null;
+
+  const points = actuals
+    .map((d) => {
+      const t = Date.parse(`${d.month}-01T00:00:00Z`);
+      const y = Number(d.win_rate);
+      return Number.isFinite(t) && Number.isFinite(y) ? { x: t, y } : null;
+    })
+    .filter(Boolean);
+
+  if (points.length < 3) return null;
+
+  const n = points.length;
+  const xMean = points.reduce((sum, p) => sum + p.x, 0) / n;
+  const yMean = points.reduce((sum, p) => sum + p.y, 0) / n;
+
+  let numerator = 0;
+  let denominator = 0;
+  for (const p of points) {
+    const dx = p.x - xMean;
+    numerator += dx * (p.y - yMean);
+    denominator += dx * dx;
+  }
+  if (denominator === 0) return null;
+
+  const slopePerMs = numerator / denominator;
+  const intercept = yMean - slopePerMs * xMean;
+
+  const trendY = actuals.map((d) => {
+    const t = Date.parse(`${d.month}-01T00:00:00Z`);
+    return Number.isFinite(t) ? slopePerMs * t + intercept : null;
+  });
+
+  const msPerMonth = 30.4375 * 24 * 60 * 60 * 1000;
+  const slopePerMonth = slopePerMs * msPerMonth;
+  const slopeThreshold = 0.0003;
+  const direction = Math.abs(slopePerMonth) < slopeThreshold
+    ? "stable"
+    : (slopePerMonth > 0 ? "rising" : "falling");
+
+  return { trendY, slopePerMonth, direction };
+}
+
 async function loadOpeningsData() {
   if (openingsDataCache) {
     return openingsDataCache;
@@ -273,6 +317,21 @@ function renderOpening(eco, opening) {
       line: { color: "rgba(0,0,0,0)" },
       showlegend: false,
       name: "95% CI",
+      type: "scatter",
+    });
+  }
+
+  const olsTrend = computeOlsTrend(actuals);
+  if (olsTrend) {
+    const trendColor = olsTrend.direction === "rising" ? "#7BE495"
+      : olsTrend.direction === "falling" ? "#F28DA6" : TEXT_SECONDARY;
+    traces.push({
+      x: actuals.map((d) => d.month),
+      y: olsTrend.trendY,
+      mode: "lines",
+      name: `Trend (${olsTrend.direction})`,
+      line: { color: trendColor, width: 1.5, dash: "longdash" },
+      opacity: 0.65,
       type: "scatter",
     });
   }
