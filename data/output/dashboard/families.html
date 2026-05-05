@@ -7,19 +7,55 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300..600&display=swap" rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@700,600,500,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/shared.css">
-    
+  
+<style>
+/* Site nav */
+.site-nav {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(11,13,16,0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+  height: 52px;
+}
+.nav-inner {
+  max-width: 1200px; margin: 0 auto;
+  padding: 0 2rem; height: 100%;
+  display: flex; align-items: center;
+  justify-content: flex-start;
+  gap: 1.75rem;
+}
+.nav-wordmark {
+  font-family: 'Satoshi', 'Inter', sans-serif;
+  font-weight: 700; font-size: 1.05rem;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+}
+.nav-links { display: flex; gap: 1.5rem; align-items: center; }
+.nav-link {
+  font-size: 0.875rem; font-weight: 500;
+  color: var(--text-secondary); text-decoration: none;
+  transition: color 150ms;
+}
+.nav-link:hover, .nav-link.active { color: var(--text-primary); }
+body { font-family: 'Satoshi', 'Inter', sans-serif; }
+</style>
+  
 </head>
 <body>
-
-<nav id="main-nav">
-  <span class="brand">OpenCast</span>
-  <a href="index.html">Overview</a>
-<a href="openings.html">Openings</a>
-<a href="families.html" class="active">Families</a>
-
+<nav id="main-nav" class="site-nav">
+  <div class="nav-inner">
+    <span class="nav-wordmark">OpenCast</span>
+    <div class="nav-links">
+    <a href="index.html" class="nav-link">Overview</a>
+    <a href="openings.html" class="nav-link">Openings</a>
+    <a href="families.html" class="nav-link active">Families</a>
+    
+    </div>
+  </div>
 </nav>
-
 <main><div class="page-content">
 
 <h1>ECO Families</h1>

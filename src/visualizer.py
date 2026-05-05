@@ -349,7 +349,8 @@ def _page_shell(title: str, nav_fragment: str, body: str, head_extras: str = "")
   max-width: 1200px; margin: 0 auto;
   padding: 0 2rem; height: 100%;
   display: flex; align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 1.75rem;
 }
 .nav-wordmark {
   font-family: 'Satoshi', 'Inter', sans-serif;
@@ -357,13 +358,14 @@ def _page_shell(title: str, nav_fragment: str, body: str, head_extras: str = "")
   letter-spacing: -0.02em;
   color: var(--text-primary);
 }
-.nav-links { display: flex; gap: 2rem; align-items: center; }
+.nav-links { display: flex; gap: 1.5rem; align-items: center; }
 .nav-link {
   font-size: 0.875rem; font-weight: 500;
   color: var(--text-secondary); text-decoration: none;
   transition: color 150ms;
 }
 .nav-link:hover, .nav-link.active { color: var(--text-primary); }
+body { font-family: 'Satoshi', 'Inter', sans-serif; }
 </style>"""
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -524,7 +526,7 @@ def render_opening_template() -> str:
     body = f"""
 <h1 id="opening-title">Opening Detail</h1>
 <p style="margin:0 0 1rem 0;">
-  <a href="openings.html" style="color:{TEXT_SECONDARY}; text-decoration:none; font-size:0.85rem;">← All openings</a>
+  <a id="back-to-openings" href="openings.html" style="color:{TEXT_SECONDARY}; text-decoration:none; font-size:0.85rem;">&larr; All openings</a>
 </p>
 <div id="opening-narrative" class="narrative"><p></p></div>
 <div id="opening-chart"></div>
@@ -540,6 +542,27 @@ const TEXT_SECONDARY = "{TEXT_SECONDARY}";
 const BODY_FONT = {json.dumps(BODY_FONT)};
 const DISPLAY_FONT = {json.dumps(DISPLAY_FONT)};
 const FALLBACK_NARRATIVE = "No analysis available yet.";
+
+function syncBackLink() {{
+  const backLink = document.getElementById("back-to-openings");
+  try {{
+    const ref = document.referrer || "";
+    if (ref.includes("openings.html#")) {{
+      const refHash = ref.split("#")[1] || "";
+      if (refHash) {{
+        backLink.href = "openings.html#" + refHash;
+        return;
+      }}
+    }}
+  }} catch (_) {{}}
+  const params = new URLSearchParams(window.location.search);
+  const back = params.get("back");
+  if (back) {{
+    backLink.href = "openings.html#" + back;
+  }}
+}}
+
+syncBackLink();
 
 function hexToRgba(hexColor, alpha) {{
   const h = hexColor.replace("#", "");
@@ -1087,11 +1110,8 @@ def render_openings_table(
     """Render data/output/dashboard/openings.html - client-side searchable/filterable/sortable table (#30)."""
     eco_colors_js = json.dumps(ECO_COLORS)
 
-    grp_buttons = " ".join(
-        f'<button class="grp-btn active" data-group="{g}"' +
-        f' style="padding:0.3rem 0.6rem;border-radius:4px;border:1px solid rgba(255,255,255,0.15);' +
-        f'background:transparent;color:{ECO_COLORS.get(g, TEXT_SECONDARY)};font-weight:600;' +
-        f'cursor:pointer;font-size:0.85rem;">{g}</button>'
+    group_options = "".join(
+      f'<option value="{g}">{g}</option>'
         for g in sorted(ECO_COLORS)
     )
 
@@ -1103,16 +1123,23 @@ def render_openings_table(
     aria-label="Search openings"
     style="flex:1;min-width:200px;max-width:360px;padding:0.4rem 0.75rem;
            background:var(--surface-raised);border:1px solid rgba(255,255,255,0.12);
-           border-radius:6px;color:var(--text-primary);font-size:0.9rem;outline:none;" />
+           border-radius:6px;color:var(--text-primary);font-size:0.9rem;outline:none;
+           font-family:'Satoshi','Inter',sans-serif;" />
 
-  <div id="group-toggles" style="display:flex;gap:0.35rem;" aria-label="Filter by ECO group" role="group">
-    {grp_buttons}
-  </div>
+  <select id="group-select"
+    style="padding:0.35rem 0.6rem;background:var(--surface-raised);
+           border:1px solid rgba(255,255,255,0.12);border-radius:6px;
+           color:var(--text-primary);font-size:0.85rem;cursor:pointer;
+           font-family:'Satoshi','Inter',sans-serif;">
+    <option value="">All classes</option>
+    {group_options}
+  </select>
 
   <select id="tier-select"
     style="padding:0.35rem 0.6rem;background:var(--surface-raised);
            border:1px solid rgba(255,255,255,0.12);border-radius:6px;
-           color:var(--text-primary);font-size:0.85rem;cursor:pointer;">
+           color:var(--text-primary);font-size:0.85rem;cursor:pointer;
+           font-family:'Satoshi','Inter',sans-serif;">
     <option value="">All tiers</option>
     <option value="1">Tier 1</option>
     <option value="2">Tier 2</option>
@@ -1120,6 +1147,14 @@ def render_openings_table(
   </select>
 
   <span id="row-count" style="color:{TEXT_SECONDARY};font-size:0.85rem;margin-left:auto;white-space:nowrap;"></span>
+</div>
+
+<div style="margin:0 0 1.25rem 0;padding:0.8rem 1rem;border:1px solid rgba(255,255,255,0.10);border-radius:8px;background:rgba(255,255,255,0.02);font-family:'Satoshi','Inter',sans-serif;">
+  <div style="font-size:0.82rem;color:{TEXT_SECONDARY};line-height:1.6;">
+    <strong style="color:{TEXT_PRIMARY};">Tier 1</strong>: at least 1,000 average monthly games and at least 24 months of data (full forecast + engine comparison).<br>
+    <strong style="color:{TEXT_PRIMARY};">Tier 2</strong>: 400–999 average monthly games (trend forecast only).<br>
+    <strong style="color:{TEXT_PRIMARY};">Tier 3</strong>: under 400 average monthly games (descriptive stats only).
+  </div>
 </div>
 
 <div style="overflow-x:auto;">
@@ -1151,7 +1186,6 @@ def render_openings_table(
 .tier-badge-1 {{ background:rgba(74,158,255,0.18);color:#4a9eff; }}
 .tier-badge-2 {{ background:rgba(169,117,255,0.18);color:#a975ff; }}
 .tier-badge-3 {{ background:rgba(139,139,143,0.2);color:{TEXT_SECONDARY}; }}
-.grp-btn.active {{ background:rgba(255,255,255,0.08)!important; }}
 </style>
 
 <script>
@@ -1191,7 +1225,7 @@ def render_openings_table(
 
   const state = {{
     q: "",
-    groups: new Set(Object.keys(ECO_COLORS)),
+    group: "",
     tier: "",
     sortCol: "eco",
     asc: true,
@@ -1203,7 +1237,7 @@ def render_openings_table(
     try {{
       const p = new URLSearchParams(h);
       if (p.has("q"))     state.q = p.get("q");
-      if (p.has("group")) state.groups = new Set(p.get("group").split(",").map(s => s.trim()));
+      if (p.has("group")) state.group = p.get("group");
       if (p.has("tier"))  state.tier = p.get("tier");
       if (p.has("sort"))  state.sortCol = p.get("sort");
       if (p.has("asc"))   state.asc = p.get("asc") !== "0";
@@ -1213,8 +1247,7 @@ def render_openings_table(
   function writeHash() {{
     const p = new URLSearchParams();
     if (state.q)   p.set("q", state.q);
-    const grpArr = [...state.groups].sort();
-    if (grpArr.length !== Object.keys(ECO_COLORS).length) p.set("group", grpArr.join(","));
+    if (state.group) p.set("group", state.group);
     if (state.tier) p.set("tier", state.tier);
     p.set("sort", state.sortCol);
     p.set("asc", state.asc ? "1" : "0");
@@ -1224,24 +1257,22 @@ def render_openings_table(
   readHash();
 
   const searchBox  = document.getElementById("search-box");
+  const groupSelect = document.getElementById("group-select");
   const tierSelect = document.getElementById("tier-select");
-  const grpButtons = document.querySelectorAll(".grp-btn");
   const tbody      = document.getElementById("openings-tbody");
   const rowCount   = document.getElementById("row-count");
   const emptyState = document.getElementById("empty-state");
   const sortHeaders = document.querySelectorAll(".sortable");
 
   searchBox.value  = state.q;
+  groupSelect.value = state.group;
   tierSelect.value = state.tier;
-  grpButtons.forEach(btn => {{
-    btn.classList.toggle("active", state.groups.has(btn.getAttribute("data-group")));
-  }});
 
   function applyFilters() {{
     const q    = state.q.toLowerCase();
     const tier = state.tier;
     let visible = allRows.filter(r => {{
-      if (!state.groups.has(r.group)) return false;
+      if (state.group && r.group !== state.group) return false;
       if (tier && String(r.tier) !== tier) return false;
       if (q && !r.eco.toLowerCase().includes(q) && !r.name.toLowerCase().includes(q)) return false;
       return true;
@@ -1257,11 +1288,11 @@ def render_openings_table(
       if (av > bv) return state.asc ? 1 : -1;
       return 0;
     }});
+    writeHash();
     renderRows(visible);
     rowCount.textContent = "Showing " + visible.length + " of " + total;
     emptyState.style.display = visible.length === 0 ? "block" : "none";
     updateSortIcons();
-    writeHash();
   }}
 
   function fmtPct(v)   {{ return v != null ? (v * 100).toFixed(2) + "%" : "—"; }}
@@ -1279,7 +1310,7 @@ def render_openings_table(
     if (v == null) return TEXT_SECONDARY;
     return v > 0.005 ? "#7BE495" : v < -0.005 ? "#F28DA6" : TEXT_SECONDARY;
   }}
-  const TIER_TOOLTIP = "T1: ≥1000 avg monthly games + ≥24 months → full ARIMA + engine evaluation\nT2: 400–999 avg monthly games → Holt-Winters trend, no engine delta\nT3: <400 avg monthly games → descriptive stats only";
+  const TIER_TOOLTIP = "T1: >=1000 avg monthly games + >=24 months -> full ARIMA + engine evaluation\\nT2: 400-999 avg monthly games -> Holt-Winters trend, no engine delta\\nT3: <400 avg monthly games -> descriptive stats only";
   function tierBadge(t) {{
     return '<span class="tier-badge tier-badge-' + t + '" title="' + TIER_TOOLTIP + '">T' + t + '</span>';
   }}
@@ -1287,7 +1318,8 @@ def render_openings_table(
   function renderRows(rows) {{
     const html = rows.map(r => {{
       const color = ECO_COLORS[r.group] || TEXT_PRIMARY;
-      const href  = "opening.html?eco=" + encodeURIComponent(r.eco);
+      const backState = encodeURIComponent(window.location.hash.slice(1));
+      const href  = "opening.html?eco=" + encodeURIComponent(r.eco) + (backState ? "&back=" + backState : "");
       return '<tr tabindex="0" role="link"' +
         ' onclick="location.href=\\'' + href + '\\'"' +
           ' onkeydown="if(event.key===\\'Enter\\'||event.key===\\' \\'){{event.preventDefault();location.href=\\'' + href + '\\'}}">' +
@@ -1322,18 +1354,8 @@ def render_openings_table(
     clearTimeout(debounceTimer);
     debounceTimer = setTimeout(() => {{ state.q = searchBox.value.trim(); applyFilters(); }}, 200);
   }});
+  groupSelect.addEventListener("change", () => {{ state.group = groupSelect.value; applyFilters(); }});
   tierSelect.addEventListener("change", () => {{ state.tier = tierSelect.value; applyFilters(); }});
-  grpButtons.forEach(btn => {{
-    btn.addEventListener("click", () => {{
-      const g = btn.getAttribute("data-group");
-      if (state.groups.has(g)) {{
-        if (state.groups.size > 1) {{ state.groups.delete(g); btn.classList.remove("active"); }}
-      }} else {{
-        state.groups.add(g); btn.classList.add("active");
-      }}
-      applyFilters();
-    }});
-  }});
   sortHeaders.forEach(th => {{
     th.addEventListener("click", () => {{
       const col = th.getAttribute("data-col");

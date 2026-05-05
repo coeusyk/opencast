@@ -191,7 +191,7 @@
     "human_win_rate": 0.482728,
     "delta": -0.044744,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The Sicilian Defense has a stable win-rate trend, with a -0.044744 engine-human delta, showing that engines have a minor advantage over humans, but it remains a popular choice for players."
+    "narrative": "The Sicilian Defense has a range-bound win-rate with a minor gap in engine favour. A strong streak of 3 months suggests some consistency, but recent volatility is low."
   },
   "B12": {
     "name": "Caro-Kann Defense",
@@ -386,7 +386,7 @@
     "human_win_rate": 0.480552,
     "delta": -0.038813,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "The Caro-Kann Defense has a stable win-rate trend, with a small engine-human delta of -0.038813, indicating a slight disadvantage for humans. This means players should focus on precise pawn control and piece development."
+    "narrative": "Win-rate is stable with a minor gap from engine evaluation, and the trend is range-bound with low confidence. Volatility is very low at 0.13%."
   },
   "C00": {
     "name": "French Defense",
@@ -579,7 +579,7 @@
     "human_win_rate": 0.485845,
     "delta": -0.04225,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The French Defense has a stable win-rate trend, with a -0.04225 engine-human delta, indicating that engines have a minor advantage over humans, making it a solid choice for players."
+    "narrative": "Win-rate is erratic, with a minor gap in engine favour. Volatility is very low, and there's a weak sustained streak."
   },
   "B01": {
     "name": "Scandinavian Defense",
@@ -770,7 +770,7 @@
     "human_win_rate": 0.481767,
     "delta": -0.058148,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The Scandinavian Defense has a stable win-rate trend, with a -0.058148 engine-human delta, suggesting that engines have a slight edge over humans, but it remains a viable choice for players."
+    "narrative": "Win-rate is range-bound, with a minor gap between actual and forecast. Recent volatility is low."
   },
   "C44": {
     "name": "King's Pawn Game",
@@ -1552,7 +1552,7 @@
     "human_win_rate": 0.480329,
     "delta": -0.04652,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The King's Gambit is rising with a slight engine advantage, often leading to misplay or theory-heavy situations. Players must be prepared to counter engine-favored lines, as the 4.76% win rate suggests a competitive but challenging opening."
+    "narrative": "The King's Gambit has an erratic win-rate with a minor gap in engine favour. Recent volatility is low, but a weak streak of 0 months suggests inconsistent performance."
   },
   "D00": {
     "name": "London System",
@@ -2326,7 +2326,7 @@
     "human_win_rate": 0.467432,
     "delta": -0.0644,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The Grunfeld Defense is experiencing a falling win-rate trend, with a -0.0644 engine-human delta, indicating that engines have a significant advantage over humans, making it a challenging opening to master."
+    "narrative": "Win-rate is stable, with a low confidence trend. Engine is favoured, but frequently misplayed or theory-heavy. Recent volatility is low."
   },
   "E60": {
     "name": "King's Indian Defense",
@@ -2524,7 +2524,7 @@
     "human_win_rate": 0.487993,
     "delta": -0.050058,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The King's Indian Defense is stable with a slight engine advantage, often leading to misplay or theory-heavy situations. Players must be prepared to counter engine-favored lines, as the 4.89% win rate suggests a competitive but challenging opening."
+    "narrative": "Win-rate is falling with medium trend confidence, indicating a notable gap between last actual and forecast. Recent volatility is low, but there's no sustained streak."
   },
   "E20": {
     "name": "Nimzo-Indian Defense",
@@ -3306,7 +3306,7 @@
     "human_win_rate": 0.487267,
     "delta": -0.052648,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The Modern Defense is stable with a slight engine advantage, indicating frequent misplay or theory-heavy situations. This means players must be well-prepared to counter engine-favored lines. A 4.87% win rate suggests a competitive but challenging opening."
+    "narrative": "Win-rate is stable with low trend confidence and a minor gap in delta, making it a potentially stable choice."
   },
   "A00": {
     "name": "Polish Opening",
@@ -3889,7 +3889,7 @@
     "human_win_rate": 0.481678,
     "delta": -0.055752,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The Pirc Defense is experiencing a falling win-rate trend, with a -0.055752 engine-human delta, indicating that engines have a moderate advantage over humans, making it essential for players to stay up-to-date with theory."
+    "narrative": "Win-rate is rising with a high trend confidence, indicating a strong trend. Recent volatility is low, and there's a sustained streak of 2 months."
   },
   "A01": {
     "name": "Nimzo-Larsen Attack",
@@ -4690,7 +4690,7 @@
     "human_win_rate": 0.51508,
     "delta": 0.006331,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "The A05 opening is stable with a low trend confidence, leading to a range-bound win-rate. The notable gap in engine evaluation indicates a slight overperformance. Volatility is moderate."
   },
   "A06": {
     "name": "Nimzo-Larsen Attack: Classical Variation",
@@ -5469,7 +5469,7 @@
     "human_win_rate": 0.483013,
     "delta": -0.041966,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Stable win-rate trend, engine-favoured - frequently misplayed or theory-heavy, consider studying A11 to improve."
+    "narrative": "Win-rate is erratic, with a minor gap between engine and human performance. Recent volatility is low, indicating a stable series."
   },
   "A12": {
     "name": "R\u00e9ti Opening: Anglo-Slav Variation",
@@ -6076,7 +6076,7 @@
     "human_win_rate": 0.478906,
     "delta": -0.039211,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "The A16 opening is trending upwards, with a delta of -0.039211, indicating a slight decrease in engine-human performance gap. This trend suggests that players may be improving their skills in this opening, making it a more competitive choice."
+    "narrative": "Consistent with engine evaluation, with a minor gap. Recent volatility is moderate, indicating some noise in the series. A weak streak of 0 months suggests an uncertain trend."
   },
   "A17": {
     "name": "English Opening: Anglo-Indian Defense",
@@ -6282,7 +6282,7 @@
     "human_win_rate": 0.540696,
     "delta": 0.06318,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "Rising win-rate trend with a +6.32% engine-human delta, indicating humans outperform engine \u2014 rewards human skill."
+    "narrative": "Win-rate is stable, with a low confidence trend. Humans outperform engine, rewarding human skill. Recent volatility is low."
   },
   "A19": {
     "name": "English Opening: Anglo-Indian Defense, Flohr-Mikenas-Carls Variation, Nei Gambit",
@@ -6508,7 +6508,7 @@
     "human_win_rate": 0.54255,
     "delta": 0.064411,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "Falling win-rate trend with a +6.44% engine-human delta, indicating humans outperform engine \u2014 rewards human skill."
+    "narrative": "Win-rate is stable, with a low confidence trend. Humans outperform engine, rewarding human skill. Recent volatility is low, and there's a weak streak of 1 month."
   },
   "A22": {
     "name": "English Opening: Carls-Bremen System",
@@ -7899,7 +7899,7 @@
     "human_win_rate": 0.487293,
     "delta": -0.003333,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "The win-rate is falling with high confidence, indicating a decline. A notable gap exists between actual and forecasted win-rates."
   },
   "A32": {
     "name": "English Opening: Symmetrical Variation, Anti-Benoni Variation, Spielmann Defense",
@@ -8384,7 +8384,7 @@
     "human_win_rate": 0.530279,
     "delta": 0.054635,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "Falling win-rate trend suggests humans are struggling over A39, an opening where humans outperform engines. Delta of 0.054635 indicates humans have a significant advantage. Players should focus on developing their skills over A39."
+    "narrative": "Win-rate is stable with a minor gap, indicating a balanced opening. Recent volatility is low, suggesting a predictable series."
   },
   "A40": {
     "name": "Australian Defense",
@@ -8594,7 +8594,7 @@
     "human_win_rate": 0.480474,
     "delta": -0.058198,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Rising engine-favoured trend with a delta of -0.058198, indicating frequent misplay or theory-heavy positions."
+    "narrative": "Engine-favoured, with a notable gap between actual and forecast. Win-rate is range-bound."
   },
   "A42": {
     "name": "Modern Defense: Averbakh System",
@@ -9171,7 +9171,7 @@
     "human_win_rate": 0.467044,
     "delta": -0.110451,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Win-rate is falling, with a significant engine-human delta of -0.110451. This means engines are outperforming humans, indicating a need for players to adapt to the opening's complexities."
+    "narrative": "The A44 opening is falling with low confidence, indicating an erratic win-rate. A major gap exists between engine and actual win-rates, suggesting frequent misplaying or theory-heavy play."
   },
   "A46": {
     "name": "D\u00f6ry Defense",
@@ -9395,7 +9395,7 @@
     "human_win_rate": 0.486957,
     "delta": -0.041762,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Stable win-rate trend, engine-favoured - frequently misplayed or theory-heavy, consider studying A48 to improve."
+    "narrative": "Win-rate is range-bound, with a minor gap between engine and human performance. Recent volatility is low, indicating a stable series."
   },
   "A49": {
     "name": "Indian Defense: Przepiorka Variation",
@@ -9586,7 +9586,7 @@
     "human_win_rate": 0.491584,
     "delta": 0.004706,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "Win-rate is stable with a notable gap in engine evaluation. A moderate streak of 2 months suggests a developing trend."
   },
   "A50": {
     "name": "Indian Defense: Medusa Gambit",
@@ -9792,7 +9792,7 @@
     "human_win_rate": 0.48474,
     "delta": -0.058279,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The A51 is rising, with a human-engine delta of -0.058279, suggesting engine-favoured but frequently misplayed or theory-heavy."
+    "narrative": "Win-rate is range-bound, with a minor gap between actual and forecast. Recent volatility is low."
   },
   "A52": {
     "name": "Indian Defense: Budapest Defense",
@@ -10192,7 +10192,7 @@
     "human_win_rate": 0.483215,
     "delta": -0.052971,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The A53 is rising, with a human-engine delta of -0.052971, indicating engine-favoured and frequently misplayed or theory-heavy."
+    "narrative": "Win-rate is stable with low trend confidence, and a minor gap in delta, indicating a slight engine advantage."
   },
   "A54": {
     "name": "Old Indian Defense: Duz-Khotimirsky Variation",
@@ -10601,7 +10601,7 @@
     "human_win_rate": 0.457651,
     "delta": -0.083506,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Win-rate is stable, with a moderate engine-human delta of -0.083506. This indicates a balanced position, where players need to focus on executing well rather than adapting to new theory."
+    "narrative": "Stable trend with low confidence, indicating engine-favoured openings. Recent volatility is low, and a minor gap in win-rate exists. No sustained streak."
   },
   "A57": {
     "name": "Benko Gambit",
@@ -10794,7 +10794,7 @@
     "human_win_rate": 0.445359,
     "delta": -0.095177,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Win-rate stable, engine-human delta -0.095177 indicates engines have a significant advantage, frequently misplayed or theory-heavy openings."
+    "narrative": "The A57 opening is stable with low confidence, displaying a range-bound win-rate. A minor gap exists between engine and actual win-rates, suggesting engine-favoured play."
   },
   "A58": {
     "name": "Benko Gambit Accepted: Central Storming Variation",
@@ -11000,7 +11000,7 @@
     "human_win_rate": 0.439241,
     "delta": -0.005363,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "Win-rate is stable with a minor gap in engine evaluation. Recent volatility is low, indicating a consistent series."
   },
   "A60": {
     "name": "Benoni Defense: Modern Variation",
@@ -11191,7 +11191,7 @@
     "human_win_rate": 0.473361,
     "delta": -0.081419,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Win-rate falling, engine-human delta -0.081419 indicates engines have a significant advantage, frequently misplayed or theory-heavy openings."
+    "narrative": "Stable trend with low confidence, indicating engine-favoured openings. Recent volatility is moderate, and a minor gap in win-rate exists. Sustained streak of 2 months suggests a weak trend."
   },
   "A61": {
     "name": "Benoni Defense",
@@ -11382,7 +11382,7 @@
     "human_win_rate": 0.487212,
     "delta": -0.057667,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The A61 is falling, with a human-engine delta of -0.057667, indicating engine-favoured and frequently misplayed or theory-heavy."
+    "narrative": "Engine-favoured, with a minor gap between actual and forecast. Win-rate is erratic."
   },
   "A62": {
     "name": "Benoni Defense: Fianchetto Variation",
@@ -11794,7 +11794,7 @@
     "human_win_rate": 0.490401,
     "delta": 0.039616,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "Falling win-rate trend, consistent with engine evaluation - consider playing A65 to test engine's strength."
+    "narrative": "Consistent with engine evaluation, with a minor gap. Recent volatility is moderate, indicating some noise in the series. A moderate streak of 2 months suggests a stable trend."
   },
   "A66": {
     "name": "Benoni Defense: Mikenas Variation",
@@ -11999,7 +11999,14 @@
     "human_win_rate": 0.541472,
     "delta": 0.090068,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "Win-rate rising, engine-human delta 0.090068 indicates humans outperform engines, rewards human skill and creativity."
+    "narrative": "Win-rate rising, engine-human delta 0.090068 indicates humans outperform engines, rewards human skill and creativity.",
+    "last_month": "",
+    "last_win_rate": null,
+    "mean_win_rate": null,
+    "std_win_rate": null,
+    "ma3": null,
+    "trend_direction": "falling",
+    "months_available": null
   },
   "A68": {
     "name": "Benoni Defense: Four Pawns Attack",
@@ -12190,7 +12197,7 @@
     "human_win_rate": 0.467065,
     "delta": -0.043559,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The A68 King's Indian is falling, with engines performing -4.36% better than humans. This engine-favoured opening frequently sees misplayed or theory-heavy positions."
+    "narrative": "Win-rate is erratic, with a minor gap in engine favour. Recent volatility is high, and there's a weak sustained streak."
   },
   "A69": {
     "name": "Benoni Defense: Four Pawns Attack, Main Line",
@@ -12606,7 +12613,14 @@
     "human_win_rate": 0.480843,
     "delta": -0.067134,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The A72 English is rising, with a -6.71% engine-human delta, indicating a potential advantage for players using this opening. This trend may indicate a shift towards more engine-preferred lines, potentially making it easier for players to compete."
+    "narrative": "The A72 English is rising, with a -6.71% engine-human delta, indicating a potential advantage for players using this opening. This trend may indicate a shift towards more engine-preferred lines, potentially making it easier for players to compete.",
+    "last_month": "",
+    "last_win_rate": null,
+    "mean_win_rate": null,
+    "std_win_rate": null,
+    "ma3": null,
+    "trend_direction": "falling",
+    "months_available": null
   },
   "A73": {
     "name": "Benoni Defense: Classical Variation, Main Line",
@@ -13889,7 +13903,7 @@
     "human_win_rate": 0.509631,
     "delta": 0.042086,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "Falling win-rate trend, humans outperform engine by 4.21% - rewards human skill, consider playing A86 to gain an edge."
+    "narrative": "Win-rate is rising, with a notable gap in human favour. Volatility is moderate, and there's a weak sustained streak."
   },
   "A87": {
     "name": "Dutch Defense: Leningrad Variation",
@@ -14052,7 +14066,14 @@
     "human_win_rate": 0.479772,
     "delta": 0.015337,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "Win-rate trend for A87 is rising, with an engine-human delta of 0.015337, indicating a slight advantage for humans. This trend suggests that players may have an edge when employing this opening."
+    "narrative": "Win-rate trend for A87 is rising, with an engine-human delta of 0.015337, indicating a slight advantage for humans. This trend suggests that players may have an edge when employing this opening.",
+    "last_month": "",
+    "last_win_rate": null,
+    "mean_win_rate": null,
+    "std_win_rate": null,
+    "ma3": null,
+    "trend_direction": "rising",
+    "months_available": null
   },
   "A88": {
     "name": "Dutch Defense: Leningrad Variation, Warsaw Variation",
@@ -14243,7 +14264,7 @@
     "human_win_rate": 0.48782,
     "delta": -0.045879,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The A88 opening is trending upwards, with a delta of -0.045879 indicating engines are performing better. This means players should be cautious of engines' strong play."
+    "narrative": "The A88 opening has a falling win-rate with a high degree of confidence. A notable gap in engine favour and recent volatility above 0.004 indicate a noisy series."
   },
   "A89": {
     "name": "Dutch Defense: Leningrad Variation, Matulovic Variation",
@@ -14401,7 +14422,14 @@
     "human_win_rate": 0.45068,
     "delta": -0.099154,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Win-rate is rising, with a moderate engine-human delta of -0.099154. This shows players are gaining ground, but engines remain a challenge."
+    "narrative": "Win-rate is rising, with a moderate engine-human delta of -0.099154. This shows players are gaining ground, but engines remain a challenge.",
+    "last_month": "",
+    "last_win_rate": null,
+    "mean_win_rate": null,
+    "std_win_rate": null,
+    "ma3": null,
+    "trend_direction": "falling",
+    "months_available": null
   },
   "A90": {
     "name": "Dutch Defense: Classical Variation",
@@ -14592,7 +14620,7 @@
     "human_win_rate": 0.513256,
     "delta": 0.048199,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "The A90 opening is trending upwards, with a delta of 0.048199 indicating humans are outperforming engines. This opening rewards human skill and intuition."
+    "narrative": "Win rate is stable, with a minor gap between human and engine performance. Recent volatility is low."
   },
   "A91": {
     "name": "Dutch Defense: Classical Variation",
@@ -14767,7 +14795,14 @@
     "human_win_rate": 0.512994,
     "delta": -0.023193,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "Win-rate trend is falling, with a delta of -0.023193. This decrease in engine evaluation suggests players should reassess their strategy with this opening."
+    "narrative": "Win-rate trend is falling, with a delta of -0.023193. This decrease in engine evaluation suggests players should reassess their strategy with this opening.",
+    "last_month": "",
+    "last_win_rate": null,
+    "mean_win_rate": null,
+    "std_win_rate": null,
+    "ma3": null,
+    "trend_direction": "falling",
+    "months_available": null
   },
   "A92": {
     "name": "Dutch Defense: Alekhine Variation",
@@ -15436,7 +15471,7 @@
     "human_win_rate": 0.531788,
     "delta": -0.045708,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The B00 opening is trending upwards, with a delta of -0.045708 showing engines are performing better. This means players should be cautious of engines' strong play."
+    "narrative": "The B00 opening has a falling win-rate with a high degree of confidence. A notable gap in engine favour and a strong streak of 4 months suggest a clear trend."
   },
   "B02": {
     "name": "Alekhine Defense",
@@ -15627,7 +15662,7 @@
     "human_win_rate": 0.462884,
     "delta": -0.077652,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Stable win-rate trend with a -7.77% engine-human delta, indicating engine-favoured \u2014 frequently misplayed or theory-heavy."
+    "narrative": "The B02 opening is stable but erratic, with a minor gap in engine favour. Recent volatility is low, and there's no sustained streak."
   },
   "B03": {
     "name": "Alekhine Defense",
@@ -15818,7 +15853,7 @@
     "human_win_rate": 0.461455,
     "delta": -0.001737,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "Win-rate is stable with low confidence, but recent volatility is moderate. Minor gap from engine evaluation."
   },
   "B04": {
     "name": "Alekhine Defense: Modern Variation",
@@ -16204,7 +16239,7 @@
     "human_win_rate": 0.404689,
     "delta": -0.06597,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Rising win-rate trend with a -6.60% engine-human delta, indicating engine-favoured \u2014 frequently misplayed or theory-heavy."
+    "narrative": "Win-rate is stable, but with a low confidence trend. Engine is favoured, but frequently misplayed or theory-heavy. Recent volatility is moderate."
   },
   "B22": {
     "name": "Sicilian Defense: Alapin Variation",
@@ -16395,7 +16430,7 @@
     "human_win_rate": 0.493512,
     "delta": 0.006009,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "The B22 opening is stable with low trend confidence, resulting in a range-bound win-rate. The minor gap in engine evaluation suggests a slight underperformance. Recent volatility is low."
   },
   "B23": {
     "name": "Sicilian Defense: Closed",
@@ -17373,7 +17408,7 @@
     "human_win_rate": 0.463811,
     "delta": -0.069266,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The B28 Sicilian is declining, with a -6.93% engine-human delta, indicating a notable disadvantage for players using this opening. This trend may indicate a need to adapt to more engine-favoured lines, potentially impacting player performance."
+    "narrative": "The B28 opening is stable but has a minor gap in engine favour. Volatility is low, and there's no sustained streak."
   },
   "B29": {
     "name": "Sicilian Defense: Nimzowitsch Variation",
@@ -17591,7 +17626,7 @@
     "human_win_rate": 0.436458,
     "delta": -0.102215,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Win-rate is rising, but with a relatively small engine-human delta of -0.102215. This indicates players are improving, but engines still hold a slight edge."
+    "narrative": "The B29 opening is stable with low confidence, displaying a range-bound win-rate. A notable gap exists between engine and actual win-rates, suggesting engine-favoured play."
   },
   "B30": {
     "name": "Sicilian Defense: Closed, Anti-Sveshnikov Variation",
@@ -17784,7 +17819,7 @@
     "human_win_rate": 0.474463,
     "delta": -0.048022,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The B30 opening is falling with a slight engine advantage, often leading to misplay or theory-heavy situations. Players must be prepared to counter engine-favored lines, as the 4.81% win rate suggests a competitive but challenging opening."
+    "narrative": "Engine-favoured, frequently misplayed or theory-heavy. Win rate is range-bound, with a minor gap."
   },
   "B31": {
     "name": "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation",
@@ -18169,7 +18204,7 @@
     "human_win_rate": 0.465164,
     "delta": -0.069157,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The B32 Sicilian is stable, with a -6.92% engine-human delta, suggesting a relatively consistent disadvantage for players employing this opening. This trend may indicate a need to focus on improving engine-preferred lines, potentially improving player performance."
+    "narrative": "The B32 opening is stable but has a minor gap in engine favour. Volatility is low, and there's no sustained streak."
   },
   "B33": {
     "name": "Sicilian Defense: Lasker-Pelikan Variation",
@@ -18363,7 +18398,7 @@
     "human_win_rate": 0.480373,
     "delta": -0.049591,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Stable win-rate trend indicates engine-favoured position, frequently misplayed or theory-heavy. Delta of -0.049591 suggests engine dominance. Players should focus on understanding complex theory to improve."
+    "narrative": "Win-rate is falling with medium trend confidence, indicating a notable gap between last actual and forecast. Recent volatility is low, and there's a weak streak of 2 months."
   },
   "B34": {
     "name": "Sicilian Defense: Accelerated Dragon, Exchange Variation",
@@ -18554,7 +18589,7 @@
     "human_win_rate": 0.44972,
     "delta": -0.057155,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The B34 is falling, with a human-engine delta of -0.057155, suggesting engine-favoured and frequently misplayed or theory-heavy."
+    "narrative": "Engine-favoured, with a notable gap between actual and forecast. Win-rate is erratic."
   },
   "B35": {
     "name": "Sicilian Defense: Accelerated Dragon, Modern Bc4 Variation",
@@ -19516,7 +19551,14 @@
     "human_win_rate": 0.43709,
     "delta": -0.102825,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Win-rate is falling, with a significant engine-human delta of -0.102825. This suggests engines are gaining an advantage, making it crucial for players to stay up-to-date with theory."
+    "narrative": "The B39 opening is stable with low confidence, showing a range-bound win-rate. A notable gap exists between engine and actual win-rates, indicating engine-favoured play.",
+    "last_month": "",
+    "last_win_rate": null,
+    "mean_win_rate": null,
+    "std_win_rate": null,
+    "ma3": null,
+    "trend_direction": "rising",
+    "months_available": null
   },
   "B40": {
     "name": "Sicilian Defense: Alapin Variation, Sherzer Variation",
@@ -19722,7 +19764,7 @@
     "human_win_rate": 0.45101,
     "delta": -0.075216,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The B41 Sicilian is experiencing a decline, with a -7.52% engine-human delta, indicating a notable disadvantage for players using this opening. This trend may indicate a need to adapt to more engine-favoured lines, potentially impacting player performance."
+    "narrative": "The B41 opening is stable but has a notable gap in engine favour. Volatility is low, and there's a weak streak of 2 months."
   },
   "B42": {
     "name": "Sicilian Defense: Kan Variation, Gipslis Variation",
@@ -20125,7 +20167,7 @@
     "human_win_rate": 0.479099,
     "delta": -0.039018,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "The B44 opening is trending downwards, with a delta of -0.039018, indicating a slight increase in engine-human performance gap. This trend suggests that players may be struggling with this opening, making it a less favorable choice."
+    "narrative": "Win-rate is stable with a minor gap from engine evaluation, and the trend is range-bound with low confidence. Volatility is low at 0.40%."
   },
   "B45": {
     "name": "Sicilian Defense: Four Knights Variation",
@@ -20318,7 +20360,7 @@
     "human_win_rate": 0.451045,
     "delta": -0.079542,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Stable win-rate trend with a -7.95% engine-human delta, indicating engine-favoured \u2014 frequently misplayed or theory-heavy."
+    "narrative": "Range-bound trend with low confidence, indicating engine-favoured openings. Recent volatility is low, and a minor gap in win-rate exists. No sustained streak."
   },
   "B46": {
     "name": "Sicilian Defense: Taimanov Variation",
@@ -20511,7 +20553,7 @@
     "human_win_rate": 0.484769,
     "delta": -0.043949,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The B46 Sicilian is falling, with engines performing -4.39% better than humans. This engine-favoured opening frequently sees misplayed or theory-heavy positions."
+    "narrative": "Win-rate is range-bound, with a minor gap in engine favour. Volatility is moderate, and there's no sustained streak."
   },
   "B47": {
     "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation",
@@ -20705,7 +20747,7 @@
     "human_win_rate": 0.448814,
     "delta": -0.079904,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Win-rate is stable, with a small engine-human delta of -0.079904. This suggests a relatively even playing field, where players can focus on executing their openings effectively."
+    "narrative": "Rising trend with low confidence, indicating engine-favoured openings. Recent volatility is moderate, and a minor gap in win-rate exists. No sustained streak."
   },
   "B48": {
     "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation, English Attack",
@@ -21089,7 +21131,7 @@
     "human_win_rate": 0.431989,
     "delta": -0.04615,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The B49 opening is trending downwards, with a delta of -0.04615 showing engines are gaining an advantage. Players should be prepared to face strong engine play."
+    "narrative": "The B49 opening has a falling win-rate with a high degree of confidence. A notable gap in engine favour and recent volatility above 0.004 indicate a noisy series."
   },
   "B50": {
     "name": "Sicilian Defense",
@@ -22083,7 +22125,7 @@
     "human_win_rate": 0.472417,
     "delta": -0.053186,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Rising win-rate trend indicates humans are improving over B56, an engine-favoured opening. Delta of -0.053186 signifies a slight engine advantage. Humans should focus on mastering B56 to compete with engines."
+    "narrative": "Win-rate is rising with low trend confidence, but recent volatility is low, making it a potentially stable choice."
   },
   "B57": {
     "name": "Sicilian Defense: Classical Variation, Anti-Sozin Variation",
@@ -22291,7 +22333,14 @@
     "human_win_rate": 0.442762,
     "delta": -0.067237,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The B58 Sicilian is rising, with a -6.72% engine-human delta, suggesting a potential advantage for players employing this opening. This trend may indicate a shift towards more engine-preferred lines, potentially making it easier for players to compete."
+    "narrative": "The B58 Sicilian is rising, with a -6.72% engine-human delta, suggesting a potential advantage for players employing this opening. This trend may indicate a shift towards more engine-preferred lines, potentially making it easier for players to compete.",
+    "last_month": "",
+    "last_win_rate": null,
+    "mean_win_rate": null,
+    "std_win_rate": null,
+    "ma3": null,
+    "trend_direction": "stable",
+    "months_available": null
   },
   "B59": {
     "name": "Sicilian Defense: Boleslavsky Variation",
@@ -22706,7 +22755,7 @@
     "human_win_rate": 0.483493,
     "delta": -0.044603,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The B62 Sicilian is falling, with engines performing -4.46% better than humans. This engine-favoured opening frequently sees misplayed or theory-heavy positions."
+    "narrative": "The B62 opening has a range-bound win-rate with a minor gap in engine favour. Recent volatility is low, but a weak streak of 0 months suggests inconsistent performance."
   },
   "B63": {
     "name": "Sicilian Defense: Richter-Rauzer Variation, Classical Variation",
@@ -23005,7 +23054,7 @@
     "human_win_rate": 0.46018,
     "delta": -0.086558,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Win-rate is rising, with a small engine-human delta of -0.086558. This suggests players are improving, but engines still hold a slight edge."
+    "narrative": "Falling trend with medium confidence, indicating engine-favoured openings. Recent volatility is low, but a minor gap in win-rate exists. Sustained streak of 2 months suggests a weak trend."
   },
   "B71": {
     "name": "Sicilian Defense: Dragon Variation, Levenfish Variation",
@@ -23196,7 +23245,7 @@
     "human_win_rate": 0.558852,
     "delta": 0.063227,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "Falling win-rate trend with a +6.32% engine-human delta, indicating humans outperform engine \u2014 rewards human skill."
+    "narrative": "Win-rate is stable, with a low confidence trend. Humans outperform engine, rewarding human skill. Recent volatility is moderate, and there's a weak streak of 2 months."
   },
   "B72": {
     "name": "Sicilian Defense: Dragon Variation",
@@ -23988,7 +24037,7 @@
     "human_win_rate": 0.473895,
     "delta": -0.066641,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Rising engine-favoured trend with a delta of -0.066641, indicating frequent misplay or theory-heavy positions."
+    "narrative": "Win-rate is falling, with a low confidence trend. Engine is favoured, but frequently misplayed or theory-heavy. Recent volatility is moderate."
   },
   "B77": {
     "name": "Sicilian Defense: Dragon Variation, Yugoslav Attack",
@@ -24179,7 +24228,7 @@
     "human_win_rate": 0.462814,
     "delta": -0.077722,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The B77 Sicilian is falling out of favour, with a -7.77% engine-human delta, indicating a significant disadvantage for players employing this opening. This trend suggests a shift towards more engine-preferred lines, potentially making it harder for players to compete."
+    "narrative": "Rising trend with medium confidence, indicating engine-favoured openings. Recent volatility is high, and a minor gap in win-rate exists. Sustained streak of 1 month suggests a weak trend."
   },
   "B78": {
     "name": "Sicilian Defense: Dragon Variation, Yugoslav Attack",
@@ -24581,7 +24630,7 @@
     "human_win_rate": 0.483387,
     "delta": -0.060871,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Rising engine-favoured trend with a delta of -0.060871, indicating frequent misplay or theory-heavy positions."
+    "narrative": "Win-rate is stable, with a low confidence trend. Engine is favoured, but frequently misplayed or theory-heavy. Recent volatility is low, and there's a weak streak of 1 month."
   },
   "B81": {
     "name": "Sicilian Defense: Scheveningen Variation, Keres Attack",
@@ -25454,7 +25503,7 @@
     "human_win_rate": 0.48302,
     "delta": -0.001985,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "The win-rate is stable with low confidence, indicating a range-bound trend. A minor gap exists between actual and forecasted win-rates."
   },
   "B92": {
     "name": "Sicilian Defense: Najdorf Variation, Opocensky Variation",
@@ -26027,7 +26076,7 @@
     "human_win_rate": 0.494495,
     "delta": 0.005118,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "Win-rate is stable with a notable gap in engine evaluation. A weak streak of 1 month suggests a fragile trend."
   },
   "B95": {
     "name": "Sicilian Defense: Najdorf Variation",
@@ -26615,7 +26664,7 @@
     "human_win_rate": 0.522026,
     "delta": -0.002953,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "The win-rate is stable with low confidence, indicating a range-bound trend. A minor gap exists between actual and forecasted win-rates."
   },
   "B99": {
     "name": "Sicilian Defense: Najdorf Variation, Main Line",
@@ -26806,7 +26855,7 @@
     "human_win_rate": 0.525781,
     "delta": -0.002314,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "The win-rate is stable with low confidence, indicating a range-bound trend. A minor gap exists between actual and forecasted win-rates."
   },
   "C01": {
     "name": "French Defense: Exchange Variation",
@@ -27205,7 +27254,7 @@
     "human_win_rate": 0.483553,
     "delta": -0.002076,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "The win-rate is stable with low confidence, indicating a range-bound trend. A minor gap exists between actual and forecasted win-rates."
   },
   "C03": {
     "name": "French Defense: Tarrasch Variation",
@@ -27598,7 +27647,7 @@
     "human_win_rate": 0.45531,
     "delta": -0.088329,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Win-rate is falling, with a relatively small engine-human delta of -0.088329. This indicates engines are gaining an advantage, making it essential for players to stay informed."
+    "narrative": "The C04 opening is stable with low confidence, showing a range-bound win-rate. A minor gap exists between engine and actual win-rates, indicating engine-favoured play."
   },
   "C05": {
     "name": "French Defense: Tarrasch Variation, Botvinnik Variation",
@@ -27995,7 +28044,7 @@
     "human_win_rate": 0.474583,
     "delta": -0.047278,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The C07 opening is rising with a slight engine advantage, indicating frequent misplay or theory-heavy situations. Players must be well-prepared to counter engine-favored lines, as the 4.47% win rate suggests a competitive but challenging opening."
+    "narrative": "Win rate is stable, with a minor gap between human and engine performance. Recent volatility is moderate."
   },
   "C08": {
     "name": "French Defense: Tarrasch Variation, Open System",
@@ -28568,7 +28617,7 @@
     "human_win_rate": 0.491062,
     "delta": -0.048232,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The C10 opening is trending downwards, with a delta of -0.048232 showing engines are gaining an advantage. Players should be prepared to face strong engine play."
+    "narrative": "Engine-favoured, frequently misplayed or theory-heavy. Win rate is range-bound, with a minor gap."
   },
   "C11": {
     "name": "French Defense: Classical Variation",
@@ -28950,7 +28999,7 @@
     "human_win_rate": 0.465723,
     "delta": -0.058633,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Falling engine-favoured trend with a delta of -0.058633, indicating frequent misplay or theory-heavy positions."
+    "narrative": "Engine-favoured, with a notable gap between actual and forecast. Win-rate is range-bound."
   },
   "C13": {
     "name": "French Defense: Alekhine-Chatard Attack",
@@ -29141,7 +29190,7 @@
     "human_win_rate": 0.529597,
     "delta": 0.060184,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "Stable trend with a delta of 0.060184, indicating humans outperform engine and rewards human skill."
+    "narrative": "Win-rate is stable, with a low confidence trend. Humans outperform engine, rewarding human skill. Recent volatility is moderate."
   },
   "C14": {
     "name": "French Defense: Classical Variation",
@@ -29575,7 +29624,7 @@
     "human_win_rate": 0.482384,
     "delta": -0.05691,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The C17 is rising, with a human-engine delta of -0.05691, indicating engine-favoured and frequently misplayed or theory-heavy."
+    "narrative": "Engine-favoured with a notable gap, making it a challenging opening for humans. Recent volatility is low, but the series is range-bound."
   },
   "C18": {
     "name": "French Defense: Winawer Variation, Advance Variation",
@@ -29766,7 +29815,7 @@
     "human_win_rate": 0.470954,
     "delta": 0.003408,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "Win-rate is stable with low confidence, indicating an erratic trend. A minor gap exists between actual and forecasted win-rates."
   },
   "C19": {
     "name": "French Defense: Winawer Variation, Advance Variation, Smyslov Variation",
@@ -29972,7 +30021,7 @@
     "human_win_rate": 0.550979,
     "delta": 0.042855,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "The C21 Four Knights is rising, with engines performing 4.29% worse than humans. This human-favoured opening rewards human skill and counterplay."
+    "narrative": "Win-rate is rising, with a notable gap in human favour. Volatility is low, and there's no sustained streak."
   },
   "C22": {
     "name": "Center Game: Berger Variation",
@@ -30163,7 +30212,7 @@
     "human_win_rate": 0.539058,
     "delta": 0.049681,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "Stable win-rate trend indicates humans outperform engine, rewarding human skill. Delta of 0.049681 suggests players should focus on developing their skills to take advantage."
+    "narrative": "Win-rate is rising with low trend confidence, indicating a minor gap between last actual and forecast. Recent volatility is moderate, and there's a weak streak of 1 month."
   },
   "C23": {
     "name": "Bishop's Opening",
@@ -30354,7 +30403,7 @@
     "human_win_rate": 0.492912,
     "delta": -0.007088,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "The C23 opening is stable with a low trend confidence, resulting in an erratic win-rate. The minor gap in engine evaluation suggests a slight underperformance. Recent volatility is low."
   },
   "C24": {
     "name": "Bishop's Opening: Berlin Defense",
@@ -30740,7 +30789,7 @@
     "human_win_rate": 0.521902,
     "delta": 0.004409,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "Win-rate is erratic with a minor gap in engine evaluation. Recent volatility is low, indicating a consistent series."
   },
   "C26": {
     "name": "Bishop's Opening: Horwitz Gambit",
@@ -31346,7 +31395,7 @@
     "human_win_rate": 0.480329,
     "delta": -0.04652,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The C30 opening is trending upwards, with a delta of -0.04652 indicating engines are performing better. This means players should be cautious of engines' strong play."
+    "narrative": "The C30 opening has an erratic win-rate with a minor gap in engine favour. Recent volatility is low, but a weak streak of 0 months suggests inconsistent performance."
   },
   "C31": {
     "name": "King's Gambit Declined: Falkbeer Countergambit",
@@ -31937,7 +31986,7 @@
     "human_win_rate": 0.449162,
     "delta": -0.040215,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Falling win-rate trend, engine-favoured - frequently misplayed or theory-heavy, consider studying C34 to improve."
+    "narrative": "Win-rate is range-bound, with a minor gap between engine and human performance. Recent volatility is low, indicating a stable series."
   },
   "C35": {
     "name": "King's Gambit Accepted: Cunningham Defense",
@@ -32128,7 +32177,7 @@
     "human_win_rate": 0.474103,
     "delta": 0.001575,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "Win-rate is stable with low confidence, described as range-bound. Notable gap from engine evaluation."
   },
   "C36": {
     "name": "King's Gambit Accepted: Abbazia Defense",
@@ -32319,7 +32368,7 @@
     "human_win_rate": 0.449134,
     "delta": -0.050866,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Falling win-rate trend indicates engine-favoured position, frequently misplayed or theory-heavy. Delta of -0.050866 suggests engine dominance. Players should focus on understanding complex theory to improve."
+    "narrative": "Win-rate is range-bound due to low trend confidence, with a minor gap between last actual and forecast. Recent volatility is low, and there's a weak streak of 1 month."
   },
   "C37": {
     "name": "King's Gambit Accepted: Australian Gambit",
@@ -32558,7 +32607,7 @@
     "human_win_rate": 0.458441,
     "delta": -0.096955,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Win-rate stable, engine-human delta -0.096955 indicates engines have a significant advantage, frequently misplayed or theory-heavy openings."
+    "narrative": "The C40 opening is stable with low confidence, showing a range-bound win-rate. A minor gap exists between engine and actual win-rates, indicating engine-favoured play."
   },
   "C42": {
     "name": "Petrov's Defense",
@@ -32751,7 +32800,7 @@
     "human_win_rate": 0.482213,
     "delta": -0.048374,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The C42 opening is trending upwards, with a delta of -0.048374 indicating engines are performing better. This means players should be cautious of engines' strong play."
+    "narrative": "Engine-favoured, frequently misplayed or theory-heavy. Win rate is range-bound, with a minor gap."
   },
   "C43": {
     "name": "Bishop's Opening: Urusov Gambit",
@@ -32944,7 +32993,7 @@
     "human_win_rate": 0.507471,
     "delta": -0.006275,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "The C43 opening is falling with low trend confidence, resulting in an erratic win-rate. The minor gap in engine evaluation suggests a slight underperformance. Recent volatility is high."
   },
   "C45": {
     "name": "Scotch Game",
@@ -33149,7 +33198,7 @@
     "human_win_rate": 0.499191,
     "delta": 0.000441,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "Win-rate is stable with low confidence, described as range-bound. Minor gap from engine evaluation."
   },
   "C46": {
     "name": "Three Knights Opening",
@@ -33932,7 +33981,7 @@
     "human_win_rate": 0.499438,
     "delta": -0.001812,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "Win-rate is stable with low confidence, but recent volatility is low. Minor gap from engine evaluation."
   },
   "C52": {
     "name": "Italian Game: Evans Gambit",
@@ -35344,7 +35393,7 @@
     "human_win_rate": 0.448164,
     "delta": -0.089266,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Win-rate rising, engine-human delta -0.089266 indicates engines have a slight advantage, but human skill can still be effective."
+    "narrative": "The C63 opening is stable with low confidence, displaying a range-bound win-rate. A minor gap exists between engine and actual win-rates, suggesting engine-favoured play."
   },
   "C64": {
     "name": "Ruy Lopez: Classical Defense, Benelux Variation",
@@ -35773,7 +35822,7 @@
     "human_win_rate": 0.498344,
     "delta": -0.001656,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "Win-rate is rising with low confidence, supported by a moderate streak of 0 months. Minor gap from engine evaluation."
   },
   "C69": {
     "name": "Ruy Lopez: Exchange Variation, Alapin Gambit",
@@ -35966,7 +36015,7 @@
     "human_win_rate": 0.495384,
     "delta": -0.005866,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "The C69 opening is rising with medium trend confidence, leading to a rising win-rate. The minor gap in engine evaluation indicates a slight underperformance. Recent volatility is high."
   },
   "C70": {
     "name": "Ruy Lopez: Bird's Defense Deferred",
@@ -36174,7 +36223,7 @@
     "human_win_rate": 0.481383,
     "delta": -0.047958,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The C71 opening is trending downwards, with a delta of -0.047958 showing engines are gaining an advantage. Players should be prepared to face strong engine play."
+    "narrative": "Win rate is falling, with a notable gap between human and engine performance. Recent volatility is moderate."
   },
   "C72": {
     "name": "Ruy Lopez: Closed, Kecskemet Variation",
@@ -37073,7 +37122,7 @@
     "human_win_rate": 0.483661,
     "delta": -0.044434,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The C84 Ruy Lopez is falling, with engines performing -4.44% better than humans. This engine-favoured opening frequently sees misplayed or theory-heavy positions."
+    "narrative": "Win-rate is erratic, with a minor gap in engine favour. Recent volatility is moderate, and there's no sustained streak."
   },
   "C85": {
     "name": "Ruy Lopez: Closed, Delayed Exchange",
@@ -37500,7 +37549,7 @@
     "human_win_rate": 0.430253,
     "delta": -0.093479,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Win-rate rising, engine-human delta -0.093479 indicates engines have a slight advantage, but human skill can still be effective."
+    "narrative": "The C89 opening is stable with low confidence, showing a range-bound win-rate. A minor gap exists between engine and actual win-rates, indicating engine-favoured play."
   },
   "C90": {
     "name": "Ruy Lopez: Closed",
@@ -38148,7 +38197,7 @@
     "human_win_rate": 0.501387,
     "delta": -0.039149,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "The C97 opening is trending downwards, with a delta of -0.039149, indicating a slight increase in engine-human performance gap. This trend suggests that players may be struggling with this opening, making it a less favorable choice."
+    "narrative": "Win-rate is stable with a minor gap from engine evaluation, but recent volatility is high at 1.61%. The trend is erratic with a low confidence level."
   },
   "C98": {
     "name": "Ruy Lopez: Closed, Chigorin Defense",
@@ -38769,7 +38818,7 @@
     "human_win_rate": 0.488353,
     "delta": -0.006022,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "The D04 opening is stable with medium trend confidence, leading to a stable win-rate. The minor gap in engine evaluation indicates a slight underperformance. Recent volatility is low."
   },
   "D05": {
     "name": "Queen's Pawn Game: Colle System",
@@ -38960,7 +39009,7 @@
     "human_win_rate": 0.509725,
     "delta": 0.0041,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "Win-rate is stable with a minor gap in engine evaluation. A weak streak of 0 months suggests a fragile trend."
   },
   "D07": {
     "name": "Queen's Gambit Declined: Chigorin Defense",
@@ -39344,7 +39393,7 @@
     "human_win_rate": 0.489513,
     "delta": -0.054126,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Rising win-rate trend indicates humans are improving over D08, an engine-favoured opening. Delta of -0.054126 signifies a slight engine advantage. Humans should focus on mastering D08 to compete with engines."
+    "narrative": "Win-rate is falling with a high trend confidence, indicating a strong trend. Recent volatility is low, and there's a sustained streak of 3 months."
   },
   "D09": {
     "name": "Queen's Gambit Declined: Albin Countergambit, Fianchetto Variation",
@@ -39535,7 +39584,7 @@
     "human_win_rate": 0.517599,
     "delta": 0.048808,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "Rising win-rate trend indicates humans outperform engine, rewarding human skill. Delta of 0.048808 suggests players should focus on developing their skills to take advantage."
+    "narrative": "Win rate is erratic, with a minor gap between human and engine performance. Recent volatility is low."
   },
   "D10": {
     "name": "Slav Defense",
@@ -39929,7 +39978,7 @@
     "human_win_rate": 0.474501,
     "delta": -0.051101,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Falling win-rate trend indicates engine-favoured position, frequently misplayed or theory-heavy. Delta of -0.051101 suggests engine dominance. Players should focus on understanding complex theory to improve."
+    "narrative": "Win-rate is erratic due to low trend confidence, with a minor gap between last actual and forecast. Recent volatility is moderate, and there's no sustained streak."
   },
   "D12": {
     "name": "Slav Defense: Quiet Variation, Amsterdam Variation",
@@ -40517,7 +40566,7 @@
     "human_win_rate": 0.497017,
     "delta": -0.004858,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "Win-rate is range-bound with a minor gap in engine evaluation. High volatility (> 0.004) indicates a noisy series."
   },
   "D16": {
     "name": "Slav Defense: Alapin Variation",
@@ -40901,7 +40950,7 @@
     "human_win_rate": 0.474569,
     "delta": -0.049787,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Falling win-rate trend indicates engine-favoured position, frequently misplayed or theory-heavy. Delta of -0.049787 suggests engine dominance. Players should focus on understanding complex theory to improve."
+    "narrative": "Win-rate is range-bound due to low trend confidence, with a minor gap between last actual and forecast. Recent volatility is moderate, and there's a weak streak of 1 month."
   },
   "D18": {
     "name": "Slav Defense: Czech Variation, Classical System",
@@ -41092,7 +41141,7 @@
     "human_win_rate": 0.469558,
     "delta": -0.006087,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "The D18 opening is stable with low trend confidence, leading to a range-bound win-rate. The minor gap in engine evaluation indicates a slight underperformance. Volatility is moderate."
   },
   "D19": {
     "name": "Slav Defense: Czech Variation, Classical System, Main Line",
@@ -41519,7 +41568,7 @@
     "human_win_rate": 0.515828,
     "delta": -0.001041,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "Win-rate is falling with medium confidence, supported by a moderate streak of 2 months. Major gap from engine evaluation."
   },
   "D24": {
     "name": "Queen's Gambit Accepted",
@@ -41712,7 +41761,7 @@
     "human_win_rate": 0.538192,
     "delta": 0.056933,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "Falling trend with a delta of 0.056933, indicating humans outperform engine and rewards human skill."
+    "narrative": "Win-rate is stable with a minor gap, indicating a balanced opening. Recent volatility is low, suggesting a predictable series."
   },
   "D25": {
     "name": "Queen's Gambit Accepted: Janowski-Larsen Variation",
@@ -41931,7 +41980,7 @@
     "human_win_rate": 0.458299,
     "delta": -0.056696,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Falling engine-favoured trend with a delta of -0.056696, indicating frequent misplay or theory-heavy positions."
+    "narrative": "Engine-favoured with a notable gap, frequently misplayed or theory-heavy. Recent volatility is low, but the series is range-bound."
   },
   "D27": {
     "name": "Queen's Gambit Accepted: Classical Defense, Main Line",
@@ -42122,7 +42171,7 @@
     "human_win_rate": 0.453587,
     "delta": -0.068274,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The D27 Slav is rising, with a -6.83% engine-human delta, indicating a potential advantage for players using this opening. This trend may indicate a shift towards more engine-preferred lines, potentially making it easier for players to compete."
+    "narrative": "The D27 opening is stable but has a minor gap in engine favour. Volatility is high, and there's a weak streak of 1 month."
   },
   "D28": {
     "name": "Queen's Gambit Accepted: Classical Defense, Alekhine System",
@@ -42358,7 +42407,7 @@
     "human_win_rate": 0.46719,
     "delta": -0.053423,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The D32 is rising, with a human-engine delta of -0.053423, suggesting engine-favoured and frequently misplayed or theory-heavy."
+    "narrative": "Win-rate is stable with low trend confidence, and a minor gap in delta, indicating a slight engine advantage."
   },
   "D33": {
     "name": "Tarrasch Defense: Dubov Tarrasch",
@@ -42774,7 +42823,7 @@
     "human_win_rate": 0.541977,
     "delta": 0.053849,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "The D36 is falling, with a human-engine delta of 0.053849, indicating humans outperform engines and rewarding human skill."
+    "narrative": "Humans outperform engines with a notable gap in win-rate, making it a rewarding choice for skilled players."
   },
   "D37": {
     "name": "Queen's Gambit Declined: Barmen Variation",
@@ -43595,7 +43644,7 @@
     "human_win_rate": 0.515728,
     "delta": -0.002389,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "The win-rate is stable with low confidence, indicating a range-bound trend. A minor gap exists between actual and forecasted win-rates."
   },
   "D44": {
     "name": "Semi-Slav Defense Accepted",
@@ -43792,7 +43841,7 @@
     "human_win_rate": 0.470017,
     "delta": -0.07238,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Falling win-rate trend with a -7.24% engine-human delta, indicating engine-favoured \u2014 frequently misplayed or theory-heavy."
+    "narrative": "The D44 opening is stable but has a minor gap in engine favour. Volatility is moderate, and there's a weak streak of 1 month."
   },
   "D45": {
     "name": "Semi-Slav Defense: Accelerated Meran Variation",
@@ -43966,7 +44015,14 @@
     "human_win_rate": 0.516666,
     "delta": -0.011429,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "The D46 opening is experiencing a rising win-rate trend, with a small engine-human delta of -0.0114, suggesting engines are slightly underestimating its strength."
+    "narrative": "The D46 opening is experiencing a rising win-rate trend, with a small engine-human delta of -0.0114, suggesting engines are slightly underestimating its strength.",
+    "last_month": "",
+    "last_win_rate": null,
+    "mean_win_rate": null,
+    "std_win_rate": null,
+    "ma3": null,
+    "trend_direction": "rising",
+    "months_available": null
   },
   "D47": {
     "name": "Semi-Slav Defense: Meran Variation",
@@ -44160,7 +44216,7 @@
     "human_win_rate": 0.463593,
     "delta": -0.045156,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The D47 Sicilian is rising, with engines performing -4.52% better than humans. This engine-favoured opening frequently sees misplayed or theory-heavy positions."
+    "narrative": "The D47 opening has a range-bound win-rate with a minor gap in engine favour. Recent volatility is low, but a weak streak of 0 months suggests inconsistent performance."
   },
   "D48": {
     "name": "Semi-Slav Defense: Meran Variation",
@@ -44856,7 +44912,7 @@
     "human_win_rate": 0.453412,
     "delta": -0.051588,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Rising win-rate trend indicates humans are improving over D58, an engine-favoured opening. Delta of -0.051588 signifies a slight engine advantage. Humans should focus on mastering D58 to compete with engines."
+    "narrative": "Win-rate is stable with low trend confidence, and a minor gap in delta, making it a potentially stable choice."
   },
   "D59": {
     "name": "Queen's Gambit Declined: Tartakower Defense",
@@ -46203,7 +46259,7 @@
     "human_win_rate": 0.467432,
     "delta": -0.05817,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Falling engine-favoured trend with a delta of -0.05817, indicating frequent misplay or theory-heavy positions."
+    "narrative": "Engine-favoured, with a major gap between actual and forecast. Win-rate is erratic."
   },
   "D81": {
     "name": "Gr\u00fcnfeld Defense: Russian Variation, Accelerated Variation",
@@ -46600,7 +46656,7 @@
     "human_win_rate": 0.462579,
     "delta": -0.052417,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Falling win-rate trend suggests engines are outperforming humans over D83, a frequently misplayed opening. Delta of -0.052417 indicates a significant engine advantage. Humans should adapt to other openings."
+    "narrative": "Win-rate is stable with low trend confidence, and a minor gap in delta, indicating a slight engine advantage."
   },
   "D84": {
     "name": "Gr\u00fcnfeld Defense: Brinckmann Attack, Gr\u00fcnfeld Gambit Accepted",
@@ -46813,7 +46869,7 @@
     "human_win_rate": 0.466867,
     "delta": -0.050626,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Falling win-rate trend indicates engine-favoured position, frequently misplayed or theory-heavy. Delta of -0.050626 suggests engine dominance. Players should focus on understanding complex theory to improve."
+    "narrative": "Win-rate is range-bound due to low trend confidence, with a minor gap between last actual and forecast. Recent volatility is low, and there's a weak streak of 1 month."
   },
   "D86": {
     "name": "Gr\u00fcnfeld Defense: Exchange Variation, Classical Variation",
@@ -47251,7 +47307,14 @@
     "human_win_rate": 0.465648,
     "delta": -0.003765,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "Win-rate is rising with a notable gap in engine evaluation. A moderate streak of 2 months suggests a developing trend.",
+    "last_month": "",
+    "last_win_rate": null,
+    "mean_win_rate": null,
+    "std_win_rate": null,
+    "ma3": null,
+    "trend_direction": "rising",
+    "months_available": null
   },
   "D89": {
     "name": "Gr\u00fcnfeld Defense: Exchange Variation, Sokolsky Variation",
@@ -47861,7 +47924,7 @@
     "human_win_rate": 0.460464,
     "delta": -0.039536,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "Rising win-rate trend, consistent with engine evaluation - consider studying D93 to improve."
+    "narrative": "Consistent with engine evaluation, with a minor gap. Recent volatility is low, indicating a stable series. A moderate streak of 2 months suggests a stable trend."
   },
   "D94": {
     "name": "Gr\u00fcnfeld Defense: Flohr Defense",
@@ -48322,7 +48385,7 @@
     "human_win_rate": 0.517512,
     "delta": 0.038125,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "The E00 opening is trending downwards, with a delta of 0.038125, indicating a slight decrease in engine-human performance gap. This trend suggests that players may be improving their skills in this opening, making it a more competitive choice."
+    "narrative": "Win-rate is stable with a notable gap from engine evaluation, and the trend is range-bound with low confidence. Volatility is moderate at 0.54%."
   },
   "E01": {
     "name": "Catalan Opening: Closed",
@@ -48734,7 +48797,7 @@
     "human_win_rate": 0.521449,
     "delta": 0.041438,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "Falling win-rate trend, humans outperform engine by 4.14% - rewards human skill, consider playing E04 to gain an edge."
+    "narrative": "Humans outperform engine, with a notable gap. Recent volatility is moderate, indicating some noise in the series. A strong streak of 0 months suggests a stable trend."
   },
   "E05": {
     "name": "Catalan Opening: Open Defense, Classical Line",
@@ -50454,7 +50517,7 @@
     "human_win_rate": 0.488304,
     "delta": -0.006071,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "The E24 opening is rising with low trend confidence, resulting in an erratic win-rate. The minor gap in engine evaluation suggests a slight underperformance. Recent volatility is moderate."
   },
   "E25": {
     "name": "Nimzo-Indian Defense: S\u00e4misch Variation",
@@ -50720,7 +50783,7 @@
     "human_win_rate": 0.457278,
     "delta": -0.055844,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Falling win-rate trend suggests engines are improving over E30, a frequently misplayed opening, making it harder for humans to compete. Delta of -0.055844 indicates engines have a significant advantage. Humans should focus on mastering other openings."
+    "narrative": "Engine-favoured with a minor gap, frequently misplayed or theory-heavy. Recent volatility is low, but the series is range-bound."
   },
   "E31": {
     "name": "Nimzo-Indian Defense: Leningrad Variation, Benoni Defense",
@@ -50928,7 +50991,7 @@
     "human_win_rate": 0.491496,
     "delta": 0.003993,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "Win-rate is stable with a minor gap in engine evaluation. Recent volatility is high (> 0.004), indicating a noisy series."
   },
   "E33": {
     "name": "Nimzo-Indian Defense: Classical Variation, Milner-Barry Variation",
@@ -51202,7 +51265,7 @@
     "human_win_rate": 0.482753,
     "delta": -0.043472,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The E38 Nimzo-Indian is rising, with engines performing -4.35% better than humans. This engine-favoured opening frequently sees misplayed or theory-heavy positions."
+    "narrative": "Win-rate is range-bound, with a minor gap in engine favour. Volatility is low, and there's no sustained streak."
   },
   "E39": {
     "name": "Nimzo-Indian Defense: Classical Variation, Berlin Variation, Macieja System",
@@ -51410,7 +51473,7 @@
     "human_win_rate": 0.492524,
     "delta": 0.000648,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "Win-rate is stable with low confidence, described as erratic. Minor gap from engine evaluation."
   },
   "E41": {
     "name": "Nimzo-Indian Defense: Rubinstein System",
@@ -51811,7 +51874,7 @@
     "human_win_rate": 0.479694,
     "delta": -0.049025,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The E43 opening is rising with a slight engine advantage, indicating frequent misplay or theory-heavy situations. Players must be well-prepared to counter engine-favored lines, as the 4.65% win rate suggests a competitive but challenging opening."
+    "narrative": "Win-rate is falling with medium trend confidence, indicating a notable gap between last actual and forecast. Recent volatility is high, and there's a weak streak of 2 months."
   },
   "E44": {
     "name": "Nimzo-Indian Defense: St. Petersburg Variation",
@@ -53130,7 +53193,7 @@
     "human_win_rate": 0.480943,
     "delta": -0.000316,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "Win-rate is stable with low confidence, described as erratic. Minor gap from engine evaluation."
   },
   "E62": {
     "name": "King's Indian Defense: Fianchetto Variation, Carlsbad Variation",
@@ -53321,7 +53384,7 @@
     "human_win_rate": 0.472761,
     "delta": -0.054088,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Stable win-rate trend suggests E62 is a balanced opening, with engines having a slight advantage. Delta of -0.054088 indicates engines have a minor edge. Humans should focus on developing their skills over E62."
+    "narrative": "Win-rate is stable with low trend confidence, making it difficult to predict. Delta is a minor gap, indicating a slight engine advantage."
   },
   "E63": {
     "name": "King's Indian Defense: Fianchetto Variation, Panno Variation",
@@ -53514,7 +53577,7 @@
     "human_win_rate": 0.458552,
     "delta": -0.071412,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The E63 King's Indian is falling, with a -7.14% engine-human delta, suggesting a disadvantage for players employing this opening. This trend may indicate a shift towards more engine-preferred lines, potentially making it harder for players to compete."
+    "narrative": "The E63 opening is rising, with a notable gap in engine favour. Volatility is moderate, and there's a strong streak of 2 months."
   },
   "E64": {
     "name": "King's Indian Defense: Fianchetto Variation, Double Fianchetto Attack",
@@ -53865,7 +53928,14 @@
     "human_win_rate": 0.476128,
     "delta": -0.002011,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "No analysis available yet.",
+    "last_month": "",
+    "last_win_rate": null,
+    "mean_win_rate": null,
+    "std_win_rate": null,
+    "ma3": null,
+    "trend_direction": "falling",
+    "months_available": null
   },
   "E67": {
     "name": "King's Indian Defense: Fianchetto Variation, Classical Fianchetto",
@@ -54056,7 +54126,7 @@
     "human_win_rate": 0.484662,
     "delta": -0.055252,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Falling win-rate trend indicates engines are outperforming humans over E67, a theory-heavy opening, making it challenging for humans to win. Delta of -0.055252 signifies a significant engine advantage. Humans should adapt to other openings."
+    "narrative": "Engine-favoured with a minor gap, frequently misplayed or theory-heavy. Recent volatility is high, making the series noisy."
   },
   "E68": {
     "name": "King's Indian Defense: Fianchetto Variation, Classical Variation",
@@ -54247,7 +54317,7 @@
     "human_win_rate": 0.502897,
     "delta": 0.043433,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "The E68 King's Indian is rising, with engines performing 4.34% worse than humans. This human-favoured opening rewards human skill and counterplay."
+    "narrative": "Win-rate is rising, with a notable gap in human favour. Volatility is moderate, and there's a weak sustained streak."
   },
   "E69": {
     "name": "King's Indian Defense: Fianchetto Variation, Classical Main Line",
@@ -54438,7 +54508,7 @@
     "human_win_rate": 0.546498,
     "delta": 0.083928,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "Win-rate falling, engine-human delta 0.083928 indicates humans outperform engines, rewards human skill and creativity."
+    "narrative": "Stable trend with low confidence, indicating humans outperform engine. Recent volatility is moderate, and a notable gap in win-rate exists. No sustained streak."
   },
   "E70": {
     "name": "King's Indian Defense: Accelerated Averbakh Variation",
@@ -54820,7 +54890,7 @@
     "human_win_rate": 0.497733,
     "delta": 0.040131,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "Falling win-rate trend, humans outperform engine by 4.01% - rewards human skill, consider playing E71 to gain an edge."
+    "narrative": "Humans outperform engine, with a notable gap. Recent volatility is moderate, indicating some noise in the series. A weak streak of 0 months suggests an uncertain trend."
   },
   "E72": {
     "name": "King's Indian Defense: Normal Variation, Deferred Fianchetto",
@@ -55026,7 +55096,7 @@
     "human_win_rate": 0.526014,
     "delta": 0.05909,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "The E73 is rising, with a human-engine delta of 0.05909, indicating humans outperform engines and rewarding human skill."
+    "narrative": "Win-rate is erratic, with a minor gap between actual and forecast. Recent volatility is low."
   },
   "E74": {
     "name": "King's Indian Defense: Averbakh Variation, Benoni Defense",
@@ -56354,7 +56424,7 @@
     "human_win_rate": 0.464385,
     "delta": -0.07553,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "Falling win-rate trend with a -7.55% engine-human delta, indicating engine-favoured \u2014 frequently misplayed or theory-heavy."
+    "narrative": "The E91 opening is stable but range-bound, with a minor gap in engine favour. Volatility is moderate, and there's no sustained streak."
   },
   "E92": {
     "name": "King's Indian Defense: Exchange Variation",
@@ -56545,7 +56615,7 @@
     "human_win_rate": 0.498723,
     "delta": 0.001848,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "No analysis available yet."
+    "narrative": "The win-rate is stable with low confidence, indicating a range-bound trend. A minor gap exists between actual and forecasted win-rates."
   },
   "E93": {
     "name": "King's Indian Defense: Petrosian Variation, Keres Defense",
@@ -56751,7 +56821,7 @@
     "human_win_rate": 0.50999,
     "delta": 0.048663,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "Falling win-rate trend indicates humans outperform engine, rewarding human skill. Delta of 0.048663 suggests players should focus on developing their skills to take advantage."
+    "narrative": "Win rate is erratic, with a minor gap between human and engine performance. Recent volatility is low."
   },
   "E95": {
     "name": "King's Indian Defense: Orthodox Variation",
@@ -57163,7 +57233,7 @@
     "human_win_rate": 0.545778,
     "delta": 0.080099,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "Win-rate falling, engine-human delta 0.080099 indicates humans outperform engines, rewards human skill and creativity."
+    "narrative": "Stable trend with low confidence, indicating humans outperform engine. Recent volatility is moderate, and a notable gap in win-rate exists. No sustained streak."
   },
   "E99": {
     "name": "King's Indian Defense: Orthodox Variation, Classical System, Benko Attack",

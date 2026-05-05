@@ -7,19 +7,55 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300..600&display=swap" rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@700,600,500,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/shared.css">
-    
+  
+<style>
+/* Site nav */
+.site-nav {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(11,13,16,0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+  height: 52px;
+}
+.nav-inner {
+  max-width: 1200px; margin: 0 auto;
+  padding: 0 2rem; height: 100%;
+  display: flex; align-items: center;
+  justify-content: flex-start;
+  gap: 1.75rem;
+}
+.nav-wordmark {
+  font-family: 'Satoshi', 'Inter', sans-serif;
+  font-weight: 700; font-size: 1.05rem;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+}
+.nav-links { display: flex; gap: 1.5rem; align-items: center; }
+.nav-link {
+  font-size: 0.875rem; font-weight: 500;
+  color: var(--text-secondary); text-decoration: none;
+  transition: color 150ms;
+}
+.nav-link:hover, .nav-link.active { color: var(--text-primary); }
+body { font-family: 'Satoshi', 'Inter', sans-serif; }
+</style>
+  
 </head>
 <body>
-
-<nav id="main-nav">
-  <span class="brand">OpenCast</span>
-  <a href="index.html">Overview</a>
-<a href="openings.html" class="active">Openings</a>
-<a href="families.html">Families</a>
-
+<nav id="main-nav" class="site-nav">
+  <div class="nav-inner">
+    <span class="nav-wordmark">OpenCast</span>
+    <div class="nav-links">
+    <a href="index.html" class="nav-link">Overview</a>
+    <a href="openings.html" class="nav-link active">Openings</a>
+    <a href="families.html" class="nav-link">Families</a>
+    
+    </div>
+  </div>
 </nav>
-
 <main><div class="page-content">
 
 <h1 class="page-title">All Openings</h1>
@@ -29,16 +65,23 @@
     aria-label="Search openings"
     style="flex:1;min-width:200px;max-width:360px;padding:0.4rem 0.75rem;
            background:var(--surface-raised);border:1px solid rgba(255,255,255,0.12);
-           border-radius:6px;color:var(--text-primary);font-size:0.9rem;outline:none;" />
+           border-radius:6px;color:var(--text-primary);font-size:0.9rem;outline:none;
+           font-family:'Satoshi','Inter',sans-serif;" />
 
-  <div id="group-toggles" style="display:flex;gap:0.35rem;" aria-label="Filter by ECO group" role="group">
-    <button class="grp-btn active" data-group="A" style="padding:0.3rem 0.6rem;border-radius:4px;border:1px solid rgba(255,255,255,0.15);background:transparent;color:#7CC7FF;font-weight:600;cursor:pointer;font-size:0.85rem;">A</button> <button class="grp-btn active" data-group="B" style="padding:0.3rem 0.6rem;border-radius:4px;border:1px solid rgba(255,255,255,0.15);background:transparent;color:#7BE495;font-weight:600;cursor:pointer;font-size:0.85rem;">B</button> <button class="grp-btn active" data-group="C" style="padding:0.3rem 0.6rem;border-radius:4px;border:1px solid rgba(255,255,255,0.15);background:transparent;color:#F6C177;font-weight:600;cursor:pointer;font-size:0.85rem;">C</button> <button class="grp-btn active" data-group="D" style="padding:0.3rem 0.6rem;border-radius:4px;border:1px solid rgba(255,255,255,0.15);background:transparent;color:#F28DA6;font-weight:600;cursor:pointer;font-size:0.85rem;">D</button> <button class="grp-btn active" data-group="E" style="padding:0.3rem 0.6rem;border-radius:4px;border:1px solid rgba(255,255,255,0.15);background:transparent;color:#B9A5FF;font-weight:600;cursor:pointer;font-size:0.85rem;">E</button>
-  </div>
+  <select id="group-select"
+    style="padding:0.35rem 0.6rem;background:var(--surface-raised);
+           border:1px solid rgba(255,255,255,0.12);border-radius:6px;
+           color:var(--text-primary);font-size:0.85rem;cursor:pointer;
+           font-family:'Satoshi','Inter',sans-serif;">
+    <option value="">All classes</option>
+    <option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option><option value="E">E</option>
+  </select>
 
   <select id="tier-select"
     style="padding:0.35rem 0.6rem;background:var(--surface-raised);
            border:1px solid rgba(255,255,255,0.12);border-radius:6px;
-           color:var(--text-primary);font-size:0.85rem;cursor:pointer;">
+           color:var(--text-primary);font-size:0.85rem;cursor:pointer;
+           font-family:'Satoshi','Inter',sans-serif;">
     <option value="">All tiers</option>
     <option value="1">Tier 1</option>
     <option value="2">Tier 2</option>
@@ -46,6 +89,14 @@
   </select>
 
   <span id="row-count" style="color:#8b8b8f;font-size:0.85rem;margin-left:auto;white-space:nowrap;"></span>
+</div>
+
+<div style="margin:0 0 1.25rem 0;padding:0.8rem 1rem;border:1px solid rgba(255,255,255,0.10);border-radius:8px;background:rgba(255,255,255,0.02);font-family:'Satoshi','Inter',sans-serif;">
+  <div style="font-size:0.82rem;color:#8b8b8f;line-height:1.6;">
+    <strong style="color:#ededee;">Tier 1</strong>: at least 1,000 average monthly games and at least 24 months of data (full forecast + engine comparison).<br>
+    <strong style="color:#ededee;">Tier 2</strong>: 400–999 average monthly games (trend forecast only).<br>
+    <strong style="color:#ededee;">Tier 3</strong>: under 400 average monthly games (descriptive stats only).
+  </div>
 </div>
 
 <div style="overflow-x:auto;">
@@ -77,7 +128,6 @@
 .tier-badge-1 { background:rgba(74,158,255,0.18);color:#4a9eff; }
 .tier-badge-2 { background:rgba(169,117,255,0.18);color:#a975ff; }
 .tier-badge-3 { background:rgba(139,139,143,0.2);color:#8b8b8f; }
-.grp-btn.active { background:rgba(255,255,255,0.08)!important; }
 </style>
 
 <script>
@@ -117,7 +167,7 @@
 
   const state = {
     q: "",
-    groups: new Set(Object.keys(ECO_COLORS)),
+    group: "",
     tier: "",
     sortCol: "eco",
     asc: true,
@@ -129,7 +179,7 @@
     try {
       const p = new URLSearchParams(h);
       if (p.has("q"))     state.q = p.get("q");
-      if (p.has("group")) state.groups = new Set(p.get("group").split(",").map(s => s.trim()));
+      if (p.has("group")) state.group = p.get("group");
       if (p.has("tier"))  state.tier = p.get("tier");
       if (p.has("sort"))  state.sortCol = p.get("sort");
       if (p.has("asc"))   state.asc = p.get("asc") !== "0";
@@ -139,8 +189,7 @@
   function writeHash() {
     const p = new URLSearchParams();
     if (state.q)   p.set("q", state.q);
-    const grpArr = [...state.groups].sort();
-    if (grpArr.length !== Object.keys(ECO_COLORS).length) p.set("group", grpArr.join(","));
+    if (state.group) p.set("group", state.group);
     if (state.tier) p.set("tier", state.tier);
     p.set("sort", state.sortCol);
     p.set("asc", state.asc ? "1" : "0");
@@ -150,24 +199,22 @@
   readHash();
 
   const searchBox  = document.getElementById("search-box");
+  const groupSelect = document.getElementById("group-select");
   const tierSelect = document.getElementById("tier-select");
-  const grpButtons = document.querySelectorAll(".grp-btn");
   const tbody      = document.getElementById("openings-tbody");
   const rowCount   = document.getElementById("row-count");
   const emptyState = document.getElementById("empty-state");
   const sortHeaders = document.querySelectorAll(".sortable");
 
   searchBox.value  = state.q;
+  groupSelect.value = state.group;
   tierSelect.value = state.tier;
-  grpButtons.forEach(btn => {
-    btn.classList.toggle("active", state.groups.has(btn.getAttribute("data-group")));
-  });
 
   function applyFilters() {
     const q    = state.q.toLowerCase();
     const tier = state.tier;
     let visible = allRows.filter(r => {
-      if (!state.groups.has(r.group)) return false;
+      if (state.group && r.group !== state.group) return false;
       if (tier && String(r.tier) !== tier) return false;
       if (q && !r.eco.toLowerCase().includes(q) && !r.name.toLowerCase().includes(q)) return false;
       return true;
@@ -183,11 +230,11 @@
       if (av > bv) return state.asc ? 1 : -1;
       return 0;
     });
+    writeHash();
     renderRows(visible);
     rowCount.textContent = "Showing " + visible.length + " of " + total;
     emptyState.style.display = visible.length === 0 ? "block" : "none";
     updateSortIcons();
-    writeHash();
   }
 
   function fmtPct(v)   { return v != null ? (v * 100).toFixed(2) + "%" : "—"; }
@@ -205,14 +252,16 @@
     if (v == null) return TEXT_SECONDARY;
     return v > 0.005 ? "#7BE495" : v < -0.005 ? "#F28DA6" : TEXT_SECONDARY;
   }
+  const TIER_TOOLTIP = "T1: >=1000 avg monthly games + >=24 months -> full ARIMA + engine evaluation\nT2: 400-999 avg monthly games -> Holt-Winters trend, no engine delta\nT3: <400 avg monthly games -> descriptive stats only";
   function tierBadge(t) {
-    return '<span class="tier-badge tier-badge-' + t + '">T' + t + '</span>';
+    return '<span class="tier-badge tier-badge-' + t + '" title="' + TIER_TOOLTIP + '">T' + t + '</span>';
   }
 
   function renderRows(rows) {
     const html = rows.map(r => {
       const color = ECO_COLORS[r.group] || TEXT_PRIMARY;
-      const href  = "opening.html?eco=" + encodeURIComponent(r.eco);
+      const backState = encodeURIComponent(window.location.hash.slice(1));
+      const href  = "opening.html?eco=" + encodeURIComponent(r.eco) + (backState ? "&back=" + backState : "");
       return '<tr tabindex="0" role="link"' +
         ' onclick="location.href=\'' + href + '\'"' +
           ' onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();location.href=\'' + href + '\'}">' +
@@ -247,18 +296,8 @@
     clearTimeout(debounceTimer);
     debounceTimer = setTimeout(() => { state.q = searchBox.value.trim(); applyFilters(); }, 200);
   });
+  groupSelect.addEventListener("change", () => { state.group = groupSelect.value; applyFilters(); });
   tierSelect.addEventListener("change", () => { state.tier = tierSelect.value; applyFilters(); });
-  grpButtons.forEach(btn => {
-    btn.addEventListener("click", () => {
-      const g = btn.getAttribute("data-group");
-      if (state.groups.has(g)) {
-        if (state.groups.size > 1) { state.groups.delete(g); btn.classList.remove("active"); }
-      } else {
-        state.groups.add(g); btn.classList.add("active");
-      }
-      applyFilters();
-    });
-  });
   sortHeaders.forEach(th => {
     th.addEventListener("click", () => {
       const col = th.getAttribute("data-col");

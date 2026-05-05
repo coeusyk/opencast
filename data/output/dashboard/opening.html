@@ -7,24 +7,60 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300..600&display=swap" rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@700,600,500,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/shared.css">
-    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  
+<style>
+/* Site nav */
+.site-nav {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(11,13,16,0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+  height: 52px;
+}
+.nav-inner {
+  max-width: 1200px; margin: 0 auto;
+  padding: 0 2rem; height: 100%;
+  display: flex; align-items: center;
+  justify-content: flex-start;
+  gap: 1.75rem;
+}
+.nav-wordmark {
+  font-family: 'Satoshi', 'Inter', sans-serif;
+  font-weight: 700; font-size: 1.05rem;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+}
+.nav-links { display: flex; gap: 1.5rem; align-items: center; }
+.nav-link {
+  font-size: 0.875rem; font-weight: 500;
+  color: var(--text-secondary); text-decoration: none;
+  transition: color 150ms;
+}
+.nav-link:hover, .nav-link.active { color: var(--text-primary); }
+body { font-family: 'Satoshi', 'Inter', sans-serif; }
+</style>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
 </head>
 <body>
-
-<nav id="main-nav">
-  <span class="brand">OpenCast</span>
-  <a href="index.html">Overview</a>
-<a href="openings.html" class="active">Openings</a>
-<a href="families.html">Families</a>
-
+<nav id="main-nav" class="site-nav">
+  <div class="nav-inner">
+    <span class="nav-wordmark">OpenCast</span>
+    <div class="nav-links">
+    <a href="index.html" class="nav-link">Overview</a>
+    <a href="openings.html" class="nav-link active">Openings</a>
+    <a href="families.html" class="nav-link">Families</a>
+    
+    </div>
+  </div>
 </nav>
-
 <main><div class="page-content">
 
 <h1 id="opening-title">Opening Detail</h1>
 <p style="margin:0 0 1rem 0;">
-  <a href="openings.html" style="color:#8b8b8f; text-decoration:none; font-size:0.85rem;">← All openings</a>
+  <a id="back-to-openings" href="openings.html" style="color:#8b8b8f; text-decoration:none; font-size:0.85rem;">&larr; All openings</a>
 </p>
 <div id="opening-narrative" class="narrative"><p></p></div>
 <div id="opening-chart"></div>
@@ -40,6 +76,27 @@ const TEXT_SECONDARY = "#8b8b8f";
 const BODY_FONT = "'Inter', system-ui, sans-serif";
 const DISPLAY_FONT = "'Instrument Serif', Georgia, serif";
 const FALLBACK_NARRATIVE = "No analysis available yet.";
+
+function syncBackLink() {
+  const backLink = document.getElementById("back-to-openings");
+  try {
+    const ref = document.referrer || "";
+    if (ref.includes("openings.html#")) {
+      const refHash = ref.split("#")[1] || "";
+      if (refHash) {
+        backLink.href = "openings.html#" + refHash;
+        return;
+      }
+    }
+  } catch (_) {}
+  const params = new URLSearchParams(window.location.search);
+  const back = params.get("back");
+  if (back) {
+    backLink.href = "openings.html#" + back;
+  }
+}
+
+syncBackLink();
 
 function hexToRgba(hexColor, alpha) {
   const h = hexColor.replace("#", "");
@@ -97,9 +154,15 @@ function renderOpening(eco, opening) {
         const chartEl = document.getElementById("opening-chart");
         chartEl.style.display = "block";
         chartEl.innerHTML = `
-            <div style="margin-top:2rem;padding:1.5rem;border:1px solid ${GRID_COLOR};border-radius:8px;color:${TEXT_SECONDARY};">
-                <p style="margin:0;font-size:0.95rem;">No game data available for this opening.</p>
-                <p style="margin:0.5rem 0 0;font-size:0.8rem;opacity:0.7;">This ECO code exists in the catalog but has not been fetched yet. It will appear here once data is collected.</p>
+            <div style="margin-top:2rem;padding:1.5rem 2rem;border:1px solid ${GRID_COLOR};border-radius:8px;">
+                <p style="margin:0 0 0.75rem;font-size:1rem;font-weight:600;color:${TEXT_PRIMARY};">No game data available for this opening.</p>
+                <p style="margin:0 0 1rem;font-size:0.875rem;color:${TEXT_SECONDARY};">This opening is classified as <strong style="color:${TEXT_PRIMARY};">Tier 3</strong> — it exists in the ECO catalog but doesn't meet the minimum volume threshold for analysis.</p>
+                <table style="border-collapse:collapse;font-size:0.825rem;color:${TEXT_SECONDARY};">
+                    <tr><td style="padding:0.3rem 1.2rem 0.3rem 0;white-space:nowrap;"><span class="tier-badge tier-badge-1">T1</span></td><td style="padding:0.3rem 0;">≥ 1 000 avg monthly games + ≥ 24 months of data — full ARIMA forecast &amp; engine evaluation</td></tr>
+                    <tr><td style="padding:0.3rem 1.2rem 0.3rem 0;"><span class="tier-badge tier-badge-2">T2</span></td><td style="padding:0.3rem 0;">400 – 999 avg monthly games — trend estimation (Holt-Winters), no engine delta</td></tr>
+                    <tr><td style="padding:0.3rem 1.2rem 0.3rem 0;"><span class="tier-badge tier-badge-3">T3</span></td><td style="padding:0.3rem 0;">&lt; 400 avg monthly games — descriptive stats only, insufficient volume for modelling</td></tr>
+                </table>
+                <p style="margin:1rem 0 0;font-size:0.8rem;color:${TEXT_SECONDARY};opacity:0.7;">Data will appear here automatically once this opening meets the volume threshold.</p>
             </div>`;
         return;
     }
