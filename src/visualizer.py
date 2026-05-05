@@ -80,18 +80,26 @@ def _safe_read_forecasts() -> pd.DataFrame:
     return df
 
 
-def _top5_by_volume(forecasts: pd.DataFrame) -> list[str]:
-    actuals = forecasts[forecasts["is_forecast"] == False].copy()
-    if actuals.empty or "actual" not in actuals.columns:
+def _reps_by_max_delta(engine_df: pd.DataFrame) -> list[str]:
+    """Pick one ECO per group (A–E) with the highest absolute engine delta."""
+    if engine_df.empty or "delta" not in engine_df.columns:
         return []
+    df = engine_df.copy()
+    df["group"] = df["eco"].str[0]
+    reps = (
+        df.assign(abs_delta=df["delta"].abs())
+        .sort_values("abs_delta", ascending=False)
+        .groupby("group")
+        .first()
+        .reset_index()["eco"]
+        .tolist()
+    )
+    return reps
 
-    top = actuals.groupby("eco")["actual"].count().nlargest(5).index.tolist()
-    return top if top else []
 
-
-def _build_panel1_figure(forecasts: pd.DataFrame) -> go.Figure:
+def _build_panel1_figure(forecasts: pd.DataFrame, engine_df: pd.DataFrame) -> go.Figure:
     fig = go.Figure()
-    top_ecos = _top5_by_volume(forecasts)
+    top_ecos = _reps_by_max_delta(engine_df)
 
     for eco, color in zip(top_ecos, LINE_COLORS):
         grp = forecasts[forecasts["eco"] == eco].copy()
@@ -158,28 +166,47 @@ def _build_panel2_figure(engine_df: pd.DataFrame) -> go.Figure:
         _apply_plotly_typography(fig, title_size=16)
         return fig
 
+    top5_ecos = set(
+        engine_df.reindex(engine_df["delta"].abs().nlargest(5).index)["eco"].tolist()
+        if "delta" in engine_df.columns else []
+    )
+
     for eco_cat, color in ECO_COLORS.items():
-        sub = engine_df[engine_df["eco"].str.startswith(eco_cat)]
+        sub = engine_df[engine_df["eco"].str.startswith(eco_cat)].copy()
         if sub.empty:
             continue
 
-        fig.add_trace(
-            go.Scatter(
-                x=sub["engine_cp"],
-                y=sub["human_win_rate_2000"],
-                mode="markers+text",
-                name=f"ECO {eco_cat}",
-                text=sub["eco"],
-                textposition="top center",
-                marker=dict(
-                    color=color,
-                    size=12,
-                    opacity=0.85,
-                    line=dict(width=1, color=PANEL_BG),
-                ),
-                hovertemplate="<b>%{text}</b><br>Engine cp: %{x}<br>Human win rate: %{y:.3f}<br><extra></extra>",
+        bg = sub[~sub["eco"].isin(top5_ecos)]
+        hl = sub[sub["eco"].isin(top5_ecos)]
+
+        if not bg.empty:
+            fig.add_trace(
+                go.Scatter(
+                    x=bg["engine_cp"],
+                    y=bg["human_win_rate_2000"],
+                    mode="markers",
+                    name=f"ECO {eco_cat}",
+                    text=bg["eco"],
+                    marker=dict(color=color, size=8, opacity=0.35, line=dict(width=0)),
+                    hovertemplate="<b>%{text}</b><br>Engine cp: %{x}<br>Win rate: %{y:.3f}<br><extra></extra>",
+                    showlegend=True,
+                )
             )
-        )
+
+        if not hl.empty:
+            fig.add_trace(
+                go.Scatter(
+                    x=hl["engine_cp"],
+                    y=hl["human_win_rate_2000"],
+                    mode="markers+text",
+                    name=f"ECO {eco_cat} (outlier)",
+                    text=hl["eco"],
+                    textposition="top center",
+                    marker=dict(color=color, size=11, opacity=1.0, line=dict(width=1, color=PANEL_BG)),
+                    hovertemplate="<b>%{text}</b><br>Engine cp: %{x}<br>Win rate: %{y:.3f}<br><extra></extra>",
+                    showlegend=False,
+                )
+            )
 
     cp_range = list(range(-300, 301, 10))
     ref_probs = [1.0 / (1.0 + 10 ** (-cp / 400)) for cp in cp_range]
@@ -193,6 +220,27 @@ def _build_panel2_figure(engine_df: pd.DataFrame) -> go.Figure:
         )
     )
 
+    # Quadrant dividers
+    fig.add_hline(y=0.5, line=dict(color=GRID_COLOR, width=1, dash="dot"))
+    fig.add_vline(x=0, line=dict(color=GRID_COLOR, width=1, dash="dot"))
+
+    # Quadrant annotations
+    _quadrants = [
+        (-220, 0.537, "Humans overperform<br><i>practical play favoured</i>"),
+        ( 220, 0.537, "Engine strength<br><i>well executed</i>"),
+        (-220, 0.463, "Objectively weak<br><i>& underplayed</i>"),
+        ( 220, 0.463, "Theory-dependent<br><i>advantage lost in play</i>"),
+    ]
+    for qx, qy, qtxt in _quadrants:
+        fig.add_annotation(
+            x=qx, y=qy,
+            text=qtxt,
+            showarrow=False,
+            font=dict(color=TEXT_SECONDARY, size=9, family=BODY_FONT),
+            opacity=0.55,
+            align="center",
+        )
+
     fig.update_layout(
         title="Engine Delta: Human vs Engine Win Rate",
         xaxis_title="Engine centipawn score",
@@ -202,35 +250,43 @@ def _build_panel2_figure(engine_df: pd.DataFrame) -> go.Figure:
     return fig
 
 
-def _build_panel3_figure(forecasts: pd.DataFrame) -> go.Figure:
+def _build_panel3_figure(engine_df: pd.DataFrame) -> go.Figure:
+    """Bar chart of avg human win rate per ECO family (A–E)."""
     fig = go.Figure()
-    actuals = forecasts[forecasts["is_forecast"] == False].copy()
-    if actuals.empty:
+    if engine_df.empty or "human_win_rate_2000" not in engine_df.columns:
         _apply_plotly_typography(fig, title_size=16)
         return fig
 
-    actuals["eco_group"] = actuals["eco"].str[0]
-    pivot = (
-        actuals.groupby(["eco_group", "rating_bracket"])["actual"].mean().unstack(fill_value=None)
-        if "rating_bracket" in actuals.columns
-        else actuals.groupby("eco_group")["actual"].mean().to_frame()
-    )
+    df = engine_df.copy()
+    df["group"] = df["eco"].str[0]
+    group_avg = df.groupby("group")["human_win_rate_2000"].mean()
+    colors = [ECO_COLORS.get(g, TEXT_SECONDARY) for g in group_avg.index]
 
     fig.add_trace(
-        go.Heatmap(
-            z=pivot.values,
-            x=[str(c) for c in pivot.columns],
-            y=list(pivot.index),
-            colorscale="RdYlGn",
-            zmid=0.50,
-            colorbar=dict(title="Win rate", tickfont=dict(color=TEXT_SECONDARY)),
+        go.Bar(
+            x=list(group_avg.index),
+            y=list(group_avg.values),
+            marker_color=colors,
+            text=[f"{v:.3f}" for v in group_avg.values],
+            textposition="outside",
+            textfont=dict(color=TEXT_PRIMARY),
+            hovertemplate="ECO %{x}<br>Avg win rate: %{y:.4f}<extra></extra>",
         )
     )
 
+    fig.add_hline(
+        y=0.5,
+        line=dict(color=TEXT_SECONDARY, dash="dash", width=1),
+        annotation_text="50 %",
+        annotation_font=dict(color=TEXT_SECONDARY, size=10),
+    )
+
     fig.update_layout(
-        title="Average White Win Rate by ECO Family & Rating",
-        xaxis_title="Rating bracket",
-        yaxis_title="ECO family",
+        title="Average Human Win Rate by ECO Family",
+        xaxis_title="ECO Family",
+        yaxis_title="Avg White Win Rate (2000+)",
+        yaxis=dict(range=[0.46, 0.54]),
+        bargap=0.4,
     )
     _apply_plotly_typography(fig, title_size=16)
     return fig
@@ -264,18 +320,51 @@ def _nav_html(current: str) -> str:
     ]
     links = ""
     for href, label in pages:
-        active = ' class="active"' if href == current else ""
-        links += f'<a href="{href}"{active}>{label}</a>\n'
+        active = ' class="nav-link active"' if href == current else ' class="nav-link"'
+        links += f'<a href="{href}"{active}>{label}</a>\n    '
 
-    return f"""
-<nav id="main-nav">
-  <span class="brand">OpenCast</span>
-  {links}
-</nav>
-"""
+    return f"""<nav id="main-nav" class="site-nav">
+  <div class="nav-inner">
+    <span class="nav-wordmark">OpenCast</span>
+    <div class="nav-links">
+    {links}
+    </div>
+  </div>
+</nav>"""
 
 
 def _page_shell(title: str, nav_fragment: str, body: str, head_extras: str = "") -> str:
+    _NAV_CSS = """
+<style>
+/* Site nav */
+.site-nav {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(11,13,16,0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+  height: 52px;
+}
+.nav-inner {
+  max-width: 1200px; margin: 0 auto;
+  padding: 0 2rem; height: 100%;
+  display: flex; align-items: center;
+  justify-content: space-between;
+}
+.nav-wordmark {
+  font-family: 'Satoshi', 'Inter', sans-serif;
+  font-weight: 700; font-size: 1.05rem;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+}
+.nav-links { display: flex; gap: 2rem; align-items: center; }
+.nav-link {
+  font-size: 0.875rem; font-weight: 500;
+  color: var(--text-secondary); text-decoration: none;
+  transition: color 150ms;
+}
+.nav-link:hover, .nav-link.active { color: var(--text-primary); }
+</style>"""
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -285,8 +374,10 @@ def _page_shell(title: str, nav_fragment: str, body: str, head_extras: str = "")
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300..600&display=swap" rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@700,600,500,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/shared.css">
-    {head_extras}
+  {_NAV_CSS}
+  {head_extras}
 </head>
 <body>
 {nav_fragment}
@@ -404,10 +495,16 @@ def _serialize_openings_data(
                     "months_available": int(r["months_available"]) if pd.notna(r.get("months_available")) else None,
                 }
 
+        # data_status: missing | sparse | ok (from openings_catalog.csv)
+        data_status = "ok"
+        if not cat_row.empty and "data_status" in cat_row.columns:
+            data_status = str(cat_row["data_status"].iloc[0])
+
         serialized[eco] = {
             "name": name,
             "eco_group": eco[0] if eco else None,
             "model_tier": model_tier,
+            "data_status": data_status,
             "actuals": actuals,
             "forecast": forecast,
             "structural_breaks": structural_breaks,
@@ -491,6 +588,57 @@ function renderOpening(eco, opening) {{
     narrativeEl.textContent = narrative;
     narrativeEl.style.color = TEXT_PRIMARY;
   }}
+
+    // ── Missing data: no raw file was ever ingested ──────────────────────
+    if (opening.data_status === "missing") {{
+        document.getElementById("opening-chart").style.display = "none";
+        document.getElementById("engine-box").style.display = "none";
+        narrativeBox.style.display = "none";
+        const chartEl = document.getElementById("opening-chart");
+        chartEl.style.display = "block";
+        chartEl.innerHTML = `
+            <div style="margin-top:2rem;padding:1.5rem 2rem;border:1px solid ${{GRID_COLOR}};border-radius:8px;">
+                <p style="margin:0 0 0.75rem;font-size:1rem;font-weight:600;color:${{TEXT_PRIMARY}};">No game data available for this opening.</p>
+                <p style="margin:0 0 1rem;font-size:0.875rem;color:${{TEXT_SECONDARY}};">This opening is classified as <strong style="color:${{TEXT_PRIMARY}};">Tier 3</strong> — it exists in the ECO catalog but doesn't meet the minimum volume threshold for analysis.</p>
+                <table style="border-collapse:collapse;font-size:0.825rem;color:${{TEXT_SECONDARY}};">
+                    <tr><td style="padding:0.3rem 1.2rem 0.3rem 0;white-space:nowrap;"><span class="tier-badge tier-badge-1">T1</span></td><td style="padding:0.3rem 0;">≥ 1 000 avg monthly games + ≥ 24 months of data — full ARIMA forecast &amp; engine evaluation</td></tr>
+                    <tr><td style="padding:0.3rem 1.2rem 0.3rem 0;"><span class="tier-badge tier-badge-2">T2</span></td><td style="padding:0.3rem 0;">400 – 999 avg monthly games — trend estimation (Holt-Winters), no engine delta</td></tr>
+                    <tr><td style="padding:0.3rem 1.2rem 0.3rem 0;"><span class="tier-badge tier-badge-3">T3</span></td><td style="padding:0.3rem 0;">&lt; 400 avg monthly games — descriptive stats only, insufficient volume for modelling</td></tr>
+                </table>
+                <p style="margin:1rem 0 0;font-size:0.8rem;color:${{TEXT_SECONDARY}};opacity:0.7;">Data will appear here automatically once this opening meets the volume threshold.</p>
+            </div>`;
+        return;
+    }}
+
+    // ── Sparse data: fewer than 12 months, stats table with warning ────────
+    if (opening.data_status === "sparse") {{
+        document.getElementById("opening-chart").style.display = "none";
+        document.getElementById("engine-box").style.display = "none";
+        const fmtPct = (v) => (v != null ? (v * 100).toFixed(2) + "%" : "—");
+        const fmt2   = (v) => (v != null ? (v * 100).toFixed(2) : "—");
+        const trend = opening.trend_direction || "flat";
+        const trendArrow = trend === "up" ? "↑" : trend === "down" ? "↓" : "→";
+        const trendColor = trend === "up" ? "#7BE495" : trend === "down" ? "#F28DA6" : TEXT_SECONDARY;
+        const chartEl = document.getElementById("opening-chart");
+        chartEl.style.display = "block";
+        chartEl.innerHTML = `
+            <div style="margin-top:1rem;padding:0.75rem 1rem;border-left:3px solid #F28DA6;background:rgba(242,141,166,0.08);border-radius:4px;margin-bottom:1.5rem;">
+                <p style="margin:0;font-size:0.85rem;color:#F28DA6;">Limited data (${{opening.months_available ?? 0}} months) — results may be unreliable.</p>
+            </div>
+            <div class="tier3-stats">
+                <h2 style="font-size:1rem;font-weight:600;margin-bottom:1rem;color:${{TEXT_SECONDARY}};">Descriptive Statistics <span style="font-size:0.75rem;font-weight:400;">(sparse — insufficient data for modelling)</span></h2>
+                <table style="border-collapse:collapse;width:100%;max-width:540px;"><tbody>
+                    <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">Last month</td><td style="padding:0.4rem 0;">${{opening.last_month || "—"}}</td></tr>
+                    <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">Last win rate</td><td style="padding:0.4rem 0;">${{fmtPct(opening.last_win_rate)}}</td></tr>
+                    <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">Mean win rate</td><td style="padding:0.4rem 0;">${{fmtPct(opening.mean_win_rate)}}</td></tr>
+                    <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">Std dev</td><td style="padding:0.4rem 0;">${{fmt2(opening.std_win_rate)}} pp</td></tr>
+                    <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">3-month MA</td><td style="padding:0.4rem 0;">${{fmtPct(opening.ma3)}}</td></tr>
+                    <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">Trend</td><td style="padding:0.4rem 0;color:${{trendColor}};">${{trendArrow}} ${{trend}}</td></tr>
+                    <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">Months of data</td><td style="padding:0.4rem 0;">${{opening.months_available ?? "—"}}</td></tr>
+                </tbody></table>
+            </div>`;
+        return;
+    }}
 
     // ── Tier 3: stats-only view ─────────────────────────────────────────────
     if (opening.model_tier === 3) {{
@@ -654,66 +802,281 @@ def render_overview(
     engine_df: pd.DataFrame,
     findings_json: dict | None,
 ) -> str:
-    """Render data/output/dashboard/index.html — 3-panel overview."""
-    headline = ""
-    if findings_json:
-        panels = findings_json.get("panels", {})
-        fc_insight = panels.get("forecast", {}).get("insight", "")
-        ed_insight = panels.get("engine_delta", {}).get("insight", "")
-        hm_insight = panels.get("heatmap", {}).get("insight", "")
-        main_headline = findings_json.get("headline", "")
+    """Render data/output/dashboard/index.html — split hero + alternating analysis sections."""
 
-        def _widget(label: str, text: str) -> str:
-            if not text:
-                return ""
-            return (
-                f'<div class="insight-widget">'
-                f'<span class="insight-label">{label}</span>'
-                f'<p class="insight-text">{text}</p>'
-                f"</div>"
-            )
+    # ── Dynamic stats ─────────────────────────────────────────────────────
+    n_openings = int(engine_df["eco"].nunique()) if not engine_df.empty else 0
+    actuals_only = forecasts[forecasts["is_forecast"] == False] if not forecasts.empty else pd.DataFrame()
+    n_months = int(actuals_only["month"].nunique()) if not actuals_only.empty else 0
+    last_updated = (findings_json or {}).get("month", "—")
 
-        headline = (
-            f'<h1 class="page-title">Overview</h1>'
-            f'<section class="headlines">'
-            + _widget("Summary", main_headline)
-            + _widget("Forecasts", fc_insight)
-            + _widget("Engine Delta", ed_insight)
-            + _widget("Heatmap", hm_insight)
-            + "</section>"
+    # ── Findings insight text ─────────────────────────────────────────────
+    panels = (findings_json or {}).get("panels", {})
+    fc_insight = panels.get("forecast",     {}).get("insight", "")
+    ed_insight = panels.get("engine_delta", {}).get("insight", "")
+    hm_insight = panels.get("heatmap",      {}).get("insight", "")
+
+    def _split_insight(text: str):
+        """Split 'First sentence. Rest.' → (title, body)."""
+        if not text:
+            return ("Win Rate Forecasts", "")
+        parts = text.split(". ", 1)
+        return parts[0].rstrip("."), (parts[1] if len(parts) > 1 else "")
+
+    fc_title, fc_body = _split_insight(fc_insight)
+    ed_title, ed_body = _split_insight(ed_insight)
+    hm_title, hm_body = _split_insight(hm_insight)
+
+    # ── Proof card data — computed from actual data ───────────────────────
+    top_pos_eco = top_pos_name = top_neg_eco = top_neg_name = steep_eco = steep_name = "—"
+    top_pos_delta_val = top_neg_delta_val = 0.0
+
+    if not engine_df.empty and "delta" in engine_df.columns:
+        _df = engine_df.dropna(subset=["delta"]).copy()
+        _pos = _df[_df["delta"] > 0].sort_values("delta", ascending=False)
+        _neg = _df[_df["delta"] < 0].sort_values("delta", ascending=True)
+        if not _pos.empty:
+            _r = _pos.iloc[0]
+            top_pos_eco = str(_r["eco"])
+            top_pos_name = str(_r.get("opening_name", ""))[:38]
+            top_pos_delta_val = float(_r["delta"])
+        if not _neg.empty:
+            _r = _neg.iloc[0]
+            top_neg_eco = str(_r["eco"])
+            top_neg_name = str(_r.get("opening_name", ""))[:38]
+            top_neg_delta_val = float(_r["delta"])
+
+    if not forecasts.empty and "is_forecast" in forecasts.columns:
+        _fc = forecasts[forecasts["is_forecast"] == True].copy()
+        if not _fc.empty and "forecast" in _fc.columns:
+            _last_fc = _fc.sort_values("month").groupby("eco")["forecast"].last()
+            _first_fc = _fc.sort_values("month").groupby("eco")["forecast"].first()
+            _delta_fc = _last_fc - _first_fc
+            if not _delta_fc.empty:
+                steep_eco = str(_delta_fc.idxmax())
+                _n = forecasts[forecasts["eco"] == steep_eco]["opening_name"]
+                steep_name = str(_n.iloc[0])[:38] if not _n.empty else ""
+
+    top_pos_delta_str = f"+{top_pos_delta_val * 100:.2f} pp vs engine"
+    top_neg_delta_str = f"{top_neg_delta_val * 100:.2f} pp vs engine"
+
+    # ── Charts ────────────────────────────────────────────────────────────
+    fig1 = _build_panel1_figure(forecasts, engine_df)
+    fig1.update_layout(height=400, margin=dict(l=40, r=20, t=50, b=50))
+    fig1_html = fig1.to_html(full_html=False, include_plotlyjs="cdn")
+
+    fig2 = _build_panel2_figure(engine_df)
+    fig2.update_layout(height=400, margin=dict(l=40, r=20, t=50, b=50))
+    fig2_html = fig2.to_html(full_html=False, include_plotlyjs=False)
+
+    fig3 = _build_panel3_figure(engine_df)
+    fig3.update_layout(height=400, margin=dict(l=40, r=20, t=50, b=50))
+    fig3_html = fig3.to_html(full_html=False, include_plotlyjs=False)
+
+    # ── Overview-specific CSS (embedded in this page only) ────────────────
+    _OV_CSS = """<style>
+/* Variable aliases for overview components */
+:root {
+  --color-text:       var(--text-primary);
+  --color-text-muted: var(--text-secondary);
+  --color-text-faint: var(--text-faint);
+  --color-surface:    var(--surface);
+  --color-border:     var(--border);
+  --color-primary:    #4DA3A6;
+}
+
+/* Satoshi for overview body */
+body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
+
+/* Page-content override: let hero and sections self-manage their width */
+.page-content { max-width: none !important; padding: 0 !important; }
+
+/* Hero */
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 6rem 2rem 5rem;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .hero { grid-template-columns: 1fr; gap: 3rem; padding: 3rem 1.5rem; }
+}
+
+.hero-eyebrow {
+  font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--color-primary); font-weight: 600; margin: 0 0 1rem;
+}
+.hero-headline {
+  font-family: 'Satoshi', 'Inter', sans-serif;
+  font-size: clamp(2rem, 3.5vw, 2.75rem);
+  font-weight: 700; line-height: 1.15; letter-spacing: -0.03em;
+  color: var(--color-text); margin: 0 0 1.25rem;
+}
+.hero-body {
+  font-size: 1rem; line-height: 1.7;
+  color: var(--color-text-muted); max-width: 42ch; margin: 0 0 2rem;
+}
+.hero-stats { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0 0 2rem; }
+.stat-pill {
+  font-size: 0.75rem; padding: 0.3rem 0.75rem;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 9999px; color: var(--color-text-muted);
+}
+.hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
+.btn-primary {
+  padding: 0.6rem 1.4rem; background: var(--color-primary);
+  color: #0B0D10; border-radius: 6px; font-size: 0.875rem;
+  font-weight: 600; text-decoration: none; display: inline-block;
+  transition: opacity 150ms;
+}
+.btn-primary:hover { opacity: 0.85; }
+.btn-secondary {
+  padding: 0.6rem 1.4rem; border: 1px solid rgba(255,255,255,0.15);
+  color: var(--color-text-muted); border-radius: 6px;
+  font-size: 0.875rem; text-decoration: none; display: inline-block;
+  transition: border-color 150ms, color 150ms;
+}
+.btn-secondary:hover { border-color: rgba(255,255,255,0.3); color: var(--color-text); }
+
+/* Hero right: proof cards */
+.hero-visual { display: flex; flex-direction: column; gap: 1rem; }
+.proof-card {
+  background: var(--color-surface);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px; padding: 1.25rem 1.5rem;
+  transition: transform 200ms;
+}
+.proof-card:hover { transform: translateY(-2px); }
+@media (prefers-reduced-motion: reduce) { .proof-card { transition: none; } }
+.proof-label {
+  font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em;
+  color: var(--color-text-faint); margin: 0 0 0.4rem;
+}
+.proof-value { font-size: 1.25rem; font-weight: 700; color: var(--color-text); }
+.proof-detail { font-size: 0.8rem; color: var(--color-text-muted); margin: 0.2rem 0 0; }
+.proof-delta { font-size: 0.875rem; font-weight: 600; margin: 0.5rem 0 0; }
+.proof-delta.positive { color: #4DA3A6; }
+.proof-delta.negative { color: #d163a7; }
+.proof-delta.neutral  { color: var(--color-text-muted); }
+
+/* Section divider */
+.section-divider {
+  max-width: 1200px; margin: 0 auto;
+  padding: 0 2rem;
+  border-top: 1px solid rgba(255,255,255,0.07);
+}
+
+/* Analysis sections */
+.analysis-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto 5rem;
+  padding: 4rem 2rem 0;
+  align-items: start;
+}
+.analysis-section.reverse { direction: rtl; }
+.analysis-section.reverse > * { direction: ltr; }
+@media (max-width: 768px) {
+  .analysis-section, .analysis-section.reverse {
+    grid-template-columns: 1fr; direction: ltr; padding: 2.5rem 1.5rem 0;
+  }
+}
+
+.section-copy { padding-top: 1rem; }
+.section-eyebrow {
+  font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em;
+  color: var(--color-primary); font-weight: 600; margin: 0 0 0.75rem;
+}
+.section-title {
+  font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em;
+  color: var(--color-text); margin: 0 0 0.75rem; line-height: 1.3;
+}
+.section-body {
+  font-size: 0.9375rem; line-height: 1.7;
+  color: var(--color-text-muted); max-width: 44ch; margin: 0;
+}
+.section-chart { min-width: 0; }
+
+/* Browse link */
+.browse-link {
+  text-align: right; color: var(--color-text-faint);
+  font-size: 0.8rem; max-width: 1200px; margin: 0 auto;
+  padding: 1.5rem 2rem 4rem;
+}
+.browse-link a { color: var(--color-primary); text-decoration: none; }
+.browse-link a:hover { text-decoration: underline; }
+</style>"""
+
+    # ── Hero HTML ─────────────────────────────────────────────────────────
+    hero_html = (
+        '<section class="hero">'
+        '<div class="hero-copy">'
+        '<p class="hero-eyebrow">Monthly chess opening intelligence</p>'
+        f'<h1 class="hero-headline">Track where opening theory and practical play diverge.</h1>'
+        '<p class="hero-body">OpenCast analyzes monthly Lichess opening data, forecasts '
+        'win-rate movement, and highlights where human results outperform or lag behind '
+        'engine expectation.</p>'
+        '<div class="hero-stats">'
+        f'<div class="stat-pill">{n_openings} openings tracked</div>'
+        f'<div class="stat-pill">{n_months} months of data</div>'
+        f'<div class="stat-pill">Last updated: {last_updated}</div>'
+        '</div>'
+        '<div class="hero-actions">'
+        '<a href="openings.html" class="btn-primary">Explore openings</a>'
+        '<a href="families.html" class="btn-secondary">ECO families</a>'
+        '</div>'
+        '</div>'
+        '<div class="hero-visual">'
+        '<div class="proof-card">'
+        '<p class="proof-label">Top outperformer</p>'
+        f'<p class="proof-value">{top_pos_eco}</p>'
+        f'<p class="proof-detail">{top_pos_name}</p>'
+        f'<p class="proof-delta positive">{top_pos_delta_str}</p>'
+        '</div>'
+        '<div class="proof-card">'
+        '<p class="proof-label">Largest engine gap</p>'
+        f'<p class="proof-value">{top_neg_eco}</p>'
+        f'<p class="proof-detail">{top_neg_name}</p>'
+        f'<p class="proof-delta negative">{top_neg_delta_str}</p>'
+        '</div>'
+        '<div class="proof-card">'
+        '<p class="proof-label">Steepest rising trend</p>'
+        f'<p class="proof-value">{steep_eco}</p>'
+        f'<p class="proof-detail">{steep_name}</p>'
+        '<p class="proof-delta neutral">\u2191 Forecast rising</p>'
+        '</div>'
+        '</div>'
+        '</section>'
+        '<div class="section-divider"></div>'
+    )
+
+    def _section(eyebrow: str, title: str, body_text: str, chart_html: str, reverse: bool = False) -> str:
+        cls = "analysis-section reverse" if reverse else "analysis-section"
+        return (
+            f'<section class="{cls}">'
+            '<div class="section-copy">'
+            f'<p class="section-eyebrow">{eyebrow}</p>'
+            f'<h2 class="section-title">{title or eyebrow}</h2>'
+            f'<p class="section-body">{body_text}</p>'
+            '</div>'
+            f'<div class="section-chart">{chart_html}</div>'
+            '</section>'
         )
-    else:
-        headline = '<h1 class="page-title">Overview</h1>'
-
-    fig1_html = _build_panel1_figure(forecasts).to_html(full_html=False, include_plotlyjs="cdn")
-    fig2_html = _build_panel2_figure(engine_df).to_html(full_html=False, include_plotlyjs=False)
-    fig3_html = _build_panel3_figure(forecasts).to_html(full_html=False, include_plotlyjs=False)
 
     body = (
-        headline
-        + '<section class="panel">'
-        + "<h2>Win Rate Forecasts</h2>"
-        + fig1_html
-        + "</section>"
-        + '<section class="panel">'
-        + "<h2>Engine Delta</h2>"
-        + fig2_html
-        + "</section>"
-        + '<section class="panel">'
-        + "<h2>ECO Heatmap</h2>"
-        + fig3_html
-        + "</section>"
-        + '<p style="text-align:right; color:'
-        + TEXT_SECONDARY
-        + '; font-size:0.8rem;">'
-        + '<a href="openings.html" style="color:'
-        + ACCENT
-        + ';">-> Browse all openings</a>'
-        + "</p>"
+        hero_html
+        + _section("Win Rate Forecasts", fc_title, fc_body or fc_insight, fig1_html)
+        + _section("Engine Delta", ed_title, ed_body or ed_insight, fig2_html, reverse=True)
+        + _section("ECO Family Win Rates", hm_title, hm_body or hm_insight, fig3_html)
+        + '<p class="browse-link"><a href="openings.html">\u2192 Browse all openings</a></p>'
     )
-    return _page_shell("Overview", _nav_html("index.html"), body)
 
-
+    return _page_shell("Overview", _nav_html("index.html"), body, head_extras=_OV_CSS)
 
 
 def render_openings_table(
@@ -916,8 +1279,9 @@ def render_openings_table(
     if (v == null) return TEXT_SECONDARY;
     return v > 0.005 ? "#7BE495" : v < -0.005 ? "#F28DA6" : TEXT_SECONDARY;
   }}
+  const TIER_TOOLTIP = "T1: ≥1000 avg monthly games + ≥24 months → full ARIMA + engine evaluation\nT2: 400–999 avg monthly games → Holt-Winters trend, no engine delta\nT3: <400 avg monthly games → descriptive stats only";
   function tierBadge(t) {{
-    return '<span class="tier-badge tier-badge-' + t + '">T' + t + '</span>';
+    return '<span class="tier-badge tier-badge-' + t + '" title="' + TIER_TOOLTIP + '">T' + t + '</span>';
   }}
 
   function renderRows(rows) {{
@@ -925,8 +1289,8 @@ def render_openings_table(
       const color = ECO_COLORS[r.group] || TEXT_PRIMARY;
       const href  = "opening.html?eco=" + encodeURIComponent(r.eco);
       return '<tr tabindex="0" role="link"' +
-        ' onclick="location.href=\'' + href + '\'"' +
-          ' onkeydown="if(event.key===\'Enter\'||event.key===\' \'){{event.preventDefault();location.href=\'' + href + '\'}}">' +
+        ' onclick="location.href=\\'' + href + '\\'"' +
+          ' onkeydown="if(event.key===\\'Enter\\'||event.key===\\' \\'){{event.preventDefault();location.href=\\'' + href + '\\'}}">' +
         '<td style="font-weight:600;color:' + color + '">' + r.eco + '</td>' +
         '<td>' + r.name + '</td>' +
         '<td style="text-align:center;">' + tierBadge(r.tier) + '</td>' +
@@ -1026,7 +1390,10 @@ def run_visualizer() -> None:
     catalog = pd.read_csv(CATALOG_CSV) if os.path.exists(CATALOG_CSV) else pd.DataFrame()
     findings = _load_findings_json()
     narratives = _load_narratives_json()
-    long_tail_df = pd.read_csv(LONG_TAIL_CSV) if os.path.exists(LONG_TAIL_CSV) else pd.DataFrame()
+    try:
+        long_tail_df = pd.read_csv(LONG_TAIL_CSV) if os.path.exists(LONG_TAIL_CSV) else pd.DataFrame()
+    except Exception:
+        long_tail_df = pd.DataFrame()
 
     for asset_name in ("shared.css", "nav.js"):
         src = Path(__file__).parent / "assets" / asset_name

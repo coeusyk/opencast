@@ -24,7 +24,7 @@
 
 <h1 id="opening-title">Opening Detail</h1>
 <p style="margin:0 0 1rem 0;">
-  <a href="openings.html" style="color:#9FB0C3; text-decoration:none; font-size:0.85rem;">← All openings</a>
+  <a href="openings.html" style="color:#8b8b8f; text-decoration:none; font-size:0.85rem;">← All openings</a>
 </p>
 <div id="opening-narrative" class="narrative"><p></p></div>
 <div id="opening-chart"></div>
@@ -53,7 +53,7 @@ async function loadOpeningsData() {
   if (openingsDataCache) {
     return openingsDataCache;
   }
-  const response = await fetch("assets/openings_data.json");
+  const response = await fetch("assets/openings_data.json", { cache: "no-store" });
   if (!response.ok) {
     throw new Error(`Failed to load openings_data.json (${response.status})`);
   }
@@ -78,14 +78,108 @@ function renderOpening(eco, opening) {
   document.getElementById("opening-title").textContent = `${name} (${eco})`;
   document.title = `${eco} — ${name} | OpenCast`;
 
-  const narrativeEl = document.querySelector("#opening-narrative p");
+  const narrativeBox = document.getElementById("opening-narrative");
   const narrative = opening.narrative || FALLBACK_NARRATIVE;
-  narrativeEl.textContent = narrative;
-  narrativeEl.style.color = narrative === FALLBACK_NARRATIVE ? TEXT_SECONDARY : TEXT_PRIMARY;
+  if (!narrative || narrative === FALLBACK_NARRATIVE || !narrative.trim()) {
+    narrativeBox.style.display = "none";
+  } else {
+    narrativeBox.style.display = "";
+    const narrativeEl = document.querySelector("#opening-narrative p");
+    narrativeEl.textContent = narrative;
+    narrativeEl.style.color = TEXT_PRIMARY;
+  }
 
-  const color = ECO_COLORS[(opening.eco_group || eco.charAt(0) || "").toUpperCase()] || "#57C7FF";
-  const actuals = opening.actuals || [];
-  const forecasts = opening.forecast || [];
+    // ── Missing data: no raw file was ever ingested ──────────────────────
+    if (opening.data_status === "missing") {
+        document.getElementById("opening-chart").style.display = "none";
+        document.getElementById("engine-box").style.display = "none";
+        narrativeBox.style.display = "none";
+        const chartEl = document.getElementById("opening-chart");
+        chartEl.style.display = "block";
+        chartEl.innerHTML = `
+            <div style="margin-top:2rem;padding:1.5rem;border:1px solid ${GRID_COLOR};border-radius:8px;color:${TEXT_SECONDARY};">
+                <p style="margin:0;font-size:0.95rem;">No game data available for this opening.</p>
+                <p style="margin:0.5rem 0 0;font-size:0.8rem;opacity:0.7;">This ECO code exists in the catalog but has not been fetched yet. It will appear here once data is collected.</p>
+            </div>`;
+        return;
+    }
+
+    // ── Sparse data: fewer than 12 months, stats table with warning ────────
+    if (opening.data_status === "sparse") {
+        document.getElementById("opening-chart").style.display = "none";
+        document.getElementById("engine-box").style.display = "none";
+        const fmtPct = (v) => (v != null ? (v * 100).toFixed(2) + "%" : "—");
+        const fmt2   = (v) => (v != null ? (v * 100).toFixed(2) : "—");
+        const trend = opening.trend_direction || "flat";
+        const trendArrow = trend === "up" ? "↑" : trend === "down" ? "↓" : "→";
+        const trendColor = trend === "up" ? "#7BE495" : trend === "down" ? "#F28DA6" : TEXT_SECONDARY;
+        const chartEl = document.getElementById("opening-chart");
+        chartEl.style.display = "block";
+        chartEl.innerHTML = `
+            <div style="margin-top:1rem;padding:0.75rem 1rem;border-left:3px solid #F28DA6;background:rgba(242,141,166,0.08);border-radius:4px;margin-bottom:1.5rem;">
+                <p style="margin:0;font-size:0.85rem;color:#F28DA6;">Limited data (${opening.months_available ?? 0} months) — results may be unreliable.</p>
+            </div>
+            <div class="tier3-stats">
+                <h2 style="font-size:1rem;font-weight:600;margin-bottom:1rem;color:${TEXT_SECONDARY};">Descriptive Statistics <span style="font-size:0.75rem;font-weight:400;">(sparse — insufficient data for modelling)</span></h2>
+                <table style="border-collapse:collapse;width:100%;max-width:540px;"><tbody>
+                    <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${TEXT_SECONDARY};">Last month</td><td style="padding:0.4rem 0;">${opening.last_month || "—"}</td></tr>
+                    <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${TEXT_SECONDARY};">Last win rate</td><td style="padding:0.4rem 0;">${fmtPct(opening.last_win_rate)}</td></tr>
+                    <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${TEXT_SECONDARY};">Mean win rate</td><td style="padding:0.4rem 0;">${fmtPct(opening.mean_win_rate)}</td></tr>
+                    <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${TEXT_SECONDARY};">Std dev</td><td style="padding:0.4rem 0;">${fmt2(opening.std_win_rate)} pp</td></tr>
+                    <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${TEXT_SECONDARY};">3-month MA</td><td style="padding:0.4rem 0;">${fmtPct(opening.ma3)}</td></tr>
+                    <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${TEXT_SECONDARY};">Trend</td><td style="padding:0.4rem 0;color:${trendColor};">${trendArrow} ${trend}</td></tr>
+                    <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${TEXT_SECONDARY};">Months of data</td><td style="padding:0.4rem 0;">${opening.months_available ?? "—"}</td></tr>
+                </tbody></table>
+            </div>`;
+        return;
+    }
+
+    // ── Tier 3: stats-only view ─────────────────────────────────────────────
+    if (opening.model_tier === 3) {
+        document.getElementById("opening-chart").style.display = "none";
+        document.getElementById("engine-box").style.display = "none";
+
+        const trend = opening.trend_direction || "flat";
+        const trendArrow = trend === "up" ? "↑" : trend === "down" ? "↓" : "→";
+        const trendColor = trend === "up" ? "#7BE495" : trend === "down" ? "#F28DA6" : TEXT_SECONDARY;
+
+        const fmtPct = (v) => (v != null ? (v * 100).toFixed(2) + "%" : "—");
+        const fmt2   = (v) => (v != null ? (v * 100).toFixed(2) : "—");
+
+        const statsHtml = `
+            <div class="tier3-stats" style="margin-top:1.5rem;">
+                <h2 style="font-size:1rem;font-weight:600;margin-bottom:1rem;color:${TEXT_SECONDARY};">
+                    Descriptive Statistics <span style="font-size:0.75rem;font-weight:400;">(Tier 3 — insufficient data for modelling)</span>
+                </h2>
+                <table style="border-collapse:collapse;width:100%;max-width:540px;">
+                    <tbody>
+                        <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${TEXT_SECONDARY};">Last month</td>
+                                <td style="padding:0.4rem 0;">${opening.last_month || "—"}</td></tr>
+                        <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${TEXT_SECONDARY};">Last win rate</td>
+                                <td style="padding:0.4rem 0;">${fmtPct(opening.last_win_rate)}</td></tr>
+                        <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${TEXT_SECONDARY};">Mean win rate</td>
+                                <td style="padding:0.4rem 0;">${fmtPct(opening.mean_win_rate)}</td></tr>
+                        <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${TEXT_SECONDARY};">Std dev</td>
+                                <td style="padding:0.4rem 0;">${fmt2(opening.std_win_rate)} pp</td></tr>
+                        <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${TEXT_SECONDARY};">3-month MA</td>
+                                <td style="padding:0.4rem 0;">${fmtPct(opening.ma3)}</td></tr>
+                        <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${TEXT_SECONDARY};">Trend</td>
+                                <td style="padding:0.4rem 0;color:${trendColor};">${trendArrow} ${trend}</td></tr>
+                        <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${TEXT_SECONDARY};">Months of data</td>
+                                <td style="padding:0.4rem 0;">${opening.months_available ?? "—"}</td></tr>
+                    </tbody>
+                </table>
+            </div>`;
+
+        const chartEl = document.getElementById("opening-chart");
+        chartEl.style.display = "block";
+        chartEl.innerHTML = statsHtml;
+        return;
+    }
+
+    const color = ECO_COLORS[(opening.eco_group || eco.charAt(0) || "").toUpperCase()] || "#57C7FF";
+    const actuals = opening.actuals || [];
+    const forecasts = opening.forecast || [];
 
   const traces = [
     {
