@@ -40,8 +40,8 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 log = logging.getLogger(__name__)
 
 ECO_TIMING_WARN_S = 60.0  # warn if a single ECO takes longer than this
-MAX_TIER1_OPENINGS = 50   # soft cap — logs a warning when exceeded
-HARD_CAP_TIER1 = 100      # hard cap — truncates tier1_ecos when exceeded
+MAX_TIER1_OPENINGS = 300  # soft cap — logs a warning when exceeded
+HARD_CAP_TIER1 = 300      # hard cap — covers all data-bearing ECOs
 
 
 def _chow_test(y: np.ndarray, bp: int) -> tuple:
@@ -133,10 +133,18 @@ def run_timeseries(df: pd.DataFrame | None = None) -> pd.DataFrame:
 
     n_tier1 = len(tier1_ecos)
     if n_tier1 > HARD_CAP_TIER1:
-        log.warning(
-            "Tier-1 ECO count %d exceeds hard cap %d — capping", n_tier1, HARD_CAP_TIER1
+        # Sort by total game volume descending so the most popular ECOs are kept.
+        eco_volumes = (
+            df[df["eco"].isin(tier1_ecos)]
+            .groupby("eco")["total"]
+            .sum()
+            .sort_values(ascending=False)
         )
-        tier1_ecos = set(list(tier1_ecos)[:HARD_CAP_TIER1])
+        tier1_ecos = set(eco_volumes.index[:HARD_CAP_TIER1])
+        log.warning(
+            "Tier-1 ECO count %d exceeds hard cap %d — keeping top %d by game volume",
+            n_tier1, HARD_CAP_TIER1, HARD_CAP_TIER1,
+        )
     elif n_tier1 > MAX_TIER1_OPENINGS:
         log.warning(
             "Tier-1 ECO count %d exceeds MAX_TIER1_OPENINGS=%d", n_tier1, MAX_TIER1_OPENINGS

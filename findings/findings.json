@@ -1,29 +1,27 @@
 {
-  "generated_at": "2026-05-03",
+  "generated_at": "2026-05-05",
   "month": "2026-05",
-  "headline": "Across the 20 tracked openings, Queen's Gambit (D06) shows the largest positive delta (+0.0303), meaning humans outperform Stockfish's win-probability prediction, while Grunfeld Defense (D70) records the largest negative delta (-0.0644), indicating it is the most frequently misplayed opening.",
+  "headline": "Benoni Defense: Taimanov Variation (A67) shows the largest positive delta (+0.0901), while Benoni Defense: Old Benoni (A44) has the largest negative delta (-0.1105).",
   "panels": {
     "forecast": {
-      "insight": "The win-rate forecast indicates dynamic shifts, with openings like the Pirc Defense (B07) and Grunfeld Defense (D70) projected to experience falling win rates, suggesting increasing difficulty for human players. Conversely, the Ruy Lopez (C60) and King's Gambit (C20) show rising trends, potentially offering more favorable outcomes in the near future.",
+      "insight": "The ARIMA forecast suggests that win-rate trends are generally stable across the 20 tracked openings. However, B83 shows the steepest rising trend, indicating a potential shift in the balance of power.",
       "highlight_ecos": [
-        "B07",
-        "D70",
-        "C60",
-        "C20"
+        "A67",
+        "A21",
+        "E69"
       ]
     },
     "engine_delta": {
-      "insight": "There's a clear divergence between human and engine performance, with humans significantly outperforming Stockfish's predictions in openings like the Queen's Gambit (D06). In contrast, several complex or theory-heavy openings, such as the Grunfeld Defense (D70) and Scandinavian Defense (B01), see humans notably underperforming, suggesting these are frequently misplayed or demand deeper theoretical knowledge.",
+      "insight": "The engine-human delta analysis reveals that humans outperform Stockfish in openings where human skill is rewarded, such as Benoni Defense: Taimanov Variation (A67). Conversely, humans underperform in openings that are frequently misplayed or theory-dependent, like Benoni Defense: Old Benoni (A44).",
       "outliers": [
-        "D06",
-        "D70",
-        "B01",
-        "B07",
-        "E60"
+        "A44",
+        "B39",
+        "B29",
+        "A89"
       ]
     },
     "heatmap": {
-      "insight": "While a direct heatmap is not provided, the opening analysis suggests distinct regional patterns. Openings known for positional play or early simplicity (e.g., Queen's Gambit D-codes) show positive human deltas, implying they might form 'green' zones on a heatmap. Conversely, aggressive or theory-rich defenses (e.g., certain B- and E-codes like Grunfeld, Scandinavian, King's Indian) consistently show negative human deltas, hinting at 'red' zones where human play struggles against engine expectations over time."
+      "insight": "The ECO category heatmap indicates that openings in the Benoni Defense family tend to have the largest positive or negative deltas, suggesting a strong correlation between opening choice and win-rate performance."
     }
   }
 }

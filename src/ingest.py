@@ -88,7 +88,7 @@ def ingest() -> pd.DataFrame:
     os.makedirs(PROCESSED_DIR, exist_ok=True)
 
     rows = []
-    for fpath in sorted(Path(RAW_DIR).glob("*.json")):
+    for fpath in sorted(Path(RAW_DIR).rglob("*.json")):
         try:
             with open(fpath, encoding="utf-8") as f:
                 file_data = json.load(f)

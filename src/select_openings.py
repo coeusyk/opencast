@@ -35,7 +35,7 @@ def _compute_eco_stats(ts: pd.DataFrame) -> pd.DataFrame:
         y = grp["white_win_rate"].values.astype(float)
         if len(y) >= 2:
             x = np.arange(len(y), dtype=float)
-            win_rate_slope = float(np.polyfit(x, y, 1)[0])
+            win_rate_slope = float(np.polyfit(x, np.asarray(y), 1)[0])
         else:
             win_rate_slope = 0.0
 
@@ -74,6 +74,26 @@ def _apply_selection_rules(stats: pd.DataFrame) -> pd.DataFrame:
     return stats
 
 
+def _compute_data_status(stats_indexed: pd.DataFrame, catalog: pd.DataFrame) -> pd.Series:
+    """Return a Series of 'missing' | 'sparse' | 'ok' keyed by ECO code.
+
+    missing — ECO is in the catalog but has no rows in openings_ts.csv
+               (i.e. no raw data file was ever ingested).
+    sparse  — ECO has some data but fewer than 12 months, which is too thin
+               for any meaningful modelling or descriptive stats.
+    ok      — ECO has enough data for Tier-1/2/3 processing.
+    """
+    result = {}
+    for eco in catalog["eco"]:
+        if eco not in stats_indexed.index:
+            result[eco] = "missing"
+        elif int(stats_indexed.at[eco, "months_with_data"]) < 12:
+            result[eco] = "sparse"
+        else:
+            result[eco] = "ok"
+    return pd.Series(result)
+
+
 def run_select_openings() -> pd.DataFrame:
     """Compute selection flags and merge into openings_catalog.csv.
 
@@ -106,6 +126,10 @@ def run_select_openings() -> pd.DataFrame:
             else catalog.loc[catalog["eco"] == eco, c].values[0]
         )
 
+    # Compute and store data_status for every catalog ECO
+    data_status_series = _compute_data_status(stats_indexed, catalog)
+    catalog["data_status"] = catalog["eco"].map(data_status_series).fillna("missing")
+
     # Append new ECOs found in ts but not yet in catalog
     known_ecos = set(catalog["eco"])
     new_rows = []
@@ -115,6 +139,8 @@ def run_select_openings() -> pd.DataFrame:
             continue
         # For newly discovered ECOs we don't have a name or moves — leave blank
         # for a human to fill in; flags are computed from data.
+        months = int(stat_row.get("months_with_data", 0))
+        new_data_status = "ok" if months >= 12 else ("sparse" if months > 0 else "missing")
         new_rows.append({
             "eco":             eco,
             "name":            "",
@@ -123,6 +149,7 @@ def run_select_openings() -> pd.DataFrame:
             "is_tracked_core": bool(stat_row["is_tracked_core"]),
             "is_long_tail":    bool(stat_row["is_long_tail"]),
             "model_tier":      int(stat_row["model_tier"]),
+            "data_status":     new_data_status,
         })
 
     if new_rows:
