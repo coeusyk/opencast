@@ -1229,9 +1229,17 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
 /* Page-content override: let hero and sections self-manage their width */
 .page-content { max-width: none !important; padding: 0 !important; }
 
-/* Hero */
-.hero-bleed {
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.03fr) minmax(0, 0.97fr);
+  gap: 4rem;
+  align-items: start;
+  min-height: calc(100dvh - 52px);
   width: 100%;
+  padding-top: clamp(2rem, 5vw, 4rem);
+  padding-bottom: clamp(2rem, 5vw, 4rem);
+  padding-left:  max(1.5rem, calc((100vw - 1200px) / 2 + 1.5rem));
+  padding-right: max(1.5rem, calc((100vw - 1200px) / 2 + 1.5rem));
   background-image: repeating-conic-gradient(
     rgba(255,255,255,0.015) 0% 25%,
     transparent 0% 50%
@@ -1239,18 +1247,6 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
   background-size: 48px 48px;
   background-position: 0 0;
   border-bottom: 1px solid rgba(255,255,255,0.07);
-}
-
-.hero {
-  display: grid;
-  grid-template-columns: minmax(0, 1.03fr) minmax(0, 0.97fr);
-  gap: 4rem;
-  align-items: start;
-  min-height: calc(100dvh - 52px);
-  max-width: 1200px;
-  margin: 0 auto;
-  width: 100%;
-  padding: clamp(2rem, 5vw, 4rem) 2rem;
 }
 @media (max-width: 768px) {
   .hero { grid-template-columns: 1fr; gap: 3rem; min-height: auto; }
@@ -1433,8 +1429,7 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
 
     # ── Hero HTML ─────────────────────────────────────────────────────────
     hero_html = (
-      '<section class="hero-bleed">'
-      '<div class="hero">'
+      '<section class="hero">'
         '<div class="hero-copy">'
         '<p class="hero-eyebrow">Monthly chess opening intelligence</p>'
         '<h1 class="hero-headline">Track where opening '
@@ -1461,7 +1456,6 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
         + _proof_card("Top outperformer", top_pos_eco, top_pos_name, "positive", top_pos_delta_str, top_pos_extra)
         + _proof_card("Largest engine gap", top_neg_eco, top_neg_name, "negative", top_neg_delta_str, top_neg_extra)
         + _proof_card("Steepest rising trend", steep_eco, steep_name, "neutral", "\u2191 Forecast rising", steep_extra)
-        + '</div>'
         + '</div>'
         '</section>'
     )
@@ -1538,6 +1532,17 @@ def render_openings_table(
     <option value="3">Tier 3</option>
   </select>
 
+  <select id="quality-select"
+    style="padding:0.35rem 0.6rem;background:var(--surface-raised);
+           border:1px solid rgba(255,255,255,0.12);border-radius:6px;
+           color:var(--text-primary);font-size:0.85rem;cursor:pointer;
+           font-family:'Satoshi','Inter',sans-serif;">
+    <option value="">All confidence</option>
+    <option value="high">High</option>
+    <option value="medium">Medium</option>
+    <option value="low">Low</option>
+  </select>
+
   <span id="row-count" style="color:{TEXT_SECONDARY};font-size:0.85rem;margin-left:auto;white-space:nowrap;"></span>
 </div>
 
@@ -1558,6 +1563,7 @@ def render_openings_table(
       <th class="sortable" data-col="tier"     style="cursor:pointer;white-space:nowrap;">Tier <span class="sort-icon"></span></th>
       <th class="sortable" data-col="win_rate" style="cursor:pointer;white-space:nowrap;">Win Rate (last) <span class="sort-icon"></span></th>
       <th class="sortable" data-col="has_fc"   style="cursor:pointer;white-space:nowrap;">Forecast <span class="sort-icon"></span></th>
+      <th class="sortable" data-col="quality"  style="cursor:pointer;white-space:nowrap;">Confidence <span class="sort-icon"></span></th>
       <th class="sortable" data-col="delta"    style="cursor:pointer;white-space:nowrap;">Engine Delta <span class="sort-icon"></span></th>
       <th>Detail</th>
     </tr>
@@ -1577,6 +1583,10 @@ def render_openings_table(
 .tier-badge-1 {{ background:rgba(74,158,255,0.18);color:#4a9eff; }}
 .tier-badge-2 {{ background:rgba(169,117,255,0.18);color:#a975ff; }}
 .tier-badge-3 {{ background:rgba(139,139,143,0.2);color:{TEXT_SECONDARY}; }}
+.quality-badge {{ display:inline-block;padding:0.15em 0.55em;border-radius:4px;font-size:0.72rem;font-weight:600;letter-spacing:0.03em;text-transform:capitalize; }}
+.quality-badge-high {{ background:rgba(123,228,149,0.18);color:#7BE495; }}
+.quality-badge-medium {{ background:rgba(246,193,119,0.18);color:#F6C177; }}
+.quality-badge-low {{ background:rgba(242,141,166,0.18);color:#F28DA6; }}
 </style>
 
 <script>
@@ -1608,6 +1618,7 @@ def render_openings_table(
       tier: d.model_tier != null ? d.model_tier : 99,
       win_rate: lastActual,
       has_fc: (d.forecast || []).length > 0,
+      quality: String(d.forecast_quality || "").toLowerCase(),
       delta: d.delta != null ? d.delta : null,
     }};
   }});
@@ -1617,6 +1628,7 @@ def render_openings_table(
     q: "",
     group: "",
     tier: "",
+    quality: "",
     sortCol: "eco",
     asc: true,
   }};
@@ -1626,19 +1638,21 @@ def render_openings_table(
     if (!h) return;
     try {{
       const p = new URLSearchParams(h);
-      if (p.has("q"))     state.q = p.get("q");
-      if (p.has("group")) state.group = p.get("group");
-      if (p.has("tier"))  state.tier = p.get("tier");
-      if (p.has("sort"))  state.sortCol = p.get("sort");
-      if (p.has("asc"))   state.asc = p.get("asc") !== "0";
+      if (p.has("q"))       state.q = p.get("q");
+      if (p.has("group"))   state.group = p.get("group");
+      if (p.has("tier"))    state.tier = p.get("tier");
+      if (p.has("quality")) state.quality = p.get("quality");
+      if (p.has("sort"))    state.sortCol = p.get("sort");
+      if (p.has("asc"))     state.asc = p.get("asc") !== "0";
     }} catch (_) {{}}
   }}
 
   function writeHash() {{
     const p = new URLSearchParams();
-    if (state.q)   p.set("q", state.q);
+    if (state.q) p.set("q", state.q);
     if (state.group) p.set("group", state.group);
     if (state.tier) p.set("tier", state.tier);
+    if (state.quality) p.set("quality", state.quality);
     p.set("sort", state.sortCol);
     p.set("asc", state.asc ? "1" : "0");
     history.replaceState(null, "", "#" + p.toString());
@@ -1646,24 +1660,28 @@ def render_openings_table(
 
   readHash();
 
-  const searchBox  = document.getElementById("search-box");
+  const searchBox = document.getElementById("search-box");
   const groupSelect = document.getElementById("group-select");
   const tierSelect = document.getElementById("tier-select");
-  const tbody      = document.getElementById("openings-tbody");
-  const rowCount   = document.getElementById("row-count");
+  const qualitySelect = document.getElementById("quality-select");
+  const tbody = document.getElementById("openings-tbody");
+  const rowCount = document.getElementById("row-count");
   const emptyState = document.getElementById("empty-state");
   const sortHeaders = document.querySelectorAll(".sortable");
 
-  searchBox.value  = state.q;
+  searchBox.value = state.q;
   groupSelect.value = state.group;
   tierSelect.value = state.tier;
+  qualitySelect.value = state.quality;
 
   function applyFilters() {{
-    const q    = state.q.toLowerCase();
+    const q = state.q.toLowerCase();
     const tier = state.tier;
+    const quality = state.quality;
     let visible = allRows.filter(r => {{
       if (state.group && r.group !== state.group) return false;
       if (tier && String(r.tier) !== tier) return false;
+      if (quality && String(r.quality || "") !== quality) return false;
       if (q && !r.eco.toLowerCase().includes(q) && !r.name.toLowerCase().includes(q)) return false;
       return true;
     }});
@@ -1698,6 +1716,11 @@ def render_openings_table(
   function tierBadge(t) {{
     return '<span class="tier-badge tier-badge-' + t + '" title="' + TIER_TOOLTIP + '">T' + t + '</span>';
   }}
+  function qualityBadge(q) {{
+    if (!q) return '<span style="color:' + TEXT_SECONDARY + '">—</span>';
+    const cls = 'quality-badge quality-badge-' + q;
+    return '<span class="' + cls + '">' + q + '</span>';
+  }}
 
   function renderRows(rows) {{
     const html = rows.map(r => {{
@@ -1712,6 +1735,7 @@ def render_openings_table(
         '<td style="text-align:center;">' + tierBadge(r.tier) + '</td>' +
         '<td style="text-align:right;">' + fmtPct(r.win_rate) + '</td>' +
         '<td style="text-align:center;">' + (r.has_fc ? "Yes" : '<span style="color:' + TEXT_SECONDARY + '">No</span>') + '</td>' +
+        '<td style="text-align:center;">' + qualityBadge(r.quality) + '</td>' +
         '<td style="text-align:right;color:' + deltaColor(r.delta) + '">' + fmtDelta(r.delta) + '</td>' +
         '<td style="text-align:center;"><a href="' + href + '" style="color:{ACCENT};text-decoration:none;" onclick="event.stopPropagation()">Details</a></td>' +
         '</tr>';
@@ -1739,6 +1763,7 @@ def render_openings_table(
   }});
   groupSelect.addEventListener("change", () => {{ state.group = groupSelect.value; applyFilters(); }});
   tierSelect.addEventListener("change", () => {{ state.tier = tierSelect.value; applyFilters(); }});
+  qualitySelect.addEventListener("change", () => {{ state.quality = qualitySelect.value; applyFilters(); }});
   sortHeaders.forEach(th => {{
     th.addEventListener("click", () => {{
       const col = th.getAttribute("data-col");
