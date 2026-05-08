@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C92",
   "months": {
@@ -6195,156 +6193,158 @@
       "white": 856
     },
     "2026-04": {
-      "black": 368,
+      "white": 476,
       "draws": 39,
+      "black": 373,
       "moves": [
         {
+          "uci": "c6a5",
+          "san": "Na5",
           "averageRating": 2103,
-          "black": 192,
+          "white": 213,
           "draws": 21,
+          "black": 196,
           "game": null,
           "opening": {
             "eco": "C97",
             "name": "Ruy Lopez: Closed, Chigorin Defense"
-          },
-          "san": "Na5",
-          "uci": "c6a5",
-          "white": 210
+          }
         },
         {
+          "uci": "c6b8",
+          "san": "Nb8",
           "averageRating": 2117,
-          "black": 68,
+          "white": 96,
           "draws": 10,
+          "black": 69,
           "game": null,
           "opening": {
             "eco": "C94",
             "name": "Ruy Lopez: Closed, Breyer Defense"
-          },
-          "san": "Nb8",
-          "uci": "c6b8",
-          "white": 96
+          }
         },
         {
-          "averageRating": 2103,
-          "black": 49,
+          "uci": "c8b7",
+          "san": "Bb7",
+          "averageRating": 2104,
+          "white": 46,
           "draws": 3,
+          "black": 49,
           "game": null,
           "opening": {
             "eco": "C92",
             "name": "Ruy Lopez: Closed, Flohr System"
-          },
-          "san": "Bb7",
-          "uci": "c8b7",
-          "white": 44
+          }
         },
         {
+          "uci": "h7h6",
+          "san": "h6",
           "averageRating": 2100,
-          "black": 16,
+          "white": 46,
           "draws": 1,
+          "black": 16,
           "game": null,
           "opening": {
             "eco": "C93",
             "name": "Ruy Lopez: Closed, Smyslov Defense"
-          },
-          "san": "h6",
-          "uci": "h7h6",
-          "white": 46
+          }
         },
         {
-          "averageRating": 2092,
-          "black": 20,
+          "uci": "c8e6",
+          "san": "Be6",
+          "averageRating": 2091,
+          "white": 41,
           "draws": 2,
+          "black": 20,
           "game": null,
           "opening": {
             "eco": "C92",
             "name": "Ruy Lopez: Closed, Kholmov Variation"
-          },
-          "san": "Be6",
-          "uci": "c8e6",
-          "white": 40
+          }
         },
         {
+          "uci": "f8e8",
+          "san": "Re8",
           "averageRating": 2112,
-          "black": 11,
+          "white": 22,
           "draws": 1,
+          "black": 11,
           "game": null,
           "opening": {
             "eco": "C92",
             "name": "Ruy Lopez: Closed, Zaitsev System"
-          },
-          "san": "Re8",
-          "uci": "f8e8",
-          "white": 22
+          }
         },
         {
+          "uci": "f6d7",
+          "san": "Nd7",
           "averageRating": 2121,
-          "black": 6,
+          "white": 2,
           "draws": 1,
+          "black": 6,
           "game": null,
           "opening": {
             "eco": "C92",
             "name": "Ruy Lopez: Closed, Karpov Variation"
-          },
-          "san": "Nd7",
-          "uci": "f6d7",
-          "white": 2
+          }
         },
         {
-          "averageRating": 2131,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Kh8",
-          "uci": "g8h8",
-          "white": 2
-        },
-        {
-          "averageRating": 2128,
-          "black": 2,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "a5",
           "uci": "a6a5",
-          "white": 1
+          "san": "a5",
+          "averageRating": 2133,
+          "white": 2,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2045,
-          "black": 1,
+          "uci": "g8h8",
+          "san": "Kh8",
+          "averageRating": 2131,
+          "white": 2,
           "draws": 0,
+          "black": 1,
           "game": null,
-          "opening": null,
-          "san": "Rb8",
+          "opening": null
+        },
+        {
           "uci": "a8b8",
-          "white": 1
+          "san": "Rb8",
+          "averageRating": 2045,
+          "white": 1,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2181,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "d5",
           "uci": "d6d5",
-          "white": 1
+          "san": "d5",
+          "averageRating": 2181,
+          "white": 1,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2100,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "g6",
           "uci": "g7g6",
-          "white": 1
+          "san": "g6",
+          "averageRating": 2100,
+          "white": 1,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C92",
         "name": "Ruy Lopez: Closed"
-      },
-      "white": 469
+      }
     }
   }
 }

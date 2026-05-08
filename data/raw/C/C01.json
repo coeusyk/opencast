@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C01",
   "months": {
@@ -5326,180 +5324,137 @@
       "white": 16878
     },
     "2026-04": {
-      "black": 8697,
-      "draws": 1333,
+      "white": 8999,
+      "draws": 1355,
+      "black": 8828,
       "moves": [
         {
-          "averageRating": 2083,
-          "black": 8555,
-          "draws": 1316,
-          "game": null,
-          "opening": null,
-          "san": "exd5",
           "uci": "e6d5",
-          "white": 8674
+          "san": "exd5",
+          "averageRating": 2084,
+          "white": 8808,
+          "draws": 1337,
+          "black": 8679,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2070,
-          "black": 86,
-          "draws": 12,
-          "game": null,
-          "opening": null,
-          "san": "Qxd5",
           "uci": "d8d5",
-          "white": 117
-        },
-        {
-          "averageRating": 2061,
-          "black": 30,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "Nf6",
-          "uci": "g8f6",
-          "white": 43
-        },
-        {
-          "averageRating": 2063,
-          "black": 13,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "c5",
-          "uci": "c7c5",
-          "white": 5
-        },
-        {
-          "averageRating": 2099,
-          "black": 3,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "e5",
-          "uci": "e6e5",
-          "white": 14
-        },
-        {
-          "averageRating": 1992,
-          "black": 3,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bd6",
-          "uci": "f8d6",
-          "white": 3
-        },
-        {
-          "averageRating": 2022,
-          "black": 3,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "a6",
-          "uci": "a7a6",
-          "white": 2
-        },
-        {
-          "averageRating": 2095,
-          "black": 2,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "c6",
-          "uci": "c7c6",
-          "white": 2
-        },
-        {
-          "averageRating": 2063,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Ne7",
-          "uci": "g8e7",
-          "white": 1
-        },
-        {
-          "averageRating": 2008,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "Negan75",
-              "rating": 2008
-            },
-            "id": "jHxLrZlJ",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "PrinzWahnsinn",
-              "rating": 2006
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Qd6",
-          "uci": "d8d6",
-          "white": 0
-        },
-        {
-          "averageRating": 2001,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "lazken",
-              "rating": 2001
-            },
-            "id": "eESGVk9R",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Klaus50",
-              "rating": 2106
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Qf6",
-          "uci": "d8f6",
-          "white": 1
-        },
-        {
+          "san": "Qxd5",
           "averageRating": 2069,
-          "black": 0,
+          "white": 118,
+          "draws": 13,
+          "black": 91,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "g8f6",
+          "san": "Nf6",
+          "averageRating": 2061,
+          "white": 44,
+          "draws": 4,
+          "black": 31,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c7c5",
+          "san": "c5",
+          "averageRating": 2063,
+          "white": 5,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "Buule2025",
-              "rating": 2069
-            },
-            "id": "794kHgYt",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "tmp88",
-              "rating": 2123
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Nd7",
+          "black": 13,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "e6e5",
+          "san": "e5",
+          "averageRating": 2099,
+          "white": 14,
+          "draws": 0,
+          "black": 3,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "a7a6",
+          "san": "a6",
+          "averageRating": 2024,
+          "white": 2,
+          "draws": 1,
+          "black": 4,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f8d6",
+          "san": "Bd6",
+          "averageRating": 1992,
+          "white": 3,
+          "draws": 0,
+          "black": 3,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c7c6",
+          "san": "c6",
+          "averageRating": 2095,
+          "white": 2,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "g8e7",
+          "san": "Ne7",
+          "averageRating": 2063,
+          "white": 1,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d8d6",
+          "san": "Qd6",
+          "averageRating": 2008,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d8f6",
+          "san": "Qf6",
+          "averageRating": 2001,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "b8d7",
-          "white": 1
+          "san": "Nd7",
+          "averageRating": 2069,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C01",
         "name": "French Defense: Exchange Variation"
-      },
-      "white": 8863
+      }
     }
   }
 }

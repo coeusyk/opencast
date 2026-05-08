@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "B23",
   "months": {
@@ -5350,141 +5348,143 @@
       "white": 39123
     },
     "2026-04": {
-      "black": 17454,
-      "draws": 2032,
+      "white": 19793,
+      "draws": 2071,
+      "black": 17726,
       "moves": [
         {
+          "uci": "b8c6",
+          "san": "Nc6",
           "averageRating": 2091,
-          "black": 7724,
-          "draws": 899,
+          "white": 8798,
+          "draws": 913,
+          "black": 7859,
           "game": null,
           "opening": {
             "eco": "B23",
             "name": "Sicilian Defense: Closed, Traditional"
-          },
-          "san": "Nc6",
-          "uci": "b8c6",
-          "white": 8652
+          }
         },
         {
-          "averageRating": 2093,
-          "black": 3972,
-          "draws": 465,
+          "uci": "e7e6",
+          "san": "e6",
+          "averageRating": 2092,
+          "white": 4236,
+          "draws": 474,
+          "black": 4028,
           "game": null,
           "opening": {
             "eco": "B23",
             "name": "Sicilian Defense: Closed"
-          },
-          "san": "e6",
-          "uci": "e7e6",
-          "white": 4155
+          }
         },
         {
-          "averageRating": 2087,
-          "black": 3194,
-          "draws": 393,
-          "game": null,
-          "opening": null,
-          "san": "d6",
           "uci": "d7d6",
-          "white": 3819
+          "san": "d6",
+          "averageRating": 2087,
+          "white": 3876,
+          "draws": 402,
+          "black": 3232,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2096,
-          "black": 1311,
-          "draws": 132,
-          "game": null,
-          "opening": null,
-          "san": "g6",
           "uci": "g7g6",
-          "white": 1491
+          "san": "g6",
+          "averageRating": 2096,
+          "white": 1517,
+          "draws": 136,
+          "black": 1336,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2105,
-          "black": 1000,
-          "draws": 109,
-          "game": null,
-          "opening": null,
-          "san": "a6",
           "uci": "a7a6",
-          "white": 1032
+          "san": "a6",
+          "averageRating": 2105,
+          "white": 1047,
+          "draws": 111,
+          "black": 1015,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2073,
-          "black": 95,
-          "draws": 15,
-          "game": null,
-          "opening": null,
-          "san": "e5",
           "uci": "e7e5",
-          "white": 145
-        },
-        {
-          "averageRating": 2081,
-          "black": 86,
-          "draws": 7,
-          "game": null,
-          "opening": null,
-          "san": "Nf6",
-          "uci": "g8f6",
-          "white": 95
-        },
-        {
-          "averageRating": 2086,
-          "black": 38,
-          "draws": 6,
-          "game": null,
-          "opening": null,
-          "san": "b6",
-          "uci": "b7b6",
-          "white": 40
-        },
-        {
-          "averageRating": 2082,
-          "black": 16,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "d5",
-          "uci": "d7d5",
-          "white": 14
-        },
-        {
+          "san": "e5",
           "averageRating": 2073,
-          "black": 5,
-          "draws": 2,
+          "white": 147,
+          "draws": 15,
+          "black": 96,
           "game": null,
-          "opening": null,
-          "san": "f5",
+          "opening": null
+        },
+        {
+          "uci": "g8f6",
+          "san": "Nf6",
+          "averageRating": 2081,
+          "white": 96,
+          "draws": 7,
+          "black": 88,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "b7b6",
+          "san": "b6",
+          "averageRating": 2086,
+          "white": 40,
+          "draws": 6,
+          "black": 38,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d7d5",
+          "san": "d5",
+          "averageRating": 2082,
+          "white": 14,
+          "draws": 1,
+          "black": 16,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "f7f5",
-          "white": 7
+          "san": "f5",
+          "averageRating": 2073,
+          "white": 7,
+          "draws": 2,
+          "black": 5,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2030,
-          "black": 2,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Qc7",
           "uci": "d8c7",
-          "white": 8
+          "san": "Qc7",
+          "averageRating": 2030,
+          "white": 8,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2134,
-          "black": 4,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "g5",
           "uci": "g7g5",
-          "white": 1
+          "san": "g5",
+          "averageRating": 2134,
+          "white": 1,
+          "draws": 0,
+          "black": 4,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "B23",
         "name": "Sicilian Defense: Closed"
-      },
-      "white": 19465
+      }
     }
   }
 }

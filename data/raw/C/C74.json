@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C74",
   "months": {
@@ -5510,156 +5508,143 @@
       "white": 363
     },
     "2026-04": {
-      "black": 140,
+      "white": 177,
       "draws": 22,
+      "black": 140,
       "moves": [
         {
+          "uci": "c8d7",
+          "san": "Bd7",
           "averageRating": 2103,
-          "black": 43,
+          "white": 55,
           "draws": 9,
+          "black": 43,
           "game": null,
           "opening": {
             "eco": "C75",
             "name": "Ruy Lopez: Morphy Defense, Modern Steinitz Defense"
-          },
-          "san": "Bd7",
-          "uci": "c8d7",
-          "white": 55
+          }
         },
         {
+          "uci": "f7f5",
+          "san": "f5",
           "averageRating": 2084,
-          "black": 41,
+          "white": 30,
           "draws": 5,
+          "black": 41,
           "game": null,
           "opening": {
             "eco": "C74",
             "name": "Ruy Lopez: Morphy Defense, Modern Steinitz Defense, Siesta Variation"
-          },
-          "san": "f5",
-          "uci": "f7f5",
-          "white": 30
+          }
         },
         {
-          "averageRating": 2073,
-          "black": 15,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "Nf6",
           "uci": "g8f6",
-          "white": 27
+          "san": "Nf6",
+          "averageRating": 2073,
+          "white": 27,
+          "draws": 4,
+          "black": 15,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2064,
-          "black": 16,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "Bg4",
           "uci": "c8g4",
-          "white": 18
+          "san": "Bg4",
+          "averageRating": 2064,
+          "white": 18,
+          "draws": 2,
+          "black": 16,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2054,
-          "black": 8,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "b5",
           "uci": "b7b5",
-          "white": 19
-        },
-        {
-          "averageRating": 2141,
-          "black": 7,
+          "san": "b5",
+          "averageRating": 2054,
+          "white": 19,
           "draws": 1,
+          "black": 8,
           "game": null,
-          "opening": null,
-          "san": "g6",
+          "opening": null
+        },
+        {
           "uci": "g7g6",
-          "white": 4
+          "san": "g6",
+          "averageRating": 2141,
+          "white": 4,
+          "draws": 1,
+          "black": 7,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2034,
-          "black": 4,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "g5",
           "uci": "g7g5",
-          "white": 8
+          "san": "g5",
+          "averageRating": 2034,
+          "white": 8,
+          "draws": 0,
+          "black": 4,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2044,
-          "black": 2,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Ne7",
           "uci": "g8e7",
-          "white": 5
-        },
-        {
-          "averageRating": 1993,
+          "san": "Ne7",
+          "averageRating": 2044,
+          "white": 5,
+          "draws": 0,
           "black": 2,
-          "draws": 0,
           "game": null,
-          "opening": null,
-          "san": "Qf6",
+          "opening": null
+        },
+        {
           "uci": "d8f6",
-          "white": 4
+          "san": "Qf6",
+          "averageRating": 1993,
+          "white": 4,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2004,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "h6",
           "uci": "h7h6",
-          "white": 3
-        },
-        {
-          "averageRating": 1985,
+          "san": "h6",
+          "averageRating": 2004,
+          "white": 3,
+          "draws": 0,
           "black": 1,
-          "draws": 0,
           "game": null,
-          "opening": null,
-          "san": "Be7",
-          "uci": "f8e7",
-          "white": 2
+          "opening": null
         },
         {
-          "averageRating": 2072,
-          "black": 0,
+          "uci": "f8e7",
+          "san": "Be7",
+          "averageRating": 1985,
+          "white": 2,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "JITAOS",
-              "rating": 2072
-            },
-            "id": "Vkg2NeBr",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "josevalero70",
-              "rating": 2221
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "h5",
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "h7h5",
-          "white": 1
+          "san": "h5",
+          "averageRating": 2072,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C74",
         "name": "Ruy Lopez: Morphy Defense, Modern Steinitz Defense"
-      },
-      "white": 177
+      }
     }
   }
 }

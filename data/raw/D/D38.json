@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "D38",
   "months": {
@@ -5233,138 +5231,140 @@
       "white": 3246
     },
     "2026-04": {
-      "black": 1341,
-      "draws": 199,
+      "white": 1801,
+      "draws": 201,
+      "black": 1365,
       "moves": [
         {
-          "averageRating": 2090,
-          "black": 553,
-          "draws": 78,
-          "game": null,
-          "opening": null,
-          "san": "Bg5",
           "uci": "c1g5",
-          "white": 697
+          "san": "Bg5",
+          "averageRating": 2090,
+          "white": 707,
+          "draws": 79,
+          "black": 564,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2089,
-          "black": 144,
-          "draws": 22,
-          "game": null,
-          "opening": null,
-          "san": "e3",
           "uci": "e2e3",
-          "white": 183
-        },
-        {
-          "averageRating": 2096,
-          "black": 113,
-          "draws": 9,
+          "san": "e3",
+          "averageRating": 2089,
+          "white": 186,
+          "draws": 23,
+          "black": 147,
           "game": null,
-          "opening": null,
-          "san": "cxd5",
-          "uci": "c4d5",
-          "white": 174
+          "opening": null
         },
         {
+          "uci": "c4d5",
+          "san": "cxd5",
+          "averageRating": 2097,
+          "white": 176,
+          "draws": 9,
+          "black": 114,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d1a4",
+          "san": "Qa4+",
           "averageRating": 2104,
-          "black": 97,
+          "white": 163,
           "draws": 12,
+          "black": 98,
           "game": null,
           "opening": {
             "eco": "D38",
             "name": "Queen's Gambit Declined: Ragozin Defense, Alekhine Variation"
-          },
-          "san": "Qa4+",
-          "uci": "d1a4",
-          "white": 160
+          }
         },
         {
-          "averageRating": 2076,
-          "black": 105,
-          "draws": 16,
-          "game": null,
-          "opening": null,
-          "san": "Qc2",
           "uci": "d1c2",
-          "white": 116
+          "san": "Qc2",
+          "averageRating": 2076,
+          "white": 116,
+          "draws": 16,
+          "black": 107,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2078,
-          "black": 79,
-          "draws": 23,
-          "game": null,
-          "opening": null,
-          "san": "Bd2",
           "uci": "c1d2",
-          "white": 99
+          "san": "Bd2",
+          "averageRating": 2079,
+          "white": 101,
+          "draws": 23,
+          "black": 79,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2099,
-          "black": 72,
-          "draws": 14,
-          "game": null,
-          "opening": null,
-          "san": "Qb3",
           "uci": "d1b3",
-          "white": 107
+          "san": "Qb3",
+          "averageRating": 2098,
+          "white": 107,
+          "draws": 14,
+          "black": 75,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2106,
-          "black": 64,
-          "draws": 13,
-          "game": null,
-          "opening": null,
-          "san": "g3",
           "uci": "g2g3",
-          "white": 95
+          "san": "g3",
+          "averageRating": 2107,
+          "white": 97,
+          "draws": 13,
+          "black": 66,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2081,
-          "black": 50,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "Bf4",
           "uci": "c1f4",
-          "white": 71
+          "san": "Bf4",
+          "averageRating": 2081,
+          "white": 72,
+          "draws": 2,
+          "black": 50,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2072,
-          "black": 44,
-          "draws": 10,
-          "game": null,
-          "opening": null,
-          "san": "a3",
           "uci": "a2a3",
-          "white": 54
+          "san": "a3",
+          "averageRating": 2072,
+          "white": 56,
+          "draws": 10,
+          "black": 45,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2104,
-          "black": 5,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Ne5",
           "uci": "f3e5",
-          "white": 7
+          "san": "Ne5",
+          "averageRating": 2113,
+          "white": 8,
+          "draws": 0,
+          "black": 5,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2091,
-          "black": 8,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "g4",
           "uci": "g2g4",
-          "white": 4
+          "san": "g4",
+          "averageRating": 2091,
+          "white": 4,
+          "draws": 0,
+          "black": 8,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "D38",
         "name": "Queen's Gambit Declined: Ragozin Defense"
-      },
-      "white": 1775
+      }
     }
   }
 }

@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "B44",
   "months": {
@@ -5350,141 +5348,143 @@
       "white": 7554
     },
     "2026-04": {
-      "black": 3478,
-      "draws": 385,
+      "white": 3670,
+      "draws": 389,
+      "black": 3529,
       "moves": [
         {
+          "uci": "b1c3",
+          "san": "Nc3",
           "averageRating": 2089,
-          "black": 1773,
-          "draws": 197,
+          "white": 1927,
+          "draws": 199,
+          "black": 1798,
           "game": null,
           "opening": {
             "eco": "B45",
             "name": "Sicilian Defense: Taimanov Variation"
-          },
-          "san": "Nc3",
-          "uci": "b1c3",
-          "white": 1884
+          }
         },
         {
-          "averageRating": 2077,
-          "black": 466,
-          "draws": 57,
-          "game": null,
-          "opening": null,
-          "san": "Nxc6",
           "uci": "d4c6",
-          "white": 477
-        },
-        {
-          "averageRating": 2091,
-          "black": 338,
-          "draws": 41,
+          "san": "Nxc6",
+          "averageRating": 2076,
+          "white": 485,
+          "draws": 58,
+          "black": 476,
           "game": null,
-          "opening": null,
-          "san": "c4",
-          "uci": "c2c4",
-          "white": 405
+          "opening": null
         },
         {
+          "uci": "c2c4",
+          "san": "c4",
+          "averageRating": 2090,
+          "white": 417,
+          "draws": 41,
+          "black": 343,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d4b5",
+          "san": "Nb5",
           "averageRating": 2094,
-          "black": 254,
+          "white": 242,
           "draws": 18,
+          "black": 258,
           "game": null,
           "opening": {
             "eco": "B44",
             "name": "Sicilian Defense: Taimanov Variation, Sz\u00e9n Variation"
-          },
-          "san": "Nb5",
-          "uci": "d4b5",
-          "white": 236
+          }
         },
         {
-          "averageRating": 2073,
-          "black": 258,
-          "draws": 28,
-          "game": null,
-          "opening": null,
-          "san": "Be3",
           "uci": "c1e3",
-          "white": 221
+          "san": "Be3",
+          "averageRating": 2073,
+          "white": 227,
+          "draws": 28,
+          "black": 262,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2088,
-          "black": 102,
-          "draws": 19,
-          "game": null,
-          "opening": null,
-          "san": "a3",
           "uci": "a2a3",
-          "white": 102
+          "san": "a3",
+          "averageRating": 2087,
+          "white": 107,
+          "draws": 19,
+          "black": 102,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2078,
-          "black": 47,
-          "draws": 5,
-          "game": null,
-          "opening": null,
-          "san": "Nb3",
           "uci": "d4b3",
-          "white": 67
-        },
-        {
-          "averageRating": 2071,
-          "black": 49,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "Be2",
-          "uci": "f1e2",
-          "white": 59
-        },
-        {
-          "averageRating": 2062,
-          "black": 59,
-          "draws": 9,
-          "game": null,
-          "opening": null,
-          "san": "c3",
-          "uci": "c2c3",
-          "white": 39
-        },
-        {
-          "averageRating": 2069,
-          "black": 46,
+          "san": "Nb3",
+          "averageRating": 2077,
+          "white": 71,
           "draws": 5,
+          "black": 49,
           "game": null,
-          "opening": null,
-          "san": "Bc4",
-          "uci": "f1c4",
-          "white": 19
+          "opening": null
         },
         {
-          "averageRating": 2107,
-          "black": 29,
+          "uci": "f1e2",
+          "san": "Be2",
+          "averageRating": 2071,
+          "white": 59,
           "draws": 2,
+          "black": 49,
           "game": null,
-          "opening": null,
-          "san": "g3",
-          "uci": "g2g3",
-          "white": 21
+          "opening": null
         },
         {
-          "averageRating": 2058,
-          "black": 21,
-          "draws": 1,
+          "uci": "c2c3",
+          "san": "c3",
+          "averageRating": 2061,
+          "white": 41,
+          "draws": 10,
+          "black": 59,
           "game": null,
-          "opening": null,
-          "san": "Nf3",
+          "opening": null
+        },
+        {
+          "uci": "f1c4",
+          "san": "Bc4",
+          "averageRating": 2070,
+          "white": 21,
+          "draws": 5,
+          "black": 46,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "g2g3",
+          "san": "g3",
+          "averageRating": 2106,
+          "white": 21,
+          "draws": 2,
+          "black": 30,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "d4f3",
-          "white": 11
+          "san": "Nf3",
+          "averageRating": 2058,
+          "white": 11,
+          "draws": 1,
+          "black": 21,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "B44",
         "name": "Sicilian Defense: Taimanov Variation"
-      },
-      "white": 3582
+      }
     }
   }
 }

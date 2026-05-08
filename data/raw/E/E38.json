@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "E38",
   "months": {
@@ -5066,115 +5064,87 @@
       "white": 714
     },
     "2026-04": {
-      "black": 373,
-      "draws": 52,
+      "white": 409,
+      "draws": 53,
+      "black": 379,
       "moves": [
         {
-          "averageRating": 2110,
-          "black": 148,
-          "draws": 25,
-          "game": null,
-          "opening": null,
-          "san": "dxc5",
           "uci": "d4c5",
-          "white": 187
+          "san": "dxc5",
+          "averageRating": 2111,
+          "white": 189,
+          "draws": 25,
+          "black": 152,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2073,
-          "black": 135,
-          "draws": 13,
-          "game": null,
-          "opening": null,
-          "san": "e3",
           "uci": "e2e3",
-          "white": 138
+          "san": "e3",
+          "averageRating": 2073,
+          "white": 142,
+          "draws": 13,
+          "black": 136,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2080,
-          "black": 44,
-          "draws": 9,
-          "game": null,
-          "opening": null,
-          "san": "Nf3",
           "uci": "g1f3",
-          "white": 44
+          "san": "Nf3",
+          "averageRating": 2080,
+          "white": 45,
+          "draws": 9,
+          "black": 45,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2066,
-          "black": 37,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "a3",
           "uci": "a2a3",
-          "white": 25
-        },
-        {
-          "averageRating": 2041,
-          "black": 9,
-          "draws": 1,
+          "san": "a3",
+          "averageRating": 2067,
+          "white": 26,
+          "draws": 5,
+          "black": 37,
           "game": null,
-          "opening": null,
-          "san": "d5",
+          "opening": null
+        },
+        {
           "uci": "d4d5",
-          "white": 5
+          "san": "d5",
+          "averageRating": 2041,
+          "white": 5,
+          "draws": 1,
+          "black": 9,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2161,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "AGM_Biba",
-              "rating": 2136
-            },
-            "id": "8FYm5SAc",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "atai-zhunushov",
-              "rating": 2161
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "e4",
           "uci": "e2e4",
-          "white": 1
+          "san": "e4",
+          "averageRating": 2161,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2065,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "Taifun64",
-              "rating": 2087
-            },
-            "id": "ODotS5hE",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "pasha1969",
-              "rating": 2065
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Bg5",
           "uci": "c1g5",
-          "white": 1
+          "san": "Bg5",
+          "averageRating": 2065,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "E38",
         "name": "Nimzo-Indian Defense: Classical Variation, Berlin Variation"
-      },
-      "white": 401
+      }
     }
   }
 }

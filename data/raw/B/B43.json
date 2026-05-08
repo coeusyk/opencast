@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "B43",
   "months": {
@@ -5350,141 +5348,143 @@
       "white": 4313
     },
     "2026-04": {
-      "black": 2437,
-      "draws": 236,
+      "white": 2118,
+      "draws": 239,
+      "black": 2480,
       "moves": [
         {
-          "averageRating": 2103,
-          "black": 1536,
-          "draws": 152,
-          "game": null,
-          "opening": null,
-          "san": "Qc7",
           "uci": "d8c7",
-          "white": 1218
+          "san": "Qc7",
+          "averageRating": 2103,
+          "white": 1245,
+          "draws": 154,
+          "black": 1558,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "b7b5",
+          "san": "b5",
           "averageRating": 2092,
-          "black": 455,
+          "white": 426,
           "draws": 46,
+          "black": 464,
           "game": null,
           "opening": {
             "eco": "B43",
             "name": "Sicilian Defense: Kan Variation, Wing Attack"
-          },
-          "san": "b5",
-          "uci": "b7b5",
-          "white": 417
+          }
         },
         {
-          "averageRating": 2069,
-          "black": 232,
-          "draws": 22,
+          "uci": "b8c6",
+          "san": "Nc6",
+          "averageRating": 2070,
+          "white": 220,
+          "draws": 23,
+          "black": 238,
           "game": null,
           "opening": {
             "eco": "B46",
             "name": "Sicilian Defense: Taimanov Variation"
-          },
-          "san": "Nc6",
-          "uci": "b8c6",
-          "white": 217
+          }
         },
         {
-          "averageRating": 2098,
-          "black": 75,
-          "draws": 6,
-          "game": null,
-          "opening": null,
-          "san": "d6",
           "uci": "d7d6",
-          "white": 65
+          "san": "d6",
+          "averageRating": 2098,
+          "white": 66,
+          "draws": 6,
+          "black": 76,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2101,
-          "black": 44,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "Nf6",
           "uci": "g8f6",
-          "white": 54
+          "san": "Nf6",
+          "averageRating": 2100,
+          "white": 56,
+          "draws": 4,
+          "black": 46,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2120,
-          "black": 27,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Ne7",
           "uci": "g8e7",
-          "white": 28
+          "san": "Ne7",
+          "averageRating": 2120,
+          "white": 28,
+          "draws": 0,
+          "black": 27,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2090,
-          "black": 21,
-          "draws": 3,
-          "game": null,
-          "opening": null,
-          "san": "Bc5",
           "uci": "f8c5",
-          "white": 18
+          "san": "Bc5",
+          "averageRating": 2093,
+          "white": 18,
+          "draws": 3,
+          "black": 22,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2078,
-          "black": 17,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Bb4",
           "uci": "f8b4",
-          "white": 22
-        },
-        {
-          "averageRating": 2047,
-          "black": 7,
+          "san": "Bb4",
+          "averageRating": 2078,
+          "white": 22,
           "draws": 1,
+          "black": 17,
           "game": null,
-          "opening": null,
-          "san": "h6",
-          "uci": "h7h6",
-          "white": 9
+          "opening": null
         },
         {
-          "averageRating": 2105,
-          "black": 4,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Be7",
           "uci": "f8e7",
-          "white": 12
-        },
-        {
-          "averageRating": 2127,
-          "black": 7,
+          "san": "Be7",
+          "averageRating": 2098,
+          "white": 13,
           "draws": 0,
+          "black": 5,
           "game": null,
-          "opening": null,
-          "san": "b6",
-          "uci": "b7b6",
-          "white": 4
+          "opening": null
         },
         {
+          "uci": "h7h6",
+          "san": "h6",
           "averageRating": 2047,
-          "black": 6,
+          "white": 9,
           "draws": 1,
+          "black": 7,
           "game": null,
-          "opening": null,
-          "san": "g6",
+          "opening": null
+        },
+        {
+          "uci": "b7b6",
+          "san": "b6",
+          "averageRating": 2127,
+          "white": 4,
+          "draws": 0,
+          "black": 8,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "g7g6",
-          "white": 1
+          "san": "g6",
+          "averageRating": 2047,
+          "white": 1,
+          "draws": 1,
+          "black": 6,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "B43",
         "name": "Sicilian Defense: Kan Variation, Knight Variation"
-      },
-      "white": 2075
+      }
     }
   }
 }

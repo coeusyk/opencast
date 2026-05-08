@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "B12",
   "months": {
@@ -5818,153 +5816,155 @@
       "white": 119914
     },
     "2026-04": {
-      "black": 58016,
-      "draws": 7361,
+      "white": 62007,
+      "draws": 7491,
+      "black": 59016,
       "moves": [
         {
+          "uci": "d2d4",
+          "san": "d4",
           "averageRating": 2088,
-          "black": 34744,
-          "draws": 4502,
+          "white": 38086,
+          "draws": 4572,
+          "black": 35342,
           "game": null,
           "opening": {
             "eco": "B12",
             "name": "Caro-Kann Defense"
-          },
-          "san": "d4",
-          "uci": "d2d4",
-          "white": 37390
+          }
         },
         {
-          "averageRating": 2074,
-          "black": 10468,
-          "draws": 1320,
-          "game": null,
-          "opening": null,
-          "san": "Nf3",
           "uci": "g1f3",
-          "white": 10414
+          "san": "Nf3",
+          "averageRating": 2074,
+          "white": 10603,
+          "draws": 1345,
+          "black": 10668,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "b1c3",
+          "san": "Nc3",
           "averageRating": 2086,
-          "black": 4989,
-          "draws": 632,
+          "white": 5145,
+          "draws": 644,
+          "black": 5065,
           "game": null,
           "opening": {
             "eco": "B10",
             "name": "Caro-Kann Defense"
-          },
-          "san": "Nc3",
-          "uci": "b1c3",
-          "white": 5055
+          }
         },
         {
+          "uci": "c2c4",
+          "san": "c4",
           "averageRating": 2084,
-          "black": 1840,
-          "draws": 239,
+          "white": 2179,
+          "draws": 247,
+          "black": 1869,
           "game": null,
           "opening": {
             "eco": "B10",
             "name": "Caro-Kann Defense: Accelerated Panov Attack"
-          },
-          "san": "c4",
-          "uci": "c2c4",
-          "white": 2126
+          }
         },
         {
-          "averageRating": 2058,
-          "black": 1849,
-          "draws": 183,
-          "game": null,
-          "opening": null,
-          "san": "f4",
           "uci": "f2f4",
-          "white": 1779
+          "san": "f4",
+          "averageRating": 2058,
+          "white": 1805,
+          "draws": 188,
+          "black": 1874,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2093,
-          "black": 1706,
-          "draws": 195,
+          "uci": "d2d3",
+          "san": "d3",
+          "averageRating": 2092,
+          "white": 1882,
+          "draws": 199,
+          "black": 1734,
           "game": null,
           "opening": {
             "eco": "B10",
             "name": "Caro-Kann Defense: Breyer Variation"
-          },
-          "san": "d3",
-          "uci": "d2d3",
-          "white": 1845
+          }
         },
         {
+          "uci": "f1c4",
+          "san": "Bc4",
           "averageRating": 2056,
-          "black": 1091,
-          "draws": 125,
+          "white": 985,
+          "draws": 129,
+          "black": 1116,
           "game": null,
           "opening": {
             "eco": "B10",
             "name": "Caro-Kann Defense: Hillbilly Attack"
-          },
-          "san": "Bc4",
-          "uci": "f1c4",
-          "white": 969
+          }
         },
         {
-          "averageRating": 2086,
-          "black": 333,
-          "draws": 26,
-          "game": null,
-          "opening": null,
-          "san": "Ne2",
           "uci": "g1e2",
-          "white": 363
-        },
-        {
-          "averageRating": 2068,
-          "black": 200,
-          "draws": 38,
-          "game": null,
-          "opening": null,
-          "san": "e5",
-          "uci": "e4e5",
-          "white": 227
-        },
-        {
+          "san": "Ne2",
           "averageRating": 2087,
-          "black": 190,
+          "white": 367,
+          "draws": 26,
+          "black": 335,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "e4e5",
+          "san": "e5",
+          "averageRating": 2068,
+          "white": 231,
+          "draws": 39,
+          "black": 206,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "b2b3",
+          "san": "b3",
+          "averageRating": 2087,
+          "white": 205,
           "draws": 19,
+          "black": 192,
           "game": null,
           "opening": {
             "eco": "B10",
             "name": "Caro-Kann Defense: Euwe Attack"
-          },
-          "san": "b3",
-          "uci": "b2b3",
-          "white": 202
+          }
         },
         {
-          "averageRating": 2065,
-          "black": 210,
-          "draws": 36,
-          "game": null,
-          "opening": null,
-          "san": "c3",
           "uci": "c2c3",
-          "white": 146
+          "san": "c3",
+          "averageRating": 2065,
+          "white": 149,
+          "draws": 36,
+          "black": 213,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2064,
-          "black": 126,
-          "draws": 13,
-          "game": null,
-          "opening": null,
-          "san": "g3",
           "uci": "g2g3",
-          "white": 113
+          "san": "g3",
+          "averageRating": 2064,
+          "white": 118,
+          "draws": 13,
+          "black": 127,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "B10",
         "name": "Caro-Kann Defense"
-      },
-      "white": 60876
+      }
     }
   }
 }

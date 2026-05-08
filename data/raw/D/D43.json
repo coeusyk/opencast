@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "D43",
   "months": {
@@ -5233,138 +5231,140 @@
       "white": 11441
     },
     "2026-04": {
-      "black": 5030,
-      "draws": 724,
+      "white": 6222,
+      "draws": 738,
+      "black": 5117,
       "moves": [
         {
-          "averageRating": 2093,
-          "black": 2803,
-          "draws": 373,
-          "game": null,
-          "opening": null,
-          "san": "Bg5",
           "uci": "c1g5",
-          "white": 3357
+          "san": "Bg5",
+          "averageRating": 2093,
+          "white": 3416,
+          "draws": 380,
+          "black": 2852,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2100,
-          "black": 800,
-          "draws": 111,
+          "uci": "e2e3",
+          "san": "e3",
+          "averageRating": 2099,
+          "white": 982,
+          "draws": 116,
+          "black": 815,
           "game": null,
           "opening": {
             "eco": "D45",
             "name": "Semi-Slav Defense: Main Line"
-          },
-          "san": "e3",
-          "uci": "e2e3",
-          "white": 967
+          }
         },
         {
-          "averageRating": 2086,
-          "black": 475,
-          "draws": 83,
-          "game": null,
-          "opening": null,
-          "san": "Bf4",
           "uci": "c1f4",
-          "white": 527
+          "san": "Bf4",
+          "averageRating": 2086,
+          "white": 531,
+          "draws": 83,
+          "black": 482,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2100,
-          "black": 382,
-          "draws": 65,
-          "game": null,
-          "opening": null,
-          "san": "g3",
           "uci": "g2g3",
-          "white": 533
-        },
-        {
-          "averageRating": 2089,
-          "black": 331,
-          "draws": 52,
-          "game": null,
-          "opening": null,
-          "san": "cxd5",
-          "uci": "c4d5",
-          "white": 444
-        },
-        {
-          "averageRating": 2101,
-          "black": 58,
-          "draws": 7,
-          "game": null,
-          "opening": null,
-          "san": "Qc2",
-          "uci": "d1c2",
-          "white": 103
-        },
-        {
-          "averageRating": 2072,
-          "black": 32,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "a3",
-          "uci": "a2a3",
-          "white": 36
-        },
-        {
-          "averageRating": 2081,
-          "black": 18,
-          "draws": 10,
-          "game": null,
-          "opening": null,
-          "san": "Qb3",
-          "uci": "d1b3",
-          "white": 33
-        },
-        {
-          "averageRating": 2067,
-          "black": 28,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "c5",
-          "uci": "c4c5",
-          "white": 27
-        },
-        {
-          "averageRating": 2112,
-          "black": 23,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "Qd3",
-          "uci": "d1d3",
-          "white": 27
-        },
-        {
+          "san": "g3",
           "averageRating": 2099,
-          "black": 20,
-          "draws": 4,
+          "white": 541,
+          "draws": 66,
+          "black": 387,
           "game": null,
-          "opening": null,
-          "san": "a4",
-          "uci": "a2a4",
-          "white": 26
+          "opening": null
         },
         {
-          "averageRating": 2071,
-          "black": 16,
-          "draws": 5,
+          "uci": "c4d5",
+          "san": "cxd5",
+          "averageRating": 2089,
+          "white": 449,
+          "draws": 53,
+          "black": 336,
           "game": null,
-          "opening": null,
-          "san": "h3",
+          "opening": null
+        },
+        {
+          "uci": "d1c2",
+          "san": "Qc2",
+          "averageRating": 2101,
+          "white": 105,
+          "draws": 7,
+          "black": 59,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "a2a3",
+          "san": "a3",
+          "averageRating": 2073,
+          "white": 36,
+          "draws": 4,
+          "black": 34,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d1b3",
+          "san": "Qb3",
+          "averageRating": 2081,
+          "white": 33,
+          "draws": 10,
+          "black": 18,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c4c5",
+          "san": "c5",
+          "averageRating": 2067,
+          "white": 27,
+          "draws": 1,
+          "black": 28,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d1d3",
+          "san": "Qd3",
+          "averageRating": 2112,
+          "white": 27,
+          "draws": 4,
+          "black": 23,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "a2a4",
+          "san": "a4",
+          "averageRating": 2098,
+          "white": 26,
+          "draws": 4,
+          "black": 22,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "h2h3",
-          "white": 12
+          "san": "h3",
+          "averageRating": 2071,
+          "white": 12,
+          "draws": 5,
+          "black": 16,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "D43",
         "name": "Semi-Slav Defense"
-      },
-      "white": 6129
+      }
     }
   }
 }

@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "E46",
   "months": {
@@ -6262,134 +6260,106 @@
       "white": 767
     },
     "2026-04": {
-      "black": 363,
+      "white": 416,
       "draws": 44,
+      "black": 370,
       "moves": [
         {
+          "uci": "f1d3",
+          "san": "Bd3",
           "averageRating": 2097,
-          "black": 213,
+          "white": 227,
           "draws": 26,
+          "black": 216,
           "game": null,
           "opening": {
             "eco": "E47",
             "name": "Nimzo-Indian Defense: Normal Variation"
-          },
-          "san": "Bd3",
-          "uci": "f1d3",
-          "white": 224
+          }
         },
         {
-          "averageRating": 2114,
-          "black": 69,
+          "uci": "g1e2",
+          "san": "Ne2",
+          "averageRating": 2113,
+          "white": 95,
           "draws": 12,
+          "black": 72,
           "game": null,
           "opening": {
             "eco": "E46",
             "name": "Nimzo-Indian Defense: Reshevsky Variation"
-          },
-          "san": "Ne2",
-          "uci": "g1e2",
-          "white": 94
+          }
         },
         {
-          "averageRating": 2090,
-          "black": 33,
+          "uci": "g1f3",
+          "san": "Nf3",
+          "averageRating": 2091,
+          "white": 44,
           "draws": 3,
+          "black": 33,
           "game": null,
           "opening": {
             "eco": "E50",
             "name": "Nimzo-Indian Defense"
-          },
-          "san": "Nf3",
-          "uci": "g1f3",
-          "white": 42
+          }
         },
         {
-          "averageRating": 2093,
-          "black": 18,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "a3",
-          "uci": "a2a3",
-          "white": 25
-        },
-        {
-          "averageRating": 2078,
-          "black": 25,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Bd2",
           "uci": "c1d2",
-          "white": 19
-        },
-        {
-          "averageRating": 2035,
-          "black": 3,
-          "draws": 0,
+          "san": "Bd2",
+          "averageRating": 2077,
+          "white": 20,
+          "draws": 1,
+          "black": 25,
           "game": null,
-          "opening": null,
-          "san": "Qc2",
+          "opening": null
+        },
+        {
+          "uci": "a2a3",
+          "san": "a3",
+          "averageRating": 2093,
+          "white": 25,
+          "draws": 2,
+          "black": 18,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "d1c2",
-          "white": 5
+          "san": "Qc2",
+          "averageRating": 2036,
+          "white": 5,
+          "draws": 0,
+          "black": 4,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2109,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "Caruana22",
-              "rating": 2136
-            },
-            "id": "vzTefoxZ",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "zurdoprox",
-              "rating": 2109
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Be2",
           "uci": "f1e2",
-          "white": 0
+          "san": "Be2",
+          "averageRating": 2109,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 1952,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "Feldhasi",
-              "rating": 2090
-            },
-            "id": "Q7gDAyHS",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "MolodoyDedd",
-              "rating": 1952
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Qb3",
           "uci": "d1b3",
-          "white": 0
+          "san": "Qb3",
+          "averageRating": 1952,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "E46",
         "name": "Nimzo-Indian Defense: Normal Variation"
-      },
-      "white": 409
+      }
     }
   }
 }

@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "B01",
   "months": {
@@ -5581,147 +5579,149 @@
       "white": 83198
     },
     "2026-04": {
-      "black": 40213,
-      "draws": 4629,
+      "white": 42218,
+      "draws": 4711,
+      "black": 40908,
       "moves": [
         {
-          "averageRating": 2079,
-          "black": 31631,
-          "draws": 3734,
-          "game": null,
-          "opening": null,
-          "san": "exd5",
           "uci": "e4d5",
-          "white": 32382
+          "san": "exd5",
+          "averageRating": 2079,
+          "white": 32991,
+          "draws": 3802,
+          "black": 32180,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2072,
-          "black": 2699,
-          "draws": 269,
-          "game": null,
-          "opening": null,
-          "san": "e5",
           "uci": "e4e5",
-          "white": 2830
-        },
-        {
-          "averageRating": 2085,
-          "black": 2237,
-          "draws": 246,
+          "san": "e5",
+          "averageRating": 2072,
+          "white": 2878,
+          "draws": 271,
+          "black": 2759,
           "game": null,
-          "opening": null,
-          "san": "Nc3",
-          "uci": "b1c3",
-          "white": 2543
+          "opening": null
         },
         {
+          "uci": "b1c3",
+          "san": "Nc3",
+          "averageRating": 2086,
+          "white": 2576,
+          "draws": 253,
+          "black": 2266,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "g1f3",
+          "san": "Nf3",
           "averageRating": 2067,
-          "black": 1831,
-          "draws": 183,
+          "white": 1820,
+          "draws": 184,
+          "black": 1857,
           "game": null,
           "opening": {
             "eco": "A06",
             "name": "Zukertort Opening: Tennison Gambit"
-          },
-          "san": "Nf3",
-          "uci": "g1f3",
-          "white": 1780
+          }
         },
         {
-          "averageRating": 2077,
-          "black": 1148,
-          "draws": 109,
+          "uci": "d2d4",
+          "san": "d4",
+          "averageRating": 2078,
+          "white": 1279,
+          "draws": 110,
+          "black": 1168,
           "game": null,
           "opening": {
             "eco": "D00",
             "name": "Blackmar-Diemer Gambit"
-          },
-          "san": "d4",
-          "uci": "d2d4",
-          "white": 1246
+          }
         },
         {
-          "averageRating": 2087,
-          "black": 343,
-          "draws": 58,
-          "game": null,
-          "opening": null,
-          "san": "d3",
           "uci": "d2d3",
-          "white": 412
-        },
-        {
-          "averageRating": 2063,
-          "black": 80,
-          "draws": 9,
+          "san": "d3",
+          "averageRating": 2088,
+          "white": 427,
+          "draws": 60,
+          "black": 349,
           "game": null,
-          "opening": null,
-          "san": "f3",
-          "uci": "f2f3",
-          "white": 68
+          "opening": null
         },
         {
-          "averageRating": 2057,
-          "black": 84,
+          "uci": "f2f3",
+          "san": "f3",
+          "averageRating": 2064,
+          "white": 71,
+          "draws": 10,
+          "black": 82,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f2f4",
+          "san": "f4",
+          "averageRating": 2059,
+          "white": 53,
           "draws": 7,
+          "black": 84,
           "game": null,
           "opening": {
             "eco": "A03",
             "name": "Bird Opening: Williams Gambit"
-          },
-          "san": "f4",
-          "uci": "f2f4",
-          "white": 51
+          }
         },
         {
-          "averageRating": 2086,
-          "black": 18,
+          "uci": "b2b3",
+          "san": "b3",
+          "averageRating": 2085,
+          "white": 23,
           "draws": 0,
+          "black": 19,
           "game": null,
           "opening": {
             "eco": "B01",
             "name": "Scandinavian Defense"
-          },
-          "san": "b3",
-          "uci": "b2b3",
-          "white": 23
+          }
         },
         {
-          "averageRating": 2046,
-          "black": 36,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bc4",
           "uci": "f1c4",
-          "white": 3
+          "san": "Bc4",
+          "averageRating": 2046,
+          "white": 3,
+          "draws": 0,
+          "black": 36,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2062,
-          "black": 15,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "a3",
           "uci": "a2a3",
-          "white": 22
+          "san": "a3",
+          "averageRating": 2062,
+          "white": 22,
+          "draws": 1,
+          "black": 15,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2027,
-          "black": 18,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Qf3",
           "uci": "d1f3",
-          "white": 13
+          "san": "Qf3",
+          "averageRating": 2027,
+          "white": 13,
+          "draws": 1,
+          "black": 18,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "B01",
         "name": "Scandinavian Defense"
-      },
-      "white": 41435
+      }
     }
   }
 }

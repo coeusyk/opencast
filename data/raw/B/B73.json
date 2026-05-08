@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "B73",
   "months": {
@@ -6431,110 +6429,97 @@
       "white": 218
     },
     "2026-04": {
-      "black": 118,
+      "white": 114,
       "draws": 18,
+      "black": 118,
       "moves": [
         {
-          "averageRating": 2089,
-          "black": 103,
-          "draws": 16,
-          "game": null,
-          "opening": null,
-          "san": "O-O",
           "uci": "e8h8",
-          "white": 103
+          "san": "O-O",
+          "averageRating": 2089,
+          "white": 104,
+          "draws": 16,
+          "black": 103,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2096,
-          "black": 4,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "Bd7",
           "uci": "c8d7",
-          "white": 4
+          "san": "Bd7",
+          "averageRating": 2096,
+          "white": 4,
+          "draws": 2,
+          "black": 4,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2121,
-          "black": 4,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "a6",
           "uci": "a7a6",
-          "white": 1
-        },
-        {
-          "averageRating": 2029,
+          "san": "a6",
+          "averageRating": 2121,
+          "white": 1,
+          "draws": 0,
           "black": 4,
-          "draws": 0,
           "game": null,
-          "opening": null,
-          "san": "h5",
+          "opening": null
+        },
+        {
           "uci": "h7h5",
-          "white": 0
+          "san": "h5",
+          "averageRating": 2029,
+          "white": 0,
+          "draws": 0,
+          "black": 4,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2019,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Nxd4",
           "uci": "c6d4",
-          "white": 2
+          "san": "Nxd4",
+          "averageRating": 2019,
+          "white": 2,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2044,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "h6",
           "uci": "h7h6",
-          "white": 1
-        },
-        {
-          "averageRating": 2051,
+          "san": "h6",
+          "averageRating": 2044,
+          "white": 1,
+          "draws": 0,
           "black": 1,
-          "draws": 0,
           "game": null,
-          "opening": null,
-          "san": "Ng4",
-          "uci": "f6g4",
-          "white": 1
+          "opening": null
         },
         {
-          "averageRating": 2065,
-          "black": 0,
+          "uci": "f6g4",
+          "san": "Ng4",
+          "averageRating": 2051,
+          "white": 1,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "PapaXDoc",
-              "rating": 2065
-            },
-            "id": "QIyqYQaK",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Kentster",
-              "rating": 2164
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "b6",
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "b7b6",
-          "white": 1
+          "san": "b6",
+          "averageRating": 2065,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "B73",
         "name": "Sicilian Defense: Dragon Variation, Classical Variation"
-      },
-      "white": 113
+      }
     }
   }
 }

@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "A30",
   "months": {
@@ -5575,147 +5573,149 @@
       "white": 12505
     },
     "2026-04": {
-      "black": 5446,
-      "draws": 768,
+      "white": 6370,
+      "draws": 781,
+      "black": 5535,
       "moves": [
         {
+          "uci": "b1c3",
+          "san": "Nc3",
           "averageRating": 2086,
-          "black": 3174,
-          "draws": 447,
+          "white": 3743,
+          "draws": 454,
+          "black": 3225,
           "game": null,
           "opening": {
             "eco": "A34",
             "name": "English Opening: Symmetrical Variation, Normal Variation"
-          },
-          "san": "Nc3",
-          "uci": "b1c3",
-          "white": 3685
+          }
         },
         {
-          "averageRating": 2096,
-          "black": 988,
-          "draws": 135,
-          "game": null,
-          "opening": null,
-          "san": "g3",
           "uci": "g2g3",
-          "white": 1195
+          "san": "g3",
+          "averageRating": 2096,
+          "white": 1210,
+          "draws": 136,
+          "black": 1000,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "g1f3",
+          "san": "Nf3",
           "averageRating": 2097,
-          "black": 766,
-          "draws": 122,
+          "white": 848,
+          "draws": 126,
+          "black": 780,
           "game": null,
           "opening": {
             "eco": "A30",
             "name": "English Opening: Symmetrical Variation"
-          },
-          "san": "Nf3",
-          "uci": "g1f3",
-          "white": 830
+          }
         },
         {
-          "averageRating": 2063,
-          "black": 213,
-          "draws": 27,
-          "game": null,
-          "opening": null,
-          "san": "e3",
           "uci": "e2e3",
-          "white": 220
+          "san": "e3",
+          "averageRating": 2063,
+          "white": 227,
+          "draws": 27,
+          "black": 216,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2073,
-          "black": 91,
-          "draws": 7,
-          "game": null,
-          "opening": null,
-          "san": "b3",
           "uci": "b2b3",
-          "white": 133
+          "san": "b3",
+          "averageRating": 2073,
+          "white": 139,
+          "draws": 7,
+          "black": 94,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2060,
-          "black": 75,
-          "draws": 9,
-          "game": null,
-          "opening": null,
-          "san": "d4",
           "uci": "d2d4",
-          "white": 79
-        },
-        {
-          "averageRating": 2078,
-          "black": 75,
-          "draws": 12,
+          "san": "d4",
+          "averageRating": 2060,
+          "white": 79,
+          "draws": 9,
+          "black": 78,
           "game": null,
-          "opening": null,
-          "san": "d3",
-          "uci": "d2d3",
-          "white": 68
+          "opening": null
         },
         {
-          "averageRating": 2081,
-          "black": 33,
+          "uci": "d2d3",
+          "san": "d3",
+          "averageRating": 2078,
+          "white": 70,
+          "draws": 13,
+          "black": 75,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "e2e4",
+          "san": "e4",
+          "averageRating": 2083,
+          "white": 30,
           "draws": 5,
+          "black": 34,
           "game": null,
           "opening": {
             "eco": "B20",
             "name": "Sicilian Defense: Staunton-Cochrane Variation"
-          },
-          "san": "e4",
-          "uci": "e2e4",
-          "white": 29
+          }
         },
         {
-          "averageRating": 2170,
-          "black": 11,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Qc2",
           "uci": "d1c2",
-          "white": 7
+          "san": "Qc2",
+          "averageRating": 2170,
+          "white": 7,
+          "draws": 1,
+          "black": 11,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "f2f4",
+          "san": "f4",
+          "averageRating": 2064,
+          "white": 2,
+          "draws": 2,
+          "black": 6,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "b2b4",
+          "san": "b4",
           "averageRating": 2117,
-          "black": 5,
+          "white": 4,
           "draws": 1,
+          "black": 5,
           "game": null,
           "opening": {
             "eco": "A30",
             "name": "English Opening: Wing Gambit"
-          },
-          "san": "b4",
-          "uci": "b2b4",
-          "white": 4
+          }
         },
         {
-          "averageRating": 2062,
-          "black": 5,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "f4",
-          "uci": "f2f4",
-          "white": 2
-        },
-        {
-          "averageRating": 2143,
-          "black": 3,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "a3",
           "uci": "a2a3",
-          "white": 3
+          "san": "a3",
+          "averageRating": 2143,
+          "white": 3,
+          "draws": 0,
+          "black": 3,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "A30",
         "name": "English Opening: Symmetrical Variation"
-      },
-      "white": 6263
+      }
     }
   }
 }

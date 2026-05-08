@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "D44",
   "months": {
@@ -5018,118 +5016,90 @@
       "white": 608
     },
     "2026-04": {
-      "black": 298,
-      "draws": 34,
+      "white": 287,
+      "draws": 35,
+      "black": 305,
       "moves": [
         {
+          "uci": "e2e4",
+          "san": "e4",
           "averageRating": 2107,
-          "black": 144,
+          "white": 155,
           "draws": 13,
+          "black": 150,
           "game": null,
           "opening": {
             "eco": "D44",
             "name": "Semi-Slav Defense: Botvinnik Variation"
-          },
-          "san": "e4",
-          "uci": "e2e4",
-          "white": 153
+          }
         },
         {
-          "averageRating": 2091,
-          "black": 100,
-          "draws": 18,
-          "game": null,
-          "opening": null,
-          "san": "a4",
           "uci": "a2a4",
-          "white": 86
+          "san": "a4",
+          "averageRating": 2091,
+          "white": 86,
+          "draws": 19,
+          "black": 100,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2083,
-          "black": 48,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "e3",
           "uci": "e2e3",
-          "white": 36
+          "san": "e3",
+          "averageRating": 2083,
+          "white": 37,
+          "draws": 2,
+          "black": 49,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2075,
-          "black": 5,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Bxf6",
           "uci": "g5f6",
-          "white": 6
-        },
-        {
-          "averageRating": 2107,
-          "black": 0,
-          "draws": 0,
+          "san": "Bxf6",
+          "averageRating": 2075,
+          "white": 6,
+          "draws": 1,
+          "black": 5,
           "game": null,
-          "opening": null,
-          "san": "g3",
+          "opening": null
+        },
+        {
           "uci": "g2g3",
-          "white": 2
-        },
-        {
-          "averageRating": 2079,
-          "black": 1,
+          "san": "g3",
+          "averageRating": 2107,
+          "white": 2,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "Leonski",
-              "rating": 2105
-            },
-            "id": "RI336TvT",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Muhammmed_mostafa",
-              "rating": 2079
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Ne5",
-          "uci": "f3e5",
-          "white": 0
-        },
-        {
-          "averageRating": 2030,
           "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f3e5",
+          "san": "Ne5",
+          "averageRating": 2079,
+          "white": 0,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "favorable2023",
-              "rating": 2007
-            },
-            "id": "OtOk6yPk",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "rikku01",
-              "rating": 2030
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Qc2",
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "d1c2",
-          "white": 1
+          "san": "Qc2",
+          "averageRating": 2030,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "D44",
         "name": "Semi-Slav Defense Accepted"
-      },
-      "white": 284
+      }
     }
   }
 }

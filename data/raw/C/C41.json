@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C41",
   "months": {
@@ -5350,141 +5348,143 @@
       "white": 16266
     },
     "2026-04": {
-      "black": 7267,
-      "draws": 811,
+      "white": 8522,
+      "draws": 827,
+      "black": 7396,
       "moves": [
         {
-          "averageRating": 2090,
-          "black": 3550,
-          "draws": 428,
-          "game": null,
-          "opening": {
-            "eco": "C41",
-            "name": "Philidor Defense"
-          },
-          "san": "d4",
           "uci": "d2d4",
-          "white": 4195
-        },
-        {
-          "averageRating": 2073,
-          "black": 2641,
-          "draws": 271,
+          "san": "d4",
+          "averageRating": 2090,
+          "white": 4265,
+          "draws": 438,
+          "black": 3602,
           "game": null,
           "opening": {
             "eco": "C41",
             "name": "Philidor Defense"
-          },
-          "san": "Bc4",
+          }
+        },
+        {
           "uci": "f1c4",
-          "white": 3009
-        },
-        {
-          "averageRating": 2077,
-          "black": 454,
-          "draws": 44,
-          "game": null,
-          "opening": null,
-          "san": "Nc3",
-          "uci": "b1c3",
-          "white": 486
-        },
-        {
-          "averageRating": 2077,
-          "black": 269,
-          "draws": 27,
-          "game": null,
-          "opening": null,
-          "san": "c3",
-          "uci": "c2c3",
-          "white": 305
-        },
-        {
-          "averageRating": 2060,
-          "black": 155,
-          "draws": 17,
-          "game": null,
-          "opening": null,
-          "san": "h3",
-          "uci": "h2h3",
-          "white": 184
-        },
-        {
-          "averageRating": 2072,
-          "black": 73,
-          "draws": 5,
-          "game": null,
-          "opening": null,
-          "san": "Bb5+",
-          "uci": "f1b5",
-          "white": 51
-        },
-        {
-          "averageRating": 2077,
-          "black": 45,
-          "draws": 7,
-          "game": null,
-          "opening": null,
-          "san": "d3",
-          "uci": "d2d3",
-          "white": 57
-        },
-        {
-          "averageRating": 2103,
-          "black": 20,
-          "draws": 3,
-          "game": null,
-          "opening": null,
-          "san": "g3",
-          "uci": "g2g3",
-          "white": 30
-        },
-        {
-          "averageRating": 2049,
-          "black": 25,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "Be2",
-          "uci": "f1e2",
-          "white": 22
-        },
-        {
-          "averageRating": 2097,
-          "black": 20,
-          "draws": 3,
-          "game": null,
-          "opening": null,
-          "san": "c4",
-          "uci": "c2c4",
-          "white": 24
-        },
-        {
+          "san": "Bc4",
           "averageRating": 2073,
-          "black": 8,
-          "draws": 1,
+          "white": 3059,
+          "draws": 274,
+          "black": 2698,
           "game": null,
-          "opening": null,
-          "san": "b3",
-          "uci": "b2b3",
-          "white": 7
+          "opening": {
+            "eco": "C41",
+            "name": "Philidor Defense"
+          }
         },
         {
-          "averageRating": 2048,
-          "black": 1,
-          "draws": 1,
+          "uci": "b1c3",
+          "san": "Nc3",
+          "averageRating": 2076,
+          "white": 494,
+          "draws": 46,
+          "black": 460,
           "game": null,
-          "opening": null,
-          "san": "Bd3",
+          "opening": null
+        },
+        {
+          "uci": "c2c3",
+          "san": "c3",
+          "averageRating": 2077,
+          "white": 311,
+          "draws": 27,
+          "black": 273,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "h2h3",
+          "san": "h3",
+          "averageRating": 2060,
+          "white": 187,
+          "draws": 18,
+          "black": 158,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f1b5",
+          "san": "Bb5+",
+          "averageRating": 2072,
+          "white": 51,
+          "draws": 5,
+          "black": 75,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d2d3",
+          "san": "d3",
+          "averageRating": 2077,
+          "white": 58,
+          "draws": 7,
+          "black": 45,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "g2g3",
+          "san": "g3",
+          "averageRating": 2106,
+          "white": 30,
+          "draws": 3,
+          "black": 22,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f1e2",
+          "san": "Be2",
+          "averageRating": 2052,
+          "white": 22,
+          "draws": 4,
+          "black": 26,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c2c4",
+          "san": "c4",
+          "averageRating": 2097,
+          "white": 24,
+          "draws": 3,
+          "black": 20,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "b2b3",
+          "san": "b3",
+          "averageRating": 2072,
+          "white": 7,
+          "draws": 1,
+          "black": 9,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "f1d3",
-          "white": 7
+          "san": "Bd3",
+          "averageRating": 2048,
+          "white": 7,
+          "draws": 1,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C41",
         "name": "Philidor Defense"
-      },
-      "white": 8384
+      }
     }
   }
 }

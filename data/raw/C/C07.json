@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C07",
   "months": {
@@ -4706,135 +4704,107 @@
       "white": 400
     },
     "2026-04": {
-      "black": 227,
+      "white": 238,
       "draws": 43,
+      "black": 228,
       "moves": [
         {
-          "averageRating": 2108,
-          "black": 166,
-          "draws": 35,
-          "game": null,
-          "opening": null,
-          "san": "Ngf3",
           "uci": "g1f3",
-          "white": 179
+          "san": "Ngf3",
+          "averageRating": 2109,
+          "white": 183,
+          "draws": 35,
+          "black": 167,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2107,
-          "black": 43,
-          "draws": 5,
-          "game": null,
-          "opening": null,
-          "san": "dxc5",
           "uci": "d4c5",
-          "white": 37
+          "san": "dxc5",
+          "averageRating": 2108,
+          "white": 39,
+          "draws": 5,
+          "black": 43,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2088,
-          "black": 4,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "Bc4",
           "uci": "f1c4",
-          "white": 6
+          "san": "Bc4",
+          "averageRating": 2088,
+          "white": 6,
+          "draws": 2,
+          "black": 4,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2091,
-          "black": 4,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Bb5+",
           "uci": "f1b5",
-          "white": 3
-        },
-        {
-          "averageRating": 2085,
+          "san": "Bb5+",
+          "averageRating": 2091,
+          "white": 3,
+          "draws": 1,
           "black": 4,
-          "draws": 0,
           "game": null,
-          "opening": null,
-          "san": "Nb3",
+          "opening": null
+        },
+        {
           "uci": "d2b3",
-          "white": 2
+          "san": "Nb3",
+          "averageRating": 2085,
+          "white": 2,
+          "draws": 0,
+          "black": 4,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2110,
-          "black": 2,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Ndf3",
           "uci": "d2f3",
-          "white": 4
-        },
-        {
-          "averageRating": 2098,
-          "black": 3,
+          "san": "Ndf3",
+          "averageRating": 2110,
+          "white": 4,
           "draws": 0,
+          "black": 2,
           "game": null,
-          "opening": null,
-          "san": "c4",
+          "opening": null
+        },
+        {
           "uci": "c2c4",
-          "white": 0
+          "san": "c4",
+          "averageRating": 2098,
+          "white": 0,
+          "draws": 0,
+          "black": 3,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2002,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "iidxpanda",
-              "rating": 2127
-            },
-            "id": "0SVrkVYt",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "GuilleMI",
-              "rating": 2002
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "c3",
           "uci": "c2c3",
-          "white": 1
+          "san": "c3",
+          "averageRating": 2002,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2060,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "Cellogouveia",
-              "rating": 2108
-            },
-            "id": "XdZfEShk",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Elivator",
-              "rating": 2060
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Qf3",
           "uci": "d1f3",
-          "white": 0
+          "san": "Qf3",
+          "averageRating": 2060,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C07",
         "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
-      },
-      "white": 232
+      }
     }
   }
 }

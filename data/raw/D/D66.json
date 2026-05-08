@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "D66",
   "months": {
@@ -5236,165 +5234,137 @@
       "white": 251
     },
     "2026-04": {
-      "black": 111,
+      "white": 171,
       "draws": 13,
+      "black": 112,
       "moves": [
         {
-          "averageRating": 2090,
-          "black": 47,
-          "draws": 8,
-          "game": null,
-          "opening": null,
-          "san": "dxc4",
           "uci": "d5c4",
-          "white": 75
+          "san": "dxc4",
+          "averageRating": 2090,
+          "white": 76,
+          "draws": 8,
+          "black": 47,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2084,
-          "black": 26,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "h6",
           "uci": "h7h6",
-          "white": 37
+          "san": "h6",
+          "averageRating": 2086,
+          "white": 38,
+          "draws": 1,
+          "black": 27,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2105,
-          "black": 13,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "Re8",
           "uci": "f8e8",
-          "white": 18
-        },
-        {
-          "averageRating": 2084,
-          "black": 8,
+          "san": "Re8",
+          "averageRating": 2110,
+          "white": 20,
           "draws": 2,
+          "black": 13,
           "game": null,
-          "opening": null,
-          "san": "b6",
+          "opening": null
+        },
+        {
           "uci": "b7b6",
-          "white": 16
-        },
-        {
-          "averageRating": 2105,
-          "black": 9,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "a6",
-          "uci": "a7a6",
-          "white": 13
-        },
-        {
-          "averageRating": 2100,
-          "black": 3,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Qa5",
-          "uci": "d8a5",
-          "white": 2
-        },
-        {
-          "averageRating": 2127,
-          "black": 0,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "a5",
-          "uci": "a7a5",
-          "white": 2
-        },
-        {
+          "san": "b6",
           "averageRating": 2084,
-          "black": 0,
-          "draws": 0,
+          "white": 16,
+          "draws": 2,
+          "black": 8,
           "game": null,
-          "opening": null,
-          "san": "Ng4",
-          "uci": "f6g4",
-          "white": 2
+          "opening": null
         },
         {
-          "averageRating": 2014,
-          "black": 2,
+          "uci": "a7a6",
+          "san": "a6",
+          "averageRating": 2105,
+          "white": 13,
           "draws": 0,
+          "black": 9,
           "game": null,
-          "opening": null,
-          "san": "c5",
+          "opening": null
+        },
+        {
+          "uci": "d8a5",
+          "san": "Qa5",
+          "averageRating": 2100,
+          "white": 2,
+          "draws": 0,
+          "black": 3,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "c6c5",
-          "white": 0
-        },
-        {
-          "averageRating": 2154,
-          "black": 1,
+          "san": "c5",
+          "averageRating": 2040,
+          "white": 1,
           "draws": 0,
+          "black": 2,
           "game": null,
-          "opening": null,
-          "san": "Nh5",
+          "opening": null
+        },
+        {
+          "uci": "a7a5",
+          "san": "a5",
+          "averageRating": 2127,
+          "white": 2,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f6g4",
+          "san": "Ng4",
+          "averageRating": 2084,
+          "white": 2,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "f6h5",
-          "white": 1
+          "san": "Nh5",
+          "averageRating": 2154,
+          "white": 1,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2036,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "Michel1979",
-              "rating": 2036
-            },
-            "id": "ZXFglmq6",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "IgorTsoj",
-              "rating": 2059
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Ne8",
           "uci": "f6e8",
-          "white": 0
+          "san": "Ne8",
+          "averageRating": 2036,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2044,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "c4n_5827",
-              "rating": 2044
-            },
-            "id": "t1hQiEjd",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Ifachabe",
-              "rating": 2047
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Bd6",
           "uci": "e7d6",
-          "white": 0
+          "san": "Bd6",
+          "averageRating": 2044,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "D66",
         "name": "Queen's Gambit Declined: Orthodox Defense, Bd3 Line"
-      },
-      "white": 166
+      }
     }
   }
 }

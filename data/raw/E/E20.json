@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "E20",
   "months": {
@@ -6286,165 +6284,167 @@
       "white": 12057
     },
     "2026-04": {
-      "black": 6005,
-      "draws": 743,
+      "white": 6353,
+      "draws": 757,
+      "black": 6108,
       "moves": [
         {
-          "averageRating": 2092,
-          "black": 1479,
-          "draws": 203,
+          "uci": "d1c2",
+          "san": "Qc2",
+          "averageRating": 2091,
+          "white": 1626,
+          "draws": 206,
+          "black": 1509,
           "game": null,
           "opening": {
             "eco": "E32",
             "name": "Nimzo-Indian Defense: Classical Variation"
-          },
-          "san": "Qc2",
-          "uci": "d1c2",
-          "white": 1610
+          }
         },
         {
+          "uci": "e2e3",
+          "san": "e3",
           "averageRating": 2094,
-          "black": 975,
-          "draws": 107,
+          "white": 1079,
+          "draws": 108,
+          "black": 993,
           "game": null,
           "opening": {
             "eco": "E40",
             "name": "Nimzo-Indian Defense: Rubinstein System"
-          },
-          "san": "e3",
-          "uci": "e2e3",
-          "white": 1064
+          }
         },
         {
+          "uci": "g1f3",
+          "san": "Nf3",
           "averageRating": 2075,
-          "black": 819,
-          "draws": 92,
+          "white": 840,
+          "draws": 95,
+          "black": 832,
           "game": null,
           "opening": {
             "eco": "E21",
             "name": "Nimzo-Indian Defense: Three Knights Variation"
-          },
-          "san": "Nf3",
-          "uci": "g1f3",
-          "white": 824
+          }
         },
         {
-          "averageRating": 2071,
-          "black": 707,
-          "draws": 109,
-          "game": null,
-          "opening": null,
-          "san": "Bd2",
           "uci": "c1d2",
-          "white": 618
+          "san": "Bd2",
+          "averageRating": 2071,
+          "white": 630,
+          "draws": 113,
+          "black": 720,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "c1g5",
+          "san": "Bg5",
           "averageRating": 2071,
-          "black": 695,
-          "draws": 90,
+          "white": 648,
+          "draws": 91,
+          "black": 705,
           "game": null,
           "opening": {
             "eco": "E30",
             "name": "Nimzo-Indian Defense: Leningrad Variation"
-          },
-          "san": "Bg5",
-          "uci": "c1g5",
-          "white": 635
+          }
         },
         {
+          "uci": "a2a3",
+          "san": "a3",
           "averageRating": 2091,
-          "black": 377,
+          "white": 461,
           "draws": 42,
+          "black": 384,
           "game": null,
           "opening": {
             "eco": "E24",
             "name": "Nimzo-Indian Defense: S\u00e4misch Variation"
-          },
-          "san": "a3",
-          "uci": "a2a3",
-          "white": 453
+          }
         },
         {
+          "uci": "f2f3",
+          "san": "f3",
           "averageRating": 2101,
-          "black": 372,
+          "white": 468,
           "draws": 35,
+          "black": 377,
           "game": null,
           "opening": {
             "eco": "E20",
             "name": "Nimzo-Indian Defense: Kmoch Variation"
-          },
-          "san": "f3",
-          "uci": "f2f3",
-          "white": 462
+          }
         },
         {
-          "averageRating": 2091,
-          "black": 291,
-          "draws": 35,
+          "uci": "d1b3",
+          "san": "Qb3",
+          "averageRating": 2090,
+          "white": 305,
+          "draws": 36,
+          "black": 295,
           "game": null,
           "opening": {
             "eco": "E22",
             "name": "Nimzo-Indian Defense: Spielmann Variation"
-          },
-          "san": "Qb3",
-          "uci": "d1b3",
-          "white": 302
+          }
         },
         {
-          "averageRating": 2057,
-          "black": 113,
-          "draws": 14,
-          "game": null,
-          "opening": null,
-          "san": "Bf4",
           "uci": "c1f4",
-          "white": 100
+          "san": "Bf4",
+          "averageRating": 2058,
+          "white": 103,
+          "draws": 14,
+          "black": 113,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2102,
+          "uci": "g2g3",
+          "san": "g3",
+          "averageRating": 2103,
+          "white": 113,
+          "draws": 5,
           "black": 94,
-          "draws": 4,
           "game": null,
           "opening": {
             "eco": "E20",
             "name": "Nimzo-Indian Defense: Romanishin Variation"
-          },
-          "san": "g3",
-          "uci": "g2g3",
-          "white": 110
+          }
         },
         {
+          "uci": "e2e4",
+          "san": "e4",
           "averageRating": 2080,
-          "black": 53,
+          "white": 51,
           "draws": 4,
+          "black": 54,
           "game": null,
           "opening": {
             "eco": "E20",
             "name": "Nimzo-Indian Defense: Dilworth Gambit"
-          },
-          "san": "e4",
-          "uci": "e2e4",
-          "white": 51
+          }
         },
         {
+          "uci": "d1d3",
+          "san": "Qd3",
           "averageRating": 2101,
-          "black": 5,
+          "white": 10,
           "draws": 3,
+          "black": 5,
           "game": null,
           "opening": {
             "eco": "E20",
             "name": "Nimzo-Indian Defense: Mikenas Attack"
-          },
-          "san": "Qd3",
-          "uci": "d1d3",
-          "white": 10
+          }
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "E20",
         "name": "Nimzo-Indian Defense"
-      },
-      "white": 6257
+      }
     }
   }
 }

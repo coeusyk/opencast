@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "E91",
   "months": {
@@ -6341,225 +6339,137 @@
       "white": 245
     },
     "2026-04": {
-      "black": 129,
+      "white": 138,
       "draws": 25,
+      "black": 130,
       "moves": [
         {
-          "averageRating": 2106,
-          "black": 101,
-          "draws": 22,
-          "game": null,
-          "opening": null,
-          "san": "O-O",
           "uci": "e1h1",
-          "white": 109
-        },
-        {
-          "averageRating": 2094,
-          "black": 10,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Be3",
-          "uci": "c1e3",
-          "white": 10
-        },
-        {
-          "averageRating": 2108,
-          "black": 5,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "h3",
-          "uci": "h2h3",
-          "white": 4
-        },
-        {
-          "averageRating": 2012,
-          "black": 6,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "a3",
-          "uci": "a2a3",
-          "white": 3
-        },
-        {
+          "san": "O-O",
           "averageRating": 2106,
-          "black": 3,
-          "draws": 0,
+          "white": 111,
+          "draws": 22,
+          "black": 102,
           "game": null,
-          "opening": null,
-          "san": "Bg5",
-          "uci": "c1g5",
-          "white": 5
+          "opening": null
         },
         {
-          "averageRating": 2010,
-          "black": 1,
+          "uci": "c1e3",
+          "san": "Be3",
+          "averageRating": 2094,
+          "white": 10,
           "draws": 1,
+          "black": 10,
           "game": null,
-          "opening": null,
-          "san": "Nd2",
+          "opening": null
+        },
+        {
+          "uci": "a2a3",
+          "san": "a3",
+          "averageRating": 2028,
+          "white": 4,
+          "draws": 0,
+          "black": 6,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "h2h3",
+          "san": "h3",
+          "averageRating": 2108,
+          "white": 4,
+          "draws": 1,
+          "black": 5,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c1g5",
+          "san": "Bg5",
+          "averageRating": 2106,
+          "white": 5,
+          "draws": 0,
+          "black": 3,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "f3d2",
-          "white": 1
+          "san": "Nd2",
+          "averageRating": 2010,
+          "white": 1,
+          "draws": 1,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 1994,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "DadTad",
-              "rating": 2008
-            },
-            "id": "0TyGvaDd",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "TheFastestManAlive",
-              "rating": 1994
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "a4",
           "uci": "a2a4",
-          "white": 0
+          "san": "a4",
+          "averageRating": 1994,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2079,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "kasparovgenoa",
-              "rating": 2118
-            },
-            "id": "h6jqqjCa",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "TheGreatOguns",
-              "rating": 2079
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "d5",
           "uci": "d4d5",
-          "white": 0
-        },
-        {
-          "averageRating": 2141,
-          "black": 0,
+          "san": "d5",
+          "averageRating": 2079,
+          "white": 0,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "fredgra2",
-              "rating": 2142
-            },
-            "id": "SVQhXV7r",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Redmi317",
-              "rating": 2141
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Bf4",
-          "uci": "c1f4",
-          "white": 1
-        },
-        {
-          "averageRating": 2035,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "Discipliiina",
-              "rating": 2061
-            },
-            "id": "KcfYpQU8",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "capamatojav",
-              "rating": 2035
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "h4",
-          "uci": "h2h4",
-          "white": 1
-        },
-        {
-          "averageRating": 2110,
           "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "Pankratov_Oleg",
-              "rating": 2272
-            },
-            "id": "oFkAvN6S",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Goupillac",
-              "rating": 2110
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "g3",
-          "uci": "g2g3",
-          "white": 0
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2243,
-          "black": 0,
+          "uci": "c1f4",
+          "san": "Bf4",
+          "averageRating": 2141,
+          "white": 1,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "pramodkumar93",
-              "rating": 2137
-            },
-            "id": "aomk0oX2",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Rooking51",
-              "rating": 2243
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Qc2",
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "h2h4",
+          "san": "h4",
+          "averageRating": 2035,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "g2g3",
+          "san": "g3",
+          "averageRating": 2110,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "d1c2",
-          "white": 1
+          "san": "Qc2",
+          "averageRating": 2243,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "E91",
         "name": "King's Indian Defense: Kazakh Variation"
-      },
-      "white": 135
+      }
     }
   }
 }

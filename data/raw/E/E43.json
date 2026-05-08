@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "E43",
   "months": {
@@ -5698,143 +5696,130 @@
       "white": 328
     },
     "2026-04": {
-      "black": 198,
-      "draws": 18,
+      "white": 189,
+      "draws": 19,
+      "black": 200,
       "moves": [
         {
-          "averageRating": 2087,
-          "black": 81,
-          "draws": 3,
-          "game": null,
-          "opening": null,
-          "san": "Bd3",
           "uci": "f1d3",
-          "white": 73
+          "san": "Bd3",
+          "averageRating": 2086,
+          "white": 75,
+          "draws": 4,
+          "black": 82,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "g1e2",
+          "san": "Ne2",
           "averageRating": 2114,
-          "black": 54,
+          "white": 65,
           "draws": 8,
+          "black": 54,
           "game": null,
           "opening": {
             "eco": "E44",
             "name": "Nimzo-Indian Defense: St. Petersburg Variation"
-          },
-          "san": "Ne2",
-          "uci": "g1e2",
-          "white": 65
+          }
         },
         {
-          "averageRating": 2068,
-          "black": 35,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "Nf3",
           "uci": "g1f3",
-          "white": 30
+          "san": "Nf3",
+          "averageRating": 2070,
+          "white": 32,
+          "draws": 4,
+          "black": 35,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2064,
-          "black": 7,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Bd2",
           "uci": "c1d2",
-          "white": 4
+          "san": "Bd2",
+          "averageRating": 2064,
+          "white": 4,
+          "draws": 1,
+          "black": 7,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2109,
-          "black": 6,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "a3",
           "uci": "a2a3",
-          "white": 2
+          "san": "a3",
+          "averageRating": 2118,
+          "white": 2,
+          "draws": 0,
+          "black": 7,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2050,
-          "black": 6,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Qc2",
           "uci": "d1c2",
-          "white": 2
+          "san": "Qc2",
+          "averageRating": 2050,
+          "white": 2,
+          "draws": 0,
+          "black": 6,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2087,
-          "black": 4,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Be2",
           "uci": "f1e2",
-          "white": 1
-        },
-        {
-          "averageRating": 2078,
-          "black": 2,
+          "san": "Be2",
+          "averageRating": 2087,
+          "white": 1,
           "draws": 1,
+          "black": 4,
           "game": null,
-          "opening": null,
-          "san": "Qb3",
+          "opening": null
+        },
+        {
           "uci": "d1b3",
-          "white": 2
-        },
-        {
-          "averageRating": 2076,
-          "black": 0,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Qf3",
-          "uci": "d1f3",
-          "white": 5
-        },
-        {
-          "averageRating": 2053,
+          "san": "Qb3",
+          "averageRating": 2078,
+          "white": 2,
+          "draws": 1,
           "black": 2,
-          "draws": 0,
           "game": null,
-          "opening": null,
-          "san": "f3",
-          "uci": "f2f3",
-          "white": 1
+          "opening": null
         },
         {
-          "averageRating": 1920,
-          "black": 1,
+          "uci": "d1f3",
+          "san": "Qf3",
+          "averageRating": 2076,
+          "white": 5,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "Malabu",
-              "rating": 2166
-            },
-            "id": "IozqJyyJ",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "elal7700",
-              "rating": 1920
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "g3",
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f2f3",
+          "san": "f3",
+          "averageRating": 2053,
+          "white": 1,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "g2g3",
-          "white": 0
+          "san": "g3",
+          "averageRating": 1920,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "E43",
         "name": "Nimzo-Indian Defense: St. Petersburg Variation"
-      },
-      "white": 185
+      }
     }
   }
 }

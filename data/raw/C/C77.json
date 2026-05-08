@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C77",
   "months": {
@@ -5721,155 +5719,127 @@
       "white": 2439
     },
     "2026-04": {
-      "black": 1024,
-      "draws": 131,
+      "white": 1197,
+      "draws": 135,
+      "black": 1039,
       "moves": [
         {
-          "averageRating": 2101,
-          "black": 635,
-          "draws": 78,
-          "game": null,
-          "opening": null,
-          "san": "b5",
           "uci": "b7b5",
-          "white": 738
+          "san": "b5",
+          "averageRating": 2101,
+          "white": 746,
+          "draws": 79,
+          "black": 646,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2100,
-          "black": 182,
-          "draws": 24,
-          "game": null,
-          "opening": null,
-          "san": "d6",
           "uci": "d7d6",
-          "white": 187
+          "san": "d6",
+          "averageRating": 2099,
+          "white": 192,
+          "draws": 26,
+          "black": 183,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2082,
-          "black": 140,
-          "draws": 21,
-          "game": null,
-          "opening": null,
-          "san": "Bc5",
           "uci": "f8c5",
-          "white": 154
+          "san": "Bc5",
+          "averageRating": 2082,
+          "white": 155,
+          "draws": 22,
+          "black": 141,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2090,
-          "black": 55,
-          "draws": 7,
-          "game": null,
-          "opening": null,
-          "san": "Be7",
           "uci": "f8e7",
-          "white": 79
+          "san": "Be7",
+          "averageRating": 2091,
+          "white": 79,
+          "draws": 7,
+          "black": 57,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2049,
-          "black": 8,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "h6",
           "uci": "h7h6",
-          "white": 16
+          "san": "h6",
+          "averageRating": 2049,
+          "white": 16,
+          "draws": 0,
+          "black": 8,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2058,
-          "black": 2,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "g6",
           "uci": "g7g6",
-          "white": 1
+          "san": "g6",
+          "averageRating": 2058,
+          "white": 1,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2119,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "d5",
-          "uci": "d7d5",
-          "white": 2
-        },
-        {
-          "averageRating": 2158,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bd6",
           "uci": "f8d6",
-          "white": 2
-        },
-        {
-          "averageRating": 2080,
-          "black": 0,
-          "draws": 1,
+          "san": "Bd6",
+          "averageRating": 2158,
+          "white": 2,
+          "draws": 0,
+          "black": 1,
           "game": null,
-          "opening": null,
-          "san": "Bb4+",
-          "uci": "f8b4",
-          "white": 1
+          "opening": null
         },
         {
-          "averageRating": 2183,
-          "black": 0,
+          "uci": "d7d5",
+          "san": "d5",
+          "averageRating": 2119,
+          "white": 2,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "biciklist",
-              "rating": 2183
-            },
-            "id": "NVjWjqIi",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Edwineze",
-              "rating": 2208
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "b6",
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "b7b6",
-          "white": 1
+          "san": "b6",
+          "averageRating": 2114,
+          "white": 2,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2167,
+          "uci": "f8b4",
+          "san": "Bb4+",
+          "averageRating": 2080,
+          "white": 1,
+          "draws": 1,
           "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "MqRmI",
-              "rating": 2167
-            },
-            "id": "M8m1SfrK",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "cugopoff",
-              "rating": 2113
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Ke7",
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "e8e7",
-          "white": 1
+          "san": "Ke7",
+          "averageRating": 2167,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C77",
         "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
-      },
-      "white": 1182
+      }
     }
   }
 }

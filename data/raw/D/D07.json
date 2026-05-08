@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "D07",
   "months": {
@@ -5653,148 +5651,120 @@
       "white": 2072
     },
     "2026-04": {
-      "black": 910,
-      "draws": 108,
+      "white": 1055,
+      "draws": 110,
+      "black": 934,
       "moves": [
         {
-          "averageRating": 2083,
-          "black": 342,
-          "draws": 31,
+          "uci": "b1c3",
+          "san": "Nc3",
+          "averageRating": 2084,
+          "white": 408,
+          "draws": 33,
+          "black": 350,
           "game": null,
           "opening": {
             "eco": "D07",
             "name": "Queen's Gambit Declined: Chigorin Defense"
-          },
-          "san": "Nc3",
-          "uci": "b1c3",
-          "white": 399
+          }
         },
         {
-          "averageRating": 2094,
-          "black": 216,
-          "draws": 25,
-          "game": null,
-          "opening": null,
-          "san": "Nf3",
           "uci": "g1f3",
-          "white": 269
+          "san": "Nf3",
+          "averageRating": 2095,
+          "white": 273,
+          "draws": 25,
+          "black": 227,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2087,
-          "black": 211,
-          "draws": 33,
-          "game": null,
-          "opening": null,
-          "san": "cxd5",
           "uci": "c4d5",
-          "white": 251
+          "san": "cxd5",
+          "averageRating": 2087,
+          "white": 253,
+          "draws": 33,
+          "black": 215,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2096,
-          "black": 107,
-          "draws": 18,
-          "game": null,
-          "opening": null,
-          "san": "e3",
           "uci": "e2e3",
-          "white": 92
+          "san": "e3",
+          "averageRating": 2098,
+          "white": 96,
+          "draws": 18,
+          "black": 108,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2076,
-          "black": 11,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bf4",
           "uci": "c1f4",
-          "white": 12
+          "san": "Bf4",
+          "averageRating": 2076,
+          "white": 12,
+          "draws": 0,
+          "black": 11,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2063,
-          "black": 13,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "c5",
           "uci": "c4c5",
-          "white": 7
+          "san": "c5",
+          "averageRating": 2063,
+          "white": 7,
+          "draws": 0,
+          "black": 13,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2066,
-          "black": 7,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "g3",
           "uci": "g2g3",
-          "white": 5
-        },
-        {
-          "averageRating": 2103,
-          "black": 2,
-          "draws": 0,
+          "san": "g3",
+          "averageRating": 2066,
+          "white": 5,
+          "draws": 1,
+          "black": 7,
           "game": null,
-          "opening": null,
-          "san": "b3",
+          "opening": null
+        },
+        {
           "uci": "b2b3",
-          "white": 0
+          "san": "b3",
+          "averageRating": 2103,
+          "white": 0,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 1984,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "PawnPusher929",
-              "rating": 2016
-            },
-            "id": "XDp2xHav",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "BorisFedorov1957",
-              "rating": 1984
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "f4",
           "uci": "f2f4",
-          "white": 0
+          "san": "f4",
+          "averageRating": 1984,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2174,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "Mauricio29",
-              "rating": 2133
-            },
-            "id": "uZCYRRU5",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Mandalang",
-              "rating": 2174
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "a3",
           "uci": "a2a3",
-          "white": 1
+          "san": "a3",
+          "averageRating": 2174,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "D07",
         "name": "Queen's Gambit Declined: Chigorin Defense"
-      },
-      "white": 1036
+      }
     }
   }
 }

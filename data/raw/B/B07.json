@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "B07",
   "months": {
@@ -5350,141 +5348,143 @@
       "white": 24052
     },
     "2026-04": {
-      "black": 11691,
-      "draws": 1279,
+      "white": 12314,
+      "draws": 1310,
+      "black": 11883,
       "moves": [
         {
-          "averageRating": 2095,
-          "black": 7640,
-          "draws": 881,
-          "game": null,
-          "opening": null,
-          "san": "Nc3",
           "uci": "b1c3",
-          "white": 8199
-        },
-        {
-          "averageRating": 2077,
-          "black": 3120,
-          "draws": 302,
+          "san": "Nc3",
+          "averageRating": 2095,
+          "white": 8329,
+          "draws": 897,
+          "black": 7770,
           "game": null,
-          "opening": null,
-          "san": "Bd3",
-          "uci": "f1d3",
-          "white": 3037
+          "opening": null
         },
         {
+          "uci": "f1d3",
+          "san": "Bd3",
+          "averageRating": 2077,
+          "white": 3081,
+          "draws": 312,
+          "black": 3165,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f2f3",
+          "san": "f3",
           "averageRating": 2094,
-          "black": 425,
-          "draws": 45,
+          "white": 412,
+          "draws": 48,
+          "black": 430,
           "game": null,
           "opening": {
             "eco": "B00",
             "name": "Lion Defense: Lion's Jaw"
-          },
-          "san": "f3",
-          "uci": "f2f3",
-          "white": 405
+          }
         },
         {
-          "averageRating": 2087,
-          "black": 277,
-          "draws": 30,
-          "game": null,
-          "opening": null,
-          "san": "Nd2",
           "uci": "b1d2",
-          "white": 293
-        },
-        {
-          "averageRating": 2054,
-          "black": 73,
-          "draws": 8,
+          "san": "Nd2",
+          "averageRating": 2087,
+          "white": 298,
+          "draws": 31,
+          "black": 286,
           "game": null,
-          "opening": null,
-          "san": "e5",
-          "uci": "e4e5",
-          "white": 41
+          "opening": null
         },
         {
-          "averageRating": 2054,
-          "black": 43,
+          "uci": "e4e5",
+          "san": "e5",
+          "averageRating": 2055,
+          "white": 42,
+          "draws": 8,
+          "black": 73,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "g1f3",
+          "san": "Nf3",
+          "averageRating": 2055,
+          "white": 51,
           "draws": 3,
+          "black": 44,
           "game": null,
           "opening": {
             "eco": "B00",
             "name": "Pirc Defense: Roscher Gambit"
-          },
-          "san": "Nf3",
-          "uci": "g1f3",
-          "white": 51
+          }
         },
         {
-          "averageRating": 2090,
-          "black": 38,
-          "draws": 3,
-          "game": null,
-          "opening": null,
-          "san": "Bc4",
           "uci": "f1c4",
-          "white": 30
-        },
-        {
-          "averageRating": 2067,
-          "black": 25,
+          "san": "Bc4",
+          "averageRating": 2090,
+          "white": 30,
           "draws": 3,
+          "black": 38,
           "game": null,
-          "opening": null,
-          "san": "c4",
+          "opening": null
+        },
+        {
           "uci": "c2c4",
-          "white": 20
+          "san": "c4",
+          "averageRating": 2066,
+          "white": 21,
+          "draws": 3,
+          "black": 27,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2050,
-          "black": 13,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "f4",
           "uci": "f2f4",
-          "white": 10
+          "san": "f4",
+          "averageRating": 2052,
+          "white": 11,
+          "draws": 2,
+          "black": 13,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2078,
-          "black": 9,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Be3",
           "uci": "c1e3",
-          "white": 8
+          "san": "Be3",
+          "averageRating": 2078,
+          "white": 8,
+          "draws": 1,
+          "black": 9,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2097,
-          "black": 7,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "c3",
           "uci": "c2c3",
-          "white": 10
+          "san": "c3",
+          "averageRating": 2097,
+          "white": 10,
+          "draws": 0,
+          "black": 7,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2083,
-          "black": 5,
-          "draws": 0,
+          "uci": "d1d3",
+          "san": "Qd3",
+          "averageRating": 2060,
+          "white": 4,
+          "draws": 2,
+          "black": 3,
           "game": null,
-          "opening": null,
-          "san": "Bg5",
-          "uci": "c1g5",
-          "white": 3
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "B00",
         "name": "Pirc Defense"
-      },
-      "white": 12122
+      }
     }
   }
 }

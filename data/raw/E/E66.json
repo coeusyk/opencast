@@ -12,8 +12,7 @@
       "2024-08": "below_min_games",
       "2024-09": "below_min_games",
       "2025-02": "below_min_games",
-      "2025-04": "below_min_games",
-      "2026-04": "zero_games"
+      "2025-04": "below_min_games"
     }
   },
   "eco": "E66",
@@ -2271,80 +2270,67 @@
       "white": 212
     },
     "2026-04": {
-      "black": 115,
+      "white": 108,
       "draws": 9,
+      "black": 117,
       "moves": [
         {
-          "averageRating": 2123,
-          "black": 69,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "Na5",
           "uci": "c6a5",
-          "white": 56
-        },
-        {
-          "averageRating": 2082,
-          "black": 23,
+          "san": "Na5",
+          "averageRating": 2123,
+          "white": 58,
           "draws": 4,
+          "black": 69,
           "game": null,
-          "opening": null,
-          "san": "Nb8",
+          "opening": null
+        },
+        {
           "uci": "c6b8",
-          "white": 26
+          "san": "Nb8",
+          "averageRating": 2084,
+          "white": 26,
+          "draws": 4,
+          "black": 24,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2050,
-          "black": 11,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Ne5",
           "uci": "c6e5",
-          "white": 11
-        },
-        {
-          "averageRating": 2076,
+          "san": "Ne5",
+          "averageRating": 2055,
+          "white": 12,
+          "draws": 1,
           "black": 12,
-          "draws": 0,
           "game": null,
-          "opening": null,
-          "san": "Nb4",
-          "uci": "c6b4",
-          "white": 11
+          "opening": null
         },
         {
-          "averageRating": 2067,
-          "black": 0,
+          "uci": "c6b4",
+          "san": "Nb4",
+          "averageRating": 2076,
+          "white": 11,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "sherzod_akmalovic",
-              "rating": 2067
-            },
-            "id": "VgikwNJx",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Orly30",
-              "rating": 2048
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Nd4",
+          "black": 12,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "c6d4",
-          "white": 1
+          "san": "Nd4",
+          "averageRating": 2067,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "E66",
         "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
-      },
-      "white": 105
+      }
     }
   }
 }

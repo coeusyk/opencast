@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "B78",
   "months": {
@@ -5365,141 +5363,143 @@
       "white": 503
     },
     "2026-04": {
-      "black": 253,
+      "white": 248,
       "draws": 24,
+      "black": 255,
       "moves": [
         {
+          "uci": "a8c8",
+          "san": "Rc8",
           "averageRating": 2103,
-          "black": 126,
+          "white": 127,
           "draws": 10,
+          "black": 127,
           "game": null,
           "opening": {
             "eco": "B78",
             "name": "Sicilian Defense: Dragon Variation, Yugoslav Attack, Old Line"
-          },
-          "san": "Rc8",
-          "uci": "a8c8",
-          "white": 126
+          }
         },
         {
+          "uci": "a8b8",
+          "san": "Rb8",
           "averageRating": 2114,
-          "black": 37,
+          "white": 29,
           "draws": 2,
+          "black": 38,
           "game": null,
           "opening": {
             "eco": "B78",
             "name": "Sicilian Defense: Dragon Variation, Yugoslav Attack, Chinese Dragon"
-          },
-          "san": "Rb8",
-          "uci": "a8b8",
-          "white": 29
+          }
         },
         {
-          "averageRating": 2114,
-          "black": 34,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "Ne5",
           "uci": "c6e5",
-          "white": 26
+          "san": "Ne5",
+          "averageRating": 2115,
+          "white": 27,
+          "draws": 2,
+          "black": 34,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2119,
-          "black": 29,
-          "draws": 8,
-          "game": null,
-          "opening": null,
-          "san": "Qa5",
           "uci": "d8a5",
-          "white": 19
+          "san": "Qa5",
+          "averageRating": 2117,
+          "white": 20,
+          "draws": 8,
+          "black": 29,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2089,
-          "black": 9,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "a6",
           "uci": "a7a6",
-          "white": 15
-        },
-        {
-          "averageRating": 2083,
-          "black": 4,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Nxd4",
-          "uci": "c6d4",
-          "white": 10
-        },
-        {
-          "averageRating": 2137,
-          "black": 8,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Qc7",
-          "uci": "d8c7",
-          "white": 4
-        },
-        {
-          "averageRating": 2047,
-          "black": 4,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Qb8",
-          "uci": "d8b8",
-          "white": 3
-        },
-        {
-          "averageRating": 2076,
-          "black": 2,
+          "san": "a6",
+          "averageRating": 2089,
+          "white": 15,
           "draws": 1,
+          "black": 9,
           "game": null,
-          "opening": null,
-          "san": "Na5",
+          "opening": null
+        },
+        {
+          "uci": "c6d4",
+          "san": "Nxd4",
+          "averageRating": 2083,
+          "white": 10,
+          "draws": 0,
+          "black": 4,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d8c7",
+          "san": "Qc7",
+          "averageRating": 2137,
+          "white": 4,
+          "draws": 0,
+          "black": 8,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d8b8",
+          "san": "Qb8",
+          "averageRating": 2047,
+          "white": 3,
+          "draws": 0,
+          "black": 4,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "c6a5",
-          "white": 2
+          "san": "Na5",
+          "averageRating": 2076,
+          "white": 2,
+          "draws": 1,
+          "black": 2,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2037,
-          "black": 0,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Re8",
           "uci": "f8e8",
-          "white": 5
+          "san": "Re8",
+          "averageRating": 2037,
+          "white": 5,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2193,
-          "black": 0,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "a5",
           "uci": "a7a5",
-          "white": 2
+          "san": "a5",
+          "averageRating": 2193,
+          "white": 2,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 1958,
-          "black": 0,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "e6",
           "uci": "e7e6",
-          "white": 2
+          "san": "e6",
+          "averageRating": 1958,
+          "white": 2,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "B78",
         "name": "Sicilian Defense: Dragon Variation, Yugoslav Attack"
-      },
-      "white": 245
+      }
     }
   }
 }

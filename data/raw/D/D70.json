@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "D70",
   "months": {
@@ -5818,153 +5816,155 @@
       "white": 6863
     },
     "2026-04": {
-      "black": 3481,
-      "draws": 506,
+      "white": 3694,
+      "draws": 524,
+      "black": 3552,
       "moves": [
         {
-          "averageRating": 2093,
-          "black": 1631,
-          "draws": 243,
-          "game": null,
-          "opening": null,
-          "san": "cxd5",
           "uci": "c4d5",
-          "white": 1720
+          "san": "cxd5",
+          "averageRating": 2092,
+          "white": 1767,
+          "draws": 254,
+          "black": 1675,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "g1f3",
+          "san": "Nf3",
           "averageRating": 2095,
-          "black": 805,
-          "draws": 133,
+          "white": 849,
+          "draws": 137,
+          "black": 821,
           "game": null,
           "opening": {
             "eco": "D90",
             "name": "Gr\u00fcnfeld Defense: Three Knights Variation"
-          },
-          "san": "Nf3",
-          "uci": "g1f3",
-          "white": 831
+          }
         },
         {
-          "averageRating": 2075,
-          "black": 297,
-          "draws": 37,
-          "game": null,
-          "opening": null,
-          "san": "e3",
           "uci": "e2e3",
-          "white": 268
+          "san": "e3",
+          "averageRating": 2074,
+          "white": 274,
+          "draws": 37,
+          "black": 300,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "c1g5",
+          "san": "Bg5",
           "averageRating": 2090,
-          "black": 220,
-          "draws": 26,
+          "white": 281,
+          "draws": 27,
+          "black": 227,
           "game": null,
           "opening": {
             "eco": "D80",
             "name": "Gr\u00fcnfeld Defense: Stockholm Variation"
-          },
-          "san": "Bg5",
-          "uci": "c1g5",
-          "white": 275
+          }
         },
         {
+          "uci": "c1f4",
+          "san": "Bf4",
           "averageRating": 2077,
+          "white": 208,
+          "draws": 28,
           "black": 180,
-          "draws": 27,
           "game": null,
           "opening": {
             "eco": "D82",
             "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
-          },
-          "san": "Bf4",
-          "uci": "c1f4",
-          "white": 206
+          }
         },
         {
-          "averageRating": 2083,
-          "black": 105,
-          "draws": 7,
-          "game": null,
-          "opening": null,
-          "san": "e4",
           "uci": "e2e4",
-          "white": 73
-        },
-        {
-          "averageRating": 2085,
-          "black": 51,
+          "san": "e4",
+          "averageRating": 2082,
+          "white": 75,
           "draws": 7,
+          "black": 105,
           "game": null,
-          "opening": null,
-          "san": "g3",
-          "uci": "g2g3",
-          "white": 76
+          "opening": null
         },
         {
+          "uci": "g2g3",
+          "san": "g3",
+          "averageRating": 2085,
+          "white": 77,
+          "draws": 8,
+          "black": 51,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d1b3",
+          "san": "Qb3",
           "averageRating": 2096,
-          "black": 41,
+          "white": 47,
           "draws": 6,
+          "black": 41,
           "game": null,
           "opening": {
             "eco": "D81",
             "name": "Gr\u00fcnfeld Defense: Russian Variation, Accelerated Variation"
-          },
-          "san": "Qb3",
-          "uci": "d1b3",
-          "white": 47
+          }
         },
         {
-          "averageRating": 2060,
-          "black": 47,
+          "uci": "f2f3",
+          "san": "f3",
+          "averageRating": 2059,
+          "white": 39,
           "draws": 3,
+          "black": 47,
           "game": null,
           "opening": {
             "eco": "D80",
             "name": "Gr\u00fcnfeld Defense: Lutikov Variation"
-          },
-          "san": "f3",
-          "uci": "f2f3",
-          "white": 38
+          }
         },
         {
-          "averageRating": 2083,
-          "black": 42,
+          "uci": "h2h4",
+          "san": "h4",
+          "averageRating": 2084,
+          "white": 24,
           "draws": 5,
+          "black": 43,
           "game": null,
           "opening": {
             "eco": "D80",
             "name": "Gr\u00fcnfeld Defense: Zaitsev Gambit"
-          },
-          "san": "h4",
-          "uci": "h2h4",
-          "white": 24
+          }
         },
         {
-          "averageRating": 2065,
-          "black": 28,
-          "draws": 8,
-          "game": null,
-          "opening": null,
-          "san": "c5",
           "uci": "c4c5",
-          "white": 33
+          "san": "c5",
+          "averageRating": 2065,
+          "white": 33,
+          "draws": 8,
+          "black": 28,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2076,
-          "black": 11,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "h3",
           "uci": "h2h3",
-          "white": 9
+          "san": "h3",
+          "averageRating": 2076,
+          "white": 9,
+          "draws": 1,
+          "black": 11,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "D80",
         "name": "Gr\u00fcnfeld Defense"
-      },
-      "white": 3610
+      }
     }
   }
 }

@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "D10",
   "months": {
@@ -5584,147 +5582,149 @@
       "white": 35716
     },
     "2026-04": {
-      "black": 15863,
-      "draws": 2313,
+      "white": 19173,
+      "draws": 2349,
+      "black": 16094,
       "moves": [
         {
+          "uci": "b1c3",
+          "san": "Nc3",
           "averageRating": 2084,
-          "black": 8544,
-          "draws": 1151,
+          "white": 10117,
+          "draws": 1169,
+          "black": 8674,
           "game": null,
           "opening": {
             "eco": "D10",
             "name": "Slav Defense"
-          },
-          "san": "Nc3",
-          "uci": "b1c3",
-          "white": 9966
+          }
         },
         {
+          "uci": "g1f3",
+          "san": "Nf3",
           "averageRating": 2101,
-          "black": 3922,
-          "draws": 588,
+          "white": 4928,
+          "draws": 598,
+          "black": 3974,
           "game": null,
           "opening": {
             "eco": "D11",
             "name": "Slav Defense: Modern Line"
-          },
-          "san": "Nf3",
-          "uci": "g1f3",
-          "white": 4849
+          }
         },
         {
+          "uci": "c4d5",
+          "san": "cxd5",
           "averageRating": 2094,
-          "black": 2140,
-          "draws": 367,
+          "white": 2653,
+          "draws": 373,
+          "black": 2170,
           "game": null,
           "opening": {
             "eco": "D10",
             "name": "Slav Defense: Exchange Variation"
-          },
-          "san": "cxd5",
-          "uci": "c4d5",
-          "white": 2619
+          }
         },
         {
-          "averageRating": 2079,
-          "black": 818,
-          "draws": 139,
-          "game": null,
-          "opening": null,
-          "san": "e3",
           "uci": "e2e3",
-          "white": 963
+          "san": "e3",
+          "averageRating": 2079,
+          "white": 978,
+          "draws": 141,
+          "black": 833,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2083,
-          "black": 201,
-          "draws": 36,
-          "game": null,
-          "opening": null,
-          "san": "g3",
           "uci": "g2g3",
-          "white": 219
+          "san": "g3",
+          "averageRating": 2082,
+          "white": 222,
+          "draws": 36,
+          "black": 202,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2069,
-          "black": 74,
-          "draws": 16,
-          "game": null,
-          "opening": null,
-          "san": "Bf4",
           "uci": "c1f4",
-          "white": 101
+          "san": "Bf4",
+          "averageRating": 2069,
+          "white": 101,
+          "draws": 16,
+          "black": 75,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2052,
-          "black": 45,
-          "draws": 3,
-          "game": null,
-          "opening": null,
-          "san": "c5",
           "uci": "c4c5",
-          "white": 39
-        },
-        {
-          "averageRating": 2094,
-          "black": 25,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "Nd2",
-          "uci": "b1d2",
-          "white": 22
-        },
-        {
-          "averageRating": 2085,
-          "black": 22,
+          "san": "c5",
+          "averageRating": 2052,
+          "white": 39,
           "draws": 3,
+          "black": 46,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "b1d2",
+          "san": "Nd2",
+          "averageRating": 2094,
+          "white": 22,
+          "draws": 4,
+          "black": 25,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "e2e4",
+          "san": "e4",
+          "averageRating": 2085,
+          "white": 26,
+          "draws": 3,
+          "black": 22,
           "game": null,
           "opening": {
             "eco": "D10",
             "name": "Slav Defense: Diemer Gambit"
-          },
-          "san": "e4",
-          "uci": "e2e4",
-          "white": 26
+          }
         },
         {
-          "averageRating": 2114,
-          "black": 18,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "Qc2",
           "uci": "d1c2",
-          "white": 25
+          "san": "Qc2",
+          "averageRating": 2114,
+          "white": 25,
+          "draws": 4,
+          "black": 18,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2037,
-          "black": 15,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "a3",
-          "uci": "a2a3",
-          "white": 14
-        },
-        {
-          "averageRating": 2035,
-          "black": 13,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "b3",
           "uci": "b2b3",
-          "white": 15
+          "san": "b3",
+          "averageRating": 2034,
+          "white": 17,
+          "draws": 1,
+          "black": 14,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "a2a3",
+          "san": "a3",
+          "averageRating": 2037,
+          "white": 14,
+          "draws": 1,
+          "black": 15,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "D10",
         "name": "Slav Defense"
-      },
-      "white": 18889
+      }
     }
   }
 }

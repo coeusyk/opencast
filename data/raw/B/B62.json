@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "B62",
   "months": {
@@ -5731,165 +5729,152 @@
       "white": 577
     },
     "2026-04": {
-      "black": 278,
+      "white": 314,
       "draws": 30,
+      "black": 281,
       "moves": [
         {
-          "averageRating": 2112,
-          "black": 157,
+          "uci": "d1d2",
+          "san": "Qd2",
+          "averageRating": 2113,
+          "white": 179,
           "draws": 21,
+          "black": 159,
           "game": null,
           "opening": {
             "eco": "B63",
             "name": "Sicilian Defense: Richter-Rauzer Variation, Traditional Variation"
-          },
-          "san": "Qd2",
-          "uci": "d1d2",
-          "white": 175
+          }
         },
         {
-          "averageRating": 2100,
-          "black": 42,
-          "draws": 3,
-          "game": null,
-          "opening": null,
-          "san": "f4",
           "uci": "f2f4",
-          "white": 56
+          "san": "f4",
+          "averageRating": 2100,
+          "white": 56,
+          "draws": 3,
+          "black": 42,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2079,
-          "black": 21,
+          "uci": "f1b5",
+          "san": "Bb5",
+          "averageRating": 2083,
+          "white": 20,
           "draws": 0,
+          "black": 21,
           "game": null,
           "opening": {
             "eco": "B62",
             "name": "Sicilian Defense: Richter-Rauzer Variation, Vitolins Variation"
-          },
-          "san": "Bb5",
-          "uci": "f1b5",
-          "white": 19
+          }
         },
         {
-          "averageRating": 2089,
-          "black": 18,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "f3",
           "uci": "f2f3",
-          "white": 10
-        },
-        {
-          "averageRating": 2086,
-          "black": 9,
+          "san": "f3",
+          "averageRating": 2089,
+          "white": 10,
           "draws": 2,
+          "black": 18,
           "game": null,
-          "opening": null,
-          "san": "Be2",
-          "uci": "f1e2",
-          "white": 12
+          "opening": null
         },
         {
-          "averageRating": 2094,
-          "black": 10,
+          "uci": "f1e2",
+          "san": "Be2",
+          "averageRating": 2086,
+          "white": 12,
+          "draws": 2,
+          "black": 9,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d4c6",
+          "san": "Nxc6",
+          "averageRating": 2090,
+          "white": 10,
           "draws": 1,
+          "black": 10,
           "game": null,
           "opening": {
             "eco": "B62",
             "name": "Sicilian Defense: Richter-Rauzer Variation, Exchange Variation"
-          },
-          "san": "Nxc6",
-          "uci": "d4c6",
-          "white": 8
+          }
         },
         {
+          "uci": "d1d3",
+          "san": "Qd3",
           "averageRating": 2155,
-          "black": 7,
+          "white": 8,
           "draws": 0,
+          "black": 7,
           "game": null,
           "opening": {
             "eco": "B62",
             "name": "Sicilian Defense: Richter-Rauzer Variation"
-          },
-          "san": "Qd3",
-          "uci": "d1d3",
-          "white": 8
+          }
         },
         {
-          "averageRating": 2091,
-          "black": 5,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bc4",
           "uci": "f1c4",
-          "white": 8
+          "san": "Bc4",
+          "averageRating": 2077,
+          "white": 8,
+          "draws": 0,
+          "black": 6,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "d4b3",
+          "san": "Nb3",
           "averageRating": 2143,
-          "black": 4,
+          "white": 5,
           "draws": 1,
+          "black": 4,
           "game": null,
           "opening": {
             "eco": "B62",
             "name": "Sicilian Defense: Richter-Rauzer Variation, Podebrady Variation"
-          },
-          "san": "Nb3",
-          "uci": "d4b3",
-          "white": 5
+          }
         },
         {
-          "averageRating": 2121,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Ndb5",
           "uci": "d4b5",
-          "white": 4
-        },
-        {
-          "averageRating": 2102,
-          "black": 1,
+          "san": "Ndb5",
+          "averageRating": 2121,
+          "white": 4,
           "draws": 0,
+          "black": 1,
           "game": null,
-          "opening": null,
-          "san": "h4",
-          "uci": "h2h4",
-          "white": 1
+          "opening": null
         },
         {
-          "averageRating": 2108,
-          "black": 1,
+          "uci": "h2h4",
+          "san": "h4",
+          "averageRating": 2102,
+          "white": 1,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "Kamil51",
-              "rating": 2096
-            },
-            "id": "5TnXS2UR",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "almoharm",
-              "rating": 2108
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Bd3",
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "f1d3",
-          "white": 0
+          "san": "Bd3",
+          "averageRating": 2108,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "B62",
         "name": "Sicilian Defense: Richter-Rauzer Variation"
-      },
-      "white": 307
+      }
     }
   }
 }

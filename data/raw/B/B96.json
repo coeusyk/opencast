@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "B96",
   "months": {
@@ -6339,142 +6337,129 @@
       "white": 2019
     },
     "2026-04": {
-      "black": 890,
-      "draws": 94,
+      "white": 1101,
+      "draws": 97,
+      "black": 899,
       "moves": [
         {
-          "averageRating": 2096,
-          "black": 537,
-          "draws": 63,
+          "uci": "f8e7",
+          "san": "Be7",
+          "averageRating": 2095,
+          "white": 680,
+          "draws": 64,
+          "black": 543,
           "game": null,
           "opening": {
             "eco": "B98",
             "name": "Sicilian Defense: Najdorf Variation"
-          },
-          "san": "Be7",
-          "uci": "f8e7",
-          "white": 673
+          }
         },
         {
+          "uci": "d8b6",
+          "san": "Qb6",
           "averageRating": 2112,
-          "black": 108,
+          "white": 130,
           "draws": 8,
+          "black": 109,
           "game": null,
           "opening": {
             "eco": "B97",
             "name": "Sicilian Defense: Najdorf Variation, Poisoned Pawn Variation"
-          },
-          "san": "Qb6",
-          "uci": "d8b6",
-          "white": 128
+          }
         },
         {
-          "averageRating": 2109,
-          "black": 96,
-          "draws": 9,
-          "game": null,
-          "opening": null,
-          "san": "Nbd7",
           "uci": "b8d7",
-          "white": 107
+          "san": "Nbd7",
+          "averageRating": 2109,
+          "white": 108,
+          "draws": 10,
+          "black": 96,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2110,
-          "black": 68,
-          "draws": 5,
-          "game": null,
-          "opening": null,
-          "san": "h6",
           "uci": "h7h6",
-          "white": 99
-        },
-        {
+          "san": "h6",
           "averageRating": 2110,
-          "black": 32,
-          "draws": 4,
+          "white": 100,
+          "draws": 6,
+          "black": 69,
           "game": null,
-          "opening": null,
-          "san": "Qc7",
-          "uci": "d8c7",
-          "white": 43
+          "opening": null
         },
         {
+          "uci": "d8c7",
+          "san": "Qc7",
+          "averageRating": 2109,
+          "white": 44,
+          "draws": 4,
+          "black": 32,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "b7b5",
+          "san": "b5",
           "averageRating": 2117,
-          "black": 26,
+          "white": 26,
           "draws": 3,
+          "black": 27,
           "game": null,
           "opening": {
             "eco": "B96",
             "name": "Sicilian Defense: Najdorf Variation, Polugaevsky Variation"
-          },
-          "san": "b5",
-          "uci": "b7b5",
-          "white": 26
+          }
         },
         {
+          "uci": "b8c6",
+          "san": "Nc6",
           "averageRating": 2121,
-          "black": 21,
+          "white": 10,
           "draws": 0,
+          "black": 21,
           "game": null,
           "opening": {
             "eco": "B96",
             "name": "Sicilian Defense: Najdorf Variation, Neo-Classical Defense"
-          },
-          "san": "Nc6",
-          "uci": "b8c6",
-          "white": 10
+          }
         },
         {
-          "averageRating": 2144,
-          "black": 2,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Bd7",
           "uci": "c8d7",
-          "white": 1
-        },
-        {
-          "averageRating": 2078,
-          "black": 0,
+          "san": "Bd7",
+          "averageRating": 2144,
+          "white": 1,
           "draws": 1,
+          "black": 2,
           "game": null,
-          "opening": null,
-          "san": "Qa5",
-          "uci": "d8a5",
-          "white": 1
+          "opening": null
         },
         {
-          "averageRating": 2019,
+          "uci": "d8a5",
+          "san": "Qa5",
+          "averageRating": 2078,
+          "white": 1,
+          "draws": 1,
           "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "patenteng",
-              "rating": 2019
-            },
-            "id": "vnvRNA02",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Ljubomir1965",
-              "rating": 2041
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "e5",
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "e6e5",
-          "white": 1
+          "san": "e5",
+          "averageRating": 2019,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "B96",
         "name": "Sicilian Defense: Najdorf Variation"
-      },
-      "white": 1089
+      }
     }
   }
 }

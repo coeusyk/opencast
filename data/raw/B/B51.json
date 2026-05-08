@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "B51",
   "months": {
@@ -2113,58 +2111,60 @@
       "white": 5001
     },
     "2026-04": {
-      "black": 2250,
-      "draws": 326,
+      "white": 2635,
+      "draws": 333,
+      "black": 2277,
       "moves": [
         {
+          "uci": "c8d7",
+          "san": "Bd7",
           "averageRating": 2092,
-          "black": 1188,
-          "draws": 190,
+          "white": 1492,
+          "draws": 194,
+          "black": 1206,
           "game": null,
           "opening": {
             "eco": "B52",
             "name": "Sicilian Defense: Moscow Variation, Main Line"
-          },
-          "san": "Bd7",
-          "uci": "c8d7",
-          "white": 1465
+          }
         },
         {
-          "averageRating": 2100,
-          "black": 798,
-          "draws": 106,
-          "game": null,
-          "opening": null,
-          "san": "Nd7",
           "uci": "b8d7",
-          "white": 810
+          "san": "Nd7",
+          "averageRating": 2100,
+          "white": 820,
+          "draws": 108,
+          "black": 803,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2080,
-          "black": 263,
-          "draws": 30,
-          "game": null,
-          "opening": null,
-          "san": "Nc6",
           "uci": "b8c6",
-          "white": 311
+          "san": "Nc6",
+          "averageRating": 2080,
+          "white": 317,
+          "draws": 31,
+          "black": 267,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2069,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Qd7",
           "uci": "d8d7",
-          "white": 6
+          "san": "Qd7",
+          "averageRating": 2069,
+          "white": 6,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "B51",
         "name": "Sicilian Defense: Moscow Variation"
-      },
-      "white": 2592
+      }
     }
   }
 }

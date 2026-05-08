@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "A06",
   "months": {
@@ -5116,135 +5114,137 @@
       "white": 1870
     },
     "2026-04": {
-      "black": 1000,
-      "draws": 157,
+      "white": 1184,
+      "draws": 165,
+      "black": 1013,
       "moves": [
         {
-          "averageRating": 2096,
-          "black": 308,
-          "draws": 58,
-          "game": null,
-          "opening": null,
-          "san": "Nf6",
           "uci": "g8f6",
-          "white": 371
+          "san": "Nf6",
+          "averageRating": 2095,
+          "white": 382,
+          "draws": 60,
+          "black": 310,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2081,
-          "black": 245,
-          "draws": 28,
-          "game": null,
-          "opening": null,
-          "san": "c5",
           "uci": "c7c5",
-          "white": 303
-        },
-        {
-          "averageRating": 2092,
-          "black": 119,
-          "draws": 18,
-          "game": null,
-          "opening": null,
-          "san": "c6",
-          "uci": "c7c6",
-          "white": 107
-        },
-        {
-          "averageRating": 2063,
-          "black": 79,
-          "draws": 12,
-          "game": null,
-          "opening": null,
-          "san": "Nc6",
-          "uci": "b8c6",
-          "white": 121
-        },
-        {
-          "averageRating": 2080,
-          "black": 80,
-          "draws": 12,
-          "game": null,
-          "opening": null,
-          "san": "e6",
-          "uci": "e7e6",
-          "white": 87
-        },
-        {
-          "averageRating": 2091,
-          "black": 69,
-          "draws": 18,
-          "game": null,
-          "opening": null,
-          "san": "Bf5",
-          "uci": "c8f5",
-          "white": 74
-        },
-        {
-          "averageRating": 2089,
-          "black": 35,
-          "draws": 3,
-          "game": null,
-          "opening": null,
-          "san": "Bg4",
-          "uci": "c8g4",
-          "white": 34
-        },
-        {
-          "averageRating": 2094,
-          "black": 19,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "f6",
-          "uci": "f7f6",
-          "white": 19
-        },
-        {
-          "averageRating": 2096,
-          "black": 14,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "g6",
-          "uci": "g7g6",
-          "white": 7
-        },
-        {
+          "san": "c5",
           "averageRating": 2082,
-          "black": 8,
-          "draws": 1,
+          "white": 312,
+          "draws": 29,
+          "black": 251,
           "game": null,
-          "opening": null,
-          "san": "e5",
+          "opening": null
+        },
+        {
+          "uci": "c7c6",
+          "san": "c6",
+          "averageRating": 2091,
+          "white": 111,
+          "draws": 20,
+          "black": 120,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "b8c6",
+          "san": "Nc6",
+          "averageRating": 2064,
+          "white": 123,
+          "draws": 13,
+          "black": 80,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "e7e6",
+          "san": "e6",
+          "averageRating": 2080,
+          "white": 89,
+          "draws": 12,
+          "black": 81,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c8f5",
+          "san": "Bf5",
+          "averageRating": 2091,
+          "white": 74,
+          "draws": 18,
+          "black": 69,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c8g4",
+          "san": "Bg4",
+          "averageRating": 2093,
+          "white": 35,
+          "draws": 5,
+          "black": 35,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f7f6",
+          "san": "f6",
+          "averageRating": 2094,
+          "white": 19,
+          "draws": 2,
+          "black": 19,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "g7g6",
+          "san": "g6",
+          "averageRating": 2097,
+          "white": 7,
+          "draws": 0,
+          "black": 15,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "e7e5",
-          "white": 8
+          "san": "e5",
+          "averageRating": 2082,
+          "white": 8,
+          "draws": 1,
+          "black": 8,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2113,
-          "black": 6,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Nd7",
           "uci": "b8d7",
-          "white": 5
+          "san": "Nd7",
+          "averageRating": 2104,
+          "white": 5,
+          "draws": 1,
+          "black": 7,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2081,
-          "black": 4,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "d4",
           "uci": "d5d4",
-          "white": 5
+          "san": "d4",
+          "averageRating": 2081,
+          "white": 5,
+          "draws": 1,
+          "black": 4,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "A06",
         "name": "Nimzo-Larsen Attack: Classical Variation"
-      },
-      "white": 1155
+      }
     }
   }
 }

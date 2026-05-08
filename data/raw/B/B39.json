@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "B39",
   "months": {
@@ -3841,95 +3839,67 @@
       "white": 210
     },
     "2026-04": {
-      "black": 123,
+      "white": 96,
       "draws": 21,
+      "black": 124,
       "moves": [
         {
-          "averageRating": 2119,
-          "black": 86,
-          "draws": 10,
-          "game": null,
-          "opening": null,
-          "san": "Qxg4",
           "uci": "d1g4",
-          "white": 79
+          "san": "Qxg4",
+          "averageRating": 2118,
+          "white": 81,
+          "draws": 10,
+          "black": 87,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2078,
-          "black": 34,
-          "draws": 11,
-          "game": null,
-          "opening": null,
-          "san": "Nxc6",
           "uci": "d4c6",
-          "white": 13
-        },
-        {
-          "averageRating": 2136,
-          "black": 1,
-          "draws": 0,
+          "san": "Nxc6",
+          "averageRating": 2078,
+          "white": 13,
+          "draws": 11,
+          "black": 34,
           "game": null,
-          "opening": null,
-          "san": "Be2",
+          "opening": null
+        },
+        {
           "uci": "f1e2",
-          "white": 2
+          "san": "Be2",
+          "averageRating": 2136,
+          "white": 2,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2010,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "zuojj999",
-              "rating": 2147
-            },
-            "id": "VVL13Z0M",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "JOYNNER2002",
-              "rating": 2010
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Nf5",
           "uci": "d4f5",
-          "white": 0
+          "san": "Nf5",
+          "averageRating": 2010,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2173,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "porcupinetree78",
-              "rating": 2060
-            },
-            "id": "apCSi3Bp",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "AfrimBellanica",
-              "rating": 2173
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Qd2",
           "uci": "d1d2",
-          "white": 0
+          "san": "Qd2",
+          "averageRating": 2173,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "B39",
         "name": "Sicilian Defense: Accelerated Dragon, Mar\u00f3czy Bind, Breyer Variation"
-      },
-      "white": 94
+      }
     }
   }
 }

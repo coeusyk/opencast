@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "B45",
   "months": {
@@ -5233,138 +5231,140 @@
       "white": 4212
     },
     "2026-04": {
-      "black": 2129,
-      "draws": 265,
+      "white": 1993,
+      "draws": 270,
+      "black": 2160,
       "moves": [
         {
+          "uci": "d4c6",
+          "san": "Nxc6",
           "averageRating": 2097,
-          "black": 489,
+          "white": 455,
           "draws": 52,
+          "black": 498,
           "game": null,
           "opening": {
             "eco": "B45",
             "name": "Sicilian Defense: Four Knights Variation, Exchange Variation"
-          },
-          "san": "Nxc6",
-          "uci": "d4c6",
-          "white": 445
+          }
         },
         {
-          "averageRating": 2075,
-          "black": 514,
-          "draws": 54,
-          "game": null,
-          "opening": null,
-          "san": "Be3",
           "uci": "c1e3",
-          "white": 412
+          "san": "Be3",
+          "averageRating": 2075,
+          "white": 421,
+          "draws": 54,
+          "black": 522,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2118,
-          "black": 315,
-          "draws": 58,
-          "game": null,
-          "opening": null,
-          "san": "Ndb5",
           "uci": "d4b5",
-          "white": 383
+          "san": "Ndb5",
+          "averageRating": 2118,
+          "white": 394,
+          "draws": 59,
+          "black": 319,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2094,
-          "black": 186,
-          "draws": 28,
-          "game": null,
-          "opening": null,
-          "san": "Be2",
           "uci": "f1e2",
-          "white": 161
+          "san": "Be2",
+          "averageRating": 2093,
+          "white": 163,
+          "draws": 30,
+          "black": 188,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2068,
-          "black": 198,
-          "draws": 21,
-          "game": null,
-          "opening": null,
-          "san": "Bg5",
           "uci": "c1g5",
-          "white": 143
+          "san": "Bg5",
+          "averageRating": 2069,
+          "white": 146,
+          "draws": 21,
+          "black": 200,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2098,
-          "black": 109,
-          "draws": 24,
-          "game": null,
-          "opening": null,
-          "san": "a3",
           "uci": "a2a3",
-          "white": 115
+          "san": "a3",
+          "averageRating": 2099,
+          "white": 116,
+          "draws": 25,
+          "black": 111,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2059,
-          "black": 79,
-          "draws": 6,
-          "game": null,
-          "opening": null,
-          "san": "f3",
           "uci": "f2f3",
-          "white": 66
-        },
-        {
-          "averageRating": 2071,
-          "black": 79,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "Bc4",
-          "uci": "f1c4",
-          "white": 64
-        },
-        {
-          "averageRating": 2110,
-          "black": 31,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "g3",
-          "uci": "g2g3",
-          "white": 44
-        },
-        {
-          "averageRating": 2065,
-          "black": 31,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "Nb3",
-          "uci": "d4b3",
-          "white": 44
-        },
-        {
-          "averageRating": 2042,
-          "black": 32,
+          "san": "f3",
+          "averageRating": 2059,
+          "white": 67,
           "draws": 6,
+          "black": 80,
           "game": null,
-          "opening": null,
-          "san": "Bb5",
-          "uci": "f1b5",
-          "white": 26
+          "opening": null
         },
         {
-          "averageRating": 2053,
-          "black": 16,
-          "draws": 1,
+          "uci": "f1c4",
+          "san": "Bc4",
+          "averageRating": 2071,
+          "white": 65,
+          "draws": 4,
+          "black": 79,
           "game": null,
-          "opening": null,
-          "san": "f4",
+          "opening": null
+        },
+        {
+          "uci": "g2g3",
+          "san": "g3",
+          "averageRating": 2110,
+          "white": 45,
+          "draws": 5,
+          "black": 33,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d4b3",
+          "san": "Nb3",
+          "averageRating": 2065,
+          "white": 44,
+          "draws": 2,
+          "black": 31,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f1b5",
+          "san": "Bb5",
+          "averageRating": 2042,
+          "white": 26,
+          "draws": 6,
+          "black": 32,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "f2f4",
-          "white": 11
+          "san": "f4",
+          "averageRating": 2053,
+          "white": 11,
+          "draws": 1,
+          "black": 16,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "B45",
         "name": "Sicilian Defense: Four Knights Variation"
-      },
-      "white": 1951
+      }
     }
   }
 }

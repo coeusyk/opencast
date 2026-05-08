@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C63",
   "months": {
@@ -6474,167 +6472,139 @@
       "white": 1931
     },
     "2026-04": {
-      "black": 1147,
-      "draws": 92,
+      "white": 1022,
+      "draws": 93,
+      "black": 1162,
       "moves": [
         {
-          "averageRating": 2101,
-          "black": 492,
-          "draws": 35,
-          "game": null,
-          "opening": null,
-          "san": "d3",
           "uci": "d2d3",
-          "white": 407
+          "san": "d3",
+          "averageRating": 2101,
+          "white": 414,
+          "draws": 36,
+          "black": 500,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "b1c3",
+          "san": "Nc3",
           "averageRating": 2111,
-          "black": 164,
+          "white": 169,
           "draws": 18,
+          "black": 165,
           "game": null,
           "opening": {
             "eco": "C63",
             "name": "Ruy Lopez: Schliemann Defense, Dyckhoff Variation"
-          },
-          "san": "Nc3",
-          "uci": "b1c3",
-          "white": 165
+          }
         },
         {
+          "uci": "b5c6",
+          "san": "Bxc6",
           "averageRating": 2070,
-          "black": 169,
+          "white": 144,
           "draws": 17,
+          "black": 170,
           "game": null,
           "opening": {
             "eco": "C63",
             "name": "Ruy Lopez: Schliemann Defense, Exchange Variation"
-          },
-          "san": "Bxc6",
-          "uci": "b5c6",
-          "white": 143
+          }
         },
         {
+          "uci": "e4f5",
+          "san": "exf5",
           "averageRating": 2078,
-          "black": 129,
+          "white": 116,
           "draws": 14,
+          "black": 131,
           "game": null,
           "opening": {
             "eco": "C63",
             "name": "Ruy Lopez: Schliemann Defense, Jaenisch Gambit Accepted"
-          },
-          "san": "exf5",
-          "uci": "e4f5",
-          "white": 112
+          }
         },
         {
+          "uci": "d2d4",
+          "san": "d4",
           "averageRating": 2099,
-          "black": 131,
+          "white": 123,
           "draws": 5,
+          "black": 133,
           "game": null,
           "opening": {
             "eco": "C63",
             "name": "Ruy Lopez: Schliemann Defense, Sch\u00f6nemann Attack"
-          },
-          "san": "d4",
-          "uci": "d2d4",
-          "white": 119
+          }
         },
         {
-          "averageRating": 2084,
-          "black": 42,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "O-O",
           "uci": "e1h1",
-          "white": 37
+          "san": "O-O",
+          "averageRating": 2084,
+          "white": 37,
+          "draws": 2,
+          "black": 42,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2136,
-          "black": 12,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Qe2",
           "uci": "d1e2",
-          "white": 17
+          "san": "Qe2",
+          "averageRating": 2138,
+          "white": 17,
+          "draws": 1,
+          "black": 13,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2091,
-          "black": 4,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Nxe5",
           "uci": "f3e5",
-          "white": 1
-        },
-        {
-          "averageRating": 2014,
-          "black": 3,
+          "san": "Nxe5",
+          "averageRating": 2091,
+          "white": 1,
           "draws": 0,
+          "black": 4,
           "game": null,
-          "opening": null,
-          "san": "c3",
+          "opening": null
+        },
+        {
           "uci": "c2c3",
-          "white": 0
+          "san": "c3",
+          "averageRating": 2014,
+          "white": 0,
+          "draws": 0,
+          "black": 3,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2120,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "hunterthepunter",
-              "rating": 2207
-            },
-            "id": "imJPPrTF",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Saniele",
-              "rating": 2120
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Kf1",
           "uci": "e1f1",
-          "white": 1
+          "san": "Kf1",
+          "averageRating": 2120,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2106,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "Rost15",
-              "rating": 2120
-            },
-            "id": "tJFOr5lN",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Sevassevas",
-              "rating": 2106
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Ba4",
           "uci": "b5a4",
-          "white": 0
+          "san": "Ba4",
+          "averageRating": 2106,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C63",
         "name": "Ruy Lopez: Schliemann Defense"
-      },
-      "white": 1002
+      }
     }
   }
 }

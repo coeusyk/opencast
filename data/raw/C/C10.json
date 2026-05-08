@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C10",
   "months": {
@@ -5721,180 +5719,137 @@
       "white": 401
     },
     "2026-04": {
-      "black": 167,
+      "white": 227,
       "draws": 22,
+      "black": 171,
       "moves": [
         {
-          "averageRating": 2094,
-          "black": 63,
-          "draws": 7,
-          "game": null,
-          "opening": null,
-          "san": "e5",
           "uci": "e4e5",
-          "white": 72
+          "san": "e5",
+          "averageRating": 2093,
+          "white": 74,
+          "draws": 7,
+          "black": 65,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2117,
-          "black": 45,
-          "draws": 8,
-          "game": null,
-          "opening": null,
-          "san": "Nf3",
           "uci": "g1f3",
-          "white": 64
+          "san": "Nf3",
+          "averageRating": 2115,
+          "white": 68,
+          "draws": 8,
+          "black": 45,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2082,
-          "black": 32,
-          "draws": 5,
-          "game": null,
-          "opening": null,
-          "san": "exd5",
           "uci": "e4d5",
-          "white": 54
-        },
-        {
-          "averageRating": 2101,
-          "black": 15,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bb5",
-          "uci": "f1b5",
-          "white": 15
-        },
-        {
+          "san": "exd5",
           "averageRating": 2081,
-          "black": 6,
-          "draws": 1,
+          "white": 55,
+          "draws": 5,
+          "black": 34,
           "game": null,
-          "opening": null,
-          "san": "Be3",
+          "opening": null
+        },
+        {
+          "uci": "f1b5",
+          "san": "Bb5",
+          "averageRating": 2101,
+          "white": 15,
+          "draws": 0,
+          "black": 15,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "c1e3",
-          "white": 8
-        },
-        {
-          "averageRating": 2048,
-          "black": 2,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "a3",
-          "uci": "a2a3",
-          "white": 2
-        },
-        {
-          "averageRating": 2038,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "f3",
-          "uci": "f2f3",
-          "white": 2
-        },
-        {
-          "averageRating": 2046,
-          "black": 1,
+          "san": "Be3",
+          "averageRating": 2081,
+          "white": 8,
           "draws": 1,
+          "black": 6,
           "game": null,
-          "opening": null,
-          "san": "Bf4",
-          "uci": "c1f4",
-          "white": 0
+          "opening": null
         },
         {
-          "averageRating": 2067,
+          "uci": "a2a3",
+          "san": "a3",
+          "averageRating": 2048,
+          "white": 2,
+          "draws": 0,
           "black": 2,
-          "draws": 0,
           "game": null,
-          "opening": null,
-          "san": "f4",
+          "opening": null
+        },
+        {
+          "uci": "f2f3",
+          "san": "f3",
+          "averageRating": 2038,
+          "white": 2,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c1f4",
+          "san": "Bf4",
+          "averageRating": 2046,
+          "white": 0,
+          "draws": 1,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "f2f4",
-          "white": 0
+          "san": "f4",
+          "averageRating": 2067,
+          "white": 0,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2002,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "brobro18",
-              "rating": 2021
-            },
-            "id": "q7q7y59C",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "mestrerusso",
-              "rating": 2002
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Bd3",
           "uci": "f1d3",
-          "white": 1
+          "san": "Bd3",
+          "averageRating": 2002,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2053,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "sphere515",
-              "rating": 2048
-            },
-            "id": "hr6K4Z2h",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "vetlevelle",
-              "rating": 2053
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "g3",
           "uci": "g2g3",
-          "white": 1
+          "san": "g3",
+          "averageRating": 2053,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2182,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "daviejmawango",
-              "rating": 2125
-            },
-            "id": "OUqKjiqJ",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Vsannikov",
-              "rating": 2182
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Nge2",
           "uci": "g1e2",
-          "white": 1
+          "san": "Nge2",
+          "averageRating": 2182,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C10",
         "name": "French Defense: Hecht-Reefschl\u00e4ger Variation"
-      },
-      "white": 220
+      }
     }
   }
 }

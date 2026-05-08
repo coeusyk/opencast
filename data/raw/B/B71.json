@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "B71",
   "months": {
@@ -5693,153 +5691,110 @@
       "white": 373
     },
     "2026-04": {
-      "black": 137,
+      "white": 182,
       "draws": 16,
+      "black": 137,
       "moves": [
         {
-          "averageRating": 2086,
-          "black": 46,
-          "draws": 6,
-          "game": null,
-          "opening": null,
-          "san": "Bg7",
           "uci": "f8g7",
-          "white": 116
-        },
-        {
-          "averageRating": 2112,
-          "black": 73,
-          "draws": 8,
+          "san": "Bg7",
+          "averageRating": 2086,
+          "white": 118,
+          "draws": 6,
+          "black": 46,
           "game": null,
-          "opening": null,
-          "san": "Nc6",
-          "uci": "b8c6",
-          "white": 52
+          "opening": null
         },
         {
-          "averageRating": 2074,
-          "black": 11,
+          "uci": "b8c6",
+          "san": "Nc6",
+          "averageRating": 2111,
+          "white": 53,
+          "draws": 8,
+          "black": 73,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "b8d7",
+          "san": "Nbd7",
+          "averageRating": 2075,
+          "white": 5,
           "draws": 2,
+          "black": 11,
           "game": null,
           "opening": {
             "eco": "B71",
             "name": "Sicilian Defense: Dragon Variation, Levenfish Variation, Main Line"
-          },
-          "san": "Nbd7",
-          "uci": "b8d7",
-          "white": 4
+          }
         },
         {
-          "averageRating": 2100,
-          "black": 3,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Nfd7",
           "uci": "f6d7",
-          "white": 1
+          "san": "Nfd7",
+          "averageRating": 2100,
+          "white": 1,
+          "draws": 0,
+          "black": 3,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2028,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bg4",
           "uci": "c8g4",
-          "white": 2
-        },
-        {
-          "averageRating": 2183,
-          "black": 2,
+          "san": "Bg4",
+          "averageRating": 2028,
+          "white": 2,
           "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "a6",
-          "uci": "a7a6",
-          "white": 1
-        },
-        {
-          "averageRating": 2157,
           "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "LLivingstone",
-              "rating": 2157
-            },
-            "id": "RehCabVk",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "ego7",
-              "rating": 2240
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Qb6",
-          "uci": "d8b6",
-          "white": 0
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 1708,
-          "black": 0,
+          "uci": "a7a6",
+          "san": "a6",
+          "averageRating": 2183,
+          "white": 1,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "MARIA_5481",
-              "rating": 1708
-            },
-            "id": "jKssFboN",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "www68",
-              "rating": 2614
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "e6",
-          "uci": "e7e6",
-          "white": 1
+          "black": 2,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2081,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "vsj007",
-              "rating": 2081
-            },
-            "id": "wqm5Z9Ci",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Pepiton61",
-              "rating": 2019
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "e5",
           "uci": "e7e5",
-          "white": 1
+          "san": "e5",
+          "averageRating": 2081,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d8b6",
+          "san": "Qb6",
+          "averageRating": 2157,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "e7e6",
+          "san": "e6",
+          "averageRating": 1708,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "B71",
         "name": "Sicilian Defense: Dragon Variation, Levenfish Variation"
-      },
-      "white": 178
+      }
     }
   }
 }

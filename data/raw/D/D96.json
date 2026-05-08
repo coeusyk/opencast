@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "D96",
   "months": {
@@ -4331,90 +4329,77 @@
       "white": 317
     },
     "2026-04": {
-      "black": 155,
+      "white": 178,
       "draws": 19,
+      "black": 160,
       "moves": [
         {
-          "averageRating": 2107,
-          "black": 124,
-          "draws": 18,
-          "game": null,
-          "opening": null,
-          "san": "dxc4",
           "uci": "d5c4",
-          "white": 135
+          "san": "dxc4",
+          "averageRating": 2108,
+          "white": 139,
+          "draws": 18,
+          "black": 128,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2099,
-          "black": 18,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "c6",
           "uci": "c7c6",
-          "white": 25
+          "san": "c6",
+          "averageRating": 2098,
+          "white": 25,
+          "draws": 1,
+          "black": 19,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2068,
-          "black": 8,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "O-O",
           "uci": "e8h8",
-          "white": 8
+          "san": "O-O",
+          "averageRating": 2068,
+          "white": 8,
+          "draws": 0,
+          "black": 8,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2021,
-          "black": 3,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "e6",
           "uci": "e7e6",
-          "white": 3
-        },
-        {
-          "averageRating": 2004,
-          "black": 2,
+          "san": "e6",
+          "averageRating": 2021,
+          "white": 3,
           "draws": 0,
+          "black": 3,
           "game": null,
-          "opening": null,
-          "san": "c5",
-          "uci": "c7c5",
-          "white": 2
+          "opening": null
         },
         {
-          "averageRating": 2157,
-          "black": 0,
+          "uci": "c7c5",
+          "san": "c5",
+          "averageRating": 2004,
+          "white": 2,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "pathfinder88",
-              "rating": 2157
-            },
-            "id": "YcpXlSog",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "ChessTiger5000",
-              "rating": 2202
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Nbd7",
+          "black": 2,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "b8d7",
-          "white": 1
+          "san": "Nbd7",
+          "averageRating": 2157,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "D96",
         "name": "Gr\u00fcnfeld Defense: Russian Variation"
-      },
-      "white": 174
+      }
     }
   }
 }

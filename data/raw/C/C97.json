@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C97",
   "months": {
@@ -2218,63 +2216,50 @@
       "white": 428
     },
     "2026-04": {
-      "black": 192,
+      "white": 213,
       "draws": 21,
+      "black": 196,
       "moves": [
         {
-          "averageRating": 2106,
-          "black": 188,
+          "uci": "b3c2",
+          "san": "Bc2",
+          "averageRating": 2105,
+          "white": 210,
           "draws": 20,
+          "black": 191,
           "game": null,
           "opening": {
             "eco": "C96",
             "name": "Ruy Lopez: Closed, Chigorin Defense"
-          },
-          "san": "Bc2",
-          "uci": "b3c2",
-          "white": 207
+          }
         },
         {
-          "averageRating": 2058,
-          "black": 4,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "d4",
           "uci": "d2d4",
-          "white": 3
+          "san": "d4",
+          "averageRating": 2063,
+          "white": 3,
+          "draws": 0,
+          "black": 5,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2104,
-          "black": 0,
-          "draws": 1,
-          "game": {
-            "black": {
-              "name": "m56g",
-              "rating": 2117
-            },
-            "id": "f0CeDmQk",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Bektas1994",
-              "rating": 2104
-            },
-            "winner": null,
-            "year": 2026
-          },
-          "opening": null,
-          "san": "d3",
           "uci": "d2d3",
-          "white": 0
+          "san": "d3",
+          "averageRating": 2104,
+          "white": 0,
+          "draws": 1,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C97",
         "name": "Ruy Lopez: Closed, Chigorin Defense"
-      },
-      "white": 210
+      }
     }
   }
 }

@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C58",
   "months": {
@@ -6243,203 +6241,130 @@
       "white": 414
     },
     "2026-04": {
-      "black": 178,
-      "draws": 15,
+      "white": 228,
+      "draws": 16,
+      "black": 180,
       "moves": [
         {
+          "uci": "h7h6",
+          "san": "h6",
           "averageRating": 2087,
-          "black": 136,
-          "draws": 11,
+          "white": 166,
+          "draws": 12,
+          "black": 138,
           "game": null,
           "opening": {
             "eco": "C59",
             "name": "Italian Game: Two Knights Defense, Polerio Defense, Suhle Defense"
-          },
-          "san": "h6",
-          "uci": "h7h6",
-          "white": 166
+          }
         },
         {
-          "averageRating": 2056,
-          "black": 16,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Be7",
           "uci": "f8e7",
-          "white": 22
+          "san": "Be7",
+          "averageRating": 2056,
+          "white": 22,
+          "draws": 0,
+          "black": 16,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2098,
-          "black": 11,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "Nd5",
           "uci": "f6d5",
-          "white": 12
+          "san": "Nd5",
+          "averageRating": 2098,
+          "white": 12,
+          "draws": 2,
+          "black": 11,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2079,
-          "black": 6,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Bc5",
           "uci": "f8c5",
-          "white": 16
-        },
-        {
-          "averageRating": 2043,
-          "black": 5,
+          "san": "Bc5",
+          "averageRating": 2082,
+          "white": 17,
           "draws": 1,
+          "black": 6,
           "game": null,
-          "opening": null,
-          "san": "Bd6",
+          "opening": null
+        },
+        {
           "uci": "f8d6",
-          "white": 7
-        },
-        {
-          "averageRating": 2067,
-          "black": 2,
-          "draws": 0,
+          "san": "Bd6",
+          "averageRating": 2043,
+          "white": 7,
+          "draws": 1,
+          "black": 5,
           "game": null,
-          "opening": null,
-          "san": "e4",
+          "opening": null
+        },
+        {
           "uci": "e5e4",
-          "white": 1
+          "san": "e4",
+          "averageRating": 2067,
+          "white": 1,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2031,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "kurrrt48",
-              "rating": 2031
-            },
-            "id": "dEVBbWrV",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "chesok",
-              "rating": 2122
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Qd5",
           "uci": "d8d5",
-          "white": 1
+          "san": "Qd5",
+          "averageRating": 2031,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2211,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "bangjey",
-              "rating": 2211
-            },
-            "id": "EC3YdlKn",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "bfenix",
-              "rating": 2185
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Ng4",
           "uci": "f6g4",
-          "white": 0
-        },
-        {
-          "averageRating": 2106,
-          "black": 0,
+          "san": "Ng4",
+          "averageRating": 2211,
+          "white": 0,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "axnunezc",
-              "rating": 2106
-            },
-            "id": "WUrDQprx",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Zavuch",
-              "rating": 2020
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Bd7",
-          "uci": "c8d7",
-          "white": 1
-        },
-        {
-          "averageRating": 2069,
           "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "luciusblak",
-              "rating": 2069
-            },
-            "id": "vyT92pAG",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "tourney-training",
-              "rating": 2071
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Bb7",
-          "uci": "c8b7",
-          "white": 0
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2143,
-          "black": 0,
+          "uci": "c8d7",
+          "san": "Bd7",
+          "averageRating": 2106,
+          "white": 1,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "Kroko10",
-              "rating": 2143
-            },
-            "id": "y7M6eQC0",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Alokbhairav",
-              "rating": 2051
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Bf5",
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c8b7",
+          "san": "Bb7",
+          "averageRating": 2069,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "c8f5",
-          "white": 1
+          "san": "Bf5",
+          "averageRating": 2143,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C58",
         "name": "Italian Game: Two Knights Defense"
-      },
-      "white": 227
+      }
     }
   }
 }

@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C09",
   "months": {
@@ -4611,75 +4609,77 @@
       "white": 292
     },
     "2026-04": {
-      "black": 113,
+      "white": 164,
       "draws": 22,
+      "black": 116,
       "moves": [
         {
-          "averageRating": 2127,
-          "black": 71,
-          "draws": 17,
-          "game": null,
-          "opening": null,
-          "san": "Bb5",
           "uci": "f1b5",
-          "white": 114
+          "san": "Bb5",
+          "averageRating": 2127,
+          "white": 116,
+          "draws": 17,
+          "black": 73,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2095,
-          "black": 24,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "dxc5",
           "uci": "d4c5",
-          "white": 31
+          "san": "dxc5",
+          "averageRating": 2095,
+          "white": 31,
+          "draws": 4,
+          "black": 24,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2092,
-          "black": 11,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "c3",
           "uci": "c2c3",
-          "white": 10
+          "san": "c3",
+          "averageRating": 2100,
+          "white": 10,
+          "draws": 0,
+          "black": 12,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2122,
-          "black": 4,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Nb3",
           "uci": "d2b3",
-          "white": 3
-        },
-        {
-          "averageRating": 2135,
-          "black": 2,
+          "san": "Nb3",
+          "averageRating": 2122,
+          "white": 3,
           "draws": 0,
+          "black": 4,
           "game": null,
-          "opening": null,
-          "san": "Be2",
-          "uci": "f1e2",
-          "white": 2
+          "opening": null
         },
         {
+          "uci": "f1e2",
+          "san": "Be2",
           "averageRating": 2143,
-          "black": 1,
-          "draws": 1,
+          "white": 3,
+          "draws": 0,
+          "black": 2,
           "game": null,
-          "opening": null,
-          "san": "Bd3",
+          "opening": null
+        },
+        {
           "uci": "f1d3",
-          "white": 1
+          "san": "Bd3",
+          "averageRating": 2143,
+          "white": 1,
+          "draws": 1,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C09",
         "name": "French Defense: Tarrasch Variation, Open System, Main Line"
-      },
-      "white": 161
+      }
     }
   }
 }

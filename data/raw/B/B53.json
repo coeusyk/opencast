@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "B53",
   "months": {
@@ -5836,120 +5834,107 @@
       "white": 2065
     },
     "2026-04": {
-      "black": 775,
-      "draws": 102,
+      "white": 999,
+      "draws": 104,
+      "black": 782,
       "moves": [
         {
-          "averageRating": 2093,
-          "black": 319,
-          "draws": 42,
-          "game": null,
-          "opening": null,
-          "san": "Nc6",
           "uci": "b8c6",
-          "white": 419
+          "san": "Nc6",
+          "averageRating": 2093,
+          "white": 425,
+          "draws": 42,
+          "black": 321,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2094,
-          "black": 292,
-          "draws": 36,
-          "game": null,
-          "opening": null,
-          "san": "Nf6",
           "uci": "g8f6",
-          "white": 386
+          "san": "Nf6",
+          "averageRating": 2094,
+          "white": 390,
+          "draws": 37,
+          "black": 296,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2109,
-          "black": 96,
-          "draws": 16,
-          "game": null,
-          "opening": null,
-          "san": "a6",
           "uci": "a7a6",
-          "white": 110
+          "san": "a6",
+          "averageRating": 2110,
+          "white": 113,
+          "draws": 17,
+          "black": 97,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2096,
-          "black": 37,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "Bd7",
           "uci": "c8d7",
-          "white": 30
+          "san": "Bd7",
+          "averageRating": 2096,
+          "white": 30,
+          "draws": 4,
+          "black": 37,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2056,
-          "black": 18,
-          "draws": 3,
-          "game": null,
-          "opening": null,
-          "san": "e5",
           "uci": "e7e5",
-          "white": 26
+          "san": "e5",
+          "averageRating": 2056,
+          "white": 26,
+          "draws": 3,
+          "black": 18,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2077,
-          "black": 9,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "e6",
           "uci": "e7e6",
-          "white": 9
+          "san": "e6",
+          "averageRating": 2077,
+          "white": 9,
+          "draws": 0,
+          "black": 9,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2143,
-          "black": 3,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Nd7",
           "uci": "b8d7",
-          "white": 2
-        },
-        {
-          "averageRating": 2035,
-          "black": 1,
-          "draws": 0,
+          "san": "Nd7",
+          "averageRating": 2143,
+          "white": 2,
+          "draws": 1,
+          "black": 3,
           "game": null,
-          "opening": null,
-          "san": "g6",
-          "uci": "g7g6",
-          "white": 3
+          "opening": null
         },
         {
-          "averageRating": 2116,
-          "black": 0,
+          "uci": "g7g6",
+          "san": "g6",
+          "averageRating": 2035,
+          "white": 3,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "gambinosalvator",
-              "rating": 2116
-            },
-            "id": "zA7OTBor",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Bhoboza",
-              "rating": 2092
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Bg4",
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "c8g4",
-          "white": 1
+          "san": "Bg4",
+          "averageRating": 2116,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "B53",
         "name": "Sicilian Defense: Chekhover Variation"
-      },
-      "white": 986
+      }
     }
   }
 }

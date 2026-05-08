@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "B90",
   "months": {
@@ -6052,159 +6050,161 @@
       "white": 16464
     },
     "2026-04": {
-      "black": 7693,
-      "draws": 821,
+      "white": 8493,
+      "draws": 833,
+      "black": 7793,
       "moves": [
         {
+          "uci": "c1g5",
+          "san": "Bg5",
           "averageRating": 2099,
-          "black": 1783,
-          "draws": 176,
+          "white": 2035,
+          "draws": 179,
+          "black": 1800,
           "game": null,
           "opening": {
             "eco": "B94",
             "name": "Sicilian Defense: Najdorf Variation"
-          },
-          "san": "Bg5",
-          "uci": "c1g5",
-          "white": 2011
+          }
         },
         {
+          "uci": "c1e3",
+          "san": "Be3",
           "averageRating": 2085,
-          "black": 1497,
-          "draws": 166,
+          "white": 1591,
+          "draws": 167,
+          "black": 1515,
           "game": null,
           "opening": {
             "eco": "B90",
             "name": "Sicilian Defense: Najdorf Variation, English Attack"
-          },
-          "san": "Be3",
-          "uci": "c1e3",
-          "white": 1564
+          }
         },
         {
-          "averageRating": 2092,
-          "black": 1004,
-          "draws": 109,
+          "uci": "f1c4",
+          "san": "Bc4",
+          "averageRating": 2093,
+          "white": 1176,
+          "draws": 111,
+          "black": 1016,
           "game": null,
           "opening": {
             "eco": "B90",
             "name": "Sicilian Defense: Najdorf Variation, Lipnitsky Attack"
-          },
-          "san": "Bc4",
-          "uci": "f1c4",
-          "white": 1157
+          }
         },
         {
+          "uci": "f1e2",
+          "san": "Be2",
           "averageRating": 2089,
-          "black": 946,
-          "draws": 112,
+          "white": 1062,
+          "draws": 116,
+          "black": 962,
           "game": null,
           "opening": {
             "eco": "B92",
             "name": "Sicilian Defense: Najdorf Variation, Opocensky Variation"
-          },
-          "san": "Be2",
-          "uci": "f1e2",
-          "white": 1052
+          }
         },
         {
-          "averageRating": 2089,
-          "black": 775,
-          "draws": 74,
-          "game": null,
-          "opening": null,
-          "san": "f3",
           "uci": "f2f3",
-          "white": 755
-        },
-        {
-          "averageRating": 2068,
-          "black": 435,
-          "draws": 37,
+          "san": "f3",
+          "averageRating": 2089,
+          "white": 762,
+          "draws": 74,
+          "black": 790,
           "game": null,
-          "opening": null,
-          "san": "Bd3",
-          "uci": "f1d3",
-          "white": 399
+          "opening": null
         },
         {
-          "averageRating": 2104,
-          "black": 344,
+          "uci": "f1d3",
+          "san": "Bd3",
+          "averageRating": 2068,
+          "white": 405,
+          "draws": 37,
+          "black": 440,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "h2h3",
+          "san": "h3",
+          "averageRating": 2103,
+          "white": 421,
           "draws": 47,
+          "black": 349,
           "game": null,
           "opening": {
             "eco": "B90",
             "name": "Sicilian Defense: Najdorf Variation, Adams Attack"
-          },
-          "san": "h3",
-          "uci": "h2h3",
-          "white": 415
+          }
         },
         {
-          "averageRating": 2083,
-          "black": 334,
-          "draws": 29,
-          "game": null,
-          "opening": null,
-          "san": "a4",
           "uci": "a2a4",
-          "white": 309
+          "san": "a4",
+          "averageRating": 2084,
+          "white": 312,
+          "draws": 29,
+          "black": 340,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "f2f4",
+          "san": "f4",
           "averageRating": 2101,
+          "white": 201,
+          "draws": 18,
           "black": 132,
-          "draws": 16,
           "game": null,
           "opening": {
             "eco": "B93",
             "name": "Sicilian Defense: Najdorf Variation, Amsterdam Variation"
-          },
-          "san": "f4",
-          "uci": "f2f4",
-          "white": 195
+          }
         },
         {
-          "averageRating": 2107,
-          "black": 127,
+          "uci": "h1g1",
+          "san": "Rg1",
+          "averageRating": 2106,
+          "white": 188,
           "draws": 22,
+          "black": 129,
           "game": null,
           "opening": {
             "eco": "B90",
             "name": "Sicilian Defense: Najdorf Variation, Freak Attack"
-          },
-          "san": "Rg1",
-          "uci": "h1g1",
-          "white": 182
+          }
         },
         {
-          "averageRating": 2109,
-          "black": 120,
+          "uci": "g2g3",
+          "san": "g3",
+          "averageRating": 2108,
+          "white": 130,
           "draws": 14,
+          "black": 123,
           "game": null,
           "opening": {
             "eco": "B91",
             "name": "Sicilian Defense: Najdorf Variation, Zagreb Variation"
-          },
-          "san": "g3",
-          "uci": "g2g3",
-          "white": 127
+          }
         },
         {
-          "averageRating": 2078,
-          "black": 79,
-          "draws": 8,
-          "game": null,
-          "opening": null,
-          "san": "a3",
           "uci": "a2a3",
-          "white": 85
+          "san": "a3",
+          "averageRating": 2077,
+          "white": 86,
+          "draws": 8,
+          "black": 80,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "B90",
         "name": "Sicilian Defense: Najdorf Variation"
-      },
-      "white": 8375
+      }
     }
   }
 }

@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "E12",
   "months": {
@@ -5716,150 +5714,152 @@
       "white": 3219
     },
     "2026-04": {
-      "black": 1514,
-      "draws": 225,
+      "white": 1706,
+      "draws": 228,
+      "black": 1539,
       "moves": [
         {
+          "uci": "g2g3",
+          "san": "g3",
           "averageRating": 2101,
-          "black": 698,
-          "draws": 112,
+          "white": 818,
+          "draws": 113,
+          "black": 709,
           "game": null,
           "opening": {
             "eco": "E15",
             "name": "Queen's Indian Defense: Fianchetto Variation"
-          },
-          "san": "g3",
-          "uci": "g2g3",
-          "white": 807
+          }
         },
         {
+          "uci": "b1c3",
+          "san": "Nc3",
           "averageRating": 2089,
-          "black": 446,
-          "draws": 57,
+          "white": 432,
+          "draws": 59,
+          "black": 451,
           "game": null,
           "opening": {
             "eco": "E12",
             "name": "Queen's Indian Defense: Kasparov Variation"
-          },
-          "san": "Nc3",
-          "uci": "b1c3",
-          "white": 424
+          }
         },
         {
+          "uci": "a2a3",
+          "san": "a3",
           "averageRating": 2114,
-          "black": 182,
+          "white": 242,
           "draws": 22,
+          "black": 183,
           "game": null,
           "opening": {
             "eco": "E12",
             "name": "Queen's Indian Defense: Petrosian Variation"
-          },
-          "san": "a3",
-          "uci": "a2a3",
-          "white": 237
+          }
         },
         {
-          "averageRating": 2089,
-          "black": 76,
-          "draws": 8,
-          "game": null,
-          "opening": null,
-          "san": "Bg5",
           "uci": "c1g5",
-          "white": 92
+          "san": "Bg5",
+          "averageRating": 2088,
+          "white": 92,
+          "draws": 8,
+          "black": 79,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2083,
-          "black": 69,
+          "uci": "e2e3",
+          "san": "e3",
+          "averageRating": 2085,
+          "white": 83,
           "draws": 21,
+          "black": 73,
           "game": null,
           "opening": {
             "eco": "E14",
             "name": "Queen's Indian Defense: Spassky System"
-          },
-          "san": "e3",
-          "uci": "e2e3",
-          "white": 81
+          }
         },
         {
+          "uci": "c1f4",
+          "san": "Bf4",
           "averageRating": 2076,
-          "black": 18,
+          "white": 20,
           "draws": 2,
+          "black": 18,
           "game": null,
           "opening": {
             "eco": "E12",
             "name": "Queen's Indian Defense: Miles Variation"
-          },
-          "san": "Bf4",
-          "uci": "c1f4",
-          "white": 20
+          }
         },
         {
-          "averageRating": 2073,
-          "black": 11,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "Nbd2",
           "uci": "b1d2",
-          "white": 6
+          "san": "Nbd2",
+          "averageRating": 2073,
+          "white": 6,
+          "draws": 2,
+          "black": 11,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2090,
-          "black": 5,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Qc2",
           "uci": "d1c2",
-          "white": 2
+          "san": "Qc2",
+          "averageRating": 2090,
+          "white": 2,
+          "draws": 0,
+          "black": 5,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2117,
-          "black": 1,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "d5",
           "uci": "d4d5",
-          "white": 3
+          "san": "d5",
+          "averageRating": 2117,
+          "white": 3,
+          "draws": 1,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2057,
-          "black": 2,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bd2",
           "uci": "c1d2",
-          "white": 2
+          "san": "Bd2",
+          "averageRating": 2057,
+          "white": 2,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2103,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "b3",
           "uci": "b2b3",
-          "white": 2
+          "san": "b3",
+          "averageRating": 2101,
+          "white": 2,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2076,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "a4",
           "uci": "a2a4",
-          "white": 2
+          "san": "a4",
+          "averageRating": 2076,
+          "white": 2,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "E12",
         "name": "Queen's Indian Defense"
-      },
-      "white": 1680
+      }
     }
   }
 }

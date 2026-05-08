@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "D35",
   "months": {
@@ -5601,180 +5599,137 @@
       "white": 6923
     },
     "2026-04": {
-      "black": 3017,
-      "draws": 458,
+      "white": 3701,
+      "draws": 459,
+      "black": 3076,
       "moves": [
         {
-          "averageRating": 2092,
-          "black": 2618,
-          "draws": 397,
-          "game": null,
-          "opening": null,
-          "san": "exd5",
           "uci": "e6d5",
-          "white": 3184
+          "san": "exd5",
+          "averageRating": 2091,
+          "white": 3239,
+          "draws": 398,
+          "black": 2671,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2066,
-          "black": 357,
-          "draws": 53,
-          "game": null,
-          "opening": null,
-          "san": "Nxd5",
           "uci": "f6d5",
-          "white": 377
+          "san": "Nxd5",
+          "averageRating": 2066,
+          "white": 387,
+          "draws": 53,
+          "black": 362,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2099,
-          "black": 18,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Be7",
           "uci": "f8e7",
-          "white": 27
+          "san": "Be7",
+          "averageRating": 2100,
+          "white": 28,
+          "draws": 1,
+          "black": 18,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2093,
-          "black": 11,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "c6",
           "uci": "c7c6",
-          "white": 19
-        },
-        {
-          "averageRating": 2043,
-          "black": 5,
-          "draws": 3,
-          "game": null,
-          "opening": null,
-          "san": "Bb4",
-          "uci": "f8b4",
-          "white": 12
-        },
-        {
-          "averageRating": 2087,
-          "black": 4,
+          "san": "c6",
+          "averageRating": 2093,
+          "white": 19,
           "draws": 2,
+          "black": 11,
           "game": null,
-          "opening": null,
-          "san": "c5",
+          "opening": null
+        },
+        {
+          "uci": "f8b4",
+          "san": "Bb4",
+          "averageRating": 2040,
+          "white": 12,
+          "draws": 3,
+          "black": 6,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "c7c5",
-          "white": 6
+          "san": "c5",
+          "averageRating": 2087,
+          "white": 6,
+          "draws": 2,
+          "black": 4,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2077,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bd6",
           "uci": "f8d6",
-          "white": 4
-        },
-        {
-          "averageRating": 2113,
-          "black": 2,
+          "san": "Bd6",
+          "averageRating": 2077,
+          "white": 4,
           "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "e5",
-          "uci": "e6e5",
-          "white": 2
-        },
-        {
-          "averageRating": 2031,
           "black": 1,
-          "draws": 0,
           "game": null,
-          "opening": null,
-          "san": "b6",
+          "opening": null
+        },
+        {
+          "uci": "e6e5",
+          "san": "e5",
+          "averageRating": 2113,
+          "white": 2,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "b7b6",
-          "white": 1
+          "san": "b6",
+          "averageRating": 2031,
+          "white": 1,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2027,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "Tonaeop",
-              "rating": 2027
-            },
-            "id": "w7EAFGoq",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Romulus_80",
-              "rating": 2015
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Qxd5",
           "uci": "d8d5",
-          "white": 1
+          "san": "Qxd5",
+          "averageRating": 2027,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2096,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "Rbn195",
-              "rating": 2096
-            },
-            "id": "Bo84A5UR",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "FenosoaHaniel",
-              "rating": 2129
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Nbd7",
           "uci": "b8d7",
-          "white": 1
+          "san": "Nbd7",
+          "averageRating": 2096,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2047,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "MINISTRELo",
-              "rating": 2047
-            },
-            "id": "fsGcwimA",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "vegeta_sama",
-              "rating": 2066
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "h6",
           "uci": "h7h6",
-          "white": 1
+          "san": "h6",
+          "averageRating": 2047,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "D35",
         "name": "Queen's Gambit Declined: Exchange Variation"
-      },
-      "white": 3635
+      }
     }
   }
 }

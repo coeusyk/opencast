@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C08",
   "months": {
@@ -5791,125 +5789,97 @@
       "white": 582
     },
     "2026-04": {
-      "black": 278,
+      "white": 308,
       "draws": 35,
+      "black": 284,
       "moves": [
         {
-          "averageRating": 2113,
-          "black": 151,
-          "draws": 14,
-          "game": null,
-          "opening": null,
-          "san": "Ngf3",
           "uci": "g1f3",
-          "white": 176
+          "san": "Ngf3",
+          "averageRating": 2113,
+          "white": 181,
+          "draws": 14,
+          "black": 156,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2119,
-          "black": 50,
-          "draws": 8,
-          "game": null,
-          "opening": null,
-          "san": "Bb5+",
           "uci": "f1b5",
-          "white": 65
+          "san": "Bb5+",
+          "averageRating": 2119,
+          "white": 65,
+          "draws": 8,
+          "black": 50,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2086,
-          "black": 59,
-          "draws": 11,
-          "game": null,
-          "opening": null,
-          "san": "dxc5",
           "uci": "d4c5",
-          "white": 47
+          "san": "dxc5",
+          "averageRating": 2087,
+          "white": 49,
+          "draws": 11,
+          "black": 59,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2068,
-          "black": 9,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "c3",
           "uci": "c2c3",
-          "white": 6
+          "san": "c3",
+          "averageRating": 2068,
+          "white": 6,
+          "draws": 2,
+          "black": 9,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2066,
-          "black": 5,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Ndf3",
           "uci": "d2f3",
-          "white": 4
-        },
-        {
-          "averageRating": 2082,
-          "black": 3,
+          "san": "Ndf3",
+          "averageRating": 2075,
+          "white": 4,
           "draws": 0,
+          "black": 6,
           "game": null,
-          "opening": null,
-          "san": "Nb3",
+          "opening": null
+        },
+        {
           "uci": "d2b3",
-          "white": 2
+          "san": "Nb3",
+          "averageRating": 2082,
+          "white": 2,
+          "draws": 0,
+          "black": 3,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 1952,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "fermentedpigeon",
-              "rating": 2051
-            },
-            "id": "3p5akiqo",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Buy_4_Others",
-              "rating": 1952
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "c4",
           "uci": "c2c4",
-          "white": 0
+          "san": "c4",
+          "averageRating": 1952,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 1991,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "Tltigre50",
-              "rating": 2009
-            },
-            "id": "J0TQ1e7z",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "bishopconnect",
-              "rating": 1991
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Ne2",
           "uci": "g1e2",
-          "white": 1
+          "san": "Ne2",
+          "averageRating": 1991,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C08",
         "name": "French Defense: Tarrasch Variation, Open System"
-      },
-      "white": 301
+      }
     }
   }
 }

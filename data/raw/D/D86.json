@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "D86",
   "months": {
@@ -5086,95 +5084,67 @@
       "white": 894
     },
     "2026-04": {
-      "black": 433,
-      "draws": 68,
+      "white": 473,
+      "draws": 71,
+      "black": 445,
       "moves": [
         {
-          "averageRating": 2086,
-          "black": 278,
-          "draws": 48,
-          "game": null,
-          "opening": null,
-          "san": "c5",
           "uci": "c7c5",
-          "white": 297
+          "san": "c5",
+          "averageRating": 2086,
+          "white": 304,
+          "draws": 51,
+          "black": 286,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2095,
-          "black": 153,
-          "draws": 20,
-          "game": null,
-          "opening": null,
-          "san": "O-O",
           "uci": "e8h8",
-          "white": 162
-        },
-        {
-          "averageRating": 2069,
-          "black": 1,
-          "draws": 0,
+          "san": "O-O",
+          "averageRating": 2096,
+          "white": 166,
+          "draws": 20,
+          "black": 157,
           "game": null,
-          "opening": null,
-          "san": "c6",
+          "opening": null
+        },
+        {
           "uci": "c7c6",
-          "white": 2
-        },
-        {
-          "averageRating": 2002,
+          "san": "c6",
+          "averageRating": 2069,
+          "white": 2,
+          "draws": 0,
           "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "cesarjesus73",
-              "rating": 2002
-            },
-            "id": "II1WmFdi",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Mark_Radnitskii",
-              "rating": 2000
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "e6",
-          "uci": "e7e6",
-          "white": 0
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2028,
-          "black": 0,
+          "uci": "e7e6",
+          "san": "e6",
+          "averageRating": 2002,
+          "white": 0,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "RegisI",
-              "rating": 2028
-            },
-            "id": "9XyBpBqN",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Karlo0300",
-              "rating": 2008
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Kf8",
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "e8f8",
-          "white": 1
+          "san": "Kf8",
+          "averageRating": 2028,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "D86",
         "name": "Gr\u00fcnfeld Defense: Exchange Variation, Classical Variation"
-      },
-      "white": 462
+      }
     }
   }
 }

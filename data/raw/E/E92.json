@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "E92",
   "months": {
@@ -2306,25 +2304,27 @@
       "white": 233
     },
     "2026-04": {
-      "black": 104,
+      "white": 135,
       "draws": 29,
+      "black": 104,
       "moves": [
         {
-          "averageRating": 2104,
-          "black": 104,
-          "draws": 29,
-          "game": null,
-          "opening": null,
-          "san": "dxe5",
           "uci": "d6e5",
-          "white": 135
+          "san": "dxe5",
+          "averageRating": 2104,
+          "white": 135,
+          "draws": 29,
+          "black": 104,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "E92",
         "name": "King's Indian Defense: Exchange Variation"
-      },
-      "white": 135
+      }
     }
   }
 }

@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "B49",
   "months": {
@@ -6136,175 +6134,117 @@
       "white": 285
     },
     "2026-04": {
-      "black": 156,
+      "white": 142,
       "draws": 21,
+      "black": 158,
       "moves": [
         {
-          "averageRating": 2098,
-          "black": 106,
-          "draws": 16,
-          "game": null,
-          "opening": null,
-          "san": "Nf6",
           "uci": "g8f6",
-          "white": 98
+          "san": "Nf6",
+          "averageRating": 2098,
+          "white": 98,
+          "draws": 16,
+          "black": 107,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2090,
-          "black": 35,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "b5",
           "uci": "b7b5",
-          "white": 36
+          "san": "b5",
+          "averageRating": 2090,
+          "white": 36,
+          "draws": 4,
+          "black": 35,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2047,
-          "black": 3,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bb4",
           "uci": "f8b4",
-          "white": 4
+          "san": "Bb4",
+          "averageRating": 2052,
+          "white": 4,
+          "draws": 0,
+          "black": 4,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2050,
-          "black": 5,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "d6",
           "uci": "d7d6",
-          "white": 0
+          "san": "d6",
+          "averageRating": 2050,
+          "white": 0,
+          "draws": 1,
+          "black": 5,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2044,
-          "black": 3,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Be7",
           "uci": "f8e7",
-          "white": 2
-        },
-        {
-          "averageRating": 2028,
-          "black": 1,
+          "san": "Be7",
+          "averageRating": 2044,
+          "white": 2,
           "draws": 0,
+          "black": 3,
           "game": null,
-          "opening": null,
-          "san": "Bd6",
+          "opening": null
+        },
+        {
           "uci": "f8d6",
-          "white": 1
+          "san": "Bd6",
+          "averageRating": 2028,
+          "white": 1,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2039,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "ahmed_alngar2023",
-              "rating": 2039
-            },
-            "id": "0FOAFzSM",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "jjcute12",
-              "rating": 2033
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "h6",
           "uci": "h7h6",
-          "white": 1
+          "san": "h6",
+          "averageRating": 2039,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2105,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "wandaloki",
-              "rating": 2105
-            },
-            "id": "L1NV7gAB",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "charsky",
-              "rating": 2117
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "g6",
           "uci": "g7g6",
-          "white": 0
+          "san": "g6",
+          "averageRating": 2105,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2100,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "sugeng_chess",
-              "rating": 2100
-            },
-            "id": "nluNpOCe",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "sameer4444",
-              "rating": 2082
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "h5",
           "uci": "h7h5",
-          "white": 0
+          "san": "h5",
+          "averageRating": 2100,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2448,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "ChartreuseSubmarine",
-              "rating": 2448
-            },
-            "id": "mNPpMZTa",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "obaida300",
-              "rating": 1625
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Bc5",
           "uci": "f8c5",
-          "white": 0
+          "san": "Bc5",
+          "averageRating": 2448,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "B49",
         "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
-      },
-      "white": 142
+      }
     }
   }
 }

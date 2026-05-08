@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "D09",
   "months": {
@@ -6172,164 +6170,136 @@
       "white": 512
     },
     "2026-04": {
-      "black": 196,
+      "white": 267,
       "draws": 25,
+      "black": 202,
       "moves": [
         {
-          "averageRating": 2088,
-          "black": 63,
-          "draws": 7,
-          "game": null,
-          "opening": null,
-          "san": "Nge7",
           "uci": "g8e7",
-          "white": 71
+          "san": "Nge7",
+          "averageRating": 2089,
+          "white": 72,
+          "draws": 7,
+          "black": 66,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2077,
-          "black": 56,
+          "uci": "c8g4",
+          "san": "Bg4",
+          "averageRating": 2078,
+          "white": 71,
           "draws": 7,
+          "black": 57,
           "game": null,
           "opening": {
             "eco": "D09",
             "name": "Queen's Gambit Declined: Albin Countergambit, Fianchetto Variation, Bg4 Line"
-          },
-          "san": "Bg4",
-          "uci": "c8g4",
-          "white": 70
+          }
         },
         {
-          "averageRating": 2085,
-          "black": 42,
+          "uci": "c8e6",
+          "san": "Be6",
+          "averageRating": 2086,
+          "white": 65,
           "draws": 9,
+          "black": 44,
           "game": null,
           "opening": {
             "eco": "D09",
             "name": "Queen's Gambit Declined: Albin Countergambit, Fianchetto Variation, Be6 Line"
-          },
-          "san": "Be6",
-          "uci": "c8e6",
-          "white": 65
+          }
         },
         {
-          "averageRating": 2061,
-          "black": 16,
+          "uci": "c8f5",
+          "san": "Bf5",
+          "averageRating": 2062,
+          "white": 29,
           "draws": 0,
+          "black": 16,
           "game": null,
           "opening": {
             "eco": "D09",
             "name": "Queen's Gambit Declined: Albin Countergambit, Fianchetto Variation, Bf5 Line"
-          },
-          "san": "Bf5",
-          "uci": "c8f5",
-          "white": 28
+          }
         },
         {
-          "averageRating": 2083,
-          "black": 8,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Bb4+",
           "uci": "f8b4",
-          "white": 12
-        },
-        {
-          "averageRating": 2059,
-          "black": 4,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bc5",
-          "uci": "f8c5",
-          "white": 7
-        },
-        {
-          "averageRating": 2086,
-          "black": 4,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "f6",
-          "uci": "f7f6",
-          "white": 5
-        },
-        {
-          "averageRating": 2193,
-          "black": 2,
+          "san": "Bb4+",
+          "averageRating": 2083,
+          "white": 12,
           "draws": 1,
+          "black": 8,
           "game": null,
-          "opening": null,
-          "san": "h5",
+          "opening": null
+        },
+        {
+          "uci": "f8c5",
+          "san": "Bc5",
+          "averageRating": 2059,
+          "white": 7,
+          "draws": 0,
+          "black": 4,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f7f6",
+          "san": "f6",
+          "averageRating": 2086,
+          "white": 5,
+          "draws": 0,
+          "black": 4,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "h7h5",
-          "white": 3
-        },
-        {
-          "averageRating": 2079,
-          "black": 1,
-          "draws": 0,
+          "san": "h5",
+          "averageRating": 2193,
+          "white": 3,
+          "draws": 1,
+          "black": 2,
           "game": null,
-          "opening": null,
-          "san": "h6",
+          "opening": null
+        },
+        {
           "uci": "h7h6",
-          "white": 1
+          "san": "h6",
+          "averageRating": 2079,
+          "white": 1,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2008,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "yandrimanafe",
-              "rating": 2008
-            },
-            "id": "xezfpM7E",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "cariosto",
-              "rating": 2039
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "a5",
           "uci": "a7a5",
-          "white": 1
+          "san": "a5",
+          "averageRating": 2008,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2181,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "CartageChess",
-              "rating": 2181
-            },
-            "id": "SSKiUfJV",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "justplayingbro",
-              "rating": 2106
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Be7",
           "uci": "f8e7",
-          "white": 1
+          "san": "Be7",
+          "averageRating": 2181,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "D09",
         "name": "Queen's Gambit Declined: Albin Countergambit, Fianchetto Variation"
-      },
-      "white": 264
+      }
     }
   }
 }

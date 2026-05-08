@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "B75",
   "months": {
@@ -5996,210 +5994,137 @@
       "white": 869
     },
     "2026-04": {
-      "black": 403,
-      "draws": 47,
+      "white": 455,
+      "draws": 48,
+      "black": 413,
       "moves": [
         {
-          "averageRating": 2098,
-          "black": 320,
-          "draws": 35,
-          "game": null,
-          "opening": null,
-          "san": "Qd2",
           "uci": "d1d2",
-          "white": 357
+          "san": "Qd2",
+          "averageRating": 2098,
+          "white": 359,
+          "draws": 36,
+          "black": 329,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2106,
-          "black": 50,
-          "draws": 8,
-          "game": null,
-          "opening": null,
-          "san": "Bc4",
           "uci": "f1c4",
-          "white": 64
+          "san": "Bc4",
+          "averageRating": 2105,
+          "white": 67,
+          "draws": 8,
+          "black": 51,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2110,
-          "black": 10,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bb5",
           "uci": "f1b5",
-          "white": 8
+          "san": "Bb5",
+          "averageRating": 2110,
+          "white": 8,
+          "draws": 0,
+          "black": 10,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2062,
-          "black": 5,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "Be2",
           "uci": "f1e2",
-          "white": 7
-        },
-        {
-          "averageRating": 2076,
-          "black": 7,
+          "san": "Be2",
+          "averageRating": 2062,
+          "white": 7,
           "draws": 2,
+          "black": 5,
           "game": null,
-          "opening": null,
-          "san": "g4",
+          "opening": null
+        },
+        {
           "uci": "g2g4",
-          "white": 4
+          "san": "g4",
+          "averageRating": 2076,
+          "white": 4,
+          "draws": 2,
+          "black": 7,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2103,
-          "black": 4,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Nb3",
           "uci": "d4b3",
-          "white": 4
-        },
-        {
-          "averageRating": 2015,
+          "san": "Nb3",
+          "averageRating": 2103,
+          "white": 4,
+          "draws": 0,
           "black": 4,
-          "draws": 0,
           "game": null,
-          "opening": null,
-          "san": "Nxc6",
+          "opening": null
+        },
+        {
           "uci": "d4c6",
-          "white": 2
+          "san": "Nxc6",
+          "averageRating": 2027,
+          "white": 3,
+          "draws": 0,
+          "black": 4,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 1956,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "nfedorak",
-              "rating": 2070
-            },
-            "id": "j3KKVAra",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "NeikehiezoZinyu",
-              "rating": 1956
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "a3",
           "uci": "a2a3",
-          "white": 0
-        },
-        {
-          "averageRating": 2113,
-          "black": 0,
+          "san": "a3",
+          "averageRating": 1956,
+          "white": 0,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "plantszachmat",
-              "rating": 2114
-            },
-            "id": "mvM5eCO5",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "STEEXY",
-              "rating": 2113
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Bd3",
-          "uci": "f1d3",
-          "white": 1
-        },
-        {
-          "averageRating": 2041,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "Stefan_Kg",
-              "rating": 2014
-            },
-            "id": "6vadFzJ9",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Smintfull",
-              "rating": 2041
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "h4",
-          "uci": "h2h4",
-          "white": 1
-        },
-        {
-          "averageRating": 2205,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "horaciooviedo",
-              "rating": 2126
-            },
-            "id": "HN56EMDD",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Car67",
-              "rating": 2205
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Qd3",
-          "uci": "d1d3",
-          "white": 1
-        },
-        {
-          "averageRating": 2031,
           "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f1d3",
+          "san": "Bd3",
+          "averageRating": 2113,
+          "white": 1,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "CrazyBurns",
-              "rating": 2032
-            },
-            "id": "lAnq6D5h",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "ayser177",
-              "rating": 2031
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Qe2",
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "h2h4",
+          "san": "h4",
+          "averageRating": 2041,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d1d3",
+          "san": "Qd3",
+          "averageRating": 2205,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "d1e2",
-          "white": 0
+          "san": "Qe2",
+          "averageRating": 2031,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "B75",
         "name": "Sicilian Defense: Dragon Variation, Yugoslav Attack, Belezky Line"
-      },
-      "white": 449
+      }
     }
   }
 }

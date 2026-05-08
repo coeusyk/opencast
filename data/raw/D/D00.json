@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "D00",
   "months": {
@@ -5116,135 +5114,137 @@
       "white": 10941
     },
     "2026-04": {
-      "black": 4873,
-      "draws": 797,
+      "white": 5595,
+      "draws": 815,
+      "black": 4941,
       "moves": [
         {
-          "averageRating": 2103,
-          "black": 1474,
-          "draws": 216,
-          "game": null,
-          "opening": null,
-          "san": "c5",
           "uci": "c7c5",
-          "white": 1433
+          "san": "c5",
+          "averageRating": 2103,
+          "white": 1456,
+          "draws": 219,
+          "black": 1497,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2084,
-          "black": 1243,
-          "draws": 215,
-          "game": null,
-          "opening": null,
-          "san": "e6",
           "uci": "e7e6",
-          "white": 1497
+          "san": "e6",
+          "averageRating": 2084,
+          "white": 1522,
+          "draws": 221,
+          "black": 1260,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2080,
-          "black": 893,
-          "draws": 163,
-          "game": null,
-          "opening": null,
-          "san": "Bf5",
           "uci": "c8f5",
-          "white": 1031
-        },
-        {
-          "averageRating": 2087,
-          "black": 438,
-          "draws": 80,
-          "game": null,
-          "opening": null,
-          "san": "c6",
-          "uci": "c7c6",
-          "white": 567
-        },
-        {
-          "averageRating": 2079,
-          "black": 273,
-          "draws": 43,
-          "game": null,
-          "opening": null,
-          "san": "g6",
-          "uci": "g7g6",
-          "white": 304
-        },
-        {
-          "averageRating": 2065,
-          "black": 244,
-          "draws": 32,
-          "game": null,
-          "opening": null,
-          "san": "Bg4",
-          "uci": "c8g4",
-          "white": 278
-        },
-        {
-          "averageRating": 2053,
-          "black": 175,
-          "draws": 30,
-          "game": null,
-          "opening": null,
-          "san": "Nc6",
-          "uci": "b8c6",
-          "white": 247
-        },
-        {
+          "san": "Bf5",
           "averageRating": 2080,
-          "black": 42,
-          "draws": 5,
+          "white": 1045,
+          "draws": 168,
+          "black": 904,
           "game": null,
-          "opening": null,
-          "san": "a6",
+          "opening": null
+        },
+        {
+          "uci": "c7c6",
+          "san": "c6",
+          "averageRating": 2087,
+          "white": 576,
+          "draws": 81,
+          "black": 443,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "g7g6",
+          "san": "g6",
+          "averageRating": 2079,
+          "white": 309,
+          "draws": 45,
+          "black": 277,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c8g4",
+          "san": "Bg4",
+          "averageRating": 2065,
+          "white": 284,
+          "draws": 32,
+          "black": 247,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "b8c6",
+          "san": "Nc6",
+          "averageRating": 2052,
+          "white": 251,
+          "draws": 31,
+          "black": 177,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "a7a6",
-          "white": 43
+          "san": "a6",
+          "averageRating": 2077,
+          "white": 44,
+          "draws": 5,
+          "black": 44,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2070,
-          "black": 32,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "Nbd7",
           "uci": "b8d7",
-          "white": 34
+          "san": "Nbd7",
+          "averageRating": 2070,
+          "white": 34,
+          "draws": 2,
+          "black": 32,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2096,
-          "black": 21,
-          "draws": 3,
-          "game": null,
-          "opening": null,
-          "san": "b6",
           "uci": "b7b6",
-          "white": 16
+          "san": "b6",
+          "averageRating": 2096,
+          "white": 16,
+          "draws": 3,
+          "black": 21,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2068,
-          "black": 13,
-          "draws": 3,
-          "game": null,
-          "opening": null,
-          "san": "Nh5",
           "uci": "f6h5",
-          "white": 19
+          "san": "Nh5",
+          "averageRating": 2068,
+          "white": 19,
+          "draws": 3,
+          "black": 14,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2053,
-          "black": 11,
-          "draws": 3,
-          "game": null,
-          "opening": null,
-          "san": "h6",
           "uci": "h7h6",
-          "white": 19
+          "san": "h6",
+          "averageRating": 2053,
+          "white": 19,
+          "draws": 3,
+          "black": 11,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "D02",
         "name": "Queen's Pawn Game: London System"
-      },
-      "white": 5507
+      }
     }
   }
 }

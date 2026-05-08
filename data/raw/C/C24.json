@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C24",
   "months": {
@@ -5701,150 +5699,152 @@
       "white": 5759
     },
     "2026-04": {
-      "black": 2785,
-      "draws": 313,
+      "white": 2881,
+      "draws": 318,
+      "black": 2842,
       "moves": [
         {
-          "averageRating": 2072,
-          "black": 1064,
-          "draws": 128,
-          "game": null,
-          "opening": null,
-          "san": "d3",
           "uci": "d2d3",
-          "white": 1071
+          "san": "d3",
+          "averageRating": 2072,
+          "white": 1085,
+          "draws": 129,
+          "black": 1086,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "b1c3",
+          "san": "Nc3",
           "averageRating": 2069,
-          "black": 602,
-          "draws": 71,
+          "white": 644,
+          "draws": 73,
+          "black": 617,
           "game": null,
           "opening": {
             "eco": "C26",
             "name": "Vienna Game: Stanley Variation"
-          },
-          "san": "Nc3",
-          "uci": "b1c3",
-          "white": 629
+          }
         },
         {
+          "uci": "d2d4",
+          "san": "d4",
           "averageRating": 2081,
-          "black": 518,
-          "draws": 53,
+          "white": 591,
+          "draws": 54,
+          "black": 530,
           "game": null,
           "opening": {
             "eco": "C24",
             "name": "Bishop's Opening: Ponziani Gambit"
-          },
-          "san": "d4",
-          "uci": "d2d4",
-          "white": 583
+          }
         },
         {
+          "uci": "g1f3",
+          "san": "Nf3",
           "averageRating": 2057,
-          "black": 325,
+          "white": 316,
           "draws": 28,
+          "black": 332,
           "game": null,
           "opening": {
             "eco": "C42",
             "name": "Petrov's Defense: Italian Variation"
-          },
-          "san": "Nf3",
-          "uci": "g1f3",
-          "white": 313
+          }
         },
         {
-          "averageRating": 2074,
-          "black": 128,
-          "draws": 23,
-          "game": null,
-          "opening": null,
-          "san": "Qf3",
           "uci": "d1f3",
-          "white": 128
+          "san": "Qf3",
+          "averageRating": 2074,
+          "white": 130,
+          "draws": 24,
+          "black": 128,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2079,
-          "black": 45,
-          "draws": 3,
-          "game": null,
-          "opening": null,
-          "san": "Qe2",
           "uci": "d1e2",
-          "white": 45
-        },
-        {
-          "averageRating": 2077,
-          "black": 44,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "Bxf7+",
-          "uci": "c4f7",
-          "white": 30
-        },
-        {
-          "averageRating": 2045,
-          "black": 12,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "c3",
-          "uci": "c2c3",
-          "white": 18
-        },
-        {
+          "san": "Qe2",
           "averageRating": 2079,
-          "black": 20,
+          "white": 45,
+          "draws": 3,
+          "black": 46,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c4f7",
+          "san": "Bxf7+",
+          "averageRating": 2077,
+          "white": 30,
+          "draws": 4,
+          "black": 44,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c2c3",
+          "san": "c3",
+          "averageRating": 2045,
+          "white": 18,
           "draws": 0,
+          "black": 12,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f2f4",
+          "san": "f4",
+          "averageRating": 2079,
+          "white": 8,
+          "draws": 0,
+          "black": 20,
           "game": null,
           "opening": {
             "eco": "C24",
             "name": "Bishop's Opening: Berlin Defense, Greco Gambit"
-          },
-          "san": "f4",
-          "uci": "f2f4",
-          "white": 8
+          }
         },
         {
+          "uci": "f2f3",
+          "san": "f3",
           "averageRating": 2036,
-          "black": 12,
+          "white": 8,
           "draws": 1,
+          "black": 12,
           "game": null,
           "opening": {
             "eco": "C20",
             "name": "Barnes Opening: Walkerling"
-          },
-          "san": "f3",
-          "uci": "f2f3",
-          "white": 8
+          }
         },
         {
-          "averageRating": 2038,
-          "black": 9,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Ne2",
           "uci": "g1e2",
-          "white": 3
+          "san": "Ne2",
+          "averageRating": 2038,
+          "white": 3,
+          "draws": 1,
+          "black": 9,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2060,
-          "black": 3,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Qh5",
           "uci": "d1h5",
-          "white": 1
+          "san": "Qh5",
+          "averageRating": 2060,
+          "white": 1,
+          "draws": 0,
+          "black": 3,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C24",
         "name": "Bishop's Opening: Berlin Defense"
-      },
-      "white": 2839
+      }
     }
   }
 }

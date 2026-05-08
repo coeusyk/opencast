@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "A16",
   "months": {
@@ -5731,140 +5729,127 @@
       "white": 1075
     },
     "2026-04": {
-      "black": 527,
-      "draws": 79,
+      "white": 561,
+      "draws": 80,
+      "black": 533,
       "moves": [
         {
-          "averageRating": 2090,
-          "black": 402,
-          "draws": 63,
-          "game": null,
-          "opening": null,
-          "san": "cxd5",
           "uci": "c4d5",
-          "white": 417
+          "san": "cxd5",
+          "averageRating": 2089,
+          "white": 423,
+          "draws": 64,
+          "black": 405,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2082,
-          "black": 46,
-          "draws": 8,
-          "game": null,
-          "opening": null,
-          "san": "d4",
           "uci": "d2d4",
-          "white": 58
+          "san": "d4",
+          "averageRating": 2083,
+          "white": 59,
+          "draws": 8,
+          "black": 47,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2077,
-          "black": 28,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "g3",
           "uci": "g2g3",
-          "white": 29
-        },
-        {
-          "averageRating": 2041,
-          "black": 22,
-          "draws": 3,
-          "game": null,
-          "opening": null,
-          "san": "e3",
-          "uci": "e2e3",
-          "white": 11
-        },
-        {
-          "averageRating": 2082,
-          "black": 6,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Nf3",
-          "uci": "g1f3",
-          "white": 22
-        },
-        {
-          "averageRating": 2078,
-          "black": 12,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "e4",
-          "uci": "e2e4",
-          "white": 6
-        },
-        {
-          "averageRating": 2063,
-          "black": 9,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "d3",
-          "uci": "d2d3",
-          "white": 6
-        },
-        {
-          "averageRating": 2025,
-          "black": 0,
+          "san": "g3",
+          "averageRating": 2075,
+          "white": 29,
           "draws": 2,
+          "black": 29,
           "game": null,
-          "opening": null,
-          "san": "c5",
-          "uci": "c4c5",
-          "white": 1
+          "opening": null
         },
         {
+          "uci": "e2e3",
+          "san": "e3",
+          "averageRating": 2041,
+          "white": 12,
+          "draws": 3,
+          "black": 22,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "g1f3",
+          "san": "Nf3",
+          "averageRating": 2082,
+          "white": 22,
+          "draws": 1,
+          "black": 6,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "e2e4",
+          "san": "e4",
           "averageRating": 2078,
-          "black": 1,
+          "white": 6,
           "draws": 0,
+          "black": 12,
           "game": null,
-          "opening": null,
-          "san": "Nxd5",
+          "opening": null
+        },
+        {
+          "uci": "d2d3",
+          "san": "d3",
+          "averageRating": 2063,
+          "white": 6,
+          "draws": 0,
+          "black": 9,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c4c5",
+          "san": "c5",
+          "averageRating": 2005,
+          "white": 1,
+          "draws": 2,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "c3d5",
-          "white": 1
-        },
-        {
-          "averageRating": 2087,
-          "black": 0,
+          "san": "Nxd5",
+          "averageRating": 2078,
+          "white": 1,
           "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Qc2",
-          "uci": "d1c2",
-          "white": 2
-        },
-        {
-          "averageRating": 2004,
           "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d1c2",
+          "san": "Qc2",
+          "averageRating": 2087,
+          "white": 2,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "Science69",
-              "rating": 2013
-            },
-            "id": "rT13PPOr",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "masstrash",
-              "rating": 2004
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "f3",
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "f2f3",
-          "white": 0
+          "san": "f3",
+          "averageRating": 2004,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "A16",
         "name": "English Opening: Anglo-Gr\u00fcnfeld Defense"
-      },
-      "white": 553
+      }
     }
   }
 }

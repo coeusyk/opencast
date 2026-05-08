@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C55",
   "months": {
@@ -5701,150 +5699,152 @@
       "white": 18457
     },
     "2026-04": {
-      "black": 9311,
-      "draws": 913,
+      "white": 9533,
+      "draws": 932,
+      "black": 9470,
       "moves": [
         {
+          "uci": "d2d3",
+          "san": "d3",
           "averageRating": 2081,
-          "black": 4101,
-          "draws": 445,
+          "white": 4279,
+          "draws": 454,
+          "black": 4169,
           "game": null,
           "opening": {
             "eco": "C55",
             "name": "Italian Game: Two Knights Defense, Modern Bishop's Opening"
-          },
-          "san": "d3",
-          "uci": "d2d3",
-          "white": 4213
+          }
         },
         {
+          "uci": "f3g5",
+          "san": "Ng5",
           "averageRating": 2082,
-          "black": 2233,
-          "draws": 187,
+          "white": 2465,
+          "draws": 191,
+          "black": 2268,
           "game": null,
           "opening": {
             "eco": "C57",
             "name": "Italian Game: Two Knights Defense, Knight Attack"
-          },
-          "san": "Ng5",
-          "uci": "f3g5",
-          "white": 2431
+          }
         },
         {
-          "averageRating": 2074,
-          "black": 1148,
-          "draws": 91,
-          "game": null,
-          "opening": null,
-          "san": "O-O",
           "uci": "e1h1",
-          "white": 1087
+          "san": "O-O",
+          "averageRating": 2075,
+          "white": 1116,
+          "draws": 91,
+          "black": 1173,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "d2d4",
+          "san": "d4",
           "averageRating": 2083,
-          "black": 825,
-          "draws": 98,
+          "white": 871,
+          "draws": 101,
+          "black": 838,
           "game": null,
           "opening": {
             "eco": "C56",
             "name": "Italian Game: Two Knights Defense, Open Variation"
-          },
-          "san": "d4",
-          "uci": "d2d4",
-          "white": 857
+          }
         },
         {
+          "uci": "b1c3",
+          "san": "Nc3",
           "averageRating": 2057,
-          "black": 743,
-          "draws": 67,
+          "white": 578,
+          "draws": 70,
+          "black": 759,
           "game": null,
           "opening": {
             "eco": "C47",
             "name": "Four Knights Game: Italian Variation"
-          },
-          "san": "Nc3",
-          "uci": "b1c3",
-          "white": 568
+          }
         },
         {
+          "uci": "c2c3",
+          "san": "c3",
           "averageRating": 2070,
-          "black": 149,
+          "white": 102,
           "draws": 16,
+          "black": 149,
           "game": null,
           "opening": {
             "eco": "C44",
             "name": "Ponziani Opening: Neumann Gambit"
-          },
-          "san": "c3",
-          "uci": "c2c3",
-          "white": 100
+          }
         },
         {
-          "averageRating": 2090,
-          "black": 70,
-          "draws": 5,
-          "game": null,
-          "opening": null,
-          "san": "Qe2",
           "uci": "d1e2",
-          "white": 90
+          "san": "Qe2",
+          "averageRating": 2089,
+          "white": 93,
+          "draws": 5,
+          "black": 72,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2076,
-          "black": 10,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "Bxf7+",
           "uci": "c4f7",
-          "white": 12
+          "san": "Bxf7+",
+          "averageRating": 2076,
+          "white": 12,
+          "draws": 2,
+          "black": 10,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2094,
-          "black": 6,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "a3",
           "uci": "a2a3",
-          "white": 5
+          "san": "a3",
+          "averageRating": 2094,
+          "white": 5,
+          "draws": 0,
+          "black": 6,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2006,
-          "black": 7,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "h3",
           "uci": "h2h3",
-          "white": 3
-        },
-        {
-          "averageRating": 2044,
-          "black": 8,
+          "san": "h3",
+          "averageRating": 2006,
+          "white": 3,
           "draws": 0,
+          "black": 7,
           "game": null,
-          "opening": null,
-          "san": "Nxe5",
-          "uci": "f3e5",
-          "white": 1
+          "opening": null
         },
         {
-          "averageRating": 2055,
-          "black": 1,
-          "draws": 1,
+          "uci": "f3e5",
+          "san": "Nxe5",
+          "averageRating": 2044,
+          "white": 1,
+          "draws": 0,
+          "black": 8,
           "game": null,
-          "opening": null,
-          "san": "b4",
+          "opening": null
+        },
+        {
           "uci": "b2b4",
-          "white": 3
+          "san": "b4",
+          "averageRating": 2055,
+          "white": 3,
+          "draws": 1,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C55",
         "name": "Italian Game: Two Knights Defense"
-      },
-      "white": 9375
+      }
     }
   }
 }

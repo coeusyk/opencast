@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "E11",
   "months": {
@@ -2814,89 +2812,76 @@
       "white": 2443
     },
     "2026-04": {
-      "black": 1171,
-      "draws": 194,
+      "white": 1373,
+      "draws": 196,
+      "black": 1189,
       "moves": [
         {
-          "averageRating": 2101,
-          "black": 732,
-          "draws": 124,
-          "game": null,
-          "opening": null,
-          "san": "Bd2",
           "uci": "c1d2",
-          "white": 813
+          "san": "Bd2",
+          "averageRating": 2101,
+          "white": 818,
+          "draws": 125,
+          "black": 743,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "b1d2",
+          "san": "Nbd2",
           "averageRating": 2113,
-          "black": 248,
+          "white": 352,
           "draws": 51,
+          "black": 254,
           "game": null,
           "opening": {
             "eco": "E11",
             "name": "Bogo-Indian Defense: Gr\u00fcnfeld Variation"
-          },
-          "san": "Nbd2",
-          "uci": "b1d2",
-          "white": 343
+          }
         },
         {
+          "uci": "b1c3",
+          "san": "Nc3",
           "averageRating": 2080,
-          "black": 188,
-          "draws": 18,
+          "white": 199,
+          "draws": 19,
+          "black": 189,
           "game": null,
           "opening": {
             "eco": "E21",
             "name": "Nimzo-Indian Defense: Three Knights Variation"
-          },
-          "san": "Nc3",
-          "uci": "b1c3",
-          "white": 195
+          }
         },
         {
+          "uci": "f3d2",
+          "san": "Nfd2",
           "averageRating": 2083,
-          "black": 3,
+          "white": 4,
           "draws": 0,
+          "black": 3,
           "game": null,
           "opening": {
             "eco": "E11",
             "name": "Bogo-Indian Defense: New England Variation"
-          },
-          "san": "Nfd2",
-          "uci": "f3d2",
-          "white": 4
+          }
         },
         {
-          "averageRating": 2195,
-          "black": 0,
-          "draws": 1,
-          "game": {
-            "black": {
-              "name": "cSpock",
-              "rating": 2122
-            },
-            "id": "xsiSaoSf",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "phatdepboy123",
-              "rating": 2195
-            },
-            "winner": null,
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Qd2",
           "uci": "d1d2",
-          "white": 0
+          "san": "Qd2",
+          "averageRating": 2195,
+          "white": 0,
+          "draws": 1,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "E11",
         "name": "Bogo-Indian Defense"
-      },
-      "white": 1355
+      }
     }
   }
 }

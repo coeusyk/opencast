@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "D52",
   "months": {
@@ -5293,153 +5291,140 @@
       "white": 1866
     },
     "2026-04": {
-      "black": 932,
+      "white": 1038,
       "draws": 109,
+      "black": 948,
       "moves": [
         {
-          "averageRating": 2091,
-          "black": 440,
+          "uci": "d8a5",
+          "san": "Qa5",
+          "averageRating": 2092,
+          "white": 460,
           "draws": 54,
+          "black": 451,
           "game": null,
           "opening": {
             "eco": "D52",
             "name": "Queen's Gambit Declined: Cambridge Springs Defense"
-          },
-          "san": "Qa5",
-          "uci": "d8a5",
-          "white": 445
+          }
         },
         {
-          "averageRating": 2085,
-          "black": 197,
-          "draws": 26,
-          "game": null,
-          "opening": null,
-          "san": "Be7",
           "uci": "f8e7",
-          "white": 249
-        },
-        {
+          "san": "Be7",
           "averageRating": 2084,
-          "black": 151,
-          "draws": 13,
+          "white": 251,
+          "draws": 26,
+          "black": 198,
           "game": null,
-          "opening": null,
-          "san": "Bb4",
+          "opening": null
+        },
+        {
           "uci": "f8b4",
-          "white": 168
+          "san": "Bb4",
+          "averageRating": 2085,
+          "white": 175,
+          "draws": 13,
+          "black": 153,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2083,
-          "black": 62,
-          "draws": 7,
-          "game": null,
-          "opening": null,
-          "san": "Bd6",
           "uci": "f8d6",
-          "white": 61
+          "san": "Bd6",
+          "averageRating": 2082,
+          "white": 63,
+          "draws": 7,
+          "black": 62,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2088,
-          "black": 46,
-          "draws": 8,
-          "game": null,
-          "opening": null,
-          "san": "h6",
           "uci": "h7h6",
-          "white": 43
+          "san": "h6",
+          "averageRating": 2089,
+          "white": 44,
+          "draws": 8,
+          "black": 46,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2103,
-          "black": 7,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "a6",
           "uci": "a7a6",
-          "white": 15
+          "san": "a6",
+          "averageRating": 2102,
+          "white": 15,
+          "draws": 0,
+          "black": 8,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2094,
-          "black": 9,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "b6",
           "uci": "b7b6",
-          "white": 10
-        },
-        {
-          "averageRating": 2101,
+          "san": "b6",
+          "averageRating": 2094,
+          "white": 10,
+          "draws": 1,
           "black": 9,
-          "draws": 0,
           "game": null,
-          "opening": null,
-          "san": "dxc4",
+          "opening": null
+        },
+        {
           "uci": "d5c4",
-          "white": 9
+          "san": "dxc4",
+          "averageRating": 2100,
+          "white": 10,
+          "draws": 0,
+          "black": 9,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2060,
-          "black": 5,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "g6",
           "uci": "g7g6",
-          "white": 4
+          "san": "g6",
+          "averageRating": 2060,
+          "white": 4,
+          "draws": 0,
+          "black": 5,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2012,
-          "black": 4,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Qc7",
           "uci": "d8c7",
-          "white": 2
-        },
-        {
-          "averageRating": 2103,
-          "black": 1,
+          "san": "Qc7",
+          "averageRating": 2012,
+          "white": 2,
           "draws": 0,
+          "black": 4,
           "game": null,
-          "opening": null,
-          "san": "Qb6",
-          "uci": "d8b6",
-          "white": 3
+          "opening": null
         },
         {
-          "averageRating": 2067,
-          "black": 1,
+          "uci": "d8b6",
+          "san": "Qb6",
+          "averageRating": 2093,
+          "white": 3,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "jasapurba",
-              "rating": 2067
-            },
-            "id": "Ij9ZIfXQ",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "gr8k9t",
-              "rating": 2039
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Nb6",
+          "black": 2,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "d7b6",
-          "white": 0
+          "san": "Nb6",
+          "averageRating": 2067,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "D52",
         "name": "Queen's Gambit Declined"
-      },
-      "white": 1010
+      }
     }
   }
 }

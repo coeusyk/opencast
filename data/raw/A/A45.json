@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "A45",
   "months": {
@@ -5233,138 +5231,140 @@
       "white": 8540
     },
     "2026-04": {
-      "black": 3824,
-      "draws": 478,
+      "white": 4347,
+      "draws": 487,
+      "black": 3877,
       "moves": [
         {
-          "averageRating": 2102,
-          "black": 1052,
-          "draws": 113,
-          "game": null,
-          "opening": null,
-          "san": "Ne4",
           "uci": "f6e4",
-          "white": 1158
+          "san": "Ne4",
+          "averageRating": 2102,
+          "white": 1183,
+          "draws": 115,
+          "black": 1073,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "e7e6",
+          "san": "e6",
           "averageRating": 2091,
-          "black": 935,
-          "draws": 102,
+          "white": 1063,
+          "draws": 104,
+          "black": 946,
           "game": null,
           "opening": {
             "eco": "A45",
             "name": "Trompowsky Attack: Classical Defense"
-          },
-          "san": "e6",
-          "uci": "e7e6",
-          "white": 1039
+          }
         },
         {
-          "averageRating": 2099,
-          "black": 583,
-          "draws": 102,
-          "game": null,
-          "opening": null,
-          "san": "d5",
           "uci": "d7d5",
-          "white": 680
+          "san": "d5",
+          "averageRating": 2099,
+          "white": 692,
+          "draws": 104,
+          "black": 590,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2088,
-          "black": 511,
-          "draws": 83,
-          "game": null,
-          "opening": null,
-          "san": "g6",
           "uci": "g7g6",
-          "white": 573
+          "san": "g6",
+          "averageRating": 2088,
+          "white": 581,
+          "draws": 86,
+          "black": 515,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2111,
-          "black": 373,
-          "draws": 43,
-          "game": null,
-          "opening": null,
-          "san": "c5",
           "uci": "c7c5",
-          "white": 365
-        },
-        {
-          "averageRating": 2084,
-          "black": 137,
-          "draws": 10,
-          "game": null,
-          "opening": null,
-          "san": "d6",
-          "uci": "d7d6",
-          "white": 171
-        },
-        {
-          "averageRating": 2077,
-          "black": 97,
-          "draws": 10,
-          "game": null,
-          "opening": null,
-          "san": "h6",
-          "uci": "h7h6",
-          "white": 138
-        },
-        {
-          "averageRating": 2083,
-          "black": 84,
-          "draws": 14,
-          "game": null,
-          "opening": null,
-          "san": "c6",
-          "uci": "c7c6",
-          "white": 87
-        },
-        {
-          "averageRating": 2097,
-          "black": 33,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "b6",
-          "uci": "b7b6",
-          "white": 22
-        },
-        {
+          "san": "c5",
           "averageRating": 2111,
-          "black": 10,
-          "draws": 0,
+          "white": 372,
+          "draws": 43,
+          "black": 379,
           "game": null,
-          "opening": null,
-          "san": "Nc6",
-          "uci": "b8c6",
-          "white": 8
+          "opening": null
         },
         {
+          "uci": "d7d6",
+          "san": "d6",
+          "averageRating": 2084,
+          "white": 174,
+          "draws": 10,
+          "black": 138,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "h7h6",
+          "san": "h6",
+          "averageRating": 2077,
+          "white": 143,
+          "draws": 10,
+          "black": 99,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c7c6",
+          "san": "c6",
+          "averageRating": 2083,
+          "white": 91,
+          "draws": 14,
+          "black": 84,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "b7b6",
+          "san": "b6",
           "averageRating": 2096,
-          "black": 5,
+          "white": 23,
           "draws": 0,
+          "black": 33,
           "game": null,
-          "opening": null,
-          "san": "Nd5",
-          "uci": "f6d5",
-          "white": 5
+          "opening": null
         },
         {
-          "averageRating": 2066,
-          "black": 1,
-          "draws": 1,
+          "uci": "b8c6",
+          "san": "Nc6",
+          "averageRating": 2111,
+          "white": 8,
+          "draws": 0,
+          "black": 10,
           "game": null,
-          "opening": null,
-          "san": "e5",
+          "opening": null
+        },
+        {
+          "uci": "f6d5",
+          "san": "Nd5",
+          "averageRating": 2096,
+          "white": 5,
+          "draws": 0,
+          "black": 5,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "e7e5",
-          "white": 6
+          "san": "e5",
+          "averageRating": 2066,
+          "white": 6,
+          "draws": 1,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "A45",
         "name": "Trompowsky Attack"
-      },
-      "white": 4258
+      }
     }
   }
 }

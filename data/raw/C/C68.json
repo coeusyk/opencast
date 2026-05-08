@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C68",
   "months": {
@@ -3683,58 +3681,60 @@
       "white": 3326
     },
     "2026-04": {
-      "black": 1428,
+      "white": 1639,
       "draws": 218,
+      "black": 1451,
       "moves": [
         {
-          "averageRating": 2093,
-          "black": 1399,
-          "draws": 215,
-          "game": null,
-          "opening": null,
-          "san": "dxc6",
           "uci": "d7c6",
-          "white": 1573
+          "san": "dxc6",
+          "averageRating": 2093,
+          "white": 1603,
+          "draws": 215,
+          "black": 1422,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "b7c6",
+          "san": "bxc6",
           "averageRating": 2069,
-          "black": 29,
+          "white": 32,
           "draws": 2,
+          "black": 29,
           "game": null,
           "opening": {
             "eco": "C68",
             "name": "Ruy Lopez: Exchange Variation, Lutikov Variation"
-          },
-          "san": "bxc6",
-          "uci": "b7c6",
-          "white": 32
+          }
         },
         {
-          "averageRating": 2100,
-          "black": 0,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Nf6",
           "uci": "g8f6",
-          "white": 2
+          "san": "Nf6",
+          "averageRating": 2100,
+          "white": 2,
+          "draws": 1,
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2072,
-          "black": 0,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Ne7",
           "uci": "g8e7",
-          "white": 2
+          "san": "Ne7",
+          "averageRating": 2072,
+          "white": 2,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C68",
         "name": "Ruy Lopez: Exchange Variation"
-      },
-      "white": 1609
+      }
     }
   }
 }

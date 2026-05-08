@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "D20",
   "months": {
@@ -5584,147 +5582,149 @@
       "white": 10098
     },
     "2026-04": {
-      "black": 4417,
-      "draws": 577,
+      "white": 5284,
+      "draws": 584,
+      "black": 4483,
       "moves": [
         {
-          "averageRating": 2077,
-          "black": 1621,
-          "draws": 195,
-          "game": null,
-          "opening": null,
-          "san": "Nc3",
           "uci": "b1c3",
-          "white": 1796
+          "san": "Nc3",
+          "averageRating": 2077,
+          "white": 1827,
+          "draws": 198,
+          "black": 1648,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "e2e3",
+          "san": "e3",
           "averageRating": 2089,
-          "black": 1005,
-          "draws": 127,
+          "white": 1288,
+          "draws": 129,
+          "black": 1018,
           "game": null,
           "opening": {
             "eco": "D20",
             "name": "Queen's Gambit Accepted: Old Variation"
-          },
-          "san": "e3",
-          "uci": "e2e3",
-          "white": 1274
+          }
         },
         {
+          "uci": "g1f3",
+          "san": "Nf3",
           "averageRating": 2105,
-          "black": 958,
-          "draws": 166,
+          "white": 1128,
+          "draws": 167,
+          "black": 969,
           "game": null,
           "opening": {
             "eco": "D21",
             "name": "Queen's Gambit Accepted: Normal Variation"
-          },
-          "san": "Nf3",
-          "uci": "g1f3",
-          "white": 1120
+          }
         },
         {
+          "uci": "e2e4",
+          "san": "e4",
           "averageRating": 2087,
-          "black": 725,
-          "draws": 81,
+          "white": 920,
+          "draws": 82,
+          "black": 738,
           "game": null,
           "opening": {
             "eco": "D20",
             "name": "Queen's Gambit Accepted: Saduleto Variation"
-          },
-          "san": "e4",
-          "uci": "e2e4",
-          "white": 906
+          }
         },
         {
+          "uci": "d1a4",
+          "san": "Qa4+",
           "averageRating": 2076,
-          "black": 42,
+          "white": 58,
           "draws": 3,
+          "black": 43,
           "game": null,
           "opening": {
             "eco": "D20",
             "name": "Queen's Gambit Accepted: Accelerated Mannheim Variation"
-          },
-          "san": "Qa4+",
-          "uci": "d1a4",
-          "white": 57
+          }
         },
         {
-          "averageRating": 2123,
-          "black": 18,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "g3",
           "uci": "g2g3",
-          "white": 16
+          "san": "g3",
+          "averageRating": 2123,
+          "white": 16,
+          "draws": 4,
+          "black": 19,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2043,
-          "black": 21,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "a4",
           "uci": "a2a4",
-          "white": 16
+          "san": "a4",
+          "averageRating": 2043,
+          "white": 16,
+          "draws": 1,
+          "black": 21,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2066,
-          "black": 10,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bf4",
           "uci": "c1f4",
-          "white": 15
+          "san": "Bf4",
+          "averageRating": 2064,
+          "white": 16,
+          "draws": 0,
+          "black": 10,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2019,
-          "black": 5,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "a3",
           "uci": "a2a3",
-          "white": 3
+          "san": "a3",
+          "averageRating": 2019,
+          "white": 3,
+          "draws": 0,
+          "black": 5,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2087,
-          "black": 3,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bg5",
           "uci": "c1g5",
-          "white": 5
+          "san": "Bg5",
+          "averageRating": 2087,
+          "white": 5,
+          "draws": 0,
+          "black": 3,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2066,
-          "black": 2,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Qc2",
           "uci": "d1c2",
-          "white": 2
+          "san": "Qc2",
+          "averageRating": 2066,
+          "white": 2,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2051,
-          "black": 2,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "d5",
           "uci": "d4d5",
-          "white": 2
+          "san": "d5",
+          "averageRating": 2051,
+          "white": 2,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "D20",
         "name": "Queen's Gambit Accepted"
-      },
-      "white": 5215
+      }
     }
   }
 }

@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "D47",
   "months": {
@@ -2231,45 +2229,47 @@
       "white": 328
     },
     "2026-04": {
-      "black": 171,
-      "draws": 20,
+      "white": 170,
+      "draws": 21,
+      "black": 175,
       "moves": [
         {
-          "averageRating": 2087,
-          "black": 130,
-          "draws": 17,
-          "game": null,
-          "opening": null,
-          "san": "Bd3",
           "uci": "c4d3",
-          "white": 127
+          "san": "Bd3",
+          "averageRating": 2088,
+          "white": 130,
+          "draws": 17,
+          "black": 132,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2086,
-          "black": 23,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bb3",
           "uci": "c4b3",
-          "white": 23
+          "san": "Bb3",
+          "averageRating": 2081,
+          "white": 24,
+          "draws": 0,
+          "black": 24,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2098,
-          "black": 18,
-          "draws": 3,
-          "game": null,
-          "opening": null,
-          "san": "Be2",
           "uci": "c4e2",
-          "white": 16
+          "san": "Be2",
+          "averageRating": 2097,
+          "white": 16,
+          "draws": 4,
+          "black": 19,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "D47",
         "name": "Semi-Slav Defense: Meran Variation"
-      },
-      "white": 166
+      }
     }
   }
 }

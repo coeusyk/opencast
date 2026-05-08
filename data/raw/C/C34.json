@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C34",
   "months": {
@@ -5276,125 +5274,97 @@
       "white": 377
     },
     "2026-04": {
-      "black": 202,
+      "white": 171,
       "draws": 12,
+      "black": 205,
       "moves": [
         {
-          "averageRating": 2063,
-          "black": 103,
-          "draws": 3,
-          "game": null,
-          "opening": null,
-          "san": "Bc4",
           "uci": "f1c4",
-          "white": 74
-        },
-        {
-          "averageRating": 2058,
-          "black": 55,
+          "san": "Bc4",
+          "averageRating": 2063,
+          "white": 77,
           "draws": 3,
+          "black": 106,
           "game": null,
-          "opening": null,
-          "san": "d4",
+          "opening": null
+        },
+        {
           "uci": "d2d4",
-          "white": 46
+          "san": "d4",
+          "averageRating": 2059,
+          "white": 48,
+          "draws": 3,
+          "black": 55,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2064,
-          "black": 40,
-          "draws": 5,
-          "game": null,
-          "opening": null,
-          "san": "h4",
           "uci": "h2h4",
-          "white": 35
+          "san": "h4",
+          "averageRating": 2065,
+          "white": 39,
+          "draws": 5,
+          "black": 40,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2084,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Nc3",
           "uci": "b1c3",
-          "white": 4
-        },
-        {
-          "averageRating": 2121,
+          "san": "Nc3",
+          "averageRating": 2084,
+          "white": 4,
+          "draws": 0,
           "black": 1,
-          "draws": 0,
           "game": null,
-          "opening": null,
-          "san": "b3",
+          "opening": null
+        },
+        {
           "uci": "b2b3",
-          "white": 2
-        },
-        {
-          "averageRating": 2051,
-          "black": 2,
+          "san": "b3",
+          "averageRating": 2121,
+          "white": 2,
           "draws": 0,
+          "black": 1,
           "game": null,
-          "opening": null,
-          "san": "d3",
+          "opening": null
+        },
+        {
           "uci": "d2d3",
-          "white": 0
-        },
-        {
-          "averageRating": 2106,
-          "black": 0,
+          "san": "d3",
+          "averageRating": 2051,
+          "white": 0,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "YasserSobhy",
-              "rating": 2007
-            },
-            "id": "pFKPyDYb",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "TacticallyFlawed",
-              "rating": 2106
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "g3",
-          "uci": "g2g3",
-          "white": 1
+          "black": 2,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2072,
+          "uci": "g2g3",
+          "san": "g3",
+          "averageRating": 2106,
+          "white": 1,
+          "draws": 0,
           "black": 0,
-          "draws": 1,
-          "game": {
-            "black": {
-              "name": "Talfahrt",
-              "rating": 2114
-            },
-            "id": "x6BhlJLa",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Pokemon_Airr",
-              "rating": 2072
-            },
-            "winner": null,
-            "year": 2026
-          },
-          "opening": null,
-          "san": "c3",
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "c2c3",
-          "white": 0
+          "san": "c3",
+          "averageRating": 2072,
+          "white": 0,
+          "draws": 1,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C34",
         "name": "King's Gambit Accepted: Becker Defense"
-      },
-      "white": 162
+      }
     }
   }
 }

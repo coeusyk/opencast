@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C02",
   "months": {
@@ -5350,141 +5348,143 @@
       "white": 19134
     },
     "2026-04": {
-      "black": 9374,
-      "draws": 933,
+      "white": 9847,
+      "draws": 950,
+      "black": 9533,
       "moves": [
         {
+          "uci": "c7c5",
+          "san": "c5",
           "averageRating": 2084,
-          "black": 8765,
-          "draws": 850,
+          "white": 9175,
+          "draws": 867,
+          "black": 8910,
           "game": null,
           "opening": {
             "eco": "C02",
             "name": "French Defense: Advance Variation"
-          },
-          "san": "c5",
-          "uci": "c7c5",
-          "white": 9021
+          }
         },
         {
+          "uci": "c8d7",
+          "san": "Bd7",
           "averageRating": 2092,
-          "black": 121,
+          "white": 130,
           "draws": 14,
+          "black": 125,
           "game": null,
           "opening": {
             "eco": "C02",
             "name": "French Defense: Advance Variation, Extended Bishop Swap"
-          },
-          "san": "Bd7",
-          "uci": "c8d7",
-          "white": 130
+          }
         },
         {
-          "averageRating": 2091,
-          "black": 121,
-          "draws": 22,
-          "game": null,
-          "opening": null,
-          "san": "Ne7",
           "uci": "g8e7",
-          "white": 120
+          "san": "Ne7",
+          "averageRating": 2090,
+          "white": 122,
+          "draws": 22,
+          "black": 124,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2085,
-          "black": 85,
-          "draws": 12,
-          "game": null,
-          "opening": null,
-          "san": "f5",
           "uci": "f7f5",
-          "white": 68
+          "san": "f5",
+          "averageRating": 2086,
+          "white": 71,
+          "draws": 12,
+          "black": 86,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2106,
-          "black": 54,
-          "draws": 8,
-          "game": null,
-          "opening": null,
-          "san": "b6",
           "uci": "b7b6",
-          "white": 65
+          "san": "b6",
+          "averageRating": 2106,
+          "white": 65,
+          "draws": 8,
+          "black": 54,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2082,
-          "black": 47,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "a6",
           "uci": "a7a6",
-          "white": 52
-        },
-        {
-          "averageRating": 2059,
-          "black": 34,
-          "draws": 5,
-          "game": null,
-          "opening": null,
-          "san": "f6",
-          "uci": "f7f6",
-          "white": 49
-        },
-        {
-          "averageRating": 2061,
-          "black": 38,
-          "draws": 5,
-          "game": null,
-          "opening": null,
-          "san": "Nc6",
-          "uci": "b8c6",
-          "white": 37
-        },
-        {
-          "averageRating": 2077,
-          "black": 28,
-          "draws": 5,
-          "game": null,
-          "opening": null,
-          "san": "c6",
-          "uci": "c7c6",
-          "white": 38
-        },
-        {
-          "averageRating": 2103,
-          "black": 28,
+          "san": "a6",
+          "averageRating": 2082,
+          "white": 52,
           "draws": 4,
+          "black": 47,
           "game": null,
-          "opening": null,
-          "san": "Qd7",
+          "opening": null
+        },
+        {
+          "uci": "f7f6",
+          "san": "f6",
+          "averageRating": 2059,
+          "white": 49,
+          "draws": 5,
+          "black": 35,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "b8c6",
+          "san": "Nc6",
+          "averageRating": 2061,
+          "white": 38,
+          "draws": 5,
+          "black": 42,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c7c6",
+          "san": "c6",
+          "averageRating": 2077,
+          "white": 38,
+          "draws": 5,
+          "black": 29,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "d8d7",
-          "white": 22
+          "san": "Qd7",
+          "averageRating": 2103,
+          "white": 22,
+          "draws": 4,
+          "black": 28,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2045,
-          "black": 18,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "g6",
           "uci": "g7g6",
-          "white": 25
+          "san": "g6",
+          "averageRating": 2045,
+          "white": 25,
+          "draws": 2,
+          "black": 18,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2071,
-          "black": 9,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Be7",
           "uci": "f8e7",
-          "white": 17
+          "san": "Be7",
+          "averageRating": 2071,
+          "white": 17,
+          "draws": 1,
+          "black": 9,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C02",
         "name": "French Defense: Advance Variation"
-      },
-      "white": 9686
+      }
     }
   }
 }

@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "D36",
   "months": {
@@ -5931,170 +5929,127 @@
       "white": 557
     },
     "2026-04": {
-      "black": 225,
+      "white": 282,
       "draws": 28,
+      "black": 227,
       "moves": [
         {
-          "averageRating": 2107,
-          "black": 124,
-          "draws": 15,
-          "game": null,
-          "opening": null,
-          "san": "Be7",
           "uci": "f8e7",
-          "white": 162
-        },
-        {
+          "san": "Be7",
           "averageRating": 2106,
-          "black": 40,
-          "draws": 4,
+          "white": 164,
+          "draws": 15,
+          "black": 126,
           "game": null,
-          "opening": null,
-          "san": "Bd6",
+          "opening": null
+        },
+        {
           "uci": "f8d6",
-          "white": 40
+          "san": "Bd6",
+          "averageRating": 2107,
+          "white": 41,
+          "draws": 4,
+          "black": 40,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2094,
-          "black": 26,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "h6",
           "uci": "h7h6",
-          "white": 29
-        },
-        {
-          "averageRating": 2086,
-          "black": 8,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Nbd7",
-          "uci": "b8d7",
-          "white": 18
-        },
-        {
-          "averageRating": 2119,
-          "black": 7,
+          "san": "h6",
+          "averageRating": 2095,
+          "white": 31,
           "draws": 2,
+          "black": 26,
           "game": null,
-          "opening": null,
-          "san": "g6",
-          "uci": "g7g6",
-          "white": 11
+          "opening": null
         },
         {
-          "averageRating": 2091,
-          "black": 7,
-          "draws": 3,
-          "game": null,
-          "opening": null,
-          "san": "Bg4",
-          "uci": "c8g4",
-          "white": 4
-        },
-        {
-          "averageRating": 2121,
-          "black": 4,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Be6",
-          "uci": "c8e6",
-          "white": 9
-        },
-        {
-          "averageRating": 2144,
-          "black": 8,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bb4",
-          "uci": "f8b4",
-          "white": 3
-        },
-        {
-          "averageRating": 1948,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "BGS64",
-              "rating": 1948
-            },
-            "id": "1v70N2yg",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "blunderbuzz45",
-              "rating": 2061
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Qa5",
-          "uci": "d8a5",
-          "white": 1
-        },
-        {
-          "averageRating": 1987,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "Jaishreeramjiki",
-              "rating": 1987
-            },
-            "id": "tbghaCwS",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "will_is_myth",
-              "rating": 2039
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Na6",
-          "uci": "b8a6",
-          "white": 0
-        },
-        {
-          "averageRating": 2183,
-          "black": 0,
+          "uci": "b8d7",
+          "san": "Nbd7",
+          "averageRating": 2086,
+          "white": 18,
           "draws": 1,
-          "game": {
-            "black": {
-              "name": "RockHam",
-              "rating": 2183
-            },
-            "id": "bCYV1N6x",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "AlexVera747",
-              "rating": 2210
-            },
-            "winner": null,
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Qb6",
+          "black": 8,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "g7g6",
+          "san": "g6",
+          "averageRating": 2119,
+          "white": 11,
+          "draws": 2,
+          "black": 7,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c8g4",
+          "san": "Bg4",
+          "averageRating": 2091,
+          "white": 4,
+          "draws": 3,
+          "black": 7,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c8e6",
+          "san": "Be6",
+          "averageRating": 2121,
+          "white": 9,
+          "draws": 0,
+          "black": 4,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f8b4",
+          "san": "Bb4",
+          "averageRating": 2144,
+          "white": 3,
+          "draws": 0,
+          "black": 8,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d8a5",
+          "san": "Qa5",
+          "averageRating": 1948,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "b8a6",
+          "san": "Na6",
+          "averageRating": 1987,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "d8b6",
-          "white": 0
+          "san": "Qb6",
+          "averageRating": 2183,
+          "white": 0,
+          "draws": 1,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "D36",
         "name": "Queen's Gambit Declined: Exchange Variation, Reshevsky Variation"
-      },
-      "white": 277
+      }
     }
   }
 }

@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C44",
   "months": {
@@ -6403,168 +6401,170 @@
       "white": 234686
     },
     "2026-04": {
-      "black": 109725,
-      "draws": 12326,
+      "white": 121172,
+      "draws": 12544,
+      "black": 111612,
       "moves": [
         {
+          "uci": "g1f3",
+          "san": "Nf3",
           "averageRating": 2084,
-          "black": 73111,
-          "draws": 8443,
+          "white": 80768,
+          "draws": 8607,
+          "black": 74350,
           "game": null,
           "opening": {
             "eco": "C40",
             "name": "King's Knight Opening"
-          },
-          "san": "Nf3",
-          "uci": "g1f3",
-          "white": 79474
+          }
         },
         {
+          "uci": "f2f4",
+          "san": "f4",
           "averageRating": 2072,
-          "black": 10398,
-          "draws": 949,
+          "white": 10541,
+          "draws": 959,
+          "black": 10584,
           "game": null,
           "opening": {
             "eco": "C30",
             "name": "King's Gambit"
-          },
-          "san": "f4",
-          "uci": "f2f4",
-          "white": 10348
+          }
         },
         {
+          "uci": "b1c3",
+          "san": "Nc3",
           "averageRating": 2081,
-          "black": 8601,
-          "draws": 999,
+          "white": 10214,
+          "draws": 1009,
+          "black": 8734,
           "game": null,
           "opening": {
             "eco": "C25",
             "name": "Vienna Game"
-          },
-          "san": "Nc3",
-          "uci": "b1c3",
-          "white": 10052
+          }
         },
         {
-          "averageRating": 2081,
-          "black": 7839,
-          "draws": 815,
+          "uci": "d2d4",
+          "san": "d4",
+          "averageRating": 2082,
+          "white": 9301,
+          "draws": 828,
+          "black": 7985,
           "game": null,
           "opening": {
             "eco": "C20",
             "name": "Center Game"
-          },
-          "san": "d4",
-          "uci": "d2d4",
-          "white": 9123
+          }
         },
         {
+          "uci": "f1c4",
+          "san": "Bc4",
           "averageRating": 2069,
-          "black": 6754,
-          "draws": 769,
+          "white": 7324,
+          "draws": 787,
+          "black": 6886,
           "game": null,
           "opening": {
             "eco": "C23",
             "name": "Bishop's Opening"
-          },
-          "san": "Bc4",
-          "uci": "f1c4",
-          "white": 7204
+          }
         },
         {
+          "uci": "d2d3",
+          "san": "d3",
           "averageRating": 2065,
-          "black": 1011,
-          "draws": 138,
+          "white": 1045,
+          "draws": 141,
+          "black": 1030,
           "game": null,
           "opening": {
             "eco": "C20",
             "name": "King's Pawn Game: Leonardis Variation"
-          },
-          "san": "d3",
-          "uci": "d2d3",
-          "white": 1031
+          }
         },
         {
+          "uci": "c2c3",
+          "san": "c3",
           "averageRating": 2058,
-          "black": 538,
+          "white": 516,
           "draws": 55,
+          "black": 546,
           "game": null,
           "opening": {
             "eco": "C20",
             "name": "King's Pawn Game: MacLeod Attack"
-          },
-          "san": "c3",
-          "uci": "c2c3",
-          "white": 507
+          }
         },
         {
+          "uci": "c2c4",
+          "san": "c4",
           "averageRating": 2059,
-          "black": 330,
+          "white": 345,
           "draws": 48,
+          "black": 338,
           "game": null,
           "opening": {
             "eco": "C20",
             "name": "English Opening: The Whale"
-          },
-          "san": "c4",
-          "uci": "c2c4",
-          "white": 336
+          }
         },
         {
+          "uci": "d1h5",
+          "san": "Qh5",
           "averageRating": 2076,
-          "black": 221,
+          "white": 273,
           "draws": 26,
+          "black": 223,
           "game": null,
           "opening": {
             "eco": "C20",
             "name": "King's Pawn Game: Wayward Queen Attack"
-          },
-          "san": "Qh5",
-          "uci": "d1h5",
-          "white": 268
+          }
         },
         {
-          "averageRating": 2054,
-          "black": 186,
+          "uci": "g1e2",
+          "san": "Ne2",
+          "averageRating": 2055,
+          "white": 193,
           "draws": 15,
+          "black": 188,
           "game": null,
           "opening": {
             "eco": "C20",
             "name": "King's Pawn Game: Alapin Opening"
-          },
-          "san": "Ne2",
-          "uci": "g1e2",
-          "white": 193
+          }
         },
         {
-          "averageRating": 2061,
-          "black": 176,
-          "draws": 18,
-          "game": null,
-          "opening": null,
-          "san": "g3",
           "uci": "g2g3",
-          "white": 178
+          "san": "g3",
+          "averageRating": 2061,
+          "white": 183,
+          "draws": 18,
+          "black": 179,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2080,
-          "black": 148,
+          "uci": "f2f3",
+          "san": "f3",
+          "averageRating": 2079,
+          "white": 113,
           "draws": 13,
+          "black": 150,
           "game": null,
           "opening": {
             "eco": "C20",
             "name": "King's Pawn Game: King's Head Opening"
-          },
-          "san": "f3",
-          "uci": "f2f3",
-          "white": 112
+          }
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C20",
         "name": "King's Pawn Game"
-      },
-      "white": 119179
+      }
     }
   }
 }

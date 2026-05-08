@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C00",
   "months": {
@@ -6286,165 +6284,167 @@
       "white": 130473
     },
     "2026-04": {
-      "black": 62529,
-      "draws": 7612,
+      "white": 67775,
+      "draws": 7747,
+      "black": 63588,
       "moves": [
         {
+          "uci": "d2d4",
+          "san": "d4",
           "averageRating": 2087,
-          "black": 39001,
-          "draws": 4828,
+          "white": 42998,
+          "draws": 4918,
+          "black": 39679,
           "game": null,
           "opening": {
             "eco": "C00",
             "name": "French Defense: Normal Variation"
-          },
-          "san": "d4",
-          "uci": "d2d4",
-          "white": 42274
+          }
         },
         {
+          "uci": "g1f3",
+          "san": "Nf3",
           "averageRating": 2073,
-          "black": 10778,
-          "draws": 1337,
+          "white": 10894,
+          "draws": 1364,
+          "black": 10944,
           "game": null,
           "opening": {
             "eco": "C00",
             "name": "French Defense: Knight Variation"
-          },
-          "san": "Nf3",
-          "uci": "g1f3",
-          "white": 10699
+          }
         },
         {
+          "uci": "b1c3",
+          "san": "Nc3",
           "averageRating": 2082,
-          "black": 3336,
-          "draws": 410,
+          "white": 3728,
+          "draws": 413,
+          "black": 3394,
           "game": null,
           "opening": {
             "eco": "C00",
             "name": "French Defense: Queen's Knight"
-          },
-          "san": "Nc3",
-          "uci": "b1c3",
-          "white": 3656
+          }
         },
         {
+          "uci": "d2d3",
+          "san": "d3",
           "averageRating": 2095,
-          "black": 2348,
-          "draws": 281,
+          "white": 2717,
+          "draws": 284,
+          "black": 2391,
           "game": null,
           "opening": {
             "eco": "C00",
             "name": "French Defense: King's Indian Attack"
-          },
-          "san": "d3",
-          "uci": "d2d3",
-          "white": 2661
+          }
         },
         {
+          "uci": "f2f4",
+          "san": "f4",
           "averageRating": 2061,
-          "black": 2307,
+          "white": 2234,
           "draws": 215,
+          "black": 2336,
           "game": null,
           "opening": {
             "eco": "C00",
             "name": "French Defense: La Bourdonnais Variation"
-          },
-          "san": "f4",
-          "uci": "f2f4",
-          "white": 2199
+          }
         },
         {
+          "uci": "c2c4",
+          "san": "c4",
           "averageRating": 2079,
-          "black": 1594,
-          "draws": 193,
+          "white": 1948,
+          "draws": 197,
+          "black": 1624,
           "game": null,
           "opening": {
             "eco": "C00",
             "name": "French Defense: Steiner Variation"
-          },
-          "san": "c4",
-          "uci": "c2c4",
-          "white": 1908
+          }
         },
         {
+          "uci": "b2b3",
+          "san": "b3",
           "averageRating": 2093,
-          "black": 761,
-          "draws": 84,
+          "white": 909,
+          "draws": 87,
+          "black": 773,
           "game": null,
           "opening": {
             "eco": "C00",
             "name": "French Defense: Horwitz Attack"
-          },
-          "san": "b3",
-          "uci": "b2b3",
-          "white": 905
+          }
         },
         {
+          "uci": "d1e2",
+          "san": "Qe2",
           "averageRating": 2100,
-          "black": 660,
-          "draws": 85,
+          "white": 833,
+          "draws": 87,
+          "black": 672,
           "game": null,
           "opening": {
             "eco": "C00",
             "name": "French Defense: Chigorin Variation"
-          },
-          "san": "Qe2",
-          "uci": "d1e2",
-          "white": 819
+          }
         },
         {
-          "averageRating": 2049,
-          "black": 746,
-          "draws": 72,
-          "game": null,
-          "opening": null,
-          "san": "Bc4",
           "uci": "f1c4",
-          "white": 580
+          "san": "Bc4",
+          "averageRating": 2049,
+          "white": 596,
+          "draws": 74,
+          "black": 762,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2062,
-          "black": 415,
-          "draws": 40,
+          "uci": "e4e5",
+          "san": "e5",
+          "averageRating": 2063,
+          "white": 358,
+          "draws": 41,
+          "black": 420,
           "game": null,
           "opening": {
             "eco": "C00",
             "name": "French Defense: Steinitz Attack"
-          },
-          "san": "e5",
-          "uci": "e4e5",
-          "white": 356
+          }
         },
         {
+          "uci": "g2g3",
+          "san": "g3",
           "averageRating": 2067,
-          "black": 156,
+          "white": 154,
           "draws": 20,
+          "black": 157,
           "game": null,
           "opening": {
             "eco": "C00",
             "name": "French Defense: R\u00e9ti-Spielmann Attack"
-          },
-          "san": "g3",
-          "uci": "g2g3",
-          "white": 148
+          }
         },
         {
-          "averageRating": 2074,
-          "black": 105,
-          "draws": 12,
-          "game": null,
-          "opening": null,
-          "san": "c3",
           "uci": "c2c3",
-          "white": 103
+          "san": "c3",
+          "averageRating": 2075,
+          "white": 107,
+          "draws": 12,
+          "black": 106,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C00",
         "name": "French Defense"
-      },
-      "white": 66597
+      }
     }
   }
 }

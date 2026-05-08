@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C56",
   "months": {
@@ -6449,192 +6447,149 @@
       "white": 1958
     },
     "2026-04": {
-      "black": 961,
-      "draws": 140,
+      "white": 1000,
+      "draws": 142,
+      "black": 973,
       "moves": [
         {
-          "averageRating": 2105,
-          "black": 492,
-          "draws": 92,
+          "uci": "f6e4",
+          "san": "Nxe4",
+          "averageRating": 2106,
+          "white": 484,
+          "draws": 93,
+          "black": 498,
           "game": null,
           "opening": {
             "eco": "C56",
             "name": "Italian Game: Scotch Gambit, Double Gambit Accepted"
-          },
-          "san": "Nxe4",
-          "uci": "f6e4",
-          "white": 472
+          }
         },
         {
-          "averageRating": 2090,
-          "black": 177,
-          "draws": 15,
+          "uci": "f8c5",
+          "san": "Bc5",
+          "averageRating": 2089,
+          "white": 199,
+          "draws": 16,
+          "black": 180,
           "game": null,
           "opening": {
             "eco": "C56",
             "name": "Italian Game: Scotch Gambit, Max Lange Attack"
-          },
-          "san": "Bc5",
-          "uci": "f8c5",
-          "white": 197
+          }
         },
         {
-          "averageRating": 2083,
-          "black": 173,
+          "uci": "d7d6",
+          "san": "d6",
+          "averageRating": 2082,
+          "white": 185,
           "draws": 26,
+          "black": 176,
           "game": null,
           "opening": {
             "eco": "C56",
             "name": "Italian Game: Scotch Gambit, Janowski Defense"
-          },
-          "san": "d6",
-          "uci": "d7d6",
-          "white": 181
+          }
         },
         {
+          "uci": "f8e7",
+          "san": "Be7",
           "averageRating": 2076,
-          "black": 75,
+          "white": 64,
           "draws": 5,
+          "black": 75,
           "game": null,
           "opening": {
             "eco": "C56",
             "name": "Italian Game: Scotch Gambit, de Riviere Defense"
-          },
-          "san": "Be7",
-          "uci": "f8e7",
-          "white": 63
+          }
         },
         {
-          "averageRating": 2066,
-          "black": 30,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "d5",
           "uci": "d7d5",
-          "white": 47
+          "san": "d5",
+          "averageRating": 2066,
+          "white": 47,
+          "draws": 2,
+          "black": 30,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2070,
-          "black": 8,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bb4",
           "uci": "f8b4",
-          "white": 9
+          "san": "Bb4",
+          "averageRating": 2070,
+          "white": 9,
+          "draws": 0,
+          "black": 8,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2079,
-          "black": 4,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "h6",
           "uci": "h7h6",
-          "white": 4
+          "san": "h6",
+          "averageRating": 2079,
+          "white": 4,
+          "draws": 0,
+          "black": 4,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2048,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bd6",
           "uci": "f8d6",
-          "white": 3
-        },
-        {
-          "averageRating": 2085,
-          "black": 0,
+          "san": "Bd6",
+          "averageRating": 2048,
+          "white": 3,
           "draws": 0,
+          "black": 1,
           "game": null,
-          "opening": null,
-          "san": "g6",
+          "opening": null
+        },
+        {
           "uci": "g7g6",
-          "white": 2
+          "san": "g6",
+          "averageRating": 2085,
+          "white": 2,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2057,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "Vanneitheia",
-              "rating": 2057
-            },
-            "id": "Rpdx7uaB",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "EspancadordeMoises",
-              "rating": 2012
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Ne5",
           "uci": "c6e5",
-          "white": 1
+          "san": "Ne5",
+          "averageRating": 2057,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 1991,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "Andrey19762",
-              "rating": 1991
-            },
-            "id": "2uGsC6VG",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "fadhil0404",
-              "rating": 2149
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "h5",
           "uci": "h7h5",
-          "white": 1
+          "san": "h5",
+          "averageRating": 1991,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2113,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "FeykineCevapAlanAdam",
-              "rating": 2113
-            },
-            "id": "R5eekkJl",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "BADromantic",
-              "rating": 2050
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "a6",
           "uci": "a7a6",
-          "white": 1
+          "san": "a6",
+          "averageRating": 2113,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C56",
         "name": "Italian Game: Scotch Gambit"
-      },
-      "white": 981
+      }
     }
   }
 }

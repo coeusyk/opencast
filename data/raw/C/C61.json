@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C61",
   "months": {
@@ -5646,140 +5644,127 @@
       "white": 1203
     },
     "2026-04": {
-      "black": 496,
+      "white": 580,
       "draws": 38,
+      "black": 506,
       "moves": [
         {
-          "averageRating": 2093,
-          "black": 407,
-          "draws": 32,
-          "game": null,
-          "opening": null,
-          "san": "Nxd4",
           "uci": "f3d4",
-          "white": 482
+          "san": "Nxd4",
+          "averageRating": 2092,
+          "white": 487,
+          "draws": 32,
+          "black": 416,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2111,
-          "black": 51,
-          "draws": 3,
-          "game": null,
-          "opening": null,
-          "san": "Bc4",
           "uci": "b5c4",
-          "white": 59
-        },
-        {
-          "averageRating": 2081,
-          "black": 24,
+          "san": "Bc4",
+          "averageRating": 2110,
+          "white": 59,
           "draws": 3,
+          "black": 52,
           "game": null,
-          "opening": null,
-          "san": "Ba4",
+          "opening": null
+        },
+        {
           "uci": "b5a4",
-          "white": 19
+          "san": "Ba4",
+          "averageRating": 2081,
+          "white": 19,
+          "draws": 3,
+          "black": 24,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2097,
-          "black": 2,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Nc3",
           "uci": "b1c3",
-          "white": 6
+          "san": "Nc3",
+          "averageRating": 2097,
+          "white": 6,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2060,
-          "black": 2,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Be2",
           "uci": "b5e2",
-          "white": 4
+          "san": "Be2",
+          "averageRating": 2060,
+          "white": 4,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2063,
-          "black": 3,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Nxe5",
           "uci": "f3e5",
-          "white": 1
+          "san": "Nxe5",
+          "averageRating": 2063,
+          "white": 1,
+          "draws": 0,
+          "black": 3,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2099,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "a4",
           "uci": "a2a4",
-          "white": 2
+          "san": "a4",
+          "averageRating": 2099,
+          "white": 2,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2096,
-          "black": 2,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bd3",
           "uci": "b5d3",
-          "white": 1
-        },
-        {
-          "averageRating": 2033,
-          "black": 1,
+          "san": "Bd3",
+          "averageRating": 2096,
+          "white": 1,
           "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bf1",
-          "uci": "b5f1",
-          "white": 1
-        },
-        {
-          "averageRating": 2153,
           "black": 2,
-          "draws": 0,
           "game": null,
-          "opening": null,
-          "san": "Bc6",
-          "uci": "b5c6",
-          "white": 0
+          "opening": null
         },
         {
-          "averageRating": 2080,
-          "black": 1,
+          "uci": "b5f1",
+          "san": "Bf1",
+          "averageRating": 2033,
+          "white": 1,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "Feschka",
-              "rating": 2180
-            },
-            "id": "R5dMkSwv",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "VitalHor84",
-              "rating": 2080
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "a3",
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "b5c6",
+          "san": "Bc6",
+          "averageRating": 2153,
+          "white": 0,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "a2a3",
-          "white": 0
+          "san": "a3",
+          "averageRating": 2080,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C61",
         "name": "Ruy Lopez: Bird Variation"
-      },
-      "white": 575
+      }
     }
   }
 }

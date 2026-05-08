@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "B93",
   "months": {
@@ -5816,130 +5814,127 @@
       "white": 381
     },
     "2026-04": {
+      "white": 206,
+      "draws": 18,
       "black": 141,
-      "draws": 16,
       "moves": [
         {
-          "averageRating": 2098,
-          "black": 47,
-          "draws": 8,
-          "game": null,
-          "opening": null,
-          "san": "e5",
           "uci": "e7e5",
-          "white": 72
+          "san": "e5",
+          "averageRating": 2098,
+          "white": 73,
+          "draws": 9,
+          "black": 47,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2093,
-          "black": 46,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "e6",
           "uci": "e7e6",
-          "white": 71
+          "san": "e6",
+          "averageRating": 2094,
+          "white": 74,
+          "draws": 1,
+          "black": 46,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2092,
-          "black": 13,
-          "draws": 3,
-          "game": null,
-          "opening": null,
-          "san": "Nc6",
           "uci": "b8c6",
-          "white": 18
+          "san": "Nc6",
+          "averageRating": 2092,
+          "white": 18,
+          "draws": 3,
+          "black": 13,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2108,
-          "black": 8,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Qc7",
           "uci": "d8c7",
-          "white": 11
+          "san": "Qc7",
+          "averageRating": 2108,
+          "white": 11,
+          "draws": 1,
+          "black": 8,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2083,
-          "black": 9,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "g6",
           "uci": "g7g6",
-          "white": 8
-        },
-        {
-          "averageRating": 2129,
-          "black": 9,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "b5",
-          "uci": "b7b5",
-          "white": 7
-        },
-        {
-          "averageRating": 2118,
-          "black": 6,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Nbd7",
-          "uci": "b8d7",
-          "white": 7
-        },
-        {
+          "san": "g6",
           "averageRating": 2083,
-          "black": 2,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bg4",
-          "uci": "c8g4",
-          "white": 5
-        },
-        {
-          "averageRating": 2054,
-          "black": 1,
+          "white": 8,
           "draws": 1,
+          "black": 9,
           "game": null,
-          "opening": null,
-          "san": "Qb6",
-          "uci": "d8b6",
-          "white": 0
+          "opening": null
         },
         {
-          "averageRating": 2177,
-          "black": 0,
+          "uci": "b7b5",
+          "san": "b5",
+          "averageRating": 2129,
+          "white": 7,
+          "draws": 1,
+          "black": 9,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "b8d7",
+          "san": "Nbd7",
+          "averageRating": 2109,
+          "white": 8,
+          "draws": 1,
+          "black": 6,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c8g4",
+          "san": "Bg4",
+          "averageRating": 2083,
+          "white": 5,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "NouTal",
-              "rating": 2177
-            },
-            "id": "r01VVmbq",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "SKamillo",
-              "rating": 2189
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Bd7",
+          "black": 2,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d8b6",
+          "san": "Qb6",
+          "averageRating": 2054,
+          "white": 0,
+          "draws": 1,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d8a5",
+          "san": "Qa5",
+          "averageRating": 2070,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "c8d7",
-          "white": 1
+          "san": "Bd7",
+          "averageRating": 2177,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "B93",
         "name": "Sicilian Defense: Najdorf Variation, Amsterdam Variation"
-      },
-      "white": 200
+      }
     }
   }
 }

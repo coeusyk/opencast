@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C17",
   "months": {
@@ -5932,164 +5930,136 @@
       "white": 2756
     },
     "2026-04": {
-      "black": 1417,
-      "draws": 133,
+      "white": 1415,
+      "draws": 134,
+      "black": 1446,
       "moves": [
         {
+          "uci": "a2a3",
+          "san": "a3",
           "averageRating": 2102,
-          "black": 1084,
-          "draws": 104,
+          "white": 1074,
+          "draws": 105,
+          "black": 1106,
           "game": null,
           "opening": {
             "eco": "C17",
             "name": "French Defense: Winawer Variation, Advance Variation"
-          },
-          "san": "a3",
-          "uci": "a2a3",
-          "white": 1051
+          }
         },
         {
+          "uci": "c1d2",
+          "san": "Bd2",
           "averageRating": 2110,
-          "black": 145,
+          "white": 150,
           "draws": 18,
+          "black": 149,
           "game": null,
           "opening": {
             "eco": "C17",
             "name": "French Defense: Winawer Variation, Bogoljubow Variation"
-          },
-          "san": "Bd2",
-          "uci": "c1d2",
-          "white": 146
+          }
         },
         {
+          "uci": "d1g4",
+          "san": "Qg4",
           "averageRating": 2079,
-          "black": 69,
+          "white": 63,
           "draws": 3,
+          "black": 70,
           "game": null,
           "opening": {
             "eco": "C17",
             "name": "French Defense: Winawer Variation, Advance Variation, Moscow Variation"
-          },
-          "san": "Qg4",
-          "uci": "d1g4",
-          "white": 60
+          }
         },
         {
-          "averageRating": 2063,
-          "black": 53,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "Nf3",
           "uci": "g1f3",
-          "white": 60
+          "san": "Nf3",
+          "averageRating": 2063,
+          "white": 60,
+          "draws": 4,
+          "black": 55,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2106,
-          "black": 23,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "f4",
           "uci": "f2f4",
-          "white": 19
+          "san": "f4",
+          "averageRating": 2106,
+          "white": 19,
+          "draws": 0,
+          "black": 23,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2112,
-          "black": 12,
-          "draws": 3,
-          "game": null,
-          "opening": null,
-          "san": "dxc5",
           "uci": "d4c5",
-          "white": 23
+          "san": "dxc5",
+          "averageRating": 2112,
+          "white": 23,
+          "draws": 3,
+          "black": 12,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2047,
-          "black": 16,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Be3",
           "uci": "c1e3",
-          "white": 12
+          "san": "Be3",
+          "averageRating": 2047,
+          "white": 12,
+          "draws": 0,
+          "black": 16,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2066,
-          "black": 9,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Bb5+",
           "uci": "f1b5",
-          "white": 8
-        },
-        {
-          "averageRating": 2108,
-          "black": 5,
-          "draws": 0,
+          "san": "Bb5+",
+          "averageRating": 2066,
+          "white": 8,
+          "draws": 1,
+          "black": 9,
           "game": null,
-          "opening": null,
-          "san": "Ne2",
+          "opening": null
+        },
+        {
           "uci": "g1e2",
-          "white": 4
+          "san": "Ne2",
+          "averageRating": 2101,
+          "white": 5,
+          "draws": 0,
+          "black": 5,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2079,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "Begemoth25",
-              "rating": 2099
-            },
-            "id": "NsDIcL8a",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "SOFI2013SOFI2013",
-              "rating": 2079
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Bf4",
           "uci": "c1f4",
-          "white": 0
+          "san": "Bf4",
+          "averageRating": 2079,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 1987,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "FCMC",
-              "rating": 2038
-            },
-            "id": "R2US3j6g",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "DenZhar",
-              "rating": 1987
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Qd3",
           "uci": "d1d3",
-          "white": 1
+          "san": "Qd3",
+          "averageRating": 1987,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C17",
         "name": "French Defense: Winawer Variation, Advance Variation"
-      },
-      "white": 1384
+      }
     }
   }
 }

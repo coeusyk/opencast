@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "B35",
   "months": {
@@ -5233,138 +5231,140 @@
       "white": 1720
     },
     "2026-04": {
-      "black": 758,
-      "draws": 105,
+      "white": 863,
+      "draws": 107,
+      "black": 779,
       "moves": [
         {
-          "averageRating": 2100,
-          "black": 595,
-          "draws": 81,
-          "game": null,
-          "opening": null,
-          "san": "O-O",
           "uci": "e8h8",
-          "white": 673
-        },
-        {
-          "averageRating": 2115,
-          "black": 99,
-          "draws": 10,
+          "san": "O-O",
+          "averageRating": 2100,
+          "white": 684,
+          "draws": 82,
+          "black": 613,
           "game": null,
-          "opening": null,
-          "san": "Qa5",
-          "uci": "d8a5",
-          "white": 91
+          "opening": null
         },
         {
-          "averageRating": 2063,
-          "black": 32,
+          "uci": "d8a5",
+          "san": "Qa5",
+          "averageRating": 2114,
+          "white": 92,
+          "draws": 11,
+          "black": 101,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d7d6",
+          "san": "d6",
+          "averageRating": 2066,
+          "white": 49,
           "draws": 9,
+          "black": 32,
           "game": null,
           "opening": {
             "eco": "B35",
             "name": "Sicilian Defense: Dragon Variation, Modern Bc4 Variation"
-          },
-          "san": "d6",
-          "uci": "d7d6",
-          "white": 47
+          }
         },
         {
-          "averageRating": 2097,
-          "black": 7,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "Ng4",
           "uci": "f6g4",
-          "white": 12
+          "san": "Ng4",
+          "averageRating": 2101,
+          "white": 13,
+          "draws": 2,
+          "black": 7,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2024,
-          "black": 6,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "e6",
           "uci": "e7e6",
-          "white": 10
-        },
-        {
-          "averageRating": 2078,
-          "black": 3,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Nxe4",
-          "uci": "f6e4",
-          "white": 5
-        },
-        {
-          "averageRating": 2099,
-          "black": 3,
+          "san": "e6",
+          "averageRating": 2023,
+          "white": 10,
           "draws": 1,
+          "black": 7,
           "game": null,
-          "opening": null,
-          "san": "a6",
+          "opening": null
+        },
+        {
+          "uci": "f6e4",
+          "san": "Nxe4",
+          "averageRating": 2078,
+          "white": 5,
+          "draws": 0,
+          "black": 3,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "a7a6",
-          "white": 4
+          "san": "a6",
+          "averageRating": 2099,
+          "white": 4,
+          "draws": 1,
+          "black": 3,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2059,
-          "black": 5,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Ne5",
           "uci": "c6e5",
-          "white": 1
+          "san": "Ne5",
+          "averageRating": 2059,
+          "white": 1,
+          "draws": 0,
+          "black": 5,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2111,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Qb6",
           "uci": "d8b6",
-          "white": 2
-        },
-        {
-          "averageRating": 2108,
+          "san": "Qb6",
+          "averageRating": 2111,
+          "white": 2,
+          "draws": 0,
           "black": 1,
-          "draws": 0,
           "game": null,
-          "opening": null,
-          "san": "Na5",
+          "opening": null
+        },
+        {
           "uci": "c6a5",
-          "white": 2
+          "san": "Na5",
+          "averageRating": 2108,
+          "white": 2,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2068,
-          "black": 2,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Nxd4",
           "uci": "c6d4",
-          "white": 1
+          "san": "Nxd4",
+          "averageRating": 2068,
+          "white": 1,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2126,
-          "black": 2,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "h5",
           "uci": "h7h5",
-          "white": 0
+          "san": "h5",
+          "averageRating": 2126,
+          "white": 0,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "B35",
         "name": "Sicilian Defense: Accelerated Dragon, Modern Bc4 Variation"
-      },
-      "white": 848
+      }
     }
   }
 }

@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "A42",
   "months": {
@@ -5467,144 +5465,146 @@
       "white": 5134
     },
     "2026-04": {
-      "black": 2539,
-      "draws": 284,
+      "white": 2624,
+      "draws": 287,
+      "black": 2581,
       "moves": [
         {
+          "uci": "g8f6",
+          "san": "Nf6",
           "averageRating": 2081,
-          "black": 942,
+          "white": 1013,
           "draws": 112,
+          "black": 959,
           "game": null,
           "opening": {
             "eco": "E70",
             "name": "King's Indian Defense: Normal Variation"
-          },
-          "san": "Nf6",
-          "uci": "g8f6",
-          "white": 995
+          }
         },
         {
+          "uci": "b8c6",
+          "san": "Nc6",
           "averageRating": 2092,
-          "black": 715,
-          "draws": 85,
+          "white": 683,
+          "draws": 86,
+          "black": 725,
           "game": null,
           "opening": {
             "eco": "A42",
             "name": "Modern Defense: Kotov Variation"
-          },
-          "san": "Nc6",
-          "uci": "b8c6",
-          "white": 672
+          }
         },
         {
-          "averageRating": 2079,
-          "black": 286,
-          "draws": 29,
-          "game": null,
-          "opening": null,
-          "san": "Nd7",
           "uci": "b8d7",
-          "white": 310
+          "san": "Nd7",
+          "averageRating": 2079,
+          "white": 319,
+          "draws": 30,
+          "black": 291,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2077,
-          "black": 170,
-          "draws": 11,
-          "game": null,
-          "opening": null,
-          "san": "c6",
           "uci": "c7c6",
-          "white": 190
+          "san": "c6",
+          "averageRating": 2077,
+          "white": 193,
+          "draws": 11,
+          "black": 172,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2110,
-          "black": 173,
-          "draws": 20,
-          "game": null,
-          "opening": null,
-          "san": "e5",
           "uci": "e7e5",
-          "white": 147
+          "san": "e5",
+          "averageRating": 2108,
+          "white": 153,
+          "draws": 20,
+          "black": 177,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2060,
-          "black": 56,
-          "draws": 9,
-          "game": null,
-          "opening": null,
-          "san": "e6",
           "uci": "e7e6",
-          "white": 78
+          "san": "e6",
+          "averageRating": 2060,
+          "white": 79,
+          "draws": 9,
+          "black": 56,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2104,
-          "black": 68,
-          "draws": 6,
-          "game": null,
-          "opening": null,
-          "san": "c5",
           "uci": "c7c5",
-          "white": 54
-        },
-        {
-          "averageRating": 2072,
-          "black": 51,
-          "draws": 6,
+          "san": "c5",
+          "averageRating": 2106,
+          "white": 56,
+          "draws": 7,
+          "black": 69,
           "game": null,
-          "opening": null,
-          "san": "a6",
-          "uci": "a7a6",
-          "white": 36
+          "opening": null
         },
         {
-          "averageRating": 2054,
-          "black": 20,
+          "uci": "a7a6",
+          "san": "a6",
+          "averageRating": 2074,
+          "white": 38,
+          "draws": 6,
+          "black": 52,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f7f5",
+          "san": "f5",
+          "averageRating": 2052,
+          "white": 37,
           "draws": 3,
+          "black": 20,
           "game": null,
           "opening": {
             "eco": "A42",
             "name": "Modern Defense: Randspringer Variation"
-          },
-          "san": "f5",
-          "uci": "f7f5",
-          "white": 36
+          }
         },
         {
-          "averageRating": 2085,
-          "black": 22,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "h6",
-          "uci": "h7h6",
-          "white": 12
-        },
-        {
-          "averageRating": 2055,
-          "black": 13,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "b6",
           "uci": "b7b6",
-          "white": 18
+          "san": "b6",
+          "averageRating": 2054,
+          "white": 19,
+          "draws": 2,
+          "black": 14,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2065,
-          "black": 9,
-          "draws": 0,
+          "uci": "h7h6",
+          "san": "h6",
+          "averageRating": 2085,
+          "white": 12,
+          "draws": 1,
+          "black": 22,
           "game": null,
-          "opening": null,
-          "san": "Bd7",
+          "opening": null
+        },
+        {
           "uci": "c8d7",
-          "white": 6
+          "san": "Bd7",
+          "averageRating": 2067,
+          "white": 7,
+          "draws": 0,
+          "black": 10,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "A42",
         "name": "Modern Defense: Averbakh System"
-      },
-      "white": 2569
+      }
     }
   }
 }

@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C89",
   "months": {
@@ -4541,65 +4539,67 @@
       "white": 709
     },
     "2026-04": {
-      "black": 409,
-      "draws": 47,
+      "white": 351,
+      "draws": 48,
+      "black": 417,
       "moves": [
         {
-          "averageRating": 2091,
-          "black": 381,
-          "draws": 44,
-          "game": null,
-          "opening": null,
-          "san": "exd5",
           "uci": "e4d5",
-          "white": 313
+          "san": "exd5",
+          "averageRating": 2091,
+          "white": 320,
+          "draws": 44,
+          "black": 389,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2061,
-          "black": 19,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "d3",
           "uci": "d2d3",
-          "white": 16
+          "san": "d3",
+          "averageRating": 2061,
+          "white": 16,
+          "draws": 1,
+          "black": 19,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2118,
-          "black": 7,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "d4",
           "uci": "d2d4",
-          "white": 12
+          "san": "d4",
+          "averageRating": 2121,
+          "white": 12,
+          "draws": 3,
+          "black": 7,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2120,
-          "black": 0,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "h3",
           "uci": "h2h3",
-          "white": 3
+          "san": "h3",
+          "averageRating": 2120,
+          "white": 3,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2026,
-          "black": 2,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bxd5",
           "uci": "b3d5",
-          "white": 0
+          "san": "Bxd5",
+          "averageRating": 2026,
+          "white": 0,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C89",
         "name": "Ruy Lopez: Marshall Attack"
-      },
-      "white": 344
+      }
     }
   }
 }

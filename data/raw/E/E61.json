@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "E61",
   "months": {
@@ -5568,183 +5566,140 @@
       "white": 23141
     },
     "2026-04": {
-      "black": 11209,
-      "draws": 1409,
+      "white": 12200,
+      "draws": 1437,
+      "black": 11415,
       "moves": [
         {
-          "averageRating": 2090,
-          "black": 7338,
-          "draws": 870,
-          "game": null,
-          "opening": null,
-          "san": "Bg7",
           "uci": "f8g7",
-          "white": 8059
+          "san": "Bg7",
+          "averageRating": 2090,
+          "white": 8175,
+          "draws": 880,
+          "black": 7470,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "d7d5",
+          "san": "d5",
           "averageRating": 2095,
-          "black": 3299,
-          "draws": 480,
+          "white": 3453,
+          "draws": 498,
+          "black": 3362,
           "game": null,
           "opening": {
             "eco": "D80",
             "name": "Gr\u00fcnfeld Defense"
-          },
-          "san": "d5",
-          "uci": "d7d5",
-          "white": 3379
+          }
         },
         {
-          "averageRating": 2086,
-          "black": 419,
-          "draws": 44,
-          "game": null,
-          "opening": null,
-          "san": "d6",
           "uci": "d7d6",
-          "white": 454
+          "san": "d6",
+          "averageRating": 2086,
+          "white": 458,
+          "draws": 44,
+          "black": 426,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2115,
-          "black": 107,
-          "draws": 11,
-          "game": null,
-          "opening": null,
-          "san": "c5",
           "uci": "c7c5",
-          "white": 68
+          "san": "c5",
+          "averageRating": 2113,
+          "white": 69,
+          "draws": 11,
+          "black": 110,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2095,
-          "black": 26,
-          "draws": 3,
-          "game": null,
-          "opening": null,
-          "san": "c6",
           "uci": "c7c6",
-          "white": 29
+          "san": "c6",
+          "averageRating": 2095,
+          "white": 29,
+          "draws": 3,
+          "black": 26,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2104,
-          "black": 6,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "b6",
-          "uci": "b7b6",
-          "white": 6
-        },
-        {
-          "averageRating": 2030,
-          "black": 6,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "e6",
           "uci": "e7e6",
-          "white": 5
+          "san": "e6",
+          "averageRating": 2042,
+          "white": 5,
+          "draws": 1,
+          "black": 7,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2081,
-          "black": 5,
+          "uci": "b7b6",
+          "san": "b6",
+          "averageRating": 2104,
+          "white": 6,
           "draws": 0,
+          "black": 6,
           "game": null,
-          "opening": null,
-          "san": "e5",
+          "opening": null
+        },
+        {
           "uci": "e7e5",
-          "white": 2
-        },
-        {
-          "averageRating": 2049,
-          "black": 2,
+          "san": "e5",
+          "averageRating": 2081,
+          "white": 2,
           "draws": 0,
+          "black": 5,
           "game": null,
-          "opening": null,
-          "san": "Nc6",
+          "opening": null
+        },
+        {
           "uci": "b8c6",
-          "white": 1
+          "san": "Nc6",
+          "averageRating": 2049,
+          "white": 1,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 1911,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "AnalyzedToDeath",
-              "rating": 1911
-            },
-            "id": "DFHuY9wM",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "FischerKasparovCarls",
-              "rating": 2145
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "b5",
           "uci": "b7b5",
-          "white": 1
-        },
-        {
-          "averageRating": 1981,
+          "san": "b5",
+          "averageRating": 1911,
+          "white": 1,
+          "draws": 0,
           "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "Junicke",
-              "rating": 1981
-            },
-            "id": "USLJVu3a",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Vasiliy-UO",
-              "rating": 2062
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "h5",
-          "uci": "h7h5",
-          "white": 1
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2109,
-          "black": 1,
+          "uci": "h7h5",
+          "san": "h5",
+          "averageRating": 1981,
+          "white": 1,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "Meditador",
-              "rating": 2109
-            },
-            "id": "uQo6gqSn",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "ZampaPeones",
-              "rating": 2086
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "a6",
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "a7a6",
-          "white": 0
+          "san": "a6",
+          "averageRating": 2109,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "E61",
         "name": "King's Indian Defense"
-      },
-      "white": 12005
+      }
     }
   }
 }

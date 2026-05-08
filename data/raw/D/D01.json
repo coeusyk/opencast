@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "D01",
   "months": {
@@ -5350,141 +5348,143 @@
       "white": 7758
     },
     "2026-04": {
-      "black": 3422,
-      "draws": 420,
+      "white": 3991,
+      "draws": 437,
+      "black": 3501,
       "moves": [
         {
-          "averageRating": 2092,
-          "black": 714,
-          "draws": 98,
-          "game": null,
-          "opening": null,
-          "san": "c6",
           "uci": "c7c6",
-          "white": 929
+          "san": "c6",
+          "averageRating": 2092,
+          "white": 945,
+          "draws": 102,
+          "black": 729,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2086,
-          "black": 692,
-          "draws": 91,
-          "game": null,
-          "opening": {
-            "eco": "D01",
-            "name": "Rapport-Jobava System"
-          },
-          "san": "e6",
           "uci": "e7e6",
-          "white": 775
-        },
-        {
-          "averageRating": 2100,
-          "black": 614,
-          "draws": 67,
-          "game": null,
-          "opening": null,
-          "san": "a6",
-          "uci": "a7a6",
-          "white": 596
-        },
-        {
-          "averageRating": 2099,
-          "black": 539,
-          "draws": 58,
-          "game": null,
-          "opening": null,
-          "san": "c5",
-          "uci": "c7c5",
-          "white": 533
-        },
-        {
-          "averageRating": 2082,
-          "black": 465,
-          "draws": 64,
-          "game": null,
-          "opening": null,
-          "san": "Bf5",
-          "uci": "c8f5",
-          "white": 600
-        },
-        {
-          "averageRating": 2099,
-          "black": 272,
-          "draws": 24,
+          "san": "e6",
+          "averageRating": 2086,
+          "white": 790,
+          "draws": 93,
+          "black": 705,
           "game": null,
           "opening": {
             "eco": "D01",
             "name": "Rapport-Jobava System"
-          },
-          "san": "g6",
+          }
+        },
+        {
+          "uci": "a7a6",
+          "san": "a6",
+          "averageRating": 2100,
+          "white": 610,
+          "draws": 71,
+          "black": 626,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c7c5",
+          "san": "c5",
+          "averageRating": 2099,
+          "white": 546,
+          "draws": 61,
+          "black": 551,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c8f5",
+          "san": "Bf5",
+          "averageRating": 2082,
+          "white": 607,
+          "draws": 66,
+          "black": 481,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "g7g6",
-          "white": 284
+          "san": "g6",
+          "averageRating": 2099,
+          "white": 287,
+          "draws": 24,
+          "black": 279,
+          "game": null,
+          "opening": {
+            "eco": "D01",
+            "name": "Rapport-Jobava System"
+          }
         },
         {
-          "averageRating": 2056,
-          "black": 61,
-          "draws": 8,
-          "game": null,
-          "opening": null,
-          "san": "Nc6",
           "uci": "b8c6",
-          "white": 111
+          "san": "Nc6",
+          "averageRating": 2054,
+          "white": 115,
+          "draws": 10,
+          "black": 63,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2055,
-          "black": 27,
-          "draws": 7,
-          "game": null,
-          "opening": null,
-          "san": "Bg4",
           "uci": "c8g4",
-          "white": 29
+          "san": "Bg4",
+          "averageRating": 2058,
+          "white": 31,
+          "draws": 7,
+          "black": 28,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2096,
-          "black": 12,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Nbd7",
           "uci": "b8d7",
-          "white": 21
+          "san": "Nbd7",
+          "averageRating": 2098,
+          "white": 22,
+          "draws": 0,
+          "black": 13,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2093,
-          "black": 10,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Bd7",
           "uci": "c8d7",
-          "white": 14
+          "san": "Bd7",
+          "averageRating": 2093,
+          "white": 14,
+          "draws": 1,
+          "black": 10,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2110,
-          "black": 6,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Nh5",
           "uci": "f6h5",
-          "white": 7
+          "san": "Nh5",
+          "averageRating": 2110,
+          "white": 7,
+          "draws": 1,
+          "black": 6,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2078,
-          "black": 3,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "b6",
           "uci": "b7b6",
-          "white": 3
+          "san": "b6",
+          "averageRating": 2079,
+          "white": 5,
+          "draws": 1,
+          "black": 3,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "D01",
         "name": "Rapport-Jobava System"
-      },
-      "white": 3914
+      }
     }
   }
 }

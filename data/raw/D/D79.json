@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "D79",
   "months": {
@@ -5776,135 +5774,107 @@
       "white": 447
     },
     "2026-04": {
-      "black": 186,
-      "draws": 54,
+      "white": 236,
+      "draws": 56,
+      "black": 191,
       "moves": [
         {
-          "averageRating": 2113,
-          "black": 153,
-          "draws": 34,
-          "game": null,
-          "opening": null,
-          "san": "Nc3",
           "uci": "b1c3",
-          "white": 180
+          "san": "Nc3",
+          "averageRating": 2113,
+          "white": 186,
+          "draws": 36,
+          "black": 157,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2130,
-          "black": 26,
-          "draws": 17,
-          "game": null,
-          "opening": null,
-          "san": "Ne5",
           "uci": "f3e5",
-          "white": 42
+          "san": "Ne5",
+          "averageRating": 2130,
+          "white": 42,
+          "draws": 17,
+          "black": 27,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2125,
-          "black": 5,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Bf4",
           "uci": "c1f4",
-          "white": 2
+          "san": "Bf4",
+          "averageRating": 2125,
+          "white": 2,
+          "draws": 1,
+          "black": 5,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2158,
-          "black": 0,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "b3",
           "uci": "b2b3",
-          "white": 2
+          "san": "b3",
+          "averageRating": 2158,
+          "white": 2,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2147,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Re1",
           "uci": "f1e1",
-          "white": 1
-        },
-        {
-          "averageRating": 2100,
-          "black": 0,
+          "san": "Re1",
+          "averageRating": 2147,
+          "white": 1,
           "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Nbd2",
-          "uci": "b1d2",
-          "white": 2
-        },
-        {
-          "averageRating": 2019,
           "black": 1,
-          "draws": 1,
           "game": null,
-          "opening": null,
-          "san": "Bg5",
-          "uci": "c1g5",
-          "white": 0
+          "opening": null
         },
         {
-          "averageRating": 2248,
-          "black": 0,
+          "uci": "b1d2",
+          "san": "Nbd2",
+          "averageRating": 2100,
+          "white": 2,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "pillowq",
-              "rating": 2151
-            },
-            "id": "jprfZDsU",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "lliilllliill",
-              "rating": 2248
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "a4",
-          "uci": "a2a4",
-          "white": 1
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2097,
-          "black": 0,
+          "uci": "c1g5",
+          "san": "Bg5",
+          "averageRating": 2019,
+          "white": 0,
           "draws": 1,
-          "game": {
-            "black": {
-              "name": "PeritusNauta",
-              "rating": 2086
-            },
-            "id": "lrQeUD7m",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "magunstunisia",
-              "rating": 2097
-            },
-            "winner": null,
-            "year": 2026
-          },
-          "opening": null,
-          "san": "h3",
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "a2a4",
+          "san": "a4",
+          "averageRating": 2248,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "h2h3",
-          "white": 0
+          "san": "h3",
+          "averageRating": 2097,
+          "white": 0,
+          "draws": 1,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "D79",
         "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
-      },
-      "white": 230
+      }
     }
   }
 }

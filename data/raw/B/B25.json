@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "B25",
   "months": {
@@ -5585,171 +5583,143 @@
       "white": 1095
     },
     "2026-04": {
-      "black": 441,
-      "draws": 59,
+      "white": 571,
+      "draws": 60,
+      "black": 446,
       "moves": [
         {
+          "uci": "c1e3",
+          "san": "Be3",
           "averageRating": 2102,
-          "black": 183,
+          "white": 278,
           "draws": 28,
+          "black": 187,
           "game": null,
           "opening": {
             "eco": "B26",
             "name": "Sicilian Defense: Closed"
-          },
-          "san": "Be3",
-          "uci": "c1e3",
-          "white": 275
+          }
         },
         {
-          "averageRating": 2093,
-          "black": 143,
+          "uci": "f2f4",
+          "san": "f4",
+          "averageRating": 2092,
+          "white": 170,
           "draws": 18,
+          "black": 144,
           "game": null,
           "opening": {
             "eco": "B25",
             "name": "Sicilian Defense: Closed"
-          },
-          "san": "f4",
-          "uci": "f2f4",
-          "white": 165
+          }
         },
         {
-          "averageRating": 2097,
-          "black": 81,
-          "draws": 11,
-          "game": null,
-          "opening": null,
-          "san": "Nge2",
           "uci": "g1e2",
-          "white": 77
-        },
-        {
-          "averageRating": 2143,
-          "black": 11,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Nh3",
-          "uci": "g1h3",
-          "white": 15
-        },
-        {
-          "averageRating": 2137,
-          "black": 9,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "h3",
-          "uci": "h2h3",
-          "white": 15
-        },
-        {
-          "averageRating": 2014,
-          "black": 4,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Nf3",
-          "uci": "g1f3",
-          "white": 4
-        },
-        {
-          "averageRating": 2145,
-          "black": 3,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "h4",
-          "uci": "h2h4",
-          "white": 4
-        },
-        {
-          "averageRating": 2023,
-          "black": 3,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bd2",
-          "uci": "c1d2",
-          "white": 2
-        },
-        {
+          "san": "Nge2",
           "averageRating": 2097,
+          "white": 77,
+          "draws": 12,
+          "black": 81,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "g1h3",
+          "san": "Nh3",
+          "averageRating": 2142,
+          "white": 16,
+          "draws": 1,
+          "black": 11,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "h2h3",
+          "san": "h3",
+          "averageRating": 2137,
+          "white": 15,
+          "draws": 1,
+          "black": 9,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "g1f3",
+          "san": "Nf3",
+          "averageRating": 2031,
+          "white": 5,
+          "draws": 0,
+          "black": 4,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "h2h4",
+          "san": "h4",
+          "averageRating": 2145,
+          "white": 4,
+          "draws": 0,
           "black": 3,
-          "draws": 0,
           "game": null,
-          "opening": null,
-          "san": "f3",
-          "uci": "f2f3",
-          "white": 1
+          "opening": null
         },
         {
-          "averageRating": 2041,
-          "black": 0,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bg5",
-          "uci": "c1g5",
-          "white": 2
-        },
-        {
+          "uci": "c1d2",
+          "san": "Bd2",
           "averageRating": 2023,
-          "black": 1,
+          "white": 2,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "TickleAttack",
-              "rating": 1981
-            },
-            "id": "8OXqe3id",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "BavarianEagle",
-              "rating": 2023
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Nce2",
-          "uci": "c3e2",
-          "white": 0
+          "black": 3,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2044,
-          "black": 0,
+          "uci": "f2f3",
+          "san": "f3",
+          "averageRating": 2097,
+          "white": 1,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "Gaiking",
-              "rating": 2024
-            },
-            "id": "XSDtxt0u",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Chti59",
-              "rating": 2044
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Nd5",
+          "black": 3,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c1g5",
+          "san": "Bg5",
+          "averageRating": 2041,
+          "white": 2,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c3e2",
+          "san": "Nce2",
+          "averageRating": 2023,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "c3d5",
-          "white": 1
+          "san": "Nd5",
+          "averageRating": 2044,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "B25",
         "name": "Sicilian Defense: Closed"
-      },
-      "white": 561
+      }
     }
   }
 }

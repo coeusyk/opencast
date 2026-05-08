@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "A39",
   "months": {
@@ -5511,135 +5509,107 @@
       "white": 555
     },
     "2026-04": {
-      "black": 198,
-      "draws": 33,
+      "white": 297,
+      "draws": 34,
+      "black": 202,
       "moves": [
         {
-          "averageRating": 2098,
-          "black": 157,
-          "draws": 27,
-          "game": null,
-          "opening": null,
-          "san": "cxd4",
           "uci": "c5d4",
-          "white": 241
+          "san": "cxd4",
+          "averageRating": 2099,
+          "white": 243,
+          "draws": 28,
+          "black": 160,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2108,
-          "black": 30,
-          "draws": 6,
-          "game": null,
-          "opening": null,
-          "san": "d6",
           "uci": "d7d6",
-          "white": 39
+          "san": "d6",
+          "averageRating": 2109,
+          "white": 39,
+          "draws": 6,
+          "black": 31,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2017,
-          "black": 2,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "d5",
           "uci": "d7d5",
-          "white": 7
+          "san": "d5",
+          "averageRating": 2017,
+          "white": 7,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2088,
-          "black": 2,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Nxd4",
           "uci": "c6d4",
-          "white": 4
-        },
-        {
-          "averageRating": 2092,
-          "black": 3,
+          "san": "Nxd4",
+          "averageRating": 2088,
+          "white": 4,
           "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "a6",
-          "uci": "a7a6",
-          "white": 2
-        },
-        {
-          "averageRating": 2080,
-          "black": 0,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "b6",
-          "uci": "b7b6",
-          "white": 2
-        },
-        {
-          "averageRating": 2163,
           "black": 2,
-          "draws": 0,
           "game": null,
-          "opening": null,
-          "san": "Rb8",
+          "opening": null
+        },
+        {
+          "uci": "a7a6",
+          "san": "a6",
+          "averageRating": 2092,
+          "white": 2,
+          "draws": 0,
+          "black": 3,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "b7b6",
+          "san": "b6",
+          "averageRating": 2080,
+          "white": 2,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "a8b8",
-          "white": 0
+          "san": "Rb8",
+          "averageRating": 2163,
+          "white": 0,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2161,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "Netkachev-1969",
-              "rating": 2161
-            },
-            "id": "BcOOiKin",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "metafysik",
-              "rating": 1905
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "e6",
           "uci": "e7e6",
-          "white": 0
+          "san": "e6",
+          "averageRating": 2161,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2074,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "Ralphassuncao",
-              "rating": 2074
-            },
-            "id": "k8vOesnD",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Maldini20",
-              "rating": 1934
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Re8",
           "uci": "f8e8",
-          "white": 0
+          "san": "Re8",
+          "averageRating": 2074,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "A39",
         "name": "English Opening: Symmetrical Variation, Mecking Variation"
-      },
-      "white": 295
+      }
     }
   }
 }

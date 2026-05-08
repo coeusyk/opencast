@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C13",
   "months": {
@@ -6034,142 +6032,129 @@
       "white": 965
     },
     "2026-04": {
-      "black": 398,
-      "draws": 38,
+      "white": 470,
+      "draws": 39,
+      "black": 404,
       "moves": [
         {
-          "averageRating": 2090,
-          "black": 114,
-          "draws": 13,
-          "game": null,
-          "opening": null,
-          "san": "h6",
           "uci": "h7h6",
-          "white": 143
+          "san": "h6",
+          "averageRating": 2090,
+          "white": 144,
+          "draws": 13,
+          "black": 116,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2092,
-          "black": 106,
-          "draws": 12,
+          "uci": "a7a6",
+          "san": "a6",
+          "averageRating": 2093,
+          "white": 113,
+          "draws": 13,
+          "black": 109,
           "game": null,
           "opening": {
             "eco": "C13",
             "name": "French Defense: Alekhine-Chatard Attack, Mar\u00f3czy Variation"
-          },
-          "san": "a6",
-          "uci": "a7a6",
-          "white": 111
+          }
         },
         {
-          "averageRating": 2075,
-          "black": 96,
-          "draws": 5,
-          "game": null,
-          "opening": null,
-          "san": "Bxg5",
           "uci": "e7g5",
-          "white": 122
+          "san": "Bxg5",
+          "averageRating": 2076,
+          "white": 124,
+          "draws": 5,
+          "black": 97,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "c7c5",
+          "san": "c5",
           "averageRating": 2093,
-          "black": 50,
+          "white": 52,
           "draws": 4,
+          "black": 50,
           "game": null,
           "opening": {
             "eco": "C13",
             "name": "French Defense: Alekhine-Chatard Attack, Breyer Variation"
-          },
-          "san": "c5",
-          "uci": "c7c5",
-          "white": 52
+          }
         },
         {
+          "uci": "e8h8",
+          "san": "O-O",
           "averageRating": 2080,
-          "black": 17,
+          "white": 24,
           "draws": 3,
+          "black": 17,
           "game": null,
           "opening": {
             "eco": "C13",
             "name": "French Defense: Alekhine-Chatard Attack, Spielmann Variation"
-          },
-          "san": "O-O",
-          "uci": "e8h8",
-          "white": 23
+          }
         },
         {
-          "averageRating": 2062,
-          "black": 2,
+          "uci": "f7f6",
+          "san": "f6",
+          "averageRating": 2064,
+          "white": 8,
           "draws": 0,
+          "black": 2,
           "game": null,
           "opening": {
             "eco": "C13",
             "name": "French Defense: Alekhine-Chatard Attack, Teichmann Variation"
-          },
-          "san": "f6",
-          "uci": "f7f6",
-          "white": 7
+          }
         },
         {
-          "averageRating": 2139,
-          "black": 7,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Nc6",
           "uci": "b8c6",
-          "white": 1
+          "san": "Nc6",
+          "averageRating": 2139,
+          "white": 1,
+          "draws": 0,
+          "black": 7,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2078,
-          "black": 4,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "h5",
           "uci": "h7h5",
-          "white": 2
-        },
-        {
-          "averageRating": 2083,
-          "black": 1,
-          "draws": 0,
+          "san": "h5",
+          "averageRating": 2078,
+          "white": 2,
+          "draws": 1,
+          "black": 4,
           "game": null,
-          "opening": null,
-          "san": "c6",
-          "uci": "c7c6",
-          "white": 2
+          "opening": null
         },
         {
-          "averageRating": 2160,
-          "black": 1,
+          "uci": "c7c6",
+          "san": "c6",
+          "averageRating": 2083,
+          "white": 2,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "na10042011",
-              "rating": 2160
-            },
-            "id": "K2spulAb",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "rocato",
-              "rating": 2026
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "f5",
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "f7f5",
-          "white": 0
+          "san": "f5",
+          "averageRating": 2160,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C13",
         "name": "French Defense: Alekhine-Chatard Attack"
-      },
-      "white": 463
+      }
     }
   }
 }

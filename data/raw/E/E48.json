@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "E48",
   "months": {
@@ -5111,100 +5109,87 @@
       "white": 236
     },
     "2026-04": {
-      "black": 123,
+      "white": 143,
       "draws": 12,
+      "black": 123,
       "moves": [
         {
-          "averageRating": 2087,
-          "black": 42,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "Ne2",
           "uci": "g1e2",
-          "white": 50
+          "san": "Ne2",
+          "averageRating": 2087,
+          "white": 50,
+          "draws": 4,
+          "black": 42,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2082,
-          "black": 31,
-          "draws": 5,
-          "game": null,
-          "opening": null,
-          "san": "Nf3",
           "uci": "g1f3",
-          "white": 34
-        },
-        {
-          "averageRating": 2124,
-          "black": 22,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "a3",
-          "uci": "a2a3",
-          "white": 38
-        },
-        {
-          "averageRating": 2084,
-          "black": 24,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "cxd5",
-          "uci": "c4d5",
-          "white": 16
-        },
-        {
-          "averageRating": 2067,
-          "black": 2,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Qc2",
-          "uci": "d1c2",
-          "white": 2
-        },
-        {
+          "san": "Nf3",
           "averageRating": 2082,
-          "black": 1,
-          "draws": 1,
+          "white": 34,
+          "draws": 5,
+          "black": 31,
           "game": null,
-          "opening": null,
-          "san": "c5",
-          "uci": "c4c5",
-          "white": 0
+          "opening": null
         },
         {
-          "averageRating": 1976,
-          "black": 1,
+          "uci": "a2a3",
+          "san": "a3",
+          "averageRating": 2123,
+          "white": 39,
+          "draws": 2,
+          "black": 22,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c4d5",
+          "san": "cxd5",
+          "averageRating": 2087,
+          "white": 17,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "pawnkingsss",
-              "rating": 2105
-            },
-            "id": "1On42gS7",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "dale777",
-              "rating": 1976
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "f4",
+          "black": 24,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d1c2",
+          "san": "Qc2",
+          "averageRating": 2067,
+          "white": 2,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "f2f4",
-          "white": 0
+          "san": "f4",
+          "averageRating": 2007,
+          "white": 1,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c4c5",
+          "san": "c5",
+          "averageRating": 2082,
+          "white": 0,
+          "draws": 1,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "E48",
         "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
-      },
-      "white": 140
+      }
     }
   }
 }

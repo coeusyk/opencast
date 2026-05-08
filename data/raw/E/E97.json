@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "E97",
   "months": {
@@ -4976,100 +4974,87 @@
       "white": 1330
     },
     "2026-04": {
-      "black": 503,
+      "white": 651,
       "draws": 68,
+      "black": 517,
       "moves": [
         {
-          "averageRating": 2106,
-          "black": 438,
-          "draws": 52,
-          "game": null,
-          "opening": null,
-          "san": "d5",
           "uci": "d4d5",
-          "white": 574
+          "san": "d5",
+          "averageRating": 2106,
+          "white": 588,
+          "draws": 52,
+          "black": 450,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2096,
-          "black": 26,
-          "draws": 3,
-          "game": null,
-          "opening": null,
-          "san": "Be3",
           "uci": "c1e3",
-          "white": 27
+          "san": "Be3",
+          "averageRating": 2095,
+          "white": 28,
+          "draws": 3,
+          "black": 28,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2090,
-          "black": 24,
-          "draws": 8,
-          "game": null,
-          "opening": null,
-          "san": "dxe5",
           "uci": "d4e5",
-          "white": 22
+          "san": "dxe5",
+          "averageRating": 2090,
+          "white": 22,
+          "draws": 8,
+          "black": 24,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2096,
-          "black": 11,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "h3",
           "uci": "h2h3",
-          "white": 5
+          "san": "h3",
+          "averageRating": 2096,
+          "white": 5,
+          "draws": 4,
+          "black": 11,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2114,
-          "black": 3,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Bg5",
           "uci": "c1g5",
-          "white": 6
-        },
-        {
-          "averageRating": 2309,
-          "black": 0,
-          "draws": 0,
+          "san": "Bg5",
+          "averageRating": 2114,
+          "white": 6,
+          "draws": 1,
+          "black": 3,
           "game": null,
-          "opening": null,
-          "san": "Re1",
-          "uci": "f1e1",
-          "white": 2
+          "opening": null
         },
         {
-          "averageRating": 2182,
-          "black": 1,
+          "uci": "f1e1",
+          "san": "Re1",
+          "averageRating": 2309,
+          "white": 2,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "RO130",
-              "rating": 2120
-            },
-            "id": "SSpC89l5",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "BigBrownBeaver",
-              "rating": 2182
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Ne1",
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "f3e1",
-          "white": 0
+          "san": "Ne1",
+          "averageRating": 2182,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "E97",
         "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
-      },
-      "white": 636
+      }
     }
   }
 }

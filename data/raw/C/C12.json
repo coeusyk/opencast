@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C12",
   "months": {
@@ -6692,164 +6690,136 @@
       "white": 691
     },
     "2026-04": {
-      "black": 391,
-      "draws": 43,
+      "white": 351,
+      "draws": 44,
+      "black": 398,
       "moves": [
         {
+          "uci": "e4e5",
+          "san": "e5",
           "averageRating": 2103,
-          "black": 341,
+          "white": 285,
           "draws": 39,
+          "black": 346,
           "game": null,
           "opening": {
             "eco": "C12",
             "name": "French Defense: McCutcheon Variation, Advance Variation"
-          },
-          "san": "e5",
-          "uci": "e4e5",
-          "white": 283
+          }
         },
         {
-          "averageRating": 2111,
-          "black": 12,
-          "draws": 2,
+          "uci": "e4d5",
+          "san": "exd5",
+          "averageRating": 2106,
+          "white": 22,
+          "draws": 3,
+          "black": 14,
           "game": null,
           "opening": {
             "eco": "C12",
             "name": "French Defense: McCutcheon Variation, Exchange Variation"
-          },
-          "san": "exd5",
-          "uci": "e4d5",
-          "white": 22
+          }
         },
         {
+          "uci": "g1e2",
+          "san": "Ne2",
           "averageRating": 2110,
-          "black": 10,
+          "white": 20,
           "draws": 0,
+          "black": 10,
           "game": null,
           "opening": {
             "eco": "C15",
             "name": "French Defense: McCutcheon Variation, Wolf Gambit"
-          },
-          "san": "Ne2",
-          "uci": "g1e2",
-          "white": 20
+          }
         },
         {
-          "averageRating": 2095,
-          "black": 14,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Bxf6",
           "uci": "g5f6",
-          "white": 9
-        },
-        {
-          "averageRating": 2086,
-          "black": 5,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bd3",
-          "uci": "f1d3",
-          "white": 5
-        },
-        {
-          "averageRating": 2106,
-          "black": 6,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "a3",
-          "uci": "a2a3",
-          "white": 3
-        },
-        {
-          "averageRating": 2180,
-          "black": 0,
+          "san": "Bxf6",
+          "averageRating": 2095,
+          "white": 9,
           "draws": 1,
+          "black": 14,
           "game": null,
-          "opening": null,
-          "san": "f3",
+          "opening": null
+        },
+        {
+          "uci": "f1d3",
+          "san": "Bd3",
+          "averageRating": 2086,
+          "white": 5,
+          "draws": 0,
+          "black": 5,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "a2a3",
+          "san": "a3",
+          "averageRating": 2106,
+          "white": 3,
+          "draws": 0,
+          "black": 6,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "f2f3",
-          "white": 3
-        },
-        {
-          "averageRating": 2052,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Nf3",
-          "uci": "g1f3",
-          "white": 2
-        },
-        {
-          "averageRating": 2133,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Qd3",
-          "uci": "d1d3",
-          "white": 1
-        },
-        {
-          "averageRating": 2088,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "kilimanindogo",
-              "rating": 2060
-            },
-            "id": "zjpZOd43",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "SkyDelvas",
-              "rating": 2088
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Bb5+",
-          "uci": "f1b5",
-          "white": 0
-        },
-        {
-          "averageRating": 2155,
+          "san": "f3",
+          "averageRating": 2180,
+          "white": 3,
+          "draws": 1,
           "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "g1f3",
+          "san": "Nf3",
+          "averageRating": 2052,
+          "white": 2,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "termy666",
-              "rating": 2132
-            },
-            "id": "fgFOkYXq",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Phenomenol",
-              "rating": 2155
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Qf3",
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d1d3",
+          "san": "Qd3",
+          "averageRating": 2133,
+          "white": 1,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f1b5",
+          "san": "Bb5+",
+          "averageRating": 2088,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "d1f3",
-          "white": 1
+          "san": "Qf3",
+          "averageRating": 2155,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C12",
         "name": "French Defense: McCutcheon Variation"
-      },
-      "white": 349
+      }
     }
   }
 }

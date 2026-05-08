@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "D18",
   "months": {
@@ -6948,153 +6946,110 @@
       "white": 447
     },
     "2026-04": {
-      "black": 220,
+      "white": 200,
       "draws": 35,
+      "black": 223,
       "moves": [
         {
-          "averageRating": 2103,
-          "black": 209,
-          "draws": 33,
-          "game": null,
-          "opening": null,
-          "san": "e6",
           "uci": "e7e6",
-          "white": 184
-        },
-        {
-          "averageRating": 2103,
-          "black": 3,
-          "draws": 1,
+          "san": "e6",
+          "averageRating": 2104,
+          "white": 186,
+          "draws": 33,
+          "black": 212,
           "game": null,
-          "opening": null,
-          "san": "Nbd7",
-          "uci": "b8d7",
-          "white": 6
+          "opening": null
         },
         {
-          "averageRating": 2040,
-          "black": 4,
+          "uci": "b8d7",
+          "san": "Nbd7",
+          "averageRating": 2103,
+          "white": 6,
           "draws": 1,
+          "black": 3,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "b8a6",
+          "san": "Na6",
+          "averageRating": 2040,
+          "white": 2,
+          "draws": 1,
+          "black": 4,
           "game": null,
           "opening": {
             "eco": "D18",
             "name": "Slav Defense: Czech Variation, Lasker Variation"
-          },
-          "san": "Na6",
-          "uci": "b8a6",
-          "white": 2
+          }
         },
         {
-          "averageRating": 2072,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Qc7",
           "uci": "d8c7",
-          "white": 2
+          "san": "Qc7",
+          "averageRating": 2072,
+          "white": 2,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2081,
-          "black": 0,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Ne4",
           "uci": "f6e4",
-          "white": 2
-        },
-        {
-          "averageRating": 2115,
-          "black": 1,
+          "san": "Ne4",
+          "averageRating": 2081,
+          "white": 2,
           "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bd3",
-          "uci": "f5d3",
-          "white": 1
-        },
-        {
-          "averageRating": 2090,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "Maxvit2013",
-              "rating": 2090
-            },
-            "id": "HqoYSsbq",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "geertver",
-              "rating": 2097
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "h6",
-          "uci": "h7h6",
-          "white": 0
-        },
-        {
-          "averageRating": 2171,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "Jobchess1212",
-              "rating": 2171
-            },
-            "id": "vDWrFs5n",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "gotur",
-              "rating": 2142
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Bg6",
-          "uci": "f5g6",
-          "white": 0
-        },
-        {
-          "averageRating": 2108,
           "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f5d3",
+          "san": "Bd3",
+          "averageRating": 2115,
+          "white": 1,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "Arrayashike_23",
-              "rating": 2108
-            },
-            "id": "yXOauTfI",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "LIBREROII",
-              "rating": 2089
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Be6",
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "h7h6",
+          "san": "h6",
+          "averageRating": 2090,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f5g6",
+          "san": "Bg6",
+          "averageRating": 2171,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "f5e6",
-          "white": 1
+          "san": "Be6",
+          "averageRating": 2108,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "D18",
         "name": "Slav Defense: Czech Variation, Classical System"
-      },
-      "white": 198
+      }
     }
   }
 }

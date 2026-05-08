@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "A28",
   "months": {
@@ -5476,120 +5474,107 @@
       "white": 380
     },
     "2026-04": {
-      "black": 129,
-      "draws": 16,
+      "white": 166,
+      "draws": 17,
+      "black": 131,
       "moves": [
         {
-          "averageRating": 2089,
-          "black": 63,
-          "draws": 5,
-          "game": null,
-          "opening": null,
-          "san": "Bc5",
           "uci": "f8c5",
-          "white": 89
+          "san": "Bc5",
+          "averageRating": 2091,
+          "white": 93,
+          "draws": 6,
+          "black": 65,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2098,
-          "black": 40,
-          "draws": 9,
-          "game": null,
-          "opening": null,
-          "san": "Bb4",
           "uci": "f8b4",
-          "white": 41
+          "san": "Bb4",
+          "averageRating": 2098,
+          "white": 41,
+          "draws": 9,
+          "black": 40,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2058,
-          "black": 12,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "d6",
           "uci": "d7d6",
-          "white": 13
-        },
-        {
-          "averageRating": 2067,
-          "black": 2,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "a6",
-          "uci": "a7a6",
-          "white": 8
-        },
-        {
-          "averageRating": 2085,
-          "black": 6,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Be7",
-          "uci": "f8e7",
-          "white": 3
-        },
-        {
-          "averageRating": 2100,
-          "black": 3,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "g6",
-          "uci": "g7g6",
-          "white": 3
-        },
-        {
-          "averageRating": 2022,
-          "black": 1,
+          "san": "d6",
+          "averageRating": 2058,
+          "white": 13,
           "draws": 1,
+          "black": 12,
           "game": null,
-          "opening": null,
-          "san": "h6",
+          "opening": null
+        },
+        {
+          "uci": "a7a6",
+          "san": "a6",
+          "averageRating": 2067,
+          "white": 8,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f8e7",
+          "san": "Be7",
+          "averageRating": 2085,
+          "white": 3,
+          "draws": 0,
+          "black": 6,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "g7g6",
+          "san": "g6",
+          "averageRating": 2100,
+          "white": 3,
+          "draws": 0,
+          "black": 3,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "h7h6",
-          "white": 3
-        },
-        {
-          "averageRating": 2159,
+          "san": "h6",
+          "averageRating": 2022,
+          "white": 3,
+          "draws": 1,
           "black": 1,
-          "draws": 0,
           "game": null,
-          "opening": null,
-          "san": "a5",
-          "uci": "a7a5",
-          "white": 2
+          "opening": null
         },
         {
-          "averageRating": 2056,
-          "black": 1,
+          "uci": "a7a5",
+          "san": "a5",
+          "averageRating": 2159,
+          "white": 2,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "ninoree",
-              "rating": 2056
-            },
-            "id": "gbEsochP",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "almuttahedoun",
-              "rating": 2130
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Nd4",
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "c6d4",
-          "white": 0
+          "san": "Nd4",
+          "averageRating": 2056,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "A28",
         "name": "English Opening: Four Knights System, Nimzowitsch Variation"
-      },
-      "white": 162
+      }
     }
   }
 }

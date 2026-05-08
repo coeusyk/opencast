@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "B24",
   "months": {
@@ -5156,130 +5154,87 @@
       "white": 2244
     },
     "2026-04": {
-      "black": 885,
-      "draws": 121,
+      "white": 1053,
+      "draws": 124,
+      "black": 907,
       "moves": [
         {
-          "averageRating": 2095,
-          "black": 843,
-          "draws": 109,
-          "game": null,
-          "opening": null,
-          "san": "Bg2",
           "uci": "f1g2",
-          "white": 969
+          "san": "Bg2",
+          "averageRating": 2095,
+          "white": 983,
+          "draws": 112,
+          "black": 865,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2137,
-          "black": 35,
-          "draws": 11,
-          "game": null,
-          "opening": null,
-          "san": "d3",
           "uci": "d2d3",
-          "white": 61
+          "san": "d3",
+          "averageRating": 2137,
+          "white": 61,
+          "draws": 11,
+          "black": 35,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2080,
-          "black": 3,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "f4",
           "uci": "f2f4",
-          "white": 5
-        },
-        {
-          "averageRating": 2079,
+          "san": "f4",
+          "averageRating": 2080,
+          "white": 5,
+          "draws": 0,
           "black": 3,
-          "draws": 1,
           "game": null,
-          "opening": null,
-          "san": "Nge2",
+          "opening": null
+        },
+        {
           "uci": "g1e2",
-          "white": 2
+          "san": "Nge2",
+          "averageRating": 2079,
+          "white": 2,
+          "draws": 1,
+          "black": 3,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2130,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "KarthikElango",
-              "rating": 2128
-            },
-            "id": "iuDqHsHe",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "mrbabadis",
-              "rating": 2130
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Bc4",
           "uci": "f1c4",
-          "white": 0
+          "san": "Bc4",
+          "averageRating": 2130,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2146,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "NinjaWithKatana",
-              "rating": 2139
-            },
-            "id": "NH6nTNj4",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Baleryonn",
-              "rating": 2146
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Bb5",
           "uci": "f1b5",
-          "white": 1
+          "san": "Bb5",
+          "averageRating": 2146,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2035,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "Stwgaro",
-              "rating": 2304
-            },
-            "id": "IHWfkgwm",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Amandor",
-              "rating": 2035
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "h4",
           "uci": "h2h4",
-          "white": 1
+          "san": "h4",
+          "averageRating": 2035,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "B24",
         "name": "Sicilian Defense: Closed"
-      },
-      "white": 1039
+      }
     }
   }
 }

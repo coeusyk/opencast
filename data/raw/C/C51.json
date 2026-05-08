@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C51",
   "months": {
@@ -5763,164 +5761,136 @@
       "white": 2353
     },
     "2026-04": {
-      "black": 1086,
+      "white": 1211,
       "draws": 78,
+      "black": 1102,
       "moves": [
         {
+          "uci": "c5b4",
+          "san": "Bxb4",
           "averageRating": 2079,
-          "black": 920,
+          "white": 1022,
           "draws": 66,
+          "black": 933,
           "game": null,
           "opening": {
             "eco": "C51",
             "name": "Italian Game: Evans Gambit Accepted"
-          },
-          "san": "Bxb4",
-          "uci": "c5b4",
-          "white": 1001
+          }
         },
         {
+          "uci": "c5b6",
+          "san": "Bb6",
           "averageRating": 2069,
-          "black": 127,
+          "white": 125,
           "draws": 11,
+          "black": 130,
           "game": null,
           "opening": {
             "eco": "C51",
             "name": "Italian Game: Evans Gambit Declined"
-          },
-          "san": "Bb6",
-          "uci": "c5b6",
-          "white": 123
+          }
         },
         {
-          "averageRating": 2022,
-          "black": 14,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Nxb4",
           "uci": "c6b4",
-          "white": 20
+          "san": "Nxb4",
+          "averageRating": 2022,
+          "white": 20,
+          "draws": 0,
+          "black": 14,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "d7d5",
+          "san": "d5",
           "averageRating": 2095,
-          "black": 14,
+          "white": 11,
           "draws": 0,
+          "black": 14,
           "game": null,
           "opening": {
             "eco": "C51",
             "name": "Italian Game: Evans Gambit, Hein Countergambit"
-          },
-          "san": "d5",
-          "uci": "d7d5",
-          "white": 11
+          }
         },
         {
-          "averageRating": 2061,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Nf6",
           "uci": "g8f6",
-          "white": 12
-        },
-        {
-          "averageRating": 2050,
-          "black": 5,
+          "san": "Nf6",
+          "averageRating": 2061,
+          "white": 12,
           "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Be7",
-          "uci": "c5e7",
-          "white": 7
-        },
-        {
-          "averageRating": 2034,
-          "black": 2,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "d6",
-          "uci": "d7d6",
-          "white": 7
-        },
-        {
-          "averageRating": 1961,
-          "black": 2,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bd6",
-          "uci": "c5d6",
-          "white": 4
-        },
-        {
-          "averageRating": 2139,
           "black": 1,
-          "draws": 1,
           "game": null,
-          "opening": null,
-          "san": "Bd4",
+          "opening": null
+        },
+        {
+          "uci": "c5e7",
+          "san": "Be7",
+          "averageRating": 2050,
+          "white": 7,
+          "draws": 0,
+          "black": 5,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d7d6",
+          "san": "d6",
+          "averageRating": 2034,
+          "white": 7,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c5d6",
+          "san": "Bd6",
+          "averageRating": 1961,
+          "white": 4,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "c5d4",
-          "white": 1
+          "san": "Bd4",
+          "averageRating": 2139,
+          "white": 1,
+          "draws": 1,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 1752,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "AmitGujarati",
-              "rating": 1752
-            },
-            "id": "1Ig8zzzM",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Arskii",
-              "rating": 2400
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Bxf2+",
           "uci": "c5f2",
-          "white": 1
+          "san": "Bxf2+",
+          "averageRating": 1752,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2073,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "Haroonpervaiz97",
-              "rating": 2073
-            },
-            "id": "sevCICfa",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "TrefilovMaksim",
-              "rating": 2240
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Nge7",
           "uci": "g8e7",
-          "white": 1
+          "san": "Nge7",
+          "averageRating": 2073,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C51",
         "name": "Italian Game: Evans Gambit"
-      },
-      "white": 1188
+      }
     }
   }
 }

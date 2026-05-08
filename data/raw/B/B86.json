@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "B86",
   "months": {
@@ -6593,168 +6591,110 @@
       "white": 326
     },
     "2026-04": {
-      "black": 184,
-      "draws": 32,
+      "white": 155,
+      "draws": 33,
+      "black": 190,
       "moves": [
         {
-          "averageRating": 2090,
-          "black": 86,
-          "draws": 17,
-          "game": null,
-          "opening": null,
-          "san": "a6",
           "uci": "a7a6",
-          "white": 72
-        },
-        {
-          "averageRating": 2096,
-          "black": 76,
-          "draws": 14,
+          "san": "a6",
+          "averageRating": 2089,
+          "white": 73,
+          "draws": 17,
+          "black": 88,
           "game": null,
-          "opening": null,
-          "san": "Be7",
-          "uci": "f8e7",
-          "white": 58
+          "opening": null
         },
         {
-          "averageRating": 2098,
+          "uci": "f8e7",
+          "san": "Be7",
+          "averageRating": 2095,
+          "white": 59,
+          "draws": 14,
+          "black": 79,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "b8c6",
+          "san": "Nc6",
+          "averageRating": 2100,
+          "white": 15,
+          "draws": 1,
           "black": 15,
-          "draws": 0,
           "game": null,
           "opening": {
             "eco": "B88",
             "name": "Sicilian Defense: Sozin Attack, Leonhardt Variation"
-          },
-          "san": "Nc6",
-          "uci": "b8c6",
-          "white": 15
+          }
         },
         {
-          "averageRating": 2122,
-          "black": 3,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Qc7",
           "uci": "d8c7",
-          "white": 6
-        },
-        {
-          "averageRating": 2020,
-          "black": 2,
-          "draws": 0,
+          "san": "Qc7",
+          "averageRating": 2120,
+          "white": 6,
+          "draws": 1,
+          "black": 4,
           "game": null,
-          "opening": null,
-          "san": "b6",
+          "opening": null
+        },
+        {
           "uci": "b7b6",
-          "white": 0
+          "san": "b6",
+          "averageRating": 2020,
+          "white": 0,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 1967,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "FabioVictor",
-              "rating": 1967
-            },
-            "id": "Hu9t76nJ",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "zeko2020",
-              "rating": 2041
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "g6",
           "uci": "g7g6",
-          "white": 1
-        },
-        {
-          "averageRating": 2154,
+          "san": "g6",
+          "averageRating": 1967,
+          "white": 1,
+          "draws": 0,
           "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "BlackMamba_18",
-              "rating": 2154
-            },
-            "id": "XROab7Ge",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "AbrayevJahongir",
-              "rating": 2203
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Nxe4",
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "f6e4",
-          "white": 1
+          "san": "Nxe4",
+          "averageRating": 2154,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2082,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "Brilliant-Dentist",
-              "rating": 2082
-            },
-            "id": "YM86vSmu",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "DiyarKazim",
-              "rating": 2244
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "d5",
           "uci": "d6d5",
-          "white": 0
+          "san": "d5",
+          "averageRating": 2082,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2118,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "klimor",
-              "rating": 2118
-            },
-            "id": "FeIbG9gS",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Manhalzreka7",
-              "rating": 1966
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Nbd7",
           "uci": "b8d7",
-          "white": 0
+          "san": "Nbd7",
+          "averageRating": 2118,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "B86",
         "name": "Sicilian Defense: Sozin Attack"
-      },
-      "white": 153
+      }
     }
   }
 }

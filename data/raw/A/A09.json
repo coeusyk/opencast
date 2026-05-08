@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "A09",
   "months": {
@@ -5584,162 +5582,149 @@
       "white": 7412
     },
     "2026-04": {
-      "black": 3243,
-      "draws": 457,
+      "white": 4006,
+      "draws": 466,
+      "black": 3291,
       "moves": [
         {
-          "averageRating": 2092,
-          "black": 855,
-          "draws": 136,
-          "game": null,
-          "opening": null,
-          "san": "c6",
           "uci": "c7c6",
-          "white": 938
+          "san": "c6",
+          "averageRating": 2092,
+          "white": 948,
+          "draws": 140,
+          "black": 869,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "d5d4",
+          "san": "d4",
           "averageRating": 2079,
-          "black": 799,
-          "draws": 82,
+          "white": 1013,
+          "draws": 83,
+          "black": 816,
           "game": null,
           "opening": {
             "eco": "A09",
             "name": "R\u00e9ti Opening: Advance Variation"
-          },
-          "san": "d4",
-          "uci": "d5d4",
-          "white": 999
+          }
         },
         {
+          "uci": "e7e6",
+          "san": "e6",
           "averageRating": 2094,
-          "black": 683,
-          "draws": 106,
+          "white": 790,
+          "draws": 107,
+          "black": 693,
           "game": null,
           "opening": {
             "eco": "A13",
             "name": "English Opening: Agincourt Defense"
-          },
-          "san": "e6",
-          "uci": "e7e6",
-          "white": 781
+          }
         },
         {
+          "uci": "d5c4",
+          "san": "dxc4",
           "averageRating": 2067,
-          "black": 472,
-          "draws": 67,
+          "white": 664,
+          "draws": 69,
+          "black": 473,
           "game": null,
           "opening": {
             "eco": "A09",
             "name": "R\u00e9ti Opening: R\u00e9ti Accepted"
-          },
-          "san": "dxc4",
-          "uci": "d5c4",
-          "white": 654
+          }
         },
         {
+          "uci": "g8f6",
+          "san": "Nf6",
           "averageRating": 2081,
-          "black": 302,
-          "draws": 45,
+          "white": 417,
+          "draws": 46,
+          "black": 306,
           "game": null,
           "opening": {
             "eco": "A15",
             "name": "English Opening: Anglo-Indian Defense, Scandinavian Defense"
-          },
-          "san": "Nf6",
-          "uci": "g8f6",
-          "white": 416
+          }
         },
         {
-          "averageRating": 2088,
-          "black": 40,
-          "draws": 7,
-          "game": null,
-          "opening": null,
-          "san": "c5",
           "uci": "c7c5",
-          "white": 61
+          "san": "c5",
+          "averageRating": 2089,
+          "white": 61,
+          "draws": 7,
+          "black": 41,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2076,
-          "black": 38,
-          "draws": 5,
-          "game": null,
-          "opening": null,
-          "san": "Nc6",
           "uci": "b8c6",
-          "white": 42
-        },
-        {
-          "averageRating": 2036,
-          "black": 26,
+          "san": "Nc6",
+          "averageRating": 2075,
+          "white": 42,
           "draws": 5,
+          "black": 39,
           "game": null,
-          "opening": null,
-          "san": "Bg4",
+          "opening": null
+        },
+        {
           "uci": "c8g4",
-          "white": 34
+          "san": "Bg4",
+          "averageRating": 2038,
+          "white": 35,
+          "draws": 5,
+          "black": 26,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2061,
-          "black": 20,
-          "draws": 3,
-          "game": null,
-          "opening": null,
-          "san": "Bf5",
           "uci": "c8f5",
-          "white": 20
+          "san": "Bf5",
+          "averageRating": 2061,
+          "white": 20,
+          "draws": 3,
+          "black": 20,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2091,
-          "black": 6,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "g6",
           "uci": "g7g6",
-          "white": 7
-        },
-        {
-          "averageRating": 2051,
-          "black": 2,
-          "draws": 0,
+          "san": "g6",
+          "averageRating": 2091,
+          "white": 7,
+          "draws": 1,
+          "black": 6,
           "game": null,
-          "opening": null,
-          "san": "e5",
-          "uci": "e7e5",
-          "white": 5
+          "opening": null
         },
         {
-          "averageRating": 2116,
-          "black": 0,
+          "uci": "e7e5",
+          "san": "e5",
+          "averageRating": 2051,
+          "white": 5,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "Isaac610",
-              "rating": 2116
-            },
-            "id": "sKHjLbOB",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Ctimor",
-              "rating": 2191
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "f5",
+          "black": 2,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "f7f5",
-          "white": 1
+          "san": "f5",
+          "averageRating": 2116,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "A09",
         "name": "R\u00e9ti Opening"
-      },
-      "white": 3961
+      }
     }
   }
 }

@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C20",
   "months": {
@@ -6052,159 +6050,161 @@
       "white": 20674
     },
     "2026-04": {
-      "black": 10504,
-      "draws": 954,
+      "white": 10651,
+      "draws": 964,
+      "black": 10690,
       "moves": [
         {
+          "uci": "e5f4",
+          "san": "exf4",
           "averageRating": 2074,
-          "black": 4356,
-          "draws": 349,
+          "white": 4463,
+          "draws": 355,
+          "black": 4430,
           "game": null,
           "opening": {
             "eco": "C33",
             "name": "King's Gambit Accepted"
-          },
-          "san": "exf4",
-          "uci": "e5f4",
-          "white": 4372
+          }
         },
         {
+          "uci": "d7d5",
+          "san": "d5",
           "averageRating": 2078,
-          "black": 2413,
-          "draws": 232,
+          "white": 2267,
+          "draws": 233,
+          "black": 2451,
           "game": null,
           "opening": {
             "eco": "C31",
             "name": "King's Gambit Declined: Falkbeer Countergambit"
-          },
-          "san": "d5",
-          "uci": "d7d5",
-          "white": 2230
+          }
         },
         {
+          "uci": "b8c6",
+          "san": "Nc6",
           "averageRating": 2064,
-          "black": 1816,
-          "draws": 187,
+          "white": 1881,
+          "draws": 188,
+          "black": 1856,
           "game": null,
           "opening": {
             "eco": "C30",
             "name": "King's Gambit Declined: Queen's Knight Defense"
-          },
-          "san": "Nc6",
-          "uci": "b8c6",
-          "white": 1851
+          }
         },
         {
-          "averageRating": 2058,
-          "black": 874,
-          "draws": 94,
-          "game": null,
-          "opening": null,
-          "san": "d6",
           "uci": "d7d6",
-          "white": 986
+          "san": "d6",
+          "averageRating": 2058,
+          "white": 1004,
+          "draws": 96,
+          "black": 888,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "f8c5",
+          "san": "Bc5",
           "averageRating": 2082,
-          "black": 563,
+          "white": 500,
           "draws": 60,
+          "black": 575,
           "game": null,
           "opening": {
             "eco": "C30",
             "name": "King's Gambit Declined: Classical Variation"
-          },
-          "san": "Bc5",
-          "uci": "f8c5",
-          "white": 493
+          }
         },
         {
+          "uci": "g8f6",
+          "san": "Nf6",
           "averageRating": 2073,
-          "black": 284,
+          "white": 310,
           "draws": 19,
+          "black": 287,
           "game": null,
           "opening": {
             "eco": "C30",
             "name": "King's Gambit Declined: Petrov's Defense"
-          },
-          "san": "Nf6",
-          "uci": "g8f6",
-          "white": 304
+          }
         },
         {
-          "averageRating": 2083,
-          "black": 59,
+          "uci": "d8h4",
+          "san": "Qh4+",
+          "averageRating": 2084,
+          "white": 72,
           "draws": 4,
+          "black": 64,
           "game": null,
           "opening": {
             "eco": "C30",
             "name": "King's Gambit Declined: Keene's Defense"
-          },
-          "san": "Qh4+",
-          "uci": "d8h4",
-          "white": 70
+          }
         },
         {
-          "averageRating": 2072,
-          "black": 45,
+          "uci": "f7f5",
+          "san": "f5",
+          "averageRating": 2073,
+          "white": 57,
           "draws": 3,
+          "black": 45,
           "game": null,
           "opening": {
             "eco": "C30",
             "name": "King's Gambit Declined: Panteldakis Countergambit"
-          },
-          "san": "f5",
-          "uci": "f7f5",
-          "white": 55
+          }
         },
         {
-          "averageRating": 2078,
-          "black": 48,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "c6",
           "uci": "c7c6",
-          "white": 40
+          "san": "c6",
+          "averageRating": 2079,
+          "white": 41,
+          "draws": 4,
+          "black": 48,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "d8f6",
+          "san": "Qf6",
           "averageRating": 2037,
-          "black": 11,
+          "white": 18,
           "draws": 0,
+          "black": 11,
           "game": null,
           "opening": {
             "eco": "C30",
             "name": "King's Gambit Declined: Norwalde Variation"
-          },
-          "san": "Qf6",
-          "uci": "d8f6",
-          "white": 18
+          }
         },
         {
-          "averageRating": 2090,
-          "black": 16,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Qe7",
           "uci": "d8e7",
-          "white": 6
+          "san": "Qe7",
+          "averageRating": 2090,
+          "white": 6,
+          "draws": 0,
+          "black": 16,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2020,
-          "black": 6,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "f6",
           "uci": "f7f6",
-          "white": 14
+          "san": "f6",
+          "averageRating": 2020,
+          "white": 14,
+          "draws": 0,
+          "black": 6,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C30",
         "name": "King's Gambit"
-      },
-      "white": 10456
+      }
     }
   }
 }

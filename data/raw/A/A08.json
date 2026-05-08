@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "A08",
   "months": {
@@ -6193,168 +6191,140 @@
       "white": 3273
     },
     "2026-04": {
-      "black": 1190,
-      "draws": 179,
+      "white": 1633,
+      "draws": 181,
+      "black": 1224,
       "moves": [
         {
-          "averageRating": 2099,
-          "black": 530,
-          "draws": 72,
-          "game": null,
-          "opening": null,
-          "san": "O-O",
           "uci": "e1h1",
-          "white": 662
+          "san": "O-O",
+          "averageRating": 2098,
+          "white": 674,
+          "draws": 73,
+          "black": 547,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "d2d4",
+          "san": "d4",
           "averageRating": 2109,
-          "black": 430,
-          "draws": 82,
+          "white": 680,
+          "draws": 83,
+          "black": 435,
           "game": null,
           "opening": {
             "eco": "A08",
             "name": "Zukertort Opening: Reversed Gr\u00fcnfeld"
-          },
-          "san": "d4",
-          "uci": "d2d4",
-          "white": 668
+          }
         },
         {
-          "averageRating": 2072,
-          "black": 168,
-          "draws": 17,
-          "game": null,
-          "opening": null,
-          "san": "d3",
           "uci": "d2d3",
-          "white": 199
+          "san": "d3",
+          "averageRating": 2072,
+          "white": 201,
+          "draws": 17,
+          "black": 173,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2103,
-          "black": 32,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "c4",
           "uci": "c2c4",
-          "white": 45
+          "san": "c4",
+          "averageRating": 2104,
+          "white": 47,
+          "draws": 4,
+          "black": 35,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2044,
-          "black": 16,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "c3",
           "uci": "c2c3",
-          "white": 14
+          "san": "c3",
+          "averageRating": 2043,
+          "white": 15,
+          "draws": 1,
+          "black": 20,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2096,
-          "black": 6,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "b3",
           "uci": "b2b3",
-          "white": 6
+          "san": "b3",
+          "averageRating": 2096,
+          "white": 6,
+          "draws": 0,
+          "black": 6,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2087,
-          "black": 4,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "e3",
           "uci": "e2e3",
-          "white": 7
+          "san": "e3",
+          "averageRating": 2087,
+          "white": 7,
+          "draws": 1,
+          "black": 4,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2139,
-          "black": 1,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "h3",
           "uci": "h2h3",
-          "white": 1
-        },
-        {
-          "averageRating": 2042,
-          "black": 2,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "e4",
-          "uci": "e2e4",
-          "white": 0
-        },
-        {
-          "averageRating": 2084,
-          "black": 0,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Kf1",
-          "uci": "e1f1",
-          "white": 2
-        },
-        {
-          "averageRating": 2181,
-          "black": 0,
+          "san": "h3",
+          "averageRating": 2139,
+          "white": 1,
           "draws": 1,
-          "game": {
-            "black": {
-              "name": "Kalatov",
-              "rating": 2129
-            },
-            "id": "HJdRWqpn",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "unminutito",
-              "rating": 2181
-            },
-            "winner": null,
-            "year": 2026
-          },
-          "opening": null,
-          "san": "a4",
-          "uci": "a2a4",
-          "white": 0
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "e2e4",
+          "san": "e4",
           "averageRating": 2042,
-          "black": 1,
+          "white": 0,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "ngblic",
-              "rating": 1987
-            },
-            "id": "xFWieJly",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "darmawansyah",
-              "rating": 2042
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "a3",
+          "black": 2,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "e1f1",
+          "san": "Kf1",
+          "averageRating": 2084,
+          "white": 2,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "a2a4",
+          "san": "a4",
+          "averageRating": 2181,
+          "white": 0,
+          "draws": 1,
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "a2a3",
-          "white": 0
+          "san": "a3",
+          "averageRating": 2042,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "A08",
         "name": "King's Indian Attack: French Variation"
-      },
-      "white": 1604
+      }
     }
   }
 }

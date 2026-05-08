@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C65",
   "months": {
@@ -5605,159 +5603,146 @@
       "white": 5864
     },
     "2026-04": {
-      "black": 2586,
-      "draws": 390,
+      "white": 3013,
+      "draws": 398,
+      "black": 2626,
       "moves": [
         {
-          "averageRating": 2094,
-          "black": 1326,
-          "draws": 243,
+          "uci": "e1h1",
+          "san": "O-O",
+          "averageRating": 2095,
+          "white": 1623,
+          "draws": 247,
+          "black": 1353,
           "game": null,
           "opening": {
             "eco": "C65",
             "name": "Ruy Lopez: Berlin Defense"
-          },
-          "san": "O-O",
-          "uci": "e1h1",
-          "white": 1602
+          }
         },
         {
+          "uci": "d2d3",
+          "san": "d3",
           "averageRating": 2096,
-          "black": 814,
-          "draws": 74,
+          "white": 894,
+          "draws": 78,
+          "black": 821,
           "game": null,
           "opening": {
             "eco": "C65",
             "name": "Ruy Lopez: Berlin Defense, Anti-Berlin Variation"
-          },
-          "san": "d3",
-          "uci": "d2d3",
-          "white": 886
+          }
         },
         {
-          "averageRating": 2070,
-          "black": 161,
-          "draws": 36,
-          "game": null,
-          "opening": null,
-          "san": "Bxc6",
           "uci": "b5c6",
-          "white": 161
+          "san": "Bxc6",
+          "averageRating": 2071,
+          "white": 166,
+          "draws": 36,
+          "black": 162,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2080,
-          "black": 147,
+          "uci": "b1c3",
+          "san": "Nc3",
+          "averageRating": 2081,
+          "white": 155,
           "draws": 16,
+          "black": 148,
           "game": null,
           "opening": {
             "eco": "C48",
             "name": "Four Knights Game: Spanish Variation"
-          },
-          "san": "Nc3",
-          "uci": "b1c3",
-          "white": 154
+          }
         },
         {
-          "averageRating": 2114,
-          "black": 60,
-          "draws": 9,
-          "game": null,
-          "opening": null,
-          "san": "Qe2",
           "uci": "d1e2",
-          "white": 82
+          "san": "Qe2",
+          "averageRating": 2114,
+          "white": 82,
+          "draws": 9,
+          "black": 61,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2100,
-          "black": 57,
-          "draws": 10,
-          "game": null,
-          "opening": null,
-          "san": "d4",
           "uci": "d2d4",
-          "white": 66
+          "san": "d4",
+          "averageRating": 2099,
+          "white": 68,
+          "draws": 10,
+          "black": 60,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2062,
-          "black": 12,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "c3",
           "uci": "c2c3",
-          "white": 13
-        },
-        {
-          "averageRating": 2096,
-          "black": 4,
+          "san": "c3",
+          "averageRating": 2062,
+          "white": 13,
           "draws": 1,
+          "black": 12,
           "game": null,
-          "opening": null,
-          "san": "Ba4",
+          "opening": null
+        },
+        {
           "uci": "b5a4",
-          "white": 4
+          "san": "Ba4",
+          "averageRating": 2096,
+          "white": 4,
+          "draws": 1,
+          "black": 4,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2147,
-          "black": 3,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Kf1",
           "uci": "e1f1",
-          "white": 1
+          "san": "Kf1",
+          "averageRating": 2147,
+          "white": 1,
+          "draws": 0,
+          "black": 3,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2020,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Ng5",
           "uci": "f3g5",
-          "white": 1
-        },
-        {
-          "averageRating": 2047,
-          "black": 0,
+          "san": "Ng5",
+          "averageRating": 2060,
+          "white": 2,
           "draws": 0,
+          "black": 1,
           "game": null,
-          "opening": null,
-          "san": "h3",
-          "uci": "h2h3",
-          "white": 2
+          "opening": null
         },
         {
-          "averageRating": 2051,
-          "black": 0,
+          "uci": "h2h3",
+          "san": "h3",
+          "averageRating": 2047,
+          "white": 2,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "Peterjns",
-              "rating": 2058
-            },
-            "id": "4dMXVW10",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "NinjaMatinga",
-              "rating": 2051
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Ke2",
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "e1e2",
-          "white": 1
+          "san": "Ke2",
+          "averageRating": 2051,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C65",
         "name": "Ruy Lopez: Berlin Defense"
-      },
-      "white": 2975
+      }
     }
   }
 }

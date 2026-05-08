@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "B98",
   "months": {
@@ -5461,165 +5459,137 @@
       "white": 1324
     },
     "2026-04": {
-      "black": 551,
-      "draws": 65,
+      "white": 707,
+      "draws": 66,
+      "black": 557,
       "moves": [
         {
-          "averageRating": 2108,
-          "black": 480,
-          "draws": 55,
-          "game": null,
-          "opening": null,
-          "san": "Qf3",
           "uci": "d1f3",
-          "white": 609
+          "san": "Qf3",
+          "averageRating": 2108,
+          "white": 616,
+          "draws": 56,
+          "black": 485,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2094,
-          "black": 18,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "Bd3",
           "uci": "f1d3",
-          "white": 29
-        },
-        {
+          "san": "Bd3",
           "averageRating": 2094,
-          "black": 17,
+          "white": 29,
           "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "Qe2",
-          "uci": "d1e2",
-          "white": 17
-        },
-        {
-          "averageRating": 2065,
           "black": 18,
-          "draws": 1,
           "game": null,
-          "opening": null,
-          "san": "Bc4",
-          "uci": "f1c4",
-          "white": 16
+          "opening": null
         },
         {
-          "averageRating": 2146,
-          "black": 9,
-          "draws": 3,
-          "game": null,
-          "opening": null,
-          "san": "Qd2",
-          "uci": "d1d2",
-          "white": 11
-        },
-        {
+          "uci": "d1e2",
+          "san": "Qe2",
           "averageRating": 2094,
-          "black": 4,
-          "draws": 0,
+          "white": 17,
+          "draws": 2,
+          "black": 17,
           "game": null,
-          "opening": null,
-          "san": "Be2",
+          "opening": null
+        },
+        {
+          "uci": "f1c4",
+          "san": "Bc4",
+          "averageRating": 2063,
+          "white": 16,
+          "draws": 1,
+          "black": 19,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d1d2",
+          "san": "Qd2",
+          "averageRating": 2146,
+          "white": 11,
+          "draws": 3,
+          "black": 9,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "f1e2",
-          "white": 8
+          "san": "Be2",
+          "averageRating": 2094,
+          "white": 8,
+          "draws": 0,
+          "black": 4,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2065,
-          "black": 3,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "e5",
           "uci": "e4e5",
-          "white": 3
-        },
-        {
-          "averageRating": 2036,
-          "black": 1,
+          "san": "e5",
+          "averageRating": 2065,
+          "white": 3,
           "draws": 1,
+          "black": 3,
           "game": null,
-          "opening": null,
-          "san": "Qd3",
+          "opening": null
+        },
+        {
           "uci": "d1d3",
-          "white": 1
-        },
-        {
-          "averageRating": 2010,
+          "san": "Qd3",
+          "averageRating": 2036,
+          "white": 1,
+          "draws": 1,
           "black": 1,
-          "draws": 0,
           "game": null,
-          "opening": null,
-          "san": "g4",
+          "opening": null
+        },
+        {
           "uci": "g2g4",
-          "white": 1
-        },
-        {
-          "averageRating": 2129,
-          "black": 0,
+          "san": "g4",
+          "averageRating": 2010,
+          "white": 1,
           "draws": 0,
+          "black": 1,
           "game": null,
-          "opening": null,
-          "san": "a4",
+          "opening": null
+        },
+        {
           "uci": "a2a4",
-          "white": 2
+          "san": "a4",
+          "averageRating": 2129,
+          "white": 2,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 1997,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "Amakakeru_Ryu",
-              "rating": 2076
-            },
-            "id": "cd2k9Mny",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "LostNLoop",
-              "rating": 1997
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Nf3",
           "uci": "d4f3",
-          "white": 1
+          "san": "Nf3",
+          "averageRating": 1997,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2130,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "Nekulado",
-              "rating": 2095
-            },
-            "id": "wyxcaHtv",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "taolahacker",
-              "rating": 2130
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Bh4",
           "uci": "g5h4",
-          "white": 1
+          "san": "Bh4",
+          "averageRating": 2130,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "B98",
         "name": "Sicilian Defense: Najdorf Variation"
-      },
-      "white": 700
+      }
     }
   }
 }

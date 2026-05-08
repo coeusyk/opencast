@@ -1,27 +1,27 @@
 {
   "generated_at": "2026-05-08",
   "month": "2026-05",
-  "headline": "Humans outperform Stockfish by the largest margin in King's Indian Defense: Orthodox Variation, Classical System (E98), while Benoni Defense: Old Benoni (A44) is the most frequently misplayed opening.",
+  "headline": "Humans outperform Stockfish in King's Indian Defense: Orthodox Variation, Classical System (E98), while Benoni Defense: Old Benoni (A44) is the most frequently misplayed opening.",
   "panels": {
     "forecast": {
-      "insight": "The ARIMA forecast indicates stable win-rate trends across 20 tracked openings, with no significant changes expected over the next three months. Notable exceptions include the rising trend in English Opening: Four Knights System, Nimzowitsch Variation (A28) and the falling trend in English Opening (A10).",
+      "insight": "The ARIMA forecast indicates stable win-rate trends across 20 tracked openings, with the steepest trend belonging to English Opening: Four Knights System, Nimzowitsch Variation (A28).",
       "highlight_ecos": [
         "E98",
-        "A28",
-        "A10"
+        "A28"
       ]
     },
     "engine_delta": {
-      "insight": "The engine-human delta analysis reveals that humans outperform Stockfish in openings like King's Indian Defense: Orthodox Variation, Classical System (E98) and underperform in openings like Benoni Defense: Old Benoni (A44).",
+      "insight": "Humans outperform Stockfish in 5 openings, while underperforming in 5 others, indicating significant skill-based advantages in certain openings.",
       "outliers": [
         "A44",
-        "E98",
-        "A18",
-        "A21"
+        "B29",
+        "C40",
+        "A57",
+        "A56"
       ]
     },
     "heatmap": {
-      "insight": "The ECO category heatmap shows that the King's Indian Defense and English Opening are the most popular openings in the dataset, with a significant number of games played in these categories."
+      "insight": "Category-level analysis reveals that openings with complex pawn structures tend to have more stable win-rate trends, while openings with rapid development tend to have more volatile trends."
     }
   }
 }

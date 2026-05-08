@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "D40",
   "months": {
@@ -5530,171 +5528,143 @@
       "white": 1569
     },
     "2026-04": {
-      "black": 788,
-      "draws": 131,
+      "white": 859,
+      "draws": 136,
+      "black": 796,
       "moves": [
         {
+          "uci": "c4d5",
+          "san": "cxd5",
           "averageRating": 2111,
-          "black": 312,
-          "draws": 63,
+          "white": 334,
+          "draws": 64,
+          "black": 317,
           "game": null,
           "opening": {
             "eco": "D41",
             "name": "Queen's Gambit Declined: Semi-Tarrasch Defense"
-          },
-          "san": "cxd5",
-          "uci": "c4d5",
-          "white": 330
+          }
         },
         {
+          "uci": "c1g5",
+          "san": "Bg5",
           "averageRating": 2082,
+          "white": 227,
+          "draws": 31,
           "black": 189,
-          "draws": 29,
           "game": null,
           "opening": {
             "eco": "D40",
             "name": "Queen's Gambit Declined: Semi-Tarrasch Defense, Pillsbury Variation"
-          },
-          "san": "Bg5",
-          "uci": "c1g5",
-          "white": 223
+          }
         },
         {
-          "averageRating": 2085,
-          "black": 178,
-          "draws": 26,
-          "game": null,
-          "opening": null,
-          "san": "e3",
           "uci": "e2e3",
-          "white": 183
-        },
-        {
-          "averageRating": 2076,
-          "black": 35,
-          "draws": 5,
-          "game": null,
-          "opening": null,
-          "san": "dxc5",
-          "uci": "d4c5",
-          "white": 50
-        },
-        {
-          "averageRating": 2086,
-          "black": 36,
-          "draws": 5,
-          "game": null,
-          "opening": null,
-          "san": "g3",
-          "uci": "g2g3",
-          "white": 28
-        },
-        {
+          "san": "e3",
           "averageRating": 2085,
-          "black": 33,
-          "draws": 3,
+          "white": 186,
+          "draws": 28,
+          "black": 180,
           "game": null,
-          "opening": null,
-          "san": "Bf4",
+          "opening": null
+        },
+        {
+          "uci": "d4c5",
+          "san": "dxc5",
+          "averageRating": 2075,
+          "white": 50,
+          "draws": 5,
+          "black": 36,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "g2g3",
+          "san": "g3",
+          "averageRating": 2086,
+          "white": 28,
+          "draws": 5,
+          "black": 36,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "c1f4",
-          "white": 24
+          "san": "Bf4",
+          "averageRating": 2080,
+          "white": 27,
+          "draws": 3,
+          "black": 33,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2084,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "a3",
           "uci": "a2a3",
-          "white": 2
-        },
-        {
-          "averageRating": 2095,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "b3",
-          "uci": "b2b3",
-          "white": 1
-        },
-        {
-          "averageRating": 1957,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Nxd5",
-          "uci": "c3d5",
-          "white": 1
-        },
-        {
-          "averageRating": 2112,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "h3",
-          "uci": "h2h3",
-          "white": 1
-        },
-        {
+          "san": "a3",
           "averageRating": 2084,
-          "black": 1,
+          "white": 2,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "AlekseyFomin1985",
-              "rating": 2053
-            },
-            "id": "Ded2In3x",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Davaz17",
-              "rating": 2084
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Qc2",
-          "uci": "d1c2",
-          "white": 0
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2065,
-          "black": 0,
+          "uci": "b2b3",
+          "san": "b3",
+          "averageRating": 2095,
+          "white": 1,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "ClementChai",
-              "rating": 2074
-            },
-            "id": "Idn1DXCz",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Immanuil84",
-              "rating": 2065
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Qd3",
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c3d5",
+          "san": "Nxd5",
+          "averageRating": 1957,
+          "white": 1,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "h2h3",
+          "san": "h3",
+          "averageRating": 2112,
+          "white": 1,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d1c2",
+          "san": "Qc2",
+          "averageRating": 2084,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "d1d3",
-          "white": 1
+          "san": "Qd3",
+          "averageRating": 2065,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "D40",
         "name": "Queen's Gambit Declined: Semi-Tarrasch Defense"
-      },
-      "white": 845
+      }
     }
   }
 }

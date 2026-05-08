@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C54",
   "months": {
@@ -5599,162 +5597,149 @@
       "white": 3875
     },
     "2026-04": {
-      "black": 1675,
-      "draws": 229,
+      "white": 1998,
+      "draws": 232,
+      "black": 1714,
       "moves": [
         {
+          "uci": "d2d4",
+          "san": "d4",
           "averageRating": 2084,
-          "black": 821,
-          "draws": 120,
+          "white": 1033,
+          "draws": 123,
+          "black": 840,
           "game": null,
           "opening": {
             "eco": "C54",
             "name": "Italian Game: Classical Variation, Center Attack"
-          },
-          "san": "d4",
-          "uci": "d2d4",
-          "white": 1021
+          }
         },
         {
+          "uci": "d2d3",
+          "san": "d3",
           "averageRating": 2090,
-          "black": 650,
+          "white": 766,
           "draws": 85,
+          "black": 666,
           "game": null,
           "opening": {
             "eco": "C54",
             "name": "Italian Game: Classical Variation, Giuoco Pianissimo"
-          },
-          "san": "d3",
-          "uci": "d2d3",
-          "white": 755
+          }
         },
         {
-          "averageRating": 2083,
-          "black": 136,
+          "uci": "e1h1",
+          "san": "O-O",
+          "averageRating": 2084,
+          "white": 120,
           "draws": 18,
+          "black": 140,
           "game": null,
           "opening": {
             "eco": "C50",
             "name": "Italian Game: Classical Variation, Albin Gambit"
-          },
-          "san": "O-O",
-          "uci": "e1h1",
-          "white": 118
+          }
         },
         {
-          "averageRating": 2076,
-          "black": 32,
+          "uci": "b2b4",
+          "san": "b4",
+          "averageRating": 2077,
+          "white": 31,
           "draws": 3,
+          "black": 32,
           "game": null,
           "opening": {
             "eco": "C53",
             "name": "Italian Game: Bird's Attack"
-          },
-          "san": "b4",
-          "uci": "b2b4",
-          "white": 30
+          }
         },
         {
-          "averageRating": 2093,
-          "black": 28,
-          "draws": 3,
-          "game": null,
-          "opening": null,
-          "san": "Qe2",
           "uci": "d1e2",
-          "white": 24
+          "san": "Qe2",
+          "averageRating": 2093,
+          "white": 24,
+          "draws": 3,
+          "black": 28,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2104,
-          "black": 2,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Qc2",
           "uci": "d1c2",
-          "white": 9
+          "san": "Qc2",
+          "averageRating": 2104,
+          "white": 9,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2056,
-          "black": 3,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Ng5",
           "uci": "f3g5",
-          "white": 4
+          "san": "Ng5",
+          "averageRating": 2056,
+          "white": 4,
+          "draws": 0,
+          "black": 3,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2005,
-          "black": 0,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Qb3",
           "uci": "d1b3",
-          "white": 4
+          "san": "Qb3",
+          "averageRating": 2005,
+          "white": 4,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2158,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Nxe5",
           "uci": "f3e5",
-          "white": 2
-        },
-        {
-          "averageRating": 2071,
-          "black": 0,
+          "san": "Nxe5",
+          "averageRating": 2158,
+          "white": 2,
           "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "a4",
-          "uci": "a2a4",
-          "white": 2
-        },
-        {
-          "averageRating": 2014,
           "black": 1,
-          "draws": 0,
           "game": null,
-          "opening": null,
-          "san": "h3",
-          "uci": "h2h3",
-          "white": 1
+          "opening": null
         },
         {
-          "averageRating": 2079,
-          "black": 0,
+          "uci": "a2a4",
+          "san": "a4",
+          "averageRating": 2071,
+          "white": 2,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "matkozllatko",
-              "rating": 1990
-            },
-            "id": "e0NLlMnp",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Eroni",
-              "rating": 2079
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Bxf7+",
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "h2h3",
+          "san": "h3",
+          "averageRating": 2014,
+          "white": 1,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "c4f7",
-          "white": 1
+          "san": "Bxf7+",
+          "averageRating": 2079,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C54",
         "name": "Italian Game: Classical Variation"
-      },
-      "white": 1972
+      }
     }
   }
 }

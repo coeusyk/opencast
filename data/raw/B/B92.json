@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "B92",
   "months": {
@@ -5913,123 +5911,110 @@
       "white": 1992
     },
     "2026-04": {
-      "black": 947,
-      "draws": 113,
+      "white": 1069,
+      "draws": 117,
+      "black": 963,
       "moves": [
         {
-          "averageRating": 2104,
-          "black": 581,
-          "draws": 69,
-          "game": null,
-          "opening": null,
-          "san": "e5",
           "uci": "e7e5",
-          "white": 633
+          "san": "e5",
+          "averageRating": 2104,
+          "white": 638,
+          "draws": 73,
+          "black": 592,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "e7e6",
+          "san": "e6",
           "averageRating": 2095,
-          "black": 250,
+          "white": 279,
           "draws": 29,
+          "black": 253,
           "game": null,
           "opening": {
             "eco": "B84",
             "name": "Sicilian Defense: Scheveningen Variation, Classical Variation"
-          },
-          "san": "e6",
-          "uci": "e7e6",
-          "white": 276
+          }
         },
         {
-          "averageRating": 2083,
-          "black": 44,
-          "draws": 5,
-          "game": null,
-          "opening": null,
-          "san": "g6",
           "uci": "g7g6",
-          "white": 43
+          "san": "g6",
+          "averageRating": 2082,
+          "white": 44,
+          "draws": 5,
+          "black": 44,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2069,
-          "black": 35,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "b5",
           "uci": "b7b5",
-          "white": 43
-        },
-        {
-          "averageRating": 2066,
-          "black": 20,
+          "san": "b5",
+          "averageRating": 2069,
+          "white": 43,
           "draws": 4,
+          "black": 35,
           "game": null,
-          "opening": null,
-          "san": "Nc6",
+          "opening": null
+        },
+        {
           "uci": "b8c6",
-          "white": 28
+          "san": "Nc6",
+          "averageRating": 2066,
+          "white": 28,
+          "draws": 4,
+          "black": 22,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2073,
-          "black": 12,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Qc7",
           "uci": "d8c7",
-          "white": 21
-        },
-        {
-          "averageRating": 2067,
-          "black": 5,
+          "san": "Qc7",
+          "averageRating": 2075,
+          "white": 22,
           "draws": 1,
+          "black": 12,
           "game": null,
-          "opening": null,
-          "san": "Nbd7",
+          "opening": null
+        },
+        {
           "uci": "b8d7",
-          "white": 12
-        },
-        {
-          "averageRating": 2018,
-          "black": 0,
-          "draws": 0,
+          "san": "Nbd7",
+          "averageRating": 2067,
+          "white": 12,
+          "draws": 1,
+          "black": 5,
           "game": null,
-          "opening": null,
-          "san": "Bd7",
-          "uci": "c8d7",
-          "white": 2
+          "opening": null
         },
         {
-          "averageRating": 2065,
-          "black": 0,
+          "uci": "c8d7",
+          "san": "Bd7",
+          "averageRating": 2018,
+          "white": 2,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "dhaboyy",
-              "rating": 2065
-            },
-            "id": "DhMCzvdm",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "stef2023",
-              "rating": 2105
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Qd7",
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "d8d7",
-          "white": 1
+          "san": "Qd7",
+          "averageRating": 2065,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "B92",
         "name": "Sicilian Defense: Najdorf Variation, Opocensky Variation"
-      },
-      "white": 1059
+      }
     }
   }
 }

@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "B29",
   "months": {
@@ -5365,171 +5363,143 @@
       "white": 1261
     },
     "2026-04": {
-      "black": 789,
-      "draws": 85,
+      "white": 738,
+      "draws": 87,
+      "black": 803,
       "moves": [
         {
-          "averageRating": 2079,
-          "black": 308,
+          "uci": "e4e5",
+          "san": "e5",
+          "averageRating": 2080,
+          "white": 311,
           "draws": 30,
+          "black": 313,
           "game": null,
           "opening": {
             "eco": "B29",
             "name": "Sicilian Defense: Nimzowitsch Variation, Advance Variation"
-          },
-          "san": "e5",
-          "uci": "e4e5",
-          "white": 306
+          }
         },
         {
+          "uci": "b1c3",
+          "san": "Nc3",
           "averageRating": 2079,
-          "black": 263,
-          "draws": 34,
+          "white": 250,
+          "draws": 35,
+          "black": 267,
           "game": null,
           "opening": {
             "eco": "B29",
             "name": "Sicilian Defense: Nimzowitsch Variation, Closed Variation"
-          },
-          "san": "Nc3",
-          "uci": "b1c3",
-          "white": 244
+          }
         },
         {
-          "averageRating": 2067,
-          "black": 120,
-          "draws": 7,
-          "game": null,
-          "opening": null,
-          "san": "d4",
           "uci": "d2d4",
-          "white": 90
+          "san": "d4",
+          "averageRating": 2067,
+          "white": 91,
+          "draws": 7,
+          "black": 122,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2087,
-          "black": 51,
-          "draws": 5,
-          "game": null,
-          "opening": null,
-          "san": "d3",
           "uci": "d2d3",
-          "white": 45
+          "san": "d3",
+          "averageRating": 2085,
+          "white": 48,
+          "draws": 6,
+          "black": 53,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2070,
-          "black": 18,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "c3",
           "uci": "c2c3",
-          "white": 15
+          "san": "c3",
+          "averageRating": 2070,
+          "white": 15,
+          "draws": 4,
+          "black": 18,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2056,
-          "black": 19,
-          "draws": 3,
-          "game": null,
-          "opening": null,
-          "san": "Bc4",
           "uci": "f1c4",
-          "white": 13
+          "san": "Bc4",
+          "averageRating": 2056,
+          "white": 13,
+          "draws": 3,
+          "black": 20,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2099,
-          "black": 2,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Bd3",
           "uci": "f1d3",
-          "white": 6
-        },
-        {
-          "averageRating": 2104,
-          "black": 2,
+          "san": "Bd3",
+          "averageRating": 2099,
+          "white": 6,
           "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Qe2",
-          "uci": "d1e2",
-          "white": 1
-        },
-        {
-          "averageRating": 2095,
           "black": 2,
-          "draws": 0,
           "game": null,
-          "opening": null,
-          "san": "b4",
+          "opening": null
+        },
+        {
+          "uci": "d1e2",
+          "san": "Qe2",
+          "averageRating": 2104,
+          "white": 1,
+          "draws": 1,
+          "black": 2,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "b2b4",
-          "white": 1
-        },
-        {
-          "averageRating": 2125,
-          "black": 1,
+          "san": "b4",
+          "averageRating": 2095,
+          "white": 1,
           "draws": 0,
+          "black": 2,
           "game": null,
-          "opening": null,
-          "san": "g3",
+          "opening": null
+        },
+        {
           "uci": "g2g3",
-          "white": 1
+          "san": "g3",
+          "averageRating": 2125,
+          "white": 1,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2029,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "MichalBongar",
-              "rating": 2034
-            },
-            "id": "z9jypDz3",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Azerbaycan1961",
-              "rating": 2029
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Be2",
           "uci": "f1e2",
-          "white": 0
+          "san": "Be2",
+          "averageRating": 2029,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2083,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "xmunozigual",
-              "rating": 2132
-            },
-            "id": "eewLR4gf",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "SpectreS28",
-              "rating": 2083
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "b3",
           "uci": "b2b3",
-          "white": 0
+          "san": "b3",
+          "averageRating": 2083,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "B29",
         "name": "Sicilian Defense: Nimzowitsch Variation"
-      },
-      "white": 723
+      }
     }
   }
 }

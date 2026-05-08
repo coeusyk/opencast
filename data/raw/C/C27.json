@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C27",
   "months": {
@@ -5563,118 +5561,90 @@
       "white": 268
     },
     "2026-04": {
-      "black": 117,
-      "draws": 12,
+      "white": 163,
+      "draws": 13,
+      "black": 122,
       "moves": [
         {
-          "averageRating": 2080,
-          "black": 81,
-          "draws": 5,
-          "game": null,
-          "opening": null,
-          "san": "Nxc3",
           "uci": "e4c3",
-          "white": 112
+          "san": "Nxc3",
+          "averageRating": 2081,
+          "white": 113,
+          "draws": 5,
+          "black": 82,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2120,
-          "black": 9,
-          "draws": 6,
-          "game": null,
-          "opening": null,
-          "san": "Nf6",
           "uci": "e4f6",
-          "white": 24
+          "san": "Nf6",
+          "averageRating": 2121,
+          "white": 25,
+          "draws": 6,
+          "black": 9,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2103,
-          "black": 12,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Nd6",
-          "uci": "e4d6",
-          "white": 11
-        },
-        {
-          "averageRating": 2129,
-          "black": 12,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Nc6",
           "uci": "b8c6",
-          "white": 7
+          "san": "Nc6",
+          "averageRating": 2123,
+          "white": 7,
+          "draws": 1,
+          "black": 16,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "e4d6",
+          "san": "Nd6",
+          "averageRating": 2103,
+          "white": 11,
+          "draws": 1,
+          "black": 12,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d7d5",
+          "san": "d5",
           "averageRating": 2054,
-          "black": 2,
+          "white": 6,
           "draws": 0,
+          "black": 2,
           "game": null,
           "opening": {
             "eco": "C27",
             "name": "Bishop's Opening: Boden-Kieseritzky Gambit, Lichtenhein Defense"
-          },
-          "san": "d5",
-          "uci": "d7d5",
-          "white": 6
+          }
         },
         {
-          "averageRating": 2059,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "adel22",
-              "rating": 2059
-            },
-            "id": "QujPsWF8",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Maxx1979",
-              "rating": 2077
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Nxf2",
           "uci": "e4f2",
-          "white": 0
+          "san": "Nxf2",
+          "averageRating": 2059,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2082,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "BenzerZermin",
-              "rating": 2082
-            },
-            "id": "eH2xICDz",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "asemnan",
-              "rating": 2070
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Nc5",
           "uci": "e4c5",
-          "white": 1
+          "san": "Nc5",
+          "averageRating": 2082,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C27",
         "name": "Bishop's Opening: Boden-Kieseritzky Gambit"
-      },
-      "white": 161
+      }
     }
   }
 }

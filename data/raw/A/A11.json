@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "A11",
   "months": {
@@ -5233,138 +5231,140 @@
       "white": 8200
     },
     "2026-04": {
-      "black": 3882,
-      "draws": 550,
+      "white": 4330,
+      "draws": 564,
+      "black": 3956,
       "moves": [
         {
-          "averageRating": 2082,
-          "black": 1786,
-          "draws": 240,
-          "game": null,
-          "opening": null,
-          "san": "Nc3",
           "uci": "b1c3",
-          "white": 1874
+          "san": "Nc3",
+          "averageRating": 2082,
+          "white": 1904,
+          "draws": 247,
+          "black": 1817,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2094,
-          "black": 625,
-          "draws": 94,
-          "game": null,
-          "opening": null,
-          "san": "g3",
           "uci": "g2g3",
-          "white": 748
+          "san": "g3",
+          "averageRating": 2094,
+          "white": 758,
+          "draws": 94,
+          "black": 639,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2089,
-          "black": 503,
-          "draws": 81,
-          "game": null,
-          "opening": null,
-          "san": "d4",
           "uci": "d2d4",
-          "white": 520
-        },
-        {
-          "averageRating": 2110,
-          "black": 388,
-          "draws": 60,
+          "san": "d4",
+          "averageRating": 2089,
+          "white": 531,
+          "draws": 84,
+          "black": 510,
           "game": null,
-          "opening": null,
-          "san": "Nf3",
-          "uci": "g1f3",
-          "white": 489
+          "opening": null
         },
         {
+          "uci": "g1f3",
+          "san": "Nf3",
+          "averageRating": 2109,
+          "white": 498,
+          "draws": 62,
+          "black": 395,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "e2e4",
+          "san": "e4",
           "averageRating": 2104,
-          "black": 295,
-          "draws": 50,
+          "white": 358,
+          "draws": 52,
+          "black": 306,
           "game": null,
           "opening": {
             "eco": "B10",
             "name": "Caro-Kann Defense: Accelerated Panov Attack"
-          },
-          "san": "e4",
-          "uci": "e2e4",
-          "white": 351
+          }
         },
         {
-          "averageRating": 2056,
-          "black": 109,
-          "draws": 11,
-          "game": null,
-          "opening": null,
-          "san": "e3",
           "uci": "e2e3",
-          "white": 106
+          "san": "e3",
+          "averageRating": 2056,
+          "white": 109,
+          "draws": 11,
+          "black": 111,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2072,
-          "black": 92,
-          "draws": 7,
-          "game": null,
-          "opening": null,
-          "san": "b3",
           "uci": "b2b3",
-          "white": 95
+          "san": "b3",
+          "averageRating": 2072,
+          "white": 96,
+          "draws": 7,
+          "black": 94,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2065,
-          "black": 40,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "d3",
           "uci": "d2d3",
-          "white": 33
+          "san": "d3",
+          "averageRating": 2065,
+          "white": 33,
+          "draws": 4,
+          "black": 40,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2138,
-          "black": 10,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "Qa4",
           "uci": "d1a4",
-          "white": 20
+          "san": "Qa4",
+          "averageRating": 2134,
+          "white": 21,
+          "draws": 2,
+          "black": 10,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2140,
-          "black": 6,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Qc2",
           "uci": "d1c2",
-          "white": 5
+          "san": "Qc2",
+          "averageRating": 2140,
+          "white": 5,
+          "draws": 0,
+          "black": 6,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2069,
-          "black": 5,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "b4",
           "uci": "b2b4",
-          "white": 4
+          "san": "b4",
+          "averageRating": 2069,
+          "white": 4,
+          "draws": 0,
+          "black": 5,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2110,
-          "black": 3,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "c5",
           "uci": "c4c5",
-          "white": 6
+          "san": "c5",
+          "averageRating": 2110,
+          "white": 6,
+          "draws": 0,
+          "black": 3,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "A11",
         "name": "English Opening: Caro-Kann Defensive System"
-      },
-      "white": 4258
+      }
     }
   }
 }

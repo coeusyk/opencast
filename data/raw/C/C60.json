@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C60",
   "months": {
@@ -6286,165 +6284,167 @@
       "white": 36322
     },
     "2026-04": {
-      "black": 16055,
-      "draws": 1988,
+      "white": 18439,
+      "draws": 2023,
+      "black": 16332,
       "moves": [
         {
+          "uci": "a7a6",
+          "san": "a6",
           "averageRating": 2094,
-          "black": 6945,
-          "draws": 907,
+          "white": 7889,
+          "draws": 917,
+          "black": 7063,
           "game": null,
           "opening": {
             "eco": "C70",
             "name": "Ruy Lopez: Morphy Defense"
-          },
-          "san": "a6",
-          "uci": "a7a6",
-          "white": 7766
+          }
         },
         {
+          "uci": "g8f6",
+          "san": "Nf6",
           "averageRating": 2085,
-          "black": 2586,
-          "draws": 390,
+          "white": 3013,
+          "draws": 398,
+          "black": 2626,
           "game": null,
           "opening": {
             "eco": "C65",
             "name": "Ruy Lopez: Berlin Defense"
-          },
-          "san": "Nf6",
-          "uci": "g8f6",
-          "white": 2974
+          }
         },
         {
-          "averageRating": 2069,
-          "black": 2265,
-          "draws": 241,
+          "uci": "f8c5",
+          "san": "Bc5",
+          "averageRating": 2070,
+          "white": 2580,
+          "draws": 247,
+          "black": 2306,
           "game": null,
           "opening": {
             "eco": "C64",
             "name": "Ruy Lopez: Classical Variation"
-          },
-          "san": "Bc5",
-          "uci": "f8c5",
-          "white": 2547
+          }
         },
         {
+          "uci": "d7d6",
+          "san": "d6",
           "averageRating": 2050,
-          "black": 1478,
-          "draws": 193,
+          "white": 2199,
+          "draws": 201,
+          "black": 1507,
           "game": null,
           "opening": {
             "eco": "C62",
             "name": "Ruy Lopez: Steinitz Defense"
-          },
-          "san": "d6",
-          "uci": "d7d6",
-          "white": 2168
+          }
         },
         {
+          "uci": "f7f5",
+          "san": "f5",
           "averageRating": 2094,
-          "black": 1144,
-          "draws": 92,
+          "white": 1022,
+          "draws": 93,
+          "black": 1162,
           "game": null,
           "opening": {
             "eco": "C63",
             "name": "Ruy Lopez: Schliemann Defense"
-          },
-          "san": "f5",
-          "uci": "f7f5",
-          "white": 1002
+          }
         },
         {
+          "uci": "g8e7",
+          "san": "Nge7",
           "averageRating": 2091,
-          "black": 706,
-          "draws": 79,
+          "white": 671,
+          "draws": 80,
+          "black": 717,
           "game": null,
           "opening": {
             "eco": "C60",
             "name": "Ruy Lopez: Cozio Defense"
-          },
-          "san": "Nge7",
-          "uci": "g8e7",
-          "white": 664
+          }
         },
         {
+          "uci": "c6d4",
+          "san": "Nd4",
           "averageRating": 2074,
-          "black": 496,
+          "white": 579,
           "draws": 38,
+          "black": 506,
           "game": null,
           "opening": {
             "eco": "C61",
             "name": "Ruy Lopez: Bird Variation"
-          },
-          "san": "Nd4",
-          "uci": "c6d4",
-          "white": 574
+          }
         },
         {
+          "uci": "g7g6",
+          "san": "g6",
           "averageRating": 2099,
-          "black": 140,
-          "draws": 13,
+          "white": 113,
+          "draws": 14,
+          "black": 142,
           "game": null,
           "opening": {
             "eco": "C60",
             "name": "Ruy Lopez: Fianchetto Defense"
-          },
-          "san": "g6",
-          "uci": "g7g6",
-          "white": 110
+          }
         },
         {
-          "averageRating": 2040,
-          "black": 96,
-          "draws": 11,
-          "game": null,
-          "opening": null,
-          "san": "Qf6",
           "uci": "d8f6",
-          "white": 107
-        },
-        {
-          "averageRating": 2049,
-          "black": 54,
-          "draws": 3,
+          "san": "Qf6",
+          "averageRating": 2040,
+          "white": 108,
+          "draws": 11,
+          "black": 97,
           "game": null,
-          "opening": null,
-          "san": "Bd6",
-          "uci": "f8d6",
-          "white": 65
+          "opening": null
         },
         {
-          "averageRating": 2070,
-          "black": 48,
+          "uci": "f8d6",
+          "san": "Bd6",
+          "averageRating": 2049,
+          "white": 67,
+          "draws": 3,
+          "black": 56,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d8e7",
+          "san": "Qe7",
+          "averageRating": 2069,
+          "white": 55,
           "draws": 5,
+          "black": 51,
           "game": null,
           "opening": {
             "eco": "C60",
             "name": "Ruy Lopez: Vinogradov Variation"
-          },
-          "san": "Qe7",
-          "uci": "d8e7",
-          "white": 52
+          }
         },
         {
+          "uci": "f8e7",
+          "san": "Be7",
           "averageRating": 2087,
-          "black": 27,
+          "white": 41,
           "draws": 6,
+          "black": 27,
           "game": null,
           "opening": {
             "eco": "C60",
             "name": "Ruy Lopez: Lucena Variation"
-          },
-          "san": "Be7",
-          "uci": "f8e7",
-          "white": 41
+          }
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C60",
         "name": "Ruy Lopez"
-      },
-      "white": 18171
+      }
     }
   }
 }

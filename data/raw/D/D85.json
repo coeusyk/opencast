@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "D85",
   "months": {
@@ -5233,138 +5231,140 @@
       "white": 3525
     },
     "2026-04": {
-      "black": 1727,
-      "draws": 253,
+      "white": 1847,
+      "draws": 264,
+      "black": 1767,
       "moves": [
         {
-          "averageRating": 2091,
-          "black": 1366,
-          "draws": 204,
-          "game": null,
-          "opening": null,
-          "san": "e4",
           "uci": "e2e4",
-          "white": 1377
+          "san": "e4",
+          "averageRating": 2091,
+          "white": 1410,
+          "draws": 212,
+          "black": 1397,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2105,
-          "black": 134,
-          "draws": 28,
-          "game": null,
-          "opening": null,
-          "san": "Bd2",
           "uci": "c1d2",
-          "white": 175
+          "san": "Bd2",
+          "averageRating": 2105,
+          "white": 179,
+          "draws": 29,
+          "black": 137,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2093,
-          "black": 82,
-          "draws": 8,
-          "game": null,
-          "opening": null,
-          "san": "Nf3",
           "uci": "g1f3",
-          "white": 96
-        },
-        {
-          "averageRating": 2079,
-          "black": 55,
-          "draws": 5,
-          "game": null,
-          "opening": null,
-          "san": "e3",
-          "uci": "e2e3",
-          "white": 30
-        },
-        {
+          "san": "Nf3",
           "averageRating": 2094,
-          "black": 31,
-          "draws": 1,
+          "white": 100,
+          "draws": 9,
+          "black": 84,
           "game": null,
-          "opening": null,
-          "san": "g3",
-          "uci": "g2g3",
-          "white": 52
+          "opening": null
         },
         {
-          "averageRating": 2131,
-          "black": 17,
+          "uci": "e2e3",
+          "san": "e3",
+          "averageRating": 2079,
+          "white": 31,
+          "draws": 5,
+          "black": 56,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "g2g3",
+          "san": "g3",
+          "averageRating": 2094,
+          "white": 54,
+          "draws": 2,
+          "black": 32,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c3a4",
+          "san": "Na4",
+          "averageRating": 2128,
+          "white": 27,
           "draws": 1,
+          "black": 18,
           "game": null,
           "opening": {
             "eco": "D85",
             "name": "Gr\u00fcnfeld Defense: Exchange Variation, Nadanian Attack"
-          },
-          "san": "Na4",
-          "uci": "c3a4",
-          "white": 27
+          }
         },
         {
-          "averageRating": 2044,
-          "black": 14,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "Nxd5",
           "uci": "c3d5",
-          "white": 21
+          "san": "Nxd5",
+          "averageRating": 2045,
+          "white": 21,
+          "draws": 4,
+          "black": 15,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2091,
-          "black": 17,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Qb3",
           "uci": "d1b3",
-          "white": 16
-        },
-        {
+          "san": "Qb3",
           "averageRating": 2091,
-          "black": 6,
+          "white": 16,
           "draws": 1,
+          "black": 17,
           "game": null,
-          "opening": null,
-          "san": "h4",
+          "opening": null
+        },
+        {
           "uci": "h2h4",
-          "white": 2
+          "san": "h4",
+          "averageRating": 2091,
+          "white": 2,
+          "draws": 1,
+          "black": 6,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2126,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bg5",
           "uci": "c1g5",
-          "white": 3
-        },
-        {
-          "averageRating": 2090,
+          "san": "Bg5",
+          "averageRating": 2126,
+          "white": 3,
+          "draws": 0,
           "black": 1,
-          "draws": 0,
           "game": null,
-          "opening": null,
-          "san": "f3",
-          "uci": "f2f3",
-          "white": 1
+          "opening": null
         },
         {
-          "averageRating": 2186,
-          "black": 0,
+          "uci": "f2f3",
+          "san": "f3",
+          "averageRating": 2090,
+          "white": 1,
           "draws": 0,
+          "black": 1,
           "game": null,
-          "opening": null,
-          "san": "Nb1",
+          "opening": null
+        },
+        {
           "uci": "c3b1",
-          "white": 2
+          "san": "Nb1",
+          "averageRating": 2186,
+          "white": 2,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "D85",
         "name": "Gr\u00fcnfeld Defense: Exchange Variation"
-      },
-      "white": 1803
+      }
     }
   }
 }

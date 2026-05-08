@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C11",
   "months": {
@@ -5701,150 +5699,152 @@
       "white": 11516
     },
     "2026-04": {
-      "black": 5360,
-      "draws": 596,
+      "white": 5953,
+      "draws": 613,
+      "black": 5447,
       "moves": [
         {
+          "uci": "e4e5",
+          "san": "e5",
           "averageRating": 2095,
-          "black": 2686,
-          "draws": 300,
+          "white": 3038,
+          "draws": 309,
+          "black": 2725,
           "game": null,
           "opening": {
             "eco": "C11",
             "name": "French Defense: Classical Variation, Steinitz Variation"
-          },
-          "san": "e5",
-          "uci": "e4e5",
-          "white": 3004
+          }
         },
         {
+          "uci": "c1g5",
+          "san": "Bg5",
           "averageRating": 2098,
-          "black": 1967,
-          "draws": 223,
+          "white": 2224,
+          "draws": 229,
+          "black": 1996,
           "game": null,
           "opening": {
             "eco": "C11",
             "name": "French Defense: Classical Variation"
-          },
-          "san": "Bg5",
-          "uci": "c1g5",
-          "white": 2188
+          }
         },
         {
-          "averageRating": 2084,
-          "black": 311,
+          "uci": "e4d5",
+          "san": "exd5",
+          "averageRating": 2086,
+          "white": 327,
           "draws": 38,
+          "black": 318,
           "game": null,
           "opening": {
             "eco": "C11",
             "name": "French Defense: Classical Variation, Delayed Exchange Variation"
-          },
-          "san": "exd5",
-          "uci": "e4d5",
-          "white": 316
+          }
         },
         {
+          "uci": "f1d3",
+          "san": "Bd3",
           "averageRating": 2080,
-          "black": 210,
+          "white": 208,
           "draws": 21,
+          "black": 215,
           "game": null,
           "opening": {
             "eco": "C11",
             "name": "French Defense: Classical Variation, Swiss Variation"
-          },
-          "san": "Bd3",
-          "uci": "f1d3",
-          "white": 205
+          }
         },
         {
-          "averageRating": 2062,
-          "black": 87,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "f3",
           "uci": "f2f3",
-          "white": 53
+          "san": "f3",
+          "averageRating": 2063,
+          "white": 55,
+          "draws": 5,
+          "black": 89,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2079,
-          "black": 53,
-          "draws": 6,
+          "uci": "c1e3",
+          "san": "Be3",
+          "averageRating": 2076,
+          "white": 53,
+          "draws": 7,
+          "black": 57,
           "game": null,
           "opening": {
             "eco": "C11",
             "name": "French Defense: Henneberger Variation"
-          },
-          "san": "Be3",
-          "uci": "c1e3",
-          "white": 52
+          }
         },
         {
-          "averageRating": 2091,
-          "black": 14,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "Nf3",
           "uci": "g1f3",
-          "white": 16
+          "san": "Nf3",
+          "averageRating": 2090,
+          "white": 16,
+          "draws": 2,
+          "black": 15,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2094,
-          "black": 13,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "a3",
           "uci": "a2a3",
-          "white": 8
+          "san": "a3",
+          "averageRating": 2094,
+          "white": 8,
+          "draws": 0,
+          "black": 13,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2055,
-          "black": 6,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Qd3",
           "uci": "d1d3",
-          "white": 7
+          "san": "Qd3",
+          "averageRating": 2055,
+          "white": 7,
+          "draws": 1,
+          "black": 6,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2071,
-          "black": 4,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "f4",
           "uci": "f2f4",
-          "white": 3
+          "san": "f4",
+          "averageRating": 2071,
+          "white": 3,
+          "draws": 0,
+          "black": 4,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2044,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Qe2",
           "uci": "d1e2",
-          "white": 4
+          "san": "Qe2",
+          "averageRating": 2044,
+          "white": 4,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2056,
-          "black": 2,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bf4",
           "uci": "c1f4",
-          "white": 2
+          "san": "Bf4",
+          "averageRating": 2056,
+          "white": 2,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C11",
         "name": "French Defense: Classical Variation"
-      },
-      "white": 5865
+      }
     }
   }
 }

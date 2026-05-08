@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "B36",
   "months": {
@@ -5313,168 +5311,110 @@
       "white": 2129
     },
     "2026-04": {
-      "black": 945,
-      "draws": 161,
+      "white": 1073,
+      "draws": 165,
+      "black": 959,
       "moves": [
         {
+          "uci": "f8g7",
+          "san": "Bg7",
           "averageRating": 2084,
-          "black": 643,
-          "draws": 100,
+          "white": 833,
+          "draws": 103,
+          "black": 652,
           "game": null,
           "opening": {
             "eco": "B37",
             "name": "Sicilian Defense: Accelerated Dragon, Mar\u00f3czy Bind"
-          },
-          "san": "Bg7",
-          "uci": "f8g7",
-          "white": 824
+          }
         },
         {
-          "averageRating": 2104,
-          "black": 270,
-          "draws": 58,
-          "game": null,
-          "opening": null,
-          "san": "Nf6",
           "uci": "g8f6",
-          "white": 198
+          "san": "Nf6",
+          "averageRating": 2105,
+          "white": 201,
+          "draws": 59,
+          "black": 274,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2087,
-          "black": 21,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "d6",
           "uci": "d7d6",
-          "white": 25
+          "san": "d6",
+          "averageRating": 2088,
+          "white": 26,
+          "draws": 2,
+          "black": 22,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2069,
-          "black": 9,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Nxd4",
           "uci": "c6d4",
-          "white": 6
-        },
-        {
-          "averageRating": 2082,
-          "black": 1,
-          "draws": 0,
+          "san": "Nxd4",
+          "averageRating": 2069,
+          "white": 6,
+          "draws": 1,
+          "black": 9,
           "game": null,
-          "opening": null,
-          "san": "Qb6",
+          "opening": null
+        },
+        {
           "uci": "d8b6",
-          "white": 4
-        },
-        {
-          "averageRating": 1968,
-          "black": 0,
+          "san": "Qb6",
+          "averageRating": 2082,
+          "white": 4,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "VVN1503",
-              "rating": 1968
-            },
-            "id": "uohUwRWK",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "RMG64",
-              "rating": 2050
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Ne5",
-          "uci": "c6e5",
-          "white": 1
-        },
-        {
-          "averageRating": 2061,
           "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c6e5",
+          "san": "Ne5",
+          "averageRating": 1968,
+          "white": 1,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "cartavelina",
-              "rating": 2061
-            },
-            "id": "X2bnW5vc",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "egecivas",
-              "rating": 2053
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "e6",
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "e7e6",
-          "white": 0
+          "san": "e6",
+          "averageRating": 2061,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2112,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "Atreeisaplant",
-              "rating": 2112
-            },
-            "id": "KUGRJlBq",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "jathompson1",
-              "rating": 2188
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "f6",
           "uci": "f7f6",
-          "white": 1
+          "san": "f6",
+          "averageRating": 2112,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2241,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "Stefan234",
-              "rating": 2241
-            },
-            "id": "XuD6ZKiL",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "sergey_1060",
-              "rating": 2144
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "e5",
           "uci": "e7e5",
-          "white": 1
+          "san": "e5",
+          "averageRating": 2241,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "B36",
         "name": "Sicilian Defense: Accelerated Dragon, Mar\u00f3czy Bind"
-      },
-      "white": 1060
+      }
     }
   }
 }

@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C47",
   "months": {
@@ -5923,156 +5921,158 @@
       "white": 11391
     },
     "2026-04": {
-      "black": 5150,
-      "draws": 680,
+      "white": 5611,
+      "draws": 688,
+      "black": 5218,
       "moves": [
         {
+          "uci": "f1b5",
+          "san": "Bb5",
           "averageRating": 2091,
-          "black": 1381,
-          "draws": 178,
+          "white": 1613,
+          "draws": 179,
+          "black": 1394,
           "game": null,
           "opening": {
             "eco": "C48",
             "name": "Four Knights Game: Spanish Variation"
-          },
-          "san": "Bb5",
-          "uci": "f1b5",
-          "white": 1584
+          }
         },
         {
+          "uci": "d2d4",
+          "san": "d4",
           "averageRating": 2083,
-          "black": 1267,
-          "draws": 204,
+          "white": 1562,
+          "draws": 207,
+          "black": 1279,
           "game": null,
           "opening": {
             "eco": "C47",
             "name": "Four Knights Game: Scotch Variation"
-          },
-          "san": "d4",
-          "uci": "d2d4",
-          "white": 1548
+          }
         },
         {
+          "uci": "f1c4",
+          "san": "Bc4",
           "averageRating": 2071,
-          "black": 1457,
-          "draws": 166,
+          "white": 1212,
+          "draws": 168,
+          "black": 1480,
           "game": null,
           "opening": {
             "eco": "C47",
             "name": "Four Knights Game: Italian Variation"
-          },
-          "san": "Bc4",
-          "uci": "f1c4",
-          "white": 1193
+          }
         },
         {
+          "uci": "f3e5",
+          "san": "Nxe5",
           "averageRating": 2100,
-          "black": 268,
+          "white": 352,
           "draws": 27,
+          "black": 271,
           "game": null,
           "opening": {
             "eco": "C47",
             "name": "Four Knights Game: Halloween Gambit"
-          },
-          "san": "Nxe5",
-          "uci": "f3e5",
-          "white": 346
+          }
         },
         {
-          "averageRating": 2110,
-          "black": 162,
-          "draws": 33,
+          "uci": "a2a3",
+          "san": "a3",
+          "averageRating": 2111,
+          "white": 218,
+          "draws": 34,
+          "black": 163,
           "game": null,
           "opening": {
             "eco": "C47",
             "name": "Four Knights Game: Gunsberg Variation"
-          },
-          "san": "a3",
-          "uci": "a2a3",
-          "white": 216
+          }
         },
         {
-          "averageRating": 2054,
-          "black": 189,
-          "draws": 25,
-          "game": null,
-          "opening": null,
-          "san": "d3",
           "uci": "d2d3",
-          "white": 181
-        },
-        {
-          "averageRating": 2098,
-          "black": 147,
-          "draws": 13,
+          "san": "d3",
+          "averageRating": 2054,
+          "white": 187,
+          "draws": 25,
+          "black": 194,
           "game": null,
-          "opening": null,
-          "san": "h3",
-          "uci": "h2h3",
-          "white": 165
+          "opening": null
         },
         {
-          "averageRating": 2103,
-          "black": 153,
+          "uci": "h2h3",
+          "san": "h3",
+          "averageRating": 2099,
+          "white": 169,
           "draws": 14,
+          "black": 155,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "g2g3",
+          "san": "g3",
+          "averageRating": 2103,
+          "white": 155,
+          "draws": 14,
+          "black": 156,
           "game": null,
           "opening": {
             "eco": "C47",
             "name": "Four Knights Game: Glek System"
-          },
-          "san": "g3",
-          "uci": "g2g3",
-          "white": 154
+          }
         },
         {
-          "averageRating": 2102,
-          "black": 82,
-          "draws": 18,
-          "game": null,
-          "opening": null,
-          "san": "Be2",
           "uci": "f1e2",
-          "white": 99
+          "san": "Be2",
+          "averageRating": 2102,
+          "white": 100,
+          "draws": 18,
+          "black": 82,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "c3d5",
+          "san": "Nd5",
           "averageRating": 2116,
-          "black": 13,
+          "white": 19,
           "draws": 1,
+          "black": 13,
           "game": null,
           "opening": {
             "eco": "C47",
             "name": "Four Knights Game: Naroditsky Variation"
-          },
-          "san": "Nd5",
-          "uci": "c3d5",
-          "white": 19
+          }
         },
         {
-          "averageRating": 2086,
-          "black": 8,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "a4",
           "uci": "a2a4",
-          "white": 10
+          "san": "a4",
+          "averageRating": 2086,
+          "white": 10,
+          "draws": 1,
+          "black": 8,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2038,
-          "black": 11,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "b3",
           "uci": "b2b3",
-          "white": 8
+          "san": "b3",
+          "averageRating": 2038,
+          "white": 8,
+          "draws": 0,
+          "black": 11,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C47",
         "name": "Four Knights Game"
-      },
-      "white": 5527
+      }
     }
   }
 }

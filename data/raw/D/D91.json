@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "D91",
   "months": {
@@ -5711,180 +5709,137 @@
       "white": 754
     },
     "2026-04": {
-      "black": 365,
-      "draws": 69,
+      "white": 367,
+      "draws": 71,
+      "black": 369,
       "moves": [
         {
-          "averageRating": 2105,
-          "black": 199,
-          "draws": 41,
-          "game": null,
-          "opening": null,
-          "san": "Ne4",
           "uci": "f6e4",
-          "white": 192
+          "san": "Ne4",
+          "averageRating": 2104,
+          "white": 194,
+          "draws": 42,
+          "black": 203,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2084,
-          "black": 58,
-          "draws": 12,
-          "game": null,
-          "opening": null,
-          "san": "c6",
           "uci": "c7c6",
-          "white": 57
+          "san": "c6",
+          "averageRating": 2083,
+          "white": 59,
+          "draws": 12,
+          "black": 58,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2084,
-          "black": 53,
-          "draws": 11,
-          "game": null,
-          "opening": null,
-          "san": "O-O",
           "uci": "e8h8",
-          "white": 57
+          "san": "O-O",
+          "averageRating": 2084,
+          "white": 57,
+          "draws": 11,
+          "black": 53,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2079,
-          "black": 41,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "dxc4",
           "uci": "d5c4",
-          "white": 43
+          "san": "dxc4",
+          "averageRating": 2076,
+          "white": 45,
+          "draws": 5,
+          "black": 41,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2079,
-          "black": 4,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "c5",
           "uci": "c7c5",
-          "white": 3
-        },
-        {
-          "averageRating": 2064,
+          "san": "c5",
+          "averageRating": 2079,
+          "white": 3,
+          "draws": 0,
           "black": 4,
-          "draws": 1,
           "game": null,
-          "opening": null,
-          "san": "e6",
+          "opening": null
+        },
+        {
           "uci": "e7e6",
-          "white": 2
+          "san": "e6",
+          "averageRating": 2064,
+          "white": 2,
+          "draws": 1,
+          "black": 4,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 1935,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Be6",
           "uci": "c8e6",
-          "white": 2
+          "san": "Be6",
+          "averageRating": 1935,
+          "white": 2,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2077,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Nbd7",
           "uci": "b8d7",
-          "white": 2
-        },
-        {
-          "averageRating": 2140,
-          "black": 2,
+          "san": "Nbd7",
+          "averageRating": 2077,
+          "white": 2,
           "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Kf8",
-          "uci": "e8f8",
-          "white": 0
-        },
-        {
-          "averageRating": 1987,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "Kuldeep09",
-              "rating": 1987
-            },
-            "id": "Daw57DoQ",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "IHoti",
-              "rating": 2019
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "b6",
-          "uci": "b7b6",
-          "white": 1
-        },
-        {
-          "averageRating": 2063,
           "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "nkkistyarian",
-              "rating": 2063
-            },
-            "id": "2MHlMVBM",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "gstavro",
-              "rating": 2073
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "h6",
-          "uci": "h7h6",
-          "white": 0
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2116,
-          "black": 0,
+          "uci": "e8f8",
+          "san": "Kf8",
+          "averageRating": 2140,
+          "white": 0,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "mrassli",
-              "rating": 2116
-            },
-            "id": "DXVFoSov",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "KL_Swift",
-              "rating": 2072
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "a6",
+          "black": 2,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "b7b6",
+          "san": "b6",
+          "averageRating": 1987,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "h7h6",
+          "san": "h6",
+          "averageRating": 2063,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "a7a6",
-          "white": 1
+          "san": "a6",
+          "averageRating": 2116,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "D91",
         "name": "Gr\u00fcnfeld Defense: Three Knights Variation, Petrosian System"
-      },
-      "white": 361
+      }
     }
   }
 }

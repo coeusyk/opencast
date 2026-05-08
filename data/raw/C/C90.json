@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C90",
   "months": {
@@ -4433,102 +4431,89 @@
       "white": 810
     },
     "2026-04": {
-      "black": 369,
+      "white": 446,
       "draws": 41,
+      "black": 373,
       "moves": [
         {
+          "uci": "h2h3",
+          "san": "h3",
           "averageRating": 2106,
-          "black": 255,
+          "white": 300,
           "draws": 26,
+          "black": 259,
           "game": null,
           "opening": {
             "eco": "C92",
             "name": "Ruy Lopez: Closed"
-          },
-          "san": "h3",
-          "uci": "h2h3",
-          "white": 297
+          }
         },
         {
+          "uci": "d2d4",
+          "san": "d4",
           "averageRating": 2095,
-          "black": 73,
+          "white": 100,
           "draws": 10,
+          "black": 73,
           "game": null,
           "opening": {
             "eco": "C91",
             "name": "Ruy Lopez: Closed, Yates Variation"
-          },
-          "san": "d4",
-          "uci": "d2d4",
-          "white": 99
+          }
         },
         {
-          "averageRating": 2091,
-          "black": 32,
+          "uci": "d2d3",
+          "san": "d3",
+          "averageRating": 2093,
+          "white": 37,
           "draws": 2,
+          "black": 32,
           "game": null,
           "opening": {
             "eco": "C90",
             "name": "Ruy Lopez: Closed, Pilnik Variation"
-          },
-          "san": "d3",
-          "uci": "d2d3",
-          "white": 36
+          }
         },
         {
-          "averageRating": 2093,
-          "black": 8,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "a4",
           "uci": "a2a4",
-          "white": 8
+          "san": "a4",
+          "averageRating": 2093,
+          "white": 8,
+          "draws": 2,
+          "black": 8,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "a2a3",
+          "san": "a3",
           "averageRating": 2092,
-          "black": 0,
+          "white": 1,
           "draws": 1,
+          "black": 0,
           "game": null,
           "opening": {
             "eco": "C90",
             "name": "Ruy Lopez: Closed, Suetin Variation"
-          },
-          "san": "a3",
-          "uci": "a2a3",
-          "white": 1
+          }
         },
         {
-          "averageRating": 2028,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "BarbarVarili",
-              "rating": 2047
-            },
-            "id": "zitQ1mkh",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "pittttttttttttttt",
-              "rating": 2028
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "h4",
           "uci": "h2h4",
-          "white": 0
+          "san": "h4",
+          "averageRating": 2028,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C90",
         "name": "Ruy Lopez: Closed"
-      },
-      "white": 441
+      }
     }
   }
 }

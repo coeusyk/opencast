@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "E32",
   "months": {
@@ -5467,144 +5465,146 @@
       "white": 3050
     },
     "2026-04": {
-      "black": 1480,
-      "draws": 203,
+      "white": 1626,
+      "draws": 206,
+      "black": 1509,
       "moves": [
         {
-          "averageRating": 2100,
-          "black": 424,
-          "draws": 68,
-          "game": null,
-          "opening": null,
-          "san": "O-O",
           "uci": "e8h8",
-          "white": 527
+          "san": "O-O",
+          "averageRating": 2100,
+          "white": 532,
+          "draws": 69,
+          "black": 435,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "c7c5",
+          "san": "c5",
           "averageRating": 2093,
-          "black": 373,
-          "draws": 52,
+          "white": 409,
+          "draws": 53,
+          "black": 379,
           "game": null,
           "opening": {
             "eco": "E38",
             "name": "Nimzo-Indian Defense: Classical Variation, Berlin Variation"
-          },
-          "san": "c5",
-          "uci": "c7c5",
-          "white": 401
+          }
         },
         {
+          "uci": "d7d5",
+          "san": "d5",
           "averageRating": 2098,
-          "black": 305,
+          "white": 269,
           "draws": 35,
+          "black": 310,
           "game": null,
           "opening": {
             "eco": "E34",
             "name": "Nimzo-Indian Defense: Classical Variation, Noa Variation"
-          },
-          "san": "d5",
-          "uci": "d7d5",
-          "white": 269
+          }
         },
         {
-          "averageRating": 2090,
-          "black": 178,
-          "draws": 23,
-          "game": null,
-          "opening": null,
-          "san": "b6",
           "uci": "b7b6",
-          "white": 200
-        },
-        {
-          "averageRating": 2082,
-          "black": 82,
-          "draws": 11,
+          "san": "b6",
+          "averageRating": 2089,
+          "white": 201,
+          "draws": 23,
+          "black": 181,
           "game": null,
-          "opening": null,
-          "san": "Bxc3+",
-          "uci": "b4c3",
-          "white": 99
+          "opening": null
         },
         {
-          "averageRating": 2121,
-          "black": 73,
+          "uci": "b4c3",
+          "san": "Bxc3+",
+          "averageRating": 2082,
+          "white": 100,
           "draws": 11,
+          "black": 84,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "b8c6",
+          "san": "Nc6",
+          "averageRating": 2122,
+          "white": 66,
+          "draws": 11,
+          "black": 74,
           "game": null,
           "opening": {
             "eco": "E33",
             "name": "Nimzo-Indian Defense: Classical Variation, Zurich Variation"
-          },
-          "san": "Nc6",
-          "uci": "b8c6",
-          "white": 66
+          }
         },
         {
-          "averageRating": 2102,
-          "black": 20,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "d6",
           "uci": "d7d6",
-          "white": 25
+          "san": "d6",
+          "averageRating": 2100,
+          "white": 25,
+          "draws": 2,
+          "black": 21,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2087,
-          "black": 13,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "h6",
           "uci": "h7h6",
-          "white": 12
-        },
-        {
-          "averageRating": 2124,
-          "black": 6,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Qe7",
-          "uci": "d8e7",
-          "white": 4
-        },
-        {
-          "averageRating": 2021,
-          "black": 2,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "c6",
-          "uci": "c7c6",
-          "white": 4
-        },
-        {
-          "averageRating": 2062,
-          "black": 3,
+          "san": "h6",
+          "averageRating": 2087,
+          "white": 12,
           "draws": 1,
+          "black": 13,
           "game": null,
-          "opening": null,
-          "san": "a5",
-          "uci": "a7a5",
-          "white": 1
+          "opening": null
         },
         {
-          "averageRating": 2099,
-          "black": 0,
+          "uci": "d8e7",
+          "san": "Qe7",
+          "averageRating": 2124,
+          "white": 4,
           "draws": 0,
+          "black": 6,
           "game": null,
-          "opening": null,
-          "san": "Ne4",
+          "opening": null
+        },
+        {
+          "uci": "c7c6",
+          "san": "c6",
+          "averageRating": 2021,
+          "white": 4,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "a7a5",
+          "san": "a5",
+          "averageRating": 2062,
+          "white": 1,
+          "draws": 1,
+          "black": 3,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "f6e4",
-          "white": 2
+          "san": "Ne4",
+          "averageRating": 2099,
+          "white": 2,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "E32",
         "name": "Nimzo-Indian Defense: Classical Variation"
-      },
-      "white": 1611
+      }
     }
   }
 }

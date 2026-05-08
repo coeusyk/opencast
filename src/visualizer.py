@@ -905,7 +905,6 @@ def render_overview(
     last_updated = (findings_json or {}).get("month", "—")
 
     # ── Findings insight text ─────────────────────────────────────────────
-    main_headline = (findings_json or {}).get("headline", "")
     panels = (findings_json or {}).get("panels", {})
     fc_insight = panels.get("forecast",     {}).get("insight", "")
     ed_insight = panels.get("engine_delta", {}).get("insight", "")
@@ -1300,32 +1299,8 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
     ed_body_text = ed_body or ed_insight or "Engine and practical outcomes are compared to identify where play diverges from theory."
     hm_body_text = hm_body or hm_insight or "Family-level win-rate aggregates highlight where practical performance clusters."
 
-    # ── Insight widgets grid (#15 / #31) ─────────────────────────────────
-    def _widget(label: str, text: str) -> str:
-        return (
-            '<div class="insight-widget">'
-            f'<span class="insight-label">{label}</span>'
-            f'<p class="insight-text">{text}</p>'
-            '</div>'
-        )
-
-    if findings_json:
-        widgets = ""
-        if main_headline:
-            widgets += _widget("Summary", main_headline)
-        if fc_insight:
-            widgets += _widget("Forecasts", fc_insight)
-        if ed_insight:
-            widgets += _widget("Engine Delta", ed_insight)
-        if hm_insight:
-            widgets += _widget("Heatmap", hm_insight)
-        headlines_html = f'<div class="headlines">{widgets}</div>' if widgets else ""
-    else:
-        headlines_html = ""
-
     body = (
         hero_html
-      + headlines_html
       + _section("Win Rate Forecasts", fc_title, fc_body_text, fig1_html)
       + _section("Engine Delta", ed_title, ed_body_text, fig2_html, reverse=True)
       + _section("ECO Family Win Rates", hm_title, hm_body_text, fig3_html)

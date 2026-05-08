@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "E41",
   "months": {
@@ -5758,133 +5756,120 @@
       "white": 422
     },
     "2026-04": {
-      "black": 202,
+      "white": 201,
       "draws": 28,
+      "black": 206,
       "moves": [
         {
-          "averageRating": 2119,
-          "black": 63,
+          "uci": "g1e2",
+          "san": "Ne2",
+          "averageRating": 2118,
+          "white": 66,
           "draws": 9,
+          "black": 64,
           "game": null,
           "opening": {
             "eco": "E42",
             "name": "Nimzo-Indian Defense: Rubinstein System, Rubinstein Variation"
-          },
-          "san": "Ne2",
-          "uci": "g1e2",
-          "white": 66
+          }
         },
         {
-          "averageRating": 2083,
-          "black": 66,
-          "draws": 11,
-          "game": null,
-          "opening": null,
-          "san": "Bd3",
           "uci": "f1d3",
-          "white": 57
+          "san": "Bd3",
+          "averageRating": 2084,
+          "white": 58,
+          "draws": 11,
+          "black": 68,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2070,
-          "black": 26,
-          "draws": 6,
-          "game": null,
-          "opening": null,
-          "san": "Nf3",
           "uci": "g1f3",
-          "white": 32
+          "san": "Nf3",
+          "averageRating": 2070,
+          "white": 32,
+          "draws": 6,
+          "black": 26,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2083,
-          "black": 23,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "a3",
           "uci": "a2a3",
-          "white": 21
-        },
-        {
-          "averageRating": 2098,
-          "black": 11,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bd2",
-          "uci": "c1d2",
-          "white": 11
-        },
-        {
-          "averageRating": 2054,
-          "black": 4,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "dxc5",
-          "uci": "d4c5",
-          "white": 6
-        },
-        {
-          "averageRating": 2080,
-          "black": 5,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "d5",
-          "uci": "d4d5",
-          "white": 4
-        },
-        {
-          "averageRating": 2041,
-          "black": 2,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Qc2",
-          "uci": "d1c2",
-          "white": 1
-        },
-        {
-          "averageRating": 2081,
-          "black": 1,
+          "san": "a3",
+          "averageRating": 2083,
+          "white": 21,
           "draws": 1,
+          "black": 23,
           "game": null,
-          "opening": null,
-          "san": "Be2",
-          "uci": "f1e2",
-          "white": 1
+          "opening": null
         },
         {
-          "averageRating": 2168,
-          "black": 1,
+          "uci": "c1d2",
+          "san": "Bd2",
+          "averageRating": 2098,
+          "white": 11,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "Kungfuboy",
-              "rating": 2167
-            },
-            "id": "dmMN8Qpu",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "skenderi",
-              "rating": 2168
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "f3",
+          "black": 11,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d4c5",
+          "san": "dxc5",
+          "averageRating": 2061,
+          "white": 6,
+          "draws": 0,
+          "black": 5,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d4d5",
+          "san": "d5",
+          "averageRating": 2085,
+          "white": 5,
+          "draws": 0,
+          "black": 5,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d1c2",
+          "san": "Qc2",
+          "averageRating": 2041,
+          "white": 1,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f1e2",
+          "san": "Be2",
+          "averageRating": 2081,
+          "white": 1,
+          "draws": 1,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "f2f3",
-          "white": 0
+          "san": "f3",
+          "averageRating": 2168,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "E41",
         "name": "Nimzo-Indian Defense: Rubinstein System"
-      },
-      "white": 199
+      }
     }
   }
 }

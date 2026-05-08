@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "D27",
   "months": {
@@ -5569,144 +5567,146 @@
       "white": 246
     },
     "2026-04": {
-      "black": 153,
+      "white": 176,
       "draws": 32,
+      "black": 155,
       "moves": [
         {
-          "averageRating": 2107,
-          "black": 47,
+          "uci": "a2a4",
+          "san": "a4",
+          "averageRating": 2108,
+          "white": 71,
           "draws": 13,
+          "black": 48,
           "game": null,
           "opening": {
             "eco": "D27",
             "name": "Queen's Gambit Accepted: Classical Defense, Rubinstein Variation"
-          },
-          "san": "a4",
-          "uci": "a2a4",
-          "white": 69
+          }
         },
         {
+          "uci": "d1e2",
+          "san": "Qe2",
           "averageRating": 2115,
-          "black": 34,
+          "white": 29,
           "draws": 2,
+          "black": 35,
           "game": null,
           "opening": {
             "eco": "D28",
             "name": "Queen's Gambit Accepted: Classical Defense, Alekhine System"
-          },
-          "san": "Qe2",
-          "uci": "d1e2",
-          "white": 28
+          }
         },
         {
-          "averageRating": 2106,
-          "black": 20,
-          "draws": 7,
-          "game": null,
-          "opening": null,
-          "san": "dxc5",
           "uci": "d4c5",
-          "white": 22
+          "san": "dxc5",
+          "averageRating": 2106,
+          "white": 22,
+          "draws": 7,
+          "black": 20,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2108,
-          "black": 24,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "Nc3",
           "uci": "b1c3",
-          "white": 20
+          "san": "Nc3",
+          "averageRating": 2108,
+          "white": 20,
+          "draws": 4,
+          "black": 24,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2111,
-          "black": 10,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "a3",
           "uci": "a2a3",
-          "white": 12
+          "san": "a3",
+          "averageRating": 2111,
+          "white": 12,
+          "draws": 2,
+          "black": 10,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2085,
-          "black": 7,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Bb3",
           "uci": "c4b3",
-          "white": 4
+          "san": "Bb3",
+          "averageRating": 2085,
+          "white": 4,
+          "draws": 1,
+          "black": 7,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2134,
-          "black": 2,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "b3",
           "uci": "b2b3",
-          "white": 5
-        },
-        {
-          "averageRating": 2103,
-          "black": 4,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Nbd2",
-          "uci": "b1d2",
-          "white": 3
-        },
-        {
-          "averageRating": 2102,
-          "black": 2,
+          "san": "b3",
+          "averageRating": 2134,
+          "white": 5,
           "draws": 1,
+          "black": 2,
           "game": null,
-          "opening": null,
-          "san": "Be2",
+          "opening": null
+        },
+        {
+          "uci": "b1d2",
+          "san": "Nbd2",
+          "averageRating": 2103,
+          "white": 3,
+          "draws": 0,
+          "black": 4,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "c4e2",
-          "white": 3
+          "san": "Be2",
+          "averageRating": 2102,
+          "white": 3,
+          "draws": 1,
+          "black": 2,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2122,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bd3",
           "uci": "c4d3",
-          "white": 3
-        },
-        {
-          "averageRating": 2062,
-          "black": 1,
+          "san": "Bd3",
+          "averageRating": 2122,
+          "white": 3,
           "draws": 0,
+          "black": 1,
           "game": null,
-          "opening": null,
-          "san": "Re1",
-          "uci": "f1e1",
-          "white": 2
+          "opening": null
         },
         {
-          "averageRating": 2201,
-          "black": 1,
+          "uci": "f1e1",
+          "san": "Re1",
+          "averageRating": 2062,
+          "white": 2,
           "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "e3e4",
+          "san": "e4",
+          "averageRating": 2201,
+          "white": 1,
+          "draws": 0,
+          "black": 1,
           "game": null,
           "opening": {
             "eco": "D27",
             "name": "Queen's Gambit Accepted: Classical Defense, Russian Gambit"
-          },
-          "san": "e4",
-          "uci": "e3e4",
-          "white": 1
+          }
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "D27",
         "name": "Queen's Gambit Accepted: Classical Defense, Main Line"
-      },
-      "white": 173
+      }
     }
   }
 }

@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C28",
   "months": {
@@ -6016,145 +6014,117 @@
       "white": 357
     },
     "2026-04": {
-      "black": 138,
+      "white": 183,
       "draws": 18,
+      "black": 140,
       "moves": [
         {
-          "averageRating": 2099,
-          "black": 70,
-          "draws": 11,
-          "game": null,
-          "opening": null,
-          "san": "d5",
           "uci": "d7d5",
-          "white": 76
+          "san": "d5",
+          "averageRating": 2098,
+          "white": 79,
+          "draws": 11,
+          "black": 72,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2085,
-          "black": 27,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "O-O",
           "uci": "e8h8",
-          "white": 35
+          "san": "O-O",
+          "averageRating": 2086,
+          "white": 36,
+          "draws": 2,
+          "black": 27,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2075,
-          "black": 24,
-          "draws": 5,
-          "game": null,
-          "opening": null,
-          "san": "d6",
           "uci": "d7d6",
-          "white": 30
+          "san": "d6",
+          "averageRating": 2075,
+          "white": 30,
+          "draws": 5,
+          "black": 24,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2082,
-          "black": 7,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "h6",
           "uci": "h7h6",
-          "white": 20
+          "san": "h6",
+          "averageRating": 2082,
+          "white": 20,
+          "draws": 0,
+          "black": 7,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2060,
-          "black": 2,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bxc3+",
           "uci": "b4c3",
-          "white": 7
-        },
-        {
-          "averageRating": 2030,
+          "san": "Bxc3+",
+          "averageRating": 2067,
+          "white": 8,
+          "draws": 0,
           "black": 2,
-          "draws": 0,
           "game": null,
-          "opening": null,
-          "san": "Nd4",
+          "opening": null
+        },
+        {
           "uci": "c6d4",
-          "white": 6
+          "san": "Nd4",
+          "averageRating": 2030,
+          "white": 6,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2180,
-          "black": 3,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Na5",
           "uci": "c6a5",
-          "white": 2
-        },
-        {
-          "averageRating": 2074,
-          "black": 1,
+          "san": "Na5",
+          "averageRating": 2180,
+          "white": 2,
           "draws": 0,
+          "black": 3,
           "game": null,
-          "opening": null,
-          "san": "a6",
+          "opening": null
+        },
+        {
           "uci": "a7a6",
-          "white": 2
+          "san": "a6",
+          "averageRating": 2074,
+          "white": 2,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2182,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "fantasykiller",
-              "rating": 2182
-            },
-            "id": "lWQ1o09d",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Askathurlee",
-              "rating": 2072
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Ne7",
           "uci": "c6e7",
-          "white": 0
+          "san": "Ne7",
+          "averageRating": 2182,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2073,
-          "black": 1,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "igorbar",
-              "rating": 2073
-            },
-            "id": "dfjADGxD",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "ayaqimron1",
-              "rating": 1928
-            },
-            "winner": "black",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "h5",
           "uci": "h7h5",
-          "white": 0
+          "san": "h5",
+          "averageRating": 2073,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C28",
         "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
-      },
-      "white": 178
+      }
     }
   }
 }

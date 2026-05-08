@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C03",
   "months": {
@@ -5818,153 +5816,155 @@
       "white": 12520
     },
     "2026-04": {
-      "black": 5777,
-      "draws": 772,
+      "white": 6600,
+      "draws": 784,
+      "black": 5873,
       "moves": [
         {
+          "uci": "g8f6",
+          "san": "Nf6",
           "averageRating": 2090,
-          "black": 2221,
-          "draws": 242,
+          "white": 2595,
+          "draws": 246,
+          "black": 2254,
           "game": null,
           "opening": {
             "eco": "C05",
             "name": "French Defense: Tarrasch Variation, Closed Variation"
-          },
-          "san": "Nf6",
-          "uci": "g8f6",
-          "white": 2553
+          }
         },
         {
-          "averageRating": 2084,
-          "black": 1349,
-          "draws": 213,
-          "game": null,
-          "opening": null,
-          "san": "dxe4",
           "uci": "d5e4",
-          "white": 1534
+          "san": "dxe4",
+          "averageRating": 2084,
+          "white": 1559,
+          "draws": 218,
+          "black": 1370,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "c7c5",
+          "san": "c5",
           "averageRating": 2092,
-          "black": 1368,
-          "draws": 202,
+          "white": 1469,
+          "draws": 204,
+          "black": 1393,
           "game": null,
           "opening": {
             "eco": "C07",
             "name": "French Defense: Tarrasch Variation, Open System"
-          },
-          "san": "c5",
-          "uci": "c7c5",
-          "white": 1443
+          }
         },
         {
-          "averageRating": 2106,
-          "black": 308,
+          "uci": "b8c6",
+          "san": "Nc6",
+          "averageRating": 2107,
+          "white": 340,
           "draws": 45,
+          "black": 309,
           "game": null,
           "opening": {
             "eco": "C03",
             "name": "French Defense: Tarrasch Variation, Guimard Defense"
-          },
-          "san": "Nc6",
-          "uci": "b8c6",
-          "white": 334
+          }
         },
         {
+          "uci": "f8e7",
+          "san": "Be7",
           "averageRating": 2116,
-          "black": 124,
+          "white": 132,
           "draws": 25,
+          "black": 127,
           "game": null,
           "opening": {
             "eco": "C03",
             "name": "French Defense: Tarrasch Variation, Morozevich Variation"
-          },
-          "san": "Be7",
-          "uci": "f8e7",
-          "white": 129
+          }
         },
         {
-          "averageRating": 2067,
-          "black": 88,
-          "draws": 14,
-          "game": null,
-          "opening": null,
-          "san": "c6",
           "uci": "c7c6",
-          "white": 115
+          "san": "c6",
+          "averageRating": 2068,
+          "white": 118,
+          "draws": 14,
+          "black": 92,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "f7f5",
+          "san": "f5",
           "averageRating": 2094,
-          "black": 78,
-          "draws": 14,
+          "white": 109,
+          "draws": 15,
+          "black": 81,
           "game": null,
           "opening": {
             "eco": "C03",
             "name": "French Defense: Tarrasch Variation, Haberditz Variation"
-          },
-          "san": "f5",
-          "uci": "f7f5",
-          "white": 108
+          }
         },
         {
+          "uci": "a7a6",
+          "san": "a6",
           "averageRating": 2106,
-          "black": 79,
+          "white": 87,
           "draws": 5,
+          "black": 79,
           "game": null,
           "opening": {
             "eco": "C03",
             "name": "French Defense: Tarrasch Variation, Modern System"
-          },
-          "san": "a6",
-          "uci": "a7a6",
-          "white": 87
+          }
         },
         {
-          "averageRating": 2117,
-          "black": 57,
-          "draws": 3,
-          "game": null,
-          "opening": null,
-          "san": "h6",
           "uci": "h7h6",
-          "white": 49
+          "san": "h6",
+          "averageRating": 2119,
+          "white": 50,
+          "draws": 3,
+          "black": 60,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2106,
-          "black": 25,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "b6",
           "uci": "b7b6",
-          "white": 41
+          "san": "b6",
+          "averageRating": 2106,
+          "white": 41,
+          "draws": 1,
+          "black": 25,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2115,
-          "black": 24,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Nd7",
           "uci": "b8d7",
-          "white": 26
+          "san": "Nd7",
+          "averageRating": 2115,
+          "white": 27,
+          "draws": 1,
+          "black": 25,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2070,
-          "black": 22,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "Ne7",
           "uci": "g8e7",
-          "white": 27
+          "san": "Ne7",
+          "averageRating": 2069,
+          "white": 28,
+          "draws": 1,
+          "black": 23,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C03",
         "name": "French Defense: Tarrasch Variation"
-      },
-      "white": 6491
+      }
     }
   }
 }

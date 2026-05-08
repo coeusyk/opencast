@@ -2,8 +2,7 @@
   "_meta": {
     "skipped_months": {
       "2025-09": "below_min_games",
-      "2026-03": "below_min_games",
-      "2026-04": "zero_games"
+      "2026-03": "below_min_games"
     }
   },
   "eco": "D15",
@@ -6081,120 +6080,107 @@
       "white": 218
     },
     "2026-04": {
-      "black": 102,
+      "white": 110,
       "draws": 17,
+      "black": 104,
       "moves": [
         {
-          "averageRating": 2099,
-          "black": 65,
-          "draws": 10,
-          "game": null,
-          "opening": null,
-          "san": "b5",
           "uci": "b7b5",
-          "white": 64
+          "san": "b5",
+          "averageRating": 2099,
+          "white": 65,
+          "draws": 10,
+          "black": 67,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2079,
-          "black": 14,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "Bf5",
           "uci": "c8f5",
-          "white": 17
-        },
-        {
-          "averageRating": 2067,
+          "san": "Bf5",
+          "averageRating": 2071,
+          "white": 20,
+          "draws": 4,
           "black": 14,
-          "draws": 2,
           "game": null,
-          "opening": null,
-          "san": "Bg4",
+          "opening": null
+        },
+        {
           "uci": "c8g4",
-          "white": 13
+          "san": "Bg4",
+          "averageRating": 2069,
+          "white": 14,
+          "draws": 2,
+          "black": 14,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2062,
-          "black": 5,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "e6",
           "uci": "e7e6",
-          "white": 4
+          "san": "e6",
+          "averageRating": 2062,
+          "white": 4,
+          "draws": 1,
+          "black": 5,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2072,
-          "black": 2,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "g6",
           "uci": "g7g6",
-          "white": 2
-        },
-        {
-          "averageRating": 2084,
-          "black": 0,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Be6",
-          "uci": "c8e6",
-          "white": 2
-        },
-        {
+          "san": "g6",
           "averageRating": 2072,
-          "black": 1,
+          "white": 2,
           "draws": 0,
+          "black": 2,
           "game": null,
-          "opening": null,
-          "san": "a6",
-          "uci": "a7a6",
-          "white": 1
+          "opening": null
         },
         {
-          "averageRating": 2014,
-          "black": 1,
+          "uci": "c8e6",
+          "san": "Be6",
+          "averageRating": 2084,
+          "white": 2,
           "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Nbd7",
-          "uci": "b8d7",
-          "white": 1
-        },
-        {
-          "averageRating": 2040,
           "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "a7a6",
+          "san": "a6",
+          "averageRating": 2072,
+          "white": 1,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "rkausa",
-              "rating": 2040
-            },
-            "id": "LSeUMFmw",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "JeromyV",
-              "rating": 2081
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Nd5",
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "b8d7",
+          "san": "Nbd7",
+          "averageRating": 2014,
+          "white": 1,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "f6d5",
-          "white": 1
+          "san": "Nd5",
+          "averageRating": 2040,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "D15",
         "name": "Slav Defense: Alekhine Variation"
-      },
-      "white": 105
+      }
     }
   }
 }

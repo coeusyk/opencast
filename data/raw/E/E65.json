@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "E65",
   "months": {
@@ -5311,135 +5309,137 @@
       "white": 763
     },
     "2026-04": {
-      "black": 341,
+      "white": 415,
       "draws": 48,
+      "black": 343,
       "moves": [
         {
-          "averageRating": 2110,
-          "black": 185,
-          "draws": 22,
-          "game": null,
-          "opening": null,
-          "san": "Nc6",
           "uci": "b8c6",
-          "white": 181
-        },
-        {
-          "averageRating": 2091,
-          "black": 119,
+          "san": "Nc6",
+          "averageRating": 2111,
+          "white": 186,
           "draws": 22,
+          "black": 186,
           "game": null,
-          "opening": null,
-          "san": "cxd4",
+          "opening": null
+        },
+        {
           "uci": "c5d4",
-          "white": 164
+          "san": "cxd4",
+          "averageRating": 2092,
+          "white": 167,
+          "draws": 22,
+          "black": 120,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2082,
-          "black": 11,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Nbd7",
           "uci": "b8d7",
-          "white": 16
+          "san": "Nbd7",
+          "averageRating": 2082,
+          "white": 16,
+          "draws": 0,
+          "black": 11,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2079,
-          "black": 9,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "a6",
           "uci": "a7a6",
-          "white": 16
-        },
-        {
-          "averageRating": 2129,
-          "black": 7,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Na6",
-          "uci": "b8a6",
-          "white": 10
-        },
-        {
-          "averageRating": 2074,
-          "black": 5,
+          "san": "a6",
+          "averageRating": 2079,
+          "white": 16,
           "draws": 2,
+          "black": 9,
           "game": null,
-          "opening": null,
-          "san": "Bg4",
+          "opening": null
+        },
+        {
+          "uci": "b8a6",
+          "san": "Na6",
+          "averageRating": 2131,
+          "white": 11,
+          "draws": 0,
+          "black": 7,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "c8g4",
-          "white": 6
+          "san": "Bg4",
+          "averageRating": 2074,
+          "white": 6,
+          "draws": 2,
+          "black": 5,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2116,
-          "black": 0,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Nfd7",
           "uci": "f6d7",
-          "white": 3
+          "san": "Nfd7",
+          "averageRating": 2116,
+          "white": 3,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2048,
-          "black": 2,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "e6",
           "uci": "e7e6",
-          "white": 1
-        },
-        {
-          "averageRating": 2152,
-          "black": 0,
+          "san": "e6",
+          "averageRating": 2048,
+          "white": 1,
           "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bf5",
-          "uci": "c8f5",
-          "white": 3
-        },
-        {
-          "averageRating": 2072,
           "black": 2,
-          "draws": 0,
           "game": null,
-          "opening": null,
-          "san": "Re8",
+          "opening": null
+        },
+        {
+          "uci": "c8f5",
+          "san": "Bf5",
+          "averageRating": 2152,
+          "white": 3,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "f8e8",
-          "white": 0
+          "san": "Re8",
+          "averageRating": 2072,
+          "white": 0,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2156,
-          "black": 0,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Bd7",
           "uci": "c8d7",
-          "white": 2
+          "san": "Bd7",
+          "averageRating": 2156,
+          "white": 2,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2068,
-          "black": 0,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "b6",
           "uci": "b7b6",
-          "white": 2
+          "san": "b6",
+          "averageRating": 2068,
+          "white": 2,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "E65",
         "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation"
-      },
-      "white": 406
+      }
     }
   }
 }

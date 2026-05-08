@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "D03",
   "months": {
@@ -5350,141 +5348,143 @@
       "white": 3032
     },
     "2026-04": {
-      "black": 1309,
-      "draws": 193,
+      "white": 1451,
+      "draws": 196,
+      "black": 1330,
       "moves": [
         {
-          "averageRating": 2079,
-          "black": 368,
-          "draws": 66,
-          "game": null,
-          "opening": null,
-          "san": "e6",
           "uci": "e7e6",
-          "white": 396
+          "san": "e6",
+          "averageRating": 2080,
+          "white": 404,
+          "draws": 68,
+          "black": 374,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "f6e4",
+          "san": "Ne4",
           "averageRating": 2106,
-          "black": 342,
-          "draws": 32,
+          "white": 345,
+          "draws": 33,
+          "black": 347,
           "game": null,
           "opening": {
             "eco": "D03",
             "name": "Queen's Pawn Game: Torre Attack, Gossip Variation"
-          },
-          "san": "Ne4",
-          "uci": "f6e4",
-          "white": 339
+          }
         },
         {
-          "averageRating": 2083,
-          "black": 158,
-          "draws": 31,
-          "game": null,
-          "opening": null,
-          "san": "Bf5",
           "uci": "c8f5",
-          "white": 171
+          "san": "Bf5",
+          "averageRating": 2082,
+          "white": 175,
+          "draws": 31,
+          "black": 160,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2094,
-          "black": 90,
-          "draws": 12,
-          "game": null,
-          "opening": null,
-          "san": "c6",
           "uci": "c7c6",
-          "white": 109
-        },
-        {
+          "san": "c6",
           "averageRating": 2093,
-          "black": 99,
-          "draws": 13,
-          "game": null,
-          "opening": null,
-          "san": "c5",
-          "uci": "c7c5",
-          "white": 77
-        },
-        {
-          "averageRating": 2090,
-          "black": 78,
-          "draws": 10,
-          "game": null,
-          "opening": null,
-          "san": "Nbd7",
-          "uci": "b8d7",
-          "white": 89
-        },
-        {
-          "averageRating": 2067,
-          "black": 43,
-          "draws": 5,
-          "game": null,
-          "opening": null,
-          "san": "Bg4",
-          "uci": "c8g4",
-          "white": 66
-        },
-        {
-          "averageRating": 2066,
-          "black": 42,
+          "white": 111,
           "draws": 12,
+          "black": 90,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c7c5",
+          "san": "c5",
+          "averageRating": 2093,
+          "white": 77,
+          "draws": 13,
+          "black": 104,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "b8d7",
+          "san": "Nbd7",
+          "averageRating": 2091,
+          "white": 89,
+          "draws": 10,
+          "black": 80,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c8g4",
+          "san": "Bg4",
+          "averageRating": 2067,
+          "white": 66,
+          "draws": 5,
+          "black": 44,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "g7g6",
+          "san": "g6",
+          "averageRating": 2065,
+          "white": 60,
+          "draws": 12,
+          "black": 42,
           "game": null,
           "opening": {
             "eco": "D03",
             "name": "Queen's Pawn Game: Torre Attack, Gr\u00fcnfeld Variation"
-          },
-          "san": "g6",
-          "uci": "g7g6",
-          "white": 57
+          }
         },
         {
-          "averageRating": 2063,
-          "black": 46,
-          "draws": 6,
-          "game": null,
-          "opening": null,
-          "san": "Nc6",
           "uci": "b8c6",
-          "white": 58
-        },
-        {
-          "averageRating": 2069,
-          "black": 37,
+          "san": "Nc6",
+          "averageRating": 2063,
+          "white": 58,
           "draws": 6,
+          "black": 46,
           "game": null,
-          "opening": null,
-          "san": "h6",
+          "opening": null
+        },
+        {
           "uci": "h7h6",
-          "white": 55
+          "san": "h6",
+          "averageRating": 2069,
+          "white": 55,
+          "draws": 6,
+          "black": 37,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2057,
-          "black": 3,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "a6",
           "uci": "a7a6",
-          "white": 7
+          "san": "a6",
+          "averageRating": 2057,
+          "white": 7,
+          "draws": 0,
+          "black": 3,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2038,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "b6",
           "uci": "b7b6",
-          "white": 3
+          "san": "b6",
+          "averageRating": 2038,
+          "white": 3,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "D03",
         "name": "Queen's Pawn Game: Torre Attack"
-      },
-      "white": 1428
+      }
     }
   }
 }

@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "B83",
   "months": {
@@ -5235,126 +5233,83 @@
       "white": 185
     },
     "2026-04": {
-      "black": 109,
+      "white": 101,
       "draws": 13,
+      "black": 109,
       "moves": [
         {
+          "uci": "a7a6",
+          "san": "a6",
           "averageRating": 2094,
-          "black": 54,
+          "white": 50,
           "draws": 8,
+          "black": 54,
           "game": null,
           "opening": {
             "eco": "B84",
             "name": "Sicilian Defense: Scheveningen Variation, Classical Variation"
-          },
-          "san": "a6",
-          "uci": "a7a6",
-          "white": 50
+          }
         },
         {
-          "averageRating": 2098,
-          "black": 48,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "Be7",
           "uci": "f8e7",
-          "white": 43
+          "san": "Be7",
+          "averageRating": 2099,
+          "white": 44,
+          "draws": 4,
+          "black": 48,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "b8c6",
+          "san": "Nc6",
           "averageRating": 2147,
-          "black": 7,
+          "white": 5,
           "draws": 0,
+          "black": 7,
           "game": null,
           "opening": {
             "eco": "B83",
             "name": "Sicilian Defense: Scheveningen Variation, Modern Variation"
-          },
-          "san": "Nc6",
-          "uci": "b8c6",
-          "white": 5
+          }
         },
         {
-          "averageRating": 2097,
-          "black": 0,
-          "draws": 1,
-          "game": {
-            "black": {
-              "name": "zivko1",
-              "rating": 2097
-            },
-            "id": "4cR4QBZw",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "immabean",
-              "rating": 2163
-            },
-            "winner": null,
-            "year": 2026
-          },
-          "opening": null,
-          "san": "e5",
           "uci": "e6e5",
-          "white": 0
+          "san": "e5",
+          "averageRating": 2097,
+          "white": 0,
+          "draws": 1,
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2120,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "ap_istrahov",
-              "rating": 2120
-            },
-            "id": "Bk944kRo",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "diegoChampion",
-              "rating": 2224
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Bd7",
           "uci": "c8d7",
-          "white": 1
+          "san": "Bd7",
+          "averageRating": 2120,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2129,
-          "black": 0,
-          "draws": 0,
-          "game": {
-            "black": {
-              "name": "Mbuta",
-              "rating": 2129
-            },
-            "id": "00eBlTo9",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Kot_Bayunn",
-              "rating": 2125
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "g6",
           "uci": "g7g6",
-          "white": 1
+          "san": "g6",
+          "averageRating": 2129,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "B83",
         "name": "Sicilian Defense: Scheveningen Variation, Classical Variation"
-      },
-      "white": 100
+      }
     }
   }
 }

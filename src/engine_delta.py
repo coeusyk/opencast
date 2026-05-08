@@ -74,32 +74,36 @@ def run_engine_delta() -> pd.DataFrame:
             name  = opening["name"]
             moves = opening["moves"]
 
-            fen = _get_fen_from_uci_moves(moves)
-            sf.set_fen_position(fen)
-            evaluation = sf.get_evaluation()
+            try:
+                fen = _get_fen_from_uci_moves(moves)
+                sf.set_fen_position(fen)
+                evaluation = sf.get_evaluation()
 
-            if evaluation["type"] == "cp":
-                cp = int(evaluation["value"])
-            else:  # mate
-                mate_in = int(evaluation["value"])
-                cp = 10000 if mate_in > 0 else -10000
+                if evaluation["type"] == "cp":
+                    cp = int(evaluation["value"])
+                else:  # mate
+                    mate_in = int(evaluation["value"])
+                    cp = 10000 if mate_in > 0 else -10000
 
-            p_engine = _cp_to_prob(cp)
-            human_rate = float(human_rates.get(eco, float("nan")))
-            delta = human_rate - p_engine
+                p_engine = _cp_to_prob(cp)
+                human_rate = float(human_rates.get(eco, float("nan")))
+                delta = human_rate - p_engine
 
-            print(f"{eco:4s} {name:30s}  cp={cp:+5d}  P_engine={p_engine:.4f}  "
-                  f"human={human_rate:.4f}  delta={delta:+.4f}")
+                print(f"{eco:4s} {name:30s}  cp={cp:+5d}  P_engine={p_engine:.4f}  "
+                      f"human={human_rate:.4f}  delta={delta:+.4f}")
 
-            rows.append({
-                "eco": eco,
-                "opening_name": name,
-                "engine_cp": cp,
-                "p_engine": round(p_engine, 6),
-                "human_win_rate_2000": round(human_rate, 6),
-                "delta": round(delta, 6),
-                "interpretation": _interpret(delta),
-            })
+                rows.append({
+                    "eco": eco,
+                    "opening_name": name,
+                    "engine_cp": cp,
+                    "p_engine": round(p_engine, 6),
+                    "human_win_rate_2000": round(human_rate, 6),
+                    "delta": round(delta, 6),
+                    "interpretation": _interpret(delta),
+                })
+            except Exception as exc:
+                log.warning("Skipping %s (%s): %s", eco, name, exc)
+                continue
     finally:
         del sf
 

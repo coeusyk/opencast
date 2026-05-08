@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "B34",
   "months": {
@@ -2396,70 +2394,57 @@
       "white": 1156
     },
     "2026-04": {
-      "black": 556,
-      "draws": 72,
+      "white": 535,
+      "draws": 73,
+      "black": 564,
       "moves": [
         {
-          "averageRating": 2085,
-          "black": 537,
-          "draws": 68,
-          "game": null,
-          "opening": null,
-          "san": "bxc6",
           "uci": "b7c6",
-          "white": 507
+          "san": "bxc6",
+          "averageRating": 2085,
+          "white": 513,
+          "draws": 69,
+          "black": 545,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2123,
-          "black": 19,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "dxc6",
           "uci": "d7c6",
-          "white": 16
-        },
-        {
-          "averageRating": 2068,
-          "black": 0,
-          "draws": 0,
+          "san": "dxc6",
+          "averageRating": 2123,
+          "white": 16,
+          "draws": 4,
+          "black": 19,
           "game": null,
-          "opening": null,
-          "san": "Bg7",
-          "uci": "f8g7",
-          "white": 5
+          "opening": null
         },
         {
-          "averageRating": 2059,
-          "black": 0,
+          "uci": "f8g7",
+          "san": "Bg7",
+          "averageRating": 2068,
+          "white": 5,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "yokozunamike123",
-              "rating": 2059
-            },
-            "id": "yXAYgEHk",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "Lliamah_ekab",
-              "rating": 2061
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "b6",
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "b7b6",
-          "white": 1
+          "san": "b6",
+          "averageRating": 2059,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "B34",
         "name": "Sicilian Defense: Accelerated Dragon, Exchange Variation"
-      },
-      "white": 529
+      }
     }
   }
 }

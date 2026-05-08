@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "E24",
   "months": {
@@ -4096,80 +4094,67 @@
       "white": 855
     },
     "2026-04": {
-      "black": 377,
+      "white": 460,
       "draws": 42,
+      "black": 384,
       "moves": [
         {
-          "averageRating": 2099,
-          "black": 370,
-          "draws": 41,
-          "game": null,
-          "opening": null,
-          "san": "Bxc3+",
           "uci": "b4c3",
-          "white": 444
+          "san": "Bxc3+",
+          "averageRating": 2099,
+          "white": 451,
+          "draws": 41,
+          "black": 377,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2081,
-          "black": 6,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Be7",
           "uci": "b4e7",
-          "white": 5
+          "san": "Be7",
+          "averageRating": 2081,
+          "white": 5,
+          "draws": 0,
+          "black": 6,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2048,
-          "black": 1,
-          "draws": 1,
-          "game": null,
-          "opening": null,
-          "san": "O-O",
           "uci": "e8h8",
-          "white": 1
-        },
-        {
-          "averageRating": 2056,
-          "black": 0,
-          "draws": 0,
+          "san": "O-O",
+          "averageRating": 2048,
+          "white": 1,
+          "draws": 1,
+          "black": 1,
           "game": null,
-          "opening": null,
-          "san": "Ba5",
-          "uci": "b4a5",
-          "white": 2
+          "opening": null
         },
         {
-          "averageRating": 2156,
-          "black": 0,
+          "uci": "b4a5",
+          "san": "Ba5",
+          "averageRating": 2056,
+          "white": 2,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "Keltz_Krozz",
-              "rating": 2156
-            },
-            "id": "g3EPF0GN",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "raf2585",
-              "rating": 2143
-            },
-            "winner": "white",
-            "year": 2026
-          },
-          "opening": null,
-          "san": "Ne4",
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "f6e4",
-          "white": 1
+          "san": "Ne4",
+          "averageRating": 2156,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "E24",
         "name": "Nimzo-Indian Defense: S\u00e4misch Variation"
-      },
-      "white": 453
+      }
     }
   }
 }

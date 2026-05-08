@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "C33",
   "months": {
@@ -6709,195 +6707,167 @@
       "white": 8509
     },
     "2026-04": {
-      "black": 4358,
-      "draws": 349,
+      "white": 4463,
+      "draws": 355,
+      "black": 4429,
       "moves": [
         {
+          "uci": "g1f3",
+          "san": "Nf3",
           "averageRating": 2069,
-          "black": 3704,
-          "draws": 277,
+          "white": 3644,
+          "draws": 283,
+          "black": 3765,
           "game": null,
           "opening": {
             "eco": "C34",
             "name": "King's Gambit Accepted: King's Knight's Gambit"
-          },
-          "san": "Nf3",
-          "uci": "g1f3",
-          "white": 3568
+          }
         },
         {
+          "uci": "f1c4",
+          "san": "Bc4",
           "averageRating": 2091,
-          "black": 559,
+          "white": 701,
           "draws": 65,
+          "black": 567,
           "game": null,
           "opening": {
             "eco": "C33",
             "name": "King's Gambit Accepted: Bishop's Gambit"
-          },
-          "san": "Bc4",
-          "uci": "f1c4",
-          "white": 696
+          }
         },
         {
+          "uci": "d2d4",
+          "san": "d4",
           "averageRating": 2078,
-          "black": 44,
+          "white": 54,
           "draws": 3,
+          "black": 45,
           "game": null,
           "opening": {
             "eco": "C33",
             "name": "King's Gambit Accepted: Villemson Gambit"
-          },
-          "san": "d4",
-          "uci": "d2d4",
-          "white": 51
+          }
         },
         {
+          "uci": "b1c3",
+          "san": "Nc3",
           "averageRating": 2093,
-          "black": 33,
+          "white": 48,
           "draws": 1,
+          "black": 34,
           "game": null,
           "opening": {
             "eco": "C33",
             "name": "King's Gambit Accepted: Mason-Keres Gambit"
-          },
-          "san": "Nc3",
-          "uci": "b1c3",
-          "white": 48
+          }
         },
         {
+          "uci": "d1f3",
+          "san": "Qf3",
           "averageRating": 2067,
-          "black": 5,
+          "white": 10,
           "draws": 1,
+          "black": 5,
           "game": null,
           "opening": {
             "eco": "C33",
             "name": "King's Gambit Accepted: Breyer Gambit"
-          },
-          "san": "Qf3",
-          "uci": "d1f3",
-          "white": 10
+          }
         },
         {
-          "averageRating": 2053,
-          "black": 5,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "d3",
           "uci": "d2d3",
-          "white": 2
+          "san": "d3",
+          "averageRating": 2053,
+          "white": 2,
+          "draws": 0,
+          "black": 5,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "f1e2",
+          "san": "Be2",
           "averageRating": 2045,
-          "black": 1,
+          "white": 1,
           "draws": 1,
+          "black": 1,
           "game": null,
           "opening": {
             "eco": "C33",
             "name": "King's Gambit Accepted: Tartakower Gambit"
-          },
-          "san": "Be2",
-          "uci": "f1e2",
-          "white": 1
+          }
         },
         {
+          "uci": "g1e2",
+          "san": "Ne2",
           "averageRating": 2097,
-          "black": 2,
+          "white": 0,
           "draws": 1,
+          "black": 2,
           "game": null,
           "opening": {
             "eco": "C33",
             "name": "King's Gambit Accepted: Paris Gambit"
-          },
-          "san": "Ne2",
-          "uci": "g1e2",
-          "white": 0
+          }
         },
         {
+          "uci": "h2h4",
+          "san": "h4",
           "averageRating": 2086,
-          "black": 3,
+          "white": 0,
           "draws": 0,
+          "black": 3,
           "game": null,
           "opening": {
             "eco": "C33",
             "name": "King's Gambit Accepted: Stamma Gambit"
-          },
-          "san": "h4",
-          "uci": "h2h4",
-          "white": 0
+          }
         },
         {
-          "averageRating": 2064,
-          "black": 0,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "e5",
           "uci": "e4e5",
-          "white": 2
+          "san": "e5",
+          "averageRating": 2064,
+          "white": 2,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
+          "uci": "f1d3",
+          "san": "Bd3",
           "averageRating": 2064,
-          "black": 0,
+          "white": 1,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "Schachspieler51",
-              "rating": 1981
-            },
-            "id": "uZvK3lbB",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "barcawang",
-              "rating": 2064
-            },
-            "winner": "white",
-            "year": 2026
-          },
+          "black": 0,
+          "game": null,
           "opening": {
             "eco": "C33",
             "name": "King's Gambit Accepted: Schurig Gambit, with Bd3"
-          },
-          "san": "Bd3",
-          "uci": "f1d3",
-          "white": 1
+          }
         },
         {
+          "uci": "g2g3",
+          "san": "g3",
           "averageRating": 2042,
-          "black": 1,
+          "white": 0,
           "draws": 0,
-          "game": {
-            "black": {
-              "name": "gaminotik",
-              "rating": 2023
-            },
-            "id": "phfmTJS3",
-            "mode": "rated",
-            "month": "2026-04",
-            "speed": "blitz",
-            "white": {
-              "name": "fiksiki",
-              "rating": 2042
-            },
-            "winner": "black",
-            "year": 2026
-          },
+          "black": 1,
+          "game": null,
           "opening": {
             "eco": "C33",
             "name": "King's Gambit Accepted: Gaga Gambit"
-          },
-          "san": "g3",
-          "uci": "g2g3",
-          "white": 0
+          }
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "C33",
         "name": "King's Gambit Accepted"
-      },
-      "white": 4379
+      }
     }
   }
 }

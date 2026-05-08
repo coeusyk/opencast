@@ -80,7 +80,7 @@ jobs:
           # Load per-ECO month sets from consolidated files.
           eco_month_sets = {}
           for eco in eco_codes:
-              eco_file = raw_dir / f"{eco}.json"
+              eco_file = raw_dir / eco[0] / f"{eco}.json"
               if eco_file.exists():
                   try:
                       data = json.loads(eco_file.read_text(encoding="utf-8"))
@@ -170,29 +170,21 @@ jobs:
       # ── Pipeline ─────────────────────────────────────────────────────────────────────
       - name: Validate raw data exists
         run: |
-          count=$(ls data/raw/*.json 2>/dev/null | wc -l)
+          count=$(find data/raw -type f -name '*.json' | wc -l)
           if [ "$count" -eq "0" ]; then
             echo "ERROR: data/raw/ contains no JSON files. Cannot process." >&2
             exit 1
           fi
           echo "Found $count raw JSON files — proceeding."
 
-      - name: Run ingest → select → timeseries → engine delta
+      - name: Run full pipeline via main.py (recalculate trends + rebuild dashboard)
         run: |
           rm -f data/processed/openings_ts.csv \
                 data/output/forecasts.csv \
                 data/output/engine_delta.csv
+          rm -f findings/findings.md findings/findings.json
           rm -rf data/output/dashboard/
-          python -c "
-          from src.ingest import ingest
-          from src.select_openings import run_select_openings
-          from src.timeseries import run_timeseries
-          from src.engine_delta import run_engine_delta
-          ingest()
-          run_select_openings()
-          run_timeseries()
-          run_engine_delta()
-          "
+          AUTO_FETCH_MISSING_DATA=false python main.py
 
       - name: Commit updated outputs
         run: |
@@ -201,6 +193,9 @@ jobs:
           git add data/processed/openings_ts.csv \
                   data/output/forecasts.csv \
                   data/output/engine_delta.csv \
+                  data/output/long_tail_stats.csv \
+                  data/output/dashboard/ \
+                  findings/ \
                   data/openings_catalog.csv
           git diff --cached --quiet || git commit -m "chore: auto-update $(date +%Y-%m)"
           git push

@@ -1,8 +1,6 @@
 {
   "_meta": {
-    "skipped_months": {
-      "2026-04": "zero_games"
-    }
+    "skipped_months": {}
   },
   "eco": "E71",
   "months": {
@@ -5116,135 +5114,137 @@
       "white": 656
     },
     "2026-04": {
-      "black": 311,
+      "white": 342,
       "draws": 30,
+      "black": 316,
       "moves": [
         {
-          "averageRating": 2098,
-          "black": 110,
-          "draws": 13,
-          "game": null,
-          "opening": null,
-          "san": "e5",
           "uci": "e7e5",
-          "white": 130
+          "san": "e5",
+          "averageRating": 2098,
+          "white": 130,
+          "draws": 13,
+          "black": 112,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2077,
-          "black": 52,
-          "draws": 5,
-          "game": null,
-          "opening": null,
-          "san": "Nbd7",
           "uci": "b8d7",
-          "white": 68
-        },
-        {
-          "averageRating": 2086,
-          "black": 65,
-          "draws": 2,
-          "game": null,
-          "opening": null,
-          "san": "Nc6",
-          "uci": "b8c6",
-          "white": 57
-        },
-        {
-          "averageRating": 2105,
-          "black": 36,
-          "draws": 4,
-          "game": null,
-          "opening": null,
-          "san": "c5",
-          "uci": "c7c5",
-          "white": 27
-        },
-        {
-          "averageRating": 2068,
-          "black": 22,
+          "san": "Nbd7",
+          "averageRating": 2077,
+          "white": 68,
           "draws": 5,
+          "black": 53,
           "game": null,
-          "opening": null,
-          "san": "c6",
+          "opening": null
+        },
+        {
+          "uci": "b8c6",
+          "san": "Nc6",
+          "averageRating": 2087,
+          "white": 58,
+          "draws": 2,
+          "black": 65,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c7c5",
+          "san": "c5",
+          "averageRating": 2105,
+          "white": 27,
+          "draws": 4,
+          "black": 38,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "c7c6",
-          "white": 20
+          "san": "c6",
+          "averageRating": 2068,
+          "white": 20,
+          "draws": 5,
+          "black": 22,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2099,
-          "black": 11,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Na6",
           "uci": "b8a6",
-          "white": 6
+          "san": "Na6",
+          "averageRating": 2099,
+          "white": 6,
+          "draws": 0,
+          "black": 11,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2081,
-          "black": 5,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "a6",
           "uci": "a7a6",
-          "white": 7
+          "san": "a6",
+          "averageRating": 2081,
+          "white": 7,
+          "draws": 0,
+          "black": 5,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2009,
-          "black": 3,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "b6",
           "uci": "b7b6",
-          "white": 9
-        },
-        {
-          "averageRating": 2092,
-          "black": 2,
+          "san": "b6",
+          "averageRating": 2009,
+          "white": 9,
           "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Re8",
-          "uci": "f8e8",
-          "white": 6
-        },
-        {
-          "averageRating": 2107,
           "black": 3,
-          "draws": 1,
           "game": null,
-          "opening": null,
-          "san": "a5",
+          "opening": null
+        },
+        {
+          "uci": "f8e8",
+          "san": "Re8",
+          "averageRating": 2092,
+          "white": 6,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
+        },
+        {
           "uci": "a7a5",
-          "white": 4
+          "san": "a5",
+          "averageRating": 2107,
+          "white": 4,
+          "draws": 1,
+          "black": 3,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2100,
-          "black": 0,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "h6",
           "uci": "h7h6",
-          "white": 5
+          "san": "h6",
+          "averageRating": 2100,
+          "white": 5,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
         },
         {
-          "averageRating": 2026,
-          "black": 1,
-          "draws": 0,
-          "game": null,
-          "opening": null,
-          "san": "Nfd7",
           "uci": "f6d7",
-          "white": 1
+          "san": "Nfd7",
+          "averageRating": 2026,
+          "white": 1,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
         }
       ],
+      "recentGames": [],
+      "topGames": [],
       "opening": {
         "eco": "E71",
         "name": "King's Indian Defense: Karpov System"
-      },
-      "white": 341
+      }
     }
   }
 }
