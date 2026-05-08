@@ -791,7 +791,7 @@ function renderOpening(eco, opening) {{
     const fmtPp = (v) => {{
       if (v == null) return "—";
       const pp = (v * 100).toFixed(2);
-      return (v >= 0 ? "+" : "") + pp + " pp";
+      return (v >= 0 ? "+" : "") + pp + "%";
     }};
 
     const rows = lines.slice(0, 3).map((r) => `
@@ -799,7 +799,7 @@ function renderOpening(eco, opening) {{
         <td style="padding:0.45rem 0.6rem 0.45rem 0;"><strong style="color:${{TEXT_PRIMARY}};">${{r.san || "—"}}</strong><div style="font-size:0.74rem;color:${{TEXT_SECONDARY}};">${{r.uci || ""}}</div></td>
         <td style="padding:0.45rem 0.6rem;text-align:right;">${{fmtPct(r.share_of_games)}}</td>
         <td style="padding:0.45rem 0.6rem;text-align:right;">${{fmtPct(r.white_win_rate)}}</td>
-        <td style="padding:0.45rem 0.6rem;text-align:right;color:${{(r.delta_wr_12m || 0) >= 0 ? "#7BE495" : "#F28DA6"}};">${{fmtPp(r.delta_wr_12m)}}</td>
+        <td style="padding:0.45rem 0.6rem;text-align:right;color:${{r.delta_wr_12m == null ? TEXT_SECONDARY : (r.delta_wr_12m >= 0 ? "#7BE495" : "#F28DA6")}};">${{fmtPp(r.delta_wr_12m)}}</td>
       </tr>
     `).join("");
 
@@ -814,7 +814,7 @@ function renderOpening(eco, opening) {{
             <th style="text-align:left;padding:0 0.6rem 0.35rem 0;">Move</th>
             <th style="text-align:right;padding:0 0.6rem 0.35rem;">Share</th>
             <th style="text-align:right;padding:0 0.6rem 0.35rem;">Win Rate</th>
-            <th style="text-align:right;padding:0 0.6rem 0.35rem;">12m Δ WR</th>
+            <th style="text-align:right;padding:0 0.6rem 0.35rem;">Win rate shift (12m)</th>
           </tr>
         </thead>
         <tbody>${{rows}}</tbody>
@@ -865,7 +865,7 @@ function renderOpening(eco, opening) {{
                     <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">Last month</td><td style="padding:0.4rem 0;">${{opening.last_month || "—"}}</td></tr>
                     <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">Last win rate</td><td style="padding:0.4rem 0;">${{fmtPct(opening.last_win_rate)}}</td></tr>
                     <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">Mean win rate</td><td style="padding:0.4rem 0;">${{fmtPct(opening.mean_win_rate)}}</td></tr>
-                    <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">Std dev</td><td style="padding:0.4rem 0;">${{fmt2(opening.std_win_rate)}} pp</td></tr>
+                    <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">Std dev</td><td style="padding:0.4rem 0;">${{fmt2(opening.std_win_rate)}}%</td></tr>
                     <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">3-month MA</td><td style="padding:0.4rem 0;">${{fmtPct(opening.ma3)}}</td></tr>
                     <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">Trend</td><td style="padding:0.4rem 0;color:${{trendColor}};">${{trendArrow}} ${{trend}}</td></tr>
                     <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">Months of data</td><td style="padding:0.4rem 0;">${{opening.months_available ?? "—"}}</td></tr>
@@ -901,7 +901,7 @@ function renderOpening(eco, opening) {{
                         <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">Mean win rate</td>
                                 <td style="padding:0.4rem 0;">${{fmtPct(opening.mean_win_rate)}}</td></tr>
                         <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">Std dev</td>
-                                <td style="padding:0.4rem 0;">${{fmt2(opening.std_win_rate)}} pp</td></tr>
+                                <td style="padding:0.4rem 0;">${{fmt2(opening.std_win_rate)}}%</td></tr>
                         <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">3-month MA</td>
                                 <td style="padding:0.4rem 0;">${{fmtPct(opening.ma3)}}</td></tr>
                         <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">Trend</td>
