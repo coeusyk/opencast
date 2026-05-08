@@ -61,7 +61,7 @@ def main() -> None:
             continue
 
         with file_path.open("w", encoding="utf-8") as handle:
-            json.dump(payload, handle, separators=(",", ":"))
+            json.dump(payload, handle, indent=2)
 
         print(f"cleaned: {file_path} removed {removed} keys")
 

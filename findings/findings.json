@@ -1,26 +1,27 @@
 {
-  "generated_at": "2026-05-05",
+  "generated_at": "2026-05-08",
   "month": "2026-05",
-  "headline": "King's Indian Defense: Orthodox Variation, Classical System (E98) shows the largest positive delta, while Benoni Defense: Old Benoni (A44) is the most frequently misplayed or theory-dependent opening.",
+  "headline": "Humans outperform Stockfish by the largest margin in King's Indian Defense: Orthodox Variation, Classical System (E98), while Benoni Defense: Old Benoni (A44) is the most frequently misplayed opening.",
   "panels": {
     "forecast": {
-      "insight": "The ARIMA forecast shows stable win-rate trends for most openings, with King's Indian Defense: Orthodox Variation, Classical System (E98) and Benoni Defense: Old Benoni (A44) being notable exceptions. The forecast suggests that humans at 2000-rated blitz outperform Stockfish's win-probability prediction in E98, while A44 is the most frequently misplayed or theory-dependent opening.",
+      "insight": "The ARIMA forecast indicates stable win-rate trends across 20 tracked openings, with no significant changes expected over the next three months. Notable exceptions include the rising trend in English Opening: Four Knights System, Nimzowitsch Variation (A28) and the falling trend in English Opening (A10).",
       "highlight_ecos": [
         "E98",
-        "A44"
+        "A28",
+        "A10"
       ]
     },
     "engine_delta": {
       "insight": "The engine-human delta analysis reveals that humans outperform Stockfish in openings like King's Indian Defense: Orthodox Variation, Classical System (E98) and underperform in openings like Benoni Defense: Old Benoni (A44).",
       "outliers": [
-        "E98",
         "A44",
-        "A21",
-        "A18"
+        "E98",
+        "A18",
+        "A21"
       ]
     },
     "heatmap": {
-      "insight": "The category-level analysis of the engine-human delta heatmap shows that openings with a high delta tend to be more complex and theory-dependent, while openings with a low delta tend to be more straightforward and intuitive."
+      "insight": "The ECO category heatmap shows that the King's Indian Defense and English Opening are the most popular openings in the dataset, with a significant number of games played in these categories."
     }
   }
 }
