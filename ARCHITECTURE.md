@@ -48,12 +48,16 @@ openings_catalog.csv  (498 ECO codes, tier flags)
         ▼
   [src/ingest.py]  ── normalized DataFrame ──────────────▶  data/processed/openings_ts.csv
         │
+      ├──▶ [src/move_stats.py]
+      │       per-move monthly line analytics
+      │       → data/output/move_stats.csv
+      │
         ├──▶ [src/select_openings.py]
         │       tier classification → openings_catalog.csv (updated in-place)
         │       scripts/compute_selection_flags.py → data/selection_flags.csv
         │
         ├──▶ [src/timeseries.py]
-        │       ARIMA (Tier 1) + Holt-Winters (Tier 2) + Chow break detection
+      │       model-selected forecasting + Chow break detection
         │       → data/output/forecasts.csv
         │
         ├──▶ [src/engine_delta.py]
@@ -103,6 +107,7 @@ opencast/
 │   ├── selection_flags.csv    ← per-ECO coverage/tier diagnostics
 │   └── output/
 │       ├── forecasts.csv      ← ARIMA / HW forecasts with confidence intervals
+│       ├── move_stats.csv     ← per-move monthly share/win-rate trend metrics
 │       ├── engine_delta.csv   ← centipawn vs human win rate delta per opening
 │       └── dashboard/         ← multi-page static site (served as GitHub Pages root)
 │           ├── index.html     ← overview: headline insights + 3 panels
@@ -121,8 +126,9 @@ opencast/
 ├── src/
 │   ├── __init__.py
 │   ├── ingest.py              ← consolidated raw JSON → openings_ts.csv
+│   ├── move_stats.py          ← per-move monthly analytics → move_stats.csv
 │   ├── select_openings.py     ← per-ECO tier classification → openings_catalog.csv
-│   ├── timeseries.py          ← ARIMA (Tier 1) + Holt-Winters (Tier 2) + break detection
+│   ├── timeseries.py          ← model-selected forecasting + break detection
 │   ├── engine_delta.py        ← Stockfish eval → delta computation (Tier 1 only)
 │   ├── report.py              ← Groq LLM → findings.md + findings.json + narratives.json
 │   ├── visualizer.py          ← multi-page static site generator
