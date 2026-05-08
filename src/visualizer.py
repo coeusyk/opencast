@@ -1234,7 +1234,8 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
   grid-template-columns: minmax(0, 1.03fr) minmax(0, 0.97fr);
   gap: 4rem;
   align-items: center;
-  min-height: calc(100dvh - 52px);
+  height: calc(100dvh - 52px);
+  overflow: clip;
   width: 100%;
   padding-top: clamp(2rem, 5vw, 4rem);
   padding-bottom: clamp(2rem, 5vw, 4rem);
@@ -1249,7 +1250,7 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
   border-bottom: 1px solid rgba(255,255,255,0.07);
 }
 @media (max-width: 768px) {
-  .hero { grid-template-columns: 1fr; gap: 3rem; min-height: auto; }
+  .hero { grid-template-columns: 1fr; gap: 3rem; height: auto; min-height: auto; overflow: visible; }
 }
 
 .hero-copy { }
@@ -1306,7 +1307,7 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
 .btn-secondary:hover { border-color: rgba(255,255,255,0.3); color: var(--color-text); }
 
 /* Hero right: proof cards */
-.hero-visual { display: flex; flex-direction: column; gap: 1rem; width: 100%; align-items: stretch; }
+.hero-visual { display: flex; flex-direction: column; gap: 1rem; width: 100%; align-items: stretch; align-self: center; justify-content: center; }
 .proof-card {
   background: var(--color-surface);
   border: 1px solid rgba(255,255,255,0.08);
