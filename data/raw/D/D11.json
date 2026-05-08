@@ -5243,6 +5243,129 @@
       },
       "white": 251
     },
+    "2026-02": {
+      "black": 173,
+      "draws": 20,
+      "moves": [
+        {
+          "averageRating": 2080,
+          "black": 48,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 57
+        },
+        {
+          "averageRating": 2094,
+          "black": 26,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 39
+        },
+        {
+          "averageRating": 2112,
+          "black": 32,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 20
+        },
+        {
+          "averageRating": 2063,
+          "black": 18,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 18
+        },
+        {
+          "averageRating": 2106,
+          "black": 23,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 12
+        },
+        {
+          "averageRating": 2076,
+          "black": 12,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 5
+        },
+        {
+          "averageRating": 2044,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 11
+        },
+        {
+          "averageRating": 2066,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 8
+        },
+        {
+          "averageRating": 2142,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 3
+        },
+        {
+          "averageRating": 1979,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 0
+        },
+        {
+          "averageRating": 2003,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na6",
+          "uci": "b8a6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 174
+    },
     "2026-03": {
       "black": 185,
       "draws": 23,
@@ -5390,127 +5513,127 @@
       "white": 194
     },
     "2026-04": {
-      "white": 90,
-      "draws": 17,
       "black": 94,
+      "draws": 17,
       "moves": [
         {
-          "uci": "e7e6",
-          "san": "e6",
           "averageRating": 2086,
-          "white": 26,
-          "draws": 4,
           "black": 34,
+          "draws": 4,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 26
         },
         {
-          "uci": "f6e4",
-          "san": "Ne4",
           "averageRating": 2094,
-          "white": 22,
-          "draws": 3,
           "black": 18,
+          "draws": 3,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 22
         },
         {
-          "uci": "c8f5",
-          "san": "Bf5",
           "averageRating": 2078,
-          "white": 10,
-          "draws": 2,
           "black": 11,
+          "draws": 2,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 10
         },
         {
-          "uci": "c8g4",
-          "san": "Bg4",
           "averageRating": 2077,
-          "white": 12,
-          "draws": 1,
           "black": 6,
+          "draws": 1,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 12
         },
         {
-          "uci": "d5c4",
-          "san": "dxc4",
           "averageRating": 2077,
-          "white": 10,
-          "draws": 1,
           "black": 7,
+          "draws": 1,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 10
         },
         {
-          "uci": "b8d7",
-          "san": "Nbd7",
           "averageRating": 2097,
-          "white": 3,
-          "draws": 2,
           "black": 7,
-          "game": null,
-          "opening": null
-        },
-        {
-          "uci": "g7g6",
-          "san": "g6",
-          "averageRating": 2085,
-          "white": 3,
           "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 3
+        },
+        {
+          "averageRating": 2085,
           "black": 4,
+          "draws": 2,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 3
         },
         {
-          "uci": "h7h6",
-          "san": "h6",
           "averageRating": 2031,
-          "white": 4,
-          "draws": 1,
           "black": 2,
+          "draws": 1,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 4
         },
         {
-          "uci": "d8a5",
-          "san": "Qa5+",
           "averageRating": 2103,
-          "white": 0,
-          "draws": 0,
           "black": 2,
+          "draws": 0,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "Qa5+",
+          "uci": "d8a5",
+          "white": 0
         },
         {
-          "uci": "d8b6",
-          "san": "Qb6",
           "averageRating": 2083,
-          "white": 0,
-          "draws": 1,
           "black": 1,
+          "draws": 1,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 0
         },
         {
-          "uci": "a7a6",
-          "san": "a6",
           "averageRating": 2105,
-          "white": 0,
-          "draws": 0,
           "black": 2,
+          "draws": 0,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 0
         }
       ],
-      "recentGames": [],
-      "topGames": [],
       "opening": {
         "eco": "D11",
         "name": "Slav Defense: Bonet Gambit"
-      }
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 90
     }
   }
 }

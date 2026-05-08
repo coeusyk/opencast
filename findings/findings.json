@@ -1,27 +1,27 @@
 {
   "generated_at": "2026-05-08",
   "month": "2026-05",
-  "headline": "Humans outperform Stockfish in King's Indian Defense: Orthodox Variation, Classical System (E98), while Benoni Defense: Old Benoni (A44) is the most frequently misplayed opening.",
+  "headline": "Humans outperform Stockfish in King's Indian Defense: Orthodox Variation, Classical System (E98) by the widest margin, while Benoni Defense: Old Benoni (A44) is the most frequently misplayed or theory-dependent opening.",
   "panels": {
     "forecast": {
-      "insight": "The ARIMA forecast indicates stable win-rate trends across 20 tracked openings, with the steepest trend belonging to English Opening: Four Knights System, Nimzowitsch Variation (A28).",
+      "insight": "The ARIMA forecast indicates a stable win-rate trend across most openings, with some notable exceptions. The English Opening: Four Knights System, Nimzowitsch Variation (A28) shows the steepest rising trend. Overall, the forecast suggests a stable win-rate landscape.",
       "highlight_ecos": [
         "E98",
-        "A28"
+        "A28",
+        "A21"
       ]
     },
     "engine_delta": {
-      "insight": "Humans outperform Stockfish in 5 openings, while underperforming in 5 others, indicating significant skill-based advantages in certain openings.",
+      "insight": "The engine-human delta analysis reveals that humans outperform Stockfish in certain openings, while underperforming in others. Notable outlier openings include Benoni Defense: Old Benoni (A44) and Elephant Gambit (C40).",
       "outliers": [
         "A44",
-        "B29",
         "C40",
-        "A57",
-        "A56"
+        "E98",
+        "A21"
       ]
     },
     "heatmap": {
-      "insight": "Category-level analysis reveals that openings with complex pawn structures tend to have more stable win-rate trends, while openings with rapid development tend to have more volatile trends."
+      "insight": "The ECO category heatmap shows a mixed pattern, with some openings having a higher win-rate than others. The heatmap suggests that humans have an advantage in certain openings, while Stockfish has an advantage in others."
     }
   }
 }

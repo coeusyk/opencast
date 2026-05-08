@@ -537,6 +537,9 @@ def _serialize_openings_data(
 def render_opening_template() -> str:
     body = f"""
 <h1 id="opening-title">Opening Detail</h1>
+<p style="margin:-0.25rem 0 1rem 0;">
+  <span id="opening-tier-badge"></span>
+</p>
 <p style="margin:0 0 1rem 0;">
   <a id="back-to-openings" href="openings.html" style="color:{TEXT_SECONDARY}; text-decoration:none; font-size:0.85rem;">&larr; All openings</a>
 </p>
@@ -656,6 +659,16 @@ function renderOpening(eco, opening) {{
   const name = opening.name || eco;
   document.getElementById("opening-title").textContent = `${{name}} (${{eco}})`;
   document.title = `${{eco}} — ${{name}} | OpenCast`;
+  const tier = opening.model_tier;
+  const tierBadge = document.getElementById("opening-tier-badge");
+  const TIER_TOOLTIP = "T1: >=1000 avg monthly games + >=24 months -> full ARIMA + engine evaluation\\nT2: 400-999 avg monthly games -> Holt-Winters trend, no engine delta\\nT3: <400 avg monthly games -> descriptive stats only";
+  if (tier) {{
+    tierBadge.className = `tier-badge tier-badge-${{tier}}`;
+    tierBadge.textContent = `T${{tier}}`;
+    tierBadge.title = TIER_TOOLTIP;
+  }} else {{
+    tierBadge.textContent = "";
+  }}
 
   const narrativeBox = document.getElementById("opening-narrative");
   const narrative = opening.narrative || FALLBACK_NARRATIVE;
@@ -886,7 +899,13 @@ async function init() {{
 init();
 </script>
 """
-    head_extras = '<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>'
+    tier_css = f"""<style>
+.tier-badge {{display:inline-block;padding:0.15em 0.55em;border-radius:4px;font-size:0.75rem;font-weight:600;letter-spacing:0.04em;}}
+.tier-badge-1 {{background:rgba(74,158,255,0.18);color:#4a9eff;}}
+.tier-badge-2 {{background:rgba(169,117,255,0.18);color:#a975ff;}}
+.tier-badge-3 {{background:rgba(139,139,143,0.2);color:{TEXT_SECONDARY};}}
+</style>"""
+    head_extras = tier_css + '\n<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>'
     return _page_shell("Opening Detail", _nav_html("openings.html"), body, head_extras=head_extras)
 
 
