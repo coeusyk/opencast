@@ -321,50 +321,50 @@ def _load_narratives_json() -> dict:
 def _top_lines_for_opening(move_stats_df: pd.DataFrame | None, eco: str, limit: int = 3) -> list[dict]:
     """Return top move lines driving the current month's opening behavior."""
     if move_stats_df is None or move_stats_df.empty or "eco" not in move_stats_df.columns:
-      return []
+        return []
 
     sub = move_stats_df[move_stats_df["eco"].astype(str) == str(eco)].copy()
     if sub.empty or "month" not in sub.columns:
-      return []
+        return []
 
     latest_month = str(sub["month"].astype(str).max())
     latest = sub[sub["month"].astype(str) == latest_month].copy()
     if latest.empty:
-      return []
+        return []
 
     for col in ("games", "white_win_rate", "share_of_games", "delta_share_12m", "delta_wr_12m"):
-      if col not in latest.columns:
-        latest[col] = 0.0
+        if col not in latest.columns:
+            latest[col] = None
 
     latest["games"] = pd.to_numeric(latest["games"], errors="coerce").fillna(0)
     latest["white_win_rate"] = pd.to_numeric(latest["white_win_rate"], errors="coerce")
     latest["share_of_games"] = pd.to_numeric(latest["share_of_games"], errors="coerce").fillna(0.0)
-    latest["delta_share_12m"] = pd.to_numeric(latest["delta_share_12m"], errors="coerce").fillna(0.0)
-    latest["delta_wr_12m"] = pd.to_numeric(latest["delta_wr_12m"], errors="coerce").fillna(0.0)
+    latest["delta_share_12m"] = pd.to_numeric(latest["delta_share_12m"], errors="coerce")
+    latest["delta_wr_12m"] = pd.to_numeric(latest["delta_wr_12m"], errors="coerce")
 
     # Volume anchors the score; 12-month share and win-rate movement rank trend-driving lines.
     latest["trend_score"] = (
-      latest["share_of_games"] * 0.65
-      + latest["delta_share_12m"].abs() * 8.0
-      + latest["delta_wr_12m"].abs() * 20.0
+        latest["share_of_games"] * 0.65
+        + latest["delta_share_12m"].abs().fillna(0.0) * 8.0
+        + latest["delta_wr_12m"].abs().fillna(0.0) * 20.0
     )
 
     top = latest.sort_values(["trend_score", "games"], ascending=[False, False]).head(limit)
 
     rows: list[dict] = []
     for _, r in top.iterrows():
-      rows.append(
-        {
-          "month": latest_month,
-          "uci": str(r.get("uci", "")),
-          "san": str(r.get("san", "")),
-          "games": int(r.get("games", 0)) if pd.notna(r.get("games")) else 0,
-          "white_win_rate": float(r["white_win_rate"]) if pd.notna(r.get("white_win_rate")) else None,
-          "share_of_games": float(r.get("share_of_games", 0.0)),
-          "delta_share_12m": float(r.get("delta_share_12m", 0.0)),
-          "delta_wr_12m": float(r.get("delta_wr_12m", 0.0)),
-        }
-      )
+        rows.append(
+            {
+                "month": latest_month,
+                "uci": str(r.get("uci", "")),
+                "san": str(r.get("san", "")),
+                "games": int(r.get("games", 0)) if pd.notna(r.get("games")) else 0,
+                "white_win_rate": float(r["white_win_rate"]) if pd.notna(r.get("white_win_rate")) else None,
+                "share_of_games": float(r.get("share_of_games", 0.0)),
+                "delta_share_12m": float(r["delta_share_12m"]) if pd.notna(r.get("delta_share_12m")) else None,
+                "delta_wr_12m": float(r["delta_wr_12m"]) if pd.notna(r.get("delta_wr_12m")) else None,
+            }
+        )
 
     return rows
 
@@ -458,7 +458,7 @@ def _serialize_openings_data(
     findings_json: dict | None,
     narratives: dict | None = None,
     long_tail_df: pd.DataFrame | None = None,
-  move_stats_df: pd.DataFrame | None = None,
+    move_stats_df: pd.DataFrame | None = None,
     trend_signals: dict | None = None,
 ) -> dict[str, dict]:
     fallback_narrative = "No analysis available yet."
@@ -619,7 +619,7 @@ def render_opening_template() -> str:
 <p style="margin:0 0 1rem 0;">
   <a id="back-to-openings" href="openings.html" style="color:{TEXT_SECONDARY}; text-decoration:none; font-size:0.85rem;">&larr; All openings</a>
 </p>
-<div id="opening-narrative" class="narrative"><p></p></div>
+<div id="opening-narrative" class="engine-box" style="display:none;"><h3>Analysis</h3><p></p></div>
 <div id="opening-chart"></div>
 <div id="lines-box" class="engine-box" style="display:none;"></div>
 <div id="engine-box" class="engine-box" style="display:none;"></div>
@@ -752,7 +752,7 @@ function renderOpening(eco, opening) {{
   const modelName = String(opening.model_name || "").trim();
   if (modelName && tier !== 3) {{
     modelBadge.className = "meta-badge";
-    modelBadge.textContent = `Model: ${{modelName.replace("_", "-")}}`;
+    modelBadge.textContent = `Model: ${{modelName.replaceAll("_", "-")}}`;
   }} else {{
     modelBadge.className = "";
     modelBadge.textContent = "";
@@ -960,7 +960,7 @@ function renderOpening(eco, opening) {{
 
   const olsTrend = computeOlsTrend(actuals);
   const trendConfidence = String(opening.trend_confidence || "low").toLowerCase();
-  if (olsTrend && trendConfidence !== "low") {{
+  if (olsTrend) {{
     const trendDirection = String(opening.trend_direction || olsTrend.direction || "stable").toLowerCase();
     const trendColor = trendDirection === "rising" ? "#7BE495"
       : trendDirection === "falling" ? "#F28DA6" : TEXT_SECONDARY;
@@ -970,7 +970,7 @@ function renderOpening(eco, opening) {{
       mode: "lines",
       name: `Trend (${{trendDirection}})` ,
       line: {{ color: trendColor, width: 1.5, dash: "longdash" }},
-      opacity: trendConfidence === "high" ? 0.78 : 0.46,
+      opacity: trendConfidence === "high" ? 0.78 : trendConfidence === "medium" ? 0.55 : 0.30,
       type: "scatter",
     }});
   }}
@@ -986,18 +986,7 @@ function renderOpening(eco, opening) {{
     margin: {{ t: 60, r: 30, b: 60, l: 60 }},
   }};
 
-  Plotly.newPlot("opening-chart", traces, layout, {{ responsive: true }}).then(() => {{
-    const shapes = (opening.structural_breaks || []).map((month) => ({{
-      type: "line",
-      x0: month,
-      x1: month,
-      y0: 0,
-      y1: 1,
-      yref: "paper",
-      line: {{ color, dash: "dot", width: 1 }},
-    }}));
-    Plotly.relayout("opening-chart", {{ shapes }});
-  }});
+  Plotly.newPlot("opening-chart", traces, layout, {{ responsive: true }});
 
   renderLinesDrivingTrend(opening);
 
@@ -1043,6 +1032,7 @@ async function init() {{
     const narrativeEl = document.querySelector("#opening-narrative p");
     narrativeEl.textContent = String(error);
     narrativeEl.style.color = TEXT_SECONDARY;
+    document.getElementById("opening-narrative").style.display = "";
   }}
 }}
 
