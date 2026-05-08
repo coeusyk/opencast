@@ -576,6 +576,10 @@ def _serialize_openings_data(
 
         sig = (trend_signals or {}).get(eco)
         lines_driving_trend = _top_lines_for_opening(move_stats_df, eco)
+        # T3 openings have descriptive stats only — no model-selected forecast or quality
+        if model_tier == 3:
+            forecast_quality = None
+            model_name = None
         serialized[eco] = {
             "name": name,
             "eco_group": eco[0] if eco else None,
@@ -746,7 +750,7 @@ function renderOpening(eco, opening) {{
   }}
 
   const modelName = String(opening.model_name || "").trim();
-  if (modelName) {{
+  if (modelName && tier !== 3) {{
     modelBadge.className = "meta-badge";
     modelBadge.textContent = `Model: ${{modelName.replace("_", "-")}}`;
   }} else {{
@@ -755,7 +759,7 @@ function renderOpening(eco, opening) {{
   }}
 
   const quality = String(opening.forecast_quality || "").toLowerCase();
-  if (quality) {{
+  if (quality && tier !== 3) {{
     qualityBadge.className = `meta-badge quality-${{quality}}`;
     qualityBadge.textContent = `Forecast confidence: ${{quality}}`;
   }} else {{
@@ -1717,8 +1721,8 @@ def render_openings_table(
   function tierBadge(t) {{
     return '<span class="tier-badge tier-badge-' + t + '" title="' + TIER_TOOLTIP + '">T' + t + '</span>';
   }}
-  function qualityBadge(q) {{
-    if (!q) return '<span style="color:' + TEXT_SECONDARY + '">—</span>';
+  function qualityBadge(q, tier) {{
+    if (!q || tier === 3) return '<span style="color:' + TEXT_SECONDARY + '">—</span>';
     const cls = 'quality-badge quality-badge-' + q;
     return '<span class="' + cls + '">' + q + '</span>';
   }}
@@ -1736,7 +1740,7 @@ def render_openings_table(
         '<td style="text-align:center;">' + tierBadge(r.tier) + '</td>' +
         '<td style="text-align:right;">' + fmtPct(r.win_rate) + '</td>' +
         '<td style="text-align:center;">' + (r.has_fc ? "Yes" : '<span style="color:' + TEXT_SECONDARY + '">No</span>') + '</td>' +
-        '<td style="text-align:center;">' + qualityBadge(r.quality) + '</td>' +
+        '<td style="text-align:center;">' + qualityBadge(r.quality, r.tier) + '</td>' +
         '<td style="text-align:right;color:' + deltaColor(r.delta) + '">' + fmtDelta(r.delta) + '</td>' +
         '<td style="text-align:center;"><a href="' + href + '" style="color:{ACCENT};text-decoration:none;" onclick="event.stopPropagation()">Details</a></td>' +
         '</tr>';

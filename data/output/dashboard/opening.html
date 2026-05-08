@@ -210,7 +210,7 @@ function renderOpening(eco, opening) {
   }
 
   const modelName = String(opening.model_name || "").trim();
-  if (modelName) {
+  if (modelName && tier !== 3) {
     modelBadge.className = "meta-badge";
     modelBadge.textContent = `Model: ${modelName.replace("_", "-")}`;
   } else {
@@ -219,7 +219,7 @@ function renderOpening(eco, opening) {
   }
 
   const quality = String(opening.forecast_quality || "").toLowerCase();
-  if (quality) {
+  if (quality && tier !== 3) {
     qualityBadge.className = `meta-badge quality-${quality}`;
     qualityBadge.textContent = `Forecast confidence: ${quality}`;
   } else {

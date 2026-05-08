@@ -274,8 +274,8 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
   function tierBadge(t) {
     return '<span class="tier-badge tier-badge-' + t + '" title="' + TIER_TOOLTIP + '">T' + t + '</span>';
   }
-  function qualityBadge(q) {
-    if (!q) return '<span style="color:' + TEXT_SECONDARY + '">—</span>';
+  function qualityBadge(q, tier) {
+    if (!q || tier === 3) return '<span style="color:' + TEXT_SECONDARY + '">—</span>';
     const cls = 'quality-badge quality-badge-' + q;
     return '<span class="' + cls + '">' + q + '</span>';
   }
@@ -293,7 +293,7 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
         '<td style="text-align:center;">' + tierBadge(r.tier) + '</td>' +
         '<td style="text-align:right;">' + fmtPct(r.win_rate) + '</td>' +
         '<td style="text-align:center;">' + (r.has_fc ? "Yes" : '<span style="color:' + TEXT_SECONDARY + '">No</span>') + '</td>' +
-        '<td style="text-align:center;">' + qualityBadge(r.quality) + '</td>' +
+        '<td style="text-align:center;">' + qualityBadge(r.quality, r.tier) + '</td>' +
         '<td style="text-align:right;color:' + deltaColor(r.delta) + '">' + fmtDelta(r.delta) + '</td>' +
         '<td style="text-align:center;"><a href="' + href + '" style="color:#57C7FF;text-decoration:none;" onclick="event.stopPropagation()">Details</a></td>' +
         '</tr>';
