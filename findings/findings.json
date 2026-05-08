@@ -1,28 +1,28 @@
 {
   "generated_at": "2026-05-08",
   "month": "2026-05",
-  "headline": "King's Indian Defense: Orthodox Variation, Classical System (E98) shows the largest positive delta (+0.0852), while Benoni Defense: Old Benoni (A44) has the largest negative delta (-0.1103).",
+  "headline": "King's Indian Defense: Orthodox Variation, Classical System (E98) shows the strongest positive human-vs-engine gap, while Benoni Defense: Old Benoni (A44) remains the largest negative outlier.",
   "panels": {
     "forecast": {
-      "insight": "The win-rate forecast trends indicate stable or falling win rates for most openings, with a few exceptions showing rising trends. The forecast directions are generally stable, with only a few openings showing a falling trend. The trend slopes per month are mostly small, indicating gradual changes in win rates over time.",
+      "insight": "Forecast directions suggest mixed momentum across openings, with 22 rising and 31 falling trajectories in the next horizon. The strongest signals are best read alongside uncertainty bands to separate stable trends from short-term noise.",
       "highlight_ecos": [
-        "E98",
         "A28",
-        "A44"
+        "A36",
+        "A09",
+        "A10"
       ]
     },
     "engine_delta": {
-      "insight": "The engine-human delta patterns show that humans outperform Stockfish in some openings, while underperforming in others. The largest positive delta is found in King's Indian Defense: Orthodox Variation, Classical System (E98), while the largest negative delta is found in Benoni Defense: Old Benoni (A44).",
+      "insight": "Engine-human deltas remain asymmetric: E98 leads positive outperformance, while A44 underperforms most against engine expectation. These outliers flag openings where practical play diverges most from theoretical evaluation.",
       "outliers": [
-        "E98",
         "A44",
-        "A21",
-        "A18",
-        "D09"
+        "B29",
+        "C40",
+        "A57"
       ]
     },
     "heatmap": {
-      "insight": "The ECO category heatmap shows that some openings are more frequently misplayed or theory-dependent than others. The King's Indian Defense: Orthodox Variation, Classical System (E98) and Benoni Defense: Old Benoni (A44) are notable examples of openings with high positive and negative deltas, respectively."
+      "insight": "Category-level heatmap patterns continue to show non-uniform performance over time, with month-to-month variation indicating shifting practical preferences across ECO families."
     }
   }
 }
