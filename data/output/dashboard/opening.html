@@ -470,11 +470,45 @@ function renderOpening(eco, opening) {
   const interpretation = opening.interpretation || "";
 
   engineBox.style.display = "block";
+
+  const cpLabel = cp === 0
+    ? "Equal position"
+    : cp > 0
+      ? `White better by ${Math.abs(cp)} cp`
+      : `Black better by ${Math.abs(cp)} cp`;
+
+  const deltaSign = delta >= 0 ? "+" : "";
+  const deltaColor = delta > 0.01
+    ? "#7BE495"
+    : delta < -0.01
+      ? "#F28DA6"
+      : TEXT_SECONDARY;
+  const deltaLabel = delta > 0.01
+    ? "Humans overperform engine expectation"
+    : delta < -0.01
+      ? "Humans underperform engine expectation"
+      : "Humans match engine expectation";
+
   engineBox.innerHTML = `
-    <h3>Engine Evaluation</h3>
-    <p>Stockfish depth-20: <strong>${cp >= 0 ? "+" : ""}${cp} cp</strong> → P(white wins) = ${pEngine.toFixed(3)}</p>
-    <p>Human win rate (2000+): ${human.toFixed(3)}</p>
-    <p>Delta: <strong>${delta >= 0 ? "+" : ""}${delta.toFixed(3)}</strong>${interpretation ? ` — ${interpretation}` : ""}</p>
+    <h3 style="margin:0 0 1rem;">Engine vs Human</h3>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;margin-bottom:1rem;">
+      <div style="background:rgba(255,255,255,0.04);border-radius:8px;padding:0.75rem 1rem;">
+        <p style="margin:0 0 0.2rem;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.08em;color:${TEXT_SECONDARY};">Engine says</p>
+        <p style="margin:0;font-size:1.1rem;font-weight:700;">${cpLabel}</p>
+        <p style="margin:0.2rem 0 0;font-size:0.78rem;color:${TEXT_SECONDARY};">Win probability: ${(pEngine * 100).toFixed(1)}%</p>
+      </div>
+      <div style="background:rgba(255,255,255,0.04);border-radius:8px;padding:0.75rem 1rem;">
+        <p style="margin:0 0 0.2rem;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.08em;color:${TEXT_SECONDARY};">Humans achieve</p>
+        <p style="margin:0;font-size:1.1rem;font-weight:700;">${(human * 100).toFixed(1)}%</p>
+        <p style="margin:0.2rem 0 0;font-size:0.78rem;color:${TEXT_SECONDARY};">win rate (2000+ Elo, depth 20)</p>
+      </div>
+    </div>
+
+    <div style="border-left:3px solid ${deltaColor};padding:0.6rem 1rem;background:rgba(255,255,255,0.03);border-radius:0 6px 6px 0;">
+      <p style="margin:0 0 0.15rem;font-size:0.78rem;font-weight:600;color:${deltaColor};">${deltaLabel}</p>
+      <p style="margin:0;font-size:0.82rem;color:${TEXT_SECONDARY};">Gap: <strong style="color:${TEXT_PRIMARY};">${deltaSign}${(delta * 100).toFixed(2)}%</strong>${interpretation ? ` &nbsp;·&nbsp; ${interpretation}` : ""}</p>
+    </div>
   `;
 }
 
