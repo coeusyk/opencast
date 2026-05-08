@@ -1,0 +1,5640 @@
+{
+  "eco": "A49",
+  "months": {
+    "2023-01": {
+      "black": 3062,
+      "draws": 429,
+      "moves": [
+        {
+          "averageRating": 2105,
+          "black": 2802,
+          "draws": 386,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 3172
+        },
+        {
+          "averageRating": 2100,
+          "black": 135,
+          "draws": 22,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 150
+        },
+        {
+          "averageRating": 2082,
+          "black": 90,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 102
+        },
+        {
+          "averageRating": 2113,
+          "black": 22,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 22
+        },
+        {
+          "averageRating": 2093,
+          "black": 5,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 21
+        },
+        {
+          "averageRating": 2094,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 12
+        },
+        {
+          "averageRating": 2133,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 1
+        },
+        {
+          "averageRating": 2135,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 3
+        },
+        {
+          "averageRating": 2115,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "nemirena",
+              "rating": 2115
+            },
+            "id": "JLwFGGpH",
+            "mode": "rated",
+            "month": "2023-01",
+            "speed": "blitz",
+            "white": {
+              "name": "slow_pawn_attack",
+              "rating": 2077
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 1
+        },
+        {
+          "averageRating": 2054,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "matoma0208",
+              "rating": 2054
+            },
+            "id": "uYp0CRif",
+            "mode": "rated",
+            "month": "2023-01",
+            "speed": "blitz",
+            "white": {
+              "name": "manikuttankp",
+              "rating": 2025
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 3485
+    },
+    "2023-02": {
+      "black": 2686,
+      "draws": 410,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 2443,
+          "draws": 366,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2799
+        },
+        {
+          "averageRating": 2092,
+          "black": 103,
+          "draws": 22,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 138
+        },
+        {
+          "averageRating": 2092,
+          "black": 78,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 110
+        },
+        {
+          "averageRating": 2094,
+          "black": 31,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 18
+        },
+        {
+          "averageRating": 2069,
+          "black": 13,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 15
+        },
+        {
+          "averageRating": 2129,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 12
+        },
+        {
+          "averageRating": 2071,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 2
+        },
+        {
+          "averageRating": 2108,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 3
+        },
+        {
+          "averageRating": 2110,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2225,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bh6",
+          "uci": "f8h6",
+          "white": 1
+        },
+        {
+          "averageRating": 2080,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "avetinja1975",
+              "rating": 2080
+            },
+            "id": "swYOFBsS",
+            "mode": "rated",
+            "month": "2023-02",
+            "speed": "blitz",
+            "white": {
+              "name": "T_L_R",
+              "rating": 2055
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 0
+        },
+        {
+          "averageRating": 2047,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "DPBalanga",
+              "rating": 2047
+            },
+            "id": "Vjye8w63",
+            "mode": "rated",
+            "month": "2023-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Lemonade_1",
+              "rating": 1968
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "g5",
+          "uci": "g6g5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 3099
+    },
+    "2023-03": {
+      "black": 3076,
+      "draws": 458,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 2771,
+          "draws": 413,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 3087
+        },
+        {
+          "averageRating": 2102,
+          "black": 145,
+          "draws": 26,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 175
+        },
+        {
+          "averageRating": 2089,
+          "black": 106,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 108
+        },
+        {
+          "averageRating": 2120,
+          "black": 28,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 23
+        },
+        {
+          "averageRating": 2055,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 26
+        },
+        {
+          "averageRating": 2104,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 14
+        },
+        {
+          "averageRating": 2134,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 0
+        },
+        {
+          "averageRating": 2163,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 2
+        },
+        {
+          "averageRating": 2044,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bh6",
+          "uci": "f8h6",
+          "white": 2
+        },
+        {
+          "averageRating": 2039,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "Fisshherr",
+              "rating": 2039
+            },
+            "id": "UN3U8QGG",
+            "mode": "rated",
+            "month": "2023-03",
+            "speed": "blitz",
+            "white": {
+              "name": "D-Fenserov",
+              "rating": 2096
+            },
+            "winner": null,
+            "year": 2023
+          },
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 0
+        },
+        {
+          "averageRating": 2140,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "marshallGN",
+              "rating": 2140
+            },
+            "id": "wFsZtp9p",
+            "mode": "rated",
+            "month": "2023-03",
+            "speed": "blitz",
+            "white": {
+              "name": "washishta501",
+              "rating": 2136
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 3437
+    },
+    "2023-04": {
+      "black": 2970,
+      "draws": 392,
+      "moves": [
+        {
+          "averageRating": 2104,
+          "black": 2706,
+          "draws": 355,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2933
+        },
+        {
+          "averageRating": 2096,
+          "black": 141,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 190
+        },
+        {
+          "averageRating": 2079,
+          "black": 79,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 111
+        },
+        {
+          "averageRating": 2085,
+          "black": 10,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 34
+        },
+        {
+          "averageRating": 2108,
+          "black": 18,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 13
+        },
+        {
+          "averageRating": 2110,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 13
+        },
+        {
+          "averageRating": 2057,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 3
+        },
+        {
+          "averageRating": 2090,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2133,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 0
+        },
+        {
+          "averageRating": 2069,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Le_Grave_Musicien",
+              "rating": 2069
+            },
+            "id": "mY8fSkdr",
+            "mode": "rated",
+            "month": "2023-04",
+            "speed": "blitz",
+            "white": {
+              "name": "forbeserwin50",
+              "rating": 2097
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bh6",
+          "uci": "f8h6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 3298
+    },
+    "2023-05": {
+      "black": 3126,
+      "draws": 492,
+      "moves": [
+        {
+          "averageRating": 2105,
+          "black": 2838,
+          "draws": 453,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 3156
+        },
+        {
+          "averageRating": 2098,
+          "black": 128,
+          "draws": 24,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 153
+        },
+        {
+          "averageRating": 2090,
+          "black": 105,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 110
+        },
+        {
+          "averageRating": 2122,
+          "black": 26,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 26
+        },
+        {
+          "averageRating": 2085,
+          "black": 14,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 18
+        },
+        {
+          "averageRating": 2118,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 13
+        },
+        {
+          "averageRating": 2123,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 3
+        },
+        {
+          "averageRating": 2056,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 2
+        },
+        {
+          "averageRating": 2083,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bh6",
+          "uci": "f8h6",
+          "white": 2
+        },
+        {
+          "averageRating": 2189,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1
+        },
+        {
+          "averageRating": 1990,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "jalak_Patih_HCN",
+              "rating": 1990
+            },
+            "id": "4dNH50Nt",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "MN_abdazis",
+              "rating": 2138
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 3485
+    },
+    "2023-06": {
+      "black": 2786,
+      "draws": 399,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 2538,
+          "draws": 365,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2832
+        },
+        {
+          "averageRating": 2098,
+          "black": 119,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 145
+        },
+        {
+          "averageRating": 2095,
+          "black": 85,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 93
+        },
+        {
+          "averageRating": 2098,
+          "black": 25,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 23
+        },
+        {
+          "averageRating": 2092,
+          "black": 11,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 15
+        },
+        {
+          "averageRating": 2109,
+          "black": 7,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 12
+        },
+        {
+          "averageRating": 2075,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 3
+        },
+        {
+          "averageRating": 2082,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 3
+        },
+        {
+          "averageRating": 2102,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "kborock",
+              "rating": 2102
+            },
+            "id": "IEbJkxFW",
+            "mode": "rated",
+            "month": "2023-06",
+            "speed": "blitz",
+            "white": {
+              "name": "davisreti",
+              "rating": 2129
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bh6",
+          "uci": "f8h6",
+          "white": 0
+        },
+        {
+          "averageRating": 2153,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Danifane",
+              "rating": 2153
+            },
+            "id": "8G57KIZx",
+            "mode": "rated",
+            "month": "2023-06",
+            "speed": "blitz",
+            "white": {
+              "name": "Temurbek111",
+              "rating": 2148
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1
+        },
+        {
+          "averageRating": 2180,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "irsa5227",
+              "rating": 2180
+            },
+            "id": "9EUWZZfl",
+            "mode": "rated",
+            "month": "2023-06",
+            "speed": "blitz",
+            "white": {
+              "name": "Dani097",
+              "rating": 2137
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 3128
+    },
+    "2023-07": {
+      "black": 2912,
+      "draws": 425,
+      "moves": [
+        {
+          "averageRating": 2104,
+          "black": 2667,
+          "draws": 382,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2986
+        },
+        {
+          "averageRating": 2096,
+          "black": 120,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 140
+        },
+        {
+          "averageRating": 2088,
+          "black": 77,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 100
+        },
+        {
+          "averageRating": 2115,
+          "black": 25,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 23
+        },
+        {
+          "averageRating": 2161,
+          "black": 7,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 12
+        },
+        {
+          "averageRating": 2032,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 9
+        },
+        {
+          "averageRating": 2088,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 3
+        },
+        {
+          "averageRating": 2085,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 0
+        },
+        {
+          "averageRating": 2203,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "FrankWillow",
+              "rating": 2203
+            },
+            "id": "qay6tQAL",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "knocikIII",
+              "rating": 2173
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bh6",
+          "uci": "f8h6",
+          "white": 1
+        },
+        {
+          "averageRating": 2085,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "pipka2281337",
+              "rating": 2085
+            },
+            "id": "srahOVPH",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "Oberweier40",
+              "rating": 2084
+            },
+            "winner": null,
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Na6",
+          "uci": "b8a6",
+          "white": 0
+        },
+        {
+          "averageRating": 2007,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Ro_marioM1",
+              "rating": 2007
+            },
+            "id": "mHV2bK7g",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "Checkravuh",
+              "rating": 2074
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 0
+        },
+        {
+          "averageRating": 2052,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "TaniaMon",
+              "rating": 2052
+            },
+            "id": "KirrQU0W",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "colandco",
+              "rating": 2025
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 3276
+    },
+    "2023-08": {
+      "black": 2800,
+      "draws": 393,
+      "moves": [
+        {
+          "averageRating": 2103,
+          "black": 2591,
+          "draws": 357,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2815
+        },
+        {
+          "averageRating": 2085,
+          "black": 95,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 146
+        },
+        {
+          "averageRating": 2090,
+          "black": 77,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 98
+        },
+        {
+          "averageRating": 2108,
+          "black": 19,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 25
+        },
+        {
+          "averageRating": 2092,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 15
+        },
+        {
+          "averageRating": 2135,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 10
+        },
+        {
+          "averageRating": 2110,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 4
+        },
+        {
+          "averageRating": 2057,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 2
+        },
+        {
+          "averageRating": 2160,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 2
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 3117
+    },
+    "2023-09": {
+      "black": 2735,
+      "draws": 432,
+      "moves": [
+        {
+          "averageRating": 2103,
+          "black": 2513,
+          "draws": 396,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2707
+        },
+        {
+          "averageRating": 2102,
+          "black": 117,
+          "draws": 24,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 141
+        },
+        {
+          "averageRating": 2074,
+          "black": 61,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 84
+        },
+        {
+          "averageRating": 2113,
+          "black": 21,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 26
+        },
+        {
+          "averageRating": 2080,
+          "black": 9,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 14
+        },
+        {
+          "averageRating": 2075,
+          "black": 10,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 14
+        },
+        {
+          "averageRating": 2048,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 3
+        },
+        {
+          "averageRating": 2123,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 1
+        },
+        {
+          "averageRating": 2128,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Zhirtrest",
+              "rating": 2128
+            },
+            "id": "tDSoZ5MA",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "HappyPillows",
+              "rating": 2092
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bh6",
+          "uci": "f8h6",
+          "white": 1
+        },
+        {
+          "averageRating": 2137,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Touthankamon",
+              "rating": 2137
+            },
+            "id": "YizenRle",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "sarathiray",
+              "rating": 2209
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 0
+        },
+        {
+          "averageRating": 2043,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "nyhc",
+              "rating": 2043
+            },
+            "id": "bCBBdCKs",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "Yosrus23",
+              "rating": 2006
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 2992
+    },
+    "2023-10": {
+      "black": 2844,
+      "draws": 412,
+      "moves": [
+        {
+          "averageRating": 2104,
+          "black": 2603,
+          "draws": 369,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2873
+        },
+        {
+          "averageRating": 2098,
+          "black": 116,
+          "draws": 29,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 163
+        },
+        {
+          "averageRating": 2085,
+          "black": 85,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 120
+        },
+        {
+          "averageRating": 2115,
+          "black": 23,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 22
+        },
+        {
+          "averageRating": 2106,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 13
+        },
+        {
+          "averageRating": 2094,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 9
+        },
+        {
+          "averageRating": 2082,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 5
+        },
+        {
+          "averageRating": 2077,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 2
+        },
+        {
+          "averageRating": 2066,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 2
+        },
+        {
+          "averageRating": 2034,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "dmafra",
+              "rating": 2034
+            },
+            "id": "QEDh2bZn",
+            "mode": "rated",
+            "month": "2023-10",
+            "speed": "blitz",
+            "white": {
+              "name": "asyamal",
+              "rating": 2101
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 0
+        },
+        {
+          "averageRating": 2132,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Ashraf202",
+              "rating": 2132
+            },
+            "id": "zVkYIvWW",
+            "mode": "rated",
+            "month": "2023-10",
+            "speed": "blitz",
+            "white": {
+              "name": "abdulrhman_farrah",
+              "rating": 2038
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 3210
+    },
+    "2023-11": {
+      "black": 2582,
+      "draws": 392,
+      "moves": [
+        {
+          "averageRating": 2104,
+          "black": 2342,
+          "draws": 364,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2785
+        },
+        {
+          "averageRating": 2088,
+          "black": 109,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 132
+        },
+        {
+          "averageRating": 2086,
+          "black": 78,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 113
+        },
+        {
+          "averageRating": 2123,
+          "black": 28,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 23
+        },
+        {
+          "averageRating": 2093,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 16
+        },
+        {
+          "averageRating": 2104,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 14
+        },
+        {
+          "averageRating": 2119,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 0
+        },
+        {
+          "averageRating": 2095,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "zero_man",
+              "rating": 2095
+            },
+            "id": "bvFJBD4d",
+            "mode": "rated",
+            "month": "2023-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Fedor7777777",
+              "rating": 2079
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1
+        },
+        {
+          "averageRating": 2040,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "dalisay",
+              "rating": 2040
+            },
+            "id": "H5suFm4z",
+            "mode": "rated",
+            "month": "2023-11",
+            "speed": "blitz",
+            "white": {
+              "name": "vaskrish1",
+              "rating": 2054
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 0
+        },
+        {
+          "averageRating": 2206,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "DoctorSchitz",
+              "rating": 2206
+            },
+            "id": "2hCgcbCp",
+            "mode": "rated",
+            "month": "2023-11",
+            "speed": "blitz",
+            "white": {
+              "name": "hubisa3",
+              "rating": 2121
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 3084
+    },
+    "2023-12": {
+      "black": 2813,
+      "draws": 419,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 2549,
+          "draws": 364,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2784
+        },
+        {
+          "averageRating": 2093,
+          "black": 116,
+          "draws": 28,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 116
+        },
+        {
+          "averageRating": 2095,
+          "black": 97,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 116
+        },
+        {
+          "averageRating": 2102,
+          "black": 24,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 23
+        },
+        {
+          "averageRating": 2134,
+          "black": 18,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 14
+        },
+        {
+          "averageRating": 2059,
+          "black": 5,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 12
+        },
+        {
+          "averageRating": 2098,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 1
+        },
+        {
+          "averageRating": 2063,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2108,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1
+        },
+        {
+          "averageRating": 1810,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Absurdalnyruch",
+              "rating": 1810
+            },
+            "id": "BIt0qMEr",
+            "mode": "rated",
+            "month": "2023-12",
+            "speed": "blitz",
+            "white": {
+              "name": "ALONGUS",
+              "rating": 2221
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Ng4",
+          "uci": "f6g4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 3069
+    },
+    "2024-01": {
+      "black": 2915,
+      "draws": 435,
+      "moves": [
+        {
+          "averageRating": 2105,
+          "black": 2656,
+          "draws": 395,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2966
+        },
+        {
+          "averageRating": 2096,
+          "black": 117,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 129
+        },
+        {
+          "averageRating": 2078,
+          "black": 94,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 117
+        },
+        {
+          "averageRating": 2110,
+          "black": 27,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 28
+        },
+        {
+          "averageRating": 2088,
+          "black": 10,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 20
+        },
+        {
+          "averageRating": 2114,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 13
+        },
+        {
+          "averageRating": 2078,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 3
+        },
+        {
+          "averageRating": 2008,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2007,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Gucci_Mate",
+              "rating": 2007
+            },
+            "id": "8PPg1oxJ",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "pangkep",
+              "rating": 1993
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1
+        },
+        {
+          "averageRating": 2185,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Jacye",
+              "rating": 2185
+            },
+            "id": "nTw27p6e",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "dmodos13",
+              "rating": 2127
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 1
+        },
+        {
+          "averageRating": 2385,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "taras05",
+              "rating": 2385
+            },
+            "id": "unnm1nyu",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Der_kleine_Gigant",
+              "rating": 1968
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 3279
+    },
+    "2024-02": {
+      "black": 2670,
+      "draws": 414,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 2442,
+          "draws": 374,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2753
+        },
+        {
+          "averageRating": 2096,
+          "black": 110,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 108
+        },
+        {
+          "averageRating": 2081,
+          "black": 75,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 127
+        },
+        {
+          "averageRating": 2127,
+          "black": 21,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 21
+        },
+        {
+          "averageRating": 2110,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 12
+        },
+        {
+          "averageRating": 2108,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 11
+        },
+        {
+          "averageRating": 2117,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 2
+        },
+        {
+          "averageRating": 2236,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 0
+        },
+        {
+          "averageRating": 2013,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "fabschess",
+              "rating": 2013
+            },
+            "id": "Nqt5Zf4h",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "iwhank",
+              "rating": 2018
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 3034
+    },
+    "2024-03": {
+      "black": 2773,
+      "draws": 398,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 2522,
+          "draws": 356,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2905
+        },
+        {
+          "averageRating": 2103,
+          "black": 114,
+          "draws": 21,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 122
+        },
+        {
+          "averageRating": 2090,
+          "black": 87,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 87
+        },
+        {
+          "averageRating": 2112,
+          "black": 22,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 21
+        },
+        {
+          "averageRating": 2074,
+          "black": 13,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 17
+        },
+        {
+          "averageRating": 2080,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 15
+        },
+        {
+          "averageRating": 2052,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 1
+        },
+        {
+          "averageRating": 2079,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bh6",
+          "uci": "f8h6",
+          "white": 1
+        },
+        {
+          "averageRating": 2175,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 0
+        },
+        {
+          "averageRating": 1966,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Kcvilla98",
+              "rating": 1966
+            },
+            "id": "oA79EavO",
+            "mode": "rated",
+            "month": "2024-03",
+            "speed": "blitz",
+            "white": {
+              "name": "Flarion",
+              "rating": 2219
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 3170
+    },
+    "2024-04": {
+      "black": 2512,
+      "draws": 372,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 2303,
+          "draws": 332,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2499
+        },
+        {
+          "averageRating": 2105,
+          "black": 84,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 106
+        },
+        {
+          "averageRating": 2073,
+          "black": 78,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 78
+        },
+        {
+          "averageRating": 2117,
+          "black": 22,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 26
+        },
+        {
+          "averageRating": 2081,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 22
+        },
+        {
+          "averageRating": 2083,
+          "black": 12,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 11
+        },
+        {
+          "averageRating": 2111,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 3
+        },
+        {
+          "averageRating": 2048,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 2
+        },
+        {
+          "averageRating": 2065,
+          "black": 0,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bh6",
+          "uci": "f8h6",
+          "white": 0
+        },
+        {
+          "averageRating": 2139,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Undercover_123",
+              "rating": 2139
+            },
+            "id": "uP3xOCZS",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "ahmad5555",
+              "rating": 2089
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Rg8",
+          "uci": "h8g8",
+          "white": 0
+        },
+        {
+          "averageRating": 2188,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Antelikas",
+              "rating": 2188
+            },
+            "id": "7yXX02el",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Spartach1981",
+              "rating": 2046
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1
+        },
+        {
+          "averageRating": 2011,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "merem1merem",
+              "rating": 2011
+            },
+            "id": "C3nSul5D",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Dsyce1",
+              "rating": 1990
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 2749
+    },
+    "2024-05": {
+      "black": 2735,
+      "draws": 425,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 2500,
+          "draws": 387,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2839
+        },
+        {
+          "averageRating": 2098,
+          "black": 120,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 137
+        },
+        {
+          "averageRating": 2081,
+          "black": 70,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 127
+        },
+        {
+          "averageRating": 2097,
+          "black": 25,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 29
+        },
+        {
+          "averageRating": 2101,
+          "black": 7,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 14
+        },
+        {
+          "averageRating": 2088,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 6
+        },
+        {
+          "averageRating": 2100,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 2
+        },
+        {
+          "averageRating": 2231,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "OysterBand",
+              "rating": 2231
+            },
+            "id": "lmfpuOzJ",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "ahmad5555",
+              "rating": 2131
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1
+        },
+        {
+          "averageRating": 2122,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Marc_Pistole",
+              "rating": 2122
+            },
+            "id": "pqrw88vz",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "edgarlongas",
+              "rating": 2203
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bh6",
+          "uci": "f8h6",
+          "white": 1
+        },
+        {
+          "averageRating": 2132,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "rudolphP",
+              "rating": 2132
+            },
+            "id": "lLoa3UYl",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "fdavidf",
+              "rating": 2146
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 3156
+    },
+    "2024-06": {
+      "black": 2519,
+      "draws": 388,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 2274,
+          "draws": 352,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2500
+        },
+        {
+          "averageRating": 2097,
+          "black": 130,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 118
+        },
+        {
+          "averageRating": 2085,
+          "black": 82,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 70
+        },
+        {
+          "averageRating": 2101,
+          "black": 18,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 28
+        },
+        {
+          "averageRating": 2065,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 11
+        },
+        {
+          "averageRating": 2141,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 7
+        },
+        {
+          "averageRating": 2132,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 2
+        },
+        {
+          "averageRating": 2066,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bh6",
+          "uci": "f8h6",
+          "white": 0
+        },
+        {
+          "averageRating": 2113,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1
+        },
+        {
+          "averageRating": 2006,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Realmarshall",
+              "rating": 2006
+            },
+            "id": "hKZWoBr1",
+            "mode": "rated",
+            "month": "2024-06",
+            "speed": "blitz",
+            "white": {
+              "name": "lionceau27",
+              "rating": 2034
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        },
+        {
+          "averageRating": 1769,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "luismotagarcialfredo",
+              "rating": 1769
+            },
+            "id": "wmSQJ6qy",
+            "mode": "rated",
+            "month": "2024-06",
+            "speed": "blitz",
+            "white": {
+              "name": "max_ko1983",
+              "rating": 2262
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 2739
+    },
+    "2024-07": {
+      "black": 2595,
+      "draws": 424,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 2393,
+          "draws": 390,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2635
+        },
+        {
+          "averageRating": 2103,
+          "black": 97,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 126
+        },
+        {
+          "averageRating": 2096,
+          "black": 56,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 85
+        },
+        {
+          "averageRating": 2098,
+          "black": 22,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 20
+        },
+        {
+          "averageRating": 2124,
+          "black": 12,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 13
+        },
+        {
+          "averageRating": 2103,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 12
+        },
+        {
+          "averageRating": 2128,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 2
+        },
+        {
+          "averageRating": 2080,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 2
+        },
+        {
+          "averageRating": 1798,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "fadly1985",
+              "rating": 1798
+            },
+            "id": "IUMVMp5u",
+            "mode": "rated",
+            "month": "2024-07",
+            "speed": "blitz",
+            "white": {
+              "name": "BONSITBKD",
+              "rating": 2358
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 2895
+    },
+    "2024-08": {
+      "black": 2837,
+      "draws": 424,
+      "moves": [
+        {
+          "averageRating": 2103,
+          "black": 2594,
+          "draws": 374,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2845
+        },
+        {
+          "averageRating": 2089,
+          "black": 123,
+          "draws": 21,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 114
+        },
+        {
+          "averageRating": 2093,
+          "black": 66,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 106
+        },
+        {
+          "averageRating": 2109,
+          "black": 26,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 27
+        },
+        {
+          "averageRating": 2087,
+          "black": 14,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 9
+        },
+        {
+          "averageRating": 2101,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 14
+        },
+        {
+          "averageRating": 2133,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 3
+        },
+        {
+          "averageRating": 2095,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 2
+        },
+        {
+          "averageRating": 2152,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bh6",
+          "uci": "f8h6",
+          "white": 0
+        },
+        {
+          "averageRating": 2191,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Espinchess",
+              "rating": 2191
+            },
+            "id": "AwmnNSe4",
+            "mode": "rated",
+            "month": "2024-08",
+            "speed": "blitz",
+            "white": {
+              "name": "AzriDzakiHanif",
+              "rating": 2154
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 3121
+    },
+    "2024-09": {
+      "black": 2681,
+      "draws": 385,
+      "moves": [
+        {
+          "averageRating": 2103,
+          "black": 2463,
+          "draws": 351,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2598
+        },
+        {
+          "averageRating": 2096,
+          "black": 106,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 119
+        },
+        {
+          "averageRating": 2080,
+          "black": 59,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 103
+        },
+        {
+          "averageRating": 2108,
+          "black": 22,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 24
+        },
+        {
+          "averageRating": 2120,
+          "black": 16,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 12
+        },
+        {
+          "averageRating": 2087,
+          "black": 8,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 10
+        },
+        {
+          "averageRating": 2070,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 4
+        },
+        {
+          "averageRating": 2097,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 2
+        },
+        {
+          "averageRating": 2030,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "shalapayuliy",
+              "rating": 2030
+            },
+            "id": "PyEKXvXr",
+            "mode": "rated",
+            "month": "2024-09",
+            "speed": "blitz",
+            "white": {
+              "name": "dansummers39",
+              "rating": 2044
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Na6",
+          "uci": "b8a6",
+          "white": 0
+        },
+        {
+          "averageRating": 2112,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "saladetomateoignon2",
+              "rating": 2112
+            },
+            "id": "FSFKrkEm",
+            "mode": "rated",
+            "month": "2024-09",
+            "speed": "blitz",
+            "white": {
+              "name": "GoetheSchuleBO_TC",
+              "rating": 2205
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 2872
+    },
+    "2024-10": {
+      "black": 2872,
+      "draws": 417,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 2627,
+          "draws": 370,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2799
+        },
+        {
+          "averageRating": 2089,
+          "black": 119,
+          "draws": 26,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 158
+        },
+        {
+          "averageRating": 2094,
+          "black": 77,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 82
+        },
+        {
+          "averageRating": 2104,
+          "black": 24,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 28
+        },
+        {
+          "averageRating": 2066,
+          "black": 11,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 14
+        },
+        {
+          "averageRating": 2093,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 9
+        },
+        {
+          "averageRating": 2113,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 1
+        },
+        {
+          "averageRating": 2087,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2003,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "pawn001",
+              "rating": 2003
+            },
+            "id": "gmLeDsU2",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "BrenoLino",
+              "rating": 2071
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 3092
+    },
+    "2024-11": {
+      "black": 2577,
+      "draws": 383,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 2347,
+          "draws": 350,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2608
+        },
+        {
+          "averageRating": 2092,
+          "black": 114,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 112
+        },
+        {
+          "averageRating": 2087,
+          "black": 71,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 86
+        },
+        {
+          "averageRating": 2116,
+          "black": 20,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 23
+        },
+        {
+          "averageRating": 2103,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 13
+        },
+        {
+          "averageRating": 2076,
+          "black": 10,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 9
+        },
+        {
+          "averageRating": 2071,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 2
+        },
+        {
+          "averageRating": 2112,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 0
+        },
+        {
+          "averageRating": 2082,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "blackout00",
+              "rating": 2082
+            },
+            "id": "xTOxYFQe",
+            "mode": "rated",
+            "month": "2024-11",
+            "speed": "blitz",
+            "white": {
+              "name": "m_shaleen",
+              "rating": 2019
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 1
+        },
+        {
+          "averageRating": 1904,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Fischer78-02",
+              "rating": 1904
+            },
+            "id": "HbjfhLwk",
+            "mode": "rated",
+            "month": "2024-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Jayson_Maranan_03",
+              "rating": 2273
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 2855
+    },
+    "2024-12": {
+      "black": 2732,
+      "draws": 439,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 2482,
+          "draws": 405,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 3017
+        },
+        {
+          "averageRating": 2095,
+          "black": 127,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 152
+        },
+        {
+          "averageRating": 2090,
+          "black": 63,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 90
+        },
+        {
+          "averageRating": 2121,
+          "black": 28,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 31
+        },
+        {
+          "averageRating": 2088,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 12
+        },
+        {
+          "averageRating": 2089,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 10
+        },
+        {
+          "averageRating": 2081,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 2
+        },
+        {
+          "averageRating": 2251,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1
+        },
+        {
+          "averageRating": 2160,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "anonim007nn",
+              "rating": 2160
+            },
+            "id": "dv7RYSbt",
+            "mode": "rated",
+            "month": "2024-12",
+            "speed": "blitz",
+            "white": {
+              "name": "Mbarani11223",
+              "rating": 1934
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 0
+        },
+        {
+          "averageRating": 2200,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "DalmatianOnThe_Board",
+              "rating": 2200
+            },
+            "id": "CRs0IKmh",
+            "mode": "rated",
+            "month": "2024-12",
+            "speed": "blitz",
+            "white": {
+              "name": "Spasologija",
+              "rating": 1939
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bh6",
+          "uci": "f8h6",
+          "white": 1
+        },
+        {
+          "averageRating": 2117,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Noghay09",
+              "rating": 2117
+            },
+            "id": "tuMiI809",
+            "mode": "rated",
+            "month": "2024-12",
+            "speed": "blitz",
+            "white": {
+              "name": "mariogordovez1",
+              "rating": 2049
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 0
+        },
+        {
+          "averageRating": 2016,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ratert",
+              "rating": 2016
+            },
+            "id": "h67mzHzf",
+            "mode": "rated",
+            "month": "2024-12",
+            "speed": "blitz",
+            "white": {
+              "name": "n2009yaa",
+              "rating": 1994
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 3317
+    },
+    "2025-01": {
+      "black": 2787,
+      "draws": 444,
+      "moves": [
+        {
+          "averageRating": 2104,
+          "black": 2541,
+          "draws": 403,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2895
+        },
+        {
+          "averageRating": 2094,
+          "black": 117,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 144
+        },
+        {
+          "averageRating": 2075,
+          "black": 70,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 90
+        },
+        {
+          "averageRating": 2104,
+          "black": 33,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 17
+        },
+        {
+          "averageRating": 2124,
+          "black": 17,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 18
+        },
+        {
+          "averageRating": 2071,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 7
+        },
+        {
+          "averageRating": 2122,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 5
+        },
+        {
+          "averageRating": 2150,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1
+        },
+        {
+          "averageRating": 1928,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Gagojan56",
+              "rating": 1928
+            },
+            "id": "F8n5GsOm",
+            "mode": "rated",
+            "month": "2025-01",
+            "speed": "blitz",
+            "white": {
+              "name": "s_k_o_u",
+              "rating": 2186
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 3178
+    },
+    "2025-02": {
+      "black": 2546,
+      "draws": 383,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 2343,
+          "draws": 348,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2497
+        },
+        {
+          "averageRating": 2100,
+          "black": 93,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 97
+        },
+        {
+          "averageRating": 2080,
+          "black": 64,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 111
+        },
+        {
+          "averageRating": 2105,
+          "black": 26,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 29
+        },
+        {
+          "averageRating": 2121,
+          "black": 8,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 5
+        },
+        {
+          "averageRating": 2141,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 10
+        },
+        {
+          "averageRating": 2079,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 5
+        },
+        {
+          "averageRating": 2168,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 2
+        },
+        {
+          "averageRating": 2139,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 0
+        },
+        {
+          "averageRating": 2117,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "mODe-SiLent_CHF",
+              "rating": 2117
+            },
+            "id": "FArT0H1A",
+            "mode": "rated",
+            "month": "2025-02",
+            "speed": "blitz",
+            "white": {
+              "name": "O7zKTLC",
+              "rating": 2038
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bh6",
+          "uci": "f8h6",
+          "white": 1
+        },
+        {
+          "averageRating": 2189,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ChessbastianD",
+              "rating": 2189
+            },
+            "id": "OOkIt2tb",
+            "mode": "rated",
+            "month": "2025-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Toni_ccc1",
+              "rating": 2160
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 2758
+    },
+    "2025-03": {
+      "black": 2805,
+      "draws": 410,
+      "moves": [
+        {
+          "averageRating": 2103,
+          "black": 2558,
+          "draws": 377,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2713
+        },
+        {
+          "averageRating": 2087,
+          "black": 111,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 148
+        },
+        {
+          "averageRating": 2085,
+          "black": 85,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 84
+        },
+        {
+          "averageRating": 2100,
+          "black": 27,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 26
+        },
+        {
+          "averageRating": 2119,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 13
+        },
+        {
+          "averageRating": 2109,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 9
+        },
+        {
+          "averageRating": 2045,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 3
+        },
+        {
+          "averageRating": 2143,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1
+        },
+        {
+          "averageRating": 2010,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Ziga84",
+              "rating": 2010
+            },
+            "id": "MuqtGtIg",
+            "mode": "rated",
+            "month": "2025-03",
+            "speed": "blitz",
+            "white": {
+              "name": "yen115chess",
+              "rating": 2050
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 2997
+    },
+    "2025-04": {
+      "black": 2518,
+      "draws": 402,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 2351,
+          "draws": 365,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2557
+        },
+        {
+          "averageRating": 2095,
+          "black": 76,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 105
+        },
+        {
+          "averageRating": 2067,
+          "black": 56,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 84
+        },
+        {
+          "averageRating": 2105,
+          "black": 18,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 21
+        },
+        {
+          "averageRating": 2103,
+          "black": 4,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 16
+        },
+        {
+          "averageRating": 2094,
+          "black": 6,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 13
+        },
+        {
+          "averageRating": 2055,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 2
+        },
+        {
+          "averageRating": 2083,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 0
+        },
+        {
+          "averageRating": 2363,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1
+        },
+        {
+          "averageRating": 2019,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "Vincent-Vegeta",
+              "rating": 2019
+            },
+            "id": "DYN6AVfC",
+            "mode": "rated",
+            "month": "2025-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Draywilliams25",
+              "rating": 2154
+            },
+            "winner": null,
+            "year": 2025
+          },
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 0
+        },
+        {
+          "averageRating": 2173,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Limon2973",
+              "rating": 2173
+            },
+            "id": "nudMaNKG",
+            "mode": "rated",
+            "month": "2025-04",
+            "speed": "blitz",
+            "white": {
+              "name": "bearcats",
+              "rating": 2099
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 2800
+    },
+    "2025-05": {
+      "black": 2490,
+      "draws": 362,
+      "moves": [
+        {
+          "averageRating": 2103,
+          "black": 2260,
+          "draws": 323,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2538
+        },
+        {
+          "averageRating": 2097,
+          "black": 106,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 106
+        },
+        {
+          "averageRating": 2089,
+          "black": 74,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 81
+        },
+        {
+          "averageRating": 2097,
+          "black": 24,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 22
+        },
+        {
+          "averageRating": 2080,
+          "black": 11,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 11
+        },
+        {
+          "averageRating": 2093,
+          "black": 9,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 6
+        },
+        {
+          "averageRating": 2103,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 2
+        },
+        {
+          "averageRating": 2108,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 2767
+    },
+    "2025-06": {
+      "black": 2488,
+      "draws": 360,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 2296,
+          "draws": 321,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2406
+        },
+        {
+          "averageRating": 2091,
+          "black": 90,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 112
+        },
+        {
+          "averageRating": 2075,
+          "black": 65,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 66
+        },
+        {
+          "averageRating": 2095,
+          "black": 16,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 25
+        },
+        {
+          "averageRating": 2120,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 17
+        },
+        {
+          "averageRating": 2060,
+          "black": 8,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 12
+        },
+        {
+          "averageRating": 2100,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 2
+        },
+        {
+          "averageRating": 2078,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2080,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "mehero2000",
+              "rating": 2080
+            },
+            "id": "L3iqnl6e",
+            "mode": "rated",
+            "month": "2025-06",
+            "speed": "blitz",
+            "white": {
+              "name": "bearcats",
+              "rating": 2031
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 2641
+    },
+    "2025-07": {
+      "black": 2540,
+      "draws": 373,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 2340,
+          "draws": 346,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2549
+        },
+        {
+          "averageRating": 2101,
+          "black": 94,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 104
+        },
+        {
+          "averageRating": 2076,
+          "black": 64,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 85
+        },
+        {
+          "averageRating": 2094,
+          "black": 19,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 21
+        },
+        {
+          "averageRating": 2108,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 5
+        },
+        {
+          "averageRating": 2093,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 4
+        },
+        {
+          "averageRating": 2139,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 1
+        },
+        {
+          "averageRating": 2094,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 2
+        },
+        {
+          "averageRating": 2096,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2169,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "AlexandruEnache",
+              "rating": 2169
+            },
+            "id": "1VOPk67C",
+            "mode": "rated",
+            "month": "2025-07",
+            "speed": "blitz",
+            "white": {
+              "name": "Kealeboga_Thari",
+              "rating": 2038
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 1
+        },
+        {
+          "averageRating": 2098,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Xiaolei",
+              "rating": 2098
+            },
+            "id": "UWpggdOe",
+            "mode": "rated",
+            "month": "2025-07",
+            "speed": "blitz",
+            "white": {
+              "name": "shawnthun",
+              "rating": 2243
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bh6",
+          "uci": "f8h6",
+          "white": 0
+        },
+        {
+          "averageRating": 2050,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "coruscante",
+              "rating": 2050
+            },
+            "id": "kqehYzVW",
+            "mode": "rated",
+            "month": "2025-07",
+            "speed": "blitz",
+            "white": {
+              "name": "Sunmaker",
+              "rating": 2143
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 2773
+    },
+    "2025-08": {
+      "black": 2456,
+      "draws": 398,
+      "moves": [
+        {
+          "averageRating": 2104,
+          "black": 2255,
+          "draws": 369,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2466
+        },
+        {
+          "averageRating": 2085,
+          "black": 79,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 112
+        },
+        {
+          "averageRating": 2087,
+          "black": 79,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 90
+        },
+        {
+          "averageRating": 2121,
+          "black": 21,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 16
+        },
+        {
+          "averageRating": 2085,
+          "black": 12,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 9
+        },
+        {
+          "averageRating": 2079,
+          "black": 6,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 6
+        },
+        {
+          "averageRating": 2083,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 2
+        },
+        {
+          "averageRating": 2042,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 3
+        },
+        {
+          "averageRating": 2132,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1
+        },
+        {
+          "averageRating": 1991,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "acburst",
+              "rating": 1991
+            },
+            "id": "lPQGnHTz",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "KuharD",
+              "rating": 2082
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bh6",
+          "uci": "f8h6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 2706
+    },
+    "2025-09": {
+      "black": 2461,
+      "draws": 367,
+      "moves": [
+        {
+          "averageRating": 2105,
+          "black": 2251,
+          "draws": 335,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2465
+        },
+        {
+          "averageRating": 2093,
+          "black": 98,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 110
+        },
+        {
+          "averageRating": 2086,
+          "black": 66,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 91
+        },
+        {
+          "averageRating": 2091,
+          "black": 18,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 20
+        },
+        {
+          "averageRating": 2103,
+          "black": 11,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 17
+        },
+        {
+          "averageRating": 2100,
+          "black": 9,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 13
+        },
+        {
+          "averageRating": 2115,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 5
+        },
+        {
+          "averageRating": 2070,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 0
+        },
+        {
+          "averageRating": 2144,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 0
+        },
+        {
+          "averageRating": 2038,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Tanveer2620",
+              "rating": 2038
+            },
+            "id": "nRfVizDO",
+            "mode": "rated",
+            "month": "2025-09",
+            "speed": "blitz",
+            "white": {
+              "name": "limittesting1",
+              "rating": 2057
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bh6",
+          "uci": "f8h6",
+          "white": 1
+        },
+        {
+          "averageRating": 2175,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "rangerbiru",
+              "rating": 2175
+            },
+            "id": "oEyEj5Eh",
+            "mode": "rated",
+            "month": "2025-09",
+            "speed": "blitz",
+            "white": {
+              "name": "ClearBlueSky31",
+              "rating": 2194
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1
+        },
+        {
+          "averageRating": 2052,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ratert",
+              "rating": 2052
+            },
+            "id": "9Fht1kwE",
+            "mode": "rated",
+            "month": "2025-09",
+            "speed": "blitz",
+            "white": {
+              "name": "Luca_Agazzi",
+              "rating": 1961
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 2723
+    },
+    "2025-10": {
+      "black": 2573,
+      "draws": 422,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 2365,
+          "draws": 382,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2695
+        },
+        {
+          "averageRating": 2089,
+          "black": 103,
+          "draws": 23,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 118
+        },
+        {
+          "averageRating": 2099,
+          "black": 68,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 74
+        },
+        {
+          "averageRating": 2100,
+          "black": 14,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 17
+        },
+        {
+          "averageRating": 2119,
+          "black": 14,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 10
+        },
+        {
+          "averageRating": 2085,
+          "black": 6,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 11
+        },
+        {
+          "averageRating": 2076,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 9
+        },
+        {
+          "averageRating": 1995,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 2
+        },
+        {
+          "averageRating": 2062,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bh6",
+          "uci": "f8h6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 2937
+    },
+    "2025-11": {
+      "black": 2380,
+      "draws": 361,
+      "moves": [
+        {
+          "averageRating": 2104,
+          "black": 2176,
+          "draws": 331,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2349
+        },
+        {
+          "averageRating": 2097,
+          "black": 103,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 119
+        },
+        {
+          "averageRating": 2084,
+          "black": 55,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 61
+        },
+        {
+          "averageRating": 2101,
+          "black": 20,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 25
+        },
+        {
+          "averageRating": 2081,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 15
+        },
+        {
+          "averageRating": 2088,
+          "black": 9,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 9
+        },
+        {
+          "averageRating": 2118,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 2
+        },
+        {
+          "averageRating": 2027,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1
+        },
+        {
+          "averageRating": 2141,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Pinoygmkiller",
+              "rating": 2141
+            },
+            "id": "oX17MppO",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Dimas1991",
+              "rating": 2194
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 2581
+    },
+    "2025-12": {
+      "black": 2560,
+      "draws": 390,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 2332,
+          "draws": 345,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2509
+        },
+        {
+          "averageRating": 2101,
+          "black": 105,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 90
+        },
+        {
+          "averageRating": 2082,
+          "black": 69,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 78
+        },
+        {
+          "averageRating": 2121,
+          "black": 24,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 19
+        },
+        {
+          "averageRating": 2106,
+          "black": 15,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 9
+        },
+        {
+          "averageRating": 2077,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 13
+        },
+        {
+          "averageRating": 2084,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 6
+        },
+        {
+          "averageRating": 2054,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 0
+        },
+        {
+          "averageRating": 2205,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Diplodok-123",
+              "rating": 2205
+            },
+            "id": "DYq059WC",
+            "mode": "rated",
+            "month": "2025-12",
+            "speed": "blitz",
+            "white": {
+              "name": "Morangos",
+              "rating": 2147
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1
+        },
+        {
+          "averageRating": 1973,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Busel02_MCS",
+              "rating": 1973
+            },
+            "id": "aFcOuQud",
+            "mode": "rated",
+            "month": "2025-12",
+            "speed": "blitz",
+            "white": {
+              "name": "O7zKTLC",
+              "rating": 2033
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 2726
+    },
+    "2026-01": {
+      "black": 2419,
+      "draws": 385,
+      "moves": [
+        {
+          "averageRating": 2103,
+          "black": 2206,
+          "draws": 346,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2489
+        },
+        {
+          "averageRating": 2092,
+          "black": 102,
+          "draws": 21,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 138
+        },
+        {
+          "averageRating": 2083,
+          "black": 74,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 88
+        },
+        {
+          "averageRating": 2123,
+          "black": 17,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 18
+        },
+        {
+          "averageRating": 2091,
+          "black": 11,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 16
+        },
+        {
+          "averageRating": 2065,
+          "black": 3,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 8
+        },
+        {
+          "averageRating": 2094,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 3
+        },
+        {
+          "averageRating": 2102,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2191,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ArsenF2008",
+              "rating": 2191
+            },
+            "id": "vOgeu64H",
+            "mode": "rated",
+            "month": "2026-01",
+            "speed": "blitz",
+            "white": {
+              "name": "SAHCHILD",
+              "rating": 2172
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 0
+        },
+        {
+          "averageRating": 2052,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "yousuf212121",
+              "rating": 2052
+            },
+            "id": "om1q0Rk0",
+            "mode": "rated",
+            "month": "2026-01",
+            "speed": "blitz",
+            "white": {
+              "name": "JOEYNOOTH",
+              "rating": 2096
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 2761
+    },
+    "2026-02": {
+      "black": 2172,
+      "draws": 370,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 1989,
+          "draws": 341,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2221
+        },
+        {
+          "averageRating": 2081,
+          "black": 87,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 91
+        },
+        {
+          "averageRating": 2090,
+          "black": 66,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 71
+        },
+        {
+          "averageRating": 2131,
+          "black": 12,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 17
+        },
+        {
+          "averageRating": 2080,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 11
+        },
+        {
+          "averageRating": 2117,
+          "black": 4,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 10
+        },
+        {
+          "averageRating": 2030,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 2
+        },
+        {
+          "averageRating": 2063,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2096,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "cts2050",
+              "rating": 2096
+            },
+            "id": "YDQZEYxi",
+            "mode": "rated",
+            "month": "2026-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Samuel93724",
+              "rating": 2082
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1
+        },
+        {
+          "averageRating": 2121,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "F_Koumba",
+              "rating": 2121
+            },
+            "id": "6PLUAzYI",
+            "mode": "rated",
+            "month": "2026-02",
+            "speed": "blitz",
+            "white": {
+              "name": "FedericoSting",
+              "rating": 2099
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 2426
+    },
+    "2026-03": {
+      "black": 2411,
+      "draws": 372,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 2211,
+          "draws": 342,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 2338
+        },
+        {
+          "averageRating": 2100,
+          "black": 92,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 101
+        },
+        {
+          "averageRating": 2083,
+          "black": 65,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 92
+        },
+        {
+          "averageRating": 2092,
+          "black": 22,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 26
+        },
+        {
+          "averageRating": 2077,
+          "black": 10,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 13
+        },
+        {
+          "averageRating": 2088,
+          "black": 9,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 11
+        },
+        {
+          "averageRating": 2153,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1
+        },
+        {
+          "averageRating": 2098,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 2
+        },
+        {
+          "averageRating": 2132,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "Crni1957",
+              "rating": 2132
+            },
+            "id": "GHaj0wG7",
+            "mode": "rated",
+            "month": "2026-03",
+            "speed": "blitz",
+            "white": {
+              "name": "EaglePrince",
+              "rating": 2092
+            },
+            "winner": null,
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Bh6",
+          "uci": "f8h6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 2584
+    },
+    "2026-04": {
+      "black": 1224,
+      "draws": 186,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 1126,
+          "draws": 166,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 1181
+        },
+        {
+          "averageRating": 2099,
+          "black": 38,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 57
+        },
+        {
+          "averageRating": 2079,
+          "black": 31,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 35
+        },
+        {
+          "averageRating": 2102,
+          "black": 14,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 10
+        },
+        {
+          "averageRating": 2116,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 5
+        },
+        {
+          "averageRating": 2122,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 2
+        },
+        {
+          "averageRating": 2098,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 1
+        },
+        {
+          "averageRating": 2025,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 2
+        },
+        {
+          "averageRating": 2094,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ST8GE",
+              "rating": 2094
+            },
+            "id": "ZjgihI5Y",
+            "mode": "rated",
+            "month": "2026-04",
+            "speed": "blitz",
+            "white": {
+              "name": "kasparovgenoa",
+              "rating": 2121
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 0
+        },
+        {
+          "averageRating": 2123,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ikki-thefennix",
+              "rating": 2123
+            },
+            "id": "uaBRzqkD",
+            "mode": "rated",
+            "month": "2026-04",
+            "speed": "blitz",
+            "white": {
+              "name": "chessplayersotwunite",
+              "rating": 2171
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 1
+        },
+        {
+          "averageRating": 2241,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "SODINDA",
+              "rating": 2241
+            },
+            "id": "QJX4C7Dv",
+            "mode": "rated",
+            "month": "2026-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Jabal-Qof",
+              "rating": 2153
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A49",
+        "name": "Indian Defense: Przepiorka Variation"
+      },
+      "white": 1294
+    }
+  }
+}

@@ -1,0 +1,5575 @@
+{
+  "_meta": {
+    "skipped_months": {}
+  },
+  "eco": "D82",
+  "months": {
+    "2023-01": {
+      "black": 551,
+      "draws": 66,
+      "moves": [
+        {
+          "averageRating": 2094,
+          "black": 489,
+          "draws": 59,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 429
+        },
+        {
+          "averageRating": 2075,
+          "black": 40,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 54
+        },
+        {
+          "averageRating": 2064,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 16
+        },
+        {
+          "averageRating": 2083,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 8
+        },
+        {
+          "averageRating": 2111,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 4
+        },
+        {
+          "averageRating": 2047,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 4
+        },
+        {
+          "averageRating": 2105,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 1
+        },
+        {
+          "averageRating": 2044,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "konvicted",
+              "rating": 2044
+            },
+            "id": "tFdXtj7s",
+            "mode": "rated",
+            "month": "2023-01",
+            "speed": "blitz",
+            "white": {
+              "name": "ShaymardanovAlbert",
+              "rating": 2199
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1
+        },
+        {
+          "averageRating": 2026,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "gmbridge",
+              "rating": 2026
+            },
+            "id": "auxIzslS",
+            "mode": "rated",
+            "month": "2023-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Tpgirn",
+              "rating": 2014
+            },
+            "winner": null,
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nh5",
+          "uci": "f6h5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 517
+    },
+    "2023-02": {
+      "black": 467,
+      "draws": 62,
+      "moves": [
+        {
+          "averageRating": 2095,
+          "black": 415,
+          "draws": 54,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 423
+        },
+        {
+          "averageRating": 2087,
+          "black": 27,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 34
+        },
+        {
+          "averageRating": 2113,
+          "black": 10,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 7
+        },
+        {
+          "averageRating": 2067,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 8
+        },
+        {
+          "averageRating": 2115,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 4
+        },
+        {
+          "averageRating": 2079,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 3
+        },
+        {
+          "averageRating": 2049,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nh5",
+          "uci": "f6h5",
+          "white": 1
+        },
+        {
+          "averageRating": 1983,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1
+        },
+        {
+          "averageRating": 2023,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Marxelomarti3",
+              "rating": 2023
+            },
+            "id": "reGsZUty",
+            "mode": "rated",
+            "month": "2023-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Alexander_Clavite",
+              "rating": 2180
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2125,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Davidaldrin30",
+              "rating": 2125
+            },
+            "id": "R9VX0mTX",
+            "mode": "rated",
+            "month": "2023-02",
+            "speed": "blitz",
+            "white": {
+              "name": "xTVDx",
+              "rating": 2061
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 483
+    },
+    "2023-03": {
+      "black": 444,
+      "draws": 65,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 376,
+          "draws": 53,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 363
+        },
+        {
+          "averageRating": 2091,
+          "black": 42,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 49
+        },
+        {
+          "averageRating": 2149,
+          "black": 13,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 4
+        },
+        {
+          "averageRating": 2070,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 8
+        },
+        {
+          "averageRating": 2062,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 6
+        },
+        {
+          "averageRating": 2018,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2044,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "MP123456",
+              "rating": 2044
+            },
+            "id": "Ito5dLV5",
+            "mode": "rated",
+            "month": "2023-03",
+            "speed": "blitz",
+            "white": {
+              "name": "shocchicscac",
+              "rating": 2014
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 431
+    },
+    "2023-04": {
+      "black": 510,
+      "draws": 58,
+      "moves": [
+        {
+          "averageRating": 2096,
+          "black": 434,
+          "draws": 47,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 424
+        },
+        {
+          "averageRating": 2081,
+          "black": 45,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 44
+        },
+        {
+          "averageRating": 2077,
+          "black": 15,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 3
+        },
+        {
+          "averageRating": 2055,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 8
+        },
+        {
+          "averageRating": 2112,
+          "black": 7,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 6
+        },
+        {
+          "averageRating": 2080,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 2
+        },
+        {
+          "averageRating": 2095,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nh5",
+          "uci": "f6h5",
+          "white": 1
+        },
+        {
+          "averageRating": 2018,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "jaketheaw",
+              "rating": 2018
+            },
+            "id": "yZjJwESw",
+            "mode": "rated",
+            "month": "2023-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Lavr75",
+              "rating": 2109
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        },
+        {
+          "averageRating": 1954,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Znau_kak_hodyat",
+              "rating": 1954
+            },
+            "id": "qonJbM9O",
+            "mode": "rated",
+            "month": "2023-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Veselchak-U",
+              "rating": 2346
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 490
+    },
+    "2023-05": {
+      "black": 491,
+      "draws": 63,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 425,
+          "draws": 54,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 419
+        },
+        {
+          "averageRating": 2096,
+          "black": 41,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 45
+        },
+        {
+          "averageRating": 2093,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 10
+        },
+        {
+          "averageRating": 2048,
+          "black": 6,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 8
+        },
+        {
+          "averageRating": 2111,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 7
+        },
+        {
+          "averageRating": 2043,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Enkulator",
+              "rating": 2043
+            },
+            "id": "qQesygk3",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "chciwy",
+              "rating": 2060
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 0
+        },
+        {
+          "averageRating": 2010,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "gmbridge",
+              "rating": 2010
+            },
+            "id": "ig6s8YGS",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "new_tempo",
+              "rating": 2062
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nh5",
+          "uci": "f6h5",
+          "white": 1
+        },
+        {
+          "averageRating": 2044,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Badarsela",
+              "rating": 2044
+            },
+            "id": "cFfkUrmg",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "blagoje1957",
+              "rating": 2171
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2031,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "love_one_another",
+              "rating": 2031
+            },
+            "id": "pbK3qqi0",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "Magaga",
+              "rating": 2139
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 0
+        },
+        {
+          "averageRating": 2046,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "eatzmon",
+              "rating": 2046
+            },
+            "id": "RQN54eh5",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "endien_bcm",
+              "rating": 2047
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 492
+    },
+    "2023-06": {
+      "black": 460,
+      "draws": 72,
+      "moves": [
+        {
+          "averageRating": 2095,
+          "black": 394,
+          "draws": 64,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 373
+        },
+        {
+          "averageRating": 2087,
+          "black": 52,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 55
+        },
+        {
+          "averageRating": 2120,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 7
+        },
+        {
+          "averageRating": 2048,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 5
+        },
+        {
+          "averageRating": 2074,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 5
+        },
+        {
+          "averageRating": 2033,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 3
+        },
+        {
+          "averageRating": 2115,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ElitePlayer09",
+              "rating": 2115
+            },
+            "id": "FdpOKufn",
+            "mode": "rated",
+            "month": "2023-06",
+            "speed": "blitz",
+            "white": {
+              "name": "Brauberg111",
+              "rating": 2018
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2028,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "alirezamadani",
+              "rating": 2028
+            },
+            "id": "ROlmkHWx",
+            "mode": "rated",
+            "month": "2023-06",
+            "speed": "blitz",
+            "white": {
+              "name": "Oldkytas",
+              "rating": 2228
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1
+        },
+        {
+          "averageRating": 2084,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ez4chess",
+              "rating": 2084
+            },
+            "id": "yHidn8dS",
+            "mode": "rated",
+            "month": "2023-06",
+            "speed": "blitz",
+            "white": {
+              "name": "chessvad",
+              "rating": 2025
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nh5",
+          "uci": "f6h5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 451
+    },
+    "2023-07": {
+      "black": 416,
+      "draws": 53,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 342,
+          "draws": 44,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 369
+        },
+        {
+          "averageRating": 2095,
+          "black": 48,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 51
+        },
+        {
+          "averageRating": 2056,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 12
+        },
+        {
+          "averageRating": 2075,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 7
+        },
+        {
+          "averageRating": 2050,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 8
+        },
+        {
+          "averageRating": 2003,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 4
+        },
+        {
+          "averageRating": 2061,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nh5",
+          "uci": "f6h5",
+          "white": 1
+        },
+        {
+          "averageRating": 2090,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 1
+        },
+        {
+          "averageRating": 2012,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "benjamin536",
+              "rating": 2012
+            },
+            "id": "fcNB07yc",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "vende77ah",
+              "rating": 2096
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 453
+    },
+    "2023-08": {
+      "black": 491,
+      "draws": 76,
+      "moves": [
+        {
+          "averageRating": 2093,
+          "black": 433,
+          "draws": 68,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 400
+        },
+        {
+          "averageRating": 2088,
+          "black": 30,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 53
+        },
+        {
+          "averageRating": 2044,
+          "black": 14,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 9
+        },
+        {
+          "averageRating": 2111,
+          "black": 7,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 6
+        },
+        {
+          "averageRating": 2078,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 6
+        },
+        {
+          "averageRating": 2017,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "abrera17",
+              "rating": 2017
+            },
+            "id": "EDM4JeMO",
+            "mode": "rated",
+            "month": "2023-08",
+            "speed": "blitz",
+            "white": {
+              "name": "Dejan_Sevilla",
+              "rating": 2031
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2084,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "pogsandro",
+              "rating": 2084
+            },
+            "id": "yHsEDgXP",
+            "mode": "rated",
+            "month": "2023-08",
+            "speed": "blitz",
+            "white": {
+              "name": "Jan_Carlsen_23",
+              "rating": 2190
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 1
+        },
+        {
+          "averageRating": 2048,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "chessprodigy77",
+              "rating": 2048
+            },
+            "id": "ruqQcmzd",
+            "mode": "rated",
+            "month": "2023-08",
+            "speed": "blitz",
+            "white": {
+              "name": "Pietje76",
+              "rating": 2015
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Na6",
+          "uci": "b8a6",
+          "white": 0
+        },
+        {
+          "averageRating": 2123,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Pilligrim1",
+              "rating": 2123
+            },
+            "id": "gPK6cOIO",
+            "mode": "rated",
+            "month": "2023-08",
+            "speed": "blitz",
+            "white": {
+              "name": "endien_bcm",
+              "rating": 2152
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 1
+        },
+        {
+          "averageRating": 2139,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Soares_EC",
+              "rating": 2139
+            },
+            "id": "syIRs1Ez",
+            "mode": "rated",
+            "month": "2023-08",
+            "speed": "blitz",
+            "white": {
+              "name": "caripe50",
+              "rating": 2045
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Ng8",
+          "uci": "f6g8",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 478
+    },
+    "2023-09": {
+      "black": 501,
+      "draws": 58,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 433,
+          "draws": 53,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 390
+        },
+        {
+          "averageRating": 2081,
+          "black": 43,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 57
+        },
+        {
+          "averageRating": 2071,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 9
+        },
+        {
+          "averageRating": 2087,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 5
+        },
+        {
+          "averageRating": 2123,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 7
+        },
+        {
+          "averageRating": 2057,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 2
+        },
+        {
+          "averageRating": 1945,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "alexbasso",
+              "rating": 1945
+            },
+            "id": "0oxGEHtI",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "northerner67",
+              "rating": 2058
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Na6",
+          "uci": "b8a6",
+          "white": 1
+        },
+        {
+          "averageRating": 2029,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "RichardTheMastermind",
+              "rating": 2029
+            },
+            "id": "g8bABq26",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "Jignesh94",
+              "rating": 2116
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 1
+        },
+        {
+          "averageRating": 2212,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Prometeu1",
+              "rating": 2212
+            },
+            "id": "LgFL1alM",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "Hunterbr1",
+              "rating": 2165
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 472
+    },
+    "2023-10": {
+      "black": 493,
+      "draws": 71,
+      "moves": [
+        {
+          "averageRating": 2095,
+          "black": 422,
+          "draws": 59,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 437
+        },
+        {
+          "averageRating": 2097,
+          "black": 39,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 60
+        },
+        {
+          "averageRating": 2091,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 9
+        },
+        {
+          "averageRating": 2106,
+          "black": 13,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 6
+        },
+        {
+          "averageRating": 2080,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 9
+        },
+        {
+          "averageRating": 2156,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 1
+        },
+        {
+          "averageRating": 2151,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "Nikola623748",
+              "rating": 2151
+            },
+            "id": "OWdtu7VH",
+            "mode": "rated",
+            "month": "2023-10",
+            "speed": "blitz",
+            "white": {
+              "name": "DEEPWARRIOR",
+              "rating": 2135
+            },
+            "winner": null,
+            "year": 2023
+          },
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 0
+        },
+        {
+          "averageRating": 2100,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "a_god_mater",
+              "rating": 2100
+            },
+            "id": "OeJ5XgFY",
+            "mode": "rated",
+            "month": "2023-10",
+            "speed": "blitz",
+            "white": {
+              "name": "Mr_AcceleratedDragon",
+              "rating": 2098
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1
+        },
+        {
+          "averageRating": 1996,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "chilufyaDm",
+              "rating": 1996
+            },
+            "id": "mWfuap39",
+            "mode": "rated",
+            "month": "2023-10",
+            "speed": "blitz",
+            "white": {
+              "name": "DroozaMokomele",
+              "rating": 2128
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 1
+        },
+        {
+          "averageRating": 2099,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ez4chess",
+              "rating": 2099
+            },
+            "id": "LdBIOrP6",
+            "mode": "rated",
+            "month": "2023-10",
+            "speed": "blitz",
+            "white": {
+              "name": "pillock101",
+              "rating": 2120
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nh5",
+          "uci": "f6h5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 525
+    },
+    "2023-11": {
+      "black": 489,
+      "draws": 68,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 419,
+          "draws": 57,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 393
+        },
+        {
+          "averageRating": 2091,
+          "black": 48,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 46
+        },
+        {
+          "averageRating": 2115,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 12
+        },
+        {
+          "averageRating": 2061,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 9
+        },
+        {
+          "averageRating": 2075,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 8
+        },
+        {
+          "averageRating": 2091,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 2
+        },
+        {
+          "averageRating": 2092,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 2
+        },
+        {
+          "averageRating": 2230,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nh5",
+          "uci": "f6h5",
+          "white": 1
+        },
+        {
+          "averageRating": 2089,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Nikita14122012",
+              "rating": 2089
+            },
+            "id": "UgEwEaHu",
+            "mode": "rated",
+            "month": "2023-11",
+            "speed": "blitz",
+            "white": {
+              "name": "eddyn",
+              "rating": 2125
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1
+        },
+        {
+          "averageRating": 2048,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Sea123123",
+              "rating": 2048
+            },
+            "id": "wS4R8RRV",
+            "mode": "rated",
+            "month": "2023-11",
+            "speed": "blitz",
+            "white": {
+              "name": "ivanjov",
+              "rating": 2061
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 475
+    },
+    "2023-12": {
+      "black": 453,
+      "draws": 69,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 385,
+          "draws": 52,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 379
+        },
+        {
+          "averageRating": 2091,
+          "black": 41,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 39
+        },
+        {
+          "averageRating": 2106,
+          "black": 11,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 9
+        },
+        {
+          "averageRating": 2107,
+          "black": 8,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 5
+        },
+        {
+          "averageRating": 2041,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 7
+        },
+        {
+          "averageRating": 2108,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 2
+        },
+        {
+          "averageRating": 2025,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nh5",
+          "uci": "f6h5",
+          "white": 2
+        },
+        {
+          "averageRating": 2055,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "benjamin536",
+              "rating": 2055
+            },
+            "id": "Z4ETO7Xt",
+            "mode": "rated",
+            "month": "2023-12",
+            "speed": "blitz",
+            "white": {
+              "name": "Alexlevkov",
+              "rating": 2087
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 0
+        },
+        {
+          "averageRating": 2057,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Molurus",
+              "rating": 2057
+            },
+            "id": "2CSjR0sx",
+            "mode": "rated",
+            "month": "2023-12",
+            "speed": "blitz",
+            "white": {
+              "name": "ivanjov",
+              "rating": 2027
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 444
+    },
+    "2024-01": {
+      "black": 458,
+      "draws": 62,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 397,
+          "draws": 56,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 415
+        },
+        {
+          "averageRating": 2083,
+          "black": 39,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 37
+        },
+        {
+          "averageRating": 2098,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 11
+        },
+        {
+          "averageRating": 2134,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 6
+        },
+        {
+          "averageRating": 2102,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 9
+        },
+        {
+          "averageRating": 1999,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 3
+        },
+        {
+          "averageRating": 2082,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nh5",
+          "uci": "f6h5",
+          "white": 0
+        },
+        {
+          "averageRating": 2154,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "rommel1010",
+              "rating": 2154
+            },
+            "id": "rZjQKHam",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Ndutman",
+              "rating": 2147
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2183,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Atiroaoj",
+              "rating": 2183
+            },
+            "id": "Y7xOzl4Q",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "WesMontgomery",
+              "rating": 2171
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2012,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "doctort1",
+              "rating": 2012
+            },
+            "id": "o5JvZE65",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "K2Heart",
+              "rating": 2097
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1
+        },
+        {
+          "averageRating": 2062,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "u20130328",
+              "rating": 2062
+            },
+            "id": "TD7CSDNR",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Taonga",
+              "rating": 1988
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 484
+    },
+    "2024-02": {
+      "black": 454,
+      "draws": 47,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 399,
+          "draws": 40,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 429
+        },
+        {
+          "averageRating": 2082,
+          "black": 34,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 43
+        },
+        {
+          "averageRating": 2118,
+          "black": 9,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 10
+        },
+        {
+          "averageRating": 2089,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 9
+        },
+        {
+          "averageRating": 2023,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 8
+        },
+        {
+          "averageRating": 2052,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 2
+        },
+        {
+          "averageRating": 2010,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2017,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "sarayakob",
+              "rating": 2017
+            },
+            "id": "jaqOYxoM",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "PositionalEngineer",
+              "rating": 2009
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bh6",
+          "uci": "f8h6",
+          "white": 1
+        },
+        {
+          "averageRating": 2164,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "mrassli",
+              "rating": 2164
+            },
+            "id": "yTFuDAid",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "pierrot14",
+              "rating": 2182
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Nh5",
+          "uci": "f6h5",
+          "white": 0
+        },
+        {
+          "averageRating": 2237,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Atiroaoj",
+              "rating": 2237
+            },
+            "id": "v0kUhye7",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Lueneturm",
+              "rating": 2121
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 503
+    },
+    "2024-03": {
+      "black": 447,
+      "draws": 71,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 388,
+          "draws": 61,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 382
+        },
+        {
+          "averageRating": 2083,
+          "black": 43,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 48
+        },
+        {
+          "averageRating": 2059,
+          "black": 7,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 7
+        },
+        {
+          "averageRating": 2112,
+          "black": 5,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 9
+        },
+        {
+          "averageRating": 2092,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 4
+        },
+        {
+          "averageRating": 2043,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 3
+        },
+        {
+          "averageRating": 2023,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 1
+        },
+        {
+          "averageRating": 2110,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bh6",
+          "uci": "f8h6",
+          "white": 2
+        },
+        {
+          "averageRating": 1843,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "carpo008",
+              "rating": 1843
+            },
+            "id": "53VqBBgt",
+            "mode": "rated",
+            "month": "2024-03",
+            "speed": "blitz",
+            "white": {
+              "name": "KPsycow1",
+              "rating": 2385
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Na6",
+          "uci": "b8a6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 457
+    },
+    "2024-04": {
+      "black": 460,
+      "draws": 71,
+      "moves": [
+        {
+          "averageRating": 2091,
+          "black": 398,
+          "draws": 58,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 365
+        },
+        {
+          "averageRating": 2084,
+          "black": 33,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 41
+        },
+        {
+          "averageRating": 2050,
+          "black": 13,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 8
+        },
+        {
+          "averageRating": 2109,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 5
+        },
+        {
+          "averageRating": 2116,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 3
+        },
+        {
+          "averageRating": 2039,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2052,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "masterja77s",
+              "rating": 2052
+            },
+            "id": "qmfFngfG",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "alihonu",
+              "rating": 2096
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Nh5",
+          "uci": "f6h5",
+          "white": 0
+        },
+        {
+          "averageRating": 2135,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ekorohadi",
+              "rating": 2135
+            },
+            "id": "I0fHbmF2",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "dm_gor",
+              "rating": 2233
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 0
+        },
+        {
+          "averageRating": 2082,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "wagu81",
+              "rating": 2082
+            },
+            "id": "nWMVnCQ5",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "yasir1nauru",
+              "rating": 2140
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 0
+        },
+        {
+          "averageRating": 2062,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ChessShrink",
+              "rating": 2062
+            },
+            "id": "Wjyq30jG",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "jobless01",
+              "rating": 2007
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 424
+    },
+    "2024-05": {
+      "black": 421,
+      "draws": 64,
+      "moves": [
+        {
+          "averageRating": 2096,
+          "black": 363,
+          "draws": 53,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 384
+        },
+        {
+          "averageRating": 2110,
+          "black": 33,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 33
+        },
+        {
+          "averageRating": 2089,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 7
+        },
+        {
+          "averageRating": 2075,
+          "black": 6,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 8
+        },
+        {
+          "averageRating": 2077,
+          "black": 7,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 6
+        },
+        {
+          "averageRating": 2086,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 2
+        },
+        {
+          "averageRating": 2121,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 1
+        },
+        {
+          "averageRating": 2061,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Mainlander",
+              "rating": 2061
+            },
+            "id": "Ar7lNVBg",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "oleg3091",
+              "rating": 2259
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Nh5",
+          "uci": "f6h5",
+          "white": 0
+        },
+        {
+          "averageRating": 2090,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Nikita14122012",
+              "rating": 2090
+            },
+            "id": "Ot3ozhqf",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "kasimov62",
+              "rating": 2173
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 441
+    },
+    "2024-06": {
+      "black": 498,
+      "draws": 57,
+      "moves": [
+        {
+          "averageRating": 2094,
+          "black": 433,
+          "draws": 49,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 416
+        },
+        {
+          "averageRating": 2095,
+          "black": 48,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 56
+        },
+        {
+          "averageRating": 2069,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 11
+        },
+        {
+          "averageRating": 2049,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 9
+        },
+        {
+          "averageRating": 2088,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 6
+        },
+        {
+          "averageRating": 2105,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 0
+        },
+        {
+          "averageRating": 2033,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nh5",
+          "uci": "f6h5",
+          "white": 1
+        },
+        {
+          "averageRating": 2134,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Abuelbanna03",
+              "rating": 2134
+            },
+            "id": "cUDW6Gch",
+            "mode": "rated",
+            "month": "2024-06",
+            "speed": "blitz",
+            "white": {
+              "name": "bigpaw",
+              "rating": 2154
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 1
+        },
+        {
+          "averageRating": 2016,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "PansiluGM",
+              "rating": 2016
+            },
+            "id": "aTkvvD5O",
+            "mode": "rated",
+            "month": "2024-06",
+            "speed": "blitz",
+            "white": {
+              "name": "Pietje76",
+              "rating": 2024
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1
+        },
+        {
+          "averageRating": 2083,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "yuyun5",
+              "rating": 2083
+            },
+            "id": "EZe6WYLv",
+            "mode": "rated",
+            "month": "2024-06",
+            "speed": "blitz",
+            "white": {
+              "name": "krzysiu5",
+              "rating": 2085
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bh6",
+          "uci": "f8h6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 502
+    },
+    "2024-07": {
+      "black": 474,
+      "draws": 66,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 399,
+          "draws": 61,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 389
+        },
+        {
+          "averageRating": 2089,
+          "black": 51,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 38
+        },
+        {
+          "averageRating": 2076,
+          "black": 10,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 9
+        },
+        {
+          "averageRating": 2069,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 8
+        },
+        {
+          "averageRating": 2129,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 3
+        },
+        {
+          "averageRating": 2036,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 2
+        },
+        {
+          "averageRating": 2054,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "titusw",
+              "rating": 2054
+            },
+            "id": "zG4ADfGa",
+            "mode": "rated",
+            "month": "2024-07",
+            "speed": "blitz",
+            "white": {
+              "name": "n3urom4ncer",
+              "rating": 2054
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 0
+        },
+        {
+          "averageRating": 2058,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "IWANTMYMOMMY1782",
+              "rating": 2058
+            },
+            "id": "eOtrmFMJ",
+            "mode": "rated",
+            "month": "2024-07",
+            "speed": "blitz",
+            "white": {
+              "name": "lieblingspferd",
+              "rating": 2023
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Nh5",
+          "uci": "f6h5",
+          "white": 0
+        },
+        {
+          "averageRating": 2180,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Atiroaoj",
+              "rating": 2180
+            },
+            "id": "aPmf7Qch",
+            "mode": "rated",
+            "month": "2024-07",
+            "speed": "blitz",
+            "white": {
+              "name": "chessvad",
+              "rating": 2123
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 450
+    },
+    "2024-08": {
+      "black": 499,
+      "draws": 55,
+      "moves": [
+        {
+          "averageRating": 2096,
+          "black": 434,
+          "draws": 44,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 378
+        },
+        {
+          "averageRating": 2096,
+          "black": 39,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 56
+        },
+        {
+          "averageRating": 2085,
+          "black": 9,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 13
+        },
+        {
+          "averageRating": 2103,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 9
+        },
+        {
+          "averageRating": 2075,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 8
+        },
+        {
+          "averageRating": 2097,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nh5",
+          "uci": "f6h5",
+          "white": 0
+        },
+        {
+          "averageRating": 1977,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "celsocarvalho",
+              "rating": 1977
+            },
+            "id": "0OyUPGaE",
+            "mode": "rated",
+            "month": "2024-08",
+            "speed": "blitz",
+            "white": {
+              "name": "Orugihsuf_Ijot",
+              "rating": 2100
+            },
+            "winner": null,
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 0
+        },
+        {
+          "averageRating": 2092,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "benjamin536",
+              "rating": 2092
+            },
+            "id": "9JmUDrRy",
+            "mode": "rated",
+            "month": "2024-08",
+            "speed": "blitz",
+            "white": {
+              "name": "Appelflap11",
+              "rating": 2135
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2221,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "CharlesBronsonsDog",
+              "rating": 2221
+            },
+            "id": "3lkuVsX4",
+            "mode": "rated",
+            "month": "2024-08",
+            "speed": "blitz",
+            "white": {
+              "name": "nanoballoon",
+              "rating": 2177
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 1
+        },
+        {
+          "averageRating": 2058,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "alpha_wolf19",
+              "rating": 2058
+            },
+            "id": "SqaRR99w",
+            "mode": "rated",
+            "month": "2024-08",
+            "speed": "blitz",
+            "white": {
+              "name": "bigGinger",
+              "rating": 2063
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 466
+    },
+    "2024-09": {
+      "black": 399,
+      "draws": 63,
+      "moves": [
+        {
+          "averageRating": 2103,
+          "black": 344,
+          "draws": 47,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 381
+        },
+        {
+          "averageRating": 2096,
+          "black": 38,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 45
+        },
+        {
+          "averageRating": 2071,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 6
+        },
+        {
+          "averageRating": 2071,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 6
+        },
+        {
+          "averageRating": 2119,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 4
+        },
+        {
+          "averageRating": 2079,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 2
+        },
+        {
+          "averageRating": 1939,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        },
+        {
+          "averageRating": 1982,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Bekesijanos",
+              "rating": 1982
+            },
+            "id": "hMzSYgWh",
+            "mode": "rated",
+            "month": "2024-09",
+            "speed": "blitz",
+            "white": {
+              "name": "vadmosk",
+              "rating": 2067
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 0
+        },
+        {
+          "averageRating": 2007,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "gmbridge",
+              "rating": 2007
+            },
+            "id": "CUq6G4sz",
+            "mode": "rated",
+            "month": "2024-09",
+            "speed": "blitz",
+            "white": {
+              "name": "jjww",
+              "rating": 2007
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Nh5",
+          "uci": "f6h5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 446
+    },
+    "2024-10": {
+      "black": 436,
+      "draws": 62,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 386,
+          "draws": 55,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 329
+        },
+        {
+          "averageRating": 2093,
+          "black": 33,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 32
+        },
+        {
+          "averageRating": 2042,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 13
+        },
+        {
+          "averageRating": 2061,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 7
+        },
+        {
+          "averageRating": 2099,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 4
+        },
+        {
+          "averageRating": 1996,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Pafhd",
+              "rating": 1996
+            },
+            "id": "Rh1Vy47c",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "Thambly",
+              "rating": 2006
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 1993,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "db-schach2024",
+              "rating": 1993
+            },
+            "id": "nBPtYd0r",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "etdinis",
+              "rating": 2022
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 0
+        },
+        {
+          "averageRating": 2060,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "yassinabban",
+              "rating": 2060
+            },
+            "id": "mn2uXsJE",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "iKoL",
+              "rating": 1966
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1
+        },
+        {
+          "averageRating": 2167,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Naponovich_66",
+              "rating": 2167
+            },
+            "id": "NrJ77hbA",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "papamaci90",
+              "rating": 2196
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2035,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Shasem",
+              "rating": 2035
+            },
+            "id": "OD1SKxdG",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "Erictwiceabee",
+              "rating": 2041
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "g5",
+          "uci": "g6g5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 389
+    },
+    "2024-11": {
+      "black": 368,
+      "draws": 52,
+      "moves": [
+        {
+          "averageRating": 2091,
+          "black": 306,
+          "draws": 42,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 328
+        },
+        {
+          "averageRating": 2109,
+          "black": 45,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 36
+        },
+        {
+          "averageRating": 2124,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 3
+        },
+        {
+          "averageRating": 2033,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 5
+        },
+        {
+          "averageRating": 2084,
+          "black": 3,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 2
+        },
+        {
+          "averageRating": 2100,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2151,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Jvilllar7817",
+              "rating": 2151
+            },
+            "id": "vuiqXeUP",
+            "mode": "rated",
+            "month": "2024-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Elshayebhamdy65",
+              "rating": 2047
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1
+        },
+        {
+          "averageRating": 2052,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "benjamin536",
+              "rating": 2052
+            },
+            "id": "6k0Pq1yl",
+            "mode": "rated",
+            "month": "2024-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Rasuol-Mosavi",
+              "rating": 2010
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2065,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "jamesblunder",
+              "rating": 2065
+            },
+            "id": "DTbGOMcq",
+            "mode": "rated",
+            "month": "2024-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Gaston_guerrero",
+              "rating": 2103
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 377
+    },
+    "2024-12": {
+      "black": 393,
+      "draws": 57,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 333,
+          "draws": 52,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 352
+        },
+        {
+          "averageRating": 2098,
+          "black": 38,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 42
+        },
+        {
+          "averageRating": 2084,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 6
+        },
+        {
+          "averageRating": 2057,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 5
+        },
+        {
+          "averageRating": 2066,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 2
+        },
+        {
+          "averageRating": 2065,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2070,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 2
+        },
+        {
+          "averageRating": 2138,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "SajadS7495",
+              "rating": 2138
+            },
+            "id": "d1HCQs8F",
+            "mode": "rated",
+            "month": "2024-12",
+            "speed": "blitz",
+            "white": {
+              "name": "dkolobok89",
+              "rating": 2199
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Nh5",
+          "uci": "f6h5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 411
+    },
+    "2025-01": {
+      "black": 416,
+      "draws": 71,
+      "moves": [
+        {
+          "averageRating": 2088,
+          "black": 355,
+          "draws": 57,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 402
+        },
+        {
+          "averageRating": 2085,
+          "black": 43,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 42
+        },
+        {
+          "averageRating": 2055,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 7
+        },
+        {
+          "averageRating": 2059,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 5
+        },
+        {
+          "averageRating": 2105,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 6
+        },
+        {
+          "averageRating": 2055,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 2
+        },
+        {
+          "averageRating": 2100,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 1
+        },
+        {
+          "averageRating": 2091,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "A840WRN",
+              "rating": 2091
+            },
+            "id": "pexzZS2N",
+            "mode": "rated",
+            "month": "2025-01",
+            "speed": "blitz",
+            "white": {
+              "name": "newcomer55",
+              "rating": 2229
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Nh5",
+          "uci": "f6h5",
+          "white": 1
+        },
+        {
+          "averageRating": 2120,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Boris00",
+              "rating": 2120
+            },
+            "id": "QWVC6J4Z",
+            "mode": "rated",
+            "month": "2025-01",
+            "speed": "blitz",
+            "white": {
+              "name": "valinmush",
+              "rating": 1982
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ng8",
+          "uci": "f6g8",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 467
+    },
+    "2025-02": {
+      "black": 461,
+      "draws": 57,
+      "moves": [
+        {
+          "averageRating": 2090,
+          "black": 403,
+          "draws": 42,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 326
+        },
+        {
+          "averageRating": 2089,
+          "black": 40,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 31
+        },
+        {
+          "averageRating": 2076,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 9
+        },
+        {
+          "averageRating": 2070,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 8
+        },
+        {
+          "averageRating": 2078,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 7
+        },
+        {
+          "averageRating": 2026,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 2
+        },
+        {
+          "averageRating": 2052,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 0
+        },
+        {
+          "averageRating": 2200,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Atiroaoj",
+              "rating": 2200
+            },
+            "id": "ZtBAwbTD",
+            "mode": "rated",
+            "month": "2025-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Ramumbi",
+              "rating": 2192
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 384
+    },
+    "2025-03": {
+      "black": 425,
+      "draws": 52,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 358,
+          "draws": 43,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 338
+        },
+        {
+          "averageRating": 2090,
+          "black": 41,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 44
+        },
+        {
+          "averageRating": 2057,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 10
+        },
+        {
+          "averageRating": 2117,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 6
+        },
+        {
+          "averageRating": 2123,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 2
+        },
+        {
+          "averageRating": 2131,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "beracach",
+              "rating": 2131
+            },
+            "id": "Li1SqcLJ",
+            "mode": "rated",
+            "month": "2025-03",
+            "speed": "blitz",
+            "white": {
+              "name": "ZantaWB",
+              "rating": 2041
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 0
+        },
+        {
+          "averageRating": 2081,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "KSV11",
+              "rating": 2081
+            },
+            "id": "Anxcor36",
+            "mode": "rated",
+            "month": "2025-03",
+            "speed": "blitz",
+            "white": {
+              "name": "realsolana",
+              "rating": 1963
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 0
+        },
+        {
+          "averageRating": 2002,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "saisn2002",
+              "rating": 2002
+            },
+            "id": "uWNRWTWz",
+            "mode": "rated",
+            "month": "2025-03",
+            "speed": "blitz",
+            "white": {
+              "name": "kenjeru",
+              "rating": 2007
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Na6",
+          "uci": "b8a6",
+          "white": 0
+        },
+        {
+          "averageRating": 1997,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "fabschess",
+              "rating": 1997
+            },
+            "id": "WjI5WtUj",
+            "mode": "rated",
+            "month": "2025-03",
+            "speed": "blitz",
+            "white": {
+              "name": "dfeldman",
+              "rating": 2140
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bh6",
+          "uci": "f8h6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 401
+    },
+    "2025-04": {
+      "black": 380,
+      "draws": 66,
+      "moves": [
+        {
+          "averageRating": 2093,
+          "black": 342,
+          "draws": 48,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 322
+        },
+        {
+          "averageRating": 2073,
+          "black": 19,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 40
+        },
+        {
+          "averageRating": 2084,
+          "black": 4,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 6
+        },
+        {
+          "averageRating": 2100,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 7
+        },
+        {
+          "averageRating": 2048,
+          "black": 6,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 3
+        },
+        {
+          "averageRating": 2088,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 0
+        },
+        {
+          "averageRating": 2142,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "roller_yalta",
+              "rating": 2142
+            },
+            "id": "TWR9giGa",
+            "mode": "rated",
+            "month": "2025-04",
+            "speed": "blitz",
+            "white": {
+              "name": "pierrot14",
+              "rating": 2225
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Nh5",
+          "uci": "f6h5",
+          "white": 1
+        },
+        {
+          "averageRating": 2041,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "SKChessKnight",
+              "rating": 2041
+            },
+            "id": "pfEeQqzn",
+            "mode": "rated",
+            "month": "2025-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Jusnickdo",
+              "rating": 2031
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 0
+        },
+        {
+          "averageRating": 2023,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "kerajli",
+              "rating": 2023
+            },
+            "id": "meVm3DKo",
+            "mode": "rated",
+            "month": "2025-04",
+            "speed": "blitz",
+            "white": {
+              "name": "eddyn",
+              "rating": 2170
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 379
+    },
+    "2025-05": {
+      "black": 359,
+      "draws": 44,
+      "moves": [
+        {
+          "averageRating": 2090,
+          "black": 313,
+          "draws": 38,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 320
+        },
+        {
+          "averageRating": 2077,
+          "black": 24,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 37
+        },
+        {
+          "averageRating": 2086,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 6
+        },
+        {
+          "averageRating": 2149,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 5
+        },
+        {
+          "averageRating": 2094,
+          "black": 0,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 3
+        },
+        {
+          "averageRating": 2158,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2205,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Atiroaoj",
+              "rating": 2205
+            },
+            "id": "zKjeXbR5",
+            "mode": "rated",
+            "month": "2025-05",
+            "speed": "blitz",
+            "white": {
+              "name": "knlmishan",
+              "rating": 2040
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 1
+        },
+        {
+          "averageRating": 1951,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Zen_Archer",
+              "rating": 1951
+            },
+            "id": "nAdGW25q",
+            "mode": "rated",
+            "month": "2025-05",
+            "speed": "blitz",
+            "white": {
+              "name": "Soumassa",
+              "rating": 2071
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 373
+    },
+    "2025-06": {
+      "black": 404,
+      "draws": 55,
+      "moves": [
+        {
+          "averageRating": 2090,
+          "black": 344,
+          "draws": 45,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 339
+        },
+        {
+          "averageRating": 2083,
+          "black": 42,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 32
+        },
+        {
+          "averageRating": 2103,
+          "black": 5,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 7
+        },
+        {
+          "averageRating": 2067,
+          "black": 4,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 8
+        },
+        {
+          "averageRating": 2097,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 4
+        },
+        {
+          "averageRating": 2050,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2080,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 1
+        },
+        {
+          "averageRating": 2062,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "raneilla",
+              "rating": 2062
+            },
+            "id": "lgTIACGj",
+            "mode": "rated",
+            "month": "2025-06",
+            "speed": "blitz",
+            "white": {
+              "name": "RogerinTavares",
+              "rating": 2070
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Nh5",
+          "uci": "f6h5",
+          "white": 0
+        },
+        {
+          "averageRating": 2024,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "wongpati",
+              "rating": 2024
+            },
+            "id": "Z8uRprKL",
+            "mode": "rated",
+            "month": "2025-06",
+            "speed": "blitz",
+            "white": {
+              "name": "sdprasad",
+              "rating": 2006
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Na6",
+          "uci": "b8a6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 392
+    },
+    "2025-07": {
+      "black": 376,
+      "draws": 49,
+      "moves": [
+        {
+          "averageRating": 2090,
+          "black": 319,
+          "draws": 38,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 354
+        },
+        {
+          "averageRating": 2078,
+          "black": 31,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 31
+        },
+        {
+          "averageRating": 2076,
+          "black": 10,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 7
+        },
+        {
+          "averageRating": 2057,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 9
+        },
+        {
+          "averageRating": 2042,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 3
+        },
+        {
+          "averageRating": 1963,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 4
+        },
+        {
+          "averageRating": 2060,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nh5",
+          "uci": "f6h5",
+          "white": 1
+        },
+        {
+          "averageRating": 2132,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2138,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "wendigas",
+              "rating": 2138
+            },
+            "id": "qHd4E7GT",
+            "mode": "rated",
+            "month": "2025-07",
+            "speed": "blitz",
+            "white": {
+              "name": "mishechka",
+              "rating": 2124
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 0
+        },
+        {
+          "averageRating": 2195,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "dadice",
+              "rating": 2195
+            },
+            "id": "HiDjE1YB",
+            "mode": "rated",
+            "month": "2025-07",
+            "speed": "blitz",
+            "white": {
+              "name": "botun",
+              "rating": 2163
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bh6",
+          "uci": "f8h6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 411
+    },
+    "2025-08": {
+      "black": 369,
+      "draws": 50,
+      "moves": [
+        {
+          "averageRating": 2092,
+          "black": 300,
+          "draws": 41,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 317
+        },
+        {
+          "averageRating": 2078,
+          "black": 47,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 39
+        },
+        {
+          "averageRating": 2082,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 11
+        },
+        {
+          "averageRating": 2058,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 12
+        },
+        {
+          "averageRating": 2060,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 8
+        },
+        {
+          "averageRating": 2060,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nh5",
+          "uci": "f6h5",
+          "white": 1
+        },
+        {
+          "averageRating": 2018,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 2
+        },
+        {
+          "averageRating": 2127,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Iodi",
+              "rating": 2127
+            },
+            "id": "DUUsSk3p",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "knlmishan",
+              "rating": 2046
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ng8",
+          "uci": "f6g8",
+          "white": 1
+        },
+        {
+          "averageRating": 2069,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "federyiko",
+              "rating": 2069
+            },
+            "id": "WWi8udoU",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "teddilau",
+              "rating": 2039
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 0
+        },
+        {
+          "averageRating": 2052,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "schavol",
+              "rating": 2052
+            },
+            "id": "EM4wnong",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "JANGMYEONG",
+              "rating": 2011
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 392
+    },
+    "2025-09": {
+      "black": 374,
+      "draws": 36,
+      "moves": [
+        {
+          "averageRating": 2093,
+          "black": 327,
+          "draws": 30,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 277
+        },
+        {
+          "averageRating": 2079,
+          "black": 31,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 28
+        },
+        {
+          "averageRating": 2093,
+          "black": 10,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 7
+        },
+        {
+          "averageRating": 2090,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 8
+        },
+        {
+          "averageRating": 2043,
+          "black": 2,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 5
+        },
+        {
+          "averageRating": 2080,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 2
+        },
+        {
+          "averageRating": 2004,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "d_challenger",
+              "rating": 2004
+            },
+            "id": "MzYlYamo",
+            "mode": "rated",
+            "month": "2025-09",
+            "speed": "blitz",
+            "white": {
+              "name": "megadethya",
+              "rating": 2034
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 327
+    },
+    "2025-10": {
+      "black": 366,
+      "draws": 58,
+      "moves": [
+        {
+          "averageRating": 2092,
+          "black": 311,
+          "draws": 51,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 357
+        },
+        {
+          "averageRating": 2088,
+          "black": 36,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 44
+        },
+        {
+          "averageRating": 2099,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 5
+        },
+        {
+          "averageRating": 2043,
+          "black": 3,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 5
+        },
+        {
+          "averageRating": 2068,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 3
+        },
+        {
+          "averageRating": 2040,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 2
+        },
+        {
+          "averageRating": 2131,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Alexander_Bernatskiy",
+              "rating": 2131
+            },
+            "id": "sWll8qEN",
+            "mode": "rated",
+            "month": "2025-10",
+            "speed": "blitz",
+            "white": {
+              "name": "blitzbite",
+              "rating": 2238
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 0
+        },
+        {
+          "averageRating": 2014,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Nuraddin0298",
+              "rating": 2014
+            },
+            "id": "tZGdwiQg",
+            "mode": "rated",
+            "month": "2025-10",
+            "speed": "blitz",
+            "white": {
+              "name": "cotoben1",
+              "rating": 2002
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bh6",
+          "uci": "f8h6",
+          "white": 1
+        },
+        {
+          "averageRating": 2180,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Randy35",
+              "rating": 2180
+            },
+            "id": "mHkEvASH",
+            "mode": "rated",
+            "month": "2025-10",
+            "speed": "blitz",
+            "white": {
+              "name": "helicario",
+              "rating": 2137
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Nh5",
+          "uci": "f6h5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 417
+    },
+    "2025-11": {
+      "black": 374,
+      "draws": 68,
+      "moves": [
+        {
+          "averageRating": 2091,
+          "black": 318,
+          "draws": 53,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 304
+        },
+        {
+          "averageRating": 2086,
+          "black": 40,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 47
+        },
+        {
+          "averageRating": 2065,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 4
+        },
+        {
+          "averageRating": 2047,
+          "black": 3,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 6
+        },
+        {
+          "averageRating": 2083,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 4
+        },
+        {
+          "averageRating": 2051,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "Wilm4n",
+              "rating": 2051
+            },
+            "id": "KxyhGSFP",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Edrobles",
+              "rating": 1970
+            },
+            "winner": null,
+            "year": 2025
+          },
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 0
+        },
+        {
+          "averageRating": 2182,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Randy35",
+              "rating": 2182
+            },
+            "id": "SHF5Tzzo",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "koky2016",
+              "rating": 2146
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Nh5",
+          "uci": "f6h5",
+          "white": 1
+        },
+        {
+          "averageRating": 2022,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "vcalfieww",
+              "rating": 2022
+            },
+            "id": "qnqo9Bc3",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "MKjaerbye",
+              "rating": 2171
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bd7",
+          "uci": "c8d7",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 367
+    },
+    "2025-12": {
+      "black": 370,
+      "draws": 57,
+      "moves": [
+        {
+          "averageRating": 2087,
+          "black": 319,
+          "draws": 50,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 317
+        },
+        {
+          "averageRating": 2074,
+          "black": 32,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 37
+        },
+        {
+          "averageRating": 2084,
+          "black": 5,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 5
+        },
+        {
+          "averageRating": 2063,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 7
+        },
+        {
+          "averageRating": 2078,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 5
+        },
+        {
+          "averageRating": 2083,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 0
+        },
+        {
+          "averageRating": 2205,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Randy35",
+              "rating": 2205
+            },
+            "id": "vqhJ8Dtb",
+            "mode": "rated",
+            "month": "2025-12",
+            "speed": "blitz",
+            "white": {
+              "name": "kamynsky",
+              "rating": 2146
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Nh5",
+          "uci": "f6h5",
+          "white": 1
+        },
+        {
+          "averageRating": 2217,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Atiroaoj",
+              "rating": 2217
+            },
+            "id": "1XoIwhX8",
+            "mode": "rated",
+            "month": "2025-12",
+            "speed": "blitz",
+            "white": {
+              "name": "shakkisalama",
+              "rating": 2059
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 0
+        },
+        {
+          "averageRating": 2062,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Martijnvankan",
+              "rating": 2062
+            },
+            "id": "NhWfB2Zy",
+            "mode": "rated",
+            "month": "2025-12",
+            "speed": "blitz",
+            "white": {
+              "name": "lev1979",
+              "rating": 2015
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 373
+    },
+    "2026-01": {
+      "black": 361,
+      "draws": 58,
+      "moves": [
+        {
+          "averageRating": 2084,
+          "black": 312,
+          "draws": 50,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 339
+        },
+        {
+          "averageRating": 2072,
+          "black": 28,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 39
+        },
+        {
+          "averageRating": 2039,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 2
+        },
+        {
+          "averageRating": 2129,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 3
+        },
+        {
+          "averageRating": 2094,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 3
+        },
+        {
+          "averageRating": 2040,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 0
+        },
+        {
+          "averageRating": 2033,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2115,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "Aphina_Chess",
+              "rating": 2115
+            },
+            "id": "NWH3MiER",
+            "mode": "rated",
+            "month": "2026-01",
+            "speed": "blitz",
+            "white": {
+              "name": "knlmishan",
+              "rating": 2043
+            },
+            "winner": null,
+            "year": 2026
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 0
+        },
+        {
+          "averageRating": 1970,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "IVAN_WUPPERTAL",
+              "rating": 1970
+            },
+            "id": "1nQAcKz1",
+            "mode": "rated",
+            "month": "2026-01",
+            "speed": "blitz",
+            "white": {
+              "name": "VladimirSchpilev",
+              "rating": 2072
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "a5",
+          "uci": "a7a5",
+          "white": 1
+        },
+        {
+          "averageRating": 2019,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "DONNERMANN",
+              "rating": 2019
+            },
+            "id": "Nlehbfeu",
+            "mode": "rated",
+            "month": "2026-01",
+            "speed": "blitz",
+            "white": {
+              "name": "alekine04",
+              "rating": 2069
+            },
+            "winner": null,
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Nh5",
+          "uci": "f6h5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 388
+    },
+    "2026-02": {
+      "black": 299,
+      "draws": 53,
+      "moves": [
+        {
+          "averageRating": 2088,
+          "black": 248,
+          "draws": 43,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 242
+        },
+        {
+          "averageRating": 2083,
+          "black": 27,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 41
+        },
+        {
+          "averageRating": 2079,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 11
+        },
+        {
+          "averageRating": 2082,
+          "black": 7,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 4
+        },
+        {
+          "averageRating": 2074,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 5
+        },
+        {
+          "averageRating": 2114,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nh5",
+          "uci": "f6h5",
+          "white": 2
+        },
+        {
+          "averageRating": 2150,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 306
+    },
+    "2026-03": {
+      "black": 370,
+      "draws": 41,
+      "moves": [
+        {
+          "averageRating": 2089,
+          "black": 319,
+          "draws": 32,
+          "game": null,
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 310
+        },
+        {
+          "averageRating": 2089,
+          "black": 29,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 42
+        },
+        {
+          "averageRating": 2078,
+          "black": 6,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 12
+        },
+        {
+          "averageRating": 2128,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 7
+        },
+        {
+          "averageRating": 2111,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 2
+        },
+        {
+          "averageRating": 2152,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "hsp_nilsowitsch",
+              "rating": 2152
+            },
+            "id": "6iu6ntbp",
+            "mode": "rated",
+            "month": "2026-03",
+            "speed": "blitz",
+            "white": {
+              "name": "F1959",
+              "rating": 2134
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Na6",
+          "uci": "b8a6",
+          "white": 1
+        },
+        {
+          "averageRating": 2108,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "YamanAbi",
+              "rating": 2108
+            },
+            "id": "O0zjX1w2",
+            "mode": "rated",
+            "month": "2026-03",
+            "speed": "blitz",
+            "white": {
+              "name": "blitzbite",
+              "rating": 2139
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      },
+      "white": 374
+    },
+    "2026-04": {
+      "white": 211,
+      "draws": 28,
+      "black": 180,
+      "moves": [
+        {
+          "uci": "f8g7",
+          "san": "Bg7",
+          "averageRating": 2085,
+          "white": 178,
+          "draws": 27,
+          "black": 155,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c7c6",
+          "san": "c6",
+          "averageRating": 2081,
+          "white": 24,
+          "draws": 0,
+          "black": 11,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "a7a6",
+          "san": "a6",
+          "averageRating": 2083,
+          "white": 2,
+          "draws": 1,
+          "black": 6,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d5c4",
+          "san": "dxc4",
+          "averageRating": 2093,
+          "white": 3,
+          "draws": 0,
+          "black": 4,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c7c5",
+          "san": "c5",
+          "averageRating": 2141,
+          "white": 3,
+          "draws": 0,
+          "black": 3,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "b8c6",
+          "san": "Nc6",
+          "averageRating": 2128,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "e7e6",
+          "san": "e6",
+          "averageRating": 2133,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
+        }
+      ],
+      "recentGames": [],
+      "topGames": [],
+      "opening": {
+        "eco": "D82",
+        "name": "Gr\u00fcnfeld Defense: Brinckmann Attack"
+      }
+    }
+  }
+}

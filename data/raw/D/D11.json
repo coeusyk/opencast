@@ -1,0 +1,5639 @@
+{
+  "_meta": {
+    "skipped_months": {
+      "2026-02": "below_min_games"
+    }
+  },
+  "eco": "D11",
+  "months": {
+    "2023-01": {
+      "black": 340,
+      "draws": 41,
+      "moves": [
+        {
+          "averageRating": 2083,
+          "black": 97,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 98
+        },
+        {
+          "averageRating": 2116,
+          "black": 77,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 43
+        },
+        {
+          "averageRating": 2072,
+          "black": 51,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 40
+        },
+        {
+          "averageRating": 2105,
+          "black": 32,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 27
+        },
+        {
+          "averageRating": 2072,
+          "black": 27,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 18
+        },
+        {
+          "averageRating": 2081,
+          "black": 20,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 13
+        },
+        {
+          "averageRating": 2077,
+          "black": 21,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 13
+        },
+        {
+          "averageRating": 2057,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 13
+        },
+        {
+          "averageRating": 2072,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 5
+        },
+        {
+          "averageRating": 2103,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 4
+        },
+        {
+          "averageRating": 2212,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "omicron99",
+              "rating": 2212
+            },
+            "id": "abfZaz3W",
+            "mode": "rated",
+            "month": "2023-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Ernst_Perceval",
+              "rating": 2186
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 0
+        },
+        {
+          "averageRating": 2014,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "zyzyasd",
+              "rating": 2014
+            },
+            "id": "ltzuLx4C",
+            "mode": "rated",
+            "month": "2023-01",
+            "speed": "blitz",
+            "white": {
+              "name": "jodelsjakk",
+              "rating": 2009
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qa5+",
+          "uci": "d8a5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 274
+    },
+    "2023-02": {
+      "black": 267,
+      "draws": 36,
+      "moves": [
+        {
+          "averageRating": 2082,
+          "black": 88,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 98
+        },
+        {
+          "averageRating": 2102,
+          "black": 48,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 41
+        },
+        {
+          "averageRating": 2083,
+          "black": 43,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 41
+        },
+        {
+          "averageRating": 2058,
+          "black": 24,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 30
+        },
+        {
+          "averageRating": 2089,
+          "black": 25,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 22
+        },
+        {
+          "averageRating": 2072,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 20
+        },
+        {
+          "averageRating": 2085,
+          "black": 10,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 10
+        },
+        {
+          "averageRating": 2057,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 5
+        },
+        {
+          "averageRating": 2102,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 4
+        },
+        {
+          "averageRating": 2053,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 3
+        },
+        {
+          "averageRating": 2015,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "UVictory",
+              "rating": 2015
+            },
+            "id": "O37Ded8m",
+            "mode": "rated",
+            "month": "2023-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Sirnes",
+              "rating": 2012
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qa5+",
+          "uci": "d8a5",
+          "white": 0
+        },
+        {
+          "averageRating": 2145,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Prakash123nepal",
+              "rating": 2145
+            },
+            "id": "lNLh3C6V",
+            "mode": "rated",
+            "month": "2023-02",
+            "speed": "blitz",
+            "white": {
+              "name": "UJelly1",
+              "rating": 1993
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 274
+    },
+    "2023-03": {
+      "black": 317,
+      "draws": 45,
+      "moves": [
+        {
+          "averageRating": 2088,
+          "black": 100,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 92
+        },
+        {
+          "averageRating": 2105,
+          "black": 67,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 47
+        },
+        {
+          "averageRating": 2074,
+          "black": 52,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 44
+        },
+        {
+          "averageRating": 2063,
+          "black": 31,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 43
+        },
+        {
+          "averageRating": 2105,
+          "black": 20,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 17
+        },
+        {
+          "averageRating": 2071,
+          "black": 12,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 14
+        },
+        {
+          "averageRating": 2080,
+          "black": 13,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 12
+        },
+        {
+          "averageRating": 2057,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 8
+        },
+        {
+          "averageRating": 2109,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 2
+        },
+        {
+          "averageRating": 2073,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 2
+        },
+        {
+          "averageRating": 2159,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa5+",
+          "uci": "d8a5",
+          "white": 0
+        },
+        {
+          "averageRating": 2028,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "mike_anas-jr",
+              "rating": 2028
+            },
+            "id": "lwid3ave",
+            "mode": "rated",
+            "month": "2023-03",
+            "speed": "blitz",
+            "white": {
+              "name": "professoree",
+              "rating": 2035
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 282
+    },
+    "2023-04": {
+      "black": 293,
+      "draws": 22,
+      "moves": [
+        {
+          "averageRating": 2077,
+          "black": 85,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 97
+        },
+        {
+          "averageRating": 2125,
+          "black": 72,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 48
+        },
+        {
+          "averageRating": 2074,
+          "black": 34,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 42
+        },
+        {
+          "averageRating": 2057,
+          "black": 26,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 27
+        },
+        {
+          "averageRating": 2105,
+          "black": 23,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 26
+        },
+        {
+          "averageRating": 2083,
+          "black": 21,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 14
+        },
+        {
+          "averageRating": 2098,
+          "black": 13,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 9
+        },
+        {
+          "averageRating": 2112,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 2
+        },
+        {
+          "averageRating": 2094,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 4
+        },
+        {
+          "averageRating": 2079,
+          "black": 3,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 4
+        },
+        {
+          "averageRating": 2080,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Nurlan_Nurbek",
+              "rating": 2080
+            },
+            "id": "JPGcP4T6",
+            "mode": "rated",
+            "month": "2023-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Viktorkirvik",
+              "rating": 1933
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 1
+        },
+        {
+          "averageRating": 2150,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Andres2947",
+              "rating": 2150
+            },
+            "id": "04hnGPen",
+            "mode": "rated",
+            "month": "2023-04",
+            "speed": "blitz",
+            "white": {
+              "name": "bicot",
+              "rating": 2084
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bd7",
+          "uci": "c8d7",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 274
+    },
+    "2023-05": {
+      "black": 328,
+      "draws": 42,
+      "moves": [
+        {
+          "averageRating": 2074,
+          "black": 101,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 103
+        },
+        {
+          "averageRating": 2107,
+          "black": 73,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 67
+        },
+        {
+          "averageRating": 2069,
+          "black": 55,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 51
+        },
+        {
+          "averageRating": 2102,
+          "black": 28,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 27
+        },
+        {
+          "averageRating": 2053,
+          "black": 26,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 21
+        },
+        {
+          "averageRating": 2077,
+          "black": 13,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 12
+        },
+        {
+          "averageRating": 2072,
+          "black": 13,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 10
+        },
+        {
+          "averageRating": 2090,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 8
+        },
+        {
+          "averageRating": 2063,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 4
+        },
+        {
+          "averageRating": 2159,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 6
+        },
+        {
+          "averageRating": 2093,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 0
+        },
+        {
+          "averageRating": 1654,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Gherhbasj",
+              "rating": 1654
+            },
+            "id": "8dzSleyO",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "QSH_Kutebah",
+              "rating": 2478
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 310
+    },
+    "2023-06": {
+      "black": 272,
+      "draws": 36,
+      "moves": [
+        {
+          "averageRating": 2080,
+          "black": 84,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 112
+        },
+        {
+          "averageRating": 2105,
+          "black": 49,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 44
+        },
+        {
+          "averageRating": 2081,
+          "black": 44,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 37
+        },
+        {
+          "averageRating": 2112,
+          "black": 33,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 27
+        },
+        {
+          "averageRating": 2065,
+          "black": 26,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 25
+        },
+        {
+          "averageRating": 2074,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 12
+        },
+        {
+          "averageRating": 2054,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 10
+        },
+        {
+          "averageRating": 2067,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 12
+        },
+        {
+          "averageRating": 2084,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 7
+        },
+        {
+          "averageRating": 2088,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2106,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2147,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "YassinoV",
+              "rating": 2147
+            },
+            "id": "k1gmJcdz",
+            "mode": "rated",
+            "month": "2023-06",
+            "speed": "blitz",
+            "white": {
+              "name": "rolcin19",
+              "rating": 2137
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 289
+    },
+    "2023-07": {
+      "black": 268,
+      "draws": 32,
+      "moves": [
+        {
+          "averageRating": 2078,
+          "black": 76,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 99
+        },
+        {
+          "averageRating": 2102,
+          "black": 67,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 49
+        },
+        {
+          "averageRating": 2093,
+          "black": 37,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 36
+        },
+        {
+          "averageRating": 2072,
+          "black": 23,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 31
+        },
+        {
+          "averageRating": 2088,
+          "black": 27,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 31
+        },
+        {
+          "averageRating": 2107,
+          "black": 14,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 14
+        },
+        {
+          "averageRating": 2049,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 13
+        },
+        {
+          "averageRating": 2061,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 11
+        },
+        {
+          "averageRating": 2040,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 5
+        },
+        {
+          "averageRating": 2147,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 4
+        },
+        {
+          "averageRating": 2059,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "rescoussman",
+              "rating": 2059
+            },
+            "id": "hcvEwRjw",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "SeunMay",
+              "rating": 2151
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 1
+        },
+        {
+          "averageRating": 2125,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "superrico",
+              "rating": 2125
+            },
+            "id": "S1Tv4D0W",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "LuisRosano",
+              "rating": 2158
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qa5+",
+          "uci": "d8a5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 294
+    },
+    "2023-08": {
+      "black": 258,
+      "draws": 33,
+      "moves": [
+        {
+          "averageRating": 2079,
+          "black": 85,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 81
+        },
+        {
+          "averageRating": 2101,
+          "black": 56,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 55
+        },
+        {
+          "averageRating": 2063,
+          "black": 27,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 29
+        },
+        {
+          "averageRating": 2089,
+          "black": 25,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 26
+        },
+        {
+          "averageRating": 2099,
+          "black": 26,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 18
+        },
+        {
+          "averageRating": 2085,
+          "black": 9,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 23
+        },
+        {
+          "averageRating": 2067,
+          "black": 13,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 9
+        },
+        {
+          "averageRating": 2070,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 12
+        },
+        {
+          "averageRating": 2072,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 4
+        },
+        {
+          "averageRating": 2127,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 3
+        },
+        {
+          "averageRating": 2127,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa5+",
+          "uci": "d8a5",
+          "white": 0
+        },
+        {
+          "averageRating": 2018,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 2
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 264
+    },
+    "2023-09": {
+      "black": 279,
+      "draws": 37,
+      "moves": [
+        {
+          "averageRating": 2083,
+          "black": 91,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 106
+        },
+        {
+          "averageRating": 2104,
+          "black": 53,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 39
+        },
+        {
+          "averageRating": 2086,
+          "black": 44,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 36
+        },
+        {
+          "averageRating": 2059,
+          "black": 23,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 29
+        },
+        {
+          "averageRating": 2087,
+          "black": 19,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 18
+        },
+        {
+          "averageRating": 2085,
+          "black": 12,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 19
+        },
+        {
+          "averageRating": 2067,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 17
+        },
+        {
+          "averageRating": 2059,
+          "black": 13,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 12
+        },
+        {
+          "averageRating": 2097,
+          "black": 7,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 2
+        },
+        {
+          "averageRating": 2121,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 2
+        },
+        {
+          "averageRating": 2133,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 3
+        },
+        {
+          "averageRating": 2003,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "magnom",
+              "rating": 2003
+            },
+            "id": "4UW11wkN",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "imogen3232",
+              "rating": 2010
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qa5+",
+          "uci": "d8a5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 283
+    },
+    "2023-10": {
+      "black": 261,
+      "draws": 30,
+      "moves": [
+        {
+          "averageRating": 2092,
+          "black": 89,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 107
+        },
+        {
+          "averageRating": 2116,
+          "black": 45,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 42
+        },
+        {
+          "averageRating": 2082,
+          "black": 37,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 25
+        },
+        {
+          "averageRating": 2067,
+          "black": 22,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 21
+        },
+        {
+          "averageRating": 2093,
+          "black": 25,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 15
+        },
+        {
+          "averageRating": 2076,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 18
+        },
+        {
+          "averageRating": 2062,
+          "black": 13,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 10
+        },
+        {
+          "averageRating": 2081,
+          "black": 10,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 9
+        },
+        {
+          "averageRating": 2094,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 6
+        },
+        {
+          "averageRating": 2051,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 3
+        },
+        {
+          "averageRating": 2103,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa5+",
+          "uci": "d8a5",
+          "white": 2
+        },
+        {
+          "averageRating": 2093,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 259
+    },
+    "2023-11": {
+      "black": 267,
+      "draws": 40,
+      "moves": [
+        {
+          "averageRating": 2082,
+          "black": 83,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 98
+        },
+        {
+          "averageRating": 2126,
+          "black": 46,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 41
+        },
+        {
+          "averageRating": 2091,
+          "black": 40,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 34
+        },
+        {
+          "averageRating": 2104,
+          "black": 36,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 29
+        },
+        {
+          "averageRating": 2064,
+          "black": 21,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 32
+        },
+        {
+          "averageRating": 2086,
+          "black": 14,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 17
+        },
+        {
+          "averageRating": 2054,
+          "black": 13,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 9
+        },
+        {
+          "averageRating": 2089,
+          "black": 11,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 11
+        },
+        {
+          "averageRating": 2186,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 2
+        },
+        {
+          "averageRating": 2125,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 5
+        },
+        {
+          "averageRating": 2002,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Bogdan_Bukovskyy",
+              "rating": 2002
+            },
+            "id": "y90ZANsU",
+            "mode": "rated",
+            "month": "2023-11",
+            "speed": "blitz",
+            "white": {
+              "name": "viushin",
+              "rating": 2230
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 279
+    },
+    "2023-12": {
+      "black": 269,
+      "draws": 33,
+      "moves": [
+        {
+          "averageRating": 2090,
+          "black": 74,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 83
+        },
+        {
+          "averageRating": 2108,
+          "black": 61,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 49
+        },
+        {
+          "averageRating": 2071,
+          "black": 31,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 41
+        },
+        {
+          "averageRating": 2103,
+          "black": 33,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 28
+        },
+        {
+          "averageRating": 2073,
+          "black": 31,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 30
+        },
+        {
+          "averageRating": 2078,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 18
+        },
+        {
+          "averageRating": 2070,
+          "black": 9,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 10
+        },
+        {
+          "averageRating": 2065,
+          "black": 13,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 6
+        },
+        {
+          "averageRating": 2100,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 7
+        },
+        {
+          "averageRating": 2142,
+          "black": 3,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2138,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "mrjackall",
+              "rating": 2138
+            },
+            "id": "J1LbzRkk",
+            "mode": "rated",
+            "month": "2023-12",
+            "speed": "blitz",
+            "white": {
+              "name": "skooppi",
+              "rating": 2247
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qa5+",
+          "uci": "d8a5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 274
+    },
+    "2024-01": {
+      "black": 266,
+      "draws": 34,
+      "moves": [
+        {
+          "averageRating": 2088,
+          "black": 78,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 94
+        },
+        {
+          "averageRating": 2117,
+          "black": 59,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 37
+        },
+        {
+          "averageRating": 2071,
+          "black": 37,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 26
+        },
+        {
+          "averageRating": 2069,
+          "black": 27,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 24
+        },
+        {
+          "averageRating": 2103,
+          "black": 30,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 20
+        },
+        {
+          "averageRating": 2068,
+          "black": 13,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 18
+        },
+        {
+          "averageRating": 2078,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 6
+        },
+        {
+          "averageRating": 2106,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 8
+        },
+        {
+          "averageRating": 2070,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 3
+        },
+        {
+          "averageRating": 2089,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 3
+        },
+        {
+          "averageRating": 2062,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 2
+        },
+        {
+          "averageRating": 2052,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Eko_Petani",
+              "rating": 2052
+            },
+            "id": "AJpbr8Kf",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "moein64",
+              "rating": 2002
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qa5+",
+          "uci": "d8a5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 242
+    },
+    "2024-02": {
+      "black": 244,
+      "draws": 27,
+      "moves": [
+        {
+          "averageRating": 2076,
+          "black": 72,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 81
+        },
+        {
+          "averageRating": 2109,
+          "black": 40,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 48
+        },
+        {
+          "averageRating": 2069,
+          "black": 42,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 38
+        },
+        {
+          "averageRating": 2115,
+          "black": 27,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 21
+        },
+        {
+          "averageRating": 2054,
+          "black": 23,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 19
+        },
+        {
+          "averageRating": 2052,
+          "black": 15,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 12
+        },
+        {
+          "averageRating": 2080,
+          "black": 14,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 6
+        },
+        {
+          "averageRating": 2083,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 5
+        },
+        {
+          "averageRating": 2021,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 3
+        },
+        {
+          "averageRating": 2130,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 2
+        },
+        {
+          "averageRating": 2102,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa5+",
+          "uci": "d8a5",
+          "white": 2
+        },
+        {
+          "averageRating": 2048,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "GrilloJC",
+              "rating": 2048
+            },
+            "id": "tSNBmUfs",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "dimitar0512",
+              "rating": 2085
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 240
+    },
+    "2024-03": {
+      "black": 237,
+      "draws": 31,
+      "moves": [
+        {
+          "averageRating": 2078,
+          "black": 62,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 77
+        },
+        {
+          "averageRating": 2097,
+          "black": 55,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 54
+        },
+        {
+          "averageRating": 2094,
+          "black": 34,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 37
+        },
+        {
+          "averageRating": 2098,
+          "black": 23,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 27
+        },
+        {
+          "averageRating": 2063,
+          "black": 27,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 18
+        },
+        {
+          "averageRating": 2068,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 13
+        },
+        {
+          "averageRating": 2072,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 10
+        },
+        {
+          "averageRating": 2085,
+          "black": 6,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 5
+        },
+        {
+          "averageRating": 2101,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 9
+        },
+        {
+          "averageRating": 2133,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 0
+        },
+        {
+          "averageRating": 2053,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2154,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "OPTiMUz_PRIME",
+              "rating": 2154
+            },
+            "id": "WQMGpn6a",
+            "mode": "rated",
+            "month": "2024-03",
+            "speed": "blitz",
+            "white": {
+              "name": "Sprut1958",
+              "rating": 2004
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qa5+",
+          "uci": "d8a5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 251
+    },
+    "2024-04": {
+      "black": 237,
+      "draws": 26,
+      "moves": [
+        {
+          "averageRating": 2079,
+          "black": 62,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 82
+        },
+        {
+          "averageRating": 2109,
+          "black": 42,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 45
+        },
+        {
+          "averageRating": 2066,
+          "black": 37,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 40
+        },
+        {
+          "averageRating": 2062,
+          "black": 31,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 22
+        },
+        {
+          "averageRating": 2110,
+          "black": 26,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 18
+        },
+        {
+          "averageRating": 2088,
+          "black": 13,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 14
+        },
+        {
+          "averageRating": 2077,
+          "black": 9,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 11
+        },
+        {
+          "averageRating": 2071,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 12
+        },
+        {
+          "averageRating": 2060,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 2
+        },
+        {
+          "averageRating": 2121,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 2
+        },
+        {
+          "averageRating": 2018,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "StefanSchuldt",
+              "rating": 2018
+            },
+            "id": "xPCAk9Ck",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Nikola_dolgan",
+              "rating": 2047
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qa5+",
+          "uci": "d8a5",
+          "white": 1
+        },
+        {
+          "averageRating": 1997,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "omar2289",
+              "rating": 1997
+            },
+            "id": "BMc4R2LE",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "MomohPujeh",
+              "rating": 2019
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 249
+    },
+    "2024-05": {
+      "black": 234,
+      "draws": 37,
+      "moves": [
+        {
+          "averageRating": 2081,
+          "black": 65,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 83
+        },
+        {
+          "averageRating": 2118,
+          "black": 44,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 36
+        },
+        {
+          "averageRating": 2097,
+          "black": 27,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 33
+        },
+        {
+          "averageRating": 2088,
+          "black": 29,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 26
+        },
+        {
+          "averageRating": 2073,
+          "black": 25,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 23
+        },
+        {
+          "averageRating": 2124,
+          "black": 16,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 9
+        },
+        {
+          "averageRating": 2075,
+          "black": 9,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 9
+        },
+        {
+          "averageRating": 2065,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 11
+        },
+        {
+          "averageRating": 2117,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 3
+        },
+        {
+          "averageRating": 2080,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 3
+        },
+        {
+          "averageRating": 2068,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 3
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 239
+    },
+    "2024-06": {
+      "black": 255,
+      "draws": 25,
+      "moves": [
+        {
+          "averageRating": 2082,
+          "black": 85,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 76
+        },
+        {
+          "averageRating": 2086,
+          "black": 51,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 40
+        },
+        {
+          "averageRating": 2082,
+          "black": 31,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 43
+        },
+        {
+          "averageRating": 2082,
+          "black": 29,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 20
+        },
+        {
+          "averageRating": 2107,
+          "black": 22,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 20
+        },
+        {
+          "averageRating": 2066,
+          "black": 10,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 17
+        },
+        {
+          "averageRating": 2082,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 16
+        },
+        {
+          "averageRating": 2059,
+          "black": 5,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 8
+        },
+        {
+          "averageRating": 2094,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 1
+        },
+        {
+          "averageRating": 2161,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2067,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa5+",
+          "uci": "d8a5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 243
+    },
+    "2024-07": {
+      "black": 275,
+      "draws": 39,
+      "moves": [
+        {
+          "averageRating": 2077,
+          "black": 99,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 87
+        },
+        {
+          "averageRating": 2091,
+          "black": 50,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 44
+        },
+        {
+          "averageRating": 2069,
+          "black": 39,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 46
+        },
+        {
+          "averageRating": 2097,
+          "black": 27,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 20
+        },
+        {
+          "averageRating": 2064,
+          "black": 17,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 26
+        },
+        {
+          "averageRating": 2067,
+          "black": 18,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 13
+        },
+        {
+          "averageRating": 2061,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 13
+        },
+        {
+          "averageRating": 2060,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 8
+        },
+        {
+          "averageRating": 2086,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 3
+        },
+        {
+          "averageRating": 2096,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 3
+        },
+        {
+          "averageRating": 2152,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qa5+",
+          "uci": "d8a5",
+          "white": 2
+        },
+        {
+          "averageRating": 2052,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 266
+    },
+    "2024-08": {
+      "black": 288,
+      "draws": 29,
+      "moves": [
+        {
+          "averageRating": 2076,
+          "black": 94,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 88
+        },
+        {
+          "averageRating": 2110,
+          "black": 50,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 47
+        },
+        {
+          "averageRating": 2081,
+          "black": 41,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 45
+        },
+        {
+          "averageRating": 2081,
+          "black": 33,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 23
+        },
+        {
+          "averageRating": 2066,
+          "black": 20,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 22
+        },
+        {
+          "averageRating": 2089,
+          "black": 21,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 16
+        },
+        {
+          "averageRating": 2096,
+          "black": 8,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 8
+        },
+        {
+          "averageRating": 2107,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 8
+        },
+        {
+          "averageRating": 2107,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 3
+        },
+        {
+          "averageRating": 2105,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2036,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 0
+        },
+        {
+          "averageRating": 2021,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa5+",
+          "uci": "d8a5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 264
+    },
+    "2024-09": {
+      "black": 250,
+      "draws": 28,
+      "moves": [
+        {
+          "averageRating": 2076,
+          "black": 74,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 85
+        },
+        {
+          "averageRating": 2103,
+          "black": 47,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 45
+        },
+        {
+          "averageRating": 2067,
+          "black": 35,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 39
+        },
+        {
+          "averageRating": 2087,
+          "black": 31,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 26
+        },
+        {
+          "averageRating": 2066,
+          "black": 32,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 20
+        },
+        {
+          "averageRating": 2062,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 20
+        },
+        {
+          "averageRating": 2066,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 14
+        },
+        {
+          "averageRating": 2076,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 4
+        },
+        {
+          "averageRating": 2072,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 5
+        },
+        {
+          "averageRating": 2159,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 3
+        },
+        {
+          "averageRating": 2123,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa5+",
+          "uci": "d8a5",
+          "white": 2
+        },
+        {
+          "averageRating": 2033,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Duesseldorf-Andy",
+              "rating": 2033
+            },
+            "id": "IBmOMXcG",
+            "mode": "rated",
+            "month": "2024-09",
+            "speed": "blitz",
+            "white": {
+              "name": "seyitali1982fb",
+              "rating": 2015
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bd7",
+          "uci": "c8d7",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 264
+    },
+    "2024-10": {
+      "black": 262,
+      "draws": 38,
+      "moves": [
+        {
+          "averageRating": 2086,
+          "black": 81,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 74
+        },
+        {
+          "averageRating": 2100,
+          "black": 58,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 49
+        },
+        {
+          "averageRating": 2078,
+          "black": 35,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 36
+        },
+        {
+          "averageRating": 2103,
+          "black": 23,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 23
+        },
+        {
+          "averageRating": 2038,
+          "black": 21,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 25
+        },
+        {
+          "averageRating": 2088,
+          "black": 12,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 11
+        },
+        {
+          "averageRating": 2087,
+          "black": 12,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 10
+        },
+        {
+          "averageRating": 2052,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 11
+        },
+        {
+          "averageRating": 2072,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 2
+        },
+        {
+          "averageRating": 2096,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 0
+        },
+        {
+          "averageRating": 2118,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa5+",
+          "uci": "d8a5",
+          "white": 1
+        },
+        {
+          "averageRating": 2097,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 242
+    },
+    "2024-11": {
+      "black": 206,
+      "draws": 24,
+      "moves": [
+        {
+          "averageRating": 2080,
+          "black": 58,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 65
+        },
+        {
+          "averageRating": 2100,
+          "black": 43,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 45
+        },
+        {
+          "averageRating": 2076,
+          "black": 35,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 32
+        },
+        {
+          "averageRating": 2067,
+          "black": 18,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 25
+        },
+        {
+          "averageRating": 2074,
+          "black": 21,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 19
+        },
+        {
+          "averageRating": 2056,
+          "black": 13,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 13
+        },
+        {
+          "averageRating": 2096,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 11
+        },
+        {
+          "averageRating": 2106,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 6
+        },
+        {
+          "averageRating": 2062,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 5
+        },
+        {
+          "averageRating": 2065,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 1
+        },
+        {
+          "averageRating": 2106,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd7",
+          "uci": "c8d7",
+          "white": 0
+        },
+        {
+          "averageRating": 2171,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "FiryAnt333",
+              "rating": 2171
+            },
+            "id": "XyjGKBGd",
+            "mode": "rated",
+            "month": "2024-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Cypriotplayer",
+              "rating": 2162
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 223
+    },
+    "2024-12": {
+      "black": 263,
+      "draws": 36,
+      "moves": [
+        {
+          "averageRating": 2090,
+          "black": 77,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 94
+        },
+        {
+          "averageRating": 2099,
+          "black": 49,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 47
+        },
+        {
+          "averageRating": 2064,
+          "black": 48,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 33
+        },
+        {
+          "averageRating": 2095,
+          "black": 27,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 25
+        },
+        {
+          "averageRating": 2075,
+          "black": 17,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 30
+        },
+        {
+          "averageRating": 2076,
+          "black": 17,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 12
+        },
+        {
+          "averageRating": 2082,
+          "black": 15,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 7
+        },
+        {
+          "averageRating": 2089,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 10
+        },
+        {
+          "averageRating": 2070,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 1
+        },
+        {
+          "averageRating": 2141,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 260
+    },
+    "2025-01": {
+      "black": 278,
+      "draws": 39,
+      "moves": [
+        {
+          "averageRating": 2077,
+          "black": 81,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 70
+        },
+        {
+          "averageRating": 2104,
+          "black": 53,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 53
+        },
+        {
+          "averageRating": 2083,
+          "black": 40,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 40
+        },
+        {
+          "averageRating": 2061,
+          "black": 26,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 30
+        },
+        {
+          "averageRating": 2108,
+          "black": 21,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 22
+        },
+        {
+          "averageRating": 2104,
+          "black": 20,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 17
+        },
+        {
+          "averageRating": 2065,
+          "black": 15,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 13
+        },
+        {
+          "averageRating": 2069,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 12
+        },
+        {
+          "averageRating": 2108,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 4
+        },
+        {
+          "averageRating": 2064,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 2
+        },
+        {
+          "averageRating": 2074,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qc7",
+          "uci": "d8c7",
+          "white": 1
+        },
+        {
+          "averageRating": 2153,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 2
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 268
+    },
+    "2025-02": {
+      "black": 220,
+      "draws": 32,
+      "moves": [
+        {
+          "averageRating": 2077,
+          "black": 68,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 66
+        },
+        {
+          "averageRating": 2105,
+          "black": 59,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 49
+        },
+        {
+          "averageRating": 2081,
+          "black": 31,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 34
+        },
+        {
+          "averageRating": 2065,
+          "black": 18,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 25
+        },
+        {
+          "averageRating": 2076,
+          "black": 11,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 15
+        },
+        {
+          "averageRating": 2093,
+          "black": 13,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 8
+        },
+        {
+          "averageRating": 2110,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 8
+        },
+        {
+          "averageRating": 2086,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 8
+        },
+        {
+          "averageRating": 2104,
+          "black": 4,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 1
+        },
+        {
+          "averageRating": 2112,
+          "black": 3,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 3
+        },
+        {
+          "averageRating": 2121,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2056,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "sottolapanca",
+              "rating": 2056
+            },
+            "id": "jYzbsqYh",
+            "mode": "rated",
+            "month": "2025-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Timex23",
+              "rating": 2125
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qa5+",
+          "uci": "d8a5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 219
+    },
+    "2025-03": {
+      "black": 202,
+      "draws": 29,
+      "moves": [
+        {
+          "averageRating": 2086,
+          "black": 69,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 61
+        },
+        {
+          "averageRating": 2094,
+          "black": 38,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 56
+        },
+        {
+          "averageRating": 2065,
+          "black": 29,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 33
+        },
+        {
+          "averageRating": 2085,
+          "black": 17,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 25
+        },
+        {
+          "averageRating": 2067,
+          "black": 22,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 18
+        },
+        {
+          "averageRating": 2092,
+          "black": 12,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 15
+        },
+        {
+          "averageRating": 2102,
+          "black": 5,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 11
+        },
+        {
+          "averageRating": 2075,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 10
+        },
+        {
+          "averageRating": 2126,
+          "black": 4,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 4
+        },
+        {
+          "averageRating": 2122,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 3
+        },
+        {
+          "averageRating": 2138,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "keshavkaurav",
+              "rating": 2138
+            },
+            "id": "3VhMmo3r",
+            "mode": "rated",
+            "month": "2025-03",
+            "speed": "blitz",
+            "white": {
+              "name": "Vlat24",
+              "rating": 2205
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 237
+    },
+    "2025-04": {
+      "black": 225,
+      "draws": 41,
+      "moves": [
+        {
+          "averageRating": 2084,
+          "black": 62,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 86
+        },
+        {
+          "averageRating": 2099,
+          "black": 46,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 47
+        },
+        {
+          "averageRating": 2084,
+          "black": 29,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 29
+        },
+        {
+          "averageRating": 2063,
+          "black": 26,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 31
+        },
+        {
+          "averageRating": 2104,
+          "black": 21,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 20
+        },
+        {
+          "averageRating": 2101,
+          "black": 15,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 13
+        },
+        {
+          "averageRating": 2088,
+          "black": 11,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 8
+        },
+        {
+          "averageRating": 2070,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 16
+        },
+        {
+          "averageRating": 2068,
+          "black": 4,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 5
+        },
+        {
+          "averageRating": 2091,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2156,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 0
+        },
+        {
+          "averageRating": 2092,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Hlodowig_Q",
+              "rating": 2092
+            },
+            "id": "T2ZI2jIz",
+            "mode": "rated",
+            "month": "2025-04",
+            "speed": "blitz",
+            "white": {
+              "name": "KaBun",
+              "rating": 2094
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "c5",
+          "uci": "c6c5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 256
+    },
+    "2025-05": {
+      "black": 251,
+      "draws": 29,
+      "moves": [
+        {
+          "averageRating": 2079,
+          "black": 74,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 101
+        },
+        {
+          "averageRating": 2103,
+          "black": 58,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 50
+        },
+        {
+          "averageRating": 2073,
+          "black": 37,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 41
+        },
+        {
+          "averageRating": 2059,
+          "black": 14,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 38
+        },
+        {
+          "averageRating": 2091,
+          "black": 29,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 20
+        },
+        {
+          "averageRating": 2089,
+          "black": 18,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 13
+        },
+        {
+          "averageRating": 2077,
+          "black": 6,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 11
+        },
+        {
+          "averageRating": 2065,
+          "black": 5,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 7
+        },
+        {
+          "averageRating": 2109,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 2
+        },
+        {
+          "averageRating": 2127,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 3
+        },
+        {
+          "averageRating": 2154,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa5+",
+          "uci": "d8a5",
+          "white": 2
+        },
+        {
+          "averageRating": 2005,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "EGanbarly",
+              "rating": 2005
+            },
+            "id": "hIjORcYL",
+            "mode": "rated",
+            "month": "2025-05",
+            "speed": "blitz",
+            "white": {
+              "name": "kandit",
+              "rating": 2009
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 290
+    },
+    "2025-06": {
+      "black": 198,
+      "draws": 20,
+      "moves": [
+        {
+          "averageRating": 2081,
+          "black": 50,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 66
+        },
+        {
+          "averageRating": 2108,
+          "black": 45,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 54
+        },
+        {
+          "averageRating": 2080,
+          "black": 33,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 33
+        },
+        {
+          "averageRating": 2061,
+          "black": 18,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 25
+        },
+        {
+          "averageRating": 2112,
+          "black": 24,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 19
+        },
+        {
+          "averageRating": 2081,
+          "black": 10,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 11
+        },
+        {
+          "averageRating": 2054,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 8
+        },
+        {
+          "averageRating": 2094,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 5
+        },
+        {
+          "averageRating": 2076,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 4
+        },
+        {
+          "averageRating": 2041,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 2
+        },
+        {
+          "averageRating": 2118,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa5+",
+          "uci": "d8a5",
+          "white": 2
+        },
+        {
+          "averageRating": 2072,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 2
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 231
+    },
+    "2025-07": {
+      "black": 259,
+      "draws": 34,
+      "moves": [
+        {
+          "averageRating": 2089,
+          "black": 81,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 79
+        },
+        {
+          "averageRating": 2112,
+          "black": 59,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 62
+        },
+        {
+          "averageRating": 2085,
+          "black": 42,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 44
+        },
+        {
+          "averageRating": 2065,
+          "black": 16,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 23
+        },
+        {
+          "averageRating": 2091,
+          "black": 24,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 18
+        },
+        {
+          "averageRating": 2094,
+          "black": 15,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 20
+        },
+        {
+          "averageRating": 2085,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 11
+        },
+        {
+          "averageRating": 2079,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 9
+        },
+        {
+          "averageRating": 2081,
+          "black": 3,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 6
+        },
+        {
+          "averageRating": 2155,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 5
+        },
+        {
+          "averageRating": 2019,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "MickeyLong",
+              "rating": 2019
+            },
+            "id": "WlzEd7xe",
+            "mode": "rated",
+            "month": "2025-07",
+            "speed": "blitz",
+            "white": {
+              "name": "michiduta",
+              "rating": 2030
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qa5+",
+          "uci": "d8a5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 277
+    },
+    "2025-08": {
+      "black": 243,
+      "draws": 35,
+      "moves": [
+        {
+          "averageRating": 2083,
+          "black": 84,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 79
+        },
+        {
+          "averageRating": 2103,
+          "black": 47,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 44
+        },
+        {
+          "averageRating": 2090,
+          "black": 30,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 36
+        },
+        {
+          "averageRating": 2063,
+          "black": 23,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 36
+        },
+        {
+          "averageRating": 2106,
+          "black": 22,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 17
+        },
+        {
+          "averageRating": 2090,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 19
+        },
+        {
+          "averageRating": 2084,
+          "black": 13,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 15
+        },
+        {
+          "averageRating": 2069,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 3
+        },
+        {
+          "averageRating": 2091,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 5
+        },
+        {
+          "averageRating": 2102,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 5
+        },
+        {
+          "averageRating": 2165,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "study_hack",
+              "rating": 2165
+            },
+            "id": "ksmrbZvR",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "urikohimedesu",
+              "rating": 2080
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 0
+        },
+        {
+          "averageRating": 2039,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "martex1",
+              "rating": 2039
+            },
+            "id": "SRcsrsRr",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "Guilhermevr4",
+              "rating": 2191
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qa5+",
+          "uci": "d8a5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 260
+    },
+    "2025-09": {
+      "black": 244,
+      "draws": 30,
+      "moves": [
+        {
+          "averageRating": 2086,
+          "black": 79,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 66
+        },
+        {
+          "averageRating": 2096,
+          "black": 44,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 35
+        },
+        {
+          "averageRating": 2095,
+          "black": 41,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 38
+        },
+        {
+          "averageRating": 2048,
+          "black": 20,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 17
+        },
+        {
+          "averageRating": 2111,
+          "black": 26,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 15
+        },
+        {
+          "averageRating": 2093,
+          "black": 14,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 10
+        },
+        {
+          "averageRating": 2065,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 12
+        },
+        {
+          "averageRating": 2068,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 6
+        },
+        {
+          "averageRating": 2028,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 3
+        },
+        {
+          "averageRating": 2131,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2013,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2067,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Jorgeor",
+              "rating": 2067
+            },
+            "id": "PrFcIk2v",
+            "mode": "rated",
+            "month": "2025-09",
+            "speed": "blitz",
+            "white": {
+              "name": "Lem0nHead",
+              "rating": 2013
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qa5+",
+          "uci": "d8a5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 204
+    },
+    "2025-10": {
+      "black": 186,
+      "draws": 31,
+      "moves": [
+        {
+          "averageRating": 2082,
+          "black": 54,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 77
+        },
+        {
+          "averageRating": 2113,
+          "black": 38,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 33
+        },
+        {
+          "averageRating": 2074,
+          "black": 29,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 33
+        },
+        {
+          "averageRating": 2070,
+          "black": 16,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 24
+        },
+        {
+          "averageRating": 2090,
+          "black": 20,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 13
+        },
+        {
+          "averageRating": 2080,
+          "black": 11,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 19
+        },
+        {
+          "averageRating": 2091,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 12
+        },
+        {
+          "averageRating": 2066,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 7
+        },
+        {
+          "averageRating": 2151,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 5
+        },
+        {
+          "averageRating": 2066,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 3
+        },
+        {
+          "averageRating": 2131,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa5+",
+          "uci": "d8a5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 227
+    },
+    "2025-11": {
+      "black": 197,
+      "draws": 18,
+      "moves": [
+        {
+          "averageRating": 2077,
+          "black": 56,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 80
+        },
+        {
+          "averageRating": 2092,
+          "black": 39,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 36
+        },
+        {
+          "averageRating": 2089,
+          "black": 24,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 23
+        },
+        {
+          "averageRating": 2107,
+          "black": 26,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 16
+        },
+        {
+          "averageRating": 2047,
+          "black": 19,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 15
+        },
+        {
+          "averageRating": 2094,
+          "black": 10,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 11
+        },
+        {
+          "averageRating": 2096,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 10
+        },
+        {
+          "averageRating": 2084,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 9
+        },
+        {
+          "averageRating": 2100,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2066,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 3
+        },
+        {
+          "averageRating": 2017,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 2
+        },
+        {
+          "averageRating": 2170,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "cheesynoob",
+              "rating": 2170
+            },
+            "id": "oUzNHpWs",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Kero87",
+              "rating": 2160
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qa5+",
+          "uci": "d8a5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 206
+    },
+    "2025-12": {
+      "black": 220,
+      "draws": 44,
+      "moves": [
+        {
+          "averageRating": 2092,
+          "black": 77,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 80
+        },
+        {
+          "averageRating": 2107,
+          "black": 46,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 42
+        },
+        {
+          "averageRating": 2068,
+          "black": 33,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 32
+        },
+        {
+          "averageRating": 2062,
+          "black": 20,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 18
+        },
+        {
+          "averageRating": 2108,
+          "black": 17,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 21
+        },
+        {
+          "averageRating": 2085,
+          "black": 12,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 18
+        },
+        {
+          "averageRating": 2085,
+          "black": 6,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 13
+        },
+        {
+          "averageRating": 2100,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 8
+        },
+        {
+          "averageRating": 2064,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 4
+        },
+        {
+          "averageRating": 2054,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 5
+        },
+        {
+          "averageRating": 2015,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa5+",
+          "uci": "d8a5",
+          "white": 2
+        },
+        {
+          "averageRating": 2075,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "Jerogan",
+              "rating": 2075
+            },
+            "id": "z97w2Ovw",
+            "mode": "rated",
+            "month": "2025-12",
+            "speed": "blitz",
+            "white": {
+              "name": "Myauno",
+              "rating": 2081
+            },
+            "winner": null,
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bd7",
+          "uci": "c8d7",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 244
+    },
+    "2026-01": {
+      "black": 216,
+      "draws": 32,
+      "moves": [
+        {
+          "averageRating": 2085,
+          "black": 70,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 77
+        },
+        {
+          "averageRating": 2093,
+          "black": 43,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 53
+        },
+        {
+          "averageRating": 2077,
+          "black": 32,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 41
+        },
+        {
+          "averageRating": 2072,
+          "black": 26,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 26
+        },
+        {
+          "averageRating": 2098,
+          "black": 17,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 25
+        },
+        {
+          "averageRating": 2078,
+          "black": 10,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 8
+        },
+        {
+          "averageRating": 2075,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 7
+        },
+        {
+          "averageRating": 2075,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 7
+        },
+        {
+          "averageRating": 2069,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 3
+        },
+        {
+          "averageRating": 2016,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2034,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 2
+        },
+        {
+          "averageRating": 2117,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Labazan77",
+              "rating": 2117
+            },
+            "id": "GoiCwpHQ",
+            "mode": "rated",
+            "month": "2026-01",
+            "speed": "blitz",
+            "white": {
+              "name": "bokske",
+              "rating": 2219
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Qa5+",
+          "uci": "d8a5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 251
+    },
+    "2026-02": {
+      "black": 173,
+      "draws": 20,
+      "moves": [
+        {
+          "averageRating": 2080,
+          "black": 48,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 57
+        },
+        {
+          "averageRating": 2094,
+          "black": 26,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 39
+        },
+        {
+          "averageRating": 2112,
+          "black": 32,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 20
+        },
+        {
+          "averageRating": 2063,
+          "black": 18,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 18
+        },
+        {
+          "averageRating": 2106,
+          "black": 23,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 12
+        },
+        {
+          "averageRating": 2076,
+          "black": 12,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 5
+        },
+        {
+          "averageRating": 2044,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 11
+        },
+        {
+          "averageRating": 2066,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 8
+        },
+        {
+          "averageRating": 2142,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 3
+        },
+        {
+          "averageRating": 1979,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 0
+        },
+        {
+          "averageRating": 2003,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na6",
+          "uci": "b8a6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 174
+    },
+    "2026-03": {
+      "black": 185,
+      "draws": 23,
+      "moves": [
+        {
+          "averageRating": 2086,
+          "black": 55,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 71
+        },
+        {
+          "averageRating": 2099,
+          "black": 34,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 33
+        },
+        {
+          "averageRating": 2080,
+          "black": 28,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 28
+        },
+        {
+          "averageRating": 2106,
+          "black": 26,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 18
+        },
+        {
+          "averageRating": 2068,
+          "black": 18,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 17
+        },
+        {
+          "averageRating": 2078,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 14
+        },
+        {
+          "averageRating": 2074,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 6
+        },
+        {
+          "averageRating": 2099,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 2
+        },
+        {
+          "averageRating": 2070,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 3
+        },
+        {
+          "averageRating": 2117,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2067,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2093,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "stefos_18",
+              "rating": 2093
+            },
+            "id": "1hW6ihU7",
+            "mode": "rated",
+            "month": "2026-03",
+            "speed": "blitz",
+            "white": {
+              "name": "Myauno",
+              "rating": 2087
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Qa5+",
+          "uci": "d8a5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "white": 194
+    },
+    "2026-04": {
+      "black": 94,
+      "draws": 17,
+      "moves": [
+        {
+          "averageRating": 2086,
+          "black": 34,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 26
+        },
+        {
+          "averageRating": 2094,
+          "black": 18,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Ne4",
+          "uci": "f6e4",
+          "white": 22
+        },
+        {
+          "averageRating": 2078,
+          "black": 11,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 10
+        },
+        {
+          "averageRating": 2077,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 12
+        },
+        {
+          "averageRating": 2077,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 10
+        },
+        {
+          "averageRating": 2097,
+          "black": 7,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 3
+        },
+        {
+          "averageRating": 2085,
+          "black": 4,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 3
+        },
+        {
+          "averageRating": 2031,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 4
+        },
+        {
+          "averageRating": 2103,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa5+",
+          "uci": "d8a5",
+          "white": 0
+        },
+        {
+          "averageRating": 2083,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 0
+        },
+        {
+          "averageRating": 2105,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D11",
+        "name": "Slav Defense: Bonet Gambit"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 90
+    }
+  }
+}

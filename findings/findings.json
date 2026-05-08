@@ -1,29 +1,27 @@
 {
-  "generated_at": "2026-05-03",
+  "generated_at": "2026-05-08",
   "month": "2026-05",
-  "headline": "Across the 20 tracked openings, Queen's Gambit (D06) shows the largest positive delta (+0.0303), meaning humans outperform Stockfish's win-probability prediction, while Grunfeld Defense (D70) records the largest negative delta (-0.0644), indicating it is the most frequently misplayed opening.",
+  "headline": "Humans outperform Stockfish in King's Indian Defense: Orthodox Variation, Classical System (E98) by the widest margin, while Benoni Defense: Old Benoni (A44) is the most frequently misplayed or theory-dependent opening.",
   "panels": {
     "forecast": {
-      "insight": "The win-rate forecast indicates dynamic shifts, with openings like the Pirc Defense (B07) and Grunfeld Defense (D70) projected to experience falling win rates, suggesting increasing difficulty for human players. Conversely, the Ruy Lopez (C60) and King's Gambit (C20) show rising trends, potentially offering more favorable outcomes in the near future.",
+      "insight": "The ARIMA forecast indicates a stable win-rate trend across most openings, with some notable exceptions. The English Opening: Four Knights System, Nimzowitsch Variation (A28) shows the steepest rising trend. Overall, the forecast suggests a stable win-rate landscape.",
       "highlight_ecos": [
-        "B07",
-        "D70",
-        "C60",
-        "C20"
+        "E98",
+        "A28",
+        "A21"
       ]
     },
     "engine_delta": {
-      "insight": "There's a clear divergence between human and engine performance, with humans significantly outperforming Stockfish's predictions in openings like the Queen's Gambit (D06). In contrast, several complex or theory-heavy openings, such as the Grunfeld Defense (D70) and Scandinavian Defense (B01), see humans notably underperforming, suggesting these are frequently misplayed or demand deeper theoretical knowledge.",
+      "insight": "The engine-human delta analysis reveals that humans outperform Stockfish in certain openings, while underperforming in others. Notable outlier openings include Benoni Defense: Old Benoni (A44) and Elephant Gambit (C40).",
       "outliers": [
-        "D06",
-        "D70",
-        "B01",
-        "B07",
-        "E60"
+        "A44",
+        "C40",
+        "E98",
+        "A21"
       ]
     },
     "heatmap": {
-      "insight": "While a direct heatmap is not provided, the opening analysis suggests distinct regional patterns. Openings known for positional play or early simplicity (e.g., Queen's Gambit D-codes) show positive human deltas, implying they might form 'green' zones on a heatmap. Conversely, aggressive or theory-rich defenses (e.g., certain B- and E-codes like Grunfeld, Scandinavian, King's Indian) consistently show negative human deltas, hinting at 'red' zones where human play struggles against engine expectations over time."
+      "insight": "The ECO category heatmap shows a mixed pattern, with some openings having a higher win-rate than others. The heatmap suggests that humans have an advantage in certain openings, while Stockfish has an advantage in others."
     }
   }
 }

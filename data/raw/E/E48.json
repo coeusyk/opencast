@@ -1,0 +1,5195 @@
+{
+  "_meta": {
+    "skipped_months": {}
+  },
+  "eco": "E48",
+  "months": {
+    "2023-01": {
+      "black": 250,
+      "draws": 37,
+      "moves": [
+        {
+          "averageRating": 2082,
+          "black": 103,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 95
+        },
+        {
+          "averageRating": 2100,
+          "black": 65,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 65
+        },
+        {
+          "averageRating": 2095,
+          "black": 39,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 49
+        },
+        {
+          "averageRating": 2152,
+          "black": 31,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 37
+        },
+        {
+          "averageRating": 2088,
+          "black": 4,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2078,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 2
+        },
+        {
+          "averageRating": 2051,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 1
+        },
+        {
+          "averageRating": 2048,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2136,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "DT001",
+              "rating": 2179
+            },
+            "id": "gxgfJq7r",
+            "mode": "rated",
+            "month": "2023-01",
+            "speed": "blitz",
+            "white": {
+              "name": "uucoluk",
+              "rating": 2136
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2080,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Butcher_Of_Truth",
+              "rating": 2136
+            },
+            "id": "Pz9LpIfv",
+            "mode": "rated",
+            "month": "2023-01",
+            "speed": "blitz",
+            "white": {
+              "name": "EvilVinicius",
+              "rating": 2080
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "f3",
+          "uci": "f2f3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 251
+    },
+    "2023-02": {
+      "black": 259,
+      "draws": 31,
+      "moves": [
+        {
+          "averageRating": 2083,
+          "black": 123,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 120
+        },
+        {
+          "averageRating": 2109,
+          "black": 58,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 87
+        },
+        {
+          "averageRating": 2088,
+          "black": 37,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 37
+        },
+        {
+          "averageRating": 2121,
+          "black": 27,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 40
+        },
+        {
+          "averageRating": 2082,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 4
+        },
+        {
+          "averageRating": 2045,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2041,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 1973,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 1
+        },
+        {
+          "averageRating": 2066,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "hfrances",
+              "rating": 2069
+            },
+            "id": "YknT75f1",
+            "mode": "rated",
+            "month": "2023-02",
+            "speed": "blitz",
+            "white": {
+              "name": "npomokoji",
+              "rating": 2066
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2077,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "drunkTeemo",
+              "rating": 2055
+            },
+            "id": "6IaAUMEe",
+            "mode": "rated",
+            "month": "2023-02",
+            "speed": "blitz",
+            "white": {
+              "name": "kunktat0r",
+              "rating": 2077
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "g4",
+          "uci": "g2g4",
+          "white": 1
+        },
+        {
+          "averageRating": 2081,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "MbengKTCT",
+              "rating": 2034
+            },
+            "id": "4riw3tyQ",
+            "mode": "rated",
+            "month": "2023-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Faizal_Pkp",
+              "rating": 2081
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 293
+    },
+    "2023-03": {
+      "black": 298,
+      "draws": 33,
+      "moves": [
+        {
+          "averageRating": 2096,
+          "black": 132,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 147
+        },
+        {
+          "averageRating": 2102,
+          "black": 85,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 84
+        },
+        {
+          "averageRating": 2093,
+          "black": 44,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 44
+        },
+        {
+          "averageRating": 2124,
+          "black": 27,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 33
+        },
+        {
+          "averageRating": 2017,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 2
+        },
+        {
+          "averageRating": 2124,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 3
+        },
+        {
+          "averageRating": 2083,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 4
+        },
+        {
+          "averageRating": 2059,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 1
+        },
+        {
+          "averageRating": 2064,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "Hunting4aWeebGF",
+              "rating": 2082
+            },
+            "id": "ULnHJ9vm",
+            "mode": "rated",
+            "month": "2023-03",
+            "speed": "blitz",
+            "white": {
+              "name": "indian_n",
+              "rating": 2064
+            },
+            "winner": null,
+            "year": 2023
+          },
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 0
+        },
+        {
+          "averageRating": 2060,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "caliber_attack",
+              "rating": 2077
+            },
+            "id": "S7anpMhA",
+            "mode": "rated",
+            "month": "2023-03",
+            "speed": "blitz",
+            "white": {
+              "name": "MishaMagic0",
+              "rating": 2060
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 319
+    },
+    "2023-04": {
+      "black": 301,
+      "draws": 37,
+      "moves": [
+        {
+          "averageRating": 2090,
+          "black": 129,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 155
+        },
+        {
+          "averageRating": 2103,
+          "black": 85,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 77
+        },
+        {
+          "averageRating": 2090,
+          "black": 40,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 41
+        },
+        {
+          "averageRating": 2129,
+          "black": 29,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 22
+        },
+        {
+          "averageRating": 2030,
+          "black": 7,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 1
+        },
+        {
+          "averageRating": 2078,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2097,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 3
+        },
+        {
+          "averageRating": 2144,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f3",
+          "uci": "f2f3",
+          "white": 1
+        },
+        {
+          "averageRating": 2114,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "aml99",
+              "rating": 2127
+            },
+            "id": "CptEvgLs",
+            "mode": "rated",
+            "month": "2023-04",
+            "speed": "blitz",
+            "white": {
+              "name": "amiroo415",
+              "rating": 2114
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 302
+    },
+    "2023-05": {
+      "black": 302,
+      "draws": 37,
+      "moves": [
+        {
+          "averageRating": 2083,
+          "black": 115,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 161
+        },
+        {
+          "averageRating": 2100,
+          "black": 89,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 75
+        },
+        {
+          "averageRating": 2101,
+          "black": 49,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 50
+        },
+        {
+          "averageRating": 2120,
+          "black": 33,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 45
+        },
+        {
+          "averageRating": 2079,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 5
+        },
+        {
+          "averageRating": 2068,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 2
+        },
+        {
+          "averageRating": 2044,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2037,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 0
+        },
+        {
+          "averageRating": 2159,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "bizzar27",
+              "rating": 2167
+            },
+            "id": "bxS44I3S",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "Nilahs",
+              "rating": 2159
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 0
+        },
+        {
+          "averageRating": 2088,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "juafer2005",
+              "rating": 2051
+            },
+            "id": "Rwvo7qSJ",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "elagmuno",
+              "rating": 2088
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2154,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Jankeldi_abay",
+              "rating": 2184
+            },
+            "id": "UOjLPQTl",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "Congretulator",
+              "rating": 2154
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 340
+    },
+    "2023-06": {
+      "black": 299,
+      "draws": 32,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 128,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 131
+        },
+        {
+          "averageRating": 2112,
+          "black": 92,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 89
+        },
+        {
+          "averageRating": 2090,
+          "black": 45,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 49
+        },
+        {
+          "averageRating": 2086,
+          "black": 20,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 35
+        },
+        {
+          "averageRating": 1988,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 2
+        },
+        {
+          "averageRating": 2091,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 3
+        },
+        {
+          "averageRating": 2181,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 3
+        },
+        {
+          "averageRating": 2047,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 2
+        },
+        {
+          "averageRating": 2065,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 315
+    },
+    "2023-07": {
+      "black": 298,
+      "draws": 24,
+      "moves": [
+        {
+          "averageRating": 2084,
+          "black": 123,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 117
+        },
+        {
+          "averageRating": 2105,
+          "black": 86,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 92
+        },
+        {
+          "averageRating": 2100,
+          "black": 40,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 54
+        },
+        {
+          "averageRating": 2129,
+          "black": 33,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 32
+        },
+        {
+          "averageRating": 2108,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 2
+        },
+        {
+          "averageRating": 2070,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 2
+        },
+        {
+          "averageRating": 2093,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 3
+        },
+        {
+          "averageRating": 2118,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2126,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        },
+        {
+          "averageRating": 2064,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Dominion4",
+              "rating": 2072
+            },
+            "id": "gMlQKKYw",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "LekhThapa",
+              "rating": 2064
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Ke2",
+          "uci": "e1e2",
+          "white": 0
+        },
+        {
+          "averageRating": 2134,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "suparyono",
+              "rating": 2137
+            },
+            "id": "HHoZ5rOW",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "industrial_tuna",
+              "rating": 2134
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 0
+        },
+        {
+          "averageRating": 2104,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Sajeel_Ahmed",
+              "rating": 2134
+            },
+            "id": "ghD8LQQh",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "Nilahs",
+              "rating": 2104
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 307
+    },
+    "2023-08": {
+      "black": 287,
+      "draws": 36,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 110,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 127
+        },
+        {
+          "averageRating": 2106,
+          "black": 88,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 78
+        },
+        {
+          "averageRating": 2103,
+          "black": 54,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 54
+        },
+        {
+          "averageRating": 2107,
+          "black": 26,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 29
+        },
+        {
+          "averageRating": 2000,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 3
+        },
+        {
+          "averageRating": 2116,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 4
+        },
+        {
+          "averageRating": 2126,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 5
+        },
+        {
+          "averageRating": 2049,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 0
+        },
+        {
+          "averageRating": 2139,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Yasma90",
+              "rating": 2103
+            },
+            "id": "EZu0JLmu",
+            "mode": "rated",
+            "month": "2023-08",
+            "speed": "blitz",
+            "white": {
+              "name": "reinier1983",
+              "rating": 2139
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 300
+    },
+    "2023-09": {
+      "black": 313,
+      "draws": 29,
+      "moves": [
+        {
+          "averageRating": 2090,
+          "black": 123,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 119
+        },
+        {
+          "averageRating": 2094,
+          "black": 98,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 67
+        },
+        {
+          "averageRating": 2112,
+          "black": 45,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 49
+        },
+        {
+          "averageRating": 2105,
+          "black": 37,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 29
+        },
+        {
+          "averageRating": 2058,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 1
+        },
+        {
+          "averageRating": 2061,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 1
+        },
+        {
+          "averageRating": 2023,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 0
+        },
+        {
+          "averageRating": 2105,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 2
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 268
+    },
+    "2023-10": {
+      "black": 231,
+      "draws": 30,
+      "moves": [
+        {
+          "averageRating": 2091,
+          "black": 101,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 114
+        },
+        {
+          "averageRating": 2112,
+          "black": 68,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 90
+        },
+        {
+          "averageRating": 2099,
+          "black": 33,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 37
+        },
+        {
+          "averageRating": 2121,
+          "black": 16,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 38
+        },
+        {
+          "averageRating": 2102,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 5
+        },
+        {
+          "averageRating": 2052,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 3
+        },
+        {
+          "averageRating": 2096,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 2
+        },
+        {
+          "averageRating": 2147,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 290
+    },
+    "2023-11": {
+      "black": 236,
+      "draws": 27,
+      "moves": [
+        {
+          "averageRating": 2083,
+          "black": 103,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 96
+        },
+        {
+          "averageRating": 2097,
+          "black": 61,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 68
+        },
+        {
+          "averageRating": 2102,
+          "black": 37,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 28
+        },
+        {
+          "averageRating": 2106,
+          "black": 23,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 25
+        },
+        {
+          "averageRating": 2031,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 5
+        },
+        {
+          "averageRating": 2086,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 2
+        },
+        {
+          "averageRating": 2118,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2113,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 1
+        },
+        {
+          "averageRating": 1919,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "madhura_chess",
+              "rating": 2380
+            },
+            "id": "064aTSYg",
+            "mode": "rated",
+            "month": "2023-11",
+            "speed": "blitz",
+            "white": {
+              "name": "i_am_2",
+              "rating": 1919
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 1
+        },
+        {
+          "averageRating": 2060,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "lukas_9_9_9",
+              "rating": 2063
+            },
+            "id": "O1FN8mVP",
+            "mode": "rated",
+            "month": "2023-11",
+            "speed": "blitz",
+            "white": {
+              "name": "h_m_haddad",
+              "rating": 2060
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "f3",
+          "uci": "f2f3",
+          "white": 0
+        },
+        {
+          "averageRating": 2092,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "KineticReflectio",
+              "rating": 2090
+            },
+            "id": "kIeHRjTl",
+            "mode": "rated",
+            "month": "2023-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Mamta2030",
+              "rating": 2092
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "g4",
+          "uci": "g2g4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 229
+    },
+    "2023-12": {
+      "black": 272,
+      "draws": 33,
+      "moves": [
+        {
+          "averageRating": 2086,
+          "black": 104,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 121
+        },
+        {
+          "averageRating": 2101,
+          "black": 86,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 71
+        },
+        {
+          "averageRating": 2098,
+          "black": 44,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 47
+        },
+        {
+          "averageRating": 2106,
+          "black": 24,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 26
+        },
+        {
+          "averageRating": 2030,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 2
+        },
+        {
+          "averageRating": 2125,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 2
+        },
+        {
+          "averageRating": 2054,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 2
+        },
+        {
+          "averageRating": 2091,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2103,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f3",
+          "uci": "f2f3",
+          "white": 1
+        },
+        {
+          "averageRating": 2055,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "pilosu71",
+              "rating": 1996
+            },
+            "id": "BqUCgDj4",
+            "mode": "rated",
+            "month": "2023-12",
+            "speed": "blitz",
+            "white": {
+              "name": "Osloeb55",
+              "rating": 2055
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 274
+    },
+    "2024-01": {
+      "black": 270,
+      "draws": 31,
+      "moves": [
+        {
+          "averageRating": 2077,
+          "black": 111,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 119
+        },
+        {
+          "averageRating": 2099,
+          "black": 81,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 71
+        },
+        {
+          "averageRating": 2090,
+          "black": 44,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 56
+        },
+        {
+          "averageRating": 2100,
+          "black": 19,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 23
+        },
+        {
+          "averageRating": 2107,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 1
+        },
+        {
+          "averageRating": 2087,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2027,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 2
+        },
+        {
+          "averageRating": 2063,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 2
+        },
+        {
+          "averageRating": 2058,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Asbel9977",
+              "rating": 1986
+            },
+            "id": "ZsZ6ECi3",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "DubecLeCroat",
+              "rating": 2058
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2006,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "absolut3000",
+              "rating": 2019
+            },
+            "id": "S3kCvtO8",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Timtimginting3",
+              "rating": 2006
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2090,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Ecuarezma",
+              "rating": 2084
+            },
+            "id": "H9wyliPa",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Supri_Solo",
+              "rating": 2090
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 2092,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Jed2023",
+              "rating": 2070
+            },
+            "id": "jEmZUKNj",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "zielonyfeld",
+              "rating": 2092
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "f3",
+          "uci": "f2f3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 279
+    },
+    "2024-02": {
+      "black": 225,
+      "draws": 25,
+      "moves": [
+        {
+          "averageRating": 2095,
+          "black": 98,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 99
+        },
+        {
+          "averageRating": 2110,
+          "black": 55,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 85
+        },
+        {
+          "averageRating": 2071,
+          "black": 38,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 32
+        },
+        {
+          "averageRating": 2123,
+          "black": 27,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 38
+        },
+        {
+          "averageRating": 2122,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 1
+        },
+        {
+          "averageRating": 2072,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2034,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 2
+        },
+        {
+          "averageRating": 2111,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2081,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "cuellarjad",
+              "rating": 2083
+            },
+            "id": "l0asen0p",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Elsalmon",
+              "rating": 2081
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "g4",
+          "uci": "g2g4",
+          "white": 1
+        },
+        {
+          "averageRating": 1999,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "sc4wowei",
+              "rating": 2039
+            },
+            "id": "TFWl7y8y",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "AWALIZADA",
+              "rating": 1999
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 262
+    },
+    "2024-03": {
+      "black": 273,
+      "draws": 23,
+      "moves": [
+        {
+          "averageRating": 2081,
+          "black": 119,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 106
+        },
+        {
+          "averageRating": 2096,
+          "black": 69,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 80
+        },
+        {
+          "averageRating": 2103,
+          "black": 36,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 46
+        },
+        {
+          "averageRating": 2120,
+          "black": 32,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 40
+        },
+        {
+          "averageRating": 2016,
+          "black": 7,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 2
+        },
+        {
+          "averageRating": 2092,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 4
+        },
+        {
+          "averageRating": 2073,
+          "black": 2,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 2
+        },
+        {
+          "averageRating": 2141,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 3
+        },
+        {
+          "averageRating": 2012,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Gleedoo",
+              "rating": 2065
+            },
+            "id": "R05sBLUb",
+            "mode": "rated",
+            "month": "2024-03",
+            "speed": "blitz",
+            "white": {
+              "name": "AWALIZADA",
+              "rating": 2012
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        },
+        {
+          "averageRating": 2163,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Nicopi23",
+              "rating": 2149
+            },
+            "id": "C7JWZLMM",
+            "mode": "rated",
+            "month": "2024-03",
+            "speed": "blitz",
+            "white": {
+              "name": "Andrey_Viktorovich",
+              "rating": 2163
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "f3",
+          "uci": "f2f3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 285
+    },
+    "2024-04": {
+      "black": 210,
+      "draws": 30,
+      "moves": [
+        {
+          "averageRating": 2081,
+          "black": 76,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 106
+        },
+        {
+          "averageRating": 2105,
+          "black": 53,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 67
+        },
+        {
+          "averageRating": 2123,
+          "black": 35,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 45
+        },
+        {
+          "averageRating": 2095,
+          "black": 41,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 36
+        },
+        {
+          "averageRating": 2051,
+          "black": 1,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 7
+        },
+        {
+          "averageRating": 2065,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 3
+        },
+        {
+          "averageRating": 2181,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 1
+        },
+        {
+          "averageRating": 2052,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "lenard972",
+              "rating": 2060
+            },
+            "id": "773L9gLG",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Ilieck",
+              "rating": 2052
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        },
+        {
+          "averageRating": 2147,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "helliton",
+              "rating": 2166
+            },
+            "id": "j5ob9E4O",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "kimore",
+              "rating": 2147
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 267
+    },
+    "2024-05": {
+      "black": 273,
+      "draws": 27,
+      "moves": [
+        {
+          "averageRating": 2095,
+          "black": 114,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 109
+        },
+        {
+          "averageRating": 2101,
+          "black": 73,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 64
+        },
+        {
+          "averageRating": 2135,
+          "black": 42,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 43
+        },
+        {
+          "averageRating": 2089,
+          "black": 30,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 38
+        },
+        {
+          "averageRating": 2092,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 3
+        },
+        {
+          "averageRating": 2083,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 2
+        },
+        {
+          "averageRating": 2123,
+          "black": 2,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2033,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2038,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "matyas027",
+              "rating": 2004
+            },
+            "id": "7voHotX1",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "samuray-X",
+              "rating": 2038
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 262
+    },
+    "2024-06": {
+      "black": 237,
+      "draws": 23,
+      "moves": [
+        {
+          "averageRating": 2086,
+          "black": 92,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 100
+        },
+        {
+          "averageRating": 2117,
+          "black": 77,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 90
+        },
+        {
+          "averageRating": 2090,
+          "black": 27,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 42
+        },
+        {
+          "averageRating": 2115,
+          "black": 31,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 33
+        },
+        {
+          "averageRating": 2053,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 3
+        },
+        {
+          "averageRating": 1989,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 0
+        },
+        {
+          "averageRating": 2182,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 0
+        },
+        {
+          "averageRating": 2064,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 0
+        },
+        {
+          "averageRating": 2085,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "yachtsman12",
+              "rating": 2076
+            },
+            "id": "NARK0IIm",
+            "mode": "rated",
+            "month": "2024-06",
+            "speed": "blitz",
+            "white": {
+              "name": "Vahab1364",
+              "rating": 2085
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 268
+    },
+    "2024-07": {
+      "black": 263,
+      "draws": 46,
+      "moves": [
+        {
+          "averageRating": 2083,
+          "black": 112,
+          "draws": 26,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 106
+        },
+        {
+          "averageRating": 2108,
+          "black": 66,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 65
+        },
+        {
+          "averageRating": 2096,
+          "black": 42,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 51
+        },
+        {
+          "averageRating": 2132,
+          "black": 33,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 41
+        },
+        {
+          "averageRating": 2095,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 6
+        },
+        {
+          "averageRating": 2046,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 3
+        },
+        {
+          "averageRating": 2074,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 0
+        },
+        {
+          "averageRating": 2030,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ojodeaguila",
+              "rating": 1997
+            },
+            "id": "mmwBXHK4",
+            "mode": "rated",
+            "month": "2024-07",
+            "speed": "blitz",
+            "white": {
+              "name": "MuhammedRZGRTLI",
+              "rating": 2030
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 272
+    },
+    "2024-08": {
+      "black": 243,
+      "draws": 29,
+      "moves": [
+        {
+          "averageRating": 2088,
+          "black": 105,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 120
+        },
+        {
+          "averageRating": 2107,
+          "black": 56,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 86
+        },
+        {
+          "averageRating": 2119,
+          "black": 37,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 39
+        },
+        {
+          "averageRating": 2084,
+          "black": 34,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 30
+        },
+        {
+          "averageRating": 2108,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 3
+        },
+        {
+          "averageRating": 2063,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 2
+        },
+        {
+          "averageRating": 1985,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f3",
+          "uci": "f2f3",
+          "white": 2
+        },
+        {
+          "averageRating": 2121,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 2
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 284
+    },
+    "2024-09": {
+      "black": 242,
+      "draws": 22,
+      "moves": [
+        {
+          "averageRating": 2094,
+          "black": 97,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 107
+        },
+        {
+          "averageRating": 2088,
+          "black": 63,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 70
+        },
+        {
+          "averageRating": 2136,
+          "black": 32,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 44
+        },
+        {
+          "averageRating": 2090,
+          "black": 37,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 37
+        },
+        {
+          "averageRating": 2005,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 3
+        },
+        {
+          "averageRating": 2064,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 3
+        },
+        {
+          "averageRating": 2102,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 1
+        },
+        {
+          "averageRating": 2135,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Anderson16",
+              "rating": 2132
+            },
+            "id": "n4vSfsL0",
+            "mode": "rated",
+            "month": "2024-09",
+            "speed": "blitz",
+            "white": {
+              "name": "wojciechwsiemce",
+              "rating": 2135
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2220,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "bodeguero",
+              "rating": 2091
+            },
+            "id": "yFPtjail",
+            "mode": "rated",
+            "month": "2024-09",
+            "speed": "blitz",
+            "white": {
+              "name": "MKenarok",
+              "rating": 2220
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "g4",
+          "uci": "g2g4",
+          "white": 0
+        },
+        {
+          "averageRating": 2113,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ArtyomShulzhenko",
+              "rating": 2101
+            },
+            "id": "xMfC2zdO",
+            "mode": "rated",
+            "month": "2024-09",
+            "speed": "blitz",
+            "white": {
+              "name": "Lena_Zhuravleva",
+              "rating": 2113
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "f3",
+          "uci": "f2f3",
+          "white": 1
+        },
+        {
+          "averageRating": 2101,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "aKENATON2024",
+              "rating": 2060
+            },
+            "id": "c5n2wjHy",
+            "mode": "rated",
+            "month": "2024-09",
+            "speed": "blitz",
+            "white": {
+              "name": "LIVERPOOL1892",
+              "rating": 2101
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2092,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "TributetoOldikFranta",
+              "rating": 2202
+            },
+            "id": "KKm4cJdF",
+            "mode": "rated",
+            "month": "2024-09",
+            "speed": "blitz",
+            "white": {
+              "name": "ahmetm33",
+              "rating": 2092
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 266
+    },
+    "2024-10": {
+      "black": 223,
+      "draws": 33,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 121,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 113
+        },
+        {
+          "averageRating": 2086,
+          "black": 51,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 63
+        },
+        {
+          "averageRating": 2084,
+          "black": 22,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 41
+        },
+        {
+          "averageRating": 2134,
+          "black": 23,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 34
+        },
+        {
+          "averageRating": 2090,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2050,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 4
+        },
+        {
+          "averageRating": 2132,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 2
+        },
+        {
+          "averageRating": 2091,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 2
+        },
+        {
+          "averageRating": 2127,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Supr83",
+              "rating": 2145
+            },
+            "id": "7ZugAciI",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "Christus1985",
+              "rating": 2127
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "f3",
+          "uci": "f2f3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 262
+    },
+    "2024-11": {
+      "black": 238,
+      "draws": 22,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 106,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 118
+        },
+        {
+          "averageRating": 2101,
+          "black": 64,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 88
+        },
+        {
+          "averageRating": 2096,
+          "black": 28,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 36
+        },
+        {
+          "averageRating": 2117,
+          "black": 25,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 31
+        },
+        {
+          "averageRating": 2085,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 3
+        },
+        {
+          "averageRating": 2033,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 0
+        },
+        {
+          "averageRating": 2107,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2106,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 0
+        },
+        {
+          "averageRating": 2032,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "biwere",
+              "rating": 2029
+            },
+            "id": "9Tz4VroX",
+            "mode": "rated",
+            "month": "2024-11",
+            "speed": "blitz",
+            "white": {
+              "name": "KroesMichael",
+              "rating": 2032
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "g4",
+          "uci": "g2g4",
+          "white": 0
+        },
+        {
+          "averageRating": 2058,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "grzeswidera",
+              "rating": 2004
+            },
+            "id": "5jhmn7FI",
+            "mode": "rated",
+            "month": "2024-11",
+            "speed": "blitz",
+            "white": {
+              "name": "CHECKMATE55USA",
+              "rating": 2058
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "f3",
+          "uci": "f2f3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 279
+    },
+    "2024-12": {
+      "black": 292,
+      "draws": 41,
+      "moves": [
+        {
+          "averageRating": 2084,
+          "black": 142,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 129
+        },
+        {
+          "averageRating": 2086,
+          "black": 66,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 81
+        },
+        {
+          "averageRating": 2126,
+          "black": 38,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 48
+        },
+        {
+          "averageRating": 2089,
+          "black": 35,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 31
+        },
+        {
+          "averageRating": 2071,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 5
+        },
+        {
+          "averageRating": 2118,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 3
+        },
+        {
+          "averageRating": 2035,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 3
+        },
+        {
+          "averageRating": 2090,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 1
+        },
+        {
+          "averageRating": 2185,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "michael-g67",
+              "rating": 2200
+            },
+            "id": "MgyXbCVb",
+            "mode": "rated",
+            "month": "2024-12",
+            "speed": "blitz",
+            "white": {
+              "name": "osrik",
+              "rating": 2185
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2073,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "PerroHuevero",
+              "rating": 2074
+            },
+            "id": "iObIrm9U",
+            "mode": "rated",
+            "month": "2024-12",
+            "speed": "blitz",
+            "white": {
+              "name": "faraway_king",
+              "rating": 2073
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 0
+        },
+        {
+          "averageRating": 2224,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Alessandro_Jugador",
+              "rating": 2170
+            },
+            "id": "WUdRzZuf",
+            "mode": "rated",
+            "month": "2024-12",
+            "speed": "blitz",
+            "white": {
+              "name": "Santidrez",
+              "rating": 2224
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "f3",
+          "uci": "f2f3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 303
+    },
+    "2025-01": {
+      "black": 270,
+      "draws": 25,
+      "moves": [
+        {
+          "averageRating": 2090,
+          "black": 121,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 111
+        },
+        {
+          "averageRating": 2094,
+          "black": 69,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 72
+        },
+        {
+          "averageRating": 2124,
+          "black": 33,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 43
+        },
+        {
+          "averageRating": 2088,
+          "black": 35,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 38
+        },
+        {
+          "averageRating": 2084,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2088,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 2
+        },
+        {
+          "averageRating": 2070,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2021,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 1
+        },
+        {
+          "averageRating": 2058,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "elsombra",
+              "rating": 2063
+            },
+            "id": "oB6ancJ8",
+            "mode": "rated",
+            "month": "2025-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Kingkm1",
+              "rating": 2058
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 271
+    },
+    "2025-02": {
+      "black": 250,
+      "draws": 33,
+      "moves": [
+        {
+          "averageRating": 2085,
+          "black": 113,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 123
+        },
+        {
+          "averageRating": 2102,
+          "black": 50,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 59
+        },
+        {
+          "averageRating": 2132,
+          "black": 43,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 45
+        },
+        {
+          "averageRating": 2093,
+          "black": 29,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 32
+        },
+        {
+          "averageRating": 2084,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 3
+        },
+        {
+          "averageRating": 2070,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 3
+        },
+        {
+          "averageRating": 2084,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2071,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 2
+        },
+        {
+          "averageRating": 2129,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g4",
+          "uci": "g2g4",
+          "white": 0
+        },
+        {
+          "averageRating": 2151,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Brahian_Korchnoi",
+              "rating": 2107
+            },
+            "id": "LID3int5",
+            "mode": "rated",
+            "month": "2025-02",
+            "speed": "blitz",
+            "white": {
+              "name": "rokopetric",
+              "rating": 2151
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 269
+    },
+    "2025-03": {
+      "black": 251,
+      "draws": 31,
+      "moves": [
+        {
+          "averageRating": 2096,
+          "black": 106,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 108
+        },
+        {
+          "averageRating": 2112,
+          "black": 64,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 66
+        },
+        {
+          "averageRating": 2126,
+          "black": 38,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 52
+        },
+        {
+          "averageRating": 2106,
+          "black": 36,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 43
+        },
+        {
+          "averageRating": 2066,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2014,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2079,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 0
+        },
+        {
+          "averageRating": 2001,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 2
+        },
+        {
+          "averageRating": 2148,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Shershav50",
+              "rating": 2210
+            },
+            "id": "Ev9htY1H",
+            "mode": "rated",
+            "month": "2025-03",
+            "speed": "blitz",
+            "white": {
+              "name": "nik7672",
+              "rating": 2148
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Nh3",
+          "uci": "g1h3",
+          "white": 1
+        },
+        {
+          "averageRating": 2104,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ghorbato",
+              "rating": 2108
+            },
+            "id": "mt7hmfZm",
+            "mode": "rated",
+            "month": "2025-03",
+            "speed": "blitz",
+            "white": {
+              "name": "alpirinko",
+              "rating": 2104
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "f3",
+          "uci": "f2f3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 275
+    },
+    "2025-04": {
+      "black": 248,
+      "draws": 27,
+      "moves": [
+        {
+          "averageRating": 2087,
+          "black": 105,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 111
+        },
+        {
+          "averageRating": 2102,
+          "black": 64,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 64
+        },
+        {
+          "averageRating": 2128,
+          "black": 36,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 52
+        },
+        {
+          "averageRating": 2090,
+          "black": 35,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 37
+        },
+        {
+          "averageRating": 2088,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 3
+        },
+        {
+          "averageRating": 2027,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 2
+        },
+        {
+          "averageRating": 2105,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2047,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 0
+        },
+        {
+          "averageRating": 1949,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "lyc1123",
+              "rating": 2058
+            },
+            "id": "MbgtEVyo",
+            "mode": "rated",
+            "month": "2025-04",
+            "speed": "blitz",
+            "white": {
+              "name": "AWALIZADA",
+              "rating": 1949
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "f3",
+          "uci": "f2f3",
+          "white": 0
+        },
+        {
+          "averageRating": 2117,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "cobiax64",
+              "rating": 2047
+            },
+            "id": "pWlhPDxj",
+            "mode": "rated",
+            "month": "2025-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Chtarov",
+              "rating": 2117
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "g4",
+          "uci": "g2g4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 270
+    },
+    "2025-05": {
+      "black": 254,
+      "draws": 38,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 122,
+          "draws": 22,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 123
+        },
+        {
+          "averageRating": 2108,
+          "black": 57,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 70
+        },
+        {
+          "averageRating": 2103,
+          "black": 28,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 41
+        },
+        {
+          "averageRating": 2093,
+          "black": 39,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 25
+        },
+        {
+          "averageRating": 2084,
+          "black": 5,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 2
+        },
+        {
+          "averageRating": 2061,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 2
+        },
+        {
+          "averageRating": 2072,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 2
+        },
+        {
+          "averageRating": 2042,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 1
+        },
+        {
+          "averageRating": 1992,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 267
+    },
+    "2025-06": {
+      "black": 211,
+      "draws": 22,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 91,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 103
+        },
+        {
+          "averageRating": 2111,
+          "black": 52,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 52
+        },
+        {
+          "averageRating": 2102,
+          "black": 26,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 39
+        },
+        {
+          "averageRating": 2101,
+          "black": 27,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 36
+        },
+        {
+          "averageRating": 2035,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 0
+        },
+        {
+          "averageRating": 2060,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 3
+        },
+        {
+          "averageRating": 2140,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g4",
+          "uci": "g2g4",
+          "white": 1
+        },
+        {
+          "averageRating": 2199,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ANewTry",
+              "rating": 2189
+            },
+            "id": "a49vAPcN",
+            "mode": "rated",
+            "month": "2025-06",
+            "speed": "blitz",
+            "white": {
+              "name": "mark7toz",
+              "rating": 2199
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 0
+        },
+        {
+          "averageRating": 1991,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "MixIva",
+              "rating": 2027
+            },
+            "id": "3FYhXt6e",
+            "mode": "rated",
+            "month": "2025-06",
+            "speed": "blitz",
+            "white": {
+              "name": "Oh_stepandr",
+              "rating": 1991
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 0
+        },
+        {
+          "averageRating": 1975,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Andorod77",
+              "rating": 2043
+            },
+            "id": "LkXZnqH6",
+            "mode": "rated",
+            "month": "2025-06",
+            "speed": "blitz",
+            "white": {
+              "name": "Valentin14031980",
+              "rating": 1975
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 234
+    },
+    "2025-07": {
+      "black": 212,
+      "draws": 32,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 101,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 97
+        },
+        {
+          "averageRating": 2111,
+          "black": 61,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 73
+        },
+        {
+          "averageRating": 2137,
+          "black": 24,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 53
+        },
+        {
+          "averageRating": 2097,
+          "black": 19,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 39
+        },
+        {
+          "averageRating": 2012,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 5
+        },
+        {
+          "averageRating": 2060,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 5
+        },
+        {
+          "averageRating": 2077,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 1
+        },
+        {
+          "averageRating": 2177,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "OgaNaMaster",
+              "rating": 2167
+            },
+            "id": "yn8LuD0F",
+            "mode": "rated",
+            "month": "2025-07",
+            "speed": "blitz",
+            "white": {
+              "name": "gpayhua",
+              "rating": 2177
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2110,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "playerrrrrrrrrrr",
+              "rating": 2102
+            },
+            "id": "SQQrSC2n",
+            "mode": "rated",
+            "month": "2025-07",
+            "speed": "blitz",
+            "white": {
+              "name": "marchme",
+              "rating": 2110
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "f3",
+          "uci": "f2f3",
+          "white": 1
+        },
+        {
+          "averageRating": 2203,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "baby_Gio",
+              "rating": 2118
+            },
+            "id": "U1cu7473",
+            "mode": "rated",
+            "month": "2025-07",
+            "speed": "blitz",
+            "white": {
+              "name": "Niknile",
+              "rating": 2203
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 274
+    },
+    "2025-08": {
+      "black": 238,
+      "draws": 31,
+      "moves": [
+        {
+          "averageRating": 2093,
+          "black": 97,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 108
+        },
+        {
+          "averageRating": 2096,
+          "black": 65,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 57
+        },
+        {
+          "averageRating": 2115,
+          "black": 42,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 35
+        },
+        {
+          "averageRating": 2117,
+          "black": 27,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 39
+        },
+        {
+          "averageRating": 1992,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 4
+        },
+        {
+          "averageRating": 2112,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 3
+        },
+        {
+          "averageRating": 2103,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2002,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 2
+        },
+        {
+          "averageRating": 1714,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "JarJarBeers",
+              "rating": 2457
+            },
+            "id": "0ZA8J40B",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "AndreyPopkov",
+              "rating": 1714
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 249
+    },
+    "2025-09": {
+      "black": 239,
+      "draws": 21,
+      "moves": [
+        {
+          "averageRating": 2086,
+          "black": 92,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 92
+        },
+        {
+          "averageRating": 2103,
+          "black": 61,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 62
+        },
+        {
+          "averageRating": 2134,
+          "black": 40,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 45
+        },
+        {
+          "averageRating": 2100,
+          "black": 42,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 41
+        },
+        {
+          "averageRating": 2067,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 2
+        },
+        {
+          "averageRating": 2166,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2131,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Lucass18",
+              "rating": 2149
+            },
+            "id": "VJNO2PyZ",
+            "mode": "rated",
+            "month": "2025-09",
+            "speed": "blitz",
+            "white": {
+              "name": "mark7toz",
+              "rating": 2131
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 0
+        },
+        {
+          "averageRating": 1946,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Hermanni85",
+              "rating": 2196
+            },
+            "id": "ClFRaPmi",
+            "mode": "rated",
+            "month": "2025-09",
+            "speed": "blitz",
+            "white": {
+              "name": "tapiojulkunen",
+              "rating": 1946
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 243
+    },
+    "2025-10": {
+      "black": 199,
+      "draws": 19,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 89,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 118
+        },
+        {
+          "averageRating": 2108,
+          "black": 50,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 62
+        },
+        {
+          "averageRating": 2138,
+          "black": 23,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 41
+        },
+        {
+          "averageRating": 2098,
+          "black": 30,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 31
+        },
+        {
+          "averageRating": 2003,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 4
+        },
+        {
+          "averageRating": 2023,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 2
+        },
+        {
+          "averageRating": 2098,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 259
+    },
+    "2025-11": {
+      "black": 221,
+      "draws": 35,
+      "moves": [
+        {
+          "averageRating": 2108,
+          "black": 102,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 92
+        },
+        {
+          "averageRating": 2097,
+          "black": 56,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 58
+        },
+        {
+          "averageRating": 2128,
+          "black": 30,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 43
+        },
+        {
+          "averageRating": 2094,
+          "black": 25,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 32
+        },
+        {
+          "averageRating": 2070,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 3
+        },
+        {
+          "averageRating": 2103,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 0
+        },
+        {
+          "averageRating": 2064,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "yasertoof1313",
+              "rating": 1982
+            },
+            "id": "UaCF7KHf",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "mark7toz",
+              "rating": 2064
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 1
+        },
+        {
+          "averageRating": 2004,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "littlerui1995",
+              "rating": 2009
+            },
+            "id": "Ea718uMS",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "amanghaji2001",
+              "rating": 2004
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qa4",
+          "uci": "d1a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2110,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Hermanni85",
+              "rating": 2227
+            },
+            "id": "aa90C2ZQ",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "baddestplayer47",
+              "rating": 2110
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 231
+    },
+    "2025-12": {
+      "black": 240,
+      "draws": 24,
+      "moves": [
+        {
+          "averageRating": 2104,
+          "black": 97,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 118
+        },
+        {
+          "averageRating": 2105,
+          "black": 76,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 50
+        },
+        {
+          "averageRating": 2128,
+          "black": 33,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 51
+        },
+        {
+          "averageRating": 2112,
+          "black": 27,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 40
+        },
+        {
+          "averageRating": 2077,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 3
+        },
+        {
+          "averageRating": 2062,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 2
+        },
+        {
+          "averageRating": 2103,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 3
+        },
+        {
+          "averageRating": 1988,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Tvert64",
+              "rating": 2136
+            },
+            "id": "0g80l6Kl",
+            "mode": "rated",
+            "month": "2025-12",
+            "speed": "blitz",
+            "white": {
+              "name": "zheka001",
+              "rating": 1988
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 267
+    },
+    "2026-01": {
+      "black": 214,
+      "draws": 36,
+      "moves": [
+        {
+          "averageRating": 2091,
+          "black": 82,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 102
+        },
+        {
+          "averageRating": 2083,
+          "black": 52,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 61
+        },
+        {
+          "averageRating": 2121,
+          "black": 44,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 54
+        },
+        {
+          "averageRating": 2109,
+          "black": 29,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 33
+        },
+        {
+          "averageRating": 2049,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 3
+        },
+        {
+          "averageRating": 2119,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 2
+        },
+        {
+          "averageRating": 2074,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 1
+        },
+        {
+          "averageRating": 2036,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "VassilyK",
+              "rating": 2169
+            },
+            "id": "wCUIC9fL",
+            "mode": "rated",
+            "month": "2026-01",
+            "speed": "blitz",
+            "white": {
+              "name": "LeoFNI",
+              "rating": 2036
+            },
+            "winner": null,
+            "year": 2026
+          },
+          "opening": null,
+          "san": "f3",
+          "uci": "f2f3",
+          "white": 0
+        },
+        {
+          "averageRating": 2018,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "E4genieter",
+              "rating": 2040
+            },
+            "id": "VlIyJ6UG",
+            "mode": "rated",
+            "month": "2026-01",
+            "speed": "blitz",
+            "white": {
+              "name": "anvar02",
+              "rating": 2018
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 256
+    },
+    "2026-02": {
+      "black": 216,
+      "draws": 27,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 86,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 81
+        },
+        {
+          "averageRating": 2090,
+          "black": 61,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 49
+        },
+        {
+          "averageRating": 2124,
+          "black": 32,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 50
+        },
+        {
+          "averageRating": 2092,
+          "black": 26,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 39
+        },
+        {
+          "averageRating": 2044,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 5
+        },
+        {
+          "averageRating": 2103,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 2
+        },
+        {
+          "averageRating": 2042,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 227
+    },
+    "2026-03": {
+      "black": 196,
+      "draws": 36,
+      "moves": [
+        {
+          "averageRating": 2095,
+          "black": 85,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 92
+        },
+        {
+          "averageRating": 2087,
+          "black": 44,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 68
+        },
+        {
+          "averageRating": 2130,
+          "black": 32,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 38
+        },
+        {
+          "averageRating": 2101,
+          "black": 23,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 28
+        },
+        {
+          "averageRating": 2086,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 4
+        },
+        {
+          "averageRating": 2101,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 2
+        },
+        {
+          "averageRating": 2132,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 2
+        },
+        {
+          "averageRating": 2067,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2042,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2042,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "rolystart2018",
+              "rating": 2077
+            },
+            "id": "toyra8JT",
+            "mode": "rated",
+            "month": "2026-03",
+            "speed": "blitz",
+            "white": {
+              "name": "AkivaPsy",
+              "rating": 2042
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "f3",
+          "uci": "f2f3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      },
+      "white": 236
+    },
+    "2026-04": {
+      "white": 143,
+      "draws": 12,
+      "black": 123,
+      "moves": [
+        {
+          "uci": "g1e2",
+          "san": "Ne2",
+          "averageRating": 2087,
+          "white": 50,
+          "draws": 4,
+          "black": 42,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "g1f3",
+          "san": "Nf3",
+          "averageRating": 2082,
+          "white": 34,
+          "draws": 5,
+          "black": 31,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "a2a3",
+          "san": "a3",
+          "averageRating": 2123,
+          "white": 39,
+          "draws": 2,
+          "black": 22,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c4d5",
+          "san": "cxd5",
+          "averageRating": 2087,
+          "white": 17,
+          "draws": 0,
+          "black": 24,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d1c2",
+          "san": "Qc2",
+          "averageRating": 2067,
+          "white": 2,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f2f4",
+          "san": "f4",
+          "averageRating": 2007,
+          "white": 1,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c4c5",
+          "san": "c5",
+          "averageRating": 2082,
+          "white": 0,
+          "draws": 1,
+          "black": 1,
+          "game": null,
+          "opening": null
+        }
+      ],
+      "recentGames": [],
+      "topGames": [],
+      "opening": {
+        "eco": "E48",
+        "name": "Nimzo-Indian Defense: Normal Variation, Classical Defense"
+      }
+    }
+  }
+}

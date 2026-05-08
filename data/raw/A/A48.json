@@ -1,0 +1,5725 @@
+{
+  "eco": "A48",
+  "months": {
+    "2023-01": {
+      "black": 19807,
+      "draws": 2677,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 5632,
+          "draws": 785,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 6006
+        },
+        {
+          "averageRating": 2091,
+          "black": 3943,
+          "draws": 538,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 4211
+        },
+        {
+          "averageRating": 2103,
+          "black": 2992,
+          "draws": 424,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 3423
+        },
+        {
+          "averageRating": 2089,
+          "black": 2384,
+          "draws": 290,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2478
+        },
+        {
+          "averageRating": 2078,
+          "black": 1864,
+          "draws": 256,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1576
+        },
+        {
+          "averageRating": 2095,
+          "black": 1170,
+          "draws": 128,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1434
+        },
+        {
+          "averageRating": 2097,
+          "black": 660,
+          "draws": 104,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 798
+        },
+        {
+          "averageRating": 2102,
+          "black": 420,
+          "draws": 61,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 434
+        },
+        {
+          "averageRating": 2088,
+          "black": 299,
+          "draws": 36,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 261
+        },
+        {
+          "averageRating": 2106,
+          "black": 148,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 152
+        },
+        {
+          "averageRating": 2070,
+          "black": 140,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 121
+        },
+        {
+          "averageRating": 2134,
+          "black": 27,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "b4",
+          "uci": "b2b4",
+          "white": 38
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 21035
+    },
+    "2023-02": {
+      "black": 17654,
+      "draws": 2347,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 4991,
+          "draws": 661,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 5321
+        },
+        {
+          "averageRating": 2090,
+          "black": 3408,
+          "draws": 475,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3934
+        },
+        {
+          "averageRating": 2107,
+          "black": 2642,
+          "draws": 403,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 3062
+        },
+        {
+          "averageRating": 2089,
+          "black": 2044,
+          "draws": 269,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2284
+        },
+        {
+          "averageRating": 2077,
+          "black": 1645,
+          "draws": 172,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1592
+        },
+        {
+          "averageRating": 2096,
+          "black": 1247,
+          "draws": 126,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1335
+        },
+        {
+          "averageRating": 2097,
+          "black": 666,
+          "draws": 111,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 752
+        },
+        {
+          "averageRating": 2102,
+          "black": 393,
+          "draws": 43,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 430
+        },
+        {
+          "averageRating": 2101,
+          "black": 209,
+          "draws": 34,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 217
+        },
+        {
+          "averageRating": 2089,
+          "black": 133,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 129
+        },
+        {
+          "averageRating": 2068,
+          "black": 116,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 121
+        },
+        {
+          "averageRating": 2106,
+          "black": 40,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "b4",
+          "uci": "b2b4",
+          "white": 40
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 19312
+    },
+    "2023-03": {
+      "black": 19399,
+      "draws": 2654,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 5620,
+          "draws": 771,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 6000
+        },
+        {
+          "averageRating": 2089,
+          "black": 3687,
+          "draws": 495,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 4148
+        },
+        {
+          "averageRating": 2105,
+          "black": 3008,
+          "draws": 452,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 3366
+        },
+        {
+          "averageRating": 2091,
+          "black": 2319,
+          "draws": 311,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2507
+        },
+        {
+          "averageRating": 2077,
+          "black": 1741,
+          "draws": 245,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1634
+        },
+        {
+          "averageRating": 2098,
+          "black": 1308,
+          "draws": 147,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1457
+        },
+        {
+          "averageRating": 2095,
+          "black": 642,
+          "draws": 94,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 759
+        },
+        {
+          "averageRating": 2090,
+          "black": 401,
+          "draws": 49,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 454
+        },
+        {
+          "averageRating": 2092,
+          "black": 249,
+          "draws": 35,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 215
+        },
+        {
+          "averageRating": 2057,
+          "black": 121,
+          "draws": 26,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 131
+        },
+        {
+          "averageRating": 2082,
+          "black": 121,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 127
+        },
+        {
+          "averageRating": 2100,
+          "black": 51,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "b4",
+          "uci": "b2b4",
+          "white": 55
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 20993
+    },
+    "2023-04": {
+      "black": 18865,
+      "draws": 2513,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 5381,
+          "draws": 733,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 5674
+        },
+        {
+          "averageRating": 2091,
+          "black": 3933,
+          "draws": 515,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 4415
+        },
+        {
+          "averageRating": 2104,
+          "black": 2928,
+          "draws": 388,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 3259
+        },
+        {
+          "averageRating": 2091,
+          "black": 2177,
+          "draws": 308,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2313
+        },
+        {
+          "averageRating": 2075,
+          "black": 1584,
+          "draws": 212,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1596
+        },
+        {
+          "averageRating": 2101,
+          "black": 1295,
+          "draws": 143,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1460
+        },
+        {
+          "averageRating": 2103,
+          "black": 616,
+          "draws": 109,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 775
+        },
+        {
+          "averageRating": 2098,
+          "black": 391,
+          "draws": 41,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 451
+        },
+        {
+          "averageRating": 2095,
+          "black": 208,
+          "draws": 22,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 203
+        },
+        {
+          "averageRating": 2087,
+          "black": 125,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 117
+        },
+        {
+          "averageRating": 2090,
+          "black": 99,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 102
+        },
+        {
+          "averageRating": 2085,
+          "black": 35,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 37
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 20518
+    },
+    "2023-05": {
+      "black": 19705,
+      "draws": 2756,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 5503,
+          "draws": 732,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 5891
+        },
+        {
+          "averageRating": 2090,
+          "black": 4179,
+          "draws": 578,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 4617
+        },
+        {
+          "averageRating": 2105,
+          "black": 3063,
+          "draws": 487,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 3433
+        },
+        {
+          "averageRating": 2092,
+          "black": 2230,
+          "draws": 309,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2297
+        },
+        {
+          "averageRating": 2080,
+          "black": 1750,
+          "draws": 254,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1628
+        },
+        {
+          "averageRating": 2097,
+          "black": 1401,
+          "draws": 163,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1611
+        },
+        {
+          "averageRating": 2103,
+          "black": 610,
+          "draws": 105,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 699
+        },
+        {
+          "averageRating": 2094,
+          "black": 413,
+          "draws": 50,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 462
+        },
+        {
+          "averageRating": 2090,
+          "black": 188,
+          "draws": 28,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 198
+        },
+        {
+          "averageRating": 2098,
+          "black": 142,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 133
+        },
+        {
+          "averageRating": 2084,
+          "black": 82,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 98
+        },
+        {
+          "averageRating": 2078,
+          "black": 41,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 36
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 21199
+    },
+    "2023-06": {
+      "black": 18334,
+      "draws": 2445,
+      "moves": [
+        {
+          "averageRating": 2103,
+          "black": 5067,
+          "draws": 713,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 5517
+        },
+        {
+          "averageRating": 2089,
+          "black": 3879,
+          "draws": 508,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 4157
+        },
+        {
+          "averageRating": 2106,
+          "black": 2739,
+          "draws": 391,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 3096
+        },
+        {
+          "averageRating": 2092,
+          "black": 2065,
+          "draws": 253,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2311
+        },
+        {
+          "averageRating": 2075,
+          "black": 1691,
+          "draws": 230,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1545
+        },
+        {
+          "averageRating": 2097,
+          "black": 1207,
+          "draws": 144,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1454
+        },
+        {
+          "averageRating": 2098,
+          "black": 644,
+          "draws": 76,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 698
+        },
+        {
+          "averageRating": 2094,
+          "black": 417,
+          "draws": 44,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 414
+        },
+        {
+          "averageRating": 2098,
+          "black": 173,
+          "draws": 32,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 192
+        },
+        {
+          "averageRating": 2085,
+          "black": 137,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 149
+        },
+        {
+          "averageRating": 2088,
+          "black": 126,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 125
+        },
+        {
+          "averageRating": 2081,
+          "black": 47,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 30
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 19789
+    },
+    "2023-07": {
+      "black": 18795,
+      "draws": 2575,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 5234,
+          "draws": 734,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 5552
+        },
+        {
+          "averageRating": 2089,
+          "black": 4091,
+          "draws": 528,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 4481
+        },
+        {
+          "averageRating": 2106,
+          "black": 2863,
+          "draws": 413,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 3228
+        },
+        {
+          "averageRating": 2092,
+          "black": 2002,
+          "draws": 252,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2234
+        },
+        {
+          "averageRating": 2077,
+          "black": 1634,
+          "draws": 239,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1535
+        },
+        {
+          "averageRating": 2096,
+          "black": 1225,
+          "draws": 165,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1457
+        },
+        {
+          "averageRating": 2092,
+          "black": 674,
+          "draws": 102,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 673
+        },
+        {
+          "averageRating": 2097,
+          "black": 420,
+          "draws": 55,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 489
+        },
+        {
+          "averageRating": 2097,
+          "black": 249,
+          "draws": 41,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 234
+        },
+        {
+          "averageRating": 2107,
+          "black": 139,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 153
+        },
+        {
+          "averageRating": 2074,
+          "black": 139,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 153
+        },
+        {
+          "averageRating": 2089,
+          "black": 45,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 35
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 20325
+    },
+    "2023-08": {
+      "black": 18817,
+      "draws": 2519,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 5198,
+          "draws": 700,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 5519
+        },
+        {
+          "averageRating": 2090,
+          "black": 4020,
+          "draws": 530,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 4452
+        },
+        {
+          "averageRating": 2103,
+          "black": 2748,
+          "draws": 387,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 3056
+        },
+        {
+          "averageRating": 2092,
+          "black": 2076,
+          "draws": 278,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2226
+        },
+        {
+          "averageRating": 2074,
+          "black": 1814,
+          "draws": 233,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1661
+        },
+        {
+          "averageRating": 2094,
+          "black": 1263,
+          "draws": 161,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1455
+        },
+        {
+          "averageRating": 2092,
+          "black": 675,
+          "draws": 93,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 750
+        },
+        {
+          "averageRating": 2099,
+          "black": 400,
+          "draws": 56,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 480
+        },
+        {
+          "averageRating": 2089,
+          "black": 218,
+          "draws": 29,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 217
+        },
+        {
+          "averageRating": 2074,
+          "black": 136,
+          "draws": 23,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 140
+        },
+        {
+          "averageRating": 2111,
+          "black": 106,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 136
+        },
+        {
+          "averageRating": 2108,
+          "black": 47,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 45
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 20260
+    },
+    "2023-09": {
+      "black": 18324,
+      "draws": 2510,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 5028,
+          "draws": 663,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 5280
+        },
+        {
+          "averageRating": 2090,
+          "black": 3816,
+          "draws": 535,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 4195
+        },
+        {
+          "averageRating": 2102,
+          "black": 2680,
+          "draws": 419,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 2957
+        },
+        {
+          "averageRating": 2090,
+          "black": 2147,
+          "draws": 285,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2346
+        },
+        {
+          "averageRating": 2074,
+          "black": 1776,
+          "draws": 235,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1514
+        },
+        {
+          "averageRating": 2092,
+          "black": 1283,
+          "draws": 153,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1447
+        },
+        {
+          "averageRating": 2093,
+          "black": 616,
+          "draws": 99,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 743
+        },
+        {
+          "averageRating": 2106,
+          "black": 460,
+          "draws": 55,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 508
+        },
+        {
+          "averageRating": 2095,
+          "black": 192,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 209
+        },
+        {
+          "averageRating": 2073,
+          "black": 100,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 110
+        },
+        {
+          "averageRating": 2083,
+          "black": 99,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 105
+        },
+        {
+          "averageRating": 2089,
+          "black": 32,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 34
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 19536
+    },
+    "2023-10": {
+      "black": 18775,
+      "draws": 2445,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 5052,
+          "draws": 666,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 5271
+        },
+        {
+          "averageRating": 2088,
+          "black": 3845,
+          "draws": 481,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 4324
+        },
+        {
+          "averageRating": 2106,
+          "black": 2782,
+          "draws": 408,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 3144
+        },
+        {
+          "averageRating": 2088,
+          "black": 2300,
+          "draws": 294,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2346
+        },
+        {
+          "averageRating": 2076,
+          "black": 1747,
+          "draws": 234,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1654
+        },
+        {
+          "averageRating": 2092,
+          "black": 1295,
+          "draws": 147,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1478
+        },
+        {
+          "averageRating": 2089,
+          "black": 729,
+          "draws": 107,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 785
+        },
+        {
+          "averageRating": 2096,
+          "black": 427,
+          "draws": 45,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 447
+        },
+        {
+          "averageRating": 2090,
+          "black": 169,
+          "draws": 26,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 193
+        },
+        {
+          "averageRating": 2084,
+          "black": 150,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 132
+        },
+        {
+          "averageRating": 2086,
+          "black": 111,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 133
+        },
+        {
+          "averageRating": 2070,
+          "black": 33,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 41
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 20048
+    },
+    "2023-11": {
+      "black": 17770,
+      "draws": 2412,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 4830,
+          "draws": 672,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 5208
+        },
+        {
+          "averageRating": 2088,
+          "black": 3610,
+          "draws": 459,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 4011
+        },
+        {
+          "averageRating": 2108,
+          "black": 2533,
+          "draws": 384,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 3037
+        },
+        {
+          "averageRating": 2091,
+          "black": 2078,
+          "draws": 298,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2199
+        },
+        {
+          "averageRating": 2074,
+          "black": 1815,
+          "draws": 242,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1671
+        },
+        {
+          "averageRating": 2091,
+          "black": 1206,
+          "draws": 132,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1416
+        },
+        {
+          "averageRating": 2091,
+          "black": 685,
+          "draws": 98,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 727
+        },
+        {
+          "averageRating": 2089,
+          "black": 383,
+          "draws": 57,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 432
+        },
+        {
+          "averageRating": 2099,
+          "black": 217,
+          "draws": 30,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 233
+        },
+        {
+          "averageRating": 2101,
+          "black": 126,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 143
+        },
+        {
+          "averageRating": 2082,
+          "black": 113,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 123
+        },
+        {
+          "averageRating": 2072,
+          "black": 51,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 44
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 19334
+    },
+    "2023-12": {
+      "black": 19117,
+      "draws": 2482,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 5129,
+          "draws": 669,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 5531
+        },
+        {
+          "averageRating": 2089,
+          "black": 4009,
+          "draws": 516,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 4400
+        },
+        {
+          "averageRating": 2105,
+          "black": 2757,
+          "draws": 412,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 3003
+        },
+        {
+          "averageRating": 2093,
+          "black": 2348,
+          "draws": 307,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2523
+        },
+        {
+          "averageRating": 2072,
+          "black": 1946,
+          "draws": 243,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1708
+        },
+        {
+          "averageRating": 2096,
+          "black": 1195,
+          "draws": 118,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1387
+        },
+        {
+          "averageRating": 2091,
+          "black": 730,
+          "draws": 110,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 715
+        },
+        {
+          "averageRating": 2098,
+          "black": 361,
+          "draws": 38,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 391
+        },
+        {
+          "averageRating": 2098,
+          "black": 223,
+          "draws": 28,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 201
+        },
+        {
+          "averageRating": 2103,
+          "black": 130,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 145
+        },
+        {
+          "averageRating": 2073,
+          "black": 120,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 108
+        },
+        {
+          "averageRating": 2087,
+          "black": 49,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 46
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 20265
+    },
+    "2024-01": {
+      "black": 18800,
+      "draws": 2576,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 5147,
+          "draws": 727,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 5528
+        },
+        {
+          "averageRating": 2091,
+          "black": 3863,
+          "draws": 525,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 4309
+        },
+        {
+          "averageRating": 2103,
+          "black": 2852,
+          "draws": 430,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 3205
+        },
+        {
+          "averageRating": 2093,
+          "black": 2144,
+          "draws": 277,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2341
+        },
+        {
+          "averageRating": 2073,
+          "black": 1813,
+          "draws": 265,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1775
+        },
+        {
+          "averageRating": 2090,
+          "black": 1226,
+          "draws": 133,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1431
+        },
+        {
+          "averageRating": 2086,
+          "black": 686,
+          "draws": 103,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 715
+        },
+        {
+          "averageRating": 2101,
+          "black": 413,
+          "draws": 48,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 453
+        },
+        {
+          "averageRating": 2092,
+          "black": 227,
+          "draws": 32,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 206
+        },
+        {
+          "averageRating": 2092,
+          "black": 134,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 124
+        },
+        {
+          "averageRating": 2075,
+          "black": 130,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 126
+        },
+        {
+          "averageRating": 2082,
+          "black": 43,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 44
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 20372
+    },
+    "2024-02": {
+      "black": 17200,
+      "draws": 2437,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 4558,
+          "draws": 637,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 4955
+        },
+        {
+          "averageRating": 2090,
+          "black": 3409,
+          "draws": 500,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3822
+        },
+        {
+          "averageRating": 2105,
+          "black": 2607,
+          "draws": 405,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 2977
+        },
+        {
+          "averageRating": 2090,
+          "black": 1978,
+          "draws": 278,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2175
+        },
+        {
+          "averageRating": 2075,
+          "black": 1739,
+          "draws": 255,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1624
+        },
+        {
+          "averageRating": 2093,
+          "black": 1228,
+          "draws": 136,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1320
+        },
+        {
+          "averageRating": 2093,
+          "black": 689,
+          "draws": 113,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 690
+        },
+        {
+          "averageRating": 2107,
+          "black": 400,
+          "draws": 46,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 451
+        },
+        {
+          "averageRating": 2084,
+          "black": 196,
+          "draws": 26,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 229
+        },
+        {
+          "averageRating": 2076,
+          "black": 128,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 124
+        },
+        {
+          "averageRating": 2096,
+          "black": 126,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 113
+        },
+        {
+          "averageRating": 2077,
+          "black": 36,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 36
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 18612
+    },
+    "2024-03": {
+      "black": 18064,
+      "draws": 2470,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 4874,
+          "draws": 703,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 5158
+        },
+        {
+          "averageRating": 2090,
+          "black": 3646,
+          "draws": 486,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3982
+        },
+        {
+          "averageRating": 2106,
+          "black": 2711,
+          "draws": 395,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 3110
+        },
+        {
+          "averageRating": 2089,
+          "black": 2073,
+          "draws": 272,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2286
+        },
+        {
+          "averageRating": 2071,
+          "black": 1832,
+          "draws": 249,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1730
+        },
+        {
+          "averageRating": 2091,
+          "black": 1265,
+          "draws": 141,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1393
+        },
+        {
+          "averageRating": 2096,
+          "black": 688,
+          "draws": 105,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 740
+        },
+        {
+          "averageRating": 2095,
+          "black": 429,
+          "draws": 50,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 422
+        },
+        {
+          "averageRating": 2086,
+          "black": 174,
+          "draws": 30,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 186
+        },
+        {
+          "averageRating": 2105,
+          "black": 127,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 106
+        },
+        {
+          "averageRating": 2060,
+          "black": 90,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 118
+        },
+        {
+          "averageRating": 2084,
+          "black": 32,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 31
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 19356
+    },
+    "2024-04": {
+      "black": 16959,
+      "draws": 2352,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 4749,
+          "draws": 662,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 5168
+        },
+        {
+          "averageRating": 2090,
+          "black": 3421,
+          "draws": 484,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3877
+        },
+        {
+          "averageRating": 2102,
+          "black": 2473,
+          "draws": 363,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 2698
+        },
+        {
+          "averageRating": 2087,
+          "black": 1859,
+          "draws": 266,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1983
+        },
+        {
+          "averageRating": 2076,
+          "black": 1752,
+          "draws": 237,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1602
+        },
+        {
+          "averageRating": 2093,
+          "black": 1121,
+          "draws": 139,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1280
+        },
+        {
+          "averageRating": 2091,
+          "black": 662,
+          "draws": 97,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 681
+        },
+        {
+          "averageRating": 2090,
+          "black": 399,
+          "draws": 41,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 455
+        },
+        {
+          "averageRating": 2092,
+          "black": 200,
+          "draws": 32,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 158
+        },
+        {
+          "averageRating": 2090,
+          "black": 100,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 128
+        },
+        {
+          "averageRating": 2090,
+          "black": 99,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 99
+        },
+        {
+          "averageRating": 2073,
+          "black": 34,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 37
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 18235
+    },
+    "2024-05": {
+      "black": 17924,
+      "draws": 2445,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 4793,
+          "draws": 668,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 5113
+        },
+        {
+          "averageRating": 2088,
+          "black": 3669,
+          "draws": 491,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3980
+        },
+        {
+          "averageRating": 2106,
+          "black": 2697,
+          "draws": 417,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 3102
+        },
+        {
+          "averageRating": 2090,
+          "black": 1889,
+          "draws": 229,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2169
+        },
+        {
+          "averageRating": 2076,
+          "black": 1858,
+          "draws": 246,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1674
+        },
+        {
+          "averageRating": 2088,
+          "black": 1307,
+          "draws": 143,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1441
+        },
+        {
+          "averageRating": 2085,
+          "black": 716,
+          "draws": 121,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 718
+        },
+        {
+          "averageRating": 2099,
+          "black": 417,
+          "draws": 54,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 432
+        },
+        {
+          "averageRating": 2096,
+          "black": 214,
+          "draws": 33,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 205
+        },
+        {
+          "averageRating": 2072,
+          "black": 116,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 114
+        },
+        {
+          "averageRating": 2090,
+          "black": 111,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 119
+        },
+        {
+          "averageRating": 2090,
+          "black": 37,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 38
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 19206
+    },
+    "2024-06": {
+      "black": 16315,
+      "draws": 2226,
+      "moves": [
+        {
+          "averageRating": 2104,
+          "black": 4387,
+          "draws": 609,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 4681
+        },
+        {
+          "averageRating": 2089,
+          "black": 3385,
+          "draws": 452,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3831
+        },
+        {
+          "averageRating": 2104,
+          "black": 2478,
+          "draws": 380,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 2705
+        },
+        {
+          "averageRating": 2087,
+          "black": 1816,
+          "draws": 223,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1899
+        },
+        {
+          "averageRating": 2080,
+          "black": 1633,
+          "draws": 225,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1634
+        },
+        {
+          "averageRating": 2096,
+          "black": 1083,
+          "draws": 126,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1231
+        },
+        {
+          "averageRating": 2088,
+          "black": 635,
+          "draws": 98,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 662
+        },
+        {
+          "averageRating": 2095,
+          "black": 396,
+          "draws": 48,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 417
+        },
+        {
+          "averageRating": 2100,
+          "black": 189,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 201
+        },
+        {
+          "averageRating": 2092,
+          "black": 103,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 98
+        },
+        {
+          "averageRating": 2075,
+          "black": 85,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 94
+        },
+        {
+          "averageRating": 2077,
+          "black": 27,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 42
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 17588
+    },
+    "2024-07": {
+      "black": 17037,
+      "draws": 2353,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 4617,
+          "draws": 623,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 4757
+        },
+        {
+          "averageRating": 2088,
+          "black": 3597,
+          "draws": 466,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3880
+        },
+        {
+          "averageRating": 2101,
+          "black": 2549,
+          "draws": 419,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 2849
+        },
+        {
+          "averageRating": 2091,
+          "black": 1819,
+          "draws": 256,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2051
+        },
+        {
+          "averageRating": 2079,
+          "black": 1795,
+          "draws": 269,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1535
+        },
+        {
+          "averageRating": 2094,
+          "black": 1032,
+          "draws": 127,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1290
+        },
+        {
+          "averageRating": 2092,
+          "black": 631,
+          "draws": 85,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 705
+        },
+        {
+          "averageRating": 2106,
+          "black": 466,
+          "draws": 58,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 497
+        },
+        {
+          "averageRating": 2098,
+          "black": 195,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 182
+        },
+        {
+          "averageRating": 2084,
+          "black": 110,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 130
+        },
+        {
+          "averageRating": 2079,
+          "black": 104,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 85
+        },
+        {
+          "averageRating": 2059,
+          "black": 34,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 44
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 18117
+    },
+    "2024-08": {
+      "black": 17662,
+      "draws": 2426,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 4656,
+          "draws": 628,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 4994
+        },
+        {
+          "averageRating": 2088,
+          "black": 3484,
+          "draws": 451,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3896
+        },
+        {
+          "averageRating": 2103,
+          "black": 2791,
+          "draws": 424,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 3074
+        },
+        {
+          "averageRating": 2093,
+          "black": 2027,
+          "draws": 286,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2170
+        },
+        {
+          "averageRating": 2079,
+          "black": 1878,
+          "draws": 258,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1688
+        },
+        {
+          "averageRating": 2088,
+          "black": 1157,
+          "draws": 153,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1288
+        },
+        {
+          "averageRating": 2098,
+          "black": 634,
+          "draws": 103,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 683
+        },
+        {
+          "averageRating": 2100,
+          "black": 469,
+          "draws": 58,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 483
+        },
+        {
+          "averageRating": 2085,
+          "black": 196,
+          "draws": 29,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 200
+        },
+        {
+          "averageRating": 2086,
+          "black": 116,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 111
+        },
+        {
+          "averageRating": 2080,
+          "black": 102,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 75
+        },
+        {
+          "averageRating": 2071,
+          "black": 47,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 63
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 18827
+    },
+    "2024-09": {
+      "black": 16482,
+      "draws": 2227,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 4531,
+          "draws": 630,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 4695
+        },
+        {
+          "averageRating": 2089,
+          "black": 3237,
+          "draws": 453,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3659
+        },
+        {
+          "averageRating": 2102,
+          "black": 2641,
+          "draws": 374,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 2831
+        },
+        {
+          "averageRating": 2092,
+          "black": 1754,
+          "draws": 222,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1900
+        },
+        {
+          "averageRating": 2079,
+          "black": 1660,
+          "draws": 207,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1570
+        },
+        {
+          "averageRating": 2090,
+          "black": 1106,
+          "draws": 131,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1281
+        },
+        {
+          "averageRating": 2093,
+          "black": 578,
+          "draws": 89,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 668
+        },
+        {
+          "averageRating": 2101,
+          "black": 382,
+          "draws": 52,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 467
+        },
+        {
+          "averageRating": 2106,
+          "black": 207,
+          "draws": 36,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 192
+        },
+        {
+          "averageRating": 2088,
+          "black": 141,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 125
+        },
+        {
+          "averageRating": 2077,
+          "black": 78,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 88
+        },
+        {
+          "averageRating": 2069,
+          "black": 53,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 43
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 17626
+    },
+    "2024-10": {
+      "black": 17476,
+      "draws": 2466,
+      "moves": [
+        {
+          "averageRating": 2103,
+          "black": 4914,
+          "draws": 703,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 5377
+        },
+        {
+          "averageRating": 2089,
+          "black": 3299,
+          "draws": 504,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3714
+        },
+        {
+          "averageRating": 2101,
+          "black": 2819,
+          "draws": 411,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 3040
+        },
+        {
+          "averageRating": 2095,
+          "black": 1843,
+          "draws": 256,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1983
+        },
+        {
+          "averageRating": 2077,
+          "black": 1800,
+          "draws": 251,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1742
+        },
+        {
+          "averageRating": 2092,
+          "black": 1128,
+          "draws": 137,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1287
+        },
+        {
+          "averageRating": 2092,
+          "black": 697,
+          "draws": 81,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 657
+        },
+        {
+          "averageRating": 2104,
+          "black": 380,
+          "draws": 41,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 428
+        },
+        {
+          "averageRating": 2101,
+          "black": 197,
+          "draws": 42,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 170
+        },
+        {
+          "averageRating": 2094,
+          "black": 143,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 154
+        },
+        {
+          "averageRating": 2080,
+          "black": 96,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 107
+        },
+        {
+          "averageRating": 2074,
+          "black": 44,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 44
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 18828
+    },
+    "2024-11": {
+      "black": 16409,
+      "draws": 2257,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 4720,
+          "draws": 635,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 5107
+        },
+        {
+          "averageRating": 2091,
+          "black": 3258,
+          "draws": 453,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3647
+        },
+        {
+          "averageRating": 2103,
+          "black": 2534,
+          "draws": 383,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 2808
+        },
+        {
+          "averageRating": 2094,
+          "black": 1793,
+          "draws": 235,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1972
+        },
+        {
+          "averageRating": 2082,
+          "black": 1628,
+          "draws": 218,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1593
+        },
+        {
+          "averageRating": 2098,
+          "black": 925,
+          "draws": 114,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1131
+        },
+        {
+          "averageRating": 2100,
+          "black": 685,
+          "draws": 100,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 731
+        },
+        {
+          "averageRating": 2111,
+          "black": 363,
+          "draws": 45,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 426
+        },
+        {
+          "averageRating": 2086,
+          "black": 160,
+          "draws": 39,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 193
+        },
+        {
+          "averageRating": 2107,
+          "black": 121,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 146
+        },
+        {
+          "averageRating": 2075,
+          "black": 89,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 68
+        },
+        {
+          "averageRating": 2097,
+          "black": 26,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 61
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 17993
+    },
+    "2024-12": {
+      "black": 17714,
+      "draws": 2554,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 4919,
+          "draws": 691,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 5355
+        },
+        {
+          "averageRating": 2090,
+          "black": 3457,
+          "draws": 515,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 4056
+        },
+        {
+          "averageRating": 2103,
+          "black": 2677,
+          "draws": 430,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 3254
+        },
+        {
+          "averageRating": 2094,
+          "black": 1915,
+          "draws": 279,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2121
+        },
+        {
+          "averageRating": 2082,
+          "black": 1831,
+          "draws": 269,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1702
+        },
+        {
+          "averageRating": 2097,
+          "black": 1148,
+          "draws": 127,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1299
+        },
+        {
+          "averageRating": 2090,
+          "black": 758,
+          "draws": 113,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 769
+        },
+        {
+          "averageRating": 2097,
+          "black": 439,
+          "draws": 48,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 467
+        },
+        {
+          "averageRating": 2097,
+          "black": 196,
+          "draws": 32,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 210
+        },
+        {
+          "averageRating": 2094,
+          "black": 115,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 136
+        },
+        {
+          "averageRating": 2075,
+          "black": 95,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 89
+        },
+        {
+          "averageRating": 2063,
+          "black": 49,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 64
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 19621
+    },
+    "2025-01": {
+      "black": 18120,
+      "draws": 2546,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 5056,
+          "draws": 655,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 5427
+        },
+        {
+          "averageRating": 2090,
+          "black": 3652,
+          "draws": 527,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 4053
+        },
+        {
+          "averageRating": 2100,
+          "black": 2731,
+          "draws": 440,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 3113
+        },
+        {
+          "averageRating": 2093,
+          "black": 1955,
+          "draws": 287,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2113
+        },
+        {
+          "averageRating": 2083,
+          "black": 1903,
+          "draws": 261,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1968
+        },
+        {
+          "averageRating": 2094,
+          "black": 1113,
+          "draws": 127,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1238
+        },
+        {
+          "averageRating": 2093,
+          "black": 731,
+          "draws": 111,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 807
+        },
+        {
+          "averageRating": 2092,
+          "black": 370,
+          "draws": 47,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 414
+        },
+        {
+          "averageRating": 2090,
+          "black": 228,
+          "draws": 42,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 219
+        },
+        {
+          "averageRating": 2095,
+          "black": 123,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 123
+        },
+        {
+          "averageRating": 2072,
+          "black": 92,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 98
+        },
+        {
+          "averageRating": 2077,
+          "black": 60,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 64
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 19737
+    },
+    "2025-02": {
+      "black": 15824,
+      "draws": 2181,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 4468,
+          "draws": 583,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 4662
+        },
+        {
+          "averageRating": 2093,
+          "black": 3257,
+          "draws": 454,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3591
+        },
+        {
+          "averageRating": 2099,
+          "black": 2500,
+          "draws": 379,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 2713
+        },
+        {
+          "averageRating": 2094,
+          "black": 1589,
+          "draws": 236,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1761
+        },
+        {
+          "averageRating": 2081,
+          "black": 1473,
+          "draws": 204,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1523
+        },
+        {
+          "averageRating": 2090,
+          "black": 964,
+          "draws": 98,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1031
+        },
+        {
+          "averageRating": 2097,
+          "black": 661,
+          "draws": 118,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 753
+        },
+        {
+          "averageRating": 2095,
+          "black": 376,
+          "draws": 43,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 361
+        },
+        {
+          "averageRating": 2087,
+          "black": 167,
+          "draws": 31,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 182
+        },
+        {
+          "averageRating": 2081,
+          "black": 128,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 95
+        },
+        {
+          "averageRating": 2072,
+          "black": 83,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 84
+        },
+        {
+          "averageRating": 2096,
+          "black": 44,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "b4",
+          "uci": "b2b4",
+          "white": 36
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 16907
+    },
+    "2025-03": {
+      "black": 17671,
+      "draws": 2358,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 4870,
+          "draws": 608,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 5217
+        },
+        {
+          "averageRating": 2096,
+          "black": 3586,
+          "draws": 499,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3947
+        },
+        {
+          "averageRating": 2102,
+          "black": 2768,
+          "draws": 404,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 2953
+        },
+        {
+          "averageRating": 2092,
+          "black": 1840,
+          "draws": 244,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2011
+        },
+        {
+          "averageRating": 2081,
+          "black": 1855,
+          "draws": 252,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1830
+        },
+        {
+          "averageRating": 2095,
+          "black": 1113,
+          "draws": 119,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1271
+        },
+        {
+          "averageRating": 2099,
+          "black": 682,
+          "draws": 109,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 731
+        },
+        {
+          "averageRating": 2092,
+          "black": 402,
+          "draws": 44,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 401
+        },
+        {
+          "averageRating": 2089,
+          "black": 179,
+          "draws": 31,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 195
+        },
+        {
+          "averageRating": 2094,
+          "black": 149,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 136
+        },
+        {
+          "averageRating": 2063,
+          "black": 81,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 83
+        },
+        {
+          "averageRating": 2076,
+          "black": 37,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 45
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 18951
+    },
+    "2025-04": {
+      "black": 16457,
+      "draws": 2306,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 4707,
+          "draws": 624,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 5063
+        },
+        {
+          "averageRating": 2093,
+          "black": 3313,
+          "draws": 441,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3763
+        },
+        {
+          "averageRating": 2100,
+          "black": 2467,
+          "draws": 396,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 2750
+        },
+        {
+          "averageRating": 2093,
+          "black": 1713,
+          "draws": 259,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1862
+        },
+        {
+          "averageRating": 2083,
+          "black": 1606,
+          "draws": 234,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1591
+        },
+        {
+          "averageRating": 2095,
+          "black": 1012,
+          "draws": 114,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1284
+        },
+        {
+          "averageRating": 2098,
+          "black": 717,
+          "draws": 101,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 664
+        },
+        {
+          "averageRating": 2100,
+          "black": 339,
+          "draws": 55,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 409
+        },
+        {
+          "averageRating": 2097,
+          "black": 197,
+          "draws": 31,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 193
+        },
+        {
+          "averageRating": 2096,
+          "black": 133,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 125
+        },
+        {
+          "averageRating": 2072,
+          "black": 106,
+          "draws": 21,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 100
+        },
+        {
+          "averageRating": 2069,
+          "black": 47,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 51
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 17943
+    },
+    "2025-05": {
+      "black": 16571,
+      "draws": 2260,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 4828,
+          "draws": 667,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 5115
+        },
+        {
+          "averageRating": 2093,
+          "black": 3300,
+          "draws": 437,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3632
+        },
+        {
+          "averageRating": 2100,
+          "black": 2450,
+          "draws": 357,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 2710
+        },
+        {
+          "averageRating": 2092,
+          "black": 1753,
+          "draws": 222,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1898
+        },
+        {
+          "averageRating": 2082,
+          "black": 1639,
+          "draws": 204,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1560
+        },
+        {
+          "averageRating": 2095,
+          "black": 1080,
+          "draws": 138,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1275
+        },
+        {
+          "averageRating": 2089,
+          "black": 587,
+          "draws": 123,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 677
+        },
+        {
+          "averageRating": 2096,
+          "black": 386,
+          "draws": 43,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 454
+        },
+        {
+          "averageRating": 2104,
+          "black": 174,
+          "draws": 28,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 161
+        },
+        {
+          "averageRating": 2054,
+          "black": 125,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 97
+        },
+        {
+          "averageRating": 2079,
+          "black": 111,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 100
+        },
+        {
+          "averageRating": 2061,
+          "black": 46,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 42
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 17799
+    },
+    "2025-06": {
+      "black": 16295,
+      "draws": 2203,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 4579,
+          "draws": 597,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 4826
+        },
+        {
+          "averageRating": 2089,
+          "black": 3250,
+          "draws": 466,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3741
+        },
+        {
+          "averageRating": 2100,
+          "black": 2450,
+          "draws": 357,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 2604
+        },
+        {
+          "averageRating": 2094,
+          "black": 1674,
+          "draws": 211,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1904
+        },
+        {
+          "averageRating": 2083,
+          "black": 1696,
+          "draws": 210,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1573
+        },
+        {
+          "averageRating": 2096,
+          "black": 1086,
+          "draws": 134,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1193
+        },
+        {
+          "averageRating": 2092,
+          "black": 722,
+          "draws": 104,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 690
+        },
+        {
+          "averageRating": 2097,
+          "black": 336,
+          "draws": 60,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 376
+        },
+        {
+          "averageRating": 2094,
+          "black": 150,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 191
+        },
+        {
+          "averageRating": 2093,
+          "black": 130,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 136
+        },
+        {
+          "averageRating": 2063,
+          "black": 85,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 71
+        },
+        {
+          "averageRating": 2090,
+          "black": 33,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "b4",
+          "uci": "b2b4",
+          "white": 34
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 17432
+    },
+    "2025-07": {
+      "black": 16560,
+      "draws": 2311,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 4617,
+          "draws": 620,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 4721
+        },
+        {
+          "averageRating": 2091,
+          "black": 3288,
+          "draws": 491,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3833
+        },
+        {
+          "averageRating": 2099,
+          "black": 2488,
+          "draws": 367,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 2726
+        },
+        {
+          "averageRating": 2096,
+          "black": 1801,
+          "draws": 219,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1972
+        },
+        {
+          "averageRating": 2082,
+          "black": 1684,
+          "draws": 240,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1699
+        },
+        {
+          "averageRating": 2094,
+          "black": 1082,
+          "draws": 138,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1270
+        },
+        {
+          "averageRating": 2095,
+          "black": 699,
+          "draws": 117,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 723
+        },
+        {
+          "averageRating": 2098,
+          "black": 403,
+          "draws": 53,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 404
+        },
+        {
+          "averageRating": 2092,
+          "black": 165,
+          "draws": 31,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 196
+        },
+        {
+          "averageRating": 2087,
+          "black": 138,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 129
+        },
+        {
+          "averageRating": 2067,
+          "black": 76,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 63
+        },
+        {
+          "averageRating": 2060,
+          "black": 39,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 31
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 17852
+    },
+    "2025-08": {
+      "black": 16579,
+      "draws": 2301,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 4447,
+          "draws": 621,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 4900
+        },
+        {
+          "averageRating": 2090,
+          "black": 3503,
+          "draws": 492,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3895
+        },
+        {
+          "averageRating": 2102,
+          "black": 2428,
+          "draws": 396,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 2658
+        },
+        {
+          "averageRating": 2092,
+          "black": 1899,
+          "draws": 228,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1949
+        },
+        {
+          "averageRating": 2081,
+          "black": 1681,
+          "draws": 221,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1618
+        },
+        {
+          "averageRating": 2094,
+          "black": 1040,
+          "draws": 127,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1203
+        },
+        {
+          "averageRating": 2092,
+          "black": 622,
+          "draws": 111,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 729
+        },
+        {
+          "averageRating": 2097,
+          "black": 384,
+          "draws": 41,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 431
+        },
+        {
+          "averageRating": 2095,
+          "black": 194,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 201
+        },
+        {
+          "averageRating": 2069,
+          "black": 158,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 143
+        },
+        {
+          "averageRating": 2045,
+          "black": 77,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 64
+        },
+        {
+          "averageRating": 2090,
+          "black": 37,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "b4",
+          "uci": "b2b4",
+          "white": 32
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 17918
+    },
+    "2025-09": {
+      "black": 15189,
+      "draws": 2155,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 4074,
+          "draws": 574,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 4617
+        },
+        {
+          "averageRating": 2091,
+          "black": 3073,
+          "draws": 467,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3382
+        },
+        {
+          "averageRating": 2106,
+          "black": 2421,
+          "draws": 360,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 2679
+        },
+        {
+          "averageRating": 2092,
+          "black": 1720,
+          "draws": 225,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1861
+        },
+        {
+          "averageRating": 2081,
+          "black": 1510,
+          "draws": 207,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1510
+        },
+        {
+          "averageRating": 2093,
+          "black": 998,
+          "draws": 119,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1164
+        },
+        {
+          "averageRating": 2098,
+          "black": 598,
+          "draws": 91,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 654
+        },
+        {
+          "averageRating": 2100,
+          "black": 310,
+          "draws": 49,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 414
+        },
+        {
+          "averageRating": 2092,
+          "black": 160,
+          "draws": 32,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 172
+        },
+        {
+          "averageRating": 2077,
+          "black": 118,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 119
+        },
+        {
+          "averageRating": 2059,
+          "black": 83,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 86
+        },
+        {
+          "averageRating": 2054,
+          "black": 30,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 30
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 16772
+    },
+    "2025-10": {
+      "black": 16150,
+      "draws": 2267,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 4400,
+          "draws": 557,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 4780
+        },
+        {
+          "averageRating": 2092,
+          "black": 3110,
+          "draws": 473,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3634
+        },
+        {
+          "averageRating": 2104,
+          "black": 2518,
+          "draws": 409,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 2876
+        },
+        {
+          "averageRating": 2092,
+          "black": 1799,
+          "draws": 229,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1965
+        },
+        {
+          "averageRating": 2081,
+          "black": 1724,
+          "draws": 258,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1614
+        },
+        {
+          "averageRating": 2100,
+          "black": 1122,
+          "draws": 124,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1277
+        },
+        {
+          "averageRating": 2088,
+          "black": 602,
+          "draws": 95,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 718
+        },
+        {
+          "averageRating": 2107,
+          "black": 373,
+          "draws": 45,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 470
+        },
+        {
+          "averageRating": 2078,
+          "black": 195,
+          "draws": 42,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 165
+        },
+        {
+          "averageRating": 2081,
+          "black": 127,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 116
+        },
+        {
+          "averageRating": 2056,
+          "black": 73,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 81
+        },
+        {
+          "averageRating": 2067,
+          "black": 35,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 30
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 17822
+    },
+    "2025-11": {
+      "black": 15419,
+      "draws": 2156,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 4276,
+          "draws": 579,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 4474
+        },
+        {
+          "averageRating": 2087,
+          "black": 3104,
+          "draws": 407,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3375
+        },
+        {
+          "averageRating": 2100,
+          "black": 2323,
+          "draws": 352,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 2526
+        },
+        {
+          "averageRating": 2091,
+          "black": 1550,
+          "draws": 223,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1750
+        },
+        {
+          "averageRating": 2084,
+          "black": 1640,
+          "draws": 239,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1609
+        },
+        {
+          "averageRating": 2091,
+          "black": 1128,
+          "draws": 149,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1218
+        },
+        {
+          "averageRating": 2093,
+          "black": 581,
+          "draws": 86,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 647
+        },
+        {
+          "averageRating": 2100,
+          "black": 317,
+          "draws": 53,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 388
+        },
+        {
+          "averageRating": 2097,
+          "black": 194,
+          "draws": 35,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 199
+        },
+        {
+          "averageRating": 2092,
+          "black": 116,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 112
+        },
+        {
+          "averageRating": 2068,
+          "black": 73,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 76
+        },
+        {
+          "averageRating": 2063,
+          "black": 40,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 38
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 16472
+    },
+    "2025-12": {
+      "black": 16332,
+      "draws": 2286,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 4440,
+          "draws": 608,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 4897
+        },
+        {
+          "averageRating": 2091,
+          "black": 3269,
+          "draws": 464,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3744
+        },
+        {
+          "averageRating": 2098,
+          "black": 2518,
+          "draws": 385,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 2677
+        },
+        {
+          "averageRating": 2091,
+          "black": 1742,
+          "draws": 236,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1913
+        },
+        {
+          "averageRating": 2080,
+          "black": 1628,
+          "draws": 231,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1593
+        },
+        {
+          "averageRating": 2086,
+          "black": 1134,
+          "draws": 131,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1260
+        },
+        {
+          "averageRating": 2090,
+          "black": 618,
+          "draws": 109,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 652
+        },
+        {
+          "averageRating": 2089,
+          "black": 369,
+          "draws": 47,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 411
+        },
+        {
+          "averageRating": 2094,
+          "black": 257,
+          "draws": 44,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 277
+        },
+        {
+          "averageRating": 2078,
+          "black": 135,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 123
+        },
+        {
+          "averageRating": 2075,
+          "black": 106,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 120
+        },
+        {
+          "averageRating": 2046,
+          "black": 37,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 31
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 17769
+    },
+    "2026-01": {
+      "black": 16093,
+      "draws": 2214,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 4375,
+          "draws": 599,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 4661
+        },
+        {
+          "averageRating": 2088,
+          "black": 3104,
+          "draws": 406,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3466
+        },
+        {
+          "averageRating": 2103,
+          "black": 2374,
+          "draws": 382,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 2715
+        },
+        {
+          "averageRating": 2089,
+          "black": 1888,
+          "draws": 249,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2021
+        },
+        {
+          "averageRating": 2080,
+          "black": 1664,
+          "draws": 228,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1589
+        },
+        {
+          "averageRating": 2093,
+          "black": 1159,
+          "draws": 138,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1290
+        },
+        {
+          "averageRating": 2087,
+          "black": 578,
+          "draws": 88,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 642
+        },
+        {
+          "averageRating": 2100,
+          "black": 369,
+          "draws": 45,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 471
+        },
+        {
+          "averageRating": 2093,
+          "black": 222,
+          "draws": 32,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 222
+        },
+        {
+          "averageRating": 2099,
+          "black": 113,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 123
+        },
+        {
+          "averageRating": 2084,
+          "black": 113,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 110
+        },
+        {
+          "averageRating": 2057,
+          "black": 52,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 41
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 17444
+    },
+    "2026-02": {
+      "black": 14234,
+      "draws": 1986,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 4055,
+          "draws": 536,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 4303
+        },
+        {
+          "averageRating": 2091,
+          "black": 2859,
+          "draws": 383,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3173
+        },
+        {
+          "averageRating": 2100,
+          "black": 2138,
+          "draws": 358,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 2395
+        },
+        {
+          "averageRating": 2094,
+          "black": 1462,
+          "draws": 221,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1657
+        },
+        {
+          "averageRating": 2076,
+          "black": 1408,
+          "draws": 188,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1311
+        },
+        {
+          "averageRating": 2094,
+          "black": 928,
+          "draws": 109,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1090
+        },
+        {
+          "averageRating": 2093,
+          "black": 564,
+          "draws": 79,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 627
+        },
+        {
+          "averageRating": 2100,
+          "black": 347,
+          "draws": 46,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 372
+        },
+        {
+          "averageRating": 2094,
+          "black": 151,
+          "draws": 26,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 201
+        },
+        {
+          "averageRating": 2088,
+          "black": 122,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 97
+        },
+        {
+          "averageRating": 2067,
+          "black": 80,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 72
+        },
+        {
+          "averageRating": 2072,
+          "black": 40,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 48
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 15421
+    },
+    "2026-03": {
+      "black": 15338,
+      "draws": 2161,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 4205,
+          "draws": 603,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 4480
+        },
+        {
+          "averageRating": 2090,
+          "black": 2998,
+          "draws": 441,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3494
+        },
+        {
+          "averageRating": 2100,
+          "black": 2355,
+          "draws": 361,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 2543
+        },
+        {
+          "averageRating": 2091,
+          "black": 1658,
+          "draws": 234,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1781
+        },
+        {
+          "averageRating": 2086,
+          "black": 1596,
+          "draws": 227,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1590
+        },
+        {
+          "averageRating": 2093,
+          "black": 1071,
+          "draws": 115,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 1212
+        },
+        {
+          "averageRating": 2094,
+          "black": 537,
+          "draws": 73,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 555
+        },
+        {
+          "averageRating": 2103,
+          "black": 413,
+          "draws": 51,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 513
+        },
+        {
+          "averageRating": 2088,
+          "black": 171,
+          "draws": 24,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 148
+        },
+        {
+          "averageRating": 2091,
+          "black": 123,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 129
+        },
+        {
+          "averageRating": 2080,
+          "black": 84,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 87
+        },
+        {
+          "averageRating": 2060,
+          "black": 41,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 38
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 16660
+    },
+    "2026-04": {
+      "black": 7663,
+      "draws": 1088,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 2162,
+          "draws": 313,
+          "game": null,
+          "opening": {
+            "eco": "E60",
+            "name": "King's Indian Defense: Normal Variation, King's Knight Variation"
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 2324
+        },
+        {
+          "averageRating": 2088,
+          "black": 1461,
+          "draws": 201,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "London System"
+          },
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 1623
+        },
+        {
+          "averageRating": 2099,
+          "black": 1208,
+          "draws": 182,
+          "game": null,
+          "opening": {
+            "eco": "A49",
+            "name": "Indian Defense: Przepiorka Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 1276
+        },
+        {
+          "averageRating": 2088,
+          "black": 760,
+          "draws": 107,
+          "game": null,
+          "opening": {
+            "eco": "A48",
+            "name": "Torre Attack: Fianchetto Defense"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 895
+        },
+        {
+          "averageRating": 2080,
+          "black": 779,
+          "draws": 101,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 737
+        },
+        {
+          "averageRating": 2093,
+          "black": 549,
+          "draws": 64,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 634
+        },
+        {
+          "averageRating": 2095,
+          "black": 254,
+          "draws": 40,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 286
+        },
+        {
+          "averageRating": 2098,
+          "black": 200,
+          "draws": 35,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 245
+        },
+        {
+          "averageRating": 2091,
+          "black": 114,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 114
+        },
+        {
+          "averageRating": 2088,
+          "black": 58,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 61
+        },
+        {
+          "averageRating": 2077,
+          "black": 44,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 34
+        },
+        {
+          "averageRating": 2079,
+          "black": 23,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 29
+        }
+      ],
+      "opening": {
+        "eco": "A48",
+        "name": "East Indian Defense"
+      },
+      "white": 8305
+    }
+  }
+}

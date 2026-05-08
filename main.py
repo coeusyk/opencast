@@ -29,7 +29,6 @@ FINDINGS_MD    = "FINDINGS.md"
 
 with open("config.json") as _f:
     FETCH_START: str = json.load(_f)["fetch_start"]
-OPENINGS_JSON  = "openings.json"
 
 
 def _load_env() -> None:
@@ -84,18 +83,43 @@ def _latest_complete_month() -> str:
 
 
 def get_missing_months() -> list[str]:
-    """Return complete months (YYYY-MM) not fully represented in data/raw/."""
-    with open(OPENINGS_JSON) as f:
-        openings = json.load(f)
-    eco_codes = [o["eco"] for o in openings]
+    """Return complete months (YYYY-MM) not fully covered in data/raw/.
+
+    Raw data uses one ``{ECO}.json`` file per opening, stored under a
+    per-group subdirectory: ``data/raw/{group}/{ECO}.json``.
+    Each file contains a ``months`` dict and a ``_meta.skipped_months`` dict.
+    A month is considered *covered* for an ECO if it appears in either dict.
+    """
+    import csv as _csv
+    with open(CATALOG_CSV, newline="") as f:
+        eco_codes = [
+            row["eco"] for row in _csv.DictReader(f)
+            if row.get("is_tracked_core", "").lower() == "true"
+            or row.get("is_long_tail", "").lower() == "true"
+        ]
     all_months = _month_range_to(FETCH_START, _latest_complete_month())
 
     raw_dir = Path("data/raw")
-    existing = {p.stem for p in raw_dir.glob("*.json")}  # "B20_2023-01" etc.
+
+    # Build per-ECO coverage: months dict keys ∪ skipped_months keys
+    coverage: dict[str, set] = {}
+    for eco in eco_codes:
+        eco_file = raw_dir / eco[0] / f"{eco}.json"
+        if not eco_file.exists():
+            coverage[eco] = set()
+            continue
+        try:
+            with open(eco_file, encoding="utf-8") as f:
+                data = json.load(f)
+            fetched = set(data.get("months", {}).keys())
+            skipped = set(data.get("_meta", {}).get("skipped_months", {}).keys())
+            coverage[eco] = fetched | skipped
+        except Exception:
+            coverage[eco] = set()
 
     missing_months = []
     for month in all_months:
-        if any(f"{eco}_{month}" not in existing for eco in eco_codes):
+        if any(month not in coverage.get(eco, set()) for eco in eco_codes):
             missing_months.append(month)
     return missing_months
 
@@ -217,15 +241,15 @@ def main():
         from src.engine_delta import run_engine_delta
         run_engine_delta()
 
-    if STAGES["viz"] and not _skip_or_force(DASHBOARD_HTML, "visualizer", force_recompute):
-        print("--- Stage: visualizer ---")
-        from src.visualizer import run_visualizer
-        run_visualizer()
-
     if STAGES["report"] and os.path.exists(FORECASTS_CSV) and os.path.exists(ENGINE_CSV):
         print("--- Stage: report ---")
         from src.report import run_report
         run_report()
+
+    if STAGES["viz"] and not _skip_or_force(DASHBOARD_HTML, "visualizer", force_recompute):
+        print("--- Stage: visualizer ---")
+        from src.visualizer import run_visualizer
+        run_visualizer()
 
 
 if __name__ == "__main__":

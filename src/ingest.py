@@ -1,6 +1,6 @@
 import json
 import os
-import re
+from pathlib import Path
 
 import numpy as np
 import pandas as pd
@@ -14,10 +14,13 @@ OUTPUT_CSV    = os.path.join(PROCESSED_DIR, "openings_ts.csv")
 LONG_TAIL_CSV = os.path.join(_HERE, "..", "data", "output", "long_tail_stats.csv")
 
 RATING_BRACKET = 2000
-MIN_GAMES = 500
 LOW_CONFIDENCE_THRESHOLD = 2000
 
-_FNAME_RE = re.compile(r"^([A-E]\d{2})_(\d{4}-\d{2})\.json$")
+
+def _load_min_games() -> int:
+    config_path = os.path.join(_HERE, "..", "config.json")
+    with open(config_path, encoding="utf-8") as f:
+        return int(json.load(f).get("min_monthly_games", 500))
 
 
 def _load_name_map() -> dict:
@@ -81,38 +84,43 @@ def _compute_long_tail_stats(df: pd.DataFrame) -> pd.DataFrame:
 
 def ingest() -> pd.DataFrame:
     name_map = _load_name_map()
+    min_games = _load_min_games()
     os.makedirs(PROCESSED_DIR, exist_ok=True)
 
     rows = []
-    for fname in sorted(os.listdir(RAW_DIR)):
-        m = _FNAME_RE.match(fname)
-        if not m:
-            continue
-        eco, month = m.group(1), m.group(2)
-
-        with open(os.path.join(RAW_DIR, fname)) as f:
-            data = json.load(f)
-
-        white = data["white"]
-        draws = data["draws"]
-        black = data["black"]
-        total = white + draws + black
-
-        if total < MIN_GAMES:
+    for fpath in sorted(Path(RAW_DIR).rglob("*.json")):
+        try:
+            with open(fpath, encoding="utf-8") as f:
+                file_data = json.load(f)
+        except Exception:
             continue
 
-        rows.append({
-            "month": month,
-            "eco": eco,
-            "opening_name": name_map.get(eco, eco),
-            "rating_bracket": RATING_BRACKET,
-            "white": white,
-            "draws": draws,
-            "black": black,
-            "total": total,
-            "white_win_rate": white / total,
-            "low_confidence": total < LOW_CONFIDENCE_THRESHOLD,
-        })
+        if "months" not in file_data:
+            continue
+
+        eco = file_data.get("eco", fpath.stem)
+
+        for month, data in sorted(file_data["months"].items()):
+            white = data.get("white", 0)
+            draws = data.get("draws", 0)
+            black = data.get("black", 0)
+            total = white + draws + black
+
+            if total < min_games:
+                continue
+
+            rows.append({
+                "month": month,
+                "eco": eco,
+                "opening_name": name_map.get(eco, eco),
+                "rating_bracket": RATING_BRACKET,
+                "white": white,
+                "draws": draws,
+                "black": black,
+                "total": total,
+                "white_win_rate": white / total,
+                "low_confidence": total < LOW_CONFIDENCE_THRESHOLD,
+            })
 
     df = pd.DataFrame(rows)
     df.to_csv(OUTPUT_CSV, index=False)

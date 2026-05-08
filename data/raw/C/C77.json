@@ -1,0 +1,5845 @@
+{
+  "_meta": {
+    "skipped_months": {}
+  },
+  "eco": "C77",
+  "months": {
+    "2023-01": {
+      "black": 2469,
+      "draws": 288,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 1571,
+          "draws": 189,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1744
+        },
+        {
+          "averageRating": 2087,
+          "black": 340,
+          "draws": 33,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 387
+        },
+        {
+          "averageRating": 2102,
+          "black": 330,
+          "draws": 42,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 379
+        },
+        {
+          "averageRating": 2081,
+          "black": 182,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 241
+        },
+        {
+          "averageRating": 2062,
+          "black": 24,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 41
+        },
+        {
+          "averageRating": 2055,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 3
+        },
+        {
+          "averageRating": 2060,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 3
+        },
+        {
+          "averageRating": 2053,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 5
+        },
+        {
+          "averageRating": 2061,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 6
+        },
+        {
+          "averageRating": 2084,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 4
+        },
+        {
+          "averageRating": 2122,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 2
+        },
+        {
+          "averageRating": 2000,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "pe002a6452",
+              "rating": 2000
+            },
+            "id": "1YnKZzZS",
+            "mode": "rated",
+            "month": "2023-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Andrej55",
+              "rating": 2001
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2817
+    },
+    "2023-02": {
+      "black": 2207,
+      "draws": 257,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 1431,
+          "draws": 181,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1665
+        },
+        {
+          "averageRating": 2101,
+          "black": 295,
+          "draws": 29,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 390
+        },
+        {
+          "averageRating": 2090,
+          "black": 292,
+          "draws": 32,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 371
+        },
+        {
+          "averageRating": 2081,
+          "black": 158,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 221
+        },
+        {
+          "averageRating": 2065,
+          "black": 21,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 34
+        },
+        {
+          "averageRating": 2101,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 2
+        },
+        {
+          "averageRating": 2095,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 3
+        },
+        {
+          "averageRating": 2060,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 3
+        },
+        {
+          "averageRating": 2030,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 2
+        },
+        {
+          "averageRating": 2101,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2070,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "abiel66",
+              "rating": 2070
+            },
+            "id": "OXFv2FIW",
+            "mode": "rated",
+            "month": "2023-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Undertony",
+              "rating": 2098
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2692
+    },
+    "2023-03": {
+      "black": 2333,
+      "draws": 278,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 1484,
+          "draws": 176,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1705
+        },
+        {
+          "averageRating": 2084,
+          "black": 309,
+          "draws": 39,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 401
+        },
+        {
+          "averageRating": 2101,
+          "black": 330,
+          "draws": 39,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 348
+        },
+        {
+          "averageRating": 2084,
+          "black": 174,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 272
+        },
+        {
+          "averageRating": 2059,
+          "black": 17,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 32
+        },
+        {
+          "averageRating": 2031,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 11
+        },
+        {
+          "averageRating": 2101,
+          "black": 2,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 4
+        },
+        {
+          "averageRating": 2107,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 4
+        },
+        {
+          "averageRating": 2057,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 3
+        },
+        {
+          "averageRating": 2098,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 1
+        },
+        {
+          "averageRating": 2108,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 2
+        },
+        {
+          "averageRating": 2027,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "MrMontyBurns",
+              "rating": 2027
+            },
+            "id": "R7g9ieJI",
+            "mode": "rated",
+            "month": "2023-03",
+            "speed": "blitz",
+            "white": {
+              "name": "uiz11336",
+              "rating": 2030
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2784
+    },
+    "2023-04": {
+      "black": 2554,
+      "draws": 297,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 1609,
+          "draws": 192,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1779
+        },
+        {
+          "averageRating": 2099,
+          "black": 385,
+          "draws": 44,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 377
+        },
+        {
+          "averageRating": 2095,
+          "black": 305,
+          "draws": 40,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 366
+        },
+        {
+          "averageRating": 2080,
+          "black": 218,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 271
+        },
+        {
+          "averageRating": 2055,
+          "black": 20,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 23
+        },
+        {
+          "averageRating": 2063,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 7
+        },
+        {
+          "averageRating": 2006,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 4
+        },
+        {
+          "averageRating": 2062,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 5
+        },
+        {
+          "averageRating": 2154,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 1926,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 1
+        },
+        {
+          "averageRating": 2158,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "membadut",
+              "rating": 2158
+            },
+            "id": "sebiqPkt",
+            "mode": "rated",
+            "month": "2023-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Don_007",
+              "rating": 2099
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 0
+        },
+        {
+          "averageRating": 2259,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Xeibi",
+              "rating": 2259
+            },
+            "id": "aGU7x9pJ",
+            "mode": "rated",
+            "month": "2023-04",
+            "speed": "blitz",
+            "white": {
+              "name": "EuskalHerria85",
+              "rating": 1976
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Rg8",
+          "uci": "h8g8",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2837
+    },
+    "2023-05": {
+      "black": 2808,
+      "draws": 317,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 1812,
+          "draws": 202,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 2045
+        },
+        {
+          "averageRating": 2094,
+          "black": 363,
+          "draws": 47,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 418
+        },
+        {
+          "averageRating": 2089,
+          "black": 357,
+          "draws": 38,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 405
+        },
+        {
+          "averageRating": 2080,
+          "black": 233,
+          "draws": 23,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 293
+        },
+        {
+          "averageRating": 2060,
+          "black": 30,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 41
+        },
+        {
+          "averageRating": 2074,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 6
+        },
+        {
+          "averageRating": 2062,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 5
+        },
+        {
+          "averageRating": 2059,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 3
+        },
+        {
+          "averageRating": 2094,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 2
+        },
+        {
+          "averageRating": 2156,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 4
+        },
+        {
+          "averageRating": 2151,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "saarpsemiz",
+              "rating": 2151
+            },
+            "id": "8xuQfSBx",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "SVN64",
+              "rating": 2096
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 1
+        },
+        {
+          "averageRating": 2032,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "juliana2222",
+              "rating": 2032
+            },
+            "id": "VBcFLoPw",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "elfischerdevillazul",
+              "rating": 2023
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 3224
+    },
+    "2023-06": {
+      "black": 2427,
+      "draws": 286,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 1549,
+          "draws": 188,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1871
+        },
+        {
+          "averageRating": 2093,
+          "black": 335,
+          "draws": 38,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 391
+        },
+        {
+          "averageRating": 2095,
+          "black": 305,
+          "draws": 28,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 392
+        },
+        {
+          "averageRating": 2086,
+          "black": 205,
+          "draws": 27,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 252
+        },
+        {
+          "averageRating": 2063,
+          "black": 19,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 31
+        },
+        {
+          "averageRating": 2096,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 7
+        },
+        {
+          "averageRating": 2079,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 4
+        },
+        {
+          "averageRating": 2132,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 1
+        },
+        {
+          "averageRating": 2115,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 0
+        },
+        {
+          "averageRating": 2131,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 2
+        },
+        {
+          "averageRating": 2030,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ke7",
+          "uci": "e8e7",
+          "white": 2
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2953
+    },
+    "2023-07": {
+      "black": 2470,
+      "draws": 292,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 1571,
+          "draws": 199,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1784
+        },
+        {
+          "averageRating": 2095,
+          "black": 345,
+          "draws": 38,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 418
+        },
+        {
+          "averageRating": 2100,
+          "black": 347,
+          "draws": 32,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 326
+        },
+        {
+          "averageRating": 2090,
+          "black": 163,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 246
+        },
+        {
+          "averageRating": 2066,
+          "black": 24,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 30
+        },
+        {
+          "averageRating": 2085,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 3
+        },
+        {
+          "averageRating": 2012,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 7
+        },
+        {
+          "averageRating": 2126,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 3
+        },
+        {
+          "averageRating": 2123,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 4
+        },
+        {
+          "averageRating": 2105,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 2
+        },
+        {
+          "averageRating": 2063,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 3
+        },
+        {
+          "averageRating": 2027,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ke7",
+          "uci": "e8e7",
+          "white": 2
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2830
+    },
+    "2023-08": {
+      "black": 2472,
+      "draws": 292,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 1565,
+          "draws": 191,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1864
+        },
+        {
+          "averageRating": 2098,
+          "black": 355,
+          "draws": 38,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 456
+        },
+        {
+          "averageRating": 2106,
+          "black": 342,
+          "draws": 41,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 405
+        },
+        {
+          "averageRating": 2080,
+          "black": 180,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 249
+        },
+        {
+          "averageRating": 2069,
+          "black": 22,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 35
+        },
+        {
+          "averageRating": 2105,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 7
+        },
+        {
+          "averageRating": 2042,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 6
+        },
+        {
+          "averageRating": 2062,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 5
+        },
+        {
+          "averageRating": 2116,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 3
+        },
+        {
+          "averageRating": 2155,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 1
+        },
+        {
+          "averageRating": 2031,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "sonodar",
+              "rating": 2031
+            },
+            "id": "472ihJS1",
+            "mode": "rated",
+            "month": "2023-08",
+            "speed": "blitz",
+            "white": {
+              "name": "dainis_mikelsons",
+              "rating": 2044
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 0
+        },
+        {
+          "averageRating": 1984,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Quilterllan",
+              "rating": 1984
+            },
+            "id": "V97hVxJo",
+            "mode": "rated",
+            "month": "2023-08",
+            "speed": "blitz",
+            "white": {
+              "name": "MaRvain",
+              "rating": 2044
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 3032
+    },
+    "2023-09": {
+      "black": 2320,
+      "draws": 273,
+      "moves": [
+        {
+          "averageRating": 2096,
+          "black": 1478,
+          "draws": 175,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1712
+        },
+        {
+          "averageRating": 2091,
+          "black": 342,
+          "draws": 34,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 359
+        },
+        {
+          "averageRating": 2094,
+          "black": 302,
+          "draws": 42,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 381
+        },
+        {
+          "averageRating": 2082,
+          "black": 153,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 201
+        },
+        {
+          "averageRating": 2066,
+          "black": 32,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 24
+        },
+        {
+          "averageRating": 2063,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 4
+        },
+        {
+          "averageRating": 2022,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 2
+        },
+        {
+          "averageRating": 2100,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 3
+        },
+        {
+          "averageRating": 2102,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 2
+        },
+        {
+          "averageRating": 2053,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 3
+        },
+        {
+          "averageRating": 2060,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2130,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ng4",
+          "uci": "f6g4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2692
+    },
+    "2023-10": {
+      "black": 2362,
+      "draws": 284,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 1468,
+          "draws": 177,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1753
+        },
+        {
+          "averageRating": 2093,
+          "black": 351,
+          "draws": 39,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 383
+        },
+        {
+          "averageRating": 2101,
+          "black": 341,
+          "draws": 37,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 379
+        },
+        {
+          "averageRating": 2085,
+          "black": 163,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 208
+        },
+        {
+          "averageRating": 2060,
+          "black": 23,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 31
+        },
+        {
+          "averageRating": 2059,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 8
+        },
+        {
+          "averageRating": 2138,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 6
+        },
+        {
+          "averageRating": 2095,
+          "black": 2,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 3
+        },
+        {
+          "averageRating": 2040,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 2
+        },
+        {
+          "averageRating": 2029,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 1
+        },
+        {
+          "averageRating": 2108,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "TaroJMM",
+              "rating": 2108
+            },
+            "id": "LQnYPvRy",
+            "mode": "rated",
+            "month": "2023-10",
+            "speed": "blitz",
+            "white": {
+              "name": "gorditoperro",
+              "rating": 2059
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 0
+        },
+        {
+          "averageRating": 2213,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Papachki",
+              "rating": 2213
+            },
+            "id": "Y7My4Mh5",
+            "mode": "rated",
+            "month": "2023-10",
+            "speed": "blitz",
+            "white": {
+              "name": "dmesko",
+              "rating": 2113
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nxe4",
+          "uci": "f6e4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2775
+    },
+    "2023-11": {
+      "black": 2323,
+      "draws": 264,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 1468,
+          "draws": 163,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1625
+        },
+        {
+          "averageRating": 2091,
+          "black": 370,
+          "draws": 28,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 372
+        },
+        {
+          "averageRating": 2099,
+          "black": 291,
+          "draws": 46,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 381
+        },
+        {
+          "averageRating": 2078,
+          "black": 153,
+          "draws": 21,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 216
+        },
+        {
+          "averageRating": 2068,
+          "black": 23,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 26
+        },
+        {
+          "averageRating": 2051,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 4
+        },
+        {
+          "averageRating": 2089,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 4
+        },
+        {
+          "averageRating": 2008,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 3
+        },
+        {
+          "averageRating": 2128,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 2
+        },
+        {
+          "averageRating": 2075,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 2
+        },
+        {
+          "averageRating": 2119,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2636
+    },
+    "2023-12": {
+      "black": 2461,
+      "draws": 293,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 1574,
+          "draws": 200,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1719
+        },
+        {
+          "averageRating": 2100,
+          "black": 325,
+          "draws": 47,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 414
+        },
+        {
+          "averageRating": 2094,
+          "black": 340,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 384
+        },
+        {
+          "averageRating": 2083,
+          "black": 189,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 280
+        },
+        {
+          "averageRating": 2069,
+          "black": 18,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 29
+        },
+        {
+          "averageRating": 2043,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 9
+        },
+        {
+          "averageRating": 2126,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 5
+        },
+        {
+          "averageRating": 2029,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 1
+        },
+        {
+          "averageRating": 2144,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 3
+        },
+        {
+          "averageRating": 2133,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 2
+        },
+        {
+          "averageRating": 2097,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ke7",
+          "uci": "e8e7",
+          "white": 1
+        },
+        {
+          "averageRating": 2087,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ilusionest",
+              "rating": 2087
+            },
+            "id": "sfoDHh3t",
+            "mode": "rated",
+            "month": "2023-12",
+            "speed": "blitz",
+            "white": {
+              "name": "Haegar1",
+              "rating": 2054
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2849
+    },
+    "2024-01": {
+      "black": 2597,
+      "draws": 320,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 1631,
+          "draws": 207,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1856
+        },
+        {
+          "averageRating": 2100,
+          "black": 391,
+          "draws": 55,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 407
+        },
+        {
+          "averageRating": 2095,
+          "black": 358,
+          "draws": 32,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 371
+        },
+        {
+          "averageRating": 2081,
+          "black": 178,
+          "draws": 21,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 251
+        },
+        {
+          "averageRating": 2053,
+          "black": 22,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 30
+        },
+        {
+          "averageRating": 2014,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 5
+        },
+        {
+          "averageRating": 2087,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 4
+        },
+        {
+          "averageRating": 2079,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 3
+        },
+        {
+          "averageRating": 2033,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 4
+        },
+        {
+          "averageRating": 2079,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 2
+        },
+        {
+          "averageRating": 2120,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 0
+        },
+        {
+          "averageRating": 2158,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Papachki",
+              "rating": 2158
+            },
+            "id": "80hZABFE",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Lakinskvn",
+              "rating": 2118
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Nxe4",
+          "uci": "f6e4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2935
+    },
+    "2024-02": {
+      "black": 2296,
+      "draws": 298,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 1440,
+          "draws": 189,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1616
+        },
+        {
+          "averageRating": 2100,
+          "black": 343,
+          "draws": 43,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 347
+        },
+        {
+          "averageRating": 2086,
+          "black": 325,
+          "draws": 39,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 351
+        },
+        {
+          "averageRating": 2082,
+          "black": 155,
+          "draws": 23,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 187
+        },
+        {
+          "averageRating": 2059,
+          "black": 24,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 27
+        },
+        {
+          "averageRating": 2103,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 3
+        },
+        {
+          "averageRating": 2053,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 2
+        },
+        {
+          "averageRating": 2104,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 2
+        },
+        {
+          "averageRating": 2159,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 4
+        },
+        {
+          "averageRating": 2081,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 1
+        },
+        {
+          "averageRating": 1943,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "toowoomba",
+              "rating": 1943
+            },
+            "id": "tVeFDLdr",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "zeitnotakrobat",
+              "rating": 2360
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2541
+    },
+    "2024-03": {
+      "black": 2281,
+      "draws": 294,
+      "moves": [
+        {
+          "averageRating": 2096,
+          "black": 1410,
+          "draws": 192,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1713
+        },
+        {
+          "averageRating": 2096,
+          "black": 338,
+          "draws": 33,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 382
+        },
+        {
+          "averageRating": 2103,
+          "black": 315,
+          "draws": 40,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 392
+        },
+        {
+          "averageRating": 2080,
+          "black": 171,
+          "draws": 27,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 210
+        },
+        {
+          "averageRating": 2051,
+          "black": 30,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 17
+        },
+        {
+          "averageRating": 2026,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 7
+        },
+        {
+          "averageRating": 2080,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 4
+        },
+        {
+          "averageRating": 2062,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 2
+        },
+        {
+          "averageRating": 1992,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 1
+        },
+        {
+          "averageRating": 2104,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "REDZICDZEMAL",
+              "rating": 2104
+            },
+            "id": "tON1Va72",
+            "mode": "rated",
+            "month": "2024-03",
+            "speed": "blitz",
+            "white": {
+              "name": "philbasaur",
+              "rating": 2023
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Ke7",
+          "uci": "e8e7",
+          "white": 0
+        },
+        {
+          "averageRating": 2185,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "noelo74",
+              "rating": 2185
+            },
+            "id": "IwU4AZO5",
+            "mode": "rated",
+            "month": "2024-03",
+            "speed": "blitz",
+            "white": {
+              "name": "subir1058",
+              "rating": 2065
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 0
+        },
+        {
+          "averageRating": 2141,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "samushonga",
+              "rating": 2141
+            },
+            "id": "BjQiBRUf",
+            "mode": "rated",
+            "month": "2024-03",
+            "speed": "blitz",
+            "white": {
+              "name": "strapaul",
+              "rating": 2101
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2728
+    },
+    "2024-04": {
+      "black": 2342,
+      "draws": 270,
+      "moves": [
+        {
+          "averageRating": 2095,
+          "black": 1429,
+          "draws": 163,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1782
+        },
+        {
+          "averageRating": 2102,
+          "black": 361,
+          "draws": 52,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 425
+        },
+        {
+          "averageRating": 2089,
+          "black": 345,
+          "draws": 38,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 401
+        },
+        {
+          "averageRating": 2085,
+          "black": 170,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 238
+        },
+        {
+          "averageRating": 2065,
+          "black": 25,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 33
+        },
+        {
+          "averageRating": 2066,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 6
+        },
+        {
+          "averageRating": 2096,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 6
+        },
+        {
+          "averageRating": 2089,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 4
+        },
+        {
+          "averageRating": 2087,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 5
+        },
+        {
+          "averageRating": 2054,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2901
+    },
+    "2024-05": {
+      "black": 2442,
+      "draws": 283,
+      "moves": [
+        {
+          "averageRating": 2096,
+          "black": 1530,
+          "draws": 181,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1763
+        },
+        {
+          "averageRating": 2095,
+          "black": 339,
+          "draws": 38,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 424
+        },
+        {
+          "averageRating": 2102,
+          "black": 348,
+          "draws": 38,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 403
+        },
+        {
+          "averageRating": 2084,
+          "black": 195,
+          "draws": 24,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 207
+        },
+        {
+          "averageRating": 2038,
+          "black": 20,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 26
+        },
+        {
+          "averageRating": 2055,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 3
+        },
+        {
+          "averageRating": 2077,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 6
+        },
+        {
+          "averageRating": 2077,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 3
+        },
+        {
+          "averageRating": 2064,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 2
+        },
+        {
+          "averageRating": 2027,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 1
+        },
+        {
+          "averageRating": 2047,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "A57_Knight",
+              "rating": 2047
+            },
+            "id": "A4KPLc3j",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "Chiesa_21",
+              "rating": 2059
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 1
+        },
+        {
+          "averageRating": 2146,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "TealLion",
+              "rating": 2146
+            },
+            "id": "h3Z3uTV8",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "sb_362",
+              "rating": 2102
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Ke7",
+          "uci": "e8e7",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2841
+    },
+    "2024-06": {
+      "black": 2141,
+      "draws": 284,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 1325,
+          "draws": 176,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1536
+        },
+        {
+          "averageRating": 2099,
+          "black": 326,
+          "draws": 49,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 357
+        },
+        {
+          "averageRating": 2096,
+          "black": 314,
+          "draws": 38,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 351
+        },
+        {
+          "averageRating": 2088,
+          "black": 151,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 205
+        },
+        {
+          "averageRating": 2063,
+          "black": 13,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 23
+        },
+        {
+          "averageRating": 2010,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 6
+        },
+        {
+          "averageRating": 2123,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 3
+        },
+        {
+          "averageRating": 2098,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 3
+        },
+        {
+          "averageRating": 2100,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2058,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 1
+        },
+        {
+          "averageRating": 2028,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "AndiSaring",
+              "rating": 2028
+            },
+            "id": "1uyOgXA5",
+            "mode": "rated",
+            "month": "2024-06",
+            "speed": "blitz",
+            "white": {
+              "name": "NoSoyBethHarmon",
+              "rating": 2039
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 1
+        },
+        {
+          "averageRating": 1998,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "tudor-01",
+              "rating": 1998
+            },
+            "id": "8vNG8DkT",
+            "mode": "rated",
+            "month": "2024-06",
+            "speed": "blitz",
+            "white": {
+              "name": "felini2015",
+              "rating": 2003
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Nxe4",
+          "uci": "f6e4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2488
+    },
+    "2024-07": {
+      "black": 2204,
+      "draws": 258,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 1410,
+          "draws": 162,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1546
+        },
+        {
+          "averageRating": 2100,
+          "black": 297,
+          "draws": 40,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 378
+        },
+        {
+          "averageRating": 2085,
+          "black": 301,
+          "draws": 36,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 324
+        },
+        {
+          "averageRating": 2084,
+          "black": 162,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 212
+        },
+        {
+          "averageRating": 2054,
+          "black": 23,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 21
+        },
+        {
+          "averageRating": 2101,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 4
+        },
+        {
+          "averageRating": 2162,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2097,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 2
+        },
+        {
+          "averageRating": 2009,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 2
+        },
+        {
+          "averageRating": 2128,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 3
+        },
+        {
+          "averageRating": 2002,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "PeterStephen567",
+              "rating": 2002
+            },
+            "id": "bnxMKXqc",
+            "mode": "rated",
+            "month": "2024-07",
+            "speed": "blitz",
+            "white": {
+              "name": "exgambit",
+              "rating": 2013
+            },
+            "winner": null,
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 0
+        },
+        {
+          "averageRating": 2151,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "nuffhk",
+              "rating": 2151
+            },
+            "id": "z0poeicX",
+            "mode": "rated",
+            "month": "2024-07",
+            "speed": "blitz",
+            "white": {
+              "name": "Chess_Radio",
+              "rating": 2134
+            },
+            "winner": null,
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Ng8",
+          "uci": "f6g8",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2493
+    },
+    "2024-08": {
+      "black": 2304,
+      "draws": 284,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 1470,
+          "draws": 185,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1687
+        },
+        {
+          "averageRating": 2096,
+          "black": 317,
+          "draws": 50,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 379
+        },
+        {
+          "averageRating": 2091,
+          "black": 318,
+          "draws": 34,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 368
+        },
+        {
+          "averageRating": 2092,
+          "black": 164,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 204
+        },
+        {
+          "averageRating": 2044,
+          "black": 23,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 32
+        },
+        {
+          "averageRating": 2038,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 6
+        },
+        {
+          "averageRating": 2116,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 5
+        },
+        {
+          "averageRating": 2091,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 4
+        },
+        {
+          "averageRating": 2144,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 2
+        },
+        {
+          "averageRating": 2066,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2688
+    },
+    "2024-09": {
+      "black": 2233,
+      "draws": 255,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 1445,
+          "draws": 159,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1665
+        },
+        {
+          "averageRating": 2100,
+          "black": 307,
+          "draws": 44,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 377
+        },
+        {
+          "averageRating": 2099,
+          "black": 305,
+          "draws": 26,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 359
+        },
+        {
+          "averageRating": 2087,
+          "black": 147,
+          "draws": 22,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 188
+        },
+        {
+          "averageRating": 2066,
+          "black": 13,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 25
+        },
+        {
+          "averageRating": 2115,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 2
+        },
+        {
+          "averageRating": 2022,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 5
+        },
+        {
+          "averageRating": 2129,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 1
+        },
+        {
+          "averageRating": 2111,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 3
+        },
+        {
+          "averageRating": 2100,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 1
+        },
+        {
+          "averageRating": 2009,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Ng8",
+          "uci": "f6g8",
+          "white": 0
+        },
+        {
+          "averageRating": 2147,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "SergeyNok",
+              "rating": 2147
+            },
+            "id": "3V0R8nIb",
+            "mode": "rated",
+            "month": "2024-09",
+            "speed": "blitz",
+            "white": {
+              "name": "Fariborz1335",
+              "rating": 2138
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2628
+    },
+    "2024-10": {
+      "black": 2288,
+      "draws": 258,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 1446,
+          "draws": 169,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1659
+        },
+        {
+          "averageRating": 2094,
+          "black": 327,
+          "draws": 33,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 435
+        },
+        {
+          "averageRating": 2093,
+          "black": 340,
+          "draws": 27,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 354
+        },
+        {
+          "averageRating": 2089,
+          "black": 152,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 217
+        },
+        {
+          "averageRating": 2067,
+          "black": 18,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 37
+        },
+        {
+          "averageRating": 1976,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 1
+        },
+        {
+          "averageRating": 1961,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 3
+        },
+        {
+          "averageRating": 2183,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 2
+        },
+        {
+          "averageRating": 2069,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 3
+        },
+        {
+          "averageRating": 2111,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 1
+        },
+        {
+          "averageRating": 1936,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 1
+        },
+        {
+          "averageRating": 2101,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "tanggol0914",
+              "rating": 2101
+            },
+            "id": "65RdhAEx",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "iliapetr",
+              "rating": 2142
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Rb8",
+          "uci": "a8b8",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2714
+    },
+    "2024-11": {
+      "black": 2246,
+      "draws": 250,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 1415,
+          "draws": 148,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1578
+        },
+        {
+          "averageRating": 2102,
+          "black": 366,
+          "draws": 42,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 356
+        },
+        {
+          "averageRating": 2091,
+          "black": 300,
+          "draws": 30,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 328
+        },
+        {
+          "averageRating": 2075,
+          "black": 139,
+          "draws": 24,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 186
+        },
+        {
+          "averageRating": 2031,
+          "black": 13,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 21
+        },
+        {
+          "averageRating": 2059,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 6
+        },
+        {
+          "averageRating": 2037,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 6
+        },
+        {
+          "averageRating": 2100,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 3
+        },
+        {
+          "averageRating": 2084,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 3
+        },
+        {
+          "averageRating": 2016,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 3
+        },
+        {
+          "averageRating": 2047,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Fpier21",
+              "rating": 2047
+            },
+            "id": "Yr3GyFVr",
+            "mode": "rated",
+            "month": "2024-11",
+            "speed": "blitz",
+            "white": {
+              "name": "DMVP1963",
+              "rating": 2039
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 0
+        },
+        {
+          "averageRating": 2103,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Zottin",
+              "rating": 2103
+            },
+            "id": "PYZQSaHZ",
+            "mode": "rated",
+            "month": "2024-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Data860",
+              "rating": 2092
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Nxe4",
+          "uci": "f6e4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2492
+    },
+    "2024-12": {
+      "black": 2395,
+      "draws": 276,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 1538,
+          "draws": 185,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1710
+        },
+        {
+          "averageRating": 2100,
+          "black": 367,
+          "draws": 42,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 371
+        },
+        {
+          "averageRating": 2096,
+          "black": 324,
+          "draws": 32,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 351
+        },
+        {
+          "averageRating": 2085,
+          "black": 133,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 204
+        },
+        {
+          "averageRating": 2049,
+          "black": 20,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 26
+        },
+        {
+          "averageRating": 2054,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 4
+        },
+        {
+          "averageRating": 2116,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 6
+        },
+        {
+          "averageRating": 2099,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 6
+        },
+        {
+          "averageRating": 2113,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 3
+        },
+        {
+          "averageRating": 2007,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 2
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2683
+    },
+    "2025-01": {
+      "black": 2394,
+      "draws": 309,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 1509,
+          "draws": 182,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1747
+        },
+        {
+          "averageRating": 2104,
+          "black": 379,
+          "draws": 64,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 418
+        },
+        {
+          "averageRating": 2095,
+          "black": 326,
+          "draws": 41,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 403
+        },
+        {
+          "averageRating": 2087,
+          "black": 145,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 203
+        },
+        {
+          "averageRating": 2063,
+          "black": 23,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 28
+        },
+        {
+          "averageRating": 2088,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 6
+        },
+        {
+          "averageRating": 2152,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 3
+        },
+        {
+          "averageRating": 2077,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 1
+        },
+        {
+          "averageRating": 2019,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 2
+        },
+        {
+          "averageRating": 2089,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 2
+        },
+        {
+          "averageRating": 2068,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "svobodniy86",
+              "rating": 2068
+            },
+            "id": "heqBoftR",
+            "mode": "rated",
+            "month": "2025-01",
+            "speed": "blitz",
+            "white": {
+              "name": "kosovtenerife",
+              "rating": 2233
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2814
+    },
+    "2025-02": {
+      "black": 1931,
+      "draws": 245,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 1234,
+          "draws": 165,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1420
+        },
+        {
+          "averageRating": 2099,
+          "black": 276,
+          "draws": 35,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 341
+        },
+        {
+          "averageRating": 2089,
+          "black": 272,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 303
+        },
+        {
+          "averageRating": 2085,
+          "black": 125,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 161
+        },
+        {
+          "averageRating": 2059,
+          "black": 14,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 17
+        },
+        {
+          "averageRating": 2075,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 3
+        },
+        {
+          "averageRating": 2128,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 4
+        },
+        {
+          "averageRating": 2123,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 4
+        },
+        {
+          "averageRating": 2155,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 4
+        },
+        {
+          "averageRating": 2070,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 3
+        },
+        {
+          "averageRating": 2011,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "seif2222",
+              "rating": 2011
+            },
+            "id": "eHv48Ooj",
+            "mode": "rated",
+            "month": "2025-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Reginald",
+              "rating": 2022
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 0
+        },
+        {
+          "averageRating": 2042,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Bravepawny",
+              "rating": 2042
+            },
+            "id": "JcnjbGN9",
+            "mode": "rated",
+            "month": "2025-02",
+            "speed": "blitz",
+            "white": {
+              "name": "hemo41",
+              "rating": 1983
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ba3",
+          "uci": "f8a3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2261
+    },
+    "2025-03": {
+      "black": 2182,
+      "draws": 264,
+      "moves": [
+        {
+          "averageRating": 2094,
+          "black": 1328,
+          "draws": 167,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1560
+        },
+        {
+          "averageRating": 2100,
+          "black": 347,
+          "draws": 39,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 366
+        },
+        {
+          "averageRating": 2087,
+          "black": 342,
+          "draws": 35,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 360
+        },
+        {
+          "averageRating": 2091,
+          "black": 133,
+          "draws": 22,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 184
+        },
+        {
+          "averageRating": 2063,
+          "black": 19,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 15
+        },
+        {
+          "averageRating": 2049,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 6
+        },
+        {
+          "averageRating": 2057,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 7
+        },
+        {
+          "averageRating": 2129,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 2
+        },
+        {
+          "averageRating": 2066,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 3
+        },
+        {
+          "averageRating": 2157,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 2
+        },
+        {
+          "averageRating": 1897,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "guiarmar",
+              "rating": 1897
+            },
+            "id": "Pei2zGnh",
+            "mode": "rated",
+            "month": "2025-03",
+            "speed": "blitz",
+            "white": {
+              "name": "ArtSavatage",
+              "rating": 2103
+            },
+            "winner": null,
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2505
+    },
+    "2025-04": {
+      "black": 1996,
+      "draws": 250,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 1289,
+          "draws": 166,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1440
+        },
+        {
+          "averageRating": 2099,
+          "black": 306,
+          "draws": 43,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 345
+        },
+        {
+          "averageRating": 2090,
+          "black": 263,
+          "draws": 26,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 312
+        },
+        {
+          "averageRating": 2089,
+          "black": 118,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 162
+        },
+        {
+          "averageRating": 2079,
+          "black": 14,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 20
+        },
+        {
+          "averageRating": 2138,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 6
+        },
+        {
+          "averageRating": 2028,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 4
+        },
+        {
+          "averageRating": 2131,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 3
+        },
+        {
+          "averageRating": 2169,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2062,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 2
+        },
+        {
+          "averageRating": 2152,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "AleksBuk",
+              "rating": 2152
+            },
+            "id": "0hhjqAlr",
+            "mode": "rated",
+            "month": "2025-04",
+            "speed": "blitz",
+            "white": {
+              "name": "yasniy",
+              "rating": 2174
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Nxe4",
+          "uci": "f6e4",
+          "white": 0
+        },
+        {
+          "averageRating": 2165,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "bigolsky21",
+              "rating": 2165
+            },
+            "id": "T8B6T6Wy",
+            "mode": "rated",
+            "month": "2025-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Kakowkin",
+              "rating": 2192
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2296
+    },
+    "2025-05": {
+      "black": 2101,
+      "draws": 238,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 1326,
+          "draws": 137,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1503
+        },
+        {
+          "averageRating": 2093,
+          "black": 303,
+          "draws": 36,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 362
+        },
+        {
+          "averageRating": 2106,
+          "black": 292,
+          "draws": 41,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 335
+        },
+        {
+          "averageRating": 2084,
+          "black": 143,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 171
+        },
+        {
+          "averageRating": 2072,
+          "black": 20,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 21
+        },
+        {
+          "averageRating": 2129,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 2
+        },
+        {
+          "averageRating": 2105,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 3
+        },
+        {
+          "averageRating": 2125,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 0
+        },
+        {
+          "averageRating": 2123,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 4
+        },
+        {
+          "averageRating": 1928,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 3
+        },
+        {
+          "averageRating": 2174,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "yuramba",
+              "rating": 2174
+            },
+            "id": "0Wr8wDaZ",
+            "mode": "rated",
+            "month": "2025-05",
+            "speed": "blitz",
+            "white": {
+              "name": "gambit672",
+              "rating": 2194
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Rb8",
+          "uci": "a8b8",
+          "white": 0
+        },
+        {
+          "averageRating": 2207,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Ajack-David",
+              "rating": 2207
+            },
+            "id": "ImaBhhQM",
+            "mode": "rated",
+            "month": "2025-05",
+            "speed": "blitz",
+            "white": {
+              "name": "PiDO2007",
+              "rating": 2102
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2405
+    },
+    "2025-06": {
+      "black": 2157,
+      "draws": 229,
+      "moves": [
+        {
+          "averageRating": 2096,
+          "black": 1393,
+          "draws": 141,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1528
+        },
+        {
+          "averageRating": 2101,
+          "black": 297,
+          "draws": 32,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 383
+        },
+        {
+          "averageRating": 2094,
+          "black": 308,
+          "draws": 37,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 320
+        },
+        {
+          "averageRating": 2078,
+          "black": 127,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 166
+        },
+        {
+          "averageRating": 2070,
+          "black": 19,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 21
+        },
+        {
+          "averageRating": 2106,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 5
+        },
+        {
+          "averageRating": 2136,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 5
+        },
+        {
+          "averageRating": 2005,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 5
+        },
+        {
+          "averageRating": 2107,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 2
+        },
+        {
+          "averageRating": 2089,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 2
+        },
+        {
+          "averageRating": 2138,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 2
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2439
+    },
+    "2025-07": {
+      "black": 2460,
+      "draws": 258,
+      "moves": [
+        {
+          "averageRating": 2096,
+          "black": 1507,
+          "draws": 166,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1657
+        },
+        {
+          "averageRating": 2097,
+          "black": 407,
+          "draws": 29,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 382
+        },
+        {
+          "averageRating": 2098,
+          "black": 355,
+          "draws": 44,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 404
+        },
+        {
+          "averageRating": 2087,
+          "black": 162,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 169
+        },
+        {
+          "averageRating": 2071,
+          "black": 19,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 26
+        },
+        {
+          "averageRating": 2119,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 6
+        },
+        {
+          "averageRating": 2124,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 2
+        },
+        {
+          "averageRating": 2097,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 4
+        },
+        {
+          "averageRating": 2074,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 2
+        },
+        {
+          "averageRating": 1955,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 2
+        },
+        {
+          "averageRating": 2115,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 2
+        },
+        {
+          "averageRating": 2076,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Haywhy",
+              "rating": 2076
+            },
+            "id": "coOwuFsV",
+            "mode": "rated",
+            "month": "2025-07",
+            "speed": "blitz",
+            "white": {
+              "name": "Lionking21",
+              "rating": 2112
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2657
+    },
+    "2025-08": {
+      "black": 2147,
+      "draws": 273,
+      "moves": [
+        {
+          "averageRating": 2094,
+          "black": 1366,
+          "draws": 163,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1535
+        },
+        {
+          "averageRating": 2097,
+          "black": 331,
+          "draws": 47,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 430
+        },
+        {
+          "averageRating": 2089,
+          "black": 303,
+          "draws": 44,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 388
+        },
+        {
+          "averageRating": 2079,
+          "black": 117,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 182
+        },
+        {
+          "averageRating": 2090,
+          "black": 17,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 22
+        },
+        {
+          "averageRating": 2108,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 5
+        },
+        {
+          "averageRating": 2062,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 4
+        },
+        {
+          "averageRating": 2037,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 2
+        },
+        {
+          "averageRating": 2182,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 0
+        },
+        {
+          "averageRating": 2025,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Imans_kabtasikmalaya",
+              "rating": 2025
+            },
+            "id": "WEgVVzQY",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "Garmon",
+              "rating": 2132
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 1
+        },
+        {
+          "averageRating": 2067,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "HakanOzkan_Tofas",
+              "rating": 2067
+            },
+            "id": "SIAXNJuF",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "Gusman1959",
+              "rating": 2069
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 0
+        },
+        {
+          "averageRating": 2182,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "SergoZubr",
+              "rating": 2182
+            },
+            "id": "CQZj4QBy",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "vannyy12",
+              "rating": 2191
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2569
+    },
+    "2025-09": {
+      "black": 2030,
+      "draws": 243,
+      "moves": [
+        {
+          "averageRating": 2094,
+          "black": 1269,
+          "draws": 155,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1449
+        },
+        {
+          "averageRating": 2090,
+          "black": 311,
+          "draws": 41,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 345
+        },
+        {
+          "averageRating": 2093,
+          "black": 300,
+          "draws": 34,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 342
+        },
+        {
+          "averageRating": 2085,
+          "black": 125,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 157
+        },
+        {
+          "averageRating": 2070,
+          "black": 14,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 20
+        },
+        {
+          "averageRating": 2092,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 6
+        },
+        {
+          "averageRating": 2094,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 7
+        },
+        {
+          "averageRating": 2116,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 3
+        },
+        {
+          "averageRating": 2092,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 2
+        },
+        {
+          "averageRating": 2028,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 1
+        },
+        {
+          "averageRating": 2010,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "kozarusa",
+              "rating": 2010
+            },
+            "id": "RvYJrGGd",
+            "mode": "rated",
+            "month": "2025-09",
+            "speed": "blitz",
+            "white": {
+              "name": "KFSHRC880",
+              "rating": 1995
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 1
+        },
+        {
+          "averageRating": 2064,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Dragoncito_Rojo",
+              "rating": 2064
+            },
+            "id": "iNF7NFLX",
+            "mode": "rated",
+            "month": "2025-09",
+            "speed": "blitz",
+            "white": {
+              "name": "funtik21",
+              "rating": 1982
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2334
+    },
+    "2025-10": {
+      "black": 2237,
+      "draws": 272,
+      "moves": [
+        {
+          "averageRating": 2094,
+          "black": 1410,
+          "draws": 160,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1532
+        },
+        {
+          "averageRating": 2107,
+          "black": 359,
+          "draws": 59,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 358
+        },
+        {
+          "averageRating": 2091,
+          "black": 318,
+          "draws": 30,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 342
+        },
+        {
+          "averageRating": 2084,
+          "black": 123,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 174
+        },
+        {
+          "averageRating": 2046,
+          "black": 15,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 22
+        },
+        {
+          "averageRating": 2046,
+          "black": 5,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 3
+        },
+        {
+          "averageRating": 2060,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 4
+        },
+        {
+          "averageRating": 1975,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 3
+        },
+        {
+          "averageRating": 2128,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 3
+        },
+        {
+          "averageRating": 2066,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 2
+        },
+        {
+          "averageRating": 2136,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "CHoeg",
+              "rating": 2136
+            },
+            "id": "WmPup0Sm",
+            "mode": "rated",
+            "month": "2025-10",
+            "speed": "blitz",
+            "white": {
+              "name": "Kasparia",
+              "rating": 2246
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2444
+    },
+    "2025-11": {
+      "black": 2142,
+      "draws": 279,
+      "moves": [
+        {
+          "averageRating": 2096,
+          "black": 1379,
+          "draws": 185,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1591
+        },
+        {
+          "averageRating": 2104,
+          "black": 299,
+          "draws": 43,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 366
+        },
+        {
+          "averageRating": 2095,
+          "black": 289,
+          "draws": 35,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 349
+        },
+        {
+          "averageRating": 2085,
+          "black": 148,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 186
+        },
+        {
+          "averageRating": 2056,
+          "black": 15,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 22
+        },
+        {
+          "averageRating": 2079,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 4
+        },
+        {
+          "averageRating": 2064,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 4
+        },
+        {
+          "averageRating": 2134,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 3
+        },
+        {
+          "averageRating": 2077,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 1
+        },
+        {
+          "averageRating": 2061,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 1836,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Queen-Of-Queens",
+              "rating": 1836
+            },
+            "id": "ogYs6xHa",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "magiker67",
+              "rating": 2190
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ng8",
+          "uci": "f6g8",
+          "white": 1
+        },
+        {
+          "averageRating": 2218,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "RUKchess",
+              "rating": 2218
+            },
+            "id": "DFEIzBfo",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "BG_krustev",
+              "rating": 2127
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Nxe4",
+          "uci": "f6e4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2528
+    },
+    "2025-12": {
+      "black": 2263,
+      "draws": 272,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 1369,
+          "draws": 173,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1673
+        },
+        {
+          "averageRating": 2106,
+          "black": 374,
+          "draws": 39,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 421
+        },
+        {
+          "averageRating": 2091,
+          "black": 354,
+          "draws": 39,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 386
+        },
+        {
+          "averageRating": 2092,
+          "black": 132,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 180
+        },
+        {
+          "averageRating": 2066,
+          "black": 17,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 27
+        },
+        {
+          "averageRating": 2103,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 4
+        },
+        {
+          "averageRating": 2124,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 3
+        },
+        {
+          "averageRating": 2098,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 3
+        },
+        {
+          "averageRating": 2100,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 3
+        },
+        {
+          "averageRating": 2075,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 1
+        },
+        {
+          "averageRating": 2147,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Rishi26",
+              "rating": 2147
+            },
+            "id": "5ulSrdKQ",
+            "mode": "rated",
+            "month": "2025-12",
+            "speed": "blitz",
+            "white": {
+              "name": "jarobyte91",
+              "rating": 2212
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 0
+        },
+        {
+          "averageRating": 2147,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "albania_number1",
+              "rating": 2147
+            },
+            "id": "GKeukUCa",
+            "mode": "rated",
+            "month": "2025-12",
+            "speed": "blitz",
+            "white": {
+              "name": "Retrogott",
+              "rating": 2134
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ng4",
+          "uci": "f6g4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2701
+    },
+    "2026-01": {
+      "black": 2269,
+      "draws": 277,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 1423,
+          "draws": 180,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1644
+        },
+        {
+          "averageRating": 2098,
+          "black": 360,
+          "draws": 39,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 408
+        },
+        {
+          "averageRating": 2083,
+          "black": 316,
+          "draws": 37,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 385
+        },
+        {
+          "averageRating": 2086,
+          "black": 145,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 175
+        },
+        {
+          "averageRating": 2052,
+          "black": 17,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 29
+        },
+        {
+          "averageRating": 2111,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 7
+        },
+        {
+          "averageRating": 2100,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 5
+        },
+        {
+          "averageRating": 2022,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 5
+        },
+        {
+          "averageRating": 2060,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 2
+        },
+        {
+          "averageRating": 2086,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "GenMV1",
+              "rating": 2086
+            },
+            "id": "ymvHUOxF",
+            "mode": "rated",
+            "month": "2026-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Canibula",
+              "rating": 2116
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Nxe4",
+          "uci": "f6e4",
+          "white": 1
+        },
+        {
+          "averageRating": 2063,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "McClaneMaxi",
+              "rating": 2063
+            },
+            "id": "pcMcVpmE",
+            "mode": "rated",
+            "month": "2026-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Dmitrenko_NI",
+              "rating": 2207
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Ba3",
+          "uci": "f8a3",
+          "white": 1
+        },
+        {
+          "averageRating": 1991,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Tetyana512",
+              "rating": 1991
+            },
+            "id": "EyF27pAW",
+            "mode": "rated",
+            "month": "2026-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Alan227",
+              "rating": 2029
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Ke7",
+          "uci": "e8e7",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2663
+    },
+    "2026-02": {
+      "black": 2040,
+      "draws": 264,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 1291,
+          "draws": 166,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1452
+        },
+        {
+          "averageRating": 2103,
+          "black": 273,
+          "draws": 35,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 359
+        },
+        {
+          "averageRating": 2090,
+          "black": 297,
+          "draws": 40,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 319
+        },
+        {
+          "averageRating": 2089,
+          "black": 148,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 180
+        },
+        {
+          "averageRating": 2074,
+          "black": 24,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 19
+        },
+        {
+          "averageRating": 2087,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 8
+        },
+        {
+          "averageRating": 2133,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 3
+        },
+        {
+          "averageRating": 2065,
+          "black": 3,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 2
+        },
+        {
+          "averageRating": 2073,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 3
+        },
+        {
+          "averageRating": 2049,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 2
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2347
+    },
+    "2026-03": {
+      "black": 2149,
+      "draws": 249,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 1362,
+          "draws": 163,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1555
+        },
+        {
+          "averageRating": 2109,
+          "black": 335,
+          "draws": 34,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 355
+        },
+        {
+          "averageRating": 2085,
+          "black": 289,
+          "draws": 34,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 324
+        },
+        {
+          "averageRating": 2089,
+          "black": 131,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 163
+        },
+        {
+          "averageRating": 2064,
+          "black": 14,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 19
+        },
+        {
+          "averageRating": 2097,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 7
+        },
+        {
+          "averageRating": 2118,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 9
+        },
+        {
+          "averageRating": 2080,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 3
+        },
+        {
+          "averageRating": 2137,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 2
+        },
+        {
+          "averageRating": 2039,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 0
+        },
+        {
+          "averageRating": 2116,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Dmitrij279",
+              "rating": 2116
+            },
+            "id": "UI7CiITd",
+            "mode": "rated",
+            "month": "2026-03",
+            "speed": "blitz",
+            "white": {
+              "name": "SHAlTAK19",
+              "rating": 2090
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 0
+        },
+        {
+          "averageRating": 1978,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "viktormate",
+              "rating": 1978
+            },
+            "id": "lgidVyVL",
+            "mode": "rated",
+            "month": "2026-03",
+            "speed": "blitz",
+            "white": {
+              "name": "ulviacuner",
+              "rating": 2035
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      },
+      "white": 2439
+    },
+    "2026-04": {
+      "white": 1197,
+      "draws": 135,
+      "black": 1039,
+      "moves": [
+        {
+          "uci": "b7b5",
+          "san": "b5",
+          "averageRating": 2101,
+          "white": 746,
+          "draws": 79,
+          "black": 646,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d7d6",
+          "san": "d6",
+          "averageRating": 2099,
+          "white": 192,
+          "draws": 26,
+          "black": 183,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f8c5",
+          "san": "Bc5",
+          "averageRating": 2082,
+          "white": 155,
+          "draws": 22,
+          "black": 141,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f8e7",
+          "san": "Be7",
+          "averageRating": 2091,
+          "white": 79,
+          "draws": 7,
+          "black": 57,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "h7h6",
+          "san": "h6",
+          "averageRating": 2049,
+          "white": 16,
+          "draws": 0,
+          "black": 8,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "g7g6",
+          "san": "g6",
+          "averageRating": 2058,
+          "white": 1,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f8d6",
+          "san": "Bd6",
+          "averageRating": 2158,
+          "white": 2,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d7d5",
+          "san": "d5",
+          "averageRating": 2119,
+          "white": 2,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "b7b6",
+          "san": "b6",
+          "averageRating": 2114,
+          "white": 2,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f8b4",
+          "san": "Bb4+",
+          "averageRating": 2080,
+          "white": 1,
+          "draws": 1,
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "e8e7",
+          "san": "Ke7",
+          "averageRating": 2167,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
+        }
+      ],
+      "recentGames": [],
+      "topGames": [],
+      "opening": {
+        "eco": "C77",
+        "name": "Ruy Lopez: Morphy Defense, Anderssen Variation"
+      }
+    }
+  }
+}

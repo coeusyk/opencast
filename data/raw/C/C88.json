@@ -1,0 +1,4895 @@
+{
+  "_meta": {
+    "skipped_months": {}
+  },
+  "eco": "C88",
+  "months": {
+    "2023-01": {
+      "black": 3618,
+      "draws": 448,
+      "moves": [
+        {
+          "averageRating": 2096,
+          "black": 2348,
+          "draws": 286,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 2419
+        },
+        {
+          "averageRating": 2105,
+          "black": 1233,
+          "draws": 161,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 1352
+        },
+        {
+          "averageRating": 2074,
+          "black": 24,
+          "draws": 0,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 17
+        },
+        {
+          "averageRating": 2071,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 11
+        },
+        {
+          "averageRating": 2108,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 5
+        },
+        {
+          "averageRating": 2080,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 7
+        },
+        {
+          "averageRating": 2025,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "e7c5",
+          "white": 0
+        },
+        {
+          "averageRating": 2091,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 3
+        },
+        {
+          "averageRating": 2048,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "doubleotto",
+              "rating": 2048
+            },
+            "id": "WMHfz2wy",
+            "mode": "rated",
+            "month": "2023-01",
+            "speed": "blitz",
+            "white": {
+              "name": "burny96",
+              "rating": 2014
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Rb8",
+          "uci": "a8b8",
+          "white": 0
+        },
+        {
+          "averageRating": 2131,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Qombedepoepsierin",
+              "rating": 2131
+            },
+            "id": "mCbfNBW9",
+            "mode": "rated",
+            "month": "2023-01",
+            "speed": "blitz",
+            "white": {
+              "name": "MiraventZen",
+              "rating": 2053
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bd6",
+          "uci": "e7d6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 3815
+    },
+    "2023-02": {
+      "black": 3465,
+      "draws": 401,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 2201,
+          "draws": 264,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 2135
+        },
+        {
+          "averageRating": 2103,
+          "black": 1209,
+          "draws": 135,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 1224
+        },
+        {
+          "averageRating": 2099,
+          "black": 44,
+          "draws": 2,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 33
+        },
+        {
+          "averageRating": 2049,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 7
+        },
+        {
+          "averageRating": 2069,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 4
+        },
+        {
+          "averageRating": 2034,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 4
+        },
+        {
+          "averageRating": 2162,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Rob1nHood",
+              "rating": 2162
+            },
+            "id": "8qksB7RN",
+            "mode": "rated",
+            "month": "2023-02",
+            "speed": "blitz",
+            "white": {
+              "name": "utopiachess1",
+              "rating": 2142
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bd6",
+          "uci": "e7d6",
+          "white": 0
+        },
+        {
+          "averageRating": 2070,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "tacotacotaco",
+              "rating": 2070
+            },
+            "id": "qfnG9fMO",
+            "mode": "rated",
+            "month": "2023-02",
+            "speed": "blitz",
+            "white": {
+              "name": "bentebente2",
+              "rating": 1982
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bc5",
+          "uci": "e7c5",
+          "white": 0
+        },
+        {
+          "averageRating": 2009,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Relusho",
+              "rating": 2009
+            },
+            "id": "vv8l48z9",
+            "mode": "rated",
+            "month": "2023-02",
+            "speed": "blitz",
+            "white": {
+              "name": "evan1031",
+              "rating": 2001
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 0
+        },
+        {
+          "averageRating": 2019,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ROM4IK_1",
+              "rating": 2019
+            },
+            "id": "bnkmgM8q",
+            "mode": "rated",
+            "month": "2023-02",
+            "speed": "blitz",
+            "white": {
+              "name": "komodin1985",
+              "rating": 2138
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "b4",
+          "uci": "b5b4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 3407
+    },
+    "2023-03": {
+      "black": 3663,
+      "draws": 450,
+      "moves": [
+        {
+          "averageRating": 2095,
+          "black": 2400,
+          "draws": 286,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 2523
+        },
+        {
+          "averageRating": 2107,
+          "black": 1213,
+          "draws": 161,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 1280
+        },
+        {
+          "averageRating": 2077,
+          "black": 26,
+          "draws": 2,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 23
+        },
+        {
+          "averageRating": 2040,
+          "black": 19,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 19
+        },
+        {
+          "averageRating": 2051,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 10
+        },
+        {
+          "averageRating": 2059,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 2
+        },
+        {
+          "averageRating": 2004,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 2
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 3859
+    },
+    "2023-04": {
+      "black": 3665,
+      "draws": 458,
+      "moves": [
+        {
+          "averageRating": 2096,
+          "black": 2381,
+          "draws": 285,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 2588
+        },
+        {
+          "averageRating": 2104,
+          "black": 1235,
+          "draws": 166,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 1323
+        },
+        {
+          "averageRating": 2089,
+          "black": 30,
+          "draws": 3,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 21
+        },
+        {
+          "averageRating": 2059,
+          "black": 10,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 27
+        },
+        {
+          "averageRating": 2080,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 9
+        },
+        {
+          "averageRating": 2062,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 4
+        },
+        {
+          "averageRating": 2097,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "e7c5",
+          "white": 2
+        },
+        {
+          "averageRating": 2092,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 1
+        },
+        {
+          "averageRating": 2015,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "turker_kinatas",
+              "rating": 2015
+            },
+            "id": "o7idVT3j",
+            "mode": "rated",
+            "month": "2023-04",
+            "speed": "blitz",
+            "white": {
+              "name": "ranmdoc",
+              "rating": 2034
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bd6",
+          "uci": "e7d6",
+          "white": 1
+        },
+        {
+          "averageRating": 2014,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "afterstep",
+              "rating": 2014
+            },
+            "id": "877kRSK6",
+            "mode": "rated",
+            "month": "2023-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Hueso0077",
+              "rating": 2020
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 3977
+    },
+    "2023-05": {
+      "black": 4125,
+      "draws": 491,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 2711,
+          "draws": 313,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 2709
+        },
+        {
+          "averageRating": 2104,
+          "black": 1356,
+          "draws": 170,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 1490
+        },
+        {
+          "averageRating": 2086,
+          "black": 45,
+          "draws": 5,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 45
+        },
+        {
+          "averageRating": 2119,
+          "black": 9,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 19
+        },
+        {
+          "averageRating": 2081,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 7
+        },
+        {
+          "averageRating": 2063,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 3
+        },
+        {
+          "averageRating": 2100,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 1
+        },
+        {
+          "averageRating": 2046,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "e7d6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 4274
+    },
+    "2023-06": {
+      "black": 3808,
+      "draws": 438,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 2494,
+          "draws": 282,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 2567
+        },
+        {
+          "averageRating": 2105,
+          "black": 1258,
+          "draws": 152,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 1315
+        },
+        {
+          "averageRating": 2096,
+          "black": 43,
+          "draws": 2,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 35
+        },
+        {
+          "averageRating": 2072,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 15
+        },
+        {
+          "averageRating": 2074,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 5
+        },
+        {
+          "averageRating": 2076,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 4
+        },
+        {
+          "averageRating": 2060,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 2
+        },
+        {
+          "averageRating": 2094,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ChristianSloper",
+              "rating": 2094
+            },
+            "id": "iBWO51mY",
+            "mode": "rated",
+            "month": "2023-06",
+            "speed": "blitz",
+            "white": {
+              "name": "asus111",
+              "rating": 1977
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bc5",
+          "uci": "e7c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2203,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "vkont",
+              "rating": 2203
+            },
+            "id": "sAVAZA1w",
+            "mode": "rated",
+            "month": "2023-06",
+            "speed": "blitz",
+            "white": {
+              "name": "chernetskyy1",
+              "rating": 2165
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nxe4",
+          "uci": "f6e4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 3945
+    },
+    "2023-07": {
+      "black": 3806,
+      "draws": 420,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 2483,
+          "draws": 257,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 2433
+        },
+        {
+          "averageRating": 2106,
+          "black": 1277,
+          "draws": 159,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 1361
+        },
+        {
+          "averageRating": 2103,
+          "black": 34,
+          "draws": 4,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 22
+        },
+        {
+          "averageRating": 2071,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 9
+        },
+        {
+          "averageRating": 2092,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 9
+        },
+        {
+          "averageRating": 2068,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 5
+        },
+        {
+          "averageRating": 2078,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 3840
+    },
+    "2023-08": {
+      "black": 3717,
+      "draws": 470,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 2393,
+          "draws": 306,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 2530
+        },
+        {
+          "averageRating": 2105,
+          "black": 1284,
+          "draws": 160,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 1354
+        },
+        {
+          "averageRating": 2083,
+          "black": 21,
+          "draws": 0,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 20
+        },
+        {
+          "averageRating": 2082,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 15
+        },
+        {
+          "averageRating": 2073,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 6
+        },
+        {
+          "averageRating": 2080,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 4
+        },
+        {
+          "averageRating": 2038,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a5",
+          "uci": "a6a5",
+          "white": 1
+        },
+        {
+          "averageRating": 2110,
+          "black": 0,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 0
+        },
+        {
+          "averageRating": 2016,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "kapilstund",
+              "rating": 2016
+            },
+            "id": "42R1FNmu",
+            "mode": "rated",
+            "month": "2023-08",
+            "speed": "blitz",
+            "white": {
+              "name": "alemio",
+              "rating": 2012
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "g5",
+          "uci": "g7g5",
+          "white": 1
+        },
+        {
+          "averageRating": 2136,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Obese_reece",
+              "rating": 2136
+            },
+            "id": "Kqsk7kex",
+            "mode": "rated",
+            "month": "2023-08",
+            "speed": "blitz",
+            "white": {
+              "name": "Elreyperron1",
+              "rating": 2084
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 3931
+    },
+    "2023-09": {
+      "black": 3532,
+      "draws": 415,
+      "moves": [
+        {
+          "averageRating": 2095,
+          "black": 2273,
+          "draws": 249,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 2321
+        },
+        {
+          "averageRating": 2104,
+          "black": 1210,
+          "draws": 165,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 1260
+        },
+        {
+          "averageRating": 2093,
+          "black": 28,
+          "draws": 1,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 14
+        },
+        {
+          "averageRating": 2120,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 5
+        },
+        {
+          "averageRating": 2052,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 4
+        },
+        {
+          "averageRating": 2031,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 2
+        },
+        {
+          "averageRating": 2086,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 0
+        },
+        {
+          "averageRating": 2108,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Dogan-Akdogan_21",
+              "rating": 2108
+            },
+            "id": "Pw2MGEgS",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "mr-robotk",
+              "rating": 1901
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bc5",
+          "uci": "e7c5",
+          "white": 0
+        },
+        {
+          "averageRating": 2206,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Rizi3ksyahrul",
+              "rating": 2206
+            },
+            "id": "IOWjCw6R",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "SEMEN227",
+              "rating": 2192
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Rb8",
+          "uci": "a8b8",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 3606
+    },
+    "2023-10": {
+      "black": 3412,
+      "draws": 404,
+      "moves": [
+        {
+          "averageRating": 2095,
+          "black": 2123,
+          "draws": 258,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 2122
+        },
+        {
+          "averageRating": 2103,
+          "black": 1249,
+          "draws": 144,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 1261
+        },
+        {
+          "averageRating": 2108,
+          "black": 29,
+          "draws": 1,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 18
+        },
+        {
+          "averageRating": 2073,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 4
+        },
+        {
+          "averageRating": 2084,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 5
+        },
+        {
+          "averageRating": 2011,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 2
+        },
+        {
+          "averageRating": 2030,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ibonuribeetxebarria",
+              "rating": 2030
+            },
+            "id": "SKizKFU1",
+            "mode": "rated",
+            "month": "2023-10",
+            "speed": "blitz",
+            "white": {
+              "name": "ur-ur5",
+              "rating": 2061
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bc5",
+          "uci": "e7c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2076,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "malikov-oleg",
+              "rating": 2076
+            },
+            "id": "9dF72muL",
+            "mode": "rated",
+            "month": "2023-10",
+            "speed": "blitz",
+            "white": {
+              "name": "mechchess",
+              "rating": 2006
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bd6",
+          "uci": "e7d6",
+          "white": 0
+        },
+        {
+          "averageRating": 1990,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "uthpalawe",
+              "rating": 1990
+            },
+            "id": "dh1VnuIr",
+            "mode": "rated",
+            "month": "2023-10",
+            "speed": "blitz",
+            "white": {
+              "name": "Unknown11111111",
+              "rating": 2045
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 3414
+    },
+    "2023-11": {
+      "black": 3341,
+      "draws": 390,
+      "moves": [
+        {
+          "averageRating": 2094,
+          "black": 2151,
+          "draws": 243,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 2119
+        },
+        {
+          "averageRating": 2104,
+          "black": 1150,
+          "draws": 146,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 1296
+        },
+        {
+          "averageRating": 2116,
+          "black": 30,
+          "draws": 1,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 22
+        },
+        {
+          "averageRating": 2100,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 6
+        },
+        {
+          "averageRating": 2107,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1
+        },
+        {
+          "averageRating": 2026,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 2
+        },
+        {
+          "averageRating": 2037,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "e7d6",
+          "white": 1
+        },
+        {
+          "averageRating": 2122,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 1
+        },
+        {
+          "averageRating": 2124,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "kostas_gaitanas",
+              "rating": 2124
+            },
+            "id": "KJ7RhdhP",
+            "mode": "rated",
+            "month": "2023-11",
+            "speed": "blitz",
+            "white": {
+              "name": "romabrik",
+              "rating": 2183
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nxe4",
+          "uci": "f6e4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 3449
+    },
+    "2023-12": {
+      "black": 3366,
+      "draws": 429,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 2133,
+          "draws": 280,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 2155
+        },
+        {
+          "averageRating": 2103,
+          "black": 1192,
+          "draws": 149,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 1226
+        },
+        {
+          "averageRating": 2084,
+          "black": 30,
+          "draws": 0,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 28
+        },
+        {
+          "averageRating": 2101,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 5
+        },
+        {
+          "averageRating": 2038,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 2
+        },
+        {
+          "averageRating": 2101,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 2
+        },
+        {
+          "averageRating": 2085,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 2
+        },
+        {
+          "averageRating": 2161,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "peligrudo",
+              "rating": 2161
+            },
+            "id": "4aELCncU",
+            "mode": "rated",
+            "month": "2023-12",
+            "speed": "blitz",
+            "white": {
+              "name": "dimarko",
+              "rating": 2176
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bd6",
+          "uci": "e7d6",
+          "white": 1
+        },
+        {
+          "averageRating": 2035,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Redrum187",
+              "rating": 2035
+            },
+            "id": "k12f2Ne0",
+            "mode": "rated",
+            "month": "2023-12",
+            "speed": "blitz",
+            "white": {
+              "name": "KenUrmeneta",
+              "rating": 2147
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bc5",
+          "uci": "e7c5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 3422
+    },
+    "2024-01": {
+      "black": 3285,
+      "draws": 387,
+      "moves": [
+        {
+          "averageRating": 2096,
+          "black": 2089,
+          "draws": 238,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 2148
+        },
+        {
+          "averageRating": 2105,
+          "black": 1157,
+          "draws": 145,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 1189
+        },
+        {
+          "averageRating": 2110,
+          "black": 30,
+          "draws": 2,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 29
+        },
+        {
+          "averageRating": 2054,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 11
+        },
+        {
+          "averageRating": 2067,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 7
+        },
+        {
+          "averageRating": 1948,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1
+        },
+        {
+          "averageRating": 2082,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "e7d6",
+          "white": 1
+        },
+        {
+          "averageRating": 2048,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 2
+        },
+        {
+          "averageRating": 2088,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ibonuribeetxebarria",
+              "rating": 2088
+            },
+            "id": "BaIevLAw",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "jurajzavarsky",
+              "rating": 2087
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bc5",
+          "uci": "e7c5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 3389
+    },
+    "2024-02": {
+      "black": 2993,
+      "draws": 383,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 1930,
+          "draws": 237,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 1886
+        },
+        {
+          "averageRating": 2099,
+          "black": 1026,
+          "draws": 142,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 1123
+        },
+        {
+          "averageRating": 2100,
+          "black": 26,
+          "draws": 2,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 18
+        },
+        {
+          "averageRating": 2019,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 8
+        },
+        {
+          "averageRating": 2044,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 2
+        },
+        {
+          "averageRating": 2011,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 0
+        },
+        {
+          "averageRating": 1992,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "e7d6",
+          "white": 1
+        },
+        {
+          "averageRating": 2072,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "NYV60",
+              "rating": 2072
+            },
+            "id": "we3DgWII",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "frentz",
+              "rating": 2117
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 3039
+    },
+    "2024-03": {
+      "black": 3231,
+      "draws": 376,
+      "moves": [
+        {
+          "averageRating": 2095,
+          "black": 2084,
+          "draws": 235,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 2074
+        },
+        {
+          "averageRating": 2103,
+          "black": 1112,
+          "draws": 140,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 1128
+        },
+        {
+          "averageRating": 2111,
+          "black": 25,
+          "draws": 1,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 24
+        },
+        {
+          "averageRating": 2118,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 8
+        },
+        {
+          "averageRating": 1973,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 4
+        },
+        {
+          "averageRating": 2124,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 2
+        },
+        {
+          "averageRating": 2051,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 2
+        },
+        {
+          "averageRating": 2135,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Bumble-B",
+              "rating": 2135
+            },
+            "id": "0CNRuaNX",
+            "mode": "rated",
+            "month": "2024-03",
+            "speed": "blitz",
+            "white": {
+              "name": "pion93",
+              "rating": 2148
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Nxe4",
+          "uci": "f6e4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 3243
+    },
+    "2024-04": {
+      "black": 2996,
+      "draws": 340,
+      "moves": [
+        {
+          "averageRating": 2094,
+          "black": 1975,
+          "draws": 228,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 1925
+        },
+        {
+          "averageRating": 2098,
+          "black": 985,
+          "draws": 109,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 1075
+        },
+        {
+          "averageRating": 2087,
+          "black": 26,
+          "draws": 2,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 20
+        },
+        {
+          "averageRating": 2115,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 5
+        },
+        {
+          "averageRating": 2055,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 3
+        },
+        {
+          "averageRating": 1941,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 1
+        },
+        {
+          "averageRating": 1966,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nxe4",
+          "uci": "f6e4",
+          "white": 1
+        },
+        {
+          "averageRating": 1913,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Cheshire12",
+              "rating": 1913
+            },
+            "id": "ue7F8PEz",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "dongakorlando",
+              "rating": 2130
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 1
+        },
+        {
+          "averageRating": 2111,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "MR-ElHakeem",
+              "rating": 2111
+            },
+            "id": "bLXyWAy2",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Drwanda",
+              "rating": 2094
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Rb8",
+          "uci": "a8b8",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 3031
+    },
+    "2024-05": {
+      "black": 3074,
+      "draws": 338,
+      "moves": [
+        {
+          "averageRating": 2093,
+          "black": 1943,
+          "draws": 225,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 1954
+        },
+        {
+          "averageRating": 2100,
+          "black": 1097,
+          "draws": 111,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 1126
+        },
+        {
+          "averageRating": 2109,
+          "black": 28,
+          "draws": 1,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 24
+        },
+        {
+          "averageRating": 2076,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 9
+        },
+        {
+          "averageRating": 2075,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 4
+        },
+        {
+          "averageRating": 2060,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 3
+        },
+        {
+          "averageRating": 2134,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 2
+        },
+        {
+          "averageRating": 2011,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Erlandy",
+              "rating": 2011
+            },
+            "id": "P4ZmOaBj",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "carlosvalencia854",
+              "rating": 2007
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bc5",
+          "uci": "e7c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2193,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Classemence",
+              "rating": 2193
+            },
+            "id": "vmTfqlFd",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "Chess3456228",
+              "rating": 2161
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a5",
+          "uci": "a6a5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 3123
+    },
+    "2024-06": {
+      "black": 2802,
+      "draws": 340,
+      "moves": [
+        {
+          "averageRating": 2094,
+          "black": 1790,
+          "draws": 214,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 1798
+        },
+        {
+          "averageRating": 2107,
+          "black": 978,
+          "draws": 121,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 1084
+        },
+        {
+          "averageRating": 2087,
+          "black": 23,
+          "draws": 3,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 19
+        },
+        {
+          "averageRating": 2085,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 8
+        },
+        {
+          "averageRating": 2049,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 1
+        },
+        {
+          "averageRating": 2109,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 0
+        },
+        {
+          "averageRating": 2198,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 1
+        },
+        {
+          "averageRating": 2028,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "kaifastus",
+              "rating": 2028
+            },
+            "id": "694hOCJ1",
+            "mode": "rated",
+            "month": "2024-06",
+            "speed": "blitz",
+            "white": {
+              "name": "Izztupido",
+              "rating": 2097
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bd6",
+          "uci": "e7d6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 2911
+    },
+    "2024-07": {
+      "black": 2884,
+      "draws": 353,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 1804,
+          "draws": 232,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 1886
+        },
+        {
+          "averageRating": 2105,
+          "black": 1047,
+          "draws": 116,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 1076
+        },
+        {
+          "averageRating": 2101,
+          "black": 22,
+          "draws": 5,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 22
+        },
+        {
+          "averageRating": 2098,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 5
+        },
+        {
+          "averageRating": 2042,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 5
+        },
+        {
+          "averageRating": 2096,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 3
+        },
+        {
+          "averageRating": 2037,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 2
+        },
+        {
+          "averageRating": 2042,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Pajdone",
+              "rating": 2042
+            },
+            "id": "FvOqIQoz",
+            "mode": "rated",
+            "month": "2024-07",
+            "speed": "blitz",
+            "white": {
+              "name": "MphoOupa",
+              "rating": 1998
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bd6",
+          "uci": "e7d6",
+          "white": 1
+        },
+        {
+          "averageRating": 2005,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "redrum0408",
+              "rating": 2005
+            },
+            "id": "YEGjaSPo",
+            "mode": "rated",
+            "month": "2024-07",
+            "speed": "blitz",
+            "white": {
+              "name": "Kucerenko",
+              "rating": 2018
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bc5",
+          "uci": "e7c5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 3001
+    },
+    "2024-08": {
+      "black": 2767,
+      "draws": 335,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 1776,
+          "draws": 215,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 1828
+        },
+        {
+          "averageRating": 2107,
+          "black": 959,
+          "draws": 119,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 987
+        },
+        {
+          "averageRating": 2093,
+          "black": 20,
+          "draws": 1,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 20
+        },
+        {
+          "averageRating": 2087,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 6
+        },
+        {
+          "averageRating": 2053,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 5
+        },
+        {
+          "averageRating": 2119,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "e7c5",
+          "white": 2
+        },
+        {
+          "averageRating": 2049,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1
+        },
+        {
+          "averageRating": 2193,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 2850
+    },
+    "2024-09": {
+      "black": 2613,
+      "draws": 291,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 1731,
+          "draws": 192,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 1711
+        },
+        {
+          "averageRating": 2106,
+          "black": 855,
+          "draws": 97,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 974
+        },
+        {
+          "averageRating": 2070,
+          "black": 19,
+          "draws": 2,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 11
+        },
+        {
+          "averageRating": 2086,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 9
+        },
+        {
+          "averageRating": 2068,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 6
+        },
+        {
+          "averageRating": 2005,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Rb8",
+          "uci": "a8b8",
+          "white": 1
+        },
+        {
+          "averageRating": 2089,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 1
+        },
+        {
+          "averageRating": 2058,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "kbuckbee",
+              "rating": 2058
+            },
+            "id": "PKOf3rqf",
+            "mode": "rated",
+            "month": "2024-09",
+            "speed": "blitz",
+            "white": {
+              "name": "vebbi93",
+              "rating": 2061
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 2714
+    },
+    "2024-10": {
+      "black": 2871,
+      "draws": 332,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 1873,
+          "draws": 220,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 1757
+        },
+        {
+          "averageRating": 2104,
+          "black": 952,
+          "draws": 111,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 994
+        },
+        {
+          "averageRating": 2105,
+          "black": 33,
+          "draws": 1,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 20
+        },
+        {
+          "averageRating": 2106,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 5
+        },
+        {
+          "averageRating": 2075,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 6
+        },
+        {
+          "averageRating": 2029,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 2783
+    },
+    "2024-11": {
+      "black": 2550,
+      "draws": 342,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 1663,
+          "draws": 225,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 1638
+        },
+        {
+          "averageRating": 2107,
+          "black": 855,
+          "draws": 114,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 955
+        },
+        {
+          "averageRating": 2099,
+          "black": 23,
+          "draws": 0,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 20
+        },
+        {
+          "averageRating": 2072,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 6
+        },
+        {
+          "averageRating": 2025,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 2
+        },
+        {
+          "averageRating": 2047,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 4
+        },
+        {
+          "averageRating": 2010,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "e7c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2125,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 2
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 2628
+    },
+    "2024-12": {
+      "black": 2772,
+      "draws": 345,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 1823,
+          "draws": 213,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 1836
+        },
+        {
+          "averageRating": 2111,
+          "black": 918,
+          "draws": 130,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 1013
+        },
+        {
+          "averageRating": 2081,
+          "black": 19,
+          "draws": 2,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 18
+        },
+        {
+          "averageRating": 2054,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 7
+        },
+        {
+          "averageRating": 2046,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 4
+        },
+        {
+          "averageRating": 2186,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 2
+        },
+        {
+          "averageRating": 2090,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 1
+        },
+        {
+          "averageRating": 2107,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "DTT2000",
+              "rating": 2107
+            },
+            "id": "P6Q6l6sZ",
+            "mode": "rated",
+            "month": "2024-12",
+            "speed": "blitz",
+            "white": {
+              "name": "yaroslavbarrios",
+              "rating": 2032
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Rb8",
+          "uci": "a8b8",
+          "white": 0
+        },
+        {
+          "averageRating": 1824,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "MestreIsaac",
+              "rating": 1824
+            },
+            "id": "t9JdvlMU",
+            "mode": "rated",
+            "month": "2024-12",
+            "speed": "blitz",
+            "white": {
+              "name": "manojniro",
+              "rating": 2218
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bc5",
+          "uci": "e7c5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 2882
+    },
+    "2025-01": {
+      "black": 2883,
+      "draws": 375,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 1873,
+          "draws": 246,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 1835
+        },
+        {
+          "averageRating": 2103,
+          "black": 975,
+          "draws": 126,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 1114
+        },
+        {
+          "averageRating": 2101,
+          "black": 25,
+          "draws": 1,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 20
+        },
+        {
+          "averageRating": 2105,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 3
+        },
+        {
+          "averageRating": 2070,
+          "black": 3,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 2
+        },
+        {
+          "averageRating": 2075,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "e7c5",
+          "white": 0
+        },
+        {
+          "averageRating": 2008,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "mohhass",
+              "rating": 2008
+            },
+            "id": "VZQK789y",
+            "mode": "rated",
+            "month": "2025-01",
+            "speed": "blitz",
+            "white": {
+              "name": "ZKH_73",
+              "rating": 2066
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1
+        },
+        {
+          "averageRating": 2160,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "oticMJ",
+              "rating": 2160
+            },
+            "id": "FWNIub2E",
+            "mode": "rated",
+            "month": "2025-01",
+            "speed": "blitz",
+            "white": {
+              "name": "sajuma",
+              "rating": 2132
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 2976
+    },
+    "2025-02": {
+      "black": 2430,
+      "draws": 312,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 1538,
+          "draws": 194,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 1600
+        },
+        {
+          "averageRating": 2106,
+          "black": 858,
+          "draws": 116,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 949
+        },
+        {
+          "averageRating": 2096,
+          "black": 22,
+          "draws": 2,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 23
+        },
+        {
+          "averageRating": 2061,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 4
+        },
+        {
+          "averageRating": 2086,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 3
+        },
+        {
+          "averageRating": 2092,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 3
+        },
+        {
+          "averageRating": 1993,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "rgoljovic",
+              "rating": 1993
+            },
+            "id": "SxZ6MxEP",
+            "mode": "rated",
+            "month": "2025-02",
+            "speed": "blitz",
+            "white": {
+              "name": "SpaceSpirit",
+              "rating": 2010
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bc5",
+          "uci": "e7c5",
+          "white": 0
+        },
+        {
+          "averageRating": 2167,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "FelipeCL1987",
+              "rating": 2167
+            },
+            "id": "jo29k41d",
+            "mode": "rated",
+            "month": "2025-02",
+            "speed": "blitz",
+            "white": {
+              "name": "ragstorooks",
+              "rating": 2159
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bd6",
+          "uci": "e7d6",
+          "white": 0
+        },
+        {
+          "averageRating": 2170,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "oticMJ",
+              "rating": 2170
+            },
+            "id": "Pf3CWGJg",
+            "mode": "rated",
+            "month": "2025-02",
+            "speed": "blitz",
+            "white": {
+              "name": "alireza2020",
+              "rating": 2178
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 2583
+    },
+    "2025-03": {
+      "black": 2701,
+      "draws": 322,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 1766,
+          "draws": 196,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 1792
+        },
+        {
+          "averageRating": 2098,
+          "black": 908,
+          "draws": 123,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 994
+        },
+        {
+          "averageRating": 2073,
+          "black": 17,
+          "draws": 1,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 27
+        },
+        {
+          "averageRating": 2059,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 2
+        },
+        {
+          "averageRating": 2099,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 1
+        },
+        {
+          "averageRating": 2063,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1
+        },
+        {
+          "averageRating": 2127,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "e7d6",
+          "white": 0
+        },
+        {
+          "averageRating": 2003,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "e7c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2103,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "KryptonDifluoride",
+              "rating": 2103
+            },
+            "id": "l6uP9WBw",
+            "mode": "rated",
+            "month": "2025-03",
+            "speed": "blitz",
+            "white": {
+              "name": "zilic21",
+              "rating": 2096
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 1
+        },
+        {
+          "averageRating": 2100,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "artinartan",
+              "rating": 2100
+            },
+            "id": "DX6LfzjN",
+            "mode": "rated",
+            "month": "2025-03",
+            "speed": "blitz",
+            "white": {
+              "name": "Artemiiiii",
+              "rating": 2071
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "b4",
+          "uci": "b5b4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 2820
+    },
+    "2025-04": {
+      "black": 2547,
+      "draws": 345,
+      "moves": [
+        {
+          "averageRating": 2096,
+          "black": 1615,
+          "draws": 215,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 1607
+        },
+        {
+          "averageRating": 2103,
+          "black": 898,
+          "draws": 128,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 903
+        },
+        {
+          "averageRating": 2089,
+          "black": 25,
+          "draws": 1,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 22
+        },
+        {
+          "averageRating": 2069,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 2
+        },
+        {
+          "averageRating": 2019,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 2
+        },
+        {
+          "averageRating": 2039,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 1
+        },
+        {
+          "averageRating": 2165,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 2538
+    },
+    "2025-05": {
+      "black": 2778,
+      "draws": 329,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 1766,
+          "draws": 207,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 1706
+        },
+        {
+          "averageRating": 2106,
+          "black": 980,
+          "draws": 120,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 1074
+        },
+        {
+          "averageRating": 2082,
+          "black": 24,
+          "draws": 1,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 21
+        },
+        {
+          "averageRating": 2084,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 5
+        },
+        {
+          "averageRating": 2013,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 2
+        },
+        {
+          "averageRating": 2047,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 0
+        },
+        {
+          "averageRating": 2131,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ga0d0",
+              "rating": 2131
+            },
+            "id": "11txbgeF",
+            "mode": "rated",
+            "month": "2025-05",
+            "speed": "blitz",
+            "white": {
+              "name": "albeiro",
+              "rating": 2156
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bd6",
+          "uci": "e7d6",
+          "white": 0
+        },
+        {
+          "averageRating": 2157,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "WaYoto",
+              "rating": 2157
+            },
+            "id": "RCFSYQ7z",
+            "mode": "rated",
+            "month": "2025-05",
+            "speed": "blitz",
+            "white": {
+              "name": "AR86_Sasambo",
+              "rating": 2012
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 0
+        },
+        {
+          "averageRating": 2071,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "izufrac",
+              "rating": 2071
+            },
+            "id": "FUQPD6Us",
+            "mode": "rated",
+            "month": "2025-05",
+            "speed": "blitz",
+            "white": {
+              "name": "LarisPulenas",
+              "rating": 2141
+            },
+            "winner": null,
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ng4",
+          "uci": "f6g4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 2808
+    },
+    "2025-06": {
+      "black": 2612,
+      "draws": 282,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 1682,
+          "draws": 183,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 1662
+        },
+        {
+          "averageRating": 2103,
+          "black": 906,
+          "draws": 97,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 968
+        },
+        {
+          "averageRating": 2070,
+          "black": 17,
+          "draws": 1,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 8
+        },
+        {
+          "averageRating": 2067,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 9
+        },
+        {
+          "averageRating": 2091,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 7
+        },
+        {
+          "averageRating": 2031,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "masoud1f",
+              "rating": 2031
+            },
+            "id": "OLAqCdsI",
+            "mode": "rated",
+            "month": "2025-06",
+            "speed": "blitz",
+            "white": {
+              "name": "Katiplek_87",
+              "rating": 2021
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 0
+        },
+        {
+          "averageRating": 2064,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "RashadTanhuAZE",
+              "rating": 2064
+            },
+            "id": "fBXsGJtA",
+            "mode": "rated",
+            "month": "2025-06",
+            "speed": "blitz",
+            "white": {
+              "name": "Sy_Den",
+              "rating": 2037
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bd6",
+          "uci": "e7d6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 2654
+    },
+    "2025-07": {
+      "black": 2764,
+      "draws": 332,
+      "moves": [
+        {
+          "averageRating": 2096,
+          "black": 1821,
+          "draws": 209,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 1869
+        },
+        {
+          "averageRating": 2103,
+          "black": 910,
+          "draws": 118,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 989
+        },
+        {
+          "averageRating": 2111,
+          "black": 24,
+          "draws": 2,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 16
+        },
+        {
+          "averageRating": 2079,
+          "black": 3,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 5
+        },
+        {
+          "averageRating": 2072,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 4
+        },
+        {
+          "averageRating": 2076,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "e7c5",
+          "white": 3
+        },
+        {
+          "averageRating": 2047,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Rb8",
+          "uci": "a8b8",
+          "white": 1
+        },
+        {
+          "averageRating": 2035,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 2888
+    },
+    "2025-08": {
+      "black": 2633,
+      "draws": 323,
+      "moves": [
+        {
+          "averageRating": 2094,
+          "black": 1733,
+          "draws": 215,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 1777
+        },
+        {
+          "averageRating": 2104,
+          "black": 872,
+          "draws": 105,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 974
+        },
+        {
+          "averageRating": 2097,
+          "black": 21,
+          "draws": 1,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 22
+        },
+        {
+          "averageRating": 2083,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 5
+        },
+        {
+          "averageRating": 2077,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 6
+        },
+        {
+          "averageRating": 2050,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 5
+        },
+        {
+          "averageRating": 2169,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 2
+        },
+        {
+          "averageRating": 2003,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Imans_kabtasikmalaya",
+              "rating": 2003
+            },
+            "id": "T46PGshk",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "davertabaku",
+              "rating": 2094
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Rb8",
+          "uci": "a8b8",
+          "white": 1
+        },
+        {
+          "averageRating": 2180,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "SachsenbrunnBrett3",
+              "rating": 2180
+            },
+            "id": "zKd0NCqF",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "JaOlVi",
+              "rating": 2066
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 1
+        },
+        {
+          "averageRating": 1940,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "PrimeAxeGang",
+              "rating": 1940
+            },
+            "id": "PFWZuoFz",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "Mariokorsakov",
+              "rating": 2080
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "a5",
+          "uci": "a6a5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 2794
+    },
+    "2025-09": {
+      "black": 2652,
+      "draws": 319,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 1723,
+          "draws": 192,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 1721
+        },
+        {
+          "averageRating": 2106,
+          "black": 886,
+          "draws": 123,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 957
+        },
+        {
+          "averageRating": 2087,
+          "black": 32,
+          "draws": 2,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 27
+        },
+        {
+          "averageRating": 2042,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 3
+        },
+        {
+          "averageRating": 2002,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 3
+        },
+        {
+          "averageRating": 2079,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 2711
+    },
+    "2025-10": {
+      "black": 2646,
+      "draws": 337,
+      "moves": [
+        {
+          "averageRating": 2094,
+          "black": 1668,
+          "draws": 202,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 1794
+        },
+        {
+          "averageRating": 2101,
+          "black": 959,
+          "draws": 132,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 1040
+        },
+        {
+          "averageRating": 2092,
+          "black": 13,
+          "draws": 0,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 17
+        },
+        {
+          "averageRating": 2099,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 6
+        },
+        {
+          "averageRating": 2110,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 4
+        },
+        {
+          "averageRating": 2111,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 4
+        },
+        {
+          "averageRating": 2184,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 1
+        },
+        {
+          "averageRating": 2083,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "e7d6",
+          "white": 0
+        },
+        {
+          "averageRating": 2028,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Abuse-Scotch",
+              "rating": 2028
+            },
+            "id": "wbIGt558",
+            "mode": "rated",
+            "month": "2025-10",
+            "speed": "blitz",
+            "white": {
+              "name": "geoff_march",
+              "rating": 2067
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Nxe4",
+          "uci": "f6e4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 2866
+    },
+    "2025-11": {
+      "black": 2658,
+      "draws": 335,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 1744,
+          "draws": 217,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 1795
+        },
+        {
+          "averageRating": 2100,
+          "black": 887,
+          "draws": 116,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 967
+        },
+        {
+          "averageRating": 2099,
+          "black": 16,
+          "draws": 2,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 7
+        },
+        {
+          "averageRating": 2091,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 7
+        },
+        {
+          "averageRating": 2080,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 3
+        },
+        {
+          "averageRating": 2081,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 3
+        },
+        {
+          "averageRating": 2029,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 0
+        },
+        {
+          "averageRating": 2017,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Rb8",
+          "uci": "a8b8",
+          "white": 1
+        },
+        {
+          "averageRating": 2158,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "VonRyanMarValones",
+              "rating": 2158
+            },
+            "id": "En8gJMKc",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "javaf",
+              "rating": 2140
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bc5",
+          "uci": "e7c5",
+          "white": 1
+        },
+        {
+          "averageRating": 1985,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "IamNOTamod",
+              "rating": 1985
+            },
+            "id": "utXoBmKS",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Aria_NMDR",
+              "rating": 2095
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "b4",
+          "uci": "b5b4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 2785
+    },
+    "2025-12": {
+      "black": 2909,
+      "draws": 316,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 1880,
+          "draws": 207,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 1882
+        },
+        {
+          "averageRating": 2103,
+          "black": 1011,
+          "draws": 105,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 1037
+        },
+        {
+          "averageRating": 2084,
+          "black": 10,
+          "draws": 3,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 11
+        },
+        {
+          "averageRating": 2104,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 7
+        },
+        {
+          "averageRating": 2024,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "e7c5",
+          "white": 1
+        },
+        {
+          "averageRating": 1996,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 4
+        },
+        {
+          "averageRating": 2008,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 2
+        },
+        {
+          "averageRating": 2288,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Agent777pro",
+              "rating": 2288
+            },
+            "id": "TqP7WOG0",
+            "mode": "rated",
+            "month": "2025-12",
+            "speed": "blitz",
+            "white": {
+              "name": "PORTOSIV",
+              "rating": 1913
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 2944
+    },
+    "2026-01": {
+      "black": 2797,
+      "draws": 329,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 1851,
+          "draws": 203,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 1796
+        },
+        {
+          "averageRating": 2107,
+          "black": 922,
+          "draws": 124,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 1001
+        },
+        {
+          "averageRating": 2088,
+          "black": 12,
+          "draws": 2,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 15
+        },
+        {
+          "averageRating": 2103,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 5
+        },
+        {
+          "averageRating": 2100,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 2
+        },
+        {
+          "averageRating": 2141,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "e7c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2070,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 1
+        },
+        {
+          "averageRating": 1888,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 1
+        },
+        {
+          "averageRating": 2096,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Garmonia1971",
+              "rating": 2096
+            },
+            "id": "Ym6bfDYG",
+            "mode": "rated",
+            "month": "2026-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Eddyj98",
+              "rating": 2075
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 1
+        },
+        {
+          "averageRating": 1959,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "luckycell",
+              "rating": 1959
+            },
+            "id": "3YA7hp2Q",
+            "mode": "rated",
+            "month": "2026-01",
+            "speed": "blitz",
+            "white": {
+              "name": "dfmb",
+              "rating": 2094
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Rb8",
+          "uci": "a8b8",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 2824
+    },
+    "2026-02": {
+      "black": 2470,
+      "draws": 305,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 1671,
+          "draws": 191,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 1703
+        },
+        {
+          "averageRating": 2103,
+          "black": 774,
+          "draws": 113,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 877
+        },
+        {
+          "averageRating": 2083,
+          "black": 16,
+          "draws": 1,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 19
+        },
+        {
+          "averageRating": 2092,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 4
+        },
+        {
+          "averageRating": 2037,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 2
+        },
+        {
+          "averageRating": 2111,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 2
+        },
+        {
+          "averageRating": 2139,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 1
+        },
+        {
+          "averageRating": 2140,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "predator_s",
+              "rating": 2140
+            },
+            "id": "9GwcEYE4",
+            "mode": "rated",
+            "month": "2026-02",
+            "speed": "blitz",
+            "white": {
+              "name": "TooGoodMaster",
+              "rating": 2192
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 2609
+    },
+    "2026-03": {
+      "black": 2585,
+      "draws": 295,
+      "moves": [
+        {
+          "averageRating": 2096,
+          "black": 1779,
+          "draws": 203,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          },
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 1824
+        },
+        {
+          "averageRating": 2103,
+          "black": 780,
+          "draws": 91,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 929
+        },
+        {
+          "averageRating": 2110,
+          "black": 15,
+          "draws": 1,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          },
+          "san": "Bb7",
+          "uci": "c8b7",
+          "white": 15
+        },
+        {
+          "averageRating": 2103,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 9
+        },
+        {
+          "averageRating": 2117,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1
+        },
+        {
+          "averageRating": 2098,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 1
+        },
+        {
+          "averageRating": 2050,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "e7c5",
+          "white": 0
+        },
+        {
+          "averageRating": 2128,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      },
+      "white": 2779
+    },
+    "2026-04": {
+      "white": 1436,
+      "draws": 168,
+      "black": 1237,
+      "moves": [
+        {
+          "uci": "e8h8",
+          "san": "O-O",
+          "averageRating": 2100,
+          "white": 875,
+          "draws": 112,
+          "black": 789,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed"
+          }
+        },
+        {
+          "uci": "d7d6",
+          "san": "d6",
+          "averageRating": 2102,
+          "white": 543,
+          "draws": 53,
+          "black": 430,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c8b7",
+          "san": "Bb7",
+          "averageRating": 2092,
+          "white": 14,
+          "draws": 3,
+          "black": 15,
+          "game": null,
+          "opening": {
+            "eco": "C88",
+            "name": "Ruy Lopez: Closed, Trajkovic Counterattack"
+          }
+        },
+        {
+          "uci": "d7d5",
+          "san": "d5",
+          "averageRating": 2127,
+          "white": 3,
+          "draws": 0,
+          "black": 3,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "h8g8",
+          "san": "Rg8",
+          "averageRating": 2017,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
+        }
+      ],
+      "recentGames": [],
+      "topGames": [],
+      "opening": {
+        "eco": "C88",
+        "name": "Ruy Lopez: Closed"
+      }
+    }
+  }
+}

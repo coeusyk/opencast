@@ -1,0 +1,4810 @@
+{
+  "_meta": {
+    "skipped_months": {}
+  },
+  "eco": "C07",
+  "months": {
+    "2023-01": {
+      "black": 455,
+      "draws": 64,
+      "moves": [
+        {
+          "averageRating": 2113,
+          "black": 303,
+          "draws": 50,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 348
+        },
+        {
+          "averageRating": 2099,
+          "black": 103,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 127
+        },
+        {
+          "averageRating": 2090,
+          "black": 14,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 13
+        },
+        {
+          "averageRating": 2123,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 7
+        },
+        {
+          "averageRating": 2078,
+          "black": 10,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 4
+        },
+        {
+          "averageRating": 2053,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 4
+        },
+        {
+          "averageRating": 2059,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 2
+        },
+        {
+          "averageRating": 2108,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 1
+        },
+        {
+          "averageRating": 2017,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 1
+        },
+        {
+          "averageRating": 2144,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 2
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 509
+    },
+    "2023-02": {
+      "black": 388,
+      "draws": 69,
+      "moves": [
+        {
+          "averageRating": 2121,
+          "black": 265,
+          "draws": 48,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 280
+        },
+        {
+          "averageRating": 2100,
+          "black": 94,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 96
+        },
+        {
+          "averageRating": 2094,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 8
+        },
+        {
+          "averageRating": 2064,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 8
+        },
+        {
+          "averageRating": 2130,
+          "black": 7,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 5
+        },
+        {
+          "averageRating": 2079,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 4
+        },
+        {
+          "averageRating": 2054,
+          "black": 2,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 1
+        },
+        {
+          "averageRating": 2050,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 3
+        },
+        {
+          "averageRating": 2088,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 1
+        },
+        {
+          "averageRating": 2095,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "X_Frix",
+              "rating": 1940
+            },
+            "id": "fXOJbXmd",
+            "mode": "rated",
+            "month": "2023-02",
+            "speed": "blitz",
+            "white": {
+              "name": "jaimenchuni",
+              "rating": 2095
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 406
+    },
+    "2023-03": {
+      "black": 457,
+      "draws": 62,
+      "moves": [
+        {
+          "averageRating": 2110,
+          "black": 320,
+          "draws": 40,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 328
+        },
+        {
+          "averageRating": 2099,
+          "black": 86,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 103
+        },
+        {
+          "averageRating": 2098,
+          "black": 15,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 8
+        },
+        {
+          "averageRating": 2086,
+          "black": 10,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 8
+        },
+        {
+          "averageRating": 2095,
+          "black": 14,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 5
+        },
+        {
+          "averageRating": 2071,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 4
+        },
+        {
+          "averageRating": 2085,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 2
+        },
+        {
+          "averageRating": 2098,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 3
+        },
+        {
+          "averageRating": 2069,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 2
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 463
+    },
+    "2023-04": {
+      "black": 475,
+      "draws": 98,
+      "moves": [
+        {
+          "averageRating": 2115,
+          "black": 309,
+          "draws": 66,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 376
+        },
+        {
+          "averageRating": 2096,
+          "black": 109,
+          "draws": 23,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 110
+        },
+        {
+          "averageRating": 2097,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 13
+        },
+        {
+          "averageRating": 2074,
+          "black": 14,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 7
+        },
+        {
+          "averageRating": 2099,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 6
+        },
+        {
+          "averageRating": 2079,
+          "black": 11,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 2
+        },
+        {
+          "averageRating": 2043,
+          "black": 4,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 2
+        },
+        {
+          "averageRating": 2091,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 5
+        },
+        {
+          "averageRating": 2094,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 2
+        },
+        {
+          "averageRating": 2124,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 1
+        },
+        {
+          "averageRating": 2040,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ChessKhan11",
+              "rating": 2331
+            },
+            "id": "6lzVUFlE",
+            "mode": "rated",
+            "month": "2023-04",
+            "speed": "blitz",
+            "white": {
+              "name": "LaTiza1",
+              "rating": 2040
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "f3",
+          "uci": "f2f3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 524
+    },
+    "2023-05": {
+      "black": 520,
+      "draws": 75,
+      "moves": [
+        {
+          "averageRating": 2113,
+          "black": 352,
+          "draws": 57,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 339
+        },
+        {
+          "averageRating": 2098,
+          "black": 109,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 121
+        },
+        {
+          "averageRating": 2077,
+          "black": 24,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 4
+        },
+        {
+          "averageRating": 2061,
+          "black": 11,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 9
+        },
+        {
+          "averageRating": 2078,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 10
+        },
+        {
+          "averageRating": 2072,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 5
+        },
+        {
+          "averageRating": 2091,
+          "black": 1,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 1
+        },
+        {
+          "averageRating": 2049,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2033,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 0
+        },
+        {
+          "averageRating": 2164,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Rumoleg",
+              "rating": 2042
+            },
+            "id": "DO8dzdRc",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "Antonionerja",
+              "rating": 2164
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 490
+    },
+    "2023-06": {
+      "black": 435,
+      "draws": 73,
+      "moves": [
+        {
+          "averageRating": 2114,
+          "black": 279,
+          "draws": 52,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 338
+        },
+        {
+          "averageRating": 2097,
+          "black": 112,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 112
+        },
+        {
+          "averageRating": 2082,
+          "black": 13,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 13
+        },
+        {
+          "averageRating": 2070,
+          "black": 9,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 14
+        },
+        {
+          "averageRating": 2095,
+          "black": 10,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 6
+        },
+        {
+          "averageRating": 2101,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 3
+        },
+        {
+          "averageRating": 2051,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 5
+        },
+        {
+          "averageRating": 2058,
+          "black": 0,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2055,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 493
+    },
+    "2023-07": {
+      "black": 410,
+      "draws": 61,
+      "moves": [
+        {
+          "averageRating": 2107,
+          "black": 275,
+          "draws": 48,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 318
+        },
+        {
+          "averageRating": 2085,
+          "black": 92,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 108
+        },
+        {
+          "averageRating": 2088,
+          "black": 15,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 7
+        },
+        {
+          "averageRating": 2100,
+          "black": 13,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 9
+        },
+        {
+          "averageRating": 2069,
+          "black": 7,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 9
+        },
+        {
+          "averageRating": 2104,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 4
+        },
+        {
+          "averageRating": 2111,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 4
+        },
+        {
+          "averageRating": 2125,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 4
+        },
+        {
+          "averageRating": 2082,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Borneot",
+              "rating": 2034
+            },
+            "id": "Qg1MrA5D",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "Elprofedenerja",
+              "rating": 2082
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 1
+        },
+        {
+          "averageRating": 2026,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Yurimitonov",
+              "rating": 2039
+            },
+            "id": "dA27uPek",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "transtwilight",
+              "rating": 2026
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 0
+        },
+        {
+          "averageRating": 2088,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "the-invasor",
+              "rating": 2157
+            },
+            "id": "gi4jGCEn",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "Openball",
+              "rating": 2088
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 0
+        },
+        {
+          "averageRating": 2170,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "loughNeagh",
+              "rating": 2161
+            },
+            "id": "51fVuToj",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "abdulqayyum",
+              "rating": 2170
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 465
+    },
+    "2023-08": {
+      "black": 461,
+      "draws": 76,
+      "moves": [
+        {
+          "averageRating": 2110,
+          "black": 320,
+          "draws": 44,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 360
+        },
+        {
+          "averageRating": 2099,
+          "black": 108,
+          "draws": 26,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 119
+        },
+        {
+          "averageRating": 2080,
+          "black": 9,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 10
+        },
+        {
+          "averageRating": 2099,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 3
+        },
+        {
+          "averageRating": 2079,
+          "black": 4,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 4
+        },
+        {
+          "averageRating": 2035,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 3
+        },
+        {
+          "averageRating": 2113,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2126,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 1
+        },
+        {
+          "averageRating": 2129,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 502
+    },
+    "2023-09": {
+      "black": 421,
+      "draws": 71,
+      "moves": [
+        {
+          "averageRating": 2107,
+          "black": 279,
+          "draws": 55,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 311
+        },
+        {
+          "averageRating": 2091,
+          "black": 94,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 122
+        },
+        {
+          "averageRating": 2119,
+          "black": 15,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 9
+        },
+        {
+          "averageRating": 2102,
+          "black": 10,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 12
+        },
+        {
+          "averageRating": 2051,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 8
+        },
+        {
+          "averageRating": 2108,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 8
+        },
+        {
+          "averageRating": 2109,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 2
+        },
+        {
+          "averageRating": 1988,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 1
+        },
+        {
+          "averageRating": 2069,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 2
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 475
+    },
+    "2023-10": {
+      "black": 486,
+      "draws": 69,
+      "moves": [
+        {
+          "averageRating": 2107,
+          "black": 328,
+          "draws": 48,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 328
+        },
+        {
+          "averageRating": 2098,
+          "black": 106,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 110
+        },
+        {
+          "averageRating": 2101,
+          "black": 18,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 10
+        },
+        {
+          "averageRating": 2057,
+          "black": 11,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 8
+        },
+        {
+          "averageRating": 2110,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 11
+        },
+        {
+          "averageRating": 2081,
+          "black": 10,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 2
+        },
+        {
+          "averageRating": 2114,
+          "black": 4,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 3
+        },
+        {
+          "averageRating": 2095,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 2
+        },
+        {
+          "averageRating": 2042,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "GoneNowhere",
+              "rating": 2057
+            },
+            "id": "H2kF3TNA",
+            "mode": "rated",
+            "month": "2023-10",
+            "speed": "blitz",
+            "white": {
+              "name": "DerKontrollkollege",
+              "rating": 2042
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 475
+    },
+    "2023-11": {
+      "black": 432,
+      "draws": 81,
+      "moves": [
+        {
+          "averageRating": 2109,
+          "black": 291,
+          "draws": 71,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 366
+        },
+        {
+          "averageRating": 2096,
+          "black": 99,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 100
+        },
+        {
+          "averageRating": 2091,
+          "black": 16,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 8
+        },
+        {
+          "averageRating": 2081,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 7
+        },
+        {
+          "averageRating": 2087,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 9
+        },
+        {
+          "averageRating": 2076,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 6
+        },
+        {
+          "averageRating": 2083,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 3
+        },
+        {
+          "averageRating": 2102,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 3
+        },
+        {
+          "averageRating": 2069,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 2
+        },
+        {
+          "averageRating": 2093,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "EricStudyAccount",
+              "rating": 2218
+            },
+            "id": "VF2r0RFa",
+            "mode": "rated",
+            "month": "2023-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Antonionerja",
+              "rating": 2093
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 504
+    },
+    "2023-12": {
+      "black": 445,
+      "draws": 81,
+      "moves": [
+        {
+          "averageRating": 2105,
+          "black": 322,
+          "draws": 55,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 301
+        },
+        {
+          "averageRating": 2092,
+          "black": 92,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 87
+        },
+        {
+          "averageRating": 2057,
+          "black": 10,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 8
+        },
+        {
+          "averageRating": 2070,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 8
+        },
+        {
+          "averageRating": 2088,
+          "black": 5,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 8
+        },
+        {
+          "averageRating": 2087,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 8
+        },
+        {
+          "averageRating": 2064,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 5
+        },
+        {
+          "averageRating": 2052,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 3
+        },
+        {
+          "averageRating": 2080,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "pasoviola69",
+              "rating": 2096
+            },
+            "id": "29Yl4ZUi",
+            "mode": "rated",
+            "month": "2023-12",
+            "speed": "blitz",
+            "white": {
+              "name": "lczafico",
+              "rating": 2080
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 428
+    },
+    "2024-01": {
+      "black": 434,
+      "draws": 69,
+      "moves": [
+        {
+          "averageRating": 2111,
+          "black": 293,
+          "draws": 46,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 331
+        },
+        {
+          "averageRating": 2086,
+          "black": 90,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 120
+        },
+        {
+          "averageRating": 2071,
+          "black": 19,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 11
+        },
+        {
+          "averageRating": 2073,
+          "black": 12,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 10
+        },
+        {
+          "averageRating": 2072,
+          "black": 6,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 4
+        },
+        {
+          "averageRating": 2111,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 4
+        },
+        {
+          "averageRating": 2068,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 4
+        },
+        {
+          "averageRating": 2036,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2022,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 2
+        },
+        {
+          "averageRating": 2060,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 0
+        },
+        {
+          "averageRating": 1938,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "zbogdan185",
+              "rating": 2271
+            },
+            "id": "kKuO7JkA",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Englis1970",
+              "rating": 1938
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 488
+    },
+    "2024-02": {
+      "black": 405,
+      "draws": 55,
+      "moves": [
+        {
+          "averageRating": 2104,
+          "black": 281,
+          "draws": 43,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 296
+        },
+        {
+          "averageRating": 2101,
+          "black": 85,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 93
+        },
+        {
+          "averageRating": 2077,
+          "black": 9,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 7
+        },
+        {
+          "averageRating": 2097,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 11
+        },
+        {
+          "averageRating": 2074,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 5
+        },
+        {
+          "averageRating": 2109,
+          "black": 6,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 5
+        },
+        {
+          "averageRating": 2055,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 1
+        },
+        {
+          "averageRating": 1930,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2076,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Rajaons",
+              "rating": 2002
+            },
+            "id": "O1tScARW",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Ber7ka",
+              "rating": 2076
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 419
+    },
+    "2024-03": {
+      "black": 453,
+      "draws": 84,
+      "moves": [
+        {
+          "averageRating": 2109,
+          "black": 319,
+          "draws": 65,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 330
+        },
+        {
+          "averageRating": 2098,
+          "black": 88,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 96
+        },
+        {
+          "averageRating": 2076,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 10
+        },
+        {
+          "averageRating": 2089,
+          "black": 14,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 7
+        },
+        {
+          "averageRating": 2110,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 9
+        },
+        {
+          "averageRating": 2080,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 1
+        },
+        {
+          "averageRating": 2018,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2059,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 3
+        },
+        {
+          "averageRating": 2126,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 458
+    },
+    "2024-04": {
+      "black": 434,
+      "draws": 76,
+      "moves": [
+        {
+          "averageRating": 2114,
+          "black": 303,
+          "draws": 52,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 309
+        },
+        {
+          "averageRating": 2091,
+          "black": 81,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 105
+        },
+        {
+          "averageRating": 2067,
+          "black": 16,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 13
+        },
+        {
+          "averageRating": 2065,
+          "black": 16,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 10
+        },
+        {
+          "averageRating": 2086,
+          "black": 5,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 7
+        },
+        {
+          "averageRating": 2063,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 5
+        },
+        {
+          "averageRating": 2072,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 0
+        },
+        {
+          "averageRating": 2009,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 1
+        },
+        {
+          "averageRating": 2046,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "grayu_yak_gavno",
+              "rating": 2063
+            },
+            "id": "enRYySJZ",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "lovac1980",
+              "rating": 2046
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 0
+        },
+        {
+          "averageRating": 1853,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "AndyMejiaUPC2024",
+              "rating": 2209
+            },
+            "id": "0EZfqTgu",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "KatherinePalacio_UPC",
+              "rating": 1853
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "f3",
+          "uci": "f2f3",
+          "white": 0
+        },
+        {
+          "averageRating": 2022,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "el_cimarron85",
+              "rating": 2146
+            },
+            "id": "krfGs9PE",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "prharsh",
+              "rating": 2022
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 450
+    },
+    "2024-05": {
+      "black": 404,
+      "draws": 84,
+      "moves": [
+        {
+          "averageRating": 2108,
+          "black": 270,
+          "draws": 59,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 302
+        },
+        {
+          "averageRating": 2095,
+          "black": 88,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 88
+        },
+        {
+          "averageRating": 2081,
+          "black": 20,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 10
+        },
+        {
+          "averageRating": 2103,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 6
+        },
+        {
+          "averageRating": 2086,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 5
+        },
+        {
+          "averageRating": 2058,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 6
+        },
+        {
+          "averageRating": 2075,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2082,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 3
+        },
+        {
+          "averageRating": 2145,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 1
+        },
+        {
+          "averageRating": 2041,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "SoniaNani",
+              "rating": 2142
+            },
+            "id": "I14WLtJa",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "ArturMorales12345",
+              "rating": 2041
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 424
+    },
+    "2024-06": {
+      "black": 409,
+      "draws": 69,
+      "moves": [
+        {
+          "averageRating": 2111,
+          "black": 276,
+          "draws": 46,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 301
+        },
+        {
+          "averageRating": 2088,
+          "black": 99,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 103
+        },
+        {
+          "averageRating": 2083,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 6
+        },
+        {
+          "averageRating": 2103,
+          "black": 6,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 9
+        },
+        {
+          "averageRating": 2094,
+          "black": 9,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 4
+        },
+        {
+          "averageRating": 2088,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 4
+        },
+        {
+          "averageRating": 2075,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 5
+        },
+        {
+          "averageRating": 2078,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 432
+    },
+    "2024-07": {
+      "black": 413,
+      "draws": 76,
+      "moves": [
+        {
+          "averageRating": 2111,
+          "black": 285,
+          "draws": 51,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 312
+        },
+        {
+          "averageRating": 2085,
+          "black": 89,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 85
+        },
+        {
+          "averageRating": 2088,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 11
+        },
+        {
+          "averageRating": 2087,
+          "black": 9,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 9
+        },
+        {
+          "averageRating": 2048,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 3
+        },
+        {
+          "averageRating": 2112,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 2
+        },
+        {
+          "averageRating": 2096,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 3
+        },
+        {
+          "averageRating": 2088,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 2
+        },
+        {
+          "averageRating": 2119,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 1
+        },
+        {
+          "averageRating": 2018,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "stevankacicka123",
+              "rating": 2106
+            },
+            "id": "tP6PD9cS",
+            "mode": "rated",
+            "month": "2024-07",
+            "speed": "blitz",
+            "white": {
+              "name": "thekingofthehill",
+              "rating": 2018
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 429
+    },
+    "2024-08": {
+      "black": 428,
+      "draws": 82,
+      "moves": [
+        {
+          "averageRating": 2106,
+          "black": 306,
+          "draws": 59,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 353
+        },
+        {
+          "averageRating": 2088,
+          "black": 84,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 88
+        },
+        {
+          "averageRating": 2078,
+          "black": 10,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 10
+        },
+        {
+          "averageRating": 2055,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 11
+        },
+        {
+          "averageRating": 2082,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 6
+        },
+        {
+          "averageRating": 2085,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 3
+        },
+        {
+          "averageRating": 2089,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 2
+        },
+        {
+          "averageRating": 2032,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 1
+        },
+        {
+          "averageRating": 2060,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 475
+    },
+    "2024-09": {
+      "black": 386,
+      "draws": 65,
+      "moves": [
+        {
+          "averageRating": 2112,
+          "black": 284,
+          "draws": 49,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 289
+        },
+        {
+          "averageRating": 2099,
+          "black": 66,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 78
+        },
+        {
+          "averageRating": 2071,
+          "black": 11,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 4
+        },
+        {
+          "averageRating": 2063,
+          "black": 9,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 4
+        },
+        {
+          "averageRating": 2140,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 6
+        },
+        {
+          "averageRating": 2121,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 4
+        },
+        {
+          "averageRating": 2088,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 5
+        },
+        {
+          "averageRating": 2100,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 1
+        },
+        {
+          "averageRating": 1974,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "bonzhivant",
+              "rating": 2062
+            },
+            "id": "uD5ewYmX",
+            "mode": "rated",
+            "month": "2024-09",
+            "speed": "blitz",
+            "white": {
+              "name": "former_coach",
+              "rating": 1974
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 391
+    },
+    "2024-10": {
+      "black": 429,
+      "draws": 71,
+      "moves": [
+        {
+          "averageRating": 2109,
+          "black": 291,
+          "draws": 53,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 308
+        },
+        {
+          "averageRating": 2088,
+          "black": 93,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 85
+        },
+        {
+          "averageRating": 2069,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 13
+        },
+        {
+          "averageRating": 2030,
+          "black": 8,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 9
+        },
+        {
+          "averageRating": 2081,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 7
+        },
+        {
+          "averageRating": 2063,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 4
+        },
+        {
+          "averageRating": 2091,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2098,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 3
+        },
+        {
+          "averageRating": 1966,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 0
+        },
+        {
+          "averageRating": 1947,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "gjeta",
+              "rating": 2445
+            },
+            "id": "FLIQgQoH",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "replaska",
+              "rating": 1947
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "f3",
+          "uci": "f2f3",
+          "white": 0
+        },
+        {
+          "averageRating": 2076,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "BGonz94",
+              "rating": 2139
+            },
+            "id": "KdrP4eRa",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "lex0086",
+              "rating": 2076
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 431
+    },
+    "2024-11": {
+      "black": 362,
+      "draws": 67,
+      "moves": [
+        {
+          "averageRating": 2109,
+          "black": 251,
+          "draws": 45,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 327
+        },
+        {
+          "averageRating": 2089,
+          "black": 78,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 101
+        },
+        {
+          "averageRating": 2068,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 13
+        },
+        {
+          "averageRating": 2072,
+          "black": 9,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 7
+        },
+        {
+          "averageRating": 2111,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 8
+        },
+        {
+          "averageRating": 2063,
+          "black": 4,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 4
+        },
+        {
+          "averageRating": 2065,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 3
+        },
+        {
+          "averageRating": 2041,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 1
+        },
+        {
+          "averageRating": 2192,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "mota-lal",
+              "rating": 2115
+            },
+            "id": "WsJJntaH",
+            "mode": "rated",
+            "month": "2024-11",
+            "speed": "blitz",
+            "white": {
+              "name": "igordm",
+              "rating": 2192
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 1
+        },
+        {
+          "averageRating": 2165,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "MonsieurMol",
+              "rating": 2109
+            },
+            "id": "4Pj6cgtD",
+            "mode": "rated",
+            "month": "2024-11",
+            "speed": "blitz",
+            "white": {
+              "name": "griat70",
+              "rating": 2165
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 0
+        },
+        {
+          "averageRating": 2102,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Elbow",
+              "rating": 2180
+            },
+            "id": "NgitrOHN",
+            "mode": "rated",
+            "month": "2024-11",
+            "speed": "blitz",
+            "white": {
+              "name": "ArgonAchilles",
+              "rating": 2102
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 466
+    },
+    "2024-12": {
+      "black": 398,
+      "draws": 72,
+      "moves": [
+        {
+          "averageRating": 2111,
+          "black": 289,
+          "draws": 47,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 306
+        },
+        {
+          "averageRating": 2091,
+          "black": 80,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 102
+        },
+        {
+          "averageRating": 2108,
+          "black": 10,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 11
+        },
+        {
+          "averageRating": 2068,
+          "black": 5,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 11
+        },
+        {
+          "averageRating": 2115,
+          "black": 4,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 6
+        },
+        {
+          "averageRating": 2038,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2079,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 3
+        },
+        {
+          "averageRating": 2122,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 2
+        },
+        {
+          "averageRating": 2170,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 1
+        },
+        {
+          "averageRating": 2100,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 1
+        },
+        {
+          "averageRating": 2029,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Iamnotaproyet",
+              "rating": 2061
+            },
+            "id": "ty8niYPl",
+            "mode": "rated",
+            "month": "2024-12",
+            "speed": "blitz",
+            "white": {
+              "name": "II88864",
+              "rating": 2029
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 443
+    },
+    "2025-01": {
+      "black": 451,
+      "draws": 76,
+      "moves": [
+        {
+          "averageRating": 2107,
+          "black": 323,
+          "draws": 54,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 333
+        },
+        {
+          "averageRating": 2096,
+          "black": 87,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 86
+        },
+        {
+          "averageRating": 2089,
+          "black": 17,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 15
+        },
+        {
+          "averageRating": 2033,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 5
+        },
+        {
+          "averageRating": 2089,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 6
+        },
+        {
+          "averageRating": 2063,
+          "black": 5,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 3
+        },
+        {
+          "averageRating": 2094,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 5
+        },
+        {
+          "averageRating": 2192,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 1
+        },
+        {
+          "averageRating": 2085,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 455
+    },
+    "2025-02": {
+      "black": 405,
+      "draws": 64,
+      "moves": [
+        {
+          "averageRating": 2112,
+          "black": 289,
+          "draws": 48,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 278
+        },
+        {
+          "averageRating": 2092,
+          "black": 82,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 79
+        },
+        {
+          "averageRating": 2081,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 10
+        },
+        {
+          "averageRating": 2060,
+          "black": 11,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 5
+        },
+        {
+          "averageRating": 2043,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 4
+        },
+        {
+          "averageRating": 2111,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 3
+        },
+        {
+          "averageRating": 2032,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 1
+        },
+        {
+          "averageRating": 2116,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 1
+        },
+        {
+          "averageRating": 2034,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Daffa2014",
+              "rating": 2005
+            },
+            "id": "VFB1LFE6",
+            "mode": "rated",
+            "month": "2025-02",
+            "speed": "blitz",
+            "white": {
+              "name": "chambersbm",
+              "rating": 2034
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 381
+    },
+    "2025-03": {
+      "black": 413,
+      "draws": 76,
+      "moves": [
+        {
+          "averageRating": 2110,
+          "black": 271,
+          "draws": 64,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 315
+        },
+        {
+          "averageRating": 2092,
+          "black": 87,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 83
+        },
+        {
+          "averageRating": 2076,
+          "black": 16,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 8
+        },
+        {
+          "averageRating": 2080,
+          "black": 10,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 10
+        },
+        {
+          "averageRating": 2085,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 8
+        },
+        {
+          "averageRating": 2065,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 2
+        },
+        {
+          "averageRating": 2127,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 3
+        },
+        {
+          "averageRating": 2053,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2086,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 2
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 433
+    },
+    "2025-04": {
+      "black": 364,
+      "draws": 67,
+      "moves": [
+        {
+          "averageRating": 2117,
+          "black": 245,
+          "draws": 52,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 287
+        },
+        {
+          "averageRating": 2102,
+          "black": 80,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 95
+        },
+        {
+          "averageRating": 2089,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 5
+        },
+        {
+          "averageRating": 2094,
+          "black": 9,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 6
+        },
+        {
+          "averageRating": 2100,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 5
+        },
+        {
+          "averageRating": 2100,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 7
+        },
+        {
+          "averageRating": 1968,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 0
+        },
+        {
+          "averageRating": 2097,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 406
+    },
+    "2025-05": {
+      "black": 429,
+      "draws": 69,
+      "moves": [
+        {
+          "averageRating": 2111,
+          "black": 301,
+          "draws": 54,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 292
+        },
+        {
+          "averageRating": 2099,
+          "black": 85,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 85
+        },
+        {
+          "averageRating": 2091,
+          "black": 15,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 9
+        },
+        {
+          "averageRating": 2061,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 12
+        },
+        {
+          "averageRating": 2116,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 8
+        },
+        {
+          "averageRating": 2073,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 1
+        },
+        {
+          "averageRating": 2011,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 1
+        },
+        {
+          "averageRating": 2042,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2139,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 410
+    },
+    "2025-06": {
+      "black": 397,
+      "draws": 57,
+      "moves": [
+        {
+          "averageRating": 2109,
+          "black": 286,
+          "draws": 44,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 259
+        },
+        {
+          "averageRating": 2094,
+          "black": 73,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 86
+        },
+        {
+          "averageRating": 2097,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 8
+        },
+        {
+          "averageRating": 2074,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 7
+        },
+        {
+          "averageRating": 2111,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 3
+        },
+        {
+          "averageRating": 2039,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 6
+        },
+        {
+          "averageRating": 2098,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 3
+        },
+        {
+          "averageRating": 2079,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 373
+    },
+    "2025-07": {
+      "black": 426,
+      "draws": 65,
+      "moves": [
+        {
+          "averageRating": 2111,
+          "black": 314,
+          "draws": 49,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 327
+        },
+        {
+          "averageRating": 2086,
+          "black": 66,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 91
+        },
+        {
+          "averageRating": 2067,
+          "black": 13,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 15
+        },
+        {
+          "averageRating": 2049,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 13
+        },
+        {
+          "averageRating": 2067,
+          "black": 15,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 8
+        },
+        {
+          "averageRating": 2071,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 3
+        },
+        {
+          "averageRating": 2145,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 3
+        },
+        {
+          "averageRating": 2023,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2018,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 463
+    },
+    "2025-08": {
+      "black": 401,
+      "draws": 95,
+      "moves": [
+        {
+          "averageRating": 2111,
+          "black": 265,
+          "draws": 68,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 350
+        },
+        {
+          "averageRating": 2088,
+          "black": 87,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 84
+        },
+        {
+          "averageRating": 2055,
+          "black": 17,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 6
+        },
+        {
+          "averageRating": 2092,
+          "black": 12,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 8
+        },
+        {
+          "averageRating": 2102,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 6
+        },
+        {
+          "averageRating": 2084,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 0
+        },
+        {
+          "averageRating": 2098,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 4
+        },
+        {
+          "averageRating": 2118,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 3
+        },
+        {
+          "averageRating": 2047,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 2
+        },
+        {
+          "averageRating": 2088,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 1
+        },
+        {
+          "averageRating": 2036,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "kracmera",
+              "rating": 2103
+            },
+            "id": "rSKSsldy",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "mashinist25",
+              "rating": 2036
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "f3",
+          "uci": "f2f3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 464
+    },
+    "2025-09": {
+      "black": 381,
+      "draws": 68,
+      "moves": [
+        {
+          "averageRating": 2111,
+          "black": 262,
+          "draws": 50,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 280
+        },
+        {
+          "averageRating": 2096,
+          "black": 85,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 81
+        },
+        {
+          "averageRating": 2089,
+          "black": 14,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 4
+        },
+        {
+          "averageRating": 2089,
+          "black": 5,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 7
+        },
+        {
+          "averageRating": 2099,
+          "black": 7,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 5
+        },
+        {
+          "averageRating": 2091,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 6
+        },
+        {
+          "averageRating": 2100,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2135,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 0
+        },
+        {
+          "averageRating": 1993,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "MisterBreadCrumb",
+              "rating": 2009
+            },
+            "id": "nkOVyEoK",
+            "mode": "rated",
+            "month": "2025-09",
+            "speed": "blitz",
+            "white": {
+              "name": "Kingaro1958",
+              "rating": 1993
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 385
+    },
+    "2025-10": {
+      "black": 402,
+      "draws": 60,
+      "moves": [
+        {
+          "averageRating": 2106,
+          "black": 270,
+          "draws": 44,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 327
+        },
+        {
+          "averageRating": 2088,
+          "black": 94,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 90
+        },
+        {
+          "averageRating": 2094,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 9
+        },
+        {
+          "averageRating": 2078,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 6
+        },
+        {
+          "averageRating": 2044,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 3
+        },
+        {
+          "averageRating": 2088,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 3
+        },
+        {
+          "averageRating": 2072,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 2
+        },
+        {
+          "averageRating": 1995,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 0
+        },
+        {
+          "averageRating": 2093,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 1
+        },
+        {
+          "averageRating": 2074,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Sandrello",
+              "rating": 2100
+            },
+            "id": "ylQ7o0PN",
+            "mode": "rated",
+            "month": "2025-10",
+            "speed": "blitz",
+            "white": {
+              "name": "Antonionerja",
+              "rating": 2074
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 441
+    },
+    "2025-11": {
+      "black": 360,
+      "draws": 76,
+      "moves": [
+        {
+          "averageRating": 2109,
+          "black": 248,
+          "draws": 61,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 308
+        },
+        {
+          "averageRating": 2084,
+          "black": 80,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 65
+        },
+        {
+          "averageRating": 2095,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 9
+        },
+        {
+          "averageRating": 2059,
+          "black": 7,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 5
+        },
+        {
+          "averageRating": 2060,
+          "black": 4,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 5
+        },
+        {
+          "averageRating": 2042,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 6
+        },
+        {
+          "averageRating": 2119,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 1
+        },
+        {
+          "averageRating": 2100,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 1981,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Smersh1987",
+              "rating": 2110
+            },
+            "id": "xze6KQCe",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "NNSPb",
+              "rating": 1981
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne2",
+          "uci": "g1e2",
+          "white": 0
+        },
+        {
+          "averageRating": 2013,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "kamenetskiyto",
+              "rating": 2136
+            },
+            "id": "0DFGePGg",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Bullet_James",
+              "rating": 2013
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 400
+    },
+    "2025-12": {
+      "black": 424,
+      "draws": 73,
+      "moves": [
+        {
+          "averageRating": 2114,
+          "black": 305,
+          "draws": 55,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 308
+        },
+        {
+          "averageRating": 2091,
+          "black": 84,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 106
+        },
+        {
+          "averageRating": 2092,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 11
+        },
+        {
+          "averageRating": 2064,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 11
+        },
+        {
+          "averageRating": 2092,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 7
+        },
+        {
+          "averageRating": 2072,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 2
+        },
+        {
+          "averageRating": 2054,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 0
+        },
+        {
+          "averageRating": 2031,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2081,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 447
+    },
+    "2026-01": {
+      "black": 421,
+      "draws": 75,
+      "moves": [
+        {
+          "averageRating": 2111,
+          "black": 287,
+          "draws": 56,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 336
+        },
+        {
+          "averageRating": 2097,
+          "black": 83,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 95
+        },
+        {
+          "averageRating": 2067,
+          "black": 18,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 7
+        },
+        {
+          "averageRating": 2093,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 10
+        },
+        {
+          "averageRating": 2083,
+          "black": 14,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 4
+        },
+        {
+          "averageRating": 2115,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 6
+        },
+        {
+          "averageRating": 2123,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 2
+        },
+        {
+          "averageRating": 2011,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 1
+        },
+        {
+          "averageRating": 2132,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "lexel1981",
+              "rating": 2137
+            },
+            "id": "EvgdE0pc",
+            "mode": "rated",
+            "month": "2026-01",
+            "speed": "blitz",
+            "white": {
+              "name": "michaltrhal",
+              "rating": 2132
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 1
+        },
+        {
+          "averageRating": 2015,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "Mithrandear",
+              "rating": 2040
+            },
+            "id": "Xp4XcXvR",
+            "mode": "rated",
+            "month": "2026-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Ahmed_sad97",
+              "rating": 2015
+            },
+            "winner": null,
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 462
+    },
+    "2026-02": {
+      "black": 359,
+      "draws": 79,
+      "moves": [
+        {
+          "averageRating": 2103,
+          "black": 246,
+          "draws": 52,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 284
+        },
+        {
+          "averageRating": 2108,
+          "black": 79,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 96
+        },
+        {
+          "averageRating": 2035,
+          "black": 10,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 10
+        },
+        {
+          "averageRating": 2051,
+          "black": 7,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 9
+        },
+        {
+          "averageRating": 2079,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 2
+        },
+        {
+          "averageRating": 2045,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 5
+        },
+        {
+          "averageRating": 2086,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 4
+        },
+        {
+          "averageRating": 2046,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 0
+        },
+        {
+          "averageRating": 2147,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 411
+    },
+    "2026-03": {
+      "black": 424,
+      "draws": 71,
+      "moves": [
+        {
+          "averageRating": 2116,
+          "black": 295,
+          "draws": 53,
+          "game": null,
+          "opening": null,
+          "san": "Ngf3",
+          "uci": "g1f3",
+          "white": 295
+        },
+        {
+          "averageRating": 2090,
+          "black": 92,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "dxc5",
+          "uci": "d4c5",
+          "white": 76
+        },
+        {
+          "averageRating": 2088,
+          "black": 15,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 7
+        },
+        {
+          "averageRating": 2079,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 6
+        },
+        {
+          "averageRating": 2096,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ndf3",
+          "uci": "d2f3",
+          "white": 6
+        },
+        {
+          "averageRating": 2094,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 5
+        },
+        {
+          "averageRating": 2092,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nb3",
+          "uci": "d2b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2063,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 2
+        },
+        {
+          "averageRating": 2108,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 1
+        },
+        {
+          "averageRating": 2101,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "yaksok",
+              "rating": 2115
+            },
+            "id": "8iUPIT8E",
+            "mode": "rated",
+            "month": "2026-03",
+            "speed": "blitz",
+            "white": {
+              "name": "TomaszKraw",
+              "rating": 2101
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 0
+        },
+        {
+          "averageRating": 2065,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "denissonnenschein",
+              "rating": 2068
+            },
+            "id": "h8Ywg3dZ",
+            "mode": "rated",
+            "month": "2026-03",
+            "speed": "blitz",
+            "white": {
+              "name": "PatagoniaChessClub",
+              "rating": 2065
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Qf3",
+          "uci": "d1f3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      },
+      "white": 400
+    },
+    "2026-04": {
+      "white": 238,
+      "draws": 43,
+      "black": 228,
+      "moves": [
+        {
+          "uci": "g1f3",
+          "san": "Ngf3",
+          "averageRating": 2109,
+          "white": 183,
+          "draws": 35,
+          "black": 167,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d4c5",
+          "san": "dxc5",
+          "averageRating": 2108,
+          "white": 39,
+          "draws": 5,
+          "black": 43,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f1c4",
+          "san": "Bc4",
+          "averageRating": 2088,
+          "white": 6,
+          "draws": 2,
+          "black": 4,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f1b5",
+          "san": "Bb5+",
+          "averageRating": 2091,
+          "white": 3,
+          "draws": 1,
+          "black": 4,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d2b3",
+          "san": "Nb3",
+          "averageRating": 2085,
+          "white": 2,
+          "draws": 0,
+          "black": 4,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d2f3",
+          "san": "Ndf3",
+          "averageRating": 2110,
+          "white": 4,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c2c4",
+          "san": "c4",
+          "averageRating": 2098,
+          "white": 0,
+          "draws": 0,
+          "black": 3,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c2c3",
+          "san": "c3",
+          "averageRating": 2002,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d1f3",
+          "san": "Qf3",
+          "averageRating": 2060,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        }
+      ],
+      "recentGames": [],
+      "topGames": [],
+      "opening": {
+        "eco": "C07",
+        "name": "French Defense: Tarrasch Variation, Chistyakov Defense"
+      }
+    }
+  }
+}

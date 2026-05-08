@@ -1,4 +1,3 @@
-import json
 import logging
 import math
 import os
@@ -10,7 +9,6 @@ import pandas as pd
 from stockfish import Stockfish
 
 _HERE = os.path.dirname(__file__)
-OPENINGS_JSON = os.path.join(_HERE, "..", "openings.json")
 PROCESSED_CSV = os.path.join(_HERE, "..", "data", "processed", "openings_ts.csv")
 CATALOG_CSV   = os.path.join(_HERE, "..", "data", "openings_catalog.csv")
 OUTPUT_CSV    = os.path.join(_HERE, "..", "data", "output", "engine_delta.csv")
@@ -49,13 +47,11 @@ def _interpret(delta: float) -> str:
 
 
 def run_engine_delta() -> pd.DataFrame:
-    with open(OPENINGS_JSON) as f:
-        all_openings = json.load(f)
-
-    # Filter to Tier-1 openings only
+    # Load Tier-1 openings directly from the catalogue (single source of truth)
     catalog = pd.read_csv(CATALOG_CSV)
-    tier1_ecos = set(catalog.loc[catalog["model_tier"] == 1, "eco"])
-    openings = [o for o in all_openings if o["eco"] in tier1_ecos]
+    tier1 = catalog[catalog["model_tier"] == 1][["eco", "name", "moves"]].copy()
+    tier1 = tier1.dropna(subset=["moves"])
+    openings = tier1.to_dict("records")
     log.info("Engine delta: evaluating %d Tier-1 ECOs", len(openings))
 
     ts = pd.read_csv(PROCESSED_CSV)
@@ -78,32 +74,36 @@ def run_engine_delta() -> pd.DataFrame:
             name  = opening["name"]
             moves = opening["moves"]
 
-            fen = _get_fen_from_uci_moves(moves)
-            sf.set_fen_position(fen)
-            evaluation = sf.get_evaluation()
+            try:
+                fen = _get_fen_from_uci_moves(moves)
+                sf.set_fen_position(fen)
+                evaluation = sf.get_evaluation()
 
-            if evaluation["type"] == "cp":
-                cp = int(evaluation["value"])
-            else:  # mate
-                mate_in = int(evaluation["value"])
-                cp = 10000 if mate_in > 0 else -10000
+                if evaluation["type"] == "cp":
+                    cp = int(evaluation["value"])
+                else:  # mate
+                    mate_in = int(evaluation["value"])
+                    cp = 10000 if mate_in > 0 else -10000
 
-            p_engine = _cp_to_prob(cp)
-            human_rate = float(human_rates.get(eco, float("nan")))
-            delta = human_rate - p_engine
+                p_engine = _cp_to_prob(cp)
+                human_rate = float(human_rates.get(eco, float("nan")))
+                delta = human_rate - p_engine
 
-            print(f"{eco:4s} {name:30s}  cp={cp:+5d}  P_engine={p_engine:.4f}  "
-                  f"human={human_rate:.4f}  delta={delta:+.4f}")
+                print(f"{eco:4s} {name:30s}  cp={cp:+5d}  P_engine={p_engine:.4f}  "
+                      f"human={human_rate:.4f}  delta={delta:+.4f}")
 
-            rows.append({
-                "eco": eco,
-                "opening_name": name,
-                "engine_cp": cp,
-                "p_engine": round(p_engine, 6),
-                "human_win_rate_2000": round(human_rate, 6),
-                "delta": round(delta, 6),
-                "interpretation": _interpret(delta),
-            })
+                rows.append({
+                    "eco": eco,
+                    "opening_name": name,
+                    "engine_cp": cp,
+                    "p_engine": round(p_engine, 6),
+                    "human_win_rate_2000": round(human_rate, 6),
+                    "delta": round(delta, 6),
+                    "interpretation": _interpret(delta),
+                })
+            except Exception as exc:
+                log.warning("Skipping %s (%s): %s", eco, name, exc)
+                continue
     finally:
         del sf
 

@@ -1,0 +1,5060 @@
+{
+  "_meta": {
+    "skipped_months": {}
+  },
+  "eco": "E97",
+  "months": {
+    "2023-01": {
+      "black": 1522,
+      "draws": 162,
+      "moves": [
+        {
+          "averageRating": 2114,
+          "black": 1304,
+          "draws": 129,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1579
+        },
+        {
+          "averageRating": 2102,
+          "black": 93,
+          "draws": 21,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 124
+        },
+        {
+          "averageRating": 2107,
+          "black": 77,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 77
+        },
+        {
+          "averageRating": 2094,
+          "black": 25,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 31
+        },
+        {
+          "averageRating": 2118,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 19
+        },
+        {
+          "averageRating": 2110,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 2
+        },
+        {
+          "averageRating": 2035,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2086,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "GrandForever",
+              "rating": 2090
+            },
+            "id": "5c0EOWNo",
+            "mode": "rated",
+            "month": "2023-01",
+            "speed": "blitz",
+            "white": {
+              "name": "TurkishDelight08",
+              "rating": 2086
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Kh1",
+          "uci": "g1h1",
+          "white": 1
+        },
+        {
+          "averageRating": 2064,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "JAPUME",
+              "rating": 2005
+            },
+            "id": "GfnPTyrH",
+            "mode": "rated",
+            "month": "2023-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Fernando-Felicio",
+              "rating": 2064
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Ne1",
+          "uci": "f3e1",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1834
+    },
+    "2023-02": {
+      "black": 1297,
+      "draws": 161,
+      "moves": [
+        {
+          "averageRating": 2114,
+          "black": 1111,
+          "draws": 126,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1386
+        },
+        {
+          "averageRating": 2116,
+          "black": 79,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 98
+        },
+        {
+          "averageRating": 2094,
+          "black": 63,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 97
+        },
+        {
+          "averageRating": 2092,
+          "black": 21,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 20
+        },
+        {
+          "averageRating": 2083,
+          "black": 15,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 13
+        },
+        {
+          "averageRating": 2086,
+          "black": 6,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 2
+        },
+        {
+          "averageRating": 2087,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        },
+        {
+          "averageRating": 1968,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Bust-KBPL",
+              "rating": 2039
+            },
+            "id": "L5bUHOIH",
+            "mode": "rated",
+            "month": "2023-02",
+            "speed": "blitz",
+            "white": {
+              "name": "xaviermarch1",
+              "rating": 1968
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 0
+        },
+        {
+          "averageRating": 2173,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "toki48",
+              "rating": 2183
+            },
+            "id": "5tgwHSy6",
+            "mode": "rated",
+            "month": "2023-02",
+            "speed": "blitz",
+            "white": {
+              "name": "charles_go",
+              "rating": 2173
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Rb1",
+          "uci": "a1b1",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1618
+    },
+    "2023-03": {
+      "black": 1497,
+      "draws": 164,
+      "moves": [
+        {
+          "averageRating": 2113,
+          "black": 1280,
+          "draws": 134,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1538
+        },
+        {
+          "averageRating": 2100,
+          "black": 88,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 108
+        },
+        {
+          "averageRating": 2095,
+          "black": 74,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 91
+        },
+        {
+          "averageRating": 2090,
+          "black": 34,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 25
+        },
+        {
+          "averageRating": 2111,
+          "black": 15,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 12
+        },
+        {
+          "averageRating": 2115,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 4
+        },
+        {
+          "averageRating": 2099,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 3
+        },
+        {
+          "averageRating": 2050,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "alfredodaw1957",
+              "rating": 2117
+            },
+            "id": "WwWwJRPW",
+            "mode": "rated",
+            "month": "2023-03",
+            "speed": "blitz",
+            "white": {
+              "name": "Felipeortecha1",
+              "rating": 2050
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        },
+        {
+          "averageRating": 2109,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "thecrownofelifnaz",
+              "rating": 2124
+            },
+            "id": "RcwdqjbQ",
+            "mode": "rated",
+            "month": "2023-03",
+            "speed": "blitz",
+            "white": {
+              "name": "ayaacan",
+              "rating": 2109
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1783
+    },
+    "2023-04": {
+      "black": 1357,
+      "draws": 164,
+      "moves": [
+        {
+          "averageRating": 2113,
+          "black": 1149,
+          "draws": 134,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1496
+        },
+        {
+          "averageRating": 2096,
+          "black": 79,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 103
+        },
+        {
+          "averageRating": 2112,
+          "black": 76,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 97
+        },
+        {
+          "averageRating": 2066,
+          "black": 36,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 21
+        },
+        {
+          "averageRating": 2109,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 11
+        },
+        {
+          "averageRating": 2125,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 2
+        },
+        {
+          "averageRating": 2045,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2111,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        },
+        {
+          "averageRating": 2017,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "anika-zahir",
+              "rating": 2029
+            },
+            "id": "fArcyERc",
+            "mode": "rated",
+            "month": "2023-04",
+            "speed": "blitz",
+            "white": {
+              "name": "McCrea",
+              "rating": 2017
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 0
+        },
+        {
+          "averageRating": 2148,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "paran_jare",
+              "rating": 2167
+            },
+            "id": "5yUzKOkX",
+            "mode": "rated",
+            "month": "2023-04",
+            "speed": "blitz",
+            "white": {
+              "name": "JULIUS18",
+              "rating": 2148
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Kh1",
+          "uci": "g1h1",
+          "white": 1
+        },
+        {
+          "averageRating": 1986,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Mope1302-1",
+              "rating": 2023
+            },
+            "id": "UNOG6OEn",
+            "mode": "rated",
+            "month": "2023-04",
+            "speed": "blitz",
+            "white": {
+              "name": "stefancvetic",
+              "rating": 1986
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1735
+    },
+    "2023-05": {
+      "black": 1414,
+      "draws": 164,
+      "moves": [
+        {
+          "averageRating": 2114,
+          "black": 1227,
+          "draws": 127,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1504
+        },
+        {
+          "averageRating": 2098,
+          "black": 73,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 107
+        },
+        {
+          "averageRating": 2098,
+          "black": 65,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 103
+        },
+        {
+          "averageRating": 2086,
+          "black": 30,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 24
+        },
+        {
+          "averageRating": 2086,
+          "black": 17,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 10
+        },
+        {
+          "averageRating": 2049,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 2
+        },
+        {
+          "averageRating": 2052,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 3
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1753
+    },
+    "2023-06": {
+      "black": 1360,
+      "draws": 153,
+      "moves": [
+        {
+          "averageRating": 2117,
+          "black": 1163,
+          "draws": 120,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1354
+        },
+        {
+          "averageRating": 2088,
+          "black": 75,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 86
+        },
+        {
+          "averageRating": 2102,
+          "black": 77,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 89
+        },
+        {
+          "averageRating": 2094,
+          "black": 30,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 29
+        },
+        {
+          "averageRating": 2093,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 4
+        },
+        {
+          "averageRating": 2096,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 4
+        },
+        {
+          "averageRating": 2111,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "baaazigaaar",
+              "rating": 2031
+            },
+            "id": "edXgfzHU",
+            "mode": "rated",
+            "month": "2023-06",
+            "speed": "blitz",
+            "white": {
+              "name": "anvar02",
+              "rating": 2111
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        },
+        {
+          "averageRating": 2130,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "frw1980",
+              "rating": 2129
+            },
+            "id": "IHgvy5S1",
+            "mode": "rated",
+            "month": "2023-06",
+            "speed": "blitz",
+            "white": {
+              "name": "nolradsarev1",
+              "rating": 2130
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2043,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "elenterrador12",
+              "rating": 2056
+            },
+            "id": "kxmV9AoG",
+            "mode": "rated",
+            "month": "2023-06",
+            "speed": "blitz",
+            "white": {
+              "name": "Ronggolawe_75",
+              "rating": 2043
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Kh1",
+          "uci": "g1h1",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1568
+    },
+    "2023-07": {
+      "black": 1383,
+      "draws": 155,
+      "moves": [
+        {
+          "averageRating": 2115,
+          "black": 1177,
+          "draws": 117,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1425
+        },
+        {
+          "averageRating": 2103,
+          "black": 84,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 93
+        },
+        {
+          "averageRating": 2106,
+          "black": 77,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 85
+        },
+        {
+          "averageRating": 2094,
+          "black": 25,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 11
+        },
+        {
+          "averageRating": 2108,
+          "black": 14,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 17
+        },
+        {
+          "averageRating": 2103,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 3
+        },
+        {
+          "averageRating": 2195,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "GuessWhosBack2",
+              "rating": 2130
+            },
+            "id": "jetQdhpi",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "anzonytorin",
+              "rating": 2195
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        },
+        {
+          "averageRating": 2228,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Idelb777",
+              "rating": 2069
+            },
+            "id": "KBKQOzzI",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "bokske",
+              "rating": 2228
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Rb1",
+          "uci": "a1b1",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1635
+    },
+    "2023-08": {
+      "black": 1433,
+      "draws": 155,
+      "moves": [
+        {
+          "averageRating": 2113,
+          "black": 1247,
+          "draws": 114,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1490
+        },
+        {
+          "averageRating": 2111,
+          "black": 86,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 94
+        },
+        {
+          "averageRating": 2111,
+          "black": 59,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 104
+        },
+        {
+          "averageRating": 2101,
+          "black": 23,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 15
+        },
+        {
+          "averageRating": 2104,
+          "black": 9,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 13
+        },
+        {
+          "averageRating": 2098,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 3
+        },
+        {
+          "averageRating": 2134,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 2
+        },
+        {
+          "averageRating": 2253,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Said_Dokaev",
+              "rating": 2109
+            },
+            "id": "GuuvTYEN",
+            "mode": "rated",
+            "month": "2023-08",
+            "speed": "blitz",
+            "white": {
+              "name": "Deku088",
+              "rating": 2253
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2104,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Kickbox1998",
+              "rating": 2192
+            },
+            "id": "nob76Va6",
+            "mode": "rated",
+            "month": "2023-08",
+            "speed": "blitz",
+            "white": {
+              "name": "Brayoh1",
+              "rating": 2104
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2077,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "pabladam",
+              "rating": 2006
+            },
+            "id": "DdG6rID9",
+            "mode": "rated",
+            "month": "2023-08",
+            "speed": "blitz",
+            "white": {
+              "name": "ramex73",
+              "rating": 2077
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Ne1",
+          "uci": "f3e1",
+          "white": 0
+        },
+        {
+          "averageRating": 2106,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Yudin_Danil-2006",
+              "rating": 2178
+            },
+            "id": "j3gCLt1W",
+            "mode": "rated",
+            "month": "2023-08",
+            "speed": "blitz",
+            "white": {
+              "name": "IvanYANUARY",
+              "rating": 2106
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1722
+    },
+    "2023-09": {
+      "black": 1402,
+      "draws": 177,
+      "moves": [
+        {
+          "averageRating": 2115,
+          "black": 1181,
+          "draws": 142,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1495
+        },
+        {
+          "averageRating": 2097,
+          "black": 88,
+          "draws": 21,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 96
+        },
+        {
+          "averageRating": 2106,
+          "black": 88,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 94
+        },
+        {
+          "averageRating": 2098,
+          "black": 26,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 17
+        },
+        {
+          "averageRating": 2110,
+          "black": 13,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 17
+        },
+        {
+          "averageRating": 2101,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 5
+        },
+        {
+          "averageRating": 2064,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1725
+    },
+    "2023-10": {
+      "black": 1396,
+      "draws": 151,
+      "moves": [
+        {
+          "averageRating": 2114,
+          "black": 1195,
+          "draws": 117,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1458
+        },
+        {
+          "averageRating": 2112,
+          "black": 83,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 89
+        },
+        {
+          "averageRating": 2093,
+          "black": 68,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 76
+        },
+        {
+          "averageRating": 2115,
+          "black": 24,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 26
+        },
+        {
+          "averageRating": 2087,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 15
+        },
+        {
+          "averageRating": 2081,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 4
+        },
+        {
+          "averageRating": 2073,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 2
+        },
+        {
+          "averageRating": 2109,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Rb1",
+          "uci": "a1b1",
+          "white": 1
+        },
+        {
+          "averageRating": 2038,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Dr_AhmadSaturn",
+              "rating": 2060
+            },
+            "id": "NEPJnsie",
+            "mode": "rated",
+            "month": "2023-10",
+            "speed": "blitz",
+            "white": {
+              "name": "Rtishev_Maksim",
+              "rating": 2038
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2057,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "BORSIGUEMICHAELC",
+              "rating": 1951
+            },
+            "id": "j82XQUFO",
+            "mode": "rated",
+            "month": "2023-10",
+            "speed": "blitz",
+            "white": {
+              "name": "noelespa",
+              "rating": 2057
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1671
+    },
+    "2023-11": {
+      "black": 1259,
+      "draws": 153,
+      "moves": [
+        {
+          "averageRating": 2112,
+          "black": 1073,
+          "draws": 120,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1367
+        },
+        {
+          "averageRating": 2091,
+          "black": 61,
+          "draws": 21,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 88
+        },
+        {
+          "averageRating": 2112,
+          "black": 67,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 87
+        },
+        {
+          "averageRating": 2106,
+          "black": 37,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 29
+        },
+        {
+          "averageRating": 2095,
+          "black": 11,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 13
+        },
+        {
+          "averageRating": 2068,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 1
+        },
+        {
+          "averageRating": 2121,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "AlexeyKud",
+              "rating": 2098
+            },
+            "id": "zUSWeH8T",
+            "mode": "rated",
+            "month": "2023-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Elecamjo",
+              "rating": 2121
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2051,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Martinv1971",
+              "rating": 2037
+            },
+            "id": "vM61Kjt0",
+            "mode": "rated",
+            "month": "2023-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Mjmiche",
+              "rating": 2051
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 0
+        },
+        {
+          "averageRating": 1995,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Sabinirex3",
+              "rating": 2034
+            },
+            "id": "xGqMWrfq",
+            "mode": "rated",
+            "month": "2023-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Maniels1",
+              "rating": 1995
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Rb1",
+          "uci": "a1b1",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1585
+    },
+    "2023-12": {
+      "black": 1334,
+      "draws": 162,
+      "moves": [
+        {
+          "averageRating": 2118,
+          "black": 1109,
+          "draws": 126,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1489
+        },
+        {
+          "averageRating": 2120,
+          "black": 94,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 106
+        },
+        {
+          "averageRating": 2096,
+          "black": 80,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 92
+        },
+        {
+          "averageRating": 2097,
+          "black": 30,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 33
+        },
+        {
+          "averageRating": 2099,
+          "black": 15,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 16
+        },
+        {
+          "averageRating": 2024,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 1
+        },
+        {
+          "averageRating": 2019,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Langdon1712",
+              "rating": 2054
+            },
+            "id": "x9XVQtqe",
+            "mode": "rated",
+            "month": "2023-12",
+            "speed": "blitz",
+            "white": {
+              "name": "kalou681",
+              "rating": 2019
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Ne1",
+          "uci": "f3e1",
+          "white": 0
+        },
+        {
+          "averageRating": 2061,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Hughes8117",
+              "rating": 2066
+            },
+            "id": "vrXpfWVd",
+            "mode": "rated",
+            "month": "2023-12",
+            "speed": "blitz",
+            "white": {
+              "name": "MirzaSafar",
+              "rating": 2061
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1738
+    },
+    "2024-01": {
+      "black": 1362,
+      "draws": 167,
+      "moves": [
+        {
+          "averageRating": 2114,
+          "black": 1172,
+          "draws": 123,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1376
+        },
+        {
+          "averageRating": 2112,
+          "black": 87,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 108
+        },
+        {
+          "averageRating": 2098,
+          "black": 60,
+          "draws": 24,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 82
+        },
+        {
+          "averageRating": 2113,
+          "black": 29,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 27
+        },
+        {
+          "averageRating": 2076,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 12
+        },
+        {
+          "averageRating": 2092,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 6
+        },
+        {
+          "averageRating": 2126,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2210,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "marincu",
+              "rating": 2142
+            },
+            "id": "hf08ESQA",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "MaliZeus",
+              "rating": 2210
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1614
+    },
+    "2024-02": {
+      "black": 1268,
+      "draws": 144,
+      "moves": [
+        {
+          "averageRating": 2111,
+          "black": 1072,
+          "draws": 114,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1295
+        },
+        {
+          "averageRating": 2106,
+          "black": 73,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 96
+        },
+        {
+          "averageRating": 2094,
+          "black": 71,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 94
+        },
+        {
+          "averageRating": 2083,
+          "black": 33,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 27
+        },
+        {
+          "averageRating": 2074,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 9
+        },
+        {
+          "averageRating": 2126,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 4
+        },
+        {
+          "averageRating": 2009,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Hamedvasegh",
+              "rating": 2001
+            },
+            "id": "TT3544zI",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Rodina-Inna",
+              "rating": 2009
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        },
+        {
+          "averageRating": 2055,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "nocras",
+              "rating": 2006
+            },
+            "id": "BMlpr0hP",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Chessitron",
+              "rating": 2055
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 0
+        },
+        {
+          "averageRating": 2189,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Chesskilled",
+              "rating": 2159
+            },
+            "id": "4Fp2VVUx",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Fadli_LI",
+              "rating": 2189
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2205,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Chess_Blondinka",
+              "rating": 2176
+            },
+            "id": "dcZ0R3nk",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "perunamico",
+              "rating": 2205
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 0
+        },
+        {
+          "averageRating": 2053,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "TheAnimeMan2",
+              "rating": 2003
+            },
+            "id": "Gsgm1dtF",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Maniels1",
+              "rating": 2053
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Rb1",
+          "uci": "a1b1",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1526
+    },
+    "2024-03": {
+      "black": 1356,
+      "draws": 149,
+      "moves": [
+        {
+          "averageRating": 2111,
+          "black": 1183,
+          "draws": 115,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1356
+        },
+        {
+          "averageRating": 2100,
+          "black": 74,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 95
+        },
+        {
+          "averageRating": 2094,
+          "black": 62,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 94
+        },
+        {
+          "averageRating": 2089,
+          "black": 24,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 21
+        },
+        {
+          "averageRating": 2078,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 12
+        },
+        {
+          "averageRating": 2140,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 2
+        },
+        {
+          "averageRating": 2054,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1581
+    },
+    "2024-04": {
+      "black": 1274,
+      "draws": 143,
+      "moves": [
+        {
+          "averageRating": 2111,
+          "black": 1095,
+          "draws": 123,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1325
+        },
+        {
+          "averageRating": 2098,
+          "black": 73,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 120
+        },
+        {
+          "averageRating": 2112,
+          "black": 74,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 93
+        },
+        {
+          "averageRating": 2088,
+          "black": 15,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 12
+        },
+        {
+          "averageRating": 2091,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 10
+        },
+        {
+          "averageRating": 2100,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 1
+        },
+        {
+          "averageRating": 1992,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 0
+        },
+        {
+          "averageRating": 2004,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "zharfandish",
+              "rating": 2065
+            },
+            "id": "UD4OZlKP",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Feldfeger_b42",
+              "rating": 2004
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Ne1",
+          "uci": "f3e1",
+          "white": 1
+        },
+        {
+          "averageRating": 2070,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "PaRsiFaL987789",
+              "rating": 2004
+            },
+            "id": "v1ACVJxY",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "shegenton",
+              "rating": 2070
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1563
+    },
+    "2024-05": {
+      "black": 1259,
+      "draws": 155,
+      "moves": [
+        {
+          "averageRating": 2113,
+          "black": 1086,
+          "draws": 127,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1382
+        },
+        {
+          "averageRating": 2099,
+          "black": 55,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 119
+        },
+        {
+          "averageRating": 2105,
+          "black": 77,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 83
+        },
+        {
+          "averageRating": 2094,
+          "black": 28,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 23
+        },
+        {
+          "averageRating": 2093,
+          "black": 9,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 14
+        },
+        {
+          "averageRating": 2027,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        },
+        {
+          "averageRating": 2133,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "gibomax",
+              "rating": 2163
+            },
+            "id": "UkXtvY23",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "Nimmer6",
+              "rating": 2133
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 0
+        },
+        {
+          "averageRating": 2088,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "diuberjesus14",
+              "rating": 2082
+            },
+            "id": "8BHhJApy",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "KrilleKung",
+              "rating": 2088
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 0
+        },
+        {
+          "averageRating": 2056,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Onajor",
+              "rating": 2071
+            },
+            "id": "pQNqgawH",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "AdriKra05",
+              "rating": 2056
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Rb1",
+          "uci": "a1b1",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1622
+    },
+    "2024-06": {
+      "black": 1200,
+      "draws": 154,
+      "moves": [
+        {
+          "averageRating": 2110,
+          "black": 1039,
+          "draws": 123,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1293
+        },
+        {
+          "averageRating": 2095,
+          "black": 57,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 66
+        },
+        {
+          "averageRating": 2109,
+          "black": 54,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 70
+        },
+        {
+          "averageRating": 2109,
+          "black": 29,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 20
+        },
+        {
+          "averageRating": 2092,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 15
+        },
+        {
+          "averageRating": 2095,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 4
+        },
+        {
+          "averageRating": 2069,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        },
+        {
+          "averageRating": 1886,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        },
+        {
+          "averageRating": 2119,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "PICCARDO",
+              "rating": 2142
+            },
+            "id": "hjRTHl8a",
+            "mode": "rated",
+            "month": "2024-06",
+            "speed": "blitz",
+            "white": {
+              "name": "x1357924680",
+              "rating": 2119
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1469
+    },
+    "2024-07": {
+      "black": 1326,
+      "draws": 152,
+      "moves": [
+        {
+          "averageRating": 2111,
+          "black": 1154,
+          "draws": 111,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1328
+        },
+        {
+          "averageRating": 2088,
+          "black": 64,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 100
+        },
+        {
+          "averageRating": 2114,
+          "black": 78,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 88
+        },
+        {
+          "averageRating": 2097,
+          "black": 17,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 25
+        },
+        {
+          "averageRating": 2099,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 8
+        },
+        {
+          "averageRating": 2103,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 1
+        },
+        {
+          "averageRating": 2056,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 2
+        },
+        {
+          "averageRating": 2062,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Mukali",
+              "rating": 2084
+            },
+            "id": "bZzvDsVI",
+            "mode": "rated",
+            "month": "2024-07",
+            "speed": "blitz",
+            "white": {
+              "name": "Sadig-H",
+              "rating": 2062
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 1893,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Iuds",
+              "rating": 2225
+            },
+            "id": "30Zi1RXa",
+            "mode": "rated",
+            "month": "2024-07",
+            "speed": "blitz",
+            "white": {
+              "name": "MisterDimas",
+              "rating": 1893
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Rb1",
+          "uci": "a1b1",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1553
+    },
+    "2024-08": {
+      "black": 1226,
+      "draws": 110,
+      "moves": [
+        {
+          "averageRating": 2113,
+          "black": 1059,
+          "draws": 88,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1268
+        },
+        {
+          "averageRating": 2099,
+          "black": 61,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 84
+        },
+        {
+          "averageRating": 2114,
+          "black": 60,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 74
+        },
+        {
+          "averageRating": 2101,
+          "black": 31,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 13
+        },
+        {
+          "averageRating": 2082,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 9
+        },
+        {
+          "averageRating": 2057,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 1
+        },
+        {
+          "averageRating": 1991,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 0
+        },
+        {
+          "averageRating": 2176,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "nano_0144",
+              "rating": 2095
+            },
+            "id": "AsRGH2BB",
+            "mode": "rated",
+            "month": "2024-08",
+            "speed": "blitz",
+            "white": {
+              "name": "anzonytorin",
+              "rating": 2176
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2091,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Serjiomarquina",
+              "rating": 2122
+            },
+            "id": "xNU8priM",
+            "mode": "rated",
+            "month": "2024-08",
+            "speed": "blitz",
+            "white": {
+              "name": "McCrea",
+              "rating": 2091
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1450
+    },
+    "2024-09": {
+      "black": 1225,
+      "draws": 146,
+      "moves": [
+        {
+          "averageRating": 2109,
+          "black": 1063,
+          "draws": 111,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1259
+        },
+        {
+          "averageRating": 2092,
+          "black": 56,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 75
+        },
+        {
+          "averageRating": 2111,
+          "black": 56,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 67
+        },
+        {
+          "averageRating": 2086,
+          "black": 29,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 17
+        },
+        {
+          "averageRating": 2097,
+          "black": 11,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 10
+        },
+        {
+          "averageRating": 2128,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 3
+        },
+        {
+          "averageRating": 2060,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        },
+        {
+          "averageRating": 2087,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "sullani",
+              "rating": 2008
+            },
+            "id": "EuBFJh6y",
+            "mode": "rated",
+            "month": "2024-09",
+            "speed": "blitz",
+            "white": {
+              "name": "training_777",
+              "rating": 2087
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b4",
+          "uci": "b2b4",
+          "white": 0
+        },
+        {
+          "averageRating": 1983,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "oakstair",
+              "rating": 2066
+            },
+            "id": "9lOAIx2U",
+            "mode": "rated",
+            "month": "2024-09",
+            "speed": "blitz",
+            "white": {
+              "name": "tatyana770308",
+              "rating": 1983
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 0
+        },
+        {
+          "averageRating": 2059,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "platoon40",
+              "rating": 2068
+            },
+            "id": "38UUP2WQ",
+            "mode": "rated",
+            "month": "2024-09",
+            "speed": "blitz",
+            "white": {
+              "name": "alv1207",
+              "rating": 2059
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2073,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "AngeloSpiler",
+              "rating": 2111
+            },
+            "id": "YDTzA0PC",
+            "mode": "rated",
+            "month": "2024-09",
+            "speed": "blitz",
+            "white": {
+              "name": "ainsley_hayes",
+              "rating": 2073
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Ne1",
+          "uci": "f3e1",
+          "white": 0
+        },
+        {
+          "averageRating": 2121,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Armadale-Maxwel",
+              "rating": 2034
+            },
+            "id": "qO0vJTHI",
+            "mode": "rated",
+            "month": "2024-09",
+            "speed": "blitz",
+            "white": {
+              "name": "Slonik37",
+              "rating": 2121
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Rb1",
+          "uci": "a1b1",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1434
+    },
+    "2024-10": {
+      "black": 1264,
+      "draws": 158,
+      "moves": [
+        {
+          "averageRating": 2112,
+          "black": 1071,
+          "draws": 118,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1277
+        },
+        {
+          "averageRating": 2097,
+          "black": 65,
+          "draws": 27,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 91
+        },
+        {
+          "averageRating": 2105,
+          "black": 83,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 74
+        },
+        {
+          "averageRating": 2075,
+          "black": 27,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 27
+        },
+        {
+          "averageRating": 2094,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 11
+        },
+        {
+          "averageRating": 2105,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 4
+        },
+        {
+          "averageRating": 1994,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 0
+        },
+        {
+          "averageRating": 2232,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "j_f_p_p",
+              "rating": 2091
+            },
+            "id": "Ml92u6xJ",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "Cristian-Gutierrez16",
+              "rating": 2232
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2018,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "zeyadzz",
+              "rating": 2023
+            },
+            "id": "RzXGa1Xr",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "wbbi",
+              "rating": 2018
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1484
+    },
+    "2024-11": {
+      "black": 1106,
+      "draws": 132,
+      "moves": [
+        {
+          "averageRating": 2110,
+          "black": 950,
+          "draws": 93,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1258
+        },
+        {
+          "averageRating": 2101,
+          "black": 81,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 81
+        },
+        {
+          "averageRating": 2084,
+          "black": 46,
+          "draws": 24,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 58
+        },
+        {
+          "averageRating": 2092,
+          "black": 16,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 15
+        },
+        {
+          "averageRating": 2116,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 10
+        },
+        {
+          "averageRating": 2106,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 5
+        },
+        {
+          "averageRating": 2004,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 0
+        },
+        {
+          "averageRating": 2164,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Muinz",
+              "rating": 2223
+            },
+            "id": "YLS8DPhf",
+            "mode": "rated",
+            "month": "2024-11",
+            "speed": "blitz",
+            "white": {
+              "name": "JohneyMandal",
+              "rating": 2164
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1427
+    },
+    "2024-12": {
+      "black": 1209,
+      "draws": 141,
+      "moves": [
+        {
+          "averageRating": 2111,
+          "black": 1048,
+          "draws": 114,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1305
+        },
+        {
+          "averageRating": 2091,
+          "black": 59,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 90
+        },
+        {
+          "averageRating": 2104,
+          "black": 66,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 89
+        },
+        {
+          "averageRating": 2095,
+          "black": 21,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 26
+        },
+        {
+          "averageRating": 2092,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 10
+        },
+        {
+          "averageRating": 2075,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 4
+        },
+        {
+          "averageRating": 2029,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Ideenkiste",
+              "rating": 2080
+            },
+            "id": "O7s5kCM2",
+            "mode": "rated",
+            "month": "2024-12",
+            "speed": "blitz",
+            "white": {
+              "name": "FDrebin",
+              "rating": 2029
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2018,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "harfa",
+              "rating": 2122
+            },
+            "id": "qtsZ4dfY",
+            "mode": "rated",
+            "month": "2024-12",
+            "speed": "blitz",
+            "white": {
+              "name": "tanki12",
+              "rating": 2018
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1525
+    },
+    "2025-01": {
+      "black": 1288,
+      "draws": 164,
+      "moves": [
+        {
+          "averageRating": 2109,
+          "black": 1088,
+          "draws": 128,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1308
+        },
+        {
+          "averageRating": 2096,
+          "black": 95,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 102
+        },
+        {
+          "averageRating": 2084,
+          "black": 64,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 85
+        },
+        {
+          "averageRating": 2090,
+          "black": 25,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 27
+        },
+        {
+          "averageRating": 2105,
+          "black": 11,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 9
+        },
+        {
+          "averageRating": 2027,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 1
+        },
+        {
+          "averageRating": 2195,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2073,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Rb1",
+          "uci": "a1b1",
+          "white": 1
+        },
+        {
+          "averageRating": 1999,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "PestovKonstantin",
+              "rating": 2075
+            },
+            "id": "LFMkMGTX",
+            "mode": "rated",
+            "month": "2025-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Bhaktayogi",
+              "rating": 1999
+            },
+            "winner": null,
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 0
+        },
+        {
+          "averageRating": 1979,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Triskt",
+              "rating": 2024
+            },
+            "id": "AhM0Twpe",
+            "mode": "rated",
+            "month": "2025-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Chessaldo1919",
+              "rating": 1979
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 0
+        },
+        {
+          "averageRating": 2157,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "darksteed",
+              "rating": 2168
+            },
+            "id": "6DGz17qm",
+            "mode": "rated",
+            "month": "2025-01",
+            "speed": "blitz",
+            "white": {
+              "name": "chopo41",
+              "rating": 2157
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne1",
+          "uci": "f3e1",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1533
+    },
+    "2025-02": {
+      "black": 1069,
+      "draws": 116,
+      "moves": [
+        {
+          "averageRating": 2111,
+          "black": 924,
+          "draws": 100,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1125
+        },
+        {
+          "averageRating": 2098,
+          "black": 85,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 74
+        },
+        {
+          "averageRating": 2080,
+          "black": 27,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 55
+        },
+        {
+          "averageRating": 2098,
+          "black": 18,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 21
+        },
+        {
+          "averageRating": 2063,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 14
+        },
+        {
+          "averageRating": 2128,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 1
+        },
+        {
+          "averageRating": 2078,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        },
+        {
+          "averageRating": 2021,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Rb1",
+          "uci": "a1b1",
+          "white": 1
+        },
+        {
+          "averageRating": 2092,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Alexey_Kogan",
+              "rating": 2152
+            },
+            "id": "ZUL1LkA1",
+            "mode": "rated",
+            "month": "2025-02",
+            "speed": "blitz",
+            "white": {
+              "name": "pershian_God",
+              "rating": 2092
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne1",
+          "uci": "f3e1",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1292
+    },
+    "2025-03": {
+      "black": 1199,
+      "draws": 150,
+      "moves": [
+        {
+          "averageRating": 2111,
+          "black": 1035,
+          "draws": 114,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1220
+        },
+        {
+          "averageRating": 2109,
+          "black": 78,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 94
+        },
+        {
+          "averageRating": 2080,
+          "black": 56,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 58
+        },
+        {
+          "averageRating": 2093,
+          "black": 16,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 20
+        },
+        {
+          "averageRating": 2115,
+          "black": 10,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 8
+        },
+        {
+          "averageRating": 2093,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 6
+        },
+        {
+          "averageRating": 2074,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        },
+        {
+          "averageRating": 2102,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Linkg311",
+              "rating": 2249
+            },
+            "id": "kdtBKMVE",
+            "mode": "rated",
+            "month": "2025-03",
+            "speed": "blitz",
+            "white": {
+              "name": "luchle",
+              "rating": 2102
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne1",
+          "uci": "f3e1",
+          "white": 0
+        },
+        {
+          "averageRating": 2150,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Sh4lashaska",
+              "rating": 2150
+            },
+            "id": "o30KV5tc",
+            "mode": "rated",
+            "month": "2025-03",
+            "speed": "blitz",
+            "white": {
+              "name": "nasserbousselsal",
+              "rating": 2150
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1407
+    },
+    "2025-04": {
+      "black": 1116,
+      "draws": 122,
+      "moves": [
+        {
+          "averageRating": 2110,
+          "black": 950,
+          "draws": 102,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1200
+        },
+        {
+          "averageRating": 2114,
+          "black": 77,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 84
+        },
+        {
+          "averageRating": 2092,
+          "black": 51,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 70
+        },
+        {
+          "averageRating": 2095,
+          "black": 17,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 12
+        },
+        {
+          "averageRating": 2132,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 10
+        },
+        {
+          "averageRating": 2135,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 4
+        },
+        {
+          "averageRating": 2020,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qd3",
+          "uci": "d1d3",
+          "white": 1
+        },
+        {
+          "averageRating": 2031,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2089,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1382
+    },
+    "2025-05": {
+      "black": 1217,
+      "draws": 140,
+      "moves": [
+        {
+          "averageRating": 2111,
+          "black": 1074,
+          "draws": 120,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1301
+        },
+        {
+          "averageRating": 2107,
+          "black": 65,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 83
+        },
+        {
+          "averageRating": 2101,
+          "black": 47,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 88
+        },
+        {
+          "averageRating": 2090,
+          "black": 15,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 12
+        },
+        {
+          "averageRating": 2093,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 11
+        },
+        {
+          "averageRating": 2113,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 3
+        },
+        {
+          "averageRating": 2062,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qd3",
+          "uci": "d1d3",
+          "white": 0
+        },
+        {
+          "averageRating": 2058,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "svetlina123",
+              "rating": 2105
+            },
+            "id": "hmaOxXma",
+            "mode": "rated",
+            "month": "2025-05",
+            "speed": "blitz",
+            "white": {
+              "name": "lavz",
+              "rating": 2058
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2049,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "vacio",
+              "rating": 1953
+            },
+            "id": "Fiat9amK",
+            "mode": "rated",
+            "month": "2025-05",
+            "speed": "blitz",
+            "white": {
+              "name": "lalo_reyes",
+              "rating": 2049
+            },
+            "winner": null,
+            "year": 2025
+          },
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1499
+    },
+    "2025-06": {
+      "black": 1075,
+      "draws": 145,
+      "moves": [
+        {
+          "averageRating": 2110,
+          "black": 936,
+          "draws": 108,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1150
+        },
+        {
+          "averageRating": 2099,
+          "black": 64,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 75
+        },
+        {
+          "averageRating": 2097,
+          "black": 46,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 65
+        },
+        {
+          "averageRating": 2106,
+          "black": 13,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 17
+        },
+        {
+          "averageRating": 2091,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 9
+        },
+        {
+          "averageRating": 2099,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 3
+        },
+        {
+          "averageRating": 2048,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 3
+        },
+        {
+          "averageRating": 2195,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Prof_Kingclown",
+              "rating": 2182
+            },
+            "id": "xE6t27qS",
+            "mode": "rated",
+            "month": "2025-06",
+            "speed": "blitz",
+            "white": {
+              "name": "kobushimienai",
+              "rating": 2195
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1322
+    },
+    "2025-07": {
+      "black": 1109,
+      "draws": 143,
+      "moves": [
+        {
+          "averageRating": 2113,
+          "black": 994,
+          "draws": 111,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1240
+        },
+        {
+          "averageRating": 2101,
+          "black": 48,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 68
+        },
+        {
+          "averageRating": 2082,
+          "black": 40,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 70
+        },
+        {
+          "averageRating": 2075,
+          "black": 10,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 15
+        },
+        {
+          "averageRating": 2078,
+          "black": 9,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 8
+        },
+        {
+          "averageRating": 2037,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 4
+        },
+        {
+          "averageRating": 2006,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1405
+    },
+    "2025-08": {
+      "black": 1123,
+      "draws": 129,
+      "moves": [
+        {
+          "averageRating": 2109,
+          "black": 1004,
+          "draws": 107,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1263
+        },
+        {
+          "averageRating": 2098,
+          "black": 55,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 80
+        },
+        {
+          "averageRating": 2090,
+          "black": 33,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 56
+        },
+        {
+          "averageRating": 2111,
+          "black": 16,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 12
+        },
+        {
+          "averageRating": 2075,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 14
+        },
+        {
+          "averageRating": 2085,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 0
+        },
+        {
+          "averageRating": 2080,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 2
+        },
+        {
+          "averageRating": 1984,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Viral_BlueGirl",
+              "rating": 2029
+            },
+            "id": "QUaKwwqV",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "I-range",
+              "rating": 1984
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne1",
+          "uci": "f3e1",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1427
+    },
+    "2025-09": {
+      "black": 1099,
+      "draws": 140,
+      "moves": [
+        {
+          "averageRating": 2108,
+          "black": 985,
+          "draws": 121,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1173
+        },
+        {
+          "averageRating": 2108,
+          "black": 49,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 55
+        },
+        {
+          "averageRating": 2084,
+          "black": 35,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 50
+        },
+        {
+          "averageRating": 2100,
+          "black": 17,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 20
+        },
+        {
+          "averageRating": 2104,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 13
+        },
+        {
+          "averageRating": 2075,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 4
+        },
+        {
+          "averageRating": 1963,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "egorsuslikov",
+              "rating": 2040
+            },
+            "id": "NOAbwq6i",
+            "mode": "rated",
+            "month": "2025-09",
+            "speed": "blitz",
+            "white": {
+              "name": "alexle",
+              "rating": 1963
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 0
+        },
+        {
+          "averageRating": 2116,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "yazam",
+              "rating": 2095
+            },
+            "id": "K9KO63GW",
+            "mode": "rated",
+            "month": "2025-09",
+            "speed": "blitz",
+            "white": {
+              "name": "norapatta67",
+              "rating": 2116
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne1",
+          "uci": "f3e1",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1316
+    },
+    "2025-10": {
+      "black": 1118,
+      "draws": 141,
+      "moves": [
+        {
+          "averageRating": 2110,
+          "black": 968,
+          "draws": 112,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1209
+        },
+        {
+          "averageRating": 2082,
+          "black": 67,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 54
+        },
+        {
+          "averageRating": 2105,
+          "black": 48,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 60
+        },
+        {
+          "averageRating": 2082,
+          "black": 15,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 22
+        },
+        {
+          "averageRating": 2087,
+          "black": 11,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 8
+        },
+        {
+          "averageRating": 2116,
+          "black": 6,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 4
+        },
+        {
+          "averageRating": 2119,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        },
+        {
+          "averageRating": 2027,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Andrei_Pospelov",
+              "rating": 1990
+            },
+            "id": "c6rp4wPM",
+            "mode": "rated",
+            "month": "2025-10",
+            "speed": "blitz",
+            "white": {
+              "name": "Mohammad_Ismail",
+              "rating": 2027
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 1
+        },
+        {
+          "averageRating": 2089,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "igor1047",
+              "rating": 2031
+            },
+            "id": "TdCyZhEx",
+            "mode": "rated",
+            "month": "2025-10",
+            "speed": "blitz",
+            "white": {
+              "name": "aidar_chess",
+              "rating": 2089
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Rb1",
+          "uci": "a1b1",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1359
+    },
+    "2025-11": {
+      "black": 1037,
+      "draws": 128,
+      "moves": [
+        {
+          "averageRating": 2110,
+          "black": 905,
+          "draws": 103,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1112
+        },
+        {
+          "averageRating": 2100,
+          "black": 57,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 55
+        },
+        {
+          "averageRating": 2077,
+          "black": 40,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 55
+        },
+        {
+          "averageRating": 2068,
+          "black": 19,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 12
+        },
+        {
+          "averageRating": 2084,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 5
+        },
+        {
+          "averageRating": 2114,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 1
+        },
+        {
+          "averageRating": 2079,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        },
+        {
+          "averageRating": 2067,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "tequ",
+              "rating": 2042
+            },
+            "id": "StPt4gda",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "TheBeigua",
+              "rating": 2067
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1242
+    },
+    "2025-12": {
+      "black": 1071,
+      "draws": 130,
+      "moves": [
+        {
+          "averageRating": 2112,
+          "black": 924,
+          "draws": 97,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1147
+        },
+        {
+          "averageRating": 2104,
+          "black": 63,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 75
+        },
+        {
+          "averageRating": 2079,
+          "black": 49,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 61
+        },
+        {
+          "averageRating": 2085,
+          "black": 18,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 14
+        },
+        {
+          "averageRating": 2080,
+          "black": 10,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 6
+        },
+        {
+          "averageRating": 2111,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 5
+        },
+        {
+          "averageRating": 2159,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        },
+        {
+          "averageRating": 2175,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Azaruuu",
+              "rating": 2176
+            },
+            "id": "9igh3ALO",
+            "mode": "rated",
+            "month": "2025-12",
+            "speed": "blitz",
+            "white": {
+              "name": "MrLucaToniDefense",
+              "rating": 2175
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 0
+        },
+        {
+          "averageRating": 2174,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Figo13",
+              "rating": 2206
+            },
+            "id": "2lyKxrtW",
+            "mode": "rated",
+            "month": "2025-12",
+            "speed": "blitz",
+            "white": {
+              "name": "iminovumar2",
+              "rating": 2174
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Rb1",
+          "uci": "a1b1",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1309
+    },
+    "2026-01": {
+      "black": 1088,
+      "draws": 137,
+      "moves": [
+        {
+          "averageRating": 2109,
+          "black": 951,
+          "draws": 117,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1151
+        },
+        {
+          "averageRating": 2103,
+          "black": 62,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 82
+        },
+        {
+          "averageRating": 2077,
+          "black": 41,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 57
+        },
+        {
+          "averageRating": 2107,
+          "black": 19,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 14
+        },
+        {
+          "averageRating": 2072,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 5
+        },
+        {
+          "averageRating": 2087,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 4
+        },
+        {
+          "averageRating": 1778,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "EDEY",
+              "rating": 2291
+            },
+            "id": "ocj7svwW",
+            "mode": "rated",
+            "month": "2026-01",
+            "speed": "blitz",
+            "white": {
+              "name": "ChessManBG",
+              "rating": 1778
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2178,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "espaeza72esc",
+              "rating": 2145
+            },
+            "id": "XF3Ocus3",
+            "mode": "rated",
+            "month": "2026-01",
+            "speed": "blitz",
+            "white": {
+              "name": "BanesTheKing",
+              "rating": 2178
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1314
+    },
+    "2026-02": {
+      "black": 946,
+      "draws": 131,
+      "moves": [
+        {
+          "averageRating": 2108,
+          "black": 837,
+          "draws": 109,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1057
+        },
+        {
+          "averageRating": 2088,
+          "black": 41,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 61
+        },
+        {
+          "averageRating": 2106,
+          "black": 33,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 63
+        },
+        {
+          "averageRating": 2091,
+          "black": 23,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 11
+        },
+        {
+          "averageRating": 2097,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 5
+        },
+        {
+          "averageRating": 2097,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 5
+        },
+        {
+          "averageRating": 2103,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "Repetto94",
+              "rating": 2224
+            },
+            "id": "8zxa4ccB",
+            "mode": "rated",
+            "month": "2026-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Xavierenriquez",
+              "rating": 2103
+            },
+            "winner": null,
+            "year": 2026
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2015,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "sysov",
+              "rating": 2078
+            },
+            "id": "vP9z2F4E",
+            "mode": "rated",
+            "month": "2026-02",
+            "speed": "blitz",
+            "white": {
+              "name": "mohamedhassan88",
+              "rating": 2015
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        },
+        {
+          "averageRating": 2170,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ColonelKurtz73",
+              "rating": 2107
+            },
+            "id": "QTxF7aUQ",
+            "mode": "rated",
+            "month": "2026-02",
+            "speed": "blitz",
+            "white": {
+              "name": "StickWar14",
+              "rating": 2170
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1203
+    },
+    "2026-03": {
+      "black": 1072,
+      "draws": 146,
+      "moves": [
+        {
+          "averageRating": 2108,
+          "black": 938,
+          "draws": 120,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d4d5",
+          "white": 1175
+        },
+        {
+          "averageRating": 2091,
+          "black": 53,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "dxe5",
+          "uci": "d4e5",
+          "white": 63
+        },
+        {
+          "averageRating": 2108,
+          "black": 42,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 77
+        },
+        {
+          "averageRating": 2075,
+          "black": 25,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 9
+        },
+        {
+          "averageRating": 2098,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 5
+        },
+        {
+          "averageRating": 2146,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 1
+        },
+        {
+          "averageRating": 2054,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "masteryoyoy",
+              "rating": 2022
+            },
+            "id": "TZ9KJqMB",
+            "mode": "rated",
+            "month": "2026-03",
+            "speed": "blitz",
+            "white": {
+              "name": "Mohammad_Ismail",
+              "rating": 2054
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      },
+      "white": 1330
+    },
+    "2026-04": {
+      "white": 651,
+      "draws": 68,
+      "black": 517,
+      "moves": [
+        {
+          "uci": "d4d5",
+          "san": "d5",
+          "averageRating": 2106,
+          "white": 588,
+          "draws": 52,
+          "black": 450,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c1e3",
+          "san": "Be3",
+          "averageRating": 2095,
+          "white": 28,
+          "draws": 3,
+          "black": 28,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d4e5",
+          "san": "dxe5",
+          "averageRating": 2090,
+          "white": 22,
+          "draws": 8,
+          "black": 24,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "h2h3",
+          "san": "h3",
+          "averageRating": 2096,
+          "white": 5,
+          "draws": 4,
+          "black": 11,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c1g5",
+          "san": "Bg5",
+          "averageRating": 2114,
+          "white": 6,
+          "draws": 1,
+          "black": 3,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f1e1",
+          "san": "Re1",
+          "averageRating": 2309,
+          "white": 2,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f3e1",
+          "san": "Ne1",
+          "averageRating": 2182,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        }
+      ],
+      "recentGames": [],
+      "topGames": [],
+      "opening": {
+        "eco": "E97",
+        "name": "King's Indian Defense: Orthodox Variation, Aronin-Taimanov Defense"
+      }
+    }
+  }
+}

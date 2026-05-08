@@ -1,0 +1,6250 @@
+{
+  "_meta": {
+    "skipped_months": {}
+  },
+  "eco": "B49",
+  "months": {
+    "2023-01": {
+      "black": 481,
+      "draws": 39,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 324,
+          "draws": 29,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 268
+        },
+        {
+          "averageRating": 2086,
+          "black": 95,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 84
+        },
+        {
+          "averageRating": 2114,
+          "black": 26,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 15
+        },
+        {
+          "averageRating": 2078,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 5
+        },
+        {
+          "averageRating": 2090,
+          "black": 10,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3
+        },
+        {
+          "averageRating": 2073,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 4
+        },
+        {
+          "averageRating": 2029,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 4
+        },
+        {
+          "averageRating": 2104,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nxd4",
+          "uci": "c6d4",
+          "white": 2
+        },
+        {
+          "averageRating": 1968,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 0
+        },
+        {
+          "averageRating": 2082,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 1
+        },
+        {
+          "averageRating": 2028,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 0
+        },
+        {
+          "averageRating": 2133,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "Anatolii_Pomomarov",
+              "rating": 2133
+            },
+            "id": "mg90N1PX",
+            "mode": "rated",
+            "month": "2023-01",
+            "speed": "blitz",
+            "white": {
+              "name": "kardjeel",
+              "rating": 2078
+            },
+            "winner": null,
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qd6",
+          "uci": "c7d6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 387
+    },
+    "2023-02": {
+      "black": 481,
+      "draws": 42,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 352,
+          "draws": 29,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 286
+        },
+        {
+          "averageRating": 2099,
+          "black": 86,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 63
+        },
+        {
+          "averageRating": 2067,
+          "black": 17,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 29
+        },
+        {
+          "averageRating": 2072,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 10
+        },
+        {
+          "averageRating": 2032,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 3
+        },
+        {
+          "averageRating": 2057,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3
+        },
+        {
+          "averageRating": 2059,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 2
+        },
+        {
+          "averageRating": 2013,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 3
+        },
+        {
+          "averageRating": 2031,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 2
+        },
+        {
+          "averageRating": 2168,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nxd4",
+          "uci": "c6d4",
+          "white": 0
+        },
+        {
+          "averageRating": 2137,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 1
+        },
+        {
+          "averageRating": 1997,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 2
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 406
+    },
+    "2023-03": {
+      "black": 525,
+      "draws": 49,
+      "moves": [
+        {
+          "averageRating": 2105,
+          "black": 394,
+          "draws": 39,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 280
+        },
+        {
+          "averageRating": 2083,
+          "black": 91,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 79
+        },
+        {
+          "averageRating": 2084,
+          "black": 13,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 15
+        },
+        {
+          "averageRating": 2042,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 7
+        },
+        {
+          "averageRating": 2095,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 7
+        },
+        {
+          "averageRating": 2059,
+          "black": 3,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 7
+        },
+        {
+          "averageRating": 2017,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 3
+        },
+        {
+          "averageRating": 2085,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 3
+        },
+        {
+          "averageRating": 2119,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nxd4",
+          "uci": "c6d4",
+          "white": 3
+        },
+        {
+          "averageRating": 2153,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2263,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Ignabongga",
+              "rating": 2263
+            },
+            "id": "tfx48kW9",
+            "mode": "rated",
+            "month": "2023-03",
+            "speed": "blitz",
+            "white": {
+              "name": "BFeri50",
+              "rating": 1860
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Rb8",
+          "uci": "a8b8",
+          "white": 0
+        },
+        {
+          "averageRating": 2029,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "rudiprus",
+              "rating": 2029
+            },
+            "id": "AvqYUnWM",
+            "mode": "rated",
+            "month": "2023-03",
+            "speed": "blitz",
+            "white": {
+              "name": "iftihagesalim",
+              "rating": 2002
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 406
+    },
+    "2023-04": {
+      "black": 462,
+      "draws": 51,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 324,
+          "draws": 37,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 252
+        },
+        {
+          "averageRating": 2086,
+          "black": 100,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 61
+        },
+        {
+          "averageRating": 2049,
+          "black": 20,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 25
+        },
+        {
+          "averageRating": 2048,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 8
+        },
+        {
+          "averageRating": 2097,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 4
+        },
+        {
+          "averageRating": 2008,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 2
+        },
+        {
+          "averageRating": 2041,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 2
+        },
+        {
+          "averageRating": 2118,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 0
+        },
+        {
+          "averageRating": 2071,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 1
+        },
+        {
+          "averageRating": 2120,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2046,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "nadnad6969",
+              "rating": 2046
+            },
+            "id": "fs9bS66I",
+            "mode": "rated",
+            "month": "2023-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Vic_KENNERZ",
+              "rating": 2042
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 0
+        },
+        {
+          "averageRating": 2027,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "GabinoLupin",
+              "rating": 2027
+            },
+            "id": "9TbbZgjd",
+            "mode": "rated",
+            "month": "2023-04",
+            "speed": "blitz",
+            "white": {
+              "name": "jilovis",
+              "rating": 2023
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 357
+    },
+    "2023-05": {
+      "black": 541,
+      "draws": 50,
+      "moves": [
+        {
+          "averageRating": 2107,
+          "black": 392,
+          "draws": 34,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 298
+        },
+        {
+          "averageRating": 2092,
+          "black": 106,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 75
+        },
+        {
+          "averageRating": 2092,
+          "black": 16,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 22
+        },
+        {
+          "averageRating": 2076,
+          "black": 5,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 5
+        },
+        {
+          "averageRating": 2047,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 6
+        },
+        {
+          "averageRating": 1983,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 5
+        },
+        {
+          "averageRating": 2048,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 1
+        },
+        {
+          "averageRating": 2131,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 4
+        },
+        {
+          "averageRating": 2052,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 2
+        },
+        {
+          "averageRating": 2112,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2058,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 0
+        },
+        {
+          "averageRating": 2051,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "J4YYU5_LCKB",
+              "rating": 2051
+            },
+            "id": "O2CeZQLL",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "RMAL_BKD",
+              "rating": 2150
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nxd4",
+          "uci": "c6d4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 420
+    },
+    "2023-06": {
+      "black": 398,
+      "draws": 43,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 288,
+          "draws": 30,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 233
+        },
+        {
+          "averageRating": 2096,
+          "black": 75,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 73
+        },
+        {
+          "averageRating": 2090,
+          "black": 16,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 16
+        },
+        {
+          "averageRating": 2093,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 4
+        },
+        {
+          "averageRating": 2056,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3
+        },
+        {
+          "averageRating": 2139,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 4
+        },
+        {
+          "averageRating": 2028,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 2
+        },
+        {
+          "averageRating": 2042,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 1
+        },
+        {
+          "averageRating": 1992,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 4
+        },
+        {
+          "averageRating": 2046,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1
+        },
+        {
+          "averageRating": 2094,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nxd4",
+          "uci": "c6d4",
+          "white": 1
+        },
+        {
+          "averageRating": 1673,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "hutsap",
+              "rating": 1673
+            },
+            "id": "IgerUxRT",
+            "mode": "rated",
+            "month": "2023-06",
+            "speed": "blitz",
+            "white": {
+              "name": "fito2",
+              "rating": 2459
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 344
+    },
+    "2023-07": {
+      "black": 432,
+      "draws": 57,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 314,
+          "draws": 33,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 292
+        },
+        {
+          "averageRating": 2097,
+          "black": 85,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 70
+        },
+        {
+          "averageRating": 2086,
+          "black": 16,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 18
+        },
+        {
+          "averageRating": 2049,
+          "black": 3,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 5
+        },
+        {
+          "averageRating": 1998,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3
+        },
+        {
+          "averageRating": 2083,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 3
+        },
+        {
+          "averageRating": 2090,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 2
+        },
+        {
+          "averageRating": 2082,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nxd4",
+          "uci": "c6d4",
+          "white": 2
+        },
+        {
+          "averageRating": 2133,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2119,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 2
+        },
+        {
+          "averageRating": 2055,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 2
+        },
+        {
+          "averageRating": 2054,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 2
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 403
+    },
+    "2023-08": {
+      "black": 501,
+      "draws": 50,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 356,
+          "draws": 35,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 258
+        },
+        {
+          "averageRating": 2089,
+          "black": 91,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 62
+        },
+        {
+          "averageRating": 2100,
+          "black": 19,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 21
+        },
+        {
+          "averageRating": 2062,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 3
+        },
+        {
+          "averageRating": 2111,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 5
+        },
+        {
+          "averageRating": 2058,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nxd4",
+          "uci": "c6d4",
+          "white": 3
+        },
+        {
+          "averageRating": 2104,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3
+        },
+        {
+          "averageRating": 2070,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 1
+        },
+        {
+          "averageRating": 2061,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 3
+        },
+        {
+          "averageRating": 2028,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2099,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2034,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 363
+    },
+    "2023-09": {
+      "black": 441,
+      "draws": 59,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 317,
+          "draws": 38,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 261
+        },
+        {
+          "averageRating": 2094,
+          "black": 97,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 66
+        },
+        {
+          "averageRating": 2086,
+          "black": 7,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 17
+        },
+        {
+          "averageRating": 2073,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 6
+        },
+        {
+          "averageRating": 2038,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 5
+        },
+        {
+          "averageRating": 2017,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 4
+        },
+        {
+          "averageRating": 2101,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 3
+        },
+        {
+          "averageRating": 2080,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nxd4",
+          "uci": "c6d4",
+          "white": 3
+        },
+        {
+          "averageRating": 2054,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 1
+        },
+        {
+          "averageRating": 1916,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 3
+        },
+        {
+          "averageRating": 2015,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 2
+        },
+        {
+          "averageRating": 2260,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "MarathonBishop",
+              "rating": 2260
+            },
+            "id": "REDOsXSW",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "DancingQueen_1",
+              "rating": 2123
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "f6",
+          "uci": "f7f6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 373
+    },
+    "2023-10": {
+      "black": 441,
+      "draws": 41,
+      "moves": [
+        {
+          "averageRating": 2094,
+          "black": 313,
+          "draws": 27,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 275
+        },
+        {
+          "averageRating": 2105,
+          "black": 87,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 78
+        },
+        {
+          "averageRating": 2078,
+          "black": 23,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 19
+        },
+        {
+          "averageRating": 2049,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 7
+        },
+        {
+          "averageRating": 2049,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3
+        },
+        {
+          "averageRating": 2115,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nxd4",
+          "uci": "c6d4",
+          "white": 3
+        },
+        {
+          "averageRating": 2063,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 4
+        },
+        {
+          "averageRating": 2104,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 4
+        },
+        {
+          "averageRating": 1908,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2122,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 0
+        },
+        {
+          "averageRating": 2160,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Ometochtli",
+              "rating": 2160
+            },
+            "id": "My3W1mpx",
+            "mode": "rated",
+            "month": "2023-10",
+            "speed": "blitz",
+            "white": {
+              "name": "ChessPhilosophy_13",
+              "rating": 2176
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 394
+    },
+    "2023-11": {
+      "black": 387,
+      "draws": 37,
+      "moves": [
+        {
+          "averageRating": 2096,
+          "black": 278,
+          "draws": 28,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 272
+        },
+        {
+          "averageRating": 2092,
+          "black": 80,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 77
+        },
+        {
+          "averageRating": 2079,
+          "black": 10,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 15
+        },
+        {
+          "averageRating": 2077,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 6
+        },
+        {
+          "averageRating": 2046,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nxd4",
+          "uci": "c6d4",
+          "white": 2
+        },
+        {
+          "averageRating": 2123,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2
+        },
+        {
+          "averageRating": 2058,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 2
+        },
+        {
+          "averageRating": 2093,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 3
+        },
+        {
+          "averageRating": 2124,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 0
+        },
+        {
+          "averageRating": 2096,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "TrustMeImNotABot",
+              "rating": 2096
+            },
+            "id": "amQvkY4i",
+            "mode": "rated",
+            "month": "2023-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Ardashiir",
+              "rating": 2164
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1
+        },
+        {
+          "averageRating": 2050,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "karruche",
+              "rating": 2050
+            },
+            "id": "vSrsfKR3",
+            "mode": "rated",
+            "month": "2023-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Kappie",
+              "rating": 2048
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e6e5",
+          "white": 1
+        },
+        {
+          "averageRating": 1974,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "JeRrie_17",
+              "rating": 1974
+            },
+            "id": "tANUTtlh",
+            "mode": "rated",
+            "month": "2023-11",
+            "speed": "blitz",
+            "white": {
+              "name": "fathersson34",
+              "rating": 2028
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 383
+    },
+    "2023-12": {
+      "black": 464,
+      "draws": 57,
+      "moves": [
+        {
+          "averageRating": 2092,
+          "black": 326,
+          "draws": 39,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 315
+        },
+        {
+          "averageRating": 2093,
+          "black": 96,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 78
+        },
+        {
+          "averageRating": 2082,
+          "black": 15,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 17
+        },
+        {
+          "averageRating": 2056,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 8
+        },
+        {
+          "averageRating": 2034,
+          "black": 4,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 5
+        },
+        {
+          "averageRating": 2062,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 2
+        },
+        {
+          "averageRating": 2029,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nxd4",
+          "uci": "c6d4",
+          "white": 4
+        },
+        {
+          "averageRating": 2044,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 0
+        },
+        {
+          "averageRating": 2118,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 2
+        },
+        {
+          "averageRating": 2128,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 2
+        },
+        {
+          "averageRating": 2144,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2084,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 436
+    },
+    "2024-01": {
+      "black": 490,
+      "draws": 57,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 343,
+          "draws": 38,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 253
+        },
+        {
+          "averageRating": 2094,
+          "black": 109,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 108
+        },
+        {
+          "averageRating": 2089,
+          "black": 17,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 20
+        },
+        {
+          "averageRating": 2077,
+          "black": 4,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 6
+        },
+        {
+          "averageRating": 2071,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 2
+        },
+        {
+          "averageRating": 2085,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 5
+        },
+        {
+          "averageRating": 2015,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 2
+        },
+        {
+          "averageRating": 2072,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 3
+        },
+        {
+          "averageRating": 2025,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 2
+        },
+        {
+          "averageRating": 2032,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nxd4",
+          "uci": "c6d4",
+          "white": 0
+        },
+        {
+          "averageRating": 2051,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 2
+        },
+        {
+          "averageRating": 1962,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ArmMorphy41",
+              "rating": 1962
+            },
+            "id": "z0G2jBXQ",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "JuandeLaCruz64",
+              "rating": 2084
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 404
+    },
+    "2024-02": {
+      "black": 478,
+      "draws": 42,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 342,
+          "draws": 31,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 266
+        },
+        {
+          "averageRating": 2072,
+          "black": 96,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 89
+        },
+        {
+          "averageRating": 2071,
+          "black": 17,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 20
+        },
+        {
+          "averageRating": 2050,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3
+        },
+        {
+          "averageRating": 2086,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 5
+        },
+        {
+          "averageRating": 2097,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 2
+        },
+        {
+          "averageRating": 2068,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 2
+        },
+        {
+          "averageRating": 2093,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 2
+        },
+        {
+          "averageRating": 2094,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "taske956",
+              "rating": 2094
+            },
+            "id": "H93YfzWp",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "andreasfancy",
+              "rating": 2099
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 0
+        },
+        {
+          "averageRating": 2193,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "jesinor",
+              "rating": 2193
+            },
+            "id": "e7NjvrQp",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "ConvertedAmish",
+              "rating": 2182
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Nxd4",
+          "uci": "c6d4",
+          "white": 0
+        },
+        {
+          "averageRating": 2056,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "sanjhony",
+              "rating": 2056
+            },
+            "id": "H5NrF3Ia",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "MiguelGTGT",
+              "rating": 2184
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 1
+        },
+        {
+          "averageRating": 2224,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "RafaDavid312",
+              "rating": 2224
+            },
+            "id": "Jw8RYR8T",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "mozartinho",
+              "rating": 2113
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 390
+    },
+    "2024-03": {
+      "black": 421,
+      "draws": 46,
+      "moves": [
+        {
+          "averageRating": 2093,
+          "black": 307,
+          "draws": 33,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 221
+        },
+        {
+          "averageRating": 2093,
+          "black": 95,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 65
+        },
+        {
+          "averageRating": 2078,
+          "black": 10,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 13
+        },
+        {
+          "averageRating": 2096,
+          "black": 1,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 2
+        },
+        {
+          "averageRating": 2089,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 4
+        },
+        {
+          "averageRating": 2003,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 2
+        },
+        {
+          "averageRating": 2034,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 3
+        },
+        {
+          "averageRating": 1946,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2079,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 0
+        },
+        {
+          "averageRating": 2213,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "BlitzTeufel",
+              "rating": 2213
+            },
+            "id": "B418T6vd",
+            "mode": "rated",
+            "month": "2024-03",
+            "speed": "blitz",
+            "white": {
+              "name": "sawhjohnm",
+              "rating": 2183
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 1
+        },
+        {
+          "averageRating": 2059,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "chessful",
+              "rating": 2059
+            },
+            "id": "Ye7qaqj8",
+            "mode": "rated",
+            "month": "2024-03",
+            "speed": "blitz",
+            "white": {
+              "name": "mersed79",
+              "rating": 1969
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1
+        },
+        {
+          "averageRating": 2213,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "laflix",
+              "rating": 2213
+            },
+            "id": "nQ1VOIwx",
+            "mode": "rated",
+            "month": "2024-03",
+            "speed": "blitz",
+            "white": {
+              "name": "LeTempo",
+              "rating": 2070
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 313
+    },
+    "2024-04": {
+      "black": 428,
+      "draws": 38,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 318,
+          "draws": 27,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 233
+        },
+        {
+          "averageRating": 2103,
+          "black": 79,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 65
+        },
+        {
+          "averageRating": 2076,
+          "black": 15,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 22
+        },
+        {
+          "averageRating": 2035,
+          "black": 3,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 6
+        },
+        {
+          "averageRating": 2066,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 6
+        },
+        {
+          "averageRating": 2120,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 4
+        },
+        {
+          "averageRating": 2061,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 2
+        },
+        {
+          "averageRating": 2084,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 0
+        },
+        {
+          "averageRating": 2101,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 2
+        },
+        {
+          "averageRating": 2013,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 0
+        },
+        {
+          "averageRating": 2128,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Frode123",
+              "rating": 2128
+            },
+            "id": "tCj9rs26",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "chubak",
+              "rating": 1974
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Nxd4",
+          "uci": "c6d4",
+          "white": 1
+        },
+        {
+          "averageRating": 2021,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Framgardner83",
+              "rating": 2021
+            },
+            "id": "AVtOAFDs",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Avinash9261",
+              "rating": 2076
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 343
+    },
+    "2024-05": {
+      "black": 374,
+      "draws": 43,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 262,
+          "draws": 32,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 235
+        },
+        {
+          "averageRating": 2089,
+          "black": 79,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 82
+        },
+        {
+          "averageRating": 2096,
+          "black": 23,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 15
+        },
+        {
+          "averageRating": 2105,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 4
+        },
+        {
+          "averageRating": 2054,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 3
+        },
+        {
+          "averageRating": 2054,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 5
+        },
+        {
+          "averageRating": 2112,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nxd4",
+          "uci": "c6d4",
+          "white": 2
+        },
+        {
+          "averageRating": 2068,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 3
+        },
+        {
+          "averageRating": 2134,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 2
+        },
+        {
+          "averageRating": 2219,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Elbrus-chess",
+              "rating": 2219
+            },
+            "id": "rhFE49p2",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "Eierheinz_aus_Mainz",
+              "rating": 2173
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 0
+        },
+        {
+          "averageRating": 2136,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Tanzinho",
+              "rating": 2136
+            },
+            "id": "tLoJPyCN",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "Sleepmousebr",
+              "rating": 2066
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "f6",
+          "uci": "f7f6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 351
+    },
+    "2024-06": {
+      "black": 367,
+      "draws": 37,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 246,
+          "draws": 23,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 238
+        },
+        {
+          "averageRating": 2099,
+          "black": 85,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 61
+        },
+        {
+          "averageRating": 2101,
+          "black": 19,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 13
+        },
+        {
+          "averageRating": 2043,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 6
+        },
+        {
+          "averageRating": 2048,
+          "black": 1,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 4
+        },
+        {
+          "averageRating": 2061,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 2
+        },
+        {
+          "averageRating": 2028,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 0
+        },
+        {
+          "averageRating": 2141,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nxd4",
+          "uci": "c6d4",
+          "white": 3
+        },
+        {
+          "averageRating": 2047,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 0
+        },
+        {
+          "averageRating": 2026,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 1
+        },
+        {
+          "averageRating": 2023,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "brightsha_dow",
+              "rating": 2023
+            },
+            "id": "jZ4Dx8LK",
+            "mode": "rated",
+            "month": "2024-06",
+            "speed": "blitz",
+            "white": {
+              "name": "xtaboy",
+              "rating": 2003
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 1
+        },
+        {
+          "averageRating": 2033,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "GEROZEVICH",
+              "rating": 2033
+            },
+            "id": "Tz38ulzO",
+            "mode": "rated",
+            "month": "2024-06",
+            "speed": "blitz",
+            "white": {
+              "name": "marifered",
+              "rating": 2087
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 329
+    },
+    "2024-07": {
+      "black": 400,
+      "draws": 39,
+      "moves": [
+        {
+          "averageRating": 2104,
+          "black": 281,
+          "draws": 30,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 250
+        },
+        {
+          "averageRating": 2102,
+          "black": 81,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 84
+        },
+        {
+          "averageRating": 2069,
+          "black": 14,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 15
+        },
+        {
+          "averageRating": 2061,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 6
+        },
+        {
+          "averageRating": 2064,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 5
+        },
+        {
+          "averageRating": 2049,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 4
+        },
+        {
+          "averageRating": 2092,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 1
+        },
+        {
+          "averageRating": 2146,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 1
+        },
+        {
+          "averageRating": 2018,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2001,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 0
+        },
+        {
+          "averageRating": 2082,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 0
+        },
+        {
+          "averageRating": 2095,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Aseemaseem0968835415",
+              "rating": 2095
+            },
+            "id": "4Vsbu2X3",
+            "mode": "rated",
+            "month": "2024-07",
+            "speed": "blitz",
+            "white": {
+              "name": "lejemnien",
+              "rating": 2086
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 368
+    },
+    "2024-08": {
+      "black": 378,
+      "draws": 40,
+      "moves": [
+        {
+          "averageRating": 2096,
+          "black": 263,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 254
+        },
+        {
+          "averageRating": 2087,
+          "black": 88,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 80
+        },
+        {
+          "averageRating": 2094,
+          "black": 14,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 17
+        },
+        {
+          "averageRating": 2106,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 6
+        },
+        {
+          "averageRating": 2093,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 4
+        },
+        {
+          "averageRating": 2142,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 2
+        },
+        {
+          "averageRating": 2070,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 3
+        },
+        {
+          "averageRating": 2119,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 3
+        },
+        {
+          "averageRating": 2104,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2081,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Dovhoresky",
+              "rating": 2081
+            },
+            "id": "7xrofLfQ",
+            "mode": "rated",
+            "month": "2024-08",
+            "speed": "blitz",
+            "white": {
+              "name": "wan88",
+              "rating": 2136
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 0
+        },
+        {
+          "averageRating": 2147,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "visionaryman",
+              "rating": 2147
+            },
+            "id": "YmvPpCpE",
+            "mode": "rated",
+            "month": "2024-08",
+            "speed": "blitz",
+            "white": {
+              "name": "doctorabi",
+              "rating": 2145
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Rb8",
+          "uci": "a8b8",
+          "white": 0
+        },
+        {
+          "averageRating": 2008,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "haMOONra",
+              "rating": 2008
+            },
+            "id": "cUTk92oj",
+            "mode": "rated",
+            "month": "2024-08",
+            "speed": "blitz",
+            "white": {
+              "name": "IVANCR02",
+              "rating": 2011
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 372
+    },
+    "2024-09": {
+      "black": 460,
+      "draws": 45,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 310,
+          "draws": 30,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 219
+        },
+        {
+          "averageRating": 2095,
+          "black": 112,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 85
+        },
+        {
+          "averageRating": 2074,
+          "black": 21,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 17
+        },
+        {
+          "averageRating": 2035,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 7
+        },
+        {
+          "averageRating": 2046,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2
+        },
+        {
+          "averageRating": 2123,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 3
+        },
+        {
+          "averageRating": 2079,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 4
+        },
+        {
+          "averageRating": 2168,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2092,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1
+        },
+        {
+          "averageRating": 2055,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Belalang",
+              "rating": 2055
+            },
+            "id": "u7gCr94H",
+            "mode": "rated",
+            "month": "2024-09",
+            "speed": "blitz",
+            "white": {
+              "name": "vlad-sk",
+              "rating": 2015
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 0
+        },
+        {
+          "averageRating": 1919,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Ichi_CHF",
+              "rating": 1919
+            },
+            "id": "escVgXxJ",
+            "mode": "rated",
+            "month": "2024-09",
+            "speed": "blitz",
+            "white": {
+              "name": "strikers_btc",
+              "rating": 2123
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 0
+        },
+        {
+          "averageRating": 2195,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Adermo",
+              "rating": 2195
+            },
+            "id": "vXpvwYiv",
+            "mode": "rated",
+            "month": "2024-09",
+            "speed": "blitz",
+            "white": {
+              "name": "TMoito",
+              "rating": 2140
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Nxd4",
+          "uci": "c6d4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 340
+    },
+    "2024-10": {
+      "black": 434,
+      "draws": 46,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 301,
+          "draws": 31,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 239
+        },
+        {
+          "averageRating": 2099,
+          "black": 106,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 83
+        },
+        {
+          "averageRating": 2077,
+          "black": 16,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 13
+        },
+        {
+          "averageRating": 2078,
+          "black": 4,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 7
+        },
+        {
+          "averageRating": 2060,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 4
+        },
+        {
+          "averageRating": 2047,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 3
+        },
+        {
+          "averageRating": 1994,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 3
+        },
+        {
+          "averageRating": 2113,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2116,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Mate_Sinjski",
+              "rating": 2116
+            },
+            "id": "vM2spvrh",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "kaspafever",
+              "rating": 2163
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 1
+        },
+        {
+          "averageRating": 2018,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "stevegabriel",
+              "rating": 2018
+            },
+            "id": "lOEKWgf0",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "anang22",
+              "rating": 2031
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 1
+        },
+        {
+          "averageRating": 2152,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "arichess87",
+              "rating": 2152
+            },
+            "id": "convp0ld",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "KevinDeBruyne-17",
+              "rating": 2237
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 355
+    },
+    "2024-11": {
+      "black": 407,
+      "draws": 41,
+      "moves": [
+        {
+          "averageRating": 2103,
+          "black": 294,
+          "draws": 28,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 234
+        },
+        {
+          "averageRating": 2099,
+          "black": 75,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 61
+        },
+        {
+          "averageRating": 2117,
+          "black": 15,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 9
+        },
+        {
+          "averageRating": 2094,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 7
+        },
+        {
+          "averageRating": 2072,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nxd4",
+          "uci": "c6d4",
+          "white": 5
+        },
+        {
+          "averageRating": 2085,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 3
+        },
+        {
+          "averageRating": 2104,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 2
+        },
+        {
+          "averageRating": 2094,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 1
+        },
+        {
+          "averageRating": 2147,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 2
+        },
+        {
+          "averageRating": 2098,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 2
+        },
+        {
+          "averageRating": 2110,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 1
+        },
+        {
+          "averageRating": 2149,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Ryan25_Mks",
+              "rating": 2149
+            },
+            "id": "JiqoT4Rq",
+            "mode": "rated",
+            "month": "2024-11",
+            "speed": "blitz",
+            "white": {
+              "name": "manvil",
+              "rating": 2060
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Rb8",
+          "uci": "a8b8",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 327
+    },
+    "2024-12": {
+      "black": 432,
+      "draws": 62,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 310,
+          "draws": 45,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 219
+        },
+        {
+          "averageRating": 2092,
+          "black": 79,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 76
+        },
+        {
+          "averageRating": 2081,
+          "black": 22,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 12
+        },
+        {
+          "averageRating": 2052,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 5
+        },
+        {
+          "averageRating": 2111,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 5
+        },
+        {
+          "averageRating": 2079,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 4
+        },
+        {
+          "averageRating": 2122,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 1
+        },
+        {
+          "averageRating": 2018,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 3
+        },
+        {
+          "averageRating": 2099,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 0
+        },
+        {
+          "averageRating": 2068,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nxd4",
+          "uci": "c6d4",
+          "white": 0
+        },
+        {
+          "averageRating": 2057,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Dinnafi",
+              "rating": 2057
+            },
+            "id": "XggDvVvp",
+            "mode": "rated",
+            "month": "2024-12",
+            "speed": "blitz",
+            "white": {
+              "name": "Wombat2024",
+              "rating": 1952
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 325
+    },
+    "2025-01": {
+      "black": 470,
+      "draws": 46,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 341,
+          "draws": 35,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 236
+        },
+        {
+          "averageRating": 2094,
+          "black": 95,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 94
+        },
+        {
+          "averageRating": 2071,
+          "black": 24,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 13
+        },
+        {
+          "averageRating": 2084,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 6
+        },
+        {
+          "averageRating": 2079,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 8
+        },
+        {
+          "averageRating": 2060,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 1
+        },
+        {
+          "averageRating": 2122,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 2
+        },
+        {
+          "averageRating": 2038,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 1
+        },
+        {
+          "averageRating": 2034,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nxd4",
+          "uci": "c6d4",
+          "white": 1
+        },
+        {
+          "averageRating": 2063,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2136,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Aqay",
+              "rating": 2136
+            },
+            "id": "FTeQVotC",
+            "mode": "rated",
+            "month": "2025-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Angel-Vardan",
+              "rating": 2158
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 364
+    },
+    "2025-02": {
+      "black": 367,
+      "draws": 46,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 251,
+          "draws": 33,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 218
+        },
+        {
+          "averageRating": 2095,
+          "black": 77,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 73
+        },
+        {
+          "averageRating": 2084,
+          "black": 17,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 9
+        },
+        {
+          "averageRating": 2071,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 4
+        },
+        {
+          "averageRating": 2100,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 4
+        },
+        {
+          "averageRating": 2073,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 2
+        },
+        {
+          "averageRating": 2043,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 1
+        },
+        {
+          "averageRating": 2109,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nxd4",
+          "uci": "c6d4",
+          "white": 0
+        },
+        {
+          "averageRating": 2033,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 1
+        },
+        {
+          "averageRating": 2009,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Togasoma",
+              "rating": 2009
+            },
+            "id": "lOUBIFUH",
+            "mode": "rated",
+            "month": "2025-02",
+            "speed": "blitz",
+            "white": {
+              "name": "sallam92",
+              "rating": 2029
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "f6",
+          "uci": "f7f6",
+          "white": 1
+        },
+        {
+          "averageRating": 2094,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "veenaindia",
+              "rating": 2094
+            },
+            "id": "N10Du6nU",
+            "mode": "rated",
+            "month": "2025-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Wir99",
+              "rating": 2283
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 314
+    },
+    "2025-03": {
+      "black": 385,
+      "draws": 48,
+      "moves": [
+        {
+          "averageRating": 2103,
+          "black": 258,
+          "draws": 36,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 231
+        },
+        {
+          "averageRating": 2097,
+          "black": 101,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 72
+        },
+        {
+          "averageRating": 2089,
+          "black": 16,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 12
+        },
+        {
+          "averageRating": 2071,
+          "black": 2,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 1
+        },
+        {
+          "averageRating": 2065,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 4
+        },
+        {
+          "averageRating": 2073,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 1
+        },
+        {
+          "averageRating": 2092,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 2
+        },
+        {
+          "averageRating": 2089,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 2
+        },
+        {
+          "averageRating": 2051,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nxd4",
+          "uci": "c6d4",
+          "white": 1
+        },
+        {
+          "averageRating": 1930,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2049,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "gorcina",
+              "rating": 2049
+            },
+            "id": "9wbi92C0",
+            "mode": "rated",
+            "month": "2025-03",
+            "speed": "blitz",
+            "white": {
+              "name": "Adm1234",
+              "rating": 2057
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 1
+        },
+        {
+          "averageRating": 2065,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "josebcn01",
+              "rating": 2065
+            },
+            "id": "MIxj0ZeH",
+            "mode": "rated",
+            "month": "2025-03",
+            "speed": "blitz",
+            "white": {
+              "name": "NimzoFloridian",
+              "rating": 2112
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 329
+    },
+    "2025-04": {
+      "black": 377,
+      "draws": 47,
+      "moves": [
+        {
+          "averageRating": 2105,
+          "black": 270,
+          "draws": 31,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 188
+        },
+        {
+          "averageRating": 2107,
+          "black": 81,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 57
+        },
+        {
+          "averageRating": 2088,
+          "black": 14,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 12
+        },
+        {
+          "averageRating": 2058,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 5
+        },
+        {
+          "averageRating": 2051,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 4
+        },
+        {
+          "averageRating": 2075,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 2
+        },
+        {
+          "averageRating": 2089,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 1
+        },
+        {
+          "averageRating": 2154,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 1
+        },
+        {
+          "averageRating": 2064,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "dimatavr",
+              "rating": 2064
+            },
+            "id": "yh3bCxQH",
+            "mode": "rated",
+            "month": "2025-04",
+            "speed": "blitz",
+            "white": {
+              "name": "ccvvll",
+              "rating": 2045
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 0
+        },
+        {
+          "averageRating": 2066,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Grom2021",
+              "rating": 2066
+            },
+            "id": "06plojxL",
+            "mode": "rated",
+            "month": "2025-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Tricky_Moves_123",
+              "rating": 2048
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 271
+    },
+    "2025-05": {
+      "black": 386,
+      "draws": 39,
+      "moves": [
+        {
+          "averageRating": 2106,
+          "black": 272,
+          "draws": 22,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 223
+        },
+        {
+          "averageRating": 2094,
+          "black": 91,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 80
+        },
+        {
+          "averageRating": 2072,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 10
+        },
+        {
+          "averageRating": 2057,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 4
+        },
+        {
+          "averageRating": 2083,
+          "black": 3,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 2
+        },
+        {
+          "averageRating": 2055,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 4
+        },
+        {
+          "averageRating": 2096,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 2
+        },
+        {
+          "averageRating": 2014,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 3
+        },
+        {
+          "averageRating": 2061,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nxd4",
+          "uci": "c6d4",
+          "white": 2
+        },
+        {
+          "averageRating": 2076,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 0
+        },
+        {
+          "averageRating": 2185,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Nyamar",
+              "rating": 2185
+            },
+            "id": "WxVcNa7J",
+            "mode": "rated",
+            "month": "2025-05",
+            "speed": "blitz",
+            "white": {
+              "name": "vikrampaygude",
+              "rating": 2165
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 0
+        },
+        {
+          "averageRating": 2040,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ali-topan",
+              "rating": 2040
+            },
+            "id": "8gg2nvqL",
+            "mode": "rated",
+            "month": "2025-05",
+            "speed": "blitz",
+            "white": {
+              "name": "sa-si_sa1",
+              "rating": 2000
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 331
+    },
+    "2025-06": {
+      "black": 355,
+      "draws": 31,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 239,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 224
+        },
+        {
+          "averageRating": 2095,
+          "black": 84,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 66
+        },
+        {
+          "averageRating": 2076,
+          "black": 14,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 12
+        },
+        {
+          "averageRating": 2056,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 0
+        },
+        {
+          "averageRating": 2077,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 2
+        },
+        {
+          "averageRating": 2116,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 0
+        },
+        {
+          "averageRating": 2086,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2018,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Lukmanov_Denis",
+              "rating": 2018
+            },
+            "id": "2uXmIaUV",
+            "mode": "rated",
+            "month": "2025-06",
+            "speed": "blitz",
+            "white": {
+              "name": "khoachu2308",
+              "rating": 2008
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 0
+        },
+        {
+          "averageRating": 2007,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "abdullah-baniyasin",
+              "rating": 2007
+            },
+            "id": "U2Pf9DIY",
+            "mode": "rated",
+            "month": "2025-06",
+            "speed": "blitz",
+            "white": {
+              "name": "ipung9",
+              "rating": 2154
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 0
+        },
+        {
+          "averageRating": 2152,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Java_kombin",
+              "rating": 2152
+            },
+            "id": "FuKFMhYz",
+            "mode": "rated",
+            "month": "2025-06",
+            "speed": "blitz",
+            "white": {
+              "name": "Der_Schachmatter",
+              "rating": 2151
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 0
+        },
+        {
+          "averageRating": 2077,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Aqay",
+              "rating": 2077
+            },
+            "id": "M6XMuO7l",
+            "mode": "rated",
+            "month": "2025-06",
+            "speed": "blitz",
+            "white": {
+              "name": "Mr-Lionel-Hutz",
+              "rating": 2101
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 1
+        },
+        {
+          "averageRating": 2088,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "nasticus",
+              "rating": 2088
+            },
+            "id": "QdfinUTL",
+            "mode": "rated",
+            "month": "2025-06",
+            "speed": "blitz",
+            "white": {
+              "name": "Muslim_Ahkubekov",
+              "rating": 2088
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 306
+    },
+    "2025-07": {
+      "black": 347,
+      "draws": 45,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 248,
+          "draws": 34,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 244
+        },
+        {
+          "averageRating": 2083,
+          "black": 76,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 66
+        },
+        {
+          "averageRating": 2074,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 10
+        },
+        {
+          "averageRating": 2066,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 8
+        },
+        {
+          "averageRating": 2045,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 5
+        },
+        {
+          "averageRating": 2073,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 2
+        },
+        {
+          "averageRating": 2128,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 3
+        },
+        {
+          "averageRating": 2066,
+          "black": 0,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 0
+        },
+        {
+          "averageRating": 2045,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Magazi",
+              "rating": 2045
+            },
+            "id": "76ohmpOX",
+            "mode": "rated",
+            "month": "2025-07",
+            "speed": "blitz",
+            "white": {
+              "name": "Kickyoutoo",
+              "rating": 2025
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2014,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "sapegin",
+              "rating": 2014
+            },
+            "id": "07NHGBe2",
+            "mode": "rated",
+            "month": "2025-07",
+            "speed": "blitz",
+            "white": {
+              "name": "NARAYANSWAIN",
+              "rating": 2018
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Nxd4",
+          "uci": "c6d4",
+          "white": 0
+        },
+        {
+          "averageRating": 2029,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "karaho",
+              "rating": 2029
+            },
+            "id": "k1iuE3Dd",
+            "mode": "rated",
+            "month": "2025-07",
+            "speed": "blitz",
+            "white": {
+              "name": "rajat_mohanty21",
+              "rating": 1980
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 0
+        },
+        {
+          "averageRating": 2054,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "josebcn",
+              "rating": 2054
+            },
+            "id": "e3FPWksi",
+            "mode": "rated",
+            "month": "2025-07",
+            "speed": "blitz",
+            "white": {
+              "name": "goldskill",
+              "rating": 2131
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 340
+    },
+    "2025-08": {
+      "black": 370,
+      "draws": 46,
+      "moves": [
+        {
+          "averageRating": 2105,
+          "black": 261,
+          "draws": 32,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 234
+        },
+        {
+          "averageRating": 2100,
+          "black": 84,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 63
+        },
+        {
+          "averageRating": 2069,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 15
+        },
+        {
+          "averageRating": 2096,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 6
+        },
+        {
+          "averageRating": 2039,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 2
+        },
+        {
+          "averageRating": 1983,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 3
+        },
+        {
+          "averageRating": 2061,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 3
+        },
+        {
+          "averageRating": 2080,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3
+        },
+        {
+          "averageRating": 2035,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2054,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Mujur_1",
+              "rating": 2054
+            },
+            "id": "kYnGRqI6",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "smurphin",
+              "rating": 2134
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1
+        },
+        {
+          "averageRating": 2052,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "CodinIosif",
+              "rating": 2052
+            },
+            "id": "9pWVdZRa",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "Yakakahi_Jmurukami",
+              "rating": 1966
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 0
+        },
+        {
+          "averageRating": 2273,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Vezzzun",
+              "rating": 2273
+            },
+            "id": "vwxn5X7D",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "NguyenQuangMinh",
+              "rating": 1806
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "f6",
+          "uci": "f7f6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 331
+    },
+    "2025-09": {
+      "black": 322,
+      "draws": 47,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 242,
+          "draws": 33,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 184
+        },
+        {
+          "averageRating": 2094,
+          "black": 58,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 53
+        },
+        {
+          "averageRating": 2073,
+          "black": 14,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 12
+        },
+        {
+          "averageRating": 2040,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 4
+        },
+        {
+          "averageRating": 2038,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 3
+        },
+        {
+          "averageRating": 2080,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 0
+        },
+        {
+          "averageRating": 2096,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 2
+        },
+        {
+          "averageRating": 2086,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 0
+        },
+        {
+          "averageRating": 2015,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "nurMi-1",
+              "rating": 2015
+            },
+            "id": "BsCTKWsg",
+            "mode": "rated",
+            "month": "2025-09",
+            "speed": "blitz",
+            "white": {
+              "name": "egekoseler",
+              "rating": 2006
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e6e5",
+          "white": 1
+        },
+        {
+          "averageRating": 1992,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "Luisbest",
+              "rating": 1992
+            },
+            "id": "2KTAN8oT",
+            "mode": "rated",
+            "month": "2025-09",
+            "speed": "blitz",
+            "white": {
+              "name": "AsinoVolantee",
+              "rating": 2049
+            },
+            "winner": null,
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Nxd4",
+          "uci": "c6d4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 259
+    },
+    "2025-10": {
+      "black": 327,
+      "draws": 28,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 222,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 208
+        },
+        {
+          "averageRating": 2101,
+          "black": 84,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 55
+        },
+        {
+          "averageRating": 2092,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 8
+        },
+        {
+          "averageRating": 2073,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 4
+        },
+        {
+          "averageRating": 2107,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3
+        },
+        {
+          "averageRating": 2085,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 2
+        },
+        {
+          "averageRating": 2063,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nxd4",
+          "uci": "c6d4",
+          "white": 3
+        },
+        {
+          "averageRating": 2094,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 2
+        },
+        {
+          "averageRating": 2062,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 1
+        },
+        {
+          "averageRating": 2068,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "g4des",
+              "rating": 2068
+            },
+            "id": "vQtQN093",
+            "mode": "rated",
+            "month": "2025-10",
+            "speed": "blitz",
+            "white": {
+              "name": "kenguru01",
+              "rating": 2131
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 287
+    },
+    "2025-11": {
+      "black": 313,
+      "draws": 28,
+      "moves": [
+        {
+          "averageRating": 2095,
+          "black": 235,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 218
+        },
+        {
+          "averageRating": 2089,
+          "black": 62,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 68
+        },
+        {
+          "averageRating": 2105,
+          "black": 7,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 10
+        },
+        {
+          "averageRating": 2102,
+          "black": 4,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 2
+        },
+        {
+          "averageRating": 2033,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 4
+        },
+        {
+          "averageRating": 2082,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2
+        },
+        {
+          "averageRating": 1953,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 2
+        },
+        {
+          "averageRating": 2141,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 3
+        },
+        {
+          "averageRating": 2049,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 1
+        },
+        {
+          "averageRating": 2018,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 1
+        },
+        {
+          "averageRating": 2033,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "utorun87",
+              "rating": 2033
+            },
+            "id": "TAsEVT41",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "TomateCV",
+              "rating": 2019
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Nxd4",
+          "uci": "c6d4",
+          "white": 0
+        },
+        {
+          "averageRating": 2154,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "alllex",
+              "rating": 2154
+            },
+            "id": "nUmGJmFD",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Danieru99",
+              "rating": 2095
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qb8",
+          "uci": "c7b8",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 312
+    },
+    "2025-12": {
+      "black": 366,
+      "draws": 34,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 255,
+          "draws": 24,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 218
+        },
+        {
+          "averageRating": 2100,
+          "black": 88,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 66
+        },
+        {
+          "averageRating": 2086,
+          "black": 11,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 11
+        },
+        {
+          "averageRating": 2056,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 2
+        },
+        {
+          "averageRating": 2057,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 2
+        },
+        {
+          "averageRating": 2065,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 1
+        },
+        {
+          "averageRating": 2062,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nxd4",
+          "uci": "c6d4",
+          "white": 1
+        },
+        {
+          "averageRating": 2072,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 0
+        },
+        {
+          "averageRating": 2053,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 2
+        },
+        {
+          "averageRating": 2009,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "HluliM",
+              "rating": 2009
+            },
+            "id": "c0wXZgBu",
+            "mode": "rated",
+            "month": "2025-12",
+            "speed": "blitz",
+            "white": {
+              "name": "VishyDDragon",
+              "rating": 1991
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2130,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "MetroCard",
+              "rating": 2130
+            },
+            "id": "p27DkUwY",
+            "mode": "rated",
+            "month": "2025-12",
+            "speed": "blitz",
+            "white": {
+              "name": "Romg12",
+              "rating": 2108
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 0
+        },
+        {
+          "averageRating": 1951,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Marsar27",
+              "rating": 1951
+            },
+            "id": "F6vA2Kcy",
+            "mode": "rated",
+            "month": "2025-12",
+            "speed": "blitz",
+            "white": {
+              "name": "NOSE04",
+              "rating": 2050
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 305
+    },
+    "2026-01": {
+      "black": 396,
+      "draws": 33,
+      "moves": [
+        {
+          "averageRating": 2106,
+          "black": 278,
+          "draws": 30,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 207
+        },
+        {
+          "averageRating": 2094,
+          "black": 87,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 60
+        },
+        {
+          "averageRating": 2092,
+          "black": 16,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 9
+        },
+        {
+          "averageRating": 2050,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 3
+        },
+        {
+          "averageRating": 2097,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 2
+        },
+        {
+          "averageRating": 2089,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 2
+        },
+        {
+          "averageRating": 2026,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 2
+        },
+        {
+          "averageRating": 2105,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 2
+        },
+        {
+          "averageRating": 2068,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 1
+        },
+        {
+          "averageRating": 2092,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f6",
+          "uci": "f7f6",
+          "white": 0
+        },
+        {
+          "averageRating": 2106,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nxd4",
+          "uci": "c6d4",
+          "white": 1
+        },
+        {
+          "averageRating": 1954,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "NIKTO-nikogda",
+              "rating": 1954
+            },
+            "id": "waMtT8TA",
+            "mode": "rated",
+            "month": "2026-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Zbunka",
+              "rating": 2068
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 289
+    },
+    "2026-02": {
+      "black": 316,
+      "draws": 32,
+      "moves": [
+        {
+          "averageRating": 2103,
+          "black": 219,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 188
+        },
+        {
+          "averageRating": 2089,
+          "black": 76,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 54
+        },
+        {
+          "averageRating": 2067,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 6
+        },
+        {
+          "averageRating": 2031,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 5
+        },
+        {
+          "averageRating": 2104,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 1
+        },
+        {
+          "averageRating": 2167,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 2
+        },
+        {
+          "averageRating": 2117,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 1
+        },
+        {
+          "averageRating": 2165,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Kaiwhi",
+              "rating": 2165
+            },
+            "id": "Swo62Ov0",
+            "mode": "rated",
+            "month": "2026-02",
+            "speed": "blitz",
+            "white": {
+              "name": "G_Doults",
+              "rating": 2081
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 0
+        },
+        {
+          "averageRating": 2123,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Saydaev_55",
+              "rating": 2123
+            },
+            "id": "sh7maC8h",
+            "mode": "rated",
+            "month": "2026-02",
+            "speed": "blitz",
+            "white": {
+              "name": "bronyaurstomp",
+              "rating": 2101
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 0
+        },
+        {
+          "averageRating": 1965,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Malaga67",
+              "rating": 1965
+            },
+            "id": "np8Njx8D",
+            "mode": "rated",
+            "month": "2026-02",
+            "speed": "blitz",
+            "white": {
+              "name": "elalfilmaldito",
+              "rating": 2048
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e6e5",
+          "white": 0
+        },
+        {
+          "averageRating": 2110,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "abdullah-baniyasin",
+              "rating": 2110
+            },
+            "id": "tItoDpMm",
+            "mode": "rated",
+            "month": "2026-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Joao-Pedro",
+              "rating": 2265
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 1
+        },
+        {
+          "averageRating": 2088,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "BurningPepper",
+              "rating": 2088
+            },
+            "id": "9MiZeA6O",
+            "mode": "rated",
+            "month": "2026-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Ulsu",
+              "rating": 2060
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 259
+    },
+    "2026-03": {
+      "black": 330,
+      "draws": 36,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 225,
+          "draws": 31,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 192
+        },
+        {
+          "averageRating": 2087,
+          "black": 91,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 64
+        },
+        {
+          "averageRating": 2100,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 4
+        },
+        {
+          "averageRating": 2030,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 6
+        },
+        {
+          "averageRating": 2083,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 5
+        },
+        {
+          "averageRating": 2074,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 4
+        },
+        {
+          "averageRating": 2099,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 3
+        },
+        {
+          "averageRating": 2053,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 2
+        },
+        {
+          "averageRating": 2035,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 2
+        },
+        {
+          "averageRating": 2031,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "alvarobetin",
+              "rating": 2031
+            },
+            "id": "umHBjEkz",
+            "mode": "rated",
+            "month": "2026-03",
+            "speed": "blitz",
+            "white": {
+              "name": "maclos",
+              "rating": 2175
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2031,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Malaga67",
+              "rating": 2031
+            },
+            "id": "oiA0pViR",
+            "mode": "rated",
+            "month": "2026-03",
+            "speed": "blitz",
+            "white": {
+              "name": "dhan197820",
+              "rating": 2000
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Nxd4",
+          "uci": "c6d4",
+          "white": 1
+        },
+        {
+          "averageRating": 2034,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Mikhail_Matnyak",
+              "rating": 2034
+            },
+            "id": "JpOz9JsO",
+            "mode": "rated",
+            "month": "2026-03",
+            "speed": "blitz",
+            "white": {
+              "name": "lucasneed",
+              "rating": 1981
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      },
+      "white": 285
+    },
+    "2026-04": {
+      "white": 142,
+      "draws": 21,
+      "black": 158,
+      "moves": [
+        {
+          "uci": "g8f6",
+          "san": "Nf6",
+          "averageRating": 2098,
+          "white": 98,
+          "draws": 16,
+          "black": 107,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "b7b5",
+          "san": "b5",
+          "averageRating": 2090,
+          "white": 36,
+          "draws": 4,
+          "black": 35,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f8b4",
+          "san": "Bb4",
+          "averageRating": 2052,
+          "white": 4,
+          "draws": 0,
+          "black": 4,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d7d6",
+          "san": "d6",
+          "averageRating": 2050,
+          "white": 0,
+          "draws": 1,
+          "black": 5,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f8e7",
+          "san": "Be7",
+          "averageRating": 2044,
+          "white": 2,
+          "draws": 0,
+          "black": 3,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f8d6",
+          "san": "Bd6",
+          "averageRating": 2028,
+          "white": 1,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "h7h6",
+          "san": "h6",
+          "averageRating": 2039,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "g7g6",
+          "san": "g6",
+          "averageRating": 2105,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "h7h5",
+          "san": "h5",
+          "averageRating": 2100,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f8c5",
+          "san": "Bc5",
+          "averageRating": 2448,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        }
+      ],
+      "recentGames": [],
+      "topGames": [],
+      "opening": {
+        "eco": "B49",
+        "name": "Sicilian Defense: Taimanov Variation, Bastrikov Variation"
+      }
+    }
+  }
+}

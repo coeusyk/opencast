@@ -19,6 +19,7 @@ _HERE = os.path.dirname(__file__)
 PROCESSED_CSV = os.path.join(_HERE, "..", "data", "processed", "openings_ts.csv")
 CATALOG_CSV   = os.path.join(_HERE, "..", "data", "openings_catalog.csv")
 OUTPUT_CSV    = os.path.join(_HERE, "..", "data", "output", "forecasts.csv")
+LONG_TAIL_CSV = os.path.join(_HERE, "..", "data", "output", "long_tail_stats.csv")
 
 MIN_POINTS = 24
 FORECAST_STEPS = 3
@@ -39,6 +40,8 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 log = logging.getLogger(__name__)
 
 ECO_TIMING_WARN_S = 60.0  # warn if a single ECO takes longer than this
+MAX_TIER1_OPENINGS = 300  # soft cap — logs a warning when exceeded
+HARD_CAP_TIER1 = 300      # hard cap — covers all data-bearing ECOs
 
 
 def _chow_test(y: np.ndarray, bp: int) -> tuple:
@@ -74,6 +77,48 @@ def _detect_breaks(y: np.ndarray, months: list, alpha: float = 0.05) -> set:
     return breaks
 
 
+def _run_descriptive_stats(eco: str, grp: pd.DataFrame) -> dict:
+    """Compute descriptive stats for a Tier-3 opening."""
+    y = np.asarray(grp["white_win_rate"].values, dtype=float)
+    months = grp["month"].tolist()
+
+    last_month = str(months[-1])[:7]
+    last_win_rate  = float(y[-1])
+    mean_win_rate  = float(np.mean(y))
+    std_win_rate   = float(np.std(y, ddof=1)) if len(y) > 1 else 0.0
+
+    ma3_series = pd.Series(y).rolling(3, min_periods=1).mean().values
+    ma3 = float(ma3_series[-1])
+
+    if len(ma3_series) >= 4:
+        diff = float(ma3_series[-1]) - float(ma3_series[-4])
+        if diff > 0.005:
+            trend_direction = "up"
+        elif diff < -0.005:
+            trend_direction = "down"
+        else:
+            trend_direction = "flat"
+    else:
+        trend_direction = "flat"
+
+    eco_group = eco[0] if eco else ""
+    opening_name = str(grp["opening_name"].iloc[0]) if "opening_name" in grp.columns else eco
+
+    return {
+        "eco": eco,
+        "opening_name": opening_name,
+        "eco_group": eco_group,
+        "model_tier": 3,
+        "last_month": last_month,
+        "last_win_rate": round(last_win_rate, 6),
+        "mean_win_rate": round(mean_win_rate, 6),
+        "std_win_rate": round(std_win_rate, 6),
+        "ma3": round(ma3, 6),
+        "trend_direction": trend_direction,
+        "months_available": len(y),
+    }
+
+
 def run_timeseries(df: pd.DataFrame | None = None) -> pd.DataFrame:
     if df is None:
         df = pd.read_csv(PROCESSED_CSV)
@@ -85,6 +130,26 @@ def run_timeseries(df: pd.DataFrame | None = None) -> pd.DataFrame:
     tier1_ecos = set(catalog.loc[catalog["model_tier"] == 1, "eco"])
     tier2_ecos = set(catalog.loc[catalog["model_tier"] == 2, "eco"])
     tier3_ecos = set(catalog.loc[catalog["model_tier"] == 3, "eco"])
+
+    n_tier1 = len(tier1_ecos)
+    if n_tier1 > HARD_CAP_TIER1:
+        # Sort by total game volume descending so the most popular ECOs are kept.
+        eco_volumes = (
+            df[df["eco"].isin(tier1_ecos)]
+            .groupby("eco")["total"]
+            .sum()
+            .sort_values(ascending=False)
+        )
+        tier1_ecos = set(eco_volumes.index[:HARD_CAP_TIER1])
+        log.warning(
+            "Tier-1 ECO count %d exceeds hard cap %d — keeping top %d by game volume",
+            n_tier1, HARD_CAP_TIER1, HARD_CAP_TIER1,
+        )
+    elif n_tier1 > MAX_TIER1_OPENINGS:
+        log.warning(
+            "Tier-1 ECO count %d exceeds MAX_TIER1_OPENINGS=%d", n_tier1, MAX_TIER1_OPENINGS
+        )
+
     log.info("Timeseries: processing %d Tier-1 ECOs", len(tier1_ecos))
 
     df["month"] = pd.to_datetime(df["month"])
@@ -234,8 +299,15 @@ def run_timeseries(df: pd.DataFrame | None = None) -> pd.DataFrame:
         if elapsed > ECO_TIMING_WARN_S:
             log.warning("%s (Tier 2): took %.1fs, exceeds %.0fs budget", eco, elapsed, ECO_TIMING_WARN_S)
 
-    # ── Tier 3: descriptive stats only, no rows written ───────────────────────
-    log.info("Timeseries: skipping %d Tier-3 ECOs (descriptive stats only)", len(tier3_ecos))
+    # ── Tier 3: descriptive stats ─────────────────────────────────────────────
+    log.info("Timeseries: computing descriptive stats for %d Tier-3 ECOs", len(tier3_ecos))
+    tier3_df = df[df["eco"].isin(tier3_ecos)]
+    tier3_records = []
+    for eco, grp in tier3_df.groupby("eco"):
+        grp = grp.sort_values("month")
+        if len(grp) < 1:
+            continue
+        tier3_records.append(_run_descriptive_stats(str(eco), grp))
 
     # ── Summary log ───────────────────────────────────────────────────────────
     total_s = sum(tier1_times) + sum(tier2_times)
@@ -252,6 +324,17 @@ def run_timeseries(df: pd.DataFrame | None = None) -> pd.DataFrame:
     out = pd.DataFrame(records, columns=OUTPUT_COLUMNS)
     out.to_csv(OUTPUT_CSV, index=False)
     print(f"Forecasts written \u2192 {OUTPUT_CSV}  ({len(out)} rows)")
+
+    if tier3_records:
+        lt_cols = [
+            "eco", "opening_name", "eco_group", "model_tier",
+            "last_month", "last_win_rate", "mean_win_rate", "std_win_rate",
+            "ma3", "trend_direction", "months_available",
+        ]
+        lt_out = pd.DataFrame(tier3_records, columns=lt_cols)
+        lt_out.to_csv(LONG_TAIL_CSV, index=False)
+        print(f"Long-tail stats written \u2192 {LONG_TAIL_CSV}  ({len(lt_out)} rows)")
+
     return out
 
 

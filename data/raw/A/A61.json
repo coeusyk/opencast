@@ -1,0 +1,6060 @@
+{
+  "eco": "A61",
+  "months": {
+    "2023-01": {
+      "black": 937,
+      "draws": 94,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 382,
+          "draws": 38,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 386
+        },
+        {
+          "averageRating": 2086,
+          "black": 153,
+          "draws": 13,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 155
+        },
+        {
+          "averageRating": 2111,
+          "black": 128,
+          "draws": 16,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 159
+        },
+        {
+          "averageRating": 2120,
+          "black": 96,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 133
+        },
+        {
+          "averageRating": 2141,
+          "black": 80,
+          "draws": 9,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 141
+        },
+        {
+          "averageRating": 2106,
+          "black": 73,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 93
+        },
+        {
+          "averageRating": 2069,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 11
+        },
+        {
+          "averageRating": 2120,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 5
+        },
+        {
+          "averageRating": 2097,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 5
+        },
+        {
+          "averageRating": 2077,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 3
+        },
+        {
+          "averageRating": 2098,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 3
+        },
+        {
+          "averageRating": 2111,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "brokenphonejedi",
+              "rating": 2193
+            },
+            "id": "Hlp7wVZJ",
+            "mode": "rated",
+            "month": "2023-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Fischer_Club",
+              "rating": 2111
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bh6",
+          "uci": "c1h6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 1098
+    },
+    "2023-02": {
+      "black": 886,
+      "draws": 83,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 385,
+          "draws": 27,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 331
+        },
+        {
+          "averageRating": 2085,
+          "black": 131,
+          "draws": 20,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 155
+        },
+        {
+          "averageRating": 2137,
+          "black": 95,
+          "draws": 12,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 142
+        },
+        {
+          "averageRating": 2112,
+          "black": 99,
+          "draws": 13,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 118
+        },
+        {
+          "averageRating": 2127,
+          "black": 94,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 96
+        },
+        {
+          "averageRating": 2117,
+          "black": 55,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 67
+        },
+        {
+          "averageRating": 2067,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 10
+        },
+        {
+          "averageRating": 2101,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 6
+        },
+        {
+          "averageRating": 2086,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 4
+        },
+        {
+          "averageRating": 2105,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2047,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2007,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 931
+    },
+    "2023-03": {
+      "black": 933,
+      "draws": 102,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 389,
+          "draws": 42,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 355
+        },
+        {
+          "averageRating": 2080,
+          "black": 170,
+          "draws": 16,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 124
+        },
+        {
+          "averageRating": 2105,
+          "black": 96,
+          "draws": 15,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 150
+        },
+        {
+          "averageRating": 2118,
+          "black": 102,
+          "draws": 12,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 132
+        },
+        {
+          "averageRating": 2120,
+          "black": 95,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 122
+        },
+        {
+          "averageRating": 2111,
+          "black": 49,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 74
+        },
+        {
+          "averageRating": 2109,
+          "black": 14,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 7
+        },
+        {
+          "averageRating": 2157,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 7
+        },
+        {
+          "averageRating": 2062,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 3
+        },
+        {
+          "averageRating": 2120,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 4
+        },
+        {
+          "averageRating": 2150,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 2
+        },
+        {
+          "averageRating": 2062,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 981
+    },
+    "2023-04": {
+      "black": 921,
+      "draws": 86,
+      "moves": [
+        {
+          "averageRating": 2105,
+          "black": 383,
+          "draws": 37,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 347
+        },
+        {
+          "averageRating": 2090,
+          "black": 146,
+          "draws": 12,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 127
+        },
+        {
+          "averageRating": 2105,
+          "black": 126,
+          "draws": 5,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 127
+        },
+        {
+          "averageRating": 2131,
+          "black": 92,
+          "draws": 12,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 137
+        },
+        {
+          "averageRating": 2126,
+          "black": 82,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 131
+        },
+        {
+          "averageRating": 2117,
+          "black": 65,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 77
+        },
+        {
+          "averageRating": 2096,
+          "black": 14,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 4
+        },
+        {
+          "averageRating": 2110,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 5
+        },
+        {
+          "averageRating": 2072,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        },
+        {
+          "averageRating": 2097,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bh6",
+          "uci": "c1h6",
+          "white": 2
+        },
+        {
+          "averageRating": 2108,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2113,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 2
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 962
+    },
+    "2023-05": {
+      "black": 968,
+      "draws": 117,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 388,
+          "draws": 50,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 384
+        },
+        {
+          "averageRating": 2086,
+          "black": 166,
+          "draws": 13,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 124
+        },
+        {
+          "averageRating": 2121,
+          "black": 127,
+          "draws": 13,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 154
+        },
+        {
+          "averageRating": 2112,
+          "black": 102,
+          "draws": 15,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 125
+        },
+        {
+          "averageRating": 2123,
+          "black": 94,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 112
+        },
+        {
+          "averageRating": 2120,
+          "black": 69,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 90
+        },
+        {
+          "averageRating": 2092,
+          "black": 12,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 10
+        },
+        {
+          "averageRating": 2100,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 7
+        },
+        {
+          "averageRating": 2060,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2081,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 2
+        },
+        {
+          "averageRating": 2142,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 1
+        },
+        {
+          "averageRating": 1959,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 1014
+    },
+    "2023-06": {
+      "black": 920,
+      "draws": 95,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 385,
+          "draws": 42,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 369
+        },
+        {
+          "averageRating": 2084,
+          "black": 155,
+          "draws": 12,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 137
+        },
+        {
+          "averageRating": 2127,
+          "black": 101,
+          "draws": 11,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 132
+        },
+        {
+          "averageRating": 2115,
+          "black": 95,
+          "draws": 11,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 108
+        },
+        {
+          "averageRating": 2118,
+          "black": 92,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 111
+        },
+        {
+          "averageRating": 2128,
+          "black": 55,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 76
+        },
+        {
+          "averageRating": 2103,
+          "black": 14,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 18
+        },
+        {
+          "averageRating": 2084,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 5
+        },
+        {
+          "averageRating": 2114,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 5
+        },
+        {
+          "averageRating": 2120,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        },
+        {
+          "averageRating": 2139,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bh6",
+          "uci": "c1h6",
+          "white": 3
+        },
+        {
+          "averageRating": 2120,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 966
+    },
+    "2023-07": {
+      "black": 934,
+      "draws": 100,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 408,
+          "draws": 41,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 368
+        },
+        {
+          "averageRating": 2088,
+          "black": 157,
+          "draws": 21,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 130
+        },
+        {
+          "averageRating": 2113,
+          "black": 106,
+          "draws": 15,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 118
+        },
+        {
+          "averageRating": 2128,
+          "black": 89,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 133
+        },
+        {
+          "averageRating": 2130,
+          "black": 84,
+          "draws": 8,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 128
+        },
+        {
+          "averageRating": 2122,
+          "black": 60,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 78
+        },
+        {
+          "averageRating": 2097,
+          "black": 19,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 8
+        },
+        {
+          "averageRating": 2113,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 6
+        },
+        {
+          "averageRating": 2146,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bh6",
+          "uci": "c1h6",
+          "white": 4
+        },
+        {
+          "averageRating": 2088,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 2
+        },
+        {
+          "averageRating": 2103,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 4
+        },
+        {
+          "averageRating": 2094,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "rudobe",
+              "rating": 2048
+            },
+            "id": "YVeYgiid",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "rashtiani",
+              "rating": 2094
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qd3",
+          "uci": "d1d3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 980
+    },
+    "2023-08": {
+      "black": 927,
+      "draws": 96,
+      "moves": [
+        {
+          "averageRating": 2094,
+          "black": 384,
+          "draws": 39,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 356
+        },
+        {
+          "averageRating": 2090,
+          "black": 146,
+          "draws": 14,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 143
+        },
+        {
+          "averageRating": 2104,
+          "black": 129,
+          "draws": 11,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 127
+        },
+        {
+          "averageRating": 2128,
+          "black": 87,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 132
+        },
+        {
+          "averageRating": 2122,
+          "black": 90,
+          "draws": 13,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 121
+        },
+        {
+          "averageRating": 2122,
+          "black": 62,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 58
+        },
+        {
+          "averageRating": 2076,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 7
+        },
+        {
+          "averageRating": 2117,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 6
+        },
+        {
+          "averageRating": 2033,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 4
+        },
+        {
+          "averageRating": 2067,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 4
+        },
+        {
+          "averageRating": 2091,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2006,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "nbg3328",
+              "rating": 2151
+            },
+            "id": "d3o00Aqa",
+            "mode": "rated",
+            "month": "2023-08",
+            "speed": "blitz",
+            "white": {
+              "name": "quantgrav",
+              "rating": 2006
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 959
+    },
+    "2023-09": {
+      "black": 958,
+      "draws": 100,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 391,
+          "draws": 47,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 350
+        },
+        {
+          "averageRating": 2085,
+          "black": 141,
+          "draws": 13,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 140
+        },
+        {
+          "averageRating": 2100,
+          "black": 137,
+          "draws": 12,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 132
+        },
+        {
+          "averageRating": 2125,
+          "black": 117,
+          "draws": 7,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 132
+        },
+        {
+          "averageRating": 2111,
+          "black": 82,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 112
+        },
+        {
+          "averageRating": 2117,
+          "black": 59,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 93
+        },
+        {
+          "averageRating": 2033,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 6
+        },
+        {
+          "averageRating": 2067,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 5
+        },
+        {
+          "averageRating": 2107,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 4
+        },
+        {
+          "averageRating": 2116,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        },
+        {
+          "averageRating": 2116,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bh6",
+          "uci": "c1h6",
+          "white": 1
+        },
+        {
+          "averageRating": 2020,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 978
+    },
+    "2023-10": {
+      "black": 957,
+      "draws": 88,
+      "moves": [
+        {
+          "averageRating": 2092,
+          "black": 386,
+          "draws": 32,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 345
+        },
+        {
+          "averageRating": 2084,
+          "black": 141,
+          "draws": 10,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 123
+        },
+        {
+          "averageRating": 2107,
+          "black": 125,
+          "draws": 11,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 133
+        },
+        {
+          "averageRating": 2117,
+          "black": 117,
+          "draws": 13,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 121
+        },
+        {
+          "averageRating": 2111,
+          "black": 90,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 107
+        },
+        {
+          "averageRating": 2112,
+          "black": 64,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 89
+        },
+        {
+          "averageRating": 2084,
+          "black": 16,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 13
+        },
+        {
+          "averageRating": 2096,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 11
+        },
+        {
+          "averageRating": 2087,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 2
+        },
+        {
+          "averageRating": 2128,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 5
+        },
+        {
+          "averageRating": 2181,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bh6",
+          "uci": "c1h6",
+          "white": 2
+        },
+        {
+          "averageRating": 2019,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 956
+    },
+    "2023-11": {
+      "black": 975,
+      "draws": 101,
+      "moves": [
+        {
+          "averageRating": 2096,
+          "black": 405,
+          "draws": 41,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 375
+        },
+        {
+          "averageRating": 2114,
+          "black": 137,
+          "draws": 14,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 147
+        },
+        {
+          "averageRating": 2094,
+          "black": 142,
+          "draws": 16,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 124
+        },
+        {
+          "averageRating": 2125,
+          "black": 93,
+          "draws": 11,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 136
+        },
+        {
+          "averageRating": 2124,
+          "black": 87,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 112
+        },
+        {
+          "averageRating": 2112,
+          "black": 71,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 86
+        },
+        {
+          "averageRating": 2060,
+          "black": 17,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 9
+        },
+        {
+          "averageRating": 2090,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 7
+        },
+        {
+          "averageRating": 2146,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 4
+        },
+        {
+          "averageRating": 2157,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 5
+        },
+        {
+          "averageRating": 2121,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 2
+        },
+        {
+          "averageRating": 2141,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 1009
+    },
+    "2023-12": {
+      "black": 988,
+      "draws": 103,
+      "moves": [
+        {
+          "averageRating": 2096,
+          "black": 387,
+          "draws": 39,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 366
+        },
+        {
+          "averageRating": 2081,
+          "black": 168,
+          "draws": 14,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 145
+        },
+        {
+          "averageRating": 2113,
+          "black": 125,
+          "draws": 20,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 152
+        },
+        {
+          "averageRating": 2125,
+          "black": 120,
+          "draws": 15,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 146
+        },
+        {
+          "averageRating": 2115,
+          "black": 87,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 101
+        },
+        {
+          "averageRating": 2125,
+          "black": 68,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 100
+        },
+        {
+          "averageRating": 2059,
+          "black": 17,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 11
+        },
+        {
+          "averageRating": 2115,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 16
+        },
+        {
+          "averageRating": 2129,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 4
+        },
+        {
+          "averageRating": 2090,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 4
+        },
+        {
+          "averageRating": 2186,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2114,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 2
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 1048
+    },
+    "2024-01": {
+      "black": 956,
+      "draws": 105,
+      "moves": [
+        {
+          "averageRating": 2092,
+          "black": 351,
+          "draws": 37,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 362
+        },
+        {
+          "averageRating": 2073,
+          "black": 140,
+          "draws": 15,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 143
+        },
+        {
+          "averageRating": 2127,
+          "black": 128,
+          "draws": 10,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 155
+        },
+        {
+          "averageRating": 2101,
+          "black": 123,
+          "draws": 14,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 144
+        },
+        {
+          "averageRating": 2126,
+          "black": 113,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 148
+        },
+        {
+          "averageRating": 2114,
+          "black": 65,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 92
+        },
+        {
+          "averageRating": 2058,
+          "black": 11,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 12
+        },
+        {
+          "averageRating": 2093,
+          "black": 9,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 8
+        },
+        {
+          "averageRating": 2102,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 3
+        },
+        {
+          "averageRating": 2129,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        },
+        {
+          "averageRating": 2115,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2142,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bh6",
+          "uci": "c1h6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 1073
+    },
+    "2024-02": {
+      "black": 928,
+      "draws": 84,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 385,
+          "draws": 33,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 344
+        },
+        {
+          "averageRating": 2087,
+          "black": 148,
+          "draws": 7,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 118
+        },
+        {
+          "averageRating": 2110,
+          "black": 120,
+          "draws": 11,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 134
+        },
+        {
+          "averageRating": 2129,
+          "black": 106,
+          "draws": 15,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 121
+        },
+        {
+          "averageRating": 2114,
+          "black": 80,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 121
+        },
+        {
+          "averageRating": 2115,
+          "black": 61,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 82
+        },
+        {
+          "averageRating": 2072,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 10
+        },
+        {
+          "averageRating": 2109,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 8
+        },
+        {
+          "averageRating": 2109,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 5
+        },
+        {
+          "averageRating": 2132,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        },
+        {
+          "averageRating": 2068,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 2
+        },
+        {
+          "averageRating": 2057,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Padington_2",
+              "rating": 2045
+            },
+            "id": "Lay3ti5V",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Kobarde",
+              "rating": 2057
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 947
+    },
+    "2024-03": {
+      "black": 985,
+      "draws": 100,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 421,
+          "draws": 38,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 354
+        },
+        {
+          "averageRating": 2131,
+          "black": 108,
+          "draws": 16,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 160
+        },
+        {
+          "averageRating": 2084,
+          "black": 148,
+          "draws": 12,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 124
+        },
+        {
+          "averageRating": 2113,
+          "black": 102,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 125
+        },
+        {
+          "averageRating": 2097,
+          "black": 121,
+          "draws": 12,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 103
+        },
+        {
+          "averageRating": 2110,
+          "black": 64,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 79
+        },
+        {
+          "averageRating": 2080,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 9
+        },
+        {
+          "averageRating": 2074,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 6
+        },
+        {
+          "averageRating": 2108,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        },
+        {
+          "averageRating": 1986,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 1
+        },
+        {
+          "averageRating": 2091,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2159,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 967
+    },
+    "2024-04": {
+      "black": 1005,
+      "draws": 123,
+      "moves": [
+        {
+          "averageRating": 2095,
+          "black": 406,
+          "draws": 57,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 344
+        },
+        {
+          "averageRating": 2076,
+          "black": 157,
+          "draws": 15,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 146
+        },
+        {
+          "averageRating": 2103,
+          "black": 142,
+          "draws": 16,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 127
+        },
+        {
+          "averageRating": 2133,
+          "black": 113,
+          "draws": 7,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 143
+        },
+        {
+          "averageRating": 2121,
+          "black": 100,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 111
+        },
+        {
+          "averageRating": 2121,
+          "black": 55,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 86
+        },
+        {
+          "averageRating": 2091,
+          "black": 14,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 4
+        },
+        {
+          "averageRating": 2107,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 7
+        },
+        {
+          "averageRating": 2127,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 5
+        },
+        {
+          "averageRating": 2081,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 2
+        },
+        {
+          "averageRating": 2062,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "pongpongista",
+              "rating": 2019
+            },
+            "id": "M8bTJFF7",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Krikric",
+              "rating": 2062
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2182,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "toulis",
+              "rating": 2188
+            },
+            "id": "ZvOtYHVB",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Kovylkino",
+              "rating": 2182
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bh6",
+          "uci": "c1h6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 975
+    },
+    "2024-05": {
+      "black": 1011,
+      "draws": 103,
+      "moves": [
+        {
+          "averageRating": 2093,
+          "black": 386,
+          "draws": 45,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 371
+        },
+        {
+          "averageRating": 2124,
+          "black": 141,
+          "draws": 17,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 150
+        },
+        {
+          "averageRating": 2084,
+          "black": 160,
+          "draws": 17,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 125
+        },
+        {
+          "averageRating": 2102,
+          "black": 126,
+          "draws": 12,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 150
+        },
+        {
+          "averageRating": 2117,
+          "black": 102,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 121
+        },
+        {
+          "averageRating": 2123,
+          "black": 70,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 91
+        },
+        {
+          "averageRating": 2080,
+          "black": 13,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 9
+        },
+        {
+          "averageRating": 2101,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 7
+        },
+        {
+          "averageRating": 2108,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 6
+        },
+        {
+          "averageRating": 2113,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 2
+        },
+        {
+          "averageRating": 2036,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "jjsnead78",
+              "rating": 2027
+            },
+            "id": "dkO57uxP",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "emiunsaic",
+              "rating": 2036
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 1
+        },
+        {
+          "averageRating": 2150,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "otime4planb",
+              "rating": 2197
+            },
+            "id": "jDmsnznf",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "Sandra2010",
+              "rating": 2150
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 1036
+    },
+    "2024-06": {
+      "black": 904,
+      "draws": 94,
+      "moves": [
+        {
+          "averageRating": 2095,
+          "black": 399,
+          "draws": 45,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 369
+        },
+        {
+          "averageRating": 2079,
+          "black": 132,
+          "draws": 16,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 114
+        },
+        {
+          "averageRating": 2135,
+          "black": 101,
+          "draws": 8,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 140
+        },
+        {
+          "averageRating": 2112,
+          "black": 102,
+          "draws": 10,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 115
+        },
+        {
+          "averageRating": 2117,
+          "black": 73,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 126
+        },
+        {
+          "averageRating": 2115,
+          "black": 63,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 60
+        },
+        {
+          "averageRating": 2085,
+          "black": 13,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 13
+        },
+        {
+          "averageRating": 2084,
+          "black": 11,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 5
+        },
+        {
+          "averageRating": 2089,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 4
+        },
+        {
+          "averageRating": 2068,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 4
+        },
+        {
+          "averageRating": 2090,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 3
+        },
+        {
+          "averageRating": 2148,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "czxcjx",
+              "rating": 2036
+            },
+            "id": "a8ehEGNY",
+            "mode": "rated",
+            "month": "2024-06",
+            "speed": "blitz",
+            "white": {
+              "name": "ersemei",
+              "rating": 2148
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 954
+    },
+    "2024-07": {
+      "black": 929,
+      "draws": 100,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 373,
+          "draws": 46,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 332
+        },
+        {
+          "averageRating": 2139,
+          "black": 116,
+          "draws": 6,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 166
+        },
+        {
+          "averageRating": 2116,
+          "black": 117,
+          "draws": 15,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 141
+        },
+        {
+          "averageRating": 2082,
+          "black": 140,
+          "draws": 9,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 119
+        },
+        {
+          "averageRating": 2126,
+          "black": 91,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 150
+        },
+        {
+          "averageRating": 2109,
+          "black": 62,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 64
+        },
+        {
+          "averageRating": 2055,
+          "black": 17,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 16
+        },
+        {
+          "averageRating": 2078,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 4
+        },
+        {
+          "averageRating": 2052,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 2
+        },
+        {
+          "averageRating": 2031,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 3
+        },
+        {
+          "averageRating": 2058,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "BZH92",
+              "rating": 2181
+            },
+            "id": "g0M58bpX",
+            "mode": "rated",
+            "month": "2024-07",
+            "speed": "blitz",
+            "white": {
+              "name": "WeDaChris",
+              "rating": 2058
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 997
+    },
+    "2024-08": {
+      "black": 954,
+      "draws": 84,
+      "moves": [
+        {
+          "averageRating": 2095,
+          "black": 371,
+          "draws": 33,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 339
+        },
+        {
+          "averageRating": 2126,
+          "black": 113,
+          "draws": 4,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 159
+        },
+        {
+          "averageRating": 2079,
+          "black": 137,
+          "draws": 13,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 124
+        },
+        {
+          "averageRating": 2105,
+          "black": 116,
+          "draws": 13,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 139
+        },
+        {
+          "averageRating": 2120,
+          "black": 124,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 129
+        },
+        {
+          "averageRating": 2113,
+          "black": 62,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 75
+        },
+        {
+          "averageRating": 2078,
+          "black": 13,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 7
+        },
+        {
+          "averageRating": 2117,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 10
+        },
+        {
+          "averageRating": 2128,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 4
+        },
+        {
+          "averageRating": 2074,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 3
+        },
+        {
+          "averageRating": 2070,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2107,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "AlwaysNovice",
+              "rating": 2078
+            },
+            "id": "DsMhFArl",
+            "mode": "rated",
+            "month": "2024-08",
+            "speed": "blitz",
+            "white": {
+              "name": "GambitBrett1",
+              "rating": 2107
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 990
+    },
+    "2024-09": {
+      "black": 847,
+      "draws": 88,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 330,
+          "draws": 39,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 331
+        },
+        {
+          "averageRating": 2087,
+          "black": 134,
+          "draws": 10,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 115
+        },
+        {
+          "averageRating": 2128,
+          "black": 106,
+          "draws": 8,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 124
+        },
+        {
+          "averageRating": 2108,
+          "black": 99,
+          "draws": 12,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 109
+        },
+        {
+          "averageRating": 2130,
+          "black": 95,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 112
+        },
+        {
+          "averageRating": 2113,
+          "black": 59,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 69
+        },
+        {
+          "averageRating": 2057,
+          "black": 14,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 5
+        },
+        {
+          "averageRating": 2118,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 4
+        },
+        {
+          "averageRating": 2138,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 4
+        },
+        {
+          "averageRating": 2113,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 5
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 878
+    },
+    "2024-10": {
+      "black": 857,
+      "draws": 95,
+      "moves": [
+        {
+          "averageRating": 2096,
+          "black": 313,
+          "draws": 31,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 339
+        },
+        {
+          "averageRating": 2078,
+          "black": 148,
+          "draws": 18,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 139
+        },
+        {
+          "averageRating": 2110,
+          "black": 116,
+          "draws": 13,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 137
+        },
+        {
+          "averageRating": 2131,
+          "black": 104,
+          "draws": 14,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 138
+        },
+        {
+          "averageRating": 2116,
+          "black": 83,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 115
+        },
+        {
+          "averageRating": 2116,
+          "black": 67,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 79
+        },
+        {
+          "averageRating": 2113,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 12
+        },
+        {
+          "averageRating": 2061,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 6
+        },
+        {
+          "averageRating": 2088,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        },
+        {
+          "averageRating": 2124,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 2
+        },
+        {
+          "averageRating": 2084,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2077,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 970
+    },
+    "2024-11": {
+      "black": 900,
+      "draws": 100,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 357,
+          "draws": 32,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 328
+        },
+        {
+          "averageRating": 2080,
+          "black": 154,
+          "draws": 18,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 108
+        },
+        {
+          "averageRating": 2126,
+          "black": 121,
+          "draws": 12,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 131
+        },
+        {
+          "averageRating": 2108,
+          "black": 90,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 133
+        },
+        {
+          "averageRating": 2102,
+          "black": 98,
+          "draws": 17,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 102
+        },
+        {
+          "averageRating": 2119,
+          "black": 62,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 71
+        },
+        {
+          "averageRating": 2090,
+          "black": 10,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 8
+        },
+        {
+          "averageRating": 2147,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 9
+        },
+        {
+          "averageRating": 2038,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 0
+        },
+        {
+          "averageRating": 2187,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2030,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 1
+        },
+        {
+          "averageRating": 2132,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Begr88",
+              "rating": 2039
+            },
+            "id": "u0uENZ7T",
+            "mode": "rated",
+            "month": "2024-11",
+            "speed": "blitz",
+            "white": {
+              "name": "rc1969",
+              "rating": 2132
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 892
+    },
+    "2024-12": {
+      "black": 938,
+      "draws": 100,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 379,
+          "draws": 34,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 339
+        },
+        {
+          "averageRating": 2072,
+          "black": 150,
+          "draws": 18,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 111
+        },
+        {
+          "averageRating": 2112,
+          "black": 130,
+          "draws": 17,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 112
+        },
+        {
+          "averageRating": 2134,
+          "black": 98,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 128
+        },
+        {
+          "averageRating": 2128,
+          "black": 98,
+          "draws": 14,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 119
+        },
+        {
+          "averageRating": 2127,
+          "black": 58,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 70
+        },
+        {
+          "averageRating": 2105,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 10
+        },
+        {
+          "averageRating": 2052,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 8
+        },
+        {
+          "averageRating": 2079,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 3
+        },
+        {
+          "averageRating": 2192,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        },
+        {
+          "averageRating": 2174,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bh6",
+          "uci": "c1h6",
+          "white": 1
+        },
+        {
+          "averageRating": 2104,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "matuszenko",
+              "rating": 2094
+            },
+            "id": "8mpXcPlw",
+            "mode": "rated",
+            "month": "2024-12",
+            "speed": "blitz",
+            "white": {
+              "name": "nikitossss897",
+              "rating": 2104
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 903
+    },
+    "2025-01": {
+      "black": 942,
+      "draws": 97,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 348,
+          "draws": 35,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 354
+        },
+        {
+          "averageRating": 2129,
+          "black": 125,
+          "draws": 19,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 158
+        },
+        {
+          "averageRating": 2107,
+          "black": 130,
+          "draws": 8,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 162
+        },
+        {
+          "averageRating": 2080,
+          "black": 142,
+          "draws": 9,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 147
+        },
+        {
+          "averageRating": 2127,
+          "black": 91,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 118
+        },
+        {
+          "averageRating": 2118,
+          "black": 75,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 88
+        },
+        {
+          "averageRating": 2077,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 9
+        },
+        {
+          "averageRating": 2117,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 6
+        },
+        {
+          "averageRating": 2117,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 3
+        },
+        {
+          "averageRating": 2138,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 2
+        },
+        {
+          "averageRating": 2068,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2048,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 1050
+    },
+    "2025-02": {
+      "black": 786,
+      "draws": 78,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 307,
+          "draws": 28,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 291
+        },
+        {
+          "averageRating": 2103,
+          "black": 115,
+          "draws": 12,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 114
+        },
+        {
+          "averageRating": 2087,
+          "black": 109,
+          "draws": 11,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 114
+        },
+        {
+          "averageRating": 2129,
+          "black": 94,
+          "draws": 7,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 117
+        },
+        {
+          "averageRating": 2121,
+          "black": 86,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 119
+        },
+        {
+          "averageRating": 2117,
+          "black": 56,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 75
+        },
+        {
+          "averageRating": 2085,
+          "black": 13,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 5
+        },
+        {
+          "averageRating": 2051,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 6
+        },
+        {
+          "averageRating": 2092,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 3
+        },
+        {
+          "averageRating": 2266,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 2
+        },
+        {
+          "averageRating": 2134,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2135,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "pista68",
+              "rating": 2070
+            },
+            "id": "dP96Gv43",
+            "mode": "rated",
+            "month": "2025-02",
+            "speed": "blitz",
+            "white": {
+              "name": "MisterOnua",
+              "rating": 2135
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 850
+    },
+    "2025-03": {
+      "black": 922,
+      "draws": 91,
+      "moves": [
+        {
+          "averageRating": 2096,
+          "black": 356,
+          "draws": 42,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 350
+        },
+        {
+          "averageRating": 2134,
+          "black": 118,
+          "draws": 13,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 146
+        },
+        {
+          "averageRating": 2105,
+          "black": 125,
+          "draws": 12,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 138
+        },
+        {
+          "averageRating": 2072,
+          "black": 139,
+          "draws": 6,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 117
+        },
+        {
+          "averageRating": 2121,
+          "black": 99,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 127
+        },
+        {
+          "averageRating": 2105,
+          "black": 64,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 90
+        },
+        {
+          "averageRating": 2082,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 11
+        },
+        {
+          "averageRating": 2117,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 8
+        },
+        {
+          "averageRating": 2087,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 3
+        },
+        {
+          "averageRating": 2115,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 3
+        },
+        {
+          "averageRating": 2236,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 2
+        },
+        {
+          "averageRating": 2369,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "SirEdward24",
+              "rating": 1881
+            },
+            "id": "qMIJpjY2",
+            "mode": "rated",
+            "month": "2025-03",
+            "speed": "blitz",
+            "white": {
+              "name": "ecstatic123",
+              "rating": 2369
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 997
+    },
+    "2025-04": {
+      "black": 849,
+      "draws": 99,
+      "moves": [
+        {
+          "averageRating": 2095,
+          "black": 306,
+          "draws": 39,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 332
+        },
+        {
+          "averageRating": 2083,
+          "black": 148,
+          "draws": 11,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 121
+        },
+        {
+          "averageRating": 2132,
+          "black": 108,
+          "draws": 18,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 140
+        },
+        {
+          "averageRating": 2109,
+          "black": 110,
+          "draws": 17,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 135
+        },
+        {
+          "averageRating": 2123,
+          "black": 89,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 127
+        },
+        {
+          "averageRating": 2118,
+          "black": 62,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 70
+        },
+        {
+          "averageRating": 2059,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 5
+        },
+        {
+          "averageRating": 2075,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 7
+        },
+        {
+          "averageRating": 2150,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 2
+        },
+        {
+          "averageRating": 2115,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 0
+        },
+        {
+          "averageRating": 1939,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2077,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "DAVIDmark",
+              "rating": 2276
+            },
+            "id": "QRnH8z3A",
+            "mode": "rated",
+            "month": "2025-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Dhanuja2010",
+              "rating": 2077
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 941
+    },
+    "2025-05": {
+      "black": 899,
+      "draws": 101,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 346,
+          "draws": 42,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 361
+        },
+        {
+          "averageRating": 2077,
+          "black": 141,
+          "draws": 9,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 122
+        },
+        {
+          "averageRating": 2103,
+          "black": 120,
+          "draws": 10,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 135
+        },
+        {
+          "averageRating": 2125,
+          "black": 107,
+          "draws": 15,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 123
+        },
+        {
+          "averageRating": 2122,
+          "black": 92,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 133
+        },
+        {
+          "averageRating": 2116,
+          "black": 63,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 74
+        },
+        {
+          "averageRating": 2069,
+          "black": 11,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 10
+        },
+        {
+          "averageRating": 2095,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 9
+        },
+        {
+          "averageRating": 2096,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 2
+        },
+        {
+          "averageRating": 2059,
+          "black": 2,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 1
+        },
+        {
+          "averageRating": 2167,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 0
+        },
+        {
+          "averageRating": 2105,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 971
+    },
+    "2025-06": {
+      "black": 857,
+      "draws": 80,
+      "moves": [
+        {
+          "averageRating": 2093,
+          "black": 366,
+          "draws": 35,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 323
+        },
+        {
+          "averageRating": 2083,
+          "black": 125,
+          "draws": 9,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 121
+        },
+        {
+          "averageRating": 2127,
+          "black": 100,
+          "draws": 10,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 144
+        },
+        {
+          "averageRating": 2111,
+          "black": 110,
+          "draws": 7,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 118
+        },
+        {
+          "averageRating": 2128,
+          "black": 74,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 99
+        },
+        {
+          "averageRating": 2125,
+          "black": 53,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 84
+        },
+        {
+          "averageRating": 2108,
+          "black": 16,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1
+        },
+        {
+          "averageRating": 2077,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 7
+        },
+        {
+          "averageRating": 2093,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 4
+        },
+        {
+          "averageRating": 2032,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2026,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Yurok12",
+              "rating": 2022
+            },
+            "id": "xINLZFgF",
+            "mode": "rated",
+            "month": "2025-06",
+            "speed": "blitz",
+            "white": {
+              "name": "GambitoJavi",
+              "rating": 2026
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2073,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "theBeautyInChess",
+              "rating": 2086
+            },
+            "id": "M3nbRkMm",
+            "mode": "rated",
+            "month": "2025-06",
+            "speed": "blitz",
+            "white": {
+              "name": "EmperorZhark",
+              "rating": 2073
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 904
+    },
+    "2025-07": {
+      "black": 927,
+      "draws": 93,
+      "moves": [
+        {
+          "averageRating": 2094,
+          "black": 350,
+          "draws": 33,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 314
+        },
+        {
+          "averageRating": 2103,
+          "black": 120,
+          "draws": 15,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 137
+        },
+        {
+          "averageRating": 2075,
+          "black": 146,
+          "draws": 7,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 107
+        },
+        {
+          "averageRating": 2129,
+          "black": 108,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 126
+        },
+        {
+          "averageRating": 2123,
+          "black": 116,
+          "draws": 11,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 117
+        },
+        {
+          "averageRating": 2122,
+          "black": 72,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 95
+        },
+        {
+          "averageRating": 2065,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 6
+        },
+        {
+          "averageRating": 2063,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 4
+        },
+        {
+          "averageRating": 2144,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 5
+        },
+        {
+          "averageRating": 2174,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "miha_22848",
+              "rating": 2091
+            },
+            "id": "O8a06Wjr",
+            "mode": "rated",
+            "month": "2025-07",
+            "speed": "blitz",
+            "white": {
+              "name": "Supreme_Lord_RU",
+              "rating": 2174
+            },
+            "winner": null,
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 0
+        },
+        {
+          "averageRating": 2007,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "MY_HAMMER",
+              "rating": 2197
+            },
+            "id": "FHcjwZm2",
+            "mode": "rated",
+            "month": "2025-07",
+            "speed": "blitz",
+            "white": {
+              "name": "PMRT555",
+              "rating": 2007
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 911
+    },
+    "2025-08": {
+      "black": 876,
+      "draws": 97,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 345,
+          "draws": 44,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 292
+        },
+        {
+          "averageRating": 2126,
+          "black": 127,
+          "draws": 5,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 137
+        },
+        {
+          "averageRating": 2122,
+          "black": 104,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 146
+        },
+        {
+          "averageRating": 2083,
+          "black": 113,
+          "draws": 13,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 115
+        },
+        {
+          "averageRating": 2105,
+          "black": 103,
+          "draws": 12,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 109
+        },
+        {
+          "averageRating": 2121,
+          "black": 52,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 72
+        },
+        {
+          "averageRating": 2099,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 6
+        },
+        {
+          "averageRating": 2068,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 5
+        },
+        {
+          "averageRating": 1988,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 5
+        },
+        {
+          "averageRating": 2085,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 4
+        },
+        {
+          "averageRating": 2096,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 3
+        },
+        {
+          "averageRating": 2079,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 895
+    },
+    "2025-09": {
+      "black": 861,
+      "draws": 95,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 329,
+          "draws": 36,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 291
+        },
+        {
+          "averageRating": 2114,
+          "black": 107,
+          "draws": 12,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 123
+        },
+        {
+          "averageRating": 2073,
+          "black": 129,
+          "draws": 13,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 91
+        },
+        {
+          "averageRating": 2114,
+          "black": 104,
+          "draws": 9,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 118
+        },
+        {
+          "averageRating": 2124,
+          "black": 91,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 119
+        },
+        {
+          "averageRating": 2122,
+          "black": 79,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 93
+        },
+        {
+          "averageRating": 2110,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 10
+        },
+        {
+          "averageRating": 2113,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 11
+        },
+        {
+          "averageRating": 2056,
+          "black": 3,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        },
+        {
+          "averageRating": 2154,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 2
+        },
+        {
+          "averageRating": 1965,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "zahariy13",
+              "rating": 2037
+            },
+            "id": "DA9wo4iZ",
+            "mode": "rated",
+            "month": "2025-09",
+            "speed": "blitz",
+            "white": {
+              "name": "Op_ade",
+              "rating": 1965
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 1987,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Rujinik",
+              "rating": 2039
+            },
+            "id": "MBD5gHpj",
+            "mode": "rated",
+            "month": "2025-09",
+            "speed": "blitz",
+            "white": {
+              "name": "ohcaptainmycaptain",
+              "rating": 1987
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bh6",
+          "uci": "c1h6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 862
+    },
+    "2025-10": {
+      "black": 904,
+      "draws": 94,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 327,
+          "draws": 36,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 330
+        },
+        {
+          "averageRating": 2132,
+          "black": 116,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 175
+        },
+        {
+          "averageRating": 2077,
+          "black": 140,
+          "draws": 12,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 107
+        },
+        {
+          "averageRating": 2103,
+          "black": 103,
+          "draws": 12,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 138
+        },
+        {
+          "averageRating": 2111,
+          "black": 112,
+          "draws": 10,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 123
+        },
+        {
+          "averageRating": 2120,
+          "black": 73,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 99
+        },
+        {
+          "averageRating": 2077,
+          "black": 16,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 5
+        },
+        {
+          "averageRating": 2097,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 5
+        },
+        {
+          "averageRating": 2089,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        },
+        {
+          "averageRating": 2164,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 3
+        },
+        {
+          "averageRating": 2057,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2196,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Nacktsamer",
+              "rating": 2074
+            },
+            "id": "InDV4gvY",
+            "mode": "rated",
+            "month": "2025-10",
+            "speed": "blitz",
+            "white": {
+              "name": "genesisnicks1",
+              "rating": 2196
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 988
+    },
+    "2025-11": {
+      "black": 843,
+      "draws": 100,
+      "moves": [
+        {
+          "averageRating": 2089,
+          "black": 347,
+          "draws": 30,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 329
+        },
+        {
+          "averageRating": 2088,
+          "black": 122,
+          "draws": 16,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 124
+        },
+        {
+          "averageRating": 2101,
+          "black": 107,
+          "draws": 20,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 115
+        },
+        {
+          "averageRating": 2120,
+          "black": 105,
+          "draws": 11,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 113
+        },
+        {
+          "averageRating": 2115,
+          "black": 88,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 127
+        },
+        {
+          "averageRating": 2121,
+          "black": 56,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 90
+        },
+        {
+          "averageRating": 2097,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 10
+        },
+        {
+          "averageRating": 2104,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 5
+        },
+        {
+          "averageRating": 2066,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 3
+        },
+        {
+          "averageRating": 2157,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 4
+        },
+        {
+          "averageRating": 2072,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 3
+        },
+        {
+          "averageRating": 1893,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bh6",
+          "uci": "c1h6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 924
+    },
+    "2025-12": {
+      "black": 957,
+      "draws": 102,
+      "moves": [
+        {
+          "averageRating": 2096,
+          "black": 356,
+          "draws": 38,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 366
+        },
+        {
+          "averageRating": 2090,
+          "black": 148,
+          "draws": 14,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 136
+        },
+        {
+          "averageRating": 2115,
+          "black": 115,
+          "draws": 14,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 140
+        },
+        {
+          "averageRating": 2107,
+          "black": 97,
+          "draws": 13,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 145
+        },
+        {
+          "averageRating": 2131,
+          "black": 102,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 134
+        },
+        {
+          "averageRating": 2109,
+          "black": 99,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 87
+        },
+        {
+          "averageRating": 2069,
+          "black": 15,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 10
+        },
+        {
+          "averageRating": 2051,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 5
+        },
+        {
+          "averageRating": 2088,
+          "black": 7,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 6
+        },
+        {
+          "averageRating": 2112,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 3
+        },
+        {
+          "averageRating": 2081,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 0
+        },
+        {
+          "averageRating": 2146,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 1032
+    },
+    "2026-01": {
+      "black": 981,
+      "draws": 109,
+      "moves": [
+        {
+          "averageRating": 2092,
+          "black": 399,
+          "draws": 33,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 337
+        },
+        {
+          "averageRating": 2117,
+          "black": 115,
+          "draws": 23,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 137
+        },
+        {
+          "averageRating": 2109,
+          "black": 109,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 147
+        },
+        {
+          "averageRating": 2077,
+          "black": 127,
+          "draws": 15,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 121
+        },
+        {
+          "averageRating": 2093,
+          "black": 120,
+          "draws": 16,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 122
+        },
+        {
+          "averageRating": 2107,
+          "black": 91,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 111
+        },
+        {
+          "averageRating": 2062,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 8
+        },
+        {
+          "averageRating": 2061,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 5
+        },
+        {
+          "averageRating": 2095,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 5
+        },
+        {
+          "averageRating": 2041,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2068,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        },
+        {
+          "averageRating": 1937,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "danger91",
+              "rating": 2178
+            },
+            "id": "oXKtGXGK",
+            "mode": "rated",
+            "month": "2026-01",
+            "speed": "blitz",
+            "white": {
+              "name": "habbechinho1",
+              "rating": 1937
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Ng1",
+          "uci": "f3g1",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 996
+    },
+    "2026-02": {
+      "black": 894,
+      "draws": 85,
+      "moves": [
+        {
+          "averageRating": 2093,
+          "black": 325,
+          "draws": 26,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 283
+        },
+        {
+          "averageRating": 2102,
+          "black": 123,
+          "draws": 11,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 129
+        },
+        {
+          "averageRating": 2077,
+          "black": 126,
+          "draws": 14,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 115
+        },
+        {
+          "averageRating": 2123,
+          "black": 95,
+          "draws": 10,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 140
+        },
+        {
+          "averageRating": 2117,
+          "black": 97,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 136
+        },
+        {
+          "averageRating": 2117,
+          "black": 93,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 83
+        },
+        {
+          "averageRating": 2088,
+          "black": 14,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 8
+        },
+        {
+          "averageRating": 2134,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 6
+        },
+        {
+          "averageRating": 2091,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 4
+        },
+        {
+          "averageRating": 2076,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 2
+        },
+        {
+          "averageRating": 2185,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 2
+        },
+        {
+          "averageRating": 2100,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 910
+    },
+    "2026-03": {
+      "black": 825,
+      "draws": 88,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 329,
+          "draws": 35,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 327
+        },
+        {
+          "averageRating": 2109,
+          "black": 104,
+          "draws": 10,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 153
+        },
+        {
+          "averageRating": 2118,
+          "black": 89,
+          "draws": 14,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 122
+        },
+        {
+          "averageRating": 2113,
+          "black": 96,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 113
+        },
+        {
+          "averageRating": 2083,
+          "black": 97,
+          "draws": 9,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 96
+        },
+        {
+          "averageRating": 2121,
+          "black": 76,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 100
+        },
+        {
+          "averageRating": 2058,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 5
+        },
+        {
+          "averageRating": 2130,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 3
+        },
+        {
+          "averageRating": 2145,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        },
+        {
+          "averageRating": 2088,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 1
+        },
+        {
+          "averageRating": 2020,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2081,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 924
+    },
+    "2026-04": {
+      "black": 465,
+      "draws": 43,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 171,
+          "draws": 15,
+          "game": null,
+          "opening": {
+            "eco": "A70",
+            "name": "Benoni Defense: Classical Variation"
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 174
+        },
+        {
+          "averageRating": 2089,
+          "black": 65,
+          "draws": 7,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Fianchetto Variation"
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 65
+        },
+        {
+          "averageRating": 2069,
+          "black": 72,
+          "draws": 6,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Uhlmann Variation"
+          },
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 59
+        },
+        {
+          "averageRating": 2124,
+          "black": 50,
+          "draws": 4,
+          "game": null,
+          "opening": {
+            "eco": "A61",
+            "name": "Benoni Defense: Knight's Tour Variation"
+          },
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 63
+        },
+        {
+          "averageRating": 2116,
+          "black": 47,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 63
+        },
+        {
+          "averageRating": 2113,
+          "black": 41,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 47
+        },
+        {
+          "averageRating": 2084,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 7
+        },
+        {
+          "averageRating": 2078,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 3
+        },
+        {
+          "averageRating": 2097,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 6
+        },
+        {
+          "averageRating": 2088,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 0
+        },
+        {
+          "averageRating": 2058,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa4+",
+          "uci": "d1a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2077,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "chettouss",
+              "rating": 2136
+            },
+            "id": "5riNjoOc",
+            "mode": "rated",
+            "month": "2026-04",
+            "speed": "blitz",
+            "white": {
+              "name": "ChanjuChiso",
+              "rating": 2077
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A61",
+        "name": "Benoni Defense"
+      },
+      "white": 488
+    }
+  }
+}

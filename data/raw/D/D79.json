@@ -1,0 +1,5880 @@
+{
+  "_meta": {
+    "skipped_months": {}
+  },
+  "eco": "D79",
+  "months": {
+    "2023-01": {
+      "black": 379,
+      "draws": 86,
+      "moves": [
+        {
+          "averageRating": 2115,
+          "black": 307,
+          "draws": 75,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 366
+        },
+        {
+          "averageRating": 2142,
+          "black": 42,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 70
+        },
+        {
+          "averageRating": 2105,
+          "black": 7,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 2
+        },
+        {
+          "averageRating": 2090,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 4
+        },
+        {
+          "averageRating": 2090,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 5
+        },
+        {
+          "averageRating": 2127,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3
+        },
+        {
+          "averageRating": 2113,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 3
+        },
+        {
+          "averageRating": 2087,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 3
+        },
+        {
+          "averageRating": 2001,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 3
+        },
+        {
+          "averageRating": 2071,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        },
+        {
+          "averageRating": 2041,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 2095,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Asinhar",
+              "rating": 2031
+            },
+            "id": "USe4CHmZ",
+            "mode": "rated",
+            "month": "2023-01",
+            "speed": "blitz",
+            "white": {
+              "name": "VASQUEITOR",
+              "rating": 2095
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 462
+    },
+    "2023-02": {
+      "black": 364,
+      "draws": 68,
+      "moves": [
+        {
+          "averageRating": 2119,
+          "black": 288,
+          "draws": 50,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 277
+        },
+        {
+          "averageRating": 2148,
+          "black": 42,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 72
+        },
+        {
+          "averageRating": 2069,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 4
+        },
+        {
+          "averageRating": 2125,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3
+        },
+        {
+          "averageRating": 2095,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 3
+        },
+        {
+          "averageRating": 2059,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 2
+        },
+        {
+          "averageRating": 2098,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 4
+        },
+        {
+          "averageRating": 2092,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2053,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        },
+        {
+          "averageRating": 2088,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 2035,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 0
+        },
+        {
+          "averageRating": 2212,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "denbert",
+              "rating": 2136
+            },
+            "id": "jiQDciLQ",
+            "mode": "rated",
+            "month": "2023-02",
+            "speed": "blitz",
+            "white": {
+              "name": "michaelcastillo",
+              "rating": 2212
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Na3",
+          "uci": "b1a3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 370
+    },
+    "2023-03": {
+      "black": 347,
+      "draws": 63,
+      "moves": [
+        {
+          "averageRating": 2114,
+          "black": 278,
+          "draws": 52,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 321
+        },
+        {
+          "averageRating": 2129,
+          "black": 36,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 53
+        },
+        {
+          "averageRating": 2091,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 4
+        },
+        {
+          "averageRating": 2085,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 9
+        },
+        {
+          "averageRating": 2053,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 4
+        },
+        {
+          "averageRating": 2099,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 3
+        },
+        {
+          "averageRating": 2063,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 3
+        },
+        {
+          "averageRating": 2111,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2083,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 3
+        },
+        {
+          "averageRating": 2104,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2161,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Crogel7",
+              "rating": 2028
+            },
+            "id": "9kAk1FZi",
+            "mode": "rated",
+            "month": "2023-03",
+            "speed": "blitz",
+            "white": {
+              "name": "pauli4ever",
+              "rating": 2161
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 0
+        },
+        {
+          "averageRating": 2129,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "mdavuzn",
+              "rating": 2121
+            },
+            "id": "9co4V2WM",
+            "mode": "rated",
+            "month": "2023-03",
+            "speed": "blitz",
+            "white": {
+              "name": "Steffen04",
+              "rating": 2129
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 404
+    },
+    "2023-04": {
+      "black": 315,
+      "draws": 54,
+      "moves": [
+        {
+          "averageRating": 2110,
+          "black": 247,
+          "draws": 44,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 282
+        },
+        {
+          "averageRating": 2146,
+          "black": 44,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 65
+        },
+        {
+          "averageRating": 2107,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 5
+        },
+        {
+          "averageRating": 2093,
+          "black": 3,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 3
+        },
+        {
+          "averageRating": 2112,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2064,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 3
+        },
+        {
+          "averageRating": 2084,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 2
+        },
+        {
+          "averageRating": 2038,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2153,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        },
+        {
+          "averageRating": 2136,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2221,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1
+        },
+        {
+          "averageRating": 2095,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "tsotne_12",
+              "rating": 2102
+            },
+            "id": "SE3BXJob",
+            "mode": "rated",
+            "month": "2023-04",
+            "speed": "blitz",
+            "white": {
+              "name": "treeline",
+              "rating": 2095
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 367
+    },
+    "2023-05": {
+      "black": 340,
+      "draws": 66,
+      "moves": [
+        {
+          "averageRating": 2118,
+          "black": 284,
+          "draws": 56,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 349
+        },
+        {
+          "averageRating": 2167,
+          "black": 36,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 57
+        },
+        {
+          "averageRating": 2093,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 9
+        },
+        {
+          "averageRating": 2125,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 5
+        },
+        {
+          "averageRating": 2034,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 4
+        },
+        {
+          "averageRating": 2143,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 5
+        },
+        {
+          "averageRating": 2120,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 3
+        },
+        {
+          "averageRating": 2085,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 3
+        },
+        {
+          "averageRating": 2152,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 3
+        },
+        {
+          "averageRating": 2112,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2124,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 1931,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "kennedymush",
+              "rating": 2144
+            },
+            "id": "irHwTxkr",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "Real_Mabatakey",
+              "rating": 1931
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "b4",
+          "uci": "b2b4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 441
+    },
+    "2023-06": {
+      "black": 354,
+      "draws": 69,
+      "moves": [
+        {
+          "averageRating": 2116,
+          "black": 293,
+          "draws": 56,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 297
+        },
+        {
+          "averageRating": 2139,
+          "black": 44,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 55
+        },
+        {
+          "averageRating": 2010,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 5
+        },
+        {
+          "averageRating": 2059,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 4
+        },
+        {
+          "averageRating": 2179,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 4
+        },
+        {
+          "averageRating": 2062,
+          "black": 1,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 2
+        },
+        {
+          "averageRating": 2073,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2112,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2058,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        },
+        {
+          "averageRating": 2095,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 2
+        },
+        {
+          "averageRating": 2102,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "tons0406",
+              "rating": 2020
+            },
+            "id": "B4rp5hPR",
+            "mode": "rated",
+            "month": "2023-06",
+            "speed": "blitz",
+            "white": {
+              "name": "Chesswarrior82",
+              "rating": 2102
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        },
+        {
+          "averageRating": 2060,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "tons0406",
+              "rating": 2018
+            },
+            "id": "t5BLeIxT",
+            "mode": "rated",
+            "month": "2023-06",
+            "speed": "blitz",
+            "white": {
+              "name": "teocez",
+              "rating": 2060
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 378
+    },
+    "2023-07": {
+      "black": 339,
+      "draws": 60,
+      "moves": [
+        {
+          "averageRating": 2113,
+          "black": 261,
+          "draws": 49,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 321
+        },
+        {
+          "averageRating": 2149,
+          "black": 52,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 77
+        },
+        {
+          "averageRating": 2093,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3
+        },
+        {
+          "averageRating": 2087,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2
+        },
+        {
+          "averageRating": 2037,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 2
+        },
+        {
+          "averageRating": 2049,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 6
+        },
+        {
+          "averageRating": 2082,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 4
+        },
+        {
+          "averageRating": 2134,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 3
+        },
+        {
+          "averageRating": 2113,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 2
+        },
+        {
+          "averageRating": 2106,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "trosky11",
+              "rating": 2114
+            },
+            "id": "gfqB7Cuf",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "Erve17",
+              "rating": 2106
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 0
+        },
+        {
+          "averageRating": 2099,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Kaiser2",
+              "rating": 2157
+            },
+            "id": "PXhg7YpA",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "elasticus",
+              "rating": 2099
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 1966,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "EwiAja",
+              "rating": 2045
+            },
+            "id": "T11cC9MN",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "MarceloCarmo",
+              "rating": 1966
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qa4",
+          "uci": "d1a4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 422
+    },
+    "2023-08": {
+      "black": 360,
+      "draws": 82,
+      "moves": [
+        {
+          "averageRating": 2115,
+          "black": 283,
+          "draws": 62,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 389
+        },
+        {
+          "averageRating": 2146,
+          "black": 49,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 66
+        },
+        {
+          "averageRating": 2076,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 8
+        },
+        {
+          "averageRating": 2083,
+          "black": 8,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3
+        },
+        {
+          "averageRating": 2037,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 4
+        },
+        {
+          "averageRating": 2138,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2044,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 2
+        },
+        {
+          "averageRating": 2047,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2177,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 0
+        },
+        {
+          "averageRating": 2088,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2010,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Torturador_01",
+              "rating": 2123
+            },
+            "id": "SMZRucsr",
+            "mode": "rated",
+            "month": "2023-08",
+            "speed": "blitz",
+            "white": {
+              "name": "gakebaoo",
+              "rating": 2010
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 0
+        },
+        {
+          "averageRating": 2130,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Vladislavwwvv",
+              "rating": 2184
+            },
+            "id": "B9qRVEZi",
+            "mode": "rated",
+            "month": "2023-08",
+            "speed": "blitz",
+            "white": {
+              "name": "flavioaguia28",
+              "rating": 2130
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 475
+    },
+    "2023-09": {
+      "black": 358,
+      "draws": 77,
+      "moves": [
+        {
+          "averageRating": 2111,
+          "black": 302,
+          "draws": 61,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 375
+        },
+        {
+          "averageRating": 2148,
+          "black": 34,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 70
+        },
+        {
+          "averageRating": 2102,
+          "black": 2,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 4
+        },
+        {
+          "averageRating": 2065,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 3
+        },
+        {
+          "averageRating": 2081,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 4
+        },
+        {
+          "averageRating": 2073,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 3
+        },
+        {
+          "averageRating": 2083,
+          "black": 3,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2055,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2049,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2
+        },
+        {
+          "averageRating": 2073,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        },
+        {
+          "averageRating": 2161,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 3
+        },
+        {
+          "averageRating": 2224,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "AlbertBik",
+              "rating": 2170
+            },
+            "id": "KUtCHN47",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "Fredricthegreat",
+              "rating": 2224
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qa4",
+          "uci": "d1a4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 469
+    },
+    "2023-10": {
+      "black": 377,
+      "draws": 78,
+      "moves": [
+        {
+          "averageRating": 2118,
+          "black": 305,
+          "draws": 63,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 367
+        },
+        {
+          "averageRating": 2154,
+          "black": 40,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 74
+        },
+        {
+          "averageRating": 2099,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 6
+        },
+        {
+          "averageRating": 2074,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2
+        },
+        {
+          "averageRating": 2084,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        },
+        {
+          "averageRating": 1973,
+          "black": 2,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2093,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 2
+        },
+        {
+          "averageRating": 2046,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1
+        },
+        {
+          "averageRating": 2062,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2120,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 2
+        },
+        {
+          "averageRating": 2105,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2051,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 464
+    },
+    "2023-11": {
+      "black": 344,
+      "draws": 66,
+      "moves": [
+        {
+          "averageRating": 2119,
+          "black": 283,
+          "draws": 56,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 332
+        },
+        {
+          "averageRating": 2149,
+          "black": 47,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 55
+        },
+        {
+          "averageRating": 2087,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 9
+        },
+        {
+          "averageRating": 2091,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 4
+        },
+        {
+          "averageRating": 2091,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 7
+        },
+        {
+          "averageRating": 2096,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 3
+        },
+        {
+          "averageRating": 2052,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 4
+        },
+        {
+          "averageRating": 2083,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2021,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 0
+        },
+        {
+          "averageRating": 2105,
+          "black": 0,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 0
+        },
+        {
+          "averageRating": 2067,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 2
+        },
+        {
+          "averageRating": 2191,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "FA-Luna809",
+              "rating": 2131
+            },
+            "id": "g5l2wdBv",
+            "mode": "rated",
+            "month": "2023-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Sahabatbaru",
+              "rating": 2191
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Na3",
+          "uci": "b1a3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 419
+    },
+    "2023-12": {
+      "black": 359,
+      "draws": 77,
+      "moves": [
+        {
+          "averageRating": 2122,
+          "black": 300,
+          "draws": 63,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 392
+        },
+        {
+          "averageRating": 2175,
+          "black": 40,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 52
+        },
+        {
+          "averageRating": 2079,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 5
+        },
+        {
+          "averageRating": 2155,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 5
+        },
+        {
+          "averageRating": 2096,
+          "black": 4,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2122,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 5
+        },
+        {
+          "averageRating": 2143,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 3
+        },
+        {
+          "averageRating": 2021,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2086,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 1
+        },
+        {
+          "averageRating": 1685,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Holyheinz",
+              "rating": 2445
+            },
+            "id": "tisbqLO2",
+            "mode": "rated",
+            "month": "2023-12",
+            "speed": "blitz",
+            "white": {
+              "name": "WorthwhileConquest28",
+              "rating": 1685
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 0
+        },
+        {
+          "averageRating": 2106,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "marjani3900",
+              "rating": 2169
+            },
+            "id": "V5ziGRLR",
+            "mode": "rated",
+            "month": "2023-12",
+            "speed": "blitz",
+            "white": {
+              "name": "jhimaster22",
+              "rating": 2106
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 467
+    },
+    "2024-01": {
+      "black": 398,
+      "draws": 85,
+      "moves": [
+        {
+          "averageRating": 2115,
+          "black": 319,
+          "draws": 68,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 381
+        },
+        {
+          "averageRating": 2146,
+          "black": 53,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 62
+        },
+        {
+          "averageRating": 2040,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 4
+        },
+        {
+          "averageRating": 2121,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 4
+        },
+        {
+          "averageRating": 2044,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 4
+        },
+        {
+          "averageRating": 2099,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2019,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2101,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        },
+        {
+          "averageRating": 2000,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 2
+        },
+        {
+          "averageRating": 2097,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 3
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 465
+    },
+    "2024-02": {
+      "black": 322,
+      "draws": 75,
+      "moves": [
+        {
+          "averageRating": 2118,
+          "black": 258,
+          "draws": 64,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 301
+        },
+        {
+          "averageRating": 2162,
+          "black": 43,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 54
+        },
+        {
+          "averageRating": 2079,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 5
+        },
+        {
+          "averageRating": 2016,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2062,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 4
+        },
+        {
+          "averageRating": 2094,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 2
+        },
+        {
+          "averageRating": 2088,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 2
+        },
+        {
+          "averageRating": 2053,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 4
+        },
+        {
+          "averageRating": 2059,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        },
+        {
+          "averageRating": 2117,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 0
+        },
+        {
+          "averageRating": 1950,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "cesaribanez-tacloban",
+              "rating": 2116
+            },
+            "id": "UKSA4ydx",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "peampeam0428",
+              "rating": 1950
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 375
+    },
+    "2024-03": {
+      "black": 366,
+      "draws": 82,
+      "moves": [
+        {
+          "averageRating": 2119,
+          "black": 291,
+          "draws": 67,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 369
+        },
+        {
+          "averageRating": 2152,
+          "black": 54,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 66
+        },
+        {
+          "averageRating": 2063,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 3
+        },
+        {
+          "averageRating": 2054,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 0
+        },
+        {
+          "averageRating": 2020,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 5
+        },
+        {
+          "averageRating": 2088,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 3
+        },
+        {
+          "averageRating": 2070,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 2
+        },
+        {
+          "averageRating": 2080,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 2
+        },
+        {
+          "averageRating": 2109,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2148,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        },
+        {
+          "averageRating": 1967,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Birrul_BTS207",
+              "rating": 2171
+            },
+            "id": "mgaD3vUE",
+            "mode": "rated",
+            "month": "2024-03",
+            "speed": "blitz",
+            "white": {
+              "name": "J4YYU5_BTS207",
+              "rating": 1967
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        },
+        {
+          "averageRating": 2118,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Kacey",
+              "rating": 2139
+            },
+            "id": "dyfjJyzv",
+            "mode": "rated",
+            "month": "2024-03",
+            "speed": "blitz",
+            "white": {
+              "name": "Maineroadblue",
+              "rating": 2118
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 455
+    },
+    "2024-04": {
+      "black": 366,
+      "draws": 60,
+      "moves": [
+        {
+          "averageRating": 2114,
+          "black": 299,
+          "draws": 48,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 306
+        },
+        {
+          "averageRating": 2151,
+          "black": 46,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 79
+        },
+        {
+          "averageRating": 2031,
+          "black": 3,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 4
+        },
+        {
+          "averageRating": 2037,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 3
+        },
+        {
+          "averageRating": 2079,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3
+        },
+        {
+          "averageRating": 2108,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2068,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 3
+        },
+        {
+          "averageRating": 2033,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2026,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Valeriy1968",
+              "rating": 2037
+            },
+            "id": "KuyFbEes",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "khaledalrabty",
+              "rating": 2026
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 0
+        },
+        {
+          "averageRating": 2024,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ParleS2000",
+              "rating": 2060
+            },
+            "id": "FYneQe2k",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "SluggishCapybara",
+              "rating": 2024
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 0
+        },
+        {
+          "averageRating": 2011,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Franknight",
+              "rating": 2012
+            },
+            "id": "waPc82FH",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Albano-junqueira",
+              "rating": 2011
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 0
+        },
+        {
+          "averageRating": 1914,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Leomord_is_back",
+              "rating": 2103
+            },
+            "id": "2jLPSKbB",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Ilazhalili2024",
+              "rating": 1914
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 399
+    },
+    "2024-05": {
+      "black": 363,
+      "draws": 76,
+      "moves": [
+        {
+          "averageRating": 2117,
+          "black": 283,
+          "draws": 61,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 361
+        },
+        {
+          "averageRating": 2149,
+          "black": 49,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 75
+        },
+        {
+          "averageRating": 2110,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 9
+        },
+        {
+          "averageRating": 2058,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 9
+        },
+        {
+          "averageRating": 2031,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 5
+        },
+        {
+          "averageRating": 2004,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 5
+        },
+        {
+          "averageRating": 2077,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2074,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 2123,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2083,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 3
+        },
+        {
+          "averageRating": 2039,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 2
+        },
+        {
+          "averageRating": 2176,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "blablahulahula",
+              "rating": 2200
+            },
+            "id": "ywf1rPYg",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "Atlanosos",
+              "rating": 2176
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 474
+    },
+    "2024-06": {
+      "black": 345,
+      "draws": 60,
+      "moves": [
+        {
+          "averageRating": 2120,
+          "black": 286,
+          "draws": 54,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 328
+        },
+        {
+          "averageRating": 2160,
+          "black": 43,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 64
+        },
+        {
+          "averageRating": 2108,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 10
+        },
+        {
+          "averageRating": 1998,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 2
+        },
+        {
+          "averageRating": 2085,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 3
+        },
+        {
+          "averageRating": 2040,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2217,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 3
+        },
+        {
+          "averageRating": 2056,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 3
+        },
+        {
+          "averageRating": 2099,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2060,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2133,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 1
+        },
+        {
+          "averageRating": 2055,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Meki1963BH",
+              "rating": 2026
+            },
+            "id": "f2xZNc7B",
+            "mode": "rated",
+            "month": "2024-06",
+            "speed": "blitz",
+            "white": {
+              "name": "wae_lkordi",
+              "rating": 2055
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qa4",
+          "uci": "d1a4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 417
+    },
+    "2024-07": {
+      "black": 328,
+      "draws": 84,
+      "moves": [
+        {
+          "averageRating": 2109,
+          "black": 263,
+          "draws": 67,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 344
+        },
+        {
+          "averageRating": 2136,
+          "black": 49,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 85
+        },
+        {
+          "averageRating": 2028,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 5
+        },
+        {
+          "averageRating": 2042,
+          "black": 2,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 2
+        },
+        {
+          "averageRating": 2062,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3
+        },
+        {
+          "averageRating": 2110,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2159,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 4
+        },
+        {
+          "averageRating": 1946,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 0
+        },
+        {
+          "averageRating": 2085,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2070,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2033,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        },
+        {
+          "averageRating": 2148,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "aleks7454",
+              "rating": 2135
+            },
+            "id": "dCvjQRg9",
+            "mode": "rated",
+            "month": "2024-07",
+            "speed": "blitz",
+            "white": {
+              "name": "NightrunnerX",
+              "rating": 2148
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 451
+    },
+    "2024-08": {
+      "black": 356,
+      "draws": 96,
+      "moves": [
+        {
+          "averageRating": 2114,
+          "black": 287,
+          "draws": 80,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 357
+        },
+        {
+          "averageRating": 2144,
+          "black": 47,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 54
+        },
+        {
+          "averageRating": 2106,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 9
+        },
+        {
+          "averageRating": 2050,
+          "black": 4,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 6
+        },
+        {
+          "averageRating": 2064,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 5
+        },
+        {
+          "averageRating": 2035,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1
+        },
+        {
+          "averageRating": 2099,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 5
+        },
+        {
+          "averageRating": 2195,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        },
+        {
+          "averageRating": 1991,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2063,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2138,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 440
+    },
+    "2024-09": {
+      "black": 309,
+      "draws": 74,
+      "moves": [
+        {
+          "averageRating": 2120,
+          "black": 263,
+          "draws": 56,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 325
+        },
+        {
+          "averageRating": 2173,
+          "black": 30,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 61
+        },
+        {
+          "averageRating": 2055,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 7
+        },
+        {
+          "averageRating": 2117,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 5
+        },
+        {
+          "averageRating": 2122,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3
+        },
+        {
+          "averageRating": 2083,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 3
+        },
+        {
+          "averageRating": 2033,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 1
+        },
+        {
+          "averageRating": 2038,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2137,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2147,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2015,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        },
+        {
+          "averageRating": 1967,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "traning_superblitz",
+              "rating": 2350
+            },
+            "id": "0j694jYT",
+            "mode": "rated",
+            "month": "2024-09",
+            "speed": "blitz",
+            "white": {
+              "name": "Samat-83",
+              "rating": 1967
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 411
+    },
+    "2024-10": {
+      "black": 375,
+      "draws": 71,
+      "moves": [
+        {
+          "averageRating": 2118,
+          "black": 319,
+          "draws": 64,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 365
+        },
+        {
+          "averageRating": 2143,
+          "black": 31,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 66
+        },
+        {
+          "averageRating": 2065,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 3
+        },
+        {
+          "averageRating": 2104,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 4
+        },
+        {
+          "averageRating": 2113,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 2
+        },
+        {
+          "averageRating": 2002,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 3
+        },
+        {
+          "averageRating": 2103,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 3
+        },
+        {
+          "averageRating": 2085,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2105,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        },
+        {
+          "averageRating": 2047,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2120,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 0
+        },
+        {
+          "averageRating": 2086,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 2
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 452
+    },
+    "2024-11": {
+      "black": 325,
+      "draws": 55,
+      "moves": [
+        {
+          "averageRating": 2109,
+          "black": 247,
+          "draws": 48,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 353
+        },
+        {
+          "averageRating": 2140,
+          "black": 55,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 43
+        },
+        {
+          "averageRating": 2114,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 5
+        },
+        {
+          "averageRating": 2081,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 3
+        },
+        {
+          "averageRating": 2103,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2076,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 4
+        },
+        {
+          "averageRating": 2124,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        },
+        {
+          "averageRating": 2096,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 0
+        },
+        {
+          "averageRating": 2153,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 2
+        },
+        {
+          "averageRating": 2044,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 2
+        },
+        {
+          "averageRating": 2055,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2028,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Michka78",
+              "rating": 2098
+            },
+            "id": "t9uvhozC",
+            "mode": "rated",
+            "month": "2024-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Ludius64",
+              "rating": 2028
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 415
+    },
+    "2024-12": {
+      "black": 439,
+      "draws": 94,
+      "moves": [
+        {
+          "averageRating": 2114,
+          "black": 358,
+          "draws": 77,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 410
+        },
+        {
+          "averageRating": 2153,
+          "black": 51,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 69
+        },
+        {
+          "averageRating": 2061,
+          "black": 6,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 5
+        },
+        {
+          "averageRating": 2149,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 6
+        },
+        {
+          "averageRating": 2084,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 3
+        },
+        {
+          "averageRating": 2076,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 3
+        },
+        {
+          "averageRating": 2104,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 4
+        },
+        {
+          "averageRating": 2120,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 4
+        },
+        {
+          "averageRating": 2053,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2106,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2057,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b4",
+          "uci": "b2b4",
+          "white": 2
+        },
+        {
+          "averageRating": 2012,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 509
+    },
+    "2025-01": {
+      "black": 388,
+      "draws": 85,
+      "moves": [
+        {
+          "averageRating": 2110,
+          "black": 306,
+          "draws": 75,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 400
+        },
+        {
+          "averageRating": 2138,
+          "black": 50,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 66
+        },
+        {
+          "averageRating": 2107,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 6
+        },
+        {
+          "averageRating": 2057,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 6
+        },
+        {
+          "averageRating": 2099,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 4
+        },
+        {
+          "averageRating": 2080,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1
+        },
+        {
+          "averageRating": 2118,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 4
+        },
+        {
+          "averageRating": 2106,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 0
+        },
+        {
+          "averageRating": 2156,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2185,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na3",
+          "uci": "b1a3",
+          "white": 2
+        },
+        {
+          "averageRating": 2018,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2035,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Aj_Kidapawan",
+              "rating": 2085
+            },
+            "id": "hRa3MkDd",
+            "mode": "rated",
+            "month": "2025-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Hadji_11",
+              "rating": 2035
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 493
+    },
+    "2025-02": {
+      "black": 347,
+      "draws": 70,
+      "moves": [
+        {
+          "averageRating": 2109,
+          "black": 282,
+          "draws": 54,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 302
+        },
+        {
+          "averageRating": 2143,
+          "black": 44,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 69
+        },
+        {
+          "averageRating": 2138,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 7
+        },
+        {
+          "averageRating": 2082,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 3
+        },
+        {
+          "averageRating": 2092,
+          "black": 1,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 2
+        },
+        {
+          "averageRating": 2117,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2032,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2085,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2108,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 0
+        },
+        {
+          "averageRating": 2130,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b4",
+          "uci": "b2b4",
+          "white": 1
+        },
+        {
+          "averageRating": 2016,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        },
+        {
+          "averageRating": 2126,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 389
+    },
+    "2025-03": {
+      "black": 385,
+      "draws": 82,
+      "moves": [
+        {
+          "averageRating": 2115,
+          "black": 321,
+          "draws": 71,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 370
+        },
+        {
+          "averageRating": 2157,
+          "black": 42,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 67
+        },
+        {
+          "averageRating": 2086,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 7
+        },
+        {
+          "averageRating": 2103,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 5
+        },
+        {
+          "averageRating": 2057,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 2
+        },
+        {
+          "averageRating": 2123,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 3
+        },
+        {
+          "averageRating": 2077,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 3
+        },
+        {
+          "averageRating": 2008,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 4
+        },
+        {
+          "averageRating": 2138,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2034,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "laubombase",
+              "rating": 2074
+            },
+            "id": "K99fQa3l",
+            "mode": "rated",
+            "month": "2025-03",
+            "speed": "blitz",
+            "white": {
+              "name": "Baruud",
+              "rating": 2034
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 0
+        },
+        {
+          "averageRating": 2157,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Erdalkars",
+              "rating": 2091
+            },
+            "id": "qRkuKweu",
+            "mode": "rated",
+            "month": "2025-03",
+            "speed": "blitz",
+            "white": {
+              "name": "keshavkaurav",
+              "rating": 2157
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2030,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Tiger_E-sports",
+              "rating": 2009
+            },
+            "id": "dcg6Odmt",
+            "mode": "rated",
+            "month": "2025-03",
+            "speed": "blitz",
+            "white": {
+              "name": "Burenbileg",
+              "rating": 2030
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 464
+    },
+    "2025-04": {
+      "black": 371,
+      "draws": 62,
+      "moves": [
+        {
+          "averageRating": 2113,
+          "black": 305,
+          "draws": 48,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 355
+        },
+        {
+          "averageRating": 2152,
+          "black": 44,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 67
+        },
+        {
+          "averageRating": 2113,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 6
+        },
+        {
+          "averageRating": 2051,
+          "black": 6,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 2
+        },
+        {
+          "averageRating": 2040,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 3
+        },
+        {
+          "averageRating": 2058,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2104,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 2
+        },
+        {
+          "averageRating": 2061,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 4
+        },
+        {
+          "averageRating": 2116,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2060,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "AnatolyShpitko",
+              "rating": 2096
+            },
+            "id": "EreTtqr4",
+            "mode": "rated",
+            "month": "2025-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Gulkin_Alexey",
+              "rating": 2060
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 443
+    },
+    "2025-05": {
+      "black": 406,
+      "draws": 72,
+      "moves": [
+        {
+          "averageRating": 2110,
+          "black": 333,
+          "draws": 54,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 376
+        },
+        {
+          "averageRating": 2140,
+          "black": 52,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 77
+        },
+        {
+          "averageRating": 2125,
+          "black": 6,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 5
+        },
+        {
+          "averageRating": 2154,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 5
+        },
+        {
+          "averageRating": 2084,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 4
+        },
+        {
+          "averageRating": 2075,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 2
+        },
+        {
+          "averageRating": 2085,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2028,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        },
+        {
+          "averageRating": 2083,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 3
+        },
+        {
+          "averageRating": 2052,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2066,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "R1963Imad",
+              "rating": 2069
+            },
+            "id": "XZRuRo28",
+            "mode": "rated",
+            "month": "2025-05",
+            "speed": "blitz",
+            "white": {
+              "name": "Mpatho1",
+              "rating": 2066
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 0
+        },
+        {
+          "averageRating": 2177,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "gsan33",
+              "rating": 2116
+            },
+            "id": "J4SqWbMQ",
+            "mode": "rated",
+            "month": "2025-05",
+            "speed": "blitz",
+            "white": {
+              "name": "visca-barca11",
+              "rating": 2177
+            },
+            "winner": null,
+            "year": 2025
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 476
+    },
+    "2025-06": {
+      "black": 346,
+      "draws": 85,
+      "moves": [
+        {
+          "averageRating": 2113,
+          "black": 279,
+          "draws": 69,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 358
+        },
+        {
+          "averageRating": 2145,
+          "black": 50,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 60
+        },
+        {
+          "averageRating": 2110,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 6
+        },
+        {
+          "averageRating": 2028,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 7
+        },
+        {
+          "averageRating": 2071,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 3
+        },
+        {
+          "averageRating": 2027,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 3
+        },
+        {
+          "averageRating": 2025,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2042,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2060,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 0
+        },
+        {
+          "averageRating": 2072,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        },
+        {
+          "averageRating": 2080,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 442
+    },
+    "2025-07": {
+      "black": 421,
+      "draws": 76,
+      "moves": [
+        {
+          "averageRating": 2112,
+          "black": 342,
+          "draws": 62,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 403
+        },
+        {
+          "averageRating": 2131,
+          "black": 55,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 73
+        },
+        {
+          "averageRating": 2001,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 3
+        },
+        {
+          "averageRating": 2118,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 2
+        },
+        {
+          "averageRating": 2067,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 2
+        },
+        {
+          "averageRating": 2120,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 3
+        },
+        {
+          "averageRating": 2089,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2019,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 1
+        },
+        {
+          "averageRating": 2106,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2010,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2213,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "kex2017",
+              "rating": 1960
+            },
+            "id": "EHzOtK9o",
+            "mode": "rated",
+            "month": "2025-07",
+            "speed": "blitz",
+            "white": {
+              "name": "duciking",
+              "rating": 2213
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        },
+        {
+          "averageRating": 2140,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "fod12",
+              "rating": 2171
+            },
+            "id": "Cwv9ZzRe",
+            "mode": "rated",
+            "month": "2025-07",
+            "speed": "blitz",
+            "white": {
+              "name": "gunawan1100000",
+              "rating": 2140
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 493
+    },
+    "2025-08": {
+      "black": 350,
+      "draws": 90,
+      "moves": [
+        {
+          "averageRating": 2106,
+          "black": 285,
+          "draws": 76,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 373
+        },
+        {
+          "averageRating": 2130,
+          "black": 40,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 73
+        },
+        {
+          "averageRating": 2147,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 9
+        },
+        {
+          "averageRating": 2039,
+          "black": 3,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 5
+        },
+        {
+          "averageRating": 2078,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 6
+        },
+        {
+          "averageRating": 1960,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 2
+        },
+        {
+          "averageRating": 2114,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 3
+        },
+        {
+          "averageRating": 2069,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 3
+        },
+        {
+          "averageRating": 2026,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 0
+        },
+        {
+          "averageRating": 2115,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2063,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 0
+        },
+        {
+          "averageRating": 1966,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "cprincec",
+              "rating": 2137
+            },
+            "id": "0viZLlQI",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "shaxrizoda11",
+              "rating": 1966
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 477
+    },
+    "2025-09": {
+      "black": 335,
+      "draws": 62,
+      "moves": [
+        {
+          "averageRating": 2113,
+          "black": 263,
+          "draws": 52,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 305
+        },
+        {
+          "averageRating": 2141,
+          "black": 49,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 64
+        },
+        {
+          "averageRating": 2106,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 7
+        },
+        {
+          "averageRating": 2033,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 3
+        },
+        {
+          "averageRating": 2075,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 3
+        },
+        {
+          "averageRating": 2081,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 2
+        },
+        {
+          "averageRating": 1989,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 0
+        },
+        {
+          "averageRating": 2053,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 2064,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2122,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 0
+        },
+        {
+          "averageRating": 2107,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Kuritsa",
+              "rating": 1999
+            },
+            "id": "6HeV8ISl",
+            "mode": "rated",
+            "month": "2025-09",
+            "speed": "blitz",
+            "white": {
+              "name": "dushanr",
+              "rating": 2107
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2019,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Eziandio",
+              "rating": 1983
+            },
+            "id": "052B6xBc",
+            "mode": "rated",
+            "month": "2025-09",
+            "speed": "blitz",
+            "white": {
+              "name": "sagitarioblues",
+              "rating": 2019
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 388
+    },
+    "2025-10": {
+      "black": 386,
+      "draws": 71,
+      "moves": [
+        {
+          "averageRating": 2113,
+          "black": 304,
+          "draws": 52,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 359
+        },
+        {
+          "averageRating": 2120,
+          "black": 55,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 75
+        },
+        {
+          "averageRating": 2093,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3
+        },
+        {
+          "averageRating": 2032,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 3
+        },
+        {
+          "averageRating": 2137,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1
+        },
+        {
+          "averageRating": 2038,
+          "black": 1,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2014,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 2
+        },
+        {
+          "averageRating": 2015,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 2063,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b4",
+          "uci": "b2b4",
+          "white": 1
+        },
+        {
+          "averageRating": 1958,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 0
+        },
+        {
+          "averageRating": 2051,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 2
+        },
+        {
+          "averageRating": 2009,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Oleg_Vereshchagin_49",
+              "rating": 2101
+            },
+            "id": "2CQWmtKF",
+            "mode": "rated",
+            "month": "2025-10",
+            "speed": "blitz",
+            "white": {
+              "name": "comansi",
+              "rating": 2009
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 449
+    },
+    "2025-11": {
+      "black": 357,
+      "draws": 76,
+      "moves": [
+        {
+          "averageRating": 2105,
+          "black": 269,
+          "draws": 58,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 355
+        },
+        {
+          "averageRating": 2133,
+          "black": 61,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 81
+        },
+        {
+          "averageRating": 2093,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 6
+        },
+        {
+          "averageRating": 2060,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 3
+        },
+        {
+          "averageRating": 2100,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2078,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1
+        },
+        {
+          "averageRating": 2035,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        },
+        {
+          "averageRating": 2052,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 1
+        },
+        {
+          "averageRating": 2060,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2063,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 0
+        },
+        {
+          "averageRating": 2101,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 450
+    },
+    "2025-12": {
+      "black": 397,
+      "draws": 94,
+      "moves": [
+        {
+          "averageRating": 2117,
+          "black": 306,
+          "draws": 78,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 370
+        },
+        {
+          "averageRating": 2139,
+          "black": 70,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 83
+        },
+        {
+          "averageRating": 2037,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 2
+        },
+        {
+          "averageRating": 2106,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 6
+        },
+        {
+          "averageRating": 2072,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 3
+        },
+        {
+          "averageRating": 2088,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 6
+        },
+        {
+          "averageRating": 2083,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 2
+        },
+        {
+          "averageRating": 2096,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 2
+        },
+        {
+          "averageRating": 2060,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2174,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Oswavic",
+              "rating": 2209
+            },
+            "id": "BPA0zXu9",
+            "mode": "rated",
+            "month": "2025-12",
+            "speed": "blitz",
+            "white": {
+              "name": "lubomir21",
+              "rating": 2174
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Na3",
+          "uci": "b1a3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 476
+    },
+    "2026-01": {
+      "black": 381,
+      "draws": 78,
+      "moves": [
+        {
+          "averageRating": 2111,
+          "black": 301,
+          "draws": 59,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 362
+        },
+        {
+          "averageRating": 2131,
+          "black": 53,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 66
+        },
+        {
+          "averageRating": 2084,
+          "black": 5,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 6
+        },
+        {
+          "averageRating": 2056,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 4
+        },
+        {
+          "averageRating": 2098,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 4
+        },
+        {
+          "averageRating": 2074,
+          "black": 2,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        },
+        {
+          "averageRating": 1953,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 1
+        },
+        {
+          "averageRating": 2071,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2002,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        },
+        {
+          "averageRating": 1980,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 0
+        },
+        {
+          "averageRating": 2170,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "pascualito65",
+              "rating": 2045
+            },
+            "id": "vIg9Fn5E",
+            "mode": "rated",
+            "month": "2026-01",
+            "speed": "blitz",
+            "white": {
+              "name": "hosain20",
+              "rating": 2170
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 0
+        },
+        {
+          "averageRating": 2023,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "KKafeto",
+              "rating": 2026
+            },
+            "id": "4bPSiMOH",
+            "mode": "rated",
+            "month": "2026-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Fabricio76",
+              "rating": 2023
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 444
+    },
+    "2026-02": {
+      "black": 315,
+      "draws": 65,
+      "moves": [
+        {
+          "averageRating": 2114,
+          "black": 252,
+          "draws": 54,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 315
+        },
+        {
+          "averageRating": 2158,
+          "black": 51,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 82
+        },
+        {
+          "averageRating": 2165,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 4
+        },
+        {
+          "averageRating": 2094,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 4
+        },
+        {
+          "averageRating": 2094,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 2
+        },
+        {
+          "averageRating": 2121,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2119,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2051,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 1956,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Dukenke",
+              "rating": 2218
+            },
+            "id": "FFDg4nxz",
+            "mode": "rated",
+            "month": "2026-02",
+            "speed": "blitz",
+            "white": {
+              "name": "CromagEs",
+              "rating": 1956
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 0
+        },
+        {
+          "averageRating": 2038,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Brove_08",
+              "rating": 2112
+            },
+            "id": "L1SCKvXP",
+            "mode": "rated",
+            "month": "2026-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Ilazhalili2024",
+              "rating": 2038
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 1
+        },
+        {
+          "averageRating": 2203,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Alien_Project",
+              "rating": 2049
+            },
+            "id": "qpYJ75Wp",
+            "mode": "rated",
+            "month": "2026-02",
+            "speed": "blitz",
+            "white": {
+              "name": "chessnetworknm",
+              "rating": 2203
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2012,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "abolith",
+              "rating": 2018
+            },
+            "id": "mrsglTOv",
+            "mode": "rated",
+            "month": "2026-02",
+            "speed": "blitz",
+            "white": {
+              "name": "antisakk",
+              "rating": 2012
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "b4",
+          "uci": "b2b4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 414
+    },
+    "2026-03": {
+      "black": 353,
+      "draws": 64,
+      "moves": [
+        {
+          "averageRating": 2117,
+          "black": 279,
+          "draws": 49,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 336
+        },
+        {
+          "averageRating": 2139,
+          "black": 56,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 88
+        },
+        {
+          "averageRating": 2045,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 7
+        },
+        {
+          "averageRating": 2131,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 3
+        },
+        {
+          "averageRating": 2082,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 4
+        },
+        {
+          "averageRating": 2080,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 3
+        },
+        {
+          "averageRating": 2100,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 3
+        },
+        {
+          "averageRating": 1980,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2114,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "LibertyInDeath",
+              "rating": 2056
+            },
+            "id": "H03YMlpL",
+            "mode": "rated",
+            "month": "2026-03",
+            "speed": "blitz",
+            "white": {
+              "name": "gakebaoo",
+              "rating": 2114
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        },
+        {
+          "averageRating": 2165,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "iplaychesswithmypawn",
+              "rating": 1984
+            },
+            "id": "dYkc3lLv",
+            "mode": "rated",
+            "month": "2026-03",
+            "speed": "blitz",
+            "white": {
+              "name": "Inventor_1",
+              "rating": 2165
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 2038,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "srinadh4444",
+              "rating": 2034
+            },
+            "id": "N6IX5Qmt",
+            "mode": "rated",
+            "month": "2026-03",
+            "speed": "blitz",
+            "white": {
+              "name": "Borisich-7_5",
+              "rating": 2038
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      },
+      "white": 447
+    },
+    "2026-04": {
+      "white": 236,
+      "draws": 56,
+      "black": 191,
+      "moves": [
+        {
+          "uci": "b1c3",
+          "san": "Nc3",
+          "averageRating": 2113,
+          "white": 186,
+          "draws": 36,
+          "black": 157,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f3e5",
+          "san": "Ne5",
+          "averageRating": 2130,
+          "white": 42,
+          "draws": 17,
+          "black": 27,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c1f4",
+          "san": "Bf4",
+          "averageRating": 2125,
+          "white": 2,
+          "draws": 1,
+          "black": 5,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "b2b3",
+          "san": "b3",
+          "averageRating": 2158,
+          "white": 2,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f1e1",
+          "san": "Re1",
+          "averageRating": 2147,
+          "white": 1,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "b1d2",
+          "san": "Nbd2",
+          "averageRating": 2100,
+          "white": 2,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c1g5",
+          "san": "Bg5",
+          "averageRating": 2019,
+          "white": 0,
+          "draws": 1,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "a2a4",
+          "san": "a4",
+          "averageRating": 2248,
+          "white": 1,
+          "draws": 0,
+          "black": 0,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "h2h3",
+          "san": "h3",
+          "averageRating": 2097,
+          "white": 0,
+          "draws": 1,
+          "black": 0,
+          "game": null,
+          "opening": null
+        }
+      ],
+      "recentGames": [],
+      "topGames": [],
+      "opening": {
+        "eco": "D79",
+        "name": "Neo-Gr\u00fcnfeld Defense: Ultra-Delayed Exchange Variation"
+      }
+    }
+  }
+}

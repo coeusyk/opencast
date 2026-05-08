@@ -1,0 +1,6210 @@
+{
+  "_meta": {
+    "skipped_months": {}
+  },
+  "eco": "D06",
+  "months": {
+    "2023-01": {
+      "black": 97874,
+      "draws": 13271,
+      "moves": [
+        {
+          "averageRating": 2084,
+          "black": 34345,
+          "draws": 4855,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 39919
+        },
+        {
+          "averageRating": 2086,
+          "black": 31661,
+          "draws": 4525,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 36943
+        },
+        {
+          "averageRating": 2072,
+          "black": 10953,
+          "draws": 1381,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 12931
+        },
+        {
+          "averageRating": 2062,
+          "black": 9372,
+          "draws": 1184,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 12526
+        },
+        {
+          "averageRating": 2084,
+          "black": 5737,
+          "draws": 635,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 5882
+        },
+        {
+          "averageRating": 2074,
+          "black": 2219,
+          "draws": 255,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2638
+        },
+        {
+          "averageRating": 2063,
+          "black": 1903,
+          "draws": 217,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 2328
+        },
+        {
+          "averageRating": 2071,
+          "black": 1321,
+          "draws": 188,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1593
+        },
+        {
+          "averageRating": 2048,
+          "black": 126,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 171
+        },
+        {
+          "averageRating": 2023,
+          "black": 96,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 174
+        },
+        {
+          "averageRating": 2048,
+          "black": 32,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 65
+        },
+        {
+          "averageRating": 2055,
+          "black": 22,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 27
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 115338
+    },
+    "2023-02": {
+      "black": 88404,
+      "draws": 11894,
+      "moves": [
+        {
+          "averageRating": 2083,
+          "black": 31477,
+          "draws": 4364,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 36434
+        },
+        {
+          "averageRating": 2085,
+          "black": 27687,
+          "draws": 3912,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 32660
+        },
+        {
+          "averageRating": 2074,
+          "black": 9885,
+          "draws": 1241,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 11732
+        },
+        {
+          "averageRating": 2062,
+          "black": 8734,
+          "draws": 1025,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 11419
+        },
+        {
+          "averageRating": 2082,
+          "black": 5380,
+          "draws": 654,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 5835
+        },
+        {
+          "averageRating": 2081,
+          "black": 2062,
+          "draws": 268,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2411
+        },
+        {
+          "averageRating": 2062,
+          "black": 1691,
+          "draws": 228,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 2041
+        },
+        {
+          "averageRating": 2067,
+          "black": 1212,
+          "draws": 166,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1401
+        },
+        {
+          "averageRating": 2052,
+          "black": 114,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 174
+        },
+        {
+          "averageRating": 2041,
+          "black": 80,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 124
+        },
+        {
+          "averageRating": 2086,
+          "black": 17,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 27
+        },
+        {
+          "averageRating": 2055,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 27
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 104414
+    },
+    "2023-03": {
+      "black": 96805,
+      "draws": 12923,
+      "moves": [
+        {
+          "averageRating": 2084,
+          "black": 35045,
+          "draws": 4924,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 39728
+        },
+        {
+          "averageRating": 2085,
+          "black": 30148,
+          "draws": 4165,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 35040
+        },
+        {
+          "averageRating": 2071,
+          "black": 10613,
+          "draws": 1274,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 12693
+        },
+        {
+          "averageRating": 2061,
+          "black": 9391,
+          "draws": 1161,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 12691
+        },
+        {
+          "averageRating": 2081,
+          "black": 5615,
+          "draws": 648,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 6090
+        },
+        {
+          "averageRating": 2077,
+          "black": 2440,
+          "draws": 304,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2862
+        },
+        {
+          "averageRating": 2064,
+          "black": 1903,
+          "draws": 227,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 2368
+        },
+        {
+          "averageRating": 2072,
+          "black": 1279,
+          "draws": 177,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1559
+        },
+        {
+          "averageRating": 2044,
+          "black": 112,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 178
+        },
+        {
+          "averageRating": 2039,
+          "black": 118,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 162
+        },
+        {
+          "averageRating": 2035,
+          "black": 29,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 38
+        },
+        {
+          "averageRating": 2067,
+          "black": 17,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 36
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 113605
+    },
+    "2023-04": {
+      "black": 93526,
+      "draws": 12510,
+      "moves": [
+        {
+          "averageRating": 2084,
+          "black": 34183,
+          "draws": 4774,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 39374
+        },
+        {
+          "averageRating": 2085,
+          "black": 29137,
+          "draws": 3987,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 34000
+        },
+        {
+          "averageRating": 2074,
+          "black": 10364,
+          "draws": 1317,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 12550
+        },
+        {
+          "averageRating": 2063,
+          "black": 8957,
+          "draws": 1131,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 12070
+        },
+        {
+          "averageRating": 2084,
+          "black": 5428,
+          "draws": 634,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 5661
+        },
+        {
+          "averageRating": 2077,
+          "black": 2048,
+          "draws": 226,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2483
+        },
+        {
+          "averageRating": 2062,
+          "black": 1790,
+          "draws": 219,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 2226
+        },
+        {
+          "averageRating": 2075,
+          "black": 1267,
+          "draws": 182,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1403
+        },
+        {
+          "averageRating": 2058,
+          "black": 141,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 147
+        },
+        {
+          "averageRating": 2034,
+          "black": 80,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 115
+        },
+        {
+          "averageRating": 2055,
+          "black": 24,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 29
+        },
+        {
+          "averageRating": 2057,
+          "black": 24,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 26
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 110203
+    },
+    "2023-05": {
+      "black": 97847,
+      "draws": 13083,
+      "moves": [
+        {
+          "averageRating": 2083,
+          "black": 35700,
+          "draws": 4928,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 41228
+        },
+        {
+          "averageRating": 2085,
+          "black": 30504,
+          "draws": 4245,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 35259
+        },
+        {
+          "averageRating": 2074,
+          "black": 10901,
+          "draws": 1347,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 13149
+        },
+        {
+          "averageRating": 2064,
+          "black": 9329,
+          "draws": 1179,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 12535
+        },
+        {
+          "averageRating": 2083,
+          "black": 5660,
+          "draws": 702,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 6076
+        },
+        {
+          "averageRating": 2080,
+          "black": 2104,
+          "draws": 252,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2456
+        },
+        {
+          "averageRating": 2065,
+          "black": 1946,
+          "draws": 226,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 2386
+        },
+        {
+          "averageRating": 2076,
+          "black": 1320,
+          "draws": 164,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1517
+        },
+        {
+          "averageRating": 2054,
+          "black": 100,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 169
+        },
+        {
+          "averageRating": 2033,
+          "black": 124,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 145
+        },
+        {
+          "averageRating": 2038,
+          "black": 41,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 49
+        },
+        {
+          "averageRating": 2028,
+          "black": 19,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 22
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 115121
+    },
+    "2023-06": {
+      "black": 91469,
+      "draws": 12326,
+      "moves": [
+        {
+          "averageRating": 2084,
+          "black": 33104,
+          "draws": 4706,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 38672
+        },
+        {
+          "averageRating": 2086,
+          "black": 28287,
+          "draws": 3803,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 33421
+        },
+        {
+          "averageRating": 2072,
+          "black": 10291,
+          "draws": 1352,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 12335
+        },
+        {
+          "averageRating": 2062,
+          "black": 8993,
+          "draws": 1150,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 11697
+        },
+        {
+          "averageRating": 2085,
+          "black": 5323,
+          "draws": 638,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 5891
+        },
+        {
+          "averageRating": 2082,
+          "black": 2090,
+          "draws": 241,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2433
+        },
+        {
+          "averageRating": 2061,
+          "black": 1662,
+          "draws": 214,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 2093
+        },
+        {
+          "averageRating": 2077,
+          "black": 1372,
+          "draws": 169,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1568
+        },
+        {
+          "averageRating": 2043,
+          "black": 117,
+          "draws": 24,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 164
+        },
+        {
+          "averageRating": 2031,
+          "black": 83,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 140
+        },
+        {
+          "averageRating": 2040,
+          "black": 32,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 43
+        },
+        {
+          "averageRating": 2075,
+          "black": 25,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 32
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 108628
+    },
+    "2023-07": {
+      "black": 92210,
+      "draws": 12419,
+      "moves": [
+        {
+          "averageRating": 2084,
+          "black": 33788,
+          "draws": 4575,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 39031
+        },
+        {
+          "averageRating": 2084,
+          "black": 28663,
+          "draws": 4055,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 33845
+        },
+        {
+          "averageRating": 2070,
+          "black": 10374,
+          "draws": 1360,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 12528
+        },
+        {
+          "averageRating": 2062,
+          "black": 8568,
+          "draws": 1088,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 11612
+        },
+        {
+          "averageRating": 2084,
+          "black": 5387,
+          "draws": 654,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 5742
+        },
+        {
+          "averageRating": 2079,
+          "black": 2074,
+          "draws": 232,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2355
+        },
+        {
+          "averageRating": 2064,
+          "black": 1691,
+          "draws": 196,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1983
+        },
+        {
+          "averageRating": 2071,
+          "black": 1304,
+          "draws": 214,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1472
+        },
+        {
+          "averageRating": 2042,
+          "black": 118,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 163
+        },
+        {
+          "averageRating": 2032,
+          "black": 97,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 170
+        },
+        {
+          "averageRating": 2033,
+          "black": 43,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 54
+        },
+        {
+          "averageRating": 2086,
+          "black": 27,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 33
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 109121
+    },
+    "2023-08": {
+      "black": 91109,
+      "draws": 12229,
+      "moves": [
+        {
+          "averageRating": 2084,
+          "black": 33126,
+          "draws": 4593,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 38533
+        },
+        {
+          "averageRating": 2086,
+          "black": 28309,
+          "draws": 3973,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 33540
+        },
+        {
+          "averageRating": 2074,
+          "black": 10142,
+          "draws": 1258,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 12225
+        },
+        {
+          "averageRating": 2062,
+          "black": 8616,
+          "draws": 1065,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 11565
+        },
+        {
+          "averageRating": 2085,
+          "black": 5337,
+          "draws": 639,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 5754
+        },
+        {
+          "averageRating": 2082,
+          "black": 2147,
+          "draws": 276,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2449
+        },
+        {
+          "averageRating": 2065,
+          "black": 1861,
+          "draws": 207,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 2161
+        },
+        {
+          "averageRating": 2077,
+          "black": 1298,
+          "draws": 179,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1421
+        },
+        {
+          "averageRating": 2058,
+          "black": 108,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 167
+        },
+        {
+          "averageRating": 2041,
+          "black": 69,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 156
+        },
+        {
+          "averageRating": 2055,
+          "black": 33,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 64
+        },
+        {
+          "averageRating": 2056,
+          "black": 17,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 24
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 108175
+    },
+    "2023-09": {
+      "black": 86635,
+      "draws": 11644,
+      "moves": [
+        {
+          "averageRating": 2083,
+          "black": 31681,
+          "draws": 4425,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 36502
+        },
+        {
+          "averageRating": 2085,
+          "black": 26341,
+          "draws": 3735,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 31390
+        },
+        {
+          "averageRating": 2071,
+          "black": 9857,
+          "draws": 1233,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 11802
+        },
+        {
+          "averageRating": 2061,
+          "black": 8561,
+          "draws": 1023,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 11288
+        },
+        {
+          "averageRating": 2081,
+          "black": 4965,
+          "draws": 619,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 5258
+        },
+        {
+          "averageRating": 2080,
+          "black": 2090,
+          "draws": 223,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2396
+        },
+        {
+          "averageRating": 2064,
+          "black": 1601,
+          "draws": 184,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 2004
+        },
+        {
+          "averageRating": 2076,
+          "black": 1281,
+          "draws": 173,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1415
+        },
+        {
+          "averageRating": 2035,
+          "black": 93,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 162
+        },
+        {
+          "averageRating": 2023,
+          "black": 39,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 96
+        },
+        {
+          "averageRating": 2055,
+          "black": 25,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 54
+        },
+        {
+          "averageRating": 2075,
+          "black": 18,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 48
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 102557
+    },
+    "2023-10": {
+      "black": 87642,
+      "draws": 11715,
+      "moves": [
+        {
+          "averageRating": 2084,
+          "black": 32225,
+          "draws": 4405,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 37143
+        },
+        {
+          "averageRating": 2086,
+          "black": 26959,
+          "draws": 3814,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 32205
+        },
+        {
+          "averageRating": 2074,
+          "black": 10111,
+          "draws": 1220,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 12039
+        },
+        {
+          "averageRating": 2063,
+          "black": 8391,
+          "draws": 1064,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 11212
+        },
+        {
+          "averageRating": 2082,
+          "black": 4893,
+          "draws": 566,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 5222
+        },
+        {
+          "averageRating": 2078,
+          "black": 1903,
+          "draws": 236,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2410
+        },
+        {
+          "averageRating": 2061,
+          "black": 1574,
+          "draws": 203,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1923
+        },
+        {
+          "averageRating": 2073,
+          "black": 1260,
+          "draws": 173,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1423
+        },
+        {
+          "averageRating": 2056,
+          "black": 100,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 148
+        },
+        {
+          "averageRating": 2029,
+          "black": 83,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 127
+        },
+        {
+          "averageRating": 2054,
+          "black": 52,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 46
+        },
+        {
+          "averageRating": 2074,
+          "black": 22,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 28
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 104048
+    },
+    "2023-11": {
+      "black": 86660,
+      "draws": 11417,
+      "moves": [
+        {
+          "averageRating": 2083,
+          "black": 31695,
+          "draws": 4367,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 36669
+        },
+        {
+          "averageRating": 2085,
+          "black": 26607,
+          "draws": 3627,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 31568
+        },
+        {
+          "averageRating": 2074,
+          "black": 9947,
+          "draws": 1196,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 11859
+        },
+        {
+          "averageRating": 2060,
+          "black": 8308,
+          "draws": 1013,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 11062
+        },
+        {
+          "averageRating": 2082,
+          "black": 4929,
+          "draws": 591,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 5301
+        },
+        {
+          "averageRating": 2076,
+          "black": 1959,
+          "draws": 244,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2284
+        },
+        {
+          "averageRating": 2066,
+          "black": 1626,
+          "draws": 195,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1913
+        },
+        {
+          "averageRating": 2077,
+          "black": 1292,
+          "draws": 152,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1410
+        },
+        {
+          "averageRating": 2051,
+          "black": 92,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 162
+        },
+        {
+          "averageRating": 2019,
+          "black": 86,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 117
+        },
+        {
+          "averageRating": 2057,
+          "black": 26,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 32
+        },
+        {
+          "averageRating": 2051,
+          "black": 18,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 24
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 102503
+    },
+    "2023-12": {
+      "black": 89566,
+      "draws": 12254,
+      "moves": [
+        {
+          "averageRating": 2083,
+          "black": 32403,
+          "draws": 4807,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 38315
+        },
+        {
+          "averageRating": 2085,
+          "black": 28165,
+          "draws": 3909,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 33100
+        },
+        {
+          "averageRating": 2074,
+          "black": 10092,
+          "draws": 1252,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 12022
+        },
+        {
+          "averageRating": 2060,
+          "black": 8543,
+          "draws": 1056,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 11565
+        },
+        {
+          "averageRating": 2085,
+          "black": 5022,
+          "draws": 579,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 5347
+        },
+        {
+          "averageRating": 2078,
+          "black": 2085,
+          "draws": 252,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2399
+        },
+        {
+          "averageRating": 2065,
+          "black": 1762,
+          "draws": 208,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 2115
+        },
+        {
+          "averageRating": 2069,
+          "black": 1210,
+          "draws": 161,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1431
+        },
+        {
+          "averageRating": 2042,
+          "black": 94,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 194
+        },
+        {
+          "averageRating": 2028,
+          "black": 81,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 125
+        },
+        {
+          "averageRating": 2063,
+          "black": 41,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 59
+        },
+        {
+          "averageRating": 2047,
+          "black": 12,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 22
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 106801
+    },
+    "2024-01": {
+      "black": 90877,
+      "draws": 12329,
+      "moves": [
+        {
+          "averageRating": 2084,
+          "black": 33426,
+          "draws": 4758,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 38608
+        },
+        {
+          "averageRating": 2084,
+          "black": 28157,
+          "draws": 4013,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 33683
+        },
+        {
+          "averageRating": 2074,
+          "black": 10104,
+          "draws": 1263,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 11858
+        },
+        {
+          "averageRating": 2063,
+          "black": 8801,
+          "draws": 1043,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 11748
+        },
+        {
+          "averageRating": 2085,
+          "black": 5124,
+          "draws": 598,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 5449
+        },
+        {
+          "averageRating": 2078,
+          "black": 1970,
+          "draws": 255,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2280
+        },
+        {
+          "averageRating": 2061,
+          "black": 1777,
+          "draws": 213,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 2145
+        },
+        {
+          "averageRating": 2078,
+          "black": 1258,
+          "draws": 154,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1466
+        },
+        {
+          "averageRating": 2058,
+          "black": 124,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 159
+        },
+        {
+          "averageRating": 2006,
+          "black": 39,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 96
+        },
+        {
+          "averageRating": 2059,
+          "black": 32,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 46
+        },
+        {
+          "averageRating": 2095,
+          "black": 16,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f6",
+          "uci": "f7f6",
+          "white": 25
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 107681
+    },
+    "2024-02": {
+      "black": 82893,
+      "draws": 11180,
+      "moves": [
+        {
+          "averageRating": 2085,
+          "black": 30687,
+          "draws": 4360,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 36013
+        },
+        {
+          "averageRating": 2084,
+          "black": 25369,
+          "draws": 3518,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 30146
+        },
+        {
+          "averageRating": 2074,
+          "black": 9313,
+          "draws": 1193,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 11236
+        },
+        {
+          "averageRating": 2064,
+          "black": 7848,
+          "draws": 949,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 10690
+        },
+        {
+          "averageRating": 2083,
+          "black": 4760,
+          "draws": 583,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 4987
+        },
+        {
+          "averageRating": 2076,
+          "black": 1869,
+          "draws": 225,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2233
+        },
+        {
+          "averageRating": 2069,
+          "black": 1699,
+          "draws": 184,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 2083
+        },
+        {
+          "averageRating": 2077,
+          "black": 1101,
+          "draws": 137,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1251
+        },
+        {
+          "averageRating": 2060,
+          "black": 92,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 129
+        },
+        {
+          "averageRating": 2019,
+          "black": 50,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 63
+        },
+        {
+          "averageRating": 2040,
+          "black": 19,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 34
+        },
+        {
+          "averageRating": 2038,
+          "black": 16,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 29
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 99016
+    },
+    "2024-03": {
+      "black": 88029,
+      "draws": 11949,
+      "moves": [
+        {
+          "averageRating": 2084,
+          "black": 33028,
+          "draws": 4738,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 37975
+        },
+        {
+          "averageRating": 2085,
+          "black": 26663,
+          "draws": 3743,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 31685
+        },
+        {
+          "averageRating": 2073,
+          "black": 9718,
+          "draws": 1215,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 11328
+        },
+        {
+          "averageRating": 2061,
+          "black": 8371,
+          "draws": 1047,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 11628
+        },
+        {
+          "averageRating": 2082,
+          "black": 4971,
+          "draws": 572,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 5336
+        },
+        {
+          "averageRating": 2079,
+          "black": 1930,
+          "draws": 212,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2149
+        },
+        {
+          "averageRating": 2062,
+          "black": 1792,
+          "draws": 218,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 2172
+        },
+        {
+          "averageRating": 2076,
+          "black": 1250,
+          "draws": 174,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1429
+        },
+        {
+          "averageRating": 2053,
+          "black": 92,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 124
+        },
+        {
+          "averageRating": 2041,
+          "black": 92,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 125
+        },
+        {
+          "averageRating": 2057,
+          "black": 32,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 48
+        },
+        {
+          "averageRating": 2042,
+          "black": 17,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 19
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 104145
+    },
+    "2024-04": {
+      "black": 84116,
+      "draws": 11347,
+      "moves": [
+        {
+          "averageRating": 2084,
+          "black": 31315,
+          "draws": 4442,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 36793
+        },
+        {
+          "averageRating": 2084,
+          "black": 25814,
+          "draws": 3627,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 30220
+        },
+        {
+          "averageRating": 2074,
+          "black": 9310,
+          "draws": 1190,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 11054
+        },
+        {
+          "averageRating": 2062,
+          "black": 8299,
+          "draws": 1076,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 11025
+        },
+        {
+          "averageRating": 2079,
+          "black": 4521,
+          "draws": 491,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 4847
+        },
+        {
+          "averageRating": 2078,
+          "black": 1825,
+          "draws": 212,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2041
+        },
+        {
+          "averageRating": 2064,
+          "black": 1603,
+          "draws": 158,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1988
+        },
+        {
+          "averageRating": 2078,
+          "black": 1120,
+          "draws": 120,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1286
+        },
+        {
+          "averageRating": 2050,
+          "black": 89,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 157
+        },
+        {
+          "averageRating": 2040,
+          "black": 81,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 135
+        },
+        {
+          "averageRating": 2065,
+          "black": 47,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 44
+        },
+        {
+          "averageRating": 2049,
+          "black": 20,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "f6",
+          "uci": "f7f6",
+          "white": 25
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 99720
+    },
+    "2024-05": {
+      "black": 86487,
+      "draws": 11837,
+      "moves": [
+        {
+          "averageRating": 2085,
+          "black": 31693,
+          "draws": 4549,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 36754
+        },
+        {
+          "averageRating": 2085,
+          "black": 26801,
+          "draws": 3779,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 31778
+        },
+        {
+          "averageRating": 2074,
+          "black": 9793,
+          "draws": 1190,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 11639
+        },
+        {
+          "averageRating": 2063,
+          "black": 8590,
+          "draws": 1092,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 11319
+        },
+        {
+          "averageRating": 2081,
+          "black": 4584,
+          "draws": 574,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 4820
+        },
+        {
+          "averageRating": 2076,
+          "black": 1964,
+          "draws": 244,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2293
+        },
+        {
+          "averageRating": 2066,
+          "black": 1671,
+          "draws": 205,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1988
+        },
+        {
+          "averageRating": 2076,
+          "black": 1130,
+          "draws": 162,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1302
+        },
+        {
+          "averageRating": 2056,
+          "black": 81,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 167
+        },
+        {
+          "averageRating": 2042,
+          "black": 71,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 137
+        },
+        {
+          "averageRating": 2062,
+          "black": 34,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 43
+        },
+        {
+          "averageRating": 2020,
+          "black": 13,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "f6",
+          "uci": "f7f6",
+          "white": 24
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 102362
+    },
+    "2024-06": {
+      "black": 82620,
+      "draws": 11344,
+      "moves": [
+        {
+          "averageRating": 2085,
+          "black": 30734,
+          "draws": 4417,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 35427
+        },
+        {
+          "averageRating": 2084,
+          "black": 25444,
+          "draws": 3658,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 30266
+        },
+        {
+          "averageRating": 2073,
+          "black": 9258,
+          "draws": 1208,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 10906
+        },
+        {
+          "averageRating": 2063,
+          "black": 7759,
+          "draws": 1002,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 10268
+        },
+        {
+          "averageRating": 2080,
+          "black": 4428,
+          "draws": 467,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 4526
+        },
+        {
+          "averageRating": 2080,
+          "black": 1897,
+          "draws": 247,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2183
+        },
+        {
+          "averageRating": 2069,
+          "black": 1641,
+          "draws": 163,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1971
+        },
+        {
+          "averageRating": 2079,
+          "black": 1130,
+          "draws": 154,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1304
+        },
+        {
+          "averageRating": 2055,
+          "black": 116,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 145
+        },
+        {
+          "averageRating": 2024,
+          "black": 89,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 117
+        },
+        {
+          "averageRating": 2045,
+          "black": 40,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 64
+        },
+        {
+          "averageRating": 2015,
+          "black": 13,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f6",
+          "uci": "f7f6",
+          "white": 24
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 97286
+    },
+    "2024-07": {
+      "black": 83751,
+      "draws": 11347,
+      "moves": [
+        {
+          "averageRating": 2085,
+          "black": 30735,
+          "draws": 4304,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 35468
+        },
+        {
+          "averageRating": 2084,
+          "black": 26170,
+          "draws": 3722,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 30460
+        },
+        {
+          "averageRating": 2074,
+          "black": 9789,
+          "draws": 1221,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 11401
+        },
+        {
+          "averageRating": 2063,
+          "black": 7730,
+          "draws": 1003,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 10309
+        },
+        {
+          "averageRating": 2084,
+          "black": 4498,
+          "draws": 520,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 4755
+        },
+        {
+          "averageRating": 2076,
+          "black": 1930,
+          "draws": 226,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2272
+        },
+        {
+          "averageRating": 2068,
+          "black": 1479,
+          "draws": 179,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1836
+        },
+        {
+          "averageRating": 2082,
+          "black": 1140,
+          "draws": 149,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1323
+        },
+        {
+          "averageRating": 2048,
+          "black": 84,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 139
+        },
+        {
+          "averageRating": 2029,
+          "black": 87,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 114
+        },
+        {
+          "averageRating": 2049,
+          "black": 36,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 35
+        },
+        {
+          "averageRating": 2019,
+          "black": 14,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f6",
+          "uci": "f7f6",
+          "white": 31
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 98216
+    },
+    "2024-08": {
+      "black": 85312,
+      "draws": 11618,
+      "moves": [
+        {
+          "averageRating": 2084,
+          "black": 30976,
+          "draws": 4381,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 35894
+        },
+        {
+          "averageRating": 2085,
+          "black": 26718,
+          "draws": 3811,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 31393
+        },
+        {
+          "averageRating": 2074,
+          "black": 9820,
+          "draws": 1230,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 11238
+        },
+        {
+          "averageRating": 2062,
+          "black": 8132,
+          "draws": 999,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 10722
+        },
+        {
+          "averageRating": 2082,
+          "black": 4438,
+          "draws": 520,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 4771
+        },
+        {
+          "averageRating": 2076,
+          "black": 2031,
+          "draws": 244,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2421
+        },
+        {
+          "averageRating": 2066,
+          "black": 1688,
+          "draws": 214,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 2074
+        },
+        {
+          "averageRating": 2081,
+          "black": 1207,
+          "draws": 179,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1421
+        },
+        {
+          "averageRating": 2037,
+          "black": 111,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 144
+        },
+        {
+          "averageRating": 2055,
+          "black": 93,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 108
+        },
+        {
+          "averageRating": 2073,
+          "black": 29,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 24
+        },
+        {
+          "averageRating": 2047,
+          "black": 17,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 30
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 100346
+    },
+    "2024-09": {
+      "black": 79770,
+      "draws": 10727,
+      "moves": [
+        {
+          "averageRating": 2085,
+          "black": 29457,
+          "draws": 4191,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 33895
+        },
+        {
+          "averageRating": 2085,
+          "black": 24517,
+          "draws": 3434,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 28677
+        },
+        {
+          "averageRating": 2075,
+          "black": 9160,
+          "draws": 1128,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 10805
+        },
+        {
+          "averageRating": 2064,
+          "black": 7520,
+          "draws": 910,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 10008
+        },
+        {
+          "averageRating": 2083,
+          "black": 4260,
+          "draws": 464,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 4439
+        },
+        {
+          "averageRating": 2077,
+          "black": 1893,
+          "draws": 243,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2235
+        },
+        {
+          "averageRating": 2066,
+          "black": 1530,
+          "draws": 168,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1829
+        },
+        {
+          "averageRating": 2075,
+          "black": 1191,
+          "draws": 151,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1340
+        },
+        {
+          "averageRating": 2046,
+          "black": 81,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 126
+        },
+        {
+          "averageRating": 2018,
+          "black": 74,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 122
+        },
+        {
+          "averageRating": 2084,
+          "black": 22,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 19
+        },
+        {
+          "averageRating": 2062,
+          "black": 16,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 18
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 93614
+    },
+    "2024-10": {
+      "black": 83784,
+      "draws": 11359,
+      "moves": [
+        {
+          "averageRating": 2084,
+          "black": 30531,
+          "draws": 4327,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 35373
+        },
+        {
+          "averageRating": 2085,
+          "black": 25963,
+          "draws": 3675,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 30359
+        },
+        {
+          "averageRating": 2074,
+          "black": 9688,
+          "draws": 1241,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 11187
+        },
+        {
+          "averageRating": 2062,
+          "black": 8133,
+          "draws": 984,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 10641
+        },
+        {
+          "averageRating": 2082,
+          "black": 4449,
+          "draws": 539,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 4796
+        },
+        {
+          "averageRating": 2079,
+          "black": 1962,
+          "draws": 242,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2343
+        },
+        {
+          "averageRating": 2061,
+          "black": 1502,
+          "draws": 167,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1842
+        },
+        {
+          "averageRating": 2074,
+          "black": 1243,
+          "draws": 154,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1376
+        },
+        {
+          "averageRating": 2056,
+          "black": 117,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 155
+        },
+        {
+          "averageRating": 2023,
+          "black": 88,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 130
+        },
+        {
+          "averageRating": 2072,
+          "black": 27,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 31
+        },
+        {
+          "averageRating": 2031,
+          "black": 16,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "f6",
+          "uci": "f7f6",
+          "white": 37
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 98394
+    },
+    "2024-11": {
+      "black": 79370,
+      "draws": 10996,
+      "moves": [
+        {
+          "averageRating": 2083,
+          "black": 29076,
+          "draws": 4139,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 33872
+        },
+        {
+          "averageRating": 2084,
+          "black": 24659,
+          "draws": 3626,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 29360
+        },
+        {
+          "averageRating": 2075,
+          "black": 9289,
+          "draws": 1141,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 10909
+        },
+        {
+          "averageRating": 2061,
+          "black": 7405,
+          "draws": 967,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 9920
+        },
+        {
+          "averageRating": 2083,
+          "black": 4128,
+          "draws": 483,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 4589
+        },
+        {
+          "averageRating": 2081,
+          "black": 1855,
+          "draws": 248,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2124
+        },
+        {
+          "averageRating": 2063,
+          "black": 1537,
+          "draws": 181,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1963
+        },
+        {
+          "averageRating": 2076,
+          "black": 1137,
+          "draws": 173,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1370
+        },
+        {
+          "averageRating": 2057,
+          "black": 109,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 174
+        },
+        {
+          "averageRating": 2038,
+          "black": 83,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 120
+        },
+        {
+          "averageRating": 2062,
+          "black": 20,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 33
+        },
+        {
+          "averageRating": 2045,
+          "black": 12,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 30
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 94542
+    },
+    "2024-12": {
+      "black": 84692,
+      "draws": 11725,
+      "moves": [
+        {
+          "averageRating": 2084,
+          "black": 31433,
+          "draws": 4547,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 36077
+        },
+        {
+          "averageRating": 2085,
+          "black": 26586,
+          "draws": 3773,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 31229
+        },
+        {
+          "averageRating": 2075,
+          "black": 9494,
+          "draws": 1192,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 10839
+        },
+        {
+          "averageRating": 2061,
+          "black": 8079,
+          "draws": 1100,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 10907
+        },
+        {
+          "averageRating": 2080,
+          "black": 4181,
+          "draws": 523,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 4559
+        },
+        {
+          "averageRating": 2075,
+          "black": 1849,
+          "draws": 200,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2245
+        },
+        {
+          "averageRating": 2060,
+          "black": 1545,
+          "draws": 180,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1990
+        },
+        {
+          "averageRating": 2077,
+          "black": 1207,
+          "draws": 180,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1351
+        },
+        {
+          "averageRating": 2065,
+          "black": 117,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 140
+        },
+        {
+          "averageRating": 2028,
+          "black": 89,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 130
+        },
+        {
+          "averageRating": 2054,
+          "black": 20,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 37
+        },
+        {
+          "averageRating": 2086,
+          "black": 28,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 30
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 99626
+    },
+    "2025-01": {
+      "black": 87630,
+      "draws": 12141,
+      "moves": [
+        {
+          "averageRating": 2084,
+          "black": 32192,
+          "draws": 4684,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 37266
+        },
+        {
+          "averageRating": 2084,
+          "black": 27433,
+          "draws": 3808,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 32244
+        },
+        {
+          "averageRating": 2074,
+          "black": 9944,
+          "draws": 1323,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 11590
+        },
+        {
+          "averageRating": 2062,
+          "black": 8461,
+          "draws": 1084,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 11032
+        },
+        {
+          "averageRating": 2082,
+          "black": 4592,
+          "draws": 558,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 4796
+        },
+        {
+          "averageRating": 2073,
+          "black": 1883,
+          "draws": 295,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2225
+        },
+        {
+          "averageRating": 2062,
+          "black": 1487,
+          "draws": 169,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1888
+        },
+        {
+          "averageRating": 2073,
+          "black": 1350,
+          "draws": 188,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1498
+        },
+        {
+          "averageRating": 2050,
+          "black": 111,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 171
+        },
+        {
+          "averageRating": 2037,
+          "black": 83,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 110
+        },
+        {
+          "averageRating": 2080,
+          "black": 19,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 27
+        },
+        {
+          "averageRating": 2023,
+          "black": 24,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 20
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 102953
+    },
+    "2025-02": {
+      "black": 76148,
+      "draws": 10675,
+      "moves": [
+        {
+          "averageRating": 2085,
+          "black": 27734,
+          "draws": 4108,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 32248
+        },
+        {
+          "averageRating": 2084,
+          "black": 23512,
+          "draws": 3392,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 28175
+        },
+        {
+          "averageRating": 2074,
+          "black": 8845,
+          "draws": 1115,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 10092
+        },
+        {
+          "averageRating": 2061,
+          "black": 7298,
+          "draws": 975,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 9789
+        },
+        {
+          "averageRating": 2083,
+          "black": 4133,
+          "draws": 501,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 4395
+        },
+        {
+          "averageRating": 2075,
+          "black": 1727,
+          "draws": 217,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 1992
+        },
+        {
+          "averageRating": 2064,
+          "black": 1436,
+          "draws": 168,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1731
+        },
+        {
+          "averageRating": 2079,
+          "black": 1146,
+          "draws": 170,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1268
+        },
+        {
+          "averageRating": 2064,
+          "black": 112,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 149
+        },
+        {
+          "averageRating": 2041,
+          "black": 91,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 126
+        },
+        {
+          "averageRating": 2038,
+          "black": 26,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 28
+        },
+        {
+          "averageRating": 2058,
+          "black": 19,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 20
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 90105
+    },
+    "2025-03": {
+      "black": 83003,
+      "draws": 11970,
+      "moves": [
+        {
+          "averageRating": 2083,
+          "black": 30623,
+          "draws": 4517,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 35593
+        },
+        {
+          "averageRating": 2083,
+          "black": 25706,
+          "draws": 3905,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 30550
+        },
+        {
+          "averageRating": 2075,
+          "black": 9486,
+          "draws": 1286,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 11134
+        },
+        {
+          "averageRating": 2061,
+          "black": 8044,
+          "draws": 1080,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 10658
+        },
+        {
+          "averageRating": 2084,
+          "black": 4327,
+          "draws": 510,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 4579
+        },
+        {
+          "averageRating": 2070,
+          "black": 1852,
+          "draws": 255,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2281
+        },
+        {
+          "averageRating": 2062,
+          "black": 1467,
+          "draws": 203,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1908
+        },
+        {
+          "averageRating": 2073,
+          "black": 1192,
+          "draws": 175,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1447
+        },
+        {
+          "averageRating": 2058,
+          "black": 121,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 143
+        },
+        {
+          "averageRating": 2046,
+          "black": 97,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 120
+        },
+        {
+          "averageRating": 2033,
+          "black": 27,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 33
+        },
+        {
+          "averageRating": 2050,
+          "black": 12,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 29
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 98567
+    },
+    "2025-04": {
+      "black": 78400,
+      "draws": 10660,
+      "moves": [
+        {
+          "averageRating": 2085,
+          "black": 29329,
+          "draws": 3992,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 33536
+        },
+        {
+          "averageRating": 2083,
+          "black": 24079,
+          "draws": 3523,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 28496
+        },
+        {
+          "averageRating": 2073,
+          "black": 9019,
+          "draws": 1134,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 10339
+        },
+        {
+          "averageRating": 2060,
+          "black": 7341,
+          "draws": 951,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 9684
+        },
+        {
+          "averageRating": 2082,
+          "black": 4054,
+          "draws": 482,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 4345
+        },
+        {
+          "averageRating": 2076,
+          "black": 1769,
+          "draws": 231,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2121
+        },
+        {
+          "averageRating": 2060,
+          "black": 1386,
+          "draws": 152,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1721
+        },
+        {
+          "averageRating": 2077,
+          "black": 1176,
+          "draws": 161,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1302
+        },
+        {
+          "averageRating": 2061,
+          "black": 112,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 134
+        },
+        {
+          "averageRating": 2034,
+          "black": 75,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 104
+        },
+        {
+          "averageRating": 2041,
+          "black": 12,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 32
+        },
+        {
+          "averageRating": 2029,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "f6",
+          "uci": "f7f6",
+          "white": 24
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 91927
+    },
+    "2025-05": {
+      "black": 80809,
+      "draws": 11272,
+      "moves": [
+        {
+          "averageRating": 2085,
+          "black": 30082,
+          "draws": 4280,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 34303
+        },
+        {
+          "averageRating": 2084,
+          "black": 24757,
+          "draws": 3610,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 29095
+        },
+        {
+          "averageRating": 2074,
+          "black": 9387,
+          "draws": 1255,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 10921
+        },
+        {
+          "averageRating": 2061,
+          "black": 7679,
+          "draws": 959,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 10344
+        },
+        {
+          "averageRating": 2081,
+          "black": 3924,
+          "draws": 538,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 4205
+        },
+        {
+          "averageRating": 2078,
+          "black": 2039,
+          "draws": 240,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2218
+        },
+        {
+          "averageRating": 2065,
+          "black": 1428,
+          "draws": 186,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1695
+        },
+        {
+          "averageRating": 2077,
+          "black": 1234,
+          "draws": 162,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1392
+        },
+        {
+          "averageRating": 2053,
+          "black": 113,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 150
+        },
+        {
+          "averageRating": 2034,
+          "black": 89,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 112
+        },
+        {
+          "averageRating": 2031,
+          "black": 18,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 23
+        },
+        {
+          "averageRating": 2055,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "f6",
+          "uci": "f7f6",
+          "white": 20
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 94553
+    },
+    "2025-06": {
+      "black": 76529,
+      "draws": 10538,
+      "moves": [
+        {
+          "averageRating": 2084,
+          "black": 28403,
+          "draws": 3975,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 33051
+        },
+        {
+          "averageRating": 2084,
+          "black": 23792,
+          "draws": 3465,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 28047
+        },
+        {
+          "averageRating": 2074,
+          "black": 8581,
+          "draws": 1055,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 10154
+        },
+        {
+          "averageRating": 2062,
+          "black": 7458,
+          "draws": 989,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 9756
+        },
+        {
+          "averageRating": 2082,
+          "black": 3777,
+          "draws": 463,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 4109
+        },
+        {
+          "averageRating": 2071,
+          "black": 1723,
+          "draws": 233,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2047
+        },
+        {
+          "averageRating": 2061,
+          "black": 1396,
+          "draws": 167,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1748
+        },
+        {
+          "averageRating": 2075,
+          "black": 1159,
+          "draws": 161,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1301
+        },
+        {
+          "averageRating": 2054,
+          "black": 82,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 117
+        },
+        {
+          "averageRating": 2023,
+          "black": 68,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 98
+        },
+        {
+          "averageRating": 2034,
+          "black": 16,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 36
+        },
+        {
+          "averageRating": 2057,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "f6",
+          "uci": "f7f6",
+          "white": 25
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 90585
+    },
+    "2025-07": {
+      "black": 79699,
+      "draws": 11048,
+      "moves": [
+        {
+          "averageRating": 2083,
+          "black": 30059,
+          "draws": 4470,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 34638
+        },
+        {
+          "averageRating": 2084,
+          "black": 24146,
+          "draws": 3391,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 28601
+        },
+        {
+          "averageRating": 2076,
+          "black": 8970,
+          "draws": 1142,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 10386
+        },
+        {
+          "averageRating": 2061,
+          "black": 7520,
+          "draws": 972,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 9851
+        },
+        {
+          "averageRating": 2081,
+          "black": 4180,
+          "draws": 466,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 4339
+        },
+        {
+          "averageRating": 2076,
+          "black": 1757,
+          "draws": 246,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2076
+        },
+        {
+          "averageRating": 2066,
+          "black": 1602,
+          "draws": 164,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1888
+        },
+        {
+          "averageRating": 2077,
+          "black": 1253,
+          "draws": 172,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1360
+        },
+        {
+          "averageRating": 2051,
+          "black": 68,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 107
+        },
+        {
+          "averageRating": 2041,
+          "black": 62,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 90
+        },
+        {
+          "averageRating": 2029,
+          "black": 12,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 18
+        },
+        {
+          "averageRating": 2086,
+          "black": 11,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "f6",
+          "uci": "f7f6",
+          "white": 20
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 93482
+    },
+    "2025-08": {
+      "black": 79879,
+      "draws": 11150,
+      "moves": [
+        {
+          "averageRating": 2084,
+          "black": 30064,
+          "draws": 4367,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 34308
+        },
+        {
+          "averageRating": 2082,
+          "black": 24321,
+          "draws": 3505,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 28961
+        },
+        {
+          "averageRating": 2078,
+          "black": 8979,
+          "draws": 1145,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 10283
+        },
+        {
+          "averageRating": 2062,
+          "black": 7417,
+          "draws": 1012,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 9849
+        },
+        {
+          "averageRating": 2081,
+          "black": 4131,
+          "draws": 469,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 4402
+        },
+        {
+          "averageRating": 2076,
+          "black": 1946,
+          "draws": 237,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2221
+        },
+        {
+          "averageRating": 2064,
+          "black": 1467,
+          "draws": 182,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1854
+        },
+        {
+          "averageRating": 2085,
+          "black": 1305,
+          "draws": 197,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1466
+        },
+        {
+          "averageRating": 2057,
+          "black": 91,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 138
+        },
+        {
+          "averageRating": 2044,
+          "black": 68,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 83
+        },
+        {
+          "averageRating": 2037,
+          "black": 17,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 40
+        },
+        {
+          "averageRating": 2021,
+          "black": 18,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 22
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 93727
+    },
+    "2025-09": {
+      "black": 75473,
+      "draws": 10329,
+      "moves": [
+        {
+          "averageRating": 2085,
+          "black": 28404,
+          "draws": 4138,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 33177
+        },
+        {
+          "averageRating": 2083,
+          "black": 23137,
+          "draws": 3263,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 27690
+        },
+        {
+          "averageRating": 2076,
+          "black": 8552,
+          "draws": 1014,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 9875
+        },
+        {
+          "averageRating": 2061,
+          "black": 6960,
+          "draws": 869,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 9323
+        },
+        {
+          "averageRating": 2080,
+          "black": 3901,
+          "draws": 450,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 4248
+        },
+        {
+          "averageRating": 2074,
+          "black": 1758,
+          "draws": 216,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2044
+        },
+        {
+          "averageRating": 2064,
+          "black": 1340,
+          "draws": 176,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1635
+        },
+        {
+          "averageRating": 2079,
+          "black": 1237,
+          "draws": 181,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1392
+        },
+        {
+          "averageRating": 2055,
+          "black": 66,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 119
+        },
+        {
+          "averageRating": 2015,
+          "black": 37,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 83
+        },
+        {
+          "averageRating": 2056,
+          "black": 19,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 31
+        },
+        {
+          "averageRating": 2035,
+          "black": 13,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 19
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 89718
+    },
+    "2025-10": {
+      "black": 78854,
+      "draws": 11029,
+      "moves": [
+        {
+          "averageRating": 2085,
+          "black": 29937,
+          "draws": 4317,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 34761
+        },
+        {
+          "averageRating": 2084,
+          "black": 24124,
+          "draws": 3474,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 28967
+        },
+        {
+          "averageRating": 2078,
+          "black": 8987,
+          "draws": 1193,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 10321
+        },
+        {
+          "averageRating": 2061,
+          "black": 7309,
+          "draws": 910,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 9716
+        },
+        {
+          "averageRating": 2081,
+          "black": 3913,
+          "draws": 518,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 4446
+        },
+        {
+          "averageRating": 2075,
+          "black": 1760,
+          "draws": 263,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2117
+        },
+        {
+          "averageRating": 2067,
+          "black": 1358,
+          "draws": 151,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1660
+        },
+        {
+          "averageRating": 2082,
+          "black": 1263,
+          "draws": 180,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1476
+        },
+        {
+          "averageRating": 2047,
+          "black": 82,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 140
+        },
+        {
+          "averageRating": 2020,
+          "black": 55,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 87
+        },
+        {
+          "averageRating": 2046,
+          "black": 16,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 36
+        },
+        {
+          "averageRating": 2041,
+          "black": 10,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 21
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 93838
+    },
+    "2025-11": {
+      "black": 75545,
+      "draws": 10300,
+      "moves": [
+        {
+          "averageRating": 2084,
+          "black": 28727,
+          "draws": 4161,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 33804
+        },
+        {
+          "averageRating": 2085,
+          "black": 22711,
+          "draws": 3212,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 27253
+        },
+        {
+          "averageRating": 2077,
+          "black": 8642,
+          "draws": 1072,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 9938
+        },
+        {
+          "averageRating": 2060,
+          "black": 6965,
+          "draws": 866,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 9494
+        },
+        {
+          "averageRating": 2080,
+          "black": 3874,
+          "draws": 442,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 4188
+        },
+        {
+          "averageRating": 2077,
+          "black": 1766,
+          "draws": 194,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2043
+        },
+        {
+          "averageRating": 2068,
+          "black": 1319,
+          "draws": 148,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1599
+        },
+        {
+          "averageRating": 2083,
+          "black": 1291,
+          "draws": 174,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1396
+        },
+        {
+          "averageRating": 2039,
+          "black": 83,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 114
+        },
+        {
+          "averageRating": 2053,
+          "black": 86,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 107
+        },
+        {
+          "averageRating": 2012,
+          "black": 15,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 26
+        },
+        {
+          "averageRating": 2039,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 25
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 90080
+    },
+    "2025-12": {
+      "black": 79590,
+      "draws": 11178,
+      "moves": [
+        {
+          "averageRating": 2084,
+          "black": 30495,
+          "draws": 4421,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 35182
+        },
+        {
+          "averageRating": 2083,
+          "black": 23997,
+          "draws": 3524,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 28706
+        },
+        {
+          "averageRating": 2076,
+          "black": 9283,
+          "draws": 1223,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 10707
+        },
+        {
+          "averageRating": 2059,
+          "black": 7060,
+          "draws": 942,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 9988
+        },
+        {
+          "averageRating": 2080,
+          "black": 4018,
+          "draws": 483,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 4532
+        },
+        {
+          "averageRating": 2077,
+          "black": 1753,
+          "draws": 211,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 2095
+        },
+        {
+          "averageRating": 2064,
+          "black": 1406,
+          "draws": 154,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1632
+        },
+        {
+          "averageRating": 2083,
+          "black": 1332,
+          "draws": 194,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1510
+        },
+        {
+          "averageRating": 2036,
+          "black": 90,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 116
+        },
+        {
+          "averageRating": 2060,
+          "black": 68,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 127
+        },
+        {
+          "averageRating": 2031,
+          "black": 21,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 28
+        },
+        {
+          "averageRating": 2038,
+          "black": 10,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "f6",
+          "uci": "f7f6",
+          "white": 25
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 94740
+    },
+    "2026-01": {
+      "black": 76480,
+      "draws": 10709,
+      "moves": [
+        {
+          "averageRating": 2084,
+          "black": 28792,
+          "draws": 4216,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 32968
+        },
+        {
+          "averageRating": 2082,
+          "black": 23275,
+          "draws": 3386,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 28212
+        },
+        {
+          "averageRating": 2076,
+          "black": 9046,
+          "draws": 1185,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 10488
+        },
+        {
+          "averageRating": 2061,
+          "black": 7007,
+          "draws": 877,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 9524
+        },
+        {
+          "averageRating": 2082,
+          "black": 3803,
+          "draws": 450,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 4159
+        },
+        {
+          "averageRating": 2076,
+          "black": 1628,
+          "draws": 224,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 1984
+        },
+        {
+          "averageRating": 2070,
+          "black": 1349,
+          "draws": 139,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1552
+        },
+        {
+          "averageRating": 2080,
+          "black": 1337,
+          "draws": 193,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1438
+        },
+        {
+          "averageRating": 2050,
+          "black": 86,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 131
+        },
+        {
+          "averageRating": 2025,
+          "black": 58,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 106
+        },
+        {
+          "averageRating": 2039,
+          "black": 18,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 30
+        },
+        {
+          "averageRating": 2039,
+          "black": 17,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 25
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 90717
+    },
+    "2026-02": {
+      "black": 70128,
+      "draws": 9622,
+      "moves": [
+        {
+          "averageRating": 2085,
+          "black": 26676,
+          "draws": 3735,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 30655
+        },
+        {
+          "averageRating": 2083,
+          "black": 21292,
+          "draws": 3081,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 25382
+        },
+        {
+          "averageRating": 2077,
+          "black": 8209,
+          "draws": 1033,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 9444
+        },
+        {
+          "averageRating": 2062,
+          "black": 6346,
+          "draws": 770,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 8356
+        },
+        {
+          "averageRating": 2081,
+          "black": 3628,
+          "draws": 465,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 3940
+        },
+        {
+          "averageRating": 2077,
+          "black": 1452,
+          "draws": 190,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 1743
+        },
+        {
+          "averageRating": 2070,
+          "black": 1169,
+          "draws": 154,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1413
+        },
+        {
+          "averageRating": 2080,
+          "black": 1187,
+          "draws": 172,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1256
+        },
+        {
+          "averageRating": 2047,
+          "black": 61,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 118
+        },
+        {
+          "averageRating": 2028,
+          "black": 40,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 81
+        },
+        {
+          "averageRating": 2091,
+          "black": 16,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 27
+        },
+        {
+          "averageRating": 2023,
+          "black": 14,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 25
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 82512
+    },
+    "2026-03": {
+      "black": 73235,
+      "draws": 10311,
+      "moves": [
+        {
+          "averageRating": 2083,
+          "black": 27455,
+          "draws": 3983,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          },
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 31901
+        },
+        {
+          "averageRating": 2082,
+          "black": 21925,
+          "draws": 3265,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          },
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 26423
+        },
+        {
+          "averageRating": 2075,
+          "black": 8968,
+          "draws": 1138,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 10099
+        },
+        {
+          "averageRating": 2061,
+          "black": 6689,
+          "draws": 898,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 8896
+        },
+        {
+          "averageRating": 2077,
+          "black": 4012,
+          "draws": 448,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          },
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 4207
+        },
+        {
+          "averageRating": 2079,
+          "black": 1512,
+          "draws": 217,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 1809
+        },
+        {
+          "averageRating": 2068,
+          "black": 1273,
+          "draws": 156,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          },
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1517
+        },
+        {
+          "averageRating": 2079,
+          "black": 1202,
+          "draws": 171,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          },
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 1244
+        },
+        {
+          "averageRating": 2058,
+          "black": 76,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 100
+        },
+        {
+          "averageRating": 2024,
+          "black": 47,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 86
+        },
+        {
+          "averageRating": 2057,
+          "black": 21,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 26
+        },
+        {
+          "averageRating": 2041,
+          "black": 13,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 19
+        }
+      ],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      },
+      "white": 86408
+    },
+    "2026-04": {
+      "white": 46197,
+      "draws": 5601,
+      "black": 38807,
+      "moves": [
+        {
+          "uci": "e7e6",
+          "san": "e6",
+          "averageRating": 2084,
+          "white": 17231,
+          "draws": 2266,
+          "black": 14802,
+          "game": null,
+          "opening": {
+            "eco": "D30",
+            "name": "Queen's Gambit Declined"
+          }
+        },
+        {
+          "uci": "c7c6",
+          "san": "c6",
+          "averageRating": 2083,
+          "white": 14096,
+          "draws": 1719,
+          "black": 11830,
+          "game": null,
+          "opening": {
+            "eco": "D10",
+            "name": "Slav Defense"
+          }
+        },
+        {
+          "uci": "d5c4",
+          "san": "dxc4",
+          "averageRating": 2077,
+          "white": 5284,
+          "draws": 584,
+          "black": 4484,
+          "game": null,
+          "opening": {
+            "eco": "D20",
+            "name": "Queen's Gambit Accepted"
+          }
+        },
+        {
+          "uci": "g8f6",
+          "san": "Nf6",
+          "averageRating": 2057,
+          "white": 4782,
+          "draws": 476,
+          "black": 3375,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Marshall Defense"
+          }
+        },
+        {
+          "uci": "e7e5",
+          "san": "e5",
+          "averageRating": 2080,
+          "white": 2229,
+          "draws": 231,
+          "black": 2037,
+          "game": null,
+          "opening": {
+            "eco": "D08",
+            "name": "Queen's Gambit Declined: Albin Countergambit"
+          }
+        },
+        {
+          "uci": "b8c6",
+          "san": "Nc6",
+          "averageRating": 2074,
+          "white": 947,
+          "draws": 103,
+          "black": 814,
+          "game": null,
+          "opening": {
+            "eco": "D07",
+            "name": "Queen's Gambit Declined: Chigorin Defense"
+          }
+        },
+        {
+          "uci": "c8f5",
+          "san": "Bf5",
+          "averageRating": 2067,
+          "white": 798,
+          "draws": 100,
+          "black": 683,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Baltic Defense"
+          }
+        },
+        {
+          "uci": "c7c5",
+          "san": "c5",
+          "averageRating": 2080,
+          "white": 666,
+          "draws": 103,
+          "black": 666,
+          "game": null,
+          "opening": {
+            "eco": "D06",
+            "name": "Queen's Gambit Declined: Austrian Defense"
+          }
+        },
+        {
+          "uci": "g7g6",
+          "san": "g6",
+          "averageRating": 2061,
+          "white": 54,
+          "draws": 6,
+          "black": 40,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c8g4",
+          "san": "Bg4",
+          "averageRating": 2016,
+          "white": 53,
+          "draws": 5,
+          "black": 36,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f7f5",
+          "san": "f5",
+          "averageRating": 2050,
+          "white": 14,
+          "draws": 2,
+          "black": 9,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f7f6",
+          "san": "f6",
+          "averageRating": 1980,
+          "white": 13,
+          "draws": 0,
+          "black": 7,
+          "game": null,
+          "opening": null
+        }
+      ],
+      "recentGames": [],
+      "topGames": [],
+      "opening": {
+        "eco": "D06",
+        "name": "Queen's Gambit"
+      }
+    }
+  }
+}

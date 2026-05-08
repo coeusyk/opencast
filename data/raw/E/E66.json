@@ -1,0 +1,3159 @@
+{
+  "_meta": {
+    "skipped_months": {
+      "2023-04": "below_min_games",
+      "2023-06": "below_min_games",
+      "2023-07": "below_min_games",
+      "2023-11": "below_min_games",
+      "2024-02": "below_min_games",
+      "2024-03": "below_min_games",
+      "2024-04": "below_min_games",
+      "2024-07": "below_min_games",
+      "2024-08": "below_min_games",
+      "2024-09": "below_min_games",
+      "2025-02": "below_min_games",
+      "2025-04": "below_min_games"
+    }
+  },
+  "eco": "E66",
+  "months": {
+    "2023-01": {
+      "black": 224,
+      "draws": 23,
+      "moves": [
+        {
+          "averageRating": 2119,
+          "black": 115,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 83
+        },
+        {
+          "averageRating": 2090,
+          "black": 56,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 75
+        },
+        {
+          "averageRating": 2089,
+          "black": 24,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 23
+        },
+        {
+          "averageRating": 2091,
+          "black": 26,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 16
+        },
+        {
+          "averageRating": 2099,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 5
+        },
+        {
+          "averageRating": 2149,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "fishtrawn",
+              "rating": 2149
+            },
+            "id": "HhRkQ8bl",
+            "mode": "rated",
+            "month": "2023-01",
+            "speed": "blitz",
+            "white": {
+              "name": "manuelgwapo31",
+              "rating": 2194
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "white": 203
+    },
+    "2023-02": {
+      "black": 185,
+      "draws": 28,
+      "moves": [
+        {
+          "averageRating": 2119,
+          "black": 97,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 95
+        },
+        {
+          "averageRating": 2090,
+          "black": 48,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 68
+        },
+        {
+          "averageRating": 2080,
+          "black": 17,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 25
+        },
+        {
+          "averageRating": 2119,
+          "black": 22,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 17
+        },
+        {
+          "averageRating": 2113,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 4
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "white": 209
+    },
+    "2023-03": {
+      "black": 163,
+      "draws": 35,
+      "moves": [
+        {
+          "averageRating": 2111,
+          "black": 83,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 86
+        },
+        {
+          "averageRating": 2092,
+          "black": 42,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 59
+        },
+        {
+          "averageRating": 2096,
+          "black": 22,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 40
+        },
+        {
+          "averageRating": 2115,
+          "black": 14,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 21
+        },
+        {
+          "averageRating": 2087,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 4
+        },
+        {
+          "averageRating": 1990,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "loreleitos",
+              "rating": 1990
+            },
+            "id": "pdMn2ciB",
+            "mode": "rated",
+            "month": "2023-03",
+            "speed": "blitz",
+            "white": {
+              "name": "Eurochess-72",
+              "rating": 2331
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Rb8",
+          "uci": "a8b8",
+          "white": 1
+        },
+        {
+          "averageRating": 2025,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "sicilijanskaodbrana",
+              "rating": 2025
+            },
+            "id": "dkQALIrH",
+            "mode": "rated",
+            "month": "2023-03",
+            "speed": "blitz",
+            "white": {
+              "name": "Marti_G",
+              "rating": 2020
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "white": 212
+    },
+    "2023-05": {
+      "black": 190,
+      "draws": 31,
+      "moves": [
+        {
+          "averageRating": 2124,
+          "black": 98,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 76
+        },
+        {
+          "averageRating": 2083,
+          "black": 63,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 64
+        },
+        {
+          "averageRating": 2092,
+          "black": 16,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 23
+        },
+        {
+          "averageRating": 2096,
+          "black": 11,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 21
+        },
+        {
+          "averageRating": 2093,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 1
+        },
+        {
+          "averageRating": 2034,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "SalutPatrick",
+              "rating": 2034
+            },
+            "id": "4aoBd5NR",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "HeroBTHS",
+              "rating": 2102
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "white": 186
+    },
+    "2023-06": {
+      "black": 158,
+      "draws": 26,
+      "moves": [
+        {
+          "averageRating": 2122,
+          "black": 79,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 87
+        },
+        {
+          "averageRating": 2074,
+          "black": 45,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 60
+        },
+        {
+          "averageRating": 2094,
+          "black": 18,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 25
+        },
+        {
+          "averageRating": 2117,
+          "black": 14,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 12
+        },
+        {
+          "averageRating": 2050,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 2
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 186
+    },
+    "2023-07": {
+      "black": 195,
+      "draws": 16,
+      "moves": [
+        {
+          "averageRating": 2126,
+          "black": 98,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 80
+        },
+        {
+          "averageRating": 2088,
+          "black": 63,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 51
+        },
+        {
+          "averageRating": 2102,
+          "black": 12,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 25
+        },
+        {
+          "averageRating": 2091,
+          "black": 19,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 17
+        },
+        {
+          "averageRating": 2039,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 5
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 178
+    },
+    "2023-08": {
+      "black": 215,
+      "draws": 28,
+      "moves": [
+        {
+          "averageRating": 2120,
+          "black": 120,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 91
+        },
+        {
+          "averageRating": 2093,
+          "black": 53,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 73
+        },
+        {
+          "averageRating": 2082,
+          "black": 19,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 23
+        },
+        {
+          "averageRating": 2098,
+          "black": 20,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 19
+        },
+        {
+          "averageRating": 2078,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 8
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "white": 214
+    },
+    "2023-09": {
+      "black": 213,
+      "draws": 21,
+      "moves": [
+        {
+          "averageRating": 2124,
+          "black": 106,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 102
+        },
+        {
+          "averageRating": 2102,
+          "black": 65,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 81
+        },
+        {
+          "averageRating": 2085,
+          "black": 23,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 30
+        },
+        {
+          "averageRating": 2087,
+          "black": 17,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 20
+        },
+        {
+          "averageRating": 2062,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 3
+        },
+        {
+          "averageRating": 1885,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Angel_IG",
+              "rating": 1885
+            },
+            "id": "yETN4WHy",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "This_is_parham",
+              "rating": 2271
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nd7",
+          "uci": "f6d7",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "white": 237
+    },
+    "2023-10": {
+      "black": 186,
+      "draws": 23,
+      "moves": [
+        {
+          "averageRating": 2126,
+          "black": 96,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 92
+        },
+        {
+          "averageRating": 2105,
+          "black": 49,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 76
+        },
+        {
+          "averageRating": 2089,
+          "black": 21,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 26
+        },
+        {
+          "averageRating": 2089,
+          "black": 18,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 22
+        },
+        {
+          "averageRating": 2070,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 4
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "white": 220
+    },
+    "2023-11": {
+      "black": 170,
+      "draws": 15,
+      "moves": [
+        {
+          "averageRating": 2120,
+          "black": 80,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 73
+        },
+        {
+          "averageRating": 2100,
+          "black": 58,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 57
+        },
+        {
+          "averageRating": 2087,
+          "black": 12,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 19
+        },
+        {
+          "averageRating": 2097,
+          "black": 14,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 16
+        },
+        {
+          "averageRating": 2103,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 1
+        },
+        {
+          "averageRating": 2063,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 1
+        },
+        {
+          "averageRating": 1936,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 168
+    },
+    "2023-12": {
+      "black": 222,
+      "draws": 20,
+      "moves": [
+        {
+          "averageRating": 2121,
+          "black": 123,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 84
+        },
+        {
+          "averageRating": 2100,
+          "black": 66,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 60
+        },
+        {
+          "averageRating": 2082,
+          "black": 18,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 21
+        },
+        {
+          "averageRating": 2046,
+          "black": 13,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 19
+        },
+        {
+          "averageRating": 2148,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "white": 184
+    },
+    "2024-01": {
+      "black": 201,
+      "draws": 27,
+      "moves": [
+        {
+          "averageRating": 2117,
+          "black": 109,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 85
+        },
+        {
+          "averageRating": 2084,
+          "black": 60,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 75
+        },
+        {
+          "averageRating": 2067,
+          "black": 12,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 35
+        },
+        {
+          "averageRating": 2090,
+          "black": 17,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 22
+        },
+        {
+          "averageRating": 2081,
+          "black": 3,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 3
+        },
+        {
+          "averageRating": 2134,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Extreme_Cruelty",
+              "rating": 2134
+            },
+            "id": "a8MPW47z",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "d9c21h30o2",
+              "rating": 2192
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "white": 221
+    },
+    "2024-02": {
+      "black": 179,
+      "draws": 13,
+      "moves": [
+        {
+          "averageRating": 2134,
+          "black": 88,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 70
+        },
+        {
+          "averageRating": 2083,
+          "black": 55,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 55
+        },
+        {
+          "averageRating": 2102,
+          "black": 18,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 30
+        },
+        {
+          "averageRating": 2113,
+          "black": 15,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 16
+        },
+        {
+          "averageRating": 2113,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 2
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 173
+    },
+    "2024-03": {
+      "black": 199,
+      "draws": 27,
+      "moves": [
+        {
+          "averageRating": 2117,
+          "black": 104,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 68
+        },
+        {
+          "averageRating": 2096,
+          "black": 46,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 51
+        },
+        {
+          "averageRating": 2092,
+          "black": 25,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 30
+        },
+        {
+          "averageRating": 2086,
+          "black": 23,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 20
+        },
+        {
+          "averageRating": 2095,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 4
+        },
+        {
+          "averageRating": 2115,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 173
+    },
+    "2024-04": {
+      "black": 175,
+      "draws": 22,
+      "moves": [
+        {
+          "averageRating": 2124,
+          "black": 95,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 72
+        },
+        {
+          "averageRating": 2091,
+          "black": 50,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 78
+        },
+        {
+          "averageRating": 2075,
+          "black": 17,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 24
+        },
+        {
+          "averageRating": 2064,
+          "black": 11,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 17
+        },
+        {
+          "averageRating": 2187,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 1
+        },
+        {
+          "averageRating": 2024,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 0
+        },
+        {
+          "averageRating": 2027,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 1
+        },
+        {
+          "averageRating": 2115,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nxd5",
+          "uci": "f6d5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 194
+    },
+    "2024-05": {
+      "black": 204,
+      "draws": 30,
+      "moves": [
+        {
+          "averageRating": 2114,
+          "black": 109,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 105
+        },
+        {
+          "averageRating": 2101,
+          "black": 55,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 71
+        },
+        {
+          "averageRating": 2074,
+          "black": 17,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 33
+        },
+        {
+          "averageRating": 2086,
+          "black": 21,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 19
+        },
+        {
+          "averageRating": 2094,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 1
+        },
+        {
+          "averageRating": 2062,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ustadofchess",
+              "rating": 2062
+            },
+            "id": "Pm90rhzC",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "buckoo0077",
+              "rating": 2090
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "white": 230
+    },
+    "2024-06": {
+      "black": 178,
+      "draws": 19,
+      "moves": [
+        {
+          "averageRating": 2126,
+          "black": 98,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 81
+        },
+        {
+          "averageRating": 2102,
+          "black": 51,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 84
+        },
+        {
+          "averageRating": 2092,
+          "black": 13,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 27
+        },
+        {
+          "averageRating": 2096,
+          "black": 15,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 16
+        },
+        {
+          "averageRating": 2072,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 3
+        },
+        {
+          "averageRating": 2220,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "V_Stepanov",
+              "rating": 2220
+            },
+            "id": "5ydleh8v",
+            "mode": "rated",
+            "month": "2024-06",
+            "speed": "blitz",
+            "white": {
+              "name": "Vadim777Taipov",
+              "rating": 2130
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 1
+        },
+        {
+          "averageRating": 2003,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "MSBBSM",
+              "rating": 2003
+            },
+            "id": "Xu93TbvY",
+            "mode": "rated",
+            "month": "2024-06",
+            "speed": "blitz",
+            "white": {
+              "name": "lebedev2023",
+              "rating": 2184
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "white": 213
+    },
+    "2024-07": {
+      "black": 169,
+      "draws": 18,
+      "moves": [
+        {
+          "averageRating": 2128,
+          "black": 99,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 74
+        },
+        {
+          "averageRating": 2104,
+          "black": 47,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 74
+        },
+        {
+          "averageRating": 2100,
+          "black": 13,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 18
+        },
+        {
+          "averageRating": 2079,
+          "black": 8,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 16
+        },
+        {
+          "averageRating": 2074,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 6
+        },
+        {
+          "averageRating": 2155,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd7",
+          "uci": "c8d7",
+          "white": 1
+        },
+        {
+          "averageRating": 2111,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Rb8",
+          "uci": "a8b8",
+          "white": 1
+        },
+        {
+          "averageRating": 2079,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 190
+    },
+    "2024-08": {
+      "black": 195,
+      "draws": 12,
+      "moves": [
+        {
+          "averageRating": 2127,
+          "black": 94,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 71
+        },
+        {
+          "averageRating": 2084,
+          "black": 66,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 46
+        },
+        {
+          "averageRating": 2073,
+          "black": 19,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 23
+        },
+        {
+          "averageRating": 2077,
+          "black": 14,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 19
+        },
+        {
+          "averageRating": 2024,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 2
+        },
+        {
+          "averageRating": 2132,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        },
+        {
+          "averageRating": 1821,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 163
+    },
+    "2024-09": {
+      "black": 162,
+      "draws": 25,
+      "moves": [
+        {
+          "averageRating": 2137,
+          "black": 74,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 66
+        },
+        {
+          "averageRating": 2094,
+          "black": 50,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 71
+        },
+        {
+          "averageRating": 2098,
+          "black": 22,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 16
+        },
+        {
+          "averageRating": 2092,
+          "black": 13,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 16
+        },
+        {
+          "averageRating": 2068,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 4
+        },
+        {
+          "averageRating": 2084,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 1
+        },
+        {
+          "averageRating": 2064,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 175
+    },
+    "2024-10": {
+      "black": 220,
+      "draws": 27,
+      "moves": [
+        {
+          "averageRating": 2135,
+          "black": 124,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 83
+        },
+        {
+          "averageRating": 2113,
+          "black": 59,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 74
+        },
+        {
+          "averageRating": 2071,
+          "black": 20,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 30
+        },
+        {
+          "averageRating": 2096,
+          "black": 15,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 21
+        },
+        {
+          "averageRating": 2052,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 5
+        },
+        {
+          "averageRating": 2029,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Ruvamasema",
+              "rating": 2029
+            },
+            "id": "36PHKpV7",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "izucheniye",
+              "rating": 2123
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "white": 214
+    },
+    "2024-11": {
+      "black": 193,
+      "draws": 24,
+      "moves": [
+        {
+          "averageRating": 2109,
+          "black": 108,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 68
+        },
+        {
+          "averageRating": 2093,
+          "black": 50,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 78
+        },
+        {
+          "averageRating": 2096,
+          "black": 18,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 16
+        },
+        {
+          "averageRating": 2069,
+          "black": 14,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 17
+        },
+        {
+          "averageRating": 2082,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 4
+        },
+        {
+          "averageRating": 2120,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "IvanBanLima",
+              "rating": 2120
+            },
+            "id": "MeIK3m9w",
+            "mode": "rated",
+            "month": "2024-11",
+            "speed": "blitz",
+            "white": {
+              "name": "gboga",
+              "rating": 2035
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "white": 184
+    },
+    "2024-12": {
+      "black": 207,
+      "draws": 20,
+      "moves": [
+        {
+          "averageRating": 2119,
+          "black": 107,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 106
+        },
+        {
+          "averageRating": 2093,
+          "black": 62,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 71
+        },
+        {
+          "averageRating": 2090,
+          "black": 19,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 19
+        },
+        {
+          "averageRating": 2069,
+          "black": 16,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 23
+        },
+        {
+          "averageRating": 2063,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 1
+        },
+        {
+          "averageRating": 2046,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "najdat5555557",
+              "rating": 2046
+            },
+            "id": "z0XCzOWn",
+            "mode": "rated",
+            "month": "2024-12",
+            "speed": "blitz",
+            "white": {
+              "name": "Frissoner",
+              "rating": 2012
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Re8",
+          "uci": "f8e8",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "white": 221
+    },
+    "2025-01": {
+      "black": 225,
+      "draws": 21,
+      "moves": [
+        {
+          "averageRating": 2123,
+          "black": 132,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 119
+        },
+        {
+          "averageRating": 2091,
+          "black": 52,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 70
+        },
+        {
+          "averageRating": 2094,
+          "black": 19,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 18
+        },
+        {
+          "averageRating": 2105,
+          "black": 18,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 15
+        },
+        {
+          "averageRating": 2087,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 3
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "white": 225
+    },
+    "2025-02": {
+      "black": 172,
+      "draws": 22,
+      "moves": [
+        {
+          "averageRating": 2123,
+          "black": 98,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 79
+        },
+        {
+          "averageRating": 2089,
+          "black": 38,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 72
+        },
+        {
+          "averageRating": 2079,
+          "black": 20,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 20
+        },
+        {
+          "averageRating": 2099,
+          "black": 15,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 14
+        },
+        {
+          "averageRating": 2157,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 185
+    },
+    "2025-03": {
+      "black": 214,
+      "draws": 28,
+      "moves": [
+        {
+          "averageRating": 2119,
+          "black": 118,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 112
+        },
+        {
+          "averageRating": 2092,
+          "black": 51,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 80
+        },
+        {
+          "averageRating": 2082,
+          "black": 21,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 22
+        },
+        {
+          "averageRating": 2102,
+          "black": 20,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 16
+        },
+        {
+          "averageRating": 2079,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 1
+        },
+        {
+          "averageRating": 2014,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "centurionix",
+              "rating": 2014
+            },
+            "id": "8lC5goM6",
+            "mode": "rated",
+            "month": "2025-03",
+            "speed": "blitz",
+            "white": {
+              "name": "Holden16",
+              "rating": 2013
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2084,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "fedeg04",
+              "rating": 2084
+            },
+            "id": "rtMUA1qy",
+            "mode": "rated",
+            "month": "2025-03",
+            "speed": "blitz",
+            "white": {
+              "name": "RegaRed",
+              "rating": 2063
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "white": 232
+    },
+    "2025-04": {
+      "black": 203,
+      "draws": 23,
+      "moves": [
+        {
+          "averageRating": 2129,
+          "black": 115,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 84
+        },
+        {
+          "averageRating": 2088,
+          "black": 55,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 53
+        },
+        {
+          "averageRating": 2098,
+          "black": 17,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 22
+        },
+        {
+          "averageRating": 2101,
+          "black": 14,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 13
+        },
+        {
+          "averageRating": 2169,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 172
+    },
+    "2025-05": {
+      "black": 189,
+      "draws": 21,
+      "moves": [
+        {
+          "averageRating": 2119,
+          "black": 114,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 83
+        },
+        {
+          "averageRating": 2092,
+          "black": 54,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 68
+        },
+        {
+          "averageRating": 2084,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 24
+        },
+        {
+          "averageRating": 2088,
+          "black": 11,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 18
+        },
+        {
+          "averageRating": 2038,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 2
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "white": 195
+    },
+    "2025-06": {
+      "black": 203,
+      "draws": 23,
+      "moves": [
+        {
+          "averageRating": 2119,
+          "black": 117,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 93
+        },
+        {
+          "averageRating": 2090,
+          "black": 49,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 72
+        },
+        {
+          "averageRating": 2087,
+          "black": 15,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 24
+        },
+        {
+          "averageRating": 2085,
+          "black": 21,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 14
+        },
+        {
+          "averageRating": 2088,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 4
+        },
+        {
+          "averageRating": 2075,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Nawafzk",
+              "rating": 2075
+            },
+            "id": "6JdjQ8hR",
+            "mode": "rated",
+            "month": "2025-06",
+            "speed": "blitz",
+            "white": {
+              "name": "MSibizuk",
+              "rating": 2038
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 1
+        },
+        {
+          "averageRating": 1856,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "BTSV67",
+              "rating": 1856
+            },
+            "id": "A583so3U",
+            "mode": "rated",
+            "month": "2025-06",
+            "speed": "blitz",
+            "white": {
+              "name": "VelvetUnderground",
+              "rating": 2213
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "white": 209
+    },
+    "2025-07": {
+      "black": 218,
+      "draws": 36,
+      "moves": [
+        {
+          "averageRating": 2121,
+          "black": 133,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 105
+        },
+        {
+          "averageRating": 2087,
+          "black": 52,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 67
+        },
+        {
+          "averageRating": 2093,
+          "black": 16,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 18
+        },
+        {
+          "averageRating": 2109,
+          "black": 15,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 20
+        },
+        {
+          "averageRating": 1998,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "white": 211
+    },
+    "2025-08": {
+      "black": 230,
+      "draws": 22,
+      "moves": [
+        {
+          "averageRating": 2118,
+          "black": 130,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 105
+        },
+        {
+          "averageRating": 2092,
+          "black": 56,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 64
+        },
+        {
+          "averageRating": 2091,
+          "black": 24,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 23
+        },
+        {
+          "averageRating": 2078,
+          "black": 15,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 21
+        },
+        {
+          "averageRating": 2116,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 3
+        },
+        {
+          "averageRating": 2113,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "knot01",
+              "rating": 2113
+            },
+            "id": "RRL7cUIm",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "Bitolin",
+              "rating": 2067
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Rb8",
+          "uci": "a8b8",
+          "white": 1
+        },
+        {
+          "averageRating": 2020,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "AjayBharadwaj",
+              "rating": 2020
+            },
+            "id": "lVhdfEts",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "SunFlowerChessSeed",
+              "rating": 2043
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "white": 217
+    },
+    "2025-09": {
+      "black": 197,
+      "draws": 15,
+      "moves": [
+        {
+          "averageRating": 2115,
+          "black": 110,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 82
+        },
+        {
+          "averageRating": 2098,
+          "black": 51,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 80
+        },
+        {
+          "averageRating": 2093,
+          "black": 18,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 19
+        },
+        {
+          "averageRating": 2087,
+          "black": 16,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 18
+        },
+        {
+          "averageRating": 2100,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "italodf",
+              "rating": 2100
+            },
+            "id": "wJ19FDIC",
+            "mode": "rated",
+            "month": "2025-09",
+            "speed": "blitz",
+            "white": {
+              "name": "Budulin",
+              "rating": 2113
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 0
+        },
+        {
+          "averageRating": 2154,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Luis8921",
+              "rating": 2154
+            },
+            "id": "zUprjCHl",
+            "mode": "rated",
+            "month": "2025-09",
+            "speed": "blitz",
+            "white": {
+              "name": "hug880107",
+              "rating": 2053
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "white": 199
+    },
+    "2025-10": {
+      "black": 241,
+      "draws": 19,
+      "moves": [
+        {
+          "averageRating": 2119,
+          "black": 150,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 98
+        },
+        {
+          "averageRating": 2089,
+          "black": 53,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 61
+        },
+        {
+          "averageRating": 2089,
+          "black": 18,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 21
+        },
+        {
+          "averageRating": 2091,
+          "black": 18,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 15
+        },
+        {
+          "averageRating": 2108,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 2
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "white": 197
+    },
+    "2025-11": {
+      "black": 194,
+      "draws": 21,
+      "moves": [
+        {
+          "averageRating": 2128,
+          "black": 113,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 94
+        },
+        {
+          "averageRating": 2096,
+          "black": 50,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 72
+        },
+        {
+          "averageRating": 2099,
+          "black": 13,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 19
+        },
+        {
+          "averageRating": 2065,
+          "black": 18,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 14
+        },
+        {
+          "averageRating": 1884,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "nadnac",
+              "rating": 1884
+            },
+            "id": "9yOFh1wQ",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "KindredwithTea",
+              "rating": 2178
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 1
+        },
+        {
+          "averageRating": 2090,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "adnanbelleh",
+              "rating": 2090
+            },
+            "id": "bz9CeIte",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "mohsen_ban",
+              "rating": 2141
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "white": 201
+    },
+    "2025-12": {
+      "black": 238,
+      "draws": 27,
+      "moves": [
+        {
+          "averageRating": 2130,
+          "black": 133,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 83
+        },
+        {
+          "averageRating": 2095,
+          "black": 62,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 78
+        },
+        {
+          "averageRating": 2093,
+          "black": 26,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 21
+        },
+        {
+          "averageRating": 2103,
+          "black": 14,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 20
+        },
+        {
+          "averageRating": 2051,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 5
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "white": 207
+    },
+    "2026-01": {
+      "black": 198,
+      "draws": 28,
+      "moves": [
+        {
+          "averageRating": 2124,
+          "black": 115,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 84
+        },
+        {
+          "averageRating": 2076,
+          "black": 55,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 63
+        },
+        {
+          "averageRating": 2086,
+          "black": 14,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 19
+        },
+        {
+          "averageRating": 2064,
+          "black": 7,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 18
+        },
+        {
+          "averageRating": 2091,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 2
+        },
+        {
+          "averageRating": 2059,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Ludox75",
+              "rating": 2059
+            },
+            "id": "kLD2iu11",
+            "mode": "rated",
+            "month": "2026-01",
+            "speed": "blitz",
+            "white": {
+              "name": "StephenJalandoniPhi",
+              "rating": 2083
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "white": 187
+    },
+    "2026-02": {
+      "black": 189,
+      "draws": 25,
+      "moves": [
+        {
+          "averageRating": 2121,
+          "black": 115,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 110
+        },
+        {
+          "averageRating": 2083,
+          "black": 41,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 65
+        },
+        {
+          "averageRating": 2109,
+          "black": 20,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 14
+        },
+        {
+          "averageRating": 2111,
+          "black": 9,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 16
+        },
+        {
+          "averageRating": 2093,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 7
+        },
+        {
+          "averageRating": 2036,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "juanpa72",
+              "rating": 2036
+            },
+            "id": "wPA5PEF2",
+            "mode": "rated",
+            "month": "2026-02",
+            "speed": "blitz",
+            "white": {
+              "name": "fifaillon007",
+              "rating": 2028
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Bd7",
+          "uci": "c8d7",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "white": 213
+    },
+    "2026-03": {
+      "black": 220,
+      "draws": 28,
+      "moves": [
+        {
+          "averageRating": 2124,
+          "black": 137,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 108
+        },
+        {
+          "averageRating": 2093,
+          "black": 51,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 61
+        },
+        {
+          "averageRating": 2086,
+          "black": 15,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 22
+        },
+        {
+          "averageRating": 2101,
+          "black": 15,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 18
+        },
+        {
+          "averageRating": 2082,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 2
+        },
+        {
+          "averageRating": 2070,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Moindjie",
+              "rating": 2070
+            },
+            "id": "tJR5bfGv",
+            "mode": "rated",
+            "month": "2026-03",
+            "speed": "blitz",
+            "white": {
+              "name": "Knoppert",
+              "rating": 2081
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "white": 212
+    },
+    "2026-04": {
+      "black": 117,
+      "draws": 9,
+      "moves": [
+        {
+          "averageRating": 2123,
+          "black": 69,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 58
+        },
+        {
+          "averageRating": 2084,
+          "black": 24,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Nb8",
+          "uci": "c6b8",
+          "white": 26
+        },
+        {
+          "averageRating": 2055,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "c6e5",
+          "white": 12
+        },
+        {
+          "averageRating": 2076,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nb4",
+          "uci": "c6b4",
+          "white": 11
+        },
+        {
+          "averageRating": 2067,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "E66",
+        "name": "King's Indian Defense: Fianchetto Variation, Yugoslav Variation, Advance Line"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 108
+    }
+  }
+}

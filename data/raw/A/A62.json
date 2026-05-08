@@ -1,0 +1,5200 @@
+{
+  "eco": "A62",
+  "months": {
+    "2023-01": {
+      "black": 257,
+      "draws": 26,
+      "moves": [
+        {
+          "averageRating": 2111,
+          "black": 246,
+          "draws": 26,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 304
+        },
+        {
+          "averageRating": 2057,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 3
+        },
+        {
+          "averageRating": 2122,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 4
+        },
+        {
+          "averageRating": 2071,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        },
+        {
+          "averageRating": 2078,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 3
+        },
+        {
+          "averageRating": 2225,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "deepkimo",
+              "rating": 2164
+            },
+            "id": "zhmPXp0i",
+            "mode": "rated",
+            "month": "2023-01",
+            "speed": "blitz",
+            "white": {
+              "name": "FBAchess",
+              "rating": 2225
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 0
+        },
+        {
+          "averageRating": 2197,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "CrashTestKing",
+              "rating": 2147
+            },
+            "id": "pLy99734",
+            "mode": "rated",
+            "month": "2023-01",
+            "speed": "blitz",
+            "white": {
+              "name": "mouv",
+              "rating": 2197
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1
+        },
+        {
+          "averageRating": 2081,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "davidmfresneda",
+              "rating": 2219
+            },
+            "id": "zh9iZR3h",
+            "mode": "rated",
+            "month": "2023-01",
+            "speed": "blitz",
+            "white": {
+              "name": "kasparzin",
+              "rating": 2081
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 317
+    },
+    "2023-02": {
+      "black": 210,
+      "draws": 23,
+      "moves": [
+        {
+          "averageRating": 2111,
+          "black": 204,
+          "draws": 21,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 236
+        },
+        {
+          "averageRating": 2146,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 3
+        },
+        {
+          "averageRating": 2056,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 2
+        },
+        {
+          "averageRating": 2128,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2
+        },
+        {
+          "averageRating": 1998,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 1
+        },
+        {
+          "averageRating": 2100,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        },
+        {
+          "averageRating": 2172,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2128,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "CaptainPrecious",
+              "rating": 2158
+            },
+            "id": "zhFiVbqV",
+            "mode": "rated",
+            "month": "2023-02",
+            "speed": "blitz",
+            "white": {
+              "name": "midofanta",
+              "rating": 2128
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Kf1",
+          "uci": "e1f1",
+          "white": 1
+        },
+        {
+          "averageRating": 2032,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "vindo2791",
+              "rating": 2023
+            },
+            "id": "tpOFs7ce",
+            "mode": "rated",
+            "month": "2023-02",
+            "speed": "blitz",
+            "white": {
+              "name": "DepperitoR",
+              "rating": 2032
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 249
+    },
+    "2023-03": {
+      "black": 218,
+      "draws": 26,
+      "moves": [
+        {
+          "averageRating": 2108,
+          "black": 205,
+          "draws": 24,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 268
+        },
+        {
+          "averageRating": 2097,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 6
+        },
+        {
+          "averageRating": 2116,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        },
+        {
+          "averageRating": 2025,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 2
+        },
+        {
+          "averageRating": 2000,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 0
+        },
+        {
+          "averageRating": 2121,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 3
+        },
+        {
+          "averageRating": 2087,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 281
+    },
+    "2023-04": {
+      "black": 231,
+      "draws": 13,
+      "moves": [
+        {
+          "averageRating": 2109,
+          "black": 219,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 231
+        },
+        {
+          "averageRating": 2044,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2133,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 2091,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2
+        },
+        {
+          "averageRating": 2138,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 2
+        },
+        {
+          "averageRating": 1999,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 0
+        },
+        {
+          "averageRating": 2149,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 0
+        },
+        {
+          "averageRating": 2111,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 0
+        },
+        {
+          "averageRating": 2231,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "vigo58",
+              "rating": 2156
+            },
+            "id": "83H2FpHW",
+            "mode": "rated",
+            "month": "2023-04",
+            "speed": "blitz",
+            "white": {
+              "name": "quantifier",
+              "rating": 2231
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 238
+    },
+    "2023-05": {
+      "black": 221,
+      "draws": 38,
+      "moves": [
+        {
+          "averageRating": 2110,
+          "black": 215,
+          "draws": 37,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 231
+        },
+        {
+          "averageRating": 2124,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 3
+        },
+        {
+          "averageRating": 2070,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 0
+        },
+        {
+          "averageRating": 2057,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 1
+        },
+        {
+          "averageRating": 1958,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Rasputin20202",
+              "rating": 2137
+            },
+            "id": "znpBFqCQ",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "dario1962",
+              "rating": 1958
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nb5",
+          "uci": "c3b5",
+          "white": 0
+        },
+        {
+          "averageRating": 2156,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "SANDII_MCS",
+              "rating": 2091
+            },
+            "id": "wK6G9kYt",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "Naga_puspa_MCS",
+              "rating": 2156
+            },
+            "winner": null,
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Ng5",
+          "uci": "f3g5",
+          "white": 0
+        },
+        {
+          "averageRating": 2138,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "daag24",
+              "rating": 2159
+            },
+            "id": "dxBfIuj5",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "abhatia11",
+              "rating": 2138
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 0
+        },
+        {
+          "averageRating": 2179,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "DrDrrunkenstein8181",
+              "rating": 2168
+            },
+            "id": "JSxRl1eU",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "Said295",
+              "rating": 2179
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Kf1",
+          "uci": "e1f1",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 235
+    },
+    "2023-06": {
+      "black": 211,
+      "draws": 19,
+      "moves": [
+        {
+          "averageRating": 2116,
+          "black": 201,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 239
+        },
+        {
+          "averageRating": 2115,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 5
+        },
+        {
+          "averageRating": 2060,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 0
+        },
+        {
+          "averageRating": 2061,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 0
+        },
+        {
+          "averageRating": 2113,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 1
+        },
+        {
+          "averageRating": 2089,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Sunil7",
+              "rating": 2140
+            },
+            "id": "cCuoxfr6",
+            "mode": "rated",
+            "month": "2023-06",
+            "speed": "blitz",
+            "white": {
+              "name": "ertugrul_tatlisumak",
+              "rating": 2089
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 0
+        },
+        {
+          "averageRating": 2054,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "jazine",
+              "rating": 1961
+            },
+            "id": "uaQbzqKt",
+            "mode": "rated",
+            "month": "2023-06",
+            "speed": "blitz",
+            "white": {
+              "name": "nihilator",
+              "rating": 2054
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Kf1",
+          "uci": "e1f1",
+          "white": 1
+        },
+        {
+          "averageRating": 2010,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "dmitriyrostov",
+              "rating": 2105
+            },
+            "id": "gCBUq2AK",
+            "mode": "rated",
+            "month": "2023-06",
+            "speed": "blitz",
+            "white": {
+              "name": "ayano1010",
+              "rating": 2010
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 246
+    },
+    "2023-07": {
+      "black": 224,
+      "draws": 28,
+      "moves": [
+        {
+          "averageRating": 2118,
+          "black": 207,
+          "draws": 26,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 222
+        },
+        {
+          "averageRating": 2104,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 4
+        },
+        {
+          "averageRating": 2058,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 2
+        },
+        {
+          "averageRating": 2014,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 1
+        },
+        {
+          "averageRating": 2053,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 2095,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 0
+        },
+        {
+          "averageRating": 2130,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "i_am_legend_1989",
+              "rating": 2233
+            },
+            "id": "YoeRNfDw",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "carding73",
+              "rating": 2130
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 231
+    },
+    "2023-08": {
+      "black": 248,
+      "draws": 25,
+      "moves": [
+        {
+          "averageRating": 2112,
+          "black": 230,
+          "draws": 24,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 256
+        },
+        {
+          "averageRating": 2126,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 5
+        },
+        {
+          "averageRating": 2058,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 2
+        },
+        {
+          "averageRating": 1977,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 0
+        },
+        {
+          "averageRating": 2028,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 0
+        },
+        {
+          "averageRating": 2158,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 0
+        },
+        {
+          "averageRating": 1935,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "moTay57",
+              "rating": 2093
+            },
+            "id": "goAbUiPQ",
+            "mode": "rated",
+            "month": "2023-08",
+            "speed": "blitz",
+            "white": {
+              "name": "Homsy555",
+              "rating": 1935
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 263
+    },
+    "2023-09": {
+      "black": 249,
+      "draws": 21,
+      "moves": [
+        {
+          "averageRating": 2110,
+          "black": 243,
+          "draws": 21,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 253
+        },
+        {
+          "averageRating": 2181,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 3
+        },
+        {
+          "averageRating": 2065,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3
+        },
+        {
+          "averageRating": 2106,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 2105,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "puran_rathod",
+              "rating": 2133
+            },
+            "id": "NPCVbpx1",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "robarr",
+              "rating": 2105
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 0
+        },
+        {
+          "averageRating": 2005,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "radiowavechess",
+              "rating": 2162
+            },
+            "id": "KgkyJWZG",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "StMartin123",
+              "rating": 2005
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 261
+    },
+    "2023-10": {
+      "black": 247,
+      "draws": 26,
+      "moves": [
+        {
+          "averageRating": 2110,
+          "black": 233,
+          "draws": 24,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 260
+        },
+        {
+          "averageRating": 2059,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 3
+        },
+        {
+          "averageRating": 2114,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 3
+        },
+        {
+          "averageRating": 2134,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 2068,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 1
+        },
+        {
+          "averageRating": 2119,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2173,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf1",
+          "uci": "e1f1",
+          "white": 0
+        },
+        {
+          "averageRating": 2024,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Feraydoon",
+              "rating": 1988
+            },
+            "id": "UZHHYUsW",
+            "mode": "rated",
+            "month": "2023-10",
+            "speed": "blitz",
+            "white": {
+              "name": "Talsbishop",
+              "rating": 2024
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 0
+        },
+        {
+          "averageRating": 2052,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Orhun89",
+              "rating": 2056
+            },
+            "id": "Qmz5Denj",
+            "mode": "rated",
+            "month": "2023-10",
+            "speed": "blitz",
+            "white": {
+              "name": "Id-ris",
+              "rating": 2052
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 270
+    },
+    "2023-11": {
+      "black": 251,
+      "draws": 26,
+      "moves": [
+        {
+          "averageRating": 2108,
+          "black": 232,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 253
+        },
+        {
+          "averageRating": 2105,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 4
+        },
+        {
+          "averageRating": 2098,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2216,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 3
+        },
+        {
+          "averageRating": 2051,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2
+        },
+        {
+          "averageRating": 2109,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 0
+        },
+        {
+          "averageRating": 2023,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 0
+        },
+        {
+          "averageRating": 1846,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "AjiBond",
+              "rating": 2157
+            },
+            "id": "6mp6EohO",
+            "mode": "rated",
+            "month": "2023-11",
+            "speed": "blitz",
+            "white": {
+              "name": "DG73",
+              "rating": 1846
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 0
+        },
+        {
+          "averageRating": 2098,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "sayak9331",
+              "rating": 1990
+            },
+            "id": "752not50",
+            "mode": "rated",
+            "month": "2023-11",
+            "speed": "blitz",
+            "white": {
+              "name": "JmEricsson",
+              "rating": 2098
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 264
+    },
+    "2023-12": {
+      "black": 224,
+      "draws": 31,
+      "moves": [
+        {
+          "averageRating": 2117,
+          "black": 214,
+          "draws": 27,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 260
+        },
+        {
+          "averageRating": 2134,
+          "black": 3,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 4
+        },
+        {
+          "averageRating": 2119,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 4
+        },
+        {
+          "averageRating": 2106,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 1
+        },
+        {
+          "averageRating": 2090,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 2
+        },
+        {
+          "averageRating": 2174,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 2
+        },
+        {
+          "averageRating": 2041,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "kjanahi",
+              "rating": 1988
+            },
+            "id": "T4HVmIVt",
+            "mode": "rated",
+            "month": "2023-12",
+            "speed": "blitz",
+            "white": {
+              "name": "SantaClaus10",
+              "rating": 2041
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 274
+    },
+    "2024-01": {
+      "black": 256,
+      "draws": 32,
+      "moves": [
+        {
+          "averageRating": 2108,
+          "black": 245,
+          "draws": 31,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 290
+        },
+        {
+          "averageRating": 2112,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 2
+        },
+        {
+          "averageRating": 2085,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 2
+        },
+        {
+          "averageRating": 2105,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 4
+        },
+        {
+          "averageRating": 2085,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 3
+        },
+        {
+          "averageRating": 2107,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Crissaegrim",
+              "rating": 2115
+            },
+            "id": "e4RLK2hg",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Boris260359",
+              "rating": 2107
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 0
+        },
+        {
+          "averageRating": 1909,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Lakota-sioux",
+              "rating": 2165
+            },
+            "id": "ZwanuVUV",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Gova479",
+              "rating": 1909
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 0
+        },
+        {
+          "averageRating": 2125,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "rafminasyan",
+              "rating": 2204
+            },
+            "id": "rIdg2t24",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Aidivne",
+              "rating": 2125
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Rb1",
+          "uci": "a1b1",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 302
+    },
+    "2024-02": {
+      "black": 230,
+      "draws": 26,
+      "moves": [
+        {
+          "averageRating": 2111,
+          "black": 216,
+          "draws": 24,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 286
+        },
+        {
+          "averageRating": 2067,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 2
+        },
+        {
+          "averageRating": 2200,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 4
+        },
+        {
+          "averageRating": 2111,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        },
+        {
+          "averageRating": 2058,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2
+        },
+        {
+          "averageRating": 2011,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 1
+        },
+        {
+          "averageRating": 2097,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 0
+        },
+        {
+          "averageRating": 2109,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Kadyrleev_Azat",
+              "rating": 2122
+            },
+            "id": "WAGvIIJV",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "spartanvein",
+              "rating": 2109
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 0
+        },
+        {
+          "averageRating": 2022,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Janis_Grigulis",
+              "rating": 2079
+            },
+            "id": "yh4O7zDT",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "nikzal",
+              "rating": 2022
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 298
+    },
+    "2024-03": {
+      "black": 258,
+      "draws": 22,
+      "moves": [
+        {
+          "averageRating": 2103,
+          "black": 246,
+          "draws": 21,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 243
+        },
+        {
+          "averageRating": 2120,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 3
+        },
+        {
+          "averageRating": 2124,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        },
+        {
+          "averageRating": 2091,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 3
+        },
+        {
+          "averageRating": 2088,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 1
+        },
+        {
+          "averageRating": 2071,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 2
+        },
+        {
+          "averageRating": 2095,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "badbchess",
+              "rating": 1993
+            },
+            "id": "DOgCjhri",
+            "mode": "rated",
+            "month": "2024-03",
+            "speed": "blitz",
+            "white": {
+              "name": "hdmss",
+              "rating": 2095
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Kf1",
+          "uci": "e1f1",
+          "white": 1
+        },
+        {
+          "averageRating": 2105,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "E_pr",
+              "rating": 2085
+            },
+            "id": "dIa3I1zu",
+            "mode": "rated",
+            "month": "2024-03",
+            "speed": "blitz",
+            "white": {
+              "name": "poumski",
+              "rating": 2105
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 255
+    },
+    "2024-04": {
+      "black": 288,
+      "draws": 32,
+      "moves": [
+        {
+          "averageRating": 2108,
+          "black": 278,
+          "draws": 30,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 250
+        },
+        {
+          "averageRating": 2063,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 1
+        },
+        {
+          "averageRating": 2052,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2157,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 3
+        },
+        {
+          "averageRating": 2037,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2068,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1
+        },
+        {
+          "averageRating": 2023,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Javierpeter",
+              "rating": 2069
+            },
+            "id": "4qJv99Te",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "qizai2021",
+              "rating": 2023
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 0
+        },
+        {
+          "averageRating": 2086,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Caro_Kann_God",
+              "rating": 2276
+            },
+            "id": "a63jA5Lk",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Remisergodt",
+              "rating": 2086
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 259
+    },
+    "2024-05": {
+      "black": 273,
+      "draws": 24,
+      "moves": [
+        {
+          "averageRating": 2104,
+          "black": 269,
+          "draws": 22,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 270
+        },
+        {
+          "averageRating": 2165,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 3
+        },
+        {
+          "averageRating": 2006,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 3
+        },
+        {
+          "averageRating": 2107,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1
+        },
+        {
+          "averageRating": 2075,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 1
+        },
+        {
+          "averageRating": 2050,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2049,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Skorro",
+              "rating": 2051
+            },
+            "id": "b86F7sWT",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "ChanjuChiso",
+              "rating": 2049
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Kf1",
+          "uci": "e1f1",
+          "white": 1
+        },
+        {
+          "averageRating": 2158,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ConnyColumbus",
+              "rating": 2156
+            },
+            "id": "SJdenPaC",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "Atila256",
+              "rating": 2158
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        },
+        {
+          "averageRating": 2052,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Maineroadblue",
+              "rating": 2067
+            },
+            "id": "RUJrZkzC",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "M585gokberkaksoy",
+              "rating": 2052
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 282
+    },
+    "2024-06": {
+      "black": 236,
+      "draws": 20,
+      "moves": [
+        {
+          "averageRating": 2106,
+          "black": 223,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 246
+        },
+        {
+          "averageRating": 2076,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 2105,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 3
+        },
+        {
+          "averageRating": 2065,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 1
+        },
+        {
+          "averageRating": 2143,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 1
+        },
+        {
+          "averageRating": 2037,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2043,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        },
+        {
+          "averageRating": 2056,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Attacker1386",
+              "rating": 2222
+            },
+            "id": "5ULdAhfF",
+            "mode": "rated",
+            "month": "2024-06",
+            "speed": "blitz",
+            "white": {
+              "name": "washishta501",
+              "rating": 2056
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 0
+        },
+        {
+          "averageRating": 2023,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "EvertTaube",
+              "rating": 2015
+            },
+            "id": "hZQ2f6Qd",
+            "mode": "rated",
+            "month": "2024-06",
+            "speed": "blitz",
+            "white": {
+              "name": "uchiha64",
+              "rating": 2023
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Rb1",
+          "uci": "a1b1",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 255
+    },
+    "2024-07": {
+      "black": 232,
+      "draws": 33,
+      "moves": [
+        {
+          "averageRating": 2111,
+          "black": 225,
+          "draws": 30,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 258
+        },
+        {
+          "averageRating": 2097,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 5
+        },
+        {
+          "averageRating": 2081,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2
+        },
+        {
+          "averageRating": 2141,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2091,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2103,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 1
+        },
+        {
+          "averageRating": 2077,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "Jankeldi_abay",
+              "rating": 2057
+            },
+            "id": "ZANXdkcd",
+            "mode": "rated",
+            "month": "2024-07",
+            "speed": "blitz",
+            "white": {
+              "name": "uchiha64",
+              "rating": 2077
+            },
+            "winner": null,
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Rb1",
+          "uci": "a1b1",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 269
+    },
+    "2024-08": {
+      "black": 246,
+      "draws": 29,
+      "moves": [
+        {
+          "averageRating": 2106,
+          "black": 229,
+          "draws": 28,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 275
+        },
+        {
+          "averageRating": 2093,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 3
+        },
+        {
+          "averageRating": 2096,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 2
+        },
+        {
+          "averageRating": 2089,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        },
+        {
+          "averageRating": 2107,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 1
+        },
+        {
+          "averageRating": 2107,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 0
+        },
+        {
+          "averageRating": 2076,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "DERENS",
+              "rating": 2088
+            },
+            "id": "BCuwD8Pi",
+            "mode": "rated",
+            "month": "2024-08",
+            "speed": "blitz",
+            "white": {
+              "name": "aleksandr1979",
+              "rating": 2076
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Ng5",
+          "uci": "f3g5",
+          "white": 1
+        },
+        {
+          "averageRating": 2079,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Dav01",
+              "rating": 2092
+            },
+            "id": "pqnIcnPr",
+            "mode": "rated",
+            "month": "2024-08",
+            "speed": "blitz",
+            "white": {
+              "name": "wtrofimw",
+              "rating": 2079
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 1
+        },
+        {
+          "averageRating": 2061,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "madeline2003",
+              "rating": 2038
+            },
+            "id": "t0eCctlB",
+            "mode": "rated",
+            "month": "2024-08",
+            "speed": "blitz",
+            "white": {
+              "name": "LasroonSitumorangSPd",
+              "rating": 2061
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 0
+        },
+        {
+          "averageRating": 2033,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "majeedn",
+              "rating": 2070
+            },
+            "id": "AMBTSSYs",
+            "mode": "rated",
+            "month": "2024-08",
+            "speed": "blitz",
+            "white": {
+              "name": "selcuk433",
+              "rating": 2033
+            },
+            "winner": null,
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 0
+        },
+        {
+          "averageRating": 2011,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "asheraxel",
+              "rating": 2064
+            },
+            "id": "i8K6vbEr",
+            "mode": "rated",
+            "month": "2024-08",
+            "speed": "blitz",
+            "white": {
+              "name": "Rtyupo",
+              "rating": 2011
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 285
+    },
+    "2024-09": {
+      "black": 218,
+      "draws": 24,
+      "moves": [
+        {
+          "averageRating": 2109,
+          "black": 210,
+          "draws": 23,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 232
+        },
+        {
+          "averageRating": 2101,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 4
+        },
+        {
+          "averageRating": 2090,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2
+        },
+        {
+          "averageRating": 2085,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 3
+        },
+        {
+          "averageRating": 2122,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        },
+        {
+          "averageRating": 2029,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 1
+        },
+        {
+          "averageRating": 2123,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "vepi1234",
+              "rating": 2014
+            },
+            "id": "aBxOGKHN",
+            "mode": "rated",
+            "month": "2024-09",
+            "speed": "blitz",
+            "white": {
+              "name": "Mohamad40",
+              "rating": 2123
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 244
+    },
+    "2024-10": {
+      "black": 245,
+      "draws": 26,
+      "moves": [
+        {
+          "averageRating": 2112,
+          "black": 231,
+          "draws": 23,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 238
+        },
+        {
+          "averageRating": 2109,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 5
+        },
+        {
+          "averageRating": 2183,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 6
+        },
+        {
+          "averageRating": 2078,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 2
+        },
+        {
+          "averageRating": 2151,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1
+        },
+        {
+          "averageRating": 2259,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2209,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Dnzxxx",
+              "rating": 2150
+            },
+            "id": "fgkJ0Q6E",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "cool-kidd",
+              "rating": 2209
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 0
+        },
+        {
+          "averageRating": 2111,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "doctor1968",
+              "rating": 2122
+            },
+            "id": "EY4AMukZ",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "freak1337",
+              "rating": 2111
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 1
+        },
+        {
+          "averageRating": 2086,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Selita",
+              "rating": 2066
+            },
+            "id": "JYlHrooC",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "LionExp",
+              "rating": 2086
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 0
+        },
+        {
+          "averageRating": 1979,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "AlienDee",
+              "rating": 2037
+            },
+            "id": "1dZ3SiD4",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "CasualSpelunker",
+              "rating": 1979
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Rb1",
+          "uci": "a1b1",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 254
+    },
+    "2024-11": {
+      "black": 205,
+      "draws": 22,
+      "moves": [
+        {
+          "averageRating": 2110,
+          "black": 196,
+          "draws": 21,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 229
+        },
+        {
+          "averageRating": 2069,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 3
+        },
+        {
+          "averageRating": 2109,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 3
+        },
+        {
+          "averageRating": 1828,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1
+        },
+        {
+          "averageRating": 2128,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 0
+        },
+        {
+          "averageRating": 2070,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "thisismytheme",
+              "rating": 2176
+            },
+            "id": "r0th1tM6",
+            "mode": "rated",
+            "month": "2024-11",
+            "speed": "blitz",
+            "white": {
+              "name": "fyjsas",
+              "rating": 2070
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2141,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "WROBERTO",
+              "rating": 2111
+            },
+            "id": "DZBvZiRE",
+            "mode": "rated",
+            "month": "2024-11",
+            "speed": "blitz",
+            "white": {
+              "name": "legendarynoob2006",
+              "rating": 2141
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 238
+    },
+    "2024-12": {
+      "black": 227,
+      "draws": 31,
+      "moves": [
+        {
+          "averageRating": 2110,
+          "black": 213,
+          "draws": 29,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 238
+        },
+        {
+          "averageRating": 2135,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 5
+        },
+        {
+          "averageRating": 2110,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 3
+        },
+        {
+          "averageRating": 2103,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 2045,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2
+        },
+        {
+          "averageRating": 2112,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 0
+        },
+        {
+          "averageRating": 2057,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Hrishikesh_Salvekar",
+              "rating": 2168
+            },
+            "id": "QUj8g0xe",
+            "mode": "rated",
+            "month": "2024-12",
+            "speed": "blitz",
+            "white": {
+              "name": "bhavik_ec",
+              "rating": 2057
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 0
+        },
+        {
+          "averageRating": 2122,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "matuszenko",
+              "rating": 2137
+            },
+            "id": "TkZSHQFr",
+            "mode": "rated",
+            "month": "2024-12",
+            "speed": "blitz",
+            "white": {
+              "name": "caris139",
+              "rating": 2122
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 0
+        },
+        {
+          "averageRating": 2188,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "epersh1975",
+              "rating": 1952
+            },
+            "id": "8rqP68sd",
+            "mode": "rated",
+            "month": "2024-12",
+            "speed": "blitz",
+            "white": {
+              "name": "washed57",
+              "rating": 2188
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 250
+    },
+    "2025-01": {
+      "black": 247,
+      "draws": 26,
+      "moves": [
+        {
+          "averageRating": 2106,
+          "black": 232,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 309
+        },
+        {
+          "averageRating": 2132,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 8
+        },
+        {
+          "averageRating": 2094,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 4
+        },
+        {
+          "averageRating": 2114,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 1
+        },
+        {
+          "averageRating": 1997,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 0
+        },
+        {
+          "averageRating": 2106,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        },
+        {
+          "averageRating": 2059,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2078,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Kappy",
+              "rating": 2061
+            },
+            "id": "rI6nGENF",
+            "mode": "rated",
+            "month": "2025-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Dominique_Bredoteau",
+              "rating": 2078
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 0
+        },
+        {
+          "averageRating": 2033,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Juanitonix",
+              "rating": 1998
+            },
+            "id": "tDLDj9Gu",
+            "mode": "rated",
+            "month": "2025-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Talsbishop",
+              "rating": 2033
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 326
+    },
+    "2025-02": {
+      "black": 218,
+      "draws": 20,
+      "moves": [
+        {
+          "averageRating": 2105,
+          "black": 210,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 237
+        },
+        {
+          "averageRating": 2099,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 3
+        },
+        {
+          "averageRating": 2096,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 3
+        },
+        {
+          "averageRating": 2106,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2169,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 1
+        },
+        {
+          "averageRating": 2059,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 1689,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Aspect2010",
+              "rating": 2423
+            },
+            "id": "CRQ6Tw9D",
+            "mode": "rated",
+            "month": "2025-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Michal90",
+              "rating": 1689
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 247
+    },
+    "2025-03": {
+      "black": 265,
+      "draws": 21,
+      "moves": [
+        {
+          "averageRating": 2108,
+          "black": 246,
+          "draws": 21,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 260
+        },
+        {
+          "averageRating": 2144,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2130,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 1
+        },
+        {
+          "averageRating": 2069,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        },
+        {
+          "averageRating": 2107,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 3
+        },
+        {
+          "averageRating": 2084,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1
+        },
+        {
+          "averageRating": 1949,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 1
+        },
+        {
+          "averageRating": 2074,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "adorozhko",
+              "rating": 2183
+            },
+            "id": "idDcqRnc",
+            "mode": "rated",
+            "month": "2025-03",
+            "speed": "blitz",
+            "white": {
+              "name": "deda76",
+              "rating": 2074
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 0
+        },
+        {
+          "averageRating": 2036,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Tecumseh-Sherman",
+              "rating": 2042
+            },
+            "id": "jIzC4WOY",
+            "mode": "rated",
+            "month": "2025-03",
+            "speed": "blitz",
+            "white": {
+              "name": "Talsbishop",
+              "rating": 2036
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 270
+    },
+    "2025-04": {
+      "black": 230,
+      "draws": 30,
+      "moves": [
+        {
+          "averageRating": 2107,
+          "black": 216,
+          "draws": 30,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 257
+        },
+        {
+          "averageRating": 2111,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 10
+        },
+        {
+          "averageRating": 2103,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 7
+        },
+        {
+          "averageRating": 2105,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 2
+        },
+        {
+          "averageRating": 2056,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1
+        },
+        {
+          "averageRating": 2025,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 2
+        },
+        {
+          "averageRating": 2211,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "lukas175",
+              "rating": 2136
+            },
+            "id": "4nA6Gw5v",
+            "mode": "rated",
+            "month": "2025-04",
+            "speed": "blitz",
+            "white": {
+              "name": "EvaJenny",
+              "rating": 2211
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 1
+        },
+        {
+          "averageRating": 2018,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "AntonyNgunga",
+              "rating": 2002
+            },
+            "id": "vlCbqDDs",
+            "mode": "rated",
+            "month": "2025-04",
+            "speed": "blitz",
+            "white": {
+              "name": "grand_foin",
+              "rating": 2018
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        },
+        {
+          "averageRating": 2134,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "uca1959",
+              "rating": 2152
+            },
+            "id": "Y81Ze6Wn",
+            "mode": "rated",
+            "month": "2025-04",
+            "speed": "blitz",
+            "white": {
+              "name": "MdJong",
+              "rating": 2134
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 0
+        },
+        {
+          "averageRating": 2165,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Odey5",
+              "rating": 2195
+            },
+            "id": "H7TzJmUz",
+            "mode": "rated",
+            "month": "2025-04",
+            "speed": "blitz",
+            "white": {
+              "name": "labros",
+              "rating": 2165
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 281
+    },
+    "2025-05": {
+      "black": 236,
+      "draws": 21,
+      "moves": [
+        {
+          "averageRating": 2108,
+          "black": 224,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 274
+        },
+        {
+          "averageRating": 2146,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 5
+        },
+        {
+          "averageRating": 2084,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 4
+        },
+        {
+          "averageRating": 2113,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        },
+        {
+          "averageRating": 2072,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 2
+        },
+        {
+          "averageRating": 2022,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 0
+        },
+        {
+          "averageRating": 1974,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Forchlight",
+              "rating": 2069
+            },
+            "id": "sUgoqcW5",
+            "mode": "rated",
+            "month": "2025-05",
+            "speed": "blitz",
+            "white": {
+              "name": "Radik251",
+              "rating": 1974
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 287
+    },
+    "2025-06": {
+      "black": 220,
+      "draws": 25,
+      "moves": [
+        {
+          "averageRating": 2118,
+          "black": 202,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 241
+        },
+        {
+          "averageRating": 2107,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 3
+        },
+        {
+          "averageRating": 2119,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 2022,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1
+        },
+        {
+          "averageRating": 2138,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 2
+        },
+        {
+          "averageRating": 2038,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        },
+        {
+          "averageRating": 2059,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "annag0309",
+              "rating": 2062
+            },
+            "id": "Cm8Khx3T",
+            "mode": "rated",
+            "month": "2025-06",
+            "speed": "blitz",
+            "white": {
+              "name": "Dusterdva",
+              "rating": 2059
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 0
+        },
+        {
+          "averageRating": 2046,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "GominEvg1964",
+              "rating": 2052
+            },
+            "id": "QoYgAhMY",
+            "mode": "rated",
+            "month": "2025-06",
+            "speed": "blitz",
+            "white": {
+              "name": "Talsbishop",
+              "rating": 2046
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2112,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "marco11111",
+              "rating": 2129
+            },
+            "id": "jiOa1aVR",
+            "mode": "rated",
+            "month": "2025-06",
+            "speed": "blitz",
+            "white": {
+              "name": "Abdullah9966",
+              "rating": 2112
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 250
+    },
+    "2025-07": {
+      "black": 236,
+      "draws": 28,
+      "moves": [
+        {
+          "averageRating": 2104,
+          "black": 225,
+          "draws": 28,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 244
+        },
+        {
+          "averageRating": 2056,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 4
+        },
+        {
+          "averageRating": 2165,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 3
+        },
+        {
+          "averageRating": 2098,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 3
+        },
+        {
+          "averageRating": 2050,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 0
+        },
+        {
+          "averageRating": 2080,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1
+        },
+        {
+          "averageRating": 2094,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ZenAgg",
+              "rating": 2072
+            },
+            "id": "wiJ3kn7B",
+            "mode": "rated",
+            "month": "2025-07",
+            "speed": "blitz",
+            "white": {
+              "name": "bregmanl4649",
+              "rating": 2094
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 1
+        },
+        {
+          "averageRating": 2158,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Ciarra30",
+              "rating": 2159
+            },
+            "id": "gqf4dTTB",
+            "mode": "rated",
+            "month": "2025-07",
+            "speed": "blitz",
+            "white": {
+              "name": "belarus123",
+              "rating": 2158
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Kf1",
+          "uci": "e1f1",
+          "white": 1
+        },
+        {
+          "averageRating": 2170,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "TheaChess70",
+              "rating": 2023
+            },
+            "id": "gE6IShsN",
+            "mode": "rated",
+            "month": "2025-07",
+            "speed": "blitz",
+            "white": {
+              "name": "CaInSi",
+              "rating": 2170
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Rb1",
+          "uci": "a1b1",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 258
+    },
+    "2025-08": {
+      "black": 226,
+      "draws": 24,
+      "moves": [
+        {
+          "averageRating": 2105,
+          "black": 213,
+          "draws": 23,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 216
+        },
+        {
+          "averageRating": 2110,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 6
+        },
+        {
+          "averageRating": 2070,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 4
+        },
+        {
+          "averageRating": 2044,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 4
+        },
+        {
+          "averageRating": 2050,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 0
+        },
+        {
+          "averageRating": 2142,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2143,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 1
+        },
+        {
+          "averageRating": 2055,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Crissaegrim",
+              "rating": 2081
+            },
+            "id": "K6OclBrP",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "megaluck",
+              "rating": 2055
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bf1",
+          "uci": "g2f1",
+          "white": 0
+        },
+        {
+          "averageRating": 2029,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "maks2oo7",
+              "rating": 2150
+            },
+            "id": "8h6MyVWF",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "hmlgprfl",
+              "rating": 2029
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2059,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "mdismile",
+              "rating": 2053
+            },
+            "id": "NrV82xiu",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "sampoernaprima",
+              "rating": 2059
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 233
+    },
+    "2025-09": {
+      "black": 227,
+      "draws": 22,
+      "moves": [
+        {
+          "averageRating": 2118,
+          "black": 215,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 234
+        },
+        {
+          "averageRating": 2153,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 4
+        },
+        {
+          "averageRating": 2030,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 2
+        },
+        {
+          "averageRating": 2130,
+          "black": 1,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        },
+        {
+          "averageRating": 2108,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 0
+        },
+        {
+          "averageRating": 2116,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 1
+        },
+        {
+          "averageRating": 2126,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "bemylover",
+              "rating": 2160
+            },
+            "id": "DXCqzOkb",
+            "mode": "rated",
+            "month": "2025-09",
+            "speed": "blitz",
+            "white": {
+              "name": "DPTIOA",
+              "rating": 2126
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 0
+        },
+        {
+          "averageRating": 2214,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "hab8",
+              "rating": 2164
+            },
+            "id": "jKtgP4Oh",
+            "mode": "rated",
+            "month": "2025-09",
+            "speed": "blitz",
+            "white": {
+              "name": "Fairy_Wren",
+              "rating": 2214
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Kf1",
+          "uci": "e1f1",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 244
+    },
+    "2025-10": {
+      "black": 218,
+      "draws": 20,
+      "moves": [
+        {
+          "averageRating": 2104,
+          "black": 207,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 268
+        },
+        {
+          "averageRating": 2165,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 4
+        },
+        {
+          "averageRating": 2099,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 2
+        },
+        {
+          "averageRating": 2100,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 0
+        },
+        {
+          "averageRating": 2093,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 1
+        },
+        {
+          "averageRating": 2211,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "WROBERTO",
+              "rating": 2125
+            },
+            "id": "wwUrlbP3",
+            "mode": "rated",
+            "month": "2025-10",
+            "speed": "blitz",
+            "white": {
+              "name": "GladkikhIvanSTV",
+              "rating": 2211
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 0
+        },
+        {
+          "averageRating": 2065,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Metered_by_1",
+              "rating": 2104
+            },
+            "id": "8XgsSKBw",
+            "mode": "rated",
+            "month": "2025-10",
+            "speed": "blitz",
+            "white": {
+              "name": "Capu7xino",
+              "rating": 2065
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Kf1",
+          "uci": "e1f1",
+          "white": 0
+        },
+        {
+          "averageRating": 2001,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "TITO_24",
+              "rating": 2155
+            },
+            "id": "K5csDFbl",
+            "mode": "rated",
+            "month": "2025-10",
+            "speed": "blitz",
+            "white": {
+              "name": "SheldorTheConqueror1",
+              "rating": 2001
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 0
+        },
+        {
+          "averageRating": 2069,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "GominEvg1964",
+              "rating": 2060
+            },
+            "id": "tkqQvmID",
+            "mode": "rated",
+            "month": "2025-10",
+            "speed": "blitz",
+            "white": {
+              "name": "chessgenius-24",
+              "rating": 2069
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 0
+        },
+        {
+          "averageRating": 2144,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Maneila",
+              "rating": 2161
+            },
+            "id": "BUxgDwud",
+            "mode": "rated",
+            "month": "2025-10",
+            "speed": "blitz",
+            "white": {
+              "name": "BetaWolf0815",
+              "rating": 2144
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 275
+    },
+    "2025-11": {
+      "black": 244,
+      "draws": 28,
+      "moves": [
+        {
+          "averageRating": 2108,
+          "black": 224,
+          "draws": 26,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 236
+        },
+        {
+          "averageRating": 2054,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 4
+        },
+        {
+          "averageRating": 2091,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 3
+        },
+        {
+          "averageRating": 2113,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 6
+        },
+        {
+          "averageRating": 2129,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 2
+        },
+        {
+          "averageRating": 2072,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2193,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Kon_OgOgOn1983",
+              "rating": 2168
+            },
+            "id": "WUf9cRVl",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "chess-my_love",
+              "rating": 2193
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 1
+        },
+        {
+          "averageRating": 2066,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Vuzana",
+              "rating": 2081
+            },
+            "id": "8XL0dQUM",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "lightyagami994",
+              "rating": 2066
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 253
+    },
+    "2025-12": {
+      "black": 243,
+      "draws": 26,
+      "moves": [
+        {
+          "averageRating": 2109,
+          "black": 217,
+          "draws": 24,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 270
+        },
+        {
+          "averageRating": 2048,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 5
+        },
+        {
+          "averageRating": 2127,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        },
+        {
+          "averageRating": 2073,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 3
+        },
+        {
+          "averageRating": 2041,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 1
+        },
+        {
+          "averageRating": 2073,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 0
+        },
+        {
+          "averageRating": 2154,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        },
+        {
+          "averageRating": 2036,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "dipo5",
+              "rating": 2049
+            },
+            "id": "B8t2d8lx",
+            "mode": "rated",
+            "month": "2025-12",
+            "speed": "blitz",
+            "white": {
+              "name": "Talsbishop",
+              "rating": 2036
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 0
+        },
+        {
+          "averageRating": 2154,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Agomax",
+              "rating": 2214
+            },
+            "id": "SXZwYaz2",
+            "mode": "rated",
+            "month": "2025-12",
+            "speed": "blitz",
+            "white": {
+              "name": "dubait",
+              "rating": 2154
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2165,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "VenezuelanTal",
+              "rating": 2226
+            },
+            "id": "Mnq64qKE",
+            "mode": "rated",
+            "month": "2025-12",
+            "speed": "blitz",
+            "white": {
+              "name": "yvanleterrible",
+              "rating": 2165
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 283
+    },
+    "2026-01": {
+      "black": 255,
+      "draws": 32,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 237,
+          "draws": 31,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 263
+        },
+        {
+          "averageRating": 2187,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 12
+        },
+        {
+          "averageRating": 2095,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 4
+        },
+        {
+          "averageRating": 2077,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 0
+        },
+        {
+          "averageRating": 2061,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2086,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf1",
+          "uci": "e1f1",
+          "white": 1
+        },
+        {
+          "averageRating": 2025,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "linef",
+              "rating": 2007
+            },
+            "id": "392O7FQB",
+            "mode": "rated",
+            "month": "2026-01",
+            "speed": "blitz",
+            "white": {
+              "name": "ahmd11",
+              "rating": 2025
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 0
+        },
+        {
+          "averageRating": 2064,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "GeniusCat",
+              "rating": 2040
+            },
+            "id": "ak1dira7",
+            "mode": "rated",
+            "month": "2026-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Tartakower61",
+              "rating": 2064
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 0
+        },
+        {
+          "averageRating": 2190,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Papundek",
+              "rating": 2184
+            },
+            "id": "hMLPu5Tc",
+            "mode": "rated",
+            "month": "2026-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Endspiellehrer",
+              "rating": 2190
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 281
+    },
+    "2026-02": {
+      "black": 241,
+      "draws": 23,
+      "moves": [
+        {
+          "averageRating": 2108,
+          "black": 223,
+          "draws": 23,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 243
+        },
+        {
+          "averageRating": 2035,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 2
+        },
+        {
+          "averageRating": 2091,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2094,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        },
+        {
+          "averageRating": 2083,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2043,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 1
+        },
+        {
+          "averageRating": 2087,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf1",
+          "uci": "e1f1",
+          "white": 0
+        },
+        {
+          "averageRating": 2037,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "e4forlyf",
+              "rating": 2092
+            },
+            "id": "niWXNY6z",
+            "mode": "rated",
+            "month": "2026-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Rusik1-912",
+              "rating": 2037
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 1
+        },
+        {
+          "averageRating": 2035,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Nenad_jovanov",
+              "rating": 2001
+            },
+            "id": "aLUDrOlV",
+            "mode": "rated",
+            "month": "2026-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Talsbishop",
+              "rating": 2035
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 252
+    },
+    "2026-03": {
+      "black": 236,
+      "draws": 19,
+      "moves": [
+        {
+          "averageRating": 2115,
+          "black": 226,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 289
+        },
+        {
+          "averageRating": 2156,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 7
+        },
+        {
+          "averageRating": 2108,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 4
+        },
+        {
+          "averageRating": 2056,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 3
+        },
+        {
+          "averageRating": 2108,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 3
+        },
+        {
+          "averageRating": 2129,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "IwillbeGMSOONNN",
+              "rating": 2179
+            },
+            "id": "UyFi82Wd",
+            "mode": "rated",
+            "month": "2026-03",
+            "speed": "blitz",
+            "white": {
+              "name": "ilGattoNero9000",
+              "rating": 2129
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Kf1",
+          "uci": "e1f1",
+          "white": 0
+        },
+        {
+          "averageRating": 2084,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Kowboycity",
+              "rating": 2105
+            },
+            "id": "VsyDQbjp",
+            "mode": "rated",
+            "month": "2026-03",
+            "speed": "blitz",
+            "white": {
+              "name": "Inigo-MontoyaFR",
+              "rating": 2084
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 0
+        },
+        {
+          "averageRating": 2151,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "vidi72",
+              "rating": 2087
+            },
+            "id": "s07NBLxa",
+            "mode": "rated",
+            "month": "2026-03",
+            "speed": "blitz",
+            "white": {
+              "name": "MahmoudAbdou",
+              "rating": 2151
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 307
+    },
+    "2026-04": {
+      "black": 132,
+      "draws": 21,
+      "moves": [
+        {
+          "averageRating": 2096,
+          "black": 125,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 119
+        },
+        {
+          "averageRating": 2096,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 3
+        },
+        {
+          "averageRating": 2082,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 2054,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 0
+        },
+        {
+          "averageRating": 1901,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 1
+        },
+        {
+          "averageRating": 2026,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 2
+        },
+        {
+          "averageRating": 2019,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "thxbatman",
+              "rating": 2000
+            },
+            "id": "8Lk2I8Qe",
+            "mode": "rated",
+            "month": "2026-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Talsbishop",
+              "rating": 2019
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 1
+        },
+        {
+          "averageRating": 1976,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Aquintus",
+              "rating": 2071
+            },
+            "id": "e1dVQOHy",
+            "mode": "rated",
+            "month": "2026-04",
+            "speed": "blitz",
+            "white": {
+              "name": "chess1studys",
+              "rating": 1976
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Bf4",
+          "uci": "c1f4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "A62",
+        "name": "Benoni Defense: Fianchetto Variation"
+      },
+      "white": 128
+    }
+  }
+}

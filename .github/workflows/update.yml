@@ -14,6 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       months_fetched: ${{ steps.fetch_step.outputs.months_fetched }}
+      fetch_head_sha: ${{ steps.capture_fetch_head.outputs.fetch_head_sha }}
 
     steps:
       - name: Checkout repository
@@ -46,7 +47,7 @@ jobs:
           LICHESS_TOKEN: ${{ secrets.LICHESS_TOKEN }}
         run: |
           python - <<'EOF'
-          import json, subprocess, os
+          import csv, json, subprocess, os
           from pathlib import Path
           from datetime import date
 
@@ -66,13 +67,28 @@ jobs:
                       m, y = 1, y + 1
               return out
 
-          with open("openings.json") as f:
-              openings = json.load(f)
-          eco_codes = [o["eco"] for o in openings]
+          with open("data/openings_catalog.csv", newline="") as f:
+              eco_codes = [
+                  row["eco"] for row in csv.DictReader(f)
+                  if row.get("is_tracked_core", "").lower() == "true"
+                  or row.get("is_long_tail", "").lower() == "true"
+              ]
 
           raw_dir = Path("data/raw")
           raw_dir.mkdir(parents=True, exist_ok=True)
-          existing = {p.stem for p in raw_dir.glob("*.json")}
+
+          # Load per-ECO month sets from consolidated files.
+          eco_month_sets = {}
+          for eco in eco_codes:
+              eco_file = raw_dir / eco[0] / f"{eco}.json"
+              if eco_file.exists():
+                  try:
+                      data = json.loads(eco_file.read_text(encoding="utf-8"))
+                      eco_month_sets[eco] = set(data.get("months", {}).keys())
+                  except Exception:
+                      eco_month_sets[eco] = set()
+              else:
+                  eco_month_sets[eco] = set()
 
           today = date.today()
           if today.month == 1:
@@ -84,7 +100,7 @@ jobs:
           months = month_range(FETCH_START, latest_complete)
           missing = [
               month for month in months
-              if any(f"{eco}_{month}" not in existing for eco in eco_codes)
+              if any(month not in eco_month_sets[eco] for eco in eco_codes)
           ]
 
           fetched_count = len(missing) if missing else 0
@@ -115,6 +131,11 @@ jobs:
           git diff --cached --quiet || git commit -m "chore: fetch raw data $(date +%Y-%m)"
           git push
 
+      - name: Capture fetch head SHA
+        id: capture_fetch_head
+        run: |
+          echo "fetch_head_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
   process:
     needs: fetch
     if: >
@@ -126,7 +147,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.ref_name }}
+          ref: ${{ needs.fetch.outputs.fetch_head_sha }}
 
       # ── Python environment ──────────────────────────────────────────────────────────────
       - name: Set up Python
@@ -147,22 +168,23 @@ jobs:
           sudo apt-get install -y stockfish
 
       # ── Pipeline ─────────────────────────────────────────────────────────────────────
-      - name: Run ingest → select → timeseries → engine delta
+      - name: Validate raw data exists
+        run: |
+          count=$(find data/raw -type f -name '*.json' | wc -l)
+          if [ "$count" -eq "0" ]; then
+            echo "ERROR: data/raw/ contains no JSON files. Cannot process." >&2
+            exit 1
+          fi
+          echo "Found $count raw JSON files — proceeding."
+
+      - name: Run full pipeline via main.py (recalculate trends + rebuild dashboard)
         run: |
           rm -f data/processed/openings_ts.csv \
                 data/output/forecasts.csv \
                 data/output/engine_delta.csv
+          rm -f findings/findings.md findings/findings.json
           rm -rf data/output/dashboard/
-          python -c "
-          from src.ingest import ingest
-          from src.select_openings import run_select_openings
-          from src.timeseries import run_timeseries
-          from src.engine_delta import run_engine_delta
-          ingest()
-          run_select_openings()
-          run_timeseries()
-          run_engine_delta()
-          "
+          AUTO_FETCH_MISSING_DATA=false python main.py
 
       - name: Commit updated outputs
         run: |
@@ -171,6 +193,9 @@ jobs:
           git add data/processed/openings_ts.csv \
                   data/output/forecasts.csv \
                   data/output/engine_delta.csv \
+                  data/output/long_tail_stats.csv \
+                  data/output/dashboard/ \
+                  findings/ \
                   data/openings_catalog.csv
           git diff --cached --quiet || git commit -m "chore: auto-update $(date +%Y-%m)"
           git push

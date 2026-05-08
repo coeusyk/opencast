@@ -1,0 +1,5825 @@
+{
+  "_meta": {
+    "skipped_months": {
+      "2025-02": "below_min_games",
+      "2025-06": "below_min_games",
+      "2025-07": "below_min_games",
+      "2025-08": "below_min_games",
+      "2025-09": "below_min_games",
+      "2025-12": "below_min_games",
+      "2026-02": "below_min_games",
+      "2026-03": "below_min_games"
+    }
+  },
+  "eco": "D46",
+  "months": {
+    "2023-01": {
+      "black": 304,
+      "draws": 32,
+      "moves": [
+        {
+          "averageRating": 2096,
+          "black": 248,
+          "draws": 27,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 247
+        },
+        {
+          "averageRating": 2118,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 14
+        },
+        {
+          "averageRating": 2090,
+          "black": 14,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 12
+        },
+        {
+          "averageRating": 2109,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 11
+        },
+        {
+          "averageRating": 2082,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 3
+        },
+        {
+          "averageRating": 2046,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 2
+        },
+        {
+          "averageRating": 2063,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 5
+        },
+        {
+          "averageRating": 2110,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 3
+        },
+        {
+          "averageRating": 2049,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 0
+        },
+        {
+          "averageRating": 2056,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        },
+        {
+          "averageRating": 2120,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        },
+        {
+          "averageRating": 2119,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "white": 302
+    },
+    "2023-02": {
+      "black": 229,
+      "draws": 46,
+      "moves": [
+        {
+          "averageRating": 2091,
+          "black": 190,
+          "draws": 36,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 239
+        },
+        {
+          "averageRating": 2102,
+          "black": 12,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 25
+        },
+        {
+          "averageRating": 2070,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 9
+        },
+        {
+          "averageRating": 2083,
+          "black": 4,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 3
+        },
+        {
+          "averageRating": 2060,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 2
+        },
+        {
+          "averageRating": 2060,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2142,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 4
+        },
+        {
+          "averageRating": 2049,
+          "black": 2,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 0
+        },
+        {
+          "averageRating": 1978,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 0
+        },
+        {
+          "averageRating": 2136,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2120,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "AydIn0722",
+              "rating": 2105
+            },
+            "id": "RaIFEDX2",
+            "mode": "rated",
+            "month": "2023-02",
+            "speed": "blitz",
+            "white": {
+              "name": "MybakuStoriesEXSPERT",
+              "rating": 2120
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bc2",
+          "uci": "d3c2",
+          "white": 1
+        },
+        {
+          "averageRating": 2170,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "Garabito70",
+              "rating": 2183
+            },
+            "id": "L4dlbduL",
+            "mode": "rated",
+            "month": "2023-02",
+            "speed": "blitz",
+            "white": {
+              "name": "apinmpc",
+              "rating": 2170
+            },
+            "winner": null,
+            "year": 2023
+          },
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "white": 285
+    },
+    "2023-03": {
+      "black": 233,
+      "draws": 38,
+      "moves": [
+        {
+          "averageRating": 2105,
+          "black": 190,
+          "draws": 29,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 286
+        },
+        {
+          "averageRating": 2106,
+          "black": 17,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 14
+        },
+        {
+          "averageRating": 2089,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 3
+        },
+        {
+          "averageRating": 2047,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 5
+        },
+        {
+          "averageRating": 2074,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 7
+        },
+        {
+          "averageRating": 2100,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 3
+        },
+        {
+          "averageRating": 2100,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 3
+        },
+        {
+          "averageRating": 2089,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2096,
+          "black": 1,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 0
+        },
+        {
+          "averageRating": 2124,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 1
+        },
+        {
+          "averageRating": 1997,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "neuna",
+              "rating": 2013
+            },
+            "id": "t2SCza6L",
+            "mode": "rated",
+            "month": "2023-03",
+            "speed": "blitz",
+            "white": {
+              "name": "yaambe2",
+              "rating": 1997
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nd2",
+          "uci": "f3d2",
+          "white": 0
+        },
+        {
+          "averageRating": 2117,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "RVCR",
+              "rating": 2045
+            },
+            "id": "ufFxXWwt",
+            "mode": "rated",
+            "month": "2023-03",
+            "speed": "blitz",
+            "white": {
+              "name": "wwg1wga-Q17",
+              "rating": 2117
+            },
+            "winner": null,
+            "year": 2023
+          },
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "white": 324
+    },
+    "2023-04": {
+      "black": 224,
+      "draws": 35,
+      "moves": [
+        {
+          "averageRating": 2092,
+          "black": 179,
+          "draws": 31,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 241
+        },
+        {
+          "averageRating": 2118,
+          "black": 18,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 15
+        },
+        {
+          "averageRating": 2096,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 11
+        },
+        {
+          "averageRating": 2075,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 4
+        },
+        {
+          "averageRating": 2069,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 6
+        },
+        {
+          "averageRating": 2018,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 0
+        },
+        {
+          "averageRating": 2124,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf1",
+          "uci": "e1f1",
+          "white": 1
+        },
+        {
+          "averageRating": 2038,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2032,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        },
+        {
+          "averageRating": 2041,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 1
+        },
+        {
+          "averageRating": 2110,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 2
+        },
+        {
+          "averageRating": 2160,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Milenaoxanova",
+              "rating": 2177
+            },
+            "id": "EMRV50ML",
+            "mode": "rated",
+            "month": "2023-04",
+            "speed": "blitz",
+            "white": {
+              "name": "xxxooo",
+              "rating": 2160
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "white": 283
+    },
+    "2023-05": {
+      "black": 219,
+      "draws": 30,
+      "moves": [
+        {
+          "averageRating": 2091,
+          "black": 180,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 212
+        },
+        {
+          "averageRating": 2077,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 11
+        },
+        {
+          "averageRating": 2104,
+          "black": 5,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 10
+        },
+        {
+          "averageRating": 2081,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 4
+        },
+        {
+          "averageRating": 2054,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 4
+        },
+        {
+          "averageRating": 2069,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 2
+        },
+        {
+          "averageRating": 2052,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        },
+        {
+          "averageRating": 2148,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2189,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g4",
+          "uci": "g2g4",
+          "white": 2
+        },
+        {
+          "averageRating": 2042,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "wasif423787",
+              "rating": 1958
+            },
+            "id": "qxn3Tz5h",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "Robocrab",
+              "rating": 2042
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bb1",
+          "uci": "d3b1",
+          "white": 1
+        },
+        {
+          "averageRating": 2159,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "AHMED_M90",
+              "rating": 2091
+            },
+            "id": "Joa8M2FS",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "sasooo123",
+              "rating": 2159
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 0
+        },
+        {
+          "averageRating": 2016,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "asus111",
+              "rating": 1994
+            },
+            "id": "1m23eZcN",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "Plaridel",
+              "rating": 2016
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "white": 249
+    },
+    "2023-06": {
+      "black": 216,
+      "draws": 28,
+      "moves": [
+        {
+          "averageRating": 2091,
+          "black": 185,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 203
+        },
+        {
+          "averageRating": 2085,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 14
+        },
+        {
+          "averageRating": 2134,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 13
+        },
+        {
+          "averageRating": 2066,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 3
+        },
+        {
+          "averageRating": 2069,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 3
+        },
+        {
+          "averageRating": 2026,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 1
+        },
+        {
+          "averageRating": 2086,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 0
+        },
+        {
+          "averageRating": 2013,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 2
+        },
+        {
+          "averageRating": 2103,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 0
+        },
+        {
+          "averageRating": 1990,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf1",
+          "uci": "e1f1",
+          "white": 0
+        },
+        {
+          "averageRating": 2030,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "J-2001617889",
+              "rating": 2018
+            },
+            "id": "xAwwoYWD",
+            "mode": "rated",
+            "month": "2023-06",
+            "speed": "blitz",
+            "white": {
+              "name": "broadway_tunnel",
+              "rating": 2030
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 1
+        },
+        {
+          "averageRating": 1941,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "tooweaktooslow06",
+              "rating": 2090
+            },
+            "id": "pZQPS6pF",
+            "mode": "rated",
+            "month": "2023-06",
+            "speed": "blitz",
+            "white": {
+              "name": "Kurmanbalban",
+              "rating": 1941
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "white": 240
+    },
+    "2023-07": {
+      "black": 193,
+      "draws": 35,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 167,
+          "draws": 32,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 200
+        },
+        {
+          "averageRating": 2088,
+          "black": 10,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 17
+        },
+        {
+          "averageRating": 2104,
+          "black": 4,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 15
+        },
+        {
+          "averageRating": 2093,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 4
+        },
+        {
+          "averageRating": 2061,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 3
+        },
+        {
+          "averageRating": 2078,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 3
+        },
+        {
+          "averageRating": 2178,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 1
+        },
+        {
+          "averageRating": 2111,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf1",
+          "uci": "e1f1",
+          "white": 2
+        },
+        {
+          "averageRating": 1982,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        },
+        {
+          "averageRating": 2005,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "bambang_hcn",
+              "rating": 2000
+            },
+            "id": "Qg53DAvX",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "Sanat84",
+              "rating": 2005
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 0
+        },
+        {
+          "averageRating": 2044,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Gamde0r_Xpga",
+              "rating": 2064
+            },
+            "id": "u7zf7puZ",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "Teoremas",
+              "rating": 2044
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        },
+        {
+          "averageRating": 2145,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Mkchess1234",
+              "rating": 2166
+            },
+            "id": "1hilJRuL",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "Zelal_Baran",
+              "rating": 2145
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "white": 249
+    },
+    "2023-08": {
+      "black": 204,
+      "draws": 32,
+      "moves": [
+        {
+          "averageRating": 2091,
+          "black": 163,
+          "draws": 26,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 198
+        },
+        {
+          "averageRating": 2115,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 18
+        },
+        {
+          "averageRating": 2123,
+          "black": 3,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 13
+        },
+        {
+          "averageRating": 2041,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 6
+        },
+        {
+          "averageRating": 2063,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 3
+        },
+        {
+          "averageRating": 2052,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 2
+        },
+        {
+          "averageRating": 2104,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 3
+        },
+        {
+          "averageRating": 2127,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 4
+        },
+        {
+          "averageRating": 2053,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2159,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g4",
+          "uci": "g2g4",
+          "white": 2
+        },
+        {
+          "averageRating": 2040,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 2
+        },
+        {
+          "averageRating": 2083,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "white": 256
+    },
+    "2023-09": {
+      "black": 185,
+      "draws": 21,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 152,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 214
+        },
+        {
+          "averageRating": 2095,
+          "black": 12,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 12
+        },
+        {
+          "averageRating": 2081,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 7
+        },
+        {
+          "averageRating": 2049,
+          "black": 2,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 7
+        },
+        {
+          "averageRating": 2056,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 6
+        },
+        {
+          "averageRating": 2095,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 2
+        },
+        {
+          "averageRating": 2069,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 0
+        },
+        {
+          "averageRating": 2092,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        },
+        {
+          "averageRating": 2125,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 0
+        },
+        {
+          "averageRating": 2097,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g4",
+          "uci": "g2g4",
+          "white": 2
+        },
+        {
+          "averageRating": 2128,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "nawmnawmnawm",
+              "rating": 2048
+            },
+            "id": "W1MY1nkr",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "Mystic_Plantation",
+              "rating": 2128
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2030,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "KMitov",
+              "rating": 2042
+            },
+            "id": "lbvL8ecH",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "iwanromaker",
+              "rating": 2030
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "white": 254
+    },
+    "2023-10": {
+      "black": 195,
+      "draws": 37,
+      "moves": [
+        {
+          "averageRating": 2103,
+          "black": 167,
+          "draws": 35,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 208
+        },
+        {
+          "averageRating": 2100,
+          "black": 10,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 23
+        },
+        {
+          "averageRating": 2057,
+          "black": 4,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 15
+        },
+        {
+          "averageRating": 2061,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 9
+        },
+        {
+          "averageRating": 2112,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 6
+        },
+        {
+          "averageRating": 2062,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 5
+        },
+        {
+          "averageRating": 2103,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 2
+        },
+        {
+          "averageRating": 2080,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 2
+        },
+        {
+          "averageRating": 2060,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 1
+        },
+        {
+          "averageRating": 2113,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 0
+        },
+        {
+          "averageRating": 2024,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 0
+        },
+        {
+          "averageRating": 2084,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 2
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "white": 273
+    },
+    "2023-11": {
+      "black": 203,
+      "draws": 24,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 167,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 214
+        },
+        {
+          "averageRating": 2074,
+          "black": 11,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 10
+        },
+        {
+          "averageRating": 2060,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 4
+        },
+        {
+          "averageRating": 2097,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 6
+        },
+        {
+          "averageRating": 2049,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 2
+        },
+        {
+          "averageRating": 2017,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        },
+        {
+          "averageRating": 2043,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2056,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 2
+        },
+        {
+          "averageRating": 2016,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        },
+        {
+          "averageRating": 2044,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 0
+        },
+        {
+          "averageRating": 2135,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g4",
+          "uci": "g2g4",
+          "white": 1
+        },
+        {
+          "averageRating": 2045,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "whopper1",
+              "rating": 2037
+            },
+            "id": "RP0EPOlC",
+            "mode": "rated",
+            "month": "2023-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Rezakhah",
+              "rating": 2045
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "white": 245
+    },
+    "2023-12": {
+      "black": 226,
+      "draws": 36,
+      "moves": [
+        {
+          "averageRating": 2093,
+          "black": 177,
+          "draws": 30,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 258
+        },
+        {
+          "averageRating": 2091,
+          "black": 16,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 7
+        },
+        {
+          "averageRating": 2091,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 14
+        },
+        {
+          "averageRating": 2041,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 1
+        },
+        {
+          "averageRating": 2055,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 3
+        },
+        {
+          "averageRating": 2035,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        },
+        {
+          "averageRating": 2070,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 2
+        },
+        {
+          "averageRating": 2092,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 3
+        },
+        {
+          "averageRating": 1998,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2181,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g4",
+          "uci": "g2g4",
+          "white": 2
+        },
+        {
+          "averageRating": 2143,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2111,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Biawak_Presto",
+              "rating": 2100
+            },
+            "id": "gfx0Zsm3",
+            "mode": "rated",
+            "month": "2023-12",
+            "speed": "blitz",
+            "white": {
+              "name": "KudziKiri",
+              "rating": 2111
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "white": 295
+    },
+    "2024-01": {
+      "black": 239,
+      "draws": 25,
+      "moves": [
+        {
+          "averageRating": 2091,
+          "black": 188,
+          "draws": 22,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 211
+        },
+        {
+          "averageRating": 2089,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 11
+        },
+        {
+          "averageRating": 2119,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 10
+        },
+        {
+          "averageRating": 2066,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 5
+        },
+        {
+          "averageRating": 2080,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 2
+        },
+        {
+          "averageRating": 2087,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 3
+        },
+        {
+          "averageRating": 2017,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 3
+        },
+        {
+          "averageRating": 2076,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        },
+        {
+          "averageRating": 1952,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 0
+        },
+        {
+          "averageRating": 2036,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 0
+        },
+        {
+          "averageRating": 2024,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "umrumair",
+              "rating": 2014
+            },
+            "id": "o075kuO3",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "kamal2299",
+              "rating": 2024
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "white": 246
+    },
+    "2024-02": {
+      "black": 170,
+      "draws": 26,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 142,
+          "draws": 22,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 203
+        },
+        {
+          "averageRating": 2120,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 15
+        },
+        {
+          "averageRating": 2092,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 11
+        },
+        {
+          "averageRating": 2054,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 1
+        },
+        {
+          "averageRating": 2096,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 5
+        },
+        {
+          "averageRating": 2095,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 4
+        },
+        {
+          "averageRating": 2055,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 1
+        },
+        {
+          "averageRating": 2100,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2055,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2042,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 2019,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "white": 244
+    },
+    "2024-03": {
+      "black": 197,
+      "draws": 40,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 158,
+          "draws": 32,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 209
+        },
+        {
+          "averageRating": 2120,
+          "black": 11,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 13
+        },
+        {
+          "averageRating": 2074,
+          "black": 8,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 6
+        },
+        {
+          "averageRating": 2107,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 6
+        },
+        {
+          "averageRating": 2079,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 8
+        },
+        {
+          "averageRating": 2060,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 3
+        },
+        {
+          "averageRating": 2110,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 4
+        },
+        {
+          "averageRating": 2023,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 3
+        },
+        {
+          "averageRating": 2088,
+          "black": 1,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2107,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 3
+        },
+        {
+          "averageRating": 2048,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2147,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "tanticomal",
+              "rating": 2127
+            },
+            "id": "yaOKNTmB",
+            "mode": "rated",
+            "month": "2024-03",
+            "speed": "blitz",
+            "white": {
+              "name": "salvemann",
+              "rating": 2147
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Ng5",
+          "uci": "f3g5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "white": 259
+    },
+    "2024-04": {
+      "black": 192,
+      "draws": 34,
+      "moves": [
+        {
+          "averageRating": 2094,
+          "black": 168,
+          "draws": 27,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 209
+        },
+        {
+          "averageRating": 2107,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 12
+        },
+        {
+          "averageRating": 2123,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 11
+        },
+        {
+          "averageRating": 2086,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 4
+        },
+        {
+          "averageRating": 2095,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 1
+        },
+        {
+          "averageRating": 2082,
+          "black": 0,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2080,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 2
+        },
+        {
+          "averageRating": 2056,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 0
+        },
+        {
+          "averageRating": 2213,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        },
+        {
+          "averageRating": 2004,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 2044,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 0
+        },
+        {
+          "averageRating": 2117,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "arserico",
+              "rating": 2219
+            },
+            "id": "yF4lJPgE",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "webseher",
+              "rating": 2117
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "g4",
+          "uci": "g2g4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "white": 244
+    },
+    "2024-05": {
+      "black": 206,
+      "draws": 28,
+      "moves": [
+        {
+          "averageRating": 2095,
+          "black": 170,
+          "draws": 23,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 210
+        },
+        {
+          "averageRating": 2110,
+          "black": 10,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 19
+        },
+        {
+          "averageRating": 2115,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 9
+        },
+        {
+          "averageRating": 2053,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 4
+        },
+        {
+          "averageRating": 2139,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 5
+        },
+        {
+          "averageRating": 2044,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2104,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 2
+        },
+        {
+          "averageRating": 2119,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 2074,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2031,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 0
+        },
+        {
+          "averageRating": 2164,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf1",
+          "uci": "e1f1",
+          "white": 1
+        },
+        {
+          "averageRating": 2085,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "AndreyUSA",
+              "rating": 2065
+            },
+            "id": "Wm3jgN0J",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "Amawtac",
+              "rating": 2085
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Ne2",
+          "uci": "c3e2",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "white": 255
+    },
+    "2024-06": {
+      "black": 204,
+      "draws": 29,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 171,
+          "draws": 28,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 188
+        },
+        {
+          "averageRating": 2068,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 9
+        },
+        {
+          "averageRating": 2081,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 6
+        },
+        {
+          "averageRating": 2157,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 8
+        },
+        {
+          "averageRating": 2091,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 4
+        },
+        {
+          "averageRating": 2083,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 2
+        },
+        {
+          "averageRating": 2050,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2082,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 0
+        },
+        {
+          "averageRating": 2016,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 1
+        },
+        {
+          "averageRating": 2148,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf1",
+          "uci": "e1f1",
+          "white": 1
+        },
+        {
+          "averageRating": 2057,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 2011,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Tazearslan",
+              "rating": 2058
+            },
+            "id": "5jdCCrfG",
+            "mode": "rated",
+            "month": "2024-06",
+            "speed": "blitz",
+            "white": {
+              "name": "Xaxam",
+              "rating": 2011
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "white": 222
+    },
+    "2024-07": {
+      "black": 174,
+      "draws": 24,
+      "moves": [
+        {
+          "averageRating": 2092,
+          "black": 141,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 228
+        },
+        {
+          "averageRating": 2099,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 20
+        },
+        {
+          "averageRating": 2131,
+          "black": 6,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 12
+        },
+        {
+          "averageRating": 2100,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 4
+        },
+        {
+          "averageRating": 2051,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 3
+        },
+        {
+          "averageRating": 2032,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2065,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 4
+        },
+        {
+          "averageRating": 2081,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 3
+        },
+        {
+          "averageRating": 2095,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 0
+        },
+        {
+          "averageRating": 2017,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 0
+        },
+        {
+          "averageRating": 2064,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "cardoking",
+              "rating": 2025
+            },
+            "id": "7jo6x8ps",
+            "mode": "rated",
+            "month": "2024-07",
+            "speed": "blitz",
+            "white": {
+              "name": "asdshq",
+              "rating": 2064
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 0
+        },
+        {
+          "averageRating": 2009,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "sureshjadli",
+              "rating": 1992
+            },
+            "id": "bojBL0Ms",
+            "mode": "rated",
+            "month": "2024-07",
+            "speed": "blitz",
+            "white": {
+              "name": "Taqi_BD",
+              "rating": 2009
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "white": 278
+    },
+    "2024-08": {
+      "black": 211,
+      "draws": 21,
+      "moves": [
+        {
+          "averageRating": 2094,
+          "black": 174,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 194
+        },
+        {
+          "averageRating": 2090,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 10
+        },
+        {
+          "averageRating": 2057,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 3
+        },
+        {
+          "averageRating": 2127,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 6
+        },
+        {
+          "averageRating": 2092,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 5
+        },
+        {
+          "averageRating": 2064,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 1
+        },
+        {
+          "averageRating": 2078,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2039,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 3
+        },
+        {
+          "averageRating": 2018,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "CEOclatchey",
+              "rating": 2006
+            },
+            "id": "VCcI5NwT",
+            "mode": "rated",
+            "month": "2024-08",
+            "speed": "blitz",
+            "white": {
+              "name": "Gregor-Gregor",
+              "rating": 2018
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qd2",
+          "uci": "d1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2056,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "maicol2200",
+              "rating": 2107
+            },
+            "id": "3zLbdyrm",
+            "mode": "rated",
+            "month": "2024-08",
+            "speed": "blitz",
+            "white": {
+              "name": "ayman111",
+              "rating": 2056
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 0
+        },
+        {
+          "averageRating": 2149,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "grobich",
+              "rating": 2074
+            },
+            "id": "oHJUW8At",
+            "mode": "rated",
+            "month": "2024-08",
+            "speed": "blitz",
+            "white": {
+              "name": "Atila256",
+              "rating": 2149
+            },
+            "winner": null,
+            "year": 2024
+          },
+          "opening": null,
+          "san": "g4",
+          "uci": "g2g4",
+          "white": 0
+        },
+        {
+          "averageRating": 2036,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "MiroBarbosa",
+              "rating": 2040
+            },
+            "id": "Wb4YWQ8e",
+            "mode": "rated",
+            "month": "2024-08",
+            "speed": "blitz",
+            "white": {
+              "name": "Dav2110",
+              "rating": 2036
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qb3",
+          "uci": "d1b3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "white": 226
+    },
+    "2024-09": {
+      "black": 200,
+      "draws": 16,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 164,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 179
+        },
+        {
+          "averageRating": 2091,
+          "black": 11,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 18
+        },
+        {
+          "averageRating": 2105,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 9
+        },
+        {
+          "averageRating": 2065,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 4
+        },
+        {
+          "averageRating": 2059,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 2
+        },
+        {
+          "averageRating": 2115,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 2
+        },
+        {
+          "averageRating": 2105,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 2072,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        },
+        {
+          "averageRating": 2074,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 0
+        },
+        {
+          "averageRating": 2140,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 2
+        },
+        {
+          "averageRating": 2018,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 2
+        },
+        {
+          "averageRating": 2025,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Emmy0",
+              "rating": 2041
+            },
+            "id": "4MbG0N2T",
+            "mode": "rated",
+            "month": "2024-09",
+            "speed": "blitz",
+            "white": {
+              "name": "ernestusviridisagri",
+              "rating": 2025
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "white": 220
+    },
+    "2024-10": {
+      "black": 188,
+      "draws": 29,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 152,
+          "draws": 21,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 169
+        },
+        {
+          "averageRating": 2096,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 16
+        },
+        {
+          "averageRating": 2088,
+          "black": 10,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 11
+        },
+        {
+          "averageRating": 2027,
+          "black": 7,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 4
+        },
+        {
+          "averageRating": 2064,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 2
+        },
+        {
+          "averageRating": 2073,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 2
+        },
+        {
+          "averageRating": 2032,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 3
+        },
+        {
+          "averageRating": 2059,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2060,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        },
+        {
+          "averageRating": 2074,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2057,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "kurgan2016",
+              "rating": 2035
+            },
+            "id": "MpF6q5Ws",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "Mannsi13",
+              "rating": 2057
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 0
+        },
+        {
+          "averageRating": 2040,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Nik7000",
+              "rating": 2126
+            },
+            "id": "pSfASn2M",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "ernestusviridisagri",
+              "rating": 2040
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "white": 212
+    },
+    "2024-11": {
+      "black": 174,
+      "draws": 27,
+      "moves": [
+        {
+          "averageRating": 2092,
+          "black": 139,
+          "draws": 21,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 192
+        },
+        {
+          "averageRating": 2120,
+          "black": 5,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 7
+        },
+        {
+          "averageRating": 2063,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 6
+        },
+        {
+          "averageRating": 2126,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 3
+        },
+        {
+          "averageRating": 2127,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 5
+        },
+        {
+          "averageRating": 2056,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 3
+        },
+        {
+          "averageRating": 2077,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 0
+        },
+        {
+          "averageRating": 2091,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2055,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 2
+        },
+        {
+          "averageRating": 2078,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 1
+        },
+        {
+          "averageRating": 2050,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "wplychess105",
+              "rating": 2043
+            },
+            "id": "ODoFNWwN",
+            "mode": "rated",
+            "month": "2024-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Ricolart",
+              "rating": 2050
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 0
+        },
+        {
+          "averageRating": 2146,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "kitarosan",
+              "rating": 2118
+            },
+            "id": "vOvdDAR6",
+            "mode": "rated",
+            "month": "2024-11",
+            "speed": "blitz",
+            "white": {
+              "name": "uglyface",
+              "rating": 2146
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "white": 220
+    },
+    "2024-12": {
+      "black": 210,
+      "draws": 33,
+      "moves": [
+        {
+          "averageRating": 2085,
+          "black": 169,
+          "draws": 31,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 195
+        },
+        {
+          "averageRating": 2096,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 10
+        },
+        {
+          "averageRating": 2093,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 9
+        },
+        {
+          "averageRating": 2068,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 2
+        },
+        {
+          "averageRating": 2024,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 3
+        },
+        {
+          "averageRating": 2082,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 4
+        },
+        {
+          "averageRating": 2087,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 2
+        },
+        {
+          "averageRating": 2070,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 0
+        },
+        {
+          "averageRating": 2106,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 2
+        },
+        {
+          "averageRating": 2048,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2016,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 0
+        },
+        {
+          "averageRating": 2052,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "white": 230
+    },
+    "2025-01": {
+      "black": 197,
+      "draws": 27,
+      "moves": [
+        {
+          "averageRating": 2088,
+          "black": 162,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 194
+        },
+        {
+          "averageRating": 2103,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 16
+        },
+        {
+          "averageRating": 2117,
+          "black": 3,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 8
+        },
+        {
+          "averageRating": 2080,
+          "black": 4,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 4
+        },
+        {
+          "averageRating": 2090,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 4
+        },
+        {
+          "averageRating": 2077,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 7
+        },
+        {
+          "averageRating": 2046,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 2
+        },
+        {
+          "averageRating": 2059,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 1
+        },
+        {
+          "averageRating": 2123,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g4",
+          "uci": "g2g4",
+          "white": 1
+        },
+        {
+          "averageRating": 2106,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2118,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf1",
+          "uci": "e1f1",
+          "white": 2
+        },
+        {
+          "averageRating": 2114,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "white": 241
+    },
+    "2025-02": {
+      "black": 169,
+      "draws": 23,
+      "moves": [
+        {
+          "averageRating": 2090,
+          "black": 142,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 154
+        },
+        {
+          "averageRating": 2044,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 8
+        },
+        {
+          "averageRating": 2077,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 12
+        },
+        {
+          "averageRating": 2080,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 8
+        },
+        {
+          "averageRating": 2090,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        },
+        {
+          "averageRating": 2090,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 1
+        },
+        {
+          "averageRating": 2076,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 2
+        },
+        {
+          "averageRating": 2042,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        },
+        {
+          "averageRating": 2071,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2297,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g4",
+          "uci": "g2g4",
+          "white": 0
+        },
+        {
+          "averageRating": 2080,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 0
+        },
+        {
+          "averageRating": 2038,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 191
+    },
+    "2025-03": {
+      "black": 171,
+      "draws": 32,
+      "moves": [
+        {
+          "averageRating": 2093,
+          "black": 141,
+          "draws": 28,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 189
+        },
+        {
+          "averageRating": 2097,
+          "black": 5,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 13
+        },
+        {
+          "averageRating": 2102,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 9
+        },
+        {
+          "averageRating": 2099,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 3
+        },
+        {
+          "averageRating": 2044,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 3
+        },
+        {
+          "averageRating": 2128,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        },
+        {
+          "averageRating": 2031,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 1
+        },
+        {
+          "averageRating": 2074,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 2
+        },
+        {
+          "averageRating": 2152,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf1",
+          "uci": "e1f1",
+          "white": 1
+        },
+        {
+          "averageRating": 2058,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2014,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "dengkulmu17",
+              "rating": 2015
+            },
+            "id": "VQLVHS6m",
+            "mode": "rated",
+            "month": "2025-03",
+            "speed": "blitz",
+            "white": {
+              "name": "aera65",
+              "rating": 2014
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 1
+        },
+        {
+          "averageRating": 2033,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "DjXGameX23",
+              "rating": 2058
+            },
+            "id": "pqdjCgA1",
+            "mode": "rated",
+            "month": "2025-03",
+            "speed": "blitz",
+            "white": {
+              "name": "SurrenderTactically",
+              "rating": 2033
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "white": 224
+    },
+    "2025-04": {
+      "black": 180,
+      "draws": 22,
+      "moves": [
+        {
+          "averageRating": 2086,
+          "black": 151,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 168
+        },
+        {
+          "averageRating": 2093,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 15
+        },
+        {
+          "averageRating": 2122,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 12
+        },
+        {
+          "averageRating": 2115,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 4
+        },
+        {
+          "averageRating": 2061,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 5
+        },
+        {
+          "averageRating": 2077,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 0
+        },
+        {
+          "averageRating": 2085,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 2
+        },
+        {
+          "averageRating": 2060,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        },
+        {
+          "averageRating": 2023,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 2
+        },
+        {
+          "averageRating": 2087,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 2
+        },
+        {
+          "averageRating": 2060,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 1983,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "irwansyah822",
+              "rating": 2021
+            },
+            "id": "d5TKPbEm",
+            "mode": "rated",
+            "month": "2025-04",
+            "speed": "blitz",
+            "white": {
+              "name": "cwirni",
+              "rating": 1983
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "white": 212
+    },
+    "2025-05": {
+      "black": 169,
+      "draws": 27,
+      "moves": [
+        {
+          "averageRating": 2094,
+          "black": 139,
+          "draws": 26,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 186
+        },
+        {
+          "averageRating": 2094,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 14
+        },
+        {
+          "averageRating": 2168,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 11
+        },
+        {
+          "averageRating": 2075,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 7
+        },
+        {
+          "averageRating": 2030,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 3
+        },
+        {
+          "averageRating": 2101,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 4
+        },
+        {
+          "averageRating": 2110,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        },
+        {
+          "averageRating": 2052,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2075,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 3
+        },
+        {
+          "averageRating": 2149,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "karkar123",
+              "rating": 2118
+            },
+            "id": "ya41fQgl",
+            "mode": "rated",
+            "month": "2025-05",
+            "speed": "blitz",
+            "white": {
+              "name": "SBare32",
+              "rating": 2149
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "g4",
+          "uci": "g2g4",
+          "white": 1
+        },
+        {
+          "averageRating": 2163,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Magek_Misr1",
+              "rating": 2169
+            },
+            "id": "1I9o4HBk",
+            "mode": "rated",
+            "month": "2025-05",
+            "speed": "blitz",
+            "white": {
+              "name": "sasooo123",
+              "rating": 2163
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "white": 232
+    },
+    "2025-06": {
+      "black": 177,
+      "draws": 18,
+      "moves": [
+        {
+          "averageRating": 2103,
+          "black": 149,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 159
+        },
+        {
+          "averageRating": 2129,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 13
+        },
+        {
+          "averageRating": 2074,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 9
+        },
+        {
+          "averageRating": 2104,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 3
+        },
+        {
+          "averageRating": 2037,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 2
+        },
+        {
+          "averageRating": 2082,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        },
+        {
+          "averageRating": 2097,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        },
+        {
+          "averageRating": 2043,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g4",
+          "uci": "g2g4",
+          "white": 3
+        },
+        {
+          "averageRating": 2006,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 0
+        },
+        {
+          "averageRating": 1929,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 0
+        },
+        {
+          "averageRating": 2107,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 0
+        },
+        {
+          "averageRating": 2038,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 192
+    },
+    "2025-07": {
+      "black": 155,
+      "draws": 27,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 119,
+          "draws": 21,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 185
+        },
+        {
+          "averageRating": 2092,
+          "black": 9,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 9
+        },
+        {
+          "averageRating": 2101,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 8
+        },
+        {
+          "averageRating": 2065,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 5
+        },
+        {
+          "averageRating": 2111,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 3
+        },
+        {
+          "averageRating": 2050,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2065,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        },
+        {
+          "averageRating": 2088,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 2
+        },
+        {
+          "averageRating": 2048,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2089,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 216
+    },
+    "2025-08": {
+      "black": 171,
+      "draws": 20,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 136,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 163
+        },
+        {
+          "averageRating": 2103,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 8
+        },
+        {
+          "averageRating": 2072,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 4
+        },
+        {
+          "averageRating": 2144,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 6
+        },
+        {
+          "averageRating": 2124,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 4
+        },
+        {
+          "averageRating": 2086,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 5
+        },
+        {
+          "averageRating": 1999,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 2
+        },
+        {
+          "averageRating": 2105,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 2
+        },
+        {
+          "averageRating": 2019,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 0
+        },
+        {
+          "averageRating": 2064,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        },
+        {
+          "averageRating": 2005,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2189,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g4",
+          "uci": "g2g4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 200
+    },
+    "2025-09": {
+      "black": 158,
+      "draws": 31,
+      "moves": [
+        {
+          "averageRating": 2094,
+          "black": 137,
+          "draws": 24,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 164
+        },
+        {
+          "averageRating": 2086,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 7
+        },
+        {
+          "averageRating": 2127,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 11
+        },
+        {
+          "averageRating": 2068,
+          "black": 3,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 4
+        },
+        {
+          "averageRating": 2081,
+          "black": 2,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 3
+        },
+        {
+          "averageRating": 2079,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2036,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 4
+        },
+        {
+          "averageRating": 2098,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 2
+        },
+        {
+          "averageRating": 2161,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 2057,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc2",
+          "uci": "d3c2",
+          "white": 1
+        },
+        {
+          "averageRating": 2035,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 0
+        },
+        {
+          "averageRating": 2094,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf1",
+          "uci": "e1f1",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 201
+    },
+    "2025-10": {
+      "black": 170,
+      "draws": 23,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 136,
+          "draws": 22,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 185
+        },
+        {
+          "averageRating": 2066,
+          "black": 10,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 4
+        },
+        {
+          "averageRating": 2090,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 4
+        },
+        {
+          "averageRating": 2092,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 9
+        },
+        {
+          "averageRating": 2088,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 1
+        },
+        {
+          "averageRating": 2061,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 2
+        },
+        {
+          "averageRating": 1997,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        },
+        {
+          "averageRating": 2123,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2094,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 0
+        },
+        {
+          "averageRating": 1999,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 2
+        },
+        {
+          "averageRating": 2221,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Dariusmix",
+              "rating": 2167
+            },
+            "id": "tYrtRL4E",
+            "mode": "rated",
+            "month": "2025-10",
+            "speed": "blitz",
+            "white": {
+              "name": "Irt2022",
+              "rating": 2221
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 1
+        },
+        {
+          "averageRating": 2165,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "KurniawanF",
+              "rating": 2183
+            },
+            "id": "8wvFEIoO",
+            "mode": "rated",
+            "month": "2025-10",
+            "speed": "blitz",
+            "white": {
+              "name": "Zamirbek_kn",
+              "rating": 2165
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Kf1",
+          "uci": "e1f1",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "white": 212
+    },
+    "2025-11": {
+      "black": 185,
+      "draws": 26,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 158,
+          "draws": 22,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 183
+        },
+        {
+          "averageRating": 2075,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 12
+        },
+        {
+          "averageRating": 2119,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 3
+        },
+        {
+          "averageRating": 2058,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 3
+        },
+        {
+          "averageRating": 2122,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 5
+        },
+        {
+          "averageRating": 2082,
+          "black": 1,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 4
+        },
+        {
+          "averageRating": 2092,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 2
+        },
+        {
+          "averageRating": 2065,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2036,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 2056,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Manpacas-1976",
+              "rating": 2115
+            },
+            "id": "Pp0p7Hmm",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Predador03",
+              "rating": 2056
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 1
+        },
+        {
+          "averageRating": 2054,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Tulasi-Ram_64",
+              "rating": 2010
+            },
+            "id": "1Oz9wv5W",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Vlad123XYZ",
+              "rating": 2054
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "white": 215
+    },
+    "2025-12": {
+      "black": 158,
+      "draws": 32,
+      "moves": [
+        {
+          "averageRating": 2084,
+          "black": 127,
+          "draws": 27,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 171
+        },
+        {
+          "averageRating": 2102,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 9
+        },
+        {
+          "averageRating": 2077,
+          "black": 6,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 4
+        },
+        {
+          "averageRating": 2060,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 3
+        },
+        {
+          "averageRating": 2052,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 4
+        },
+        {
+          "averageRating": 2116,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 3
+        },
+        {
+          "averageRating": 2066,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2136,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 2
+        },
+        {
+          "averageRating": 1983,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 2
+        },
+        {
+          "averageRating": 1977,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 0
+        },
+        {
+          "averageRating": 2014,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        },
+        {
+          "averageRating": 2057,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 202
+    },
+    "2026-01": {
+      "black": 187,
+      "draws": 21,
+      "moves": [
+        {
+          "averageRating": 2087,
+          "black": 157,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 172
+        },
+        {
+          "averageRating": 2125,
+          "black": 4,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 9
+        },
+        {
+          "averageRating": 2082,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 6
+        },
+        {
+          "averageRating": 2039,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 4
+        },
+        {
+          "averageRating": 2095,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 3
+        },
+        {
+          "averageRating": 2058,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2054,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        },
+        {
+          "averageRating": 2034,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 0
+        },
+        {
+          "averageRating": 2092,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 1
+        },
+        {
+          "averageRating": 2029,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        },
+        {
+          "averageRating": 2079,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        },
+        {
+          "averageRating": 2041,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c4c5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "white": 200
+    },
+    "2026-02": {
+      "black": 138,
+      "draws": 13,
+      "moves": [
+        {
+          "averageRating": 2084,
+          "black": 118,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 168
+        },
+        {
+          "averageRating": 2109,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 12
+        },
+        {
+          "averageRating": 2086,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 6
+        },
+        {
+          "averageRating": 2126,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 5
+        },
+        {
+          "averageRating": 2067,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 3
+        },
+        {
+          "averageRating": 2070,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 4
+        },
+        {
+          "averageRating": 2000,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 0
+        },
+        {
+          "averageRating": 2076,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 1
+        },
+        {
+          "averageRating": 2107,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g4",
+          "uci": "g2g4",
+          "white": 2
+        },
+        {
+          "averageRating": 2008,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 2
+        },
+        {
+          "averageRating": 2118,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 1
+        },
+        {
+          "averageRating": 2056,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf1",
+          "uci": "e1f1",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 205
+    },
+    "2026-03": {
+      "black": 144,
+      "draws": 23,
+      "moves": [
+        {
+          "averageRating": 2091,
+          "black": 119,
+          "draws": 21,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 159
+        },
+        {
+          "averageRating": 2120,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 9
+        },
+        {
+          "averageRating": 2073,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 4
+        },
+        {
+          "averageRating": 2139,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 6
+        },
+        {
+          "averageRating": 2111,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 4
+        },
+        {
+          "averageRating": 2052,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 3
+        },
+        {
+          "averageRating": 2047,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 4
+        },
+        {
+          "averageRating": 2088,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 2
+        },
+        {
+          "averageRating": 2156,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2026,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 1
+        },
+        {
+          "averageRating": 2006,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 0
+        },
+        {
+          "averageRating": 2030,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 195
+    },
+    "2026-04": {
+      "black": 74,
+      "draws": 9,
+      "moves": [
+        {
+          "averageRating": 2084,
+          "black": 62,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e1h1",
+          "white": 84
+        },
+        {
+          "averageRating": 2101,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 4
+        },
+        {
+          "averageRating": 2090,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e4",
+          "uci": "e3e4",
+          "white": 4
+        },
+        {
+          "averageRating": 2081,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "cxd5",
+          "uci": "c4d5",
+          "white": 3
+        },
+        {
+          "averageRating": 2063,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 2
+        },
+        {
+          "averageRating": 2154,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 0
+        },
+        {
+          "averageRating": 2165,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g4",
+          "uci": "g2g4",
+          "white": 0
+        },
+        {
+          "averageRating": 2142,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1
+        },
+        {
+          "averageRating": 2113,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 1
+        },
+        {
+          "averageRating": 2079,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D46",
+        "name": "Semi-Slav Defense: Bogoljubow Variation"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 100
+    }
+  }
+}

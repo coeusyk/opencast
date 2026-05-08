@@ -1,0 +1,4725 @@
+{
+  "_meta": {
+    "skipped_months": {}
+  },
+  "eco": "C69",
+  "months": {
+    "2023-01": {
+      "black": 300,
+      "draws": 43,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 235,
+          "draws": 35,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 289
+        },
+        {
+          "averageRating": 2078,
+          "black": 15,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 26
+        },
+        {
+          "averageRating": 2054,
+          "black": 14,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 9
+        },
+        {
+          "averageRating": 2058,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 6
+        },
+        {
+          "averageRating": 2092,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 5
+        },
+        {
+          "averageRating": 2035,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 8
+        },
+        {
+          "averageRating": 2055,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 0
+        },
+        {
+          "averageRating": 2124,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2209,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Crackparov",
+              "rating": 2179
+            },
+            "id": "eJmRZZ6H",
+            "mode": "rated",
+            "month": "2023-01",
+            "speed": "blitz",
+            "white": {
+              "name": "mrcoolguy84",
+              "rating": 2209
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nxe5",
+          "uci": "f3e5",
+          "white": 0
+        },
+        {
+          "averageRating": 1906,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "RageOfAthena",
+              "rating": 2418
+            },
+            "id": "gGwCjLqS",
+            "mode": "rated",
+            "month": "2023-01",
+            "speed": "blitz",
+            "white": {
+              "name": "RageOfAres",
+              "rating": 1906
+            },
+            "winner": null,
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qe1",
+          "uci": "d1e1",
+          "white": 0
+        },
+        {
+          "averageRating": 2083,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Terminator_Chess",
+              "rating": 2245
+            },
+            "id": "KbYGGhfL",
+            "mode": "rated",
+            "month": "2023-01",
+            "speed": "blitz",
+            "white": {
+              "name": "HUM4NBRA1N",
+              "rating": 2083
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nh2",
+          "uci": "f3h2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 345
+    },
+    "2023-02": {
+      "black": 278,
+      "draws": 31,
+      "moves": [
+        {
+          "averageRating": 2105,
+          "black": 223,
+          "draws": 27,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 241
+        },
+        {
+          "averageRating": 2053,
+          "black": 25,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 2
+        },
+        {
+          "averageRating": 2108,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 11
+        },
+        {
+          "averageRating": 2062,
+          "black": 10,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 6
+        },
+        {
+          "averageRating": 2080,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 12
+        },
+        {
+          "averageRating": 2071,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 4
+        },
+        {
+          "averageRating": 2099,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 277
+    },
+    "2023-03": {
+      "black": 258,
+      "draws": 40,
+      "moves": [
+        {
+          "averageRating": 2105,
+          "black": 197,
+          "draws": 31,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 260
+        },
+        {
+          "averageRating": 2085,
+          "black": 10,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 17
+        },
+        {
+          "averageRating": 2053,
+          "black": 20,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 5
+        },
+        {
+          "averageRating": 2075,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 10
+        },
+        {
+          "averageRating": 2022,
+          "black": 10,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 4
+        },
+        {
+          "averageRating": 2101,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 6
+        },
+        {
+          "averageRating": 2090,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 2
+        },
+        {
+          "averageRating": 2101,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe1",
+          "uci": "d1e1",
+          "white": 0
+        },
+        {
+          "averageRating": 2208,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "dantheskyman",
+              "rating": 2074
+            },
+            "id": "KZy2Jaha",
+            "mode": "rated",
+            "month": "2023-03",
+            "speed": "blitz",
+            "white": {
+              "name": "Danzino21",
+              "rating": 2208
+            },
+            "winner": null,
+            "year": 2023
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2059,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Chulaimbo",
+              "rating": 2219
+            },
+            "id": "nalCEERg",
+            "mode": "rated",
+            "month": "2023-03",
+            "speed": "blitz",
+            "white": {
+              "name": "Kingzilla111",
+              "rating": 2059
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 0
+        },
+        {
+          "averageRating": 1991,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "chilico",
+              "rating": 2081
+            },
+            "id": "MortCPvY",
+            "mode": "rated",
+            "month": "2023-03",
+            "speed": "blitz",
+            "white": {
+              "name": "Saruul9699",
+              "rating": 1991
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Kh2",
+          "uci": "g1h2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 304
+    },
+    "2023-04": {
+      "black": 338,
+      "draws": 33,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 269,
+          "draws": 24,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 230
+        },
+        {
+          "averageRating": 2098,
+          "black": 21,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 20
+        },
+        {
+          "averageRating": 2070,
+          "black": 16,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 16
+        },
+        {
+          "averageRating": 2080,
+          "black": 17,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 3
+        },
+        {
+          "averageRating": 2079,
+          "black": 7,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 9
+        },
+        {
+          "averageRating": 2027,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 2
+        },
+        {
+          "averageRating": 2104,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Kboy1990",
+              "rating": 2158
+            },
+            "id": "ZJly62lN",
+            "mode": "rated",
+            "month": "2023-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Goodyonsen",
+              "rating": 2104
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 1981,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "dvo35",
+              "rating": 2155
+            },
+            "id": "eQpZLsX2",
+            "mode": "rated",
+            "month": "2023-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Saruul9699",
+              "rating": 1981
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qe1",
+          "uci": "d1e1",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 282
+    },
+    "2023-05": {
+      "black": 308,
+      "draws": 43,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 223,
+          "draws": 35,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 255
+        },
+        {
+          "averageRating": 2093,
+          "black": 24,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 20
+        },
+        {
+          "averageRating": 2090,
+          "black": 19,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 18
+        },
+        {
+          "averageRating": 2020,
+          "black": 18,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 4
+        },
+        {
+          "averageRating": 2078,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 8
+        },
+        {
+          "averageRating": 2005,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 3
+        },
+        {
+          "averageRating": 2016,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2013,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Latvian",
+              "rating": 2056
+            },
+            "id": "8ra0Io0T",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "hako_k2",
+              "rating": 2013
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 0
+        },
+        {
+          "averageRating": 2024,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "wieringer",
+              "rating": 1999
+            },
+            "id": "rj0W3xQV",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "M9903Murad",
+              "rating": 2024
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 310
+    },
+    "2023-06": {
+      "black": 302,
+      "draws": 37,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 238,
+          "draws": 30,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 264
+        },
+        {
+          "averageRating": 2081,
+          "black": 20,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 22
+        },
+        {
+          "averageRating": 2056,
+          "black": 17,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 7
+        },
+        {
+          "averageRating": 2064,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 9
+        },
+        {
+          "averageRating": 2056,
+          "black": 16,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 0
+        },
+        {
+          "averageRating": 2130,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 5
+        },
+        {
+          "averageRating": 2172,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "MaxStramm",
+              "rating": 2062
+            },
+            "id": "S6VAbpYY",
+            "mode": "rated",
+            "month": "2023-06",
+            "speed": "blitz",
+            "white": {
+              "name": "Thomas_More",
+              "rating": 2172
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 308
+    },
+    "2023-07": {
+      "black": 291,
+      "draws": 26,
+      "moves": [
+        {
+          "averageRating": 2093,
+          "black": 206,
+          "draws": 21,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 235
+        },
+        {
+          "averageRating": 2085,
+          "black": 25,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 17
+        },
+        {
+          "averageRating": 2096,
+          "black": 17,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 20
+        },
+        {
+          "averageRating": 2076,
+          "black": 14,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 9
+        },
+        {
+          "averageRating": 2094,
+          "black": 9,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 9
+        },
+        {
+          "averageRating": 2060,
+          "black": 17,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 2
+        },
+        {
+          "averageRating": 2023,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        },
+        {
+          "averageRating": 2058,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Arias2715",
+              "rating": 2172
+            },
+            "id": "Y0DKPZ2u",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "Jofarafangana",
+              "rating": 2058
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nh2",
+          "uci": "f3h2",
+          "white": 0
+        },
+        {
+          "averageRating": 2097,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "rsCHESS2010",
+              "rating": 2111
+            },
+            "id": "KQqGvFEe",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "KenproF",
+              "rating": 2097
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 294
+    },
+    "2023-08": {
+      "black": 291,
+      "draws": 37,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 208,
+          "draws": 28,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 268
+        },
+        {
+          "averageRating": 2121,
+          "black": 23,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 22
+        },
+        {
+          "averageRating": 2099,
+          "black": 18,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 24
+        },
+        {
+          "averageRating": 2115,
+          "black": 15,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 9
+        },
+        {
+          "averageRating": 2019,
+          "black": 10,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 11
+        },
+        {
+          "averageRating": 2058,
+          "black": 14,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 3
+        },
+        {
+          "averageRating": 2056,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2154,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Dinmukhamed_krg09",
+              "rating": 2158
+            },
+            "id": "OljH9dkV",
+            "mode": "rated",
+            "month": "2023-08",
+            "speed": "blitz",
+            "white": {
+              "name": "venom1989",
+              "rating": 2154
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 0
+        },
+        {
+          "averageRating": 2102,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "inocencia",
+              "rating": 2135
+            },
+            "id": "Bmh79dcX",
+            "mode": "rated",
+            "month": "2023-08",
+            "speed": "blitz",
+            "white": {
+              "name": "Telioridov",
+              "rating": 2102
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 338
+    },
+    "2023-09": {
+      "black": 308,
+      "draws": 42,
+      "moves": [
+        {
+          "averageRating": 2106,
+          "black": 228,
+          "draws": 34,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 252
+        },
+        {
+          "averageRating": 2081,
+          "black": 27,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 20
+        },
+        {
+          "averageRating": 2074,
+          "black": 16,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 16
+        },
+        {
+          "averageRating": 2097,
+          "black": 12,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 13
+        },
+        {
+          "averageRating": 2065,
+          "black": 14,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 4
+        },
+        {
+          "averageRating": 2100,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 6
+        },
+        {
+          "averageRating": 2127,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "jjsam1993",
+              "rating": 2123
+            },
+            "id": "ZZ2Whum5",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "StephenJalandoniPhi",
+              "rating": 2127
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qe1",
+          "uci": "d1e1",
+          "white": 1
+        },
+        {
+          "averageRating": 2020,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "bmswansea",
+              "rating": 2035
+            },
+            "id": "2rritZQ9",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "PinkViper",
+              "rating": 2020
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h3h4",
+          "white": 0
+        },
+        {
+          "averageRating": 2102,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "habaam",
+              "rating": 2198
+            },
+            "id": "qv1nly1s",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "animur336",
+              "rating": 2102
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 1
+        },
+        {
+          "averageRating": 2194,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Aniachess",
+              "rating": 2187
+            },
+            "id": "AYRhqWXj",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "rodrfons",
+              "rating": 2194
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 313
+    },
+    "2023-10": {
+      "black": 300,
+      "draws": 28,
+      "moves": [
+        {
+          "averageRating": 2104,
+          "black": 221,
+          "draws": 26,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 238
+        },
+        {
+          "averageRating": 2078,
+          "black": 25,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 18
+        },
+        {
+          "averageRating": 2084,
+          "black": 17,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 18
+        },
+        {
+          "averageRating": 2076,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 12
+        },
+        {
+          "averageRating": 2065,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 6
+        },
+        {
+          "averageRating": 2071,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 2
+        },
+        {
+          "averageRating": 2090,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        },
+        {
+          "averageRating": 1928,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 295
+    },
+    "2023-11": {
+      "black": 285,
+      "draws": 46,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 217,
+          "draws": 38,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 293
+        },
+        {
+          "averageRating": 2096,
+          "black": 17,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 17
+        },
+        {
+          "averageRating": 2064,
+          "black": 9,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 19
+        },
+        {
+          "averageRating": 2067,
+          "black": 21,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 2
+        },
+        {
+          "averageRating": 2108,
+          "black": 13,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 7
+        },
+        {
+          "averageRating": 2092,
+          "black": 5,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 13
+        },
+        {
+          "averageRating": 1875,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "FuerzaPerruna",
+              "rating": 2172
+            },
+            "id": "qVvnIfY1",
+            "mode": "rated",
+            "month": "2023-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Tama06",
+              "rating": 1875
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 0
+        },
+        {
+          "averageRating": 2036,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Raulinbcn",
+              "rating": 2098
+            },
+            "id": "lA1VkSeI",
+            "mode": "rated",
+            "month": "2023-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Las7Samurai727",
+              "rating": 2036
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nxe5",
+          "uci": "f3e5",
+          "white": 0
+        },
+        {
+          "averageRating": 2160,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Acilisezberlenmez",
+              "rating": 2191
+            },
+            "id": "VI7yigND",
+            "mode": "rated",
+            "month": "2023-11",
+            "speed": "blitz",
+            "white": {
+              "name": "jka",
+              "rating": 2160
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 351
+    },
+    "2023-12": {
+      "black": 287,
+      "draws": 39,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 211,
+          "draws": 33,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 246
+        },
+        {
+          "averageRating": 2085,
+          "black": 21,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 15
+        },
+        {
+          "averageRating": 2108,
+          "black": 10,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 20
+        },
+        {
+          "averageRating": 2060,
+          "black": 13,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 13
+        },
+        {
+          "averageRating": 2055,
+          "black": 16,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 5
+        },
+        {
+          "averageRating": 2047,
+          "black": 10,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 10
+        },
+        {
+          "averageRating": 2119,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2161,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 2
+        },
+        {
+          "averageRating": 1738,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "slca1234",
+              "rating": 2591
+            },
+            "id": "Zmg6fVdE",
+            "mode": "rated",
+            "month": "2023-12",
+            "speed": "blitz",
+            "white": {
+              "name": "igorT007",
+              "rating": 1738
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nh2",
+          "uci": "f3h2",
+          "white": 0
+        },
+        {
+          "averageRating": 2044,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ternoste",
+              "rating": 2057
+            },
+            "id": "IQP21RCe",
+            "mode": "rated",
+            "month": "2023-12",
+            "speed": "blitz",
+            "white": {
+              "name": "mofe1",
+              "rating": 2044
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qe1",
+          "uci": "d1e1",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 312
+    },
+    "2024-01": {
+      "black": 273,
+      "draws": 35,
+      "moves": [
+        {
+          "averageRating": 2105,
+          "black": 211,
+          "draws": 24,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 247
+        },
+        {
+          "averageRating": 2092,
+          "black": 13,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 24
+        },
+        {
+          "averageRating": 2077,
+          "black": 14,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 18
+        },
+        {
+          "averageRating": 2085,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 9
+        },
+        {
+          "averageRating": 2069,
+          "black": 8,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 8
+        },
+        {
+          "averageRating": 2032,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 5
+        },
+        {
+          "averageRating": 2116,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2018,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "pumahoy",
+              "rating": 1990
+            },
+            "id": "5Jcrj8k1",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Dedeko91",
+              "rating": 2018
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Nxe5",
+          "uci": "f3e5",
+          "white": 0
+        },
+        {
+          "averageRating": 2134,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "yakine8",
+              "rating": 2136
+            },
+            "id": "j8V15qlN",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Matthou2016",
+              "rating": 2134
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 312
+    },
+    "2024-02": {
+      "black": 255,
+      "draws": 38,
+      "moves": [
+        {
+          "averageRating": 2090,
+          "black": 194,
+          "draws": 34,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 228
+        },
+        {
+          "averageRating": 2082,
+          "black": 16,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 27
+        },
+        {
+          "averageRating": 2090,
+          "black": 18,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 17
+        },
+        {
+          "averageRating": 2092,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 7
+        },
+        {
+          "averageRating": 2065,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 0
+        },
+        {
+          "averageRating": 2039,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 5
+        },
+        {
+          "averageRating": 2064,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 2
+        },
+        {
+          "averageRating": 2035,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "chessred",
+              "rating": 2125
+            },
+            "id": "eRF6cGZC",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Pennybrig",
+              "rating": 2035
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 286
+    },
+    "2024-03": {
+      "black": 323,
+      "draws": 42,
+      "moves": [
+        {
+          "averageRating": 2109,
+          "black": 240,
+          "draws": 34,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 282
+        },
+        {
+          "averageRating": 2098,
+          "black": 18,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 25
+        },
+        {
+          "averageRating": 2093,
+          "black": 22,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 11
+        },
+        {
+          "averageRating": 2091,
+          "black": 14,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 8
+        },
+        {
+          "averageRating": 2077,
+          "black": 18,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 4
+        },
+        {
+          "averageRating": 2079,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 7
+        },
+        {
+          "averageRating": 2099,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        },
+        {
+          "averageRating": 2018,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "sasuke321",
+              "rating": 2044
+            },
+            "id": "pi83peES",
+            "mode": "rated",
+            "month": "2024-03",
+            "speed": "blitz",
+            "white": {
+              "name": "SitdownKid",
+              "rating": 2018
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 0
+        },
+        {
+          "averageRating": 2087,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "P-K4_P-K4",
+              "rating": 2083
+            },
+            "id": "ORtv0bIr",
+            "mode": "rated",
+            "month": "2024-03",
+            "speed": "blitz",
+            "white": {
+              "name": "MrChandlerBing",
+              "rating": 2087
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 338
+    },
+    "2024-04": {
+      "black": 268,
+      "draws": 35,
+      "moves": [
+        {
+          "averageRating": 2096,
+          "black": 195,
+          "draws": 28,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 238
+        },
+        {
+          "averageRating": 2090,
+          "black": 17,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 18
+        },
+        {
+          "averageRating": 2077,
+          "black": 15,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 14
+        },
+        {
+          "averageRating": 2086,
+          "black": 12,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 8
+        },
+        {
+          "averageRating": 2069,
+          "black": 17,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 2
+        },
+        {
+          "averageRating": 2055,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 6
+        },
+        {
+          "averageRating": 1934,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Arsen724522",
+              "rating": 2085
+            },
+            "id": "jjTncTPS",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "sorinch",
+              "rating": 1934
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 1
+        },
+        {
+          "averageRating": 2128,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Pastorikelaa",
+              "rating": 2115
+            },
+            "id": "TwO4VnLG",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "MoreVody",
+              "rating": 2128
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 287
+    },
+    "2024-05": {
+      "black": 234,
+      "draws": 30,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 175,
+          "draws": 24,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 244
+        },
+        {
+          "averageRating": 2038,
+          "black": 18,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 15
+        },
+        {
+          "averageRating": 2082,
+          "black": 13,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 15
+        },
+        {
+          "averageRating": 2090,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 9
+        },
+        {
+          "averageRating": 2014,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 2
+        },
+        {
+          "averageRating": 2051,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 3
+        },
+        {
+          "averageRating": 1940,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        },
+        {
+          "averageRating": 2016,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "sedir0",
+              "rating": 2030
+            },
+            "id": "VSESGbVf",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "StephenJalandoniPhi",
+              "rating": 2016
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 289
+    },
+    "2024-06": {
+      "black": 207,
+      "draws": 30,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 150,
+          "draws": 27,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 235
+        },
+        {
+          "averageRating": 2086,
+          "black": 10,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 18
+        },
+        {
+          "averageRating": 2080,
+          "black": 17,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 10
+        },
+        {
+          "averageRating": 2049,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 4
+        },
+        {
+          "averageRating": 2069,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 4
+        },
+        {
+          "averageRating": 2084,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 7
+        },
+        {
+          "averageRating": 2040,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        },
+        {
+          "averageRating": 2188,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 280
+    },
+    "2024-07": {
+      "black": 258,
+      "draws": 36,
+      "moves": [
+        {
+          "averageRating": 2094,
+          "black": 177,
+          "draws": 28,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 201
+        },
+        {
+          "averageRating": 2119,
+          "black": 25,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 28
+        },
+        {
+          "averageRating": 2068,
+          "black": 16,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 13
+        },
+        {
+          "averageRating": 2061,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 11
+        },
+        {
+          "averageRating": 2029,
+          "black": 14,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 1
+        },
+        {
+          "averageRating": 2098,
+          "black": 10,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 5
+        },
+        {
+          "averageRating": 2133,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2070,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 0
+        },
+        {
+          "averageRating": 2097,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "vnkoppjf",
+              "rating": 2197
+            },
+            "id": "kqr8d8eR",
+            "mode": "rated",
+            "month": "2024-07",
+            "speed": "blitz",
+            "white": {
+              "name": "The_Mauler-Joseph",
+              "rating": 2097
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b4",
+          "uci": "b2b4",
+          "white": 1
+        },
+        {
+          "averageRating": 2088,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "chessred",
+              "rating": 2205
+            },
+            "id": "jm6gk5rB",
+            "mode": "rated",
+            "month": "2024-07",
+            "speed": "blitz",
+            "white": {
+              "name": "edoleg123",
+              "rating": 2088
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 260
+    },
+    "2024-08": {
+      "black": 227,
+      "draws": 26,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 174,
+          "draws": 21,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 247
+        },
+        {
+          "averageRating": 2083,
+          "black": 14,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 12
+        },
+        {
+          "averageRating": 2086,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 17
+        },
+        {
+          "averageRating": 2104,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 11
+        },
+        {
+          "averageRating": 2086,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 3
+        },
+        {
+          "averageRating": 2075,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 4
+        },
+        {
+          "averageRating": 2096,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        },
+        {
+          "averageRating": 2001,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe1",
+          "uci": "d1e1",
+          "white": 2
+        },
+        {
+          "averageRating": 2146,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "BENJA_ARCE",
+              "rating": 2181
+            },
+            "id": "3whjWtA7",
+            "mode": "rated",
+            "month": "2024-08",
+            "speed": "blitz",
+            "white": {
+              "name": "VicJomarLaderas",
+              "rating": 2146
+            },
+            "winner": null,
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2119,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "pemain_lemaah",
+              "rating": 2106
+            },
+            "id": "tj0QBZtE",
+            "mode": "rated",
+            "month": "2024-08",
+            "speed": "blitz",
+            "white": {
+              "name": "Kuningan_KCI",
+              "rating": 2119
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Na3",
+          "uci": "b1a3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 297
+    },
+    "2024-09": {
+      "black": 234,
+      "draws": 34,
+      "moves": [
+        {
+          "averageRating": 2104,
+          "black": 191,
+          "draws": 26,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 227
+        },
+        {
+          "averageRating": 2089,
+          "black": 13,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 26
+        },
+        {
+          "averageRating": 2084,
+          "black": 13,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 18
+        },
+        {
+          "averageRating": 2069,
+          "black": 5,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 9
+        },
+        {
+          "averageRating": 2064,
+          "black": 10,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 2
+        },
+        {
+          "averageRating": 2114,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 3
+        },
+        {
+          "averageRating": 2075,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        },
+        {
+          "averageRating": 2046,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Lionline",
+              "rating": 2060
+            },
+            "id": "3tJmYmNB",
+            "mode": "rated",
+            "month": "2024-09",
+            "speed": "blitz",
+            "white": {
+              "name": "piyadepiyon",
+              "rating": 2046
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 1
+        },
+        {
+          "averageRating": 2145,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "syllwestr",
+              "rating": 2122
+            },
+            "id": "vgcqWWIj",
+            "mode": "rated",
+            "month": "2024-09",
+            "speed": "blitz",
+            "white": {
+              "name": "rookcheck1",
+              "rating": 2145
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 288
+    },
+    "2024-10": {
+      "black": 246,
+      "draws": 34,
+      "moves": [
+        {
+          "averageRating": 2108,
+          "black": 194,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 220
+        },
+        {
+          "averageRating": 2115,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 21
+        },
+        {
+          "averageRating": 2108,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 10
+        },
+        {
+          "averageRating": 2039,
+          "black": 12,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 3
+        },
+        {
+          "averageRating": 2120,
+          "black": 8,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 5
+        },
+        {
+          "averageRating": 2076,
+          "black": 9,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 4
+        },
+        {
+          "averageRating": 2147,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "donlulas_23",
+              "rating": 2198
+            },
+            "id": "YI5gZfC7",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "StephenJalandoniPhi",
+              "rating": 2147
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qe1",
+          "uci": "d1e1",
+          "white": 0
+        },
+        {
+          "averageRating": 1986,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "franzmitzka",
+              "rating": 2041
+            },
+            "id": "Ckf1V5rt",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "AbhishekShrivastava",
+              "rating": 1986
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h4",
+          "uci": "h3h4",
+          "white": 0
+        },
+        {
+          "averageRating": 2020,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "proal21",
+              "rating": 2047
+            },
+            "id": "QolSyams",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "Xalo21",
+              "rating": 2020
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Nxe5",
+          "uci": "f3e5",
+          "white": 0
+        },
+        {
+          "averageRating": 2074,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "isaaclg2017",
+              "rating": 2133
+            },
+            "id": "ESMV1Ka6",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "winner100",
+              "rating": 2074
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 263
+    },
+    "2024-11": {
+      "black": 252,
+      "draws": 37,
+      "moves": [
+        {
+          "averageRating": 2104,
+          "black": 192,
+          "draws": 29,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 231
+        },
+        {
+          "averageRating": 2077,
+          "black": 14,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 13
+        },
+        {
+          "averageRating": 2104,
+          "black": 15,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 8
+        },
+        {
+          "averageRating": 2072,
+          "black": 7,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 12
+        },
+        {
+          "averageRating": 2091,
+          "black": 10,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 7
+        },
+        {
+          "averageRating": 2059,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 4
+        },
+        {
+          "averageRating": 2079,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 2
+        },
+        {
+          "averageRating": 2015,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 278
+    },
+    "2024-12": {
+      "black": 226,
+      "draws": 37,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 169,
+          "draws": 34,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 229
+        },
+        {
+          "averageRating": 2091,
+          "black": 16,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 23
+        },
+        {
+          "averageRating": 2090,
+          "black": 16,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 16
+        },
+        {
+          "averageRating": 2074,
+          "black": 6,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 11
+        },
+        {
+          "averageRating": 2054,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 2
+        },
+        {
+          "averageRating": 2058,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 6
+        },
+        {
+          "averageRating": 2038,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        },
+        {
+          "averageRating": 2032,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Vazir_azam",
+              "rating": 2047
+            },
+            "id": "1ZQcTLpq",
+            "mode": "rated",
+            "month": "2024-12",
+            "speed": "blitz",
+            "white": {
+              "name": "B124",
+              "rating": 2032
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qe1",
+          "uci": "d1e1",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 288
+    },
+    "2025-01": {
+      "black": 242,
+      "draws": 34,
+      "moves": [
+        {
+          "averageRating": 2087,
+          "black": 192,
+          "draws": 28,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 196
+        },
+        {
+          "averageRating": 2071,
+          "black": 13,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 13
+        },
+        {
+          "averageRating": 2086,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 6
+        },
+        {
+          "averageRating": 2070,
+          "black": 14,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 3
+        },
+        {
+          "averageRating": 2099,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 2
+        },
+        {
+          "averageRating": 2100,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 5
+        },
+        {
+          "averageRating": 2156,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2149,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 226
+    },
+    "2025-02": {
+      "black": 198,
+      "draws": 22,
+      "moves": [
+        {
+          "averageRating": 2103,
+          "black": 158,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 191
+        },
+        {
+          "averageRating": 2068,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 12
+        },
+        {
+          "averageRating": 2083,
+          "black": 9,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 8
+        },
+        {
+          "averageRating": 2050,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 3
+        },
+        {
+          "averageRating": 2089,
+          "black": 3,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 8
+        },
+        {
+          "averageRating": 2118,
+          "black": 4,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 3
+        },
+        {
+          "averageRating": 2009,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 226
+    },
+    "2025-03": {
+      "black": 254,
+      "draws": 28,
+      "moves": [
+        {
+          "averageRating": 2105,
+          "black": 198,
+          "draws": 23,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 220
+        },
+        {
+          "averageRating": 2072,
+          "black": 18,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 14
+        },
+        {
+          "averageRating": 2070,
+          "black": 14,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 3
+        },
+        {
+          "averageRating": 2103,
+          "black": 8,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 6
+        },
+        {
+          "averageRating": 2089,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 9
+        },
+        {
+          "averageRating": 2075,
+          "black": 9,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 3
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 255
+    },
+    "2025-04": {
+      "black": 178,
+      "draws": 35,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 144,
+          "draws": 27,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 200
+        },
+        {
+          "averageRating": 2080,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 21
+        },
+        {
+          "averageRating": 2130,
+          "black": 4,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 7
+        },
+        {
+          "averageRating": 2061,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 2
+        },
+        {
+          "averageRating": 2034,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 3
+        },
+        {
+          "averageRating": 2063,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 2
+        },
+        {
+          "averageRating": 2141,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        },
+        {
+          "averageRating": 2034,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Eduardo1412J",
+              "rating": 2015
+            },
+            "id": "gOJxJgNm",
+            "mode": "rated",
+            "month": "2025-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Ig1004",
+              "rating": 2034
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Nxe5",
+          "uci": "f3e5",
+          "white": 0
+        },
+        {
+          "averageRating": 1961,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "Na1ll213",
+              "rating": 2211
+            },
+            "id": "mop5Ju40",
+            "mode": "rated",
+            "month": "2025-04",
+            "speed": "blitz",
+            "white": {
+              "name": "SALOMO2024",
+              "rating": 1961
+            },
+            "winner": null,
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Na3",
+          "uci": "b1a3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 236
+    },
+    "2025-05": {
+      "black": 206,
+      "draws": 28,
+      "moves": [
+        {
+          "averageRating": 2103,
+          "black": 149,
+          "draws": 24,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 210
+        },
+        {
+          "averageRating": 2092,
+          "black": 11,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 17
+        },
+        {
+          "averageRating": 2070,
+          "black": 16,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 5
+        },
+        {
+          "averageRating": 2039,
+          "black": 14,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 1
+        },
+        {
+          "averageRating": 2077,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 6
+        },
+        {
+          "averageRating": 2075,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 3
+        },
+        {
+          "averageRating": 2086,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "dmisi1968",
+              "rating": 2153
+            },
+            "id": "8qTh0Mr5",
+            "mode": "rated",
+            "month": "2025-05",
+            "speed": "blitz",
+            "white": {
+              "name": "Edsonpvh",
+              "rating": 2086
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        },
+        {
+          "averageRating": 2149,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "IPolishchuk",
+              "rating": 2195
+            },
+            "id": "JebywsCb",
+            "mode": "rated",
+            "month": "2025-05",
+            "speed": "blitz",
+            "white": {
+              "name": "Chebur_1",
+              "rating": 2149
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qe1",
+          "uci": "d1e1",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 242
+    },
+    "2025-06": {
+      "black": 190,
+      "draws": 36,
+      "moves": [
+        {
+          "averageRating": 2096,
+          "black": 150,
+          "draws": 28,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 153
+        },
+        {
+          "averageRating": 2111,
+          "black": 6,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 12
+        },
+        {
+          "averageRating": 2050,
+          "black": 8,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 4
+        },
+        {
+          "averageRating": 2059,
+          "black": 10,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 5
+        },
+        {
+          "averageRating": 2074,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 2
+        },
+        {
+          "averageRating": 2096,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 8
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 184
+    },
+    "2025-07": {
+      "black": 223,
+      "draws": 32,
+      "moves": [
+        {
+          "averageRating": 2103,
+          "black": 167,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 186
+        },
+        {
+          "averageRating": 2093,
+          "black": 18,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 18
+        },
+        {
+          "averageRating": 2093,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 14
+        },
+        {
+          "averageRating": 2059,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 8
+        },
+        {
+          "averageRating": 2021,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 2
+        },
+        {
+          "averageRating": 2099,
+          "black": 6,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 6
+        },
+        {
+          "averageRating": 2166,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "opti1965",
+              "rating": 2154
+            },
+            "id": "SNSVgC6B",
+            "mode": "rated",
+            "month": "2025-07",
+            "speed": "blitz",
+            "white": {
+              "name": "Heydar_chess2400",
+              "rating": 2166
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 0
+        },
+        {
+          "averageRating": 1991,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Phillidor_pills",
+              "rating": 2027
+            },
+            "id": "5N8vuMw2",
+            "mode": "rated",
+            "month": "2025-07",
+            "speed": "blitz",
+            "white": {
+              "name": "NidzaJabuka",
+              "rating": 1991
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Nh2",
+          "uci": "f3h2",
+          "white": 0
+        },
+        {
+          "averageRating": 1995,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "BalikoevSD1",
+              "rating": 2022
+            },
+            "id": "7bZHKd0u",
+            "mode": "rated",
+            "month": "2025-07",
+            "speed": "blitz",
+            "white": {
+              "name": "outback",
+              "rating": 1995
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qe1",
+          "uci": "d1e1",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 234
+    },
+    "2025-08": {
+      "black": 245,
+      "draws": 33,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 187,
+          "draws": 26,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 223
+        },
+        {
+          "averageRating": 2076,
+          "black": 23,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 21
+        },
+        {
+          "averageRating": 2093,
+          "black": 15,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 13
+        },
+        {
+          "averageRating": 2089,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 13
+        },
+        {
+          "averageRating": 2053,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 3
+        },
+        {
+          "averageRating": 2062,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 3
+        },
+        {
+          "averageRating": 2027,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "AVL1509",
+              "rating": 2022
+            },
+            "id": "gZqY7IgC",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "VHuaquinG",
+              "rating": 2027
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2115,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "Drongola",
+              "rating": 2168
+            },
+            "id": "W4WqQXxZ",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "Busel02_MCS",
+              "rating": 2115
+            },
+            "winner": null,
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 277
+    },
+    "2025-09": {
+      "black": 237,
+      "draws": 22,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 196,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 197
+        },
+        {
+          "averageRating": 2085,
+          "black": 11,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 20
+        },
+        {
+          "averageRating": 2072,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 3
+        },
+        {
+          "averageRating": 2091,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 3
+        },
+        {
+          "averageRating": 2116,
+          "black": 4,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 6
+        },
+        {
+          "averageRating": 2066,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 3
+        },
+        {
+          "averageRating": 2119,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "randomchampgamer",
+              "rating": 2137
+            },
+            "id": "0h3qYuu1",
+            "mode": "rated",
+            "month": "2025-09",
+            "speed": "blitz",
+            "white": {
+              "name": "Geraldteng",
+              "rating": 2119
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 1
+        },
+        {
+          "averageRating": 2150,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "irushiya",
+              "rating": 2049
+            },
+            "id": "GVIyKUXK",
+            "mode": "rated",
+            "month": "2025-09",
+            "speed": "blitz",
+            "white": {
+              "name": "iloveuX3000",
+              "rating": 2150
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qe1",
+          "uci": "d1e1",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 234
+    },
+    "2025-10": {
+      "black": 228,
+      "draws": 35,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 168,
+          "draws": 22,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 210
+        },
+        {
+          "averageRating": 2090,
+          "black": 15,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 24
+        },
+        {
+          "averageRating": 2086,
+          "black": 18,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 10
+        },
+        {
+          "averageRating": 2091,
+          "black": 8,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 9
+        },
+        {
+          "averageRating": 2064,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 4
+        },
+        {
+          "averageRating": 2067,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 4
+        },
+        {
+          "averageRating": 1979,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 261
+    },
+    "2025-11": {
+      "black": 212,
+      "draws": 27,
+      "moves": [
+        {
+          "averageRating": 2106,
+          "black": 169,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 251
+        },
+        {
+          "averageRating": 2092,
+          "black": 11,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 15
+        },
+        {
+          "averageRating": 2075,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 8
+        },
+        {
+          "averageRating": 2076,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 11
+        },
+        {
+          "averageRating": 2030,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 2
+        },
+        {
+          "averageRating": 2031,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 2
+        },
+        {
+          "averageRating": 1983,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "roketnejla",
+              "rating": 2136
+            },
+            "id": "AqyEkSyI",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Cravit500",
+              "rating": 1983
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 289
+    },
+    "2025-12": {
+      "black": 245,
+      "draws": 39,
+      "moves": [
+        {
+          "averageRating": 2103,
+          "black": 194,
+          "draws": 33,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 224
+        },
+        {
+          "averageRating": 2076,
+          "black": 13,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 20
+        },
+        {
+          "averageRating": 2071,
+          "black": 17,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 1
+        },
+        {
+          "averageRating": 2065,
+          "black": 4,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 11
+        },
+        {
+          "averageRating": 2077,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 4
+        },
+        {
+          "averageRating": 2065,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 7
+        },
+        {
+          "averageRating": 1872,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 0
+        },
+        {
+          "averageRating": 2053,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Vin0man",
+              "rating": 2169
+            },
+            "id": "WvKQ3r5u",
+            "mode": "rated",
+            "month": "2025-12",
+            "speed": "blitz",
+            "white": {
+              "name": "animur336",
+              "rating": 2053
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 1
+        },
+        {
+          "averageRating": 2010,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "franzmitzka",
+              "rating": 2023
+            },
+            "id": "W4hKcNp3",
+            "mode": "rated",
+            "month": "2025-12",
+            "speed": "blitz",
+            "white": {
+              "name": "ADN6666",
+              "rating": 2010
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qe1",
+          "uci": "d1e1",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 268
+    },
+    "2026-01": {
+      "black": 227,
+      "draws": 41,
+      "moves": [
+        {
+          "averageRating": 2109,
+          "black": 184,
+          "draws": 32,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 249
+        },
+        {
+          "averageRating": 2066,
+          "black": 13,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 28
+        },
+        {
+          "averageRating": 2090,
+          "black": 10,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 13
+        },
+        {
+          "averageRating": 2097,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 8
+        },
+        {
+          "averageRating": 2033,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 0
+        },
+        {
+          "averageRating": 2037,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 5
+        },
+        {
+          "averageRating": 2165,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "kkkilla777",
+              "rating": 2193
+            },
+            "id": "ZDqw5Ba8",
+            "mode": "rated",
+            "month": "2026-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Oscar-211",
+              "rating": 2165
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 303
+    },
+    "2026-02": {
+      "black": 215,
+      "draws": 35,
+      "moves": [
+        {
+          "averageRating": 2106,
+          "black": 165,
+          "draws": 27,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 211
+        },
+        {
+          "averageRating": 2091,
+          "black": 12,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 20
+        },
+        {
+          "averageRating": 2056,
+          "black": 8,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 7
+        },
+        {
+          "averageRating": 2074,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 9
+        },
+        {
+          "averageRating": 2084,
+          "black": 15,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 1
+        },
+        {
+          "averageRating": 2076,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 5
+        },
+        {
+          "averageRating": 2063,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        },
+        {
+          "averageRating": 2145,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Dranoel1",
+              "rating": 2026
+            },
+            "id": "gGJZPnNR",
+            "mode": "rated",
+            "month": "2026-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Harshgajraj13",
+              "rating": 2145
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2060,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "wicked49",
+              "rating": 2041
+            },
+            "id": "5Wc59UiZ",
+            "mode": "rated",
+            "month": "2026-02",
+            "speed": "blitz",
+            "white": {
+              "name": "snaddu",
+              "rating": 2060
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Nxe5",
+          "uci": "f3e5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 255
+    },
+    "2026-03": {
+      "black": 244,
+      "draws": 37,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 195,
+          "draws": 31,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 288
+        },
+        {
+          "averageRating": 2068,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 14
+        },
+        {
+          "averageRating": 2077,
+          "black": 10,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Re1",
+          "uci": "f1e1",
+          "white": 9
+        },
+        {
+          "averageRating": 2080,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 7
+        },
+        {
+          "averageRating": 2046,
+          "black": 13,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "hxg4",
+          "uci": "h3g4",
+          "white": 3
+        },
+        {
+          "averageRating": 2073,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 6
+        },
+        {
+          "averageRating": 2072,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 2
+        },
+        {
+          "averageRating": 2042,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "peo7",
+              "rating": 2044
+            },
+            "id": "s8zbyHr6",
+            "mode": "rated",
+            "month": "2026-03",
+            "speed": "blitz",
+            "white": {
+              "name": "Riley506",
+              "rating": 2042
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Kh2",
+          "uci": "g1h2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      },
+      "white": 329
+    },
+    "2026-04": {
+      "white": 142,
+      "draws": 18,
+      "black": 123,
+      "moves": [
+        {
+          "uci": "d2d3",
+          "san": "d3",
+          "averageRating": 2100,
+          "white": 123,
+          "draws": 15,
+          "black": 101,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d2d4",
+          "san": "d4",
+          "averageRating": 2070,
+          "white": 9,
+          "draws": 1,
+          "black": 8,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c2c3",
+          "san": "c3",
+          "averageRating": 2068,
+          "white": 7,
+          "draws": 0,
+          "black": 3,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f1e1",
+          "san": "Re1",
+          "averageRating": 2083,
+          "white": 2,
+          "draws": 2,
+          "black": 4,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "h3g4",
+          "san": "hxg4",
+          "averageRating": 2060,
+          "white": 0,
+          "draws": 0,
+          "black": 4,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "b1c3",
+          "san": "Nc3",
+          "averageRating": 2089,
+          "white": 1,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d1e2",
+          "san": "Qe2",
+          "averageRating": 2072,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        }
+      ],
+      "recentGames": [],
+      "topGames": [],
+      "opening": {
+        "eco": "C69",
+        "name": "Ruy Lopez: Exchange Variation, Alapin Gambit"
+      }
+    }
+  }
+}

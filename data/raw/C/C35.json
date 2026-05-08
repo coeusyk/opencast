@@ -1,0 +1,5850 @@
+{
+  "_meta": {
+    "skipped_months": {}
+  },
+  "eco": "C35",
+  "months": {
+    "2023-01": {
+      "black": 1253,
+      "draws": 103,
+      "moves": [
+        {
+          "averageRating": 2072,
+          "black": 876,
+          "draws": 86,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 949
+        },
+        {
+          "averageRating": 2071,
+          "black": 186,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 139
+        },
+        {
+          "averageRating": 2066,
+          "black": 154,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 109
+        },
+        {
+          "averageRating": 2085,
+          "black": 19,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 20
+        },
+        {
+          "averageRating": 2073,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 10
+        },
+        {
+          "averageRating": 2050,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 4
+        },
+        {
+          "averageRating": 2078,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 5
+        },
+        {
+          "averageRating": 2063,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 1
+        },
+        {
+          "averageRating": 2120,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf2",
+          "uci": "e1f2",
+          "white": 2
+        },
+        {
+          "averageRating": 2063,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 2
+        },
+        {
+          "averageRating": 1992,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "belal1980",
+              "rating": 2048
+            },
+            "id": "rLwlhhqt",
+            "mode": "rated",
+            "month": "2023-01",
+            "speed": "blitz",
+            "white": {
+              "name": "SankareaPorChloe",
+              "rating": 1992
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 1242
+    },
+    "2023-02": {
+      "black": 1220,
+      "draws": 99,
+      "moves": [
+        {
+          "averageRating": 2071,
+          "black": 844,
+          "draws": 77,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 887
+        },
+        {
+          "averageRating": 2070,
+          "black": 190,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 149
+        },
+        {
+          "averageRating": 2059,
+          "black": 138,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 132
+        },
+        {
+          "averageRating": 2029,
+          "black": 16,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 26
+        },
+        {
+          "averageRating": 2072,
+          "black": 17,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 16
+        },
+        {
+          "averageRating": 2082,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 12
+        },
+        {
+          "averageRating": 2005,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 9
+        },
+        {
+          "averageRating": 2155,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 2
+        },
+        {
+          "averageRating": 2119,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "MohammadAayanKhan",
+              "rating": 2151
+            },
+            "id": "Jaqwh7Yl",
+            "mode": "rated",
+            "month": "2023-02",
+            "speed": "blitz",
+            "white": {
+              "name": "astralboy",
+              "rating": 2119
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 0
+        },
+        {
+          "averageRating": 2159,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "MagnesiumCalcite",
+              "rating": 2095
+            },
+            "id": "J65lqEfs",
+            "mode": "rated",
+            "month": "2023-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Goodjob50",
+              "rating": 2159
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 1
+        },
+        {
+          "averageRating": 1908,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ESFork",
+              "rating": 2285
+            },
+            "id": "3FgjmIkw",
+            "mode": "rated",
+            "month": "2023-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Abah_Subarjo",
+              "rating": 1908
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Kf2",
+          "uci": "e1f2",
+          "white": 1
+        },
+        {
+          "averageRating": 2038,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "romerochoa",
+              "rating": 2037
+            },
+            "id": "UNHFz1WM",
+            "mode": "rated",
+            "month": "2023-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Caissa2009",
+              "rating": 2038
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 1236
+    },
+    "2023-03": {
+      "black": 1358,
+      "draws": 108,
+      "moves": [
+        {
+          "averageRating": 2072,
+          "black": 977,
+          "draws": 82,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 1010
+        },
+        {
+          "averageRating": 2072,
+          "black": 182,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 159
+        },
+        {
+          "averageRating": 2067,
+          "black": 148,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 110
+        },
+        {
+          "averageRating": 2085,
+          "black": 15,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 20
+        },
+        {
+          "averageRating": 2051,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 13
+        },
+        {
+          "averageRating": 2112,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 6
+        },
+        {
+          "averageRating": 2009,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 4
+        },
+        {
+          "averageRating": 2041,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 1
+        },
+        {
+          "averageRating": 2028,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 2057,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 1
+        },
+        {
+          "averageRating": 2113,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Marwan2021",
+              "rating": 2048
+            },
+            "id": "wMwMuKtT",
+            "mode": "rated",
+            "month": "2023-03",
+            "speed": "blitz",
+            "white": {
+              "name": "Imans_kabtasikmalaya",
+              "rating": 2113
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 1325
+    },
+    "2023-04": {
+      "black": 1258,
+      "draws": 117,
+      "moves": [
+        {
+          "averageRating": 2070,
+          "black": 886,
+          "draws": 81,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 896
+        },
+        {
+          "averageRating": 2071,
+          "black": 204,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 147
+        },
+        {
+          "averageRating": 2063,
+          "black": 136,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 111
+        },
+        {
+          "averageRating": 2089,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 15
+        },
+        {
+          "averageRating": 2073,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 8
+        },
+        {
+          "averageRating": 2061,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 9
+        },
+        {
+          "averageRating": 2099,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 5
+        },
+        {
+          "averageRating": 2015,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 1
+        },
+        {
+          "averageRating": 1993,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 0
+        },
+        {
+          "averageRating": 2226,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "jaimesneitor",
+              "rating": 2158
+            },
+            "id": "s2uRQBKx",
+            "mode": "rated",
+            "month": "2023-04",
+            "speed": "blitz",
+            "white": {
+              "name": "PozharskyNikolay",
+              "rating": 2226
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "b4",
+          "uci": "b2b4",
+          "white": 1
+        },
+        {
+          "averageRating": 2036,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Ghasan_maradny",
+              "rating": 2039
+            },
+            "id": "Td4DpC5Z",
+            "mode": "rated",
+            "month": "2023-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Aigum",
+              "rating": 2036
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 1
+        },
+        {
+          "averageRating": 2033,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Noidor",
+              "rating": 2038
+            },
+            "id": "slHHWgey",
+            "mode": "rated",
+            "month": "2023-04",
+            "speed": "blitz",
+            "white": {
+              "name": "werfaso",
+              "rating": 2033
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 1196
+    },
+    "2023-05": {
+      "black": 1183,
+      "draws": 90,
+      "moves": [
+        {
+          "averageRating": 2073,
+          "black": 865,
+          "draws": 68,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 885
+        },
+        {
+          "averageRating": 2070,
+          "black": 152,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 136
+        },
+        {
+          "averageRating": 2053,
+          "black": 123,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 144
+        },
+        {
+          "averageRating": 2078,
+          "black": 14,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 15
+        },
+        {
+          "averageRating": 2072,
+          "black": 6,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 9
+        },
+        {
+          "averageRating": 2111,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 6
+        },
+        {
+          "averageRating": 2060,
+          "black": 6,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 4
+        },
+        {
+          "averageRating": 2040,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 1
+        },
+        {
+          "averageRating": 2018,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "machuelito",
+              "rating": 1993
+            },
+            "id": "FXDje018",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "cartcurt78",
+              "rating": 2018
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 0
+        },
+        {
+          "averageRating": 2102,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "emateo",
+              "rating": 2153
+            },
+            "id": "RDHaDYyU",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "davidpogos",
+              "rating": 2102
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 0
+        },
+        {
+          "averageRating": 2019,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Biomed",
+              "rating": 2025
+            },
+            "id": "QN5i9WnY",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "KaYou",
+              "rating": 2019
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 0
+        },
+        {
+          "averageRating": 1982,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Gin7557",
+              "rating": 2039
+            },
+            "id": "M15ja22c",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "mkunal",
+              "rating": 1982
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 1201
+    },
+    "2023-06": {
+      "black": 1138,
+      "draws": 85,
+      "moves": [
+        {
+          "averageRating": 2071,
+          "black": 818,
+          "draws": 63,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 830
+        },
+        {
+          "averageRating": 2072,
+          "black": 168,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 122
+        },
+        {
+          "averageRating": 2060,
+          "black": 118,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 99
+        },
+        {
+          "averageRating": 2133,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 16
+        },
+        {
+          "averageRating": 2083,
+          "black": 10,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 7
+        },
+        {
+          "averageRating": 2057,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 6
+        },
+        {
+          "averageRating": 2048,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 4
+        },
+        {
+          "averageRating": 2062,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 4
+        },
+        {
+          "averageRating": 2160,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "rafa28",
+              "rating": 2155
+            },
+            "id": "TJrzYTX3",
+            "mode": "rated",
+            "month": "2023-06",
+            "speed": "blitz",
+            "white": {
+              "name": "Jugadorbisonio",
+              "rating": 2160
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 0
+        },
+        {
+          "averageRating": 2066,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "SergeyAndrewSivak",
+              "rating": 2036
+            },
+            "id": "pBzyajGp",
+            "mode": "rated",
+            "month": "2023-06",
+            "speed": "blitz",
+            "white": {
+              "name": "yaskoetemovic",
+              "rating": 2066
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Kf2",
+          "uci": "e1f2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 1088
+    },
+    "2023-07": {
+      "black": 1151,
+      "draws": 102,
+      "moves": [
+        {
+          "averageRating": 2069,
+          "black": 832,
+          "draws": 69,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 770
+        },
+        {
+          "averageRating": 2068,
+          "black": 171,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 137
+        },
+        {
+          "averageRating": 2062,
+          "black": 116,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 116
+        },
+        {
+          "averageRating": 2101,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 15
+        },
+        {
+          "averageRating": 2047,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 6
+        },
+        {
+          "averageRating": 2047,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 8
+        },
+        {
+          "averageRating": 2051,
+          "black": 8,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 4
+        },
+        {
+          "averageRating": 2041,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 2
+        },
+        {
+          "averageRating": 2089,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Nobr2018",
+              "rating": 2094
+            },
+            "id": "YiAzH6vi",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "basri_lckb",
+              "rating": 2089
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Kf2",
+          "uci": "e1f2",
+          "white": 1
+        },
+        {
+          "averageRating": 2141,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "rezamomenzadeh22",
+              "rating": 2017
+            },
+            "id": "t6VXmlJu",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "Mila8989",
+              "rating": 2141
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 0
+        },
+        {
+          "averageRating": 2098,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "msalmi001",
+              "rating": 2084
+            },
+            "id": "2jHmCTRF",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "KleverUA",
+              "rating": 2098
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 1060
+    },
+    "2023-08": {
+      "black": 1174,
+      "draws": 117,
+      "moves": [
+        {
+          "averageRating": 2070,
+          "black": 843,
+          "draws": 89,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 850
+        },
+        {
+          "averageRating": 2068,
+          "black": 155,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 143
+        },
+        {
+          "averageRating": 2056,
+          "black": 139,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 135
+        },
+        {
+          "averageRating": 2087,
+          "black": 11,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 15
+        },
+        {
+          "averageRating": 2041,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 11
+        },
+        {
+          "averageRating": 2043,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 8
+        },
+        {
+          "averageRating": 2030,
+          "black": 6,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 3
+        },
+        {
+          "averageRating": 2015,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 1
+        },
+        {
+          "averageRating": 2124,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 2
+        },
+        {
+          "averageRating": 2003,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "Dalfsma",
+              "rating": 1997
+            },
+            "id": "FJ3Ab7B0",
+            "mode": "rated",
+            "month": "2023-08",
+            "speed": "blitz",
+            "white": {
+              "name": "iBilalAhmed",
+              "rating": 2003
+            },
+            "winner": null,
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Ng1",
+          "uci": "f3g1",
+          "white": 0
+        },
+        {
+          "averageRating": 2150,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "imwt",
+              "rating": 2111
+            },
+            "id": "5YtFHbRm",
+            "mode": "rated",
+            "month": "2023-08",
+            "speed": "blitz",
+            "white": {
+              "name": "hardigatti",
+              "rating": 2150
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Kf2",
+          "uci": "e1f2",
+          "white": 0
+        },
+        {
+          "averageRating": 2038,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "DavidLocks",
+              "rating": 1962
+            },
+            "id": "IiocepxE",
+            "mode": "rated",
+            "month": "2023-08",
+            "speed": "blitz",
+            "white": {
+              "name": "galact",
+              "rating": 2038
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 1170
+    },
+    "2023-09": {
+      "black": 1189,
+      "draws": 86,
+      "moves": [
+        {
+          "averageRating": 2072,
+          "black": 865,
+          "draws": 64,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 855
+        },
+        {
+          "averageRating": 2068,
+          "black": 163,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 145
+        },
+        {
+          "averageRating": 2061,
+          "black": 127,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 150
+        },
+        {
+          "averageRating": 2071,
+          "black": 10,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 13
+        },
+        {
+          "averageRating": 2081,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 15
+        },
+        {
+          "averageRating": 2115,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 13
+        },
+        {
+          "averageRating": 2014,
+          "black": 6,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 7
+        },
+        {
+          "averageRating": 2054,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 2
+        },
+        {
+          "averageRating": 2032,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Cesare1899",
+              "rating": 2032
+            },
+            "id": "fPQdeIUk",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "ffhfndmdk",
+              "rating": 2032
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 1
+        },
+        {
+          "averageRating": 2028,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "IbrahimAwad92",
+              "rating": 2038
+            },
+            "id": "04lvS2cO",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "uztariznaka",
+              "rating": 2028
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Ba6",
+          "uci": "f1a6",
+          "white": 1
+        },
+        {
+          "averageRating": 1996,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "VladaGros",
+              "rating": 2028
+            },
+            "id": "J4USxtbm",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "bokken",
+              "rating": 1996
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 0
+        },
+        {
+          "averageRating": 2012,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Shadow_Hayst1",
+              "rating": 1989
+            },
+            "id": "9IKDVjSU",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "Gagong_Master03",
+              "rating": 2012
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Kf2",
+          "uci": "e1f2",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 1204
+    },
+    "2023-10": {
+      "black": 1218,
+      "draws": 111,
+      "moves": [
+        {
+          "averageRating": 2069,
+          "black": 849,
+          "draws": 80,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 820
+        },
+        {
+          "averageRating": 2063,
+          "black": 178,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 146
+        },
+        {
+          "averageRating": 2065,
+          "black": 169,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 149
+        },
+        {
+          "averageRating": 2102,
+          "black": 10,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 12
+        },
+        {
+          "averageRating": 2061,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 6
+        },
+        {
+          "averageRating": 2102,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 2
+        },
+        {
+          "averageRating": 2023,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 0
+        },
+        {
+          "averageRating": 2025,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Pnishi2",
+              "rating": 2080
+            },
+            "id": "DrvvLq9L",
+            "mode": "rated",
+            "month": "2023-10",
+            "speed": "blitz",
+            "white": {
+              "name": "Kole_N",
+              "rating": 2025
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 0
+        },
+        {
+          "averageRating": 2019,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "LAVLAVLAV",
+              "rating": 2173
+            },
+            "id": "KKI1xX6K",
+            "mode": "rated",
+            "month": "2023-10",
+            "speed": "blitz",
+            "white": {
+              "name": "Sayabek",
+              "rating": 2019
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 1136
+    },
+    "2023-11": {
+      "black": 1168,
+      "draws": 87,
+      "moves": [
+        {
+          "averageRating": 2073,
+          "black": 855,
+          "draws": 59,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 849
+        },
+        {
+          "averageRating": 2072,
+          "black": 165,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 153
+        },
+        {
+          "averageRating": 2061,
+          "black": 120,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 137
+        },
+        {
+          "averageRating": 2115,
+          "black": 7,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 12
+        },
+        {
+          "averageRating": 2094,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 8
+        },
+        {
+          "averageRating": 2038,
+          "black": 3,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 5
+        },
+        {
+          "averageRating": 2045,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        },
+        {
+          "averageRating": 2013,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Christoph_Jugendwart",
+              "rating": 2022
+            },
+            "id": "sbg9cPaq",
+            "mode": "rated",
+            "month": "2023-11",
+            "speed": "blitz",
+            "white": {
+              "name": "billnewein",
+              "rating": 2013
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 0
+        },
+        {
+          "averageRating": 2187,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Brenlla2",
+              "rating": 2192
+            },
+            "id": "o4EKtCMp",
+            "mode": "rated",
+            "month": "2023-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Tanvir96",
+              "rating": 2187
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 0
+        },
+        {
+          "averageRating": 2090,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "NasserAllahyari",
+              "rating": 1978
+            },
+            "id": "1uppkRk6",
+            "mode": "rated",
+            "month": "2023-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Hedgeslammer",
+              "rating": 2090
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 1165
+    },
+    "2023-12": {
+      "black": 1168,
+      "draws": 108,
+      "moves": [
+        {
+          "averageRating": 2071,
+          "black": 852,
+          "draws": 80,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 826
+        },
+        {
+          "averageRating": 2072,
+          "black": 147,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 141
+        },
+        {
+          "averageRating": 2051,
+          "black": 137,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 144
+        },
+        {
+          "averageRating": 2099,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 16
+        },
+        {
+          "averageRating": 2079,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 12
+        },
+        {
+          "averageRating": 2050,
+          "black": 6,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 8
+        },
+        {
+          "averageRating": 2038,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 3
+        },
+        {
+          "averageRating": 2075,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf2",
+          "uci": "e1f2",
+          "white": 1
+        },
+        {
+          "averageRating": 2139,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        },
+        {
+          "averageRating": 1875,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "allex82",
+              "rating": 2129
+            },
+            "id": "B8QAaKGx",
+            "mode": "rated",
+            "month": "2023-12",
+            "speed": "blitz",
+            "white": {
+              "name": "jurismae",
+              "rating": 1875
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 1152
+    },
+    "2024-01": {
+      "black": 1190,
+      "draws": 88,
+      "moves": [
+        {
+          "averageRating": 2075,
+          "black": 816,
+          "draws": 60,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 845
+        },
+        {
+          "averageRating": 2078,
+          "black": 174,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 156
+        },
+        {
+          "averageRating": 2055,
+          "black": 156,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 115
+        },
+        {
+          "averageRating": 2101,
+          "black": 15,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 17
+        },
+        {
+          "averageRating": 2082,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 6
+        },
+        {
+          "averageRating": 2066,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 9
+        },
+        {
+          "averageRating": 2016,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 4
+        },
+        {
+          "averageRating": 2003,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 0
+        },
+        {
+          "averageRating": 2029,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "adnouch",
+              "rating": 1981
+            },
+            "id": "265J8ZyB",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "mookiavelli",
+              "rating": 2029
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Kf2",
+          "uci": "e1f2",
+          "white": 0
+        },
+        {
+          "averageRating": 1990,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "santo315",
+              "rating": 2058
+            },
+            "id": "jMWb0TTt",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "vvorsan",
+              "rating": 1990
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 1152
+    },
+    "2024-02": {
+      "black": 1019,
+      "draws": 89,
+      "moves": [
+        {
+          "averageRating": 2070,
+          "black": 741,
+          "draws": 68,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 729
+        },
+        {
+          "averageRating": 2074,
+          "black": 146,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 112
+        },
+        {
+          "averageRating": 2061,
+          "black": 103,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 114
+        },
+        {
+          "averageRating": 2078,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 18
+        },
+        {
+          "averageRating": 2046,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 7
+        },
+        {
+          "averageRating": 2079,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 7
+        },
+        {
+          "averageRating": 2013,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 1
+        },
+        {
+          "averageRating": 2035,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 0
+        },
+        {
+          "averageRating": 2076,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "boutkov",
+              "rating": 2023
+            },
+            "id": "hl8uoMlV",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "V_oltinashka_chuka",
+              "rating": 2076
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 0
+        },
+        {
+          "averageRating": 2121,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "pegaso74",
+              "rating": 2121
+            },
+            "id": "bDznaUsg",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Ledoamer",
+              "rating": 2121
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 989
+    },
+    "2024-03": {
+      "black": 1107,
+      "draws": 78,
+      "moves": [
+        {
+          "averageRating": 2071,
+          "black": 791,
+          "draws": 58,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 764
+        },
+        {
+          "averageRating": 2067,
+          "black": 144,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 117
+        },
+        {
+          "averageRating": 2062,
+          "black": 130,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 93
+        },
+        {
+          "averageRating": 2103,
+          "black": 21,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 17
+        },
+        {
+          "averageRating": 2050,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 8
+        },
+        {
+          "averageRating": 2090,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 4
+        },
+        {
+          "averageRating": 2064,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 3
+        },
+        {
+          "averageRating": 2029,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 2
+        },
+        {
+          "averageRating": 2092,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf2",
+          "uci": "e1f2",
+          "white": 3
+        },
+        {
+          "averageRating": 2010,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 0
+        },
+        {
+          "averageRating": 2102,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "AHMAD198676",
+              "rating": 2068
+            },
+            "id": "YTfS2kh8",
+            "mode": "rated",
+            "month": "2024-03",
+            "speed": "blitz",
+            "white": {
+              "name": "popgergesramzy",
+              "rating": 2102
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 1
+        },
+        {
+          "averageRating": 2043,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "evgenypermenev",
+              "rating": 2035
+            },
+            "id": "oDtjT74a",
+            "mode": "rated",
+            "month": "2024-03",
+            "speed": "blitz",
+            "white": {
+              "name": "hellish_worm",
+              "rating": 2043
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 1012
+    },
+    "2024-04": {
+      "black": 1140,
+      "draws": 82,
+      "moves": [
+        {
+          "averageRating": 2068,
+          "black": 824,
+          "draws": 60,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 767
+        },
+        {
+          "averageRating": 2069,
+          "black": 160,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 121
+        },
+        {
+          "averageRating": 2068,
+          "black": 118,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 125
+        },
+        {
+          "averageRating": 2124,
+          "black": 18,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 14
+        },
+        {
+          "averageRating": 2015,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 7
+        },
+        {
+          "averageRating": 2046,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 3
+        },
+        {
+          "averageRating": 2053,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 4
+        },
+        {
+          "averageRating": 2039,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 1
+        },
+        {
+          "averageRating": 2082,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 1043
+    },
+    "2024-05": {
+      "black": 1010,
+      "draws": 86,
+      "moves": [
+        {
+          "averageRating": 2068,
+          "black": 723,
+          "draws": 68,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 760
+        },
+        {
+          "averageRating": 2071,
+          "black": 132,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 117
+        },
+        {
+          "averageRating": 2065,
+          "black": 118,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 106
+        },
+        {
+          "averageRating": 2094,
+          "black": 14,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 11
+        },
+        {
+          "averageRating": 2068,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 9
+        },
+        {
+          "averageRating": 2115,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 4
+        },
+        {
+          "averageRating": 2084,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 2
+        },
+        {
+          "averageRating": 2068,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 2
+        },
+        {
+          "averageRating": 2029,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 1
+        },
+        {
+          "averageRating": 2152,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Kentaur64",
+              "rating": 2153
+            },
+            "id": "5qxGBGMN",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "masmur_CSI",
+              "rating": 2152
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 0
+        },
+        {
+          "averageRating": 2002,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "chess_ameN",
+              "rating": 2018
+            },
+            "id": "bQLfpbOq",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "Janiszu",
+              "rating": 2002
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 2076,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "samsoneitrem",
+              "rating": 2057
+            },
+            "id": "COZD5kpf",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "ASoare",
+              "rating": 2076
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Kf2",
+          "uci": "e1f2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 1013
+    },
+    "2024-06": {
+      "black": 930,
+      "draws": 93,
+      "moves": [
+        {
+          "averageRating": 2062,
+          "black": 651,
+          "draws": 72,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 674
+        },
+        {
+          "averageRating": 2072,
+          "black": 149,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 105
+        },
+        {
+          "averageRating": 2054,
+          "black": 98,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 96
+        },
+        {
+          "averageRating": 2071,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 14
+        },
+        {
+          "averageRating": 2125,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 12
+        },
+        {
+          "averageRating": 2036,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 11
+        },
+        {
+          "averageRating": 2059,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 4
+        },
+        {
+          "averageRating": 2081,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf2",
+          "uci": "e1f2",
+          "white": 0
+        },
+        {
+          "averageRating": 2109,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 0
+        },
+        {
+          "averageRating": 2117,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "pegaso74",
+              "rating": 2016
+            },
+            "id": "cpIFrBDG",
+            "mode": "rated",
+            "month": "2024-06",
+            "speed": "blitz",
+            "white": {
+              "name": "essam1000",
+              "rating": 2117
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 0
+        },
+        {
+          "averageRating": 1969,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Holms77",
+              "rating": 2044
+            },
+            "id": "L7lYBcHO",
+            "mode": "rated",
+            "month": "2024-06",
+            "speed": "blitz",
+            "white": {
+              "name": "emxk567",
+              "rating": 1969
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 917
+    },
+    "2024-07": {
+      "black": 973,
+      "draws": 65,
+      "moves": [
+        {
+          "averageRating": 2066,
+          "black": 695,
+          "draws": 47,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 700
+        },
+        {
+          "averageRating": 2063,
+          "black": 146,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 106
+        },
+        {
+          "averageRating": 2064,
+          "black": 99,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 100
+        },
+        {
+          "averageRating": 2049,
+          "black": 14,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 11
+        },
+        {
+          "averageRating": 2099,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 14
+        },
+        {
+          "averageRating": 2027,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 3
+        },
+        {
+          "averageRating": 2013,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 4
+        },
+        {
+          "averageRating": 2121,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 2098,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 1
+        },
+        {
+          "averageRating": 2160,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "behrooz36tehran",
+              "rating": 1944
+            },
+            "id": "9jQFcEVB",
+            "mode": "rated",
+            "month": "2024-07",
+            "speed": "blitz",
+            "white": {
+              "name": "Coquito06",
+              "rating": 2160
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Ke2",
+          "uci": "e1e2",
+          "white": 0
+        },
+        {
+          "averageRating": 1975,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Intma",
+              "rating": 2042
+            },
+            "id": "nItVd3O2",
+            "mode": "rated",
+            "month": "2024-07",
+            "speed": "blitz",
+            "white": {
+              "name": "atacadorPeru",
+              "rating": 1975
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 1
+        },
+        {
+          "averageRating": 2079,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Micky_jazz",
+              "rating": 2190
+            },
+            "id": "jkbCDOTU",
+            "mode": "rated",
+            "month": "2024-07",
+            "speed": "blitz",
+            "white": {
+              "name": "Diegoumbacia",
+              "rating": 2079
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 942
+    },
+    "2024-08": {
+      "black": 1029,
+      "draws": 81,
+      "moves": [
+        {
+          "averageRating": 2068,
+          "black": 702,
+          "draws": 53,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 723
+        },
+        {
+          "averageRating": 2065,
+          "black": 160,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 130
+        },
+        {
+          "averageRating": 2056,
+          "black": 122,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 105
+        },
+        {
+          "averageRating": 2039,
+          "black": 16,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 12
+        },
+        {
+          "averageRating": 2096,
+          "black": 16,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 7
+        },
+        {
+          "averageRating": 2063,
+          "black": 7,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 5
+        },
+        {
+          "averageRating": 2071,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 3
+        },
+        {
+          "averageRating": 2086,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 2
+        },
+        {
+          "averageRating": 2121,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 0
+        },
+        {
+          "averageRating": 2052,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "yayatjoss",
+              "rating": 2011
+            },
+            "id": "tesxAqAA",
+            "mode": "rated",
+            "month": "2024-08",
+            "speed": "blitz",
+            "white": {
+              "name": "knightfemmy",
+              "rating": 2052
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 1
+        },
+        {
+          "averageRating": 2026,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Nobr2018",
+              "rating": 2045
+            },
+            "id": "5Q3yg8MC",
+            "mode": "rated",
+            "month": "2024-08",
+            "speed": "blitz",
+            "white": {
+              "name": "nicklenarciso",
+              "rating": 2026
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Kf2",
+          "uci": "e1f2",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 989
+    },
+    "2024-09": {
+      "black": 957,
+      "draws": 85,
+      "moves": [
+        {
+          "averageRating": 2071,
+          "black": 674,
+          "draws": 65,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 649
+        },
+        {
+          "averageRating": 2067,
+          "black": 123,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 125
+        },
+        {
+          "averageRating": 2069,
+          "black": 121,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 104
+        },
+        {
+          "averageRating": 2099,
+          "black": 16,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 8
+        },
+        {
+          "averageRating": 2055,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 13
+        },
+        {
+          "averageRating": 2060,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 6
+        },
+        {
+          "averageRating": 2000,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        },
+        {
+          "averageRating": 2078,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf2",
+          "uci": "e1f2",
+          "white": 2
+        },
+        {
+          "averageRating": 1998,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 3
+        },
+        {
+          "averageRating": 2052,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 911
+    },
+    "2024-10": {
+      "black": 1035,
+      "draws": 92,
+      "moves": [
+        {
+          "averageRating": 2069,
+          "black": 738,
+          "draws": 77,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 752
+        },
+        {
+          "averageRating": 2075,
+          "black": 136,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 114
+        },
+        {
+          "averageRating": 2060,
+          "black": 121,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 114
+        },
+        {
+          "averageRating": 2101,
+          "black": 16,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 13
+        },
+        {
+          "averageRating": 2042,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 14
+        },
+        {
+          "averageRating": 2036,
+          "black": 7,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 6
+        },
+        {
+          "averageRating": 2082,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 1
+        },
+        {
+          "averageRating": 2078,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf2",
+          "uci": "e1f2",
+          "white": 1
+        },
+        {
+          "averageRating": 1975,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        },
+        {
+          "averageRating": 2024,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "NikolaiZavrazin",
+              "rating": 1996
+            },
+            "id": "gnYNyl7K",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "mail_12345",
+              "rating": 2024
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 2075,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "belal1980",
+              "rating": 2031
+            },
+            "id": "pMgRJWFD",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "AlexManzoni",
+              "rating": 2075
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 0
+        },
+        {
+          "averageRating": 2055,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "yustas82",
+              "rating": 2055
+            },
+            "id": "rv0YnZZ0",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "Colonel26",
+              "rating": 2055
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 1018
+    },
+    "2024-11": {
+      "black": 929,
+      "draws": 67,
+      "moves": [
+        {
+          "averageRating": 2072,
+          "black": 653,
+          "draws": 49,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 685
+        },
+        {
+          "averageRating": 2071,
+          "black": 127,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 117
+        },
+        {
+          "averageRating": 2055,
+          "black": 110,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 94
+        },
+        {
+          "averageRating": 2092,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 11
+        },
+        {
+          "averageRating": 2043,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 10
+        },
+        {
+          "averageRating": 2060,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 6
+        },
+        {
+          "averageRating": 2019,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 4
+        },
+        {
+          "averageRating": 2048,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 1
+        },
+        {
+          "averageRating": 2023,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 3
+        },
+        {
+          "averageRating": 2062,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 1991,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "SumanSaha",
+              "rating": 2058
+            },
+            "id": "ivQyuCmt",
+            "mode": "rated",
+            "month": "2024-11",
+            "speed": "blitz",
+            "white": {
+              "name": "shankarsony567",
+              "rating": 1991
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 933
+    },
+    "2024-12": {
+      "black": 970,
+      "draws": 99,
+      "moves": [
+        {
+          "averageRating": 2070,
+          "black": 667,
+          "draws": 74,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 712
+        },
+        {
+          "averageRating": 2069,
+          "black": 125,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 118
+        },
+        {
+          "averageRating": 2060,
+          "black": 137,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 101
+        },
+        {
+          "averageRating": 2113,
+          "black": 16,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 13
+        },
+        {
+          "averageRating": 2041,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 15
+        },
+        {
+          "averageRating": 2080,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 2
+        },
+        {
+          "averageRating": 2071,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        },
+        {
+          "averageRating": 1999,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Terrano",
+              "rating": 2001
+            },
+            "id": "adX6YNqI",
+            "mode": "rated",
+            "month": "2024-12",
+            "speed": "blitz",
+            "white": {
+              "name": "Yaottabyte",
+              "rating": 1999
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 962
+    },
+    "2025-01": {
+      "black": 978,
+      "draws": 84,
+      "moves": [
+        {
+          "averageRating": 2069,
+          "black": 679,
+          "draws": 61,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 708
+        },
+        {
+          "averageRating": 2063,
+          "black": 129,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 116
+        },
+        {
+          "averageRating": 2065,
+          "black": 135,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 103
+        },
+        {
+          "averageRating": 2093,
+          "black": 13,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 22
+        },
+        {
+          "averageRating": 2075,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 10
+        },
+        {
+          "averageRating": 2050,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 8
+        },
+        {
+          "averageRating": 1999,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 0
+        },
+        {
+          "averageRating": 2129,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Seguring",
+              "rating": 2109
+            },
+            "id": "UZyOGJar",
+            "mode": "rated",
+            "month": "2025-01",
+            "speed": "blitz",
+            "white": {
+              "name": "nAvOdAr",
+              "rating": 2129
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Kf2",
+          "uci": "e1f2",
+          "white": 0
+        },
+        {
+          "averageRating": 2108,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "snitchgun",
+              "rating": 1970
+            },
+            "id": "HewNzcHi",
+            "mode": "rated",
+            "month": "2025-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Goodjob50",
+              "rating": 2108
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 1
+        },
+        {
+          "averageRating": 2056,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "serega6608242",
+              "rating": 2018
+            },
+            "id": "5tuT6DiP",
+            "mode": "rated",
+            "month": "2025-01",
+            "speed": "blitz",
+            "white": {
+              "name": "WAYAN_99",
+              "rating": 2056
+            },
+            "winner": null,
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 968
+    },
+    "2025-02": {
+      "black": 904,
+      "draws": 65,
+      "moves": [
+        {
+          "averageRating": 2068,
+          "black": 624,
+          "draws": 50,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 648
+        },
+        {
+          "averageRating": 2068,
+          "black": 136,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 109
+        },
+        {
+          "averageRating": 2063,
+          "black": 108,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 98
+        },
+        {
+          "averageRating": 2096,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 11
+        },
+        {
+          "averageRating": 2045,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 9
+        },
+        {
+          "averageRating": 2064,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 10
+        },
+        {
+          "averageRating": 2050,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 5
+        },
+        {
+          "averageRating": 1854,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 1
+        },
+        {
+          "averageRating": 2165,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "yopihendra",
+              "rating": 2190
+            },
+            "id": "afFavD9q",
+            "mode": "rated",
+            "month": "2025-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Herijagocatur",
+              "rating": 2165
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 0
+        },
+        {
+          "averageRating": 2053,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "C2b5",
+              "rating": 2011
+            },
+            "id": "abGhWFUO",
+            "mode": "rated",
+            "month": "2025-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Suhartopringkumpul",
+              "rating": 2053
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 891
+    },
+    "2025-03": {
+      "black": 1002,
+      "draws": 80,
+      "moves": [
+        {
+          "averageRating": 2071,
+          "black": 699,
+          "draws": 49,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 699
+        },
+        {
+          "averageRating": 2068,
+          "black": 140,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 137
+        },
+        {
+          "averageRating": 2060,
+          "black": 103,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 97
+        },
+        {
+          "averageRating": 2047,
+          "black": 22,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 13
+        },
+        {
+          "averageRating": 2085,
+          "black": 17,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 11
+        },
+        {
+          "averageRating": 2065,
+          "black": 10,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 6
+        },
+        {
+          "averageRating": 2046,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 8
+        },
+        {
+          "averageRating": 2113,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 3
+        },
+        {
+          "averageRating": 2061,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf2",
+          "uci": "e1f2",
+          "white": 1
+        },
+        {
+          "averageRating": 2056,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Julimax234",
+              "rating": 1976
+            },
+            "id": "gtPbE8lj",
+            "mode": "rated",
+            "month": "2025-03",
+            "speed": "blitz",
+            "white": {
+              "name": "Ethafench",
+              "rating": 2056
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 0
+        },
+        {
+          "averageRating": 2013,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "M_RAHMAN",
+              "rating": 2012
+            },
+            "id": "yoc3bvEk",
+            "mode": "rated",
+            "month": "2025-03",
+            "speed": "blitz",
+            "white": {
+              "name": "Rinda83",
+              "rating": 2013
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 2182,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Sahrul-Gowa",
+              "rating": 2199
+            },
+            "id": "XVMlRTKt",
+            "mode": "rated",
+            "month": "2025-03",
+            "speed": "blitz",
+            "white": {
+              "name": "hulphondkonijn",
+              "rating": 2182
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 976
+    },
+    "2025-04": {
+      "black": 945,
+      "draws": 84,
+      "moves": [
+        {
+          "averageRating": 2066,
+          "black": 617,
+          "draws": 54,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 641
+        },
+        {
+          "averageRating": 2065,
+          "black": 153,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 111
+        },
+        {
+          "averageRating": 2060,
+          "black": 126,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 125
+        },
+        {
+          "averageRating": 2023,
+          "black": 15,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 13
+        },
+        {
+          "averageRating": 2074,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 14
+        },
+        {
+          "averageRating": 2073,
+          "black": 14,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 11
+        },
+        {
+          "averageRating": 2082,
+          "black": 5,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 5
+        },
+        {
+          "averageRating": 2144,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 1
+        },
+        {
+          "averageRating": 2421,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "YOUNG-BLOOD-222-CHF",
+              "rating": 1790
+            },
+            "id": "DPPSxXTE",
+            "mode": "rated",
+            "month": "2025-04",
+            "speed": "blitz",
+            "white": {
+              "name": "stambul65",
+              "rating": 2421
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 1
+        },
+        {
+          "averageRating": 2071,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "kuinn13",
+              "rating": 2067
+            },
+            "id": "IGQmTZwW",
+            "mode": "rated",
+            "month": "2025-04",
+            "speed": "blitz",
+            "white": {
+              "name": "agus_net",
+              "rating": 2071
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Kf2",
+          "uci": "e1f2",
+          "white": 0
+        },
+        {
+          "averageRating": 2079,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "pabapu",
+              "rating": 2075
+            },
+            "id": "zCf4SID6",
+            "mode": "rated",
+            "month": "2025-04",
+            "speed": "blitz",
+            "white": {
+              "name": "georchess",
+              "rating": 2079
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 922
+    },
+    "2025-05": {
+      "black": 1064,
+      "draws": 79,
+      "moves": [
+        {
+          "averageRating": 2071,
+          "black": 757,
+          "draws": 56,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 759
+        },
+        {
+          "averageRating": 2068,
+          "black": 131,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 130
+        },
+        {
+          "averageRating": 2076,
+          "black": 137,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 118
+        },
+        {
+          "averageRating": 2128,
+          "black": 18,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 12
+        },
+        {
+          "averageRating": 2027,
+          "black": 10,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 10
+        },
+        {
+          "averageRating": 2091,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 14
+        },
+        {
+          "averageRating": 2103,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 3
+        },
+        {
+          "averageRating": 2055,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 2
+        },
+        {
+          "averageRating": 2040,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 1
+        },
+        {
+          "averageRating": 1909,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "usup_ITC",
+              "rating": 2109
+            },
+            "id": "yGTSDG0u",
+            "mode": "rated",
+            "month": "2025-05",
+            "speed": "blitz",
+            "white": {
+              "name": "Abah_Subarjo",
+              "rating": 1909
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Kf2",
+          "uci": "e1f2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 1049
+    },
+    "2025-06": {
+      "black": 906,
+      "draws": 72,
+      "moves": [
+        {
+          "averageRating": 2068,
+          "black": 627,
+          "draws": 52,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 657
+        },
+        {
+          "averageRating": 2070,
+          "black": 138,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 105
+        },
+        {
+          "averageRating": 2061,
+          "black": 115,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 98
+        },
+        {
+          "averageRating": 2125,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 16
+        },
+        {
+          "averageRating": 2088,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 11
+        },
+        {
+          "averageRating": 2011,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 6
+        },
+        {
+          "averageRating": 2058,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 1
+        },
+        {
+          "averageRating": 2017,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 2068,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Ocean56",
+              "rating": 2182
+            },
+            "id": "9RSESSL9",
+            "mode": "rated",
+            "month": "2025-06",
+            "speed": "blitz",
+            "white": {
+              "name": "Thlenga_25",
+              "rating": 2068
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Kf2",
+          "uci": "e1f2",
+          "white": 0
+        },
+        {
+          "averageRating": 2175,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "King_Decaf",
+              "rating": 2157
+            },
+            "id": "H3JN8TYB",
+            "mode": "rated",
+            "month": "2025-06",
+            "speed": "blitz",
+            "white": {
+              "name": "hulphondkonijn",
+              "rating": 2175
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 1
+        },
+        {
+          "averageRating": 2019,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Phillidor_pills",
+              "rating": 2033
+            },
+            "id": "GaPlGvBa",
+            "mode": "rated",
+            "month": "2025-06",
+            "speed": "blitz",
+            "white": {
+              "name": "Popoteur07",
+              "rating": 2019
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 0
+        },
+        {
+          "averageRating": 2085,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Javi64",
+              "rating": 2024
+            },
+            "id": "IizlO0XM",
+            "mode": "rated",
+            "month": "2025-06",
+            "speed": "blitz",
+            "white": {
+              "name": "zijoanin",
+              "rating": 2085
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 897
+    },
+    "2025-07": {
+      "black": 916,
+      "draws": 72,
+      "moves": [
+        {
+          "averageRating": 2068,
+          "black": 609,
+          "draws": 56,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 634
+        },
+        {
+          "averageRating": 2065,
+          "black": 152,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 113
+        },
+        {
+          "averageRating": 2053,
+          "black": 122,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 116
+        },
+        {
+          "averageRating": 2097,
+          "black": 9,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 14
+        },
+        {
+          "averageRating": 2025,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 9
+        },
+        {
+          "averageRating": 2099,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 2
+        },
+        {
+          "averageRating": 2010,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 2
+        },
+        {
+          "averageRating": 2023,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 891
+    },
+    "2025-08": {
+      "black": 906,
+      "draws": 81,
+      "moves": [
+        {
+          "averageRating": 2072,
+          "black": 627,
+          "draws": 64,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 614
+        },
+        {
+          "averageRating": 2074,
+          "black": 141,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 123
+        },
+        {
+          "averageRating": 2062,
+          "black": 104,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 121
+        },
+        {
+          "averageRating": 2032,
+          "black": 15,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 9
+        },
+        {
+          "averageRating": 2078,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 11
+        },
+        {
+          "averageRating": 2027,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 4
+        },
+        {
+          "averageRating": 2118,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 3
+        },
+        {
+          "averageRating": 1933,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 2
+        },
+        {
+          "averageRating": 2077,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "KaziliKuyum",
+              "rating": 2125
+            },
+            "id": "SJuPwyGe",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "zivko1",
+              "rating": 2077
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Kf2",
+          "uci": "e1f2",
+          "white": 0
+        },
+        {
+          "averageRating": 1976,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ahmedoraij",
+              "rating": 2049
+            },
+            "id": "Oi4EBE08",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "sheikh692",
+              "rating": 1976
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 887
+    },
+    "2025-09": {
+      "black": 858,
+      "draws": 75,
+      "moves": [
+        {
+          "averageRating": 2074,
+          "black": 579,
+          "draws": 52,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 611
+        },
+        {
+          "averageRating": 2065,
+          "black": 143,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 105
+        },
+        {
+          "averageRating": 2070,
+          "black": 108,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 90
+        },
+        {
+          "averageRating": 2036,
+          "black": 15,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 5
+        },
+        {
+          "averageRating": 2086,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 8
+        },
+        {
+          "averageRating": 2070,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 3
+        },
+        {
+          "averageRating": 2050,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 823
+    },
+    "2025-10": {
+      "black": 866,
+      "draws": 58,
+      "moves": [
+        {
+          "averageRating": 2071,
+          "black": 601,
+          "draws": 39,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 601
+        },
+        {
+          "averageRating": 2065,
+          "black": 117,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 103
+        },
+        {
+          "averageRating": 2058,
+          "black": 108,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 95
+        },
+        {
+          "averageRating": 2067,
+          "black": 18,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 11
+        },
+        {
+          "averageRating": 2089,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 9
+        },
+        {
+          "averageRating": 2094,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 4
+        },
+        {
+          "averageRating": 2030,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 2
+        },
+        {
+          "averageRating": 2116,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "reiswolf12",
+              "rating": 2118
+            },
+            "id": "OGGSL4Lk",
+            "mode": "rated",
+            "month": "2025-10",
+            "speed": "blitz",
+            "white": {
+              "name": "AMIN_BLUES",
+              "rating": 2116
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 1
+        },
+        {
+          "averageRating": 2059,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "galadak007",
+              "rating": 2039
+            },
+            "id": "e1zSy6O7",
+            "mode": "rated",
+            "month": "2025-10",
+            "speed": "blitz",
+            "white": {
+              "name": "Tamerbashyr",
+              "rating": 2059
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        },
+        {
+          "averageRating": 2073,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Otutu",
+              "rating": 2022
+            },
+            "id": "gDfL4aVX",
+            "mode": "rated",
+            "month": "2025-10",
+            "speed": "blitz",
+            "white": {
+              "name": "WAYAN_99",
+              "rating": 2073
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 828
+    },
+    "2025-11": {
+      "black": 735,
+      "draws": 53,
+      "moves": [
+        {
+          "averageRating": 2074,
+          "black": 494,
+          "draws": 43,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 575
+        },
+        {
+          "averageRating": 2060,
+          "black": 112,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 105
+        },
+        {
+          "averageRating": 2055,
+          "black": 102,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 94
+        },
+        {
+          "averageRating": 2094,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 9
+        },
+        {
+          "averageRating": 2028,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 7
+        },
+        {
+          "averageRating": 2059,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 6
+        },
+        {
+          "averageRating": 2038,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 6
+        },
+        {
+          "averageRating": 2062,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 3
+        },
+        {
+          "averageRating": 2025,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 0
+        },
+        {
+          "averageRating": 2074,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf2",
+          "uci": "e1f2",
+          "white": 0
+        },
+        {
+          "averageRating": 2127,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "fff777",
+              "rating": 2083
+            },
+            "id": "x0hK1Bns",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "SlavaBogy777",
+              "rating": 2127
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 806
+    },
+    "2025-12": {
+      "black": 820,
+      "draws": 72,
+      "moves": [
+        {
+          "averageRating": 2063,
+          "black": 604,
+          "draws": 56,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 624
+        },
+        {
+          "averageRating": 2057,
+          "black": 122,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 94
+        },
+        {
+          "averageRating": 2066,
+          "black": 71,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 77
+        },
+        {
+          "averageRating": 2029,
+          "black": 9,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 11
+        },
+        {
+          "averageRating": 2065,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 8
+        },
+        {
+          "averageRating": 2081,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 8
+        },
+        {
+          "averageRating": 2033,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 3
+        },
+        {
+          "averageRating": 2050,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf2",
+          "uci": "e1f2",
+          "white": 1
+        },
+        {
+          "averageRating": 2001,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 0
+        },
+        {
+          "averageRating": 2016,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Anonymousyb",
+              "rating": 2066
+            },
+            "id": "9fQSZatC",
+            "mode": "rated",
+            "month": "2025-12",
+            "speed": "blitz",
+            "white": {
+              "name": "SovetnikR",
+              "rating": 2016
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 1
+        },
+        {
+          "averageRating": 1928,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Ralphassuncao",
+              "rating": 2076
+            },
+            "id": "3dFMv6N6",
+            "mode": "rated",
+            "month": "2025-12",
+            "speed": "blitz",
+            "white": {
+              "name": "Bawer13",
+              "rating": 1928
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 828
+    },
+    "2026-01": {
+      "black": 814,
+      "draws": 51,
+      "moves": [
+        {
+          "averageRating": 2068,
+          "black": 562,
+          "draws": 42,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 547
+        },
+        {
+          "averageRating": 2064,
+          "black": 114,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 101
+        },
+        {
+          "averageRating": 2058,
+          "black": 102,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 63
+        },
+        {
+          "averageRating": 2097,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 14
+        },
+        {
+          "averageRating": 2075,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 10
+        },
+        {
+          "averageRating": 2072,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 10
+        },
+        {
+          "averageRating": 2030,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf2",
+          "uci": "e1f2",
+          "white": 3
+        },
+        {
+          "averageRating": 2043,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 2
+        },
+        {
+          "averageRating": 2067,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 2
+        },
+        {
+          "averageRating": 2106,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "SchachZapfendorf",
+              "rating": 2137
+            },
+            "id": "MfAezvZD",
+            "mode": "rated",
+            "month": "2026-01",
+            "speed": "blitz",
+            "white": {
+              "name": "sashaga",
+              "rating": 2106
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 752
+    },
+    "2026-02": {
+      "black": 756,
+      "draws": 63,
+      "moves": [
+        {
+          "averageRating": 2066,
+          "black": 549,
+          "draws": 47,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 529
+        },
+        {
+          "averageRating": 2063,
+          "black": 100,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 86
+        },
+        {
+          "averageRating": 2057,
+          "black": 75,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 88
+        },
+        {
+          "averageRating": 2086,
+          "black": 11,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 11
+        },
+        {
+          "averageRating": 2039,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 8
+        },
+        {
+          "averageRating": 2095,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 9
+        },
+        {
+          "averageRating": 2040,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 5
+        },
+        {
+          "averageRating": 2026,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 1
+        },
+        {
+          "averageRating": 2052,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Kf2",
+          "uci": "e1f2",
+          "white": 1
+        },
+        {
+          "averageRating": 2020,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Legendkiller4",
+              "rating": 1991
+            },
+            "id": "09oTv0bI",
+            "mode": "rated",
+            "month": "2026-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Graf1612",
+              "rating": 2020
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e4e5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 738
+    },
+    "2026-03": {
+      "black": 814,
+      "draws": 56,
+      "moves": [
+        {
+          "averageRating": 2065,
+          "black": 577,
+          "draws": 41,
+          "game": null,
+          "opening": null,
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 540
+        },
+        {
+          "averageRating": 2055,
+          "black": 107,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 89
+        },
+        {
+          "averageRating": 2058,
+          "black": 95,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "h4",
+          "uci": "h2h4",
+          "white": 72
+        },
+        {
+          "averageRating": 2064,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 14
+        },
+        {
+          "averageRating": 2048,
+          "black": 13,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 8
+        },
+        {
+          "averageRating": 2137,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Be2",
+          "uci": "f1e2",
+          "white": 3
+        },
+        {
+          "averageRating": 2045,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 1
+        },
+        {
+          "averageRating": 2062,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe2",
+          "uci": "d1e2",
+          "white": 2
+        },
+        {
+          "averageRating": 1996,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "igoden",
+              "rating": 2015
+            },
+            "id": "CyKA5nEU",
+            "mode": "rated",
+            "month": "2026-03",
+            "speed": "blitz",
+            "white": {
+              "name": "popnroll",
+              "rating": 1996
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Kf2",
+          "uci": "e1f2",
+          "white": 0
+        },
+        {
+          "averageRating": 1982,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "cungjupri",
+              "rating": 2021
+            },
+            "id": "ZPL3LT5r",
+            "mode": "rated",
+            "month": "2026-03",
+            "speed": "blitz",
+            "white": {
+              "name": "saleh1989",
+              "rating": 1982
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "h3",
+          "uci": "h2h3",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      },
+      "white": 730
+    },
+    "2026-04": {
+      "white": 380,
+      "draws": 26,
+      "black": 362,
+      "moves": [
+        {
+          "uci": "f1c4",
+          "san": "Bc4",
+          "averageRating": 2067,
+          "white": 268,
+          "draws": 24,
+          "black": 249,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d2d4",
+          "san": "d4",
+          "averageRating": 2058,
+          "white": 49,
+          "draws": 2,
+          "black": 68,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "h2h4",
+          "san": "h4",
+          "averageRating": 2054,
+          "white": 39,
+          "draws": 0,
+          "black": 25,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "g2g3",
+          "san": "g3",
+          "averageRating": 2015,
+          "white": 4,
+          "draws": 0,
+          "black": 8,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "b1c3",
+          "san": "Nc3",
+          "averageRating": 2107,
+          "white": 8,
+          "draws": 0,
+          "black": 3,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f1e2",
+          "san": "Be2",
+          "averageRating": 2153,
+          "white": 7,
+          "draws": 0,
+          "black": 3,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d1e2",
+          "san": "Qe2",
+          "averageRating": 2023,
+          "white": 4,
+          "draws": 0,
+          "black": 3,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d2d3",
+          "san": "d3",
+          "averageRating": 2111,
+          "white": 1,
+          "draws": 0,
+          "black": 3,
+          "game": null,
+          "opening": null
+        }
+      ],
+      "recentGames": [],
+      "topGames": [],
+      "opening": {
+        "eco": "C35",
+        "name": "King's Gambit Accepted: Cunningham Defense"
+      }
+    }
+  }
+}

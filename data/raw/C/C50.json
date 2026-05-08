@@ -1,0 +1,6090 @@
+{
+  "_meta": {
+    "skipped_months": {}
+  },
+  "eco": "C50",
+  "months": {
+    "2023-01": {
+      "black": 60373,
+      "draws": 6283,
+      "moves": [
+        {
+          "averageRating": 2080,
+          "black": 24982,
+          "draws": 2553,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 26499
+        },
+        {
+          "averageRating": 2085,
+          "black": 23361,
+          "draws": 2401,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 23655
+        },
+        {
+          "averageRating": 2076,
+          "black": 4120,
+          "draws": 472,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 4343
+        },
+        {
+          "averageRating": 2064,
+          "black": 2881,
+          "draws": 319,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 3391
+        },
+        {
+          "averageRating": 2042,
+          "black": 1426,
+          "draws": 172,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1829
+        },
+        {
+          "averageRating": 2070,
+          "black": 1555,
+          "draws": 130,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1464
+        },
+        {
+          "averageRating": 2058,
+          "black": 1332,
+          "draws": 160,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 1462
+        },
+        {
+          "averageRating": 2103,
+          "black": 216,
+          "draws": 23,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 243
+        },
+        {
+          "averageRating": 2087,
+          "black": 107,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 96
+        },
+        {
+          "averageRating": 2071,
+          "black": 88,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 92
+        },
+        {
+          "averageRating": 2035,
+          "black": 68,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 89
+        },
+        {
+          "averageRating": 2071,
+          "black": 55,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 78
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 63534
+    },
+    "2023-02": {
+      "black": 54860,
+      "draws": 5628,
+      "moves": [
+        {
+          "averageRating": 2078,
+          "black": 22510,
+          "draws": 2307,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 23503
+        },
+        {
+          "averageRating": 2086,
+          "black": 21455,
+          "draws": 2112,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 21709
+        },
+        {
+          "averageRating": 2076,
+          "black": 3638,
+          "draws": 462,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3780
+        },
+        {
+          "averageRating": 2061,
+          "black": 2572,
+          "draws": 322,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2907
+        },
+        {
+          "averageRating": 2072,
+          "black": 1559,
+          "draws": 128,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1520
+        },
+        {
+          "averageRating": 2043,
+          "black": 1171,
+          "draws": 128,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1604
+        },
+        {
+          "averageRating": 2061,
+          "black": 1207,
+          "draws": 99,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 1213
+        },
+        {
+          "averageRating": 2105,
+          "black": 229,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 227
+        },
+        {
+          "averageRating": 2085,
+          "black": 97,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 110
+        },
+        {
+          "averageRating": 2063,
+          "black": 82,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 104
+        },
+        {
+          "averageRating": 2064,
+          "black": 78,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 83
+        },
+        {
+          "averageRating": 2044,
+          "black": 75,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 87
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 57091
+    },
+    "2023-03": {
+      "black": 59148,
+      "draws": 6248,
+      "moves": [
+        {
+          "averageRating": 2078,
+          "black": 24371,
+          "draws": 2557,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 25885
+        },
+        {
+          "averageRating": 2085,
+          "black": 23198,
+          "draws": 2389,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 23629
+        },
+        {
+          "averageRating": 2077,
+          "black": 3859,
+          "draws": 510,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 4190
+        },
+        {
+          "averageRating": 2063,
+          "black": 2721,
+          "draws": 343,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 3207
+        },
+        {
+          "averageRating": 2070,
+          "black": 1866,
+          "draws": 115,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1836
+        },
+        {
+          "averageRating": 2038,
+          "black": 1201,
+          "draws": 156,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1691
+        },
+        {
+          "averageRating": 2051,
+          "black": 1206,
+          "draws": 112,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 1267
+        },
+        {
+          "averageRating": 2107,
+          "black": 224,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 203
+        },
+        {
+          "averageRating": 2076,
+          "black": 111,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 106
+        },
+        {
+          "averageRating": 2035,
+          "black": 90,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 114
+        },
+        {
+          "averageRating": 2079,
+          "black": 75,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 97
+        },
+        {
+          "averageRating": 2063,
+          "black": 62,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 81
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 62596
+    },
+    "2023-04": {
+      "black": 55853,
+      "draws": 5830,
+      "moves": [
+        {
+          "averageRating": 2078,
+          "black": 22848,
+          "draws": 2303,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 24181
+        },
+        {
+          "averageRating": 2087,
+          "black": 21945,
+          "draws": 2303,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 22737
+        },
+        {
+          "averageRating": 2077,
+          "black": 3723,
+          "draws": 494,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 4015
+        },
+        {
+          "averageRating": 2064,
+          "black": 2750,
+          "draws": 301,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 3129
+        },
+        {
+          "averageRating": 2069,
+          "black": 1632,
+          "draws": 121,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1714
+        },
+        {
+          "averageRating": 2037,
+          "black": 1094,
+          "draws": 128,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1547
+        },
+        {
+          "averageRating": 2053,
+          "black": 1076,
+          "draws": 107,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 1255
+        },
+        {
+          "averageRating": 2105,
+          "black": 242,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 236
+        },
+        {
+          "averageRating": 2054,
+          "black": 134,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 128
+        },
+        {
+          "averageRating": 2079,
+          "black": 92,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 111
+        },
+        {
+          "averageRating": 2092,
+          "black": 88,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 81
+        },
+        {
+          "averageRating": 2063,
+          "black": 55,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "f6",
+          "uci": "f7f6",
+          "white": 80
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 59424
+    },
+    "2023-05": {
+      "black": 58408,
+      "draws": 6166,
+      "moves": [
+        {
+          "averageRating": 2079,
+          "black": 24081,
+          "draws": 2502,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 25550
+        },
+        {
+          "averageRating": 2087,
+          "black": 22677,
+          "draws": 2330,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 23037
+        },
+        {
+          "averageRating": 2077,
+          "black": 3943,
+          "draws": 552,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 4339
+        },
+        {
+          "averageRating": 2060,
+          "black": 2720,
+          "draws": 345,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 3095
+        },
+        {
+          "averageRating": 2070,
+          "black": 2008,
+          "draws": 143,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1871
+        },
+        {
+          "averageRating": 2036,
+          "black": 1187,
+          "draws": 126,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1688
+        },
+        {
+          "averageRating": 2055,
+          "black": 1051,
+          "draws": 102,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 1269
+        },
+        {
+          "averageRating": 2093,
+          "black": 233,
+          "draws": 23,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 217
+        },
+        {
+          "averageRating": 2095,
+          "black": 100,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 122
+        },
+        {
+          "averageRating": 2043,
+          "black": 77,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 81
+        },
+        {
+          "averageRating": 2082,
+          "black": 70,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 81
+        },
+        {
+          "averageRating": 2051,
+          "black": 77,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 66
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 61698
+    },
+    "2023-06": {
+      "black": 56814,
+      "draws": 5771,
+      "moves": [
+        {
+          "averageRating": 2078,
+          "black": 23204,
+          "draws": 2407,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 23893
+        },
+        {
+          "averageRating": 2087,
+          "black": 22489,
+          "draws": 2176,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 22788
+        },
+        {
+          "averageRating": 2077,
+          "black": 3748,
+          "draws": 461,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3914
+        },
+        {
+          "averageRating": 2059,
+          "black": 2553,
+          "draws": 289,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2980
+        },
+        {
+          "averageRating": 2076,
+          "black": 1985,
+          "draws": 142,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1856
+        },
+        {
+          "averageRating": 2038,
+          "black": 1156,
+          "draws": 112,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1644
+        },
+        {
+          "averageRating": 2053,
+          "black": 1006,
+          "draws": 121,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 1143
+        },
+        {
+          "averageRating": 2111,
+          "black": 205,
+          "draws": 22,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 207
+        },
+        {
+          "averageRating": 2047,
+          "black": 97,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 94
+        },
+        {
+          "averageRating": 2069,
+          "black": 70,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "f6",
+          "uci": "f7f6",
+          "white": 114
+        },
+        {
+          "averageRating": 2086,
+          "black": 74,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 88
+        },
+        {
+          "averageRating": 2077,
+          "black": 58,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 73
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 59041
+    },
+    "2023-07": {
+      "black": 56527,
+      "draws": 5899,
+      "moves": [
+        {
+          "averageRating": 2078,
+          "black": 23031,
+          "draws": 2365,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 23992
+        },
+        {
+          "averageRating": 2087,
+          "black": 22247,
+          "draws": 2283,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 22699
+        },
+        {
+          "averageRating": 2078,
+          "black": 3843,
+          "draws": 489,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3971
+        },
+        {
+          "averageRating": 2061,
+          "black": 2448,
+          "draws": 301,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2930
+        },
+        {
+          "averageRating": 2070,
+          "black": 1903,
+          "draws": 142,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1876
+        },
+        {
+          "averageRating": 2042,
+          "black": 1248,
+          "draws": 141,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1639
+        },
+        {
+          "averageRating": 2055,
+          "black": 1080,
+          "draws": 114,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 1165
+        },
+        {
+          "averageRating": 2100,
+          "black": 216,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 173
+        },
+        {
+          "averageRating": 2099,
+          "black": 99,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 113
+        },
+        {
+          "averageRating": 2041,
+          "black": 66,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 95
+        },
+        {
+          "averageRating": 2066,
+          "black": 89,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 70
+        },
+        {
+          "averageRating": 2051,
+          "black": 66,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "f6",
+          "uci": "f7f6",
+          "white": 71
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 59011
+    },
+    "2023-08": {
+      "black": 57309,
+      "draws": 5928,
+      "moves": [
+        {
+          "averageRating": 2078,
+          "black": 23747,
+          "draws": 2376,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 25048
+        },
+        {
+          "averageRating": 2087,
+          "black": 22119,
+          "draws": 2301,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 22301
+        },
+        {
+          "averageRating": 2077,
+          "black": 3893,
+          "draws": 498,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 4043
+        },
+        {
+          "averageRating": 2065,
+          "black": 2467,
+          "draws": 274,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2888
+        },
+        {
+          "averageRating": 2072,
+          "black": 2038,
+          "draws": 151,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1907
+        },
+        {
+          "averageRating": 2037,
+          "black": 1191,
+          "draws": 142,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1733
+        },
+        {
+          "averageRating": 2060,
+          "black": 1141,
+          "draws": 118,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 1275
+        },
+        {
+          "averageRating": 2116,
+          "black": 205,
+          "draws": 21,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 185
+        },
+        {
+          "averageRating": 2083,
+          "black": 93,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 118
+        },
+        {
+          "averageRating": 2062,
+          "black": 91,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 105
+        },
+        {
+          "averageRating": 2077,
+          "black": 82,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 82
+        },
+        {
+          "averageRating": 2070,
+          "black": 58,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 74
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 60026
+    },
+    "2023-09": {
+      "black": 54064,
+      "draws": 5646,
+      "moves": [
+        {
+          "averageRating": 2079,
+          "black": 22376,
+          "draws": 2285,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 23516
+        },
+        {
+          "averageRating": 2086,
+          "black": 21281,
+          "draws": 2232,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 21701
+        },
+        {
+          "averageRating": 2074,
+          "black": 3390,
+          "draws": 449,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3671
+        },
+        {
+          "averageRating": 2058,
+          "black": 2353,
+          "draws": 273,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2808
+        },
+        {
+          "averageRating": 2068,
+          "black": 1897,
+          "draws": 125,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1820
+        },
+        {
+          "averageRating": 2037,
+          "black": 1134,
+          "draws": 118,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1625
+        },
+        {
+          "averageRating": 2055,
+          "black": 1000,
+          "draws": 97,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 1124
+        },
+        {
+          "averageRating": 2103,
+          "black": 152,
+          "draws": 23,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 141
+        },
+        {
+          "averageRating": 2072,
+          "black": 110,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 98
+        },
+        {
+          "averageRating": 2078,
+          "black": 82,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 118
+        },
+        {
+          "averageRating": 2053,
+          "black": 58,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 90
+        },
+        {
+          "averageRating": 2067,
+          "black": 70,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 79
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 57031
+    },
+    "2023-10": {
+      "black": 54023,
+      "draws": 5715,
+      "moves": [
+        {
+          "averageRating": 2079,
+          "black": 22335,
+          "draws": 2328,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 23502
+        },
+        {
+          "averageRating": 2086,
+          "black": 21488,
+          "draws": 2198,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 21800
+        },
+        {
+          "averageRating": 2073,
+          "black": 3263,
+          "draws": 438,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3628
+        },
+        {
+          "averageRating": 2056,
+          "black": 2277,
+          "draws": 264,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2710
+        },
+        {
+          "averageRating": 2072,
+          "black": 1948,
+          "draws": 178,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1915
+        },
+        {
+          "averageRating": 2037,
+          "black": 1124,
+          "draws": 146,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1540
+        },
+        {
+          "averageRating": 2055,
+          "black": 929,
+          "draws": 90,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 1032
+        },
+        {
+          "averageRating": 2102,
+          "black": 159,
+          "draws": 23,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 155
+        },
+        {
+          "averageRating": 2046,
+          "black": 92,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 97
+        },
+        {
+          "averageRating": 2070,
+          "black": 68,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 99
+        },
+        {
+          "averageRating": 2086,
+          "black": 93,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 76
+        },
+        {
+          "averageRating": 2056,
+          "black": 64,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 71
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 56878
+    },
+    "2023-11": {
+      "black": 51862,
+      "draws": 5369,
+      "moves": [
+        {
+          "averageRating": 2078,
+          "black": 21660,
+          "draws": 2200,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 22837
+        },
+        {
+          "averageRating": 2086,
+          "black": 20193,
+          "draws": 2108,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 20589
+        },
+        {
+          "averageRating": 2073,
+          "black": 3352,
+          "draws": 426,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3543
+        },
+        {
+          "averageRating": 2058,
+          "black": 2210,
+          "draws": 267,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2564
+        },
+        {
+          "averageRating": 2069,
+          "black": 2026,
+          "draws": 131,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1987
+        },
+        {
+          "averageRating": 2039,
+          "black": 939,
+          "draws": 107,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1353
+        },
+        {
+          "averageRating": 2058,
+          "black": 791,
+          "draws": 73,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 893
+        },
+        {
+          "averageRating": 2092,
+          "black": 169,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 149
+        },
+        {
+          "averageRating": 2044,
+          "black": 109,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 109
+        },
+        {
+          "averageRating": 2040,
+          "black": 65,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "f6",
+          "uci": "f7f6",
+          "white": 95
+        },
+        {
+          "averageRating": 2060,
+          "black": 68,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 83
+        },
+        {
+          "averageRating": 2088,
+          "black": 76,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 76
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 54527
+    },
+    "2023-12": {
+      "black": 55814,
+      "draws": 5937,
+      "moves": [
+        {
+          "averageRating": 2077,
+          "black": 22834,
+          "draws": 2347,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 24116
+        },
+        {
+          "averageRating": 2087,
+          "black": 21852,
+          "draws": 2353,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 22376
+        },
+        {
+          "averageRating": 2074,
+          "black": 3692,
+          "draws": 476,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 4040
+        },
+        {
+          "averageRating": 2058,
+          "black": 2497,
+          "draws": 301,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2852
+        },
+        {
+          "averageRating": 2070,
+          "black": 2225,
+          "draws": 148,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 2064
+        },
+        {
+          "averageRating": 2033,
+          "black": 1150,
+          "draws": 155,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1595
+        },
+        {
+          "averageRating": 2056,
+          "black": 876,
+          "draws": 94,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 906
+        },
+        {
+          "averageRating": 2096,
+          "black": 145,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 159
+        },
+        {
+          "averageRating": 2043,
+          "black": 121,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 136
+        },
+        {
+          "averageRating": 2089,
+          "black": 106,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 102
+        },
+        {
+          "averageRating": 2086,
+          "black": 74,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 93
+        },
+        {
+          "averageRating": 2072,
+          "black": 73,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 69
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 58794
+    },
+    "2024-01": {
+      "black": 55518,
+      "draws": 5864,
+      "moves": [
+        {
+          "averageRating": 2076,
+          "black": 23026,
+          "draws": 2421,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 24192
+        },
+        {
+          "averageRating": 2086,
+          "black": 21703,
+          "draws": 2204,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 22005
+        },
+        {
+          "averageRating": 2075,
+          "black": 3722,
+          "draws": 518,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 4118
+        },
+        {
+          "averageRating": 2055,
+          "black": 2321,
+          "draws": 295,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2850
+        },
+        {
+          "averageRating": 2071,
+          "black": 2076,
+          "draws": 138,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1966
+        },
+        {
+          "averageRating": 2038,
+          "black": 1197,
+          "draws": 131,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1617
+        },
+        {
+          "averageRating": 2053,
+          "black": 824,
+          "draws": 91,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 967
+        },
+        {
+          "averageRating": 2092,
+          "black": 157,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 172
+        },
+        {
+          "averageRating": 2044,
+          "black": 81,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 109
+        },
+        {
+          "averageRating": 2072,
+          "black": 84,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 86
+        },
+        {
+          "averageRating": 2082,
+          "black": 79,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 87
+        },
+        {
+          "averageRating": 2048,
+          "black": 57,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "f6",
+          "uci": "f7f6",
+          "white": 91
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 58537
+    },
+    "2024-02": {
+      "black": 50599,
+      "draws": 5410,
+      "moves": [
+        {
+          "averageRating": 2079,
+          "black": 21028,
+          "draws": 2191,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 22262
+        },
+        {
+          "averageRating": 2086,
+          "black": 19701,
+          "draws": 2149,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 20357
+        },
+        {
+          "averageRating": 2075,
+          "black": 3373,
+          "draws": 460,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3562
+        },
+        {
+          "averageRating": 2057,
+          "black": 2254,
+          "draws": 253,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2660
+        },
+        {
+          "averageRating": 2067,
+          "black": 1742,
+          "draws": 114,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1643
+        },
+        {
+          "averageRating": 2040,
+          "black": 1057,
+          "draws": 110,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1421
+        },
+        {
+          "averageRating": 2053,
+          "black": 812,
+          "draws": 79,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 908
+        },
+        {
+          "averageRating": 2101,
+          "black": 185,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 181
+        },
+        {
+          "averageRating": 2066,
+          "black": 91,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 92
+        },
+        {
+          "averageRating": 2085,
+          "black": 74,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 91
+        },
+        {
+          "averageRating": 2105,
+          "black": 78,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 78
+        },
+        {
+          "averageRating": 2075,
+          "black": 58,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 76
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 53567
+    },
+    "2024-03": {
+      "black": 54851,
+      "draws": 5648,
+      "moves": [
+        {
+          "averageRating": 2077,
+          "black": 22691,
+          "draws": 2358,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 23990
+        },
+        {
+          "averageRating": 2085,
+          "black": 21527,
+          "draws": 2158,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 22347
+        },
+        {
+          "averageRating": 2073,
+          "black": 3387,
+          "draws": 438,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3882
+        },
+        {
+          "averageRating": 2056,
+          "black": 2430,
+          "draws": 276,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2969
+        },
+        {
+          "averageRating": 2068,
+          "black": 2001,
+          "draws": 142,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1934
+        },
+        {
+          "averageRating": 2041,
+          "black": 1216,
+          "draws": 119,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1635
+        },
+        {
+          "averageRating": 2052,
+          "black": 863,
+          "draws": 92,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 1003
+        },
+        {
+          "averageRating": 2109,
+          "black": 220,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 198
+        },
+        {
+          "averageRating": 2037,
+          "black": 107,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 120
+        },
+        {
+          "averageRating": 2092,
+          "black": 98,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 81
+        },
+        {
+          "averageRating": 2083,
+          "black": 73,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 87
+        },
+        {
+          "averageRating": 2079,
+          "black": 82,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 80
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 58557
+    },
+    "2024-04": {
+      "black": 52207,
+      "draws": 5546,
+      "moves": [
+        {
+          "averageRating": 2078,
+          "black": 21345,
+          "draws": 2207,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 22819
+        },
+        {
+          "averageRating": 2085,
+          "black": 20819,
+          "draws": 2168,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 21837
+        },
+        {
+          "averageRating": 2071,
+          "black": 3407,
+          "draws": 446,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3681
+        },
+        {
+          "averageRating": 2058,
+          "black": 2143,
+          "draws": 276,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2640
+        },
+        {
+          "averageRating": 2073,
+          "black": 1955,
+          "draws": 171,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1837
+        },
+        {
+          "averageRating": 2037,
+          "black": 1039,
+          "draws": 122,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1432
+        },
+        {
+          "averageRating": 2047,
+          "black": 840,
+          "draws": 92,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 946
+        },
+        {
+          "averageRating": 2104,
+          "black": 171,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 180
+        },
+        {
+          "averageRating": 2048,
+          "black": 125,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 111
+        },
+        {
+          "averageRating": 2076,
+          "black": 90,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 76
+        },
+        {
+          "averageRating": 2041,
+          "black": 66,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "f6",
+          "uci": "f7f6",
+          "white": 93
+        },
+        {
+          "averageRating": 2078,
+          "black": 69,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 75
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 55959
+    },
+    "2024-05": {
+      "black": 55261,
+      "draws": 5868,
+      "moves": [
+        {
+          "averageRating": 2078,
+          "black": 22950,
+          "draws": 2423,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 24442
+        },
+        {
+          "averageRating": 2085,
+          "black": 21905,
+          "draws": 2205,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 22320
+        },
+        {
+          "averageRating": 2072,
+          "black": 3602,
+          "draws": 504,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3832
+        },
+        {
+          "averageRating": 2059,
+          "black": 2297,
+          "draws": 277,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2651
+        },
+        {
+          "averageRating": 2069,
+          "black": 1778,
+          "draws": 142,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1749
+        },
+        {
+          "averageRating": 2039,
+          "black": 1183,
+          "draws": 143,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1577
+        },
+        {
+          "averageRating": 2053,
+          "black": 872,
+          "draws": 116,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 1024
+        },
+        {
+          "averageRating": 2089,
+          "black": 200,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 165
+        },
+        {
+          "averageRating": 2074,
+          "black": 102,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 95
+        },
+        {
+          "averageRating": 2042,
+          "black": 84,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 101
+        },
+        {
+          "averageRating": 2082,
+          "black": 76,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 108
+        },
+        {
+          "averageRating": 2044,
+          "black": 50,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "f6",
+          "uci": "f7f6",
+          "white": 67
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 58363
+    },
+    "2024-06": {
+      "black": 50571,
+      "draws": 5170,
+      "moves": [
+        {
+          "averageRating": 2077,
+          "black": 20953,
+          "draws": 2160,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 22112
+        },
+        {
+          "averageRating": 2086,
+          "black": 19951,
+          "draws": 1950,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 20266
+        },
+        {
+          "averageRating": 2074,
+          "black": 3185,
+          "draws": 409,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3613
+        },
+        {
+          "averageRating": 2060,
+          "black": 2332,
+          "draws": 243,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2726
+        },
+        {
+          "averageRating": 2069,
+          "black": 1676,
+          "draws": 126,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1580
+        },
+        {
+          "averageRating": 2039,
+          "black": 1042,
+          "draws": 125,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1367
+        },
+        {
+          "averageRating": 2055,
+          "black": 816,
+          "draws": 79,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 884
+        },
+        {
+          "averageRating": 2101,
+          "black": 187,
+          "draws": 27,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 191
+        },
+        {
+          "averageRating": 2040,
+          "black": 68,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "f6",
+          "uci": "f7f6",
+          "white": 100
+        },
+        {
+          "averageRating": 2036,
+          "black": 74,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 94
+        },
+        {
+          "averageRating": 2080,
+          "black": 70,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 85
+        },
+        {
+          "averageRating": 2091,
+          "black": 67,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 66
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 53320
+    },
+    "2024-07": {
+      "black": 50795,
+      "draws": 5368,
+      "moves": [
+        {
+          "averageRating": 2078,
+          "black": 21242,
+          "draws": 2233,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 22055
+        },
+        {
+          "averageRating": 2086,
+          "black": 19880,
+          "draws": 2014,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 20290
+        },
+        {
+          "averageRating": 2075,
+          "black": 3236,
+          "draws": 405,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3530
+        },
+        {
+          "averageRating": 2058,
+          "black": 2179,
+          "draws": 262,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2594
+        },
+        {
+          "averageRating": 2071,
+          "black": 1726,
+          "draws": 153,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1660
+        },
+        {
+          "averageRating": 2042,
+          "black": 1044,
+          "draws": 122,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1468
+        },
+        {
+          "averageRating": 2052,
+          "black": 840,
+          "draws": 92,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 956
+        },
+        {
+          "averageRating": 2102,
+          "black": 186,
+          "draws": 22,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 168
+        },
+        {
+          "averageRating": 2077,
+          "black": 83,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 82
+        },
+        {
+          "averageRating": 2054,
+          "black": 84,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 64
+        },
+        {
+          "averageRating": 2049,
+          "black": 56,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 97
+        },
+        {
+          "averageRating": 2036,
+          "black": 60,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "f6",
+          "uci": "f7f6",
+          "white": 82
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 53310
+    },
+    "2024-08": {
+      "black": 52261,
+      "draws": 5407,
+      "moves": [
+        {
+          "averageRating": 2079,
+          "black": 22180,
+          "draws": 2237,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 22894
+        },
+        {
+          "averageRating": 2086,
+          "black": 20235,
+          "draws": 2079,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 20654
+        },
+        {
+          "averageRating": 2075,
+          "black": 3274,
+          "draws": 412,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3399
+        },
+        {
+          "averageRating": 2058,
+          "black": 2305,
+          "draws": 262,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2701
+        },
+        {
+          "averageRating": 2072,
+          "black": 1848,
+          "draws": 144,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1789
+        },
+        {
+          "averageRating": 2041,
+          "black": 981,
+          "draws": 106,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1397
+        },
+        {
+          "averageRating": 2054,
+          "black": 807,
+          "draws": 105,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 892
+        },
+        {
+          "averageRating": 2111,
+          "black": 155,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 130
+        },
+        {
+          "averageRating": 2049,
+          "black": 115,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 113
+        },
+        {
+          "averageRating": 2089,
+          "black": 93,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 106
+        },
+        {
+          "averageRating": 2076,
+          "black": 69,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 97
+        },
+        {
+          "averageRating": 2055,
+          "black": 49,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 63
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 54435
+    },
+    "2024-09": {
+      "black": 50832,
+      "draws": 5209,
+      "moves": [
+        {
+          "averageRating": 2080,
+          "black": 20913,
+          "draws": 2127,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 21476
+        },
+        {
+          "averageRating": 2087,
+          "black": 20163,
+          "draws": 2054,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 20847
+        },
+        {
+          "averageRating": 2075,
+          "black": 3238,
+          "draws": 388,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3420
+        },
+        {
+          "averageRating": 2060,
+          "black": 2277,
+          "draws": 252,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2721
+        },
+        {
+          "averageRating": 2073,
+          "black": 1923,
+          "draws": 145,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1908
+        },
+        {
+          "averageRating": 2039,
+          "black": 988,
+          "draws": 116,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1320
+        },
+        {
+          "averageRating": 2058,
+          "black": 743,
+          "draws": 81,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 838
+        },
+        {
+          "averageRating": 2112,
+          "black": 143,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 140
+        },
+        {
+          "averageRating": 2038,
+          "black": 80,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 104
+        },
+        {
+          "averageRating": 2068,
+          "black": 65,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 100
+        },
+        {
+          "averageRating": 2106,
+          "black": 85,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 69
+        },
+        {
+          "averageRating": 2041,
+          "black": 43,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 68
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 53205
+    },
+    "2024-10": {
+      "black": 52884,
+      "draws": 5632,
+      "moves": [
+        {
+          "averageRating": 2079,
+          "black": 21807,
+          "draws": 2356,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 22864
+        },
+        {
+          "averageRating": 2086,
+          "black": 21218,
+          "draws": 2120,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 21642
+        },
+        {
+          "averageRating": 2073,
+          "black": 3214,
+          "draws": 450,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3638
+        },
+        {
+          "averageRating": 2056,
+          "black": 2196,
+          "draws": 286,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2524
+        },
+        {
+          "averageRating": 2072,
+          "black": 1861,
+          "draws": 137,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1790
+        },
+        {
+          "averageRating": 2043,
+          "black": 1138,
+          "draws": 132,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1500
+        },
+        {
+          "averageRating": 2054,
+          "black": 742,
+          "draws": 87,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 818
+        },
+        {
+          "averageRating": 2108,
+          "black": 238,
+          "draws": 22,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 216
+        },
+        {
+          "averageRating": 2039,
+          "black": 96,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 107
+        },
+        {
+          "averageRating": 2100,
+          "black": 94,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 97
+        },
+        {
+          "averageRating": 2039,
+          "black": 52,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "f6",
+          "uci": "f7f6",
+          "white": 92
+        },
+        {
+          "averageRating": 2070,
+          "black": 62,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 77
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 55586
+    },
+    "2024-11": {
+      "black": 48983,
+      "draws": 5233,
+      "moves": [
+        {
+          "averageRating": 2079,
+          "black": 20291,
+          "draws": 2043,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 20937
+        },
+        {
+          "averageRating": 2088,
+          "black": 19356,
+          "draws": 2044,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 19718
+        },
+        {
+          "averageRating": 2073,
+          "black": 3075,
+          "draws": 429,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3362
+        },
+        {
+          "averageRating": 2055,
+          "black": 2056,
+          "draws": 253,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2337
+        },
+        {
+          "averageRating": 2073,
+          "black": 1870,
+          "draws": 152,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1899
+        },
+        {
+          "averageRating": 2040,
+          "black": 992,
+          "draws": 162,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1425
+        },
+        {
+          "averageRating": 2050,
+          "black": 780,
+          "draws": 73,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 876
+        },
+        {
+          "averageRating": 2096,
+          "black": 152,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 167
+        },
+        {
+          "averageRating": 2042,
+          "black": 95,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 111
+        },
+        {
+          "averageRating": 2079,
+          "black": 68,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 76
+        },
+        {
+          "averageRating": 2096,
+          "black": 53,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 59
+        },
+        {
+          "averageRating": 2046,
+          "black": 39,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "f6",
+          "uci": "f7f6",
+          "white": 61
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 51229
+    },
+    "2024-12": {
+      "black": 52158,
+      "draws": 5478,
+      "moves": [
+        {
+          "averageRating": 2077,
+          "black": 21507,
+          "draws": 2235,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 22521
+        },
+        {
+          "averageRating": 2086,
+          "black": 20793,
+          "draws": 2121,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 21166
+        },
+        {
+          "averageRating": 2072,
+          "black": 3335,
+          "draws": 445,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3608
+        },
+        {
+          "averageRating": 2053,
+          "black": 2111,
+          "draws": 262,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2522
+        },
+        {
+          "averageRating": 2068,
+          "black": 1950,
+          "draws": 158,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1930
+        },
+        {
+          "averageRating": 2042,
+          "black": 1061,
+          "draws": 118,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1448
+        },
+        {
+          "averageRating": 2053,
+          "black": 754,
+          "draws": 62,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 889
+        },
+        {
+          "averageRating": 2092,
+          "black": 193,
+          "draws": 21,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 154
+        },
+        {
+          "averageRating": 2037,
+          "black": 122,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 143
+        },
+        {
+          "averageRating": 2069,
+          "black": 67,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 84
+        },
+        {
+          "averageRating": 2081,
+          "black": 65,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 59
+        },
+        {
+          "averageRating": 2054,
+          "black": 54,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 58
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 54790
+    },
+    "2025-01": {
+      "black": 52018,
+      "draws": 5602,
+      "moves": [
+        {
+          "averageRating": 2077,
+          "black": 21713,
+          "draws": 2300,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 22818
+        },
+        {
+          "averageRating": 2087,
+          "black": 20342,
+          "draws": 2112,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 20995
+        },
+        {
+          "averageRating": 2075,
+          "black": 3331,
+          "draws": 462,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3662
+        },
+        {
+          "averageRating": 2052,
+          "black": 2135,
+          "draws": 302,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2527
+        },
+        {
+          "averageRating": 2070,
+          "black": 1983,
+          "draws": 135,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1884
+        },
+        {
+          "averageRating": 2040,
+          "black": 1102,
+          "draws": 144,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1512
+        },
+        {
+          "averageRating": 2047,
+          "black": 837,
+          "draws": 91,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 895
+        },
+        {
+          "averageRating": 2088,
+          "black": 184,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 148
+        },
+        {
+          "averageRating": 2079,
+          "black": 54,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 82
+        },
+        {
+          "averageRating": 2039,
+          "black": 68,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 67
+        },
+        {
+          "averageRating": 2081,
+          "black": 71,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 55
+        },
+        {
+          "averageRating": 2071,
+          "black": 49,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 57
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 54914
+    },
+    "2025-02": {
+      "black": 47270,
+      "draws": 4994,
+      "moves": [
+        {
+          "averageRating": 2078,
+          "black": 19688,
+          "draws": 2075,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 20573
+        },
+        {
+          "averageRating": 2088,
+          "black": 18821,
+          "draws": 1903,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 18775
+        },
+        {
+          "averageRating": 2075,
+          "black": 2859,
+          "draws": 387,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3088
+        },
+        {
+          "averageRating": 2053,
+          "black": 1913,
+          "draws": 254,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2272
+        },
+        {
+          "averageRating": 2066,
+          "black": 1708,
+          "draws": 131,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1759
+        },
+        {
+          "averageRating": 2042,
+          "black": 977,
+          "draws": 125,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1315
+        },
+        {
+          "averageRating": 2044,
+          "black": 737,
+          "draws": 68,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 847
+        },
+        {
+          "averageRating": 2088,
+          "black": 150,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 143
+        },
+        {
+          "averageRating": 2039,
+          "black": 94,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 99
+        },
+        {
+          "averageRating": 2085,
+          "black": 83,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 88
+        },
+        {
+          "averageRating": 2085,
+          "black": 59,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 62
+        },
+        {
+          "averageRating": 2038,
+          "black": 33,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 62
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 49293
+    },
+    "2025-03": {
+      "black": 49820,
+      "draws": 5269,
+      "moves": [
+        {
+          "averageRating": 2078,
+          "black": 20676,
+          "draws": 2181,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 21477
+        },
+        {
+          "averageRating": 2088,
+          "black": 19493,
+          "draws": 2005,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 19977
+        },
+        {
+          "averageRating": 2075,
+          "black": 3135,
+          "draws": 389,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3333
+        },
+        {
+          "averageRating": 2059,
+          "black": 2035,
+          "draws": 255,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2454
+        },
+        {
+          "averageRating": 2070,
+          "black": 1937,
+          "draws": 152,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1970
+        },
+        {
+          "averageRating": 2042,
+          "black": 1003,
+          "draws": 125,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1304
+        },
+        {
+          "averageRating": 2050,
+          "black": 821,
+          "draws": 83,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 902
+        },
+        {
+          "averageRating": 2095,
+          "black": 158,
+          "draws": 27,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 156
+        },
+        {
+          "averageRating": 2060,
+          "black": 137,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 121
+        },
+        {
+          "averageRating": 2094,
+          "black": 120,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 98
+        },
+        {
+          "averageRating": 2082,
+          "black": 64,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 75
+        },
+        {
+          "averageRating": 2027,
+          "black": 60,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 73
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 52178
+    },
+    "2025-04": {
+      "black": 45958,
+      "draws": 4948,
+      "moves": [
+        {
+          "averageRating": 2077,
+          "black": 18993,
+          "draws": 2083,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 20202
+        },
+        {
+          "averageRating": 2085,
+          "black": 17907,
+          "draws": 1869,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 18574
+        },
+        {
+          "averageRating": 2072,
+          "black": 2939,
+          "draws": 382,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3207
+        },
+        {
+          "averageRating": 2055,
+          "black": 1873,
+          "draws": 221,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2176
+        },
+        {
+          "averageRating": 2068,
+          "black": 2015,
+          "draws": 140,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 2054
+        },
+        {
+          "averageRating": 2038,
+          "black": 909,
+          "draws": 121,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1383
+        },
+        {
+          "averageRating": 2045,
+          "black": 656,
+          "draws": 67,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 743
+        },
+        {
+          "averageRating": 2092,
+          "black": 148,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 135
+        },
+        {
+          "averageRating": 2094,
+          "black": 136,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 133
+        },
+        {
+          "averageRating": 2059,
+          "black": 104,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 105
+        },
+        {
+          "averageRating": 2076,
+          "black": 61,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 68
+        },
+        {
+          "averageRating": 2038,
+          "black": 51,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 64
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 49087
+    },
+    "2025-05": {
+      "black": 48496,
+      "draws": 5051,
+      "moves": [
+        {
+          "averageRating": 2079,
+          "black": 19999,
+          "draws": 2083,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 20808
+        },
+        {
+          "averageRating": 2086,
+          "black": 19086,
+          "draws": 1905,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 19247
+        },
+        {
+          "averageRating": 2072,
+          "black": 3183,
+          "draws": 423,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3303
+        },
+        {
+          "averageRating": 2058,
+          "black": 1902,
+          "draws": 243,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2337
+        },
+        {
+          "averageRating": 2065,
+          "black": 2065,
+          "draws": 167,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 2004
+        },
+        {
+          "averageRating": 2035,
+          "black": 886,
+          "draws": 90,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1208
+        },
+        {
+          "averageRating": 2048,
+          "black": 698,
+          "draws": 75,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 758
+        },
+        {
+          "averageRating": 2093,
+          "black": 163,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 144
+        },
+        {
+          "averageRating": 2040,
+          "black": 104,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 99
+        },
+        {
+          "averageRating": 2093,
+          "black": 91,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 75
+        },
+        {
+          "averageRating": 2044,
+          "black": 73,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Bb4",
+          "uci": "f8b4",
+          "white": 82
+        },
+        {
+          "averageRating": 2055,
+          "black": 55,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 85
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 50410
+    },
+    "2025-06": {
+      "black": 46988,
+      "draws": 5008,
+      "moves": [
+        {
+          "averageRating": 2078,
+          "black": 19604,
+          "draws": 2004,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 20145
+        },
+        {
+          "averageRating": 2085,
+          "black": 18288,
+          "draws": 1977,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 19102
+        },
+        {
+          "averageRating": 2071,
+          "black": 3077,
+          "draws": 384,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3310
+        },
+        {
+          "averageRating": 2058,
+          "black": 1900,
+          "draws": 241,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2309
+        },
+        {
+          "averageRating": 2070,
+          "black": 1937,
+          "draws": 143,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1918
+        },
+        {
+          "averageRating": 2042,
+          "black": 938,
+          "draws": 123,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1332
+        },
+        {
+          "averageRating": 2047,
+          "black": 636,
+          "draws": 75,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 706
+        },
+        {
+          "averageRating": 2084,
+          "black": 123,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 120
+        },
+        {
+          "averageRating": 2054,
+          "black": 122,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 112
+        },
+        {
+          "averageRating": 2077,
+          "black": 58,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 80
+        },
+        {
+          "averageRating": 2084,
+          "black": 71,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 53
+        },
+        {
+          "averageRating": 2047,
+          "black": 61,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 53
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 49476
+    },
+    "2025-07": {
+      "black": 48662,
+      "draws": 5136,
+      "moves": [
+        {
+          "averageRating": 2078,
+          "black": 20079,
+          "draws": 2087,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 21370
+        },
+        {
+          "averageRating": 2085,
+          "black": 19339,
+          "draws": 1999,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 19801
+        },
+        {
+          "averageRating": 2073,
+          "black": 3097,
+          "draws": 427,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3346
+        },
+        {
+          "averageRating": 2058,
+          "black": 2037,
+          "draws": 247,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2193
+        },
+        {
+          "averageRating": 2066,
+          "black": 1813,
+          "draws": 134,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1967
+        },
+        {
+          "averageRating": 2041,
+          "black": 955,
+          "draws": 97,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1284
+        },
+        {
+          "averageRating": 2049,
+          "black": 733,
+          "draws": 80,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 793
+        },
+        {
+          "averageRating": 2092,
+          "black": 172,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 156
+        },
+        {
+          "averageRating": 2042,
+          "black": 91,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 100
+        },
+        {
+          "averageRating": 2039,
+          "black": 67,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 82
+        },
+        {
+          "averageRating": 2070,
+          "black": 57,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 68
+        },
+        {
+          "averageRating": 2088,
+          "black": 58,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 58
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 51488
+    },
+    "2025-08": {
+      "black": 47579,
+      "draws": 4937,
+      "moves": [
+        {
+          "averageRating": 2078,
+          "black": 19816,
+          "draws": 2057,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 20595
+        },
+        {
+          "averageRating": 2084,
+          "black": 18765,
+          "draws": 1837,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 19432
+        },
+        {
+          "averageRating": 2074,
+          "black": 3072,
+          "draws": 426,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3404
+        },
+        {
+          "averageRating": 2059,
+          "black": 1894,
+          "draws": 258,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2187
+        },
+        {
+          "averageRating": 2067,
+          "black": 1785,
+          "draws": 120,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1875
+        },
+        {
+          "averageRating": 2045,
+          "black": 935,
+          "draws": 114,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1334
+        },
+        {
+          "averageRating": 2048,
+          "black": 681,
+          "draws": 61,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 708
+        },
+        {
+          "averageRating": 2106,
+          "black": 153,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 141
+        },
+        {
+          "averageRating": 2040,
+          "black": 123,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 107
+        },
+        {
+          "averageRating": 2089,
+          "black": 73,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 89
+        },
+        {
+          "averageRating": 2076,
+          "black": 60,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 77
+        },
+        {
+          "averageRating": 2077,
+          "black": 68,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 63
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 50250
+    },
+    "2025-09": {
+      "black": 44553,
+      "draws": 4675,
+      "moves": [
+        {
+          "averageRating": 2077,
+          "black": 18200,
+          "draws": 1878,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 19107
+        },
+        {
+          "averageRating": 2085,
+          "black": 17710,
+          "draws": 1855,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 18441
+        },
+        {
+          "averageRating": 2076,
+          "black": 2831,
+          "draws": 355,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3033
+        },
+        {
+          "averageRating": 2060,
+          "black": 1861,
+          "draws": 222,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2038
+        },
+        {
+          "averageRating": 2066,
+          "black": 1811,
+          "draws": 146,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1852
+        },
+        {
+          "averageRating": 2039,
+          "black": 892,
+          "draws": 98,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1180
+        },
+        {
+          "averageRating": 2051,
+          "black": 698,
+          "draws": 64,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 740
+        },
+        {
+          "averageRating": 2097,
+          "black": 116,
+          "draws": 26,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 126
+        },
+        {
+          "averageRating": 2036,
+          "black": 86,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 70
+        },
+        {
+          "averageRating": 2060,
+          "black": 59,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 68
+        },
+        {
+          "averageRating": 2087,
+          "black": 69,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 57
+        },
+        {
+          "averageRating": 2030,
+          "black": 56,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 56
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 46992
+    },
+    "2025-10": {
+      "black": 45732,
+      "draws": 4783,
+      "moves": [
+        {
+          "averageRating": 2077,
+          "black": 18645,
+          "draws": 2012,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 19279
+        },
+        {
+          "averageRating": 2085,
+          "black": 18070,
+          "draws": 1817,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 18352
+        },
+        {
+          "averageRating": 2072,
+          "black": 3020,
+          "draws": 373,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3114
+        },
+        {
+          "averageRating": 2057,
+          "black": 1903,
+          "draws": 216,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2273
+        },
+        {
+          "averageRating": 2066,
+          "black": 1739,
+          "draws": 136,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1762
+        },
+        {
+          "averageRating": 2038,
+          "black": 884,
+          "draws": 92,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1198
+        },
+        {
+          "averageRating": 2050,
+          "black": 763,
+          "draws": 70,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 899
+        },
+        {
+          "averageRating": 2097,
+          "black": 179,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 135
+        },
+        {
+          "averageRating": 2051,
+          "black": 128,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 106
+        },
+        {
+          "averageRating": 2031,
+          "black": 84,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 100
+        },
+        {
+          "averageRating": 2060,
+          "black": 68,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 71
+        },
+        {
+          "averageRating": 2080,
+          "black": 61,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 62
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 47593
+    },
+    "2025-11": {
+      "black": 44790,
+      "draws": 4711,
+      "moves": [
+        {
+          "averageRating": 2079,
+          "black": 18421,
+          "draws": 1949,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 19163
+        },
+        {
+          "averageRating": 2087,
+          "black": 17731,
+          "draws": 1825,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 17987
+        },
+        {
+          "averageRating": 2074,
+          "black": 2864,
+          "draws": 377,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3111
+        },
+        {
+          "averageRating": 2062,
+          "black": 1778,
+          "draws": 214,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2079
+        },
+        {
+          "averageRating": 2063,
+          "black": 1734,
+          "draws": 131,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1697
+        },
+        {
+          "averageRating": 2046,
+          "black": 924,
+          "draws": 90,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1201
+        },
+        {
+          "averageRating": 2048,
+          "black": 711,
+          "draws": 66,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 689
+        },
+        {
+          "averageRating": 2093,
+          "black": 159,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 143
+        },
+        {
+          "averageRating": 2082,
+          "black": 78,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 94
+        },
+        {
+          "averageRating": 2035,
+          "black": 70,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 84
+        },
+        {
+          "averageRating": 2040,
+          "black": 83,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 63
+        },
+        {
+          "averageRating": 2076,
+          "black": 78,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 70
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 46604
+    },
+    "2025-12": {
+      "black": 47919,
+      "draws": 5101,
+      "moves": [
+        {
+          "averageRating": 2077,
+          "black": 19661,
+          "draws": 2131,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 20334
+        },
+        {
+          "averageRating": 2087,
+          "black": 19305,
+          "draws": 1974,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 19538
+        },
+        {
+          "averageRating": 2072,
+          "black": 3070,
+          "draws": 392,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3171
+        },
+        {
+          "averageRating": 2057,
+          "black": 1939,
+          "draws": 265,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2212
+        },
+        {
+          "averageRating": 2068,
+          "black": 1719,
+          "draws": 125,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1751
+        },
+        {
+          "averageRating": 2037,
+          "black": 955,
+          "draws": 97,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1215
+        },
+        {
+          "averageRating": 2055,
+          "black": 651,
+          "draws": 57,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 754
+        },
+        {
+          "averageRating": 2091,
+          "black": 158,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 171
+        },
+        {
+          "averageRating": 2100,
+          "black": 90,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 87
+        },
+        {
+          "averageRating": 2033,
+          "black": 81,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 93
+        },
+        {
+          "averageRating": 2071,
+          "black": 75,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 97
+        },
+        {
+          "averageRating": 2051,
+          "black": 60,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 61
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 49710
+    },
+    "2026-01": {
+      "black": 46834,
+      "draws": 5058,
+      "moves": [
+        {
+          "averageRating": 2079,
+          "black": 19262,
+          "draws": 2065,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 19412
+        },
+        {
+          "averageRating": 2087,
+          "black": 18754,
+          "draws": 2016,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 18894
+        },
+        {
+          "averageRating": 2075,
+          "black": 3005,
+          "draws": 382,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 3069
+        },
+        {
+          "averageRating": 2063,
+          "black": 1859,
+          "draws": 236,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 2118
+        },
+        {
+          "averageRating": 2072,
+          "black": 1770,
+          "draws": 125,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1688
+        },
+        {
+          "averageRating": 2034,
+          "black": 821,
+          "draws": 109,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1175
+        },
+        {
+          "averageRating": 2053,
+          "black": 655,
+          "draws": 62,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 723
+        },
+        {
+          "averageRating": 2101,
+          "black": 197,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 160
+        },
+        {
+          "averageRating": 2047,
+          "black": 119,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 103
+        },
+        {
+          "averageRating": 2054,
+          "black": 95,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 104
+        },
+        {
+          "averageRating": 2068,
+          "black": 65,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 78
+        },
+        {
+          "averageRating": 2098,
+          "black": 69,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 69
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 47855
+    },
+    "2026-02": {
+      "black": 40378,
+      "draws": 4365,
+      "moves": [
+        {
+          "averageRating": 2087,
+          "black": 16680,
+          "draws": 1768,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 17254
+        },
+        {
+          "averageRating": 2078,
+          "black": 16338,
+          "draws": 1717,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 17023
+        },
+        {
+          "averageRating": 2076,
+          "black": 2380,
+          "draws": 318,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 2576
+        },
+        {
+          "averageRating": 2060,
+          "black": 1585,
+          "draws": 209,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 1905
+        },
+        {
+          "averageRating": 2071,
+          "black": 1462,
+          "draws": 131,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1426
+        },
+        {
+          "averageRating": 2037,
+          "black": 759,
+          "draws": 103,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 922
+        },
+        {
+          "averageRating": 2056,
+          "black": 558,
+          "draws": 53,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 633
+        },
+        {
+          "averageRating": 2098,
+          "black": 169,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 139
+        },
+        {
+          "averageRating": 2045,
+          "black": 77,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 70
+        },
+        {
+          "averageRating": 2111,
+          "black": 62,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nge7",
+          "uci": "g8e7",
+          "white": 86
+        },
+        {
+          "averageRating": 2047,
+          "black": 69,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 71
+        },
+        {
+          "averageRating": 2085,
+          "black": 62,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 67
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 42417
+    },
+    "2026-03": {
+      "black": 41551,
+      "draws": 4401,
+      "moves": [
+        {
+          "averageRating": 2087,
+          "black": 17248,
+          "draws": 1851,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          },
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 17594
+        },
+        {
+          "averageRating": 2078,
+          "black": 16632,
+          "draws": 1738,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          },
+          "san": "Bc5",
+          "uci": "f8c5",
+          "white": 17479
+        },
+        {
+          "averageRating": 2077,
+          "black": 2479,
+          "draws": 318,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          },
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 2743
+        },
+        {
+          "averageRating": 2064,
+          "black": 1737,
+          "draws": 185,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          },
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 1850
+        },
+        {
+          "averageRating": 2068,
+          "black": 1606,
+          "draws": 111,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          },
+          "san": "f5",
+          "uci": "f7f5",
+          "white": 1574
+        },
+        {
+          "averageRating": 2035,
+          "black": 688,
+          "draws": 83,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          },
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 925
+        },
+        {
+          "averageRating": 2051,
+          "black": 541,
+          "draws": 48,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          },
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 587
+        },
+        {
+          "averageRating": 2092,
+          "black": 185,
+          "draws": 24,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 146
+        },
+        {
+          "averageRating": 2044,
+          "black": 94,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 112
+        },
+        {
+          "averageRating": 2065,
+          "black": 60,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 91
+        },
+        {
+          "averageRating": 2053,
+          "black": 68,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Qf6",
+          "uci": "d8f6",
+          "white": 82
+        },
+        {
+          "averageRating": 2051,
+          "black": 59,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 83
+        }
+      ],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      },
+      "white": 43503
+    },
+    "2026-04": {
+      "white": 22618,
+      "draws": 2258,
+      "black": 21584,
+      "moves": [
+        {
+          "uci": "g8f6",
+          "san": "Nf6",
+          "averageRating": 2086,
+          "white": 9106,
+          "draws": 891,
+          "black": 9052,
+          "game": null,
+          "opening": {
+            "eco": "C55",
+            "name": "Italian Game: Two Knights Defense"
+          }
+        },
+        {
+          "uci": "f8c5",
+          "san": "Bc5",
+          "averageRating": 2078,
+          "white": 9102,
+          "draws": 919,
+          "black": 8642,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Giuoco Piano"
+          }
+        },
+        {
+          "uci": "f8e7",
+          "san": "Be7",
+          "averageRating": 2077,
+          "white": 1423,
+          "draws": 173,
+          "black": 1283,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Hungarian Defense"
+          }
+        },
+        {
+          "uci": "d7d6",
+          "san": "d6",
+          "averageRating": 2062,
+          "white": 941,
+          "draws": 99,
+          "black": 867,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Paris Defense"
+          }
+        },
+        {
+          "uci": "f7f5",
+          "san": "f5",
+          "averageRating": 2061,
+          "white": 851,
+          "draws": 64,
+          "black": 845,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Rousseau Gambit"
+          }
+        },
+        {
+          "uci": "h7h6",
+          "san": "h6",
+          "averageRating": 2040,
+          "white": 542,
+          "draws": 50,
+          "black": 335,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Anti-Fried Liver Defense"
+          }
+        },
+        {
+          "uci": "c6d4",
+          "san": "Nd4",
+          "averageRating": 2050,
+          "white": 305,
+          "draws": 29,
+          "black": 266,
+          "game": null,
+          "opening": {
+            "eco": "C50",
+            "name": "Italian Game: Blackburne-Kosti\u0107 Gambit"
+          }
+        },
+        {
+          "uci": "g7g6",
+          "san": "g6",
+          "averageRating": 2099,
+          "white": 64,
+          "draws": 9,
+          "black": 69,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d8e7",
+          "san": "Qe7",
+          "averageRating": 2048,
+          "white": 62,
+          "draws": 5,
+          "black": 54,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "a7a6",
+          "san": "a6",
+          "averageRating": 2078,
+          "white": 48,
+          "draws": 4,
+          "black": 35,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f8d6",
+          "san": "Bd6",
+          "averageRating": 2052,
+          "white": 32,
+          "draws": 2,
+          "black": 33,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d8f6",
+          "san": "Qf6",
+          "averageRating": 2052,
+          "white": 31,
+          "draws": 2,
+          "black": 29,
+          "game": null,
+          "opening": null
+        }
+      ],
+      "recentGames": [],
+      "topGames": [],
+      "opening": {
+        "eco": "C50",
+        "name": "Italian Game"
+      }
+    }
+  }
+}

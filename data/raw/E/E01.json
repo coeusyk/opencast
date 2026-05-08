@@ -1,0 +1,5370 @@
+{
+  "_meta": {
+    "skipped_months": {}
+  },
+  "eco": "E01",
+  "months": {
+    "2023-01": {
+      "black": 1295,
+      "draws": 231,
+      "moves": [
+        {
+          "averageRating": 2090,
+          "black": 357,
+          "draws": 74,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 513
+        },
+        {
+          "averageRating": 2104,
+          "black": 391,
+          "draws": 72,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 464
+        },
+        {
+          "averageRating": 2103,
+          "black": 148,
+          "draws": 27,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 170
+        },
+        {
+          "averageRating": 2106,
+          "black": 132,
+          "draws": 17,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 161
+        },
+        {
+          "averageRating": 2083,
+          "black": 115,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 127
+        },
+        {
+          "averageRating": 2097,
+          "black": 59,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 70
+        },
+        {
+          "averageRating": 2106,
+          "black": 24,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 29
+        },
+        {
+          "averageRating": 2074,
+          "black": 21,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 23
+        },
+        {
+          "averageRating": 2087,
+          "black": 16,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 22
+        },
+        {
+          "averageRating": 2067,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 15
+        },
+        {
+          "averageRating": 2104,
+          "black": 13,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 9
+        },
+        {
+          "averageRating": 2100,
+          "black": 4,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 12
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1627
+    },
+    "2023-02": {
+      "black": 1295,
+      "draws": 189,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 422,
+          "draws": 48,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 441
+        },
+        {
+          "averageRating": 2091,
+          "black": 358,
+          "draws": 59,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 459
+        },
+        {
+          "averageRating": 2098,
+          "black": 144,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 183
+        },
+        {
+          "averageRating": 2101,
+          "black": 137,
+          "draws": 13,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 158
+        },
+        {
+          "averageRating": 2082,
+          "black": 109,
+          "draws": 21,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 118
+        },
+        {
+          "averageRating": 2089,
+          "black": 58,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 69
+        },
+        {
+          "averageRating": 2093,
+          "black": 14,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 31
+        },
+        {
+          "averageRating": 2094,
+          "black": 14,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 20
+        },
+        {
+          "averageRating": 2090,
+          "black": 11,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 21
+        },
+        {
+          "averageRating": 2060,
+          "black": 7,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 21
+        },
+        {
+          "averageRating": 2081,
+          "black": 11,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 16
+        },
+        {
+          "averageRating": 2094,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 8
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1554
+    },
+    "2023-03": {
+      "black": 1375,
+      "draws": 189,
+      "moves": [
+        {
+          "averageRating": 2090,
+          "black": 404,
+          "draws": 51,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 495
+        },
+        {
+          "averageRating": 2112,
+          "black": 401,
+          "draws": 71,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 475
+        },
+        {
+          "averageRating": 2095,
+          "black": 150,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 194
+        },
+        {
+          "averageRating": 2102,
+          "black": 143,
+          "draws": 20,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 175
+        },
+        {
+          "averageRating": 2072,
+          "black": 120,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 134
+        },
+        {
+          "averageRating": 2084,
+          "black": 63,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 67
+        },
+        {
+          "averageRating": 2070,
+          "black": 22,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 25
+        },
+        {
+          "averageRating": 2097,
+          "black": 16,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 27
+        },
+        {
+          "averageRating": 2087,
+          "black": 11,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 26
+        },
+        {
+          "averageRating": 2085,
+          "black": 9,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 15
+        },
+        {
+          "averageRating": 2099,
+          "black": 15,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 8
+        },
+        {
+          "averageRating": 2093,
+          "black": 15,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 9
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1660
+    },
+    "2023-04": {
+      "black": 1370,
+      "draws": 196,
+      "moves": [
+        {
+          "averageRating": 2106,
+          "black": 426,
+          "draws": 60,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 478
+        },
+        {
+          "averageRating": 2089,
+          "black": 366,
+          "draws": 49,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 513
+        },
+        {
+          "averageRating": 2096,
+          "black": 172,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 217
+        },
+        {
+          "averageRating": 2098,
+          "black": 139,
+          "draws": 20,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 201
+        },
+        {
+          "averageRating": 2075,
+          "black": 101,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 142
+        },
+        {
+          "averageRating": 2094,
+          "black": 59,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 66
+        },
+        {
+          "averageRating": 2091,
+          "black": 25,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 36
+        },
+        {
+          "averageRating": 2108,
+          "black": 19,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 25
+        },
+        {
+          "averageRating": 2093,
+          "black": 16,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 20
+        },
+        {
+          "averageRating": 2076,
+          "black": 13,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 20
+        },
+        {
+          "averageRating": 2071,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 13
+        },
+        {
+          "averageRating": 2062,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 10
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1754
+    },
+    "2023-05": {
+      "black": 1461,
+      "draws": 229,
+      "moves": [
+        {
+          "averageRating": 2105,
+          "black": 497,
+          "draws": 84,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 479
+        },
+        {
+          "averageRating": 2085,
+          "black": 379,
+          "draws": 58,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 538
+        },
+        {
+          "averageRating": 2100,
+          "black": 173,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 210
+        },
+        {
+          "averageRating": 2096,
+          "black": 151,
+          "draws": 27,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 188
+        },
+        {
+          "averageRating": 2066,
+          "black": 116,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 140
+        },
+        {
+          "averageRating": 2096,
+          "black": 49,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 76
+        },
+        {
+          "averageRating": 2106,
+          "black": 24,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 26
+        },
+        {
+          "averageRating": 2091,
+          "black": 19,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 26
+        },
+        {
+          "averageRating": 2091,
+          "black": 17,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 17
+        },
+        {
+          "averageRating": 2098,
+          "black": 10,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 15
+        },
+        {
+          "averageRating": 2062,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 12
+        },
+        {
+          "averageRating": 2086,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 14
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1752
+    },
+    "2023-06": {
+      "black": 1336,
+      "draws": 181,
+      "moves": [
+        {
+          "averageRating": 2105,
+          "black": 402,
+          "draws": 59,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 497
+        },
+        {
+          "averageRating": 2084,
+          "black": 379,
+          "draws": 47,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 515
+        },
+        {
+          "averageRating": 2104,
+          "black": 171,
+          "draws": 16,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 197
+        },
+        {
+          "averageRating": 2099,
+          "black": 143,
+          "draws": 27,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 204
+        },
+        {
+          "averageRating": 2081,
+          "black": 92,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 110
+        },
+        {
+          "averageRating": 2096,
+          "black": 63,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 72
+        },
+        {
+          "averageRating": 2079,
+          "black": 21,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 28
+        },
+        {
+          "averageRating": 2069,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 22
+        },
+        {
+          "averageRating": 2090,
+          "black": 12,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 20
+        },
+        {
+          "averageRating": 2075,
+          "black": 13,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 14
+        },
+        {
+          "averageRating": 2065,
+          "black": 10,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 17
+        },
+        {
+          "averageRating": 2083,
+          "black": 14,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 11
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1718
+    },
+    "2023-07": {
+      "black": 1536,
+      "draws": 228,
+      "moves": [
+        {
+          "averageRating": 2107,
+          "black": 493,
+          "draws": 71,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 494
+        },
+        {
+          "averageRating": 2090,
+          "black": 413,
+          "draws": 59,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 529
+        },
+        {
+          "averageRating": 2102,
+          "black": 188,
+          "draws": 27,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 199
+        },
+        {
+          "averageRating": 2099,
+          "black": 161,
+          "draws": 31,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 166
+        },
+        {
+          "averageRating": 2085,
+          "black": 125,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 122
+        },
+        {
+          "averageRating": 2084,
+          "black": 63,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 80
+        },
+        {
+          "averageRating": 2107,
+          "black": 24,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 36
+        },
+        {
+          "averageRating": 2068,
+          "black": 16,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 21
+        },
+        {
+          "averageRating": 2079,
+          "black": 15,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 21
+        },
+        {
+          "averageRating": 2052,
+          "black": 15,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 18
+        },
+        {
+          "averageRating": 2080,
+          "black": 10,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 13
+        },
+        {
+          "averageRating": 2114,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 6
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1711
+    },
+    "2023-08": {
+      "black": 1418,
+      "draws": 204,
+      "moves": [
+        {
+          "averageRating": 2103,
+          "black": 442,
+          "draws": 76,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 493
+        },
+        {
+          "averageRating": 2085,
+          "black": 360,
+          "draws": 44,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 516
+        },
+        {
+          "averageRating": 2099,
+          "black": 187,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 214
+        },
+        {
+          "averageRating": 2092,
+          "black": 142,
+          "draws": 19,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 219
+        },
+        {
+          "averageRating": 2082,
+          "black": 102,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 129
+        },
+        {
+          "averageRating": 2093,
+          "black": 79,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 90
+        },
+        {
+          "averageRating": 2100,
+          "black": 25,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 30
+        },
+        {
+          "averageRating": 2076,
+          "black": 10,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 30
+        },
+        {
+          "averageRating": 2096,
+          "black": 23,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 16
+        },
+        {
+          "averageRating": 2093,
+          "black": 16,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 21
+        },
+        {
+          "averageRating": 2074,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 15
+        },
+        {
+          "averageRating": 2118,
+          "black": 15,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 10
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1794
+    },
+    "2023-09": {
+      "black": 1282,
+      "draws": 232,
+      "moves": [
+        {
+          "averageRating": 2106,
+          "black": 385,
+          "draws": 82,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 488
+        },
+        {
+          "averageRating": 2086,
+          "black": 356,
+          "draws": 59,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 472
+        },
+        {
+          "averageRating": 2095,
+          "black": 155,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 207
+        },
+        {
+          "averageRating": 2106,
+          "black": 134,
+          "draws": 27,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 179
+        },
+        {
+          "averageRating": 2068,
+          "black": 92,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 120
+        },
+        {
+          "averageRating": 2082,
+          "black": 61,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 83
+        },
+        {
+          "averageRating": 2112,
+          "black": 22,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 31
+        },
+        {
+          "averageRating": 2086,
+          "black": 17,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 26
+        },
+        {
+          "averageRating": 2077,
+          "black": 14,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 22
+        },
+        {
+          "averageRating": 2085,
+          "black": 17,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 18
+        },
+        {
+          "averageRating": 2054,
+          "black": 14,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 11
+        },
+        {
+          "averageRating": 2096,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 15
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1682
+    },
+    "2023-10": {
+      "black": 1426,
+      "draws": 204,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 436,
+          "draws": 56,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 507
+        },
+        {
+          "averageRating": 2081,
+          "black": 387,
+          "draws": 70,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 518
+        },
+        {
+          "averageRating": 2095,
+          "black": 176,
+          "draws": 26,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 194
+        },
+        {
+          "averageRating": 2097,
+          "black": 156,
+          "draws": 25,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 167
+        },
+        {
+          "averageRating": 2073,
+          "black": 115,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 119
+        },
+        {
+          "averageRating": 2083,
+          "black": 62,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 74
+        },
+        {
+          "averageRating": 2080,
+          "black": 25,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 27
+        },
+        {
+          "averageRating": 2084,
+          "black": 15,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 25
+        },
+        {
+          "averageRating": 2103,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 25
+        },
+        {
+          "averageRating": 2102,
+          "black": 11,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 13
+        },
+        {
+          "averageRating": 2102,
+          "black": 10,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 13
+        },
+        {
+          "averageRating": 2048,
+          "black": 13,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 11
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1707
+    },
+    "2023-11": {
+      "black": 1249,
+      "draws": 213,
+      "moves": [
+        {
+          "averageRating": 2089,
+          "black": 357,
+          "draws": 64,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 479
+        },
+        {
+          "averageRating": 2104,
+          "black": 377,
+          "draws": 62,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 439
+        },
+        {
+          "averageRating": 2100,
+          "black": 142,
+          "draws": 26,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 160
+        },
+        {
+          "averageRating": 2093,
+          "black": 146,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 157
+        },
+        {
+          "averageRating": 2087,
+          "black": 94,
+          "draws": 23,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 111
+        },
+        {
+          "averageRating": 2093,
+          "black": 57,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 45
+        },
+        {
+          "averageRating": 2097,
+          "black": 13,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 33
+        },
+        {
+          "averageRating": 2081,
+          "black": 24,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 18
+        },
+        {
+          "averageRating": 2096,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 17
+        },
+        {
+          "averageRating": 2116,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 14
+        },
+        {
+          "averageRating": 2062,
+          "black": 10,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 14
+        },
+        {
+          "averageRating": 2068,
+          "black": 7,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 8
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1505
+    },
+    "2023-12": {
+      "black": 1326,
+      "draws": 209,
+      "moves": [
+        {
+          "averageRating": 2104,
+          "black": 414,
+          "draws": 61,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 495
+        },
+        {
+          "averageRating": 2088,
+          "black": 393,
+          "draws": 66,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 508
+        },
+        {
+          "averageRating": 2093,
+          "black": 137,
+          "draws": 21,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 202
+        },
+        {
+          "averageRating": 2094,
+          "black": 145,
+          "draws": 24,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 183
+        },
+        {
+          "averageRating": 2079,
+          "black": 99,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 133
+        },
+        {
+          "averageRating": 2090,
+          "black": 48,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 70
+        },
+        {
+          "averageRating": 2075,
+          "black": 19,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 28
+        },
+        {
+          "averageRating": 2050,
+          "black": 16,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 26
+        },
+        {
+          "averageRating": 2116,
+          "black": 19,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 18
+        },
+        {
+          "averageRating": 2093,
+          "black": 13,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 14
+        },
+        {
+          "averageRating": 2123,
+          "black": 10,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 10
+        },
+        {
+          "averageRating": 2102,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 4
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1703
+    },
+    "2024-01": {
+      "black": 1386,
+      "draws": 201,
+      "moves": [
+        {
+          "averageRating": 2106,
+          "black": 430,
+          "draws": 60,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 470
+        },
+        {
+          "averageRating": 2085,
+          "black": 369,
+          "draws": 72,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 488
+        },
+        {
+          "averageRating": 2099,
+          "black": 160,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 202
+        },
+        {
+          "averageRating": 2105,
+          "black": 157,
+          "draws": 17,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 184
+        },
+        {
+          "averageRating": 2076,
+          "black": 108,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 135
+        },
+        {
+          "averageRating": 2098,
+          "black": 60,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 62
+        },
+        {
+          "averageRating": 2095,
+          "black": 24,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 34
+        },
+        {
+          "averageRating": 2077,
+          "black": 29,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 21
+        },
+        {
+          "averageRating": 2095,
+          "black": 11,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 25
+        },
+        {
+          "averageRating": 2064,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 13
+        },
+        {
+          "averageRating": 2081,
+          "black": 9,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 12
+        },
+        {
+          "averageRating": 2105,
+          "black": 10,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 11
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1667
+    },
+    "2024-02": {
+      "black": 1170,
+      "draws": 181,
+      "moves": [
+        {
+          "averageRating": 2104,
+          "black": 352,
+          "draws": 65,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 442
+        },
+        {
+          "averageRating": 2085,
+          "black": 336,
+          "draws": 46,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 450
+        },
+        {
+          "averageRating": 2095,
+          "black": 146,
+          "draws": 26,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 174
+        },
+        {
+          "averageRating": 2100,
+          "black": 128,
+          "draws": 17,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 153
+        },
+        {
+          "averageRating": 2080,
+          "black": 96,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 102
+        },
+        {
+          "averageRating": 2081,
+          "black": 31,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 60
+        },
+        {
+          "averageRating": 2112,
+          "black": 17,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 26
+        },
+        {
+          "averageRating": 2074,
+          "black": 13,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 18
+        },
+        {
+          "averageRating": 2121,
+          "black": 14,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 14
+        },
+        {
+          "averageRating": 2069,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 11
+        },
+        {
+          "averageRating": 2107,
+          "black": 10,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 10
+        },
+        {
+          "averageRating": 2069,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 10
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1480
+    },
+    "2024-03": {
+      "black": 1267,
+      "draws": 188,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 410,
+          "draws": 56,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 465
+        },
+        {
+          "averageRating": 2091,
+          "black": 342,
+          "draws": 52,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 447
+        },
+        {
+          "averageRating": 2099,
+          "black": 148,
+          "draws": 27,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 190
+        },
+        {
+          "averageRating": 2105,
+          "black": 119,
+          "draws": 18,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 149
+        },
+        {
+          "averageRating": 2087,
+          "black": 106,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 111
+        },
+        {
+          "averageRating": 2092,
+          "black": 52,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 72
+        },
+        {
+          "averageRating": 2107,
+          "black": 20,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 24
+        },
+        {
+          "averageRating": 2095,
+          "black": 17,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 22
+        },
+        {
+          "averageRating": 2076,
+          "black": 13,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 18
+        },
+        {
+          "averageRating": 2092,
+          "black": 11,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 18
+        },
+        {
+          "averageRating": 2095,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 21
+        },
+        {
+          "averageRating": 2092,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 8
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1557
+    },
+    "2024-04": {
+      "black": 1195,
+      "draws": 167,
+      "moves": [
+        {
+          "averageRating": 2103,
+          "black": 346,
+          "draws": 67,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 455
+        },
+        {
+          "averageRating": 2091,
+          "black": 340,
+          "draws": 39,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 446
+        },
+        {
+          "averageRating": 2104,
+          "black": 130,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 191
+        },
+        {
+          "averageRating": 2099,
+          "black": 119,
+          "draws": 18,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 168
+        },
+        {
+          "averageRating": 2094,
+          "black": 100,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 120
+        },
+        {
+          "averageRating": 2072,
+          "black": 48,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 64
+        },
+        {
+          "averageRating": 2090,
+          "black": 22,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 25
+        },
+        {
+          "averageRating": 2103,
+          "black": 23,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 25
+        },
+        {
+          "averageRating": 2092,
+          "black": 18,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 19
+        },
+        {
+          "averageRating": 2114,
+          "black": 15,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 16
+        },
+        {
+          "averageRating": 2098,
+          "black": 15,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 11
+        },
+        {
+          "averageRating": 2095,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 6
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1556
+    },
+    "2024-05": {
+      "black": 1397,
+      "draws": 194,
+      "moves": [
+        {
+          "averageRating": 2105,
+          "black": 444,
+          "draws": 59,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 491
+        },
+        {
+          "averageRating": 2089,
+          "black": 388,
+          "draws": 51,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 473
+        },
+        {
+          "averageRating": 2101,
+          "black": 164,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 176
+        },
+        {
+          "averageRating": 2104,
+          "black": 154,
+          "draws": 17,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 163
+        },
+        {
+          "averageRating": 2085,
+          "black": 88,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 131
+        },
+        {
+          "averageRating": 2097,
+          "black": 56,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 82
+        },
+        {
+          "averageRating": 2099,
+          "black": 23,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 30
+        },
+        {
+          "averageRating": 2089,
+          "black": 19,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 24
+        },
+        {
+          "averageRating": 2062,
+          "black": 16,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 20
+        },
+        {
+          "averageRating": 2102,
+          "black": 12,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 21
+        },
+        {
+          "averageRating": 2084,
+          "black": 14,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 9
+        },
+        {
+          "averageRating": 2104,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 7
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1632
+    },
+    "2024-06": {
+      "black": 1202,
+      "draws": 197,
+      "moves": [
+        {
+          "averageRating": 2086,
+          "black": 343,
+          "draws": 63,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 483
+        },
+        {
+          "averageRating": 2104,
+          "black": 380,
+          "draws": 61,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 403
+        },
+        {
+          "averageRating": 2101,
+          "black": 132,
+          "draws": 21,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 167
+        },
+        {
+          "averageRating": 2099,
+          "black": 131,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 165
+        },
+        {
+          "averageRating": 2073,
+          "black": 75,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 117
+        },
+        {
+          "averageRating": 2097,
+          "black": 45,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 54
+        },
+        {
+          "averageRating": 2091,
+          "black": 26,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 24
+        },
+        {
+          "averageRating": 2078,
+          "black": 17,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 30
+        },
+        {
+          "averageRating": 2060,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 22
+        },
+        {
+          "averageRating": 2075,
+          "black": 13,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 15
+        },
+        {
+          "averageRating": 2109,
+          "black": 12,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 9
+        },
+        {
+          "averageRating": 2073,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 14
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1513
+    },
+    "2024-07": {
+      "black": 1394,
+      "draws": 196,
+      "moves": [
+        {
+          "averageRating": 2110,
+          "black": 444,
+          "draws": 60,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 482
+        },
+        {
+          "averageRating": 2086,
+          "black": 342,
+          "draws": 50,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 458
+        },
+        {
+          "averageRating": 2105,
+          "black": 169,
+          "draws": 27,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 166
+        },
+        {
+          "averageRating": 2110,
+          "black": 157,
+          "draws": 25,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 173
+        },
+        {
+          "averageRating": 2096,
+          "black": 116,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 139
+        },
+        {
+          "averageRating": 2089,
+          "black": 55,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 59
+        },
+        {
+          "averageRating": 2104,
+          "black": 30,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 26
+        },
+        {
+          "averageRating": 2093,
+          "black": 18,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 22
+        },
+        {
+          "averageRating": 2111,
+          "black": 15,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 19
+        },
+        {
+          "averageRating": 2066,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 18
+        },
+        {
+          "averageRating": 2105,
+          "black": 13,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 13
+        },
+        {
+          "averageRating": 2099,
+          "black": 16,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 8
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1594
+    },
+    "2024-08": {
+      "black": 1194,
+      "draws": 219,
+      "moves": [
+        {
+          "averageRating": 2109,
+          "black": 357,
+          "draws": 77,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 496
+        },
+        {
+          "averageRating": 2094,
+          "black": 306,
+          "draws": 61,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 450
+        },
+        {
+          "averageRating": 2102,
+          "black": 159,
+          "draws": 24,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 164
+        },
+        {
+          "averageRating": 2109,
+          "black": 144,
+          "draws": 17,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 148
+        },
+        {
+          "averageRating": 2082,
+          "black": 95,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 115
+        },
+        {
+          "averageRating": 2085,
+          "black": 51,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 72
+        },
+        {
+          "averageRating": 2081,
+          "black": 17,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 29
+        },
+        {
+          "averageRating": 2125,
+          "black": 17,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 25
+        },
+        {
+          "averageRating": 2102,
+          "black": 14,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 16
+        },
+        {
+          "averageRating": 2061,
+          "black": 7,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 22
+        },
+        {
+          "averageRating": 2127,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 14
+        },
+        {
+          "averageRating": 2101,
+          "black": 9,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 12
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1573
+    },
+    "2024-09": {
+      "black": 1303,
+      "draws": 205,
+      "moves": [
+        {
+          "averageRating": 2116,
+          "black": 427,
+          "draws": 64,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 452
+        },
+        {
+          "averageRating": 2092,
+          "black": 354,
+          "draws": 67,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 425
+        },
+        {
+          "averageRating": 2095,
+          "black": 141,
+          "draws": 26,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 198
+        },
+        {
+          "averageRating": 2110,
+          "black": 138,
+          "draws": 25,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 141
+        },
+        {
+          "averageRating": 2099,
+          "black": 107,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 105
+        },
+        {
+          "averageRating": 2094,
+          "black": 55,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 69
+        },
+        {
+          "averageRating": 2083,
+          "black": 20,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 31
+        },
+        {
+          "averageRating": 2098,
+          "black": 17,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 29
+        },
+        {
+          "averageRating": 2091,
+          "black": 18,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 17
+        },
+        {
+          "averageRating": 2090,
+          "black": 11,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 18
+        },
+        {
+          "averageRating": 2125,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 12
+        },
+        {
+          "averageRating": 2099,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 7
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1515
+    },
+    "2024-10": {
+      "black": 1193,
+      "draws": 199,
+      "moves": [
+        {
+          "averageRating": 2109,
+          "black": 385,
+          "draws": 66,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 422
+        },
+        {
+          "averageRating": 2089,
+          "black": 339,
+          "draws": 55,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 425
+        },
+        {
+          "averageRating": 2099,
+          "black": 146,
+          "draws": 27,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 186
+        },
+        {
+          "averageRating": 2096,
+          "black": 86,
+          "draws": 21,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 162
+        },
+        {
+          "averageRating": 2089,
+          "black": 106,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 106
+        },
+        {
+          "averageRating": 2089,
+          "black": 46,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 72
+        },
+        {
+          "averageRating": 2106,
+          "black": 15,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 23
+        },
+        {
+          "averageRating": 2076,
+          "black": 12,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 23
+        },
+        {
+          "averageRating": 2104,
+          "black": 19,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 12
+        },
+        {
+          "averageRating": 2084,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 16
+        },
+        {
+          "averageRating": 2117,
+          "black": 14,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 5
+        },
+        {
+          "averageRating": 2088,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 13
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1474
+    },
+    "2024-11": {
+      "black": 1194,
+      "draws": 166,
+      "moves": [
+        {
+          "averageRating": 2106,
+          "black": 396,
+          "draws": 38,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 394
+        },
+        {
+          "averageRating": 2085,
+          "black": 300,
+          "draws": 55,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 437
+        },
+        {
+          "averageRating": 2096,
+          "black": 140,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 181
+        },
+        {
+          "averageRating": 2101,
+          "black": 131,
+          "draws": 23,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 139
+        },
+        {
+          "averageRating": 2081,
+          "black": 103,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 102
+        },
+        {
+          "averageRating": 2084,
+          "black": 46,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 55
+        },
+        {
+          "averageRating": 2100,
+          "black": 15,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 29
+        },
+        {
+          "averageRating": 2104,
+          "black": 13,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 22
+        },
+        {
+          "averageRating": 2068,
+          "black": 13,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 18
+        },
+        {
+          "averageRating": 2087,
+          "black": 13,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 16
+        },
+        {
+          "averageRating": 2089,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 8
+        },
+        {
+          "averageRating": 2091,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 11
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1419
+    },
+    "2024-12": {
+      "black": 1435,
+      "draws": 217,
+      "moves": [
+        {
+          "averageRating": 2105,
+          "black": 454,
+          "draws": 69,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 546
+        },
+        {
+          "averageRating": 2083,
+          "black": 393,
+          "draws": 65,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 557
+        },
+        {
+          "averageRating": 2109,
+          "black": 190,
+          "draws": 29,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 211
+        },
+        {
+          "averageRating": 2104,
+          "black": 141,
+          "draws": 17,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 177
+        },
+        {
+          "averageRating": 2087,
+          "black": 109,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 141
+        },
+        {
+          "averageRating": 2101,
+          "black": 52,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 83
+        },
+        {
+          "averageRating": 2079,
+          "black": 17,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 30
+        },
+        {
+          "averageRating": 2116,
+          "black": 17,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 24
+        },
+        {
+          "averageRating": 2122,
+          "black": 18,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 17
+        },
+        {
+          "averageRating": 2103,
+          "black": 18,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 16
+        },
+        {
+          "averageRating": 2092,
+          "black": 10,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 12
+        },
+        {
+          "averageRating": 2096,
+          "black": 13,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 8
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1838
+    },
+    "2025-01": {
+      "black": 1421,
+      "draws": 204,
+      "moves": [
+        {
+          "averageRating": 2107,
+          "black": 464,
+          "draws": 62,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 497
+        },
+        {
+          "averageRating": 2087,
+          "black": 399,
+          "draws": 59,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 509
+        },
+        {
+          "averageRating": 2105,
+          "black": 168,
+          "draws": 28,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 189
+        },
+        {
+          "averageRating": 2101,
+          "black": 144,
+          "draws": 21,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 168
+        },
+        {
+          "averageRating": 2089,
+          "black": 112,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 123
+        },
+        {
+          "averageRating": 2091,
+          "black": 42,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 66
+        },
+        {
+          "averageRating": 2090,
+          "black": 18,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 26
+        },
+        {
+          "averageRating": 2092,
+          "black": 18,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 20
+        },
+        {
+          "averageRating": 2107,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 20
+        },
+        {
+          "averageRating": 2078,
+          "black": 15,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 10
+        },
+        {
+          "averageRating": 2085,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 12
+        },
+        {
+          "averageRating": 2089,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 13
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1668
+    },
+    "2025-02": {
+      "black": 1189,
+      "draws": 173,
+      "moves": [
+        {
+          "averageRating": 2106,
+          "black": 374,
+          "draws": 54,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 423
+        },
+        {
+          "averageRating": 2086,
+          "black": 313,
+          "draws": 51,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 452
+        },
+        {
+          "averageRating": 2094,
+          "black": 144,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 182
+        },
+        {
+          "averageRating": 2113,
+          "black": 132,
+          "draws": 22,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 134
+        },
+        {
+          "averageRating": 2089,
+          "black": 83,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 124
+        },
+        {
+          "averageRating": 2094,
+          "black": 43,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 52
+        },
+        {
+          "averageRating": 2097,
+          "black": 21,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 28
+        },
+        {
+          "averageRating": 2107,
+          "black": 23,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 17
+        },
+        {
+          "averageRating": 2078,
+          "black": 14,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 18
+        },
+        {
+          "averageRating": 2052,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 21
+        },
+        {
+          "averageRating": 2068,
+          "black": 13,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 10
+        },
+        {
+          "averageRating": 2089,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 10
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1481
+    },
+    "2025-03": {
+      "black": 1393,
+      "draws": 199,
+      "moves": [
+        {
+          "averageRating": 2105,
+          "black": 425,
+          "draws": 68,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 516
+        },
+        {
+          "averageRating": 2083,
+          "black": 373,
+          "draws": 51,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 460
+        },
+        {
+          "averageRating": 2098,
+          "black": 169,
+          "draws": 22,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 234
+        },
+        {
+          "averageRating": 2098,
+          "black": 150,
+          "draws": 18,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 153
+        },
+        {
+          "averageRating": 2079,
+          "black": 117,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 121
+        },
+        {
+          "averageRating": 2103,
+          "black": 61,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 53
+        },
+        {
+          "averageRating": 2101,
+          "black": 19,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 30
+        },
+        {
+          "averageRating": 2070,
+          "black": 21,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 22
+        },
+        {
+          "averageRating": 2060,
+          "black": 16,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 24
+        },
+        {
+          "averageRating": 2076,
+          "black": 17,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 18
+        },
+        {
+          "averageRating": 2112,
+          "black": 13,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 8
+        },
+        {
+          "averageRating": 2085,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 12
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1665
+    },
+    "2025-04": {
+      "black": 1271,
+      "draws": 205,
+      "moves": [
+        {
+          "averageRating": 2105,
+          "black": 405,
+          "draws": 73,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 460
+        },
+        {
+          "averageRating": 2090,
+          "black": 346,
+          "draws": 52,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 456
+        },
+        {
+          "averageRating": 2093,
+          "black": 161,
+          "draws": 26,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 205
+        },
+        {
+          "averageRating": 2110,
+          "black": 122,
+          "draws": 22,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 159
+        },
+        {
+          "averageRating": 2086,
+          "black": 98,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 101
+        },
+        {
+          "averageRating": 2096,
+          "black": 48,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 65
+        },
+        {
+          "averageRating": 2083,
+          "black": 29,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 26
+        },
+        {
+          "averageRating": 2070,
+          "black": 7,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 23
+        },
+        {
+          "averageRating": 2106,
+          "black": 15,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 13
+        },
+        {
+          "averageRating": 2083,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 15
+        },
+        {
+          "averageRating": 2095,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 16
+        },
+        {
+          "averageRating": 2075,
+          "black": 11,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 8
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1554
+    },
+    "2025-05": {
+      "black": 1332,
+      "draws": 217,
+      "moves": [
+        {
+          "averageRating": 2106,
+          "black": 444,
+          "draws": 64,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 529
+        },
+        {
+          "averageRating": 2086,
+          "black": 344,
+          "draws": 62,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 463
+        },
+        {
+          "averageRating": 2104,
+          "black": 166,
+          "draws": 24,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 212
+        },
+        {
+          "averageRating": 2113,
+          "black": 144,
+          "draws": 23,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 167
+        },
+        {
+          "averageRating": 2088,
+          "black": 93,
+          "draws": 24,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 98
+        },
+        {
+          "averageRating": 2093,
+          "black": 55,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 74
+        },
+        {
+          "averageRating": 2119,
+          "black": 22,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 30
+        },
+        {
+          "averageRating": 2098,
+          "black": 15,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 20
+        },
+        {
+          "averageRating": 2096,
+          "black": 15,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 19
+        },
+        {
+          "averageRating": 2109,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 21
+        },
+        {
+          "averageRating": 2064,
+          "black": 10,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 23
+        },
+        {
+          "averageRating": 2075,
+          "black": 8,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 8
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1677
+    },
+    "2025-06": {
+      "black": 1427,
+      "draws": 237,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 433,
+          "draws": 76,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 471
+        },
+        {
+          "averageRating": 2088,
+          "black": 400,
+          "draws": 55,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 476
+        },
+        {
+          "averageRating": 2102,
+          "black": 143,
+          "draws": 28,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 212
+        },
+        {
+          "averageRating": 2109,
+          "black": 154,
+          "draws": 25,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 171
+        },
+        {
+          "averageRating": 2097,
+          "black": 119,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 131
+        },
+        {
+          "averageRating": 2087,
+          "black": 68,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 78
+        },
+        {
+          "averageRating": 2116,
+          "black": 23,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 30
+        },
+        {
+          "averageRating": 2095,
+          "black": 24,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 18
+        },
+        {
+          "averageRating": 2106,
+          "black": 18,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 19
+        },
+        {
+          "averageRating": 2086,
+          "black": 12,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 21
+        },
+        {
+          "averageRating": 2091,
+          "black": 12,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 13
+        },
+        {
+          "averageRating": 2073,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 6
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1656
+    },
+    "2025-07": {
+      "black": 1390,
+      "draws": 230,
+      "moves": [
+        {
+          "averageRating": 2104,
+          "black": 449,
+          "draws": 68,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 519
+        },
+        {
+          "averageRating": 2090,
+          "black": 384,
+          "draws": 63,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 470
+        },
+        {
+          "averageRating": 2098,
+          "black": 169,
+          "draws": 29,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 215
+        },
+        {
+          "averageRating": 2105,
+          "black": 144,
+          "draws": 23,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 195
+        },
+        {
+          "averageRating": 2085,
+          "black": 99,
+          "draws": 22,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 124
+        },
+        {
+          "averageRating": 2099,
+          "black": 47,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 81
+        },
+        {
+          "averageRating": 2107,
+          "black": 24,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 21
+        },
+        {
+          "averageRating": 2092,
+          "black": 18,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 28
+        },
+        {
+          "averageRating": 2082,
+          "black": 20,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 22
+        },
+        {
+          "averageRating": 2079,
+          "black": 12,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 9
+        },
+        {
+          "averageRating": 2117,
+          "black": 9,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 12
+        },
+        {
+          "averageRating": 2075,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 13
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1725
+    },
+    "2025-08": {
+      "black": 1378,
+      "draws": 227,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 456,
+          "draws": 72,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 491
+        },
+        {
+          "averageRating": 2084,
+          "black": 357,
+          "draws": 71,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 461
+        },
+        {
+          "averageRating": 2104,
+          "black": 176,
+          "draws": 26,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 179
+        },
+        {
+          "averageRating": 2104,
+          "black": 132,
+          "draws": 14,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 176
+        },
+        {
+          "averageRating": 2090,
+          "black": 95,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 131
+        },
+        {
+          "averageRating": 2088,
+          "black": 61,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 89
+        },
+        {
+          "averageRating": 2085,
+          "black": 20,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 29
+        },
+        {
+          "averageRating": 2084,
+          "black": 17,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 22
+        },
+        {
+          "averageRating": 2082,
+          "black": 15,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 21
+        },
+        {
+          "averageRating": 2091,
+          "black": 17,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 19
+        },
+        {
+          "averageRating": 2056,
+          "black": 14,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 15
+        },
+        {
+          "averageRating": 2081,
+          "black": 13,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 11
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1653
+    },
+    "2025-09": {
+      "black": 1294,
+      "draws": 206,
+      "moves": [
+        {
+          "averageRating": 2104,
+          "black": 430,
+          "draws": 66,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 466
+        },
+        {
+          "averageRating": 2093,
+          "black": 318,
+          "draws": 54,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 463
+        },
+        {
+          "averageRating": 2104,
+          "black": 163,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 200
+        },
+        {
+          "averageRating": 2106,
+          "black": 139,
+          "draws": 22,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 141
+        },
+        {
+          "averageRating": 2089,
+          "black": 101,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 102
+        },
+        {
+          "averageRating": 2101,
+          "black": 50,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 53
+        },
+        {
+          "averageRating": 2092,
+          "black": 16,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 31
+        },
+        {
+          "averageRating": 2092,
+          "black": 19,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 24
+        },
+        {
+          "averageRating": 2112,
+          "black": 18,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 14
+        },
+        {
+          "averageRating": 2080,
+          "black": 12,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 16
+        },
+        {
+          "averageRating": 2105,
+          "black": 15,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 10
+        },
+        {
+          "averageRating": 2119,
+          "black": 7,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 15
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1550
+    },
+    "2025-10": {
+      "black": 1300,
+      "draws": 221,
+      "moves": [
+        {
+          "averageRating": 2112,
+          "black": 418,
+          "draws": 73,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 477
+        },
+        {
+          "averageRating": 2089,
+          "black": 345,
+          "draws": 61,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 468
+        },
+        {
+          "averageRating": 2096,
+          "black": 148,
+          "draws": 26,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 188
+        },
+        {
+          "averageRating": 2107,
+          "black": 131,
+          "draws": 25,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 156
+        },
+        {
+          "averageRating": 2082,
+          "black": 102,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 119
+        },
+        {
+          "averageRating": 2085,
+          "black": 55,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 70
+        },
+        {
+          "averageRating": 2111,
+          "black": 30,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 32
+        },
+        {
+          "averageRating": 2110,
+          "black": 17,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 29
+        },
+        {
+          "averageRating": 2104,
+          "black": 23,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 18
+        },
+        {
+          "averageRating": 2079,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 21
+        },
+        {
+          "averageRating": 2104,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 13
+        },
+        {
+          "averageRating": 2093,
+          "black": 7,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 9
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1606
+    },
+    "2025-11": {
+      "black": 1297,
+      "draws": 190,
+      "moves": [
+        {
+          "averageRating": 2110,
+          "black": 465,
+          "draws": 74,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 464
+        },
+        {
+          "averageRating": 2090,
+          "black": 334,
+          "draws": 55,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 447
+        },
+        {
+          "averageRating": 2101,
+          "black": 131,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 177
+        },
+        {
+          "averageRating": 2113,
+          "black": 144,
+          "draws": 18,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 163
+        },
+        {
+          "averageRating": 2080,
+          "black": 80,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 92
+        },
+        {
+          "averageRating": 2105,
+          "black": 55,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 79
+        },
+        {
+          "averageRating": 2100,
+          "black": 13,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 31
+        },
+        {
+          "averageRating": 2132,
+          "black": 18,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 21
+        },
+        {
+          "averageRating": 2118,
+          "black": 15,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 16
+        },
+        {
+          "averageRating": 2101,
+          "black": 17,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 15
+        },
+        {
+          "averageRating": 2067,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 15
+        },
+        {
+          "averageRating": 2092,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 9
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1540
+    },
+    "2025-12": {
+      "black": 1405,
+      "draws": 236,
+      "moves": [
+        {
+          "averageRating": 2108,
+          "black": 461,
+          "draws": 82,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 487
+        },
+        {
+          "averageRating": 2095,
+          "black": 387,
+          "draws": 65,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 461
+        },
+        {
+          "averageRating": 2103,
+          "black": 164,
+          "draws": 28,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 192
+        },
+        {
+          "averageRating": 2113,
+          "black": 116,
+          "draws": 21,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 182
+        },
+        {
+          "averageRating": 2087,
+          "black": 120,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 135
+        },
+        {
+          "averageRating": 2098,
+          "black": 44,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 51
+        },
+        {
+          "averageRating": 2103,
+          "black": 25,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 45
+        },
+        {
+          "averageRating": 2105,
+          "black": 32,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 27
+        },
+        {
+          "averageRating": 2106,
+          "black": 17,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 27
+        },
+        {
+          "averageRating": 2082,
+          "black": 12,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 19
+        },
+        {
+          "averageRating": 2063,
+          "black": 9,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 11
+        },
+        {
+          "averageRating": 2101,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 10
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1660
+    },
+    "2026-01": {
+      "black": 1359,
+      "draws": 225,
+      "moves": [
+        {
+          "averageRating": 2103,
+          "black": 452,
+          "draws": 67,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 557
+        },
+        {
+          "averageRating": 2087,
+          "black": 347,
+          "draws": 63,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 488
+        },
+        {
+          "averageRating": 2098,
+          "black": 163,
+          "draws": 36,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 228
+        },
+        {
+          "averageRating": 2104,
+          "black": 161,
+          "draws": 22,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 196
+        },
+        {
+          "averageRating": 2099,
+          "black": 90,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 114
+        },
+        {
+          "averageRating": 2100,
+          "black": 44,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 78
+        },
+        {
+          "averageRating": 2095,
+          "black": 25,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 27
+        },
+        {
+          "averageRating": 2114,
+          "black": 19,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 21
+        },
+        {
+          "averageRating": 2106,
+          "black": 14,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 19
+        },
+        {
+          "averageRating": 2103,
+          "black": 16,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 13
+        },
+        {
+          "averageRating": 2118,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 10
+        },
+        {
+          "averageRating": 2081,
+          "black": 6,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 11
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1779
+    },
+    "2026-02": {
+      "black": 1188,
+      "draws": 183,
+      "moves": [
+        {
+          "averageRating": 2107,
+          "black": 381,
+          "draws": 64,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 457
+        },
+        {
+          "averageRating": 2089,
+          "black": 316,
+          "draws": 47,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 391
+        },
+        {
+          "averageRating": 2103,
+          "black": 143,
+          "draws": 22,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 153
+        },
+        {
+          "averageRating": 2105,
+          "black": 130,
+          "draws": 15,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 151
+        },
+        {
+          "averageRating": 2078,
+          "black": 76,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 105
+        },
+        {
+          "averageRating": 2098,
+          "black": 42,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 55
+        },
+        {
+          "averageRating": 2082,
+          "black": 20,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 30
+        },
+        {
+          "averageRating": 2107,
+          "black": 14,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 26
+        },
+        {
+          "averageRating": 2086,
+          "black": 18,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 18
+        },
+        {
+          "averageRating": 2086,
+          "black": 16,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 10
+        },
+        {
+          "averageRating": 2077,
+          "black": 11,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 9
+        },
+        {
+          "averageRating": 2080,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 5
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1415
+    },
+    "2026-03": {
+      "black": 1191,
+      "draws": 183,
+      "moves": [
+        {
+          "averageRating": 2110,
+          "black": 379,
+          "draws": 60,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 422
+        },
+        {
+          "averageRating": 2086,
+          "black": 312,
+          "draws": 55,
+          "game": null,
+          "opening": null,
+          "san": "c6",
+          "uci": "c7c6",
+          "white": 391
+        },
+        {
+          "averageRating": 2112,
+          "black": 133,
+          "draws": 21,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          },
+          "san": "dxc4",
+          "uci": "d5c4",
+          "white": 184
+        },
+        {
+          "averageRating": 2096,
+          "black": 120,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "Bb4+",
+          "uci": "f8b4",
+          "white": 175
+        },
+        {
+          "averageRating": 2090,
+          "black": 92,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c7c5",
+          "white": 102
+        },
+        {
+          "averageRating": 2088,
+          "black": 63,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 70
+        },
+        {
+          "averageRating": 2104,
+          "black": 20,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bd6",
+          "uci": "f8d6",
+          "white": 28
+        },
+        {
+          "averageRating": 2094,
+          "black": 22,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 21
+        },
+        {
+          "averageRating": 2090,
+          "black": 16,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 18
+        },
+        {
+          "averageRating": 2074,
+          "black": 8,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 19
+        },
+        {
+          "averageRating": 2071,
+          "black": 13,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 8
+        },
+        {
+          "averageRating": 2078,
+          "black": 10,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 9
+        }
+      ],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      },
+      "white": 1459
+    },
+    "2026-04": {
+      "white": 879,
+      "draws": 105,
+      "black": 719,
+      "moves": [
+        {
+          "uci": "f8e7",
+          "san": "Be7",
+          "averageRating": 2101,
+          "white": 279,
+          "draws": 38,
+          "black": 257,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c7c6",
+          "san": "c6",
+          "averageRating": 2085,
+          "white": 241,
+          "draws": 28,
+          "black": 168,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d5c4",
+          "san": "dxc4",
+          "averageRating": 2114,
+          "white": 113,
+          "draws": 13,
+          "black": 98,
+          "game": null,
+          "opening": {
+            "eco": "E02",
+            "name": "Catalan Opening: Open Defense"
+          }
+        },
+        {
+          "uci": "f8b4",
+          "san": "Bb4+",
+          "averageRating": 2094,
+          "white": 96,
+          "draws": 15,
+          "black": 65,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c7c5",
+          "san": "c5",
+          "averageRating": 2085,
+          "white": 63,
+          "draws": 4,
+          "black": 55,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "b7b6",
+          "san": "b6",
+          "averageRating": 2084,
+          "white": 29,
+          "draws": 2,
+          "black": 20,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "f8d6",
+          "san": "Bd6",
+          "averageRating": 2106,
+          "white": 20,
+          "draws": 2,
+          "black": 19,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "b8d7",
+          "san": "Nbd7",
+          "averageRating": 2101,
+          "white": 14,
+          "draws": 0,
+          "black": 9,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "b8c6",
+          "san": "Nc6",
+          "averageRating": 2090,
+          "white": 5,
+          "draws": 0,
+          "black": 8,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "g7g6",
+          "san": "g6",
+          "averageRating": 2074,
+          "white": 6,
+          "draws": 1,
+          "black": 6,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "a7a6",
+          "san": "a6",
+          "averageRating": 2069,
+          "white": 4,
+          "draws": 0,
+          "black": 5,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "h7h6",
+          "san": "h6",
+          "averageRating": 2068,
+          "white": 3,
+          "draws": 2,
+          "black": 4,
+          "game": null,
+          "opening": null
+        }
+      ],
+      "recentGames": [],
+      "topGames": [],
+      "opening": {
+        "eco": "E01",
+        "name": "Catalan Opening: Closed"
+      }
+    }
+  }
+}

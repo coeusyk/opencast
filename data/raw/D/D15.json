@@ -1,0 +1,6412 @@
+{
+  "_meta": {
+    "skipped_months": {
+      "2025-09": "below_min_games",
+      "2026-03": "below_min_games"
+    }
+  },
+  "eco": "D15",
+  "months": {
+    "2023-01": {
+      "black": 287,
+      "draws": 38,
+      "moves": [
+        {
+          "averageRating": 2103,
+          "black": 180,
+          "draws": 26,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 180
+        },
+        {
+          "averageRating": 2094,
+          "black": 48,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 48
+        },
+        {
+          "averageRating": 2075,
+          "black": 35,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 42
+        },
+        {
+          "averageRating": 2071,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 13
+        },
+        {
+          "averageRating": 2104,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 4
+        },
+        {
+          "averageRating": 2079,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 3
+        },
+        {
+          "averageRating": 2074,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 2
+        },
+        {
+          "averageRating": 2066,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 2
+        },
+        {
+          "averageRating": 2081,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 0
+        },
+        {
+          "averageRating": 2073,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c6c5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 294
+    },
+    "2023-02": {
+      "black": 231,
+      "draws": 22,
+      "moves": [
+        {
+          "averageRating": 2109,
+          "black": 145,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 161
+        },
+        {
+          "averageRating": 2105,
+          "black": 40,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 41
+        },
+        {
+          "averageRating": 2085,
+          "black": 29,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 34
+        },
+        {
+          "averageRating": 2075,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 13
+        },
+        {
+          "averageRating": 2076,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 4
+        },
+        {
+          "averageRating": 2066,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 3
+        },
+        {
+          "averageRating": 2140,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 3
+        },
+        {
+          "averageRating": 2010,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c6c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2123,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 0
+        },
+        {
+          "averageRating": 2050,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Lalyk",
+              "rating": 2050
+            },
+            "id": "390TCmQJ",
+            "mode": "rated",
+            "month": "2023-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Wtal64",
+              "rating": 2115
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 1
+        },
+        {
+          "averageRating": 1970,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ekkalsi",
+              "rating": 1970
+            },
+            "id": "4fgsKgN1",
+            "mode": "rated",
+            "month": "2023-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Elon_Mars",
+              "rating": 2191
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Na6",
+          "uci": "b8a6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 262
+    },
+    "2023-03": {
+      "black": 284,
+      "draws": 38,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 175,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 145
+        },
+        {
+          "averageRating": 2095,
+          "black": 46,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 64
+        },
+        {
+          "averageRating": 2073,
+          "black": 41,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 40
+        },
+        {
+          "averageRating": 2070,
+          "black": 12,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 15
+        },
+        {
+          "averageRating": 2054,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 6
+        },
+        {
+          "averageRating": 2106,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 4
+        },
+        {
+          "averageRating": 2033,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 4
+        },
+        {
+          "averageRating": 2092,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 0
+        },
+        {
+          "averageRating": 2048,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "jc07",
+              "rating": 2048
+            },
+            "id": "y4i6JhPl",
+            "mode": "rated",
+            "month": "2023-03",
+            "speed": "blitz",
+            "white": {
+              "name": "manishrai",
+              "rating": 2050
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 1
+        },
+        {
+          "averageRating": 2059,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "mjguru",
+              "rating": 2059
+            },
+            "id": "iXy9IIID",
+            "mode": "rated",
+            "month": "2023-03",
+            "speed": "blitz",
+            "white": {
+              "name": "VictorVV1",
+              "rating": 2050
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "c5",
+          "uci": "c6c5",
+          "white": 0
+        },
+        {
+          "averageRating": 2143,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "SirKnaggels",
+              "rating": 2143
+            },
+            "id": "2Erjm3ES",
+            "mode": "rated",
+            "month": "2023-03",
+            "speed": "blitz",
+            "white": {
+              "name": "Nikita14122012",
+              "rating": 2122
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2118,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Igor-Doshlov",
+              "rating": 2118
+            },
+            "id": "nf9xc4SF",
+            "mode": "rated",
+            "month": "2023-03",
+            "speed": "blitz",
+            "white": {
+              "name": "askarv6",
+              "rating": 2133
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Na6",
+          "uci": "b8a6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 281
+    },
+    "2023-04": {
+      "black": 258,
+      "draws": 41,
+      "moves": [
+        {
+          "averageRating": 2113,
+          "black": 168,
+          "draws": 32,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 161
+        },
+        {
+          "averageRating": 2090,
+          "black": 39,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 45
+        },
+        {
+          "averageRating": 2095,
+          "black": 32,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 32
+        },
+        {
+          "averageRating": 2090,
+          "black": 4,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 11
+        },
+        {
+          "averageRating": 2127,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 7
+        },
+        {
+          "averageRating": 2067,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 6
+        },
+        {
+          "averageRating": 2060,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 4
+        },
+        {
+          "averageRating": 2030,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 3
+        },
+        {
+          "averageRating": 2104,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 2
+        },
+        {
+          "averageRating": 2169,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na6",
+          "uci": "b8a6",
+          "white": 2
+        },
+        {
+          "averageRating": 2121,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c6c5",
+          "white": 2
+        },
+        {
+          "averageRating": 1966,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Rachidrim",
+              "rating": 1966
+            },
+            "id": "J5nKC9Kv",
+            "mode": "rated",
+            "month": "2023-04",
+            "speed": "blitz",
+            "white": {
+              "name": "kimore",
+              "rating": 2066
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "a5",
+          "uci": "a7a5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 275
+    },
+    "2023-05": {
+      "black": 264,
+      "draws": 39,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 158,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 188
+        },
+        {
+          "averageRating": 2104,
+          "black": 61,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 53
+        },
+        {
+          "averageRating": 2091,
+          "black": 31,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 39
+        },
+        {
+          "averageRating": 2057,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 20
+        },
+        {
+          "averageRating": 2052,
+          "black": 2,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 6
+        },
+        {
+          "averageRating": 2132,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2025,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 2
+        },
+        {
+          "averageRating": 1985,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 2
+        },
+        {
+          "averageRating": 2092,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 0
+        },
+        {
+          "averageRating": 2172,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c6c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2186,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "RainbowCemetery",
+              "rating": 2186
+            },
+            "id": "RXxduMKJ",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "evgeniy_gm",
+              "rating": 2132
+            },
+            "winner": null,
+            "year": 2023
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 0
+        },
+        {
+          "averageRating": 1950,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "tameralsydTiito",
+              "rating": 1950
+            },
+            "id": "Y3r4fGAx",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "younes1717",
+              "rating": 2173
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 314
+    },
+    "2023-06": {
+      "black": 228,
+      "draws": 28,
+      "moves": [
+        {
+          "averageRating": 2111,
+          "black": 156,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 163
+        },
+        {
+          "averageRating": 2097,
+          "black": 31,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 45
+        },
+        {
+          "averageRating": 2084,
+          "black": 23,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 25
+        },
+        {
+          "averageRating": 2069,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 10
+        },
+        {
+          "averageRating": 2092,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 3
+        },
+        {
+          "averageRating": 2102,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 0
+        },
+        {
+          "averageRating": 2096,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 2
+        },
+        {
+          "averageRating": 2039,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Kartik420",
+              "rating": 2039
+            },
+            "id": "X2q1Biea",
+            "mode": "rated",
+            "month": "2023-06",
+            "speed": "blitz",
+            "white": {
+              "name": "BOTvinnik_Master",
+              "rating": 2033
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 1
+        },
+        {
+          "averageRating": 2025,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Anjas69",
+              "rating": 2025
+            },
+            "id": "SYvnkypJ",
+            "mode": "rated",
+            "month": "2023-06",
+            "speed": "blitz",
+            "white": {
+              "name": "asseych",
+              "rating": 2097
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 0
+        },
+        {
+          "averageRating": 2205,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Nietzschescat",
+              "rating": 2205
+            },
+            "id": "rZ4JEHFw",
+            "mode": "rated",
+            "month": "2023-06",
+            "speed": "blitz",
+            "white": {
+              "name": "davisreti",
+              "rating": 2166
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "a5",
+          "uci": "a7a5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 249
+    },
+    "2023-07": {
+      "black": 224,
+      "draws": 27,
+      "moves": [
+        {
+          "averageRating": 2118,
+          "black": 144,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 198
+        },
+        {
+          "averageRating": 2089,
+          "black": 44,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 32
+        },
+        {
+          "averageRating": 2089,
+          "black": 21,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 40
+        },
+        {
+          "averageRating": 2073,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 13
+        },
+        {
+          "averageRating": 2086,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 5
+        },
+        {
+          "averageRating": 2118,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 4
+        },
+        {
+          "averageRating": 2076,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 3
+        },
+        {
+          "averageRating": 2147,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 2
+        },
+        {
+          "averageRating": 2055,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 2
+        },
+        {
+          "averageRating": 2205,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "mohghase",
+              "rating": 2205
+            },
+            "id": "UweatDtn",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "Vlad_95",
+              "rating": 2160
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 0
+        },
+        {
+          "averageRating": 2202,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "chakradeoo1",
+              "rating": 2202
+            },
+            "id": "9aCUyIlv",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "bkan80",
+              "rating": 2101
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Na6",
+          "uci": "b8a6",
+          "white": 1
+        },
+        {
+          "averageRating": 2032,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "skilled_zero",
+              "rating": 2032
+            },
+            "id": "I8EsIqqz",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "Balei",
+              "rating": 2011
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 301
+    },
+    "2023-08": {
+      "black": 246,
+      "draws": 25,
+      "moves": [
+        {
+          "averageRating": 2110,
+          "black": 156,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 175
+        },
+        {
+          "averageRating": 2098,
+          "black": 33,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 47
+        },
+        {
+          "averageRating": 2071,
+          "black": 36,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 28
+        },
+        {
+          "averageRating": 2098,
+          "black": 10,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 10
+        },
+        {
+          "averageRating": 2096,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 8
+        },
+        {
+          "averageRating": 2047,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 2
+        },
+        {
+          "averageRating": 2026,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2050,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 1
+        },
+        {
+          "averageRating": 2133,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 2
+        },
+        {
+          "averageRating": 2274,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "KonanderBarbar",
+              "rating": 2274
+            },
+            "id": "x51Kk9uY",
+            "mode": "rated",
+            "month": "2023-08",
+            "speed": "blitz",
+            "white": {
+              "name": "Animal10",
+              "rating": 2036
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 0
+        },
+        {
+          "averageRating": 2026,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "CheckmateBoomer",
+              "rating": 2026
+            },
+            "id": "sVTc89XR",
+            "mode": "rated",
+            "month": "2023-08",
+            "speed": "blitz",
+            "white": {
+              "name": "peruiz",
+              "rating": 2050
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Na6",
+          "uci": "b8a6",
+          "white": 1
+        },
+        {
+          "averageRating": 2051,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Youngrichartisa",
+              "rating": 2051
+            },
+            "id": "0bbPH3or",
+            "mode": "rated",
+            "month": "2023-08",
+            "speed": "blitz",
+            "white": {
+              "name": "D-S-P",
+              "rating": 2036
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 276
+    },
+    "2023-09": {
+      "black": 225,
+      "draws": 30,
+      "moves": [
+        {
+          "averageRating": 2103,
+          "black": 138,
+          "draws": 23,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 154
+        },
+        {
+          "averageRating": 2110,
+          "black": 38,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 48
+        },
+        {
+          "averageRating": 2080,
+          "black": 32,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 35
+        },
+        {
+          "averageRating": 2091,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 12
+        },
+        {
+          "averageRating": 2078,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 8
+        },
+        {
+          "averageRating": 2092,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 3
+        },
+        {
+          "averageRating": 2102,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 1
+        },
+        {
+          "averageRating": 2222,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Anonymous_Ken",
+              "rating": 2222
+            },
+            "id": "Tfa7xOzV",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "MasterRamil",
+              "rating": 2156
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 0
+        },
+        {
+          "averageRating": 1997,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Rachidrim",
+              "rating": 1997
+            },
+            "id": "Qmg4fzPQ",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "comollueve",
+              "rating": 2049
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qc7",
+          "uci": "d8c7",
+          "white": 1
+        },
+        {
+          "averageRating": 2165,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Dedmarshal",
+              "rating": 2165
+            },
+            "id": "E98XUJZi",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "Brlomess",
+              "rating": 2144
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2012,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "VTLO",
+              "rating": 2012
+            },
+            "id": "iNXZROch",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "Cara_Neutro",
+              "rating": 2028
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 1
+        },
+        {
+          "averageRating": 2046,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "recatelo",
+              "rating": 2046
+            },
+            "id": "Jlr5g4Ij",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "andrewsmacbeir",
+              "rating": 2097
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "c5",
+          "uci": "c6c5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 265
+    },
+    "2023-10": {
+      "black": 225,
+      "draws": 26,
+      "moves": [
+        {
+          "averageRating": 2104,
+          "black": 145,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 205
+        },
+        {
+          "averageRating": 2095,
+          "black": 40,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 48
+        },
+        {
+          "averageRating": 2096,
+          "black": 24,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 27
+        },
+        {
+          "averageRating": 2068,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 9
+        },
+        {
+          "averageRating": 2116,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 3
+        },
+        {
+          "averageRating": 2047,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 3
+        },
+        {
+          "averageRating": 2142,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 1
+        },
+        {
+          "averageRating": 2105,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Vaaaandeeeer",
+              "rating": 2105
+            },
+            "id": "TJTrp1Zn",
+            "mode": "rated",
+            "month": "2023-10",
+            "speed": "blitz",
+            "white": {
+              "name": "Superbunny7",
+              "rating": 2227
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "a5",
+          "uci": "a7a5",
+          "white": 0
+        },
+        {
+          "averageRating": 2143,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ZivkovicD",
+              "rating": 2143
+            },
+            "id": "y7t8W728",
+            "mode": "rated",
+            "month": "2023-10",
+            "speed": "blitz",
+            "white": {
+              "name": "TAMMOBO",
+              "rating": 2106
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2096,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "kokica",
+              "rating": 2096
+            },
+            "id": "RH9xnm9b",
+            "mode": "rated",
+            "month": "2023-10",
+            "speed": "blitz",
+            "white": {
+              "name": "cyrus2021",
+              "rating": 2102
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 1
+        },
+        {
+          "averageRating": 2156,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "mjguru",
+              "rating": 2156
+            },
+            "id": "7gqti29k",
+            "mode": "rated",
+            "month": "2023-10",
+            "speed": "blitz",
+            "white": {
+              "name": "alivario6083",
+              "rating": 2165
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "c5",
+          "uci": "c6c5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 299
+    },
+    "2023-11": {
+      "black": 252,
+      "draws": 23,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 151,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 170
+        },
+        {
+          "averageRating": 2097,
+          "black": 48,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 46
+        },
+        {
+          "averageRating": 2085,
+          "black": 30,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 32
+        },
+        {
+          "averageRating": 2094,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 13
+        },
+        {
+          "averageRating": 2063,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 7
+        },
+        {
+          "averageRating": 2124,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 5
+        },
+        {
+          "averageRating": 2108,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 2
+        },
+        {
+          "averageRating": 2133,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "texviler77",
+              "rating": 2133
+            },
+            "id": "d1kAF7RT",
+            "mode": "rated",
+            "month": "2023-11",
+            "speed": "blitz",
+            "white": {
+              "name": "totemSotem",
+              "rating": 2224
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2138,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "sirohige12deui",
+              "rating": 2138
+            },
+            "id": "YtrpQ8XD",
+            "mode": "rated",
+            "month": "2023-11",
+            "speed": "blitz",
+            "white": {
+              "name": "azamat555",
+              "rating": 2059
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 0
+        },
+        {
+          "averageRating": 2103,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "elogika",
+              "rating": 2103
+            },
+            "id": "2yHykaNQ",
+            "mode": "rated",
+            "month": "2023-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Sarth2009",
+              "rating": 2061
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 0
+        },
+        {
+          "averageRating": 2166,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Gro23",
+              "rating": 2166
+            },
+            "id": "pfovemI7",
+            "mode": "rated",
+            "month": "2023-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Martinpescador2020",
+              "rating": 1904
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 276
+    },
+    "2023-12": {
+      "black": 254,
+      "draws": 40,
+      "moves": [
+        {
+          "averageRating": 2106,
+          "black": 153,
+          "draws": 25,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 159
+        },
+        {
+          "averageRating": 2091,
+          "black": 42,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 57
+        },
+        {
+          "averageRating": 2080,
+          "black": 38,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 42
+        },
+        {
+          "averageRating": 2087,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 16
+        },
+        {
+          "averageRating": 2087,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 5
+        },
+        {
+          "averageRating": 2055,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 3
+        },
+        {
+          "averageRating": 2078,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 2
+        },
+        {
+          "averageRating": 1982,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 0
+        },
+        {
+          "averageRating": 2180,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Ichigo123",
+              "rating": 2180
+            },
+            "id": "ER9W7tYD",
+            "mode": "rated",
+            "month": "2023-12",
+            "speed": "blitz",
+            "white": {
+              "name": "zbogdan185",
+              "rating": 2211
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2097,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ii8U-ii8U_sTrOnGs",
+              "rating": 2097
+            },
+            "id": "9H02f0iF",
+            "mode": "rated",
+            "month": "2023-12",
+            "speed": "blitz",
+            "white": {
+              "name": "MuzammiL-DAGoen",
+              "rating": 2102
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 285
+    },
+    "2024-01": {
+      "black": 269,
+      "draws": 28,
+      "moves": [
+        {
+          "averageRating": 2106,
+          "black": 174,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 181
+        },
+        {
+          "averageRating": 2081,
+          "black": 50,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 35
+        },
+        {
+          "averageRating": 2081,
+          "black": 26,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 38
+        },
+        {
+          "averageRating": 2072,
+          "black": 10,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 7
+        },
+        {
+          "averageRating": 2068,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 2
+        },
+        {
+          "averageRating": 2144,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2088,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 1
+        },
+        {
+          "averageRating": 2128,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 2
+        },
+        {
+          "averageRating": 1960,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Mseserovich",
+              "rating": 1960
+            },
+            "id": "uDq7rKeT",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Justmabey",
+              "rating": 2055
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2009,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Naolhe",
+              "rating": 2009
+            },
+            "id": "YELBI2ip",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "TananaKely",
+              "rating": 2038
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "c5",
+          "uci": "c6c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2083,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "cobipal",
+              "rating": 2083
+            },
+            "id": "SdsS5o7h",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "ZB-HalitGazioglu",
+              "rating": 2174
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 270
+    },
+    "2024-02": {
+      "black": 219,
+      "draws": 31,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 140,
+          "draws": 21,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 121
+        },
+        {
+          "averageRating": 2114,
+          "black": 30,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 41
+        },
+        {
+          "averageRating": 2076,
+          "black": 25,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 28
+        },
+        {
+          "averageRating": 2094,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 9
+        },
+        {
+          "averageRating": 2100,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 4
+        },
+        {
+          "averageRating": 2082,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 2
+        },
+        {
+          "averageRating": 2071,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 4
+        },
+        {
+          "averageRating": 2131,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 1
+        },
+        {
+          "averageRating": 2187,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "parerga",
+              "rating": 2187
+            },
+            "id": "M3nUxFS1",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "kurwa-msk",
+              "rating": 2157
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a5",
+          "uci": "a7a5",
+          "white": 1
+        },
+        {
+          "averageRating": 2114,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "elogika",
+              "rating": 2114
+            },
+            "id": "thoznHQ5",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "nasserbousselsal",
+              "rating": 2075
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 1
+        },
+        {
+          "averageRating": 2149,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "mjguru",
+              "rating": 2149
+            },
+            "id": "YOcMNd8l",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Landmark_Chess",
+              "rating": 2167
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "c5",
+          "uci": "c6c5",
+          "white": 0
+        },
+        {
+          "averageRating": 2008,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Radhyeshyam",
+              "rating": 2008
+            },
+            "id": "vKjCguPm",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "valildr",
+              "rating": 2019
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qa5",
+          "uci": "d8a5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 214
+    },
+    "2024-03": {
+      "black": 255,
+      "draws": 21,
+      "moves": [
+        {
+          "averageRating": 2107,
+          "black": 159,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 154
+        },
+        {
+          "averageRating": 2098,
+          "black": 51,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 41
+        },
+        {
+          "averageRating": 2088,
+          "black": 29,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 26
+        },
+        {
+          "averageRating": 2094,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 9
+        },
+        {
+          "averageRating": 2101,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 2
+        },
+        {
+          "averageRating": 2073,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 2
+        },
+        {
+          "averageRating": 2056,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 4
+        },
+        {
+          "averageRating": 2098,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 1
+        },
+        {
+          "averageRating": 2216,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "sleipnerova",
+              "rating": 2216
+            },
+            "id": "KlWRiJBE",
+            "mode": "rated",
+            "month": "2024-03",
+            "speed": "blitz",
+            "white": {
+              "name": "dc345",
+              "rating": 2141
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 240
+    },
+    "2024-04": {
+      "black": 212,
+      "draws": 30,
+      "moves": [
+        {
+          "averageRating": 2105,
+          "black": 129,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 137
+        },
+        {
+          "averageRating": 2102,
+          "black": 46,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 44
+        },
+        {
+          "averageRating": 2071,
+          "black": 23,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 38
+        },
+        {
+          "averageRating": 2060,
+          "black": 9,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 15
+        },
+        {
+          "averageRating": 2035,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 3
+        },
+        {
+          "averageRating": 2087,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 4
+        },
+        {
+          "averageRating": 2166,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 2
+        },
+        {
+          "averageRating": 2091,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 0
+        },
+        {
+          "averageRating": 2059,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "Lalyk",
+              "rating": 2059
+            },
+            "id": "UvvQmqc8",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Ulusal",
+              "rating": 2062
+            },
+            "winner": null,
+            "year": 2024
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 0
+        },
+        {
+          "averageRating": 2179,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "The_Professor_07",
+              "rating": 2179
+            },
+            "id": "ONuxDD53",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "SANJUCHESS",
+              "rating": 2166
+            },
+            "winner": null,
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a5",
+          "uci": "a7a5",
+          "white": 0
+        },
+        {
+          "averageRating": 1938,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "kviten4_gg",
+              "rating": 1938
+            },
+            "id": "8hwWoJKK",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Andy512",
+              "rating": 2067
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1
+        },
+        {
+          "averageRating": 2147,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Carlos1733",
+              "rating": 2147
+            },
+            "id": "doGkZ4Ug",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Justmabey",
+              "rating": 2211
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 245
+    },
+    "2024-05": {
+      "black": 217,
+      "draws": 28,
+      "moves": [
+        {
+          "averageRating": 2107,
+          "black": 143,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 142
+        },
+        {
+          "averageRating": 2097,
+          "black": 32,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 42
+        },
+        {
+          "averageRating": 2079,
+          "black": 25,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 35
+        },
+        {
+          "averageRating": 2078,
+          "black": 6,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 10
+        },
+        {
+          "averageRating": 2094,
+          "black": 4,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 5
+        },
+        {
+          "averageRating": 2184,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2133,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 0
+        },
+        {
+          "averageRating": 2053,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 1
+        },
+        {
+          "averageRating": 2061,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Rugido_do_Leao",
+              "rating": 2061
+            },
+            "id": "IFXWCOXk",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "waleed2003",
+              "rating": 2091
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qa5",
+          "uci": "d8a5",
+          "white": 1
+        },
+        {
+          "averageRating": 2058,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "AguSanti",
+              "rating": 2058
+            },
+            "id": "keHrr586",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "Niki290908",
+              "rating": 2227
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2035,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "zavoie1",
+              "rating": 2035
+            },
+            "id": "KlVVC63N",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "osgo78",
+              "rating": 2022
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 1
+        },
+        {
+          "averageRating": 2004,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "katkati",
+              "rating": 2004
+            },
+            "id": "fRTBKXZu",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "jaketheaw",
+              "rating": 2007
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 240
+    },
+    "2024-06": {
+      "black": 216,
+      "draws": 26,
+      "moves": [
+        {
+          "averageRating": 2109,
+          "black": 141,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 163
+        },
+        {
+          "averageRating": 2093,
+          "black": 35,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 33
+        },
+        {
+          "averageRating": 2097,
+          "black": 25,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 29
+        },
+        {
+          "averageRating": 2077,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 12
+        },
+        {
+          "averageRating": 2065,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 5
+        },
+        {
+          "averageRating": 2079,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 0
+        },
+        {
+          "averageRating": 2119,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "wirodayan",
+              "rating": 2119
+            },
+            "id": "XgIGm4vu",
+            "mode": "rated",
+            "month": "2024-06",
+            "speed": "blitz",
+            "white": {
+              "name": "wakayawaka",
+              "rating": 2076
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 1
+        },
+        {
+          "averageRating": 2184,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Amirshuh",
+              "rating": 2184
+            },
+            "id": "wK8elCB0",
+            "mode": "rated",
+            "month": "2024-06",
+            "speed": "blitz",
+            "white": {
+              "name": "vk82",
+              "rating": 2086
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2026,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "maboalrayat",
+              "rating": 2026
+            },
+            "id": "7LvJdkaR",
+            "mode": "rated",
+            "month": "2024-06",
+            "speed": "blitz",
+            "white": {
+              "name": "Izlesa",
+              "rating": 2018
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 0
+        },
+        {
+          "averageRating": 2246,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "amirrezavossough",
+              "rating": 2246
+            },
+            "id": "cPEbhJdp",
+            "mode": "rated",
+            "month": "2024-06",
+            "speed": "blitz",
+            "white": {
+              "name": "kasparzin",
+              "rating": 2094
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 244
+    },
+    "2024-07": {
+      "black": 234,
+      "draws": 27,
+      "moves": [
+        {
+          "averageRating": 2110,
+          "black": 150,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 165
+        },
+        {
+          "averageRating": 2107,
+          "black": 41,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 45
+        },
+        {
+          "averageRating": 2071,
+          "black": 31,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 30
+        },
+        {
+          "averageRating": 2062,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 15
+        },
+        {
+          "averageRating": 2129,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 2
+        },
+        {
+          "averageRating": 2128,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 2
+        },
+        {
+          "averageRating": 2191,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 2
+        },
+        {
+          "averageRating": 2058,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 1
+        },
+        {
+          "averageRating": 2061,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 0
+        },
+        {
+          "averageRating": 2187,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "MEHKB",
+              "rating": 2187
+            },
+            "id": "B44X3mEm",
+            "mode": "rated",
+            "month": "2024-07",
+            "speed": "blitz",
+            "white": {
+              "name": "Anasalk2300",
+              "rating": 2135
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bd7",
+          "uci": "c8d7",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 263
+    },
+    "2024-08": {
+      "black": 212,
+      "draws": 18,
+      "moves": [
+        {
+          "averageRating": 2108,
+          "black": 140,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 156
+        },
+        {
+          "averageRating": 2091,
+          "black": 35,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 44
+        },
+        {
+          "averageRating": 2082,
+          "black": 22,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 42
+        },
+        {
+          "averageRating": 2075,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 8
+        },
+        {
+          "averageRating": 2101,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 5
+        },
+        {
+          "averageRating": 2144,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 3
+        },
+        {
+          "averageRating": 2091,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 2
+        },
+        {
+          "averageRating": 1979,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 2
+        },
+        {
+          "averageRating": 2047,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2021,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 2
+        },
+        {
+          "averageRating": 2027,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "aem077",
+              "rating": 2027
+            },
+            "id": "8c0E7ZQQ",
+            "mode": "rated",
+            "month": "2024-08",
+            "speed": "blitz",
+            "white": {
+              "name": "AndrewSoane",
+              "rating": 2018
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a5",
+          "uci": "a7a5",
+          "white": 1
+        },
+        {
+          "averageRating": 2080,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "mjguru",
+              "rating": 2080
+            },
+            "id": "Koxu09AQ",
+            "mode": "rated",
+            "month": "2024-08",
+            "speed": "blitz",
+            "white": {
+              "name": "Logington",
+              "rating": 1987
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "c5",
+          "uci": "c6c5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 266
+    },
+    "2024-09": {
+      "black": 207,
+      "draws": 17,
+      "moves": [
+        {
+          "averageRating": 2104,
+          "black": 128,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 151
+        },
+        {
+          "averageRating": 2113,
+          "black": 34,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 34
+        },
+        {
+          "averageRating": 2097,
+          "black": 31,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 29
+        },
+        {
+          "averageRating": 2079,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 13
+        },
+        {
+          "averageRating": 2114,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 4
+        },
+        {
+          "averageRating": 2061,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 2
+        },
+        {
+          "averageRating": 2143,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 2
+        },
+        {
+          "averageRating": 2075,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 1
+        },
+        {
+          "averageRating": 2094,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "piccolognafa",
+              "rating": 2094
+            },
+            "id": "GvDVVKrg",
+            "mode": "rated",
+            "month": "2024-09",
+            "speed": "blitz",
+            "white": {
+              "name": "p_k_list",
+              "rating": 2056
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2114,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "mjguru",
+              "rating": 2114
+            },
+            "id": "naryCXkn",
+            "mode": "rated",
+            "month": "2024-09",
+            "speed": "blitz",
+            "white": {
+              "name": "Njaguljevic",
+              "rating": 2047
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "c5",
+          "uci": "c6c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2041,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "andra89",
+              "rating": 2041
+            },
+            "id": "v5JnBgu2",
+            "mode": "rated",
+            "month": "2024-09",
+            "speed": "blitz",
+            "white": {
+              "name": "alfathan",
+              "rating": 1978
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 239
+    },
+    "2024-10": {
+      "black": 207,
+      "draws": 20,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 121,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 150
+        },
+        {
+          "averageRating": 2097,
+          "black": 31,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 46
+        },
+        {
+          "averageRating": 2088,
+          "black": 39,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 25
+        },
+        {
+          "averageRating": 2091,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 7
+        },
+        {
+          "averageRating": 2132,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 6
+        },
+        {
+          "averageRating": 2086,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 3
+        },
+        {
+          "averageRating": 2151,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c6c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2164,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "geldar",
+              "rating": 2164
+            },
+            "id": "WofRrTv1",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "Nikita14122012",
+              "rating": 2091
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 0
+        },
+        {
+          "averageRating": 2052,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "soskin68",
+              "rating": 2052
+            },
+            "id": "6DI5Ou2f",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "Clemouuche",
+              "rating": 2025
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Na6",
+          "uci": "b8a6",
+          "white": 0
+        },
+        {
+          "averageRating": 2283,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ddainmial",
+              "rating": 2283
+            },
+            "id": "CpvVnmzY",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "afanasevmn",
+              "rating": 1984
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2038,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Wer_endspiel",
+              "rating": 2038
+            },
+            "id": "fQp6XJBC",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "jobob3461",
+              "rating": 2044
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2109,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ZackarySemancik",
+              "rating": 2109
+            },
+            "id": "Sfe3PqeG",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "davisreti",
+              "rating": 2124
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 241
+    },
+    "2024-11": {
+      "black": 225,
+      "draws": 32,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 137,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 162
+        },
+        {
+          "averageRating": 2112,
+          "black": 41,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 47
+        },
+        {
+          "averageRating": 2074,
+          "black": 27,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 21
+        },
+        {
+          "averageRating": 2092,
+          "black": 7,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 9
+        },
+        {
+          "averageRating": 2062,
+          "black": 5,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 5
+        },
+        {
+          "averageRating": 2128,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 3
+        },
+        {
+          "averageRating": 2184,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 2
+        },
+        {
+          "averageRating": 2069,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 2
+        },
+        {
+          "averageRating": 2043,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 2
+        },
+        {
+          "averageRating": 2174,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Gusiluz10",
+              "rating": 2174
+            },
+            "id": "UgVYjsTq",
+            "mode": "rated",
+            "month": "2024-11",
+            "speed": "blitz",
+            "white": {
+              "name": "zedped",
+              "rating": 2120
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "c5",
+          "uci": "c6c5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 253
+    },
+    "2024-12": {
+      "black": 243,
+      "draws": 25,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 154,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 158
+        },
+        {
+          "averageRating": 2118,
+          "black": 49,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 30
+        },
+        {
+          "averageRating": 2082,
+          "black": 29,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 33
+        },
+        {
+          "averageRating": 2036,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 9
+        },
+        {
+          "averageRating": 2113,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 3
+        },
+        {
+          "averageRating": 2103,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 2
+        },
+        {
+          "averageRating": 2132,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 3
+        },
+        {
+          "averageRating": 2081,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 3
+        },
+        {
+          "averageRating": 2062,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ngc3363",
+              "rating": 2062
+            },
+            "id": "httgPEn2",
+            "mode": "rated",
+            "month": "2024-12",
+            "speed": "blitz",
+            "white": {
+              "name": "larsbrastein",
+              "rating": 2083
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2048,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "captainphilips",
+              "rating": 2048
+            },
+            "id": "HcOEA9gw",
+            "mode": "rated",
+            "month": "2024-12",
+            "speed": "blitz",
+            "white": {
+              "name": "Mihai_89",
+              "rating": 2162
+            },
+            "winner": null,
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a5",
+          "uci": "a7a5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 242
+    },
+    "2025-01": {
+      "black": 255,
+      "draws": 31,
+      "moves": [
+        {
+          "averageRating": 2107,
+          "black": 167,
+          "draws": 22,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 167
+        },
+        {
+          "averageRating": 2098,
+          "black": 38,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 43
+        },
+        {
+          "averageRating": 2100,
+          "black": 32,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 24
+        },
+        {
+          "averageRating": 2058,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 15
+        },
+        {
+          "averageRating": 2071,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 7
+        },
+        {
+          "averageRating": 2110,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 1
+        },
+        {
+          "averageRating": 1968,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a5",
+          "uci": "a7a5",
+          "white": 1
+        },
+        {
+          "averageRating": 2124,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 1
+        },
+        {
+          "averageRating": 2155,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Bybes",
+              "rating": 2155
+            },
+            "id": "pc2iXmnd",
+            "mode": "rated",
+            "month": "2025-01",
+            "speed": "blitz",
+            "white": {
+              "name": "KrissKiss",
+              "rating": 2103
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 0
+        },
+        {
+          "averageRating": 1983,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "TerminatorGK",
+              "rating": 1983
+            },
+            "id": "lVxBA47z",
+            "mode": "rated",
+            "month": "2025-01",
+            "speed": "blitz",
+            "white": {
+              "name": "smurf_pwner",
+              "rating": 2020
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 1
+        },
+        {
+          "averageRating": 1837,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Azamat_33333",
+              "rating": 1837
+            },
+            "id": "mdxw2qJy",
+            "mode": "rated",
+            "month": "2025-01",
+            "speed": "blitz",
+            "white": {
+              "name": "esenkulov",
+              "rating": 2323
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 1
+        },
+        {
+          "averageRating": 2193,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "bintz_01",
+              "rating": 2193
+            },
+            "id": "FszvTvwL",
+            "mode": "rated",
+            "month": "2025-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Dr1971",
+              "rating": 2188
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qc7",
+          "uci": "d8c7",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 262
+    },
+    "2025-02": {
+      "black": 199,
+      "draws": 21,
+      "moves": [
+        {
+          "averageRating": 2108,
+          "black": 136,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 143
+        },
+        {
+          "averageRating": 2092,
+          "black": 36,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 42
+        },
+        {
+          "averageRating": 2087,
+          "black": 21,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 34
+        },
+        {
+          "averageRating": 2056,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 4
+        },
+        {
+          "averageRating": 2055,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 2
+        },
+        {
+          "averageRating": 2148,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 1
+        },
+        {
+          "averageRating": 2054,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 2
+        },
+        {
+          "averageRating": 2122,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c6c5",
+          "white": 2
+        },
+        {
+          "averageRating": 2080,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ntbanget",
+              "rating": 2080
+            },
+            "id": "D0woZDjI",
+            "mode": "rated",
+            "month": "2025-02",
+            "speed": "blitz",
+            "white": {
+              "name": "rufus_02",
+              "rating": 2193
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 0
+        },
+        {
+          "averageRating": 2084,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "TonySoprano1911",
+              "rating": 2084
+            },
+            "id": "cw2k5rWP",
+            "mode": "rated",
+            "month": "2025-02",
+            "speed": "blitz",
+            "white": {
+              "name": "losmiserables2",
+              "rating": 2150
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 231
+    },
+    "2025-03": {
+      "black": 254,
+      "draws": 25,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 160,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 154
+        },
+        {
+          "averageRating": 2088,
+          "black": 42,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 39
+        },
+        {
+          "averageRating": 2086,
+          "black": 37,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 41
+        },
+        {
+          "averageRating": 2064,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 13
+        },
+        {
+          "averageRating": 2129,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 5
+        },
+        {
+          "averageRating": 2064,
+          "black": 1,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 1
+        },
+        {
+          "averageRating": 1934,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 1
+        },
+        {
+          "averageRating": 2142,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 0
+        },
+        {
+          "averageRating": 2019,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Noiserv71523",
+              "rating": 2019
+            },
+            "id": "4ulfqDj5",
+            "mode": "rated",
+            "month": "2025-03",
+            "speed": "blitz",
+            "white": {
+              "name": "albertov91",
+              "rating": 2032
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 254
+    },
+    "2025-04": {
+      "black": 229,
+      "draws": 29,
+      "moves": [
+        {
+          "averageRating": 2104,
+          "black": 147,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 137
+        },
+        {
+          "averageRating": 2105,
+          "black": 34,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 32
+        },
+        {
+          "averageRating": 2083,
+          "black": 31,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 33
+        },
+        {
+          "averageRating": 2081,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 13
+        },
+        {
+          "averageRating": 2108,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 5
+        },
+        {
+          "averageRating": 2087,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 1
+        },
+        {
+          "averageRating": 2076,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2189,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 0
+        },
+        {
+          "averageRating": 2128,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Palanca2020",
+              "rating": 2128
+            },
+            "id": "QpLdPN5x",
+            "mode": "rated",
+            "month": "2025-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Never_Againn",
+              "rating": 2091
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 0
+        },
+        {
+          "averageRating": 2097,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Rikke83",
+              "rating": 2097
+            },
+            "id": "iUJEUQHP",
+            "mode": "rated",
+            "month": "2025-04",
+            "speed": "blitz",
+            "white": {
+              "name": "ms24",
+              "rating": 2079
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 0
+        },
+        {
+          "averageRating": 2114,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Erfanarian2022",
+              "rating": 2114
+            },
+            "id": "yBogi7uA",
+            "mode": "rated",
+            "month": "2025-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Moree333",
+              "rating": 2142
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "c5",
+          "uci": "c6c5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 223
+    },
+    "2025-05": {
+      "black": 205,
+      "draws": 28,
+      "moves": [
+        {
+          "averageRating": 2107,
+          "black": 134,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 132
+        },
+        {
+          "averageRating": 2092,
+          "black": 34,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 37
+        },
+        {
+          "averageRating": 2066,
+          "black": 20,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 27
+        },
+        {
+          "averageRating": 2070,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 11
+        },
+        {
+          "averageRating": 2095,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 5
+        },
+        {
+          "averageRating": 2055,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 3
+        },
+        {
+          "averageRating": 2062,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 1
+        },
+        {
+          "averageRating": 2175,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "sikhuthalu",
+              "rating": 2175
+            },
+            "id": "hds476Xy",
+            "mode": "rated",
+            "month": "2025-05",
+            "speed": "blitz",
+            "white": {
+              "name": "ArtisticTiger",
+              "rating": 2213
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qc7",
+          "uci": "d8c7",
+          "white": 0
+        },
+        {
+          "averageRating": 2146,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Andi_Thepawn",
+              "rating": 2146
+            },
+            "id": "PR0CnxGu",
+            "mode": "rated",
+            "month": "2025-05",
+            "speed": "blitz",
+            "white": {
+              "name": "chesscoachtaipei2025",
+              "rating": 2114
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 0
+        },
+        {
+          "averageRating": 2136,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "BeeNerd",
+              "rating": 2136
+            },
+            "id": "uo8dqqnc",
+            "mode": "rated",
+            "month": "2025-05",
+            "speed": "blitz",
+            "white": {
+              "name": "kuda_kembar",
+              "rating": 2075
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1
+        },
+        {
+          "averageRating": 2102,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "velleron",
+              "rating": 2102
+            },
+            "id": "ieqGcSTD",
+            "mode": "rated",
+            "month": "2025-05",
+            "speed": "blitz",
+            "white": {
+              "name": "JeromyV",
+              "rating": 2077
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "a5",
+          "uci": "a7a5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 217
+    },
+    "2025-06": {
+      "black": 190,
+      "draws": 23,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 124,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 159
+        },
+        {
+          "averageRating": 2086,
+          "black": 31,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 34
+        },
+        {
+          "averageRating": 2069,
+          "black": 17,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 32
+        },
+        {
+          "averageRating": 2042,
+          "black": 7,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 8
+        },
+        {
+          "averageRating": 2087,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 5
+        },
+        {
+          "averageRating": 2062,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2138,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a5",
+          "uci": "a7a5",
+          "white": 1
+        },
+        {
+          "averageRating": 2117,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 2
+        },
+        {
+          "averageRating": 2194,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 1
+        },
+        {
+          "averageRating": 2091,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c6c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2119,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "iTudor",
+              "rating": 2119
+            },
+            "id": "r13pmWnw",
+            "mode": "rated",
+            "month": "2025-06",
+            "speed": "blitz",
+            "white": {
+              "name": "Dr1971",
+              "rating": 2134
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 0
+        },
+        {
+          "averageRating": 2208,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Sleipnerova",
+              "rating": 2208
+            },
+            "id": "5nuZfAir",
+            "mode": "rated",
+            "month": "2025-06",
+            "speed": "blitz",
+            "white": {
+              "name": "masoudjavan",
+              "rating": 2166
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 245
+    },
+    "2025-07": {
+      "black": 223,
+      "draws": 23,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 132,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 175
+        },
+        {
+          "averageRating": 2085,
+          "black": 45,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 42
+        },
+        {
+          "averageRating": 2067,
+          "black": 29,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 36
+        },
+        {
+          "averageRating": 2086,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 3
+        },
+        {
+          "averageRating": 2090,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 2
+        },
+        {
+          "averageRating": 2074,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 2
+        },
+        {
+          "averageRating": 2030,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 3
+        },
+        {
+          "averageRating": 2114,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 1
+        },
+        {
+          "averageRating": 2040,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "recatelo",
+              "rating": 2040
+            },
+            "id": "AecASbCB",
+            "mode": "rated",
+            "month": "2025-07",
+            "speed": "blitz",
+            "white": {
+              "name": "hs1",
+              "rating": 2102
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "c5",
+          "uci": "c6c5",
+          "white": 0
+        },
+        {
+          "averageRating": 2082,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "morphy899",
+              "rating": 2082
+            },
+            "id": "PgLSeG9y",
+            "mode": "rated",
+            "month": "2025-07",
+            "speed": "blitz",
+            "white": {
+              "name": "mohamd-1",
+              "rating": 2087
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 1
+        },
+        {
+          "averageRating": 2083,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "gasm",
+              "rating": 2083
+            },
+            "id": "QRDidPsj",
+            "mode": "rated",
+            "month": "2025-07",
+            "speed": "blitz",
+            "white": {
+              "name": "amjad-dr",
+              "rating": 2109
+            },
+            "winner": null,
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qc7",
+          "uci": "d8c7",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 265
+    },
+    "2025-08": {
+      "black": 189,
+      "draws": 21,
+      "moves": [
+        {
+          "averageRating": 2095,
+          "black": 125,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 122
+        },
+        {
+          "averageRating": 2080,
+          "black": 27,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 41
+        },
+        {
+          "averageRating": 2079,
+          "black": 25,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 22
+        },
+        {
+          "averageRating": 2111,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 5
+        },
+        {
+          "averageRating": 2083,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 3
+        },
+        {
+          "averageRating": 2096,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 3
+        },
+        {
+          "averageRating": 2133,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 1
+        },
+        {
+          "averageRating": 2074,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Isha-DOST-UP-Scholar",
+              "rating": 2074
+            },
+            "id": "TIv0ZZTa",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "PedroCorvos2008",
+              "rating": 2125
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "a5",
+          "uci": "a7a5",
+          "white": 0
+        },
+        {
+          "averageRating": 2138,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "AndrenyRamosSerrano",
+              "rating": 2138
+            },
+            "id": "37BjODrP",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "davisreti",
+              "rating": 2104
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 1
+        },
+        {
+          "averageRating": 2162,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "sinarajabi83",
+              "rating": 2162
+            },
+            "id": "hAnfNq31",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "fearless1",
+              "rating": 2182
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "c5",
+          "uci": "c6c5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 199
+    },
+    "2025-09": {
+      "black": 169,
+      "draws": 24,
+      "moves": [
+        {
+          "averageRating": 2092,
+          "black": 110,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 110
+        },
+        {
+          "averageRating": 2105,
+          "black": 28,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 36
+        },
+        {
+          "averageRating": 2071,
+          "black": 18,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 32
+        },
+        {
+          "averageRating": 2066,
+          "black": 5,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 7
+        },
+        {
+          "averageRating": 2093,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 8
+        },
+        {
+          "averageRating": 2071,
+          "black": 2,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 2
+        },
+        {
+          "averageRating": 2059,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 2
+        },
+        {
+          "averageRating": 2146,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 0
+        },
+        {
+          "averageRating": 2036,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qb6",
+          "uci": "d8b6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 198
+    },
+    "2025-10": {
+      "black": 204,
+      "draws": 19,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 128,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 133
+        },
+        {
+          "averageRating": 2099,
+          "black": 36,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 38
+        },
+        {
+          "averageRating": 2068,
+          "black": 25,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 24
+        },
+        {
+          "averageRating": 2096,
+          "black": 7,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 8
+        },
+        {
+          "averageRating": 2075,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 2
+        },
+        {
+          "averageRating": 2084,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 2
+        },
+        {
+          "averageRating": 2013,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 2
+        },
+        {
+          "averageRating": 2115,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "c5",
+          "uci": "c6c5",
+          "white": 0
+        },
+        {
+          "averageRating": 2085,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "chess_lover123",
+              "rating": 2085
+            },
+            "id": "0GbaMTKM",
+            "mode": "rated",
+            "month": "2025-10",
+            "speed": "blitz",
+            "white": {
+              "name": "ostadfalahi",
+              "rating": 2133
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 0
+        },
+        {
+          "averageRating": 1997,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "mmmn62",
+              "rating": 1997
+            },
+            "id": "1GclAv91",
+            "mode": "rated",
+            "month": "2025-10",
+            "speed": "blitz",
+            "white": {
+              "name": "Gescha10",
+              "rating": 2034
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 0
+        },
+        {
+          "averageRating": 2027,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "akpala",
+              "rating": 2027
+            },
+            "id": "0OtELLye",
+            "mode": "rated",
+            "month": "2025-10",
+            "speed": "blitz",
+            "white": {
+              "name": "Buh0i",
+              "rating": 2067
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 210
+    },
+    "2025-11": {
+      "black": 184,
+      "draws": 34,
+      "moves": [
+        {
+          "averageRating": 2107,
+          "black": 120,
+          "draws": 21,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 132
+        },
+        {
+          "averageRating": 2098,
+          "black": 34,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 36
+        },
+        {
+          "averageRating": 2081,
+          "black": 21,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 25
+        },
+        {
+          "averageRating": 2097,
+          "black": 5,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 10
+        },
+        {
+          "averageRating": 2065,
+          "black": 3,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 1
+        },
+        {
+          "averageRating": 2111,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "zaiah9",
+              "rating": 2111
+            },
+            "id": "Z60Hmike",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "nitsugan",
+              "rating": 2174
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 1
+        },
+        {
+          "averageRating": 2177,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "parerga",
+              "rating": 2177
+            },
+            "id": "pqmJO8Y5",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "LordSaral",
+              "rating": 2130
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 1
+        },
+        {
+          "averageRating": 2102,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Stoffel67",
+              "rating": 2102
+            },
+            "id": "wYzBtAnG",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Steve0815",
+              "rating": 2082
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 1
+        },
+        {
+          "averageRating": 2138,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "terminans",
+              "rating": 2138
+            },
+            "id": "US7Tbpxb",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "warrior666",
+              "rating": 2092
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 1
+        },
+        {
+          "averageRating": 2077,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "creativedevil",
+              "rating": 2077
+            },
+            "id": "3WagCfZr",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Fragggen",
+              "rating": 2055
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 0
+        },
+        {
+          "averageRating": 2055,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Dark_Ghost-M",
+              "rating": 2055
+            },
+            "id": "78wYkRvc",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "TS20214",
+              "rating": 2080
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "c5",
+          "uci": "c6c5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 209
+    },
+    "2025-12": {
+      "black": 209,
+      "draws": 24,
+      "moves": [
+        {
+          "averageRating": 2106,
+          "black": 134,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 149
+        },
+        {
+          "averageRating": 2075,
+          "black": 33,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 25
+        },
+        {
+          "averageRating": 2103,
+          "black": 25,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 32
+        },
+        {
+          "averageRating": 2082,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 8
+        },
+        {
+          "averageRating": 2056,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 4
+        },
+        {
+          "averageRating": 2149,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 2
+        },
+        {
+          "averageRating": 2139,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 1
+        },
+        {
+          "averageRating": 2015,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 1
+        },
+        {
+          "averageRating": 2022,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Nyangu",
+              "rating": 2022
+            },
+            "id": "uKZ8ewij",
+            "mode": "rated",
+            "month": "2025-12",
+            "speed": "blitz",
+            "white": {
+              "name": "Con-knife",
+              "rating": 2104
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2076,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Blueking2",
+              "rating": 2076
+            },
+            "id": "r8PSB1HL",
+            "mode": "rated",
+            "month": "2025-12",
+            "speed": "blitz",
+            "white": {
+              "name": "marabelito2025",
+              "rating": 2025
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 1
+        },
+        {
+          "averageRating": 2081,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "YefimFyodorrow",
+              "rating": 2081
+            },
+            "id": "hEtD7z1e",
+            "mode": "rated",
+            "month": "2025-12",
+            "speed": "blitz",
+            "white": {
+              "name": "Ryskal",
+              "rating": 2251
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Na6",
+          "uci": "b8a6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 225
+    },
+    "2026-01": {
+      "black": 221,
+      "draws": 21,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 129,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 147
+        },
+        {
+          "averageRating": 2081,
+          "black": 43,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 29
+        },
+        {
+          "averageRating": 2075,
+          "black": 30,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 28
+        },
+        {
+          "averageRating": 2103,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 14
+        },
+        {
+          "averageRating": 2102,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 4
+        },
+        {
+          "averageRating": 2096,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 2
+        },
+        {
+          "averageRating": 2048,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 0
+        },
+        {
+          "averageRating": 2031,
+          "black": 1,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 1
+        },
+        {
+          "averageRating": 2109,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 2
+        },
+        {
+          "averageRating": 2117,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 0
+        },
+        {
+          "averageRating": 2097,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 1
+        },
+        {
+          "averageRating": 2158,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "AlbiK",
+              "rating": 2158
+            },
+            "id": "U7gaxUTH",
+            "mode": "rated",
+            "month": "2026-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Inigo-MontoyaFR",
+              "rating": 2157
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "c5",
+          "uci": "c6c5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 228
+    },
+    "2026-02": {
+      "black": 184,
+      "draws": 20,
+      "moves": [
+        {
+          "averageRating": 2103,
+          "black": 128,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 128
+        },
+        {
+          "averageRating": 2090,
+          "black": 28,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 43
+        },
+        {
+          "averageRating": 2076,
+          "black": 16,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 25
+        },
+        {
+          "averageRating": 2096,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 9
+        },
+        {
+          "averageRating": 2061,
+          "black": 1,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 4
+        },
+        {
+          "averageRating": 2140,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 3
+        },
+        {
+          "averageRating": 2058,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 1
+        },
+        {
+          "averageRating": 2049,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 2
+        },
+        {
+          "averageRating": 2069,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 0
+        },
+        {
+          "averageRating": 2173,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Sonnenstrahl82",
+              "rating": 2173
+            },
+            "id": "Hjkah32c",
+            "mode": "rated",
+            "month": "2026-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Luka_Vrankovic",
+              "rating": 2186
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "e5",
+          "uci": "e7e5",
+          "white": 1
+        },
+        {
+          "averageRating": 2038,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "MagicDuck12345",
+              "rating": 2038
+            },
+            "id": "HHY5Z5oS",
+            "mode": "rated",
+            "month": "2026-02",
+            "speed": "blitz",
+            "white": {
+              "name": "acamaz",
+              "rating": 2056
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 1
+        },
+        {
+          "averageRating": 2150,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Arina-La21reg",
+              "rating": 2150
+            },
+            "id": "v5exImG1",
+            "mode": "rated",
+            "month": "2026-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Julian-Wtal",
+              "rating": 2108
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "c5",
+          "uci": "c6c5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "white": 218
+    },
+    "2026-03": {
+      "black": 165,
+      "draws": 14,
+      "moves": [
+        {
+          "averageRating": 2104,
+          "black": 108,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 129
+        },
+        {
+          "averageRating": 2078,
+          "black": 27,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 33
+        },
+        {
+          "averageRating": 2090,
+          "black": 21,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 36
+        },
+        {
+          "averageRating": 2070,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 8
+        },
+        {
+          "averageRating": 2028,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 2
+        },
+        {
+          "averageRating": 2124,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 0
+        },
+        {
+          "averageRating": 2071,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 1
+        },
+        {
+          "averageRating": 1997,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 1
+        },
+        {
+          "averageRating": 2025,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa5",
+          "uci": "d8a5",
+          "white": 1
+        },
+        {
+          "averageRating": 2075,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2243,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 212
+    },
+    "2026-04": {
+      "black": 104,
+      "draws": 17,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 67,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 65
+        },
+        {
+          "averageRating": 2071,
+          "black": 14,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bf5",
+          "uci": "c8f5",
+          "white": 20
+        },
+        {
+          "averageRating": 2069,
+          "black": 14,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bg4",
+          "uci": "c8g4",
+          "white": 14
+        },
+        {
+          "averageRating": 2062,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 4
+        },
+        {
+          "averageRating": 2072,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "g6",
+          "uci": "g7g6",
+          "white": 2
+        },
+        {
+          "averageRating": 2084,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be6",
+          "uci": "c8e6",
+          "white": 2
+        },
+        {
+          "averageRating": 2072,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 1
+        },
+        {
+          "averageRating": 2014,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 1
+        },
+        {
+          "averageRating": 2040,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "D15",
+        "name": "Slav Defense: Alekhine Variation"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 110
+    }
+  }
+}

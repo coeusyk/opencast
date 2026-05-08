@@ -1,0 +1,6130 @@
+{
+  "_meta": {
+    "skipped_months": {}
+  },
+  "eco": "C28",
+  "months": {
+    "2023-01": {
+      "black": 241,
+      "draws": 41,
+      "moves": [
+        {
+          "averageRating": 2109,
+          "black": 108,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 100
+        },
+        {
+          "averageRating": 2073,
+          "black": 52,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 87
+        },
+        {
+          "averageRating": 2081,
+          "black": 39,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 60
+        },
+        {
+          "averageRating": 2066,
+          "black": 24,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 23
+        },
+        {
+          "averageRating": 2034,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 8
+        },
+        {
+          "averageRating": 2066,
+          "black": 6,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 7
+        },
+        {
+          "averageRating": 2025,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 2
+        },
+        {
+          "averageRating": 2128,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 3
+        },
+        {
+          "averageRating": 1994,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Kavkaz07rus",
+              "rating": 1994
+            },
+            "id": "OlUY4xr8",
+            "mode": "rated",
+            "month": "2023-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Sushritu",
+              "rating": 2025
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "a5",
+          "uci": "a7a5",
+          "white": 1
+        },
+        {
+          "averageRating": 2209,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "juanjo_003989",
+              "rating": 2209
+            },
+            "id": "mysndCbJ",
+            "mode": "rated",
+            "month": "2023-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Raul1972",
+              "rating": 1935
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bc5",
+          "uci": "b4c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2149,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Nightwish6",
+              "rating": 2149
+            },
+            "id": "suJRScGA",
+            "mode": "rated",
+            "month": "2023-01",
+            "speed": "blitz",
+            "white": {
+              "name": "jaantek2",
+              "rating": 2173
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 293
+    },
+    "2023-02": {
+      "black": 252,
+      "draws": 28,
+      "moves": [
+        {
+          "averageRating": 2103,
+          "black": 100,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 105
+        },
+        {
+          "averageRating": 2080,
+          "black": 58,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 93
+        },
+        {
+          "averageRating": 2089,
+          "black": 46,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 55
+        },
+        {
+          "averageRating": 2091,
+          "black": 27,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 35
+        },
+        {
+          "averageRating": 2043,
+          "black": 10,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 16
+        },
+        {
+          "averageRating": 2011,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 5
+        },
+        {
+          "averageRating": 2095,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 3
+        },
+        {
+          "averageRating": 1997,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "b4e7",
+          "white": 1
+        },
+        {
+          "averageRating": 2083,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "GodwinClement07",
+              "rating": 2083
+            },
+            "id": "SMO14pVP",
+            "mode": "rated",
+            "month": "2023-02",
+            "speed": "blitz",
+            "white": {
+              "name": "WallasTiger",
+              "rating": 2081
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 1
+        },
+        {
+          "averageRating": 2241,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "juanjo_003989",
+              "rating": 2241
+            },
+            "id": "p9zYAmUT",
+            "mode": "rated",
+            "month": "2023-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Alacazadelrey",
+              "rating": 2141
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bc5",
+          "uci": "b4c5",
+          "white": 0
+        },
+        {
+          "averageRating": 2107,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Ngakuimikasar123",
+              "rating": 2107
+            },
+            "id": "qrzf1A56",
+            "mode": "rated",
+            "month": "2023-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Macu28",
+              "rating": 2105
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Ba5",
+          "uci": "b4a5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 315
+    },
+    "2023-03": {
+      "black": 255,
+      "draws": 27,
+      "moves": [
+        {
+          "averageRating": 2105,
+          "black": 106,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 102
+        },
+        {
+          "averageRating": 2083,
+          "black": 60,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 89
+        },
+        {
+          "averageRating": 2089,
+          "black": 41,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 57
+        },
+        {
+          "averageRating": 2099,
+          "black": 27,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 27
+        },
+        {
+          "averageRating": 2046,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 14
+        },
+        {
+          "averageRating": 2055,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 6
+        },
+        {
+          "averageRating": 2137,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 1
+        },
+        {
+          "averageRating": 1997,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 1
+        },
+        {
+          "averageRating": 2098,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "mesho20103",
+              "rating": 2098
+            },
+            "id": "XozjIiOR",
+            "mode": "rated",
+            "month": "2023-03",
+            "speed": "blitz",
+            "white": {
+              "name": "Gorm1975",
+              "rating": 2043
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "a5",
+          "uci": "a7a5",
+          "white": 1
+        },
+        {
+          "averageRating": 1985,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "AHLI",
+              "rating": 1985
+            },
+            "id": "QkFIsr5M",
+            "mode": "rated",
+            "month": "2023-03",
+            "speed": "blitz",
+            "white": {
+              "name": "sammy66",
+              "rating": 2030
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bd6",
+          "uci": "b4d6",
+          "white": 0
+        },
+        {
+          "averageRating": 2125,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "buscapato33",
+              "rating": 2125
+            },
+            "id": "FTcrg1Hg",
+            "mode": "rated",
+            "month": "2023-03",
+            "speed": "blitz",
+            "white": {
+              "name": "viennatime",
+              "rating": 2056
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Ng4",
+          "uci": "f6g4",
+          "white": 0
+        },
+        {
+          "averageRating": 2041,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Abisoye14",
+              "rating": 2041
+            },
+            "id": "qcujAZfu",
+            "mode": "rated",
+            "month": "2023-03",
+            "speed": "blitz",
+            "white": {
+              "name": "Dima_Pein",
+              "rating": 2038
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 299
+    },
+    "2023-04": {
+      "black": 239,
+      "draws": 37,
+      "moves": [
+        {
+          "averageRating": 2116,
+          "black": 111,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 110
+        },
+        {
+          "averageRating": 2073,
+          "black": 54,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 86
+        },
+        {
+          "averageRating": 2076,
+          "black": 41,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 59
+        },
+        {
+          "averageRating": 2088,
+          "black": 21,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 20
+        },
+        {
+          "averageRating": 2067,
+          "black": 5,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 10
+        },
+        {
+          "averageRating": 2026,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 6
+        },
+        {
+          "averageRating": 2092,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 1
+        },
+        {
+          "averageRating": 1958,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Chicastles6",
+              "rating": 1958
+            },
+            "id": "vdtzRuUr",
+            "mode": "rated",
+            "month": "2023-04",
+            "speed": "blitz",
+            "white": {
+              "name": "r24oo",
+              "rating": 2066
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 0
+        },
+        {
+          "averageRating": 2041,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Osmonbek68",
+              "rating": 2041
+            },
+            "id": "SjikVb1B",
+            "mode": "rated",
+            "month": "2023-04",
+            "speed": "blitz",
+            "white": {
+              "name": "porpo",
+              "rating": 2082
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 1
+        },
+        {
+          "averageRating": 2024,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "SulisAE_AE",
+              "rating": 2024
+            },
+            "id": "0bLHUfMi",
+            "mode": "rated",
+            "month": "2023-04",
+            "speed": "blitz",
+            "white": {
+              "name": "rudiac",
+              "rating": 1989
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bc5",
+          "uci": "b4c5",
+          "white": 1
+        },
+        {
+          "averageRating": 1961,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "SirPenda",
+              "rating": 1961
+            },
+            "id": "y7jL70kA",
+            "mode": "rated",
+            "month": "2023-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Mithylesh685",
+              "rating": 2066
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 295
+    },
+    "2023-05": {
+      "black": 253,
+      "draws": 34,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 100,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 97
+        },
+        {
+          "averageRating": 2085,
+          "black": 66,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 78
+        },
+        {
+          "averageRating": 2088,
+          "black": 39,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 63
+        },
+        {
+          "averageRating": 2082,
+          "black": 31,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 32
+        },
+        {
+          "averageRating": 2066,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 16
+        },
+        {
+          "averageRating": 2049,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 5
+        },
+        {
+          "averageRating": 2095,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 3
+        },
+        {
+          "averageRating": 2076,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "b4c5",
+          "white": 1
+        },
+        {
+          "averageRating": 1976,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 2
+        },
+        {
+          "averageRating": 2002,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Nils-1er",
+              "rating": 2002
+            },
+            "id": "0Kb1XgT3",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "KatTheVillain",
+              "rating": 2004
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 1
+        },
+        {
+          "averageRating": 1829,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "misternav",
+              "rating": 1829
+            },
+            "id": "KRYVzpM9",
+            "mode": "rated",
+            "month": "2023-05",
+            "speed": "blitz",
+            "white": {
+              "name": "firebird123",
+              "rating": 2179
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 299
+    },
+    "2023-06": {
+      "black": 241,
+      "draws": 31,
+      "moves": [
+        {
+          "averageRating": 2096,
+          "black": 83,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 113
+        },
+        {
+          "averageRating": 2070,
+          "black": 69,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 96
+        },
+        {
+          "averageRating": 2080,
+          "black": 56,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 68
+        },
+        {
+          "averageRating": 2092,
+          "black": 15,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 21
+        },
+        {
+          "averageRating": 2078,
+          "black": 8,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 14
+        },
+        {
+          "averageRating": 2030,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 13
+        },
+        {
+          "averageRating": 2136,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 1
+        },
+        {
+          "averageRating": 1932,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 2
+        },
+        {
+          "averageRating": 2190,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "strategicomplexity",
+              "rating": 2190
+            },
+            "id": "e2XhqnVk",
+            "mode": "rated",
+            "month": "2023-06",
+            "speed": "blitz",
+            "white": {
+              "name": "danielfla",
+              "rating": 2094
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "a5",
+          "uci": "a7a5",
+          "white": 0
+        },
+        {
+          "averageRating": 2045,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "TheFoldingChessBoard",
+              "rating": 2045
+            },
+            "id": "mcMwwWdv",
+            "mode": "rated",
+            "month": "2023-06",
+            "speed": "blitz",
+            "white": {
+              "name": "simruh",
+              "rating": 2009
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 1
+        },
+        {
+          "averageRating": 2007,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "eklav234",
+              "rating": 2007
+            },
+            "id": "R8oSPJex",
+            "mode": "rated",
+            "month": "2023-06",
+            "speed": "blitz",
+            "white": {
+              "name": "thexwayxtoxgm",
+              "rating": 2006
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bc5",
+          "uci": "b4c5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 330
+    },
+    "2023-07": {
+      "black": 223,
+      "draws": 37,
+      "moves": [
+        {
+          "averageRating": 2104,
+          "black": 86,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 101
+        },
+        {
+          "averageRating": 2082,
+          "black": 56,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 78
+        },
+        {
+          "averageRating": 2080,
+          "black": 47,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 59
+        },
+        {
+          "averageRating": 2101,
+          "black": 16,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 27
+        },
+        {
+          "averageRating": 2084,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 13
+        },
+        {
+          "averageRating": 2035,
+          "black": 5,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 10
+        },
+        {
+          "averageRating": 2077,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 3
+        },
+        {
+          "averageRating": 2077,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 3
+        },
+        {
+          "averageRating": 2061,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "jepoizky0517",
+              "rating": 2061
+            },
+            "id": "Ow6AQnAl",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "JeswinTitus",
+              "rating": 2092
+            },
+            "winner": null,
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bc5",
+          "uci": "b4c5",
+          "white": 0
+        },
+        {
+          "averageRating": 2050,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Bonnie_Charles",
+              "rating": 2050
+            },
+            "id": "In8amcuI",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "AdrianPsy",
+              "rating": 2025
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "a5",
+          "uci": "a7a5",
+          "white": 0
+        },
+        {
+          "averageRating": 2209,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "HHP1997",
+              "rating": 2209
+            },
+            "id": "wY6xf2cV",
+            "mode": "rated",
+            "month": "2023-07",
+            "speed": "blitz",
+            "white": {
+              "name": "MrCaronte",
+              "rating": 1804
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 294
+    },
+    "2023-08": {
+      "black": 250,
+      "draws": 33,
+      "moves": [
+        {
+          "averageRating": 2110,
+          "black": 103,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 130
+        },
+        {
+          "averageRating": 2079,
+          "black": 51,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 88
+        },
+        {
+          "averageRating": 2081,
+          "black": 48,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 58
+        },
+        {
+          "averageRating": 2083,
+          "black": 20,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 24
+        },
+        {
+          "averageRating": 2077,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 7
+        },
+        {
+          "averageRating": 2056,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 8
+        },
+        {
+          "averageRating": 2122,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 5
+        },
+        {
+          "averageRating": 1994,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 0
+        },
+        {
+          "averageRating": 1997,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "b4c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2185,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Boomshakalaka1",
+              "rating": 2185
+            },
+            "id": "t8efDVUi",
+            "mode": "rated",
+            "month": "2023-08",
+            "speed": "blitz",
+            "white": {
+              "name": "phidipidippides",
+              "rating": 2142
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 321
+    },
+    "2023-09": {
+      "black": 261,
+      "draws": 24,
+      "moves": [
+        {
+          "averageRating": 2114,
+          "black": 100,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 129
+        },
+        {
+          "averageRating": 2083,
+          "black": 71,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 90
+        },
+        {
+          "averageRating": 2086,
+          "black": 41,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 80
+        },
+        {
+          "averageRating": 2085,
+          "black": 19,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 28
+        },
+        {
+          "averageRating": 2051,
+          "black": 15,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 9
+        },
+        {
+          "averageRating": 2048,
+          "black": 10,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 11
+        },
+        {
+          "averageRating": 2016,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 3
+        },
+        {
+          "averageRating": 2116,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 2
+        },
+        {
+          "averageRating": 2072,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "kjoh03",
+              "rating": 2072
+            },
+            "id": "fBl2nU22",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "mharden",
+              "rating": 2031
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 0
+        },
+        {
+          "averageRating": 2091,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Aruto22",
+              "rating": 2091
+            },
+            "id": "yobd6KoY",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "aAaGaetino",
+              "rating": 2125
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Nxe4",
+          "uci": "f6e4",
+          "white": 1
+        },
+        {
+          "averageRating": 2033,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "FairyTaleTime",
+              "rating": 2033
+            },
+            "id": "NqvHQxaF",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "ElAlfilCuantico",
+              "rating": 2016
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 1
+        },
+        {
+          "averageRating": 2087,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "zataar10",
+              "rating": 2087
+            },
+            "id": "kzPOJ7IF",
+            "mode": "rated",
+            "month": "2023-09",
+            "speed": "blitz",
+            "white": {
+              "name": "phidipidippides",
+              "rating": 2093
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 354
+    },
+    "2023-10": {
+      "black": 245,
+      "draws": 32,
+      "moves": [
+        {
+          "averageRating": 2116,
+          "black": 105,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 112
+        },
+        {
+          "averageRating": 2068,
+          "black": 60,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 78
+        },
+        {
+          "averageRating": 2076,
+          "black": 49,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 56
+        },
+        {
+          "averageRating": 2066,
+          "black": 17,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 21
+        },
+        {
+          "averageRating": 2089,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 6
+        },
+        {
+          "averageRating": 2035,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 8
+        },
+        {
+          "averageRating": 2085,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 3
+        },
+        {
+          "averageRating": 2034,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 1
+        },
+        {
+          "averageRating": 2078,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Ngomputer24",
+              "rating": 2078
+            },
+            "id": "0zLYRfFJ",
+            "mode": "rated",
+            "month": "2023-10",
+            "speed": "blitz",
+            "white": {
+              "name": "Zvecs",
+              "rating": 1974
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Bc5",
+          "uci": "b4c5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 285
+    },
+    "2023-11": {
+      "black": 258,
+      "draws": 29,
+      "moves": [
+        {
+          "averageRating": 2112,
+          "black": 114,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 131
+        },
+        {
+          "averageRating": 2069,
+          "black": 61,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 74
+        },
+        {
+          "averageRating": 2089,
+          "black": 55,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 69
+        },
+        {
+          "averageRating": 2062,
+          "black": 15,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 26
+        },
+        {
+          "averageRating": 2078,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 11
+        },
+        {
+          "averageRating": 2048,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 12
+        },
+        {
+          "averageRating": 2141,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 3
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 326
+    },
+    "2023-12": {
+      "black": 252,
+      "draws": 29,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 98,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 113
+        },
+        {
+          "averageRating": 2081,
+          "black": 69,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 90
+        },
+        {
+          "averageRating": 2078,
+          "black": 52,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 73
+        },
+        {
+          "averageRating": 2098,
+          "black": 22,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 25
+        },
+        {
+          "averageRating": 2055,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 10
+        },
+        {
+          "averageRating": 2020,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 5
+        },
+        {
+          "averageRating": 2074,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 4
+        },
+        {
+          "averageRating": 2084,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "muhammad_fadholi",
+              "rating": 2084
+            },
+            "id": "mSfhhsYz",
+            "mode": "rated",
+            "month": "2023-12",
+            "speed": "blitz",
+            "white": {
+              "name": "brain-game",
+              "rating": 2120
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "g5",
+          "uci": "g7g5",
+          "white": 1
+        },
+        {
+          "averageRating": 2066,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Faizal_666",
+              "rating": 2066
+            },
+            "id": "MIMzqMkV",
+            "mode": "rated",
+            "month": "2023-12",
+            "speed": "blitz",
+            "white": {
+              "name": "ivansingo",
+              "rating": 2138
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "b5",
+          "uci": "b7b5",
+          "white": 1
+        },
+        {
+          "averageRating": 2043,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "policeistanbul",
+              "rating": 2043
+            },
+            "id": "UBJzWk6n",
+            "mode": "rated",
+            "month": "2023-12",
+            "speed": "blitz",
+            "white": {
+              "name": "bspendig",
+              "rating": 2004
+            },
+            "winner": "white",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 1
+        },
+        {
+          "averageRating": 2003,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ShingaiMuzhingi",
+              "rating": 2003
+            },
+            "id": "18p0RiQz",
+            "mode": "rated",
+            "month": "2023-12",
+            "speed": "blitz",
+            "white": {
+              "name": "BAA78",
+              "rating": 1998
+            },
+            "winner": "black",
+            "year": 2023
+          },
+          "opening": null,
+          "san": "Be7",
+          "uci": "b4e7",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 323
+    },
+    "2024-01": {
+      "black": 265,
+      "draws": 39,
+      "moves": [
+        {
+          "averageRating": 2107,
+          "black": 128,
+          "draws": 22,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 143
+        },
+        {
+          "averageRating": 2090,
+          "black": 54,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 85
+        },
+        {
+          "averageRating": 2076,
+          "black": 40,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 79
+        },
+        {
+          "averageRating": 2109,
+          "black": 17,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 24
+        },
+        {
+          "averageRating": 2067,
+          "black": 12,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 9
+        },
+        {
+          "averageRating": 2093,
+          "black": 10,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 6
+        },
+        {
+          "averageRating": 2104,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 3
+        },
+        {
+          "averageRating": 2138,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "b4c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2182,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ronIIOOIV",
+              "rating": 2182
+            },
+            "id": "hLCaYVUp",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "bngsudheer",
+              "rating": 2112
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        },
+        {
+          "averageRating": 2074,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "niklas456",
+              "rating": 2074
+            },
+            "id": "IwnN7EoJ",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "madibi",
+              "rating": 2104
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Be7",
+          "uci": "b4e7",
+          "white": 1
+        },
+        {
+          "averageRating": 2143,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "botvinnik1994",
+              "rating": 2143
+            },
+            "id": "vPzH3yAZ",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "hormat_jafarpur",
+              "rating": 2079
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 0
+        },
+        {
+          "averageRating": 2068,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Garrik62",
+              "rating": 2068
+            },
+            "id": "daOYeeFz",
+            "mode": "rated",
+            "month": "2024-01",
+            "speed": "blitz",
+            "white": {
+              "name": "Aki_Mumbai_Champ",
+              "rating": 2112
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 354
+    },
+    "2024-02": {
+      "black": 239,
+      "draws": 34,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 109,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 122
+        },
+        {
+          "averageRating": 2084,
+          "black": 58,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 96
+        },
+        {
+          "averageRating": 2087,
+          "black": 46,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 71
+        },
+        {
+          "averageRating": 2087,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 29
+        },
+        {
+          "averageRating": 2056,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 18
+        },
+        {
+          "averageRating": 2059,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 5
+        },
+        {
+          "averageRating": 2081,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 3
+        },
+        {
+          "averageRating": 2122,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bc5",
+          "uci": "b4c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2189,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "JH0NEKSKI",
+              "rating": 2189
+            },
+            "id": "5RikeqqW",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "kafayapanpasta1",
+              "rating": 2172
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 1
+        },
+        {
+          "averageRating": 2233,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "jonhy_tactic",
+              "rating": 2233
+            },
+            "id": "zoSyK1hF",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Jonas_1990",
+              "rating": 2095
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 0
+        },
+        {
+          "averageRating": 2146,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Ruel_Jayan_CATB",
+              "rating": 2146
+            },
+            "id": "xqikMj7I",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "jannibubi261",
+              "rating": 2083
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a5",
+          "uci": "a7a5",
+          "white": 0
+        },
+        {
+          "averageRating": 2028,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "muslim_hs",
+              "rating": 2028
+            },
+            "id": "4YlpnA8v",
+            "mode": "rated",
+            "month": "2024-02",
+            "speed": "blitz",
+            "white": {
+              "name": "MayChaosTake_The_Wor",
+              "rating": 2031
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 346
+    },
+    "2024-03": {
+      "black": 254,
+      "draws": 34,
+      "moves": [
+        {
+          "averageRating": 2105,
+          "black": 111,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 150
+        },
+        {
+          "averageRating": 2080,
+          "black": 57,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 75
+        },
+        {
+          "averageRating": 2072,
+          "black": 42,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 69
+        },
+        {
+          "averageRating": 2079,
+          "black": 26,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 33
+        },
+        {
+          "averageRating": 2020,
+          "black": 4,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 17
+        },
+        {
+          "averageRating": 2060,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 10
+        },
+        {
+          "averageRating": 2098,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 3
+        },
+        {
+          "averageRating": 2053,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 2
+        },
+        {
+          "averageRating": 2034,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 3
+        },
+        {
+          "averageRating": 2105,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 1
+        },
+        {
+          "averageRating": 2001,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "JoEL-1994",
+              "rating": 2001
+            },
+            "id": "zZ3TAR6Z",
+            "mode": "rated",
+            "month": "2024-03",
+            "speed": "blitz",
+            "white": {
+              "name": "agriwan",
+              "rating": 2004
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bc5",
+          "uci": "b4c5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 363
+    },
+    "2024-04": {
+      "black": 260,
+      "draws": 32,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 98,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 126
+        },
+        {
+          "averageRating": 2088,
+          "black": 63,
+          "draws": 11,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 78
+        },
+        {
+          "averageRating": 2084,
+          "black": 59,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 75
+        },
+        {
+          "averageRating": 2077,
+          "black": 23,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 31
+        },
+        {
+          "averageRating": 2091,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 8
+        },
+        {
+          "averageRating": 2076,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 6
+        },
+        {
+          "averageRating": 2074,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 5
+        },
+        {
+          "averageRating": 2021,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Divyanshkumr",
+              "rating": 2021
+            },
+            "id": "zOikSh0o",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "aleksandrdp",
+              "rating": 2002
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Be7",
+          "uci": "b4e7",
+          "white": 1
+        },
+        {
+          "averageRating": 1993,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "ace535",
+              "rating": 1993
+            },
+            "id": "pxWqvHLM",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "frankies_dada",
+              "rating": 2011
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a5",
+          "uci": "a7a5",
+          "white": 1
+        },
+        {
+          "averageRating": 2078,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "carpetbomber",
+              "rating": 2078
+            },
+            "id": "e9rBwJVm",
+            "mode": "rated",
+            "month": "2024-04",
+            "speed": "blitz",
+            "white": {
+              "name": "masterdavy",
+              "rating": 2090
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 331
+    },
+    "2024-05": {
+      "black": 298,
+      "draws": 41,
+      "moves": [
+        {
+          "averageRating": 2105,
+          "black": 121,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 145
+        },
+        {
+          "averageRating": 2077,
+          "black": 67,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 90
+        },
+        {
+          "averageRating": 2083,
+          "black": 67,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 66
+        },
+        {
+          "averageRating": 2075,
+          "black": 28,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 30
+        },
+        {
+          "averageRating": 2076,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 11
+        },
+        {
+          "averageRating": 2021,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 8
+        },
+        {
+          "averageRating": 2112,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 1
+        },
+        {
+          "averageRating": 2118,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 3
+        },
+        {
+          "averageRating": 2114,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "nazanin6304",
+              "rating": 2114
+            },
+            "id": "Gt0bymIK",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "Dima_Pein",
+              "rating": 2125
+            },
+            "winner": null,
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Ke7",
+          "uci": "e8e7",
+          "white": 0
+        },
+        {
+          "averageRating": 2136,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Weuz09",
+              "rating": 2136
+            },
+            "id": "JGZCZ2JX",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "antonoo",
+              "rating": 2132
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 0
+        },
+        {
+          "averageRating": 2043,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "sergeiprokofiev",
+              "rating": 2043
+            },
+            "id": "HeGg7N4j",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "Rato7",
+              "rating": 2005
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 1
+        },
+        {
+          "averageRating": 2114,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "HamzaGm1",
+              "rating": 2114
+            },
+            "id": "QXkHTMJb",
+            "mode": "rated",
+            "month": "2024-05",
+            "speed": "blitz",
+            "white": {
+              "name": "SamuraiWar",
+              "rating": 2195
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 357
+    },
+    "2024-06": {
+      "black": 235,
+      "draws": 33,
+      "moves": [
+        {
+          "averageRating": 2101,
+          "black": 96,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 137
+        },
+        {
+          "averageRating": 2081,
+          "black": 54,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 62
+        },
+        {
+          "averageRating": 2085,
+          "black": 45,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 62
+        },
+        {
+          "averageRating": 2080,
+          "black": 19,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 26
+        },
+        {
+          "averageRating": 2055,
+          "black": 9,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 14
+        },
+        {
+          "averageRating": 2037,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 14
+        },
+        {
+          "averageRating": 2060,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 1
+        },
+        {
+          "averageRating": 2103,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 0
+        },
+        {
+          "averageRating": 2028,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 1
+        },
+        {
+          "averageRating": 2065,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Aruto22",
+              "rating": 2065
+            },
+            "id": "rdgkaAtZ",
+            "mode": "rated",
+            "month": "2024-06",
+            "speed": "blitz",
+            "white": {
+              "name": "Marcu28",
+              "rating": 2079
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a5",
+          "uci": "a7a5",
+          "white": 1
+        },
+        {
+          "averageRating": 2074,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Delon7",
+              "rating": 2074
+            },
+            "id": "QkgCoZET",
+            "mode": "rated",
+            "month": "2024-06",
+            "speed": "blitz",
+            "white": {
+              "name": "H434243",
+              "rating": 2062
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Nd5",
+          "uci": "f6d5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 319
+    },
+    "2024-07": {
+      "black": 279,
+      "draws": 36,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 118,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 127
+        },
+        {
+          "averageRating": 2083,
+          "black": 67,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 66
+        },
+        {
+          "averageRating": 2096,
+          "black": 51,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 77
+        },
+        {
+          "averageRating": 2079,
+          "black": 23,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 31
+        },
+        {
+          "averageRating": 2057,
+          "black": 13,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 13
+        },
+        {
+          "averageRating": 2086,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 7
+        },
+        {
+          "averageRating": 2031,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 2
+        },
+        {
+          "averageRating": 2054,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 2
+        },
+        {
+          "averageRating": 2092,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "niklas456",
+              "rating": 2092
+            },
+            "id": "Xl5NUCvq",
+            "mode": "rated",
+            "month": "2024-07",
+            "speed": "blitz",
+            "white": {
+              "name": "intrade",
+              "rating": 2102
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Ng4",
+          "uci": "f6g4",
+          "white": 1
+        },
+        {
+          "averageRating": 2079,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "bigolsky21",
+              "rating": 2079
+            },
+            "id": "4djgZlvt",
+            "mode": "rated",
+            "month": "2024-07",
+            "speed": "blitz",
+            "white": {
+              "name": "Pepeng_Ondoy",
+              "rating": 2111
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bc5",
+          "uci": "b4c5",
+          "white": 0
+        },
+        {
+          "averageRating": 2046,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "molayikh",
+              "rating": 2046
+            },
+            "id": "fx8SRnNN",
+            "mode": "rated",
+            "month": "2024-07",
+            "speed": "blitz",
+            "white": {
+              "name": "imioussaka12",
+              "rating": 2090
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a5",
+          "uci": "a7a5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 326
+    },
+    "2024-08": {
+      "black": 278,
+      "draws": 32,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 114,
+          "draws": 15,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 153
+        },
+        {
+          "averageRating": 2083,
+          "black": 54,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 91
+        },
+        {
+          "averageRating": 2073,
+          "black": 66,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 69
+        },
+        {
+          "averageRating": 2083,
+          "black": 20,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 27
+        },
+        {
+          "averageRating": 2050,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 17
+        },
+        {
+          "averageRating": 2065,
+          "black": 11,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 8
+        },
+        {
+          "averageRating": 2056,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 4
+        },
+        {
+          "averageRating": 2079,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 2
+        },
+        {
+          "averageRating": 2078,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 1
+        },
+        {
+          "averageRating": 2056,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "El_Novato64",
+              "rating": 2056
+            },
+            "id": "pEBXCb6k",
+            "mode": "rated",
+            "month": "2024-08",
+            "speed": "blitz",
+            "white": {
+              "name": "gerrycastro2",
+              "rating": 2070
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a5",
+          "uci": "a7a5",
+          "white": 0
+        },
+        {
+          "averageRating": 2058,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "juvanneddu",
+              "rating": 2058
+            },
+            "id": "yLl7Vw9F",
+            "mode": "rated",
+            "month": "2024-08",
+            "speed": "blitz",
+            "white": {
+              "name": "BestWest",
+              "rating": 2018
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bc5",
+          "uci": "b4c5",
+          "white": 0
+        },
+        {
+          "averageRating": 2087,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "deong9999",
+              "rating": 2087
+            },
+            "id": "OxiVAei4",
+            "mode": "rated",
+            "month": "2024-08",
+            "speed": "blitz",
+            "white": {
+              "name": "juanuvas",
+              "rating": 1976
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 373
+    },
+    "2024-09": {
+      "black": 254,
+      "draws": 39,
+      "moves": [
+        {
+          "averageRating": 2108,
+          "black": 122,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 136
+        },
+        {
+          "averageRating": 2082,
+          "black": 55,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 73
+        },
+        {
+          "averageRating": 2064,
+          "black": 47,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 75
+        },
+        {
+          "averageRating": 2085,
+          "black": 19,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 22
+        },
+        {
+          "averageRating": 2072,
+          "black": 5,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 10
+        },
+        {
+          "averageRating": 2051,
+          "black": 3,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 9
+        },
+        {
+          "averageRating": 2090,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 2
+        },
+        {
+          "averageRating": 2084,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 1
+        },
+        {
+          "averageRating": 2070,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "MT909",
+              "rating": 2070
+            },
+            "id": "lxRUKyw0",
+            "mode": "rated",
+            "month": "2024-09",
+            "speed": "blitz",
+            "white": {
+              "name": "Gmddarel",
+              "rating": 2085
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Ba3",
+          "uci": "b4a3",
+          "white": 1
+        },
+        {
+          "averageRating": 2183,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Ikromov2400",
+              "rating": 2183
+            },
+            "id": "gk6F7Z3o",
+            "mode": "rated",
+            "month": "2024-09",
+            "speed": "blitz",
+            "white": {
+              "name": "vanyaslon",
+              "rating": 2145
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Ng4",
+          "uci": "f6g4",
+          "white": 1
+        },
+        {
+          "averageRating": 2116,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "chessmagic85",
+              "rating": 2116
+            },
+            "id": "rjTpYYWi",
+            "mode": "rated",
+            "month": "2024-09",
+            "speed": "blitz",
+            "white": {
+              "name": "OgroMVZ",
+              "rating": 2063
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 331
+    },
+    "2024-10": {
+      "black": 235,
+      "draws": 34,
+      "moves": [
+        {
+          "averageRating": 2082,
+          "black": 101,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 164
+        },
+        {
+          "averageRating": 2078,
+          "black": 65,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 88
+        },
+        {
+          "averageRating": 2068,
+          "black": 45,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 79
+        },
+        {
+          "averageRating": 2076,
+          "black": 11,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 21
+        },
+        {
+          "averageRating": 2063,
+          "black": 6,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 5
+        },
+        {
+          "averageRating": 2053,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 8
+        },
+        {
+          "averageRating": 2109,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 2
+        },
+        {
+          "averageRating": 1993,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 2
+        },
+        {
+          "averageRating": 2164,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "RojaRoja",
+              "rating": 2164
+            },
+            "id": "oO01FgjV",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "jezzujezzu",
+              "rating": 2084
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 1
+        },
+        {
+          "averageRating": 2098,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Andril-SP",
+              "rating": 2098
+            },
+            "id": "vV3yttEl",
+            "mode": "rated",
+            "month": "2024-10",
+            "speed": "blitz",
+            "white": {
+              "name": "Chicaloca",
+              "rating": 1965
+            },
+            "winner": "black",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 370
+    },
+    "2024-11": {
+      "black": 265,
+      "draws": 35,
+      "moves": [
+        {
+          "averageRating": 2104,
+          "black": 114,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 146
+        },
+        {
+          "averageRating": 2086,
+          "black": 65,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 82
+        },
+        {
+          "averageRating": 2083,
+          "black": 54,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 64
+        },
+        {
+          "averageRating": 2088,
+          "black": 17,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 27
+        },
+        {
+          "averageRating": 1993,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 11
+        },
+        {
+          "averageRating": 2063,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 13
+        },
+        {
+          "averageRating": 2101,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 3
+        },
+        {
+          "averageRating": 2092,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 4
+        },
+        {
+          "averageRating": 2009,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "Delon7",
+              "rating": 2009
+            },
+            "id": "z3qIvEO4",
+            "mode": "rated",
+            "month": "2024-11",
+            "speed": "blitz",
+            "white": {
+              "name": "GarrettBobbyFerguson",
+              "rating": 2004
+            },
+            "winner": null,
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Ng4",
+          "uci": "f6g4",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 350
+    },
+    "2024-12": {
+      "black": 278,
+      "draws": 33,
+      "moves": [
+        {
+          "averageRating": 2105,
+          "black": 121,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 163
+        },
+        {
+          "averageRating": 2091,
+          "black": 75,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 69
+        },
+        {
+          "averageRating": 2078,
+          "black": 52,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 75
+        },
+        {
+          "averageRating": 2104,
+          "black": 17,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 29
+        },
+        {
+          "averageRating": 2051,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 16
+        },
+        {
+          "averageRating": 2085,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 11
+        },
+        {
+          "averageRating": 2055,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 7
+        },
+        {
+          "averageRating": 2012,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 2
+        },
+        {
+          "averageRating": 2018,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "Milanisti-MCS",
+              "rating": 2018
+            },
+            "id": "gTbslsap",
+            "mode": "rated",
+            "month": "2024-12",
+            "speed": "blitz",
+            "white": {
+              "name": "Mironov_1964",
+              "rating": 2008
+            },
+            "winner": null,
+            "year": 2024
+          },
+          "opening": null,
+          "san": "a5",
+          "uci": "a7a5",
+          "white": 0
+        },
+        {
+          "averageRating": 1989,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Garry1304",
+              "rating": 1989
+            },
+            "id": "5qpoNEOp",
+            "mode": "rated",
+            "month": "2024-12",
+            "speed": "blitz",
+            "white": {
+              "name": "MasterOfPovery",
+              "rating": 2021
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 1
+        },
+        {
+          "averageRating": 2057,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "georgedim",
+              "rating": 2057
+            },
+            "id": "hRTixAkP",
+            "mode": "rated",
+            "month": "2024-12",
+            "speed": "blitz",
+            "white": {
+              "name": "Mamun_joardar-BD",
+              "rating": 2063
+            },
+            "winner": "white",
+            "year": 2024
+          },
+          "opening": null,
+          "san": "Bc5",
+          "uci": "b4c5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 374
+    },
+    "2025-01": {
+      "black": 271,
+      "draws": 42,
+      "moves": [
+        {
+          "averageRating": 2104,
+          "black": 127,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 143
+        },
+        {
+          "averageRating": 2085,
+          "black": 57,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 72
+        },
+        {
+          "averageRating": 2073,
+          "black": 46,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 58
+        },
+        {
+          "averageRating": 2085,
+          "black": 20,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 21
+        },
+        {
+          "averageRating": 2069,
+          "black": 10,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 9
+        },
+        {
+          "averageRating": 2075,
+          "black": 4,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 9
+        },
+        {
+          "averageRating": 2093,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 3
+        },
+        {
+          "averageRating": 2141,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 1
+        },
+        {
+          "averageRating": 2072,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a5",
+          "uci": "a7a5",
+          "white": 0
+        },
+        {
+          "averageRating": 1995,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "seryozha_24",
+              "rating": 1995
+            },
+            "id": "NgGSaWEL",
+            "mode": "rated",
+            "month": "2025-01",
+            "speed": "blitz",
+            "white": {
+              "name": "maximus305",
+              "rating": 2028
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 317
+    },
+    "2025-02": {
+      "black": 233,
+      "draws": 45,
+      "moves": [
+        {
+          "averageRating": 2111,
+          "black": 107,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 130
+        },
+        {
+          "averageRating": 2060,
+          "black": 47,
+          "draws": 16,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 72
+        },
+        {
+          "averageRating": 2076,
+          "black": 49,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 47
+        },
+        {
+          "averageRating": 2070,
+          "black": 13,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 20
+        },
+        {
+          "averageRating": 2063,
+          "black": 6,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 16
+        },
+        {
+          "averageRating": 2081,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 9
+        },
+        {
+          "averageRating": 2041,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 2
+        },
+        {
+          "averageRating": 2073,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 0
+        },
+        {
+          "averageRating": 2103,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "JMM_01",
+              "rating": 2103
+            },
+            "id": "YtHqgebv",
+            "mode": "rated",
+            "month": "2025-02",
+            "speed": "blitz",
+            "white": {
+              "name": "Dynamo_31",
+              "rating": 2083
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 296
+    },
+    "2025-03": {
+      "black": 258,
+      "draws": 35,
+      "moves": [
+        {
+          "averageRating": 2104,
+          "black": 121,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 122
+        },
+        {
+          "averageRating": 2080,
+          "black": 46,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 84
+        },
+        {
+          "averageRating": 2070,
+          "black": 57,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 58
+        },
+        {
+          "averageRating": 2097,
+          "black": 21,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 39
+        },
+        {
+          "averageRating": 2034,
+          "black": 7,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 10
+        },
+        {
+          "averageRating": 2033,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 8
+        },
+        {
+          "averageRating": 2067,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 5
+        },
+        {
+          "averageRating": 1992,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 3
+        },
+        {
+          "averageRating": 2002,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Alien_Project",
+              "rating": 2002
+            },
+            "id": "O5G97P0S",
+            "mode": "rated",
+            "month": "2025-03",
+            "speed": "blitz",
+            "white": {
+              "name": "SherzodUZ",
+              "rating": 2065
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 1
+        },
+        {
+          "averageRating": 2065,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "American_Pharoah",
+              "rating": 2065
+            },
+            "id": "fIQrjZQQ",
+            "mode": "rated",
+            "month": "2025-03",
+            "speed": "blitz",
+            "white": {
+              "name": "chessstache",
+              "rating": 2019
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 331
+    },
+    "2025-04": {
+      "black": 218,
+      "draws": 34,
+      "moves": [
+        {
+          "averageRating": 2110,
+          "black": 113,
+          "draws": 20,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 113
+        },
+        {
+          "averageRating": 2085,
+          "black": 32,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 78
+        },
+        {
+          "averageRating": 2069,
+          "black": 35,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 73
+        },
+        {
+          "averageRating": 2082,
+          "black": 20,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 23
+        },
+        {
+          "averageRating": 2036,
+          "black": 13,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 9
+        },
+        {
+          "averageRating": 2038,
+          "black": 4,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 1
+        },
+        {
+          "averageRating": 2083,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 2
+        },
+        {
+          "averageRating": 2009,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Angelok2005",
+              "rating": 2009
+            },
+            "id": "rrJEpFr7",
+            "mode": "rated",
+            "month": "2025-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Matveylx",
+              "rating": 2147
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 1
+        },
+        {
+          "averageRating": 2119,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "chessbgchess",
+              "rating": 2119
+            },
+            "id": "cyYFWCLQ",
+            "mode": "rated",
+            "month": "2025-04",
+            "speed": "blitz",
+            "white": {
+              "name": "Crazypandacheck",
+              "rating": 2197
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bc5",
+          "uci": "b4c5",
+          "white": 1
+        },
+        {
+          "averageRating": 2184,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "jamestsherwin",
+              "rating": 2184
+            },
+            "id": "uZwLyH92",
+            "mode": "rated",
+            "month": "2025-04",
+            "speed": "blitz",
+            "white": {
+              "name": "dxm64",
+              "rating": 2207
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 0
+        },
+        {
+          "averageRating": 2084,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "My_brokensoul",
+              "rating": 2084
+            },
+            "id": "rLrWnAjg",
+            "mode": "rated",
+            "month": "2025-04",
+            "speed": "blitz",
+            "white": {
+              "name": "bb1729",
+              "rating": 2051
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 302
+    },
+    "2025-05": {
+      "black": 243,
+      "draws": 26,
+      "moves": [
+        {
+          "averageRating": 2107,
+          "black": 105,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 113
+        },
+        {
+          "averageRating": 2077,
+          "black": 56,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 59
+        },
+        {
+          "averageRating": 2086,
+          "black": 47,
+          "draws": 8,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 62
+        },
+        {
+          "averageRating": 2082,
+          "black": 19,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 25
+        },
+        {
+          "averageRating": 2076,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 12
+        },
+        {
+          "averageRating": 2039,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 9
+        },
+        {
+          "averageRating": 2106,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 3
+        },
+        {
+          "averageRating": 2047,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 0
+        },
+        {
+          "averageRating": 2007,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "deriklim",
+              "rating": 2007
+            },
+            "id": "Cr1BkCHc",
+            "mode": "rated",
+            "month": "2025-05",
+            "speed": "blitz",
+            "white": {
+              "name": "Dmitry_Dubovik",
+              "rating": 2017
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ke7",
+          "uci": "e8e7",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 284
+    },
+    "2025-06": {
+      "black": 264,
+      "draws": 31,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 136,
+          "draws": 19,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 125
+        },
+        {
+          "averageRating": 2085,
+          "black": 54,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 62
+        },
+        {
+          "averageRating": 2069,
+          "black": 41,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 67
+        },
+        {
+          "averageRating": 2075,
+          "black": 16,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 17
+        },
+        {
+          "averageRating": 2064,
+          "black": 9,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 16
+        },
+        {
+          "averageRating": 2054,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 13
+        },
+        {
+          "averageRating": 2089,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 3
+        },
+        {
+          "averageRating": 2116,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 2
+        },
+        {
+          "averageRating": 2125,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 2
+        },
+        {
+          "averageRating": 1959,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "den2010den",
+              "rating": 1959
+            },
+            "id": "NMH0VIFq",
+            "mode": "rated",
+            "month": "2025-06",
+            "speed": "blitz",
+            "white": {
+              "name": "TaginTiger",
+              "rating": 2054
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 307
+    },
+    "2025-07": {
+      "black": 246,
+      "draws": 28,
+      "moves": [
+        {
+          "averageRating": 2095,
+          "black": 105,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 124
+        },
+        {
+          "averageRating": 2071,
+          "black": 60,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 68
+        },
+        {
+          "averageRating": 2078,
+          "black": 42,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 63
+        },
+        {
+          "averageRating": 2082,
+          "black": 17,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 18
+        },
+        {
+          "averageRating": 2040,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 14
+        },
+        {
+          "averageRating": 2061,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 4
+        },
+        {
+          "averageRating": 2038,
+          "black": 4,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 4
+        },
+        {
+          "averageRating": 2091,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 3
+        },
+        {
+          "averageRating": 2126,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "GjergjViniki68",
+              "rating": 2126
+            },
+            "id": "ZRlIBNnW",
+            "mode": "rated",
+            "month": "2025-07",
+            "speed": "blitz",
+            "white": {
+              "name": "cachorros",
+              "rating": 2134
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 0
+        },
+        {
+          "averageRating": 2128,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Teziss",
+              "rating": 2128
+            },
+            "id": "PBQgUqYR",
+            "mode": "rated",
+            "month": "2025-07",
+            "speed": "blitz",
+            "white": {
+              "name": "sulibrk",
+              "rating": 2060
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ng4",
+          "uci": "f6g4",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 299
+    },
+    "2025-08": {
+      "black": 270,
+      "draws": 39,
+      "moves": [
+        {
+          "averageRating": 2108,
+          "black": 119,
+          "draws": 21,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 131
+        },
+        {
+          "averageRating": 2078,
+          "black": 59,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 78
+        },
+        {
+          "averageRating": 2081,
+          "black": 52,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 68
+        },
+        {
+          "averageRating": 2078,
+          "black": 18,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 40
+        },
+        {
+          "averageRating": 1999,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 15
+        },
+        {
+          "averageRating": 2048,
+          "black": 6,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 6
+        },
+        {
+          "averageRating": 2039,
+          "black": 6,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 3
+        },
+        {
+          "averageRating": 2098,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 3
+        },
+        {
+          "averageRating": 2107,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "FelipeB99",
+              "rating": 2107
+            },
+            "id": "n5JSs9it",
+            "mode": "rated",
+            "month": "2025-08",
+            "speed": "blitz",
+            "white": {
+              "name": "MiChess9",
+              "rating": 2116
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 345
+    },
+    "2025-09": {
+      "black": 256,
+      "draws": 32,
+      "moves": [
+        {
+          "averageRating": 2104,
+          "black": 114,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 133
+        },
+        {
+          "averageRating": 2064,
+          "black": 55,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 77
+        },
+        {
+          "averageRating": 2069,
+          "black": 54,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 65
+        },
+        {
+          "averageRating": 2048,
+          "black": 16,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 29
+        },
+        {
+          "averageRating": 2047,
+          "black": 9,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 12
+        },
+        {
+          "averageRating": 2050,
+          "black": 3,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 6
+        },
+        {
+          "averageRating": 1986,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 2
+        },
+        {
+          "averageRating": 1999,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 2
+        },
+        {
+          "averageRating": 2106,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bf8",
+          "uci": "b4f8",
+          "white": 2
+        },
+        {
+          "averageRating": 2126,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "h5",
+          "uci": "h7h5",
+          "white": 2
+        },
+        {
+          "averageRating": 1998,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Garry1304",
+              "rating": 1998
+            },
+            "id": "ZWqtR6GM",
+            "mode": "rated",
+            "month": "2025-09",
+            "speed": "blitz",
+            "white": {
+              "name": "Mario-1976",
+              "rating": 2015
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 1
+        },
+        {
+          "averageRating": 2107,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "El_Novato64",
+              "rating": 2107
+            },
+            "id": "vzbptVXM",
+            "mode": "rated",
+            "month": "2025-09",
+            "speed": "blitz",
+            "white": {
+              "name": "ehpad_ator",
+              "rating": 2156
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "a5",
+          "uci": "a7a5",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 332
+    },
+    "2025-10": {
+      "black": 266,
+      "draws": 34,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 108,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 117
+        },
+        {
+          "averageRating": 2065,
+          "black": 64,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 75
+        },
+        {
+          "averageRating": 2067,
+          "black": 47,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 46
+        },
+        {
+          "averageRating": 2084,
+          "black": 24,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 26
+        },
+        {
+          "averageRating": 2048,
+          "black": 14,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 11
+        },
+        {
+          "averageRating": 2038,
+          "black": 4,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 9
+        },
+        {
+          "averageRating": 2034,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 6
+        },
+        {
+          "averageRating": 2043,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Iloveyouuuuuuu",
+              "rating": 2043
+            },
+            "id": "97Bi9YEs",
+            "mode": "rated",
+            "month": "2025-10",
+            "speed": "blitz",
+            "white": {
+              "name": "salem-oman",
+              "rating": 1984
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 0
+        },
+        {
+          "averageRating": 2173,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "La_lechede_Zacatecas",
+              "rating": 2173
+            },
+            "id": "vF0ga1h1",
+            "mode": "rated",
+            "month": "2025-10",
+            "speed": "blitz",
+            "white": {
+              "name": "Eric_RD",
+              "rating": 2094
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 0
+        },
+        {
+          "averageRating": 2074,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "perfeccion999",
+              "rating": 2074
+            },
+            "id": "O6Hf5LLe",
+            "mode": "rated",
+            "month": "2025-10",
+            "speed": "blitz",
+            "white": {
+              "name": "Korchnoj92",
+              "rating": 2050
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ba5",
+          "uci": "b4a5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 290
+    },
+    "2025-11": {
+      "black": 233,
+      "draws": 35,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 105,
+          "draws": 12,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 122
+        },
+        {
+          "averageRating": 2078,
+          "black": 52,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 79
+        },
+        {
+          "averageRating": 2083,
+          "black": 41,
+          "draws": 13,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 73
+        },
+        {
+          "averageRating": 2047,
+          "black": 21,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 18
+        },
+        {
+          "averageRating": 2099,
+          "black": 8,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 10
+        },
+        {
+          "averageRating": 2082,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 14
+        },
+        {
+          "averageRating": 2075,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 4
+        },
+        {
+          "averageRating": 2203,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "strategicomplexity",
+              "rating": 2203
+            },
+            "id": "GgKQlt4h",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "ziadarnaout",
+              "rating": 2119
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "a5",
+          "uci": "a7a5",
+          "white": 0
+        },
+        {
+          "averageRating": 1946,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Fohlenspringer2",
+              "rating": 1946
+            },
+            "id": "2rdA99hh",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "drshabir",
+              "rating": 2215
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ba5",
+          "uci": "b4a5",
+          "white": 1
+        },
+        {
+          "averageRating": 2103,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "The_fiend1",
+              "rating": 2103
+            },
+            "id": "t1WvSyOZ",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "Parolluiiiu",
+              "rating": 2058
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ng4",
+          "uci": "f6g4",
+          "white": 0
+        },
+        {
+          "averageRating": 2064,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "AdhamEsodany",
+              "rating": 2064
+            },
+            "id": "wc1C2pTT",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "cibanir",
+              "rating": 2037
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 1
+        },
+        {
+          "averageRating": 2183,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "BETTERCHESSMAN",
+              "rating": 2183
+            },
+            "id": "qyTgDT4q",
+            "mode": "rated",
+            "month": "2025-11",
+            "speed": "blitz",
+            "white": {
+              "name": "DonChevalier",
+              "rating": 2204
+            },
+            "winner": null,
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 322
+    },
+    "2025-12": {
+      "black": 266,
+      "draws": 39,
+      "moves": [
+        {
+          "averageRating": 2099,
+          "black": 120,
+          "draws": 21,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 143
+        },
+        {
+          "averageRating": 2067,
+          "black": 53,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 95
+        },
+        {
+          "averageRating": 2072,
+          "black": 54,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 74
+        },
+        {
+          "averageRating": 2085,
+          "black": 16,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 26
+        },
+        {
+          "averageRating": 2057,
+          "black": 7,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 19
+        },
+        {
+          "averageRating": 2069,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 11
+        },
+        {
+          "averageRating": 2094,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 2
+        },
+        {
+          "averageRating": 2081,
+          "black": 4,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 3
+        },
+        {
+          "averageRating": 2207,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Bogdan666",
+              "rating": 2207
+            },
+            "id": "zyko6NRn",
+            "mode": "rated",
+            "month": "2025-12",
+            "speed": "blitz",
+            "white": {
+              "name": "Othman_123",
+              "rating": 2052
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Kf8",
+          "uci": "e8f8",
+          "white": 1
+        },
+        {
+          "averageRating": 2010,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Mr_Novato_2026",
+              "rating": 2010
+            },
+            "id": "JCpzML4A",
+            "mode": "rated",
+            "month": "2025-12",
+            "speed": "blitz",
+            "white": {
+              "name": "GarenOP",
+              "rating": 2070
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "a5",
+          "uci": "a7a5",
+          "white": 1
+        },
+        {
+          "averageRating": 1800,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "pkpdj",
+              "rating": 1800
+            },
+            "id": "YpkNN4gk",
+            "mode": "rated",
+            "month": "2025-12",
+            "speed": "blitz",
+            "white": {
+              "name": "GenGisKhan11",
+              "rating": 2326
+            },
+            "winner": "white",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Bd6",
+          "uci": "b4d6",
+          "white": 1
+        },
+        {
+          "averageRating": 1986,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "orkat",
+              "rating": 1986
+            },
+            "id": "oNiNKIKU",
+            "mode": "rated",
+            "month": "2025-12",
+            "speed": "blitz",
+            "white": {
+              "name": "diffset",
+              "rating": 2036
+            },
+            "winner": "black",
+            "year": 2025
+          },
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 376
+    },
+    "2026-01": {
+      "black": 282,
+      "draws": 36,
+      "moves": [
+        {
+          "averageRating": 2102,
+          "black": 126,
+          "draws": 22,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 160
+        },
+        {
+          "averageRating": 2089,
+          "black": 61,
+          "draws": 6,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 92
+        },
+        {
+          "averageRating": 2074,
+          "black": 53,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 74
+        },
+        {
+          "averageRating": 2091,
+          "black": 29,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 37
+        },
+        {
+          "averageRating": 2004,
+          "black": 5,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 12
+        },
+        {
+          "averageRating": 2054,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 4
+        },
+        {
+          "averageRating": 2134,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 2
+        },
+        {
+          "averageRating": 2020,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 2
+        },
+        {
+          "averageRating": 2065,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Msakambewa",
+              "rating": 2065
+            },
+            "id": "jst5Idhf",
+            "mode": "rated",
+            "month": "2026-01",
+            "speed": "blitz",
+            "white": {
+              "name": "illuzzz69",
+              "rating": 2014
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Bd6",
+          "uci": "b4d6",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 383
+    },
+    "2026-02": {
+      "black": 221,
+      "draws": 27,
+      "moves": [
+        {
+          "averageRating": 2097,
+          "black": 103,
+          "draws": 10,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 146
+        },
+        {
+          "averageRating": 2078,
+          "black": 44,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 67
+        },
+        {
+          "averageRating": 2083,
+          "black": 46,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 62
+        },
+        {
+          "averageRating": 2069,
+          "black": 14,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 26
+        },
+        {
+          "averageRating": 2050,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 10
+        },
+        {
+          "averageRating": 2071,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 6
+        },
+        {
+          "averageRating": 2130,
+          "black": 0,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 1
+        },
+        {
+          "averageRating": 2049,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "kingchrisx",
+              "rating": 2049
+            },
+            "id": "u0drdUPT",
+            "mode": "rated",
+            "month": "2026-02",
+            "speed": "blitz",
+            "white": {
+              "name": "dr_drunkishtein",
+              "rating": 2064
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Qe7",
+          "uci": "d8e7",
+          "white": 1
+        },
+        {
+          "averageRating": 2089,
+          "black": 1,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "zirbto",
+              "rating": 2089
+            },
+            "id": "qk99Jncy",
+            "mode": "rated",
+            "month": "2026-02",
+            "speed": "blitz",
+            "white": {
+              "name": "AdrianPsy",
+              "rating": 2068
+            },
+            "winner": "black",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Ne7",
+          "uci": "c6e7",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 319
+    },
+    "2026-03": {
+      "black": 273,
+      "draws": 37,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 123,
+          "draws": 17,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 147
+        },
+        {
+          "averageRating": 2073,
+          "black": 57,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 79
+        },
+        {
+          "averageRating": 2092,
+          "black": 52,
+          "draws": 5,
+          "game": null,
+          "opening": null,
+          "san": "O-O",
+          "uci": "e8h8",
+          "white": 81
+        },
+        {
+          "averageRating": 2072,
+          "black": 24,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "h6",
+          "uci": "h7h6",
+          "white": 26
+        },
+        {
+          "averageRating": 2052,
+          "black": 9,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Bxc3+",
+          "uci": "b4c3",
+          "white": 11
+        },
+        {
+          "averageRating": 2061,
+          "black": 6,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd4",
+          "uci": "c6d4",
+          "white": 5
+        },
+        {
+          "averageRating": 2097,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Na5",
+          "uci": "c6a5",
+          "white": 6
+        },
+        {
+          "averageRating": 2187,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "leninchess2025",
+              "rating": 2187
+            },
+            "id": "pYdfFUKP",
+            "mode": "rated",
+            "month": "2026-03",
+            "speed": "blitz",
+            "white": {
+              "name": "bennygek",
+              "rating": 2200
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "a5",
+          "uci": "a7a5",
+          "white": 1
+        },
+        {
+          "averageRating": 2070,
+          "black": 0,
+          "draws": 1,
+          "game": {
+            "black": {
+              "name": "Shakhboz_2006",
+              "rating": 2070
+            },
+            "id": "Vn0hMKeD",
+            "mode": "rated",
+            "month": "2026-03",
+            "speed": "blitz",
+            "white": {
+              "name": "rickeyfeb15",
+              "rating": 1936
+            },
+            "winner": null,
+            "year": 2026
+          },
+          "opening": null,
+          "san": "Ng4",
+          "uci": "f6g4",
+          "white": 0
+        },
+        {
+          "averageRating": 2011,
+          "black": 0,
+          "draws": 0,
+          "game": {
+            "black": {
+              "name": "Muneerkwt",
+              "rating": 2011
+            },
+            "id": "kYOhphF6",
+            "mode": "rated",
+            "month": "2026-03",
+            "speed": "blitz",
+            "white": {
+              "name": "DOUGLLSS",
+              "rating": 2015
+            },
+            "winner": "white",
+            "year": 2026
+          },
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      },
+      "white": 357
+    },
+    "2026-04": {
+      "white": 183,
+      "draws": 18,
+      "black": 140,
+      "moves": [
+        {
+          "uci": "d7d5",
+          "san": "d5",
+          "averageRating": 2098,
+          "white": 79,
+          "draws": 11,
+          "black": 72,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "e8h8",
+          "san": "O-O",
+          "averageRating": 2086,
+          "white": 36,
+          "draws": 2,
+          "black": 27,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "d7d6",
+          "san": "d6",
+          "averageRating": 2075,
+          "white": 30,
+          "draws": 5,
+          "black": 24,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "h7h6",
+          "san": "h6",
+          "averageRating": 2082,
+          "white": 20,
+          "draws": 0,
+          "black": 7,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "b4c3",
+          "san": "Bxc3+",
+          "averageRating": 2067,
+          "white": 8,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c6d4",
+          "san": "Nd4",
+          "averageRating": 2030,
+          "white": 6,
+          "draws": 0,
+          "black": 2,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c6a5",
+          "san": "Na5",
+          "averageRating": 2180,
+          "white": 2,
+          "draws": 0,
+          "black": 3,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "a7a6",
+          "san": "a6",
+          "averageRating": 2074,
+          "white": 2,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "c6e7",
+          "san": "Ne7",
+          "averageRating": 2182,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        },
+        {
+          "uci": "h7h5",
+          "san": "h5",
+          "averageRating": 2073,
+          "white": 0,
+          "draws": 0,
+          "black": 1,
+          "game": null,
+          "opening": null
+        }
+      ],
+      "recentGames": [],
+      "topGames": [],
+      "opening": {
+        "eco": "C28",
+        "name": "Bishop's Opening: Vienna Hybrid, Hrom\u00e1dka Variation"
+      }
+    }
+  }
+}
