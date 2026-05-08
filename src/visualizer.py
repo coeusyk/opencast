@@ -1073,10 +1073,9 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 6rem 2rem 5rem;
   align-items: center;
+  min-height: calc(100dvh - 48px);
+  padding: clamp(2rem, 5vw, 4rem) max(1.5rem, calc((100vw - 1080px) / 2 + 1.5rem));
   background-image: repeating-conic-gradient(
     rgba(255,255,255,0.015) 0% 25%,
     transparent 0% 50%
@@ -1085,7 +1084,7 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
   background-position: 0 0;
 }
 @media (max-width: 768px) {
-  .hero { grid-template-columns: 1fr; gap: 3rem; padding: 3rem 1.5rem; }
+  .hero { grid-template-columns: 1fr; gap: 3rem; min-height: auto; }
 }
 
 .hero-eyebrow {

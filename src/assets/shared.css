@@ -232,7 +232,8 @@ h3 { font-size: 14px; font-weight: 500; }
   grid-template-columns: 5fr 7fr;
   gap: 4rem;
   align-items: center;
-  padding: clamp(3rem, 8vw, 6rem) 0 clamp(2.5rem, 6vw, 5rem);
+  min-height: calc(100dvh - 48px); /* 48px = nav height */
+  padding: clamp(2rem, 5vw, 4rem) max(1.5rem, calc((100vw - 1080px) / 2 + 1.5rem));
   border-bottom: 1px solid var(--border);
 }
 
