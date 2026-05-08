@@ -1,0 +1,2226 @@
+{
+  "A00": {
+    "confidence": "high",
+    "coverage_95": 0.9743589743589745,
+    "mae_pp": 0.39269056471773695,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A01": {
+    "confidence": "medium",
+    "coverage_95": 0.8974358974358975,
+    "mae_pp": 0.25305613093073925,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A02": {
+    "confidence": "medium",
+    "coverage_95": 0.8974358974358975,
+    "mae_pp": 0.22850831171227168,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A03": {
+    "confidence": "medium",
+    "coverage_95": 0.8461538461538461,
+    "mae_pp": 0.3973774398605849,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A05": {
+    "confidence": "high",
+    "coverage_95": 0.9487179487179489,
+    "mae_pp": 0.41088017994619164,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A06": {
+    "confidence": "high",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 0.5896949468337289,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A08": {
+    "confidence": "medium",
+    "coverage_95": 0.8461538461538461,
+    "mae_pp": 0.6122775267544331,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A09": {
+    "confidence": "high",
+    "coverage_95": 1.0,
+    "mae_pp": 0.2863028178609813,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A10": {
+    "confidence": "high",
+    "coverage_95": 0.9743589743589745,
+    "mae_pp": 0.07331280395264916,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A11": {
+    "confidence": "high",
+    "coverage_95": 0.9743589743589745,
+    "mae_pp": 0.2566467523729455,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A13": {
+    "confidence": "medium",
+    "coverage_95": 0.8974358974358975,
+    "mae_pp": 0.2725860760847133,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A15": {
+    "confidence": "medium",
+    "coverage_95": 0.8974358974358975,
+    "mae_pp": 0.22560849013236153,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A16": {
+    "confidence": "medium",
+    "coverage_95": 0.8717948717948719,
+    "mae_pp": 1.1051164591659897,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A18": {
+    "confidence": "low",
+    "coverage_95": 0.7948717948717948,
+    "mae_pp": 0.5592070673677345,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A21": {
+    "confidence": "medium",
+    "coverage_95": 0.9743589743589745,
+    "mae_pp": 0.9806841410115471,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A22": {
+    "confidence": "high",
+    "coverage_95": 0.9743589743589745,
+    "mae_pp": 0.5308426049023893,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A23": {
+    "confidence": "low",
+    "coverage_95": 0.8974358974358975,
+    "mae_pp": 1.6570348843881195,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A27": {
+    "confidence": "low",
+    "coverage_95": 0.7948717948717948,
+    "mae_pp": 0.8590705593477521,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A28": {
+    "confidence": "medium",
+    "coverage_95": 1.0,
+    "mae_pp": 1.4748230136340859,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 0.61pp",
+    "tier": 2
+  },
+  "A29": {
+    "confidence": "medium",
+    "coverage_95": 0.9487179487179489,
+    "mae_pp": 1.4098728316325377,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A30": {
+    "confidence": "high",
+    "coverage_95": 1.0,
+    "mae_pp": 0.21586034187913203,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A31": {
+    "confidence": "low",
+    "coverage_95": 0.7692307692307692,
+    "mae_pp": 0.7272654852152006,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A36": {
+    "confidence": "medium",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 1.0112235826858276,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A39": {
+    "confidence": "low",
+    "coverage_95": 0.6923076923076924,
+    "mae_pp": 2.534600396908123,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A41": {
+    "confidence": "medium",
+    "coverage_95": 0.8717948717948719,
+    "mae_pp": 0.38810650772664906,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A42": {
+    "confidence": "high",
+    "coverage_95": 1.0,
+    "mae_pp": 0.45020304185144266,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A43": {
+    "confidence": "medium",
+    "coverage_95": 0.8205128205128206,
+    "mae_pp": 0.6651256700380512,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A44": {
+    "confidence": "medium",
+    "coverage_95": 0.8461538461538461,
+    "mae_pp": 0.5355860993470593,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A45": {
+    "confidence": "medium",
+    "coverage_95": 0.8205128205128206,
+    "mae_pp": 0.4192112716968038,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A48": {
+    "confidence": "medium",
+    "coverage_95": 0.8461538461538461,
+    "mae_pp": 0.1716579042439381,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A49": {
+    "confidence": "high",
+    "coverage_95": 1.0,
+    "mae_pp": 0.4453123249365652,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A51": {
+    "confidence": "high",
+    "coverage_95": 0.9743589743589745,
+    "mae_pp": 0.29264426823494083,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A52": {
+    "confidence": "high",
+    "coverage_95": 0.9743589743589745,
+    "mae_pp": 0.41913773750691896,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A53": {
+    "confidence": "medium",
+    "coverage_95": 0.8205128205128206,
+    "mae_pp": 0.35533627448464095,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A55": {
+    "confidence": "medium",
+    "coverage_95": 0.8717948717948718,
+    "mae_pp": 1.480496305541501,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 0.83pp",
+    "tier": 2
+  },
+  "A56": {
+    "confidence": "high",
+    "coverage_95": 1.0,
+    "mae_pp": 0.2544595074829066,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A57": {
+    "confidence": "high",
+    "coverage_95": 1.0,
+    "mae_pp": 0.28169715241616416,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A59": {
+    "confidence": "low",
+    "coverage_95": 1.0,
+    "mae_pp": 2.0336668857770075,
+    "model": "mean",
+    "reason": "Holt-Winters did not clear threshold; falling back to mean",
+    "tier": 2
+  },
+  "A60": {
+    "confidence": "high",
+    "coverage_95": 0.9487179487179489,
+    "mae_pp": 0.5587517949820698,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A61": {
+    "confidence": "medium",
+    "coverage_95": 0.8461538461538461,
+    "mae_pp": 1.2712078813791774,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A62": {
+    "confidence": "low",
+    "coverage_95": 0.9722222222222222,
+    "mae_pp": 1.764282049040996,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 0.66pp",
+    "tier": 2
+  },
+  "A65": {
+    "confidence": "medium",
+    "coverage_95": 0.8974358974358975,
+    "mae_pp": 0.5393371529293394,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A67": {
+    "confidence": "low",
+    "coverage_95": 0.8484848484848486,
+    "mae_pp": 2.382335783002682,
+    "model": "mean",
+    "reason": "Holt-Winters did not clear threshold; falling back to mean",
+    "tier": 2
+  },
+  "A68": {
+    "confidence": "low",
+    "coverage_95": 0.9722222222222222,
+    "mae_pp": 1.7783764366829,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 0.77pp",
+    "tier": 2
+  },
+  "A70": {
+    "confidence": "medium",
+    "coverage_95": 0.8205128205128206,
+    "mae_pp": 1.33797550853426,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A72": {
+    "confidence": "low",
+    "coverage_95": 0.8888888888888888,
+    "mae_pp": 2.058753573751249,
+    "model": "mean",
+    "reason": "Holt-Winters did not clear threshold; falling back to mean",
+    "tier": 2
+  },
+  "A73": {
+    "confidence": "low",
+    "coverage_95": 0.9166666666666666,
+    "mae_pp": 2.156106512878529,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 0.59pp",
+    "tier": 2
+  },
+  "A80": {
+    "confidence": "medium",
+    "coverage_95": 0.8205128205128206,
+    "mae_pp": 0.234783496742709,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A83": {
+    "confidence": "medium",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 1.266339337778039,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A84": {
+    "confidence": "high",
+    "coverage_95": 0.9743589743589745,
+    "mae_pp": 0.4395240658681802,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A85": {
+    "confidence": "high",
+    "coverage_95": 1.0,
+    "mae_pp": 0.41241702126442153,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A86": {
+    "confidence": "low",
+    "coverage_95": 0.8611111111111112,
+    "mae_pp": 1.6719594007807714,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 0.74pp",
+    "tier": 2
+  },
+  "A87": {
+    "confidence": "low",
+    "coverage_95": 1.0,
+    "mae_pp": 2.2645900312532565,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 0.96pp",
+    "tier": 2
+  },
+  "A88": {
+    "confidence": "low",
+    "coverage_95": 0.8461538461538461,
+    "mae_pp": 2.2487515535965223,
+    "model": "mean",
+    "reason": "Holt-Winters did not clear threshold; falling back to mean",
+    "tier": 2
+  },
+  "A90": {
+    "confidence": "high",
+    "coverage_95": 1.0,
+    "mae_pp": 0.6998096675655171,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "A91": {
+    "confidence": "low",
+    "coverage_95": 0.875,
+    "mae_pp": 2.1990831300628475,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 1.70pp",
+    "tier": 2
+  },
+  "A95": {
+    "confidence": "low",
+    "coverage_95": 0.8888888888888888,
+    "mae_pp": 2.237498854698636,
+    "model": "mean",
+    "reason": "Holt-Winters did not clear threshold; falling back to mean",
+    "tier": 2
+  },
+  "A96": {
+    "confidence": "low",
+    "coverage_95": 0.9166666666666666,
+    "mae_pp": 1.8080922446998493,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 0.84pp",
+    "tier": 2
+  },
+  "B00": {
+    "confidence": "low",
+    "coverage_95": 0.7948717948717948,
+    "mae_pp": 1.6805376653253496,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B01": {
+    "confidence": "high",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 0.14923346064577536,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B02": {
+    "confidence": "medium",
+    "coverage_95": 0.8717948717948719,
+    "mae_pp": 0.1806000903490793,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B03": {
+    "confidence": "high",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 0.33983112816223704,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B06": {
+    "confidence": "high",
+    "coverage_95": 0.9487179487179489,
+    "mae_pp": 0.21800342565370737,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B07": {
+    "confidence": "low",
+    "coverage_95": 0.717948717948718,
+    "mae_pp": 0.2291805834423766,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B12": {
+    "confidence": "low",
+    "coverage_95": 0.7435897435897436,
+    "mae_pp": 0.15086063647310446,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B20": {
+    "confidence": "medium",
+    "coverage_95": 0.8461538461538463,
+    "mae_pp": 0.08614508071101178,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B21": {
+    "confidence": "low",
+    "coverage_95": 0.9166666666666666,
+    "mae_pp": 1.6924454460416356,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 0.64pp",
+    "tier": 2
+  },
+  "B22": {
+    "confidence": "high",
+    "coverage_95": 1.0,
+    "mae_pp": 0.12818784240842573,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B23": {
+    "confidence": "high",
+    "coverage_95": 1.0,
+    "mae_pp": 0.1093613760109427,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B24": {
+    "confidence": "high",
+    "coverage_95": 0.9743589743589745,
+    "mae_pp": 0.7444799787895482,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B25": {
+    "confidence": "medium",
+    "coverage_95": 1.0,
+    "mae_pp": 0.9809969567019253,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B26": {
+    "confidence": "medium",
+    "coverage_95": 0.9743589743589745,
+    "mae_pp": 1.118369814625006,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 0.73pp",
+    "tier": 2
+  },
+  "B28": {
+    "confidence": "high",
+    "coverage_95": 1.0,
+    "mae_pp": 0.4155994817964661,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B29": {
+    "confidence": "medium",
+    "coverage_95": 0.8205128205128206,
+    "mae_pp": 0.9273222992031048,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B30": {
+    "confidence": "medium",
+    "coverage_95": 1.0,
+    "mae_pp": 0.7951453445670379,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B31": {
+    "confidence": "high",
+    "coverage_95": 0.9743589743589745,
+    "mae_pp": 0.4933128924042631,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B32": {
+    "confidence": "high",
+    "coverage_95": 0.9487179487179489,
+    "mae_pp": 0.453507546732077,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B33": {
+    "confidence": "low",
+    "coverage_95": 0.7948717948717948,
+    "mae_pp": 0.6153754118833902,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B34": {
+    "confidence": "high",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 0.685490070662515,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B35": {
+    "confidence": "high",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 0.5998643034891503,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B36": {
+    "confidence": "low",
+    "coverage_95": 0.7435897435897436,
+    "mae_pp": 1.0529240188520956,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B37": {
+    "confidence": "high",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 0.40237364279337906,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B38": {
+    "confidence": "high",
+    "coverage_95": 0.9743589743589745,
+    "mae_pp": 0.6207869379198423,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B39": {
+    "confidence": "low",
+    "coverage_95": 0.8611111111111112,
+    "mae_pp": 2.6998253550771962,
+    "model": "mean",
+    "reason": "Holt-Winters did not clear threshold; falling back to mean",
+    "tier": 2
+  },
+  "B41": {
+    "confidence": "medium",
+    "coverage_95": 0.8974358974358975,
+    "mae_pp": 0.31941269904608993,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B43": {
+    "confidence": "medium",
+    "coverage_95": 0.8974358974358975,
+    "mae_pp": 0.34242424413429573,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B44": {
+    "confidence": "medium",
+    "coverage_95": 0.8974358974358975,
+    "mae_pp": 0.3270366259237476,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B45": {
+    "confidence": "medium",
+    "coverage_95": 0.8974358974358975,
+    "mae_pp": 0.4401727516560133,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B46": {
+    "confidence": "high",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 0.6594356082560459,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B47": {
+    "confidence": "medium",
+    "coverage_95": 0.8974358974358975,
+    "mae_pp": 0.6617613078492274,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B48": {
+    "confidence": "medium",
+    "coverage_95": 0.8205128205128206,
+    "mae_pp": 1.1728214777008727,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B49": {
+    "confidence": "low",
+    "coverage_95": 0.9166666666666666,
+    "mae_pp": 1.9678853873366944,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 0.80pp",
+    "tier": 2
+  },
+  "B50": {
+    "confidence": "medium",
+    "coverage_95": 0.8974358974358975,
+    "mae_pp": 0.17047041056916026,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B51": {
+    "confidence": "high",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 0.4804034576147514,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B53": {
+    "confidence": "medium",
+    "coverage_95": 0.8717948717948718,
+    "mae_pp": 0.7455688942783162,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B54": {
+    "confidence": "low",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 1.5837377826174832,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B56": {
+    "confidence": "medium",
+    "coverage_95": 0.8461538461538461,
+    "mae_pp": 0.4034802925569269,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B58": {
+    "confidence": "medium",
+    "coverage_95": 1.0,
+    "mae_pp": 1.2089810155483327,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 0.67pp",
+    "tier": 2
+  },
+  "B60": {
+    "confidence": "low",
+    "coverage_95": 0.717948717948718,
+    "mae_pp": 1.5995349678145105,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B62": {
+    "confidence": "low",
+    "coverage_95": 0.8461538461538461,
+    "mae_pp": 1.5297288438162517,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B70": {
+    "confidence": "low",
+    "coverage_95": 0.7435897435897436,
+    "mae_pp": 0.5342156393983722,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B71": {
+    "confidence": "medium",
+    "coverage_95": 1.0,
+    "mae_pp": 1.2461991790352103,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 0.81pp",
+    "tier": 2
+  },
+  "B72": {
+    "confidence": "medium",
+    "coverage_95": 0.9487179487179489,
+    "mae_pp": 0.7554973131365985,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B73": {
+    "confidence": "low",
+    "coverage_95": 0.9166666666666666,
+    "mae_pp": 2.3782078119246246,
+    "model": "mean",
+    "reason": "Holt-Winters did not clear threshold; falling back to mean",
+    "tier": 2
+  },
+  "B75": {
+    "confidence": "medium",
+    "coverage_95": 0.8205128205128206,
+    "mae_pp": 1.1717916091636325,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B76": {
+    "confidence": "low",
+    "coverage_95": 0.7948717948717948,
+    "mae_pp": 0.883292338817117,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B77": {
+    "confidence": "medium",
+    "coverage_95": 0.9743589743589745,
+    "mae_pp": 1.0311204753071146,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B78": {
+    "confidence": "medium",
+    "coverage_95": 0.8461538461538461,
+    "mae_pp": 1.2036689432461243,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B80": {
+    "confidence": "medium",
+    "coverage_95": 0.8205128205128206,
+    "mae_pp": 0.8625145342328366,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B83": {
+    "confidence": "low",
+    "coverage_95": 0.9722222222222222,
+    "mae_pp": 2.634557682572913,
+    "model": "mean",
+    "reason": "Holt-Winters did not clear threshold; falling back to mean",
+    "tier": 2
+  },
+  "B86": {
+    "confidence": "low",
+    "coverage_95": 1.0,
+    "mae_pp": 1.5855933927519825,
+    "model": "mean",
+    "reason": "Holt-Winters did not clear threshold; falling back to mean",
+    "tier": 2
+  },
+  "B90": {
+    "confidence": "medium",
+    "coverage_95": 0.8717948717948719,
+    "mae_pp": 0.2446565210475009,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B91": {
+    "confidence": "low",
+    "coverage_95": 0.9166666666666666,
+    "mae_pp": 1.6045417437627438,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 0.80pp",
+    "tier": 2
+  },
+  "B92": {
+    "confidence": "high",
+    "coverage_95": 0.9743589743589745,
+    "mae_pp": 0.5662340463837056,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B93": {
+    "confidence": "medium",
+    "coverage_95": 0.9444444444444443,
+    "mae_pp": 1.013215496084504,
+    "model": "mean",
+    "reason": "Holt-Winters did not clear threshold; falling back to mean",
+    "tier": 2
+  },
+  "B94": {
+    "confidence": "high",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 0.45186210040975555,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B95": {
+    "confidence": "medium",
+    "coverage_95": 0.8205128205128206,
+    "mae_pp": 0.535918433946978,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B96": {
+    "confidence": "medium",
+    "coverage_95": 0.8974358974358975,
+    "mae_pp": 0.658843858785425,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B98": {
+    "confidence": "high",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 0.7483532539705647,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "B99": {
+    "confidence": "medium",
+    "coverage_95": 1.0,
+    "mae_pp": 0.826932063576237,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C00": {
+    "confidence": "high",
+    "coverage_95": 0.9743589743589745,
+    "mae_pp": 0.10813917259681098,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C01": {
+    "confidence": "medium",
+    "coverage_95": 0.8205128205128206,
+    "mae_pp": 0.29982130029135523,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C02": {
+    "confidence": "high",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 0.15171383514216766,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C03": {
+    "confidence": "medium",
+    "coverage_95": 0.8461538461538461,
+    "mae_pp": 0.36339876677540134,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C04": {
+    "confidence": "low",
+    "coverage_95": 0.9166666666666666,
+    "mae_pp": 1.6271802854272537,
+    "model": "mean",
+    "reason": "Holt-Winters did not clear threshold; falling back to mean",
+    "tier": 2
+  },
+  "C06": {
+    "confidence": "medium",
+    "coverage_95": 1.0,
+    "mae_pp": 1.1497711786291303,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C07": {
+    "confidence": "medium",
+    "coverage_95": 1.0,
+    "mae_pp": 1.250855554703997,
+    "model": "mean",
+    "reason": "Holt-Winters did not clear threshold; falling back to mean",
+    "tier": 2
+  },
+  "C08": {
+    "confidence": "high",
+    "coverage_95": 1.0,
+    "mae_pp": 0.7490293553953001,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C09": {
+    "confidence": "low",
+    "coverage_95": 1.0,
+    "mae_pp": 1.9232606796168936,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 0.66pp",
+    "tier": 2
+  },
+  "C10": {
+    "confidence": "medium",
+    "coverage_95": 0.9743589743589745,
+    "mae_pp": 1.273719947925076,
+    "model": "mean",
+    "reason": "Holt-Winters did not clear threshold; falling back to mean",
+    "tier": 2
+  },
+  "C11": {
+    "confidence": "high",
+    "coverage_95": 0.9743589743589745,
+    "mae_pp": 0.25401655576072063,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C12": {
+    "confidence": "medium",
+    "coverage_95": 1.0,
+    "mae_pp": 1.2204079265465844,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C13": {
+    "confidence": "medium",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 1.2598386188702524,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C16": {
+    "confidence": "medium",
+    "coverage_95": 0.8461538461538461,
+    "mae_pp": 0.5409816343299102,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C17": {
+    "confidence": "medium",
+    "coverage_95": 0.8461538461538463,
+    "mae_pp": 0.6799248622710096,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C18": {
+    "confidence": "low",
+    "coverage_95": 0.7948717948717948,
+    "mae_pp": 0.8964179173404956,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C20": {
+    "confidence": "low",
+    "coverage_95": 0.6666666666666666,
+    "mae_pp": 0.2753765096718474,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C21": {
+    "confidence": "medium",
+    "coverage_95": 0.8717948717948718,
+    "mae_pp": 0.7485938402495188,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C22": {
+    "confidence": "medium",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 0.9741913080749828,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C23": {
+    "confidence": "medium",
+    "coverage_95": 0.8461538461538461,
+    "mae_pp": 0.26285397404880534,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C24": {
+    "confidence": "medium",
+    "coverage_95": 0.8974358974358975,
+    "mae_pp": 0.4327009554418105,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C25": {
+    "confidence": "medium",
+    "coverage_95": 0.8461538461538461,
+    "mae_pp": 0.7560741974594315,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C27": {
+    "confidence": "medium",
+    "coverage_95": 0.8888888888888888,
+    "mae_pp": 1.370437731787159,
+    "model": "mean",
+    "reason": "Holt-Winters did not clear threshold; falling back to mean",
+    "tier": 2
+  },
+  "C28": {
+    "confidence": "low",
+    "coverage_95": 0.9444444444444443,
+    "mae_pp": 1.7895048228215584,
+    "model": "mean",
+    "reason": "Holt-Winters did not clear threshold; falling back to mean",
+    "tier": 2
+  },
+  "C30": {
+    "confidence": "low",
+    "coverage_95": 0.6666666666666666,
+    "mae_pp": 0.2753765096718474,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C31": {
+    "confidence": "medium",
+    "coverage_95": 0.8205128205128206,
+    "mae_pp": 0.5279073195438522,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C33": {
+    "confidence": "high",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 0.3399901794655729,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C34": {
+    "confidence": "medium",
+    "coverage_95": 0.9166666666666666,
+    "mae_pp": 1.1096231111660764,
+    "model": "mean",
+    "reason": "Holt-Winters did not clear threshold; falling back to mean",
+    "tier": 2
+  },
+  "C35": {
+    "confidence": "medium",
+    "coverage_95": 0.8717948717948718,
+    "mae_pp": 0.73064053781767,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C36": {
+    "confidence": "medium",
+    "coverage_95": 0.8461538461538463,
+    "mae_pp": 0.875646504881888,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C40": {
+    "confidence": "high",
+    "coverage_95": 1.0,
+    "mae_pp": 0.4296562991436678,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C41": {
+    "confidence": "medium",
+    "coverage_95": 0.8974358974358975,
+    "mae_pp": 0.15051112909024775,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C42": {
+    "confidence": "low",
+    "coverage_95": 0.7435897435897436,
+    "mae_pp": 0.33612291855670756,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C43": {
+    "confidence": "low",
+    "coverage_95": 0.7692307692307693,
+    "mae_pp": 1.6415433396340893,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C44": {
+    "confidence": "medium",
+    "coverage_95": 0.8461538461538461,
+    "mae_pp": 0.10294797177700236,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C45": {
+    "confidence": "medium",
+    "coverage_95": 0.8974358974358975,
+    "mae_pp": 0.2705215357925464,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C46": {
+    "confidence": "high",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 0.19604708625837364,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C47": {
+    "confidence": "high",
+    "coverage_95": 0.9487179487179489,
+    "mae_pp": 0.2307816719182969,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C48": {
+    "confidence": "high",
+    "coverage_95": 1.0,
+    "mae_pp": 0.3641752486442367,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C50": {
+    "confidence": "medium",
+    "coverage_95": 0.8205128205128206,
+    "mae_pp": 0.22914907227313444,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C51": {
+    "confidence": "low",
+    "coverage_95": 0.7692307692307693,
+    "mae_pp": 0.7383681519355827,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C54": {
+    "confidence": "medium",
+    "coverage_95": 0.8974358974358975,
+    "mae_pp": 0.4359426221192309,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C55": {
+    "confidence": "medium",
+    "coverage_95": 0.8974358974358975,
+    "mae_pp": 0.28340640798453015,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C56": {
+    "confidence": "low",
+    "coverage_95": 0.7948717948717948,
+    "mae_pp": 0.8164379662884813,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C58": {
+    "confidence": "low",
+    "coverage_95": 0.6923076923076922,
+    "mae_pp": 2.0150567593219315,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C60": {
+    "confidence": "medium",
+    "coverage_95": 0.8717948717948718,
+    "mae_pp": 0.1954659147609333,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C61": {
+    "confidence": "high",
+    "coverage_95": 0.9487179487179489,
+    "mae_pp": 0.5941627475894627,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C62": {
+    "confidence": "high",
+    "coverage_95": 0.9487179487179489,
+    "mae_pp": 0.4755091104610128,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C63": {
+    "confidence": "medium",
+    "coverage_95": 0.8461538461538463,
+    "mae_pp": 0.7191195403737197,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C65": {
+    "confidence": "medium",
+    "coverage_95": 0.8461538461538461,
+    "mae_pp": 0.42370183174628256,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C68": {
+    "confidence": "medium",
+    "coverage_95": 0.8461538461538461,
+    "mae_pp": 0.5300703164353405,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C69": {
+    "confidence": "low",
+    "coverage_95": 0.9166666666666666,
+    "mae_pp": 2.2966151356145907,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 0.84pp",
+    "tier": 2
+  },
+  "C71": {
+    "confidence": "medium",
+    "coverage_95": 0.8205128205128206,
+    "mae_pp": 1.1855699383698328,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C74": {
+    "confidence": "low",
+    "coverage_95": 0.7777777777777778,
+    "mae_pp": 2.345695347679309,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 0.71pp",
+    "tier": 2
+  },
+  "C77": {
+    "confidence": "high",
+    "coverage_95": 1.0,
+    "mae_pp": 0.4917244954068745,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C79": {
+    "confidence": "low",
+    "coverage_95": 0.8974358974358975,
+    "mae_pp": 1.9397497431607613,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 0.82pp",
+    "tier": 2
+  },
+  "C84": {
+    "confidence": "medium",
+    "coverage_95": 0.8974358974358975,
+    "mae_pp": 0.42195759303935404,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C88": {
+    "confidence": "medium",
+    "coverage_95": 0.8461538461538463,
+    "mae_pp": 0.6293353511459423,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C89": {
+    "confidence": "medium",
+    "coverage_95": 0.8717948717948718,
+    "mae_pp": 0.7477046972579231,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C90": {
+    "confidence": "low",
+    "coverage_95": 0.7692307692307693,
+    "mae_pp": 1.4744693776403655,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C92": {
+    "confidence": "low",
+    "coverage_95": 0.7948717948717948,
+    "mae_pp": 1.491352405662618,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "C97": {
+    "confidence": "low",
+    "coverage_95": 1.0,
+    "mae_pp": 1.5456199606188836,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D00": {
+    "confidence": "medium",
+    "coverage_95": 0.8974358974358975,
+    "mae_pp": 0.2888898283058594,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D01": {
+    "confidence": "medium",
+    "coverage_95": 0.8205128205128206,
+    "mae_pp": 0.5247804244543226,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D03": {
+    "confidence": "high",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 0.4722519374657397,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D04": {
+    "confidence": "high",
+    "coverage_95": 1.0,
+    "mae_pp": 0.2521420147251097,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D05": {
+    "confidence": "medium",
+    "coverage_95": 0.8717948717948718,
+    "mae_pp": 0.39216977599906794,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D06": {
+    "confidence": "low",
+    "coverage_95": 0.7179487179487181,
+    "mae_pp": 0.1788357347883105,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D07": {
+    "confidence": "high",
+    "coverage_95": 1.0,
+    "mae_pp": 0.46393442773812615,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D08": {
+    "confidence": "medium",
+    "coverage_95": 0.8461538461538461,
+    "mae_pp": 0.5154649660978649,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D09": {
+    "confidence": "low",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 1.615405415169284,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D10": {
+    "confidence": "medium",
+    "coverage_95": 0.8461538461538461,
+    "mae_pp": 0.2292893542174115,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D11": {
+    "confidence": "low",
+    "coverage_95": 0.787878787878788,
+    "mae_pp": 2.1124684773613027,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 0.98pp",
+    "tier": 2
+  },
+  "D13": {
+    "confidence": "high",
+    "coverage_95": 1.0,
+    "mae_pp": 0.7215945434066292,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D14": {
+    "confidence": "low",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 1.5378729437688803,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 0.96pp",
+    "tier": 2
+  },
+  "D15": {
+    "confidence": "low",
+    "coverage_95": 1.0,
+    "mae_pp": 1.7706624250883694,
+    "model": "mean",
+    "reason": "Holt-Winters did not clear threshold; falling back to mean",
+    "tier": 2
+  },
+  "D16": {
+    "confidence": "medium",
+    "coverage_95": 0.8717948717948718,
+    "mae_pp": 0.7893477078798012,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D17": {
+    "confidence": "medium",
+    "coverage_95": 0.9487179487179489,
+    "mae_pp": 0.8380580610492029,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D18": {
+    "confidence": "medium",
+    "coverage_95": 0.8974358974358975,
+    "mae_pp": 1.433924889170885,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D20": {
+    "confidence": "high",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 0.2888215007872573,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D23": {
+    "confidence": "medium",
+    "coverage_95": 0.8461538461538463,
+    "mae_pp": 0.7066925342220104,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D24": {
+    "confidence": "medium",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 1.2552614858319135,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D26": {
+    "confidence": "medium",
+    "coverage_95": 0.8974358974358975,
+    "mae_pp": 1.1417088199145942,
+    "model": "mean",
+    "reason": "Holt-Winters did not clear threshold; falling back to mean",
+    "tier": 2
+  },
+  "D27": {
+    "confidence": "medium",
+    "coverage_95": 0.8888888888888888,
+    "mae_pp": 1.2202889803693042,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 0.51pp",
+    "tier": 2
+  },
+  "D30": {
+    "confidence": "medium",
+    "coverage_95": 0.8974358974358975,
+    "mae_pp": 0.18696673843202072,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D32": {
+    "confidence": "medium",
+    "coverage_95": 0.9487179487179489,
+    "mae_pp": 1.38228882672572,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D35": {
+    "confidence": "medium",
+    "coverage_95": 0.8461538461538463,
+    "mae_pp": 0.447426307989089,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D36": {
+    "confidence": "medium",
+    "coverage_95": 1.0,
+    "mae_pp": 0.9510269645909579,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D37": {
+    "confidence": "medium",
+    "coverage_95": 0.8717948717948718,
+    "mae_pp": 0.9448465874052424,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D38": {
+    "confidence": "high",
+    "coverage_95": 1.0,
+    "mae_pp": 0.4884008725535245,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D40": {
+    "confidence": "medium",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 0.8681753451144393,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D43": {
+    "confidence": "medium",
+    "coverage_95": 0.8974358974358975,
+    "mae_pp": 0.3155921859327847,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D44": {
+    "confidence": "low",
+    "coverage_95": 0.8974358974358975,
+    "mae_pp": 1.5348085875909498,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D46": {
+    "confidence": "medium",
+    "coverage_95": 1.0,
+    "mae_pp": 1.3818239058857946,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 0.57pp",
+    "tier": 2
+  },
+  "D47": {
+    "confidence": "low",
+    "coverage_95": 0.9722222222222222,
+    "mae_pp": 1.5117591183330736,
+    "model": "mean",
+    "reason": "Holt-Winters did not clear threshold; falling back to mean",
+    "tier": 2
+  },
+  "D52": {
+    "confidence": "medium",
+    "coverage_95": 0.8461538461538461,
+    "mae_pp": 0.6567090287588376,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D53": {
+    "confidence": "medium",
+    "coverage_95": 0.8205128205128206,
+    "mae_pp": 0.5135522366168318,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D58": {
+    "confidence": "medium",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 1.4324007385265711,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D60": {
+    "confidence": "low",
+    "coverage_95": 0.7948717948717948,
+    "mae_pp": 0.9125897967270024,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D66": {
+    "confidence": "low",
+    "coverage_95": 0.8888888888888888,
+    "mae_pp": 1.755190170847479,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 0.62pp",
+    "tier": 2
+  },
+  "D70": {
+    "confidence": "medium",
+    "coverage_95": 0.8461538461538461,
+    "mae_pp": 0.4717724984336657,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D77": {
+    "confidence": "medium",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 0.8897802140032617,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D78": {
+    "confidence": "low",
+    "coverage_95": 0.7948717948717948,
+    "mae_pp": 0.824313115936732,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D79": {
+    "confidence": "medium",
+    "coverage_95": 0.9487179487179489,
+    "mae_pp": 0.9305635247349829,
+    "model": "mean",
+    "reason": "Holt-Winters did not clear threshold; falling back to mean",
+    "tier": 2
+  },
+  "D80": {
+    "confidence": "medium",
+    "coverage_95": 0.8461538461538461,
+    "mae_pp": 0.4717724984336657,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D82": {
+    "confidence": "low",
+    "coverage_95": 0.9487179487179489,
+    "mae_pp": 1.527112812027574,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 0.87pp",
+    "tier": 2
+  },
+  "D83": {
+    "confidence": "low",
+    "coverage_95": 0.9444444444444443,
+    "mae_pp": 1.8490030099009849,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 0.79pp",
+    "tier": 2
+  },
+  "D85": {
+    "confidence": "medium",
+    "coverage_95": 0.8717948717948718,
+    "mae_pp": 0.7001184913124588,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D86": {
+    "confidence": "low",
+    "coverage_95": 0.7948717948717948,
+    "mae_pp": 1.1512525670564573,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D88": {
+    "confidence": "low",
+    "coverage_95": 0.787878787878788,
+    "mae_pp": 2.130716524663242,
+    "model": "mean",
+    "reason": "Holt-Winters did not clear threshold; falling back to mean",
+    "tier": 2
+  },
+  "D91": {
+    "confidence": "medium",
+    "coverage_95": 0.8974358974358975,
+    "mae_pp": 1.4951051658040913,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D92": {
+    "confidence": "medium",
+    "coverage_95": 0.8974358974358975,
+    "mae_pp": 1.2502463103030304,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D93": {
+    "confidence": "medium",
+    "coverage_95": 1.0,
+    "mae_pp": 0.9963963255383613,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "D96": {
+    "confidence": "low",
+    "coverage_95": 0.8333333333333334,
+    "mae_pp": 2.68286464542861,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 1.27pp",
+    "tier": 2
+  },
+  "E00": {
+    "confidence": "high",
+    "coverage_95": 0.9743589743589745,
+    "mae_pp": 0.4363027726273212,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "E01": {
+    "confidence": "high",
+    "coverage_95": 1.0,
+    "mae_pp": 0.6096735751385666,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "E04": {
+    "confidence": "medium",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 0.9364301908760325,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "E06": {
+    "confidence": "medium",
+    "coverage_95": 0.8461538461538463,
+    "mae_pp": 0.7389275079501374,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "E07": {
+    "confidence": "low",
+    "coverage_95": 0.8333333333333334,
+    "mae_pp": 2.192944328399806,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 0.98pp",
+    "tier": 2
+  },
+  "E11": {
+    "confidence": "high",
+    "coverage_95": 0.9743589743589745,
+    "mae_pp": 0.7288227865350313,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "E12": {
+    "confidence": "high",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 0.5473899231764249,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "E16": {
+    "confidence": "medium",
+    "coverage_95": 0.9487179487179489,
+    "mae_pp": 1.280627999263851,
+    "model": "mean",
+    "reason": "Holt-Winters did not clear threshold; falling back to mean",
+    "tier": 2
+  },
+  "E20": {
+    "confidence": "medium",
+    "coverage_95": 0.8974358974358975,
+    "mae_pp": 0.3696306424066709,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "E21": {
+    "confidence": "low",
+    "coverage_95": 0.7692307692307692,
+    "mae_pp": 0.7308571384982953,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "E22": {
+    "confidence": "medium",
+    "coverage_95": 0.9743589743589745,
+    "mae_pp": 1.0662020826480518,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "E24": {
+    "confidence": "medium",
+    "coverage_95": 0.8974358974358975,
+    "mae_pp": 1.1437025890477728,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "E30": {
+    "confidence": "medium",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 0.7854249622065673,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "E32": {
+    "confidence": "high",
+    "coverage_95": 0.9743589743589745,
+    "mae_pp": 0.48268272009461005,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "E38": {
+    "confidence": "medium",
+    "coverage_95": 0.8461538461538461,
+    "mae_pp": 1.415613284100693,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "E40": {
+    "confidence": "low",
+    "coverage_95": 0.7948717948717948,
+    "mae_pp": 0.7139550956037413,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "E41": {
+    "confidence": "medium",
+    "coverage_95": 0.8461538461538461,
+    "mae_pp": 1.4152075362626277,
+    "model": "mean",
+    "reason": "Holt-Winters did not clear threshold; falling back to mean",
+    "tier": 2
+  },
+  "E43": {
+    "confidence": "low",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 1.8571546609618028,
+    "model": "mean",
+    "reason": "Holt-Winters did not clear threshold; falling back to mean",
+    "tier": 2
+  },
+  "E46": {
+    "confidence": "medium",
+    "coverage_95": 0.8205128205128206,
+    "mae_pp": 1.0591172366166306,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "E47": {
+    "confidence": "medium",
+    "coverage_95": 1.0,
+    "mae_pp": 1.491055201351008,
+    "model": "mean",
+    "reason": "Holt-Winters did not clear threshold; falling back to mean",
+    "tier": 2
+  },
+  "E48": {
+    "confidence": "low",
+    "coverage_95": 0.9166666666666666,
+    "mae_pp": 1.573749478179333,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 0.73pp",
+    "tier": 2
+  },
+  "E50": {
+    "confidence": "medium",
+    "coverage_95": 1.0,
+    "mae_pp": 1.1660854836656345,
+    "model": "mean",
+    "reason": "Holt-Winters did not clear threshold; falling back to mean",
+    "tier": 2
+  },
+  "E51": {
+    "confidence": "medium",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 0.907963506069921,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "E60": {
+    "confidence": "medium",
+    "coverage_95": 0.8461538461538461,
+    "mae_pp": 0.2727549356939,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "E61": {
+    "confidence": "medium",
+    "coverage_95": 0.8717948717948718,
+    "mae_pp": 0.2975617140022712,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "E62": {
+    "confidence": "medium",
+    "coverage_95": 0.8974358974358975,
+    "mae_pp": 1.0263764996314062,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "E63": {
+    "confidence": "low",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 1.6488440635825696,
+    "model": "mean",
+    "reason": "Holt-Winters did not clear threshold; falling back to mean",
+    "tier": 2
+  },
+  "E65": {
+    "confidence": "medium",
+    "coverage_95": 0.9230769230769232,
+    "mae_pp": 1.1962651159759787,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "E67": {
+    "confidence": "low",
+    "coverage_95": 0.7435897435897436,
+    "mae_pp": 1.3082212020676274,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "E68": {
+    "confidence": "low",
+    "coverage_95": 0.8717948717948718,
+    "mae_pp": 1.8637629865010765,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 0.74pp",
+    "tier": 2
+  },
+  "E69": {
+    "confidence": "medium",
+    "coverage_95": 1.0,
+    "mae_pp": 1.4963262702087847,
+    "model": "mean",
+    "reason": "Holt-Winters did not clear threshold; falling back to mean",
+    "tier": 2
+  },
+  "E70": {
+    "confidence": "medium",
+    "coverage_95": 0.9743589743589745,
+    "mae_pp": 1.0871783878534738,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "E71": {
+    "confidence": "medium",
+    "coverage_95": 0.9743589743589745,
+    "mae_pp": 0.9749661721076247,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "E73": {
+    "confidence": "medium",
+    "coverage_95": 1.0,
+    "mae_pp": 1.339269282222979,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "E76": {
+    "confidence": "high",
+    "coverage_95": 1.0,
+    "mae_pp": 0.51164591817162,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "E80": {
+    "confidence": "high",
+    "coverage_95": 1.0,
+    "mae_pp": 0.44591246236524223,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "E81": {
+    "confidence": "low",
+    "coverage_95": 0.75,
+    "mae_pp": 1.9784118746360937,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 0.71pp",
+    "tier": 2
+  },
+  "E85": {
+    "confidence": "medium",
+    "coverage_95": 0.8974358974358975,
+    "mae_pp": 1.038589458333407,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "E90": {
+    "confidence": "low",
+    "coverage_95": 1.0,
+    "mae_pp": 1.775517747712148,
+    "model": "mean",
+    "reason": "Holt-Winters did not clear threshold; falling back to mean",
+    "tier": 2
+  },
+  "E91": {
+    "confidence": "low",
+    "coverage_95": 0.8333333333333334,
+    "mae_pp": 1.677238779660061,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 0.50pp",
+    "tier": 2
+  },
+  "E92": {
+    "confidence": "low",
+    "coverage_95": 0.8055555555555557,
+    "mae_pp": 2.3555859264890997,
+    "model": "holt_winters",
+    "reason": "Holt-Winters beats naive by 0.81pp",
+    "tier": 2
+  },
+  "E94": {
+    "confidence": "medium",
+    "coverage_95": 1.0,
+    "mae_pp": 0.8300454713263473,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "E97": {
+    "confidence": "high",
+    "coverage_95": 1.0,
+    "mae_pp": 0.5526193439530175,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  },
+  "E98": {
+    "confidence": "medium",
+    "coverage_95": 1.0,
+    "mae_pp": 0.9759254392364903,
+    "model": "holt_winters",
+    "reason": "ARIMA did not clear threshold; falling back to Holt-Winters",
+    "tier": 1
+  }
+}

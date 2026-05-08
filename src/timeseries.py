@@ -1,3 +1,4 @@
+import json
 import logging
 import os
 import time
@@ -20,6 +21,8 @@ PROCESSED_CSV = os.path.join(_HERE, "..", "data", "processed", "openings_ts.csv"
 CATALOG_CSV   = os.path.join(_HERE, "..", "data", "openings_catalog.csv")
 OUTPUT_CSV    = os.path.join(_HERE, "..", "data", "output", "forecasts.csv")
 LONG_TAIL_CSV = os.path.join(_HERE, "..", "data", "output", "long_tail_stats.csv")
+MODEL_CHOICE_JSON = os.path.join(_HERE, "..", "data", "output", "model_choice.json")
+INTERVAL_CALIBRATION_JSON = os.path.join(_HERE, "..", "data", "output", "interval_calibration.json")
 
 MIN_POINTS = 24
 FORECAST_STEPS = 3
@@ -36,6 +39,7 @@ OUTPUT_COLUMNS = [
     "model_tier",
     "forecast_quality",
     "model_tier_override",
+    "model_name",
 ]
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
@@ -138,6 +142,85 @@ def _forecast_holt_winters(y: np.ndarray, steps: int) -> tuple[np.ndarray, np.nd
     return hw_forecast, lower, upper
 
 
+def _forecast_mean_model(y: np.ndarray, steps: int) -> tuple[np.ndarray, np.ndarray, np.ndarray]:
+    """Return mean forecast with 95% CI bounds using residual std."""
+    mean_val = np.mean(y)
+    forecast = np.full(steps, mean_val)
+
+    # Use residual std around mean as CI
+    resid = y - mean_val
+    if len(resid) > 1:
+        residual_std = float(np.std(resid, ddof=1))
+    else:
+        residual_std = 0.0
+    half_ci = 1.96 * residual_std
+
+    lower = forecast - half_ci
+    upper = forecast + half_ci
+    return forecast, lower, upper
+
+
+def _forecast_naive_model(y: np.ndarray, steps: int) -> tuple[np.ndarray, np.ndarray, np.ndarray]:
+    """Return naive (last-value) forecast with 95% CI bounds."""
+    last_val = y[-1]
+    forecast = np.full(steps, last_val)
+
+    # Use entire series std as CI
+    if len(y) > 1:
+        residual_std = float(np.std(y, ddof=1))
+    else:
+        residual_std = 0.0
+    half_ci = 1.96 * residual_std
+
+    lower = forecast - half_ci
+    upper = forecast + half_ci
+    return forecast, lower, upper
+
+
+def _load_model_choice() -> tuple[dict[str, dict], dict[str, dict]]:
+    """Load offline model-choice and interval calibration artifacts when present."""
+    model_choice: dict[str, dict] = {}
+    interval_calibration: dict[str, dict] = {}
+
+    if os.path.exists(MODEL_CHOICE_JSON):
+        with open(MODEL_CHOICE_JSON, encoding="utf-8") as f:
+            model_choice = json.load(f)
+        log.info("Loaded model choice for %d ECOs", len(model_choice))
+    else:
+        log.warning("Model choice missing at %s; using tier defaults", MODEL_CHOICE_JSON)
+
+    if os.path.exists(INTERVAL_CALIBRATION_JSON):
+        with open(INTERVAL_CALIBRATION_JSON, encoding="utf-8") as f:
+            interval_calibration = json.load(f)
+        log.info("Loaded interval calibration for %d models", len(interval_calibration))
+    else:
+        log.warning("Interval calibration missing at %s; using uncalibrated intervals", INTERVAL_CALIBRATION_JSON)
+
+    return model_choice, interval_calibration
+
+
+def _apply_interval_calibration(
+    model_name: str,
+    forecast_vals: np.ndarray,
+    conf_int: np.ndarray,
+    interval_calibration: dict[str, dict],
+) -> np.ndarray:
+    """Scale interval width per model and horizon using offline empirical coverage."""
+    if model_name not in interval_calibration:
+        return conf_int
+
+    adjusted = conf_int.copy()
+    for index in range(len(forecast_vals)):
+        horizon_key = str(index + 1)
+        scale = float(interval_calibration.get(model_name, {}).get(horizon_key, 1.0))
+        center = float(forecast_vals[index])
+        lower_width = center - float(conf_int[index, 0])
+        upper_width = float(conf_int[index, 1]) - center
+        adjusted[index, 0] = center - lower_width * scale
+        adjusted[index, 1] = center + upper_width * scale
+    return adjusted
+
+
 def run_timeseries(df: pd.DataFrame | None = None) -> pd.DataFrame:
     if df is None:
         df = pd.read_csv(PROCESSED_CSV)
@@ -149,6 +232,8 @@ def run_timeseries(df: pd.DataFrame | None = None) -> pd.DataFrame:
     tier1_ecos = set(catalog.loc[catalog["model_tier"] == 1, "eco"])
     tier2_ecos = set(catalog.loc[catalog["model_tier"] == 2, "eco"])
     tier3_ecos = set(catalog.loc[catalog["model_tier"] == 3, "eco"])
+
+    model_choice, interval_calibration = _load_model_choice()
 
     n_tier1 = len(tier1_ecos)
     if n_tier1 > HARD_CAP_TIER1:
@@ -178,7 +263,7 @@ def run_timeseries(df: pd.DataFrame | None = None) -> pd.DataFrame:
     tier1_times: list[float] = []
     tier2_times: list[float] = []
 
-    # ── Tier 1: ARIMA + Chow + Ljung-Box ─────────────────────────────────────
+    # ── Tier 1: Model selection from recommendations or ARIMA default ────────
     tier1_df = df[df["eco"].isin(tier1_ecos)]
     for eco, grp in tier1_df.groupby("eco"):
         t0 = time.perf_counter()
@@ -193,62 +278,102 @@ def run_timeseries(df: pd.DataFrame | None = None) -> pd.DataFrame:
         y = np.asarray(grp["white_win_rate"].values, dtype=float)
         months = grp["month"].tolist()
 
-        # ADF test: first-difference if non-stationary
-        adf_pvalue = adfuller(y, autolag="AIC")[1]
-        d = 1 if adf_pvalue > 0.05 else 0
-
-        # Fit ARIMA via AIC-guided search
-        model = pm.auto_arima(
-            y,
-            d=d,
-            start_p=0, max_p=3,
-            start_q=0, max_q=3,
-            information_criterion="aic",
-            stepwise=True,
-            suppress_warnings=True,
-            error_action="ignore",
-        )
-
-        # Ljung-Box on residuals + misspecification fallback chain
-        fitted_order = tuple(model.order)
-        lb_p = float(acorr_ljungbox(model.resid(), lags=[10], return_df=True)["lb_pvalue"].iloc[0])
-        forecast_quality = "normal"
+        # Determine which model to use: recommendation or default
+        eco_key = str(eco)
+        choice = model_choice.get(eco_key, {})
+        recommended_model = str(choice.get("model", "arima"))
+        model_name_used = recommended_model
+        forecast_quality = str(choice.get("confidence", "medium"))
         model_tier_override = ""
 
-        if lb_p < 0.05 and fitted_order == (0, 0, 0):
-            log.warning(
-                "%s ARIMA%s: residual autocorrelation (Ljung-Box p=%.3f), falling back to Holt-Winters",
-                eco,
-                fitted_order,
-                lb_p,
-            )
-            forecast_quality = "low"
-            model_tier_override = "tier1_hw_fallback"
+        if recommended_model == "mean":
+            # Use mean model.
+            try:
+                forecast_vals, lower_ci, upper_ci = _forecast_mean_model(y, FORECAST_STEPS)
+                conf_int = np.column_stack((lower_ci, upper_ci))
+                log.info("%s (Tier 1): using mean model from model choice", eco)
+            except Exception as exc:
+                log.warning("%s (Tier 1): mean model failed (%s), falling back to ARIMA", eco, exc)
+                model_name_used = "arima"
+        elif recommended_model == "holt_winters":
             try:
                 hw_forecast, hw_lower, hw_upper = _forecast_holt_winters(y, FORECAST_STEPS)
                 forecast_vals = hw_forecast
                 conf_int = np.column_stack((hw_lower, hw_upper))
+                log.info("%s (Tier 1): using Holt-Winters model from model choice", eco)
             except Exception as exc:
-                log.warning("%s: Holt-Winters fallback failed (%s), using ARIMA output", eco, exc)
+                log.warning("%s (Tier 1): Holt-Winters failed (%s), falling back to ARIMA", eco, exc)
+                model_name_used = "arima"
+        elif recommended_model == "naive":
+            try:
+                forecast_vals, lower_ci, upper_ci = _forecast_naive_model(y, FORECAST_STEPS)
+                conf_int = np.column_stack((lower_ci, upper_ci))
+                log.info("%s (Tier 1): using naive model from model choice", eco)
+            except Exception as exc:
+                log.warning("%s (Tier 1): naive model failed (%s), falling back to ARIMA", eco, exc)
+                model_name_used = "arima"
+        else:
+            model_name_used = "arima"
+
+        if model_name_used == "arima":
+            # ADF test: first-difference if non-stationary
+            adf_pvalue = adfuller(y, autolag="AIC")[1]
+            d = 1 if adf_pvalue > 0.05 else 0
+
+            # Fit ARIMA via AIC-guided search
+            model = pm.auto_arima(
+                y,
+                d=d,
+                start_p=0, max_p=3,
+                start_q=0, max_q=3,
+                information_criterion="aic",
+                stepwise=True,
+                suppress_warnings=True,
+                error_action="ignore",
+            )
+
+            # Ljung-Box on residuals + misspecification fallback chain
+            fitted_order = tuple(model.order)
+            lb_p = float(acorr_ljungbox(model.resid(), lags=[10], return_df=True)["lb_pvalue"].iloc[0])
+
+            if lb_p < 0.05 and fitted_order == (0, 0, 0):
+                log.warning(
+                    "%s ARIMA%s: residual autocorrelation (Ljung-Box p=%.3f), falling back to Holt-Winters",
+                    eco,
+                    fitted_order,
+                    lb_p,
+                )
+                forecast_quality = "low"
+                model_tier_override = "tier1_hw_fallback"
+                model_name_used = "holt_winters"
+                try:
+                    hw_forecast, hw_lower, hw_upper = _forecast_holt_winters(y, FORECAST_STEPS)
+                    forecast_vals = hw_forecast
+                    conf_int = np.column_stack((hw_lower, hw_upper))
+                except Exception as exc:
+                    log.warning("%s: Holt-Winters fallback failed (%s), using ARIMA output", eco, exc)
+                    model_name_used = "arima"
+                    forecast_vals, conf_int = model.predict(
+                        n_periods=FORECAST_STEPS, return_conf_int=True, alpha=0.05
+                    )
+            elif lb_p < 0.05:
+                log.warning(
+                    "%s ARIMA%s: residual autocorrelation (Ljung-Box p=%.3f), keeping ARIMA but marking forecast_quality=low",
+                    eco,
+                    fitted_order,
+                    lb_p,
+                )
+                forecast_quality = "low"
                 forecast_vals, conf_int = model.predict(
                     n_periods=FORECAST_STEPS, return_conf_int=True, alpha=0.05
                 )
-        elif lb_p < 0.05:
-            log.warning(
-                "%s ARIMA%s: residual autocorrelation (Ljung-Box p=%.3f), keeping ARIMA but marking forecast_quality=low",
-                eco,
-                fitted_order,
-                lb_p,
-            )
-            forecast_quality = "low"
-            forecast_vals, conf_int = model.predict(
-                n_periods=FORECAST_STEPS, return_conf_int=True, alpha=0.05
-            )
-        else:
-            log.info("%s ARIMA%s: OK (Ljung-Box p=%.3f)", eco, fitted_order, lb_p)
-            forecast_vals, conf_int = model.predict(
-                n_periods=FORECAST_STEPS, return_conf_int=True, alpha=0.05
-            )
+            else:
+                log.info("%s ARIMA%s: OK (Ljung-Box p=%.3f)", eco, fitted_order, lb_p)
+                forecast_vals, conf_int = model.predict(
+                    n_periods=FORECAST_STEPS, return_conf_int=True, alpha=0.05
+                )
+
+        conf_int = _apply_interval_calibration(model_name_used, np.asarray(forecast_vals, dtype=float), np.asarray(conf_int, dtype=float), interval_calibration)
 
         # Structural breaks
         break_months = _detect_breaks(y, months)
@@ -271,6 +396,7 @@ def run_timeseries(df: pd.DataFrame | None = None) -> pd.DataFrame:
                 "model_tier": 1,
                 "forecast_quality": forecast_quality,
                 "model_tier_override": model_tier_override,
+                "model_name": model_name_used,
             })
 
         # Forecast rows
@@ -288,6 +414,7 @@ def run_timeseries(df: pd.DataFrame | None = None) -> pd.DataFrame:
                 "model_tier": 1,
                 "forecast_quality": forecast_quality,
                 "model_tier_override": model_tier_override,
+                "model_name": model_name_used,
             })
 
         elapsed = time.perf_counter() - t0
@@ -295,7 +422,7 @@ def run_timeseries(df: pd.DataFrame | None = None) -> pd.DataFrame:
         if elapsed > ECO_TIMING_WARN_S:
             log.warning("%s (Tier 1): took %.1fs, exceeds %.0fs budget", eco, elapsed, ECO_TIMING_WARN_S)
 
-    # ── Tier 2: Holt-Winters (additive trend, no seasonality) ────────────────
+    # ── Tier 2: Model selection from recommendations or Holt-Winters default ──
     tier2_df = df[df["eco"].isin(tier2_ecos)]
     for eco, grp in tier2_df.groupby("eco"):
         t0 = time.perf_counter()
@@ -309,7 +436,45 @@ def run_timeseries(df: pd.DataFrame | None = None) -> pd.DataFrame:
             log.warning("%s (Tier 2): only %d data points, skipping", eco, len(y))
             continue
 
-        hw_forecast, hw_lower, hw_upper = _forecast_holt_winters(y, FORECAST_STEPS)
+        # Determine which model to use: recommendation or default
+        eco_key = str(eco)
+        choice = model_choice.get(eco_key, {})
+        recommended_model = str(choice.get("model", "holt_winters"))
+        model_name_used = recommended_model
+        forecast_quality = str(choice.get("confidence", "medium"))
+
+        if recommended_model == "naive":
+            # Use naive (last-value) model.
+            try:
+                forecast_vals, lower_ci, upper_ci = _forecast_naive_model(y, FORECAST_STEPS)
+                conf_int = np.column_stack((lower_ci, upper_ci))
+                log.info("%s (Tier 2): using naive model from model choice", eco)
+            except Exception as exc:
+                log.warning("%s (Tier 2): naive model failed (%s), falling back to Holt-Winters", eco, exc)
+                model_name_used = "holt_winters"
+                hw_forecast, hw_lower, hw_upper = _forecast_holt_winters(y, FORECAST_STEPS)
+                forecast_vals = hw_forecast
+                conf_int = np.column_stack((hw_lower, hw_upper))
+        elif recommended_model == "mean":
+            try:
+                forecast_vals, lower_ci, upper_ci = _forecast_mean_model(y, FORECAST_STEPS)
+                conf_int = np.column_stack((lower_ci, upper_ci))
+                log.info("%s (Tier 2): using mean model from model choice", eco)
+            except Exception as exc:
+                log.warning("%s (Tier 2): mean model failed (%s), falling back to Holt-Winters", eco, exc)
+                model_name_used = "holt_winters"
+                hw_forecast, hw_lower, hw_upper = _forecast_holt_winters(y, FORECAST_STEPS)
+                forecast_vals = hw_forecast
+                conf_int = np.column_stack((hw_lower, hw_upper))
+        else:
+            # Use Holt-Winters (default or if naive failed)
+            if model_name_used != "holt_winters":
+                model_name_used = "holt_winters"
+            hw_forecast, hw_lower, hw_upper = _forecast_holt_winters(y, FORECAST_STEPS)
+            forecast_vals = hw_forecast
+            conf_int = np.column_stack((hw_lower, hw_upper))
+
+        conf_int = _apply_interval_calibration(model_name_used, np.asarray(forecast_vals, dtype=float), np.asarray(conf_int, dtype=float), interval_calibration)
 
         last_month = months[-1]
         future_months = pd.date_range(start=last_month, periods=FORECAST_STEPS + 1, freq="MS")[1:]
@@ -327,12 +492,13 @@ def run_timeseries(df: pd.DataFrame | None = None) -> pd.DataFrame:
                 "is_forecast": False,
                 "structural_break": False,
                 "model_tier": 2,
-                "forecast_quality": "normal",
+                "forecast_quality": forecast_quality,
                 "model_tier_override": "",
+                "model_name": model_name_used,
             })
 
         # Forecast rows
-        for fm, fc, lo, hi in zip(future_months, hw_forecast, hw_lower, hw_upper):
+        for fm, fc, lo, hi in zip(future_months, forecast_vals, conf_int[:, 0], conf_int[:, 1]):
             records.append({
                 "eco": eco,
                 "opening_name": opening_name,
@@ -344,8 +510,9 @@ def run_timeseries(df: pd.DataFrame | None = None) -> pd.DataFrame:
                 "is_forecast": True,
                 "structural_break": False,
                 "model_tier": 2,
-                "forecast_quality": "normal",
+                "forecast_quality": forecast_quality,
                 "model_tier_override": "",
+                "model_name": model_name_used,
             })
 
         elapsed = time.perf_counter() - t0

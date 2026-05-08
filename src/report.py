@@ -84,7 +84,7 @@ def _template_finding(eco: str, name: str, delta: float, interpretation: str,
     return (
         f"The {name} ({eco}) shows a human win rate that is {magnitude} {direction} "
         f"Stockfish's prediction by {abs(delta):.4f} — {interpretation}. "
-        f"The ARIMA model projects a {trend} trend over the next three months."
+        f"The selected forecast model projects a {trend} trend over the next three months."
     )
 
 
@@ -322,7 +322,7 @@ def run_report() -> None:
         f"margin. At the other extreme, **{top_neg['opening_name']} ({top_neg['eco']})** "
         f"has the largest negative delta ({top_neg['delta']:+.4f}), indicating it is the "
         f"most frequently misplayed or theory-dependent opening in the dataset. "
-        f"The steepest ARIMA forecast trend belongs to **{steep_name + ' ' if steep_name and steep_name != steep_eco else ''}({steep_eco})**, "
+        f"The steepest forecast trend belongs to **{steep_name + ' ' if steep_name and steep_name != steep_eco else ''}({steep_eco})**, "
         f"whose win rate is projected to be {steep_dir} most sharply over the next three months."
     )
 
@@ -432,7 +432,7 @@ Top 5 positive engine-human delta (humans outperform Stockfish):
 Top 5 negative delta (humans underperform):
 {bot5_delta[['eco','opening_name','delta','interpretation']].to_string(index=False)}
 
-ARIMA forecast directions ({len(forecast_summary_rows)} openings, sample):
+Model-selected forecast directions ({len(forecast_summary_rows)} openings, sample):
 {json.dumps(forecast_summary_rows[:15], indent=2)}
 
 Summary: {summary}

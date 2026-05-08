@@ -4,5 +4,11 @@
   "min_monthly_games_tier1": 1000,
   "min_months_data": 24,
   "min_coverage_ratio": 0.75,
-  "min_coverage_ratio_tier2": 0.4
+  "min_coverage_ratio_tier2": 0.4,
+  "_comment_evaluation": "Model evaluation parameters (Track 1)",
+  "eval_min_history_months": 30,
+  "eval_start_offset_months": 24,
+  "eval_horizons": [1, 2, 3],
+  "tier1_model_mae_threshold_pp": 1.0,
+  "tier2_model_mae_threshold_pp": 0.5
 }
