@@ -2,13 +2,15 @@
 
 ## Project Goal
 
-Forecast chess opening win rate trajectories using ARIMA time series modeling,
+Forecast chess opening win rate trajectories using model-selected time-series forecasting,
 and quantify the gap between engine-theoretical win probability and actual human
 performance across rating brackets. Two differentiators over existing Lichess
 analytics projects:
 
-1. **ARIMA forecasting** on monthly win rate time series per opening
+1. **Per-opening model selection** on monthly win rate time series (ARIMA/Holt-Winters/mean/naive)
 2. **Engine-human delta** — Stockfish centipawn eval vs actual human win rate
+
+**v0.4.0 release note (Track 1):** model selection artifacts added (`model_choice.json`, `interval_calibration.json`); current selection run chose 249 Holt-Winters and 29 mean models across 278 forecasted ECOs.
 
 ---
 
@@ -16,8 +18,8 @@ analytics projects:
 
 | Tier | Condition | Model |
 |---|---|---|
-| 1 | `avg_monthly_games ≥ 1000` AND `months_with_data ≥ 24` | ARIMA (auto, AIC) |
-| 2 | `avg_monthly_games ≥ 500` AND `is_long_tail` | Holt-Winters |
+| 1 | `avg_monthly_games ≥ 1000` AND `months_with_data ≥ 24` | Model-selected forecast (ARIMA / Holt-Winters / mean / naive) |
+| 2 | `avg_monthly_games ≥ 500` AND `is_long_tail` | Model-selected trend (Holt-Winters / mean) |
 | 3 | `avg_monthly_games ≥ 100` AND `is_long_tail` | Descriptive stats only |
 
 ---

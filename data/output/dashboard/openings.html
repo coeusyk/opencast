@@ -244,7 +244,7 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
     if (v == null) return TEXT_SECONDARY;
     return v > 0.005 ? "#7BE495" : v < -0.005 ? "#F28DA6" : TEXT_SECONDARY;
   }
-  const TIER_TOOLTIP = "T1: >=1000 avg monthly games + >=24 months -> full ARIMA + engine evaluation\nT2: 400-999 avg monthly games -> Holt-Winters trend, no engine delta\nT3: <400 avg monthly games -> descriptive stats only";
+  const TIER_TOOLTIP = "T1: >=1000 avg monthly games + >=24 months -> model-selected forecast + engine evaluation\nT2: 400-999 avg monthly games -> model-selected trend, no engine delta\nT3: <400 avg monthly games -> descriptive stats only";
   function tierBadge(t) {
     return '<span class="tier-badge tier-badge-' + t + '" title="' + TIER_TOOLTIP + '">T' + t + '</span>';
   }

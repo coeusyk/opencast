@@ -661,7 +661,7 @@ function renderOpening(eco, opening) {{
   document.title = `${{eco}} — ${{name}} | OpenCast`;
   const tier = opening.model_tier;
   const tierBadge = document.getElementById("opening-tier-badge");
-  const TIER_TOOLTIP = "T1: >=1000 avg monthly games + >=24 months -> full ARIMA + engine evaluation\\nT2: 400-999 avg monthly games -> Holt-Winters trend, no engine delta\\nT3: <400 avg monthly games -> descriptive stats only";
+  const TIER_TOOLTIP = "T1: >=1000 avg monthly games + >=24 months -> model-selected forecast + engine evaluation\\nT2: 400-999 avg monthly games -> model-selected trend, no engine delta\\nT3: <400 avg monthly games -> descriptive stats only";
   if (tier) {{
     tierBadge.className = `tier-badge tier-badge-${{tier}}`;
     tierBadge.textContent = `T${{tier}}`;
@@ -693,8 +693,8 @@ function renderOpening(eco, opening) {{
                 <p style="margin:0 0 0.75rem;font-size:1rem;font-weight:600;color:${{TEXT_PRIMARY}};">No game data available for this opening.</p>
                 <p style="margin:0 0 1rem;font-size:0.875rem;color:${{TEXT_SECONDARY}};">This opening is classified as <strong style="color:${{TEXT_PRIMARY}};">Tier 3</strong> — it exists in the ECO catalog but doesn't meet the minimum volume threshold for analysis.</p>
                 <table style="border-collapse:collapse;font-size:0.825rem;color:${{TEXT_SECONDARY}};">
-                    <tr><td style="padding:0.3rem 1.2rem 0.3rem 0;white-space:nowrap;"><span class="tier-badge tier-badge-1">T1</span></td><td style="padding:0.3rem 0;">≥ 1 000 avg monthly games + ≥ 24 months of data — full ARIMA forecast &amp; engine evaluation</td></tr>
-                    <tr><td style="padding:0.3rem 1.2rem 0.3rem 0;"><span class="tier-badge tier-badge-2">T2</span></td><td style="padding:0.3rem 0;">400 – 999 avg monthly games — trend estimation (Holt-Winters), no engine delta</td></tr>
+                    <tr><td style="padding:0.3rem 1.2rem 0.3rem 0;white-space:nowrap;"><span class="tier-badge tier-badge-1">T1</span></td><td style="padding:0.3rem 0;">≥ 1 000 avg monthly games + ≥ 24 months of data — model-selected forecasting &amp; engine evaluation</td></tr>
+                    <tr><td style="padding:0.3rem 1.2rem 0.3rem 0;"><span class="tier-badge tier-badge-2">T2</span></td><td style="padding:0.3rem 0;">400 – 999 avg monthly games — model-selected trend estimation, no engine delta</td></tr>
                     <tr><td style="padding:0.3rem 1.2rem 0.3rem 0;"><span class="tier-badge tier-badge-3">T3</span></td><td style="padding:0.3rem 0;">&lt; 400 avg monthly games — descriptive stats only, insufficient volume for modelling</td></tr>
                 </table>
                 <p style="margin:1rem 0 0;font-size:0.8rem;color:${{TEXT_SECONDARY}};opacity:0.7;">Data will appear here automatically once this opening meets the volume threshold.</p>
@@ -1073,10 +1073,9 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 6rem 2rem 5rem;
   align-items: center;
+  min-height: calc(100dvh - 48px);
+  padding: clamp(2rem, 5vw, 4rem) max(1.5rem, calc((100vw - 1080px) / 2 + 1.5rem));
   background-image: repeating-conic-gradient(
     rgba(255,255,255,0.015) 0% 25%,
     transparent 0% 50%
@@ -1085,7 +1084,7 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
   background-position: 0 0;
 }
 @media (max-width: 768px) {
-  .hero { grid-template-columns: 1fr; gap: 3rem; padding: 3rem 1.5rem; }
+  .hero { grid-template-columns: 1fr; gap: 3rem; min-height: auto; }
 }
 
 .hero-eyebrow {
@@ -1529,7 +1528,7 @@ def render_openings_table(
     if (v == null) return TEXT_SECONDARY;
     return v > 0.005 ? "#7BE495" : v < -0.005 ? "#F28DA6" : TEXT_SECONDARY;
   }}
-  const TIER_TOOLTIP = "T1: >=1000 avg monthly games + >=24 months -> full ARIMA + engine evaluation\\nT2: 400-999 avg monthly games -> Holt-Winters trend, no engine delta\\nT3: <400 avg monthly games -> descriptive stats only";
+  const TIER_TOOLTIP = "T1: >=1000 avg monthly games + >=24 months -> model-selected forecast + engine evaluation\\nT2: 400-999 avg monthly games -> model-selected trend, no engine delta\\nT3: <400 avg monthly games -> descriptive stats only";
   function tierBadge(t) {{
     return '<span class="tier-badge tier-badge-' + t + '" title="' + TIER_TOOLTIP + '">T' + t + '</span>';
   }}
