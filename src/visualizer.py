@@ -408,7 +408,7 @@ def _page_shell(title: str, nav_fragment: str, body: str, head_extras: str = "")
   box-sizing: border-box;
   padding: 0 2rem; height: 100%;
   display: flex; align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 1.75rem;
 }
 .nav-wordmark {
