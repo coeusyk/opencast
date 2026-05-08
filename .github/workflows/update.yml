@@ -193,10 +193,12 @@ jobs:
           git add data/processed/openings_ts.csv \
                   data/output/forecasts.csv \
                   data/output/engine_delta.csv \
-                  data/output/long_tail_stats.csv \
                   data/output/dashboard/ \
                   findings/ \
                   data/openings_catalog.csv
+          if [ -f data/output/long_tail_stats.csv ]; then
+            git add -f data/output/long_tail_stats.csv
+          fi
           git diff --cached --quiet || git commit -m "chore: auto-update $(date +%Y-%m)"
           git push
 

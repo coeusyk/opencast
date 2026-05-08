@@ -34,6 +34,8 @@ OUTPUT_COLUMNS = [
     "is_forecast",
     "structural_break",
     "model_tier",
+    "forecast_quality",
+    "model_tier_override",
 ]
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
@@ -119,6 +121,23 @@ def _run_descriptive_stats(eco: str, grp: pd.DataFrame) -> dict:
     }
 
 
+def _forecast_holt_winters(y: np.ndarray, steps: int) -> tuple[np.ndarray, np.ndarray, np.ndarray]:
+    """Return Holt-Winters forecast and symmetric 95% CI bounds."""
+    hw_fit = ExponentialSmoothing(y, trend="add", seasonal=None).fit()
+    hw_forecast = np.asarray(hw_fit.forecast(steps), dtype=float)
+
+    resid = np.asarray(hw_fit.resid, dtype=float)
+    if len(resid) > 1:
+        residual_std = float(np.std(resid, ddof=1))
+    else:
+        residual_std = 0.0
+    half_ci = 1.96 * residual_std
+
+    lower = hw_forecast - half_ci
+    upper = hw_forecast + half_ci
+    return hw_forecast, lower, upper
+
+
 def run_timeseries(df: pd.DataFrame | None = None) -> pd.DataFrame:
     if df is None:
         df = pd.read_csv(PROCESSED_CSV)
@@ -190,20 +209,50 @@ def run_timeseries(df: pd.DataFrame | None = None) -> pd.DataFrame:
             error_action="ignore",
         )
 
-        # Ljung-Box on residuals
-        lb_p = acorr_ljungbox(model.resid(), lags=[10], return_df=True)["lb_pvalue"].iloc[0]
-        if lb_p < 0.05:
-            log.warning("%s ARIMA%s: residual autocorrelation (Ljung-Box p=%.3f)", eco, model.order, lb_p)
+        # Ljung-Box on residuals + misspecification fallback chain
+        fitted_order = tuple(model.order)
+        lb_p = float(acorr_ljungbox(model.resid(), lags=[10], return_df=True)["lb_pvalue"].iloc[0])
+        forecast_quality = "normal"
+        model_tier_override = ""
+
+        if lb_p < 0.05 and fitted_order == (0, 0, 0):
+            log.warning(
+                "%s ARIMA%s: residual autocorrelation (Ljung-Box p=%.3f), falling back to Holt-Winters",
+                eco,
+                fitted_order,
+                lb_p,
+            )
+            forecast_quality = "low"
+            model_tier_override = "tier1_hw_fallback"
+            try:
+                hw_forecast, hw_lower, hw_upper = _forecast_holt_winters(y, FORECAST_STEPS)
+                forecast_vals = hw_forecast
+                conf_int = np.column_stack((hw_lower, hw_upper))
+            except Exception as exc:
+                log.warning("%s: Holt-Winters fallback failed (%s), using ARIMA output", eco, exc)
+                forecast_vals, conf_int = model.predict(
+                    n_periods=FORECAST_STEPS, return_conf_int=True, alpha=0.05
+                )
+        elif lb_p < 0.05:
+            log.warning(
+                "%s ARIMA%s: residual autocorrelation (Ljung-Box p=%.3f), keeping ARIMA but marking forecast_quality=low",
+                eco,
+                fitted_order,
+                lb_p,
+            )
+            forecast_quality = "low"
+            forecast_vals, conf_int = model.predict(
+                n_periods=FORECAST_STEPS, return_conf_int=True, alpha=0.05
+            )
         else:
-            log.info("%s ARIMA%s: OK (Ljung-Box p=%.3f)", eco, model.order, lb_p)
+            log.info("%s ARIMA%s: OK (Ljung-Box p=%.3f)", eco, fitted_order, lb_p)
+            forecast_vals, conf_int = model.predict(
+                n_periods=FORECAST_STEPS, return_conf_int=True, alpha=0.05
+            )
 
         # Structural breaks
         break_months = _detect_breaks(y, months)
 
-        # Forecast
-        forecast_vals, conf_int = model.predict(
-            n_periods=FORECAST_STEPS, return_conf_int=True, alpha=0.05
-        )
         last_month = months[-1]
         future_months = pd.date_range(start=last_month, periods=FORECAST_STEPS + 1, freq="MS")[1:]
 
@@ -220,6 +269,8 @@ def run_timeseries(df: pd.DataFrame | None = None) -> pd.DataFrame:
                 "is_forecast": False,
                 "structural_break": row["month"] in break_months,
                 "model_tier": 1,
+                "forecast_quality": forecast_quality,
+                "model_tier_override": model_tier_override,
             })
 
         # Forecast rows
@@ -235,6 +286,8 @@ def run_timeseries(df: pd.DataFrame | None = None) -> pd.DataFrame:
                 "is_forecast": True,
                 "structural_break": False,
                 "model_tier": 1,
+                "forecast_quality": forecast_quality,
+                "model_tier_override": model_tier_override,
             })
 
         elapsed = time.perf_counter() - t0
@@ -256,10 +309,7 @@ def run_timeseries(df: pd.DataFrame | None = None) -> pd.DataFrame:
             log.warning("%s (Tier 2): only %d data points, skipping", eco, len(y))
             continue
 
-        hw_fit = ExponentialSmoothing(y, trend="add", seasonal=None).fit()
-        hw_forecast = hw_fit.forecast(FORECAST_STEPS)
-        residual_std = float(np.std(hw_fit.resid, ddof=1))
-        half_ci = 1.96 * residual_std
+        hw_forecast, hw_lower, hw_upper = _forecast_holt_winters(y, FORECAST_STEPS)
 
         last_month = months[-1]
         future_months = pd.date_range(start=last_month, periods=FORECAST_STEPS + 1, freq="MS")[1:]
@@ -277,21 +327,25 @@ def run_timeseries(df: pd.DataFrame | None = None) -> pd.DataFrame:
                 "is_forecast": False,
                 "structural_break": False,
                 "model_tier": 2,
+                "forecast_quality": "normal",
+                "model_tier_override": "",
             })
 
         # Forecast rows
-        for fm, fc in zip(future_months, hw_forecast):
+        for fm, fc, lo, hi in zip(future_months, hw_forecast, hw_lower, hw_upper):
             records.append({
                 "eco": eco,
                 "opening_name": opening_name,
                 "month": fm.strftime("%Y-%m"),
                 "actual": None,
                 "forecast": round(float(fc), 6),
-                "lower_ci": round(float(fc) - half_ci, 6),
-                "upper_ci": round(float(fc) + half_ci, 6),
+                "lower_ci": round(float(lo), 6),
+                "upper_ci": round(float(hi), 6),
                 "is_forecast": True,
                 "structural_break": False,
                 "model_tier": 2,
+                "forecast_quality": "normal",
+                "model_tier_override": "",
             })
 
         elapsed = time.perf_counter() - t0

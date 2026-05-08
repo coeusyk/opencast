@@ -1,27 +1,28 @@
 {
   "generated_at": "2026-05-08",
   "month": "2026-05",
-  "headline": "Humans outperform Stockfish in King's Indian Defense: Orthodox Variation, Classical System (E98) by the widest margin, while Benoni Defense: Old Benoni (A44) is the most frequently misplayed or theory-dependent opening.",
+  "headline": "King's Indian Defense: Orthodox Variation, Classical System (E98) shows the strongest positive human-vs-engine gap, while Benoni Defense: Old Benoni (A44) remains the largest negative outlier.",
   "panels": {
     "forecast": {
-      "insight": "The ARIMA forecast indicates a stable win-rate trend across most openings, with some notable exceptions. The English Opening: Four Knights System, Nimzowitsch Variation (A28) shows the steepest rising trend. Overall, the forecast suggests a stable win-rate landscape.",
+      "insight": "Forecast directions suggest mixed momentum across openings, with 22 rising and 31 falling trajectories in the next horizon. The strongest signals are best read alongside uncertainty bands to separate stable trends from short-term noise.",
       "highlight_ecos": [
-        "E98",
         "A28",
-        "A21"
+        "A36",
+        "A09",
+        "A10"
       ]
     },
     "engine_delta": {
-      "insight": "The engine-human delta analysis reveals that humans outperform Stockfish in certain openings, while underperforming in others. Notable outlier openings include Benoni Defense: Old Benoni (A44) and Elephant Gambit (C40).",
+      "insight": "Engine-human deltas remain asymmetric: E98 leads positive outperformance, while A44 underperforms most against engine expectation. These outliers flag openings where practical play diverges most from theoretical evaluation.",
       "outliers": [
         "A44",
+        "B29",
         "C40",
-        "E98",
-        "A21"
+        "A57"
       ]
     },
     "heatmap": {
-      "insight": "The ECO category heatmap shows a mixed pattern, with some openings having a higher win-rate than others. The heatmap suggests that humans have an advantage in certain openings, while Stockfish has an advantage in others."
+      "insight": "Category-level heatmap patterns continue to show non-uniform performance over time, with month-to-month variation indicating shifting practical preferences across ECO families."
     }
   }
 }
