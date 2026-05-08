@@ -14,7 +14,6 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       months_fetched: ${{ steps.fetch_step.outputs.months_fetched }}
-      fetch_head_sha: ${{ steps.capture_fetch_head.outputs.fetch_head_sha }}
 
     steps:
       - name: Checkout repository
@@ -131,11 +130,6 @@ jobs:
           git diff --cached --quiet || git commit -m "chore: fetch raw data $(date +%Y-%m)"
           git push
 
-      - name: Capture fetch head SHA
-        id: capture_fetch_head
-        run: |
-          echo "fetch_head_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
-
   process:
     needs: fetch
     if: >
@@ -147,7 +141,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          ref: ${{ needs.fetch.outputs.fetch_head_sha }}
+          ref: ${{ github.ref_name }}
 
       # ── Python environment ──────────────────────────────────────────────────────────────
       - name: Set up Python
