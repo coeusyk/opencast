@@ -1230,26 +1230,33 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
 .page-content { max-width: none !important; padding: 0 !important; }
 
 /* Hero */
-.hero {
-  display: grid;
-  grid-template-columns: minmax(0, 1.03fr) minmax(0, 0.97fr);
-  gap: 4rem;
-  align-items: center;
-  min-height: calc(100dvh - 52px);
-  max-width: 1200px;
-  margin: 0 auto;
+.hero-bleed {
   width: 100%;
-  padding: clamp(2rem, 5vw, 4rem) 2rem;
   background-image: repeating-conic-gradient(
     rgba(255,255,255,0.015) 0% 25%,
     transparent 0% 50%
   );
   background-size: 48px 48px;
   background-position: 0 0;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.03fr) minmax(0, 0.97fr);
+  gap: 4rem;
+  align-items: start;
+  min-height: calc(100dvh - 52px);
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: clamp(2rem, 5vw, 4rem) 2rem;
 }
 @media (max-width: 768px) {
   .hero { grid-template-columns: 1fr; gap: 3rem; min-height: auto; }
 }
+
+.hero-copy { align-self: start; }
 
 .hero-eyebrow {
   font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase;
@@ -1310,7 +1317,6 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
   border-radius: 12px; padding: 1.25rem 1.5rem;
   width: 100%;
   box-sizing: border-box;
-  min-height: 185px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1343,13 +1349,6 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
   display: inline-block;
 }
 .proof-card-eco-link:hover { text-decoration-color: var(--color-primary); color: var(--color-primary); }
-
-/* Section divider */
-.section-divider {
-  max-width: 1200px; margin: 0 auto;
-  padding: 0 2rem;
-  border-top: 1px solid rgba(255,255,255,0.07);
-}
 
 /* Analysis sections */
 .analysis-section {
@@ -1434,7 +1433,8 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
 
     # ── Hero HTML ─────────────────────────────────────────────────────────
     hero_html = (
-        '<section class="hero">'
+      '<section class="hero-bleed">'
+      '<div class="hero">'
         '<div class="hero-copy">'
         '<p class="hero-eyebrow">Monthly chess opening intelligence</p>'
         '<h1 class="hero-headline">Track where opening '
@@ -1462,8 +1462,8 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
         + _proof_card("Largest engine gap", top_neg_eco, top_neg_name, "negative", top_neg_delta_str, top_neg_extra)
         + _proof_card("Steepest rising trend", steep_eco, steep_name, "neutral", "\u2191 Forecast rising", steep_extra)
         + '</div>'
+        + '</div>'
         '</section>'
-        '<div class="section-divider"></div>'
     )
 
     def _section(eyebrow: str, title: str, body_text: str, chart_html: str, reverse: bool = False) -> str:
