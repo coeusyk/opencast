@@ -269,6 +269,56 @@ eco | opening_name | month | actual | forecast | lower_ci | upper_ci | is_foreca
 
 ---
 
+### Model Selection & Diagnostic Fallback
+
+**Problem:** ARIMA order selection via AIC can produce an ARIMA(0,0,0) white-noise
+model even when the time series exhibits autocorrelated structure. This occurs
+especially on shorter or high-variance series where AIC favors parsimony. Publishing
+such misspecified forecasts undermines confidence in the predictions.
+
+**Detection:** After fitting the ARIMA model, `timeseries.py` runs the Ljung-Box
+test on residuals (`statsmodels.stats.diagnostic.acorr_ljungbox`, lags=10, α=0.05).
+- If p-value < 0.05, residuals are autocorrelated → model is misspecified
+- If p-value ≥ 0.05, residuals are white noise → model is valid
+
+**Three-case dispatch** (implemented in Tier-1 loop, ~line 190–240):
+
+1. **ARIMA(0,0,0) + p < 0.05 (true misspecification)**
+   - Action: Fall back to Holt-Winters (Tier-2 model)
+   - Output: `model_tier_override = "tier1_hw_fallback"`, `forecast_quality = "low"`
+   - Rationale: (0,0,0) is white noise; if test rejects, underlying structure exists;
+     HW captures trend/level without requiring MA/AR tuning
+   - Example: ECO A16 (Sicilian, 1.g3) had ARIMA(0,0,0) with Ljung-Box p=0.005;
+     fallback applied; forecast quality flagged as `low`
+
+2. **ARIMA(p≥1 or q≥1) + p < 0.05 (partial capture)**
+   - Action: Keep ARIMA forecast but mark quality as low
+   - Output: `model_tier_override = None`, `forecast_quality = "low"`
+   - Rationale: AR/MA coefficients exist but residuals still autocorrelated;
+     likely short-run dynamics not fully captured; signal uncertainty to downstream consumers
+   - Example: ECO B22 (Sicilian Closed, 2.Nc3) had ARIMA(0,0,1) with p=0.047;
+     kept ARIMA but marked `forecast_quality = "low"`
+
+3. **Any ARIMA order + p ≥ 0.05 (no conflict)**
+   - Action: Normal path
+   - Output: `model_tier_override = None`, `forecast_quality = "normal"`
+   - Rationale: Residuals white noise; model specification is sound
+
+**Output schema extension:**
+```
+... existing columns ...
+| forecast_quality | model_tier_override
+```
+- `forecast_quality ∈ {"normal", "low"}` — signals forecast reliability
+- `model_tier_override ∈ {None, "tier1_hw_fallback"}` — explains non-standard model choice
+
+**Validation:** Real run (2026-04 snapshot) processed 11,940 forecast rows:
+- 86 rows triggered tier1_hw_fallback (e.g., A16, E97)
+- 129 rows marked forecast_quality=low (e.g., B22)
+- Remaining 11,725 rows returned forecast_quality=normal
+
+---
+
 ### `src/engine_delta.py` — Python (secondary differentiator)
 
 **Responsibility:** Evaluate each opening's position after move 8 with Stockfish,
