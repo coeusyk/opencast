@@ -1233,7 +1233,7 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
   display: grid;
   grid-template-columns: minmax(0, 1.03fr) minmax(0, 0.97fr);
   gap: 4rem;
-  align-items: start;
+  align-items: center;
   min-height: calc(100dvh - 52px);
   width: 100%;
   padding-top: clamp(2rem, 5vw, 4rem);
@@ -1252,7 +1252,7 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
   .hero { grid-template-columns: 1fr; gap: 3rem; min-height: auto; }
 }
 
-.hero-copy { align-self: start; }
+.hero-copy { }
 
 .hero-eyebrow {
   font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase;
