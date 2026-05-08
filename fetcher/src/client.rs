@@ -73,6 +73,8 @@ pub async fn fetch_opening_month(
             ("play", moves),
             ("speeds", speed),
             ("ratings", &rating.to_string()),
+            ("recentGames", "0"),
+            ("topGames", "0"),
             ("since", month),
             ("until", month),
         ])

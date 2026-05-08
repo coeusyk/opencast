@@ -1,12 +1,12 @@
 # OpenCast Findings
 
-*Last updated: 2026-05-05 16:23 UTC*
+*Last updated: 2026-05-08 07:55 UTC*
 
 ---
 
 ## Summary
 
-Across the 20 tracked openings, **King's Indian Defense: Orthodox Variation, Classical System (E98)** shows the largest positive delta (+0.0851), meaning humans at 2000-rated blitz outperform Stockfish's win-probability prediction by the widest margin. At the other extreme, **Benoni Defense: Old Benoni (A44)** has the largest negative delta (-0.1105), indicating it is the most frequently misplayed or theory-dependent opening in the dataset. The steepest ARIMA forecast trend belongs to **Grünfeld Defense: Three Knights Variation, Petrosian System (D91)**, whose win rate is projected to be rising most sharply over the next three months.
+Across the 20 tracked openings, **King's Indian Defense: Orthodox Variation, Classical System (E98)** shows the largest positive delta (+0.0851), meaning humans at 2000-rated blitz outperform Stockfish's win-probability prediction by the widest margin. At the other extreme, **Benoni Defense: Old Benoni (A44)** has the largest negative delta (-0.1105), indicating it is the most frequently misplayed or theory-dependent opening in the dataset. The steepest ARIMA forecast trend belongs to **English Opening: Four Knights System, Nimzowitsch Variation (A28)**, whose win rate is projected to be rising most sharply over the next three months.
 
 ---
 
@@ -83,7 +83,7 @@ The Queen's Gambit (D06) shows a human win rate that is slightly above Stockfish
 The Catalan Opening: Closed (E01) shows a human win rate that is slightly above Stockfish's prediction by 0.0302 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
 ### E06 — Catalan Opening: Closed
 
-The Catalan Opening: Closed (E06) shows a human win rate that is slightly above Stockfish's prediction by 0.0299 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
+The Catalan Opening: Closed (E06) shows a human win rate that is slightly above Stockfish's prediction by 0.0299 — consistent with engine evaluation. The ARIMA model projects a falling trend over the next three months.
 ### E65 — King's Indian Defense: Fianchetto Variation, Yugoslav Variation
 
 The King's Indian Defense: Fianchetto Variation, Yugoslav Variation (E65) shows a human win rate that is slightly above Stockfish's prediction by 0.0291 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
@@ -92,7 +92,7 @@ The King's Indian Defense: Fianchetto Variation, Yugoslav Variation (E65) shows 
 The French Defense: Tarrasch Variation, Closed Variation, Main Line (C06) shows a human win rate that is slightly above Stockfish's prediction by 0.0288 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
 ### A09 — Réti Opening
 
-The Réti Opening (A09) shows a human win rate that is slightly above Stockfish's prediction by 0.0287 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
+The Réti Opening (A09) shows a human win rate that is slightly above Stockfish's prediction by 0.0287 — consistent with engine evaluation. The ARIMA model projects a falling trend over the next three months.
 ### E70 — King's Indian Defense: Accelerated Averbakh Variation
 
 The King's Indian Defense: Accelerated Averbakh Variation (E70) shows a human win rate that is slightly above Stockfish's prediction by 0.0264 — consistent with engine evaluation. The ARIMA model projects a rising trend over the next three months.
@@ -128,13 +128,13 @@ The Ruy Lopez (C60) shows a human win rate that is slightly above Stockfish's pr
 The Sicilian Defense: Closed (B23) shows a human win rate that is slightly above Stockfish's prediction by 0.0187 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
 ### A22 — English Opening: Carls-Bremen System
 
-The English Opening: Carls-Bremen System (A22) shows a human win rate that is slightly above Stockfish's prediction by 0.0181 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
+The English Opening: Carls-Bremen System (A22) shows a human win rate that is slightly above Stockfish's prediction by 0.0181 — consistent with engine evaluation. The ARIMA model projects a falling trend over the next three months.
 ### B25 — Sicilian Defense: Closed
 
 The Sicilian Defense: Closed (B25) shows a human win rate that is slightly above Stockfish's prediction by 0.0178 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
 ### A27 — English Opening: King's English Variation, Three Knights System
 
-The English Opening: King's English Variation, Three Knights System (A27) shows a human win rate that is slightly above Stockfish's prediction by 0.0177 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
+The English Opening: King's English Variation, Three Knights System (A27) shows a human win rate that is slightly above Stockfish's prediction by 0.0177 — consistent with engine evaluation. The ARIMA model projects a rising trend over the next three months.
 ### A84 — Dutch Defense
 
 The Dutch Defense (A84) shows a human win rate that is slightly above Stockfish's prediction by 0.0176 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
@@ -143,7 +143,7 @@ The Dutch Defense (A84) shows a human win rate that is slightly above Stockfish'
 The Sicilian Defense: Chekhover Variation (B53) shows a human win rate that is slightly above Stockfish's prediction by 0.0171 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
 ### A10 — English Opening
 
-The English Opening (A10) shows a human win rate that is slightly above Stockfish's prediction by 0.0171 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
+The English Opening (A10) shows a human win rate that is slightly above Stockfish's prediction by 0.0171 — consistent with engine evaluation. The ARIMA model projects a falling trend over the next three months.
 ### B36 — Sicilian Defense: Accelerated Dragon, Maróczy Bind
 
 The Sicilian Defense: Accelerated Dragon, Maróczy Bind (B36) shows a human win rate that is slightly above Stockfish's prediction by 0.0163 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
@@ -152,7 +152,7 @@ The Sicilian Defense: Accelerated Dragon, Maróczy Bind (B36) shows a human win 
 The King's Indian Attack: French Variation (A08) shows a human win rate that is slightly above Stockfish's prediction by 0.0163 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
 ### C16 — French Defense: Winawer Variation, Advance Variation
 
-The French Defense: Winawer Variation, Advance Variation (C16) shows a human win rate that is slightly above Stockfish's prediction by 0.0157 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
+The French Defense: Winawer Variation, Advance Variation (C16) shows a human win rate that is slightly above Stockfish's prediction by 0.0157 — consistent with engine evaluation. The ARIMA model projects a falling trend over the next three months.
 ### D52 — Queen's Gambit Declined
 
 The Queen's Gambit Declined (D52) shows a human win rate that is slightly above Stockfish's prediction by 0.0157 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
@@ -179,7 +179,7 @@ The Queen's Gambit Declined: Ragozin Defense (D38) shows a human win rate that i
 The Nimzo-Larsen Attack: Classical Variation (A06) shows a human win rate that is slightly above Stockfish's prediction by 0.0103 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
 ### D16 — Slav Defense: Alapin Variation
 
-The Slav Defense: Alapin Variation (D16) shows a human win rate that is slightly above Stockfish's prediction by 0.0099 — consistent with engine evaluation. The ARIMA model projects a rising trend over the next three months.
+The Slav Defense: Alapin Variation (D16) shows a human win rate that is slightly above Stockfish's prediction by 0.0099 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
 ### B50 — Sicilian Defense
 
 The Sicilian Defense (B50) shows a human win rate that is slightly above Stockfish's prediction by 0.0097 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
@@ -194,7 +194,7 @@ The Sicilian Defense: Moscow Variation (B51) shows a human win rate that is slig
 The King's Indian Defense: Four Pawns Attack (E76) shows a human win rate that is slightly above Stockfish's prediction by 0.0081 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
 ### B24 — Sicilian Defense: Closed
 
-The Sicilian Defense: Closed (B24) shows a human win rate that is slightly above Stockfish's prediction by 0.0076 — consistent with engine evaluation. The ARIMA model projects a falling trend over the next three months.
+The Sicilian Defense: Closed (B24) shows a human win rate that is slightly above Stockfish's prediction by 0.0076 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
 ### B22 — Sicilian Defense: Alapin Variation
 
 The Sicilian Defense: Alapin Variation (B22) shows a human win rate that is slightly above Stockfish's prediction by 0.0066 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
@@ -209,7 +209,7 @@ The Rapport-Jobava System (D01) shows a human win rate that is slightly above St
 The Sicilian Defense: Dragon Variation (B72) shows a human win rate that is slightly above Stockfish's prediction by 0.0056 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
 ### C88 — Ruy Lopez: Closed
 
-The Ruy Lopez: Closed (C88) shows a human win rate that is slightly above Stockfish's prediction by 0.0055 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
+The Ruy Lopez: Closed (C88) shows a human win rate that is slightly above Stockfish's prediction by 0.0055 — consistent with engine evaluation. The ARIMA model projects a rising trend over the next three months.
 ### C45 — Scotch Game
 
 The Scotch Game (C45) shows a human win rate that is slightly above Stockfish's prediction by 0.0054 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
@@ -218,7 +218,7 @@ The Scotch Game (C45) shows a human win rate that is slightly above Stockfish's 
 The Queen's Pawn Game: Colle System (D05) shows a human win rate that is slightly above Stockfish's prediction by 0.0047 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
 ### A49 — Indian Defense: Przepiorka Variation
 
-The Indian Defense: Przepiorka Variation (A49) shows a human win rate that is slightly above Stockfish's prediction by 0.0035 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
+The Indian Defense: Przepiorka Variation (A49) shows a human win rate that is slightly above Stockfish's prediction by 0.0035 — consistent with engine evaluation. The ARIMA model projects a falling trend over the next three months.
 ### B94 — Sicilian Defense: Najdorf Variation
 
 The Sicilian Defense: Najdorf Variation (B94) shows a human win rate that is slightly above Stockfish's prediction by 0.0032 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
@@ -251,10 +251,10 @@ The Alekhine Defense (B03) shows a human win rate that is slightly below Stockfi
 The Sicilian Defense: Accelerated Dragon, Modern Bc4 Variation (B35) shows a human win rate that is slightly below Stockfish's prediction by 0.0006 — consistent with engine evaluation. The ARIMA model projects a rising trend over the next three months.
 ### A45 — Trompowsky Attack
 
-The Trompowsky Attack (A45) shows a human win rate that is slightly below Stockfish's prediction by 0.0014 — consistent with engine evaluation. The ARIMA model projects a rising trend over the next three months.
+The Trompowsky Attack (A45) shows a human win rate that is slightly below Stockfish's prediction by 0.0014 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
 ### C68 — Ruy Lopez: Exchange Variation
 
-The Ruy Lopez: Exchange Variation (C68) shows a human win rate that is slightly below Stockfish's prediction by 0.0017 — consistent with engine evaluation. The ARIMA model projects a rising trend over the next three months.
+The Ruy Lopez: Exchange Variation (C68) shows a human win rate that is slightly below Stockfish's prediction by 0.0017 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
 ### C51 — Italian Game: Evans Gambit
 
 The Italian Game: Evans Gambit (C51) shows a human win rate that is slightly below Stockfish's prediction by 0.0018 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
@@ -299,13 +299,13 @@ The Bishop's Opening (C23) shows a human win rate that is slightly below Stockfi
 The Sicilian Defense: Dragon Variation, Yugoslav Attack (B78) shows a human win rate that is slightly below Stockfish's prediction by 0.0077 — consistent with engine evaluation. The ARIMA model projects a rising trend over the next three months.
 ### D10 — Slav Defense
 
-The Slav Defense (D10) shows a human win rate that is slightly below Stockfish's prediction by 0.0078 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
+The Slav Defense (D10) shows a human win rate that is slightly below Stockfish's prediction by 0.0078 — consistent with engine evaluation. The ARIMA model projects a falling trend over the next three months.
 ### A30 — English Opening: Symmetrical Variation
 
 The English Opening: Symmetrical Variation (A30) shows a human win rate that is slightly below Stockfish's prediction by 0.0081 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
 ### D91 — Grünfeld Defense: Three Knights Variation, Petrosian System
 
-The Grünfeld Defense: Three Knights Variation, Petrosian System (D91) shows a human win rate that is slightly below Stockfish's prediction by 0.0092 — consistent with engine evaluation. The ARIMA model projects a rising trend over the next three months.
+The Grünfeld Defense: Three Knights Variation, Petrosian System (D91) shows a human win rate that is slightly below Stockfish's prediction by 0.0092 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
 ### D30 — Queen's Gambit Declined
 
 The Queen's Gambit Declined (D30) shows a human win rate that is slightly below Stockfish's prediction by 0.0107 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
@@ -341,7 +341,7 @@ The Grünfeld Defense: Three Knights Variation, Hungarian Attack (D92) shows a h
 The English Opening: King's English Variation, Two Knights Variation, Keres Variation (A23) shows a human win rate that is slightly below Stockfish's prediction by 0.0159 — consistent with engine evaluation. The ARIMA model projects a falling trend over the next three months.
 ### B92 — Sicilian Defense: Najdorf Variation, Opocensky Variation
 
-The Sicilian Defense: Najdorf Variation, Opocensky Variation (B92) shows a human win rate that is slightly below Stockfish's prediction by 0.0164 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
+The Sicilian Defense: Najdorf Variation, Opocensky Variation (B92) shows a human win rate that is slightly below Stockfish's prediction by 0.0164 — consistent with engine evaluation. The ARIMA model projects a rising trend over the next three months.
 ### E51 — Nimzo-Indian Defense: Normal Variation, Ragozin Variation
 
 The Nimzo-Indian Defense: Normal Variation, Ragozin Variation (E51) shows a human win rate that is slightly below Stockfish's prediction by 0.0166 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
@@ -410,10 +410,10 @@ The Philidor Defense (C41) shows a human win rate that is slightly below Stockfi
 The Ruy Lopez: Bird Variation (C61) shows a human win rate that is slightly below Stockfish's prediction by 0.0260 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
 ### A13 — English Opening: Agincourt Defense
 
-The English Opening: Agincourt Defense (A13) shows a human win rate that is slightly below Stockfish's prediction by 0.0262 — consistent with engine evaluation. The ARIMA model projects a rising trend over the next three months.
+The English Opening: Agincourt Defense (A13) shows a human win rate that is slightly below Stockfish's prediction by 0.0262 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
 ### A15 — English Opening: Anglo-Indian Defense
 
-The English Opening: Anglo-Indian Defense (A15) shows a human win rate that is slightly below Stockfish's prediction by 0.0262 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
+The English Opening: Anglo-Indian Defense (A15) shows a human win rate that is slightly below Stockfish's prediction by 0.0262 — consistent with engine evaluation. The ARIMA model projects a falling trend over the next three months.
 ### A43 — Benoni Defense: Benoni Gambit Accepted
 
 The Benoni Defense: Benoni Gambit Accepted (A43) shows a human win rate that is slightly below Stockfish's prediction by 0.0267 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
@@ -425,10 +425,10 @@ The Bird Opening (A02) shows a human win rate that is slightly below Stockfish's
 The Queen's Gambit Declined: Semi-Tarrasch Defense (D40) shows a human win rate that is slightly below Stockfish's prediction by 0.0271 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
 ### C58 — Italian Game: Two Knights Defense
 
-The Italian Game: Two Knights Defense (C58) shows a human win rate that is slightly below Stockfish's prediction by 0.0274 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
+The Italian Game: Two Knights Defense (C58) shows a human win rate that is slightly below Stockfish's prediction by 0.0274 — consistent with engine evaluation. The ARIMA model projects a rising trend over the next three months.
 ### C55 — Italian Game: Two Knights Defense
 
-The Italian Game: Two Knights Defense (C55) shows a human win rate that is slightly below Stockfish's prediction by 0.0278 — consistent with engine evaluation. The ARIMA model projects a falling trend over the next three months.
+The Italian Game: Two Knights Defense (C55) shows a human win rate that is slightly below Stockfish's prediction by 0.0278 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
 ### E20 — Nimzo-Indian Defense
 
 The Nimzo-Indian Defense (E20) shows a human win rate that is slightly below Stockfish's prediction by 0.0281 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
@@ -443,10 +443,10 @@ The French Defense: Classical Variation (C11) shows a human win rate that is sli
 The Queen's Gambit Declined: Orthodox Defense (D60) shows a human win rate that is slightly below Stockfish's prediction by 0.0314 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
 ### C31 — King's Gambit Declined: Falkbeer Countergambit
 
-The King's Gambit Declined: Falkbeer Countergambit (C31) shows a human win rate that is slightly below Stockfish's prediction by 0.0322 — consistent with engine evaluation. The ARIMA model projects a rising trend over the next three months.
+The King's Gambit Declined: Falkbeer Countergambit (C31) shows a human win rate that is slightly below Stockfish's prediction by 0.0322 — consistent with engine evaluation. The ARIMA model projects a falling trend over the next three months.
 ### A80 — Dutch Defense
 
-The Dutch Defense (A80) shows a human win rate that is slightly below Stockfish's prediction by 0.0323 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
+The Dutch Defense (A80) shows a human win rate that is slightly below Stockfish's prediction by 0.0323 — consistent with engine evaluation. The ARIMA model projects a rising trend over the next three months.
 ### B75 — Sicilian Defense: Dragon Variation, Yugoslav Attack, Belezky Line
 
 The Sicilian Defense: Dragon Variation, Yugoslav Attack, Belezky Line (B75) shows a human win rate that is slightly below Stockfish's prediction by 0.0334 — consistent with engine evaluation. The ARIMA model projects a falling trend over the next three months.
@@ -485,7 +485,7 @@ The Caro-Kann Defense (B12) shows a human win rate that is slightly below Stockf
 The English Opening: Anglo-Grünfeld Defense (A16) shows a human win rate that is slightly below Stockfish's prediction by 0.0392 — consistent with engine evaluation. The ARIMA model projects a stable trend over the next three months.
 ### B90 — Sicilian Defense: Najdorf Variation
 
-The Sicilian Defense: Najdorf Variation (B90) shows a human win rate that is notably below Stockfish's prediction by 0.0402 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a stable trend over the next three months.
+The Sicilian Defense: Najdorf Variation (B90) shows a human win rate that is notably below Stockfish's prediction by 0.0402 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a rising trend over the next three months.
 ### A11 — English Opening: Caro-Kann Defensive System
 
 The English Opening: Caro-Kann Defensive System (A11) shows a human win rate that is notably below Stockfish's prediction by 0.0420 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a stable trend over the next three months.
@@ -500,31 +500,31 @@ The French Defense (C00) shows a human win rate that is notably below Stockfish'
 The Nimzo-Indian Defense: Classical Variation, Berlin Variation (E38) shows a human win rate that is notably below Stockfish's prediction by 0.0428 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a stable trend over the next three months.
 ### B33 — Sicilian Defense: Lasker-Pelikan Variation
 
-The Sicilian Defense: Lasker-Pelikan Variation (B33) shows a human win rate that is notably below Stockfish's prediction by 0.0440 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a falling trend over the next three months.
+The Sicilian Defense: Lasker-Pelikan Variation (B33) shows a human win rate that is notably below Stockfish's prediction by 0.0440 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a stable trend over the next three months.
 ### B20 — Sicilian Defense
 
 The Sicilian Defense (B20) shows a human win rate that is notably below Stockfish's prediction by 0.0447 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a stable trend over the next three months.
 ### C71 — Ruy Lopez: Morphy Defense, Modern Steinitz Defense
 
-The Ruy Lopez: Morphy Defense, Modern Steinitz Defense (C71) shows a human win rate that is notably below Stockfish's prediction by 0.0448 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a falling trend over the next three months.
+The Ruy Lopez: Morphy Defense, Modern Steinitz Defense (C71) shows a human win rate that is notably below Stockfish's prediction by 0.0448 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a stable trend over the next three months.
 ### A48 — East Indian Defense
 
 The East Indian Defense (A48) shows a human win rate that is notably below Stockfish's prediction by 0.0455 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a stable trend over the next three months.
 ### C30 — King's Gambit
 
-The King's Gambit (C30) shows a human win rate that is notably below Stockfish's prediction by 0.0459 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a stable trend over the next three months.
+The King's Gambit (C30) shows a human win rate that is notably below Stockfish's prediction by 0.0459 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a falling trend over the next three months.
 ### B34 — Sicilian Defense: Accelerated Dragon, Exchange Variation
 
 The Sicilian Defense: Accelerated Dragon, Exchange Variation (B34) shows a human win rate that is notably below Stockfish's prediction by 0.0459 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a stable trend over the next three months.
 ### C20 — King's Gambit
 
-The King's Gambit (C20) shows a human win rate that is notably below Stockfish's prediction by 0.0465 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a stable trend over the next three months.
+The King's Gambit (C20) shows a human win rate that is notably below Stockfish's prediction by 0.0465 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a falling trend over the next three months.
 ### D17 — Slav Defense: Czech Variation
 
 The Slav Defense: Czech Variation (D17) shows a human win rate that is notably below Stockfish's prediction by 0.0473 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a stable trend over the next three months.
 ### C36 — King's Gambit Accepted: Abbazia Defense
 
-The King's Gambit Accepted: Abbazia Defense (C36) shows a human win rate that is notably below Stockfish's prediction by 0.0477 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a stable trend over the next three months.
+The King's Gambit Accepted: Abbazia Defense (C36) shows a human win rate that is notably below Stockfish's prediction by 0.0477 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a falling trend over the next three months.
 ### B00 — Barnes Defense
 
 The Barnes Defense (B00) shows a human win rate that is notably below Stockfish's prediction by 0.0481 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a falling trend over the next three months.
@@ -533,7 +533,7 @@ The Barnes Defense (B00) shows a human win rate that is notably below Stockfish'
 The Grünfeld Defense (D80) shows a human win rate that is notably below Stockfish's prediction by 0.0482 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a stable trend over the next three months.
 ### C17 — French Defense: Winawer Variation, Advance Variation
 
-The French Defense: Winawer Variation, Advance Variation (C17) shows a human win rate that is notably below Stockfish's prediction by 0.0482 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a stable trend over the next three months.
+The French Defense: Winawer Variation, Advance Variation (C17) shows a human win rate that is notably below Stockfish's prediction by 0.0482 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a falling trend over the next three months.
 ### A51 — Indian Defense: Budapest Defense
 
 The Indian Defense: Budapest Defense (A51) shows a human win rate that is notably below Stockfish's prediction by 0.0483 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a stable trend over the next three months.
@@ -542,13 +542,13 @@ The Indian Defense: Budapest Defense (A51) shows a human win rate that is notabl
 The Petrov's Defense (C42) shows a human win rate that is notably below Stockfish's prediction by 0.0484 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a stable trend over the next three months.
 ### E60 — King's Indian Defense
 
-The King's Indian Defense (E60) shows a human win rate that is notably below Stockfish's prediction by 0.0501 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a falling trend over the next three months.
+The King's Indian Defense (E60) shows a human win rate that is notably below Stockfish's prediction by 0.0501 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a stable trend over the next three months.
 ### D85 — Grünfeld Defense: Exchange Variation
 
-The Grünfeld Defense: Exchange Variation (D85) shows a human win rate that is notably below Stockfish's prediction by 0.0506 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a stable trend over the next three months.
+The Grünfeld Defense: Exchange Variation (D85) shows a human win rate that is notably below Stockfish's prediction by 0.0506 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a rising trend over the next three months.
 ### A41 — Modern Defense
 
-The Modern Defense (A41) shows a human win rate that is notably below Stockfish's prediction by 0.0507 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a stable trend over the next three months.
+The Modern Defense (A41) shows a human win rate that is notably below Stockfish's prediction by 0.0507 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a rising trend over the next three months.
 ### B46 — Sicilian Defense: Taimanov Variation
 
 The Sicilian Defense: Taimanov Variation (B46) shows a human win rate that is notably below Stockfish's prediction by 0.0508 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a stable trend over the next three months.
@@ -596,7 +596,7 @@ The Sicilian Defense: Classical Variation (B56) shows a human win rate that is n
 The Scandinavian Defense (B01) shows a human win rate that is notably below Stockfish's prediction by 0.0581 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a stable trend over the next three months.
 ### A53 — Old Indian Defense
 
-The Old Indian Defense (A53) shows a human win rate that is notably below Stockfish's prediction by 0.0598 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a stable trend over the next three months.
+The Old Indian Defense (A53) shows a human win rate that is notably below Stockfish's prediction by 0.0598 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a rising trend over the next three months.
 ### C12 — French Defense: McCutcheon Variation
 
 The French Defense: McCutcheon Variation (C12) shows a human win rate that is notably below Stockfish's prediction by 0.0617 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a stable trend over the next three months.
@@ -626,13 +626,13 @@ The Sicilian Defense: Dragon Variation, Yugoslav Attack (B77) shows a human win 
 The Sicilian Defense: Accelerated Dragon (B32) shows a human win rate that is notably below Stockfish's prediction by 0.0741 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a stable trend over the next three months.
 ### C63 — Ruy Lopez: Schliemann Defense
 
-The Ruy Lopez: Schliemann Defense (C63) shows a human win rate that is notably below Stockfish's prediction by 0.0743 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a stable trend over the next three months.
+The Ruy Lopez: Schliemann Defense (C63) shows a human win rate that is notably below Stockfish's prediction by 0.0743 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a falling trend over the next three months.
 ### B45 — Sicilian Defense: Four Knights Variation
 
 The Sicilian Defense: Four Knights Variation (B45) shows a human win rate that is notably below Stockfish's prediction by 0.0764 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a stable trend over the next three months.
 ### B70 — Sicilian Defense: Dragon Variation
 
-The Sicilian Defense: Dragon Variation (B70) shows a human win rate that is notably below Stockfish's prediction by 0.0785 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a falling trend over the next three months.
+The Sicilian Defense: Dragon Variation (B70) shows a human win rate that is notably below Stockfish's prediction by 0.0785 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a stable trend over the next three months.
 ### B02 — Alekhine Defense
 
 The Alekhine Defense (B02) shows a human win rate that is notably below Stockfish's prediction by 0.0808 — engine-favoured — frequently misplayed or theory-heavy. The ARIMA model projects a stable trend over the next three months.
