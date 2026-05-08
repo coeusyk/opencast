@@ -12,6 +12,7 @@ CATALOG_CSV = os.path.join(_HERE, "..", "data", "openings_catalog.csv")
 FINDINGS_JSON   = os.path.join(_HERE, "..", "findings", "findings.json")
 NARRATIVES_JSON = os.path.join(_HERE, "..", "findings", "narratives.json")
 LONG_TAIL_CSV   = os.path.join(_HERE, "..", "data", "output", "long_tail_stats.csv")
+MOVE_STATS_CSV  = os.path.join(_HERE, "..", "data", "output", "move_stats.csv")
 OUTPUT_DIR = os.path.join(_HERE, "..", "data", "output", "dashboard")
 ASSETS_DIR = os.path.join(OUTPUT_DIR, "assets")
 
@@ -317,6 +318,57 @@ def _load_narratives_json() -> dict:
         return {"per_opening": {}}
 
 
+def _top_lines_for_opening(move_stats_df: pd.DataFrame | None, eco: str, limit: int = 3) -> list[dict]:
+    """Return top move lines driving the current month's opening behavior."""
+    if move_stats_df is None or move_stats_df.empty or "eco" not in move_stats_df.columns:
+      return []
+
+    sub = move_stats_df[move_stats_df["eco"].astype(str) == str(eco)].copy()
+    if sub.empty or "month" not in sub.columns:
+      return []
+
+    latest_month = str(sub["month"].astype(str).max())
+    latest = sub[sub["month"].astype(str) == latest_month].copy()
+    if latest.empty:
+      return []
+
+    for col in ("games", "white_win_rate", "share_of_games", "delta_share_12m", "delta_wr_12m"):
+      if col not in latest.columns:
+        latest[col] = 0.0
+
+    latest["games"] = pd.to_numeric(latest["games"], errors="coerce").fillna(0)
+    latest["white_win_rate"] = pd.to_numeric(latest["white_win_rate"], errors="coerce")
+    latest["share_of_games"] = pd.to_numeric(latest["share_of_games"], errors="coerce").fillna(0.0)
+    latest["delta_share_12m"] = pd.to_numeric(latest["delta_share_12m"], errors="coerce").fillna(0.0)
+    latest["delta_wr_12m"] = pd.to_numeric(latest["delta_wr_12m"], errors="coerce").fillna(0.0)
+
+    # Volume anchors the score; 12-month share and win-rate movement rank trend-driving lines.
+    latest["trend_score"] = (
+      latest["share_of_games"] * 0.65
+      + latest["delta_share_12m"].abs() * 8.0
+      + latest["delta_wr_12m"].abs() * 20.0
+    )
+
+    top = latest.sort_values(["trend_score", "games"], ascending=[False, False]).head(limit)
+
+    rows: list[dict] = []
+    for _, r in top.iterrows():
+      rows.append(
+        {
+          "month": latest_month,
+          "uci": str(r.get("uci", "")),
+          "san": str(r.get("san", "")),
+          "games": int(r.get("games", 0)) if pd.notna(r.get("games")) else 0,
+          "white_win_rate": float(r["white_win_rate"]) if pd.notna(r.get("white_win_rate")) else None,
+          "share_of_games": float(r.get("share_of_games", 0.0)),
+          "delta_share_12m": float(r.get("delta_share_12m", 0.0)),
+          "delta_wr_12m": float(r.get("delta_wr_12m", 0.0)),
+        }
+      )
+
+    return rows
+
+
 def _nav_html(current: str) -> str:
     pages = [
         ("index.html", "Overview"),
@@ -352,6 +404,8 @@ def _page_shell(title: str, nav_fragment: str, body: str, head_extras: str = "")
 }
 .nav-inner {
   max-width: 1200px; margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
   padding: 0 2rem; height: 100%;
   display: flex; align-items: center;
   justify-content: flex-start;
@@ -404,6 +458,7 @@ def _serialize_openings_data(
     findings_json: dict | None,
     narratives: dict | None = None,
     long_tail_df: pd.DataFrame | None = None,
+  move_stats_df: pd.DataFrame | None = None,
     trend_signals: dict | None = None,
 ) -> dict[str, dict]:
     fallback_narrative = "No analysis available yet."
@@ -459,6 +514,17 @@ def _serialize_openings_data(
                 }
             )
 
+            forecast_quality = None
+            model_name = None
+            if not forecast_rows.empty and "forecast_quality" in forecast_rows.columns:
+              qual = forecast_rows["forecast_quality"].dropna().astype(str)
+              if not qual.empty:
+                forecast_quality = str(qual.iloc[0]).lower()
+            if not forecast_rows.empty and "model_name" in forecast_rows.columns:
+              names = forecast_rows["model_name"].dropna().astype(str)
+              if not names.empty:
+                model_name = str(names.iloc[0])
+
         structural_breaks = []
         if not fc_eco.empty and "structural_break" in fc_eco.columns:
             structural_breaks = sorted(
@@ -509,6 +575,7 @@ def _serialize_openings_data(
             data_status = str(cat_row["data_status"].iloc[0])
 
         sig = (trend_signals or {}).get(eco)
+        lines_driving_trend = _top_lines_for_opening(move_stats_df, eco)
         serialized[eco] = {
             "name": name,
             "eco_group": eco[0] if eco else None,
@@ -528,6 +595,9 @@ def _serialize_openings_data(
             "trend_r_squared": sig.r_squared if sig else 0.0,
             "trend_confidence": sig.confidence if sig else "low",
             "trend_streak_months": sig.sustained_months if sig else 0,
+            "forecast_quality": forecast_quality,
+            "model_name": model_name,
+            "lines_driving_trend": lines_driving_trend,
             **lt_stats,
         }
 
@@ -537,14 +607,17 @@ def _serialize_openings_data(
 def render_opening_template() -> str:
     body = f"""
 <h1 id="opening-title">Opening Detail</h1>
-<p style="margin:-0.25rem 0 1rem 0;">
+<p style="margin:-0.25rem 0 0.6rem 0; display:flex; gap:0.45rem; align-items:center; flex-wrap:wrap;">
   <span id="opening-tier-badge"></span>
+  <span id="opening-model-badge"></span>
+  <span id="opening-forecast-quality-badge"></span>
 </p>
 <p style="margin:0 0 1rem 0;">
   <a id="back-to-openings" href="openings.html" style="color:{TEXT_SECONDARY}; text-decoration:none; font-size:0.85rem;">&larr; All openings</a>
 </p>
 <div id="opening-narrative" class="narrative"><p></p></div>
 <div id="opening-chart"></div>
+<div id="lines-box" class="engine-box" style="display:none;"></div>
 <div id="engine-box" class="engine-box" style="display:none;"></div>
 
 <script>
@@ -661,6 +734,8 @@ function renderOpening(eco, opening) {{
   document.title = `${{eco}} — ${{name}} | OpenCast`;
   const tier = opening.model_tier;
   const tierBadge = document.getElementById("opening-tier-badge");
+  const modelBadge = document.getElementById("opening-model-badge");
+  const qualityBadge = document.getElementById("opening-forecast-quality-badge");
   const TIER_TOOLTIP = "T1: >=1000 avg monthly games + >=24 months -> model-selected forecast + engine evaluation\\nT2: 400-999 avg monthly games -> model-selected trend, no engine delta\\nT3: <400 avg monthly games -> descriptive stats only";
   if (tier) {{
     tierBadge.className = `tier-badge tier-badge-${{tier}}`;
@@ -668,6 +743,24 @@ function renderOpening(eco, opening) {{
     tierBadge.title = TIER_TOOLTIP;
   }} else {{
     tierBadge.textContent = "";
+  }}
+
+  const modelName = String(opening.model_name || "").trim();
+  if (modelName) {{
+    modelBadge.className = "meta-badge";
+    modelBadge.textContent = `Model: ${{modelName.replace("_", "-")}}`;
+  }} else {{
+    modelBadge.className = "";
+    modelBadge.textContent = "";
+  }}
+
+  const quality = String(opening.forecast_quality || "").toLowerCase();
+  if (quality) {{
+    qualityBadge.className = `meta-badge quality-${{quality}}`;
+    qualityBadge.textContent = `Forecast confidence: ${{quality}}`;
+  }} else {{
+    qualityBadge.className = "";
+    qualityBadge.textContent = "";
   }}
 
   const narrativeBox = document.getElementById("opening-narrative");
@@ -681,10 +774,54 @@ function renderOpening(eco, opening) {{
     narrativeEl.style.color = TEXT_PRIMARY;
   }}
 
+  function renderLinesDrivingTrend(data) {{
+    const box = document.getElementById("lines-box");
+    const lines = Array.isArray(data.lines_driving_trend) ? data.lines_driving_trend : [];
+    if (!lines.length) {{
+      box.style.display = "none";
+      box.innerHTML = "";
+      return;
+    }}
+
+    const fmtPct = (v) => (v != null ? (v * 100).toFixed(2) + "%" : "—");
+    const fmtPp = (v) => {{
+      if (v == null) return "—";
+      const pp = (v * 100).toFixed(2);
+      return (v >= 0 ? "+" : "") + pp + " pp";
+    }};
+
+    const rows = lines.slice(0, 3).map((r) => `
+      <tr>
+        <td style="padding:0.45rem 0.6rem 0.45rem 0;"><strong style="color:${{TEXT_PRIMARY}};">${{r.san || "—"}}</strong><div style="font-size:0.74rem;color:${{TEXT_SECONDARY}};">${{r.uci || ""}}</div></td>
+        <td style="padding:0.45rem 0.6rem;text-align:right;">${{fmtPct(r.share_of_games)}}</td>
+        <td style="padding:0.45rem 0.6rem;text-align:right;">${{fmtPct(r.white_win_rate)}}</td>
+        <td style="padding:0.45rem 0.6rem;text-align:right;color:${{(r.delta_wr_12m || 0) >= 0 ? "#7BE495" : "#F28DA6"}};">${{fmtPp(r.delta_wr_12m)}}</td>
+      </tr>
+    `).join("");
+
+    const asOf = lines[0] && lines[0].month ? `As of ${{lines[0].month}}` : "Latest month";
+    box.style.display = "block";
+    box.innerHTML = `
+      <h3>Lines Driving The Trend</h3>
+      <p style="margin:0.25rem 0 0.8rem;color:${{TEXT_SECONDARY}};font-size:0.8rem;">Top move choices by volume and 12-month win-rate movement. ${{asOf}}.</p>
+      <table style="width:100%;border-collapse:collapse;font-size:0.84rem;">
+        <thead>
+          <tr style="color:${{TEXT_SECONDARY}};font-size:0.72rem;text-transform:uppercase;letter-spacing:0.06em;">
+            <th style="text-align:left;padding:0 0.6rem 0.35rem 0;">Move</th>
+            <th style="text-align:right;padding:0 0.6rem 0.35rem;">Share</th>
+            <th style="text-align:right;padding:0 0.6rem 0.35rem;">Win Rate</th>
+            <th style="text-align:right;padding:0 0.6rem 0.35rem;">12m Δ WR</th>
+          </tr>
+        </thead>
+        <tbody>${{rows}}</tbody>
+      </table>`;
+  }}
+
     // ── Missing data: no raw file was ever ingested ──────────────────────
     if (opening.data_status === "missing") {{
         document.getElementById("opening-chart").style.display = "none";
         document.getElementById("engine-box").style.display = "none";
+      document.getElementById("lines-box").style.display = "none";
         narrativeBox.style.display = "none";
         const chartEl = document.getElementById("opening-chart");
         chartEl.style.display = "block";
@@ -706,6 +843,7 @@ function renderOpening(eco, opening) {{
     if (opening.data_status === "sparse") {{
         document.getElementById("opening-chart").style.display = "none";
         document.getElementById("engine-box").style.display = "none";
+      renderLinesDrivingTrend(opening);
         const fmtPct = (v) => (v != null ? (v * 100).toFixed(2) + "%" : "—");
         const fmt2   = (v) => (v != null ? (v * 100).toFixed(2) : "—");
         const trend = opening.trend_direction || "flat";
@@ -736,6 +874,7 @@ function renderOpening(eco, opening) {{
     if (opening.model_tier === 3) {{
         document.getElementById("opening-chart").style.display = "none";
         document.getElementById("engine-box").style.display = "none";
+      renderLinesDrivingTrend(opening);
 
         const trend = opening.trend_direction || "flat";
         const trendArrow = trend === "up" ? "↑" : trend === "down" ? "↓" : "→";
@@ -778,6 +917,8 @@ function renderOpening(eco, opening) {{
     const color = ECO_COLORS[(opening.eco_group || eco.charAt(0) || "").toUpperCase()] || "{ACCENT}";
     const actuals = opening.actuals || [];
     const forecasts = opening.forecast || [];
+    const qualityLower = String(opening.forecast_quality || "").toLowerCase();
+    const lowForecastQuality = qualityLower === "low";
 
   const traces = [
     {{
@@ -797,6 +938,7 @@ function renderOpening(eco, opening) {{
       mode: "lines",
       name: "Forecast",
       line: {{ color, width: 1.5, dash: "dash" }},
+      opacity: lowForecastQuality ? 0.46 : 0.95,
       type: "scatter",
     }});
 
@@ -804,7 +946,7 @@ function renderOpening(eco, opening) {{
       x: forecasts.map((d) => d.month).concat(forecasts.map((d) => d.month).slice().reverse()),
       y: forecasts.map((d) => d.upper).concat(forecasts.map((d) => d.lower).slice().reverse()),
       fill: "toself",
-      fillcolor: hexToRgba(color, 0.12),
+      fillcolor: hexToRgba(color, lowForecastQuality ? 0.07 : 0.12),
       line: {{ color: "rgba(0,0,0,0)" }},
       showlegend: false,
       name: "95% CI",
@@ -813,16 +955,18 @@ function renderOpening(eco, opening) {{
   }}
 
   const olsTrend = computeOlsTrend(actuals);
-  if (olsTrend) {{
-    const trendColor = olsTrend.direction === "rising" ? "#7BE495"
-      : olsTrend.direction === "falling" ? "#F28DA6" : TEXT_SECONDARY;
+  const trendConfidence = String(opening.trend_confidence || "low").toLowerCase();
+  if (olsTrend && trendConfidence !== "low") {{
+    const trendDirection = String(opening.trend_direction || olsTrend.direction || "stable").toLowerCase();
+    const trendColor = trendDirection === "rising" ? "#7BE495"
+      : trendDirection === "falling" ? "#F28DA6" : TEXT_SECONDARY;
     traces.push({{
       x: actuals.map((d) => d.month),
       y: olsTrend.trendY,
       mode: "lines",
-      name: `Trend (${{olsTrend.direction}})`,
+      name: `Trend (${{trendDirection}})` ,
       line: {{ color: trendColor, width: 1.5, dash: "longdash" }},
-      opacity: 0.65,
+      opacity: trendConfidence === "high" ? 0.78 : 0.46,
       type: "scatter",
     }});
   }}
@@ -850,6 +994,8 @@ function renderOpening(eco, opening) {{
     }}));
     Plotly.relayout("opening-chart", {{ shapes }});
   }});
+
+  renderLinesDrivingTrend(opening);
 
   const engineBox = document.getElementById("engine-box");
   const hasEngine =
@@ -900,10 +1046,14 @@ init();
 </script>
 """
     tier_css = f"""<style>
-.tier-badge {{display:inline-block;padding:0.15em 0.55em;border-radius:4px;font-size:0.75rem;font-weight:600;letter-spacing:0.04em;}}
-.tier-badge-1 {{background:rgba(74,158,255,0.18);color:#4a9eff;}}
-.tier-badge-2 {{background:rgba(169,117,255,0.18);color:#a975ff;}}
-.tier-badge-3 {{background:rgba(139,139,143,0.2);color:{TEXT_SECONDARY};}}
+  .tier-badge {{display:inline-block;padding:0.15em 0.55em;border-radius:4px;font-size:0.75rem;font-weight:600;letter-spacing:0.04em;}}
+  .tier-badge-1 {{background:rgba(74,158,255,0.18);color:#4a9eff;}}
+  .tier-badge-2 {{background:rgba(169,117,255,0.18);color:#a975ff;}}
+  .tier-badge-3 {{background:rgba(139,139,143,0.2);color:{TEXT_SECONDARY};}}
+  .meta-badge {{display:inline-block;padding:0.15em 0.55em;border-radius:4px;font-size:0.75rem;font-weight:500;letter-spacing:0.02em;background:rgba(255,255,255,0.08);color:{TEXT_PRIMARY};}}
+  .quality-high {{background:rgba(123,228,149,0.18);color:#7BE495;}}
+  .quality-medium {{background:rgba(246,193,119,0.18);color:#F6C177;}}
+  .quality-low {{background:rgba(242,141,166,0.18);color:#F28DA6;}}
 </style>"""
     head_extras = tier_css + '\n<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>'
     return _page_shell("Opening Detail", _nav_html("openings.html"), body, head_extras=head_extras)
@@ -920,7 +1070,18 @@ def render_overview(
     # ── Dynamic stats ─────────────────────────────────────────────────────
     n_openings = int(engine_df["eco"].nunique()) if not engine_df.empty else 0
     actuals_only = forecasts[forecasts["is_forecast"] == False] if not forecasts.empty else pd.DataFrame()
+    fc_only = forecasts[forecasts["is_forecast"] == True] if not forecasts.empty else pd.DataFrame()
     n_months = int(actuals_only["month"].nunique()) if not actuals_only.empty else 0
+    high_conf_openings = 0
+    if not fc_only.empty and "forecast_quality" in fc_only.columns and "eco" in fc_only.columns:
+      eco_quality = (
+        fc_only.dropna(subset=["eco"])
+        .groupby("eco", as_index=False)["forecast_quality"]
+        .first()
+      )
+      high_conf_openings = int(
+        eco_quality["forecast_quality"].astype(str).str.lower().eq("high").sum()
+      )
     last_updated = (findings_json or {}).get("month", "—")
 
     # ── Findings insight text ─────────────────────────────────────────────
@@ -1071,11 +1232,14 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
 /* Hero */
 .hero {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(0, 1.03fr) minmax(0, 0.97fr);
   gap: 4rem;
   align-items: center;
-  min-height: calc(100dvh - 48px);
-  padding: clamp(2rem, 5vw, 4rem) max(1.5rem, calc((100vw - 1080px) / 2 + 1.5rem));
+  min-height: calc(100dvh - 52px);
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: clamp(2rem, 5vw, 4rem) 2rem;
   background-image: repeating-conic-gradient(
     rgba(255,255,255,0.015) 0% 25%,
     transparent 0% 50%
@@ -1284,6 +1448,8 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
         f'{n_openings} openings tracked</div>'
         f'<div class="stat-pill" data-count="{n_months}" data-suffix=" months of data">'
         f'{n_months} months of data</div>'
+        f'<div class="stat-pill" data-count="{high_conf_openings}" data-suffix=" high-confidence forecasts">'
+        f'{high_conf_openings} high-confidence forecasts</div>'
         f'<div class="stat-pill">Last updated: {last_updated}</div>'
         '</div>'
         '<div class="hero-actions">'
@@ -1701,6 +1867,10 @@ def run_visualizer() -> None:
         long_tail_df = pd.read_csv(LONG_TAIL_CSV) if os.path.exists(LONG_TAIL_CSV) else pd.DataFrame()
     except Exception:
         long_tail_df = pd.DataFrame()
+    try:
+      move_stats_df = pd.read_csv(MOVE_STATS_CSV) if os.path.exists(MOVE_STATS_CSV) else pd.DataFrame()
+    except Exception:
+      move_stats_df = pd.DataFrame()
 
     for asset_name in ("shared.css", "nav.js"):
         src = Path(__file__).parent / "assets" / asset_name
@@ -1723,7 +1893,16 @@ def run_visualizer() -> None:
 
     from .report import _forecast_directions
     _, trend_signals = _forecast_directions(forecasts)
-    openings_data = _serialize_openings_data(forecasts, engine_df, catalog, findings, narratives, long_tail_df, trend_signals=trend_signals)
+    openings_data = _serialize_openings_data(
+      forecasts,
+      engine_df,
+      catalog,
+      findings,
+      narratives,
+      long_tail_df,
+      move_stats_df,
+      trend_signals=trend_signals,
+    )
     openings_data_path = os.path.join(ASSETS_DIR, "openings_data.json")
     Path(openings_data_path).write_text(json.dumps(openings_data, indent=2), encoding="utf-8")
     print(f"Openings data written -> {openings_data_path}")
