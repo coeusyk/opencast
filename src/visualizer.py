@@ -619,7 +619,7 @@ def render_opening_template() -> str:
 <p style="margin:0 0 1rem 0;">
   <a id="back-to-openings" href="openings.html" style="color:{TEXT_SECONDARY}; text-decoration:none; font-size:0.85rem;">&larr; All openings</a>
 </p>
-<div id="opening-narrative" class="engine-box" style="display:none;"><h3>Analysis</h3><p></p></div>
+<div id="opening-narrative" class="engine-box" style="display:none;margin-bottom:1.5rem;"><h3>Analysis</h3><p></p></div>
 <div id="opening-chart"></div>
 <div id="lines-box" class="engine-box" style="display:none;"></div>
 <div id="engine-box" class="engine-box" style="display:none;"></div>
