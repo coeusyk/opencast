@@ -20,11 +20,12 @@ See [findings/findings.md](findings/findings.md) and [findings/findings.json](fi
 ## How It Works
 
 1. **Catalog & Selection** - `scripts/build_catalog.py` maintains the full ECO catalog (`data/openings_catalog.csv`). `src/select_openings.py` and `scripts/compute_selection_flags.py` classify openings into Tier 1/2/3 from coverage and activity thresholds.
-2. **Fetch (Rust)** - `fetcher` queries `explorer.lichess.ovh` month-by-month and stores one consolidated JSON per ECO at `data/raw/{ECO}.json` with `months` and `_meta.skipped_months`.
+2. **Fetch (Rust)** - `fetcher` queries `explorer.lichess.ovh` month-by-month and stores one consolidated JSON per ECO at `data/raw/{group}/{ECO}.json` (e.g. `data/raw/A/A00.json`) with `months` and `_meta.skipped_months`.
 3. **Bootstrap Expansion** - `scripts/temp_bootstrap_openings.py` activates selected ECO batches, fetches missing months ECO-by-ECO, applies early-stop/coverage pruning, and persists fetch completion tracking (`bootstrap_fetch_complete`, `bootstrap_fetched_until`, `bootstrap_fetch_status`) in the catalog.
-4. **Ingest** - `src/ingest.py` normalizes consolidated raw files into `data/processed/openings_ts.csv`.
-5. **Analyze** - `src/timeseries.py` fits ARIMA (Tier 1) and Holt-Winters (Tier 2), then writes forecasts to `data/output/forecasts.csv`. `src/engine_delta.py` computes engine-human deltas in `data/output/engine_delta.csv`.
-6. **Report & Visualize** - `src/report.py` writes `findings/findings.md` and `findings/findings.json` (Gemini-assisted with template fallback). `src/visualizer.py` generates the static dashboard site in `data/output/dashboard/`.
+4. **Freshness Guard (main.py)** - `main.py` detects missing complete months from `config.json::fetch_start` through the latest complete month, and can auto-fetch when `AUTO_FETCH_MISSING_DATA=true`. In non-interactive runs (CI), fetch is disabled unless explicitly enabled.
+5. **Ingest** - `src/ingest.py` normalizes consolidated raw files into `data/processed/openings_ts.csv`.
+6. **Analyze** - `src/timeseries.py` fits ARIMA (Tier 1) and Holt-Winters (Tier 2), then writes forecasts to `data/output/forecasts.csv`. `src/engine_delta.py` computes engine-human deltas in `data/output/engine_delta.csv` and skips malformed SAN move tokens instead of aborting the whole stage.
+7. **Report & Visualize** - `src/report.py` writes `findings/findings.md` and `findings/findings.json` (Gemini-assisted with template fallback). `src/visualizer.py` generates the static dashboard site in `data/output/dashboard/`, including tier tags on opening detail pages.
 
 ---
 
@@ -62,6 +63,9 @@ uv pip install -r requirements.txt
 # Run the full pipeline
 python main.py
 
+# Optional: force non-interactive mode to skip auto-fetch prompts
+AUTO_FETCH_MISSING_DATA=false python main.py
+
 # Optional: run remaining bootstrap openings after an initial batch
 python scripts/temp_bootstrap_openings.py --apply --eco-offset 240
 ```
@@ -81,7 +85,7 @@ python scripts/temp_bootstrap_openings.py --apply --eco-offset 240
 | Catalog size | 498 ECO codes |
 | Tracking scope | ECO A-E, tiered by activity/coverage |
 | Date range | 2023-01 → present |
-| Raw JSON files | one consolidated file per ECO in `data/raw/` |
+| Raw JSON files | one consolidated file per ECO in `data/raw/{A-E}/{ECO}.json` |
 | Processed rows | one row per ECO-month in `data/processed/openings_ts.csv` |
 | Forecast horizon | 3 months ahead per opening, with 95% CI |
 
@@ -108,7 +112,7 @@ flowchart TB
     LICHESS["Lichess Explorer API"]
     RUST["fetcher v0.2.x"]
     EARLY["early-stop on below-min ratio"]
-    RAW["data/raw/{ECO}.json\nmonths + skipped metadata"]
+    RAW["data/raw/{group}/{ECO}.json\nmonths + skipped metadata"]
   end
  subgraph INGEST["3. Ingest"]
     direction LR
@@ -204,25 +208,35 @@ src/
 scripts/
   build_catalog.py          ← build/refresh full ECO catalog
   compute_selection_flags.py ← tier flags + pruning
+  clean_raw_json.py         ← normalize/reformat consolidated raw JSON files
   temp_bootstrap_openings.py ← batch bootstrap fetch with offset/limit and tracking
   migrate_raw.py            ← legacy raw format migration helper
 data/
-  raw/                ← one consolidated JSON per ECO (gitignored)
+  raw/                ← grouped ECO JSON files at raw/{A-E}/{ECO}.json (gitignored)
   processed/          ← openings_ts.csv
   openings_catalog.csv ← ECO tier flags (is_tracked_core, model_tier, …)
   selection_flags.csv ← per-ECO coverage/tier diagnostics
   output/
     forecasts.csv     ← ARIMA / HW forecasts with confidence intervals
     engine_delta.csv  ← centipawn vs human win rate delta
+    long_tail_stats.csv ← Tier-3 coverage and descriptive opening stats
     dashboard/        ← multi-page static site (GitHub Pages root)
       index.html      ← overview + 3 panels
       openings.html   ← sortable table of all ECOs
       families.html   ← ECO family (A–E) summary
-      opening.html    ← single per-opening template (use ?eco=B20)
+      opening.html    ← single per-opening template with tier badge (use ?eco=B20)
       assets/         ← shared.css, nav.js, openings_data.json
 findings/
   findings.md         ← narrative findings report
   findings.json       ← structured findings payload
+  narratives.json     ← per-opening generated narrative cache
 openings.json         ← seed opening definitions (legacy bootstrap input)
 main.py               ← pipeline orchestrator
 ```
+
+---
+
+## CI / Automation Notes
+
+- `.github/workflows/update.yml` fetches missing months incrementally, then runs a full recomputation by clearing generated artifacts and executing `AUTO_FETCH_MISSING_DATA=false python main.py`.
+- Processing commits include refreshed `data/processed/openings_ts.csv`, `data/output/*.csv`, dashboard pages, and `findings/` artifacts.
