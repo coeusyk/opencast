@@ -50,44 +50,54 @@ def classify_trend(
         Index is ignored; position is used as the time axis.
     structural_breaks:
         Optional boolean Series aligned to *series* (same length, same order).
-        If provided and a break is detected within the last 12 months of the
-        series, only the post-break portion is used for regression so that a
-        pre-break regime doesn't pollute the current trend.
+        If any break exists for the ECO, classification is computed on the
+        post-break regime only (last break onward).
+        If no break exists, classification uses the last min(12, len(series))
+        points to reflect recent regime behavior.
     min_r2:
         Minimum R² required before asserting a non-stable direction.
     """
     _zero = TrendSignal(eco, "stable", 0.0, 0.0, 0, 0.0, "low")
 
-    y = series.dropna().values.astype(float)
-    if len(y) < 6:
+    series_clean = series.dropna().astype(float).reset_index(drop=True)
+    if len(series_clean) < 3:
         return _zero
 
-    # ── Structural-break truncation ──────────────────────────────────────────
-    if structural_breaks is not None:
-        # Align breaks to the same index as y (after dropna might shift things,
-        # so work with positional index on the original series before dropna).
-        valid_mask = series.notna()
-        breaks_aligned = structural_breaks.values[valid_mask.values] if len(structural_breaks) == len(series) else None
-        if breaks_aligned is not None:
-            break_positions = np.where(breaks_aligned)[0]
-            # Only use a break if it falls within the last 12 positions —
-            # old breaks in a long series should not discard decades of data.
-            recent_breaks = break_positions[break_positions >= max(0, len(y) - 12)]
-            if len(recent_breaks) > 0:
-                cut = int(recent_breaks[-1])
-                post_break = y[cut:]
-                if len(post_break) >= 6:
-                    y = post_break
+    # Classification window:
+    # - with break(s): post-last-break window
+    # - without break: most recent 12 months (or fewer if shorter history)
+    y_window: np.ndarray
+    used_break_window = False
+    if structural_breaks is not None and len(structural_breaks) == len(series):
+        valid_mask = np.asarray(series.notna().reset_index(drop=True).values, dtype=bool)
+        break_values = np.asarray(structural_breaks.reset_index(drop=True).values, dtype=bool)
+        breaks_aligned = break_values[valid_mask]
+        break_positions = np.where(breaks_aligned)[0]
+        if len(break_positions) > 0:
+            cut = int(break_positions[-1])
+            y_window = series_clean.iloc[cut:].to_numpy(dtype=float)
+            used_break_window = True
+        else:
+            y_window = series_clean.iloc[-min(12, len(series_clean)):].to_numpy(dtype=float)
+    else:
+        y_window = series_clean.iloc[-min(12, len(series_clean)):].to_numpy(dtype=float)
+
+    if len(y_window) < 3:
+        return _zero
 
     # ── OLS regression ───────────────────────────────────────────────────────
-    x = np.arange(len(y), dtype=float)
-    slope, _, r_value, _, _ = stats.linregress(x, y)
-    r_sq = float(r_value ** 2)
+    x = np.arange(len(y_window), dtype=float)
+    slope, intercept = np.polyfit(x, y_window, 1)
+    y_hat = slope * x + intercept
+    ss_res = float(np.sum((y_window - y_hat) ** 2))
+    ss_tot = float(np.sum((y_window - np.mean(y_window)) ** 2))
+    r_sq = 0.0 if ss_tot <= 0 else float(max(0.0, 1.0 - (ss_res / ss_tot)))
+    slope = float(slope)
 
     # ── Tail-streak counter ──────────────────────────────────────────────────
     # Count consecutive months at the series tail that move in the direction
     # implied by the slope.  Computed over the last 6 month-to-month diffs.
-    tail = y[-7:]  # need 7 points to get 6 diffs
+    tail = y_window[-7:] if len(y_window) >= 7 else y_window
     diffs = np.diff(tail)
     dominant = "rising" if slope > 0 else "falling"
     streak = 0
@@ -97,16 +107,20 @@ def classify_trend(
         else:
             break
 
-    recent_volatility = float(np.std(y[-6:]))
+    recent_slice = y_window[-6:] if len(y_window) >= 6 else y_window
+    recent_volatility = float(np.std(recent_slice))
+    signal_to_noise = abs(float(slope)) * 6.0 / max(recent_volatility, 1e-9)
 
     # ── Direction gate ───────────────────────────────────────────────────────
-    if abs(slope) < _SLOPE_THRESHOLD or r_sq < min_r2:
+    if abs(slope) < _SLOPE_THRESHOLD or r_sq < min_r2 or (used_break_window and streak < 2):
         direction = "stable"
     else:
         direction = dominant
 
     # ── Confidence ───────────────────────────────────────────────────────────
-    if r_sq >= 0.35 and streak >= 2:
+    if direction == "stable":
+        confidence = "low"
+    elif r_sq >= 0.50 and streak >= 2 and signal_to_noise >= 2.0:
         confidence = "high"
     elif r_sq >= min_r2 and streak >= 1:
         confidence = "medium"
@@ -118,7 +132,7 @@ def classify_trend(
         direction=direction,
         slope_per_month=float(slope),
         r_squared=r_sq,
-        sustained_months=streak,
+        sustained_months=streak if direction != "stable" else 0,
         recent_volatility=recent_volatility,
         confidence=confidence,
     )

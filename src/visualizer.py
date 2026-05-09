@@ -1,5 +1,6 @@
 import json
 import os
+import shutil
 from pathlib import Path
 
 import pandas as pd
@@ -13,6 +14,8 @@ FINDINGS_JSON   = os.path.join(_HERE, "..", "findings", "findings.json")
 NARRATIVES_JSON = os.path.join(_HERE, "..", "findings", "narratives.json")
 LONG_TAIL_CSV   = os.path.join(_HERE, "..", "data", "output", "long_tail_stats.csv")
 MOVE_STATS_CSV  = os.path.join(_HERE, "..", "data", "output", "move_stats.csv")
+OPENING_LINES_JSON = os.path.join(_HERE, "..", "data", "opening_lines.json")
+CONFIG_JSON = os.path.join(_HERE, "..", "config.json")
 OUTPUT_DIR = os.path.join(_HERE, "..", "data", "output", "dashboard")
 ASSETS_DIR = os.path.join(OUTPUT_DIR, "assets")
 
@@ -318,6 +321,16 @@ def _load_narratives_json() -> dict:
         return {"per_opening": {}}
 
 
+def _load_runtime_config() -> dict:
+    """Load config.json with safe fallbacks for visualizer-side thresholds."""
+    try:
+        with open(CONFIG_JSON, encoding="utf-8") as f:
+            data = json.load(f)
+        return data if isinstance(data, dict) else {}
+    except Exception:
+        return {}
+
+
 def _top_lines_for_opening(move_stats_df: pd.DataFrame | None, eco: str, limit: int = 3) -> list[dict]:
     """Return top move lines driving the current month's opening behavior."""
     if move_stats_df is None or move_stats_df.empty or "eco" not in move_stats_df.columns:
@@ -342,11 +355,23 @@ def _top_lines_for_opening(move_stats_df: pd.DataFrame | None, eco: str, limit: 
     latest["delta_share_12m"] = pd.to_numeric(latest["delta_share_12m"], errors="coerce")
     latest["delta_wr_12m"] = pd.to_numeric(latest["delta_wr_12m"], errors="coerce")
 
+    cfg = _load_runtime_config()
+    min_games = int(cfg.get("move_line_min_games", 5))
+    min_share = float(cfg.get("move_line_min_share", 0.005))
+
+    # Suppress micro-sample lines that create false +/-100% shifts.
+    latest = latest[
+      (latest["games"] >= min_games)
+      & (latest["share_of_games"] >= min_share)
+    ].copy()
+    if latest.empty:
+      return []
+
     # Volume anchors the score; 12-month share and win-rate movement rank trend-driving lines.
     latest["trend_score"] = (
-        latest["share_of_games"] * 0.65
-        + latest["delta_share_12m"].abs().fillna(0.0) * 8.0
-        + latest["delta_wr_12m"].abs().fillna(0.0) * 20.0
+      latest["share_of_games"] * 0.65
+      + latest["delta_share_12m"].abs().fillna(0.0) * 8.0
+      + latest["delta_wr_12m"].abs().fillna(0.0) * 20.0
     )
 
     top = latest.sort_values(["trend_score", "games"], ascending=[False, False]).head(limit)
@@ -620,12 +645,36 @@ def render_opening_template() -> str:
   <a id="back-to-openings" href="openings.html" style="color:{TEXT_SECONDARY}; text-decoration:none; font-size:0.85rem;">&larr; All openings</a>
 </p>
 <div id="opening-narrative" class="engine-box" style="display:none;margin-bottom:1.5rem;"><h3>Analysis</h3><p></p></div>
+<div id="opening-board-section" class="engine-box" style="display:none;margin-bottom:1.5rem;">
+  <h3 style="margin:0 0 0.5rem;">Opening Board</h3>
+  <p id="opening-line-name" style="margin:0 0 0.85rem;color:{TEXT_SECONDARY};font-size:0.84rem;"></p>
+  <div class="opening-board-layout">
+    <div class="opening-board-frame">
+      <div id="opening-board-ranks" class="board-ranks" aria-hidden="true"></div>
+      <div id="opening-board" class="opening-board"></div>
+      <div id="opening-board-files" class="board-files" aria-hidden="true"></div>
+    </div>
+    <div class="opening-line-panel">
+      <div id="opening-move-list" class="opening-move-list"></div>
+      <div class="opening-board-controls">
+        <button id="btn-flip" type="button" class="board-btn" aria-label="Flip board" title="Flip Board"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 4v7h-7M3 20v-7h7M3.51 9a9 9 0 0 1 14.85-3.36M20.49 15a9 9 0 0 1-14.85 3.36"/></svg></button>
+        <button id="btn-reset" type="button" class="board-btn" aria-label="Reset position" title="Reset"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8M21 3v5h-5M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16M3 21v-5h5"/></svg></button>
+        <button id="btn-prev" type="button" class="board-btn" aria-label="Move back" title="Move Back"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z" transform="rotate(180 12 12)"/></svg></button>
+        <button id="btn-next" type="button" class="board-btn" aria-label="Move forward" title="Move Forward"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="historical-summary-box" class="engine-box" style="display:none;margin-bottom:1.5rem;"></div>
 <div id="opening-chart"></div>
+<div id="forecast-stats-box" class="engine-box" style="display:none;margin-top:1.1rem;margin-bottom:1.5rem;"></div>
+<div id="breaks-box" class="engine-box" style="display:none;margin-bottom:1.5rem;"></div>
 <div id="lines-box" class="engine-box" style="display:none;"></div>
 <div id="engine-box" class="engine-box" style="display:none;"></div>
 
 <script>
 let openingsDataCache = null;
+let openingLinesCache = null;
 const ECO_COLORS = {json.dumps(ECO_COLORS)};
 const PANEL_BG = "{PANEL_BG}";
 const GRID_COLOR = "{GRID_COLOR}";
@@ -720,6 +769,23 @@ async function loadOpeningsData() {{
   return openingsDataCache;
 }}
 
+async function loadOpeningLines() {{
+  if (openingLinesCache) {{
+    return openingLinesCache;
+  }}
+  try {{
+    const response = await fetch("assets/opening_lines.json", {{ cache: "no-store" }});
+    if (!response.ok) {{
+      openingLinesCache = {{}};
+      return openingLinesCache;
+    }}
+    openingLinesCache = await response.json();
+  }} catch (_) {{
+    openingLinesCache = {{}};
+  }}
+  return openingLinesCache;
+}}
+
 function resolveEco(data) {{
   const ecos = Object.keys(data);
   if (!ecos.length) {{
@@ -732,7 +798,217 @@ function resolveEco(data) {{
   return ecos[0];
 }}
 
-function renderOpening(eco, opening) {{
+function renderOpeningBoard(eco, openingLines) {{
+  const boardSection = document.getElementById("opening-board-section");
+  const frameEl = document.querySelector(".opening-board-frame");
+  const boardEl = document.getElementById("opening-board");
+  const ranksEl = document.getElementById("opening-board-ranks");
+  const filesEl = document.getElementById("opening-board-files");
+  const moveListEl = document.getElementById("opening-move-list");
+  const lineNameEl = document.getElementById("opening-line-name");
+  const flipBtn = document.getElementById("btn-flip");
+  const resetBtn = document.getElementById("btn-reset");
+  const prevBtn = document.getElementById("btn-prev");
+  const nextBtn = document.getElementById("btn-next");
+
+  const lines = openingLines && openingLines[eco] && Array.isArray(openingLines[eco].lines)
+    ? openingLines[eco].lines
+    : [];
+  const primaryLine = lines.find((line) => line.id === "main") || lines[0];
+
+  if (!primaryLine || !Array.isArray(primaryLine.moves_san) || !primaryLine.moves_san.length) {{
+    boardSection.style.display = "none";
+    if (window.__opencastBoardKeyHandler) {{
+      document.removeEventListener("keydown", window.__opencastBoardKeyHandler);
+      window.__opencastBoardKeyHandler = null;
+    }}
+    return;
+  }}
+
+  if (typeof Chess === "undefined") {{
+    boardSection.style.display = "none";
+    return;
+  }}
+  if (typeof Chessboard === "undefined") {{
+    boardSection.style.display = "none";
+    return;
+  }}
+
+  const startingFen = primaryLine.starting_fen && primaryLine.starting_fen !== "startpos"
+    ? primaryLine.starting_fen
+    : null;
+  const seedGame = new Chess();
+  if (startingFen && !seedGame.load(startingFen)) {{
+    boardSection.style.display = "none";
+    return;
+  }}
+  const initialFen = seedGame.fen();
+  const moves = primaryLine.moves_san.slice(0, 12);
+
+  const board = Chessboard(boardEl, {{
+    position: initialFen,
+    draggable: false,
+    showNotation: false,
+    pieceTheme: "assets/chesspieces/wikipedia/{{piece}}.png",
+  }});
+
+  let currentIndex = 0;
+  let boardFlipped = false;
+
+  function renderCoordinates(isFlipped) {{
+    const rankLabels = isFlipped
+      ? ["1", "2", "3", "4", "5", "6", "7", "8"]
+      : ["8", "7", "6", "5", "4", "3", "2", "1"];
+    const fileLabels = isFlipped
+      ? ["h", "g", "f", "e", "d", "c", "b", "a"]
+      : ["a", "b", "c", "d", "e", "f", "g", "h"];
+    ranksEl.innerHTML = rankLabels.map((label) => `<span class="board-coord">${{label}}</span>`).join("");
+    filesEl.innerHTML = fileLabels.map((label) => `<span class="board-coord">${{label}}</span>`).join("");
+  }}
+
+  function syncCoordinateGeometry() {{
+    const boardGrid = boardEl.querySelector(".board-b72b1");
+    const boardRect = boardGrid
+      ? boardGrid.getBoundingClientRect()
+      : boardEl.getBoundingClientRect();
+    const boardPx = Math.round(boardRect.width);
+    if (!Number.isFinite(boardPx) || boardPx <= 0) {{
+      return;
+    }}
+    frameEl.style.gridTemplateColumns = `1rem ${{boardPx}}px`;
+    frameEl.style.gridTemplateRows = `${{boardPx}}px 1rem`;
+    boardEl.style.width = `${{boardPx}}px`;
+    boardEl.style.height = `${{boardPx}}px`;
+
+    const squares = Array.from(boardEl.querySelectorAll("[data-square]"));
+    if (!squares.length) {{
+      ranksEl.style.height = `${{boardPx}}px`;
+      filesEl.style.width = `${{boardPx}}px`;
+      ranksEl.style.marginTop = "0px";
+      filesEl.style.marginLeft = "0px";
+      ranksEl.style.gridTemplateRows = "repeat(8, minmax(0, 1fr))";
+      filesEl.style.gridTemplateColumns = "repeat(8, minmax(0, 1fr))";
+      return;
+    }}
+
+    let minLeft = Number.POSITIVE_INFINITY;
+    let maxRight = Number.NEGATIVE_INFINITY;
+    let minTop = Number.POSITIVE_INFINITY;
+    let maxBottom = Number.NEGATIVE_INFINITY;
+
+    for (const sq of squares) {{
+      const r = sq.getBoundingClientRect();
+      if (!Number.isFinite(r.left) || !Number.isFinite(r.top)) continue;
+      minLeft = Math.min(minLeft, r.left);
+      maxRight = Math.max(maxRight, r.right);
+      minTop = Math.min(minTop, r.top);
+      maxBottom = Math.max(maxBottom, r.bottom);
+    }}
+
+    if (!Number.isFinite(minLeft) || !Number.isFinite(maxRight) || !Number.isFinite(minTop) || !Number.isFinite(maxBottom)) {{
+      ranksEl.style.height = `${{boardPx}}px`;
+      filesEl.style.width = `${{boardPx}}px`;
+      ranksEl.style.marginTop = "0px";
+      filesEl.style.marginLeft = "0px";
+      ranksEl.style.gridTemplateRows = "repeat(8, minmax(0, 1fr))";
+      filesEl.style.gridTemplateColumns = "repeat(8, minmax(0, 1fr))";
+      return;
+    }}
+
+    const filesStart = minLeft - boardRect.left;
+    const filesSpan = maxRight - minLeft;
+    const ranksStart = minTop - boardRect.top;
+    const ranksSpan = maxBottom - minTop;
+    const fileStep = filesSpan / 8;
+    const rankStep = ranksSpan / 8;
+
+    filesEl.style.width = `${{filesSpan}}px`;
+    filesEl.style.marginLeft = `${{filesStart}}px`;
+    filesEl.style.gridTemplateColumns = `repeat(8, ${{fileStep}}px)`;
+
+    ranksEl.style.height = `${{ranksSpan}}px`;
+    ranksEl.style.marginTop = `${{ranksStart}}px`;
+    ranksEl.style.gridTemplateRows = `repeat(8, ${{rankStep}}px)`;
+  }}
+
+  function renderMoveList(activeIndex) {{
+    const rows = [];
+    for (let i = 0; i < moves.length; i += 2) {{
+      const moveNo = Math.floor(i / 2) + 1;
+      const whiteClass = i < activeIndex ? "played" : "";
+      const whiteActive = i === activeIndex - 1 ? "active" : "";
+      const blackIndex = i + 1;
+      const black = blackIndex < moves.length ? moves[blackIndex] : "";
+      const blackClass = blackIndex < activeIndex ? "played" : "";
+      const blackActive = blackIndex === activeIndex - 1 ? "active" : "";
+      rows.push(`
+        <div class="move-row">
+          <span class="move-number">${{moveNo}}.</span>
+          <span class="move-token ${{whiteClass}} ${{whiteActive}}">${{moves[i]}}</span>
+          ${{black ? `<span class="move-token ${{blackClass}} ${{blackActive}}">${{black}}</span>` : ""}}
+        </div>
+      `);
+    }}
+    moveListEl.innerHTML = rows.join("");
+  }}
+
+  function goToMove(targetIndex) {{
+    const clamped = Math.max(0, Math.min(targetIndex, moves.length));
+    const game = new Chess();
+    game.load(initialFen);
+    for (let i = 0; i < clamped; i++) {{
+      const next = game.move(moves[i], {{ sloppy: true }});
+      if (!next) {{
+        break;
+      }}
+    }}
+    boardEl.style.opacity = "0.7";
+    board.position(game.fen(), true);
+    boardEl.style.opacity = "1";
+    currentIndex = clamped;
+    renderMoveList(currentIndex);
+    prevBtn.disabled = currentIndex <= 0;
+    nextBtn.disabled = currentIndex >= moves.length;
+  }}
+
+  lineNameEl.textContent = primaryLine.name || `Main line (${{eco}})`;
+  boardSection.style.display = "block";
+  renderCoordinates(boardFlipped);
+
+  flipBtn.onclick = () => {{
+    boardFlipped = !boardFlipped;
+    board.orientation(boardFlipped ? "black" : "white");
+    syncCoordinateGeometry();
+    renderCoordinates(boardFlipped);
+  }};
+  resetBtn.onclick = () => goToMove(0);
+  prevBtn.onclick = () => goToMove(currentIndex - 1);
+  nextBtn.onclick = () => goToMove(currentIndex + 1);
+
+  if (window.__opencastBoardKeyHandler) {{
+    document.removeEventListener("keydown", window.__opencastBoardKeyHandler);
+  }}
+  window.__opencastBoardKeyHandler = (event) => {{
+    if (event.key === "ArrowRight") {{
+      nextBtn.click();
+    }}
+    if (event.key === "ArrowLeft") {{
+      prevBtn.click();
+    }}
+  }};
+  document.addEventListener("keydown", window.__opencastBoardKeyHandler);
+
+  goToMove(0);
+  const forceBoardResize = () => {{
+    board.resize();
+    syncCoordinateGeometry();
+    goToMove(currentIndex);
+  }};
+  requestAnimationFrame(forceBoardResize);
+  setTimeout(forceBoardResize, 80);
+}}
+
+function renderOpening(eco, opening, openingLines) {{
   const name = opening.name || eco;
   document.getElementById("opening-title").textContent = `${{name}} (${{eco}})`;
   document.title = `${{eco}} — ${{name}} | OpenCast`;
@@ -768,6 +1044,9 @@ function renderOpening(eco, opening) {{
   }}
 
   const narrativeBox = document.getElementById("opening-narrative");
+  const historicalSummaryBox = document.getElementById("historical-summary-box");
+  const forecastStatsBox = document.getElementById("forecast-stats-box");
+  const breaksBox = document.getElementById("breaks-box");
   const narrative = opening.narrative || FALLBACK_NARRATIVE;
   if (!narrative || narrative === FALLBACK_NARRATIVE || !narrative.trim()) {{
     narrativeBox.style.display = "none";
@@ -778,9 +1057,86 @@ function renderOpening(eco, opening) {{
     narrativeEl.style.color = TEXT_PRIMARY;
   }}
 
+  renderOpeningBoard(eco, openingLines);
+
+  function renderHistoricalSummary(data) {{
+    const actuals = Array.isArray(data.actuals) ? data.actuals : [];
+    const vals = actuals.map((d) => Number(d.win_rate)).filter((v) => Number.isFinite(v));
+    if (vals.length < 3) {{
+      historicalSummaryBox.style.display = "none";
+      historicalSummaryBox.innerHTML = "";
+      return;
+    }}
+    const last3 = vals.slice(-3);
+    const last12 = vals.slice(-12);
+    const avg3 = last3.reduce((a, b) => a + b, 0) / last3.length;
+    const avg12 = last12.reduce((a, b) => a + b, 0) / last12.length;
+    const above50 = vals.filter((v) => v > 0.5).length;
+    const fmt = (v) => `${{(v * 100).toFixed(2)}}%`;
+
+    historicalSummaryBox.style.display = "block";
+    historicalSummaryBox.innerHTML = `
+      <h3 style="margin:0 0 0.85rem;">Historical Summary</h3>
+      <div class="historical-grid">
+        <div class="historical-stat"><p class="historical-label">3-Month Avg</p><p class="historical-value">${{fmt(avg3)}}</p></div>
+        <div class="historical-stat"><p class="historical-label">12-Month Avg</p><p class="historical-value">${{fmt(avg12)}}</p></div>
+        <div class="historical-stat"><p class="historical-label">Months Above 50%</p><p class="historical-value">${{above50}} / ${{vals.length}} months</p></div>
+      </div>
+      <p style="margin:0.6rem 0 0;font-size:0.78rem;color:${{TEXT_SECONDARY}};">Based on ${{vals.length}} months of data.</p>
+    `;
+  }}
+
+  function renderForecastStats(data) {{
+    if (Number(data.model_tier) === 3) {{
+      forecastStatsBox.style.display = "none";
+      forecastStatsBox.innerHTML = "";
+      return;
+    }}
+
+    const slope = Number(data.trend_slope_per_month);
+    const r2 = Number(data.trend_r_squared);
+    const streak = Number(data.trend_streak_months);
+    const conf = String(data.trend_confidence || "low").toLowerCase();
+    const slopeTxt = Number.isFinite(slope)
+      ? `${{slope >= 0 ? "+" : ""}}${{(slope * 100).toFixed(4)}} pp/month`
+      : "—";
+    const confColor = conf === "high" ? "#7BE495" : conf === "medium" ? "#F6C177" : TEXT_SECONDARY;
+
+    forecastStatsBox.style.display = "block";
+    forecastStatsBox.innerHTML = `
+      <h3 style="margin:0 0 0.85rem;">Trend Signal</h3>
+      <div style="display:flex;flex-wrap:wrap;gap:0.6rem;">
+        <div class="stat-chip"><span class="chip-label">Slope</span><span class="chip-value">${{slopeTxt}}</span></div>
+        <div class="stat-chip"><span class="chip-label">R²</span><span class="chip-value">${{Number.isFinite(r2) ? r2.toFixed(3) : "—"}}</span></div>
+        <div class="stat-chip"><span class="chip-label">Sustained</span><span class="chip-value">${{Number.isFinite(streak) ? `${{streak}} months` : "—"}}</span></div>
+        <div class="stat-chip" style="border-color:${{confColor}};"><span class="chip-label">Confidence</span><span class="chip-value" style="color:${{confColor}};">${{conf}}</span></div>
+      </div>
+    `;
+  }}
+
+  function renderStructuralBreaks(data) {{
+    const breaks = Array.isArray(data.structural_breaks) ? data.structural_breaks : [];
+    if (!breaks.length) {{
+      breaksBox.style.display = "none";
+      breaksBox.innerHTML = "";
+      return;
+    }}
+    breaksBox.style.display = "block";
+    breaksBox.innerHTML = `
+      <h3 style="margin:0 0 0.5rem;">Structural Breaks Detected</h3>
+      <p style="margin:0 0 0.6rem;font-size:0.82rem;color:${{TEXT_SECONDARY}};">Statistical regime changes (Chow test) detected at:</p>
+      <div style="display:flex;gap:0.5rem;flex-wrap:wrap;">
+        ${{breaks.map((b) => `<span style="padding:0.2em 0.65em;background:rgba(246,193,119,0.12);border:1px solid rgba(246,193,119,0.25);border-radius:4px;color:#F6C177;font-size:0.8rem;">${{b}}</span>`).join("")}}
+      </div>
+      <p style="margin:0.6rem 0 0;font-size:0.78rem;color:${{TEXT_SECONDARY}};opacity:0.7;">Win-rate behaviour may differ significantly before and after these dates.</p>
+    `;
+  }}
+
   function renderLinesDrivingTrend(data) {{
     const box = document.getElementById("lines-box");
     const lines = Array.isArray(data.lines_driving_trend) ? data.lines_driving_trend : [];
+    const MIN_LINE_GAMES = 5;
+    const MIN_LINE_SHARE = 0.005;
     if (!lines.length) {{
       box.style.display = "none";
       box.innerHTML = "";
@@ -794,14 +1150,22 @@ function renderOpening(eco, opening) {{
       return (v >= 0 ? "+" : "") + pp + "%";
     }};
 
-    const rows = lines.slice(0, 3).map((r) => `
+    const rows = lines.slice(0, 3).map((r) => {{
+      const reliable = Number(r.games) >= MIN_LINE_GAMES && Number(r.share_of_games) >= MIN_LINE_SHARE;
+      const shiftText = reliable ? fmtPp(r.delta_wr_12m) : "—";
+      const shiftColor = !reliable || r.delta_wr_12m == null
+        ? TEXT_SECONDARY
+        : (r.delta_wr_12m >= 0 ? "#7BE495" : "#F28DA6");
+
+      return `
       <tr>
         <td style="padding:0.45rem 0.6rem 0.45rem 0;"><strong style="color:${{TEXT_PRIMARY}};">${{r.san || "—"}}</strong><div style="font-size:0.74rem;color:${{TEXT_SECONDARY}};">${{r.uci || ""}}</div></td>
         <td style="padding:0.45rem 0.6rem;text-align:right;">${{fmtPct(r.share_of_games)}}</td>
         <td style="padding:0.45rem 0.6rem;text-align:right;">${{fmtPct(r.white_win_rate)}}</td>
-        <td style="padding:0.45rem 0.6rem;text-align:right;color:${{r.delta_wr_12m == null ? TEXT_SECONDARY : (r.delta_wr_12m >= 0 ? "#7BE495" : "#F28DA6")}};">${{fmtPp(r.delta_wr_12m)}}</td>
+        <td style="padding:0.45rem 0.6rem;text-align:right;color:${{shiftColor}};">${{shiftText}}</td>
       </tr>
-    `).join("");
+      `;
+    }}).join("");
 
     const asOf = lines[0] && lines[0].month ? `As of ${{lines[0].month}}` : "Latest month";
     box.style.display = "block";
@@ -826,6 +1190,9 @@ function renderOpening(eco, opening) {{
         document.getElementById("opening-chart").style.display = "none";
         document.getElementById("engine-box").style.display = "none";
       document.getElementById("lines-box").style.display = "none";
+        historicalSummaryBox.style.display = "none";
+        forecastStatsBox.style.display = "none";
+        breaksBox.style.display = "none";
         narrativeBox.style.display = "none";
         const chartEl = document.getElementById("opening-chart");
         chartEl.style.display = "block";
@@ -847,6 +1214,9 @@ function renderOpening(eco, opening) {{
     if (opening.data_status === "sparse") {{
         document.getElementById("opening-chart").style.display = "none";
         document.getElementById("engine-box").style.display = "none";
+      forecastStatsBox.style.display = "none";
+      breaksBox.style.display = "none";
+      renderHistoricalSummary(opening);
       renderLinesDrivingTrend(opening);
         const fmtPct = (v) => (v != null ? (v * 100).toFixed(2) + "%" : "—");
         const fmt2   = (v) => (v != null ? (v * 100).toFixed(2) : "—");
@@ -878,6 +1248,9 @@ function renderOpening(eco, opening) {{
     if (opening.model_tier === 3) {{
         document.getElementById("opening-chart").style.display = "none";
         document.getElementById("engine-box").style.display = "none";
+      forecastStatsBox.style.display = "none";
+      breaksBox.style.display = "none";
+      renderHistoricalSummary(opening);
       renderLinesDrivingTrend(opening);
 
         const trend = opening.trend_direction || "flat";
@@ -988,6 +1361,9 @@ function renderOpening(eco, opening) {{
 
   Plotly.newPlot("opening-chart", traces, layout, {{ responsive: true }});
 
+  renderHistoricalSummary(opening);
+  renderForecastStats(opening);
+  renderStructuralBreaks(opening);
   renderLinesDrivingTrend(opening);
 
   const engineBox = document.getElementById("engine-box");
@@ -1055,12 +1431,13 @@ function renderOpening(eco, opening) {{
 async function init() {{
   try {{
     const data = await loadOpeningsData();
+    const openingLines = await loadOpeningLines();
     const eco = resolveEco(data);
     if (!eco) {{
       document.getElementById("opening-title").textContent = "No opening data available";
       return;
     }}
-    renderOpening(eco, data[eco]);
+    renderOpening(eco, data[eco], openingLines);
   }} catch (error) {{
     document.getElementById("opening-title").textContent = "Failed to load opening data";
     const narrativeEl = document.querySelector("#opening-narrative p");
@@ -1082,8 +1459,135 @@ init();
   .quality-high {{background:rgba(123,228,149,0.18);color:#7BE495;}}
   .quality-medium {{background:rgba(246,193,119,0.18);color:#F6C177;}}
   .quality-low {{background:rgba(242,141,166,0.18);color:#F28DA6;}}
+
+  .stat-chip {{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    padding:0.45rem 0.85rem;
+    background:rgba(255,255,255,0.04);
+    border:1px solid rgba(255,255,255,0.09);
+    border-radius:8px;
+    min-width:112px;
+  }}
+  .chip-label {{
+    font-size:0.68rem;
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+    color:{TEXT_SECONDARY};
+    margin-bottom:0.2rem;
+  }}
+  .chip-value {{ font-size:0.95rem; font-weight:700; }}
+  .historical-grid {{ display:grid; grid-template-columns:repeat(4, minmax(0, 1fr)); gap:0.6rem; }}
+  .historical-stat {{ background:rgba(255,255,255,0.04); border-radius:8px; padding:0.65rem 0.9rem; }}
+  .historical-label {{ margin:0 0 0.2rem; font-size:0.7rem; text-transform:uppercase; letter-spacing:0.08em; color:{TEXT_SECONDARY}; }}
+  .historical-value {{ margin:0; font-size:1rem; font-weight:700; color:{TEXT_PRIMARY}; }}
+
+  .opening-board-layout {{
+    display:grid;
+    grid-template-columns:minmax(280px, 360px) 1fr;
+    gap:1rem;
+    align-items:start;
+  }}
+  .opening-board-frame {{
+    display:grid;
+    grid-template-columns:1rem minmax(280px, 360px);
+    grid-template-rows:minmax(280px, 360px) 1rem;
+    column-gap:0.45rem;
+    row-gap:0.4rem;
+    align-items:stretch;
+  }}
+  .opening-board {{
+    grid-column:2;
+    grid-row:1;
+    width:100%;
+    min-width:280px;
+    aspect-ratio:1 / 1;
+    border-radius:8px;
+    overflow:hidden;
+    border:1px solid rgba(255,255,255,0.12);
+    opacity:1;
+    transition:opacity 0.2s ease;
+  }}
+  .board-ranks {{
+    grid-column:1;
+    grid-row:1;
+    display:grid;
+    grid-template-rows:repeat(8, minmax(0, 1fr));
+    align-items:center;
+    justify-items:center;
+    color:{TEXT_SECONDARY};
+    font-size:0.72rem;
+    font-weight:600;
+    user-select:none;
+  }}
+  .board-files {{
+    grid-column:2;
+    grid-row:2;
+    display:grid;
+    grid-template-columns:repeat(8, minmax(0, 1fr));
+    align-items:center;
+    justify-items:center;
+    color:{TEXT_SECONDARY};
+    font-size:0.72rem;
+    font-weight:600;
+    user-select:none;
+    text-transform:lowercase;
+  }}
+  .board-coord {{ line-height:1; }}
+  .opening-line-panel {{ display:flex; flex-direction:column; gap:0.7rem; min-width:0; }}
+  .opening-move-list {{
+    background:rgba(255,255,255,0.03);
+    border:1px solid rgba(255,255,255,0.10);
+    border-radius:8px;
+    padding:0.65rem 0.75rem;
+    max-height:280px;
+    overflow:auto;
+  }}
+  .move-row {{ display:grid; grid-template-columns:2.1rem minmax(2.2rem, auto) minmax(2.2rem, auto); column-gap:0.65rem; align-items:center; margin-bottom:0.32rem; font-size:0.82rem; }}
+  .move-row:last-child {{ margin-bottom:0; }}
+  .move-number {{ color:{TEXT_SECONDARY}; font-size:0.76rem; }}
+  .move-token {{ color:{TEXT_SECONDARY}; padding:0.06rem 0.24rem; border-radius:4px; line-height:1.2; }}
+  .move-token.played {{ color:{TEXT_PRIMARY}; }}
+  .move-token.active {{ background:rgba(87,199,255,0.18); color:{TEXT_PRIMARY}; }}
+  .opening-board-controls {{ display:flex; gap:0.5rem; flex-wrap:wrap; }}
+  .board-btn {{
+    border:1px solid rgba(255,255,255,0.16);
+    background:rgba(255,255,255,0.04);
+    color:{TEXT_PRIMARY};
+    font-family:'Satoshi', 'Inter', sans-serif;
+    font-size:0.8rem;
+    font-weight:600;
+    padding:0.42rem 0.55rem;
+    min-width:2.7rem;
+    height:2.7rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:6px;
+    cursor:pointer;
+    transition:all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  }}
+  .board-btn svg {{ display:block; width:20px; height:20px; }}
+  .board-btn:hover:not(:disabled) {{ background:rgba(255,255,255,0.08); }}
+  .board-btn:active:not(:disabled) {{ transform:scale(0.92); }}
+  .board-btn:disabled {{ opacity:0.4; cursor:not-allowed; }}
+
+  @media (max-width: 860px) {{
+    .opening-board-layout {{ grid-template-columns:1fr; }}
+    .opening-board-frame {{ grid-template-columns:1rem minmax(280px, 420px); grid-template-rows:minmax(280px, 420px) 1rem; }}
+    .opening-board {{ max-width:420px; }}
+    .historical-grid {{ grid-template-columns:repeat(2, minmax(0, 1fr)); }}
+  }}
 </style>"""
-    head_extras = tier_css + '\n<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>'
+    head_extras = (
+        tier_css
+      + '\n<link rel="stylesheet" href="assets/chessboard-1.0.0.min.css">'
+      + '\n<script src="assets/jquery-3.7.1.min.js"></script>'
+      + '\n<script src="assets/chess-0.10.3.min.js"></script>'
+      + '\n<script src="assets/chessboard-1.0.0.min.js"></script>'
+        + '\n<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>'
+    )
     return _page_shell("Opening Detail", _nav_html("openings.html"), body, head_extras=head_extras)
 
 
@@ -1262,8 +1766,9 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
   grid-template-columns: minmax(0, 1.03fr) minmax(0, 0.97fr);
   gap: 4rem;
   align-items: center;
-  height: calc(100dvh - 52px);
-  overflow: clip;
+  min-height: calc(100dvh - 52px);
+  height: auto;
+  overflow: visible;
   width: 100%;
   padding-top: clamp(2rem, 5vw, 4rem);
   padding-bottom: clamp(2rem, 5vw, 4rem);
@@ -1280,6 +1785,10 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
 @media (max-width: 768px) {
   .hero { grid-template-columns: 1fr; gap: 3rem; height: auto; min-height: auto; overflow: visible; }
 }
+@media (max-height: 860px) and (min-width: 769px) {
+  .hero { gap: 2rem; padding-top: 1.5rem; padding-bottom: 1.5rem; }
+  .hero-visual { gap: 0.75rem; }
+}
 
 .hero-copy { }
 
@@ -1289,8 +1798,9 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
 }
 .hero-headline {
   font-family: 'Satoshi', 'Inter', sans-serif;
-  font-size: clamp(2rem, 3.5vw, 2.75rem);
-  font-weight: 700; line-height: 1.15; letter-spacing: -0.03em;
+  font-size: clamp(2.25rem, 4.5vw, 3.5rem);
+  max-width: 16ch;
+  font-weight: 700; line-height: 1.08; letter-spacing: -0.04em;
   color: var(--color-text); margin: 0 0 1.25rem;
 }
 .hero-word-theory {
@@ -1308,12 +1818,12 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
   to   { opacity: 1; transform: translateY(0); }
 }
 .hero-body {
-  font-size: 1rem; line-height: 1.7;
-  color: var(--color-text-muted); max-width: 42ch; margin: 0 0 2rem;
+  font-size: 16px; line-height: 1.75;
+  color: var(--color-text-muted); max-width: 44ch; margin: 0 0 2rem;
 }
 .hero-stats { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0 0 2rem; }
 .stat-pill {
-  font-size: 0.75rem; padding: 0.3rem 0.75rem;
+  font-size: 13px; padding: 0.3rem 0.9rem;
   border: 1px solid rgba(255,255,255,0.1);
   border-radius: 9999px; color: var(--color-text-muted);
   font-variant-numeric: tabular-nums;
@@ -1342,9 +1852,8 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
   border-radius: 12px; padding: 1.25rem 1.5rem;
   width: 100%;
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  display:grid;
+  grid-template-rows:auto 1fr auto;
   transition: transform 200ms;
 }
 .proof-card:hover { transform: translateY(-2px); }
@@ -1378,41 +1887,47 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
 /* Analysis sections */
 .analysis-section {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
-  max-width: 1200px;
-  margin: 0 auto 5rem;
-  padding: 4rem 2rem 0;
-  align-items: start;
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+  gap: clamp(1.5rem, 3vw, 3rem);
+  width: min(1200px, calc(100% - 3rem));
+  margin: 0 auto;
+  padding: 3.5rem 0;
+  align-items: center;
 }
 .analysis-section.reverse { direction: rtl; }
 .analysis-section.reverse > * { direction: ltr; }
 @media (max-width: 768px) {
   .analysis-section, .analysis-section.reverse {
-    grid-template-columns: 1fr; direction: ltr; padding: 2.5rem 1.5rem 0;
+    grid-template-columns: 1fr;
+    direction: ltr;
+    width: min(1200px, calc(100% - 2rem));
+    padding: 2.5rem 0 0;
   }
+  .section-copy { padding-top: 0; }
 }
 
-.section-copy { padding-top: 1rem; }
+.section-copy { padding-top: 0; }
 .section-eyebrow {
   font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em;
   color: var(--color-primary); font-weight: 600; margin: 0 0 0.75rem;
 }
 .section-title {
-  font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em;
+  font-size: 22px; font-weight: 700; letter-spacing: -0.03em;
   color: var(--color-text); margin: 0 0 0.75rem; line-height: 1.3;
 }
 .section-body {
-  font-size: 0.9375rem; line-height: 1.7;
-  color: var(--color-text-muted); max-width: 44ch; margin: 0;
+  font-size: 15px; line-height: 1.7;
+  color: var(--color-text-muted); max-width: 42ch; margin: 0;
 }
 .section-chart { min-width: 0; }
 
 /* Browse link */
 .browse-link {
   text-align: right; color: var(--color-text-faint);
-  font-size: 0.8rem; max-width: 1200px; margin: 0 auto;
-  padding: 1.5rem 2rem 4rem;
+  font-size: 0.8rem;
+  width: min(1200px, calc(100% - 3rem));
+  margin: 0 auto;
+  padding: 1.5rem 0 4rem;
 }
 .browse-link a { color: var(--color-primary); text-decoration: none; }
 .browse-link a:hover { text-decoration: underline; }
@@ -1926,13 +2441,35 @@ def run_visualizer() -> None:
     except Exception:
       move_stats_df = pd.DataFrame()
 
-    for asset_name in ("shared.css", "nav.js"):
+    for asset_name in (
+        "shared.css",
+        "nav.js",
+        "jquery-3.7.1.min.js",
+        "chess-0.10.3.min.js",
+        "chessboard-1.0.0.min.js",
+        "chessboard-1.0.0.min.css",
+    ):
         src = Path(__file__).parent / "assets" / asset_name
+        if not src.exists():
+            src = Path(__file__).parent / "assets" / "vendor" / asset_name
         dst = Path(ASSETS_DIR) / asset_name
         if src.exists():
-            import shutil
-
             shutil.copy2(src, dst)
+
+    chesspieces_src = Path(__file__).parent / "assets" / "chesspieces"
+    chesspieces_dst = Path(ASSETS_DIR) / "chesspieces"
+    if chesspieces_src.exists() and chesspieces_src.is_dir():
+      if chesspieces_dst.exists():
+        shutil.rmtree(chesspieces_dst)
+      shutil.copytree(chesspieces_src, chesspieces_dst)
+
+    opening_lines_src = Path(OPENING_LINES_JSON)
+    opening_lines_dst = Path(ASSETS_DIR) / "opening_lines.json"
+    if opening_lines_src.exists():
+      shutil.copy2(opening_lines_src, opening_lines_dst)
+      print(f"Opening lines written -> {opening_lines_dst}")
+    else:
+      print(f"Warning: opening lines source not found at {opening_lines_src}")
 
     overview_html = render_overview(forecasts, engine_df, findings)
     overview_path = os.path.join(OUTPUT_DIR, "index.html")
@@ -1970,8 +2507,6 @@ def run_visualizer() -> None:
         stale_file.unlink(missing_ok=True)
     stale_dir = Path(OUTPUT_DIR) / "opening"
     if stale_dir.exists() and stale_dir.is_dir():
-        import shutil
-
         shutil.rmtree(stale_dir)
 
     families_html = render_families(forecasts)
