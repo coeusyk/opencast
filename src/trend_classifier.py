@@ -50,9 +50,9 @@ def classify_trend(
         Index is ignored; position is used as the time axis.
     structural_breaks:
         Optional boolean Series aligned to *series* (same length, same order).
-        If provided and a break is detected within the last 12 months of the
-        series, only the post-break portion is used for regression so that a
-        pre-break regime doesn't pollute the current trend.
+        Present for interface compatibility with callers that also surface
+        structural-break information separately. Trend classification itself is
+        computed over the full available series.
     min_r2:
         Minimum R² required before asserting a non-stable direction.
     """
@@ -61,23 +61,6 @@ def classify_trend(
     y = series.dropna().values.astype(float)
     if len(y) < 6:
         return _zero
-
-    # ── Structural-break truncation ──────────────────────────────────────────
-    if structural_breaks is not None:
-        # Align breaks to the same index as y (after dropna might shift things,
-        # so work with positional index on the original series before dropna).
-        valid_mask = series.notna()
-        breaks_aligned = structural_breaks.values[valid_mask.values] if len(structural_breaks) == len(series) else None
-        if breaks_aligned is not None:
-            break_positions = np.where(breaks_aligned)[0]
-            # Only use a break if it falls within the last 12 positions —
-            # old breaks in a long series should not discard decades of data.
-            recent_breaks = break_positions[break_positions >= max(0, len(y) - 12)]
-            if len(recent_breaks) > 0:
-                cut = int(recent_breaks[-1])
-                post_break = y[cut:]
-                if len(post_break) >= 6:
-                    y = post_break
 
     # ── OLS regression ───────────────────────────────────────────────────────
     x = np.arange(len(y), dtype=float)
@@ -98,6 +81,7 @@ def classify_trend(
             break
 
     recent_volatility = float(np.std(y[-6:]))
+    signal_to_noise = abs(float(slope)) * 6.0 / max(recent_volatility, 1e-9)
 
     # ── Direction gate ───────────────────────────────────────────────────────
     if abs(slope) < _SLOPE_THRESHOLD or r_sq < min_r2:
@@ -106,7 +90,9 @@ def classify_trend(
         direction = dominant
 
     # ── Confidence ───────────────────────────────────────────────────────────
-    if r_sq >= 0.35 and streak >= 2:
+    if direction == "stable":
+        confidence = "low"
+    elif r_sq >= 0.50 and streak >= 2 and signal_to_noise >= 2.0:
         confidence = "high"
     elif r_sq >= min_r2 and streak >= 1:
         confidence = "medium"
@@ -118,7 +104,7 @@ def classify_trend(
         direction=direction,
         slope_per_month=float(slope),
         r_squared=r_sq,
-        sustained_months=streak,
+        sustained_months=streak if direction != "stable" else 0,
         recent_volatility=recent_volatility,
         confidence=confidence,
     )

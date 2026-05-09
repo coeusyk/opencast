@@ -183,8 +183,8 @@ def _forecast_directions(
 
     *directions* maps eco -> 'rising'|'falling'|'stable'.
     *signals* maps eco -> TrendSignal (for narrative enrichment).
-    The structural_break column in *forecasts* is passed to the classifier so
-    that a recent regime change causes only post-break data to be used.
+    Structural breaks are surfaced separately; the trend signal itself uses the
+    full available actual series.
     """
     from .trend_classifier import classify_trend, TrendSignal
 
@@ -199,15 +199,9 @@ def _forecast_directions(
             directions[eco] = "stable"
             continue
 
-        breaks = (
-            actual_rows["structural_break"].reset_index(drop=True)
-            if "structural_break" in actual_rows.columns
-            else None
-        )
         signal = classify_trend(
             eco,
             actual_rows["actual"].reset_index(drop=True),
-            structural_breaks=breaks,
         )
         directions[eco] = signal.direction
         signals[eco] = signal

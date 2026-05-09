@@ -54,6 +54,29 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
   .quality-medium {background:rgba(246,193,119,0.18);color:#F6C177;}
   .quality-low {background:rgba(242,141,166,0.18);color:#F28DA6;}
 
+  .stat-chip {
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    padding:0.45rem 0.85rem;
+    background:rgba(255,255,255,0.04);
+    border:1px solid rgba(255,255,255,0.09);
+    border-radius:8px;
+    min-width:112px;
+  }
+  .chip-label {
+    font-size:0.68rem;
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+    color:#8b8b8f;
+    margin-bottom:0.2rem;
+  }
+  .chip-value { font-size:0.95rem; font-weight:700; }
+  .historical-grid { display:grid; grid-template-columns:repeat(4, minmax(0, 1fr)); gap:0.6rem; }
+  .historical-stat { background:rgba(255,255,255,0.04); border-radius:8px; padding:0.65rem 0.9rem; }
+  .historical-label { margin:0 0 0.2rem; font-size:0.7rem; text-transform:uppercase; letter-spacing:0.08em; color:#8b8b8f; }
+  .historical-value { margin:0; font-size:1rem; font-weight:700; color:#ededee; }
+
   .opening-board-layout {
     display:grid;
     grid-template-columns:minmax(280px, 360px) 1fr;
@@ -67,20 +90,22 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
     border-radius:8px;
     overflow:hidden;
     border:1px solid rgba(255,255,255,0.12);
+    opacity:1;
+    transition:opacity 0.2s ease;
   }
   .opening-line-panel { display:flex; flex-direction:column; gap:0.7rem; min-width:0; }
   .opening-move-list {
     background:rgba(255,255,255,0.03);
     border:1px solid rgba(255,255,255,0.10);
     border-radius:8px;
-    padding:0.7rem 0.8rem;
+    padding:0.65rem 0.75rem;
     max-height:280px;
     overflow:auto;
   }
-  .move-row { display:flex; gap:0.55rem; align-items:center; margin-bottom:0.35rem; font-size:0.84rem; }
+  .move-row { display:grid; grid-template-columns:2.1rem minmax(2.2rem, auto) minmax(2.2rem, auto); column-gap:0.65rem; align-items:center; margin-bottom:0.32rem; font-size:0.82rem; }
   .move-row:last-child { margin-bottom:0; }
-  .move-number { color:#8b8b8f; min-width:2.1rem; font-size:0.78rem; }
-  .move-token { color:#8b8b8f; padding:0.08rem 0.35rem; border-radius:4px; }
+  .move-number { color:#8b8b8f; font-size:0.76rem; }
+  .move-token { color:#8b8b8f; padding:0.06rem 0.24rem; border-radius:4px; line-height:1.2; }
   .move-token.played { color:#ededee; }
   .move-token.active { background:rgba(87,199,255,0.18); color:#ededee; }
   .opening-board-controls { display:flex; gap:0.5rem; flex-wrap:wrap; }
@@ -88,24 +113,34 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
     border:1px solid rgba(255,255,255,0.16);
     background:rgba(255,255,255,0.04);
     color:#ededee;
+    font-family:'Satoshi', 'Inter', sans-serif;
     font-size:0.8rem;
     font-weight:600;
-    padding:0.35rem 0.75rem;
+    padding:0.42rem 0.55rem;
+    min-width:2.7rem;
+    height:2.7rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
     border-radius:6px;
     cursor:pointer;
+    transition:all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
   }
-  .board-btn:disabled { opacity:0.45; cursor:not-allowed; }
-  .board-btn:active { transform:translateY(1px); }
+  .board-btn svg { display:block; width:20px; height:20px; }
+  .board-btn:hover:not(:disabled) { background:rgba(255,255,255,0.08); }
+  .board-btn:active:not(:disabled) { transform:scale(0.92); }
+  .board-btn:disabled { opacity:0.4; cursor:not-allowed; }
 
   @media (max-width: 860px) {
     .opening-board-layout { grid-template-columns:1fr; }
     .opening-board { max-width:420px; }
+    .historical-grid { grid-template-columns:repeat(2, minmax(0, 1fr)); }
   }
 </style>
-<link rel="stylesheet" href="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.css">
-<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
-<script src="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.js"></script>
+<link rel="stylesheet" href="assets/chessboard-1.0.0.min.css">
+<script src="assets/jquery-3.7.1.min.js"></script>
+<script src="assets/chess-0.10.3.min.js"></script>
+<script src="assets/chessboard-1.0.0.min.js"></script>
 <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
 </head>
 <body>
@@ -140,14 +175,18 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
     <div class="opening-line-panel">
       <div id="opening-move-list" class="opening-move-list"></div>
       <div class="opening-board-controls">
-        <button id="btn-start" type="button" class="board-btn" aria-label="Go to start">Start</button>
-        <button id="btn-prev" type="button" class="board-btn" aria-label="Previous move">Back</button>
-        <button id="btn-next" type="button" class="board-btn" aria-label="Next move">Next</button>
+        <button id="btn-flip" type="button" class="board-btn" aria-label="Flip board" title="Flip Board"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 4v7h-7M3 20v-7h7M3.51 9a9 9 0 0 1 14.85-3.36M20.49 15a9 9 0 0 1-14.85 3.36"/></svg></button>
+        <button id="btn-reset" type="button" class="board-btn" aria-label="Reset position" title="Reset"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8M21 3v5h-5M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16M3 21v-5h5"/></svg></button>
+        <button id="btn-prev" type="button" class="board-btn" aria-label="Move back" title="Move Back"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z" transform="rotate(180 12 12)"/></svg></button>
+        <button id="btn-next" type="button" class="board-btn" aria-label="Move forward" title="Move Forward"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></button>
       </div>
     </div>
   </div>
 </div>
+<div id="historical-summary-box" class="engine-box" style="display:none;margin-bottom:1.5rem;"></div>
 <div id="opening-chart"></div>
+<div id="forecast-stats-box" class="engine-box" style="display:none;margin-top:1.1rem;margin-bottom:1.5rem;"></div>
+<div id="breaks-box" class="engine-box" style="display:none;margin-bottom:1.5rem;"></div>
 <div id="lines-box" class="engine-box" style="display:none;"></div>
 <div id="engine-box" class="engine-box" style="display:none;"></div>
 
@@ -282,7 +321,8 @@ function renderOpeningBoard(eco, openingLines) {
   const boardEl = document.getElementById("opening-board");
   const moveListEl = document.getElementById("opening-move-list");
   const lineNameEl = document.getElementById("opening-line-name");
-  const startBtn = document.getElementById("btn-start");
+  const flipBtn = document.getElementById("btn-flip");
+  const resetBtn = document.getElementById("btn-reset");
   const prevBtn = document.getElementById("btn-prev");
   const nextBtn = document.getElementById("btn-next");
 
@@ -324,10 +364,11 @@ function renderOpeningBoard(eco, openingLines) {
     position: initialFen,
     draggable: false,
     showNotation: true,
-    pieceTheme: "https://chessboardjs.com/img/chesspieces/wikipedia/{piece}.png",
+    pieceTheme: "assets/chesspieces/wikipedia/{piece}.png",
   });
 
   let currentIndex = 0;
+  let boardFlipped = false;
 
   function renderMoveList(activeIndex) {
     const rows = [];
@@ -360,7 +401,9 @@ function renderOpeningBoard(eco, openingLines) {
         break;
       }
     }
-    board.position(game.fen(), false);
+    boardEl.style.opacity = "0.7";
+    board.position(game.fen(), true);
+    boardEl.style.opacity = "1";
     currentIndex = clamped;
     renderMoveList(currentIndex);
     prevBtn.disabled = currentIndex <= 0;
@@ -370,7 +413,11 @@ function renderOpeningBoard(eco, openingLines) {
   lineNameEl.textContent = primaryLine.name || `Main line (${eco})`;
   boardSection.style.display = "block";
 
-  startBtn.onclick = () => goToMove(0);
+  flipBtn.onclick = () => {
+    boardFlipped = !boardFlipped;
+    board.orientation(boardFlipped ? "black" : "white");
+  };
+  resetBtn.onclick = () => goToMove(0);
   prevBtn.onclick = () => goToMove(currentIndex - 1);
   nextBtn.onclick = () => goToMove(currentIndex + 1);
 
@@ -388,6 +435,12 @@ function renderOpeningBoard(eco, openingLines) {
   document.addEventListener("keydown", window.__opencastBoardKeyHandler);
 
   goToMove(0);
+  const forceBoardResize = () => {
+    board.resize();
+    goToMove(currentIndex);
+  };
+  requestAnimationFrame(forceBoardResize);
+  setTimeout(forceBoardResize, 80);
 }
 
 function renderOpening(eco, opening, openingLines) {
@@ -426,6 +479,9 @@ function renderOpening(eco, opening, openingLines) {
   }
 
   const narrativeBox = document.getElementById("opening-narrative");
+  const historicalSummaryBox = document.getElementById("historical-summary-box");
+  const forecastStatsBox = document.getElementById("forecast-stats-box");
+  const breaksBox = document.getElementById("breaks-box");
   const narrative = opening.narrative || FALLBACK_NARRATIVE;
   if (!narrative || narrative === FALLBACK_NARRATIVE || !narrative.trim()) {
     narrativeBox.style.display = "none";
@@ -438,9 +494,85 @@ function renderOpening(eco, opening, openingLines) {
 
   renderOpeningBoard(eco, openingLines);
 
+  function renderHistoricalSummary(data) {
+    const actuals = Array.isArray(data.actuals) ? data.actuals : [];
+    const vals = actuals.map((d) => Number(d.win_rate)).filter((v) => Number.isFinite(v));
+    if (vals.length < 3) {
+      historicalSummaryBox.style.display = "none";
+      historicalSummaryBox.innerHTML = "";
+      return;
+    }
+    const sum = vals.reduce((a, b) => a + b, 0);
+    const mean = sum / vals.length;
+    const min = Math.min(...vals);
+    const max = Math.max(...vals);
+    const last = vals[vals.length - 1];
+    const fmt = (v) => `${(v * 100).toFixed(2)}%`;
+
+    historicalSummaryBox.style.display = "block";
+    historicalSummaryBox.innerHTML = `
+      <h3 style="margin:0 0 0.85rem;">Historical Summary</h3>
+      <div class="historical-grid">
+        <div class="historical-stat"><p class="historical-label">Latest</p><p class="historical-value">${fmt(last)}</p></div>
+        <div class="historical-stat"><p class="historical-label">Mean</p><p class="historical-value">${fmt(mean)}</p></div>
+        <div class="historical-stat"><p class="historical-label">Min</p><p class="historical-value">${fmt(min)}</p></div>
+        <div class="historical-stat"><p class="historical-label">Max</p><p class="historical-value">${fmt(max)}</p></div>
+      </div>
+      <p style="margin:0.6rem 0 0;font-size:0.78rem;color:${TEXT_SECONDARY};">Based on ${vals.length} months of data.</p>
+    `;
+  }
+
+  function renderForecastStats(data) {
+    if (Number(data.model_tier) === 3) {
+      forecastStatsBox.style.display = "none";
+      forecastStatsBox.innerHTML = "";
+      return;
+    }
+
+    const slope = Number(data.trend_slope_per_month);
+    const r2 = Number(data.trend_r_squared);
+    const streak = Number(data.trend_streak_months);
+    const conf = String(data.trend_confidence || "low").toLowerCase();
+    const slopeTxt = Number.isFinite(slope)
+      ? `${slope >= 0 ? "+" : ""}${(slope * 100).toFixed(4)} pp/month`
+      : "—";
+    const confColor = conf === "high" ? "#7BE495" : conf === "medium" ? "#F6C177" : TEXT_SECONDARY;
+
+    forecastStatsBox.style.display = "block";
+    forecastStatsBox.innerHTML = `
+      <h3 style="margin:0 0 0.85rem;">Trend Signal</h3>
+      <div style="display:flex;flex-wrap:wrap;gap:0.6rem;">
+        <div class="stat-chip"><span class="chip-label">Slope</span><span class="chip-value">${slopeTxt}</span></div>
+        <div class="stat-chip"><span class="chip-label">R²</span><span class="chip-value">${Number.isFinite(r2) ? r2.toFixed(3) : "—"}</span></div>
+        <div class="stat-chip"><span class="chip-label">Sustained</span><span class="chip-value">${Number.isFinite(streak) ? `${streak} months` : "—"}</span></div>
+        <div class="stat-chip" style="border-color:${confColor};"><span class="chip-label">Confidence</span><span class="chip-value" style="color:${confColor};">${conf}</span></div>
+      </div>
+    `;
+  }
+
+  function renderStructuralBreaks(data) {
+    const breaks = Array.isArray(data.structural_breaks) ? data.structural_breaks : [];
+    if (!breaks.length) {
+      breaksBox.style.display = "none";
+      breaksBox.innerHTML = "";
+      return;
+    }
+    breaksBox.style.display = "block";
+    breaksBox.innerHTML = `
+      <h3 style="margin:0 0 0.5rem;">Structural Breaks Detected</h3>
+      <p style="margin:0 0 0.6rem;font-size:0.82rem;color:${TEXT_SECONDARY};">Statistical regime changes (Chow test) detected at:</p>
+      <div style="display:flex;gap:0.5rem;flex-wrap:wrap;">
+        ${breaks.map((b) => `<span style="padding:0.2em 0.65em;background:rgba(246,193,119,0.12);border:1px solid rgba(246,193,119,0.25);border-radius:4px;color:#F6C177;font-size:0.8rem;">${b}</span>`).join("")}
+      </div>
+      <p style="margin:0.6rem 0 0;font-size:0.78rem;color:${TEXT_SECONDARY};opacity:0.7;">Win-rate behaviour may differ significantly before and after these dates.</p>
+    `;
+  }
+
   function renderLinesDrivingTrend(data) {
     const box = document.getElementById("lines-box");
     const lines = Array.isArray(data.lines_driving_trend) ? data.lines_driving_trend : [];
+    const MIN_LINE_GAMES = 5;
+    const MIN_LINE_SHARE = 0.005;
     if (!lines.length) {
       box.style.display = "none";
       box.innerHTML = "";
@@ -454,14 +586,22 @@ function renderOpening(eco, opening, openingLines) {
       return (v >= 0 ? "+" : "") + pp + "%";
     };
 
-    const rows = lines.slice(0, 3).map((r) => `
+    const rows = lines.slice(0, 3).map((r) => {
+      const reliable = Number(r.games) >= MIN_LINE_GAMES && Number(r.share_of_games) >= MIN_LINE_SHARE;
+      const shiftText = reliable ? fmtPp(r.delta_wr_12m) : "—";
+      const shiftColor = !reliable || r.delta_wr_12m == null
+        ? TEXT_SECONDARY
+        : (r.delta_wr_12m >= 0 ? "#7BE495" : "#F28DA6");
+
+      return `
       <tr>
         <td style="padding:0.45rem 0.6rem 0.45rem 0;"><strong style="color:${TEXT_PRIMARY};">${r.san || "—"}</strong><div style="font-size:0.74rem;color:${TEXT_SECONDARY};">${r.uci || ""}</div></td>
         <td style="padding:0.45rem 0.6rem;text-align:right;">${fmtPct(r.share_of_games)}</td>
         <td style="padding:0.45rem 0.6rem;text-align:right;">${fmtPct(r.white_win_rate)}</td>
-        <td style="padding:0.45rem 0.6rem;text-align:right;color:${r.delta_wr_12m == null ? TEXT_SECONDARY : (r.delta_wr_12m >= 0 ? "#7BE495" : "#F28DA6")};">${fmtPp(r.delta_wr_12m)}</td>
+        <td style="padding:0.45rem 0.6rem;text-align:right;color:${shiftColor};">${shiftText}</td>
       </tr>
-    `).join("");
+      `;
+    }).join("");
 
     const asOf = lines[0] && lines[0].month ? `As of ${lines[0].month}` : "Latest month";
     box.style.display = "block";
@@ -486,6 +626,9 @@ function renderOpening(eco, opening, openingLines) {
         document.getElementById("opening-chart").style.display = "none";
         document.getElementById("engine-box").style.display = "none";
       document.getElementById("lines-box").style.display = "none";
+        historicalSummaryBox.style.display = "none";
+        forecastStatsBox.style.display = "none";
+        breaksBox.style.display = "none";
         narrativeBox.style.display = "none";
         const chartEl = document.getElementById("opening-chart");
         chartEl.style.display = "block";
@@ -507,6 +650,9 @@ function renderOpening(eco, opening, openingLines) {
     if (opening.data_status === "sparse") {
         document.getElementById("opening-chart").style.display = "none";
         document.getElementById("engine-box").style.display = "none";
+      forecastStatsBox.style.display = "none";
+      breaksBox.style.display = "none";
+      renderHistoricalSummary(opening);
       renderLinesDrivingTrend(opening);
         const fmtPct = (v) => (v != null ? (v * 100).toFixed(2) + "%" : "—");
         const fmt2   = (v) => (v != null ? (v * 100).toFixed(2) : "—");
@@ -538,6 +684,9 @@ function renderOpening(eco, opening, openingLines) {
     if (opening.model_tier === 3) {
         document.getElementById("opening-chart").style.display = "none";
         document.getElementById("engine-box").style.display = "none";
+      forecastStatsBox.style.display = "none";
+      breaksBox.style.display = "none";
+      renderHistoricalSummary(opening);
       renderLinesDrivingTrend(opening);
 
         const trend = opening.trend_direction || "flat";
@@ -648,6 +797,9 @@ function renderOpening(eco, opening, openingLines) {
 
   Plotly.newPlot("opening-chart", traces, layout, { responsive: true });
 
+  renderHistoricalSummary(opening);
+  renderForecastStats(opening);
+  renderStructuralBreaks(opening);
   renderLinesDrivingTrend(opening);
 
   const engineBox = document.getElementById("engine-box");
