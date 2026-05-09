@@ -22,9 +22,11 @@
 }
 .nav-inner {
   max-width: 1200px; margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
   padding: 0 2rem; height: 100%;
   display: flex; align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 1.75rem;
 }
 .nav-wordmark {
@@ -88,6 +90,17 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
     <option value="3">Tier 3</option>
   </select>
 
+  <select id="quality-select"
+    style="padding:0.35rem 0.6rem;background:var(--surface-raised);
+           border:1px solid rgba(255,255,255,0.12);border-radius:6px;
+           color:var(--text-primary);font-size:0.85rem;cursor:pointer;
+           font-family:'Satoshi','Inter',sans-serif;">
+    <option value="">All confidence</option>
+    <option value="high">High</option>
+    <option value="medium">Medium</option>
+    <option value="low">Low</option>
+  </select>
+
   <span id="row-count" style="color:#8b8b8f;font-size:0.85rem;margin-left:auto;white-space:nowrap;"></span>
 </div>
 
@@ -108,6 +121,7 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
       <th class="sortable" data-col="tier"     style="cursor:pointer;white-space:nowrap;">Tier <span class="sort-icon"></span></th>
       <th class="sortable" data-col="win_rate" style="cursor:pointer;white-space:nowrap;">Win Rate (last) <span class="sort-icon"></span></th>
       <th class="sortable" data-col="has_fc"   style="cursor:pointer;white-space:nowrap;">Forecast <span class="sort-icon"></span></th>
+      <th class="sortable" data-col="quality"  style="cursor:pointer;white-space:nowrap;">Confidence <span class="sort-icon"></span></th>
       <th class="sortable" data-col="delta"    style="cursor:pointer;white-space:nowrap;">Engine Delta <span class="sort-icon"></span></th>
       <th>Detail</th>
     </tr>
@@ -127,6 +141,10 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
 .tier-badge-1 { background:rgba(74,158,255,0.18);color:#4a9eff; }
 .tier-badge-2 { background:rgba(169,117,255,0.18);color:#a975ff; }
 .tier-badge-3 { background:rgba(139,139,143,0.2);color:#8b8b8f; }
+.quality-badge { display:inline-block;padding:0.15em 0.55em;border-radius:4px;font-size:0.72rem;font-weight:600;letter-spacing:0.03em;text-transform:capitalize; }
+.quality-badge-high { background:rgba(123,228,149,0.18);color:#7BE495; }
+.quality-badge-medium { background:rgba(246,193,119,0.18);color:#F6C177; }
+.quality-badge-low { background:rgba(242,141,166,0.18);color:#F28DA6; }
 </style>
 
 <script>
@@ -158,6 +176,7 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
       tier: d.model_tier != null ? d.model_tier : 99,
       win_rate: lastActual,
       has_fc: (d.forecast || []).length > 0,
+      quality: String(d.forecast_quality || "").toLowerCase(),
       delta: d.delta != null ? d.delta : null,
     };
   });
@@ -167,6 +186,7 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
     q: "",
     group: "",
     tier: "",
+    quality: "",
     sortCol: "eco",
     asc: true,
   };
@@ -176,19 +196,21 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
     if (!h) return;
     try {
       const p = new URLSearchParams(h);
-      if (p.has("q"))     state.q = p.get("q");
-      if (p.has("group")) state.group = p.get("group");
-      if (p.has("tier"))  state.tier = p.get("tier");
-      if (p.has("sort"))  state.sortCol = p.get("sort");
-      if (p.has("asc"))   state.asc = p.get("asc") !== "0";
+      if (p.has("q"))       state.q = p.get("q");
+      if (p.has("group"))   state.group = p.get("group");
+      if (p.has("tier"))    state.tier = p.get("tier");
+      if (p.has("quality")) state.quality = p.get("quality");
+      if (p.has("sort"))    state.sortCol = p.get("sort");
+      if (p.has("asc"))     state.asc = p.get("asc") !== "0";
     } catch (_) {}
   }
 
   function writeHash() {
     const p = new URLSearchParams();
-    if (state.q)   p.set("q", state.q);
+    if (state.q) p.set("q", state.q);
     if (state.group) p.set("group", state.group);
     if (state.tier) p.set("tier", state.tier);
+    if (state.quality) p.set("quality", state.quality);
     p.set("sort", state.sortCol);
     p.set("asc", state.asc ? "1" : "0");
     history.replaceState(null, "", "#" + p.toString());
@@ -196,24 +218,28 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
 
   readHash();
 
-  const searchBox  = document.getElementById("search-box");
+  const searchBox = document.getElementById("search-box");
   const groupSelect = document.getElementById("group-select");
   const tierSelect = document.getElementById("tier-select");
-  const tbody      = document.getElementById("openings-tbody");
-  const rowCount   = document.getElementById("row-count");
+  const qualitySelect = document.getElementById("quality-select");
+  const tbody = document.getElementById("openings-tbody");
+  const rowCount = document.getElementById("row-count");
   const emptyState = document.getElementById("empty-state");
   const sortHeaders = document.querySelectorAll(".sortable");
 
-  searchBox.value  = state.q;
+  searchBox.value = state.q;
   groupSelect.value = state.group;
   tierSelect.value = state.tier;
+  qualitySelect.value = state.quality;
 
   function applyFilters() {
-    const q    = state.q.toLowerCase();
+    const q = state.q.toLowerCase();
     const tier = state.tier;
+    const quality = state.quality;
     let visible = allRows.filter(r => {
       if (state.group && r.group !== state.group) return false;
       if (tier && String(r.tier) !== tier) return false;
+      if (quality && String(r.quality || "") !== quality) return false;
       if (q && !r.eco.toLowerCase().includes(q) && !r.name.toLowerCase().includes(q)) return false;
       return true;
     });
@@ -248,6 +274,11 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
   function tierBadge(t) {
     return '<span class="tier-badge tier-badge-' + t + '" title="' + TIER_TOOLTIP + '">T' + t + '</span>';
   }
+  function qualityBadge(q, tier) {
+    if (!q || tier === 3) return '<span style="color:' + TEXT_SECONDARY + '">—</span>';
+    const cls = 'quality-badge quality-badge-' + q;
+    return '<span class="' + cls + '">' + q + '</span>';
+  }
 
   function renderRows(rows) {
     const html = rows.map(r => {
@@ -262,6 +293,7 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
         '<td style="text-align:center;">' + tierBadge(r.tier) + '</td>' +
         '<td style="text-align:right;">' + fmtPct(r.win_rate) + '</td>' +
         '<td style="text-align:center;">' + (r.has_fc ? "Yes" : '<span style="color:' + TEXT_SECONDARY + '">No</span>') + '</td>' +
+        '<td style="text-align:center;">' + qualityBadge(r.quality, r.tier) + '</td>' +
         '<td style="text-align:right;color:' + deltaColor(r.delta) + '">' + fmtDelta(r.delta) + '</td>' +
         '<td style="text-align:center;"><a href="' + href + '" style="color:#57C7FF;text-decoration:none;" onclick="event.stopPropagation()">Details</a></td>' +
         '</tr>';
@@ -289,6 +321,7 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
   });
   groupSelect.addEventListener("change", () => { state.group = groupSelect.value; applyFilters(); });
   tierSelect.addEventListener("change", () => { state.tier = tierSelect.value; applyFilters(); });
+  qualitySelect.addEventListener("change", () => { state.quality = qualitySelect.value; applyFilters(); });
   sortHeaders.forEach(th => {
     th.addEventListener("click", () => {
       const col = th.getAttribute("data-col");

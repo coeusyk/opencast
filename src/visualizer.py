@@ -12,6 +12,7 @@ CATALOG_CSV = os.path.join(_HERE, "..", "data", "openings_catalog.csv")
 FINDINGS_JSON   = os.path.join(_HERE, "..", "findings", "findings.json")
 NARRATIVES_JSON = os.path.join(_HERE, "..", "findings", "narratives.json")
 LONG_TAIL_CSV   = os.path.join(_HERE, "..", "data", "output", "long_tail_stats.csv")
+MOVE_STATS_CSV  = os.path.join(_HERE, "..", "data", "output", "move_stats.csv")
 OUTPUT_DIR = os.path.join(_HERE, "..", "data", "output", "dashboard")
 ASSETS_DIR = os.path.join(OUTPUT_DIR, "assets")
 
@@ -317,6 +318,57 @@ def _load_narratives_json() -> dict:
         return {"per_opening": {}}
 
 
+def _top_lines_for_opening(move_stats_df: pd.DataFrame | None, eco: str, limit: int = 3) -> list[dict]:
+    """Return top move lines driving the current month's opening behavior."""
+    if move_stats_df is None or move_stats_df.empty or "eco" not in move_stats_df.columns:
+        return []
+
+    sub = move_stats_df[move_stats_df["eco"].astype(str) == str(eco)].copy()
+    if sub.empty or "month" not in sub.columns:
+        return []
+
+    latest_month = str(sub["month"].astype(str).max())
+    latest = sub[sub["month"].astype(str) == latest_month].copy()
+    if latest.empty:
+        return []
+
+    for col in ("games", "white_win_rate", "share_of_games", "delta_share_12m", "delta_wr_12m"):
+        if col not in latest.columns:
+            latest[col] = None
+
+    latest["games"] = pd.to_numeric(latest["games"], errors="coerce").fillna(0)
+    latest["white_win_rate"] = pd.to_numeric(latest["white_win_rate"], errors="coerce")
+    latest["share_of_games"] = pd.to_numeric(latest["share_of_games"], errors="coerce").fillna(0.0)
+    latest["delta_share_12m"] = pd.to_numeric(latest["delta_share_12m"], errors="coerce")
+    latest["delta_wr_12m"] = pd.to_numeric(latest["delta_wr_12m"], errors="coerce")
+
+    # Volume anchors the score; 12-month share and win-rate movement rank trend-driving lines.
+    latest["trend_score"] = (
+        latest["share_of_games"] * 0.65
+        + latest["delta_share_12m"].abs().fillna(0.0) * 8.0
+        + latest["delta_wr_12m"].abs().fillna(0.0) * 20.0
+    )
+
+    top = latest.sort_values(["trend_score", "games"], ascending=[False, False]).head(limit)
+
+    rows: list[dict] = []
+    for _, r in top.iterrows():
+        rows.append(
+            {
+                "month": latest_month,
+                "uci": str(r.get("uci", "")),
+                "san": str(r.get("san", "")),
+                "games": int(r.get("games", 0)) if pd.notna(r.get("games")) else 0,
+                "white_win_rate": float(r["white_win_rate"]) if pd.notna(r.get("white_win_rate")) else None,
+                "share_of_games": float(r.get("share_of_games", 0.0)),
+                "delta_share_12m": float(r["delta_share_12m"]) if pd.notna(r.get("delta_share_12m")) else None,
+                "delta_wr_12m": float(r["delta_wr_12m"]) if pd.notna(r.get("delta_wr_12m")) else None,
+            }
+        )
+
+    return rows
+
+
 def _nav_html(current: str) -> str:
     pages = [
         ("index.html", "Overview"),
@@ -352,9 +404,11 @@ def _page_shell(title: str, nav_fragment: str, body: str, head_extras: str = "")
 }
 .nav-inner {
   max-width: 1200px; margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
   padding: 0 2rem; height: 100%;
   display: flex; align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 1.75rem;
 }
 .nav-wordmark {
@@ -404,6 +458,7 @@ def _serialize_openings_data(
     findings_json: dict | None,
     narratives: dict | None = None,
     long_tail_df: pd.DataFrame | None = None,
+    move_stats_df: pd.DataFrame | None = None,
     trend_signals: dict | None = None,
 ) -> dict[str, dict]:
     fallback_narrative = "No analysis available yet."
@@ -459,6 +514,17 @@ def _serialize_openings_data(
                 }
             )
 
+            forecast_quality = None
+            model_name = None
+            if not forecast_rows.empty and "forecast_quality" in forecast_rows.columns:
+              qual = forecast_rows["forecast_quality"].dropna().astype(str)
+              if not qual.empty:
+                forecast_quality = str(qual.iloc[0]).lower()
+            if not forecast_rows.empty and "model_name" in forecast_rows.columns:
+              names = forecast_rows["model_name"].dropna().astype(str)
+              if not names.empty:
+                model_name = str(names.iloc[0])
+
         structural_breaks = []
         if not fc_eco.empty and "structural_break" in fc_eco.columns:
             structural_breaks = sorted(
@@ -509,6 +575,11 @@ def _serialize_openings_data(
             data_status = str(cat_row["data_status"].iloc[0])
 
         sig = (trend_signals or {}).get(eco)
+        lines_driving_trend = _top_lines_for_opening(move_stats_df, eco)
+        # T3 openings have descriptive stats only — no model-selected forecast or quality
+        if model_tier == 3:
+            forecast_quality = None
+            model_name = None
         serialized[eco] = {
             "name": name,
             "eco_group": eco[0] if eco else None,
@@ -528,6 +599,9 @@ def _serialize_openings_data(
             "trend_r_squared": sig.r_squared if sig else 0.0,
             "trend_confidence": sig.confidence if sig else "low",
             "trend_streak_months": sig.sustained_months if sig else 0,
+            "forecast_quality": forecast_quality,
+            "model_name": model_name,
+            "lines_driving_trend": lines_driving_trend,
             **lt_stats,
         }
 
@@ -537,14 +611,17 @@ def _serialize_openings_data(
 def render_opening_template() -> str:
     body = f"""
 <h1 id="opening-title">Opening Detail</h1>
-<p style="margin:-0.25rem 0 1rem 0;">
+<p style="margin:-0.25rem 0 0.6rem 0; display:flex; gap:0.45rem; align-items:center; flex-wrap:wrap;">
   <span id="opening-tier-badge"></span>
+  <span id="opening-model-badge"></span>
+  <span id="opening-forecast-quality-badge"></span>
 </p>
 <p style="margin:0 0 1rem 0;">
   <a id="back-to-openings" href="openings.html" style="color:{TEXT_SECONDARY}; text-decoration:none; font-size:0.85rem;">&larr; All openings</a>
 </p>
-<div id="opening-narrative" class="narrative"><p></p></div>
+<div id="opening-narrative" class="engine-box" style="display:none;margin-bottom:1.5rem;"><h3>Analysis</h3><p></p></div>
 <div id="opening-chart"></div>
+<div id="lines-box" class="engine-box" style="display:none;"></div>
 <div id="engine-box" class="engine-box" style="display:none;"></div>
 
 <script>
@@ -661,6 +738,8 @@ function renderOpening(eco, opening) {{
   document.title = `${{eco}} — ${{name}} | OpenCast`;
   const tier = opening.model_tier;
   const tierBadge = document.getElementById("opening-tier-badge");
+  const modelBadge = document.getElementById("opening-model-badge");
+  const qualityBadge = document.getElementById("opening-forecast-quality-badge");
   const TIER_TOOLTIP = "T1: >=1000 avg monthly games + >=24 months -> model-selected forecast + engine evaluation\\nT2: 400-999 avg monthly games -> model-selected trend, no engine delta\\nT3: <400 avg monthly games -> descriptive stats only";
   if (tier) {{
     tierBadge.className = `tier-badge tier-badge-${{tier}}`;
@@ -668,6 +747,24 @@ function renderOpening(eco, opening) {{
     tierBadge.title = TIER_TOOLTIP;
   }} else {{
     tierBadge.textContent = "";
+  }}
+
+  const modelName = String(opening.model_name || "").trim();
+  if (modelName && tier !== 3) {{
+    modelBadge.className = "meta-badge";
+    modelBadge.textContent = `Model: ${{modelName.replaceAll("_", "-")}}`;
+  }} else {{
+    modelBadge.className = "";
+    modelBadge.textContent = "";
+  }}
+
+  const quality = String(opening.forecast_quality || "").toLowerCase();
+  if (quality && tier !== 3) {{
+    qualityBadge.className = `meta-badge quality-${{quality}}`;
+    qualityBadge.textContent = `Forecast confidence: ${{quality}}`;
+  }} else {{
+    qualityBadge.className = "";
+    qualityBadge.textContent = "";
   }}
 
   const narrativeBox = document.getElementById("opening-narrative");
@@ -681,10 +778,54 @@ function renderOpening(eco, opening) {{
     narrativeEl.style.color = TEXT_PRIMARY;
   }}
 
+  function renderLinesDrivingTrend(data) {{
+    const box = document.getElementById("lines-box");
+    const lines = Array.isArray(data.lines_driving_trend) ? data.lines_driving_trend : [];
+    if (!lines.length) {{
+      box.style.display = "none";
+      box.innerHTML = "";
+      return;
+    }}
+
+    const fmtPct = (v) => (v != null ? (v * 100).toFixed(2) + "%" : "—");
+    const fmtPp = (v) => {{
+      if (v == null) return "—";
+      const pp = (v * 100).toFixed(2);
+      return (v >= 0 ? "+" : "") + pp + "%";
+    }};
+
+    const rows = lines.slice(0, 3).map((r) => `
+      <tr>
+        <td style="padding:0.45rem 0.6rem 0.45rem 0;"><strong style="color:${{TEXT_PRIMARY}};">${{r.san || "—"}}</strong><div style="font-size:0.74rem;color:${{TEXT_SECONDARY}};">${{r.uci || ""}}</div></td>
+        <td style="padding:0.45rem 0.6rem;text-align:right;">${{fmtPct(r.share_of_games)}}</td>
+        <td style="padding:0.45rem 0.6rem;text-align:right;">${{fmtPct(r.white_win_rate)}}</td>
+        <td style="padding:0.45rem 0.6rem;text-align:right;color:${{r.delta_wr_12m == null ? TEXT_SECONDARY : (r.delta_wr_12m >= 0 ? "#7BE495" : "#F28DA6")}};">${{fmtPp(r.delta_wr_12m)}}</td>
+      </tr>
+    `).join("");
+
+    const asOf = lines[0] && lines[0].month ? `As of ${{lines[0].month}}` : "Latest month";
+    box.style.display = "block";
+    box.innerHTML = `
+      <h3>Lines Driving The Trend</h3>
+      <p style="margin:0.25rem 0 0.8rem;color:${{TEXT_SECONDARY}};font-size:0.8rem;">Top move choices by volume and 12-month win-rate movement. ${{asOf}}.</p>
+      <table style="width:100%;border-collapse:collapse;font-size:0.84rem;">
+        <thead>
+          <tr style="color:${{TEXT_SECONDARY}};font-size:0.72rem;text-transform:uppercase;letter-spacing:0.06em;">
+            <th style="text-align:left;padding:0 0.6rem 0.35rem 0;">Move</th>
+            <th style="text-align:right;padding:0 0.6rem 0.35rem;">Share</th>
+            <th style="text-align:right;padding:0 0.6rem 0.35rem;">Win Rate</th>
+            <th style="text-align:right;padding:0 0.6rem 0.35rem;">Win rate shift (12m)</th>
+          </tr>
+        </thead>
+        <tbody>${{rows}}</tbody>
+      </table>`;
+  }}
+
     // ── Missing data: no raw file was ever ingested ──────────────────────
     if (opening.data_status === "missing") {{
         document.getElementById("opening-chart").style.display = "none";
         document.getElementById("engine-box").style.display = "none";
+      document.getElementById("lines-box").style.display = "none";
         narrativeBox.style.display = "none";
         const chartEl = document.getElementById("opening-chart");
         chartEl.style.display = "block";
@@ -706,6 +847,7 @@ function renderOpening(eco, opening) {{
     if (opening.data_status === "sparse") {{
         document.getElementById("opening-chart").style.display = "none";
         document.getElementById("engine-box").style.display = "none";
+      renderLinesDrivingTrend(opening);
         const fmtPct = (v) => (v != null ? (v * 100).toFixed(2) + "%" : "—");
         const fmt2   = (v) => (v != null ? (v * 100).toFixed(2) : "—");
         const trend = opening.trend_direction || "flat";
@@ -723,7 +865,7 @@ function renderOpening(eco, opening) {{
                     <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">Last month</td><td style="padding:0.4rem 0;">${{opening.last_month || "—"}}</td></tr>
                     <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">Last win rate</td><td style="padding:0.4rem 0;">${{fmtPct(opening.last_win_rate)}}</td></tr>
                     <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">Mean win rate</td><td style="padding:0.4rem 0;">${{fmtPct(opening.mean_win_rate)}}</td></tr>
-                    <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">Std dev</td><td style="padding:0.4rem 0;">${{fmt2(opening.std_win_rate)}} pp</td></tr>
+                    <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">Std dev</td><td style="padding:0.4rem 0;">${{fmt2(opening.std_win_rate)}}%</td></tr>
                     <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">3-month MA</td><td style="padding:0.4rem 0;">${{fmtPct(opening.ma3)}}</td></tr>
                     <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">Trend</td><td style="padding:0.4rem 0;color:${{trendColor}};">${{trendArrow}} ${{trend}}</td></tr>
                     <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">Months of data</td><td style="padding:0.4rem 0;">${{opening.months_available ?? "—"}}</td></tr>
@@ -736,6 +878,7 @@ function renderOpening(eco, opening) {{
     if (opening.model_tier === 3) {{
         document.getElementById("opening-chart").style.display = "none";
         document.getElementById("engine-box").style.display = "none";
+      renderLinesDrivingTrend(opening);
 
         const trend = opening.trend_direction || "flat";
         const trendArrow = trend === "up" ? "↑" : trend === "down" ? "↓" : "→";
@@ -758,7 +901,7 @@ function renderOpening(eco, opening) {{
                         <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">Mean win rate</td>
                                 <td style="padding:0.4rem 0;">${{fmtPct(opening.mean_win_rate)}}</td></tr>
                         <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">Std dev</td>
-                                <td style="padding:0.4rem 0;">${{fmt2(opening.std_win_rate)}} pp</td></tr>
+                                <td style="padding:0.4rem 0;">${{fmt2(opening.std_win_rate)}}%</td></tr>
                         <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">3-month MA</td>
                                 <td style="padding:0.4rem 0;">${{fmtPct(opening.ma3)}}</td></tr>
                         <tr><td style="padding:0.4rem 1rem 0.4rem 0;color:${{TEXT_SECONDARY}};">Trend</td>
@@ -778,6 +921,8 @@ function renderOpening(eco, opening) {{
     const color = ECO_COLORS[(opening.eco_group || eco.charAt(0) || "").toUpperCase()] || "{ACCENT}";
     const actuals = opening.actuals || [];
     const forecasts = opening.forecast || [];
+    const qualityLower = String(opening.forecast_quality || "").toLowerCase();
+    const lowForecastQuality = qualityLower === "low";
 
   const traces = [
     {{
@@ -797,6 +942,7 @@ function renderOpening(eco, opening) {{
       mode: "lines",
       name: "Forecast",
       line: {{ color, width: 1.5, dash: "dash" }},
+      opacity: lowForecastQuality ? 0.46 : 0.95,
       type: "scatter",
     }});
 
@@ -804,7 +950,7 @@ function renderOpening(eco, opening) {{
       x: forecasts.map((d) => d.month).concat(forecasts.map((d) => d.month).slice().reverse()),
       y: forecasts.map((d) => d.upper).concat(forecasts.map((d) => d.lower).slice().reverse()),
       fill: "toself",
-      fillcolor: hexToRgba(color, 0.12),
+      fillcolor: hexToRgba(color, lowForecastQuality ? 0.07 : 0.12),
       line: {{ color: "rgba(0,0,0,0)" }},
       showlegend: false,
       name: "95% CI",
@@ -813,16 +959,18 @@ function renderOpening(eco, opening) {{
   }}
 
   const olsTrend = computeOlsTrend(actuals);
+  const trendConfidence = String(opening.trend_confidence || "low").toLowerCase();
   if (olsTrend) {{
-    const trendColor = olsTrend.direction === "rising" ? "#7BE495"
-      : olsTrend.direction === "falling" ? "#F28DA6" : TEXT_SECONDARY;
+    const trendDirection = String(opening.trend_direction || olsTrend.direction || "stable").toLowerCase();
+    const trendColor = trendDirection === "rising" ? "#7BE495"
+      : trendDirection === "falling" ? "#F28DA6" : TEXT_SECONDARY;
     traces.push({{
       x: actuals.map((d) => d.month),
       y: olsTrend.trendY,
       mode: "lines",
-      name: `Trend (${{olsTrend.direction}})`,
+      name: `Trend (${{trendDirection}})` ,
       line: {{ color: trendColor, width: 1.5, dash: "longdash" }},
-      opacity: 0.65,
+      opacity: trendConfidence === "high" ? 0.78 : trendConfidence === "medium" ? 0.55 : 0.30,
       type: "scatter",
     }});
   }}
@@ -838,18 +986,9 @@ function renderOpening(eco, opening) {{
     margin: {{ t: 60, r: 30, b: 60, l: 60 }},
   }};
 
-  Plotly.newPlot("opening-chart", traces, layout, {{ responsive: true }}).then(() => {{
-    const shapes = (opening.structural_breaks || []).map((month) => ({{
-      type: "line",
-      x0: month,
-      x1: month,
-      y0: 0,
-      y1: 1,
-      yref: "paper",
-      line: {{ color, dash: "dot", width: 1 }},
-    }}));
-    Plotly.relayout("opening-chart", {{ shapes }});
-  }});
+  Plotly.newPlot("opening-chart", traces, layout, {{ responsive: true }});
+
+  renderLinesDrivingTrend(opening);
 
   const engineBox = document.getElementById("engine-box");
   const hasEngine =
@@ -871,11 +1010,45 @@ function renderOpening(eco, opening) {{
   const interpretation = opening.interpretation || "";
 
   engineBox.style.display = "block";
+
+  const cpLabel = cp === 0
+    ? "Equal position"
+    : cp > 0
+      ? `White better by ${{Math.abs(cp)}} cp`
+      : `Black better by ${{Math.abs(cp)}} cp`;
+
+  const deltaSign = delta >= 0 ? "+" : "";
+  const deltaColor = delta > 0.01
+    ? "#7BE495"
+    : delta < -0.01
+      ? "#F28DA6"
+      : TEXT_SECONDARY;
+  const deltaLabel = delta > 0.01
+    ? "Humans overperform engine expectation"
+    : delta < -0.01
+      ? "Humans underperform engine expectation"
+      : "Humans match engine expectation";
+
   engineBox.innerHTML = `
-    <h3>Engine Evaluation</h3>
-    <p>Stockfish depth-20: <strong>${{cp >= 0 ? "+" : ""}}${{cp}} cp</strong> → P(white wins) = ${{pEngine.toFixed(3)}}</p>
-    <p>Human win rate (2000+): ${{human.toFixed(3)}}</p>
-    <p>Delta: <strong>${{delta >= 0 ? "+" : ""}}${{delta.toFixed(3)}}</strong>${{interpretation ? ` — ${{interpretation}}` : ""}}</p>
+    <h3 style="margin:0 0 1rem;">Engine vs Human</h3>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;margin-bottom:1rem;">
+      <div style="background:rgba(255,255,255,0.04);border-radius:8px;padding:0.75rem 1rem;">
+        <p style="margin:0 0 0.2rem;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.08em;color:${{TEXT_SECONDARY}};">Engine says</p>
+        <p style="margin:0;font-size:1.1rem;font-weight:700;">${{cpLabel}}</p>
+        <p style="margin:0.2rem 0 0;font-size:0.78rem;color:${{TEXT_SECONDARY}};">Win probability: ${{(pEngine * 100).toFixed(1)}}%</p>
+      </div>
+      <div style="background:rgba(255,255,255,0.04);border-radius:8px;padding:0.75rem 1rem;">
+        <p style="margin:0 0 0.2rem;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.08em;color:${{TEXT_SECONDARY}};">Humans achieve</p>
+        <p style="margin:0;font-size:1.1rem;font-weight:700;">${{(human * 100).toFixed(1)}}%</p>
+        <p style="margin:0.2rem 0 0;font-size:0.78rem;color:${{TEXT_SECONDARY}};">win rate (2000+ Elo, depth 20)</p>
+      </div>
+    </div>
+
+    <div style="border-left:3px solid ${{deltaColor}};padding:0.6rem 1rem;background:rgba(255,255,255,0.03);border-radius:0 6px 6px 0;">
+      <p style="margin:0 0 0.15rem;font-size:0.78rem;font-weight:600;color:${{deltaColor}};">${{deltaLabel}}</p>
+      <p style="margin:0;font-size:0.82rem;color:${{TEXT_SECONDARY}};">Gap: <strong style="color:${{TEXT_PRIMARY}};">${{deltaSign}}${{(delta * 100).toFixed(2)}}%</strong>${{interpretation ? ` &nbsp;·&nbsp; ${{interpretation}}` : ""}}</p>
+    </div>
   `;
 }}
 
@@ -893,6 +1066,7 @@ async function init() {{
     const narrativeEl = document.querySelector("#opening-narrative p");
     narrativeEl.textContent = String(error);
     narrativeEl.style.color = TEXT_SECONDARY;
+    document.getElementById("opening-narrative").style.display = "";
   }}
 }}
 
@@ -900,10 +1074,14 @@ init();
 </script>
 """
     tier_css = f"""<style>
-.tier-badge {{display:inline-block;padding:0.15em 0.55em;border-radius:4px;font-size:0.75rem;font-weight:600;letter-spacing:0.04em;}}
-.tier-badge-1 {{background:rgba(74,158,255,0.18);color:#4a9eff;}}
-.tier-badge-2 {{background:rgba(169,117,255,0.18);color:#a975ff;}}
-.tier-badge-3 {{background:rgba(139,139,143,0.2);color:{TEXT_SECONDARY};}}
+  .tier-badge {{display:inline-block;padding:0.15em 0.55em;border-radius:4px;font-size:0.75rem;font-weight:600;letter-spacing:0.04em;}}
+  .tier-badge-1 {{background:rgba(74,158,255,0.18);color:#4a9eff;}}
+  .tier-badge-2 {{background:rgba(169,117,255,0.18);color:#a975ff;}}
+  .tier-badge-3 {{background:rgba(139,139,143,0.2);color:{TEXT_SECONDARY};}}
+  .meta-badge {{display:inline-block;padding:0.15em 0.55em;border-radius:4px;font-size:0.75rem;font-weight:500;letter-spacing:0.02em;background:rgba(255,255,255,0.08);color:{TEXT_PRIMARY};}}
+  .quality-high {{background:rgba(123,228,149,0.18);color:#7BE495;}}
+  .quality-medium {{background:rgba(246,193,119,0.18);color:#F6C177;}}
+  .quality-low {{background:rgba(242,141,166,0.18);color:#F28DA6;}}
 </style>"""
     head_extras = tier_css + '\n<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>'
     return _page_shell("Opening Detail", _nav_html("openings.html"), body, head_extras=head_extras)
@@ -920,7 +1098,18 @@ def render_overview(
     # ── Dynamic stats ─────────────────────────────────────────────────────
     n_openings = int(engine_df["eco"].nunique()) if not engine_df.empty else 0
     actuals_only = forecasts[forecasts["is_forecast"] == False] if not forecasts.empty else pd.DataFrame()
+    fc_only = forecasts[forecasts["is_forecast"] == True] if not forecasts.empty else pd.DataFrame()
     n_months = int(actuals_only["month"].nunique()) if not actuals_only.empty else 0
+    high_conf_openings = 0
+    if not fc_only.empty and "forecast_quality" in fc_only.columns and "eco" in fc_only.columns:
+      eco_quality = (
+        fc_only.dropna(subset=["eco"])
+        .groupby("eco", as_index=False)["forecast_quality"]
+        .first()
+      )
+      high_conf_openings = int(
+        eco_quality["forecast_quality"].astype(str).str.lower().eq("high").sum()
+      )
     last_updated = (findings_json or {}).get("month", "—")
 
     # ── Findings insight text ─────────────────────────────────────────────
@@ -1068,24 +1257,31 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
 /* Page-content override: let hero and sections self-manage their width */
 .page-content { max-width: none !important; padding: 0 !important; }
 
-/* Hero */
 .hero {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(0, 1.03fr) minmax(0, 0.97fr);
   gap: 4rem;
   align-items: center;
-  min-height: calc(100dvh - 48px);
-  padding: clamp(2rem, 5vw, 4rem) max(1.5rem, calc((100vw - 1080px) / 2 + 1.5rem));
+  height: calc(100dvh - 52px);
+  overflow: clip;
+  width: 100%;
+  padding-top: clamp(2rem, 5vw, 4rem);
+  padding-bottom: clamp(2rem, 5vw, 4rem);
+  padding-left:  max(1.5rem, calc((100vw - 1200px) / 2 + 1.5rem));
+  padding-right: max(1.5rem, calc((100vw - 1200px) / 2 + 1.5rem));
   background-image: repeating-conic-gradient(
     rgba(255,255,255,0.015) 0% 25%,
     transparent 0% 50%
   );
   background-size: 48px 48px;
   background-position: 0 0;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
 }
 @media (max-width: 768px) {
-  .hero { grid-template-columns: 1fr; gap: 3rem; min-height: auto; }
+  .hero { grid-template-columns: 1fr; gap: 3rem; height: auto; min-height: auto; overflow: visible; }
 }
+
+.hero-copy { }
 
 .hero-eyebrow {
   font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase;
@@ -1139,14 +1335,13 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
 .btn-secondary:hover { border-color: rgba(255,255,255,0.3); color: var(--color-text); }
 
 /* Hero right: proof cards */
-.hero-visual { display: flex; flex-direction: column; gap: 1rem; width: 100%; align-items: stretch; }
+.hero-visual { display: flex; flex-direction: column; gap: 1rem; width: 100%; align-items: stretch; align-self: center; justify-content: center; }
 .proof-card {
   background: var(--color-surface);
   border: 1px solid rgba(255,255,255,0.08);
   border-radius: 12px; padding: 1.25rem 1.5rem;
   width: 100%;
   box-sizing: border-box;
-  min-height: 185px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1179,13 +1374,6 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
   display: inline-block;
 }
 .proof-card-eco-link:hover { text-decoration-color: var(--color-primary); color: var(--color-primary); }
-
-/* Section divider */
-.section-divider {
-  max-width: 1200px; margin: 0 auto;
-  padding: 0 2rem;
-  border-top: 1px solid rgba(255,255,255,0.07);
-}
 
 /* Analysis sections */
 .analysis-section {
@@ -1270,7 +1458,7 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
 
     # ── Hero HTML ─────────────────────────────────────────────────────────
     hero_html = (
-        '<section class="hero">'
+      '<section class="hero">'
         '<div class="hero-copy">'
         '<p class="hero-eyebrow">Monthly chess opening intelligence</p>'
         '<h1 class="hero-headline">Track where opening '
@@ -1284,6 +1472,8 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
         f'{n_openings} openings tracked</div>'
         f'<div class="stat-pill" data-count="{n_months}" data-suffix=" months of data">'
         f'{n_months} months of data</div>'
+        f'<div class="stat-pill" data-count="{high_conf_openings}" data-suffix=" high-confidence forecasts">'
+        f'{high_conf_openings} high-confidence forecasts</div>'
         f'<div class="stat-pill">Last updated: {last_updated}</div>'
         '</div>'
         '<div class="hero-actions">'
@@ -1297,7 +1487,6 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
         + _proof_card("Steepest rising trend", steep_eco, steep_name, "neutral", "\u2191 Forecast rising", steep_extra)
         + '</div>'
         '</section>'
-        '<div class="section-divider"></div>'
     )
 
     def _section(eyebrow: str, title: str, body_text: str, chart_html: str, reverse: bool = False) -> str:
@@ -1372,6 +1561,17 @@ def render_openings_table(
     <option value="3">Tier 3</option>
   </select>
 
+  <select id="quality-select"
+    style="padding:0.35rem 0.6rem;background:var(--surface-raised);
+           border:1px solid rgba(255,255,255,0.12);border-radius:6px;
+           color:var(--text-primary);font-size:0.85rem;cursor:pointer;
+           font-family:'Satoshi','Inter',sans-serif;">
+    <option value="">All confidence</option>
+    <option value="high">High</option>
+    <option value="medium">Medium</option>
+    <option value="low">Low</option>
+  </select>
+
   <span id="row-count" style="color:{TEXT_SECONDARY};font-size:0.85rem;margin-left:auto;white-space:nowrap;"></span>
 </div>
 
@@ -1392,6 +1592,7 @@ def render_openings_table(
       <th class="sortable" data-col="tier"     style="cursor:pointer;white-space:nowrap;">Tier <span class="sort-icon"></span></th>
       <th class="sortable" data-col="win_rate" style="cursor:pointer;white-space:nowrap;">Win Rate (last) <span class="sort-icon"></span></th>
       <th class="sortable" data-col="has_fc"   style="cursor:pointer;white-space:nowrap;">Forecast <span class="sort-icon"></span></th>
+      <th class="sortable" data-col="quality"  style="cursor:pointer;white-space:nowrap;">Confidence <span class="sort-icon"></span></th>
       <th class="sortable" data-col="delta"    style="cursor:pointer;white-space:nowrap;">Engine Delta <span class="sort-icon"></span></th>
       <th>Detail</th>
     </tr>
@@ -1411,6 +1612,10 @@ def render_openings_table(
 .tier-badge-1 {{ background:rgba(74,158,255,0.18);color:#4a9eff; }}
 .tier-badge-2 {{ background:rgba(169,117,255,0.18);color:#a975ff; }}
 .tier-badge-3 {{ background:rgba(139,139,143,0.2);color:{TEXT_SECONDARY}; }}
+.quality-badge {{ display:inline-block;padding:0.15em 0.55em;border-radius:4px;font-size:0.72rem;font-weight:600;letter-spacing:0.03em;text-transform:capitalize; }}
+.quality-badge-high {{ background:rgba(123,228,149,0.18);color:#7BE495; }}
+.quality-badge-medium {{ background:rgba(246,193,119,0.18);color:#F6C177; }}
+.quality-badge-low {{ background:rgba(242,141,166,0.18);color:#F28DA6; }}
 </style>
 
 <script>
@@ -1442,6 +1647,7 @@ def render_openings_table(
       tier: d.model_tier != null ? d.model_tier : 99,
       win_rate: lastActual,
       has_fc: (d.forecast || []).length > 0,
+      quality: String(d.forecast_quality || "").toLowerCase(),
       delta: d.delta != null ? d.delta : null,
     }};
   }});
@@ -1451,6 +1657,7 @@ def render_openings_table(
     q: "",
     group: "",
     tier: "",
+    quality: "",
     sortCol: "eco",
     asc: true,
   }};
@@ -1460,19 +1667,21 @@ def render_openings_table(
     if (!h) return;
     try {{
       const p = new URLSearchParams(h);
-      if (p.has("q"))     state.q = p.get("q");
-      if (p.has("group")) state.group = p.get("group");
-      if (p.has("tier"))  state.tier = p.get("tier");
-      if (p.has("sort"))  state.sortCol = p.get("sort");
-      if (p.has("asc"))   state.asc = p.get("asc") !== "0";
+      if (p.has("q"))       state.q = p.get("q");
+      if (p.has("group"))   state.group = p.get("group");
+      if (p.has("tier"))    state.tier = p.get("tier");
+      if (p.has("quality")) state.quality = p.get("quality");
+      if (p.has("sort"))    state.sortCol = p.get("sort");
+      if (p.has("asc"))     state.asc = p.get("asc") !== "0";
     }} catch (_) {{}}
   }}
 
   function writeHash() {{
     const p = new URLSearchParams();
-    if (state.q)   p.set("q", state.q);
+    if (state.q) p.set("q", state.q);
     if (state.group) p.set("group", state.group);
     if (state.tier) p.set("tier", state.tier);
+    if (state.quality) p.set("quality", state.quality);
     p.set("sort", state.sortCol);
     p.set("asc", state.asc ? "1" : "0");
     history.replaceState(null, "", "#" + p.toString());
@@ -1480,24 +1689,28 @@ def render_openings_table(
 
   readHash();
 
-  const searchBox  = document.getElementById("search-box");
+  const searchBox = document.getElementById("search-box");
   const groupSelect = document.getElementById("group-select");
   const tierSelect = document.getElementById("tier-select");
-  const tbody      = document.getElementById("openings-tbody");
-  const rowCount   = document.getElementById("row-count");
+  const qualitySelect = document.getElementById("quality-select");
+  const tbody = document.getElementById("openings-tbody");
+  const rowCount = document.getElementById("row-count");
   const emptyState = document.getElementById("empty-state");
   const sortHeaders = document.querySelectorAll(".sortable");
 
-  searchBox.value  = state.q;
+  searchBox.value = state.q;
   groupSelect.value = state.group;
   tierSelect.value = state.tier;
+  qualitySelect.value = state.quality;
 
   function applyFilters() {{
-    const q    = state.q.toLowerCase();
+    const q = state.q.toLowerCase();
     const tier = state.tier;
+    const quality = state.quality;
     let visible = allRows.filter(r => {{
       if (state.group && r.group !== state.group) return false;
       if (tier && String(r.tier) !== tier) return false;
+      if (quality && String(r.quality || "") !== quality) return false;
       if (q && !r.eco.toLowerCase().includes(q) && !r.name.toLowerCase().includes(q)) return false;
       return true;
     }});
@@ -1532,6 +1745,11 @@ def render_openings_table(
   function tierBadge(t) {{
     return '<span class="tier-badge tier-badge-' + t + '" title="' + TIER_TOOLTIP + '">T' + t + '</span>';
   }}
+  function qualityBadge(q, tier) {{
+    if (!q || tier === 3) return '<span style="color:' + TEXT_SECONDARY + '">—</span>';
+    const cls = 'quality-badge quality-badge-' + q;
+    return '<span class="' + cls + '">' + q + '</span>';
+  }}
 
   function renderRows(rows) {{
     const html = rows.map(r => {{
@@ -1546,6 +1764,7 @@ def render_openings_table(
         '<td style="text-align:center;">' + tierBadge(r.tier) + '</td>' +
         '<td style="text-align:right;">' + fmtPct(r.win_rate) + '</td>' +
         '<td style="text-align:center;">' + (r.has_fc ? "Yes" : '<span style="color:' + TEXT_SECONDARY + '">No</span>') + '</td>' +
+        '<td style="text-align:center;">' + qualityBadge(r.quality, r.tier) + '</td>' +
         '<td style="text-align:right;color:' + deltaColor(r.delta) + '">' + fmtDelta(r.delta) + '</td>' +
         '<td style="text-align:center;"><a href="' + href + '" style="color:{ACCENT};text-decoration:none;" onclick="event.stopPropagation()">Details</a></td>' +
         '</tr>';
@@ -1573,6 +1792,7 @@ def render_openings_table(
   }});
   groupSelect.addEventListener("change", () => {{ state.group = groupSelect.value; applyFilters(); }});
   tierSelect.addEventListener("change", () => {{ state.tier = tierSelect.value; applyFilters(); }});
+  qualitySelect.addEventListener("change", () => {{ state.quality = qualitySelect.value; applyFilters(); }});
   sortHeaders.forEach(th => {{
     th.addEventListener("click", () => {{
       const col = th.getAttribute("data-col");
@@ -1701,6 +1921,10 @@ def run_visualizer() -> None:
         long_tail_df = pd.read_csv(LONG_TAIL_CSV) if os.path.exists(LONG_TAIL_CSV) else pd.DataFrame()
     except Exception:
         long_tail_df = pd.DataFrame()
+    try:
+      move_stats_df = pd.read_csv(MOVE_STATS_CSV) if os.path.exists(MOVE_STATS_CSV) else pd.DataFrame()
+    except Exception:
+      move_stats_df = pd.DataFrame()
 
     for asset_name in ("shared.css", "nav.js"):
         src = Path(__file__).parent / "assets" / asset_name
@@ -1723,7 +1947,16 @@ def run_visualizer() -> None:
 
     from .report import _forecast_directions
     _, trend_signals = _forecast_directions(forecasts)
-    openings_data = _serialize_openings_data(forecasts, engine_df, catalog, findings, narratives, long_tail_df, trend_signals=trend_signals)
+    openings_data = _serialize_openings_data(
+      forecasts,
+      engine_df,
+      catalog,
+      findings,
+      narratives,
+      long_tail_df,
+      move_stats_df,
+      trend_signals=trend_signals,
+    )
     openings_data_path = os.path.join(ASSETS_DIR, "openings_data.json")
     Path(openings_data_path).write_text(json.dumps(openings_data, indent=2), encoding="utf-8")
     print(f"Openings data written -> {openings_data_path}")

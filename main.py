@@ -13,6 +13,7 @@ except Exception:  # pragma: no cover
 STAGES = {
     "fetch"  : False,  # set True to re-fetch from Lichess
     "ingest" : True,
+    "moves"  : True,
     "select" : True,
     "ts"     : True,
     "engine" : True,
@@ -21,6 +22,7 @@ STAGES = {
 }
 
 PROCESSED_CSV  = "data/processed/openings_ts.csv"
+MOVE_STATS_CSV = "data/output/move_stats.csv"
 CATALOG_CSV    = "data/openings_catalog.csv"
 FORECASTS_CSV  = "data/output/forecasts.csv"
 ENGINE_CSV     = "data/output/engine_delta.csv"
@@ -225,6 +227,11 @@ def main():
         print("--- Stage: ingest ---")
         from src.ingest import ingest
         ingest()
+
+    if STAGES["moves"] and not _skip_or_force(MOVE_STATS_CSV, "move stats", force_recompute):
+        print("--- Stage: move stats ---")
+        from src.move_stats import run_move_stats
+        run_move_stats()
 
     if STAGES["select"] and not _skip_or_force(CATALOG_CSV, "select", force_recompute):
         print("--- Stage: select ---")
