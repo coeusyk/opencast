@@ -15,6 +15,7 @@ NARRATIVES_JSON = os.path.join(_HERE, "..", "findings", "narratives.json")
 LONG_TAIL_CSV   = os.path.join(_HERE, "..", "data", "output", "long_tail_stats.csv")
 MOVE_STATS_CSV  = os.path.join(_HERE, "..", "data", "output", "move_stats.csv")
 OPENING_LINES_JSON = os.path.join(_HERE, "..", "data", "opening_lines.json")
+ICON_SOURCE_PNG = os.path.join(_HERE, "..", "opencast_icon.png")
 CONFIG_JSON = os.path.join(_HERE, "..", "config.json")
 OUTPUT_DIR = os.path.join(_HERE, "..", "data", "output", "dashboard")
 ASSETS_DIR = os.path.join(OUTPUT_DIR, "assets")
@@ -407,8 +408,16 @@ def _nav_html(current: str) -> str:
 
     return f"""<nav id="main-nav" class="site-nav">
   <div class="nav-inner">
-    <span class="nav-wordmark">OpenCast</span>
-    <div class="nav-links">
+    <a href="index.html" class="brand-lockup" aria-label="OpenCast home">
+      <img src="assets/opencast_icon.png" alt="OpenCast logo" class="brand-logo" />
+      <span class="nav-wordmark">OpenCast</span>
+    </a>
+    <button type="button" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav-links">
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+    </button>
+    <div id="site-nav-links" class="nav-links">
     {links}
     </div>
   </div>
@@ -431,10 +440,22 @@ def _page_shell(title: str, nav_fragment: str, body: str, head_extras: str = "")
   max-width: 1200px; margin: 0 auto;
   width: 100%;
   box-sizing: border-box;
-  padding: 0 2rem; height: 100%;
+  padding: 0 1rem; height: 100%;
   display: flex; align-items: center;
-  justify-content: center;
-  gap: 1.75rem;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.brand-lockup {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  text-decoration: none;
+}
+.brand-logo {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  border-radius: 4px;
 }
 .nav-wordmark {
   font-family: 'Satoshi', 'Inter', sans-serif;
@@ -443,13 +464,66 @@ def _page_shell(title: str, nav_fragment: str, body: str, head_extras: str = "")
   color: var(--text-primary);
 }
 .nav-links { display: flex; gap: 1.5rem; align-items: center; }
+.nav-toggle {
+  display: none;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid rgba(255,255,255,0.14);
+  border-radius: 6px;
+  background: rgba(255,255,255,0.02);
+  color: var(--text-primary);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.nav-toggle-bar {
+  display: block;
+  width: 1rem;
+  height: 2px;
+  border-radius: 999px;
+  background: currentColor;
+}
 .nav-link {
   font-size: 0.875rem; font-weight: 500;
   color: var(--text-secondary); text-decoration: none;
+  padding: 0.45rem 0.15rem;
   transition: color 150ms;
 }
 .nav-link:hover, .nav-link.active { color: var(--text-primary); }
 body { font-family: 'Satoshi', 'Inter', sans-serif; }
+
+@media (max-width: 760px) {
+  .nav-inner {
+    padding: 0 0.75rem;
+  }
+  .nav-toggle {
+    display: inline-flex;
+  }
+  .nav-links {
+    position: absolute;
+    top: calc(100% + 0.45rem);
+    right: 0.75rem;
+    left: 0.75rem;
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.15rem;
+    background: rgba(11,13,16,0.98);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 8px;
+    padding: 0.45rem;
+  }
+  .nav-links.open {
+    display: flex;
+  }
+  .nav-link {
+    display: block;
+    font-size: 0.92rem;
+    padding: 0.65rem 0.6rem;
+    border-radius: 6px;
+  }
+}
 </style>"""
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -461,6 +535,8 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300..600&display=swap" rel="stylesheet">
   <link href="https://api.fontshare.com/v2/css?f[]=satoshi@700,600,500,400&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/opencast_icon.png">
+  <link rel="apple-touch-icon" href="assets/opencast_icon.png">
   <link rel="stylesheet" href="assets/shared.css">
   {_NAV_CSS}
   {head_extras}
@@ -471,6 +547,33 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
 {body}
 </div></main>
 <script src="assets/nav.js"></script>
+<script>
+(() => {{
+  const toggle = document.querySelector('.nav-toggle');
+  const links = document.getElementById('site-nav-links');
+  if (!toggle || !links) return;
+
+  const closeMenu = () => {{
+    links.classList.remove('open');
+    toggle.setAttribute('aria-expanded', 'false');
+  }};
+
+  toggle.addEventListener('click', () => {{
+    const isOpen = links.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  }});
+
+  document.addEventListener('click', (event) => {{
+    if (!event.target) return;
+    if (toggle.contains(event.target) || links.contains(event.target)) return;
+    closeMenu();
+  }});
+
+  window.addEventListener('resize', () => {{
+    if (window.innerWidth > 760) closeMenu();
+  }});
+}})();
+</script>
 </body>
 </html>
 """
@@ -1348,15 +1451,33 @@ function renderOpening(eco, opening, openingLines) {{
     }});
   }}
 
+  const isNarrow = window.matchMedia("(max-width: 760px)").matches;
   const layout = {{
     title: `${{eco}} — ${{name}}`,
-    xaxis: {{ title: "Month", gridcolor: GRID_COLOR, zerolinecolor: GRID_COLOR, tickfont: {{ color: TEXT_SECONDARY }} }},
+    xaxis: {{
+      title: isNarrow ? "" : "Month",
+      gridcolor: GRID_COLOR,
+      zerolinecolor: GRID_COLOR,
+      tickfont: {{ color: TEXT_SECONDARY, size: isNarrow ? 10 : 12 }},
+      tickangle: isNarrow ? -35 : 0,
+    }},
     yaxis: {{ title: "White Win Rate", gridcolor: GRID_COLOR, zerolinecolor: GRID_COLOR, tickfont: {{ color: TEXT_SECONDARY }} }},
     plot_bgcolor: PANEL_BG,
     paper_bgcolor: PANEL_BG,
     font: {{ family: BODY_FONT, color: TEXT_PRIMARY }},
     title_font: {{ family: DISPLAY_FONT, size: 18, color: TEXT_PRIMARY }},
-    margin: {{ t: 60, r: 30, b: 60, l: 60 }},
+    margin: isNarrow ? {{ t: 48, r: 10, b: 70, l: 46 }} : {{ t: 60, r: 30, b: 60, l: 60 }},
+    legend: {{
+      orientation: "h",
+      x: 0,
+      y: 1.08,
+      xanchor: "left",
+      yanchor: "bottom",
+      font: {{ size: 11, color: TEXT_SECONDARY }},
+      bgcolor: "rgba(0,0,0,0)",
+      borderwidth: 0,
+      itemwidth: 30,
+    }},
   }};
 
   Plotly.newPlot("opening-chart", traces, layout, {{ responsive: true }});
@@ -1408,13 +1529,13 @@ function renderOpening(eco, opening, openingLines) {{
   engineBox.innerHTML = `
     <h3 style="margin:0 0 1rem;">Engine vs Human</h3>
 
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;margin-bottom:1rem;">
-      <div style="background:rgba(255,255,255,0.04);border-radius:8px;padding:0.75rem 1rem;">
+    <div class="engine-cards">
+      <div class="engine-card">
         <p style="margin:0 0 0.2rem;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.08em;color:${{TEXT_SECONDARY}};">Engine says</p>
         <p style="margin:0;font-size:1.1rem;font-weight:700;">${{cpLabel}}</p>
         <p style="margin:0.2rem 0 0;font-size:0.78rem;color:${{TEXT_SECONDARY}};">Win probability: ${{(pEngine * 100).toFixed(1)}}%</p>
       </div>
-      <div style="background:rgba(255,255,255,0.04);border-radius:8px;padding:0.75rem 1rem;">
+      <div class="engine-card">
         <p style="margin:0 0 0.2rem;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.08em;color:${{TEXT_SECONDARY}};">Humans achieve</p>
         <p style="margin:0;font-size:1.1rem;font-weight:700;">${{(human * 100).toFixed(1)}}%</p>
         <p style="margin:0.2rem 0 0;font-size:0.78rem;color:${{TEXT_SECONDARY}};">win rate (2000+ Elo, depth 20)</p>
@@ -1541,6 +1662,7 @@ init();
     border:1px solid rgba(255,255,255,0.10);
     border-radius:8px;
     padding:0.65rem 0.75rem;
+    min-width:0;
     max-height:280px;
     overflow:auto;
   }}
@@ -1572,12 +1694,16 @@ init();
   .board-btn:hover:not(:disabled) {{ background:rgba(255,255,255,0.08); }}
   .board-btn:active:not(:disabled) {{ transform:scale(0.92); }}
   .board-btn:disabled {{ opacity:0.4; cursor:not-allowed; }}
+  .engine-cards {{ display:grid; grid-template-columns:1fr 1fr; gap:0.75rem; margin-bottom:1rem; }}
+  .engine-card {{ background:rgba(255,255,255,0.04); border-radius:8px; padding:0.75rem 1rem; }}
 
   @media (max-width: 860px) {{
     .opening-board-layout {{ grid-template-columns:1fr; }}
     .opening-board-frame {{ grid-template-columns:1rem minmax(280px, 420px); grid-template-rows:minmax(280px, 420px) 1rem; }}
     .opening-board {{ max-width:420px; }}
     .historical-grid {{ grid-template-columns:repeat(2, minmax(0, 1fr)); }}
+    .engine-cards {{ grid-template-columns:1fr; gap:0.6rem; }}
+    .opening-move-list {{ max-height:none; overflow-x:auto; overflow-y:visible; }}
   }}
 </style>"""
     head_extras = (
@@ -2048,7 +2174,7 @@ def render_openings_table(
     table_html = f"""
 <h1 class="page-title">All Openings</h1>
 
-<div id="table-controls" style="display:flex;flex-wrap:wrap;gap:0.75rem;align-items:center;margin-bottom:1.25rem;">
+<div id="table-controls" class="table-controls" style="display:flex;flex-wrap:wrap;gap:0.75rem;align-items:center;margin-bottom:1.25rem;">
   <input id="search-box" type="search" placeholder="Search ECO or name..."
     aria-label="Search openings"
     style="flex:1;min-width:200px;max-width:360px;padding:0.4rem 0.75rem;
@@ -2098,8 +2224,8 @@ def render_openings_table(
   </div>
 </div>
 
-<div style="overflow-x:auto;">
-<table id="openings-table" class="data-table" style="width:100%;border-collapse:collapse;">
+<div class="table-scroll-wrap" style="overflow-x:auto;">
+<table id="openings-table" class="data-table" style="width:100%;min-width:880px;border-collapse:collapse;">
   <thead>
     <tr>
       <th class="sortable" data-col="eco"      style="cursor:pointer;white-space:nowrap;">ECO <span class="sort-icon"></span></th>
@@ -2123,6 +2249,7 @@ def render_openings_table(
 #openings-table tbody tr:hover {{ background: rgba(255,255,255,0.04); cursor:pointer; }}
 #openings-table th {{ user-select:none; }}
 .sort-icon {{ font-size:0.75rem; opacity:0.5; }}
+.table-scroll-wrap {{ -webkit-overflow-scrolling: touch; }}
 .tier-badge {{ display:inline-block;padding:0.15em 0.55em;border-radius:4px;font-size:0.75rem;font-weight:600;letter-spacing:0.04em; }}
 .tier-badge-1 {{ background:rgba(74,158,255,0.18);color:#4a9eff; }}
 .tier-badge-2 {{ background:rgba(169,117,255,0.18);color:#a975ff; }}
@@ -2131,6 +2258,30 @@ def render_openings_table(
 .quality-badge-high {{ background:rgba(123,228,149,0.18);color:#7BE495; }}
 .quality-badge-medium {{ background:rgba(246,193,119,0.18);color:#F6C177; }}
 .quality-badge-low {{ background:rgba(242,141,166,0.18);color:#F28DA6; }}
+
+@media (max-width: 900px) {{
+  .table-controls {{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.6rem;
+    align-items: stretch;
+  }}
+  .table-controls #search-box {{
+    grid-column: 1 / -1;
+    max-width: none !important;
+    width: 100%;
+  }}
+  .table-controls #row-count {{
+    grid-column: 1 / -1;
+    margin-left: 0 !important;
+  }}
+}}
+
+@media (max-width: 560px) {{
+  .table-controls {{
+    grid-template-columns: 1fr;
+  }}
+}}
 </style>
 
 <script>
@@ -2455,6 +2606,13 @@ def run_visualizer() -> None:
         dst = Path(ASSETS_DIR) / asset_name
         if src.exists():
             shutil.copy2(src, dst)
+
+    icon_src = Path(ICON_SOURCE_PNG)
+    icon_dst = Path(ASSETS_DIR) / "opencast_icon.png"
+    if icon_src.exists():
+      shutil.copy2(icon_src, icon_dst)
+    elif not icon_dst.exists():
+      print(f"Warning: icon source not found at {icon_src} and no existing asset to use")
 
     chesspieces_src = Path(__file__).parent / "assets" / "chesspieces"
     chesspieces_dst = Path(ASSETS_DIR) / "chesspieces"

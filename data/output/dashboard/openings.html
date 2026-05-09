@@ -8,6 +8,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300..600&display=swap" rel="stylesheet">
   <link href="https://api.fontshare.com/v2/css?f[]=satoshi@700,600,500,400&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/opencast_icon.png">
+  <link rel="apple-touch-icon" href="assets/opencast_icon.png">
   <link rel="stylesheet" href="assets/shared.css">
   
 <style>
@@ -24,10 +26,22 @@
   max-width: 1200px; margin: 0 auto;
   width: 100%;
   box-sizing: border-box;
-  padding: 0 2rem; height: 100%;
+  padding: 0 1rem; height: 100%;
   display: flex; align-items: center;
-  justify-content: center;
-  gap: 1.75rem;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.brand-lockup {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  text-decoration: none;
+}
+.brand-logo {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  border-radius: 4px;
 }
 .nav-wordmark {
   font-family: 'Satoshi', 'Inter', sans-serif;
@@ -36,21 +50,82 @@
   color: var(--text-primary);
 }
 .nav-links { display: flex; gap: 1.5rem; align-items: center; }
+.nav-toggle {
+  display: none;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid rgba(255,255,255,0.14);
+  border-radius: 6px;
+  background: rgba(255,255,255,0.02);
+  color: var(--text-primary);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.nav-toggle-bar {
+  display: block;
+  width: 1rem;
+  height: 2px;
+  border-radius: 999px;
+  background: currentColor;
+}
 .nav-link {
   font-size: 0.875rem; font-weight: 500;
   color: var(--text-secondary); text-decoration: none;
+  padding: 0.45rem 0.15rem;
   transition: color 150ms;
 }
 .nav-link:hover, .nav-link.active { color: var(--text-primary); }
 body { font-family: 'Satoshi', 'Inter', sans-serif; }
+
+@media (max-width: 760px) {
+  .nav-inner {
+    padding: 0 0.75rem;
+  }
+  .nav-toggle {
+    display: inline-flex;
+  }
+  .nav-links {
+    position: absolute;
+    top: calc(100% + 0.45rem);
+    right: 0.75rem;
+    left: 0.75rem;
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.15rem;
+    background: rgba(11,13,16,0.98);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 8px;
+    padding: 0.45rem;
+  }
+  .nav-links.open {
+    display: flex;
+  }
+  .nav-link {
+    display: block;
+    font-size: 0.92rem;
+    padding: 0.65rem 0.6rem;
+    border-radius: 6px;
+  }
+}
 </style>
   
 </head>
 <body>
 <nav id="main-nav" class="site-nav">
   <div class="nav-inner">
-    <span class="nav-wordmark">OpenCast</span>
-    <div class="nav-links">
+    <a href="index.html" class="brand-lockup" aria-label="OpenCast home">
+      <img src="assets/opencast_icon.png" alt="OpenCast logo" class="brand-logo" />
+      <span class="nav-wordmark">OpenCast</span>
+    </a>
+    <button type="button" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav-links">
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+    </button>
+    <div id="site-nav-links" class="nav-links">
     <a href="index.html" class="nav-link">Overview</a>
     <a href="openings.html" class="nav-link active">Openings</a>
     <a href="families.html" class="nav-link">Families</a>
@@ -62,7 +137,7 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
 
 <h1 class="page-title">All Openings</h1>
 
-<div id="table-controls" style="display:flex;flex-wrap:wrap;gap:0.75rem;align-items:center;margin-bottom:1.25rem;">
+<div id="table-controls" class="table-controls" style="display:flex;flex-wrap:wrap;gap:0.75rem;align-items:center;margin-bottom:1.25rem;">
   <input id="search-box" type="search" placeholder="Search ECO or name..."
     aria-label="Search openings"
     style="flex:1;min-width:200px;max-width:360px;padding:0.4rem 0.75rem;
@@ -112,8 +187,8 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
   </div>
 </div>
 
-<div style="overflow-x:auto;">
-<table id="openings-table" class="data-table" style="width:100%;border-collapse:collapse;">
+<div class="table-scroll-wrap" style="overflow-x:auto;">
+<table id="openings-table" class="data-table" style="width:100%;min-width:880px;border-collapse:collapse;">
   <thead>
     <tr>
       <th class="sortable" data-col="eco"      style="cursor:pointer;white-space:nowrap;">ECO <span class="sort-icon"></span></th>
@@ -137,6 +212,7 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
 #openings-table tbody tr:hover { background: rgba(255,255,255,0.04); cursor:pointer; }
 #openings-table th { user-select:none; }
 .sort-icon { font-size:0.75rem; opacity:0.5; }
+.table-scroll-wrap { -webkit-overflow-scrolling: touch; }
 .tier-badge { display:inline-block;padding:0.15em 0.55em;border-radius:4px;font-size:0.75rem;font-weight:600;letter-spacing:0.04em; }
 .tier-badge-1 { background:rgba(74,158,255,0.18);color:#4a9eff; }
 .tier-badge-2 { background:rgba(169,117,255,0.18);color:#a975ff; }
@@ -145,6 +221,30 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
 .quality-badge-high { background:rgba(123,228,149,0.18);color:#7BE495; }
 .quality-badge-medium { background:rgba(246,193,119,0.18);color:#F6C177; }
 .quality-badge-low { background:rgba(242,141,166,0.18);color:#F28DA6; }
+
+@media (max-width: 900px) {
+  .table-controls {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.6rem;
+    align-items: stretch;
+  }
+  .table-controls #search-box {
+    grid-column: 1 / -1;
+    max-width: none !important;
+    width: 100%;
+  }
+  .table-controls #row-count {
+    grid-column: 1 / -1;
+    margin-left: 0 !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .table-controls {
+    grid-template-columns: 1fr;
+  }
+}
 </style>
 
 <script>
@@ -337,5 +437,32 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
 
 </div></main>
 <script src="assets/nav.js"></script>
+<script>
+(() => {
+  const toggle = document.querySelector('.nav-toggle');
+  const links = document.getElementById('site-nav-links');
+  if (!toggle || !links) return;
+
+  const closeMenu = () => {
+    links.classList.remove('open');
+    toggle.setAttribute('aria-expanded', 'false');
+  };
+
+  toggle.addEventListener('click', () => {
+    const isOpen = links.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+
+  document.addEventListener('click', (event) => {
+    if (!event.target) return;
+    if (toggle.contains(event.target) || links.contains(event.target)) return;
+    closeMenu();
+  });
+
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 760) closeMenu();
+  });
+})();
+</script>
 </body>
 </html>
