@@ -1,5 +1,6 @@
 import json
 import os
+import shutil
 from pathlib import Path
 
 import pandas as pd
@@ -13,6 +14,7 @@ FINDINGS_JSON   = os.path.join(_HERE, "..", "findings", "findings.json")
 NARRATIVES_JSON = os.path.join(_HERE, "..", "findings", "narratives.json")
 LONG_TAIL_CSV   = os.path.join(_HERE, "..", "data", "output", "long_tail_stats.csv")
 MOVE_STATS_CSV  = os.path.join(_HERE, "..", "data", "output", "move_stats.csv")
+OPENING_LINES_JSON = os.path.join(_HERE, "..", "data", "opening_lines.json")
 OUTPUT_DIR = os.path.join(_HERE, "..", "data", "output", "dashboard")
 ASSETS_DIR = os.path.join(OUTPUT_DIR, "assets")
 
@@ -620,12 +622,28 @@ def render_opening_template() -> str:
   <a id="back-to-openings" href="openings.html" style="color:{TEXT_SECONDARY}; text-decoration:none; font-size:0.85rem;">&larr; All openings</a>
 </p>
 <div id="opening-narrative" class="engine-box" style="display:none;margin-bottom:1.5rem;"><h3>Analysis</h3><p></p></div>
+<div id="opening-board-section" class="engine-box" style="display:none;margin-bottom:1.5rem;">
+  <h3 style="margin:0 0 0.5rem;">Opening Board</h3>
+  <p id="opening-line-name" style="margin:0 0 0.85rem;color:{TEXT_SECONDARY};font-size:0.84rem;"></p>
+  <div class="opening-board-layout">
+    <div id="opening-board" class="opening-board"></div>
+    <div class="opening-line-panel">
+      <div id="opening-move-list" class="opening-move-list"></div>
+      <div class="opening-board-controls">
+        <button id="btn-start" type="button" class="board-btn" aria-label="Go to start">Start</button>
+        <button id="btn-prev" type="button" class="board-btn" aria-label="Previous move">Back</button>
+        <button id="btn-next" type="button" class="board-btn" aria-label="Next move">Next</button>
+      </div>
+    </div>
+  </div>
+</div>
 <div id="opening-chart"></div>
 <div id="lines-box" class="engine-box" style="display:none;"></div>
 <div id="engine-box" class="engine-box" style="display:none;"></div>
 
 <script>
 let openingsDataCache = null;
+let openingLinesCache = null;
 const ECO_COLORS = {json.dumps(ECO_COLORS)};
 const PANEL_BG = "{PANEL_BG}";
 const GRID_COLOR = "{GRID_COLOR}";
@@ -720,6 +738,23 @@ async function loadOpeningsData() {{
   return openingsDataCache;
 }}
 
+async function loadOpeningLines() {{
+  if (openingLinesCache) {{
+    return openingLinesCache;
+  }}
+  try {{
+    const response = await fetch("assets/opening_lines.json", {{ cache: "no-store" }});
+    if (!response.ok) {{
+      openingLinesCache = {{}};
+      return openingLinesCache;
+    }}
+    openingLinesCache = await response.json();
+  }} catch (_) {{
+    openingLinesCache = {{}};
+  }}
+  return openingLinesCache;
+}}
+
 function resolveEco(data) {{
   const ecos = Object.keys(data);
   if (!ecos.length) {{
@@ -732,7 +767,120 @@ function resolveEco(data) {{
   return ecos[0];
 }}
 
-function renderOpening(eco, opening) {{
+function renderOpeningBoard(eco, openingLines) {{
+  const boardSection = document.getElementById("opening-board-section");
+  const boardEl = document.getElementById("opening-board");
+  const moveListEl = document.getElementById("opening-move-list");
+  const lineNameEl = document.getElementById("opening-line-name");
+  const startBtn = document.getElementById("btn-start");
+  const prevBtn = document.getElementById("btn-prev");
+  const nextBtn = document.getElementById("btn-next");
+
+  const lines = openingLines && openingLines[eco] && Array.isArray(openingLines[eco].lines)
+    ? openingLines[eco].lines
+    : [];
+  const primaryLine = lines.find((line) => line.id === "main") || lines[0];
+
+  if (!primaryLine || !Array.isArray(primaryLine.moves_san) || !primaryLine.moves_san.length) {{
+    boardSection.style.display = "none";
+    if (window.__opencastBoardKeyHandler) {{
+      document.removeEventListener("keydown", window.__opencastBoardKeyHandler);
+      window.__opencastBoardKeyHandler = null;
+    }}
+    return;
+  }}
+
+  if (typeof Chess === "undefined") {{
+    boardSection.style.display = "none";
+    return;
+  }}
+  if (typeof Chessboard === "undefined") {{
+    boardSection.style.display = "none";
+    return;
+  }}
+
+  const startingFen = primaryLine.starting_fen && primaryLine.starting_fen !== "startpos"
+    ? primaryLine.starting_fen
+    : null;
+  const seedGame = new Chess();
+  if (startingFen && !seedGame.load(startingFen)) {{
+    boardSection.style.display = "none";
+    return;
+  }}
+  const initialFen = seedGame.fen();
+  const moves = primaryLine.moves_san.slice(0, 12);
+
+  const board = Chessboard(boardEl, {{
+    position: initialFen,
+    draggable: false,
+    showNotation: true,
+    pieceTheme: "https://chessboardjs.com/img/chesspieces/wikipedia/{{piece}}.png",
+  }});
+
+  let currentIndex = 0;
+
+  function renderMoveList(activeIndex) {{
+    const rows = [];
+    for (let i = 0; i < moves.length; i += 2) {{
+      const moveNo = Math.floor(i / 2) + 1;
+      const whiteClass = i < activeIndex ? "played" : "";
+      const whiteActive = i === activeIndex - 1 ? "active" : "";
+      const blackIndex = i + 1;
+      const black = blackIndex < moves.length ? moves[blackIndex] : "";
+      const blackClass = blackIndex < activeIndex ? "played" : "";
+      const blackActive = blackIndex === activeIndex - 1 ? "active" : "";
+      rows.push(`
+        <div class="move-row">
+          <span class="move-number">${{moveNo}}.</span>
+          <span class="move-token ${{whiteClass}} ${{whiteActive}}">${{moves[i]}}</span>
+          ${{black ? `<span class="move-token ${{blackClass}} ${{blackActive}}">${{black}}</span>` : ""}}
+        </div>
+      `);
+    }}
+    moveListEl.innerHTML = rows.join("");
+  }}
+
+  function goToMove(targetIndex) {{
+    const clamped = Math.max(0, Math.min(targetIndex, moves.length));
+    const game = new Chess();
+    game.load(initialFen);
+    for (let i = 0; i < clamped; i++) {{
+      const next = game.move(moves[i], {{ sloppy: true }});
+      if (!next) {{
+        break;
+      }}
+    }}
+    board.position(game.fen(), false);
+    currentIndex = clamped;
+    renderMoveList(currentIndex);
+    prevBtn.disabled = currentIndex <= 0;
+    nextBtn.disabled = currentIndex >= moves.length;
+  }}
+
+  lineNameEl.textContent = primaryLine.name || `Main line (${{eco}})`;
+  boardSection.style.display = "block";
+
+  startBtn.onclick = () => goToMove(0);
+  prevBtn.onclick = () => goToMove(currentIndex - 1);
+  nextBtn.onclick = () => goToMove(currentIndex + 1);
+
+  if (window.__opencastBoardKeyHandler) {{
+    document.removeEventListener("keydown", window.__opencastBoardKeyHandler);
+  }}
+  window.__opencastBoardKeyHandler = (event) => {{
+    if (event.key === "ArrowRight") {{
+      nextBtn.click();
+    }}
+    if (event.key === "ArrowLeft") {{
+      prevBtn.click();
+    }}
+  }};
+  document.addEventListener("keydown", window.__opencastBoardKeyHandler);
+
+  goToMove(0);
+}}
+
+function renderOpening(eco, opening, openingLines) {{
   const name = opening.name || eco;
   document.getElementById("opening-title").textContent = `${{name}} (${{eco}})`;
   document.title = `${{eco}} — ${{name}} | OpenCast`;
@@ -777,6 +925,8 @@ function renderOpening(eco, opening) {{
     narrativeEl.textContent = narrative;
     narrativeEl.style.color = TEXT_PRIMARY;
   }}
+
+  renderOpeningBoard(eco, openingLines);
 
   function renderLinesDrivingTrend(data) {{
     const box = document.getElementById("lines-box");
@@ -1055,12 +1205,13 @@ function renderOpening(eco, opening) {{
 async function init() {{
   try {{
     const data = await loadOpeningsData();
+    const openingLines = await loadOpeningLines();
     const eco = resolveEco(data);
     if (!eco) {{
       document.getElementById("opening-title").textContent = "No opening data available";
       return;
     }}
-    renderOpening(eco, data[eco]);
+    renderOpening(eco, data[eco], openingLines);
   }} catch (error) {{
     document.getElementById("opening-title").textContent = "Failed to load opening data";
     const narrativeEl = document.querySelector("#opening-narrative p");
@@ -1082,8 +1233,63 @@ init();
   .quality-high {{background:rgba(123,228,149,0.18);color:#7BE495;}}
   .quality-medium {{background:rgba(246,193,119,0.18);color:#F6C177;}}
   .quality-low {{background:rgba(242,141,166,0.18);color:#F28DA6;}}
+
+  .opening-board-layout {{
+    display:grid;
+    grid-template-columns:minmax(280px, 360px) 1fr;
+    gap:1rem;
+    align-items:start;
+  }}
+  .opening-board {{
+    width:100%;
+    min-width:280px;
+    aspect-ratio:1 / 1;
+    border-radius:8px;
+    overflow:hidden;
+    border:1px solid rgba(255,255,255,0.12);
+  }}
+  .opening-line-panel {{ display:flex; flex-direction:column; gap:0.7rem; min-width:0; }}
+  .opening-move-list {{
+    background:rgba(255,255,255,0.03);
+    border:1px solid rgba(255,255,255,0.10);
+    border-radius:8px;
+    padding:0.7rem 0.8rem;
+    max-height:280px;
+    overflow:auto;
+  }}
+  .move-row {{ display:flex; gap:0.55rem; align-items:center; margin-bottom:0.35rem; font-size:0.84rem; }}
+  .move-row:last-child {{ margin-bottom:0; }}
+  .move-number {{ color:{TEXT_SECONDARY}; min-width:2.1rem; font-size:0.78rem; }}
+  .move-token {{ color:{TEXT_SECONDARY}; padding:0.08rem 0.35rem; border-radius:4px; }}
+  .move-token.played {{ color:{TEXT_PRIMARY}; }}
+  .move-token.active {{ background:rgba(87,199,255,0.18); color:{TEXT_PRIMARY}; }}
+  .opening-board-controls {{ display:flex; gap:0.5rem; flex-wrap:wrap; }}
+  .board-btn {{
+    border:1px solid rgba(255,255,255,0.16);
+    background:rgba(255,255,255,0.04);
+    color:{TEXT_PRIMARY};
+    font-size:0.8rem;
+    font-weight:600;
+    padding:0.35rem 0.75rem;
+    border-radius:6px;
+    cursor:pointer;
+  }}
+  .board-btn:disabled {{ opacity:0.45; cursor:not-allowed; }}
+  .board-btn:active {{ transform:translateY(1px); }}
+
+  @media (max-width: 860px) {{
+    .opening-board-layout {{ grid-template-columns:1fr; }}
+    .opening-board {{ max-width:420px; }}
+  }}
 </style>"""
-    head_extras = tier_css + '\n<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>'
+    head_extras = (
+        tier_css
+        + '\n<link rel="stylesheet" href="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.css">'
+        + '\n<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>'
+        + '\n<script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>'
+        + '\n<script src="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.js"></script>'
+        + '\n<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>'
+    )
     return _page_shell("Opening Detail", _nav_html("openings.html"), body, head_extras=head_extras)
 
 
@@ -1930,9 +2136,15 @@ def run_visualizer() -> None:
         src = Path(__file__).parent / "assets" / asset_name
         dst = Path(ASSETS_DIR) / asset_name
         if src.exists():
-            import shutil
-
             shutil.copy2(src, dst)
+
+    opening_lines_src = Path(OPENING_LINES_JSON)
+    opening_lines_dst = Path(ASSETS_DIR) / "opening_lines.json"
+    if opening_lines_src.exists():
+      shutil.copy2(opening_lines_src, opening_lines_dst)
+      print(f"Opening lines written -> {opening_lines_dst}")
+    else:
+      print(f"Warning: opening lines source not found at {opening_lines_src}")
 
     overview_html = render_overview(forecasts, engine_df, findings)
     overview_path = os.path.join(OUTPUT_DIR, "index.html")
@@ -1970,8 +2182,6 @@ def run_visualizer() -> None:
         stale_file.unlink(missing_ok=True)
     stale_dir = Path(OUTPUT_DIR) / "opening"
     if stale_dir.exists() and stale_dir.is_dir():
-        import shutil
-
         shutil.rmtree(stale_dir)
 
     families_html = render_families(forecasts)
