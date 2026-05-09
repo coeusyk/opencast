@@ -25,6 +25,7 @@ See [findings/findings.md](findings/findings.md) and [findings/findings.json](fi
   - Curated opening lines live in `data/opening_lines.json`.
   - `run_visualizer()` copies lines to `data/output/dashboard/assets/opening_lines.json`.
   - Opening pages can render an interactive board with start/back/next controls when a curated line is available.
+  - Board coordinate labels are hidden on the interactive board to prevent overlap with piece sprites.
 
 
 ## How It Works

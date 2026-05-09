@@ -331,15 +331,15 @@ On mobile, stack vertically: board → move list + controls → forecast chart.
 
 ### 3.4 Acceptance Criteria
 
-- [ ] `data/opening_lines.json` exists with entries for all 20 current Tier 1 openings.
-- [ ] `opening_lines.json` is copied to `assets/` by `run_visualizer()` on every build.
-- [ ] Per-opening page loads the board correctly for a known ECO (e.g., `opening.html?eco=C60`).
-- [ ] Next/Back/Start controls advance and retreat the position correctly.
-- [ ] Keyboard arrow keys work (Left/Right).
-- [ ] Move list highlights the current move.
-- [ ] If `opening_lines.json` has no entry for a given ECO, the board section is hidden cleanly (no JS error, no empty box).
-- [ ] Board renders correctly on mobile (min width 280px).
-- [ ] No new npm build step or external toolchain introduced; CDN-only dependencies.
+- [x] `data/opening_lines.json` exists with entries for all 20 current Tier 1 openings.
+- [x] `opening_lines.json` is copied to `assets/` by `run_visualizer()` on every build.
+- [x] Per-opening page loads the board correctly for a known ECO (e.g., `opening.html?eco=C60`).
+- [x] Next/Back/Start controls advance and retreat the position correctly.
+- [x] Keyboard arrow keys work (Left/Right).
+- [x] Move list highlights the current move.
+- [x] If `opening_lines.json` has no entry for a given ECO, the board section is hidden cleanly (no JS error, no empty box).
+- [x] Board renders correctly on mobile (min width 280px).
+- [x] No new npm build step or external toolchain introduced; CDN-only dependencies.
 
 ### 3.5 Future Extensions (not v1.0.0 scope)
 

@@ -363,7 +363,7 @@ function renderOpeningBoard(eco, openingLines) {
   const board = Chessboard(boardEl, {
     position: initialFen,
     draggable: false,
-    showNotation: true,
+    showNotation: false,
     pieceTheme: "assets/chesspieces/wikipedia/{piece}.png",
   });
 
@@ -502,21 +502,20 @@ function renderOpening(eco, opening, openingLines) {
       historicalSummaryBox.innerHTML = "";
       return;
     }
-    const sum = vals.reduce((a, b) => a + b, 0);
-    const mean = sum / vals.length;
-    const min = Math.min(...vals);
-    const max = Math.max(...vals);
-    const last = vals[vals.length - 1];
+    const last3 = vals.slice(-3);
+    const last12 = vals.slice(-12);
+    const avg3 = last3.reduce((a, b) => a + b, 0) / last3.length;
+    const avg12 = last12.reduce((a, b) => a + b, 0) / last12.length;
+    const above50 = vals.filter((v) => v > 0.5).length;
     const fmt = (v) => `${(v * 100).toFixed(2)}%`;
 
     historicalSummaryBox.style.display = "block";
     historicalSummaryBox.innerHTML = `
       <h3 style="margin:0 0 0.85rem;">Historical Summary</h3>
       <div class="historical-grid">
-        <div class="historical-stat"><p class="historical-label">Latest</p><p class="historical-value">${fmt(last)}</p></div>
-        <div class="historical-stat"><p class="historical-label">Mean</p><p class="historical-value">${fmt(mean)}</p></div>
-        <div class="historical-stat"><p class="historical-label">Min</p><p class="historical-value">${fmt(min)}</p></div>
-        <div class="historical-stat"><p class="historical-label">Max</p><p class="historical-value">${fmt(max)}</p></div>
+        <div class="historical-stat"><p class="historical-label">3-Month Avg</p><p class="historical-value">${fmt(avg3)}</p></div>
+        <div class="historical-stat"><p class="historical-label">12-Month Avg</p><p class="historical-value">${fmt(avg12)}</p></div>
+        <div class="historical-stat"><p class="historical-label">Months Above 50%</p><p class="historical-value">${above50} / ${vals.length} months</p></div>
       </div>
       <p style="margin:0.6rem 0 0;font-size:0.78rem;color:${TEXT_SECONDARY};">Based on ${vals.length} months of data.</p>
     `;
