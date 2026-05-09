@@ -439,10 +439,8 @@ function renderOpeningBoard(eco, openingLines) {
     boardEl.style.width = `${boardPx}px`;
     boardEl.style.height = `${boardPx}px`;
 
-    const sqA8 = boardEl.querySelector('[data-square="a8"]');
-    const sqA1 = boardEl.querySelector('[data-square="a1"]');
-    const sqH1 = boardEl.querySelector('[data-square="h1"]');
-    if (!(sqA8 && sqA1 && sqH1)) {
+    const squares = Array.from(boardEl.querySelectorAll("[data-square]"));
+    if (!squares.length) {
       ranksEl.style.height = `${boardPx}px`;
       filesEl.style.width = `${boardPx}px`;
       ranksEl.style.marginTop = "0px";
@@ -452,13 +450,34 @@ function renderOpeningBoard(eco, openingLines) {
       return;
     }
 
-    const a8 = sqA8.getBoundingClientRect();
-    const a1 = sqA1.getBoundingClientRect();
-    const h1 = sqH1.getBoundingClientRect();
-    const filesStart = a1.left - boardRect.left;
-    const filesSpan = h1.right - a1.left;
-    const ranksStart = a8.top - boardRect.top;
-    const ranksSpan = a1.bottom - a8.top;
+    let minLeft = Number.POSITIVE_INFINITY;
+    let maxRight = Number.NEGATIVE_INFINITY;
+    let minTop = Number.POSITIVE_INFINITY;
+    let maxBottom = Number.NEGATIVE_INFINITY;
+
+    for (const sq of squares) {
+      const r = sq.getBoundingClientRect();
+      if (!Number.isFinite(r.left) || !Number.isFinite(r.top)) continue;
+      minLeft = Math.min(minLeft, r.left);
+      maxRight = Math.max(maxRight, r.right);
+      minTop = Math.min(minTop, r.top);
+      maxBottom = Math.max(maxBottom, r.bottom);
+    }
+
+    if (!Number.isFinite(minLeft) || !Number.isFinite(maxRight) || !Number.isFinite(minTop) || !Number.isFinite(maxBottom)) {
+      ranksEl.style.height = `${boardPx}px`;
+      filesEl.style.width = `${boardPx}px`;
+      ranksEl.style.marginTop = "0px";
+      filesEl.style.marginLeft = "0px";
+      ranksEl.style.gridTemplateRows = "repeat(8, minmax(0, 1fr))";
+      filesEl.style.gridTemplateColumns = "repeat(8, minmax(0, 1fr))";
+      return;
+    }
+
+    const filesStart = minLeft - boardRect.left;
+    const filesSpan = maxRight - minLeft;
+    const ranksStart = minTop - boardRect.top;
+    const ranksSpan = maxBottom - minTop;
     const fileStep = filesSpan / 8;
     const rankStep = ranksSpan / 8;
 
