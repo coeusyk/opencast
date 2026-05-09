@@ -4,10 +4,18 @@ target/
 .env
 LICHESS_TOKEN
 
-# Generated data — directories are tracked via .gitkeep
+# Generated data — ignore most, but explicitly allow tracked outputs
+# First, ignore broadly
 data/processed/*.csv
 data/output/*.csv
+data/output/*.json
 data/output/*.html
+
+# Then allow specific tracked files
+!data/processed/openings_ts.csv
+!data/output/forecasts.csv
+!data/output/engine_delta.csv
+!data/output/dashboard/
 !data/**/.gitkeep
 
 __pycache__/
