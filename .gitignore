@@ -13,7 +13,6 @@ data/output/*.html
 
 # Then allow specific tracked files
 !data/processed/openings_ts.csv
-!data/output/move_stats.csv
 !data/output/forecasts.csv
 !data/output/engine_delta.csv
 !data/output/dashboard/
