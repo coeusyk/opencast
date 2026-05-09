@@ -1453,7 +1453,6 @@ function renderOpening(eco, opening, openingLines) {{
 
   const isNarrow = window.matchMedia("(max-width: 760px)").matches;
   const layout = {{
-    title: `${{eco}} — ${{name}}`,
     xaxis: {{
       title: isNarrow ? "" : "Month",
       gridcolor: GRID_COLOR,
@@ -1461,16 +1460,20 @@ function renderOpening(eco, opening, openingLines) {{
       tickfont: {{ color: TEXT_SECONDARY, size: isNarrow ? 10 : 12 }},
       tickangle: isNarrow ? -35 : 0,
     }},
-    yaxis: {{ title: "White Win Rate", gridcolor: GRID_COLOR, zerolinecolor: GRID_COLOR, tickfont: {{ color: TEXT_SECONDARY }} }},
+    yaxis: {{
+      title: isNarrow ? "" : "Win Rate",
+      gridcolor: GRID_COLOR,
+      zerolinecolor: GRID_COLOR,
+      tickfont: {{ color: TEXT_SECONDARY, size: isNarrow ? 10 : 12 }},
+    }},
     plot_bgcolor: PANEL_BG,
     paper_bgcolor: PANEL_BG,
     font: {{ family: BODY_FONT, color: TEXT_PRIMARY }},
-    title_font: {{ family: DISPLAY_FONT, size: 18, color: TEXT_PRIMARY }},
-    margin: isNarrow ? {{ t: 48, r: 10, b: 70, l: 46 }} : {{ t: 60, r: 30, b: 60, l: 60 }},
+    margin: isNarrow ? {{ t: 36, r: 8, b: 52, l: 40 }} : {{ t: 36, r: 20, b: 52, l: 56 }},
     legend: {{
       orientation: "h",
       x: 0,
-      y: 1.08,
+      y: 1.0,
       xanchor: "left",
       yanchor: "bottom",
       font: {{ size: 11, color: TEXT_SECONDARY }},
