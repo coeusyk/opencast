@@ -649,7 +649,11 @@ def render_opening_template() -> str:
   <h3 style="margin:0 0 0.5rem;">Opening Board</h3>
   <p id="opening-line-name" style="margin:0 0 0.85rem;color:{TEXT_SECONDARY};font-size:0.84rem;"></p>
   <div class="opening-board-layout">
-    <div id="opening-board" class="opening-board"></div>
+    <div class="opening-board-frame">
+      <div id="opening-board-ranks" class="board-ranks" aria-hidden="true"></div>
+      <div id="opening-board" class="opening-board"></div>
+      <div id="opening-board-files" class="board-files" aria-hidden="true"></div>
+    </div>
     <div class="opening-line-panel">
       <div id="opening-move-list" class="opening-move-list"></div>
       <div class="opening-board-controls">
@@ -797,6 +801,8 @@ function resolveEco(data) {{
 function renderOpeningBoard(eco, openingLines) {{
   const boardSection = document.getElementById("opening-board-section");
   const boardEl = document.getElementById("opening-board");
+  const ranksEl = document.getElementById("opening-board-ranks");
+  const filesEl = document.getElementById("opening-board-files");
   const moveListEl = document.getElementById("opening-move-list");
   const lineNameEl = document.getElementById("opening-line-name");
   const flipBtn = document.getElementById("btn-flip");
@@ -848,6 +854,17 @@ function renderOpeningBoard(eco, openingLines) {{
   let currentIndex = 0;
   let boardFlipped = false;
 
+  function renderCoordinates(isFlipped) {{
+    const rankLabels = isFlipped
+      ? ["1", "2", "3", "4", "5", "6", "7", "8"]
+      : ["8", "7", "6", "5", "4", "3", "2", "1"];
+    const fileLabels = isFlipped
+      ? ["h", "g", "f", "e", "d", "c", "b", "a"]
+      : ["a", "b", "c", "d", "e", "f", "g", "h"];
+    ranksEl.innerHTML = rankLabels.map((label) => `<span class="board-coord">${{label}}</span>`).join("");
+    filesEl.innerHTML = fileLabels.map((label) => `<span class="board-coord">${{label}}</span>`).join("");
+  }}
+
   function renderMoveList(activeIndex) {{
     const rows = [];
     for (let i = 0; i < moves.length; i += 2) {{
@@ -890,10 +907,12 @@ function renderOpeningBoard(eco, openingLines) {{
 
   lineNameEl.textContent = primaryLine.name || `Main line (${{eco}})`;
   boardSection.style.display = "block";
+  renderCoordinates(boardFlipped);
 
   flipBtn.onclick = () => {{
     boardFlipped = !boardFlipped;
     board.orientation(boardFlipped ? "black" : "white");
+    renderCoordinates(boardFlipped);
   }};
   resetBtn.onclick = () => goToMove(0);
   prevBtn.onclick = () => goToMove(currentIndex - 1);
@@ -1402,7 +1421,17 @@ init();
     gap:1rem;
     align-items:start;
   }}
+  .opening-board-frame {{
+    display:grid;
+    grid-template-columns:1rem minmax(280px, 360px);
+    grid-template-rows:minmax(280px, 360px) 1rem;
+    column-gap:0.45rem;
+    row-gap:0.4rem;
+    align-items:stretch;
+  }}
   .opening-board {{
+    grid-column:2;
+    grid-row:1;
     width:100%;
     min-width:280px;
     aspect-ratio:1 / 1;
@@ -1412,6 +1441,32 @@ init();
     opacity:1;
     transition:opacity 0.2s ease;
   }}
+  .board-ranks {{
+    grid-column:1;
+    grid-row:1;
+    display:grid;
+    grid-template-rows:repeat(8, minmax(0, 1fr));
+    align-items:center;
+    justify-items:center;
+    color:{TEXT_SECONDARY};
+    font-size:0.72rem;
+    font-weight:600;
+    user-select:none;
+  }}
+  .board-files {{
+    grid-column:2;
+    grid-row:2;
+    display:grid;
+    grid-template-columns:repeat(8, minmax(0, 1fr));
+    align-items:center;
+    justify-items:center;
+    color:{TEXT_SECONDARY};
+    font-size:0.72rem;
+    font-weight:600;
+    user-select:none;
+    text-transform:lowercase;
+  }}
+  .board-coord {{ line-height:1; }}
   .opening-line-panel {{ display:flex; flex-direction:column; gap:0.7rem; min-width:0; }}
   .opening-move-list {{
     background:rgba(255,255,255,0.03);
@@ -1452,6 +1507,7 @@ init();
 
   @media (max-width: 860px) {{
     .opening-board-layout {{ grid-template-columns:1fr; }}
+    .opening-board-frame {{ grid-template-columns:1rem minmax(280px, 420px); grid-template-rows:minmax(280px, 420px) 1rem; }}
     .opening-board {{ max-width:420px; }}
     .historical-grid {{ grid-template-columns:repeat(2, minmax(0, 1fr)); }}
   }}
