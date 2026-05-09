@@ -800,6 +800,7 @@ function resolveEco(data) {{
 
 function renderOpeningBoard(eco, openingLines) {{
   const boardSection = document.getElementById("opening-board-section");
+  const frameEl = document.querySelector(".opening-board-frame");
   const boardEl = document.getElementById("opening-board");
   const ranksEl = document.getElementById("opening-board-ranks");
   const filesEl = document.getElementById("opening-board-files");
@@ -865,6 +866,52 @@ function renderOpeningBoard(eco, openingLines) {{
     filesEl.innerHTML = fileLabels.map((label) => `<span class="board-coord">${{label}}</span>`).join("");
   }}
 
+  function syncCoordinateGeometry() {{
+    const boardGrid = boardEl.querySelector(".board-b72b1");
+    const boardRect = boardGrid
+      ? boardGrid.getBoundingClientRect()
+      : boardEl.getBoundingClientRect();
+    const boardPx = Math.round(boardRect.width);
+    if (!Number.isFinite(boardPx) || boardPx <= 0) {{
+      return;
+    }}
+    frameEl.style.gridTemplateColumns = `1rem ${{boardPx}}px`;
+    frameEl.style.gridTemplateRows = `${{boardPx}}px 1rem`;
+    boardEl.style.width = `${{boardPx}}px`;
+    boardEl.style.height = `${{boardPx}}px`;
+
+    const sqA8 = boardEl.querySelector('[data-square="a8"]');
+    const sqA1 = boardEl.querySelector('[data-square="a1"]');
+    const sqH1 = boardEl.querySelector('[data-square="h1"]');
+    if (!(sqA8 && sqA1 && sqH1)) {{
+      ranksEl.style.height = `${{boardPx}}px`;
+      filesEl.style.width = `${{boardPx}}px`;
+      ranksEl.style.marginTop = "0px";
+      filesEl.style.marginLeft = "0px";
+      ranksEl.style.gridTemplateRows = "repeat(8, minmax(0, 1fr))";
+      filesEl.style.gridTemplateColumns = "repeat(8, minmax(0, 1fr))";
+      return;
+    }}
+
+    const a8 = sqA8.getBoundingClientRect();
+    const a1 = sqA1.getBoundingClientRect();
+    const h1 = sqH1.getBoundingClientRect();
+    const filesStart = a1.left - boardRect.left;
+    const filesSpan = h1.right - a1.left;
+    const ranksStart = a8.top - boardRect.top;
+    const ranksSpan = a1.bottom - a8.top;
+    const fileStep = filesSpan / 8;
+    const rankStep = ranksSpan / 8;
+
+    filesEl.style.width = `${{filesSpan}}px`;
+    filesEl.style.marginLeft = `${{filesStart}}px`;
+    filesEl.style.gridTemplateColumns = `repeat(8, ${{fileStep}}px)`;
+
+    ranksEl.style.height = `${{ranksSpan}}px`;
+    ranksEl.style.marginTop = `${{ranksStart}}px`;
+    ranksEl.style.gridTemplateRows = `repeat(8, ${{rankStep}}px)`;
+  }}
+
   function renderMoveList(activeIndex) {{
     const rows = [];
     for (let i = 0; i < moves.length; i += 2) {{
@@ -912,6 +959,7 @@ function renderOpeningBoard(eco, openingLines) {{
   flipBtn.onclick = () => {{
     boardFlipped = !boardFlipped;
     board.orientation(boardFlipped ? "black" : "white");
+    syncCoordinateGeometry();
     renderCoordinates(boardFlipped);
   }};
   resetBtn.onclick = () => goToMove(0);
@@ -934,6 +982,7 @@ function renderOpeningBoard(eco, openingLines) {{
   goToMove(0);
   const forceBoardResize = () => {{
     board.resize();
+    syncCoordinateGeometry();
     goToMove(currentIndex);
   }};
   requestAnimationFrame(forceBoardResize);
