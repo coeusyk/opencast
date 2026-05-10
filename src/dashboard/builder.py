@@ -23,6 +23,7 @@ from .pages.families import render_families
 from .pages.opening_template import render_opening_template
 from .pages.openings import render_openings_table
 from .pages.overview import render_overview
+from ..report import _forecast_directions
 
 
 def run_visualizer() -> None:
@@ -81,19 +82,6 @@ def run_visualizer() -> None:
     else:
         print(f"Warning: opening lines source not found at {opening_lines_src}")
 
-    overview_html = render_overview(forecasts, engine_df, findings)
-    overview_path = os.path.join(OUTPUT_DIR, "index.html")
-    Path(overview_path).write_text(overview_html, encoding="utf-8")
-    print(f"Overview written -> {overview_path}")
-
-    if not catalog.empty:
-        openings_html = render_openings_table(forecasts, engine_df, catalog)
-        openings_path = os.path.join(OUTPUT_DIR, "openings.html")
-        Path(openings_path).write_text(openings_html, encoding="utf-8")
-        print(f"Openings table written -> {openings_path}")
-
-    from ..report import _forecast_directions
-
     _, trend_signals = _forecast_directions(forecasts)
     openings_data = _serialize_openings_data(
         forecasts,
@@ -105,6 +93,24 @@ def run_visualizer() -> None:
         move_stats_df,
         trend_signals=trend_signals,
     )
+
+    overview_html = render_overview(
+        forecasts,
+        engine_df,
+        findings,
+        trend_signals=trend_signals,
+        openings_data=openings_data,
+    )
+    overview_path = os.path.join(OUTPUT_DIR, "index.html")
+    Path(overview_path).write_text(overview_html, encoding="utf-8")
+    print(f"Overview written -> {overview_path}")
+
+    if not catalog.empty:
+        openings_html = render_openings_table(forecasts, engine_df, catalog)
+        openings_path = os.path.join(OUTPUT_DIR, "openings.html")
+        Path(openings_path).write_text(openings_html, encoding="utf-8")
+        print(f"Openings table written -> {openings_path}")
+
     openings_data_path = os.path.join(ASSETS_DIR, "openings_data.json")
     Path(openings_data_path).write_text(json.dumps(openings_data, indent=2), encoding="utf-8")
     print(f"Openings data written -> {openings_data_path}")

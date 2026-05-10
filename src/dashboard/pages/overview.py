@@ -16,6 +16,8 @@ def render_overview(
     forecasts: pd.DataFrame,
     engine_df: pd.DataFrame,
     findings_json: dict | None,
+  trend_signals: dict | None = None,
+  openings_data: dict | None = None,
 ) -> str:
     """Render data/output/dashboard/index.html."""
     n_openings = int(engine_df["eco"].nunique()) if not engine_df.empty else 0
@@ -117,7 +119,33 @@ def render_overview(
     ma3_delta: float | None = None
     trend_counts = {"rising": 0, "falling": 0, "stable": 0}
 
-    if not forecasts.empty:
+    if openings_data:
+      for opening in openings_data.values():
+        direction = str(opening.get("trend_direction", "stable")).lower()
+        if direction in trend_counts:
+          trend_counts[direction] += 1
+
+    if trend_signals:
+      for eco, signal in trend_signals.items():
+        if not openings_data:
+          direction = str(getattr(signal, "direction", "stable") or "stable").lower()
+          if direction in trend_counts:
+            trend_counts[direction] += 1
+      strongest_eco = None
+      strongest_signal = None
+      for eco, signal in trend_signals.items():
+        slope = getattr(signal, "slope_per_month", None)
+        if slope is None:
+          continue
+        if strongest_signal is None or abs(float(slope)) > abs(float(getattr(strongest_signal, "slope_per_month", 0.0))):
+          strongest_eco = str(eco)
+          strongest_signal = signal
+      if strongest_eco and strongest_signal is not None:
+        steep_eco = strongest_eco
+        steep_fc_delta = float(getattr(strongest_signal, "slope_per_month", 0.0))
+        names = forecasts[forecasts["eco"] == steep_eco]["opening_name"]
+        steep_name = _resolve_name(steep_eco, str(names.iloc[0]).strip() if not names.empty else "")
+    elif not forecasts.empty:
       try:
         from ...report import _full_series_ols
 
