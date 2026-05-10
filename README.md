@@ -26,6 +26,10 @@ See [findings/findings.md](findings/findings.md) and [findings/findings.json](fi
   - `run_visualizer()` copies lines to `data/output/dashboard/assets/opening_lines.json`.
   - Opening pages can render an interactive board with start/back/next controls when a curated line is available.
   - Board coordinate labels render outside the board frame (not over piece squares).
+- Track 5 hardening is in place for the v1.0.0 push:
+  - Schema contracts live in `SCHEMAS.md`.
+  - The release guide is in `READING_OPENCAST.md`.
+  - CI now enforces a configurable runtime budget from `config.json`.
 
 
 ## How It Works
@@ -105,6 +109,8 @@ python scripts/temp_bootstrap_openings.py --apply --eco-offset 240
 ## Architecture
 
 See [ARCHITECTURE.md](ARCHITECTURE.md) for full module specifications, data schemas, and mathematical derivations.
+
+See [SCHEMAS.md](SCHEMAS.md) for artifact-level contracts and [READING_OPENCAST.md](READING_OPENCAST.md) for the release-facing interpretation guide.
 
 ```mermaid
 ---

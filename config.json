@@ -10,5 +10,6 @@
   "eval_start_offset_months": 24,
   "eval_horizons": [1, 2, 3],
   "tier1_model_mae_threshold_pp": 1.0,
-  "tier2_model_mae_threshold_pp": 0.5
+  "tier2_model_mae_threshold_pp": 0.5,
+  "ci_runtime_budget_minutes": 45
 }

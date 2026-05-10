@@ -42,6 +42,9 @@ OUTPUT_COLUMNS = [
     "model_name",
 ]
 
+REQUIRED_INPUT_COLUMNS = {"eco", "month", "opening_name", "white_win_rate", "total"}
+REQUIRED_CATALOG_COLUMNS = {"eco", "model_tier"}
+
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 log = logging.getLogger(__name__)
 
@@ -227,8 +230,15 @@ def run_timeseries(df: pd.DataFrame | None = None) -> pd.DataFrame:
     else:
         df = df.copy()
 
+    missing_input = REQUIRED_INPUT_COLUMNS - set(df.columns)
+    if missing_input:
+        raise ValueError(f"openings_ts.csv missing required columns: {sorted(missing_input)}")
+
     # Load catalog and split into tiers
     catalog = pd.read_csv(CATALOG_CSV)
+    missing_catalog = REQUIRED_CATALOG_COLUMNS - set(catalog.columns)
+    if missing_catalog:
+        raise ValueError(f"openings_catalog.csv missing required columns: {sorted(missing_catalog)}")
     tier1_ecos = set(catalog.loc[catalog["model_tier"] == 1, "eco"])
     tier2_ecos = set(catalog.loc[catalog["model_tier"] == 2, "eco"])
     tier3_ecos = set(catalog.loc[catalog["model_tier"] == 3, "eco"])

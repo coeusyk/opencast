@@ -172,7 +172,9 @@ jobs:
           echo "Found $count raw JSON files — proceeding."
 
       - name: Run full pipeline via main.py (recalculate trends + rebuild dashboard)
+        id: pipeline_run
         run: |
+          start_ts=$(date +%s)
           rm -f data/processed/openings_ts.csv \
                 data/output/move_stats.csv \
                 data/output/forecasts.csv \
@@ -180,6 +182,20 @@ jobs:
           rm -f findings/findings.md findings/findings.json
           rm -rf data/output/dashboard/
           AUTO_FETCH_MISSING_DATA=false python main.py
+          end_ts=$(date +%s)
+          elapsed_seconds=$((end_ts - start_ts))
+          runtime_budget_minutes=$(python - <<'EOF'
+          import json
+          with open('config.json', encoding='utf-8') as f:
+              print(json.load(f).get('ci_runtime_budget_minutes', 45))
+          EOF
+          )
+          runtime_budget_seconds=$((runtime_budget_minutes * 60))
+          echo "Pipeline runtime: ${elapsed_seconds}s (budget ${runtime_budget_seconds}s)"
+          if [ "$elapsed_seconds" -gt "$runtime_budget_seconds" ]; then
+            echo "::error::Pipeline runtime ${elapsed_seconds}s exceeded budget ${runtime_budget_seconds}s"
+            exit 1
+          fi
 
       - name: Commit updated outputs
         run: |

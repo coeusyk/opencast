@@ -32,6 +32,9 @@ CATALOG_CSV = os.path.join(_HERE, "..", "data", "openings_catalog.csv")
 CONFIG_JSON = os.path.join(_HERE, "..", "config.json")
 OUTPUT_CSV = os.path.join(_HERE, "..", "data", "output", "model_eval_summary.csv")
 
+REQUIRED_TS_COLUMNS = {"eco", "month", "white_win_rate", "total"}
+REQUIRED_CATALOG_COLUMNS = {"eco", "model_tier"}
+
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 log = logging.getLogger(__name__)
 
@@ -129,6 +132,13 @@ def run_model_eval(
     """
     df = pd.read_csv(ts_csv)
     catalog = pd.read_csv(catalog_csv)
+
+    missing_ts = REQUIRED_TS_COLUMNS - set(df.columns)
+    if missing_ts:
+        raise ValueError(f"openings_ts.csv missing required columns: {sorted(missing_ts)}")
+    missing_catalog = REQUIRED_CATALOG_COLUMNS - set(catalog.columns)
+    if missing_catalog:
+        raise ValueError(f"openings_catalog.csv missing required columns: {sorted(missing_catalog)}")
 
     eval_catalog = catalog[catalog["model_tier"].isin([1, 2])].copy()
 

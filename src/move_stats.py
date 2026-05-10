@@ -1,4 +1,5 @@
 import json
+import logging
 from pathlib import Path
 
 import pandas as pd
@@ -6,6 +7,16 @@ import pandas as pd
 _HERE = Path(__file__).resolve().parent
 RAW_DIR = _HERE.parent / "data" / "raw"
 OUTPUT_CSV = _HERE.parent / "data" / "output" / "move_stats.csv"
+
+log = logging.getLogger(__name__)
+
+
+def _require_months_dict(file_data: dict, fpath: Path) -> dict:
+    months = file_data.get("months")
+    if not isinstance(months, dict):
+        log.warning("Skipping malformed raw file %s: missing months dict", fpath)
+        return {}
+    return months
 
 
 def run_move_stats(raw_dir: Path = RAW_DIR, output_csv: Path = OUTPUT_CSV) -> pd.DataFrame:
@@ -22,15 +33,17 @@ def run_move_stats(raw_dir: Path = RAW_DIR, output_csv: Path = OUTPUT_CSV) -> pd
             with fpath.open(encoding="utf-8") as f:
                 file_data = json.load(f)
         except Exception:
+            log.warning("Skipping unreadable raw file %s", fpath)
             continue
 
         eco = str(file_data.get("eco", fpath.stem))
-        months = file_data.get("months", {})
-        if not isinstance(months, dict):
+        months = _require_months_dict(file_data, fpath)
+        if not months:
             continue
 
         for month, payload in sorted(months.items()):
             if not isinstance(payload, dict):
+                log.warning("Skipping malformed move payload for %s %s", eco, month)
                 continue
 
             month_white = int(payload.get("white", 0) or 0)
@@ -42,6 +55,7 @@ def run_move_stats(raw_dir: Path = RAW_DIR, output_csv: Path = OUTPUT_CSV) -> pd
 
             moves = payload.get("moves", [])
             if not isinstance(moves, list):
+                log.warning("Skipping %s %s: moves payload is not a list", eco, month)
                 continue
 
             for mv in moves:
