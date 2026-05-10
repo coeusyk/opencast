@@ -34,14 +34,13 @@ def _require_columns(df: pd.DataFrame, required: set[str], source: str) -> None:
 def _get_fen_from_uci_moves(uci_moves: str, min_moves: int = 4) -> str:
     """Replay UCI moves and return the resulting FEN.
 
-    Raises ValueError when the sequence is too short to represent a useful opening line.
+    Accept any non-empty move sequence from the catalog so short opening definitions
+    (for example one or two plies) are still evaluated instead of being dropped.
     """
     board = chess.Board()
     move_list = [uci.strip() for uci in uci_moves.split(",") if uci.strip()]
-    if len(move_list) < min_moves:
-        raise ValueError(
-            f"Move sequence too short ({len(move_list)} moves, expected >= {min_moves}): {uci_moves!r}"
-        )
+    if not move_list:
+        raise ValueError(f"Move sequence is empty: {uci_moves!r}")
     for uci in move_list:
         board.push_uci(uci)
     return board.fen()
