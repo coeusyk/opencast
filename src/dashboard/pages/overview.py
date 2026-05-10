@@ -70,68 +70,100 @@ def render_overview(
     ed_title, ed_body = _split_insight(str(ed_insight), "Engine vs Human Gap")
     hm_title, hm_body = _split_insight(str(hm_insight), "ECO Family Patterns")
 
-    top_pos_eco = top_pos_name = top_neg_eco = top_neg_name = steep_eco = steep_name = "—"
-    top_pos_delta_val = top_neg_delta_val = 0.0
-    top_pos_human = top_pos_engine_exp = top_neg_human = top_neg_engine_exp = None
-    steep_fc_delta: float | None = None
+    catalog_names: dict[str, str] = {}
+    try:
+      catalog_df = pd.read_csv(CATALOG_CSV)
+      if {"eco", "name"}.issubset(catalog_df.columns):
+        catalog_names = {
+          str(row["eco"]): str(row["name"])
+          for _, row in catalog_df[["eco", "name"]].dropna(subset=["eco"]).iterrows()
+        }
+    except Exception:
+      catalog_names = {}
 
-    if not engine_df.empty and "delta" in engine_df.columns:
-        summary_df = engine_df.dropna(subset=["delta"]).copy()
-        pos = summary_df[summary_df["delta"] > 0].sort_values("delta", ascending=False)
-        neg = summary_df[summary_df["delta"] < 0].sort_values("delta", ascending=True)
-        if not pos.empty:
-            row = pos.iloc[0]
-            top_pos_eco = str(row["eco"])
-            top_pos_name = str(row.get("opening_name", ""))
-            top_pos_delta_val = float(row["delta"])
-            if "human_win_rate_2000" in row.index:
-                top_pos_human = float(row["human_win_rate_2000"])
-            if "p_engine" in row.index:
-                top_pos_engine_exp = float(row["p_engine"])
-        if not neg.empty:
-            row = neg.iloc[0]
-            top_neg_eco = str(row["eco"])
-            top_neg_name = str(row.get("opening_name", ""))
-            top_neg_delta_val = float(row["delta"])
-            if "human_win_rate_2000" in row.index:
-                top_neg_human = float(row["human_win_rate_2000"])
-            if "p_engine" in row.index:
-                top_neg_engine_exp = float(row["p_engine"])
+    def _resolve_name(eco: str, fallback: str = "") -> str:
+      candidate = str(fallback or "").strip()
+      if candidate and candidate != eco:
+        return candidate
+      return str(catalog_names.get(eco, eco))
+
+    abs_delta_eco = "—"
+    abs_delta_name = "—"
+    abs_delta_val = 0.0
+    abs_delta_human = None
+    abs_delta_engine = None
+    overperformers = 0
+    underperformers = 0
+
+    if not engine_df.empty and "delta" in engine_df.columns and "eco" in engine_df.columns:
+      summary_df = engine_df.dropna(subset=["delta", "eco"]).copy()
+      overperformers = int((summary_df["delta"] >= 0.05).sum())
+      underperformers = int((summary_df["delta"] <= -0.05).sum())
+      if not summary_df.empty:
+        top_abs = summary_df.assign(abs_delta=summary_df["delta"].abs()).sort_values("abs_delta", ascending=False).iloc[0]
+        abs_delta_eco = str(top_abs["eco"])
+        abs_delta_name = _resolve_name(abs_delta_eco, str(top_abs.get("opening_name", "")))
+        abs_delta_val = float(top_abs["delta"])
+        if "human_win_rate_2000" in top_abs.index and pd.notna(top_abs.get("human_win_rate_2000")):
+          abs_delta_human = float(top_abs["human_win_rate_2000"])
+        if "p_engine" in top_abs.index and pd.notna(top_abs.get("p_engine")):
+          abs_delta_engine = float(top_abs["p_engine"])
+
+    steep_eco = "—"
+    steep_name = "—"
+    steep_fc_delta: float | None = None
+    ma3_eco = "—"
+    ma3_name = "—"
+    ma3_delta: float | None = None
+    trend_counts = {"rising": 0, "falling": 0, "stable": 0}
 
     if not forecasts.empty:
-        try:
-            from ...report import _full_series_ols
+      try:
+        from ...report import _full_series_ols
 
-            ols_results = _full_series_ols(forecasts)
-            best = next((result for result in ols_results if result[1] != "stable"), None)
-            if best:
-                steep_eco = best[0]
-                steep_fc_delta = best[2]
-                names = forecasts[forecasts["eco"] == steep_eco]["opening_name"]
-                steep_name = ""
-                if not names.empty:
-                    candidate = str(names.iloc[0]).strip()
-                    steep_name = candidate if candidate and candidate != steep_eco else ""
-                if not steep_name:
-                    try:
-                        catalog = pd.read_csv(CATALOG_CSV)
-                        cat_row = catalog[catalog["eco"] == steep_eco]
-                        if not cat_row.empty and "name" in cat_row.columns:
-                            steep_name = str(cat_row["name"].iloc[0])
-                    except Exception:
-                        pass
-        except Exception:
-            pass
+        ols_results = _full_series_ols(forecasts)
+        for row in ols_results:
+          trend_direction = str(row[1] if len(row) > 1 else "stable").lower()
+          if trend_direction in trend_counts:
+            trend_counts[trend_direction] += 1
+        if ols_results:
+          steep = max(ols_results, key=lambda row: abs(float(row[2])))
+          steep_eco = str(steep[0])
+          steep_fc_delta = float(steep[2])
+          names = forecasts[forecasts["eco"] == steep_eco]["opening_name"]
+          steep_name = _resolve_name(steep_eco, str(names.iloc[0]).strip() if not names.empty else "")
+      except Exception:
+        pass
 
-    top_pos_delta_str = f"+{top_pos_delta_val * 100:.2f} pp vs engine"
-    top_neg_delta_str = f"{top_neg_delta_val * 100:.2f} pp vs engine"
-    top_pos_extra = f"Human win rate: {top_pos_human * 100:.1f}%" if top_pos_human is not None else ""
-    top_neg_extra = (
-        f"Engine: {top_neg_engine_exp * 100:.1f}% → Human: {top_neg_human * 100:.1f}%"
-        if top_neg_human is not None and top_neg_engine_exp is not None
-        else ""
+    if not actuals_only.empty and {"eco", "month", "actual"}.issubset(actuals_only.columns):
+      ma3_scan = actuals_only[["eco", "month", "actual"]].copy()
+      ma3_scan["month"] = pd.to_datetime(ma3_scan["month"], errors="coerce")
+      ma3_scan["actual"] = pd.to_numeric(ma3_scan["actual"], errors="coerce")
+      ma3_scan = ma3_scan.dropna(subset=["month", "actual"])
+      rising_candidates: list[tuple[str, float]] = []
+      for eco, grp in ma3_scan.groupby("eco"):
+        ordered = grp.sort_values("month")
+        ma3 = ordered["actual"].rolling(window=3, min_periods=3).mean()
+        valid = ma3.dropna()
+        if len(valid) >= 2:
+          delta_ma3 = float(valid.iloc[-1] - valid.iloc[-2])
+          if delta_ma3 > 0:
+            rising_candidates.append((str(eco), delta_ma3))
+      if rising_candidates:
+        ma3_eco, ma3_delta = max(rising_candidates, key=lambda item: item[1])
+        names = forecasts[forecasts["eco"] == ma3_eco]["opening_name"]
+        ma3_name = _resolve_name(ma3_eco, str(names.iloc[0]).strip() if not names.empty else "")
+
+    abs_delta_text = f"{abs_delta_val * 100:+.2f} pp vs engine"
+    abs_delta_class = "positive" if abs_delta_val > 0.005 else "negative" if abs_delta_val < -0.005 else "neutral"
+    abs_delta_extra = (
+      f"Engine: {abs_delta_engine * 100:.1f}% → Human: {abs_delta_human * 100:.1f}%"
+      if abs_delta_human is not None and abs_delta_engine is not None
+      else ""
     )
-    steep_extra = f"OLS trend: {steep_fc_delta * 100:+.4f} pp/month" if steep_fc_delta is not None else ""
+    steep_delta_text = f"{steep_fc_delta * 100:+.4f} pp/month" if steep_fc_delta is not None else "—"
+    steep_delta_class = "positive" if (steep_fc_delta or 0) > 0 else "negative" if (steep_fc_delta or 0) < 0 else "neutral"
+    ma3_text = f"{ma3_delta * 100:+.2f} pp (last 3M)" if ma3_delta is not None else "—"
 
     fig1 = _build_panel1_figure(forecasts, engine_df)
     fig1.update_layout(height=400, margin=dict(l=40, r=20, t=50, b=90))
@@ -219,6 +251,37 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
   border: 1px solid rgba(255,255,255,0.1);
   border-radius: 9999px; color: var(--color-text-muted);
   font-variant-numeric: tabular-nums;
+}
+.signal-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: -1rem 0 2rem;
+}
+.signal-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 12px;
+  line-height: 1.2;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.12);
+  color: var(--color-text-muted);
+  background: rgba(255,255,255,0.03);
+}
+.signal-chip.rise {
+  color: #7BE495;
+  border-color: rgba(123,228,149,0.28);
+  background: rgba(123,228,149,0.10);
+}
+.signal-chip.fall {
+  color: #F28DA6;
+  border-color: rgba(242,141,166,0.28);
+  background: rgba(242,141,166,0.10);
+}
+.signal-chip.flat {
+  color: var(--color-text-faint);
 }
 .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
 .btn-primary {
@@ -378,15 +441,22 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
         f'<div class="stat-pill" data-count="{high_conf_openings}" data-suffix=" high-confidence forecasts">{high_conf_openings} high-confidence forecasts</div>'
         f'<div class="stat-pill">Last updated: {_esc(last_updated)}</div>'
         '</div>'
+        '<div class="signal-row">'
+        f'<span class="signal-chip rise">↑ {_esc(trend_counts["rising"])} rising</span>'
+        f'<span class="signal-chip fall">↓ {_esc(trend_counts["falling"])} falling</span>'
+        f'<span class="signal-chip flat">→ {_esc(trend_counts["stable"])} stable</span>'
+        f'<span class="signal-chip rise">+5pp outperformance: {_esc(overperformers)}</span>'
+        f'<span class="signal-chip fall">-5pp underperformance: {_esc(underperformers)}</span>'
+        '</div>'
         '<div class="hero-actions">'
         '<a href="openings.html" class="btn-primary">Explore openings</a>'
         '<a href="families.html" class="btn-secondary">ECO families</a>'
         '</div>'
         '</div>'
         '<div class="hero-visual">'
-        + _proof_card("Top outperformer", top_pos_eco, top_pos_name, "positive", top_pos_delta_str, top_pos_extra)
-        + _proof_card("Largest engine gap", top_neg_eco, top_neg_name, "negative", top_neg_delta_str, top_neg_extra)
-        + _proof_card("Steepest rising trend", steep_eco, steep_name, "neutral", "↑ Forecast rising", steep_extra)
+        + _proof_card("Largest absolute engine delta", abs_delta_eco, abs_delta_name, abs_delta_class, abs_delta_text, abs_delta_extra)
+        + _proof_card("Largest absolute forecast slope", steep_eco, steep_name, steep_delta_class, steep_delta_text, "OLS trend slope")
+        + _proof_card("Fastest rising by 3-month MA", ma3_eco, ma3_name, "positive", ma3_text, "Latest 3M moving-average acceleration")
         + '</div>'
         '</section>'
     )
@@ -407,6 +477,8 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
     fc_body_text = str(fc_body or fc_insight or "Recent forecast signal is limited; monitor upcoming months for clearer direction.")
     ed_body_text = str(ed_body or ed_insight or "Engine and practical outcomes are compared to identify where play diverges from theory.")
     hm_body_text = str(hm_body or hm_insight or "Family-level win-rate aggregates highlight where practical performance clusters.")
+    if "50%" not in hm_body_text:
+      hm_body_text += " Use 50% as parity baseline: persistent deviations indicate family-level practical tilt."
 
     body = (
         hero_html
