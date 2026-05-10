@@ -11,6 +11,7 @@ This document is the release contract for generated artifacts. If one of these s
 | `data/output/forecasts.csv` | `src/timeseries.py` | `eco, opening_name, month, actual, forecast, lower_ci, upper_ci, is_forecast, structural_break, model_tier, forecast_quality, model_tier_override, model_name` | Historical rows keep `actual`; forecast rows keep the interval columns. |
 | `data/output/engine_delta.csv` | `src/engine_delta.py` | `eco, opening_name, engine_cp, p_engine, human_win_rate_2000, delta, interpretation` | Tier-1 only. Missing or malformed move chains are skipped per opening. |
 | `data/output/model_eval_summary.csv` | `src/model_eval.py` | `eco, model_name, horizon, mae_pp, rmse_pp, coverage_95, n_samples` | Offline evaluation output for Track 1 model selection. |
+| `data/output/model_selection.csv` | `src/model_selection.py` | `eco, model_tier, recommended_model, confidence, mae_pp, coverage_95, reason` | Audit artifact for model-choice decisions and fallback rationale. |
 
 ## JSON Artifacts
 
@@ -20,7 +21,7 @@ This document is the release contract for generated artifacts. If one of these s
 | `data/output/interval_calibration.json` | `src/model_selection.py` | `{model_name: {horizon: scale_factor}}` | Per-model, per-horizon interval-width calibration. |
 | `data/opening_lines.json` | hand-maintained | `{eco: {lines: [{id, name, starting_fen, moves_san}]}}` | Curated opening lines for the interactive board. |
 | `data/output/top_recommendations_*.json` | `src/opening_recommend.py` | `[{eco, name, score, delta, trend_slope}]` | Recommendation payload for the overview UI. |
-| `data/output/vex_hook.csv` | `src/opening_recommend.py` or a helper script | `eco, representative_fen, engine_human_delta, trend_class` | Bridge artifact for future engine-analysis work. |
+| `data/output/vex_hook.csv` | planned (`src/opening_recommend.py` or helper script) | `eco, representative_fen, engine_human_delta, trend_class` | Planned artifact; schema reserved but writer not yet implemented. |
 
 ## Operational Rules
 

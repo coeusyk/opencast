@@ -69,19 +69,36 @@ def build_model_choice(eval_csv: Path, catalog_csv: Path, config: dict[str, floa
         arima_mae = _mean_mae(eval_df, eco, "arima")
         hw_mae = _mean_mae(eval_df, eco, "holt_winters")
 
-        chosen_model = "arima" if tier == 1 else "holt_winters"
-        reason = "tier default"
-
         if tier == 1:
-            if naive_mae is not None and arima_mae is not None and (naive_mae - arima_mae) >= config["tier1_mae_threshold"]:
+            if (
+                naive_mae is not None
+                and arima_mae is not None
+                and (naive_mae - arima_mae) >= config["tier1_mae_threshold"]
+            ):
                 chosen_model = "arima"
                 reason = f"ARIMA beats naive by {naive_mae - arima_mae:.2f}pp"
+            elif (
+                naive_mae is not None
+                and hw_mae is not None
+                and (naive_mae - hw_mae) >= config["tier2_mae_threshold"]
+            ):
+                chosen_model = "holt_winters"
+                reason = f"ARIMA did not clear threshold; Holt-Winters beats naive by {naive_mae - hw_mae:.2f}pp"
+            elif naive_mae is not None:
+                chosen_model = "naive"
+                reason = "ARIMA/Holt-Winters did not clear thresholds; falling back to naive"
             elif hw_mae is not None:
                 chosen_model = "holt_winters"
-                reason = "ARIMA did not clear threshold; falling back to Holt-Winters"
+                reason = "naive unavailable; falling back to Holt-Winters"
+            elif arima_mae is not None:
+                chosen_model = "arima"
+                reason = "naive unavailable; falling back to ARIMA"
+            elif mean_mae is not None:
+                chosen_model = "mean"
+                reason = "naive unavailable; falling back to mean"
             else:
                 chosen_model = "naive"
-                reason = "ARIMA did not clear threshold; falling back to naive"
+                reason = "tier default fallback"
         else:
             if naive_mae is not None and hw_mae is not None and (naive_mae - hw_mae) >= config["tier2_mae_threshold"]:
                 chosen_model = "holt_winters"
