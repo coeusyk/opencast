@@ -2478,7 +2478,12 @@ def render_openings_table(
     return _page_shell("All Openings", _nav_html("openings.html"), table_html)
 
 
-def render_families(forecasts: pd.DataFrame) -> str:
+def render_families(
+    forecasts: pd.DataFrame,
+    engine_df: pd.DataFrame | None = None,
+    catalog: pd.DataFrame | None = None,
+    openings_data: dict | None = None,
+) -> str:
     """Render data/output/dashboard/families.html with dashboard-consistent layout."""
     actuals = forecasts[forecasts["is_forecast"] == False].copy()
     if not actuals.empty:
@@ -2486,14 +2491,74 @@ def render_families(forecasts: pd.DataFrame) -> str:
     else:
         actuals = pd.DataFrame(columns=["eco_group", "eco", "actual"])
 
+    engine_df = engine_df if engine_df is not None and not engine_df.empty else pd.DataFrame()
+    catalog = catalog if catalog is not None and not catalog.empty else pd.DataFrame()
+    openings_data = openings_data or {}
+
+    panel3 = _build_panel3_figure(engine_df)
+    panel3.update_layout(height=320, margin=dict(l=40, r=20, t=40, b=40))
+    panel3_html = panel3.to_html(full_html=False, include_plotlyjs="cdn")
+
+    family_catalog = {}
+    if not catalog.empty and "eco" in catalog.columns:
+        catalog_groups = catalog["eco"].astype(str).str[0]
+        for group, grp in catalog.assign(eco_group=catalog_groups).groupby("eco_group"):
+            family_catalog[group] = grp.copy()
+
     summary = []
     for group in sorted(ECO_COLORS):
-        sub = actuals[actuals["eco_group"] == group]
+        family_actuals = actuals[actuals["eco_group"] == group].copy()
+        family_mean_by_eco = family_actuals.groupby("eco")["actual"].mean() if not family_actuals.empty else pd.Series(dtype=float)
+        family_catalog_rows = family_catalog.get(group, pd.DataFrame())
+        family_openings = int(family_catalog_rows["eco"].nunique()) if not family_catalog_rows.empty else int(family_actuals["eco"].nunique())
+        avg_wr = float(family_mean_by_eco.mean()) if not family_mean_by_eco.empty else None
+        min_wr = float(family_mean_by_eco.min()) if not family_mean_by_eco.empty else None
+        max_wr = float(family_mean_by_eco.max()) if not family_mean_by_eco.empty else None
+
+        tier_counts = {1: 0, 2: 0, 3: 0}
+        if not family_catalog_rows.empty and "model_tier" in family_catalog_rows.columns:
+            tiers = pd.to_numeric(family_catalog_rows["model_tier"], errors="coerce")
+            for tier in (1, 2, 3):
+                tier_counts[tier] = int((tiers == tier).sum())
+
+        trend_counts = {"rising": 0, "stable": 0, "falling": 0}
+        for eco, opening in openings_data.items():
+            if str(eco).startswith(group):
+                direction = str(opening.get("trend_direction", "stable")).lower()
+                if direction in trend_counts:
+                    trend_counts[direction] += 1
+
+        top_eco = None
+        top_name = None
+        top_delta = None
+        if not engine_df.empty and "delta" in engine_df.columns and "eco" in engine_df.columns:
+          family_engine = engine_df[engine_df["eco"].astype(str).str.startswith(group)].copy()
+          family_engine = family_engine.dropna(subset=["delta"])
+          if not family_engine.empty:
+            top_pos = int(family_engine["delta"].abs().to_numpy().argmax())
+            top_row = family_engine.iloc[top_pos]
+            top_eco = str(top_row["eco"])
+            top_delta_value = pd.to_numeric(top_row["delta"], errors="coerce")
+            top_delta = float(top_delta_value) if pd.notna(top_delta_value) else None
+            if not catalog.empty and {"eco", "name"}.issubset(catalog.columns):
+              cat_row = catalog[catalog["eco"].astype(str) == top_eco]
+              if not cat_row.empty:
+                top_name = str(cat_row["name"].iloc[0])
+            if top_name is None:
+              top_name = top_eco
+
         summary.append(
             {
                 "group": group,
-                "n_ecos": int(sub["eco"].nunique()) if not sub.empty else 0,
-                "avg_wr": float(sub["actual"].mean()) if not sub.empty else None,
+                "n_ecos": family_openings,
+                "avg_wr": avg_wr,
+                "min_wr": min_wr,
+                "max_wr": max_wr,
+                "tier_counts": tier_counts,
+                "trend_counts": trend_counts,
+                "top_eco": top_eco,
+                "top_name": top_name,
+                "top_delta": top_delta,
             }
         )
 
@@ -2503,22 +2568,61 @@ def render_families(forecasts: pd.DataFrame) -> str:
         if total_ecos > 0
         else None
     )
+    total_rising = sum(s["trend_counts"]["rising"] for s in summary)
+
+    def _fmt_pct(value: float | None) -> str:
+        return f"{value * 100:.2f}%" if value is not None else "—"
+
+    def _fmt_delta(value: float | None) -> str:
+        if value is None:
+            return "—"
+        color = "#7BE495" if value > 0.005 else "#F28DA6" if value < -0.005 else TEXT_SECONDARY
+        sign = "+" if value >= 0 else ""
+        return f'<span style="color:{color}">{sign}{value * 100:.2f} pp</span>'
+
+    def _tier_pills(counts: dict[int, int]) -> str:
+        return (
+            f'<span class="tier-pill tier-pill-1">T1 {counts.get(1, 0)}</span> '
+            f'<span class="tier-pill tier-pill-2">T2 {counts.get(2, 0)}</span> '
+            f'<span class="tier-pill tier-pill-3">T3 {counts.get(3, 0)}</span>'
+        )
+
+    def _trend_pills(counts: dict[str, int]) -> str:
+        parts = []
+        if counts.get("rising", 0):
+            parts.append(f'<span class="trend-pill trend-pill-rise">↑ {counts["rising"]}</span>')
+        if counts.get("stable", 0):
+            parts.append(f'<span class="trend-pill trend-pill-flat">→ {counts["stable"]}</span>')
+        if counts.get("falling", 0):
+            parts.append(f'<span class="trend-pill trend-pill-fall">↓ {counts["falling"]}</span>')
+        return " ".join(parts) if parts else "—"
 
     rows_html = ""
     for s in summary:
         color = ECO_COLORS.get(s["group"], TEXT_PRIMARY)
-        wr = f"{s['avg_wr']:.3f}" if s["avg_wr"] is not None else "—"
+        outlier_cell = "—"
+        if s["top_eco"]:
+            outlier_cell = (
+                f'<a href="opening.html?eco={s["top_eco"]}" class="family-outlier-link" style="--link-color:{color}">{s["top_eco"]}</a>'
+                f'<div class="family-outlier-name">{s["top_name"][:32] if s["top_name"] else s["top_eco"]}</div>'
+                f'<div class="family-outlier-delta">{_fmt_delta(s["top_delta"])} </div>'
+            )
+
         rows_html += (
             "<tr>"
             f'<td><span class="family-chip" style="--chip-color:{color}">{s["group"]}</span></td>'
-            f"<td>{s['n_ecos']}</td>"
-            f"<td>{wr}</td>"
+            f'<td style="text-align:center">{s["n_ecos"]}</td>'
+            f'<td style="text-align:center">{_tier_pills(s["tier_counts"])}</td>'
+            f'<td style="text-align:right">{_fmt_pct(s["avg_wr"])}</td>'
+            f'<td style="text-align:right;color:{TEXT_SECONDARY};font-size:0.82rem">{_fmt_pct(s["min_wr"]) } – {_fmt_pct(s["max_wr"])}</td>'
+            f'<td style="text-align:center">{_trend_pills(s["trend_counts"])}</td>'
+            f"<td>{outlier_cell}</td>"
             "</tr>"
         )
 
     _FAM_CSS = """<style>
-.families-shell { max-width: 1200px; margin: 0 auto; padding: 3rem 2rem 4rem; }
-.families-hero { display: grid; grid-template-columns: 1.2fr 1fr; gap: 1.25rem; margin-bottom: 2rem; }
+.families-shell { max-width: 1240px; margin: 0 auto; padding: 3rem 2rem 4rem; }
+.families-hero { display: grid; grid-template-columns: 1.35fr 1fr 1fr; gap: 1.25rem; margin-bottom: 1.5rem; }
 .engine-box {
   background: var(--surface-raised);
   border: 1px solid rgba(255,255,255,0.10);
@@ -2529,7 +2633,9 @@ def render_families(forecasts: pd.DataFrame) -> str:
 .families-subtitle { margin: 0; color: var(--text-secondary); line-height: 1.6; }
 .metric-label { margin: 0 0 0.25rem; font-size: 0.78rem; color: var(--text-faint); text-transform: uppercase; letter-spacing: 0.08em; }
 .metric-value { margin: 0; font-size: 1.35rem; font-weight: 700; color: var(--text-primary); }
-.analysis-section { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+.metric-note { margin: 0.55rem 0 0; color: var(--text-secondary); font-size: 0.84rem; line-height: 1.5; }
+.families-chart { margin-bottom: 1.35rem; }
+.families-table table { margin: 0; }
 .family-chip {
   display: inline-block;
   min-width: 1.75rem;
@@ -2540,11 +2646,44 @@ def render_families(forecasts: pd.DataFrame) -> str:
   color: var(--chip-color);
   font-weight: 700;
 }
-@media (max-width: 900px) {
+.tier-pill,
+.trend-pill {
+  display: inline-block;
+  margin: 0.08rem 0.14rem;
+  padding: 0.12rem 0.38rem;
+  border-radius: 999px;
+  font-size: 0.76rem;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+.tier-pill-1 { color: #7CC7FF; background: color-mix(in srgb, #7CC7FF 16%, transparent); }
+.tier-pill-2 { color: #B9A5FF; background: color-mix(in srgb, #B9A5FF 16%, transparent); }
+.tier-pill-3 { color: __TEXT_SECONDARY__; background: color-mix(in srgb, __TEXT_SECONDARY__ 14%, transparent); }
+.trend-pill-rise { color: #7BE495; background: color-mix(in srgb, #7BE495 14%, transparent); }
+.trend-pill-flat { color: __TEXT_SECONDARY__; background: color-mix(in srgb, __TEXT_SECONDARY__ 14%, transparent); }
+.trend-pill-fall { color: #F28DA6; background: color-mix(in srgb, #F28DA6 14%, transparent); }
+.family-outlier-link { color: var(--link-color); text-decoration: none; font-weight: 700; }
+.family-outlier-link:hover { text-decoration: underline; }
+.family-outlier-name { color: var(--text-secondary); font-size: 0.78rem; line-height: 1.4; }
+.family-outlier-delta { margin-top: 0.15rem; }
+@media (max-width: 1100px) {
   .families-shell { padding: 2rem 1.25rem 3rem; }
   .families-hero { grid-template-columns: 1fr; }
 }
-</style>"""
+@media (max-width: 720px) {
+  .tier-pill,
+  .trend-pill { display: inline-block; margin: 0.12rem 0.12rem 0 0; }
+  .families-table table,
+  .families-table thead,
+  .families-table tbody,
+  .families-table th,
+  .families-table td,
+  .families-table tr { display: block; }
+  .families-table thead { position: absolute; left: -9999px; top: -9999px; }
+  .families-table tr { border-bottom: 1px solid rgba(255,255,255,0.08); padding: 0.75rem 0; }
+  .families-table td { border: 0; padding: 0.35rem 0; text-align: left !important; }
+}
+</style>""".replace("__TEXT_SECONDARY__", TEXT_SECONDARY)
 
     mean_text = f"{weighted_mean:.3f}" if weighted_mean is not None else "—"
     body = f"""
@@ -2552,26 +2691,42 @@ def render_families(forecasts: pd.DataFrame) -> str:
   <section class="families-hero">
     <div class="engine-box">
       <h1 class="families-title">ECO Families</h1>
-      <p class="families-subtitle">Family-level performance summary using historical observed win rates across tracked openings.</p>
+      <p class="families-subtitle">Family-level performance, tier mix, trend direction, and engine-human outliers across the tracked opening set.</p>
     </div>
     <div class="engine-box">
       <p class="metric-label">Tracked Openings</p>
       <p class="metric-value">{total_ecos}</p>
       <p class="metric-label" style="margin-top:0.9rem;">Weighted Avg Win Rate</p>
       <p class="metric-value">{mean_text}</p>
+      <p class="metric-note">Average across families, weighted by the number of openings in each family.</p>
+    </div>
+    <div class="engine-box">
+      <p class="metric-label">Rising Openings</p>
+      <p class="metric-value" style="color:#7BE495">{total_rising}</p>
+      <p class="metric-note">Openings with positive trend direction in the serialized trend signals.</p>
     </div>
   </section>
 
-  <section class="analysis-section">
-    <div class="engine-box">
-      <table class="data-table" style="margin:0;">
-        <thead>
-          <tr><th>Family</th><th>Openings tracked</th><th>Avg win rate</th></tr>
-        </thead>
-        <tbody>{rows_html}</tbody>
-      </table>
-    </div>
-  </section>
+  <div class="engine-box families-chart">
+    {panel3_html}
+  </div>
+
+  <div class="engine-box families-table">
+    <table class="data-table" style="margin:0;">
+      <thead>
+        <tr>
+          <th>Family</th>
+          <th style="text-align:center">Openings</th>
+          <th style="text-align:center">Tier split</th>
+          <th style="text-align:right">Avg win rate</th>
+          <th style="text-align:right">Range</th>
+          <th style="text-align:center">Trends</th>
+          <th>Top outlier</th>
+        </tr>
+      </thead>
+      <tbody>{rows_html}</tbody>
+    </table>
+  </div>
 </section>
 """
     return _page_shell("Families", _nav_html("families.html"), body, head_extras=_FAM_CSS)
@@ -2670,7 +2825,7 @@ def run_visualizer() -> None:
     if stale_dir.exists() and stale_dir.is_dir():
         shutil.rmtree(stale_dir)
 
-    families_html = render_families(forecasts)
+    families_html = render_families(forecasts, engine_df=engine_df, catalog=catalog, openings_data=openings_data)
     families_path = os.path.join(OUTPUT_DIR, "families.html")
     Path(families_path).write_text(families_html, encoding="utf-8")
     print(f"Families page written -> {families_path}")
