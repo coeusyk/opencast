@@ -1,28 +1,27 @@
 {
-  "generated_at": "2026-05-09",
+  "generated_at": "2026-05-10",
   "month": "2026-05",
-  "headline": "King's Indian Defense: Orthodox Variation, Classical System (E98) shows the strongest positive human-vs-engine gap, while Benoni Defense: Old Benoni (A44) remains the largest negative outlier.",
+  "headline": "Humans outperform Stockfish in King's Indian Defense: Orthodox Variation, Classical System (E98) by the widest margin, while Benoni Defense: Old Benoni (A44) is the most frequently misplayed or theory-dependent opening.",
   "panels": {
     "forecast": {
-      "insight": "Forecast directions suggest mixed momentum across openings, with 22 rising and 18 falling trajectories in the next horizon. The strongest signals are best read alongside uncertainty bands to separate stable trends from short-term noise.",
+      "insight": "The win-rate forecast trends show stable or falling patterns across 20 tracked openings, with no significant rising trends. The steepest forecast trend belongs to English Opening: Four Knights System, Nimzowitsch Variation (A28), whose win rate is projected to be rising most sharply over the next three months. However, this trend is not supported by recent data.",
       "highlight_ecos": [
-        "A28",
-        "A45",
-        "A10",
-        "A15"
+        "E98",
+        "A28"
       ]
     },
     "engine_delta": {
-      "insight": "Engine-human deltas remain asymmetric: E98 leads positive outperformance, while A44 underperforms most against engine expectation. These outliers flag openings where practical play diverges most from theoretical evaluation.",
+      "insight": "The engine-human delta patterns show that humans outperform Stockfish in 5 openings, while Stockfish outperforms humans in 5 openings. The largest positive delta belongs to King's Indian Defense: Orthodox Variation, Classical System (E98), while the largest negative delta belongs to Benoni Defense: Old Benoni (A44).",
       "outliers": [
         "A44",
-        "B29",
-        "C40",
-        "A57"
+        "E98",
+        "A28",
+        "A21",
+        "A18"
       ]
     },
     "heatmap": {
-      "insight": "Category-level heatmap patterns continue to show non-uniform performance over time, with month-to-month variation indicating shifting practical preferences across ECO families."
+      "insight": "The category-level patterns show that humans outperform Stockfish in openings with a classical or positional style, while Stockfish outperforms humans in openings with a sharp or tactical style."
     }
   }
 }

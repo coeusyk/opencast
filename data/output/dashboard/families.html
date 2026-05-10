@@ -8,6 +8,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300..600&display=swap" rel="stylesheet">
   <link href="https://api.fontshare.com/v2/css?f[]=satoshi@700,600,500,400&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/opencast_icon.png">
+  <link rel="apple-touch-icon" href="assets/opencast_icon.png">
   <link rel="stylesheet" href="assets/shared.css">
   
 <style>
@@ -24,10 +26,22 @@
   max-width: 1200px; margin: 0 auto;
   width: 100%;
   box-sizing: border-box;
-  padding: 0 2rem; height: 100%;
+  padding: 0 1rem; height: 100%;
   display: flex; align-items: center;
-  justify-content: center;
-  gap: 1.75rem;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.brand-lockup {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  text-decoration: none;
+}
+.brand-logo {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  border-radius: 4px;
 }
 .nav-wordmark {
   font-family: 'Satoshi', 'Inter', sans-serif;
@@ -36,17 +50,70 @@
   color: var(--text-primary);
 }
 .nav-links { display: flex; gap: 1.5rem; align-items: center; }
+.nav-toggle {
+  display: none;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid rgba(255,255,255,0.14);
+  border-radius: 6px;
+  background: rgba(255,255,255,0.02);
+  color: var(--text-primary);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.nav-toggle-bar {
+  display: block;
+  width: 1rem;
+  height: 2px;
+  border-radius: 999px;
+  background: currentColor;
+}
 .nav-link {
   font-size: 0.875rem; font-weight: 500;
   color: var(--text-secondary); text-decoration: none;
+  padding: 0.45rem 0.15rem;
   transition: color 150ms;
 }
 .nav-link:hover, .nav-link.active { color: var(--text-primary); }
 body { font-family: 'Satoshi', 'Inter', sans-serif; }
+
+@media (max-width: 760px) {
+  .nav-inner {
+    padding: 0 0.75rem;
+  }
+  .nav-toggle {
+    display: inline-flex;
+  }
+  .nav-links {
+    position: absolute;
+    top: calc(100% + 0.45rem);
+    right: 0.75rem;
+    left: 0.75rem;
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.15rem;
+    background: rgba(11,13,16,0.98);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 8px;
+    padding: 0.45rem;
+  }
+  .nav-links.open {
+    display: flex;
+  }
+  .nav-link {
+    display: block;
+    font-size: 0.92rem;
+    padding: 0.65rem 0.6rem;
+    border-radius: 6px;
+  }
+}
 </style>
   <style>
-.families-shell { max-width: 1200px; margin: 0 auto; padding: 3rem 2rem 4rem; }
-.families-hero { display: grid; grid-template-columns: 1.2fr 1fr; gap: 1.25rem; margin-bottom: 2rem; }
+.families-shell { max-width: 1240px; margin: 0 auto; padding: 3rem 2rem 4rem; }
+.families-hero { display: grid; grid-template-columns: 1.35fr 1fr 1fr; gap: 1.25rem; margin-bottom: 1.5rem; }
 .engine-box {
   background: var(--surface-raised);
   border: 1px solid rgba(255,255,255,0.10);
@@ -54,10 +121,18 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
   padding: 1rem 1.1rem;
 }
 .families-title { margin: 0 0 0.45rem; font-size: 1.8rem; letter-spacing: -0.02em; }
-.families-subtitle { margin: 0; color: var(--text-secondary); line-height: 1.6; }
-.metric-label { margin: 0 0 0.25rem; font-size: 0.78rem; color: var(--text-faint); text-transform: uppercase; letter-spacing: 0.08em; }
-.metric-value { margin: 0; font-size: 1.35rem; font-weight: 700; color: var(--text-primary); }
-.analysis-section { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+.families-subtitle { margin: 0; color: var(--text-faint); font-size: 0.75rem; line-height: 1.55; max-width: 36rem; }
+.metric-label { margin: 0 0 0.3rem; font-size: 0.65rem; color: var(--text-faint); text-transform: uppercase; letter-spacing: 0.08em; }
+.metric-value { margin: 0; font-size: 2rem; font-weight: 700; line-height: 1; color: var(--text-primary); }
+.metric-note { margin: 0.55rem 0 0; color: var(--text-secondary); font-size: 0.84rem; line-height: 1.5; }
+.families-chart { margin-bottom: 1.35rem; }
+.families-table table { margin: 0; }
+.families-table thead th {
+  font-size: 0.7rem;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255,255,255,0.12);
+}
+.families-table tbody tr:first-child td { padding-top: 0.7rem; }
 .family-chip {
   display: inline-block;
   min-width: 1.75rem;
@@ -68,17 +143,59 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
   color: var(--chip-color);
   font-weight: 700;
 }
-@media (max-width: 900px) {
+.tier-pill, .trend-pill {
+  display: inline-block;
+  margin: 0.08rem 0.14rem;
+  padding: 0.12rem 0.38rem;
+  border-radius: 999px;
+  font-size: 0.76rem;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+.tier-pill-1 { color: #7CC7FF; background: color-mix(in srgb, #7CC7FF 16%, transparent); }
+.tier-pill-2 { color: #B9A5FF; background: color-mix(in srgb, #B9A5FF 16%, transparent); }
+.tier-pill-3 { color: #8b8b8f; background: color-mix(in srgb, #8b8b8f 14%, transparent); }
+.trend-pill-rise { color: #7BE495; background: color-mix(in srgb, #7BE495 14%, transparent); }
+.trend-pill-flat { color: #8b8b8f; background: color-mix(in srgb, #8b8b8f 14%, transparent); }
+.trend-pill-fall { color: #F28DA6; background: color-mix(in srgb, #F28DA6 14%, transparent); }
+.family-outlier-link { color: var(--link-color); text-decoration: none; font-weight: 700; }
+.family-outlier-link:hover { text-decoration: underline; }
+.family-outlier-name {
+  color: var(--text-secondary);
+  font-size: 0.78rem;
+  line-height: 1.4;
+  max-width: 15rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.family-outlier-delta { margin-top: 0.15rem; }
+@media (max-width: 1100px) {
   .families-shell { padding: 2rem 1.25rem 3rem; }
   .families-hero { grid-template-columns: 1fr; }
+}
+@media (max-width: 720px) {
+  .tier-pill, .trend-pill { display: inline-block; margin: 0.12rem 0.12rem 0 0; }
+  .families-table table, .families-table thead, .families-table tbody, .families-table th, .families-table td, .families-table tr { display: block; }
+  .families-table thead { position: absolute; left: -9999px; top: -9999px; }
+  .families-table tr { border-bottom: 1px solid rgba(255,255,255,0.08); padding: 0.75rem 0; }
+  .families-table td { border: 0; padding: 0.35rem 0; text-align: left !important; }
 }
 </style>
 </head>
 <body>
 <nav id="main-nav" class="site-nav">
   <div class="nav-inner">
-    <span class="nav-wordmark">OpenCast</span>
-    <div class="nav-links">
+    <a href="index.html" class="brand-lockup" aria-label="OpenCast home">
+      <img src="assets/opencast_icon.png" alt="OpenCast logo" class="brand-logo" />
+      <span class="nav-wordmark">OpenCast</span>
+    </a>
+    <button type="button" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav-links">
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+    </button>
+    <div id="site-nav-links" class="nav-links">
     <a href="index.html" class="nav-link">Overview</a>
     <a href="openings.html" class="nav-link">Openings</a>
     <a href="families.html" class="nav-link active">Families</a>
@@ -92,29 +209,73 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
   <section class="families-hero">
     <div class="engine-box">
       <h1 class="families-title">ECO Families</h1>
-      <p class="families-subtitle">Family-level performance summary using historical observed win rates across tracked openings.</p>
+      <p class="families-subtitle">Family-level performance, tier mix, trend direction, and engine-human outliers across the tracked opening set.</p>
     </div>
     <div class="engine-box">
       <p class="metric-label">Tracked Openings</p>
-      <p class="metric-value">280</p>
+      <p class="metric-value">498</p>
       <p class="metric-label" style="margin-top:0.9rem;">Weighted Avg Win Rate</p>
       <p class="metric-value">0.491</p>
+      <p class="metric-note">Average across families, weighted by the number of openings in each family.</p>
+    </div>
+    <div class="engine-box">
+      <p class="metric-label">Rising Openings</p>
+      <p class="metric-value" style="color:#7BE495">22</p>
+      <p class="metric-note">Openings with positive trend direction in the serialized trend signals.</p>
     </div>
   </section>
 
-  <section class="analysis-section">
-    <div class="engine-box">
-      <table class="data-table" style="margin:0;">
-        <thead>
-          <tr><th>Family</th><th>Openings tracked</th><th>Avg win rate</th></tr>
-        </thead>
-        <tbody><tr><td><span class="family-chip" style="--chip-color:#7CC7FF">A</span></td><td>59</td><td>0.495</td></tr><tr><td><span class="family-chip" style="--chip-color:#7BE495">B</span></td><td>62</td><td>0.481</td></tr><tr><td><span class="family-chip" style="--chip-color:#F6C177">C</span></td><td>62</td><td>0.493</td></tr><tr><td><span class="family-chip" style="--chip-color:#F28DA6">D</span></td><td>52</td><td>0.492</td></tr><tr><td><span class="family-chip" style="--chip-color:#B9A5FF">E</span></td><td>45</td><td>0.495</td></tr></tbody>
-      </table>
-    </div>
-  </section>
+  <div class="engine-box families-chart">
+    <div>                        <script>window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-3.5.0.min.js" integrity="sha256-fHbNLP+GlIXN+efbQec78UkemUz3NJp7UmfGxC1tNxs=" crossorigin="anonymous"></script>                <div id="d2e1fd67-279b-4477-b30e-4542700fd436" class="plotly-graph-div" style="height:320px; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("d2e1fd67-279b-4477-b30e-4542700fd436")) {                    Plotly.newPlot(                        "d2e1fd67-279b-4477-b30e-4542700fd436",                        [{"hovertemplate":"ECO %{x}\u003cbr\u003eAvg win rate: %{y:.4f}\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":["#7CC7FF","#7BE495","#F6C177","#F28DA6","#B9A5FF"]},"text":["0.496","0.481","0.492","0.494","0.497"],"textfont":{"color":"#ededee"},"textposition":"outside","x":["A","B","C","D","E"],"y":[0.4960941034482758,0.48120490697674423,0.49230197872340425,0.49389131578947365,0.49726316666666665],"type":"bar"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"shapes":[{"line":{"color":"#8b8b8f","dash":"dash","width":1},"type":"line","x0":0,"x1":1,"xref":"x domain","y0":0.5,"y1":0.5,"yref":"y"}],"yaxis":{"title":{"text":"Win Rate"},"range":[0.46,0.54],"tickfont":{"color":"#8b8b8f"},"gridcolor":"rgba(255, 255, 255, 0.06)","zerolinecolor":"rgba(255, 255, 255, 0.06)"},"title":{},"xaxis":{"title":{"text":"ECO Family"},"tickfont":{"color":"#8b8b8f"},"gridcolor":"rgba(255, 255, 255, 0.06)","zerolinecolor":"rgba(255, 255, 255, 0.06)"},"bargap":0.4,"font":{"family":"'Inter', system-ui, sans-serif","color":"#ededee"},"plot_bgcolor":"#0e0e0f","paper_bgcolor":"#0e0e0f","margin":{"l":40,"r":20,"t":12,"b":40},"height":320},                        {"responsive": true}                    )                };            </script>        </div>
+  </div>
+
+  <div class="engine-box families-table">
+    <table class="data-table" style="margin:0;">
+      <thead>
+        <tr>
+          <th>Family</th>
+          <th style="text-align:center">Openings</th>
+          <th style="text-align:center">Tier split</th>
+          <th style="text-align:right">Avg win rate</th>
+          <th style="text-align:right">Range</th>
+          <th style="text-align:center">Trends</th>
+          <th>Top outlier</th>
+        </tr>
+      </thead>
+      <tbody><tr><td><span class="family-chip" style="--chip-color:#7CC7FF">A</span></td><td style="text-align:center">100</td><td style="text-align:center"><span class="tier-pill tier-pill-1">T1 44</span> <span class="tier-pill tier-pill-2">T2 15</span> <span class="tier-pill tier-pill-3">T3 41</span></td><td style="text-align:right">49.47%</td><td style="text-align:right;color:#8b8b8f;font-size:0.82rem">43.92% – 54.30%</td><td style="text-align:center"><span class="trend-pill trend-pill-rise" title="4 rising openings">↑ 4</span> <span class="trend-pill trend-pill-flat" title="91 flat openings">→ 91</span> <span class="trend-pill trend-pill-fall" title="5 falling openings">↓ 5</span></td><td><a href="opening.html?eco=A44" class="family-outlier-link" style="--link-color:#7CC7FF">A44</a><div class="family-outlier-name" title="Benoni Defense: Old Benoni">Benoni Defense: Old Benoni</div><div class="family-outlier-delta"><span style="color:#F28DA6;font-weight:600">-10.79 pp</span> </div></td></tr><tr><td><span class="family-chip" style="--chip-color:#7BE495">B</span></td><td style="text-align:center">100</td><td style="text-align:center"><span class="tier-pill tier-pill-1">T1 51</span> <span class="tier-pill tier-pill-2">T2 11</span> <span class="tier-pill tier-pill-3">T3 38</span></td><td style="text-align:right">48.10%</td><td style="text-align:right;color:#8b8b8f;font-size:0.82rem">40.47% – 55.89%</td><td style="text-align:center"><span class="trend-pill trend-pill-rise" title="8 rising openings">↑ 8</span> <span class="trend-pill trend-pill-flat" title="91 flat openings">→ 91</span> <span class="trend-pill trend-pill-fall" title="1 falling openings">↓ 1</span></td><td><a href="opening.html?eco=B29" class="family-outlier-link" style="--link-color:#7BE495">B29</a><div class="family-outlier-name" title="Sicilian Defense: Nimzowitsch Variation">Sicilian Defense: Nimzowitsch Variation</div><div class="family-outlier-delta"><span style="color:#F28DA6;font-weight:600">-10.74 pp</span> </div></td></tr><tr><td><span class="family-chip" style="--chip-color:#F6C177">C</span></td><td style="text-align:center">100</td><td style="text-align:center"><span class="tier-pill tier-pill-1">T1 52</span> <span class="tier-pill tier-pill-2">T2 10</span> <span class="tier-pill tier-pill-3">T3 38</span></td><td style="text-align:right">49.26%</td><td style="text-align:right;color:#8b8b8f;font-size:0.82rem">43.03% – 55.33%</td><td style="text-align:center"><span class="trend-pill trend-pill-rise" title="4 rising openings">↑ 4</span> <span class="trend-pill trend-pill-flat" title="89 flat openings">→ 89</span> <span class="trend-pill trend-pill-fall" title="7 falling openings">↓ 7</span></td><td><a href="opening.html?eco=C40" class="family-outlier-link" style="--link-color:#F6C177">C40</a><div class="family-outlier-name" title="Elephant Gambit">Elephant Gambit</div><div class="family-outlier-delta"><span style="color:#F28DA6;font-weight:600">-9.88 pp</span> </div></td></tr><tr><td><span class="family-chip" style="--chip-color:#F28DA6">D</span></td><td style="text-align:center">98</td><td style="text-align:center"><span class="tier-pill tier-pill-1">T1 39</span> <span class="tier-pill tier-pill-2">T2 13</span> <span class="tier-pill tier-pill-3">T3 46</span></td><td style="text-align:right">49.16%</td><td style="text-align:right;color:#8b8b8f;font-size:0.82rem">45.34% – 54.16%</td><td style="text-align:center"><span class="trend-pill trend-pill-rise" title="2 rising openings">↑ 2</span> <span class="trend-pill trend-pill-flat" title="94 flat openings">→ 94</span> <span class="trend-pill trend-pill-fall" title="2 falling openings">↓ 2</span></td><td><a href="opening.html?eco=D44" class="family-outlier-link" style="--link-color:#F28DA6">D44</a><div class="family-outlier-name" title="Semi-Slav Defense Accepted">Semi-Slav Defense Accepted</div><div class="family-outlier-delta"><span style="color:#F28DA6;font-weight:600">-6.71 pp</span> </div></td></tr><tr><td><span class="family-chip" style="--chip-color:#B9A5FF">E</span></td><td style="text-align:center">100</td><td style="text-align:center"><span class="tier-pill tier-pill-1">T1 30</span> <span class="tier-pill tier-pill-2">T2 15</span> <span class="tier-pill tier-pill-3">T3 55</span></td><td style="text-align:right">49.46%</td><td style="text-align:right;color:#8b8b8f;font-size:0.82rem">45.61% – 54.65%</td><td style="text-align:center"><span class="trend-pill trend-pill-rise" title="4 rising openings">↑ 4</span> <span class="trend-pill trend-pill-flat" title="93 flat openings">→ 93</span> <span class="trend-pill trend-pill-fall" title="3 falling openings">↓ 3</span></td><td><a href="opening.html?eco=E98" class="family-outlier-link" style="--link-color:#B9A5FF">E98</a><div class="family-outlier-name" title="King&#x27;s Indian Defense: Orthodox Variation, Classical System">King&#x27;s Indian Defense: Orthodox Variation, Classical System</div><div class="family-outlier-delta"><span style="color:#7BE495;font-weight:700">+8.08 pp</span> </div></td></tr></tbody>
+    </table>
+  </div>
 </section>
 
 </div></main>
 <script src="assets/nav.js"></script>
+<script>
+(() => {
+  const toggle = document.querySelector('.nav-toggle');
+  const links = document.getElementById('site-nav-links');
+  if (!toggle || !links) return;
+
+  const closeMenu = () => {
+    links.classList.remove('open');
+    toggle.setAttribute('aria-expanded', 'false');
+  };
+
+  toggle.addEventListener('click', () => {
+    const isOpen = links.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+
+  document.addEventListener('click', (event) => {
+    if (!event.target) return;
+    if (toggle.contains(event.target) || links.contains(event.target)) return;
+    closeMenu();
+  });
+
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 760) closeMenu();
+  });
+})();
+</script>
 </body>
 </html>

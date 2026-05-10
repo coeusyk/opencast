@@ -1,5 +1,7 @@
 import json
 import os
+import logging
+import re as _re
 from pathlib import Path
 
 import numpy as np
@@ -16,6 +18,10 @@ LONG_TAIL_CSV = os.path.join(_HERE, "..", "data", "output", "long_tail_stats.csv
 RATING_BRACKET = 2000
 LOW_CONFIDENCE_THRESHOLD = 2000
 
+log = logging.getLogger(__name__)
+
+_ECO_RE = _re.compile(r"^[A-E]\d{2}$")
+
 
 def _load_min_games() -> int:
     config_path = os.path.join(_HERE, "..", "config.json")
@@ -27,6 +33,19 @@ def _load_name_map() -> dict:
     with open(OPENINGS_JSON) as f:
         openings = json.load(f)
     return {o["eco"]: o["name"] for o in openings}
+
+
+def _require_months_payload(file_data: dict, fpath: Path) -> dict:
+    months = file_data.get("months")
+    if not isinstance(months, dict):
+        log.warning("Skipping malformed raw file %s: missing months dict", fpath)
+        return {}
+
+    skipped_months = file_data.get("_meta", {}).get("skipped_months", {})
+    if isinstance(skipped_months, dict) and skipped_months:
+        log.info("%s: %d skipped month(s) recorded in raw metadata", fpath.stem, len(skipped_months))
+
+    return months
 
 
 def _compute_long_tail_stats(df: pd.DataFrame) -> pd.DataFrame:
@@ -93,14 +112,22 @@ def ingest() -> pd.DataFrame:
             with open(fpath, encoding="utf-8") as f:
                 file_data = json.load(f)
         except Exception:
+            log.warning("Skipping unreadable raw file %s", fpath)
             continue
 
-        if "months" not in file_data:
+        months = _require_months_payload(file_data, fpath)
+        if not months:
             continue
 
         eco = file_data.get("eco", fpath.stem)
+        if not _ECO_RE.match(str(eco)):
+            log.warning("Skipping raw file %s: invalid ECO code %r", fpath, eco)
+            continue
 
-        for month, data in sorted(file_data["months"].items()):
+        for month, data in sorted(months.items()):
+            if not isinstance(data, dict):
+                log.warning("Skipping malformed month payload for %s %s", eco, month)
+                continue
             white = data.get("white", 0)
             draws = data.get("draws", 0)
             black = data.get("black", 0)
@@ -124,13 +151,13 @@ def ingest() -> pd.DataFrame:
 
     df = pd.DataFrame(rows)
     df.to_csv(OUTPUT_CSV, index=False)
-    print(f"Ingested {len(df)} rows \u2192 {OUTPUT_CSV}")
+    print(f"Ingested {len(df)} rows -> {OUTPUT_CSV}")
 
     # Write long-tail stats
     os.makedirs(os.path.dirname(LONG_TAIL_CSV), exist_ok=True)
     long_tail_df = _compute_long_tail_stats(df)
     long_tail_df.to_csv(LONG_TAIL_CSV, index=False)
-    print(f"Long-tail stats written \u2192 {LONG_TAIL_CSV}  ({len(long_tail_df)} rows)")
+    print(f"Long-tail stats written -> {LONG_TAIL_CSV}  ({len(long_tail_df)} rows)")
 
     return df
 

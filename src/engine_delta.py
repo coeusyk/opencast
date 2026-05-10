@@ -21,14 +21,29 @@ ENGINE_TOTAL_WARN_S = 300.0  # warn if total evaluation exceeds 5 min
 
 log = logging.getLogger(__name__)
 
+REQUIRED_CATALOG_COLUMNS = {"eco", "name", "moves", "model_tier"}
+REQUIRED_TS_COLUMNS = {"eco", "white_win_rate"}
 
-def _get_fen_from_uci_moves(uci_moves: str) -> str:
-    """Replay a comma-separated list of UCI moves and return the resulting FEN."""
+
+def _require_columns(df: pd.DataFrame, required: set[str], source: str) -> None:
+    missing = required - set(df.columns)
+    if missing:
+        raise ValueError(f"{source} missing required columns: {sorted(missing)}")
+
+
+def _get_fen_from_uci_moves(uci_moves: str, min_moves: int = 4) -> str:
+    """Replay UCI moves and return the resulting FEN.
+
+    Raises ValueError when the sequence is too short to represent a useful opening line.
+    """
     board = chess.Board()
-    for uci in uci_moves.split(","):
-        uci = uci.strip()
-        if uci:
-            board.push_uci(uci)
+    move_list = [uci.strip() for uci in uci_moves.split(",") if uci.strip()]
+    if len(move_list) < min_moves:
+        raise ValueError(
+            f"Move sequence too short ({len(move_list)} moves, expected >= {min_moves}): {uci_moves!r}"
+        )
+    for uci in move_list:
+        board.push_uci(uci)
     return board.fen()
 
 
@@ -49,12 +64,14 @@ def _interpret(delta: float) -> str:
 def run_engine_delta() -> pd.DataFrame:
     # Load Tier-1 openings directly from the catalogue (single source of truth)
     catalog = pd.read_csv(CATALOG_CSV)
+    _require_columns(catalog, REQUIRED_CATALOG_COLUMNS, CATALOG_CSV)
     tier1 = catalog[catalog["model_tier"] == 1][["eco", "name", "moves"]].copy()
     tier1 = tier1.dropna(subset=["moves"])
     openings = tier1.to_dict("records")
     log.info("Engine delta: evaluating %d Tier-1 ECOs", len(openings))
 
     ts = pd.read_csv(PROCESSED_CSV)
+    _require_columns(ts, REQUIRED_TS_COLUMNS, PROCESSED_CSV)
     human_rates = (
         ts.groupby("eco")["white_win_rate"].mean().rename("human_win_rate_2000")
     )
@@ -87,6 +104,9 @@ def run_engine_delta() -> pd.DataFrame:
 
                 p_engine = _cp_to_prob(cp)
                 human_rate = float(human_rates.get(eco, float("nan")))
+                if not math.isfinite(human_rate):
+                    log.warning("Skipping %s (%s): missing human win rate", eco, name)
+                    continue
                 delta = human_rate - p_engine
 
                 print(f"{eco:4s} {name:30s}  cp={cp:+5d}  P_engine={p_engine:.4f}  "

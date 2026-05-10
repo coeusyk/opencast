@@ -32,6 +32,9 @@ CATALOG_CSV = os.path.join(_HERE, "..", "data", "openings_catalog.csv")
 CONFIG_JSON = os.path.join(_HERE, "..", "config.json")
 OUTPUT_CSV = os.path.join(_HERE, "..", "data", "output", "model_eval_summary.csv")
 
+REQUIRED_TS_COLUMNS = {"eco", "month", "white_win_rate", "total"}
+REQUIRED_CATALOG_COLUMNS = {"eco", "model_tier"}
+
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 log = logging.getLogger(__name__)
 
@@ -104,11 +107,18 @@ def _forecast_holt_winters(y: np.ndarray, steps: int) -> tuple[np.ndarray, np.nd
 
 def _iter_candidate_models(tier: int, models: Sequence[str] | None) -> list[str]:
     """Restrict candidate models by tier to keep evaluation within CI budget."""
-    default_models = ["naive", "mean", "arima", "holt_winters"]
+    if tier == 1:
+        default_models = ["naive", "mean", "arima", "holt_winters"]
+    else:
+        # Tier-2 skips ARIMA by default to keep runtime bounded in CI.
+        default_models = ["naive", "mean", "holt_winters"]
+
     if models is None:
         return default_models
+
     allowed = set(default_models)
-    return [model_name for model_name in models if model_name in allowed]
+    filtered = [model_name for model_name in models if model_name in allowed]
+    return filtered if filtered else default_models
 
 
 def run_model_eval(
@@ -129,6 +139,13 @@ def run_model_eval(
     """
     df = pd.read_csv(ts_csv)
     catalog = pd.read_csv(catalog_csv)
+
+    missing_ts = REQUIRED_TS_COLUMNS - set(df.columns)
+    if missing_ts:
+        raise ValueError(f"openings_ts.csv missing required columns: {sorted(missing_ts)}")
+    missing_catalog = REQUIRED_CATALOG_COLUMNS - set(catalog.columns)
+    if missing_catalog:
+        raise ValueError(f"openings_catalog.csv missing required columns: {sorted(missing_catalog)}")
 
     eval_catalog = catalog[catalog["model_tier"].isin([1, 2])].copy()
 
@@ -197,7 +214,14 @@ def run_model_eval(
     summary["mae_pp"] = summary["ae"] * 100  # Convert to percentage points
     summary["rmse_pp"] = np.sqrt(summary["se"]) * 100
     summary["coverage_95"] = summary["covered"]
-    summary["n_samples"] = results_df.groupby(["eco", "model_name", "horizon"]).size().values
+    n_samples = (
+        results_df
+        .groupby(["eco", "model_name", "horizon"])
+        .size()
+        .rename("n_samples")
+        .reset_index()
+    )
+    summary = summary.merge(n_samples, on=["eco", "model_name", "horizon"], how="left")
 
     summary = summary[["eco", "model_name", "horizon", "mae_pp", "rmse_pp", "coverage_95", "n_samples"]]
     summary = summary.sort_values(["eco", "model_name", "horizon"])

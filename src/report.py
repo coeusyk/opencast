@@ -3,6 +3,7 @@
 import json
 import logging
 import os
+import re as _re
 import time
 from datetime import datetime
 
@@ -23,6 +24,18 @@ NARRATIVE_BATCH_SLEEP = 22  # seconds between narrative batches
 MAX_NARRATIVE_OPENINGS = 100
 
 log = logging.getLogger(__name__)
+
+
+def _sanitise_narrative(text: str, max_len: int = 500) -> str:
+    """Strip HTML tags and clamp LLM output to a bounded plain-text summary."""
+    cleaned = _re.sub(r"<[^>]+>", "", str(text))
+    cleaned = cleaned.strip()
+    if len(cleaned) > max_len:
+        trimmed = cleaned[:max_len]
+        if " " in trimmed:
+            trimmed = trimmed.rsplit(" ", 1)[0]
+        cleaned = trimmed.rstrip()
+    return cleaned
 
 
 # ── Groq helpers ─────────────────────────────────────────────────────────────
@@ -454,6 +467,10 @@ Instructions:
                 raise ValueError("Groq returned no text for findings.json")
             parsed = json.loads(raw_text.strip())
             parsed.pop("per_opening", None)
+            for panel_key in ("forecast", "engine_delta", "heatmap"):
+                panel = parsed.get("panels", {}).get(panel_key, {})
+                raw_insight = panel.get("insight", "")
+                panel["insight"] = _sanitise_narrative(raw_insight)
             if _validate_findings_json(parsed):
                 findings_json_data = parsed
                 log.info("Groq returned valid findings.json structure.")
@@ -554,7 +571,7 @@ RULES — apply to every opening, in order:
                     parsed_narratives = json.loads(raw.strip())
                     for eco_key, narrative in parsed_narratives.items():
                         if isinstance(narrative, str) and narrative.strip():
-                            new_per_opening[eco_key] = narrative.strip()
+                            new_per_opening[eco_key] = _sanitise_narrative(narrative)
                     log.info(
                         "Groq narrative batch %d/%d: %d ECOs returned.",
                         batch_start // NARRATIVE_BATCH_SIZE + 1,
