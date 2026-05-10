@@ -2,6 +2,7 @@
 target/
 
 .env
+.editorconfig
 LICHESS_TOKEN
 
 # Generated data — ignore most, but explicitly allow tracked outputs
@@ -22,3 +23,4 @@ __pycache__/
 *.pyc
 
 .venv/
+.vscode/

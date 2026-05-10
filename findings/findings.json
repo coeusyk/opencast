@@ -1,28 +1,29 @@
 {
-  "generated_at": "2026-05-09",
+  "generated_at": "2026-05-10",
   "month": "2026-05",
-  "headline": "King's Indian Defense: Orthodox Variation, Classical System (E98) shows the strongest positive human-vs-engine gap, while Benoni Defense: Old Benoni (A44) remains the largest negative outlier.",
+  "headline": "Humans outperform Stockfish in King's Indian Defense: Orthodox Variation, Classical System (E98) by the widest margin, while Benoni Defense: Old Benoni (A44) is the most frequently misplayed opening.",
   "panels": {
     "forecast": {
-      "insight": "Forecast directions suggest mixed momentum across openings, with 22 rising and 18 falling trajectories in the next horizon. The strongest signals are best read alongside uncertainty bands to separate stable trends from short-term noise.",
+      "insight": "The forecast trends indicate a stable win-rate for most openings, with a few exceptions like English Opening: Four Knights System, Nimzowitsch Variation (A28) showing a rising trend. However, the overall trend is relatively flat, suggesting that Stockfish's predictions are accurate for the most part. Notable exceptions include ECOs A10, A15, and A28.",
       "highlight_ecos": [
-        "A28",
-        "A45",
         "A10",
-        "A15"
+        "A15",
+        "A28",
+        "E98"
       ]
     },
     "engine_delta": {
-      "insight": "Engine-human deltas remain asymmetric: E98 leads positive outperformance, while A44 underperforms most against engine expectation. These outliers flag openings where practical play diverges most from theoretical evaluation.",
+      "insight": "The engine-human delta analysis reveals that humans outperform Stockfish in certain openings like King's Indian Defense: Orthodox Variation, Classical System (E98) and underperform in others like Benoni Defense: Old Benoni (A44). The outliers in the delta chart include ECOs A44, B29, C40, A57, and A56.",
       "outliers": [
         "A44",
         "B29",
         "C40",
-        "A57"
+        "A57",
+        "A56"
       ]
     },
     "heatmap": {
-      "insight": "Category-level heatmap patterns continue to show non-uniform performance over time, with month-to-month variation indicating shifting practical preferences across ECO families."
+      "insight": "The category-level analysis shows that openings like King's Indian Defense and Benoni Defense tend to have higher engine-human deltas, indicating a larger gap between human and engine performance. This suggests that these openings may require more strategic play and less reliance on theoretical knowledge."
     }
   }
 }

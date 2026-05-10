@@ -71,8 +71,9 @@ openings_catalog.csv  (498 ECO codes, tier flags)
         │       → findings/findings.json
         │       → findings/narratives.json  (per-ECO narrative, merged incrementally)
         │
-        └──▶ [src/visualizer.py]
-                multi-page static site → data/output/dashboard/
+        └──▶ [src/visualizer.py] (compatibility facade)
+          delegates to src/dashboard/* package
+          multi-page static site → data/output/dashboard/
 ```
 
 **Key API constraint:** Lichess Explorer supports `since` and `until` as `YYYY-MM`
@@ -131,10 +132,24 @@ opencast/
 │   ├── timeseries.py          ← model-selected forecasting + break detection
 │   ├── engine_delta.py        ← Stockfish eval → delta computation (Tier 1 only)
 │   ├── report.py              ← Groq LLM → findings.md + findings.json + narratives.json
-│   ├── visualizer.py          ← multi-page static site generator
+│   ├── visualizer.py          ← public compatibility facade for dashboard generation
+│   ├── dashboard/
+│   │   ├── __init__.py
+│   │   ├── builder.py         ← orchestration entrypoint (run_visualizer)
+│   │   ├── data_access.py     ← dashboard paths + loaders + serialization
+│   │   ├── charts.py          ← Plotly panel builders
+│   │   ├── tokens.py          ← shared dashboard design tokens
+│   │   ├── shell.py           ← shared HTML shell + nav
+│   │   └── pages/
+│   │       ├── __init__.py
+│   │       ├── overview.py    ← index.html renderer
+│   │       ├── openings.py    ← openings.html renderer
+│   │       ├── families.py    ← families.html renderer
+│   │       └── opening_template.py ← opening.html renderer
 │   └── assets/
 │       ├── shared.css         ← design tokens + component styles (source)
-│       └── nav.js             ← active-nav script (source)
+│       ├── nav.js             ← active-nav script (source)
+│       └── opening.js         ← per-opening client logic (source)
 │
 ├── openings.json              ← seed opening definitions (legacy bootstrap input)
 ├── main.py                    ← orchestrator: runs all pipeline stages in order
@@ -405,9 +420,10 @@ OUTPUT : findings/findings.md
 
 ---
 
-### `src/visualizer.py` — Python
+### `src/visualizer.py` + `src/dashboard/*` — Python
 
 **Responsibility:** Generate a multi-page static HTML site from output CSVs.
+`src/visualizer.py` is a stable public facade; implementation lives in `src/dashboard/`.
 
 **Interface:**
 ```
@@ -429,6 +445,18 @@ OUTPUT : data/output/dashboard/
 | `opening.html` | Per-opening detail: Plotly forecast, engine box, AI narrative (?eco=B20) |
 | `assets/shared.css` | Design tokens, nav, table, widget component styles |
 | `assets/nav.js` | Active-link highlight script |
+| `assets/opening.js` | Per-opening interactive view logic |
+
+**Internal package structure (`src/dashboard/`):**
+
+| Module | Purpose |
+|---|---|
+| `builder.py` | Orchestrates all dashboard outputs and static asset copy steps |
+| `data_access.py` | Shared path constants, JSON/CSV loaders, openings-data serialization |
+| `charts.py` | Plotly figure construction for overview/families panels |
+| `tokens.py` | Shared design tokens and Plotly typography helpers |
+| `shell.py` | Shared page shell and navigation fragments |
+| `pages/*` | Per-page renderers (`overview`, `openings`, `families`, `opening_template`) |
 
 ---
 

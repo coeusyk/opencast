@@ -1,6 +1,7 @@
 import json
 import os
 import logging
+import re as _re
 from pathlib import Path
 
 import numpy as np
@@ -18,6 +19,8 @@ RATING_BRACKET = 2000
 LOW_CONFIDENCE_THRESHOLD = 2000
 
 log = logging.getLogger(__name__)
+
+_ECO_RE = _re.compile(r"^[A-E]\d{2}$")
 
 
 def _load_min_games() -> int:
@@ -117,6 +120,9 @@ def ingest() -> pd.DataFrame:
             continue
 
         eco = file_data.get("eco", fpath.stem)
+        if not _ECO_RE.match(str(eco)):
+            log.warning("Skipping raw file %s: invalid ECO code %r", fpath, eco)
+            continue
 
         for month, data in sorted(months.items()):
             if not isinstance(data, dict):

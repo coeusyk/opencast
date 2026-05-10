@@ -31,13 +31,19 @@ def _require_columns(df: pd.DataFrame, required: set[str], source: str) -> None:
         raise ValueError(f"{source} missing required columns: {sorted(missing)}")
 
 
-def _get_fen_from_uci_moves(uci_moves: str) -> str:
-    """Replay a comma-separated list of UCI moves and return the resulting FEN."""
+def _get_fen_from_uci_moves(uci_moves: str, min_moves: int = 4) -> str:
+    """Replay UCI moves and return the resulting FEN.
+
+    Raises ValueError when the sequence is too short to represent a useful opening line.
+    """
     board = chess.Board()
-    for uci in uci_moves.split(","):
-        uci = uci.strip()
-        if uci:
-            board.push_uci(uci)
+    move_list = [uci.strip() for uci in uci_moves.split(",") if uci.strip()]
+    if len(move_list) < min_moves:
+        raise ValueError(
+            f"Move sequence too short ({len(move_list)} moves, expected >= {min_moves}): {uci_moves!r}"
+        )
+    for uci in move_list:
+        board.push_uci(uci)
     return board.fen()
 
 
