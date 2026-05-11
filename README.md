@@ -2,11 +2,17 @@
 
 OpenCast is a data pipeline that fetches monthly win-rate snapshots from the Lichess Opening Explorer API, builds per-opening time series, forecasts future win rates, and computes an engine-human delta score - the gap between Stockfish expectation and observed human results at 2000-rated blitz. Unlike a simple leaderboard, OpenCast highlights where humans systematically diverge from engine expectation and whether those gaps are widening or narrowing.
 
+![GitHub Pages](https://img.shields.io/github/deployments/coeusyk/opencast/github-pages?label=pages&style=flat-square)
+![Last Update](https://img.shields.io/github/last-commit/coeusyk/opencast/main?label=last+update&style=flat-square)
+![Python](https://img.shields.io/badge/python-3.11%2B-blue?style=flat-square&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/rust-1.75%2B-orange?style=flat-square&logo=rust&logoColor=white)
+![License](https://img.shields.io/github/license/coeusyk/opencast?style=flat-square)
+
 ---
 
 ## Live Dashboard
 
-[https://coeusyk.github.io/opencast/](https://coeusyk.github.io/opencast/)
+[![Live Dashboard](https://img.shields.io/badge/dashboard-live-brightgreen?style=flat-square&logo=github)](https://coeusyk.github.io/opencast/)
 
 Dashboard is published via GitHub Pages on each pipeline run.
 
@@ -94,6 +100,10 @@ python scripts/temp_bootstrap_openings.py --apply --eco-offset 240
 ---
 
 ## Data Coverage
+
+![ECO Codes](https://img.shields.io/badge/ECO_codes-498-informational?style=flat-square)
+![Tiers](https://img.shields.io/badge/tiers-1%20%7C%202%20%7C%203-blueviolet?style=flat-square)
+![Date Range](https://img.shields.io/badge/data-2023--01_→_present-lightgrey?style=flat-square)
 
 | Metric | Value |
 |---|---|
