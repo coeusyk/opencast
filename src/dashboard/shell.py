@@ -33,6 +33,7 @@ def _page_shell(title: str, nav_fragment: str, body: str, head_extras: str = "")
 /* Site nav */
 .site-nav {
   position: sticky; top: 0; z-index: 100;
+  width: 100%; max-width: none; box-sizing: border-box;
   background: rgba(11,13,16,0.92);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -95,6 +96,7 @@ def _page_shell(title: str, nav_fragment: str, body: str, head_extras: str = "")
 }
 .nav-link:hover, .nav-link.active { color: var(--text-primary); }
 body { font-family: 'Satoshi', 'Inter', sans-serif; }
+.plotly-graph-div { touch-action: pan-y; }
 
 @media (max-width: 760px) {
   .nav-inner {

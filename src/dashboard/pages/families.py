@@ -36,7 +36,7 @@ def render_families(
     panel3.layout.annotations = tuple(
       ann for ann in panel3_annotations if str(getattr(ann, "text", "")).strip() != "50 %"
     )
-    panel3_html = panel3.to_html(full_html=False, include_plotlyjs="cdn")
+    panel3_html = panel3.to_html(full_html=False, include_plotlyjs="cdn", config={"scrollZoom": False, "displayModeBar": False})
 
     family_catalog: dict[str, pd.DataFrame] = {}
     if not catalog.empty and "eco" in catalog.columns:
@@ -143,13 +143,13 @@ def render_families(
             )
         rows_html += (
             '<tr>'
-            f'<td><span class="family-chip" style="--chip-color:{color}">{_esc(item["group"])}</span></td>'
-            f'<td style="text-align:center">{item["n_ecos"]}</td>'
-            f'<td style="text-align:center">{_tier_pills(item["tier_counts"])}</td>'
-            f'<td style="text-align:right">{_fmt_pct(item["avg_wr"])}</td>'
-            f'<td style="text-align:right;color:{TEXT_SECONDARY};font-size:0.82rem">{_fmt_pct(item["min_wr"])} – {_fmt_pct(item["max_wr"])}</td>'
-            f'<td style="text-align:center">{_trend_pills(item["trend_counts"])}</td>'
-            f'<td>{outlier_cell}</td>'
+            f'<td data-label="Family"><span class="family-chip" style="--chip-color:{color}">{_esc(item["group"])}</span></td>'
+            f'<td data-label="Openings" style="text-align:center">{item["n_ecos"]}</td>'
+            f'<td data-label="Tier split" style="text-align:center">{_tier_pills(item["tier_counts"])}</td>'
+            f'<td data-label="Avg win rate" style="text-align:right">{_fmt_pct(item["avg_wr"])}</td>'
+            f'<td data-label="Range" style="text-align:right;color:{TEXT_SECONDARY};font-size:0.82rem">{_fmt_pct(item["min_wr"])} \u2013 {_fmt_pct(item["max_wr"])}</td>'
+            f'<td data-label="Trends" style="text-align:center">{_trend_pills(item["trend_counts"])}</td>'
+            f'<td data-label="Top outlier">{outlier_cell}</td>'
             '</tr>'
         )
 
@@ -222,6 +222,11 @@ def render_families(
   .families-table thead { position: absolute; left: -9999px; top: -9999px; }
   .families-table tr { border-bottom: 1px solid rgba(255,255,255,0.08); padding: 0.75rem 0; }
   .families-table td { border: 0; padding: 0.35rem 0; text-align: left !important; }
+  .families-table td::before { content: attr(data-label); display: block; font-size: 0.65rem; color: __TEXT_SECONDARY__; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.2rem; }
+}
+@media (max-width: 768px) {
+  .families-shell { padding-top: 1.5rem; }
+  .families-title { font-size: clamp(1.2rem, 3vw, 1.6rem); }
 }
 </style>""".replace("__TEXT_SECONDARY__", TEXT_SECONDARY)
 

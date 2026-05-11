@@ -32,20 +32,25 @@ function clearNode(el) {
 
 function syncBackLink() {
 	const backLink = document.getElementById("back-to-openings");
+	const mobileBackLink = document.getElementById("mobile-back-link");
+	let resolvedHref = null;
 	try {
 		const ref = document.referrer || "";
 		if (ref.includes("openings.html#")) {
 			const refHash = ref.split("#")[1] || "";
 			if (refHash) {
-				backLink.href = "openings.html#" + refHash;
-				return;
+				resolvedHref = "openings.html#" + refHash;
 			}
 		}
 	} catch (_) {}
-	const params = new URLSearchParams(window.location.search);
-	const back = params.get("back");
-	if (back) {
-		backLink.href = "openings.html#" + back;
+	if (!resolvedHref) {
+		const params = new URLSearchParams(window.location.search);
+		const back = params.get("back");
+		if (back) resolvedHref = "openings.html#" + back;
+	}
+	if (resolvedHref) {
+		if (backLink) backLink.href = resolvedHref;
+		if (mobileBackLink) mobileBackLink.href = resolvedHref;
 	}
 }
 
@@ -443,7 +448,7 @@ function renderDescriptiveState(chartEl, opening, titleText, warningText) {
 function renderOpening(eco, opening, openingLines) {
 	const name = opening.name || eco;
 	document.getElementById("opening-title").textContent = `${name} (${eco})`;
-	document.title = `${eco} — ${name} | OpenCast`;
+	document.title = `${eco} – ${name} | OpenCast`;
 	const tier = opening.model_tier;
 	const tierBadge = document.getElementById("opening-tier-badge");
 	const modelBadge = document.getElementById("opening-model-badge");
@@ -534,7 +539,7 @@ function renderOpening(eco, opening, openingLines) {
 		traces.push({ x: actuals.map((d) => d.month), y: olsTrend.trendY, mode: "lines", name: `Trend (${trendDirection})`, line: { color: trendColor, width: 1.5, dash: "longdash" }, opacity: trendConfidence === "high" ? 0.78 : trendConfidence === "medium" ? 0.55 : 0.30, type: "scatter" });
 	}
 	const isNarrow = window.matchMedia("(max-width: 760px)").matches;
-	Plotly.newPlot("opening-chart", traces, { xaxis: { title: isNarrow ? "" : "Month", gridcolor: GRID_COLOR, zerolinecolor: GRID_COLOR, tickfont: { color: TEXT_SECONDARY, size: isNarrow ? 10 : 12 }, tickangle: isNarrow ? -35 : 0 }, yaxis: { title: isNarrow ? "" : "Win Rate", gridcolor: GRID_COLOR, zerolinecolor: GRID_COLOR, tickfont: { color: TEXT_SECONDARY, size: isNarrow ? 10 : 12 } }, plot_bgcolor: PANEL_BG, paper_bgcolor: PANEL_BG, font: { family: BODY_FONT, color: TEXT_PRIMARY }, margin: isNarrow ? { t: 36, r: 8, b: 52, l: 40 } : { t: 36, r: 20, b: 52, l: 56 }, legend: { orientation: "h", x: 0, y: 1.0, xanchor: "left", yanchor: "bottom", font: { size: 11, color: TEXT_SECONDARY }, bgcolor: "rgba(0,0,0,0)", borderwidth: 0, itemwidth: 30 } }, { responsive: true });
+	Plotly.newPlot("opening-chart", traces, { xaxis: { title: isNarrow ? "" : "Month", gridcolor: GRID_COLOR, zerolinecolor: GRID_COLOR, tickfont: { color: TEXT_SECONDARY, size: isNarrow ? 10 : 12 }, tickangle: isNarrow ? -35 : 0 }, yaxis: { title: isNarrow ? "" : "Win Rate", gridcolor: GRID_COLOR, zerolinecolor: GRID_COLOR, tickfont: { color: TEXT_SECONDARY, size: isNarrow ? 10 : 12 } }, plot_bgcolor: PANEL_BG, paper_bgcolor: PANEL_BG, font: { family: BODY_FONT, color: TEXT_PRIMARY }, margin: isNarrow ? { t: 36, r: 8, b: 52, l: 40 } : { t: 36, r: 20, b: 52, l: 56 }, legend: { orientation: "h", x: 0, y: 1.0, xanchor: "left", yanchor: "bottom", font: { size: 11, color: TEXT_SECONDARY }, bgcolor: "rgba(0,0,0,0)", borderwidth: 0, itemwidth: 30 } }, { responsive: true, scrollZoom: false, displayModeBar: false });
 	const hasEngine = opening.engine_cp !== null && opening.p_engine !== null && opening.human_win_rate !== null && opening.delta !== null;
 	if (!hasEngine) {
 		engineBox.style.display = "none";

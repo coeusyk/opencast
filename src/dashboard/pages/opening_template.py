@@ -42,6 +42,7 @@ def render_opening_template() -> str:
 <div id="breaks-box" class="engine-box" style="display:none;margin-bottom:1.5rem;"></div>
 <div id="lines-box" class="engine-box" style="display:none;"></div>
 <div id="engine-box" class="engine-box" style="display:none;"></div>
+<div class="mobile-back-bar" role="navigation"><a href="openings.html" id="mobile-back-link" class="mobile-back-btn">&larr; All openings</a></div>
 """
     tier_css = f"""<style>
   .tier-badge {{display:inline-block;padding:0.15em 0.55em;border-radius:4px;font-size:0.75rem;font-weight:600;letter-spacing:0.04em;}}
@@ -168,11 +169,30 @@ def render_opening_template() -> str:
   .engine-card {{ background:rgba(255,255,255,0.04); border-radius:8px; padding:0.75rem 1rem; }}
   @media (max-width: 860px) {{
     .opening-board-layout {{ grid-template-columns:1fr; }}
-    .opening-board-frame {{ grid-template-columns:1rem minmax(280px, 420px); grid-template-rows:minmax(280px, 420px) 1rem; }}
-    .opening-board {{ max-width:420px; }}
+    .opening-board-frame {{ grid-template-columns:1rem minmax(0, 1fr); grid-template-rows:minmax(280px, 420px) 1rem; }}
+    .opening-board {{ max-width: min(100%, calc(100vw - 3rem - 48px)); margin-inline: auto; }}
+    .board-ranks, .board-files {{ font-size: clamp(0.55rem, 2vw, 0.72rem); }}
     .historical-grid {{ grid-template-columns:repeat(2, minmax(0, 1fr)); }}
     .engine-cards {{ grid-template-columns:1fr; gap:0.6rem; }}
     .opening-move-list {{ max-height:none; overflow-x:auto; overflow-y:visible; }}
+  }}
+  .mobile-back-bar {{
+    display:none;
+    position:fixed;
+    bottom:0; left:0; right:0;
+    background:var(--surface);
+    border-top:1px solid var(--border);
+    padding:0.75rem 1rem;
+    z-index:100;
+  }}
+  .mobile-back-btn {{
+    color:var(--text-primary);
+    text-decoration:none;
+    font-size:0.9rem;
+  }}
+  @media (max-width: 768px) {{
+    .mobile-back-bar {{ display:block; }}
+    body {{ padding-bottom: 3.5rem; }}
   }}
 </style>"""
     theme_script = f"""<script>

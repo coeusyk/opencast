@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-10",
+  "generated_at": "2026-05-11",
   "month": "2026-05",
-  "headline": "Humans outperform Stockfish in King's Indian Defense: Orthodox Variation, Classical System (E98), while struggling with Benoni Defense: Old Benoni (A44).",
+  "headline": "Humans outperform Stockfish in King's Indian Defense: Orthodox Variation, Classical System (E98) by the widest margin, while Benoni Defense: Old Benoni (A44) is the most frequently misplayed opening.",
   "panels": {
     "forecast": {
-      "insight": "The forecast indicates stable win-rate trends for most openings, with a few exceptions showing falling win rates. Notably, English Opening: Four Knights System, Nimzowitsch Variation (A28) is projected to rise sharply over the next three months. However, the dataset's overall trend remains stable.",
+      "insight": "The win-rate forecast trends indicate that humans at 2000-rated blitz are outperforming Stockfish in several openings, with a rising trend in English Opening: Four Knights System, Nimzowitsch Variation (A28).",
       "highlight_ecos": [
-        "A28",
         "E98",
-        "A44"
+        "A28",
+        "A21"
       ]
     },
     "engine_delta": {
-      "insight": "Humans outperform Stockfish in several openings, including King's Indian Defense: Orthodox Variation, Classical System (E98), while underperforming in openings like Benoni Defense: Old Benoni (A44). This suggests that humans have an advantage in openings that reward skill and creativity.",
+      "insight": "The engine-human delta patterns reveal that humans are outperforming Stockfish in openings like King's Indian Defense: Orthodox Variation, Classical System (E98) and underperforming in openings like Benoni Defense: Old Benoni (A44).",
       "outliers": [
-        "E98",
         "A44",
+        "E98",
         "A21",
         "A18"
       ]
     },
     "heatmap": {
-      "insight": "The ECO category heatmap reveals that humans tend to perform better in openings that are less theory-dependent, such as King's Indian Defense: Orthodox Variation, Classical System (E98). In contrast, openings like Benoni Defense: Old Benoni (A44) show a higher frequency of human mistakes."
+      "insight": "The category-level patterns show that openings like King's Indian Defense: Orthodox Variation, Classical System (E98) and English Opening: Four Knights System, Nimzowitsch Variation (A28) are performing well, while openings like Benoni Defense: Old Benoni (A44) are struggling."
     }
   }
 }

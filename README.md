@@ -24,18 +24,14 @@ See [findings/findings.md](findings/findings.md) and [findings/findings.json](fi
 
 ## Recent Product Updates
 
-- Opening detail pages now include an **Analysis** section, trend-driver table polish, and an upgraded **Engine vs Human** card layout.
-- Trend-line rendering is restored across opening charts, with confidence-based opacity.
+- Opening detail pages include an **Analysis** section, trend-driver table polish, and an upgraded **Engine vs Human** card layout.
+- Trend-line rendering across opening charts uses confidence-based opacity.
 - Structural-break vertical markers were removed from per-opening charts to reduce clutter.
-- Track 3 foundation is now in place:
-  - Curated opening lines live in `data/opening_lines.json`.
-  - `run_visualizer()` copies lines to `data/output/dashboard/assets/opening_lines.json`.
-  - Opening pages can render an interactive board with start/back/next controls when a curated line is available.
-  - Board coordinate labels render outside the board frame (not over piece squares).
-- Track 5 hardening is in place for the v1.0.0 push:
-  - Schema contracts live in `SCHEMAS.md`.
-  - The release guide is in `READING_OPENCAST.md`.
-  - CI now enforces a configurable runtime budget from `config.json`.
+- Curated opening lines live in `data/opening_lines.json` and are served as `assets/opening_lines.json` in the dashboard.
+- Opening pages render an interactive board with start/back/next controls when a curated line is available.
+- Board coordinate labels render outside the board frame (not over piece squares).
+- Schema contracts live in `SCHEMAS.md`; the interpretation guide is in `READING_OPENCAST.md`.
+- CI enforces a configurable runtime budget from `config.json`.
 
 
 ## How It Works
