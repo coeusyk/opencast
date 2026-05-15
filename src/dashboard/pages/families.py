@@ -144,17 +144,17 @@ def render_families(
         rows_html += (
             '<tr>'
             f'<td data-label="Family"><span class="family-chip" style="--chip-color:{color}">{_esc(item["group"])}</span></td>'
-            f'<td data-label="Openings" style="text-align:center">{item["n_ecos"]}</td>'
-            f'<td data-label="Tier split" style="text-align:center">{_tier_pills(item["tier_counts"])}</td>'
-            f'<td data-label="Avg win rate" style="text-align:right">{_fmt_pct(item["avg_wr"])}</td>'
-            f'<td data-label="Range" style="text-align:right;color:{TEXT_SECONDARY};font-size:0.82rem">{_fmt_pct(item["min_wr"])} \u2013 {_fmt_pct(item["max_wr"])}</td>'
-            f'<td data-label="Trends" style="text-align:center">{_trend_pills(item["trend_counts"])}</td>'
+            f'<td data-label="Openings">{item["n_ecos"]}</td>'
+            f'<td data-label="Tier split">{_tier_pills(item["tier_counts"])}</td>'
+            f'<td data-label="Avg win rate">{_fmt_pct(item["avg_wr"])}</td>'
+            f'<td data-label="Range" style="color:{TEXT_SECONDARY};font-size:0.82rem">{_fmt_pct(item["min_wr"])} \u2013 {_fmt_pct(item["max_wr"])}</td>'
+            f'<td data-label="Trends">{_trend_pills(item["trend_counts"])}</td>'
             f'<td data-label="Top outlier">{outlier_cell}</td>'
             '</tr>'
         )
 
     fam_css = """<style>
-.families-shell { max-width: 1240px; margin: 0 auto; padding: 3rem 2rem 4rem; }
+.families-shell { max-width: 1240px; margin: 0 auto; padding: 1.5rem 1.5rem 4rem; }
 .families-hero { display: grid; grid-template-columns: 1.35fr 1fr 1fr; gap: 1.25rem; margin-bottom: 1.5rem; }
 .engine-box {
   background: var(--surface-raised);
@@ -213,19 +213,32 @@ def render_families(
 }
 .family-outlier-delta { margin-top: 0.15rem; }
 @media (max-width: 1100px) {
-  .families-shell { padding: 2rem 1.25rem 3rem; }
+  .families-shell { padding: 1rem 1rem 3rem; }
   .families-hero { grid-template-columns: 1fr; }
 }
 @media (max-width: 720px) {
+  .families-shell { padding: 0.75rem 0.75rem 2.5rem; }
   .tier-pill, .trend-pill { display: inline-block; margin: 0.12rem 0.12rem 0 0; }
   .families-table table, .families-table thead, .families-table tbody, .families-table th, .families-table td, .families-table tr { display: block; }
   .families-table thead { position: absolute; left: -9999px; top: -9999px; }
   .families-table tr { border-bottom: 1px solid rgba(255,255,255,0.08); padding: 0.75rem 0; }
   .families-table td { border: 0; padding: 0.35rem 0; text-align: left !important; }
-  .families-table td::before { content: attr(data-label); display: block; font-size: 0.65rem; color: __TEXT_SECONDARY__; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.2rem; }
+  .families-table td::before { content: attr(data-label); display: block; font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-faint); margin-bottom: 0.2rem; }
+  .families-table td:empty::before { display: none; }
+}
+@media (min-width: 721px) {
+  .families-table thead th:nth-child(2),
+  .families-table thead th:nth-child(4),
+  .families-table thead th:nth-child(5) { text-align: right; }
+  .families-table thead th:nth-child(3),
+  .families-table thead th:nth-child(6) { text-align: center; }
+  .families-table tbody td:nth-child(2),
+  .families-table tbody td:nth-child(4),
+  .families-table tbody td:nth-child(5) { text-align: right; }
+  .families-table tbody td:nth-child(3),
+  .families-table tbody td:nth-child(6) { text-align: center; }
 }
 @media (max-width: 768px) {
-  .families-shell { padding-top: 1.5rem; }
   .families-title { font-size: clamp(1.2rem, 3vw, 1.6rem); }
 }
 </style>""".replace("__TEXT_SECONDARY__", TEXT_SECONDARY)
