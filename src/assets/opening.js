@@ -253,12 +253,28 @@ function renderOpeningBoard(eco, openingLines) {
 	document.addEventListener("keydown", window.__opencastBoardKeyHandler);
 	goToMove(0);
 	const forceBoardResize = () => {
-		board.resize();
-		syncCoordinateGeometry();
-		goToMove(currentIndex);
+		boardEl.style.width = "";
+		boardEl.style.height = "";
+		frameEl.style.gridTemplateColumns = "";
+		frameEl.style.gridTemplateRows = "";
+		requestAnimationFrame(() => {
+			board.resize();
+			syncCoordinateGeometry();
+			goToMove(currentIndex);
+		});
 	};
 	requestAnimationFrame(forceBoardResize);
 	setTimeout(forceBoardResize, 80);
+
+	if (window.__opencastBoardResizeHandler) {
+		window.removeEventListener("resize", window.__opencastBoardResizeHandler);
+	}
+	let _boardResizeTimer = null;
+	window.__opencastBoardResizeHandler = () => {
+		clearTimeout(_boardResizeTimer);
+		_boardResizeTimer = setTimeout(forceBoardResize, 50);
+	};
+	window.addEventListener("resize", window.__opencastBoardResizeHandler);
 }
 
 function renderHistoricalSummary(data) {
