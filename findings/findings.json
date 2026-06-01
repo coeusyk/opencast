@@ -1,27 +1,28 @@
 {
-  "generated_at": "2026-05-10",
-  "month": "2026-05",
-  "headline": "Humans outperform Stockfish in King's Indian Defense: Orthodox Variation, Classical System (E98), while struggling with Benoni Defense: Old Benoni (A44).",
+  "generated_at": "2026-06-01",
+  "month": "2026-06",
+  "headline": "King's Indian Defense: Orthodox Variation, Classical System (E98) shows the strongest positive human-vs-engine gap, while Benoni Defense: Old Benoni (A44) remains the largest negative outlier.",
   "panels": {
     "forecast": {
-      "insight": "The forecast indicates stable win-rate trends for most openings, with a few exceptions showing falling win rates. Notably, English Opening: Four Knights System, Nimzowitsch Variation (A28) is projected to rise sharply over the next three months. However, the dataset's overall trend remains stable.",
+      "insight": "Forecast directions suggest mixed momentum across openings, with 22 rising and 18 falling trajectories in the next horizon. The strongest signals are best read alongside uncertainty bands to separate stable trends from short-term noise.",
       "highlight_ecos": [
         "A28",
-        "E98",
-        "A44"
+        "A45",
+        "A10",
+        "A15"
       ]
     },
     "engine_delta": {
-      "insight": "Humans outperform Stockfish in several openings, including King's Indian Defense: Orthodox Variation, Classical System (E98), while underperforming in openings like Benoni Defense: Old Benoni (A44). This suggests that humans have an advantage in openings that reward skill and creativity.",
+      "insight": "Engine-human deltas remain asymmetric: E98 leads positive outperformance, while A44 underperforms most against engine expectation. These outliers flag openings where practical play diverges most from theoretical evaluation.",
       "outliers": [
-        "E98",
         "A44",
-        "A21",
-        "A18"
+        "B29",
+        "C40",
+        "A57"
       ]
     },
     "heatmap": {
-      "insight": "The ECO category heatmap reveals that humans tend to perform better in openings that are less theory-dependent, such as King's Indian Defense: Orthodox Variation, Classical System (E98). In contrast, openings like Benoni Defense: Old Benoni (A44) show a higher frequency of human mistakes."
+      "insight": "Category-level heatmap patterns continue to show non-uniform performance over time, with month-to-month variation indicating shifting practical preferences across ECO families."
     }
   }
 }
