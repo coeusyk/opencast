@@ -1,6 +1,8 @@
 {
   "_meta": {
-    "skipped_months": {}
+    "skipped_months": {
+      "2026-05": "zero_games"
+    }
   },
   "eco": "C68",
   "months": {
@@ -3681,60 +3683,60 @@
       "white": 3326
     },
     "2026-04": {
-      "white": 1639,
-      "draws": 218,
       "black": 1451,
+      "draws": 218,
       "moves": [
         {
-          "uci": "d7c6",
-          "san": "dxc6",
           "averageRating": 2093,
-          "white": 1603,
-          "draws": 215,
           "black": 1422,
+          "draws": 215,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "dxc6",
+          "uci": "d7c6",
+          "white": 1603
         },
         {
-          "uci": "b7c6",
-          "san": "bxc6",
           "averageRating": 2069,
-          "white": 32,
-          "draws": 2,
           "black": 29,
+          "draws": 2,
           "game": null,
           "opening": {
             "eco": "C68",
             "name": "Ruy Lopez: Exchange Variation, Lutikov Variation"
-          }
+          },
+          "san": "bxc6",
+          "uci": "b7c6",
+          "white": 32
         },
         {
-          "uci": "g8f6",
-          "san": "Nf6",
           "averageRating": 2100,
-          "white": 2,
-          "draws": 1,
           "black": 0,
+          "draws": 1,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "Nf6",
+          "uci": "g8f6",
+          "white": 2
         },
         {
-          "uci": "g8e7",
-          "san": "Ne7",
           "averageRating": 2072,
-          "white": 2,
-          "draws": 0,
           "black": 0,
+          "draws": 0,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "Ne7",
+          "uci": "g8e7",
+          "white": 2
         }
       ],
-      "recentGames": [],
-      "topGames": [],
       "opening": {
         "eco": "C68",
         "name": "Ruy Lopez: Exchange Variation"
-      }
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 1639
     }
   }
 }

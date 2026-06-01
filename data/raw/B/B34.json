@@ -1,6 +1,8 @@
 {
   "_meta": {
-    "skipped_months": {}
+    "skipped_months": {
+      "2026-05": "zero_games"
+    }
   },
   "eco": "B34",
   "months": {
@@ -2394,57 +2396,57 @@
       "white": 1156
     },
     "2026-04": {
-      "white": 535,
-      "draws": 73,
       "black": 564,
+      "draws": 73,
       "moves": [
         {
-          "uci": "b7c6",
-          "san": "bxc6",
           "averageRating": 2085,
-          "white": 513,
-          "draws": 69,
           "black": 545,
+          "draws": 69,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "bxc6",
+          "uci": "b7c6",
+          "white": 513
         },
         {
-          "uci": "d7c6",
-          "san": "dxc6",
           "averageRating": 2123,
-          "white": 16,
-          "draws": 4,
           "black": 19,
+          "draws": 4,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "dxc6",
+          "uci": "d7c6",
+          "white": 16
         },
         {
-          "uci": "f8g7",
-          "san": "Bg7",
           "averageRating": 2068,
-          "white": 5,
-          "draws": 0,
           "black": 0,
+          "draws": 0,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "Bg7",
+          "uci": "f8g7",
+          "white": 5
         },
         {
-          "uci": "b7b6",
-          "san": "b6",
           "averageRating": 2059,
-          "white": 1,
-          "draws": 0,
           "black": 0,
+          "draws": 0,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 1
         }
       ],
-      "recentGames": [],
-      "topGames": [],
       "opening": {
         "eco": "B34",
         "name": "Sicilian Defense: Accelerated Dragon, Exchange Variation"
-      }
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 535
     }
   }
 }
