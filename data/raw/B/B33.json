@@ -1,6 +1,8 @@
 {
   "_meta": {
-    "skipped_months": {}
+    "skipped_months": {
+      "2026-05": "zero_games"
+    }
   },
   "eco": "B33",
   "months": {
@@ -6655,126 +6657,126 @@
       "white": 3989
     },
     "2026-04": {
-      "white": 1922,
-      "draws": 247,
       "black": 1806,
+      "draws": 247,
       "moves": [
         {
-          "uci": "d4b5",
-          "san": "Ndb5",
           "averageRating": 2101,
-          "white": 1406,
-          "draws": 177,
           "black": 1224,
+          "draws": 177,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "Ndb5",
+          "uci": "d4b5",
+          "white": 1406
         },
         {
-          "uci": "d4b3",
-          "san": "Nb3",
           "averageRating": 2077,
-          "white": 202,
-          "draws": 24,
           "black": 196,
+          "draws": 24,
           "game": null,
           "opening": {
             "eco": "B33",
             "name": "Sicilian Defense: Lasker-Pelikan Variation, Schlechter Variation"
-          }
+          },
+          "san": "Nb3",
+          "uci": "d4b3",
+          "white": 202
         },
         {
-          "uci": "d4c6",
-          "san": "Nxc6",
           "averageRating": 2070,
-          "white": 159,
-          "draws": 28,
           "black": 185,
+          "draws": 28,
           "game": null,
           "opening": {
             "eco": "B33",
             "name": "Sicilian Defense: Lasker-Pelikan Variation, Exchange Variation"
-          }
+          },
+          "san": "Nxc6",
+          "uci": "d4c6",
+          "white": 159
         },
         {
-          "uci": "d4f3",
-          "san": "Nf3",
           "averageRating": 2071,
-          "white": 79,
-          "draws": 11,
           "black": 88,
+          "draws": 11,
           "game": null,
           "opening": {
             "eco": "B33",
             "name": "Sicilian Defense: Lasker-Pelikan Variation, Retreat Variation"
-          }
+          },
+          "san": "Nf3",
+          "uci": "d4f3",
+          "white": 79
         },
         {
-          "uci": "d4f5",
-          "san": "Nf5",
           "averageRating": 2066,
-          "white": 48,
-          "draws": 6,
           "black": 75,
+          "draws": 6,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "Nf5",
+          "uci": "d4f5",
+          "white": 48
         },
         {
-          "uci": "d4e2",
-          "san": "Nde2",
           "averageRating": 2115,
-          "white": 28,
-          "draws": 1,
           "black": 31,
+          "draws": 1,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "Nde2",
+          "uci": "d4e2",
+          "white": 28
         },
         {
-          "uci": "c1e3",
-          "san": "Be3",
           "averageRating": 2137,
-          "white": 0,
-          "draws": 0,
           "black": 3,
+          "draws": 0,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "Be3",
+          "uci": "c1e3",
+          "white": 0
         },
         {
-          "uci": "c1g5",
-          "san": "Bg5",
           "averageRating": 2141,
-          "white": 0,
-          "draws": 0,
           "black": 2,
+          "draws": 0,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "Bg5",
+          "uci": "c1g5",
+          "white": 0
         },
         {
-          "uci": "a2a3",
-          "san": "a3",
           "averageRating": 2158,
-          "white": 0,
-          "draws": 0,
           "black": 1,
+          "draws": 0,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 0
         },
         {
-          "uci": "f1b5",
-          "san": "Bb5",
           "averageRating": 1723,
-          "white": 0,
-          "draws": 0,
           "black": 1,
+          "draws": 0,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "Bb5",
+          "uci": "f1b5",
+          "white": 0
         }
       ],
-      "recentGames": [],
-      "topGames": [],
       "opening": {
         "eco": "B33",
         "name": "Sicilian Defense: Lasker-Pelikan Variation"
-      }
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 1922
     }
   }
 }

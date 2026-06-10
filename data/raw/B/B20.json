@@ -1,6 +1,8 @@
 {
   "_meta": {
-    "skipped_months": {}
+    "skipped_months": {
+      "2026-05": "zero_games"
+    }
   },
   "eco": "B20",
   "months": {
@@ -6401,170 +6403,170 @@
       "white": 301607
     },
     "2026-04": {
-      "white": 152548,
-      "draws": 16604,
       "black": 145266,
+      "draws": 16604,
       "moves": [
         {
-          "uci": "g1f3",
-          "san": "Nf3",
           "averageRating": 2085,
-          "white": 85603,
-          "draws": 9621,
           "black": 81933,
+          "draws": 9621,
           "game": null,
           "opening": {
             "eco": "B27",
             "name": "Sicilian Defense"
-          }
+          },
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 85603
         },
         {
-          "uci": "b1c3",
-          "san": "Nc3",
           "averageRating": 2087,
-          "white": 19560,
-          "draws": 2054,
           "black": 17508,
+          "draws": 2054,
           "game": null,
           "opening": {
             "eco": "B23",
             "name": "Sicilian Defense: Closed"
-          }
+          },
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 19560
         },
         {
-          "uci": "d2d4",
-          "san": "d4",
           "averageRating": 2083,
-          "white": 13105,
-          "draws": 1250,
           "black": 12397,
+          "draws": 1250,
           "game": null,
           "opening": {
             "eco": "B21",
             "name": "Sicilian Defense: Smith-Morra Gambit"
-          }
+          },
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 13105
         },
         {
-          "uci": "c2c3",
-          "san": "c3",
           "averageRating": 2085,
-          "white": 11667,
-          "draws": 1343,
           "black": 10499,
+          "draws": 1343,
           "game": null,
           "opening": {
             "eco": "B22",
             "name": "Sicilian Defense: Alapin Variation"
-          }
+          },
+          "san": "c3",
+          "uci": "c2c3",
+          "white": 11667
         },
         {
-          "uci": "f2f4",
-          "san": "f4",
           "averageRating": 2060,
-          "white": 5702,
-          "draws": 562,
           "black": 6193,
+          "draws": 562,
           "game": null,
           "opening": {
             "eco": "B21",
             "name": "Sicilian Defense: McDonnell Attack"
-          }
+          },
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 5702
         },
         {
-          "uci": "f1c4",
-          "san": "Bc4",
           "averageRating": 2054,
-          "white": 4936,
-          "draws": 519,
           "black": 5140,
+          "draws": 519,
           "game": null,
           "opening": {
             "eco": "B20",
             "name": "Sicilian Defense: Bowdler Attack"
-          }
+          },
+          "san": "Bc4",
+          "uci": "f1c4",
+          "white": 4936
         },
         {
-          "uci": "b2b4",
-          "san": "b4",
           "averageRating": 2084,
-          "white": 2718,
-          "draws": 218,
           "black": 2480,
+          "draws": 218,
           "game": null,
           "opening": {
             "eco": "B20",
             "name": "Sicilian Defense: Wing Gambit"
-          }
+          },
+          "san": "b4",
+          "uci": "b2b4",
+          "white": 2718
         },
         {
-          "uci": "d2d3",
-          "san": "d3",
           "averageRating": 2072,
-          "white": 2012,
-          "draws": 237,
           "black": 2034,
+          "draws": 237,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 2012
         },
         {
-          "uci": "a2a3",
-          "san": "a3",
           "averageRating": 2082,
-          "white": 1949,
-          "draws": 182,
           "black": 1872,
+          "draws": 182,
           "game": null,
           "opening": {
             "eco": "B20",
             "name": "Sicilian Defense: Mengarini Variation"
-          }
+          },
+          "san": "a3",
+          "uci": "a2a3",
+          "white": 1949
         },
         {
-          "uci": "c2c4",
-          "san": "c4",
           "averageRating": 2075,
-          "white": 1738,
-          "draws": 223,
           "black": 1719,
+          "draws": 223,
           "game": null,
           "opening": {
             "eco": "B20",
             "name": "Sicilian Defense: Staunton-Cochrane Variation"
-          }
+          },
+          "san": "c4",
+          "uci": "c2c4",
+          "white": 1738
         },
         {
-          "uci": "g2g3",
-          "san": "g3",
           "averageRating": 2074,
-          "white": 985,
-          "draws": 126,
           "black": 958,
+          "draws": 126,
           "game": null,
           "opening": {
             "eco": "B20",
             "name": "Sicilian Defense: Lasker-Dunne Attack"
-          }
+          },
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 985
         },
         {
-          "uci": "b2b3",
-          "san": "b3",
           "averageRating": 2085,
-          "white": 957,
-          "draws": 99,
           "black": 895,
+          "draws": 99,
           "game": null,
           "opening": {
             "eco": "B20",
             "name": "Sicilian Defense: Czerniak Attack"
-          }
+          },
+          "san": "b3",
+          "uci": "b2b3",
+          "white": 957
         }
       ],
-      "recentGames": [],
-      "topGames": [],
       "opening": {
         "eco": "B20",
         "name": "Sicilian Defense"
-      }
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 152548
     }
   }
 }

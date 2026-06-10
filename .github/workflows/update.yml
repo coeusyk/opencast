@@ -198,6 +198,7 @@ jobs:
           fi
 
       - name: Commit updated outputs
+        id: data_commit
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -210,8 +211,29 @@ jobs:
           if [ -f data/output/long_tail_stats.csv ]; then
             git add -f data/output/long_tail_stats.csv
           fi
-          git diff --cached --quiet || git commit -m "chore: auto-update $(date +%Y-%m)"
-          git push
+          if git diff --cached --quiet; then
+            echo "committed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "chore: auto-update $(date +%Y-%m)"
+            git push
+            echo "committed=true" >> "$GITHUB_OUTPUT"
+            echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Sync data commit to develop
+        if: success() && steps.data_commit.outputs.committed == 'true'
+        run: |
+          DATA_SHA="${{ steps.data_commit.outputs.sha }}"
+          echo "Cherry-picking data commit ${DATA_SHA} onto develop"
+          git fetch origin develop
+          git checkout develop
+          git pull --ff-only origin develop
+          if ! git cherry-pick "$DATA_SHA"; then
+            echo "::error::Cherry-pick of ${DATA_SHA} onto develop failed — manual merge resolution required"
+            git cherry-pick --abort
+            exit 1
+          fi
+          git push origin develop
 
       - name: Trigger report workflow
         if: success()

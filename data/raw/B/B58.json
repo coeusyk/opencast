@@ -1,6 +1,8 @@
 {
   "_meta": {
-    "skipped_months": {}
+    "skipped_months": {
+      "2026-05": "zero_games"
+    }
   },
   "eco": "B58",
   "months": {
@@ -3798,73 +3800,73 @@
       "white": 187
     },
     "2026-04": {
-      "white": 99,
-      "draws": 16,
       "black": 112,
+      "draws": 16,
       "moves": [
         {
-          "uci": "d4b3",
-          "san": "Nb3",
           "averageRating": 2106,
-          "white": 64,
-          "draws": 10,
           "black": 68,
+          "draws": 10,
           "game": null,
           "opening": {
             "eco": "B59",
             "name": "Sicilian Defense: Boleslavsky Variation"
-          }
+          },
+          "san": "Nb3",
+          "uci": "d4b3",
+          "white": 64
         },
         {
-          "uci": "d4b5",
-          "san": "Ndb5",
           "averageRating": 2093,
-          "white": 14,
-          "draws": 2,
           "black": 18,
+          "draws": 2,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "Ndb5",
+          "uci": "d4b5",
+          "white": 14
         },
         {
-          "uci": "d4f3",
-          "san": "Nf3",
           "averageRating": 2098,
-          "white": 11,
-          "draws": 3,
           "black": 14,
+          "draws": 3,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "Nf3",
+          "uci": "d4f3",
+          "white": 11
         },
         {
-          "uci": "d4c6",
-          "san": "Nxc6",
           "averageRating": 2093,
-          "white": 8,
-          "draws": 1,
           "black": 10,
+          "draws": 1,
           "game": null,
           "opening": {
             "eco": "B58",
             "name": "Sicilian Defense: Boleslavsky Variation, Louma Variation"
-          }
+          },
+          "san": "Nxc6",
+          "uci": "d4c6",
+          "white": 8
         },
         {
-          "uci": "d4f5",
-          "san": "Nf5",
           "averageRating": 2059,
-          "white": 2,
-          "draws": 0,
           "black": 2,
+          "draws": 0,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "Nf5",
+          "uci": "d4f5",
+          "white": 2
         }
       ],
-      "recentGames": [],
-      "topGames": [],
       "opening": {
         "eco": "B58",
         "name": "Sicilian Defense: Boleslavsky Variation"
-      }
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 99
     }
   }
 }

@@ -1,6 +1,8 @@
 {
   "_meta": {
-    "skipped_months": {}
+    "skipped_months": {
+      "2026-05": "zero_games"
+    }
   },
   "eco": "D44",
   "months": {
@@ -5016,90 +5018,90 @@
       "white": 608
     },
     "2026-04": {
-      "white": 287,
-      "draws": 35,
       "black": 305,
+      "draws": 35,
       "moves": [
         {
-          "uci": "e2e4",
-          "san": "e4",
           "averageRating": 2107,
-          "white": 155,
-          "draws": 13,
           "black": 150,
+          "draws": 13,
           "game": null,
           "opening": {
             "eco": "D44",
             "name": "Semi-Slav Defense: Botvinnik Variation"
-          }
+          },
+          "san": "e4",
+          "uci": "e2e4",
+          "white": 155
         },
         {
-          "uci": "a2a4",
-          "san": "a4",
           "averageRating": 2091,
-          "white": 86,
-          "draws": 19,
           "black": 100,
+          "draws": 19,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "a4",
+          "uci": "a2a4",
+          "white": 86
         },
         {
-          "uci": "e2e3",
-          "san": "e3",
           "averageRating": 2083,
-          "white": 37,
-          "draws": 2,
           "black": 49,
+          "draws": 2,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "e3",
+          "uci": "e2e3",
+          "white": 37
         },
         {
-          "uci": "g5f6",
-          "san": "Bxf6",
           "averageRating": 2075,
-          "white": 6,
-          "draws": 1,
           "black": 5,
+          "draws": 1,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "Bxf6",
+          "uci": "g5f6",
+          "white": 6
         },
         {
-          "uci": "g2g3",
-          "san": "g3",
           "averageRating": 2107,
-          "white": 2,
-          "draws": 0,
           "black": 0,
+          "draws": 0,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "g3",
+          "uci": "g2g3",
+          "white": 2
         },
         {
-          "uci": "f3e5",
-          "san": "Ne5",
           "averageRating": 2079,
-          "white": 0,
-          "draws": 0,
           "black": 1,
+          "draws": 0,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 0
         },
         {
-          "uci": "d1c2",
-          "san": "Qc2",
           "averageRating": 2030,
-          "white": 1,
-          "draws": 0,
           "black": 0,
+          "draws": 0,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "Qc2",
+          "uci": "d1c2",
+          "white": 1
         }
       ],
-      "recentGames": [],
-      "topGames": [],
       "opening": {
         "eco": "D44",
         "name": "Semi-Slav Defense Accepted"
-      }
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 287
     }
   }
 }

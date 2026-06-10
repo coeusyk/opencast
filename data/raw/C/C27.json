@@ -1,6 +1,8 @@
 {
   "_meta": {
-    "skipped_months": {}
+    "skipped_months": {
+      "2026-05": "zero_games"
+    }
   },
   "eco": "C27",
   "months": {
@@ -5561,90 +5563,90 @@
       "white": 268
     },
     "2026-04": {
-      "white": 163,
-      "draws": 13,
       "black": 122,
+      "draws": 13,
       "moves": [
         {
-          "uci": "e4c3",
-          "san": "Nxc3",
           "averageRating": 2081,
-          "white": 113,
-          "draws": 5,
           "black": 82,
+          "draws": 5,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "Nxc3",
+          "uci": "e4c3",
+          "white": 113
         },
         {
-          "uci": "e4f6",
-          "san": "Nf6",
           "averageRating": 2121,
-          "white": 25,
-          "draws": 6,
           "black": 9,
+          "draws": 6,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "Nf6",
+          "uci": "e4f6",
+          "white": 25
         },
         {
-          "uci": "b8c6",
-          "san": "Nc6",
           "averageRating": 2123,
-          "white": 7,
-          "draws": 1,
           "black": 16,
-          "game": null,
-          "opening": null
-        },
-        {
-          "uci": "e4d6",
-          "san": "Nd6",
-          "averageRating": 2103,
-          "white": 11,
           "draws": 1,
-          "black": 12,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 7
         },
         {
-          "uci": "d7d5",
-          "san": "d5",
+          "averageRating": 2103,
+          "black": 12,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd6",
+          "uci": "e4d6",
+          "white": 11
+        },
+        {
           "averageRating": 2054,
-          "white": 6,
-          "draws": 0,
           "black": 2,
+          "draws": 0,
           "game": null,
           "opening": {
             "eco": "C27",
             "name": "Bishop's Opening: Boden-Kieseritzky Gambit, Lichtenhein Defense"
-          }
+          },
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 6
         },
         {
-          "uci": "e4f2",
-          "san": "Nxf2",
           "averageRating": 2059,
-          "white": 0,
-          "draws": 0,
           "black": 1,
+          "draws": 0,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "Nxf2",
+          "uci": "e4f2",
+          "white": 0
         },
         {
-          "uci": "e4c5",
-          "san": "Nc5",
           "averageRating": 2082,
-          "white": 1,
-          "draws": 0,
           "black": 0,
+          "draws": 0,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "Nc5",
+          "uci": "e4c5",
+          "white": 1
         }
       ],
-      "recentGames": [],
-      "topGames": [],
       "opening": {
         "eco": "C27",
         "name": "Bishop's Opening: Boden-Kieseritzky Gambit"
-      }
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 163
     }
   }
 }

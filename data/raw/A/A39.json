@@ -1,6 +1,8 @@
 {
   "_meta": {
-    "skipped_months": {}
+    "skipped_months": {
+      "2026-05": "zero_games"
+    }
   },
   "eco": "A39",
   "months": {
@@ -5509,107 +5511,107 @@
       "white": 555
     },
     "2026-04": {
-      "white": 297,
-      "draws": 34,
       "black": 202,
+      "draws": 34,
       "moves": [
         {
-          "uci": "c5d4",
-          "san": "cxd4",
           "averageRating": 2099,
-          "white": 243,
-          "draws": 28,
           "black": 160,
+          "draws": 28,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "cxd4",
+          "uci": "c5d4",
+          "white": 243
         },
         {
-          "uci": "d7d6",
-          "san": "d6",
           "averageRating": 2109,
-          "white": 39,
-          "draws": 6,
           "black": 31,
+          "draws": 6,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "d6",
+          "uci": "d7d6",
+          "white": 39
         },
         {
-          "uci": "d7d5",
-          "san": "d5",
           "averageRating": 2017,
-          "white": 7,
-          "draws": 0,
           "black": 2,
+          "draws": 0,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 7
         },
         {
-          "uci": "c6d4",
-          "san": "Nxd4",
           "averageRating": 2088,
-          "white": 4,
-          "draws": 0,
           "black": 2,
+          "draws": 0,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "Nxd4",
+          "uci": "c6d4",
+          "white": 4
         },
         {
-          "uci": "a7a6",
-          "san": "a6",
           "averageRating": 2092,
-          "white": 2,
-          "draws": 0,
           "black": 3,
+          "draws": 0,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 2
         },
         {
-          "uci": "b7b6",
-          "san": "b6",
           "averageRating": 2080,
-          "white": 2,
-          "draws": 0,
           "black": 0,
+          "draws": 0,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "b6",
+          "uci": "b7b6",
+          "white": 2
         },
         {
-          "uci": "a8b8",
-          "san": "Rb8",
           "averageRating": 2163,
-          "white": 0,
-          "draws": 0,
           "black": 2,
+          "draws": 0,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "Rb8",
+          "uci": "a8b8",
+          "white": 0
         },
         {
-          "uci": "e7e6",
-          "san": "e6",
           "averageRating": 2161,
-          "white": 0,
-          "draws": 0,
           "black": 1,
+          "draws": 0,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "e6",
+          "uci": "e7e6",
+          "white": 0
         },
         {
-          "uci": "f8e8",
-          "san": "Re8",
           "averageRating": 2074,
-          "white": 0,
-          "draws": 0,
           "black": 1,
+          "draws": 0,
           "game": null,
-          "opening": null
+          "opening": null,
+          "san": "Re8",
+          "uci": "f8e8",
+          "white": 0
         }
       ],
-      "recentGames": [],
-      "topGames": [],
       "opening": {
         "eco": "A39",
         "name": "English Opening: Symmetrical Variation, Mecking Variation"
-      }
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 297
     }
   }
 }
