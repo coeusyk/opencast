@@ -142,6 +142,7 @@ function appendStatCard(parent, label, value, valueStyle) {
 
 function renderOpeningBoard(eco, openingLines) {
 	const boardSection = document.getElementById("opening-board-section");
+	const layoutEl = document.querySelector(".opening-board-layout");
 	const frameEl = document.querySelector(".opening-board-frame");
 	const boardEl = document.getElementById("opening-board");
 	const ranksEl = document.getElementById("opening-board-ranks");
@@ -271,14 +272,22 @@ function renderOpeningBoard(eco, openingLines) {
 		window.__opencastBoardResizeObserver = null;
 	}
 	let boardResizeRaf = null;
+	let previousLayoutWidth = 0;
 	window.__opencastBoardResizeObserver = new ResizeObserver(() => {
+		if (!layoutEl) return;
+		const layoutWidth = Math.round(layoutEl.getBoundingClientRect().width);
+		if (!Number.isFinite(layoutWidth) || layoutWidth <= 0 || layoutWidth === previousLayoutWidth) return;
+		previousLayoutWidth = layoutWidth;
 		if (boardResizeRaf !== null) cancelAnimationFrame(boardResizeRaf);
 		boardResizeRaf = requestAnimationFrame(() => {
 			boardResizeRaf = null;
 			forceBoardResize();
 		});
 	});
-	window.__opencastBoardResizeObserver.observe(frameEl);
+	if (layoutEl) {
+		previousLayoutWidth = Math.round(layoutEl.getBoundingClientRect().width);
+		window.__opencastBoardResizeObserver.observe(layoutEl);
+	}
 }
 
 function renderHistoricalSummary(data) {
