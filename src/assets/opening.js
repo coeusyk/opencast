@@ -266,15 +266,19 @@ function renderOpeningBoard(eco, openingLines) {
 	requestAnimationFrame(forceBoardResize);
 	setTimeout(forceBoardResize, 80);
 
-	if (window.__opencastBoardResizeHandler) {
-		window.removeEventListener("resize", window.__opencastBoardResizeHandler);
+	if (window.__opencastBoardResizeObserver) {
+		window.__opencastBoardResizeObserver.disconnect();
+		window.__opencastBoardResizeObserver = null;
 	}
-	let _boardResizeTimer = null;
-	window.__opencastBoardResizeHandler = () => {
-		clearTimeout(_boardResizeTimer);
-		_boardResizeTimer = setTimeout(forceBoardResize, 50);
-	};
-	window.addEventListener("resize", window.__opencastBoardResizeHandler);
+	let boardResizeRaf = null;
+	window.__opencastBoardResizeObserver = new ResizeObserver(() => {
+		if (boardResizeRaf !== null) cancelAnimationFrame(boardResizeRaf);
+		boardResizeRaf = requestAnimationFrame(() => {
+			boardResizeRaf = null;
+			forceBoardResize();
+		});
+	});
+	window.__opencastBoardResizeObserver.observe(frameEl);
 }
 
 function renderHistoricalSummary(data) {
