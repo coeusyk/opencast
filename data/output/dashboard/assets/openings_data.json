@@ -175,14 +175,14 @@
       },
       {
         "month": "2026-06",
-        "value": 0.483227,
+        "value": 0.483228,
         "lower": 0.481508,
         "upper": 0.484947
       },
       {
         "month": "2026-07",
         "value": 0.483248,
-        "lower": 0.481493,
+        "lower": 0.481494,
         "upper": 0.485002
       }
     ],
@@ -196,7 +196,7 @@
     "human_win_rate": 0.482789,
     "delta": -0.044683,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The Sicilian Defense has trended upward recently, but with a minor gap between human and engine performance. A 2000-rated player should consider adopting B20 to exploit this trend.",
+    "narrative": "The Sicilian Defense shows signs of falling, with a notable gap between human and engine performance. This opening is engine-favoured, making it a good choice for players who want to test their skills against a strong engine. A 2000-rated player should avoid this opening unless they're confident in their abilities.",
     "trend_direction": "stable",
     "trend_slope_per_month": 5.097891454190547e-05,
     "trend_r_squared": 0.2606612031105576,
@@ -434,7 +434,7 @@
     "human_win_rate": 0.4806,
     "delta": -0.038765,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "This opening is range-bound, with a minor gap between human and engine performance. A 2000-rated player should monitor this opening, as it may offer opportunities for improvement.",
+    "narrative": "This opening is erratic, with a low trend confidence and no sustained streak. A minor gap exists between engine and human performance, with humans underperforming engine predictions. A 2000-rated player should monitor this opening to see if it stabilizes, but for now, it's not recommended.",
     "trend_direction": "stable",
     "trend_slope_per_month": 1.6553557157844707e-06,
     "trend_r_squared": 3.508157740805817e-05,
@@ -671,7 +671,7 @@
     "human_win_rate": 0.485879,
     "delta": -0.042216,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "This opening is range-bound, with a major gap in favour of the engine. A 2000-rated player should avoid this opening, as the engine's advantage is likely due to frequent misplay or theory-heavy play.",
+    "narrative": "This opening has been showing no clear trend, with a minor gap between human and engine performance. A 2000-rated player should monitor this opening to see if it becomes more viable.",
     "trend_direction": "stable",
     "trend_slope_per_month": 8.390205953114816e-08,
     "trend_r_squared": 2.1238192682293544e-07,
@@ -882,21 +882,21 @@
     "forecast": [
       {
         "month": "2026-05",
-        "value": 0.481893,
-        "lower": 0.478906,
-        "upper": 0.48488
+        "value": 0.481892,
+        "lower": 0.478905,
+        "upper": 0.484879
       },
       {
         "month": "2026-06",
         "value": 0.4819,
-        "lower": 0.478899,
-        "upper": 0.484902
+        "lower": 0.478898,
+        "upper": 0.484901
       },
       {
         "month": "2026-07",
-        "value": 0.481908,
-        "lower": 0.478845,
-        "upper": 0.484971
+        "value": 0.481907,
+        "lower": 0.478844,
+        "upper": 0.48497
       }
     ],
     "structural_breaks": [],
@@ -905,7 +905,7 @@
     "human_win_rate": 0.481739,
     "delta": -0.058176,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The trend is range-bound, but engine predictions are accurate, indicating a notable gap in favour of white. A 2000-rated player should avoid this opening due to its engine-favoured nature.",
+    "narrative": "The engine has a major gap over human performance, indicating a significant advantage. A 2000-rated player should avoid this opening, as it may be challenging to compete.",
     "trend_direction": "stable",
     "trend_slope_per_month": 7.599747668997968e-05,
     "trend_r_squared": 0.03376791701063564,
@@ -1397,8 +1397,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The Italian Game has a stable win-rate trend, with a small engine-human delta of -0.003278. This suggests that the engine's evaluation is consistent with actual results, making it a solid choice for players.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.00038184020865465144,
-    "trend_r_squared": 0.11295057331848535,
+    "trend_slope_per_month": 0.000381840208654698,
+    "trend_r_squared": 0.11295057331848823,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -1606,21 +1606,21 @@
     "forecast": [
       {
         "month": "2026-05",
-        "value": 0.501342,
-        "lower": 0.497578,
-        "upper": 0.505107
+        "value": 0.501329,
+        "lower": 0.497564,
+        "upper": 0.505093
       },
       {
         "month": "2026-06",
-        "value": 0.501306,
-        "lower": 0.497524,
-        "upper": 0.505089
+        "value": 0.501292,
+        "lower": 0.497509,
+        "upper": 0.505075
       },
       {
         "month": "2026-07",
-        "value": 0.50127,
-        "lower": 0.497411,
-        "upper": 0.50513
+        "value": 0.501256,
+        "lower": 0.497396,
+        "upper": 0.505115
       }
     ],
     "structural_breaks": [],
@@ -1631,8 +1631,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The Ruy Lopez shows signs of falling, with a medium confidence level. The engine-human gap is notable, suggesting that humans are underperforming the engine's prediction. A 2000-rated player should avoid this opening for now.",
     "trend_direction": "falling",
-    "trend_slope_per_month": -0.00031506194002263406,
-    "trend_r_squared": 0.2497546158341426,
+    "trend_slope_per_month": -0.00031506194002261926,
+    "trend_r_squared": 0.2497546158341517,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -1865,10 +1865,10 @@
     "human_win_rate": 0.480259,
     "delta": -0.04659,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The King's Gambit has trended upward recently, but with a minor gap between human and engine performance. A 2000-rated player should monitor this opening to see if the trend continues.",
+    "narrative": "The King's Gambit shows signs of falling, with a major gap between human and engine performance. This opening is engine-favoured, making it a good choice for players who want to test their skills against a strong engine. A 2000-rated player should avoid this opening unless they're confident in their abilities.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0015682106954696849,
-    "trend_r_squared": 0.7996473789211014,
+    "trend_slope_per_month": -0.0015682106954696665,
+    "trend_r_squared": 0.7996473789211034,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -2342,7 +2342,7 @@
     "human_win_rate": 0.509716,
     "delta": 0.03033,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "The trend for this opening is stable, with a minor gap between engine and human performance. A 2000-rated player should adopt this opening, as it shows consistent results and a slight theoretical advantage.",
+    "narrative": "The trend for this opening is stable, with no clear direction. A minor gap exists between engine and human performance, suggesting that white's theoretical advantage is not being fully utilised. A 2000-rated player should monitor this opening for potential improvement opportunities.",
     "trend_direction": "stable",
     "trend_slope_per_month": -0.00043217707956960026,
     "trend_r_squared": 0.5251713912432061,
@@ -2578,8 +2578,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The Queen's Gambit Declined has a stable win-rate trend, with a small engine-human delta of -0.010669. This suggests that the engine's evaluation is consistent with actual results, making it a reliable choice for players.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 9.676420363373723e-05,
-    "trend_r_squared": 0.02450981900178717,
+    "trend_slope_per_month": 9.676420363375204e-05,
+    "trend_r_squared": 0.024509819001794386,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -2813,7 +2813,7 @@
     "human_win_rate": 0.467632,
     "delta": -0.0642,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The trend in this opening has been stable, with a minor gap between engine and human predictions. A 2000-rated player may want to monitor this opening to see if it continues to perform well.",
+    "narrative": "The trend in this opening has been stable, with a minor gap in favour of the engine. A 2000-rated player should monitor this opening, as it may be frequently misplayed or theory-heavy.",
     "trend_direction": "stable",
     "trend_slope_per_month": -0.00015551004252995084,
     "trend_r_squared": 0.0173165109791934,
@@ -3065,10 +3065,10 @@
     "human_win_rate": 0.488182,
     "delta": -0.04987,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The trend for this opening is stable, with a minor gap between human and engine performance. A 2000-rated player should monitor this opening, as it may offer opportunities for improvement.",
+    "narrative": "The trend for this opening is stable, with a minor gap between engine and human performance. A 2000-rated player should monitor this opening, as it may offer opportunities for improvement.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0002722285552396512,
-    "trend_r_squared": 0.047207415638444106,
+    "trend_slope_per_month": 0.00027222855523968123,
+    "trend_r_squared": 0.04720741563843178,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -3538,8 +3538,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The English Opening has a stable win-rate trend, with a small positive engine-human delta of 0.017082, indicating a slight advantage for humans. This means players can focus on pawn structure and piece development.",
     "trend_direction": "falling",
-    "trend_slope_per_month": -0.000537020002852779,
-    "trend_r_squared": 0.5069046988212456,
+    "trend_slope_per_month": -0.0005370200028527325,
+    "trend_r_squared": 0.5069046988212628,
     "trend_confidence": "medium",
     "trend_streak_months": 3,
     "forecast_quality": "high",
@@ -3754,7 +3754,7 @@
       {
         "month": "2026-06",
         "value": 0.502256,
-        "lower": 0.494833,
+        "lower": 0.494832,
         "upper": 0.509679
       },
       {
@@ -4007,7 +4007,7 @@
     "human_win_rate": 0.487337,
     "delta": -0.052578,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "This opening has been stable, with a minor gap between engine and human performance. A 2000-rated player may consider adopting it to counter opponents' aggressive play.",
+    "narrative": "This opening has been stable, with no clear trend. The engine's prediction is slightly more accurate than human play, indicating a minor gap. A 2000-rated player may want to monitor this opening to see if it becomes more popular.",
     "trend_direction": "stable",
     "trend_slope_per_month": -0.00017217290728233672,
     "trend_r_squared": 0.1934170402300731,
@@ -4220,12 +4220,12 @@
         "month": "2026-05",
         "value": 0.502303,
         "lower": 0.492342,
-        "upper": 0.512264
+        "upper": 0.512263
       },
       {
         "month": "2026-06",
         "value": 0.502549,
-        "lower": 0.49254,
+        "lower": 0.492539,
         "upper": 0.512558
       },
       {
@@ -4467,9 +4467,9 @@
       },
       {
         "month": "2026-07",
-        "value": 0.507628,
+        "value": 0.507629,
         "lower": 0.504105,
-        "upper": 0.511152
+        "upper": 0.511153
       }
     ],
     "structural_breaks": [],
@@ -4480,8 +4480,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The Philidor Defense has been stable, with no clear trend over the past few months. The engine-human gap is minor, indicating that the engine's evaluation is consistent with practical play. A 2000-rated player should monitor this opening to see if it becomes more popular.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -1.244716648180773e-05,
-    "trend_r_squared": 0.0005389867251687219,
+    "trend_slope_per_month": -1.244716648182747e-05,
+    "trend_r_squared": 0.0005389867251595071,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -4690,20 +4690,20 @@
       {
         "month": "2026-05",
         "value": 0.483552,
-        "lower": 0.479284,
-        "upper": 0.487821
+        "lower": 0.479283,
+        "upper": 0.48782
       },
       {
         "month": "2026-06",
-        "value": 0.483632,
-        "lower": 0.479343,
-        "upper": 0.487921
+        "value": 0.483631,
+        "lower": 0.479342,
+        "upper": 0.48792
       },
       {
         "month": "2026-07",
-        "value": 0.483712,
-        "lower": 0.479336,
-        "upper": 0.488088
+        "value": 0.483711,
+        "lower": 0.479335,
+        "upper": 0.488087
       }
     ],
     "structural_breaks": [
@@ -4717,10 +4717,10 @@
     "human_win_rate": 0.481705,
     "delta": -0.055725,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "This opening has been stable, showing no clear trend, with a minor gap between engine and human performance. A 2000-rated player may consider adopting it to counter opponents' theory-heavy approaches.",
+    "narrative": "This opening has been stable, with no clear trend. The engine's prediction is slightly more accurate than human play, indicating a minor gap. A 2000-rated player may want to monitor this opening to see if it becomes more popular.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0005085151739569158,
-    "trend_r_squared": 0.3503782258340795,
+    "trend_slope_per_month": 0.0005085151739569405,
+    "trend_r_squared": 0.3503782258340775,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -4928,21 +4928,21 @@
     "forecast": [
       {
         "month": "2026-05",
-        "value": 0.491956,
+        "value": 0.491957,
         "lower": 0.486291,
-        "upper": 0.497622
+        "upper": 0.497624
       },
       {
         "month": "2026-06",
-        "value": 0.491871,
-        "lower": 0.486177,
-        "upper": 0.497564
+        "value": 0.491872,
+        "lower": 0.486178,
+        "upper": 0.497566
       },
       {
         "month": "2026-07",
-        "value": 0.491785,
-        "lower": 0.485976,
-        "upper": 0.497594
+        "value": 0.491787,
+        "lower": 0.485977,
+        "upper": 0.497596
       }
     ],
     "structural_breaks": [],
@@ -5176,7 +5176,7 @@
         "month": "2026-07",
         "value": 0.486202,
         "lower": 0.481221,
-        "upper": 0.491182
+        "upper": 0.491183
       }
     ],
     "structural_breaks": [
@@ -5404,7 +5404,7 @@
         "month": "2026-05",
         "value": 0.493119,
         "lower": 0.485214,
-        "upper": 0.501023
+        "upper": 0.501024
       },
       {
         "month": "2026-06",
@@ -5414,7 +5414,7 @@
       },
       {
         "month": "2026-07",
-        "value": 0.493158,
+        "value": 0.493159,
         "lower": 0.485054,
         "upper": 0.501263
       }
@@ -5935,8 +5935,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate trend is rising, with a delta of 0.010262, indicating a slight increase in engine evaluation, consistent with engine evaluation, suggesting a slight advantage for the player.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0007899845651210337,
-    "trend_r_squared": 0.13841471788045945,
+    "trend_slope_per_month": -0.0007899845651210485,
+    "trend_r_squared": 0.13841471788045812,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -6426,8 +6426,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The A09 opening has a stable win-rate trend, with a small engine-human delta of 0.028741, indicating a consistent evaluation by engines, suggesting players can rely on established strategies.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.00022212209830595365,
-    "trend_r_squared": 0.04300984574590183,
+    "trend_slope_per_month": -0.00022212209830593595,
+    "trend_r_squared": 0.04300984574590272,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -6658,7 +6658,7 @@
     "human_win_rate": 0.483169,
     "delta": -0.04181,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "This opening is erratic, with a notable gap in favour of the engine. A 2000-rated player should monitor this opening, as the engine's advantage may be due to theory-heavy play.",
+    "narrative": "This opening has trended downward, with a minor gap between human and engine performance. A 2000-rated player should monitor this opening to see if it becomes more viable.",
     "trend_direction": "stable",
     "trend_slope_per_month": 7.327391272879352e-05,
     "trend_r_squared": 0.007380125724250286,
@@ -7176,8 +7176,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate trend is stable, engine-human delta is -0.026206, indicating a minor disadvantage for the engine, which may suggest the opening is balanced.",
     "trend_direction": "falling",
-    "trend_slope_per_month": -0.0005854424937315213,
-    "trend_r_squared": 0.27011768384675006,
+    "trend_slope_per_month": -0.0005854424937315415,
+    "trend_r_squared": 0.2701176838467525,
     "trend_confidence": "medium",
     "trend_streak_months": 2,
     "forecast_quality": "medium",
@@ -7408,7 +7408,7 @@
     "human_win_rate": 0.47888,
     "delta": -0.039237,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "The trend is erratic, with a minor gap between human and engine performance. A 2000-rated player should avoid this opening, as it may not be a reliable choice.",
+    "narrative": "The A16 is range-bound, with a low trend confidence and no sustained streak. A minor gap exists between engine and human performance, with humans underperforming engine predictions. A 2000-rated player should avoid this opening, as it shows no clear trend and a theoretical disadvantage.",
     "trend_direction": "stable",
     "trend_slope_per_month": -0.00031567342776177905,
     "trend_r_squared": 0.008740525906622554,
@@ -7665,7 +7665,7 @@
     "human_win_rate": 0.540853,
     "delta": 0.063337,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "The trend in this opening has been stable, with a major gap between engine and human predictions. A 2000-rated player may want to adopt this opening to take advantage of the engine's weakness.",
+    "narrative": "The trend in this opening has been stable, with a major gap in favour of humans. A 2000-rated player should adopt this opening, as it rewards human skill.",
     "trend_direction": "stable",
     "trend_slope_per_month": -0.0004395146279402781,
     "trend_r_squared": 0.03495456991082324,
@@ -7948,7 +7948,7 @@
     "human_win_rate": 0.542268,
     "delta": 0.064129,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "This opening has been showing signs of rising, with a major gap between engine and human predictions. A 2000-rated player may want to adopt this opening to take advantage of the engine's weakness.",
+    "narrative": "This opening has been showing signs of rising, with a major gap in favour of humans. A 2000-rated player should adopt this opening, as it rewards human skill.",
     "trend_direction": "stable",
     "trend_slope_per_month": 0.00019491146129678157,
     "trend_r_squared": 0.018710268811318542,
@@ -8420,8 +8420,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate trend for A23 is rising, with an engine-human delta of -0.01592, indicating a slight advantage for engines. However, this trend may not be significant enough to deter players from using this opening.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.006987987794813573,
-    "trend_r_squared": 0.8212289508463193,
+    "trend_slope_per_month": -0.00698798779481353,
+    "trend_r_squared": 0.8212289508463191,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -8740,8 +8740,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate trend is falling, with a delta of 0.018, indicating a slight increase in engine evaluation, suggesting the player should focus on improving their endgame skills.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0007191202624320366,
-    "trend_r_squared": 0.030127611345789007,
+    "trend_slope_per_month": 0.0007191202624320834,
+    "trend_r_squared": 0.03012761134579023,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -8970,8 +8970,8 @@
     "interpretation": null,
     "narrative": "The A28 opening is trending downward with a delta of 0.021628, indicating a slight decrease in engine evaluation. This decline suggests a slight disadvantage for the player. Engine evaluation consistency supports this trend.",
     "trend_direction": "rising",
-    "trend_slope_per_month": 0.0034512706699555244,
-    "trend_r_squared": 0.33385446336784674,
+    "trend_slope_per_month": 0.0034512706699555374,
+    "trend_r_squared": 0.3338544633678471,
     "trend_confidence": "medium",
     "trend_streak_months": 1,
     "forecast_quality": "medium",
@@ -9191,7 +9191,7 @@
       },
       {
         "month": "2026-07",
-        "value": 0.518919,
+        "value": 0.518918,
         "lower": 0.486256,
         "upper": 0.551581
       }
@@ -10014,8 +10014,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "A36's win-rate is stable, with a delta of -0.02427, indicating a consistent engine evaluation, which may not impact the player's performance.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0014410726320460167,
-    "trend_r_squared": 0.1587403416441976,
+    "trend_slope_per_month": 0.001441072632046022,
+    "trend_r_squared": 0.15874034164419815,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -10300,10 +10300,10 @@
     "human_win_rate": 0.530953,
     "delta": 0.047197,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "This opening has been showing signs of rising consistently, with a notable gap between human and engine performance. A 2000-rated player should consider adopting A39 to exploit this trend.",
+    "narrative": "This opening has been rising consistently, with a notable gap between human and engine performance. However, the trend is erratic, making it hard to predict. A 2000-rated player should monitor this opening to see if it continues to favour humans.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0032693016069769688,
-    "trend_r_squared": 0.44903392844084333,
+    "trend_slope_per_month": 0.003269301606976973,
+    "trend_r_squared": 0.44903392844084455,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -10535,7 +10535,7 @@
       {
         "month": "2026-05",
         "value": 0.47938,
-        "lower": 0.471308,
+        "lower": 0.471309,
         "upper": 0.487451
       },
       {
@@ -10546,9 +10546,9 @@
       },
       {
         "month": "2026-07",
-        "value": 0.479269,
+        "value": 0.47927,
         "lower": 0.470994,
-        "upper": 0.487544
+        "upper": 0.487545
       }
     ],
     "structural_breaks": [
@@ -10562,7 +10562,7 @@
     "human_win_rate": 0.480514,
     "delta": -0.050695,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The trend for this opening is stable, with a minor gap between human and engine performance. A 2000-rated player should avoid this opening, as it may be theory-heavy and frequently misplayed.",
+    "narrative": "The trend for this opening is stable, with a notable gap between engine and human performance. A 2000-rated player should avoid this opening, as it may be difficult to execute effectively.",
     "trend_direction": "stable",
     "trend_slope_per_month": 0.0005361079207889294,
     "trend_r_squared": 0.2859092609418312,
@@ -11268,7 +11268,7 @@
     "human_win_rate": 0.467165,
     "delta": -0.11033,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The A44 has been erratically trending upward, with a minor gap between engine and human performance. A 2000-rated player should monitor this opening to see if the trend stabilises, but for now, it's not a priority.",
+    "narrative": "This opening has been showing no clear trend, with a minor gap between engine and human performance. A 2000-rated player should monitor this opening to see if it becomes more viable.",
     "trend_direction": "stable",
     "trend_slope_per_month": -0.0009489202300777637,
     "trend_r_squared": 0.37493938221795187,
@@ -11551,7 +11551,7 @@
     "human_win_rate": 0.486956,
     "delta": -0.045499,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The A48 opening is range-bound, with a minor gap between human and engine performance. A 2000-rated player should monitor this opening to see if the trend changes.",
+    "narrative": "The A48 opening has trended downward recently, with a major gap between human and engine performance. This opening is engine-favoured, making it a good choice for players who want to test their skills against a strong engine. A 2000-rated player should avoid this opening unless they're confident in their abilities.",
     "trend_direction": "stable",
     "trend_slope_per_month": -7.167763682385646e-05,
     "trend_r_squared": 0.023871100994137584,
@@ -11787,8 +11787,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate is stable with a notable gap in engine evaluation. A moderate streak of 2 months suggests a developing trend.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.00048664420506864376,
-    "trend_r_squared": 0.08924147285508766,
+    "trend_slope_per_month": -0.00048664420506862896,
+    "trend_r_squared": 0.08924147285508555,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -12042,10 +12042,10 @@
     "human_win_rate": 0.485004,
     "delta": -0.048073,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The trend is range-bound, with no clear direction. A minor gap exists between engine and human performance, with humans underperforming engine predictions. Monitor this opening for potential theoretical advantages.",
+    "narrative": "The trend for this opening is stable, with no clear direction. A minor gap exists between engine and human performance, suggesting that humans are not underperforming engine predictions. Monitor this opening for potential improvements.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0003733976696904022,
-    "trend_r_squared": 0.11285807332515374,
+    "trend_slope_per_month": 0.00037339766969042196,
+    "trend_r_squared": 0.11285807332515496,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -12276,7 +12276,7 @@
     "human_win_rate": 0.504762,
     "delta": -0.036394,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "This opening has shown signs of rising, with a notable gap between engine prediction and human performance. It has been rising consistently, with a high level of confidence. A 2000-rated player should adopt this opening, as it may offer a competitive edge.",
+    "narrative": "This opening shows signs of rising, with a minor gap between engine predictions and human performance. A 2000-rated player should consider adopting this opening, as it may offer opportunities for growth.",
     "trend_direction": "rising",
     "trend_slope_per_month": 0.000620836203384026,
     "trend_r_squared": 0.17022494174484826,
@@ -12487,21 +12487,21 @@
     "forecast": [
       {
         "month": "2026-05",
-        "value": 0.483001,
+        "value": 0.483,
         "lower": 0.475868,
-        "upper": 0.490133
+        "upper": 0.490132
       },
       {
         "month": "2026-06",
-        "value": 0.482985,
-        "lower": 0.475818,
-        "upper": 0.490151
+        "value": 0.482984,
+        "lower": 0.475817,
+        "upper": 0.49015
       },
       {
         "month": "2026-07",
-        "value": 0.482969,
-        "lower": 0.475656,
-        "upper": 0.490281
+        "value": 0.482968,
+        "lower": 0.475655,
+        "upper": 0.49028
       }
     ],
     "structural_breaks": [
@@ -12525,10 +12525,10 @@
     "human_win_rate": 0.48333,
     "delta": -0.059688,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The trend is erratic, but engine predictions are accurate, indicating a notable gap in favour of white. A 2000-rated player should avoid this opening due to its engine-favoured nature.",
+    "narrative": "The engine has a notable gap over human performance, indicating a theoretical advantage not being realised in play. A 2000-rated player should avoid this opening, as it may be difficult to exploit.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0010981328569900559,
-    "trend_r_squared": 0.4387859478412939,
+    "trend_slope_per_month": 0.0010981328569900743,
+    "trend_r_squared": 0.4387859478412942,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -13024,10 +13024,10 @@
     "human_win_rate": 0.457707,
     "delta": -0.092127,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The A56 has been showing signs of rising, with a minor gap between engine and human performance. A 2000-rated player should adopt this opening as a solid choice, but don't expect to gain a significant edge.",
+    "narrative": "The trend for this opening has trended upward recently, with a minor gap between engine and human performance. A 2000-rated player should monitor this opening to see if it becomes more consistent.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.00012322222359119317,
-    "trend_r_squared": 0.12193817593553846,
+    "trend_slope_per_month": 0.00012322222359120586,
+    "trend_r_squared": 0.12193817593553391,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -13260,10 +13260,10 @@
     "human_win_rate": 0.445405,
     "delta": -0.102572,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The A57 has been erratically trending upward, with a minor gap between engine and human performance. A 2000-rated player should monitor this opening to see if the trend stabilises, but for now, it's not a priority.",
+    "narrative": "This opening has been range-bound, with a minor gap between engine and human performance. A 2000-rated player should monitor this opening to see if it becomes more viable.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0003290138960599927,
-    "trend_r_squared": 0.23063261451677253,
+    "trend_slope_per_month": 0.00032901389605997954,
+    "trend_r_squared": 0.2306326145167753,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -13515,8 +13515,8 @@
     "interpretation": null,
     "narrative": "Win-rate is stable with a minor gap in engine evaluation. Recent volatility is low, indicating a consistent series.",
     "trend_direction": "falling",
-    "trend_slope_per_month": -0.0044714275747877235,
-    "trend_r_squared": 0.5218455119316234,
+    "trend_slope_per_month": -0.004471427574787738,
+    "trend_r_squared": 0.5218455119316231,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -13737,7 +13737,7 @@
     "human_win_rate": 0.47338,
     "delta": -0.070258,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "This opening has been stable, with a minor gap between engine and human performance. A 2000-rated player should avoid adopting this opening, as it may not offer a significant advantage.",
+    "narrative": "This opening has been stable, with no clear trend. The engine's advantage is minor, suggesting a relatively balanced position. A 2000-rated player can consider adopting this opening, but should be prepared to adapt to engine-favoured lines.",
     "trend_direction": "stable",
     "trend_slope_per_month": -0.00024500543163109893,
     "trend_r_squared": 0.023691547361455956,
@@ -13971,10 +13971,10 @@
     "human_win_rate": 0.48728,
     "delta": -0.056978,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The trend is erratic, but engine predictions are accurate, indicating a notable gap in favour of white. A 2000-rated player should avoid this opening due to its engine-favoured nature.",
+    "narrative": "The engine has a notable gap over human performance, indicating a theoretical advantage not being realised in play. A 2000-rated player should avoid this opening, as it may be difficult to exploit.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0006823888821921208,
-    "trend_r_squared": 0.06026612650941621,
+    "trend_slope_per_month": 0.000682388882192106,
+    "trend_r_squared": 0.06026612650941787,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -14481,7 +14481,7 @@
     "human_win_rate": 0.490227,
     "delta": 0.041917,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "The trend shows signs of rising, with humans outperforming the engine prediction by a minor gap. A 2000-rated player should adopt this opening, as it rewards human skill and offers a practical play advantage.",
+    "narrative": "The trend has been rising, with humans outperforming engine predictions by a notable gap. A 2000-rated player should adopt this opening to take advantage of white's slight edge.",
     "trend_direction": "stable",
     "trend_slope_per_month": -0.0005906976425892579,
     "trend_r_squared": 0.06666679537851417,
@@ -16076,7 +16076,7 @@
     "human_win_rate": 0.502672,
     "delta": -0.032271,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "The trend for this opening is stable, with a minor gap between engine and human performance. A 2000-rated player should monitor this opening, as it shows consistent results but may not be worth adopting.",
+    "narrative": "The trend for this opening is stable, with no clear direction. A minor gap exists between engine and human performance, suggesting that white's theoretical advantage is not being fully utilised. A 2000-rated player should monitor this opening for potential improvement opportunities.",
     "trend_direction": "stable",
     "trend_slope_per_month": 0.00036961371136223027,
     "trend_r_squared": 0.34398275467723094,
@@ -16356,7 +16356,7 @@
     "human_win_rate": 0.527724,
     "delta": 0.033974,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "The trend for this opening is stable, with a minor gap between engine and human performance. A 2000-rated player should adopt this opening, as it shows consistent results and a slight theoretical advantage.",
+    "narrative": "The trend for this opening is stable, with no clear direction. A notable gap exists between engine and human performance, indicating that white's theoretical advantage is not being fully realised in play. A 2000-rated player should avoid adopting this opening.",
     "trend_direction": "stable",
     "trend_slope_per_month": -0.0006478619176091667,
     "trend_r_squared": 0.02717063007888354,
@@ -17269,8 +17269,8 @@
     "interpretation": null,
     "narrative": "Win-rate trend for A87 is rising, with an engine-human delta of 0.015337, indicating a slight advantage for humans. This trend suggests that players may have an edge when employing this opening.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0022073471412637417,
-    "trend_r_squared": 0.0851134149140228,
+    "trend_slope_per_month": 0.0022073471412637218,
+    "trend_r_squared": 0.08511341491402302,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -17503,7 +17503,7 @@
     "interpretation": null,
     "narrative": "The A88 opening has a falling win-rate with a high degree of confidence. A notable gap in engine favour and recent volatility above 0.004 indicate a noisy series.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.00098669429888551,
+    "trend_slope_per_month": 0.0009866942988854903,
     "trend_r_squared": 0.027441147627013884,
     "trend_confidence": "low",
     "trend_streak_months": 0,
@@ -17925,10 +17925,10 @@
     "human_win_rate": 0.51354,
     "delta": 0.047239,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "This opening has been stable, with humans outperforming engine predictions. A major gap exists between engine and human performance, with humans performing well. Adopt this opening for 2000-rated players seeking to exploit human skill.",
+    "narrative": "This opening has been rising consistently, with a high trend confidence. A major gap exists between engine and human performance, indicating that humans are significantly outperforming engine predictions. Adopt this opening to take advantage of the engine-human gap.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0008350674385800347,
-    "trend_r_squared": 0.14353525561274483,
+    "trend_slope_per_month": 0.0008350674385800248,
+    "trend_r_squared": 0.14353525561274216,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -18977,7 +18977,7 @@
     "human_win_rate": 0.531412,
     "delta": -0.048521,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "This opening has been erratic, with no clear trend. A minor gap exists between engine and human performance, with humans underperforming engine predictions. Monitor this opening for potential theoretical advantages.",
+    "narrative": "This opening has been erratic, with no clear trend over the past few months. A minor gap exists between engine and human performance, suggesting that humans are not underperforming engine predictions. Monitor this opening for potential improvements.",
     "trend_direction": "stable",
     "trend_slope_per_month": -0.0030578784958726927,
     "trend_r_squared": 0.5890104149564921,
@@ -19188,21 +19188,21 @@
     "forecast": [
       {
         "month": "2026-05",
-        "value": 0.464963,
-        "lower": 0.460319,
-        "upper": 0.469608
+        "value": 0.46496,
+        "lower": 0.460315,
+        "upper": 0.469605
       },
       {
         "month": "2026-06",
-        "value": 0.465047,
-        "lower": 0.46038,
-        "upper": 0.469715
+        "value": 0.465044,
+        "lower": 0.460377,
+        "upper": 0.469712
       },
       {
         "month": "2026-07",
-        "value": 0.465131,
-        "lower": 0.460369,
-        "upper": 0.469893
+        "value": 0.465128,
+        "lower": 0.460366,
+        "upper": 0.46989
       }
     ],
     "structural_breaks": [
@@ -19213,7 +19213,7 @@
     "human_win_rate": 0.463124,
     "delta": -0.080515,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The trend in this opening is stable, with a minor gap between engine and human performance. A 2000-rated player should avoid adopting this opening, as it may not offer a significant advantage.",
+    "narrative": "The trend for this opening is stable, with no clear direction. The engine's edge is substantial, suggesting frequent errors or theory-heavy play. A 2000-rated player should be cautious when adopting this opening, as it may not be fully understood.",
     "trend_direction": "stable",
     "trend_slope_per_month": 0.0003271992637322614,
     "trend_r_squared": 0.28709156507775935,
@@ -21130,8 +21130,8 @@
     "interpretation": null,
     "narrative": "The B26 is experiencing a rising win-rate trend, with a delta of 0.019373, indicating a significant increase in engine evaluation. This suggests that players may need to be more cautious when playing this opening.",
     "trend_direction": "rising",
-    "trend_slope_per_month": 0.0017534470234157728,
-    "trend_r_squared": 0.20636453775702002,
+    "trend_slope_per_month": 0.0017534470234157875,
+    "trend_r_squared": 0.20636453775702124,
     "trend_confidence": "medium",
     "trend_streak_months": 2,
     "forecast_quality": "medium",
@@ -21393,7 +21393,7 @@
     "human_win_rate": 0.463967,
     "delta": -0.06911,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The trend in this opening has been erratic, with a notable gap between engine and human predictions. A 2000-rated player may want to avoid this opening until the trend stabilises.",
+    "narrative": "The trend in this opening has been stable, with a notable gap in favour of the engine. A 2000-rated player should avoid adopting this opening, as it may be frequently misplayed or theory-heavy.",
     "trend_direction": "stable",
     "trend_slope_per_month": 0.00010022359601959745,
     "trend_r_squared": 0.020742614046825425,
@@ -21606,7 +21606,7 @@
         "month": "2026-05",
         "value": 0.438688,
         "lower": 0.420601,
-        "upper": 0.456774
+        "upper": 0.456775
       },
       {
         "month": "2026-06",
@@ -21652,7 +21652,7 @@
     "human_win_rate": 0.436879,
     "delta": -0.10862,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The B29 has been showing signs of rising, but with a notable gap between engine and human performance. A 2000-rated player should avoid this opening until the trend is clearer and the gap narrows.",
+    "narrative": "The trend for this opening has trended upward recently, but with a notable gap between engine and human performance. A 2000-rated player should avoid adopting this opening until the gap narrows.",
     "trend_direction": "stable",
     "trend_slope_per_month": 0.0009000809315585242,
     "trend_r_squared": 0.10924859153099065,
@@ -21888,7 +21888,7 @@
     "human_win_rate": 0.474107,
     "delta": -0.051496,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "This opening has been stable, with a minor gap between engine and human performance. A 2000-rated player may monitor it, as it could be a good choice against opponents who frequently miscalculate.",
+    "narrative": "The trend for this opening is stable, showing no clear direction. The engine's prediction is slightly more accurate than human play, indicating a minor gap. A 2000-rated player may want to avoid this opening due to its stable, engine-favoured nature.",
     "trend_direction": "stable",
     "trend_slope_per_month": -0.0006201123424231859,
     "trend_r_squared": 0.1727802665507323,
@@ -22113,7 +22113,7 @@
         "month": "2026-07",
         "value": 0.508813,
         "lower": 0.498953,
-        "upper": 0.518674
+        "upper": 0.518673
       }
     ],
     "structural_breaks": [
@@ -22359,7 +22359,7 @@
     "human_win_rate": 0.4654,
     "delta": -0.073894,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "This opening has been showing signs of rising, with a notable gap between engine and human performance. A 2000-rated player should adopt this opening, as it may offer a significant advantage.",
+    "narrative": "This opening shows signs of rising, with a moderate trend confidence. However, the engine's edge is minor, suggesting a relatively balanced position. A 2000-rated player can consider adopting this opening, but should be prepared to adapt to engine-favoured lines.",
     "trend_direction": "rising",
     "trend_slope_per_month": 0.0005900654562943741,
     "trend_r_squared": 0.1675593813097842,
@@ -22597,7 +22597,7 @@
     "human_win_rate": 0.480452,
     "delta": -0.043904,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "This opening shows signs of rising, with a notable gap in favour of the engine. A 2000-rated player should monitor this opening, as the engine's advantage may be due to theory-heavy play.",
+    "narrative": "This opening shows signs of falling, with a notable gap between human and engine performance. The trend is erratic, making it a high-risk, high-reward choice. A 2000-rated player should monitor this opening to see if it continues to decline.",
     "trend_direction": "stable",
     "trend_slope_per_month": -0.0005840755010626922,
     "trend_r_squared": 0.1471216670034563,
@@ -22831,7 +22831,7 @@
     "human_win_rate": 0.449889,
     "delta": -0.045736,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "This opening has been erratic, with a major gap between human and engine performance. A 2000-rated player should be cautious when playing B34.",
+    "narrative": "The B34 opening is range-bound, with a minor gap between human and engine performance. This opening is engine-favoured, making it a good choice for players who want to test their skills against a strong engine. A 2000-rated player should monitor this opening to see if it continues to favour engines.",
     "trend_direction": "stable",
     "trend_slope_per_month": -0.0002933503748739878,
     "trend_r_squared": 0.015793782982045257,
@@ -23531,7 +23531,7 @@
     "human_win_rate": 0.501218,
     "delta": -0.036212,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "This opening has been stable, with a minor gap between engine prediction and human performance. It shows no clear trend, and moderate variability in recent months. A 2000-rated player should avoid this opening, as it may not offer significant advantages.",
+    "narrative": "This opening has been stable, with a minor gap between engine predictions and human performance. A 2000-rated player should avoid adopting this opening, as it may not be the best fit for their skill level.",
     "trend_direction": "stable",
     "trend_slope_per_month": 2.554634798002709e-05,
     "trend_r_squared": 0.0016091466670475896,
@@ -23765,7 +23765,7 @@
     "human_win_rate": 0.501531,
     "delta": 0.039583,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "The trend shows signs of rising, with a minor gap between human and engine performance. A 2000-rated player should consider adopting this opening, as it may provide a competitive edge.",
+    "narrative": "The B38 has trended upward recently, with a medium trend confidence and a sustained streak of 1 month. A major gap exists between engine and human performance, with humans outperforming engine predictions. A 2000-rated player should adopt this opening to take advantage of the engine's underestimation.",
     "trend_direction": "rising",
     "trend_slope_per_month": 0.0012059785678410976,
     "trend_r_squared": 0.34676748325538576,
@@ -24242,10 +24242,10 @@
     "human_win_rate": 0.450862,
     "delta": -0.083459,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "This opening has been stable, with no clear trend, and a minor gap between engine and human performance. A 2000-rated player should monitor this opening, as it may offer opportunities for counterplay.",
+    "narrative": "This opening has been stable, with no clear trend emerging. The engine's advantage is significant, indicating frequent misplay or theory-heavy play. A 2000-rated player should monitor this opening to avoid falling into engine-favoured traps.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 3.309978552738023e-05,
-    "trend_r_squared": 0.0005938877050659652,
+    "trend_slope_per_month": 3.309978552738517e-05,
+    "trend_r_squared": 0.0005938877050642999,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -24499,10 +24499,10 @@
     "human_win_rate": 0.440337,
     "delta": -0.036554,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "The trend for this opening is stable, with a minor gap between engine prediction and human performance. It shows no clear trend, and moderate variability in recent months. A 2000-rated player should avoid this opening, as it may not offer significant advantages.",
+    "narrative": "The trend for this opening is stable, with a notable gap between engine predictions and human performance. A 2000-rated player should avoid adopting this opening, as it may not be the best fit for their skill level.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.00030361049078241785,
-    "trend_r_squared": 0.06073887410634149,
+    "trend_slope_per_month": 0.00030361049078239807,
+    "trend_r_squared": 0.060738874106338714,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -24745,7 +24745,7 @@
     "human_win_rate": 0.479213,
     "delta": -0.051373,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "This opening has been stable, showing no clear trend, but a minor gap between human and engine performance. A 2000-rated player should monitor this opening, as it may offer opportunities for improvement.",
+    "narrative": "This opening has been stable, with a minor gap between engine and human performance. A 2000-rated player should monitor this opening, as it may offer opportunities for improvement.",
     "trend_direction": "stable",
     "trend_slope_per_month": 0.00031112726710186587,
     "trend_r_squared": 0.051682001056239435,
@@ -24981,7 +24981,7 @@
     "human_win_rate": 0.451034,
     "delta": -0.076438,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The trend in this opening is stable, with a minor gap between engine and human performance. A 2000-rated player should avoid adopting this opening, as it may not offer a significant advantage.",
+    "narrative": "The trend for this opening is stable, with no clear direction. The engine's edge is minor, suggesting a relatively balanced position. A 2000-rated player can consider adopting this opening, but should be prepared to adapt to engine-favoured lines.",
     "trend_direction": "stable",
     "trend_slope_per_month": 7.587952977058704e-05,
     "trend_r_squared": 0.006378689301317131,
@@ -25217,7 +25217,7 @@
     "human_win_rate": 0.484651,
     "delta": -0.050914,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The trend for this opening is stable, with a minor gap between human and engine performance. A 2000-rated player should avoid this opening, as it may be theory-heavy and frequently misplayed.",
+    "narrative": "The trend for this opening is stable, with a notable gap between engine and human performance. A 2000-rated player should avoid this opening, as it may be difficult to execute effectively.",
     "trend_direction": "stable",
     "trend_slope_per_month": -0.00012556303010977473,
     "trend_r_squared": 0.026941526748484934,
@@ -25456,7 +25456,7 @@
     "human_win_rate": 0.449583,
     "delta": -0.084738,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The B47 has been showing signs of rising, with a notable gap between engine and human performance. A 2000-rated player should avoid this opening until the trend is clearer and the gap narrows.",
+    "narrative": "The trend for this opening has trended upward recently, with a notable gap between engine and human performance. A 2000-rated player should avoid adopting this opening until the gap narrows.",
     "trend_direction": "stable",
     "trend_slope_per_month": 0.0015614356966881567,
     "trend_r_squared": 0.5718169581459676,
@@ -26363,7 +26363,7 @@
       {
         "month": "2026-07",
         "value": 0.500408,
-        "lower": 0.489699,
+        "lower": 0.4897,
         "upper": 0.511116
       }
     ],
@@ -26378,8 +26378,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate trend is rising, with a delta of 0.009753, indicating a slight increase in engine evaluation, consistent with engine evaluation, suggesting a slight advantage for the player.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.001485928136957805,
-    "trend_r_squared": 0.47812240836566944,
+    "trend_slope_per_month": -0.0014859281369577486,
+    "trend_r_squared": 0.4781224083656678,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -26852,11 +26852,11 @@
         "month": "2026-06",
         "value": 0.519673,
         "lower": 0.489013,
-        "upper": 0.550333
+        "upper": 0.550332
       },
       {
         "month": "2026-07",
-        "value": 0.519625,
+        "value": 0.519624,
         "lower": 0.488342,
         "upper": 0.550907
       }
@@ -27126,10 +27126,10 @@
     "human_win_rate": 0.472404,
     "delta": -0.05756,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The trend is erratic, but engine predictions are accurate, indicating a notable gap in favour of white. A 2000-rated player should avoid this opening due to its engine-favoured nature.",
+    "narrative": "The engine has a notable gap over human performance, indicating a theoretical advantage not being realised in play. A 2000-rated player should avoid this opening, as it may be difficult to exploit.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0013523307462791681,
-    "trend_r_squared": 0.5061908150160459,
+    "trend_slope_per_month": 0.0013523307462791775,
+    "trend_r_squared": 0.5061908150160496,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -27381,8 +27381,8 @@
     "interpretation": null,
     "narrative": "The B58 Sicilian is rising, with a -6.72% engine-human delta, suggesting a potential advantage for players employing this opening. This trend may indicate a shift towards more engine-preferred lines, potentially making it easier for players to compete.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0004028201166493071,
-    "trend_r_squared": 0.010458345262864044,
+    "trend_slope_per_month": 0.0004028201166492676,
+    "trend_r_squared": 0.010458345262864821,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -27641,8 +27641,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "This opening has been rising consistently, with a high trend confidence and a sustained streak of 2 months. However, the engine delta is minor, indicating a small gap between human and engine performance. A 2000-rated player may want to monitor this opening, as it shows promise but requires further analysis.",
     "trend_direction": "rising",
-    "trend_slope_per_month": 0.0048998963808833795,
-    "trend_r_squared": 0.7960774305649342,
+    "trend_slope_per_month": 0.004899896380883415,
+    "trend_r_squared": 0.7960774305649355,
     "trend_confidence": "high",
     "trend_streak_months": 2,
     "forecast_quality": "low",
@@ -27896,7 +27896,7 @@
     "human_win_rate": 0.483965,
     "delta": -0.0354,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "The trend for this opening is stable, with a minor gap between engine prediction and human performance. It shows no clear trend, and high variability in recent months. A 2000-rated player should avoid this opening, as it may not offer significant advantages.",
+    "narrative": "The trend for this opening is stable, with a major gap between engine predictions and human performance. A 2000-rated player should avoid adopting this opening, as it may not be the best fit for their skill level.",
     "trend_direction": "stable",
     "trend_slope_per_month": 0.0006955565307263696,
     "trend_r_squared": 0.01677403695232471,
@@ -28294,7 +28294,7 @@
     "human_win_rate": 0.460392,
     "delta": -0.078281,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "This opening has been stable, with a minor gap between engine and human performance. A 2000-rated player should monitor this opening, as it may offer opportunities for counterplay.",
+    "narrative": "This opening has been stable, with no clear trend. The engine's advantage is notable, indicating possible misplay or theory-heavy play. A 2000-rated player should be aware of the engine's edge and adjust their strategy accordingly.",
     "trend_direction": "stable",
     "trend_slope_per_month": -0.0004171446307706598,
     "trend_r_squared": 0.08004358021695279,
@@ -29222,21 +29222,21 @@
     "forecast": [
       {
         "month": "2026-05",
-        "value": 0.505725,
+        "value": 0.505726,
         "lower": 0.483079,
         "upper": 0.528372
       },
       {
         "month": "2026-06",
-        "value": 0.505404,
+        "value": 0.505405,
         "lower": 0.482648,
         "upper": 0.528161
       },
       {
         "month": "2026-07",
-        "value": 0.505083,
+        "value": 0.505084,
         "lower": 0.481865,
-        "upper": 0.528302
+        "upper": 0.528303
       }
     ],
     "structural_breaks": [
@@ -29248,7 +29248,7 @@
     "human_win_rate": 0.512306,
     "delta": -0.033813,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "This opening has been falling, with a notable gap between engine and human performance. A 2000-rated player should avoid this opening, as it shows a clear downward trend and a significant engine advantage.",
+    "narrative": "This opening shows signs of falling, with a medium trend confidence. A major gap exists between engine and human performance, suggesting that white's theoretical advantage is not being fully utilised. A 2000-rated player should avoid adopting this opening.",
     "trend_direction": "falling",
     "trend_slope_per_month": -0.003083924428092835,
     "trend_r_squared": 0.37956445538529104,
@@ -29490,10 +29490,10 @@
     "human_win_rate": 0.473883,
     "delta": -0.064789,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "This opening has been range-bound, with a minor gap between engine and human predictions. A 2000-rated player may want to adopt this opening if they're looking for a stable choice.",
+    "narrative": "This opening has been stable, with a minor gap in favour of the engine. A 2000-rated player should monitor this opening, as it may be showing no clear trend.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.002785319648679802,
-    "trend_r_squared": 0.45807383056991,
+    "trend_slope_per_month": -0.002785319648679731,
+    "trend_r_squared": 0.4580738305699086,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -29724,10 +29724,10 @@
     "human_win_rate": 0.46305,
     "delta": -0.073137,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The trend in this opening is stable, with a minor gap between engine and human performance. A 2000-rated player should monitor this opening, as it may offer opportunities for counterplay.",
+    "narrative": "The trend for this opening is stable, with no clear direction. The engine's edge is minor, suggesting a relatively balanced position. A 2000-rated player can consider adopting this opening, but should be prepared to adapt to engine-favoured lines.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0007194894518025174,
-    "trend_r_squared": 0.04143337925362278,
+    "trend_slope_per_month": 0.0007194894518025027,
+    "trend_r_squared": 0.041433379253624114,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -30219,7 +30219,7 @@
     "human_win_rate": 0.483329,
     "delta": -0.057207,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The trend is showing no clear trend, but engine predictions are accurate, indicating a notable gap in favour of white. A 2000-rated player should avoid this opening due to its engine-favoured nature.",
+    "narrative": "This opening has been stable, with no clear trend, but a minor gap between human and engine performance. A 2000-rated player should monitor this opening, as it may offer opportunities for counterplay.",
     "trend_direction": "stable",
     "trend_slope_per_month": -0.0010602528924638268,
     "trend_r_squared": 0.296837210439453,
@@ -30773,8 +30773,8 @@
     "interpretation": null,
     "narrative": "Win-rate trend is rising, with a delta of -0.030105, indicating a minor decrease in engine evaluation, advising the player to maintain their current opening strategy.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0008266163746733011,
-    "trend_r_squared": 0.03183182589952038,
+    "trend_slope_per_month": -0.0008266163746732913,
+    "trend_r_squared": 0.03183182589952116,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -31085,7 +31085,7 @@
     "human_win_rate": 0.483234,
     "delta": -0.039875,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "This opening has been rising consistently, with a notable gap between human and engine performance. A 2000-rated player should monitor this opening, as it may offer opportunities for improvement.",
+    "narrative": "This opening shows signs of rising, with a medium trend confidence and a sustained streak of 2 months. However, a notable gap exists between engine and human performance, with humans underperforming engine predictions. A 2000-rated player should monitor this opening to see if it continues to trend upward.",
     "trend_direction": "rising",
     "trend_slope_per_month": 0.001216012862462286,
     "trend_r_squared": 0.33344023842409687,
@@ -31555,8 +31555,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The B92 opening is stable, with a delta of -0.017047, indicating no significant change in win rate. This trend is consistent with engine evaluation, suggesting players can maintain their current strategy. A 1.7% decrease in win rate is negligible.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0037431806619258757,
-    "trend_r_squared": 0.44593358324301824,
+    "trend_slope_per_month": 0.0037431806619258987,
+    "trend_r_squared": 0.44593358324301735,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -32253,8 +32253,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate trend for B95 is falling, with an engine-human delta of -0.014176, indicating a slight disadvantage for humans. This trend suggests that players should consider alternative openings.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0005722994798879002,
-    "trend_r_squared": 0.0828591809756477,
+    "trend_slope_per_month": 0.0005722994798879101,
+    "trend_r_squared": 0.08285918097564926,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -32978,8 +32978,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The win-rate is stable with low confidence, indicating a range-bound trend. A minor gap exists between actual and forecasted win-rates.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.00014491398102763558,
-    "trend_r_squared": 0.0024408322328092202,
+    "trend_slope_per_month": -0.00014491398102761585,
+    "trend_r_squared": 0.0024408322328097753,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -33231,8 +33231,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "This opening has been stable, with no clear trend over the past few months. The engine-human gap is minor, indicating that the engine's evaluation is consistent with practical play. A 2000-rated player should monitor this opening to see if it becomes more popular.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0001796684772881239,
-    "trend_r_squared": 0.08194796144443783,
+    "trend_slope_per_month": 0.00017966847728810996,
+    "trend_r_squared": 0.0819479614444435,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -34413,8 +34413,8 @@
     "interpretation": null,
     "narrative": "Win rate is stable, with a minor gap between human and engine performance. Recent volatility is moderate.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0005291416620566134,
-    "trend_r_squared": 0.016173530688032844,
+    "trend_slope_per_month": 0.0005291416620566006,
+    "trend_r_squared": 0.0161735306880334,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -34877,8 +34877,8 @@
     "interpretation": null,
     "narrative": "Win-rate trend is rising, with a delta of -0.010557, indicating a slight decrease in engine evaluation, consistent with engine evaluation, suggesting a slight advantage for the player.",
     "trend_direction": "falling",
-    "trend_slope_per_month": -0.002551921008569421,
-    "trend_r_squared": 0.1828006180932349,
+    "trend_slope_per_month": -0.0025519210085694064,
+    "trend_r_squared": 0.1828006180932339,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -35111,7 +35111,7 @@
     "interpretation": null,
     "narrative": "Engine-favoured, frequently misplayed or theory-heavy. Win rate is range-bound, with a minor gap.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0015753595456491347,
+    "trend_slope_per_month": 0.001575359545649105,
     "trend_r_squared": 0.0906356109676687,
     "trend_confidence": "low",
     "trend_streak_months": 0,
@@ -35343,7 +35343,7 @@
     "human_win_rate": 0.4957,
     "delta": -0.029279,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "The C11 has been stable, with a minor gap between human and engine performance. This opening is range-bound, and players should avoid it unless they're looking to mix up their repertoire with a less popular choice.",
+    "narrative": "This opening has been range-bound, with a minor gap between engine prediction and human performance. A 2000-rated player should adopt this opening for its stable performance.",
     "trend_direction": "stable",
     "trend_slope_per_month": -0.00025649110578223775,
     "trend_r_squared": 0.14590679224880476,
@@ -35577,7 +35577,7 @@
     "human_win_rate": 0.465145,
     "delta": -0.062327,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "This opening has been showing no clear trend, despite a minor gap between engine and human predictions. A 2000-rated player may want to monitor this opening to see if it regains its former popularity.",
+    "narrative": "This opening has been stable, with a minor gap in favour of the engine. A 2000-rated player should monitor this opening, as it may be frequently misplayed or theory-heavy.",
     "trend_direction": "stable",
     "trend_slope_per_month": -0.0011895697241679003,
     "trend_r_squared": 0.0941478199455027,
@@ -35811,7 +35811,7 @@
     "human_win_rate": 0.529227,
     "delta": 0.051712,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "Humans outperform engine prediction in this opening, resulting in a notable gap. A 2000-rated player may adopt it to exploit engine weaknesses and gain a practical advantage.",
+    "narrative": "This opening has shown signs of rising, with a moderate trend. Humans outperform the engine's prediction, indicating a notable gap. A 2000-rated player may want to adopt this opening to take advantage of the engine's weakness.",
     "trend_direction": "stable",
     "trend_slope_per_month": 0.0005041896920371939,
     "trend_r_squared": 0.01482226217544591,
@@ -36068,21 +36068,21 @@
     "forecast": [
       {
         "month": "2026-05",
-        "value": 0.481503,
-        "lower": 0.469192,
-        "upper": 0.493815
+        "value": 0.480766,
+        "lower": 0.46835,
+        "upper": 0.493182
       },
       {
         "month": "2026-06",
-        "value": 0.481697,
-        "lower": 0.469326,
-        "upper": 0.494068
+        "value": 0.480718,
+        "lower": 0.468241,
+        "upper": 0.493194
       },
       {
         "month": "2026-07",
-        "value": 0.48189,
-        "lower": 0.469268,
-        "upper": 0.494512
+        "value": 0.480669,
+        "lower": 0.467939,
+        "upper": 0.493399
       }
     ],
     "structural_breaks": [
@@ -36361,7 +36361,7 @@
     "human_win_rate": 0.482136,
     "delta": -0.048451,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "This opening has trended downward recently, with humans underperforming engine predictions. A notable gap exists between engine and human performance. Avoid this opening for now.",
+    "narrative": "This opening has trended downward recently, showing signs of a falling trend. A major gap exists between engine and human performance, indicating that humans are significantly underperforming engine predictions. Avoid adopting this opening.",
     "trend_direction": "falling",
     "trend_slope_per_month": -0.002021546368633267,
     "trend_r_squared": 0.23083132538357476,
@@ -36852,10 +36852,10 @@
     "human_win_rate": 0.551027,
     "delta": 0.036656,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "This opening has been stable, with a minor gap between engine prediction and human performance. It shows no clear trend, and moderate variability in recent months. A 2000-rated player should monitor this opening, as it may offer opportunities for improvement.",
+    "narrative": "This opening has been stable, with a minor gap between engine predictions and human performance. It's a good choice for a 2000-rated player to monitor, as it may offer opportunities for improvement.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.00034615312997425323,
-    "trend_r_squared": 0.026717939416366132,
+    "trend_slope_per_month": -0.00034615312997421865,
+    "trend_r_squared": 0.026717939416365466,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -37065,7 +37065,7 @@
         "month": "2026-05",
         "value": 0.53816,
         "lower": 0.509756,
-        "upper": 0.566563
+        "upper": 0.566564
       },
       {
         "month": "2026-06",
@@ -37086,10 +37086,10 @@
     "human_win_rate": 0.539316,
     "delta": 0.04994,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "This opening shows signs of rising, with a major gap between human and engine performance. A 2000-rated player should adopt this opening, as humans outperform the engine prediction.",
+    "narrative": "This opening has been stable, with a minor gap between engine and human performance. A 2000-rated player should monitor this opening, as it may offer opportunities for improvement.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0015428084895908803,
-    "trend_r_squared": 0.1342477249722076,
+    "trend_slope_per_month": 0.0015428084895908656,
+    "trend_r_squared": 0.13424772497220683,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -37800,8 +37800,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate is erratic with a minor gap in engine evaluation. Recent volatility is low, indicating a consistent series.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0010282653716133109,
-    "trend_r_squared": 0.24677925991828242,
+    "trend_slope_per_month": -0.0010282653716132356,
+    "trend_r_squared": 0.24677925991828098,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -38053,8 +38053,8 @@
     "interpretation": null,
     "narrative": "Win-rate trend is falling, with a delta of -0.018, indicating a significant decrease in engine evaluation, suggesting the player should consider exploring alternative openings.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0005694249502464053,
-    "trend_r_squared": 0.014075702917096922,
+    "trend_slope_per_month": 0.0005694249502464201,
+    "trend_r_squared": 0.014075702917093258,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -38540,10 +38540,10 @@
     "human_win_rate": 0.480259,
     "delta": -0.045967,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The C30 opening is range-bound, with a minor gap between human and engine performance. A 2000-rated player should avoid over-investing in this opening.",
+    "narrative": "The C30 opening has trended downward recently, with a notable gap between human and engine performance. This opening is engine-favoured, making it a good choice for players who want to test their skills against a strong engine. A 2000-rated player should avoid this opening unless they're confident in their abilities.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0015682106954696849,
-    "trend_r_squared": 0.7996473789211014,
+    "trend_slope_per_month": -0.0015682106954696665,
+    "trend_r_squared": 0.7996473789211034,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -38776,7 +38776,7 @@
     "human_win_rate": 0.457825,
     "delta": -0.032176,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "This opening has been falling, with a notable gap between engine and human performance. A 2000-rated player should avoid this opening, as it shows a clear downward trend and a significant engine advantage.",
+    "narrative": "This opening has trended downward recently, with a medium trend confidence. A notable gap exists between engine and human performance, indicating that white's theoretical advantage is not being fully realised in play. A 2000-rated player should avoid adopting this opening.",
     "trend_direction": "falling",
     "trend_slope_per_month": -0.001538630175101977,
     "trend_r_squared": 0.31697631081994015,
@@ -39017,7 +39017,7 @@
       {
         "month": "2026-06",
         "value": 0.481351,
-        "lower": 0.474238,
+        "lower": 0.474239,
         "upper": 0.488464
       },
       {
@@ -39265,8 +39265,8 @@
     "interpretation": null,
     "narrative": "Win-rate is range-bound, with a minor gap between engine and human performance. Recent volatility is low, indicating a stable series.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0010568589571873874,
-    "trend_r_squared": 0.07311801515296079,
+    "trend_slope_per_month": -0.0010568589571874072,
+    "trend_r_squared": 0.07311801515295824,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -39499,8 +39499,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate is stable with low confidence, described as range-bound. Notable gap from engine evaluation.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 2.6949495958940687e-05,
-    "trend_r_squared": 5.6048021700672024e-05,
+    "trend_slope_per_month": 2.6949495958955496e-05,
+    "trend_r_squared": 5.604802170089407e-05,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -39733,10 +39733,10 @@
     "human_win_rate": 0.449058,
     "delta": -0.047817,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "This opening has been erratic, with no clear trend. A minor gap exists between engine and human performance, with humans underperforming engine predictions. Monitor this opening for potential theoretical advantages.",
+    "narrative": "This opening has been erratic, with no clear trend over the past few months. A minor gap exists between engine and human performance, suggesting that humans are not underperforming engine predictions. Monitor this opening for potential improvements.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.002813441890533828,
-    "trend_r_squared": 0.5365849555196048,
+    "trend_slope_per_month": -0.0028134418905337933,
+    "trend_r_squared": 0.5365849555196032,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -40039,7 +40039,7 @@
     "human_win_rate": 0.458452,
     "delta": -0.107413,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The C40 has been range-bound, with a minor gap between engine and human performance. A 2000-rated player should adopt this opening as a solid choice, but don't expect to gain a significant edge.",
+    "narrative": "The trend for this opening is erratic, with a minor gap between engine and human performance. A 2000-rated player should monitor this opening to see if it becomes more consistent.",
     "trend_direction": "stable",
     "trend_slope_per_month": 0.00020738954656969824,
     "trend_r_squared": 0.1755837435712284,
@@ -40275,7 +40275,7 @@
     "human_win_rate": 0.482102,
     "delta": -0.048485,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The trend shows signs of rising, but the engine gap is minor. This opening is worth exploring for 2000-rated players seeking to exploit theoretical advantages.",
+    "narrative": "The trend for this opening is stable, with no clear direction. A notable gap exists between engine and human performance, indicating that humans are underperforming engine predictions. Avoid adopting this opening until the trend stabilises.",
     "trend_direction": "stable",
     "trend_slope_per_month": 5.2954226908388355e-05,
     "trend_r_squared": 0.005280598040128703,
@@ -40722,21 +40722,21 @@
     "forecast": [
       {
         "month": "2026-05",
-        "value": 0.498387,
-        "lower": 0.492565,
-        "upper": 0.504208
+        "value": 0.498321,
+        "lower": 0.49255,
+        "upper": 0.504092
       },
       {
         "month": "2026-06",
-        "value": 0.498355,
-        "lower": 0.492505,
-        "upper": 0.504205
+        "value": 0.498276,
+        "lower": 0.492476,
+        "upper": 0.504075
       },
       {
         "month": "2026-07",
-        "value": 0.498323,
-        "lower": 0.492354,
-        "upper": 0.504292
+        "value": 0.49823,
+        "lower": 0.492313,
+        "upper": 0.504147
       }
     ],
     "structural_breaks": [
@@ -40752,8 +40752,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate is stable with low confidence, described as range-bound. Minor gap from engine evaluation.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.00029051481665327215,
-    "trend_r_squared": 0.05911548020062718,
+    "trend_slope_per_month": 0.0002905148166533218,
+    "trend_r_squared": 0.059115480200632065,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -41431,21 +41431,21 @@
     "forecast": [
       {
         "month": "2026-05",
-        "value": 0.506204,
-        "lower": 0.495271,
-        "upper": 0.517137
+        "value": 0.506203,
+        "lower": 0.49527,
+        "upper": 0.517136
       },
       {
         "month": "2026-06",
-        "value": 0.506167,
-        "lower": 0.495181,
-        "upper": 0.517153
+        "value": 0.506166,
+        "lower": 0.49518,
+        "upper": 0.517152
       },
       {
         "month": "2026-07",
-        "value": 0.50613,
-        "lower": 0.494921,
-        "upper": 0.517339
+        "value": 0.506129,
+        "lower": 0.49492,
+        "upper": 0.517338
       }
     ],
     "structural_breaks": [
@@ -42233,8 +42233,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The trend is stable, with a low trend confidence and no sustained streak. The engine-human gap is minor, indicating a stable theoretical advantage for white. A 2000-rated player should monitor this opening for potential growth.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.00014899113107822272,
-    "trend_r_squared": 0.03050624728883533,
+    "trend_slope_per_month": -0.00014899113107820426,
+    "trend_r_squared": 0.03050624728883089,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -42990,8 +42990,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate trend for C61 is falling, with an engine-human delta of -0.016077, indicating a slight disadvantage for humans. This trend suggests that players should be cautious when employing this opening.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0003545331557976023,
-    "trend_r_squared": 0.07303889523966267,
+    "trend_slope_per_month": 0.00035453315579762694,
+    "trend_r_squared": 0.07303889523965656,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -43465,10 +43465,10 @@
     "human_win_rate": 0.448181,
     "delta": -0.074304,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "This opening has been stable, with a minor gap between engine and human performance. A 2000-rated player should avoid adopting this opening, as it may not offer a significant advantage.",
+    "narrative": "This opening has been stable, with no clear trend. The engine's advantage is significant, indicating frequent misplay or theory-heavy play. A 2000-rated player should be cautious when adopting this opening, as it may not be fully understood.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0039554430244318865,
-    "trend_r_squared": 0.4700024295914361,
+    "trend_slope_per_month": -0.003955443024431925,
+    "trend_r_squared": 0.47000242959143734,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -44482,7 +44482,7 @@
     "human_win_rate": 0.48175,
     "delta": -0.044476,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The C71 opening is range-bound, with a minor gap between human and engine performance. A 2000-rated player should avoid over-investing in this opening.",
+    "narrative": "The C71 opening has trended downward recently, with a notable gap between human and engine performance. This opening is engine-favoured, making it a good choice for players who want to test their skills against a strong engine. A 2000-rated player should avoid this opening unless they're confident in their abilities.",
     "trend_direction": "stable",
     "trend_slope_per_month": -0.0006074424874950484,
     "trend_r_squared": 0.01808892110891358,
@@ -45015,21 +45015,21 @@
     "forecast": [
       {
         "month": "2026-05",
-        "value": 0.505965,
-        "lower": 0.490846,
-        "upper": 0.521083
+        "value": 0.505967,
+        "lower": 0.490848,
+        "upper": 0.521086
       },
       {
         "month": "2026-06",
-        "value": 0.505856,
-        "lower": 0.490664,
-        "upper": 0.521049
+        "value": 0.505858,
+        "lower": 0.490666,
+        "upper": 0.521051
       },
       {
         "month": "2026-07",
-        "value": 0.505748,
-        "lower": 0.490247,
-        "upper": 0.521249
+        "value": 0.50575,
+        "lower": 0.490249,
+        "upper": 0.521251
       }
     ],
     "structural_breaks": [],
@@ -45598,21 +45598,21 @@
     "forecast": [
       {
         "month": "2026-05",
-        "value": 0.484774,
+        "value": 0.484773,
         "lower": 0.471685,
-        "upper": 0.497862
+        "upper": 0.497861
       },
       {
         "month": "2026-06",
-        "value": 0.48481,
+        "value": 0.484809,
         "lower": 0.471658,
         "upper": 0.497961
       },
       {
         "month": "2026-07",
-        "value": 0.484846,
+        "value": 0.484845,
         "lower": 0.471427,
-        "upper": 0.498265
+        "upper": 0.498264
       }
     ],
     "structural_breaks": [],
@@ -45621,10 +45621,10 @@
     "human_win_rate": 0.484032,
     "delta": -0.051533,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The trend for this opening is rising, with a notable gap between engine and human performance. A 2000-rated player may consider adopting it to take advantage of engine's miscalculations.",
+    "narrative": "This opening has been rising consistently, with a high trend confidence. Humans outperform the engine's prediction, indicating a major gap. A 2000-rated player may want to adopt this opening to take advantage of the engine's weakness.",
     "trend_direction": "rising",
-    "trend_slope_per_month": 0.0010367233041698592,
-    "trend_r_squared": 0.27741624550214694,
+    "trend_slope_per_month": 0.0010367233041698742,
+    "trend_r_squared": 0.2774162455021475,
     "trend_confidence": "medium",
     "trend_streak_months": 5,
     "forecast_quality": "medium",
@@ -45948,8 +45948,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The C88 is falling with a delta of 0.012347, indicating a decrease in engine evaluation. This trend is consistent with engine evaluation, suggesting a challenging position for players. A falling trend indicates a need to reassess strategies.",
     "trend_direction": "rising",
-    "trend_slope_per_month": 0.0025672379677745445,
-    "trend_r_squared": 0.28677734776152053,
+    "trend_slope_per_month": 0.0025672379677745094,
+    "trend_r_squared": 0.286777347761521,
     "trend_confidence": "medium",
     "trend_streak_months": 3,
     "forecast_quality": "medium",
@@ -46180,7 +46180,7 @@
     "human_win_rate": 0.43025,
     "delta": -0.090987,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The C89 has been showing no clear trend, with a minor gap between engine and human performance. A 2000-rated player should monitor this opening to see if the trend emerges, but for now, it's not a priority.",
+    "narrative": "The trend for this opening is showing no clear trend, with a minor gap between engine and human performance. A 2000-rated player should avoid adopting this opening until the gap narrows.",
     "trend_direction": "stable",
     "trend_slope_per_month": -0.00023559416503273723,
     "trend_r_squared": 0.00861773835274171,
@@ -46414,10 +46414,10 @@
     "human_win_rate": 0.492056,
     "delta": -0.037908,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "The trend is erratic, with a minor gap between human and engine performance. A 2000-rated player should avoid this opening, as it may not be a reliable choice.",
+    "narrative": "The C90 is showing no clear trend, with a low trend confidence and no sustained streak. A minor gap exists between engine and human performance, with humans underperforming engine predictions. A 2000-rated player should avoid this opening, as it's not recommended.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0009770185572855225,
-    "trend_r_squared": 0.03245689440509547,
+    "trend_slope_per_month": 0.0009770185572855125,
+    "trend_r_squared": 0.03245689440509403,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -46655,13 +46655,13 @@
       {
         "month": "2026-06",
         "value": 0.507829,
-        "lower": 0.477771,
-        "upper": 0.537888
+        "lower": 0.47777,
+        "upper": 0.537887
       },
       {
         "month": "2026-07",
-        "value": 0.50819,
-        "lower": 0.477521,
+        "value": 0.508189,
+        "lower": 0.47752,
         "upper": 0.538858
       }
     ],
@@ -46673,8 +46673,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "This opening has been stable, with no clear trend emerging over the past few months. The engine delta is minor, indicating a small gap between human and engine performance. A 2000-rated player may want to monitor this opening, as it shows potential but requires further analysis.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0007398313495352233,
-    "trend_r_squared": 0.01881562772111789,
+    "trend_slope_per_month": 0.000739831349535238,
+    "trend_r_squared": 0.018815627721116446,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -46997,7 +46997,7 @@
     "human_win_rate": 0.501236,
     "delta": -0.034329,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "This opening has been stable, with a minor gap between engine and human performance. A 2000-rated player should monitor this opening, as it shows no clear trend and may be worth exploring further.",
+    "narrative": "This opening has been stable, with no clear trend. A minor gap exists between engine and human performance, suggesting that white's theoretical advantage is not being fully utilised. A 2000-rated player should monitor this opening for potential improvement opportunities.",
     "trend_direction": "stable",
     "trend_slope_per_month": -0.0009297031632912653,
     "trend_r_squared": 0.04216338886182436,
@@ -47244,21 +47244,21 @@
     "forecast": [
       {
         "month": "2026-05",
-        "value": 0.507033,
-        "lower": 0.496587,
-        "upper": 0.517478
+        "value": 0.507034,
+        "lower": 0.496588,
+        "upper": 0.517479
       },
       {
         "month": "2026-06",
-        "value": 0.507078,
-        "lower": 0.496582,
-        "upper": 0.517574
+        "value": 0.507079,
+        "lower": 0.496583,
+        "upper": 0.517575
       },
       {
         "month": "2026-07",
-        "value": 0.507124,
-        "lower": 0.496415,
-        "upper": 0.517833
+        "value": 0.507125,
+        "lower": 0.496416,
+        "upper": 0.517834
       }
     ],
     "structural_breaks": [
@@ -48467,10 +48467,10 @@
     "human_win_rate": 0.489687,
     "delta": -0.050849,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "This opening has been stable, with a minor gap between human and engine performance. A 2000-rated player should monitor this opening, as it may offer opportunities for improvement.",
+    "narrative": "This opening has been stable, with a minor gap between engine and human performance. A 2000-rated player should monitor this opening, as it may offer opportunities for improvement.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0015652522816890794,
-    "trend_r_squared": 0.3336888669118837,
+    "trend_slope_per_month": -0.0015652522816890445,
+    "trend_r_squared": 0.33368886691188415,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -48701,7 +48701,7 @@
     "human_win_rate": 0.518171,
     "delta": 0.060569,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "This opening has been stable with no clear trend, but humans outperform engine predictions by a minor gap, suggesting practical play favours white. A 2000-rated player should monitor this opening for potential improvement.",
+    "narrative": "This opening has been stable, with no clear trend, but a minor gap between human and engine performance. A 2000-rated player should monitor this opening, as it may offer opportunities for counterplay.",
     "trend_direction": "stable",
     "trend_slope_per_month": 0.0019696949525226455,
     "trend_r_squared": 0.1417573174698019,
@@ -48947,8 +48947,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The D10 Slav Defense has shown a stable trend with a minor engine-human delta of -0.007215, suggesting that players can trust engine recommendations for strategic decisions.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.000522889966094776,
-    "trend_r_squared": 0.39330409685145007,
+    "trend_slope_per_month": -0.0005228899660947376,
+    "trend_r_squared": 0.39330409685145307,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -49436,8 +49436,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "This opening has been stable, with no clear trend over the past few months. The engine-human gap is minor, indicating that the engine's evaluation is consistent with practical play. A 2000-rated player should monitor this opening to see if it becomes more popular.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -1.2204226863498543e-05,
-    "trend_r_squared": 0.00016150892916244608,
+    "trend_slope_per_month": -1.2204226863493208e-05,
+    "trend_r_squared": 0.00016150892916333426,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -50358,7 +50358,7 @@
     "human_win_rate": 0.474198,
     "delta": -0.047663,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The trend is range-bound, with no clear direction. A minor gap exists between engine and human performance, with humans underperforming engine predictions. Monitor this opening for potential theoretical advantages.",
+    "narrative": "The trend for this opening is stable, with no clear direction. A minor gap exists between engine and human performance, suggesting that humans are not underperforming engine predictions. Monitor this opening for potential improvements.",
     "trend_direction": "stable",
     "trend_slope_per_month": -0.00028330064254922347,
     "trend_r_squared": 0.010733511723251654,
@@ -50829,21 +50829,21 @@
     "forecast": [
       {
         "month": "2026-05",
-        "value": 0.504001,
-        "lower": 0.497155,
-        "upper": 0.510847
+        "value": 0.504005,
+        "lower": 0.497158,
+        "upper": 0.510851
       },
       {
         "month": "2026-06",
-        "value": 0.503836,
-        "lower": 0.496957,
-        "upper": 0.510715
+        "value": 0.503841,
+        "lower": 0.496961,
+        "upper": 0.51072
       },
       {
         "month": "2026-07",
-        "value": 0.503672,
-        "lower": 0.496653,
-        "upper": 0.51069
+        "value": 0.503677,
+        "lower": 0.496658,
+        "upper": 0.510696
       }
     ],
     "structural_breaks": [
@@ -51140,8 +51140,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate is falling with medium confidence, supported by a moderate streak of 2 months. Major gap from engine evaluation.",
     "trend_direction": "falling",
-    "trend_slope_per_month": -0.005279753818608729,
-    "trend_r_squared": 0.7371195911085331,
+    "trend_slope_per_month": -0.005279753818608706,
+    "trend_r_squared": 0.737119591108532,
     "trend_confidence": "high",
     "trend_streak_months": 3,
     "forecast_quality": "medium",
@@ -51374,7 +51374,7 @@
     "human_win_rate": 0.537825,
     "delta": 0.058438,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "This opening shows signs of rising consistently, with humans outperforming engine predictions by a minor gap. A 2000-rated player should adopt this opening for potential gains.",
+    "narrative": "This opening has been stable, with no clear trend, but a minor gap between human and engine performance. A 2000-rated player should monitor this opening, as it may offer opportunities for counterplay.",
     "trend_direction": "stable",
     "trend_slope_per_month": -0.0004606787051704358,
     "trend_r_squared": 0.054513587259483964,
@@ -52154,10 +52154,10 @@
     "human_win_rate": 0.467619,
     "delta": -0.054242,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The trend for this opening is stable, with a minor gap between engine and human performance. A 2000-rated player may monitor it, as it could be a good choice against opponents who frequently misplay.",
+    "narrative": "The trend for this opening is stable, showing no clear direction. The engine's prediction is slightly more accurate than human play, indicating a minor gap. A 2000-rated player may want to avoid this opening due to its stable, engine-favoured nature.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0008878016055378983,
-    "trend_r_squared": 0.03254109956583484,
+    "trend_slope_per_month": -0.0008878016055378785,
+    "trend_r_squared": 0.03254109956583384,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -52437,7 +52437,7 @@
     "human_win_rate": 0.519345,
     "delta": 0.03559,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "This opening has shown signs of rising, with a notable gap between engine prediction and human performance. However, the trend is erratic, with a low level of confidence. A 2000-rated player should monitor this opening, as it may offer opportunities for improvement.",
+    "narrative": "This opening has been stable, with a minor gap between engine predictions and human performance. A 2000-rated player should consider adopting this opening, as it may offer opportunities for growth.",
     "trend_direction": "stable",
     "trend_slope_per_month": 7.700722443946048e-05,
     "trend_r_squared": 0.010637201758442405,
@@ -52671,7 +52671,7 @@
     "human_win_rate": 0.541556,
     "delta": 0.050305,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "The trend for this opening is stable, with a major gap between human and engine performance. A 2000-rated player should adopt this opening, as humans outperform the engine prediction.",
+    "narrative": "This opening shows signs of rising, with a major gap between engine and human performance. A 2000-rated player should adopt this opening, as it may offer a significant advantage.",
     "trend_direction": "stable",
     "trend_slope_per_month": -0.0003904752702860975,
     "trend_r_squared": 0.013462515318016677,
@@ -52914,8 +52914,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The trend for this opening is stable, with no significant changes in recent months. However, the engine delta is notable, suggesting a discrepancy between human and engine performance. A 2000-rated player may want to avoid this opening, as the engine's evaluation is not being realised in practice.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0001972470751989677,
-    "trend_r_squared": 0.017863288634169416,
+    "trend_slope_per_month": -0.0001972470751989609,
+    "trend_r_squared": 0.017863288634169083,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -53665,7 +53665,7 @@
         "month": "2026-05",
         "value": 0.516192,
         "lower": 0.509282,
-        "upper": 0.523102
+        "upper": 0.523103
       },
       {
         "month": "2026-06",
@@ -53928,7 +53928,7 @@
     "human_win_rate": 0.46971,
     "delta": -0.069583,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "This opening has been showing no clear trend, despite a minor gap between engine and human predictions. A 2000-rated player may want to monitor this opening to see if it regains its former popularity.",
+    "narrative": "This opening has been showing no clear trend, despite a minor gap in favour of the engine. A 2000-rated player should monitor this opening, as its performance may be erratic.",
     "trend_direction": "stable",
     "trend_slope_per_month": 0.0013930629168667458,
     "trend_r_squared": 0.2718765148770913,
@@ -54922,7 +54922,7 @@
       },
       {
         "month": "2026-06",
-        "value": 0.501061,
+        "value": 0.50106,
         "lower": 0.490327,
         "upper": 0.511794
       },
@@ -54930,7 +54930,7 @@
         "month": "2026-07",
         "value": 0.501093,
         "lower": 0.490141,
-        "upper": 0.512045
+        "upper": 0.512044
       }
     ],
     "structural_breaks": [
@@ -54944,8 +54944,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The D53 is experiencing a rising trend with a delta of -0.013439, indicating a slight decrease in engine evaluation. This may pose a challenge for players, as they need to adapt to the changing dynamics. A consistent interpretation with engine evaluation suggests a need for strategic adjustments.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0004629164747378909,
-    "trend_r_squared": 0.12092723291990815,
+    "trend_slope_per_month": 0.00046291647473788703,
+    "trend_r_squared": 0.12092723291990792,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -55268,7 +55268,7 @@
     "human_win_rate": 0.453374,
     "delta": -0.062246,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The trend in this opening has been stable, with a minor gap between engine and human predictions. A 2000-rated player may want to monitor this opening to see if it continues to perform well.",
+    "narrative": "The trend in this opening has been stable, with a minor gap in favour of the engine. A 2000-rated player should monitor this opening, as it may be frequently misplayed or theory-heavy.",
     "trend_direction": "stable",
     "trend_slope_per_month": -2.3569869870250267e-05,
     "trend_r_squared": 6.073567123821011e-05,
@@ -55528,10 +55528,10 @@
     "human_win_rate": 0.483569,
     "delta": -0.031427,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "The trend for this opening is stable, with a minor gap between engine and human performance. A 2000-rated player should monitor this opening, as it shows consistent results but may not be worth adopting.",
+    "narrative": "The trend for this opening is stable, with no clear direction. A minor gap exists between engine and human performance, suggesting that white's theoretical advantage is not being fully utilised. A 2000-rated player should monitor this opening for potential improvement opportunities.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0013551702962113492,
-    "trend_r_squared": 0.33315339895586893,
+    "trend_slope_per_month": -0.0013551702962113592,
+    "trend_r_squared": 0.33315339895586815,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -55850,21 +55850,21 @@
     "forecast": [
       {
         "month": "2026-04",
-        "value": 0.518189,
-        "lower": 0.481971,
-        "upper": 0.554406
+        "value": 0.518188,
+        "lower": 0.48197,
+        "upper": 0.554405
       },
       {
         "month": "2026-05",
-        "value": 0.518155,
-        "lower": 0.481762,
-        "upper": 0.554549
+        "value": 0.518154,
+        "lower": 0.48176,
+        "upper": 0.554547
       },
       {
         "month": "2026-06",
-        "value": 0.518121,
-        "lower": 0.480989,
-        "upper": 0.555254
+        "value": 0.51812,
+        "lower": 0.480988,
+        "upper": 0.555252
       }
     ],
     "structural_breaks": [],
@@ -55875,8 +55875,8 @@
     "interpretation": null,
     "narrative": "The D66 opening is trending upwards, with a delta of 0.037605, indicating a slight decrease in engine-human performance gap. This trend suggests that players may be improving their skills in this opening, making it a more competitive choice.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0011284350982060038,
-    "trend_r_squared": 0.03736633677876755,
+    "trend_slope_per_month": -0.001128435098205989,
+    "trend_r_squared": 0.037366336778766995,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -56246,7 +56246,7 @@
       {
         "month": "2026-05",
         "value": 0.502923,
-        "lower": 0.483067,
+        "lower": 0.483066,
         "upper": 0.52278
       },
       {
@@ -56973,7 +56973,7 @@
     "human_win_rate": 0.467632,
     "delta": -0.047988,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The trend shows signs of rising, but the engine gap is minor. This opening is worth exploring for 2000-rated players seeking to exploit theoretical advantages.",
+    "narrative": "The trend for this opening is stable, with no clear direction. A minor gap exists between engine and human performance, suggesting that humans are not underperforming engine predictions. Monitor this opening for potential improvements.",
     "trend_direction": "stable",
     "trend_slope_per_month": -0.00015551004252995084,
     "trend_r_squared": 0.0173165109791934,
@@ -57731,10 +57731,10 @@
     "human_win_rate": 0.467102,
     "delta": -0.050391,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "This opening shows signs of rising, with a notable gap between human and engine performance. A 2000-rated player should adopt this opening, as it may offer a competitive advantage.",
+    "narrative": "This opening has been rising consistently, with a minor gap between engine and human performance. A 2000-rated player should adopt this opening, as it may offer a competitive edge.",
     "trend_direction": "rising",
-    "trend_slope_per_month": 0.0008885045080434157,
-    "trend_r_squared": 0.23914530920524035,
+    "trend_slope_per_month": 0.0008885045080434533,
+    "trend_r_squared": 0.23914530920524413,
     "trend_confidence": "medium",
     "trend_streak_months": 2,
     "forecast_quality": "medium",
@@ -57992,8 +57992,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The D86 opening is trending stable with a delta of -0.020894, indicating minimal change in engine evaluation. This stability suggests a neutral position for the player. Engine evaluation consistency supports this trend.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0019354096469319537,
-    "trend_r_squared": 0.16105223208433972,
+    "trend_slope_per_month": 0.0019354096469319606,
+    "trend_r_squared": 0.16105223208434094,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -58745,8 +58745,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The D92 is rising with a delta of -0.012193, indicating a slight decrease in engine evaluation. This trend is consistent with engine evaluation, suggesting a need for strategic adjustments. A rising trend indicates a need to adapt to the changing dynamics.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0007989641436389137,
-    "trend_r_squared": 0.029168585699378302,
+    "trend_slope_per_month": 0.0007989641436388988,
+    "trend_r_squared": 0.029168585699378413,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -58954,21 +58954,21 @@
     "forecast": [
       {
         "month": "2026-05",
-        "value": 0.460306,
-        "lower": 0.430834,
-        "upper": 0.489778
+        "value": 0.4603,
+        "lower": 0.430828,
+        "upper": 0.489772
       },
       {
         "month": "2026-06",
-        "value": 0.46029,
-        "lower": 0.430675,
-        "upper": 0.489905
+        "value": 0.460284,
+        "lower": 0.430669,
+        "upper": 0.4899
       },
       {
         "month": "2026-07",
-        "value": 0.460274,
-        "lower": 0.430057,
-        "upper": 0.490491
+        "value": 0.460268,
+        "lower": 0.430052,
+        "upper": 0.490485
       }
     ],
     "structural_breaks": [
@@ -58980,7 +58980,7 @@
     "human_win_rate": 0.46063,
     "delta": -0.036245,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "The trend for this opening is stable, with a minor gap between engine prediction and human performance. It shows no clear trend, and moderate variability in recent months. A 2000-rated player should monitor this opening, as it may offer opportunities for improvement.",
+    "narrative": "The trend for this opening is stable, with a minor gap between engine predictions and human performance. A 2000-rated player should monitor this opening, as it may be worth exploring further.",
     "trend_direction": "stable",
     "trend_slope_per_month": 0.00023628429024058156,
     "trend_r_squared": 0.02479856852042872,
@@ -59548,7 +59548,7 @@
       },
       {
         "month": "2026-07",
-        "value": 0.514588,
+        "value": 0.514587,
         "lower": 0.500954,
         "upper": 0.528221
       }
@@ -59561,7 +59561,7 @@
     "human_win_rate": 0.51763,
     "delta": 0.03762,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "The trend is stable, with a minor gap between human and engine performance. A 2000-rated player should monitor this opening, as it may offer opportunities for improvement.",
+    "narrative": "The E00 is range-bound, with a low trend confidence and no sustained streak. A minor gap exists between engine and human performance, with humans outperforming engine predictions. A 2000-rated player should monitor this opening to see if it stabilizes, but for now, it's not recommended.",
     "trend_direction": "stable",
     "trend_slope_per_month": -3.711414968699057e-05,
     "trend_r_squared": 0.004075081710965711,
@@ -59795,7 +59795,7 @@
     "human_win_rate": 0.514635,
     "delta": 0.030255,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "The E01 has been stable, with a minor gap between human and engine performance. This opening shows no clear trend, but its consistent performance makes it a solid choice for players looking to add a reliable option to their repertoire.",
+    "narrative": "This opening has been showing no clear trend, with a minor gap between engine prediction and human performance. A 2000-rated player should monitor this opening for potential opportunities.",
     "trend_direction": "stable",
     "trend_slope_per_month": 0.0004825358294742195,
     "trend_r_squared": 0.04667252627757801,
@@ -60075,7 +60075,7 @@
     "human_win_rate": 0.520927,
     "delta": 0.037795,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "This opening has trended downward recently, with a major gap between human and engine performance. A 2000-rated player should avoid this opening, as it may not be a competitive choice.",
+    "narrative": "This opening has trended downward, with a medium trend confidence and a sustained streak of 1 month. A major gap exists between engine and human performance, with humans outperforming engine predictions. A 2000-rated player should avoid this opening, as it's not recommended.",
     "trend_direction": "falling",
     "trend_slope_per_month": -0.0013451232161483943,
     "trend_r_squared": 0.1653340890205668,
@@ -60310,18 +60310,18 @@
       {
         "month": "2026-05",
         "value": 0.507708,
-        "lower": 0.490725,
-        "upper": 0.524692
+        "lower": 0.490724,
+        "upper": 0.524691
       },
       {
         "month": "2026-06",
         "value": 0.507526,
-        "lower": 0.49046,
+        "lower": 0.490459,
         "upper": 0.524592
       },
       {
         "month": "2026-07",
-        "value": 0.507344,
+        "value": 0.507343,
         "lower": 0.489931,
         "upper": 0.524756
       }
@@ -60334,10 +60334,10 @@
     "human_win_rate": 0.5106,
     "delta": 0.029341,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "The E06 has trended downward recently, with a notable gap between human and engine performance. This opening shows signs of falling, and players should monitor its development before adopting it as a key part of their strategy.",
+    "narrative": "The trend of this opening has been falling recently, with a notable gap between engine prediction and human performance. A 2000-rated player should avoid adopting this opening for now.",
     "trend_direction": "falling",
-    "trend_slope_per_month": -0.0025465432121451687,
-    "trend_r_squared": 0.3758464982899533,
+    "trend_slope_per_month": -0.002546543212145144,
+    "trend_r_squared": 0.3758464982899492,
     "trend_confidence": "medium",
     "trend_streak_months": 2,
     "forecast_quality": "medium",
@@ -60876,10 +60876,10 @@
     "human_win_rate": 0.487876,
     "delta": -0.035856,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "The trend for this opening is stable, with a minor gap between engine prediction and human performance. It shows no clear trend, and moderate variability in recent months. A 2000-rated player should monitor this opening, as it may offer opportunities for improvement.",
+    "narrative": "The trend for this opening is stable, with a minor gap between engine predictions and human performance. A 2000-rated player should monitor this opening, as it may be worth exploring further.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0008670045565531343,
-    "trend_r_squared": 0.11659847331195661,
+    "trend_slope_per_month": -0.000867004556553111,
+    "trend_r_squared": 0.11659847331195505,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -61110,7 +61110,7 @@
     "human_win_rate": 0.484905,
     "delta": -0.041944,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The trend has been stable, with a notable gap in favour of the engine. A 2000-rated player should avoid this opening, as the engine's advantage is likely due to frequent misplay or theory-heavy play.",
+    "narrative": "The trend has been falling, with a notable gap between human and engine performance. A 2000-rated player should avoid this opening until the trend stabilizes.",
     "trend_direction": "stable",
     "trend_slope_per_month": -0.00010082842195677805,
     "trend_r_squared": 0.0038523214632635305,
@@ -61694,7 +61694,7 @@
       {
         "month": "2026-05",
         "value": 0.475733,
-        "lower": 0.460704,
+        "lower": 0.460705,
         "upper": 0.490761
       },
       {
@@ -61734,8 +61734,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The E21 opening is experiencing a rising win-rate trend, with a small engine-human delta of -0.0115, suggesting engines are slightly underestimating its strength.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 1.979206076525276e-06,
-    "trend_r_squared": 7.558815585673173e-07,
+    "trend_slope_per_month": 1.979206076560191e-06,
+    "trend_r_squared": 7.558815587893619e-07,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -62202,21 +62202,21 @@
     "forecast": [
       {
         "month": "2026-05",
-        "value": 0.507069,
-        "lower": 0.485315,
-        "upper": 0.528822
+        "value": 0.50707,
+        "lower": 0.485317,
+        "upper": 0.528824
       },
       {
         "month": "2026-06",
-        "value": 0.507947,
-        "lower": 0.486087,
-        "upper": 0.529806
+        "value": 0.507948,
+        "lower": 0.486089,
+        "upper": 0.529807
       },
       {
         "month": "2026-07",
-        "value": 0.508824,
-        "lower": 0.486521,
-        "upper": 0.531127
+        "value": 0.508826,
+        "lower": 0.486523,
+        "upper": 0.531129
       }
     ],
     "structural_breaks": [],
@@ -62566,7 +62566,7 @@
     "human_win_rate": 0.457069,
     "delta": -0.05293,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The trend for this opening is stable, with a minor gap between engine and human performance. A 2000-rated player may monitor it, as it could be a good choice against opponents who frequently miscalculate.",
+    "narrative": "The trend for this opening is stable, showing no clear direction. The engine's prediction is slightly more accurate than human play, indicating a minor gap. A 2000-rated player may want to avoid this opening due to its stable, engine-favoured nature.",
     "trend_direction": "stable",
     "trend_slope_per_month": -0.00025577116942927927,
     "trend_r_squared": 0.04762690982741735,
@@ -62812,7 +62812,7 @@
       },
       {
         "month": "2026-07",
-        "value": 0.490669,
+        "value": 0.49067,
         "lower": 0.478924,
         "upper": 0.502415
       }
@@ -63182,10 +63182,10 @@
     "human_win_rate": 0.482843,
     "delta": -0.04276,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "This opening has been stable, with a notable gap in favour of the engine. A 2000-rated player should avoid this opening, as the engine's advantage is likely due to frequent misplay or theory-heavy play.",
+    "narrative": "This opening has trended downward recently, with a notable gap between human and engine performance. A 2000-rated player should avoid this opening until the trend stabilizes.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0003203792708995736,
-    "trend_r_squared": 0.014291368664123727,
+    "trend_slope_per_month": -0.0003203792708995891,
+    "trend_r_squared": 0.014291368664123172,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -63416,9 +63416,9 @@
     "forecast": [
       {
         "month": "2026-05",
-        "value": 0.494577,
+        "value": 0.494578,
         "lower": 0.481016,
-        "upper": 0.508138
+        "upper": 0.508139
       },
       {
         "month": "2026-06",
@@ -63430,7 +63430,7 @@
         "month": "2026-07",
         "value": 0.494775,
         "lower": 0.480871,
-        "upper": 0.508678
+        "upper": 0.508679
       }
     ],
     "structural_breaks": [
@@ -64220,7 +64220,7 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate trend is falling, with a delta of -0.018, indicating a significant decrease in engine evaluation, suggesting the player should consider abandoning this opening.",
     "trend_direction": "rising",
-    "trend_slope_per_month": 0.004723096753729243,
+    "trend_slope_per_month": 0.004723096753729299,
     "trend_r_squared": 0.7996508839951644,
     "trend_confidence": "high",
     "trend_streak_months": 3,
@@ -64913,8 +64913,8 @@
     "interpretation": null,
     "narrative": "E50's win-rate is rising, with a delta of -0.024829, showing a stable engine evaluation, which may not affect the player's results.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0013460251512131425,
-    "trend_r_squared": 0.1190311788953956,
+    "trend_slope_per_month": 0.0013460251512131525,
+    "trend_r_squared": 0.11903117889539461,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -65591,8 +65591,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate is stable with low confidence, described as erratic. Minor gap from engine evaluation.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0001468568094235015,
-    "trend_r_squared": 0.049624666447854016,
+    "trend_slope_per_month": 0.00014685680942355117,
+    "trend_r_squared": 0.04962466644784258,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -65823,10 +65823,10 @@
     "human_win_rate": 0.472577,
     "delta": -0.053025,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "This opening has been stable, with a minor gap between engine and human performance. A 2000-rated player may consider adopting it to exploit opponents' miscalculations.",
+    "narrative": "This opening has been stable, with no clear trend. The engine's prediction is slightly more accurate than human play, indicating a minor gap. A 2000-rated player may want to monitor this opening to see if it becomes more popular.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.000316116742572591,
-    "trend_r_squared": 0.012980690346512724,
+    "trend_slope_per_month": 0.00031611674257261074,
+    "trend_r_squared": 0.01298069034651117,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -66317,7 +66317,7 @@
     "human_win_rate": 0.511088,
     "delta": 0.029205,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "The E65 has been stable, with a minor gap between human and engine performance. This opening is showing no clear trend, but its consistent performance makes it a solid choice for players looking to add a reliable option to their repertoire.",
+    "narrative": "This opening has been showing erratic performance, with a minor gap between engine prediction and human performance. A 2000-rated player should monitor this opening for potential opportunities.",
     "trend_direction": "stable",
     "trend_slope_per_month": 0.000270277055998596,
     "trend_r_squared": 0.023551737986001964,
@@ -66711,20 +66711,20 @@
       {
         "month": "2026-05",
         "value": 0.48058,
-        "lower": 0.455674,
-        "upper": 0.505487
+        "lower": 0.455673,
+        "upper": 0.505486
       },
       {
         "month": "2026-06",
-        "value": 0.480421,
-        "lower": 0.455393,
+        "value": 0.48042,
+        "lower": 0.455392,
         "upper": 0.505448
       },
       {
         "month": "2026-07",
-        "value": 0.480261,
+        "value": 0.48026,
         "lower": 0.454725,
-        "upper": 0.505797
+        "upper": 0.505796
       }
     ],
     "structural_breaks": [],
@@ -66733,7 +66733,7 @@
     "human_win_rate": 0.483855,
     "delta": -0.05668,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
-    "narrative": "The trend is erratic, but engine predictions are accurate, indicating a notable gap in favour of white. A 2000-rated player should avoid this opening due to its engine-favoured nature.",
+    "narrative": "The engine has a major gap over human performance, indicating a significant advantage. A 2000-rated player should avoid this opening, as it may be challenging to compete.",
     "trend_direction": "stable",
     "trend_slope_per_month": -0.0003770363820795974,
     "trend_r_squared": 0.006148456334533092,
@@ -66969,7 +66969,7 @@
     "interpretation": null,
     "narrative": "Win-rate is rising, with a notable gap in human favour. Volatility is moderate, and there's a weak sustained streak.",
     "trend_direction": "falling",
-    "trend_slope_per_month": -0.003497847695281498,
+    "trend_slope_per_month": -0.003497847695281522,
     "trend_r_squared": 0.22330550356083345,
     "trend_confidence": "medium",
     "trend_streak_months": 2,
@@ -67433,8 +67433,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate trend is falling, engine-human delta is 0.027686, indicating a significant advantage for the engine, which may suggest the opening is not well-prepared.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0007635691004126665,
-    "trend_r_squared": 0.057653396567433624,
+    "trend_slope_per_month": 0.0007635691004126468,
+    "trend_r_squared": 0.057653396567431514,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -67665,7 +67665,7 @@
     "human_win_rate": 0.497717,
     "delta": 0.042596,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "The trend has been stable, with humans outperforming the engine prediction by a minor gap. A 2000-rated player should adopt this opening, as it rewards human skill and offers a practical play advantage.",
+    "narrative": "The trend is range-bound, with humans outperforming engine predictions by a minor gap. A 2000-rated player should adopt this opening to take advantage of white's slight edge.",
     "trend_direction": "stable",
     "trend_slope_per_month": -0.00010015291768247207,
     "trend_r_squared": 0.0013872842700954902,
@@ -67922,7 +67922,7 @@
     "human_win_rate": 0.526227,
     "delta": 0.045592,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "The E73 opening has been showing signs of rising consistently, with a notable gap between human and engine performance. A 2000-rated player should consider adopting E73 to exploit this trend.",
+    "narrative": "This opening has been rising consistently, with a notable gap between human and engine performance. However, the trend is erratic, making it hard to predict. A 2000-rated player should monitor this opening to see if it continues to favour humans.",
     "trend_direction": "stable",
     "trend_slope_per_month": -0.00023257071653581422,
     "trend_r_squared": 0.0027573185429942138,
@@ -68204,8 +68204,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The E76 Sicilian Defense is rising, with a 0.009335 delta, indicating a slight improvement in engine evaluations, suggesting players should consider this opening for a potential edge.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0005087594262523433,
-    "trend_r_squared": 0.09327000355641446,
+    "trend_slope_per_month": -0.0005087594262523631,
+    "trend_r_squared": 0.09327000355641502,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -68505,7 +68505,7 @@
     "human_win_rate": 0.507035,
     "delta": 0.030767,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "This opening has been rising, with a minor gap between engine and human performance. A 2000-rated player should adopt this opening, as it shows a clear upward trend and a slight theoretical advantage.",
+    "narrative": "This opening has been rising consistently, with a high trend confidence. A minor gap exists between engine and human performance, suggesting that white's theoretical advantage is not being fully utilised. A 2000-rated player should adopt this opening for potential improvement opportunities.",
     "trend_direction": "rising",
     "trend_slope_per_month": 0.0006524847322567794,
     "trend_r_squared": 0.2723658155315998,
@@ -69038,10 +69038,10 @@
     "human_win_rate": 0.510822,
     "delta": -0.038393,
     "interpretation": "consistent with engine evaluation",
-    "narrative": "The trend is showing no clear direction, with a minor gap between human and engine performance. A 2000-rated player should avoid this opening, as it may not be a reliable choice.",
+    "narrative": "The E85 is range-bound, with a low trend confidence and no sustained streak. A minor gap exists between engine and human performance, with humans underperforming engine predictions. A 2000-rated player should avoid this opening, as it shows no clear trend and a theoretical disadvantage.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 7.631210387080463e-05,
-    "trend_r_squared": 0.0004224176962680515,
+    "trend_slope_per_month": 7.631210387080751e-05,
+    "trend_r_squared": 0.00042241769626649717,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -69362,8 +69362,8 @@
     "interpretation": null,
     "narrative": "Win-rate trend is rising, with a delta of -0.022077. This increase in engine evaluation suggests players should consider adopting this opening for better results.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0014480020992787691,
-    "trend_r_squared": 0.06346423557698799,
+    "trend_slope_per_month": -0.0014480020992787986,
+    "trend_r_squared": 0.06346423557698633,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -70057,10 +70057,10 @@
     "human_win_rate": 0.509782,
     "delta": 0.042859,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "The trend has been stable, but humans outperform the engine prediction by a minor gap. A 2000-rated player should adopt this opening, as it rewards human skill and offers a practical play advantage.",
+    "narrative": "The trend has been rising consistently, with humans outperforming engine predictions by a minor gap. This opening is a good choice for a 2000-rated player looking to exploit white's theoretical advantage.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0006184552579551874,
-    "trend_r_squared": 0.0570894148526786,
+    "trend_slope_per_month": -0.0006184552579552023,
+    "trend_r_squared": 0.05708941485267882,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -70571,7 +70571,7 @@
     "human_win_rate": 0.545879,
     "delta": 0.085172,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
-    "narrative": "The E98 has been erratically trending upward, with a major gap between engine and human performance. A 2000-rated player should adopt this opening as a high-risk, high-reward choice, but be prepared for a tough fight.",
+    "narrative": "This opening has been showing signs of rising, with a major gap between engine and human performance. A 2000-rated player should adopt this opening to take advantage of the gap.",
     "trend_direction": "stable",
     "trend_slope_per_month": 0.00023808692084439453,
     "trend_r_squared": 0.006348993576054673,

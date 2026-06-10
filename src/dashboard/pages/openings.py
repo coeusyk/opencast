@@ -11,7 +11,10 @@ def render_openings_table(
 ) -> str:
     """Render data/output/dashboard/openings.html."""
     eco_colors_js = __import__("json").dumps(ECO_COLORS)
-    group_options = "".join(f'<option value="{group}">{group}</option>' for group in sorted(ECO_COLORS))
+    group_checkboxes = "\n      ".join(
+        f'<label class="ms-item"><input type="checkbox" class="ms-cb" data-filter="group" value="{g}"> {g}</label>'
+        for g in sorted(ECO_COLORS)
+    )
 
     table_html = f"""
 <h1 class="page-title">All Openings</h1>
@@ -24,36 +27,30 @@ def render_openings_table(
            border-radius:6px;color:var(--text-primary);font-size:0.9rem;outline:none;
            font-family:'Satoshi','Inter',sans-serif;" />
 
-  <select id="group-select"
-    style="padding:0.35rem 0.6rem;background:var(--surface-raised);
-           border:1px solid rgba(255,255,255,0.12);border-radius:6px;
-           color:var(--text-primary);font-size:0.85rem;cursor:pointer;
-           font-family:'Satoshi','Inter',sans-serif;">
-    <option value="">All classes</option>
-    {group_options}
-  </select>
+  <details class="ms-dropdown" id="group-dropdown" role="group" aria-label="Filter by class">
+    <summary class="ms-summary" id="group-summary"><span class="ms-label">All classes</span></summary>
+    <div class="ms-panel" role="group">
+      {group_checkboxes}
+    </div>
+  </details>
 
-  <select id="tier-select"
-    style="padding:0.35rem 0.6rem;background:var(--surface-raised);
-           border:1px solid rgba(255,255,255,0.12);border-radius:6px;
-           color:var(--text-primary);font-size:0.85rem;cursor:pointer;
-           font-family:'Satoshi','Inter',sans-serif;">
-    <option value="">All tiers</option>
-    <option value="1">Tier 1</option>
-    <option value="2">Tier 2</option>
-    <option value="3">Tier 3</option>
-  </select>
+  <details class="ms-dropdown" id="tier-dropdown" role="group" aria-label="Filter by tier">
+    <summary class="ms-summary" id="tier-summary"><span class="ms-label">All tiers</span></summary>
+    <div class="ms-panel" role="group">
+      <label class="ms-item"><input type="checkbox" class="ms-cb" data-filter="tier" value="1"> Tier 1</label>
+      <label class="ms-item"><input type="checkbox" class="ms-cb" data-filter="tier" value="2"> Tier 2</label>
+      <label class="ms-item"><input type="checkbox" class="ms-cb" data-filter="tier" value="3"> Tier 3</label>
+    </div>
+  </details>
 
-  <select id="quality-select"
-    style="padding:0.35rem 0.6rem;background:var(--surface-raised);
-           border:1px solid rgba(255,255,255,0.12);border-radius:6px;
-           color:var(--text-primary);font-size:0.85rem;cursor:pointer;
-           font-family:'Satoshi','Inter',sans-serif;">
-    <option value="">All confidence</option>
-    <option value="high">High</option>
-    <option value="medium">Medium</option>
-    <option value="low">Low</option>
-  </select>
+  <details class="ms-dropdown" id="quality-dropdown" role="group" aria-label="Filter by confidence">
+    <summary class="ms-summary" id="quality-summary"><span class="ms-label">All confidence</span></summary>
+    <div class="ms-panel" role="group">
+      <label class="ms-item"><input type="checkbox" class="ms-cb" data-filter="quality" value="high"> High</label>
+      <label class="ms-item"><input type="checkbox" class="ms-cb" data-filter="quality" value="medium"> Medium</label>
+      <label class="ms-item"><input type="checkbox" class="ms-cb" data-filter="quality" value="low"> Low</label>
+    </div>
+  </details>
 
   <span id="row-count" style="color:{TEXT_SECONDARY};font-size:0.85rem;margin-left:auto;white-space:nowrap;"></span>
 </div>
@@ -66,7 +63,8 @@ def render_openings_table(
   </div>
 </div>
 
-<div class="table-scroll-wrap" style="overflow-x:auto;">
+<div class="table-scroll-outer">
+<div class="table-scroll-wrap" style="overflow-x:auto;-webkit-overflow-scrolling:touch;">
 <table id="openings-table" class="data-table" style="width:100%;min-width:880px;border-collapse:collapse;">
   <thead>
     <tr>
@@ -83,6 +81,7 @@ def render_openings_table(
   <tbody id="openings-tbody"></tbody>
 </table>
 </div>
+</div>
 <p id="empty-state" style="display:none;color:{TEXT_SECONDARY};text-align:center;padding:2rem;">
   No openings match the current filters.
 </p>
@@ -91,7 +90,16 @@ def render_openings_table(
 #openings-table tbody tr:hover {{ background: rgba(255,255,255,0.04); cursor:pointer; }}
 #openings-table th {{ user-select:none; }}
 .sort-icon {{ font-size:0.75rem; opacity:0.5; }}
-.table-scroll-wrap {{ -webkit-overflow-scrolling: touch; }}
+.table-scroll-outer {{ position:relative; }}
+.table-scroll-outer::after {{
+  content:'';
+  position:absolute;
+  top:0; right:0; bottom:0;
+  width:3rem;
+  background:linear-gradient(to right, transparent, rgba(11,13,16,0.85));
+  pointer-events:none;
+  border-radius:0 4px 4px 0;
+}}
 .tier-badge {{ display:inline-block;padding:0.15em 0.55em;border-radius:4px;font-size:0.75rem;font-weight:600;letter-spacing:0.04em; }}
 .tier-badge-1 {{ background:rgba(74,158,255,0.18);color:#4a9eff; }}
 .tier-badge-2 {{ background:rgba(169,117,255,0.18);color:#a975ff; }}
@@ -100,6 +108,87 @@ def render_openings_table(
 .quality-badge-high {{ background:rgba(123,228,149,0.18);color:#7BE495; }}
 .quality-badge-medium {{ background:rgba(246,193,119,0.18);color:#F6C177; }}
 .quality-badge-low {{ background:rgba(242,141,166,0.18);color:#F28DA6; }}
+/* Multi-select dropdowns */
+.ms-dropdown {{
+  position:relative;
+}}
+.ms-summary {{
+  list-style:none;
+  padding:0.35rem 2rem 0.35rem 0.6rem;
+  background:var(--surface-raised);
+  border:1px solid rgba(255,255,255,0.12);
+  border-radius:6px;
+  color:var(--text-primary);
+  font-size:0.85rem;
+  cursor:pointer;
+  font-family:'Satoshi','Inter',sans-serif;
+  white-space:nowrap;
+  user-select:none;
+  position:relative;
+}}
+.ms-summary::-webkit-details-marker {{ display:none; }}
+.ms-summary::after {{
+  content:"▾";
+  position:absolute;
+  right:0.55rem;
+  top:50%;
+  transform:translateY(-50%);
+  font-size:0.75rem;
+  opacity:0.6;
+}}
+.ms-dropdown[open] .ms-summary::after {{ content:"▴"; }}
+.ms-panel {{
+  position:absolute;
+  top:calc(100% + 4px);
+  left:0;
+  min-width:140px;
+  background:rgba(18,20,24,0.98);
+  border:1px solid rgba(255,255,255,0.14);
+  border-radius:8px;
+  padding:0.45rem;
+  z-index:200;
+  display:flex;
+  flex-direction:column;
+  gap:0.1rem;
+}}
+.ms-item {{
+  display:flex;
+  align-items:center;
+  gap:0.55rem;
+  padding:0.5rem 0.6rem;
+  border-radius:5px;
+  font-size:0.85rem;
+  cursor:pointer;
+  color:var(--text-primary);
+  white-space:nowrap;
+}}
+.ms-item:hover {{ background:rgba(255,255,255,0.06); }}
+.ms-cb {{
+  appearance:none;
+  -webkit-appearance:none;
+  width:1rem;
+  height:1rem;
+  border:1.5px solid rgba(255,255,255,0.3);
+  border-radius:3px;
+  background:transparent;
+  cursor:pointer;
+  flex-shrink:0;
+  position:relative;
+}}
+.ms-cb:checked {{
+  background:{ACCENT};
+  border-color:{ACCENT};
+}}
+.ms-cb:checked::after {{
+  content:"✓";
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  font-size:0.65rem;
+  color:#0B0D10;
+  font-weight:700;
+}}
 @media (max-width: 900px) {{
   .table-controls {{
     display: grid !important;
@@ -116,6 +205,8 @@ def render_openings_table(
     grid-column: 1 / -1;
     margin-left: 0 !important;
   }}
+  .ms-summary {{ width: 100%; box-sizing: border-box; }}
+  .ms-panel {{ min-width: 100%; }}
 }}
 @media (max-width: 560px) {{
   .table-controls {{
@@ -130,6 +221,7 @@ def render_openings_table(
   const TEXT_SECONDARY = "{TEXT_SECONDARY}";
   const TEXT_PRIMARY   = "{TEXT_PRIMARY}";
   const ACCENT         = "{ACCENT}";
+  const QUALITY_ORDER  = {{ "high": 3, "medium": 2, "low": 1 }};
 
   let openingsData = {{}};
   try {{
@@ -157,16 +249,17 @@ def render_openings_table(
     }};
   }});
   const total = allRows.length;
-  const state = {{ q: "", group: "", tier: "", quality: "", sortCol: "eco", asc: true }};
+  const state = {{ q: "", groups: [], tiers: [], qualities: [], sortCol: "eco", asc: true }};
+
   function readHash() {{
     const h = window.location.hash.slice(1);
     if (!h) return;
     try {{
       const p = new URLSearchParams(h);
       if (p.has("q")) state.q = p.get("q");
-      if (p.has("group")) state.group = p.get("group");
-      if (p.has("tier")) state.tier = p.get("tier");
-      if (p.has("quality")) state.quality = p.get("quality");
+      if (p.has("groups")) state.groups = p.get("groups").split(",").filter(Boolean);
+      if (p.has("tiers")) state.tiers = p.get("tiers").split(",").filter(Boolean);
+      if (p.has("qualities")) state.qualities = p.get("qualities").split(",").filter(Boolean);
       if (p.has("sort")) state.sortCol = p.get("sort");
       if (p.has("asc")) state.asc = p.get("asc") !== "0";
     }} catch (_) {{}}
@@ -174,42 +267,85 @@ def render_openings_table(
   function writeHash() {{
     const p = new URLSearchParams();
     if (state.q) p.set("q", state.q);
-    if (state.group) p.set("group", state.group);
-    if (state.tier) p.set("tier", state.tier);
-    if (state.quality) p.set("quality", state.quality);
+    if (state.groups.length) p.set("groups", state.groups.join(","));
+    if (state.tiers.length) p.set("tiers", state.tiers.join(","));
+    if (state.qualities.length) p.set("qualities", state.qualities.join(","));
     p.set("sort", state.sortCol);
     p.set("asc", state.asc ? "1" : "0");
     history.replaceState(null, "", "#" + p.toString());
   }}
   readHash();
+
+  /* --- Multi-select dropdown helpers --- */
+  function syncCheckboxes(filterKey, values) {{
+    document.querySelectorAll(`.ms-cb[data-filter="${{filterKey}}"]`).forEach(cb => {{
+      cb.checked = values.includes(cb.value);
+    }});
+  }}
+  function updateSummaryLabel(detailsId, summaryId, defaultLabel, values) {{
+    const el = document.querySelector(`#${{detailsId}} .ms-label`);
+    if (!el) return;
+    el.textContent = values.length === 0 ? defaultLabel : values.join(", ");
+  }}
+  function initDropdown(detailsId, filterKey, stateKey, defaultLabel) {{
+    const details = document.getElementById(detailsId);
+    if (!details) return;
+    /* Close on Escape */
+    details.addEventListener("keydown", e => {{
+      if (e.key === "Escape") {{ details.removeAttribute("open"); }}
+    }});
+    /* Close on outside click */
+    document.addEventListener("click", e => {{
+      if (!details.contains(e.target)) details.removeAttribute("open");
+    }}, {{ capture: true }});
+    /* Checkbox change */
+    details.querySelectorAll(`.ms-cb`).forEach(cb => {{
+      cb.addEventListener("change", () => {{
+        const checked = [...details.querySelectorAll(".ms-cb:checked")].map(c => c.value);
+        state[stateKey] = checked;
+        updateSummaryLabel(detailsId, null, defaultLabel, checked);
+        applyFilters();
+      }});
+    }});
+    /* Sync initial state */
+    syncCheckboxes(filterKey, state[stateKey]);
+    updateSummaryLabel(detailsId, null, defaultLabel, state[stateKey]);
+  }}
+
   const searchBox = document.getElementById("search-box");
-  const groupSelect = document.getElementById("group-select");
-  const tierSelect = document.getElementById("tier-select");
-  const qualitySelect = document.getElementById("quality-select");
   const tbody = document.getElementById("openings-tbody");
   const rowCount = document.getElementById("row-count");
   const emptyState = document.getElementById("empty-state");
   const sortHeaders = document.querySelectorAll(".sortable");
   searchBox.value = state.q;
-  groupSelect.value = state.group;
-  tierSelect.value = state.tier;
-  qualitySelect.value = state.quality;
+
+  initDropdown("group-dropdown", "group", "groups", "All classes");
+  initDropdown("tier-dropdown", "tier", "tiers", "All tiers");
+  initDropdown("quality-dropdown", "quality", "qualities", "All confidence");
+
   function applyFilters() {{
     const q = state.q.toLowerCase();
     let visible = allRows.filter((r) => {{
-      if (state.group && r.group !== state.group) return false;
-      if (state.tier && String(r.tier) !== state.tier) return false;
-      if (state.quality && String(r.quality || "") !== state.quality) return false;
+      if (state.groups.length && !state.groups.includes(r.group)) return false;
+      if (state.tiers.length && !state.tiers.includes(String(r.tier))) return false;
+      if (state.qualities.length && !state.qualities.includes(r.quality)) return false;
       if (q && !r.eco.toLowerCase().includes(q) && !r.name.toLowerCase().includes(q)) return false;
       return true;
     }});
     visible.sort((a, b) => {{
-      let av = a[state.sortCol], bv = b[state.sortCol];
-      if (av == null && bv == null) return 0;
-      if (av == null) return 1;
-      if (bv == null) return -1;
-      if (typeof av === "string") av = av.toLowerCase();
-      if (typeof bv === "string") bv = bv.toLowerCase();
+      let av, bv;
+      if (state.sortCol === "quality") {{
+        av = QUALITY_ORDER[a.quality] || 0;
+        bv = QUALITY_ORDER[b.quality] || 0;
+      }} else {{
+        av = a[state.sortCol];
+        bv = b[state.sortCol];
+        if (av == null && bv == null) return 0;
+        if (av == null) return 1;
+        if (bv == null) return -1;
+        if (typeof av === "string") av = av.toLowerCase();
+        if (typeof bv === "string") bv = bv.toLowerCase();
+      }}
       if (av < bv) return state.asc ? -1 : 1;
       if (av > bv) return state.asc ? 1 : -1;
       return 0;
@@ -274,9 +410,6 @@ def render_openings_table(
     clearTimeout(debounceTimer);
     debounceTimer = setTimeout(() => {{ state.q = searchBox.value.trim(); applyFilters(); }}, 200);
   }});
-  groupSelect.addEventListener('change', () => {{ state.group = groupSelect.value; applyFilters(); }});
-  tierSelect.addEventListener('change', () => {{ state.tier = tierSelect.value; applyFilters(); }});
-  qualitySelect.addEventListener('change', () => {{ state.quality = qualitySelect.value; applyFilters(); }});
   sortHeaders.forEach((th) => {{
     th.addEventListener('click', () => {{
       const col = th.getAttribute('data-col');

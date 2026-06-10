@@ -31,7 +31,7 @@ def _require_columns(df: pd.DataFrame, required: set[str], source: str) -> None:
         raise ValueError(f"{source} missing required columns: {sorted(missing)}")
 
 
-def _get_fen_from_uci_moves(uci_moves: str, min_moves: int = 4) -> str:
+def _get_fen_from_uci_moves(uci_moves: str) -> str:
     """Replay UCI moves and return the resulting FEN.
 
     Accept any non-empty move sequence from the catalog so short opening definitions

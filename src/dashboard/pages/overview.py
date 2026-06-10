@@ -195,15 +195,16 @@ def render_overview(
 
     fig1 = _build_panel1_figure(forecasts, engine_df)
     fig1.update_layout(height=400, margin=dict(l=40, r=20, t=50, b=90))
-    fig1_html = fig1.to_html(full_html=False, include_plotlyjs="cdn")
+    _plotly_cfg = {"scrollZoom": False, "displayModeBar": False}
+    fig1_html = fig1.to_html(full_html=False, include_plotlyjs="cdn", config=_plotly_cfg)
 
     fig2 = _build_panel2_figure(engine_df)
     fig2.update_layout(height=400, margin=dict(l=40, r=20, t=50, b=90))
-    fig2_html = fig2.to_html(full_html=False, include_plotlyjs=False)
+    fig2_html = fig2.to_html(full_html=False, include_plotlyjs=False, config=_plotly_cfg)
 
     fig3 = _build_panel3_figure(engine_df)
     fig3.update_layout(height=400, margin=dict(l=40, r=20, t=50, b=50))
-    fig3_html = fig3.to_html(full_html=False, include_plotlyjs=False)
+    fig3_html = fig3.to_html(full_html=False, include_plotlyjs=False, config=_plotly_cfg)
 
     overview_css = """<style>
 :root {
@@ -285,6 +286,11 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
   flex-wrap: wrap;
   gap: 0.45rem;
   margin: -1rem 0 2rem;
+}
+.signal-row-break {
+  width: 100%;
+  height: 0;
+  flex-basis: 100%;
 }
 .signal-chip {
   display: inline-flex;
@@ -473,6 +479,7 @@ body { font-family: 'Satoshi', 'Inter', sans-serif !important; }
         f'<span class="signal-chip rise">↑ {_esc(trend_counts["rising"])} rising</span>'
         f'<span class="signal-chip fall">↓ {_esc(trend_counts["falling"])} falling</span>'
         f'<span class="signal-chip flat">→ {_esc(trend_counts["stable"])} stable</span>'
+        '<span class="signal-row-break"></span>'
         f'<span class="signal-chip rise">+5pp outperformance: {_esc(overperformers)}</span>'
         f'<span class="signal-chip fall">-5pp underperformance: {_esc(underperformers)}</span>'
         '</div>'

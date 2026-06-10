@@ -33,6 +33,7 @@ def _page_shell(title: str, nav_fragment: str, body: str, head_extras: str = "")
 /* Site nav */
 .site-nav {
   position: sticky; top: 0; z-index: 100;
+  width: 100%; max-width: none; box-sizing: border-box;
   background: rgba(11,13,16,0.92);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -69,20 +70,22 @@ def _page_shell(title: str, nav_fragment: str, body: str, head_extras: str = "")
 .nav-links { display: flex; gap: 1.5rem; align-items: center; }
 .nav-toggle {
   display: none;
-  width: 2.5rem;
-  height: 2.5rem;
-  border: 1px solid rgba(255,255,255,0.14);
-  border-radius: 6px;
-  background: rgba(255,255,255,0.02);
+  width: 2.25rem;
+  height: 2.25rem;
+  border: none;
+  background: none;
   color: var(--text-primary);
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 0.25rem;
+  gap: 0.28rem;
+  border-radius: 4px;
+  transition: color 150ms;
 }
+.nav-toggle:hover { color: var(--text-secondary); }
 .nav-toggle-bar {
   display: block;
-  width: 1rem;
+  width: 1.1rem;
   height: 2px;
   border-radius: 999px;
   background: currentColor;
@@ -95,10 +98,11 @@ def _page_shell(title: str, nav_fragment: str, body: str, head_extras: str = "")
 }
 .nav-link:hover, .nav-link.active { color: var(--text-primary); }
 body { font-family: 'Satoshi', 'Inter', sans-serif; }
+.plotly-graph-div { touch-action: pan-y; }
 
 @media (max-width: 760px) {
   .nav-inner {
-    padding: 0 0.75rem;
+    padding: 0 1rem;
   }
   .nav-toggle {
     display: inline-flex;

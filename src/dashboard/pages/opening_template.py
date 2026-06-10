@@ -42,6 +42,7 @@ def render_opening_template() -> str:
 <div id="breaks-box" class="engine-box" style="display:none;margin-bottom:1.5rem;"></div>
 <div id="lines-box" class="engine-box" style="display:none;"></div>
 <div id="engine-box" class="engine-box" style="display:none;"></div>
+<div class="mobile-back-bar" role="navigation"><a href="openings.html" id="mobile-back-link" class="mobile-back-btn">&larr; All openings</a></div>
 """
     tier_css = f"""<style>
   .tier-badge {{display:inline-block;padding:0.15em 0.55em;border-radius:4px;font-size:0.75rem;font-weight:600;letter-spacing:0.04em;}}
@@ -76,23 +77,22 @@ def render_opening_template() -> str:
   .historical-value {{ margin:0; font-size:1rem; font-weight:700; color:{TEXT_PRIMARY}; }}
   .opening-board-layout {{
     display:grid;
-    grid-template-columns:minmax(280px, 360px) 1fr;
+    grid-template-columns:min(360px, 100%) 1fr;
     gap:1rem;
     align-items:start;
   }}
   .opening-board-frame {{
     display:grid;
-    grid-template-columns:1rem minmax(280px, 360px);
-    grid-template-rows:minmax(280px, 360px) 1rem;
-    column-gap:0.45rem;
-    row-gap:0.4rem;
-    align-items:stretch;
+    grid-template-columns:1rem 1fr;
+    grid-template-rows:1fr 1rem;
+    column-gap:0.35rem;
+    row-gap:0.3rem;
+    width:100%;
   }}
   .opening-board {{
     grid-column:2;
     grid-row:1;
     width:100%;
-    min-width:280px;
     aspect-ratio:1 / 1;
     border-radius:8px;
     overflow:hidden;
@@ -108,7 +108,7 @@ def render_opening_template() -> str:
     align-items:center;
     justify-items:center;
     color:{TEXT_SECONDARY};
-    font-size:0.72rem;
+    font-size:clamp(0.55rem, 2vw, 0.72rem);
     font-weight:600;
     user-select:none;
   }}
@@ -120,26 +120,29 @@ def render_opening_template() -> str:
     align-items:center;
     justify-items:center;
     color:{TEXT_SECONDARY};
-    font-size:0.72rem;
+    font-size:clamp(0.55rem, 2vw, 0.72rem);
     font-weight:600;
     user-select:none;
     text-transform:lowercase;
   }}
   .board-coord {{ line-height:1; }}
-  .opening-line-panel {{ display:flex; flex-direction:column; gap:0.7rem; min-width:0; }}
+  .opening-line-panel {{ display:flex; flex-direction:column; gap:0.7rem; min-width:0; width:100%; }}
   .opening-move-list {{
     background:rgba(255,255,255,0.03);
     border:1px solid rgba(255,255,255,0.10);
     border-radius:8px;
     padding:0.65rem 0.75rem;
     min-width:0;
+    width:100%;
+    box-sizing:border-box;
     max-height:280px;
-    overflow:auto;
+    overflow-y:auto;
+    overflow-x:hidden;
   }}
-  .move-row {{ display:grid; grid-template-columns:2.1rem minmax(2.2rem, auto) minmax(2.2rem, auto); column-gap:0.65rem; align-items:center; margin-bottom:0.32rem; font-size:0.82rem; }}
+  .move-row {{ display:grid; grid-template-columns:2rem 1fr 1fr; column-gap:0.5rem; align-items:center; margin-bottom:0.32rem; font-size:0.82rem; min-width:0; }}
   .move-row:last-child {{ margin-bottom:0; }}
   .move-number {{ color:{TEXT_SECONDARY}; font-size:0.76rem; }}
-  .move-token {{ color:{TEXT_SECONDARY}; padding:0.06rem 0.24rem; border-radius:4px; line-height:1.2; }}
+  .move-token {{ color:{TEXT_SECONDARY}; padding:0.06rem 0.24rem; border-radius:4px; line-height:1.2; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }}
   .move-token.played {{ color:{TEXT_PRIMARY}; }}
   .move-token.active {{ background:rgba(87,199,255,0.18); color:{TEXT_PRIMARY}; }}
   .opening-board-controls {{ display:flex; gap:0.5rem; flex-wrap:wrap; }}
@@ -168,11 +171,31 @@ def render_opening_template() -> str:
   .engine-card {{ background:rgba(255,255,255,0.04); border-radius:8px; padding:0.75rem 1rem; }}
   @media (max-width: 860px) {{
     .opening-board-layout {{ grid-template-columns:1fr; }}
-    .opening-board-frame {{ grid-template-columns:1rem minmax(280px, 420px); grid-template-rows:minmax(280px, 420px) 1rem; }}
-    .opening-board {{ max-width:420px; }}
+    .opening-board-frame {{ width:min(100%, 420px); margin-inline:auto; }}
     .historical-grid {{ grid-template-columns:repeat(2, minmax(0, 1fr)); }}
     .engine-cards {{ grid-template-columns:1fr; gap:0.6rem; }}
-    .opening-move-list {{ max-height:none; overflow-x:auto; overflow-y:visible; }}
+    .opening-move-list {{ max-height:none; overflow:visible; }}
+  }}
+  @media (max-width: 480px) {{
+    .opening-board-frame {{ width:min(100%, calc(100vw - 2rem - 2px)); }}
+  }}
+  .mobile-back-bar {{
+    display:none;
+    position:fixed;
+    bottom:0; left:0; right:0;
+    background:var(--surface);
+    border-top:1px solid var(--border);
+    padding:0.75rem 1rem;
+    z-index:100;
+  }}
+  .mobile-back-btn {{
+    color:var(--text-primary);
+    text-decoration:none;
+    font-size:0.9rem;
+  }}
+  @media (max-width: 768px) {{
+    .mobile-back-bar {{ display:block; }}
+    body {{ padding-bottom: 3.5rem; }}
   }}
 </style>"""
     theme_script = f"""<script>
