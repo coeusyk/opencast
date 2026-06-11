@@ -2,11 +2,11 @@
 
 OpenCast is a data pipeline that fetches monthly win-rate snapshots from the Lichess Opening Explorer API, builds per-opening time series, forecasts future win rates, and computes an engine-human delta score - the gap between Stockfish expectation and observed human results at 2000-rated blitz. Unlike a simple leaderboard, OpenCast highlights where humans systematically diverge from engine expectation and whether those gaps are widening or narrowing.
 
-![GitHub Pages](https://img.shields.io/github/deployments/coeusyk/opencast/github-pages?label=pages&style=flat-square)
+[![Pages](https://img.shields.io/badge/pages-live-brightgreen?style=flat-square&logo=github)](https://coeusyk.github.io/opencast/)
 ![Last Update](https://img.shields.io/github/last-commit/coeusyk/opencast/main?label=last+update&style=flat-square)
 ![Python](https://img.shields.io/badge/python-3.11%2B-blue?style=flat-square&logo=python&logoColor=white)
 ![Rust](https://img.shields.io/badge/rust-1.75%2B-orange?style=flat-square&logo=rust&logoColor=white)
-![License](https://img.shields.io/github/license/coeusyk/opencast?style=flat-square)
+![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
 
 ---
 
