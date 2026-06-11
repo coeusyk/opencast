@@ -7,6 +7,8 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+from .month_window import earliest_tracked_month, latest_complete_month
+
 _HERE = os.path.dirname(__file__)
 RAW_DIR = os.path.join(_HERE, "..", "data", "raw")
 PROCESSED_DIR = os.path.join(_HERE, "..", "data", "processed")
@@ -106,6 +108,7 @@ def ingest() -> pd.DataFrame:
     min_games = _load_min_games()
     os.makedirs(PROCESSED_DIR, exist_ok=True)
 
+    month_floor = earliest_tracked_month(latest_complete_month())
     rows = []
     for fpath in sorted(Path(RAW_DIR).rglob("*.json")):
         try:
@@ -125,6 +128,8 @@ def ingest() -> pd.DataFrame:
             continue
 
         for month, data in sorted(months.items()):
+            if str(month)[:7] < month_floor:
+                continue
             if not isinstance(data, dict):
                 log.warning("Skipping malformed month payload for %s %s", eco, month)
                 continue

@@ -20,7 +20,8 @@ with open(_CONFIG_PATH) as _f:
     _cfg = json.load(_f)
 
 MIN_GAMES_CORE     = int(_cfg.get("min_monthly_games_tier1", 1000))
-MIN_MONTHS_CORE    = 24
+MIN_MONTHS_CORE    = int(_cfg.get("min_months_data", 24))
+MIN_MONTHS_SPARSE  = int(_cfg.get("min_months_sparse", 12))
 MIN_GAMES_LONGTAIL = 100
 MIN_GAMES_TIER2    = int(_cfg.get("min_monthly_games", 400))
 
@@ -84,7 +85,7 @@ def _compute_data_status(stats_indexed: pd.DataFrame, catalog: pd.DataFrame) -> 
 
     missing — ECO is in the catalog but has no rows in openings_ts.csv
                (i.e. no raw data file was ever ingested).
-    sparse  — ECO has some data but fewer than 12 months, which is too thin
+    sparse  — ECO has some data but fewer than min_months_sparse months
                for any meaningful modelling or descriptive stats.
     ok      — ECO has enough data for Tier-1/2/3 processing.
     """
@@ -92,7 +93,7 @@ def _compute_data_status(stats_indexed: pd.DataFrame, catalog: pd.DataFrame) -> 
     for eco in catalog["eco"]:
         if eco not in stats_indexed.index:
             result[eco] = "missing"
-        elif stats_indexed.at[eco, "months_with_data"] < 12:  # type: ignore[operator]
+        elif stats_indexed.at[eco, "months_with_data"] < MIN_MONTHS_SPARSE:  # type: ignore[operator]
             result[eco] = "sparse"
         else:
             result[eco] = "ok"
@@ -146,7 +147,10 @@ def run_select_openings() -> pd.DataFrame:
         # For newly discovered ECOs we don't have a name or moves — leave blank
         # for a human to fill in; flags are computed from data.
         months = int(stat_row.get("months_with_data", 0))
-        new_data_status = "ok" if months >= 12 else ("sparse" if months > 0 else "missing")
+        new_data_status = (
+            "ok" if months >= MIN_MONTHS_SPARSE
+            else ("sparse" if months > 0 else "missing")
+        )
         new_rows.append({
             "eco":             eco,
             "name":            "",

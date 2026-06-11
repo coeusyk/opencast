@@ -4,6 +4,8 @@ from pathlib import Path
 
 import pandas as pd
 
+from .month_window import earliest_tracked_month, latest_complete_month, filter_dataframe_to_tracked_window
+
 _HERE = Path(__file__).resolve().parent
 RAW_DIR = _HERE.parent / "data" / "raw"
 OUTPUT_CSV = _HERE.parent / "data" / "output" / "move_stats.csv"
@@ -26,6 +28,7 @@ def run_move_stats(raw_dir: Path = RAW_DIR, output_csv: Path = OUTPUT_CSV) -> pd
     eco, month, uci, san, games, white_win_rate, share_of_games,
     delta_share_12m, delta_wr_12m
     """
+    month_floor = earliest_tracked_month(latest_complete_month())
     rows: list[dict] = []
 
     for fpath in sorted(raw_dir.rglob("*.json")):
@@ -42,6 +45,8 @@ def run_move_stats(raw_dir: Path = RAW_DIR, output_csv: Path = OUTPUT_CSV) -> pd
             continue
 
         for month, payload in sorted(months.items()):
+            if str(month)[:7] < month_floor:
+                continue
             if not isinstance(payload, dict):
                 log.warning("Skipping malformed move payload for %s %s", eco, month)
                 continue
@@ -115,19 +120,22 @@ def run_move_stats(raw_dir: Path = RAW_DIR, output_csv: Path = OUTPUT_CSV) -> pd
     df["delta_share_12m"] = df["share_of_games"] - grp["share_of_games"].shift(12)
     df["delta_wr_12m"] = df["white_win_rate"] - grp["white_win_rate"].shift(12)
 
-    out = df[
-        [
-            "eco",
-            "month",
-            "uci",
-            "san",
-            "games",
-            "white_win_rate",
-            "share_of_games",
-            "delta_share_12m",
-            "delta_wr_12m",
-        ]
-    ].copy()
+    out = filter_dataframe_to_tracked_window(
+        df[
+            [
+                "eco",
+                "month",
+                "uci",
+                "san",
+                "games",
+                "white_win_rate",
+                "share_of_games",
+                "delta_share_12m",
+                "delta_wr_12m",
+            ]
+        ].copy(),
+        "month",
+    )
     out.to_csv(output_csv, index=False)
     print(f"Move stats written -> {output_csv}  ({len(out)} rows)")
     return out

@@ -12,10 +12,8 @@ from ..charts import (
     _build_regime_scatter_figure,
     _flatten_regime_points,
 )
+from ..data_access import _config_float, _config_int
 from ..shell import _nav_html, _page_shell
-
-_REGIME_MIN_ENGINE_CP = 10
-_REGIME_MIN_POINTS = 5
 
 FAMILY_COLORS: dict[str, str] = {
     "A": "#7B9FFF",
@@ -31,6 +29,7 @@ FAMILY_COLORS: dict[str, str] = {
 # ---------------------------------------------------------------------------
 _ENGINE_JS = r"""
 const FAM_COLORS = {A:"#7B9FFF",B:"#4DA3A6",C:"#E6A84A",D:"#E07BA0",E:"#A78BFA"};
+const DIVERGENCE_TABLE_ROWS = __DIVERGENCE_ROWS__;
 
 // ── Bootstrap ───────────────────────────────────────────────────────────────
 (async () => {
@@ -65,9 +64,8 @@ function buildDeltaChart(tier1) {
     return;
   }
 
-  // Top 12 positive (human > engine), then top 12 negative (engine > human)
-  const pos    = tier1.filter(d => d.delta > 0).sort((a,b) => b.delta - a.delta).slice(0, 12);
-  const neg    = tier1.filter(d => d.delta <= 0).sort((a,b) => a.delta - b.delta).slice(0, 12);
+  const pos    = tier1.filter(d => d.delta > 0).sort((a,b) => b.delta - a.delta).slice(0, DIVERGENCE_TABLE_ROWS);
+  const neg    = tier1.filter(d => d.delta <= 0).sort((a,b) => a.delta - b.delta).slice(0, DIVERGENCE_TABLE_ROWS);
   const subset = [...pos, ...neg];
   const maxAbs = Math.max(...subset.map(d => Math.abs(d.delta)));
   const lastPosIdx = pos.length - 1;
@@ -115,7 +113,7 @@ function buildDivergenceTables(openings) {
   function makeTable(rows, side) {
     const sorted = [...rows]
       .sort((a, b) => side === "pos" ? b.delta - a.delta : a.delta - b.delta)
-      .slice(0, 20);
+      .slice(0, DIVERGENCE_TABLE_ROWS);
     const trs = sorted.map(d => {
       const fColor = FAM_COLORS[d.eco[0]] || "#8b8b8f";
       const dColor = d.delta > 0 ? "#7BE495" : "#F28DA6";
@@ -159,7 +157,7 @@ _ENGINE_CSS = """<style>
 /* Header */
 .engine-header   { margin-bottom: 1.5rem; }
 .engine-title    { font-family: var(--font-brand); font-size: 1.8rem; font-weight: 700; letter-spacing: -0.02em; margin: 0 0 0.45rem; }
-.engine-subtitle { margin: 0; color: var(--text-secondary); font-size: 0.875rem; line-height: 1.55; max-width: 52rem; }
+.engine-subtitle { margin: 0; color: var(--text-secondary); font-size: 1.0625rem; line-height: 1.65; max-width: 52rem; }
 
 /* Metrics row */
 .engine-metrics {
@@ -325,15 +323,20 @@ def render_engine(openings_data: dict) -> str:
         f"opening book construction and engine tuning."
     )
 
+    divergence_rows = _config_int("dashboard_divergence_table_rows", 12)
+    engine_js = _ENGINE_JS.replace("__DIVERGENCE_ROWS__", str(divergence_rows))
+
+    regime_min_cp = _config_float("dashboard_regime_min_engine_cp", 10)
+    regime_min_points = _config_int("dashboard_regime_min_points", 5)
     regime_points = _flatten_regime_points(
-        openings_data, min_engine_cp=_REGIME_MIN_ENGINE_CP,
+        openings_data, min_engine_cp=regime_min_cp,
     )
-    show_regime_chart = len(regime_points) >= _REGIME_MIN_POINTS
+    show_regime_chart = len(regime_points) >= regime_min_points
     if show_regime_chart:
         regime_fig = _build_regime_scatter_figure(
             openings_data,
-            min_engine_cp=_REGIME_MIN_ENGINE_CP,
-            min_points=_REGIME_MIN_POINTS,
+            min_engine_cp=regime_min_cp,
+            min_points=regime_min_points,
         )
         regime_mount_html = regime_fig.to_html(
             full_html=False,
@@ -369,7 +372,7 @@ def render_engine(openings_data: dict) -> str:
     <p class="engine-section-subtitle">
       Delta = human win rate − Stockfish win probability (depth 20).
       Positive = humans outperform engine prediction.
-      Top 12 per side by absolute delta. Tier-1 openings only.
+      Top {divergence_rows} per side by absolute delta. Tier-1 openings only.
     </p>
     <div class="engine-section-box">
       <div class="delta-legend">
@@ -397,7 +400,7 @@ def render_engine(openings_data: dict) -> str:
       <div class="divergence-card">
         <div class="divergence-card-header">
           <span class="divergence-card-title">Human Outperforms Engine</span>
-          <span class="divergence-card-badge">Top 20</span>
+          <span class="divergence-card-badge">Top {divergence_rows}</span>
         </div>
         <div id="table-human-wins" class="divergence-card-body scroll-subtle">
           <p style="padding:1rem;color:var(--text-faint);font-size:0.8rem">Loading…</p>
@@ -406,7 +409,7 @@ def render_engine(openings_data: dict) -> str:
       <div class="divergence-card">
         <div class="divergence-card-header">
           <span class="divergence-card-title">Engine Outperforms Human</span>
-          <span class="divergence-card-badge">Top 20</span>
+          <span class="divergence-card-badge">Top {divergence_rows}</span>
         </div>
         <div id="table-engine-wins" class="divergence-card-body scroll-subtle">
           <p style="padding:1rem;color:var(--text-faint);font-size:0.8rem">Loading…</p>
@@ -436,5 +439,5 @@ def render_engine(openings_data: dict) -> str:
         _nav_html("engine.html"),
         body,
         head_extras=_ENGINE_CSS,
-        body_extras=f'<script>{_ENGINE_JS}</script>',
+        body_extras=f'<script>{engine_js}</script>',
     )

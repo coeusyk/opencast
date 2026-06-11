@@ -29,8 +29,9 @@ ENGINE_CSV     = "data/output/engine_delta.csv"
 DASHBOARD_HTML = "data/output/dashboard/index.html"
 FINDINGS_MD    = "FINDINGS.md"
 
-with open("config.json") as _f:
-    FETCH_START: str = json.load(_f)["fetch_start"]
+from src.month_window import effective_fetch_start
+
+FETCH_START: str = effective_fetch_start()
 
 
 def _load_env() -> None:
