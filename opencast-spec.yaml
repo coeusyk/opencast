@@ -68,6 +68,10 @@ components:
           items:
             $ref: '#/components/schemas/ActualPoint'
           description: Monthly observed win-rate data points, sorted ascending.
+        latest_tracked_month:
+          type: string
+          nullable: true
+          description: Most recent month with observed win-rate data (YYYY-MM), from actuals.
         forecast:
           type: array
           items:

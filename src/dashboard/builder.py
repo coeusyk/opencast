@@ -5,6 +5,7 @@ from pathlib import Path
 
 import pandas as pd
 
+from ..month_window import filter_dataframe_to_tracked_window
 from .data_access import (
     ASSETS_DIR,
     CATALOG_CSV,
@@ -41,6 +42,7 @@ def run_visualizer() -> None:
         long_tail_df = pd.DataFrame()
     try:
         move_stats_df = pd.read_csv(MOVE_STATS_CSV) if os.path.exists(MOVE_STATS_CSV) else pd.DataFrame()
+        move_stats_df = filter_dataframe_to_tracked_window(move_stats_df, "month")
     except Exception:
         move_stats_df = pd.DataFrame()
 

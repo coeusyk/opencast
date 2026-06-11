@@ -384,7 +384,17 @@ function renderLinesDrivingTrend(data) {
 	clearNode(box);
 	box.style.display = "block";
 	box.appendChild(safeText("h3", "Lines Driving The Trend"));
-	const asOf = lines[0] && lines[0].month ? `Top move choices by volume and 12-month win-rate movement. As of ${lines[0].month}.` : "Top move choices by volume and 12-month win-rate movement. Latest month.";
+	const trackedMonth = (data.latest_tracked_month || "").slice(0, 7);
+	const linesMonth = lines[0] && lines[0].month ? String(lines[0].month).slice(0, 7) : "";
+	let asOf;
+	if (linesMonth && trackedMonth && linesMonth !== trackedMonth) {
+		asOf = `Top move choices by volume and 12-month win-rate movement. Move lines as of ${linesMonth}; opening tracked through ${trackedMonth}.`;
+	} else {
+		const asOfMonth = trackedMonth || linesMonth;
+		asOf = asOfMonth
+			? `Top move choices by volume and 12-month win-rate movement. As of ${asOfMonth}.`
+			: "Top move choices by volume and 12-month win-rate movement. Latest month.";
+	}
 	box.appendChild(setStyle(safeText("p", asOf), `margin:0.25rem 0 0.8rem;color:${TEXT_SECONDARY};font-size:0.8rem;`));
 	const table = document.createElement("table");
 	setStyle(table, "width:100%;border-collapse:collapse;font-size:0.84rem;");

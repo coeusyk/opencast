@@ -1,5 +1,6 @@
 import pandas as pd
 
+from ..data_access import _load_runtime_config
 from ..tokens import ACCENT, ECO_COLORS, TEXT_PRIMARY, TEXT_SECONDARY
 from ..shell import _nav_html, _page_shell
 
@@ -10,6 +11,11 @@ def render_openings_table(
     catalog: pd.DataFrame,
 ) -> str:
     """Render data/output/dashboard/openings.html."""
+    cfg = _load_runtime_config()
+    tier1_games = int(cfg.get("min_monthly_games_tier1", 1000))
+    tier2_games = int(cfg.get("min_monthly_games", 400))
+    min_months = int(cfg.get("min_months_data", 24))
+    tier2_hi = tier1_games - 1
     eco_colors_js = __import__("json").dumps(ECO_COLORS)
     group_checkboxes = "\n      ".join(
         f'<label class="ms-item"><input type="checkbox" class="ms-cb" data-filter="group" value="{g}"> {g}</label>'
@@ -57,9 +63,9 @@ def render_openings_table(
 
 <div style="margin:0 0 1.25rem 0;padding:0.8rem 1rem;border:1px solid rgba(255,255,255,0.10);border-radius:8px;background:rgba(255,255,255,0.02);font-family:'Satoshi','Inter',sans-serif;">
   <div style="font-size:0.82rem;color:{TEXT_SECONDARY};line-height:1.6;">
-    <strong style="color:{TEXT_PRIMARY};">Tier 1</strong>: at least 1,000 average monthly games and at least 24 months of data (full forecast + engine comparison).<br>
-    <strong style="color:{TEXT_PRIMARY};">Tier 2</strong>: 400–999 average monthly games (trend forecast only).<br>
-    <strong style="color:{TEXT_PRIMARY};">Tier 3</strong>: under 400 average monthly games (descriptive stats only).
+    <strong style="color:{TEXT_PRIMARY};">Tier 1</strong>: at least {tier1_games:,} average monthly games and at least {min_months} months of data (full forecast + engine comparison).<br>
+    <strong style="color:{TEXT_PRIMARY};">Tier 2</strong>: {tier2_games:,}–{tier2_hi:,} average monthly games (trend forecast only).<br>
+    <strong style="color:{TEXT_PRIMARY};">Tier 3</strong>: under {tier2_games:,} average monthly games (descriptive stats only).
   </div>
 </div>
 
@@ -378,7 +384,7 @@ def render_openings_table(
     if (v == null) return TEXT_SECONDARY;
     return v > 0.005 ? "#7BE495" : v < -0.005 ? "#F28DA6" : TEXT_SECONDARY;
   }}
-  const TIER_TOOLTIP = "T1: >=1000 avg monthly games + >=24 months -> model-selected forecast + engine evaluation\\nT2: 400-999 avg monthly games -> model-selected trend, no engine delta\\nT3: <400 avg monthly games -> descriptive stats only";
+  const TIER_TOOLTIP = "T1: >={tier1_games} avg monthly games + >={min_months} months -> model-selected forecast + engine evaluation\\nT2: {tier2_games}-{tier2_hi} avg monthly games -> model-selected trend, no engine delta\\nT3: <{tier2_games} avg monthly games -> descriptive stats only";
   function tierBadge(t) {{
     return '<span class="tier-badge tier-badge-' + t + '" title="' + TIER_TOOLTIP + '">T' + t + '</span>';
   }}

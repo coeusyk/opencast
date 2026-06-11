@@ -55,10 +55,6 @@ jobs:
           from pathlib import Path
           from datetime import date
 
-          with open("config.json") as f:
-              cfg = json.load(f)
-          FETCH_START = cfg["fetch_start"]
-
           def month_range(start: str, end: str) -> list:
               sy, sm = map(int, start.split("-"))
               ey, em = map(int, end.split("-"))
@@ -101,7 +97,12 @@ jobs:
               prev_year, prev_month = today.year, today.month - 1
 
           latest_complete = f"{prev_year:04d}-{prev_month:02d}"
-          months = month_range(FETCH_START, latest_complete)
+
+          import sys
+          sys.path.insert(0, ".")
+          from src.month_window import effective_fetch_start
+          fetch_start = effective_fetch_start(latest_month=latest_complete)
+          months = month_range(fetch_start, latest_complete)
           missing = [
               month for month in months
               if any(month not in eco_month_sets[eco] for eco in eco_codes)

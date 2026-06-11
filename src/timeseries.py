@@ -14,6 +14,8 @@ from statsmodels.tsa.holtwinters import ExponentialSmoothing
 
 import pmdarima as pm
 
+from .month_window import filter_dataframe_to_tracked_window
+
 warnings.filterwarnings("ignore")
 
 _HERE = os.path.dirname(__file__)
@@ -23,8 +25,12 @@ OUTPUT_CSV    = os.path.join(_HERE, "..", "data", "output", "forecasts.csv")
 LONG_TAIL_CSV = os.path.join(_HERE, "..", "data", "output", "long_tail_stats.csv")
 MODEL_CHOICE_JSON = os.path.join(_HERE, "..", "data", "output", "model_choice.json")
 INTERVAL_CALIBRATION_JSON = os.path.join(_HERE, "..", "data", "output", "interval_calibration.json")
+_CONFIG_PATH = os.path.join(_HERE, "..", "config.json")
 
-MIN_POINTS = 24
+with open(_CONFIG_PATH, encoding="utf-8") as _f:
+    _cfg = json.load(_f)
+
+MIN_POINTS = int(_cfg.get("min_months_data", 24))
 FORECAST_STEPS = 3
 OUTPUT_COLUMNS = [
     "eco",
@@ -237,6 +243,8 @@ def run_timeseries(df: pd.DataFrame | None = None) -> pd.DataFrame:
     missing_input = REQUIRED_INPUT_COLUMNS - set(df.columns)
     if missing_input:
         raise ValueError(f"openings_ts.csv missing required columns: {sorted(missing_input)}")
+
+    df = filter_dataframe_to_tracked_window(df, "month")
 
     # Load catalog and split into tiers
     catalog = pd.read_csv(CATALOG_CSV)

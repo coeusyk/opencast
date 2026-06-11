@@ -4,11 +4,13 @@ from urllib.parse import quote
 import pandas as pd
 
 from ..charts import (
+    PLOTLY_CDN_SCRIPT,
     _PLOTLY_CFG,
     _build_compare_families_figure,
     _build_sparkline_figure,
     _family_sparkline_series,
 )
+from ..data_access import _config_float
 from ..tokens import TEXT_PRIMARY, TEXT_SECONDARY
 from ..shell import _nav_html, _page_shell
 
@@ -37,6 +39,13 @@ _FAMILIES_JS = r"""
 (function() {
   const FAMILIES = ["A", "B", "C", "D", "E"];
 
+  function resizeSparkline(mount) {
+    const plot = mount && mount.querySelector(".plotly-graph-div");
+    if (plot && typeof Plotly !== "undefined") {
+      Plotly.Plots.resize(plot);
+    }
+  }
+
   document.querySelectorAll(".fc-sparkline-btn").forEach(btn => {
     btn.addEventListener("click", () => {
       const fam = btn.dataset.family;
@@ -45,9 +54,8 @@ _FAMILIES_JS = r"""
       const isOpen = mount.style.display !== "none";
       mount.style.display = isOpen ? "none" : "block";
       btn.textContent = isOpen ? "Show sparkline ↓" : "Hide sparkline ↑";
-      const plot = mount.querySelector(".plotly-graph-div");
-      if (plot && typeof Plotly !== "undefined") {
-        Plotly.Plots.resize(plot);
+      if (!isOpen) {
+        requestAnimationFrame(() => resizeSparkline(mount));
       }
     });
   });
@@ -94,13 +102,13 @@ def _fmt_wr_range(min_wr: float | None, max_wr: float | None) -> str:
     return f"{min_wr * 100:.2f}% – {max_wr * 100:.2f}%"
 
 
-_FAM_BAR_Y_MIN = 0.46
-_FAM_BAR_Y_MAX = 0.54
-
-
 def _family_win_rate_bar_height(value: float) -> float:
-    span = _FAM_BAR_Y_MAX - _FAM_BAR_Y_MIN
-    return max(0.0, min(100.0, (value - _FAM_BAR_Y_MIN) / span * 100))
+    y_min = _config_float("dashboard_win_rate_axis_min", 0.46)
+    y_max = _config_float("dashboard_win_rate_axis_max", 0.54)
+    span = y_max - y_min
+    if span <= 0:
+        return 0.0
+    return max(0.0, min(100.0, (value - y_min) / span * 100))
 
 
 def _family_winrate_chart_title(group_vals: dict[str, float]) -> str:
@@ -110,15 +118,8 @@ def _family_winrate_chart_title(group_vals: dict[str, float]) -> str:
     return f"Family {lowest_fam} has the lowest win rate across all openings"
 
 
-def _build_family_win_rate_css_chart(engine_df: pd.DataFrame) -> str:
-    """Pure CSS bar chart — avg human win rate per ECO family (A–E)."""
-    group_vals: dict[str, float] = {}
-    if not engine_df.empty and "human_win_rate_2000" in engine_df.columns:
-        df = engine_df.copy()
-        df["group"] = df["eco"].astype(str).str[0]
-        for grp, val in df.groupby("group")["human_win_rate_2000"].mean().items():
-            group_vals[str(grp)] = float(val)
-
+def _build_family_win_rate_css_chart(group_vals: dict[str, float]) -> str:
+    """Pure CSS bar chart — mean per-ECO win rate per family (same source as family cards)."""
     chart_title = _family_winrate_chart_title(group_vals)
 
     bar_cols: list[str] = []
@@ -356,8 +357,6 @@ def render_families(
     catalog      = catalog      if catalog      is not None and not catalog.empty      else pd.DataFrame()
     openings_data = openings_data or {}
 
-    family_winrate_chart_html = _build_family_win_rate_css_chart(engine_df)
-
     family_catalog: dict[str, pd.DataFrame] = {}
     if not catalog.empty and "eco" in catalog.columns:
         cat_groups = catalog["eco"].astype(str).str[0]
@@ -447,6 +446,12 @@ def render_families(
             "regime_changes":         regime_total,
         })
 
+    family_winrate_chart_html = _build_family_win_rate_css_chart({
+        item["group"]: item["avg_wr"]
+        for item in summary
+        if item.get("avg_wr") is not None
+    })
+
     total_ecos    = sum(item["n_ecos"] for item in summary)
     weighted_mean = (
         sum((item["avg_wr"] or 0.0) * item["n_ecos"] for item in summary) / total_ecos
@@ -508,7 +513,7 @@ def render_families(
     compare_fig = _build_compare_families_figure(openings_data)
     compare_chart_html = compare_fig.to_html(
         full_html=False,
-        include_plotlyjs="cdn",
+        include_plotlyjs=False,
         config=_PLOTLY_CFG,
         div_id="compare-chart-plot",
     )
@@ -534,7 +539,7 @@ def render_families(
 }}
 .families-header-text {{ flex: 1; min-width: 220px; }}
 .families-title   {{ margin: 0 0 0.5rem; font-size: 1.375rem; font-weight: 600; letter-spacing: -0.02em; }}
-.families-subtitle {{ margin: 0; color: var(--text-secondary); font-size: 0.875rem; line-height: 1.6; max-width: 28rem; }}
+.families-subtitle {{ margin: 0; color: var(--text-secondary); font-size: 1.0625rem; line-height: 1.65; max-width: 52rem; }}
 .families-metrics-bar {{
   display: flex;
   flex-wrap: wrap;
@@ -841,7 +846,7 @@ def render_families(
         "Families",
         _nav_html("families.html"),
         body,
-        head_extras=fam_css,
+        head_extras=PLOTLY_CDN_SCRIPT + fam_css,
         body_extras=module_script,
     )
 

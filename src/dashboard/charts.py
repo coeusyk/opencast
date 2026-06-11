@@ -3,6 +3,8 @@ import math
 import pandas as pd
 import plotly.graph_objects as go
 
+from ..month_window import max_tracked_months
+from .data_access import _config_float, _config_int
 from .tokens import (
     BODY_FONT,
     ECO_COLORS,
@@ -247,7 +249,12 @@ def _build_panel3_figure(engine_df: pd.DataFrame) -> go.Figure:
         title="Average Human Win Rate by ECO Family",
         xaxis_title="ECO Family",
         yaxis_title="Avg White Win Rate (2000+)",
-        yaxis=dict(range=[0.46, 0.54]),
+        yaxis=dict(
+            range=[
+                _config_float("dashboard_win_rate_axis_min", 0.46),
+                _config_float("dashboard_win_rate_axis_max", 0.54),
+            ]
+        ),
         bargap=0.4,
     )
     _apply_plotly_typography(fig, title_size=16)
@@ -264,6 +271,31 @@ FAMILY_ISSUE_COLORS: dict[str, str] = {
 }
 _FAMILIES_ORDER = ["A", "B", "C", "D", "E"]
 _PLOTLY_CFG = {"scrollZoom": False, "displayModeBar": False}
+PLOTLY_CDN_SCRIPT = (
+    '<script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>'
+)
+
+
+def _sort_month_keys(months: list[str]) -> list[str]:
+    return sorted(months, key=lambda m: pd.to_datetime(m, errors="coerce"))
+
+
+def _win_rate_fraction(value: float) -> float:
+    """Normalize win rate to a 0–1 fraction (pipeline uses fractions; guard percent-scale)."""
+    if value > 1.0:
+        return value / 100.0
+    return value
+
+
+def _bucket_mean_win_rate_percent(bucket: dict) -> float:
+    raw = bucket["s"] / bucket["n"]
+    return round(_win_rate_fraction(raw) * 10000) / 100
+
+
+def _dashboard_win_rate_axis_percent() -> tuple[float, float]:
+    lo = _config_float("dashboard_win_rate_axis_min", 0.46)
+    hi = _config_float("dashboard_win_rate_axis_max", 0.54)
+    return lo * 100, hi * 100
 _REGIME_CHART_BG = "#0B0D10"
 _REGIME_TICK_FAINT = "#55555a"
 _REGIME_AXIS_FONT = "#8b8b8f"
@@ -287,7 +319,7 @@ def _family_monthly_from_openings(openings_data: dict) -> dict[str, dict[str, di
             if not month:
                 continue
             bucket = fm[fam].setdefault(month, {"s": 0.0, "n": 0})
-            bucket["s"] += float(wr)
+            bucket["s"] += _win_rate_fraction(float(wr))
             bucket["n"] += 1
     return fm
 
@@ -452,14 +484,15 @@ def _build_regime_scatter_figure(
 
 
 def _build_compare_families_figure(openings_data: dict) -> go.Figure:
-    """Multi-family win-rate line chart — last 24 months."""
+    """Multi-family win-rate line chart over a rolling month window from config."""
     fig = go.Figure()
     fm = _family_monthly_from_openings(openings_data)
+    compare_months = min(_config_int("dashboard_compare_months", 24), max_tracked_months())
 
-    all_months = sorted({
+    all_months = _sort_month_keys([
         m for fam in _FAMILIES_ORDER for m in (fm.get(fam) or {})
-    })
-    months = all_months[-24:] if all_months else []
+    ])
+    months = all_months[-compare_months:] if all_months else []
     x_vals = [pd.to_datetime(m) for m in months]
 
     for fam in _FAMILIES_ORDER:
@@ -468,7 +501,7 @@ def _build_compare_families_figure(openings_data: dict) -> go.Figure:
         for m in months:
             bucket = fam_data.get(m)
             if bucket and bucket["n"]:
-                y_vals.append(round(bucket["s"] / bucket["n"] * 10000) / 100)
+                y_vals.append(_bucket_mean_win_rate_percent(bucket))
             else:
                 y_vals.append(None)
         color = FAMILY_ISSUE_COLORS.get(fam, TEXT_SECONDARY)
@@ -488,10 +521,11 @@ def _build_compare_families_figure(openings_data: dict) -> go.Figure:
         y=50,
         line=dict(color="rgba(255,255,255,0.2)", dash="dot", width=1),
     )
+    y_lo, y_hi = _dashboard_win_rate_axis_percent()
     fig.update_layout(
         height=240,
         margin=dict(l=40, r=16, t=8, b=32),
-        yaxis=dict(range=[44, 56], ticksuffix="%", gridcolor=GRID_COLOR),
+        yaxis=dict(range=[y_lo, y_hi], ticksuffix="%", gridcolor=GRID_COLOR),
         xaxis=dict(gridcolor=GRID_COLOR, tickfont=dict(size=10)),
         showlegend=False,
     )
@@ -576,15 +610,19 @@ def _build_sparkline_figure(months: list[str], values: list[float], color: str) 
 
 
 def _family_sparkline_series(
-    openings_data: dict, group: str, n_months: int = 12,
+    openings_data: dict,
+    group: str,
+    n_months: int | None = None,
 ) -> tuple[list[str], list[float]]:
+    default_window = min(_config_int("dashboard_sparkline_months", 12), max_tracked_months())
+    window = n_months if n_months is not None else default_window
     fm = _family_monthly_from_openings(openings_data)
     fam_data = fm.get(group.upper()) or {}
     months_out: list[str] = []
     values_out: list[float] = []
-    for m in sorted(fam_data.keys())[-n_months:]:
+    for m in _sort_month_keys(list(fam_data.keys()))[-window:]:
         bucket = fam_data[m]
         if bucket["n"]:
             months_out.append(m)
-            values_out.append(round(bucket["s"] / bucket["n"] * 10000) / 100)
+            values_out.append(_bucket_mean_win_rate_percent(bucket))
     return months_out, values_out

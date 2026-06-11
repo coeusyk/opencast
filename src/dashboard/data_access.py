@@ -3,6 +3,8 @@ import os
 
 import pandas as pd
 
+from ..month_window import filter_dataframe_to_tracked_window, latest_month_str
+
 _SRC_ROOT = os.path.dirname(os.path.dirname(__file__))
 _REPO_ROOT = os.path.dirname(_SRC_ROOT)
 FORECASTS_CSV = os.path.join(_REPO_ROOT, "data", "output", "forecasts.csv")
@@ -41,7 +43,7 @@ def _safe_read_forecasts() -> pd.DataFrame:
     for col in FORECAST_COLUMNS:
         if col not in df.columns:
             df[col] = None
-    return df
+    return filter_dataframe_to_tracked_window(df, "month")
 
 
 def _load_findings_json() -> dict | None:
@@ -72,6 +74,22 @@ def _load_runtime_config() -> dict:
         return {}
 
 
+def _config_int(key: str, default: int) -> int:
+    raw = _load_runtime_config().get(key, default)
+    try:
+        return max(1, int(raw))
+    except (TypeError, ValueError):
+        return default
+
+
+def _config_float(key: str, default: float) -> float:
+    raw = _load_runtime_config().get(key, default)
+    try:
+        return float(raw)
+    except (TypeError, ValueError):
+        return default
+
+
 def _top_lines_for_opening(move_stats_df: pd.DataFrame | None, eco: str, limit: int = 3) -> list[dict]:
     if move_stats_df is None or move_stats_df.empty or "eco" not in move_stats_df.columns:
         return []
@@ -80,8 +98,10 @@ def _top_lines_for_opening(move_stats_df: pd.DataFrame | None, eco: str, limit: 
     if sub.empty or "month" not in sub.columns:
         return []
 
-    latest_month = str(sub["month"].astype(str).max())
-    latest = sub[sub["month"].astype(str) == latest_month].copy()
+    latest_month = latest_month_str(sub["month"].unique())
+    if not latest_month:
+        return []
+    latest = sub[sub["month"].astype(str).str[:7] == latest_month].copy()
     if latest.empty:
         return []
 
@@ -248,6 +268,7 @@ def _serialize_openings_data(
             data_status = str(cat_row["data_status"].iloc[0])
 
         sig = (trend_signals or {}).get(eco)
+        latest_tracked_month = latest_month_str(row["month"] for row in actuals)
         lines_driving_trend = _top_lines_for_opening(move_stats_df, eco)
         if model_tier == 3:
             forecast_quality = None
@@ -258,6 +279,7 @@ def _serialize_openings_data(
             "model_tier": model_tier,
             "data_status": data_status,
             "actuals": actuals,
+            "latest_tracked_month": latest_tracked_month,
             "forecast": forecast,
             "structural_breaks": structural_breaks,
             "engine_cp": engine_cp,

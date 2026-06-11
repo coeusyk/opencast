@@ -1,8 +1,10 @@
 {
   "fetch_start": "2023-01",
+  "max_tracked_months": 48,
   "min_monthly_games": 400,
   "min_monthly_games_tier1": 1000,
   "min_months_data": 24,
+  "min_months_sparse": 12,
   "min_coverage_ratio": 0.75,
   "min_coverage_ratio_tier2": 0.4,
   "_comment_evaluation": "Model evaluation parameters (Track 1)",
@@ -11,5 +13,13 @@
   "eval_horizons": [1, 2, 3],
   "tier1_model_mae_threshold_pp": 1.0,
   "tier2_model_mae_threshold_pp": 0.5,
-  "ci_runtime_budget_minutes": 45
+  "ci_runtime_budget_minutes": 45,
+  "_comment_dashboard": "Static dashboard display windows and filters",
+  "dashboard_sparkline_months": 12,
+  "dashboard_compare_months": 24,
+  "dashboard_regime_min_engine_cp": 10,
+  "dashboard_regime_min_points": 5,
+  "dashboard_divergence_table_rows": 12,
+  "dashboard_win_rate_axis_min": 0.46,
+  "dashboard_win_rate_axis_max": 0.54
 }
