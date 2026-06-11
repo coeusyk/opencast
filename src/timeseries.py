@@ -76,14 +76,18 @@ def _chow_test(y: np.ndarray, bp: int) -> tuple:
     return float(F), p
 
 
-def _detect_breaks(y: np.ndarray, months: list, alpha: float = 0.05) -> set:
-    """Return set of Timestamps where a Chow structural break is detected."""
-    breaks = set()
+def _detect_breaks(y: np.ndarray, months: list, alpha: float = 0.01) -> set:
+    """Return the month of the single most significant Chow break, if p < alpha."""
+    best_bp: int | None = None
+    best_p = 1.0
     for bp in range(6, len(y) - 6):
         _, p = _chow_test(y, bp)
-        if p < alpha:
-            breaks.add(months[bp])
-    return breaks
+        if p < best_p:
+            best_p = p
+            best_bp = bp
+    if best_bp is not None and best_p < alpha:
+        return {months[best_bp]}
+    return set()
 
 
 def _run_descriptive_stats(eco: str, grp: pd.DataFrame) -> dict:

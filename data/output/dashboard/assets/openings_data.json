@@ -187,9 +187,7 @@
       }
     ],
     "structural_breaks": [
-      "2023-08",
-      "2023-09",
-      "2023-10"
+      "2023-08"
     ],
     "engine_cp": 44,
     "p_engine": 0.527472,
@@ -198,8 +196,8 @@
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "The Sicilian Defense shows signs of falling, with a notable gap between human and engine performance. This opening is engine-favoured, making it a good choice for players who want to test their skills against a strong engine. A 2000-rated player should avoid this opening unless they're confident in their abilities.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 5.097891454190547e-05,
-    "trend_r_squared": 0.2606612031105576,
+    "trend_slope_per_month": 4.6430214107561115e-05,
+    "trend_r_squared": 0.25696749074173664,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -425,9 +423,7 @@
       }
     ],
     "structural_breaks": [
-      "2025-01",
-      "2025-03",
-      "2025-04"
+      "2025-03"
     ],
     "engine_cp": 31,
     "p_engine": 0.519365,
@@ -436,8 +432,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "This opening is erratic, with a low trend confidence and no sustained streak. A minor gap exists between engine and human performance, with humans underperforming engine predictions. A 2000-rated player should monitor this opening to see if it stabilizes, but for now, it's not recommended.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 1.6553557157844707e-06,
-    "trend_r_squared": 3.508157740805817e-05,
+    "trend_slope_per_month": 1.20178543235784e-05,
+    "trend_r_squared": 0.002290364477548934,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -662,10 +658,7 @@
         "upper": 0.488946
       }
     ],
-    "structural_breaks": [
-      "2024-12",
-      "2025-01"
-    ],
+    "structural_breaks": [],
     "engine_cp": 45,
     "p_engine": 0.528095,
     "human_win_rate": 0.485879,
@@ -673,8 +666,8 @@
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "This opening has been showing no clear trend, with a minor gap between human and engine performance. A 2000-rated player should monitor this opening to see if it becomes more viable.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 8.390205953114816e-08,
-    "trend_r_squared": 2.1238192682293544e-07,
+    "trend_slope_per_month": -1.3600007140722553e-05,
+    "trend_r_squared": 0.0032379026358091423,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -1134,25 +1127,7 @@
       }
     ],
     "structural_breaks": [
-      "2024-01",
-      "2024-02",
-      "2024-03",
-      "2024-04",
-      "2024-08",
-      "2024-09",
-      "2024-10",
-      "2024-11",
-      "2024-12",
-      "2025-01",
-      "2025-02",
-      "2025-03",
-      "2025-04",
-      "2025-05",
-      "2025-06",
-      "2025-07",
-      "2025-08",
-      "2025-09",
-      "2025-10"
+      "2025-06"
     ],
     "engine_cp": 31,
     "p_engine": 0.519365,
@@ -1160,11 +1135,11 @@
     "delta": -0.022783,
     "interpretation": "consistent with engine evaluation",
     "narrative": "The King's Pawn Game has a stable win-rate trend, with a small negative engine-human delta of -0.022714, indicating a slight disadvantage for humans. This means players should focus on pawn structure and piece development.",
-    "trend_direction": "stable",
-    "trend_slope_per_month": -0.00025721806782906054,
-    "trend_r_squared": 0.38092269794933264,
-    "trend_confidence": "low",
-    "trend_streak_months": 0,
+    "trend_direction": "falling",
+    "trend_slope_per_month": -0.00038371787220734384,
+    "trend_r_squared": 0.7884990671883014,
+    "trend_confidence": "high",
+    "trend_streak_months": 2,
     "forecast_quality": "medium",
     "model_name": "holt_winters",
     "lines_driving_trend": [
@@ -1387,9 +1362,7 @@
         "upper": 0.49014
       }
     ],
-    "structural_breaks": [
-      "2025-10"
-    ],
+    "structural_breaks": [],
     "engine_cp": -15,
     "p_engine": 0.490626,
     "human_win_rate": 0.487335,
@@ -1397,8 +1370,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The Italian Game has a stable win-rate trend, with a small engine-human delta of -0.003278. This suggests that the engine's evaluation is consistent with actual results, making it a solid choice for players.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.000381840208654698,
-    "trend_r_squared": 0.11295057331848823,
+    "trend_slope_per_month": -0.0002331935179054609,
+    "trend_r_squared": 0.10525923426807193,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -2328,14 +2301,7 @@
       }
     ],
     "structural_breaks": [
-      "2024-01",
-      "2024-03",
-      "2024-04",
-      "2024-05",
-      "2024-06",
-      "2024-07",
-      "2025-09",
-      "2025-10"
+      "2024-06"
     ],
     "engine_cp": -33,
     "p_engine": 0.479387,
@@ -2344,8 +2310,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The trend for this opening is stable, with no clear direction. A minor gap exists between engine and human performance, suggesting that white's theoretical advantage is not being fully utilised. A 2000-rated player should monitor this opening for potential improvement opportunities.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.00043217707956960026,
-    "trend_r_squared": 0.5251713912432061,
+    "trend_slope_per_month": 6.518897837713292e-05,
+    "trend_r_squared": 0.09756929105432977,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -2805,7 +2771,6 @@
       }
     ],
     "structural_breaks": [
-      "2023-12",
       "2025-05"
     ],
     "engine_cp": 51,
@@ -3042,23 +3007,7 @@
       }
     ],
     "structural_breaks": [
-      "2024-01",
-      "2024-02",
-      "2024-08",
-      "2024-09",
-      "2024-10",
-      "2024-11",
-      "2024-12",
-      "2025-01",
-      "2025-02",
-      "2025-03",
-      "2025-04",
-      "2025-05",
-      "2025-06",
-      "2025-07",
-      "2025-08",
-      "2025-09",
-      "2025-10"
+      "2025-08"
     ],
     "engine_cp": 61,
     "p_engine": 0.538051,
@@ -3067,8 +3016,8 @@
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "The trend for this opening is stable, with a minor gap between engine and human performance. A 2000-rated player should monitor this opening, as it may offer opportunities for improvement.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.00027222855523968123,
-    "trend_r_squared": 0.04720741563843178,
+    "trend_slope_per_month": 0.00016376635558984878,
+    "trend_r_squared": 0.03442987032380762,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -3527,21 +3476,18 @@
         "upper": 0.504975
       }
     ],
-    "structural_breaks": [
-      "2025-09",
-      "2025-10"
-    ],
+    "structural_breaks": [],
     "engine_cp": -24,
     "p_engine": 0.485004,
     "human_win_rate": 0.502001,
     "delta": 0.016997,
     "interpretation": "consistent with engine evaluation",
     "narrative": "The English Opening has a stable win-rate trend, with a small positive engine-human delta of 0.017082, indicating a slight advantage for humans. This means players can focus on pawn structure and piece development.",
-    "trend_direction": "falling",
-    "trend_slope_per_month": -0.0005370200028527325,
-    "trend_r_squared": 0.5069046988212628,
-    "trend_confidence": "medium",
-    "trend_streak_months": 3,
+    "trend_direction": "stable",
+    "trend_slope_per_month": -0.0001269732045332385,
+    "trend_r_squared": 0.11072709284711513,
+    "trend_confidence": "low",
+    "trend_streak_months": 0,
     "forecast_quality": "high",
     "model_name": "holt_winters",
     "lines_driving_trend": [
@@ -3998,10 +3944,7 @@
         "upper": 0.493373
       }
     ],
-    "structural_breaks": [
-      "2024-08",
-      "2024-09"
-    ],
+    "structural_breaks": [],
     "engine_cp": 64,
     "p_engine": 0.539915,
     "human_win_rate": 0.487337,
@@ -4009,8 +3952,8 @@
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "This opening has been stable, with no clear trend. The engine's prediction is slightly more accurate than human play, indicating a minor gap. A 2000-rated player may want to monitor this opening to see if it becomes more popular.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.00017217290728233672,
-    "trend_r_squared": 0.1934170402300731,
+    "trend_slope_per_month": 8.019344565187304e-05,
+    "trend_r_squared": 0.024158134686824484,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -4236,8 +4179,7 @@
       }
     ],
     "structural_breaks": [
-      "2024-01",
-      "2024-02"
+      "2024-01"
     ],
     "engine_cp": 40,
     "p_engine": 0.524979,
@@ -4246,8 +4188,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The Polish Opening has a falling win-rate trend, with a negative engine-human delta of -0.028081, indicating a significant disadvantage for humans. This means players should avoid this opening or focus on counterplay.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.00047407221362550885,
-    "trend_r_squared": 0.41939870545543645,
+    "trend_slope_per_month": 0.00045730086130224334,
+    "trend_r_squared": 0.42634470258612567,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -4706,19 +4648,14 @@
         "upper": 0.488087
       }
     ],
-    "structural_breaks": [
-      "2024-08",
-      "2024-10",
-      "2025-04",
-      "2025-05"
-    ],
+    "structural_breaks": [],
     "engine_cp": 60,
     "p_engine": 0.53743,
     "human_win_rate": 0.481705,
     "delta": -0.055725,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "This opening has been stable, with no clear trend. The engine's prediction is slightly more accurate than human play, indicating a minor gap. A 2000-rated player may want to monitor this opening to see if it becomes more popular.",
-    "trend_direction": "stable",
+    "trend_direction": "rising",
     "trend_slope_per_month": 0.0005085151739569405,
     "trend_r_squared": 0.3503782258340775,
     "trend_confidence": "low",
@@ -5179,13 +5116,7 @@
         "upper": 0.491183
       }
     ],
-    "structural_breaks": [
-      "2023-11",
-      "2023-12",
-      "2024-01",
-      "2024-03",
-      "2024-04"
-    ],
+    "structural_breaks": [],
     "engine_cp": 23,
     "p_engine": 0.514371,
     "human_win_rate": 0.487459,
@@ -5193,8 +5124,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate trend is rising, engine-human delta is -0.026958, indicating a minor advantage for the engine, which may suggest the opening is not well-prepared.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.00013636326669843083,
-    "trend_r_squared": 0.1999534175577442,
+    "trend_slope_per_month": 6.200154371244222e-05,
+    "trend_r_squared": 0.009500482354702022,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -5419,9 +5350,7 @@
         "upper": 0.501263
       }
     ],
-    "structural_breaks": [
-      "2024-01"
-    ],
+    "structural_breaks": [],
     "engine_cp": -30,
     "p_engine": 0.481259,
     "human_win_rate": 0.492711,
@@ -5429,8 +5358,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The A03 opening has a stable win-rate trend, with a minor engine-human delta of 0.0114, indicating a consistent evaluation by engines.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -8.536964589382675e-05,
-    "trend_r_squared": 0.03093208359709898,
+    "trend_slope_per_month": -1.0850544343911891e-05,
+    "trend_r_squared": 6.958132511192261e-05,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -5679,20 +5608,7 @@
       }
     ],
     "structural_breaks": [
-      "2023-07",
-      "2023-08",
-      "2023-09",
-      "2023-10",
-      "2023-11",
-      "2023-12",
-      "2024-01",
-      "2024-02",
-      "2024-03",
-      "2024-04",
-      "2024-05",
-      "2024-06",
-      "2024-07",
-      "2024-08"
+      "2024-07"
     ],
     "engine_cp": 14,
     "p_engine": 0.508749,
@@ -5701,8 +5617,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The A05 opening is stable with a low trend confidence, leading to a range-bound win-rate. The notable gap in engine evaluation indicates a slight overperformance. Volatility is moderate.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -3.372659243870214e-05,
-    "trend_r_squared": 0.002279226301561854,
+    "trend_slope_per_month": 5.347460608645831e-05,
+    "trend_r_squared": 0.005877355812930474,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -7166,20 +7082,18 @@
         "upper": 0.506189
       }
     ],
-    "structural_breaks": [
-      "2025-08"
-    ],
+    "structural_breaks": [],
     "engine_cp": 40,
     "p_engine": 0.524979,
     "human_win_rate": 0.498698,
     "delta": -0.026282,
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate trend is stable, engine-human delta is -0.026206, indicating a minor disadvantage for the engine, which may suggest the opening is balanced.",
-    "trend_direction": "falling",
-    "trend_slope_per_month": -0.0005854424937315415,
-    "trend_r_squared": 0.2701176838467525,
-    "trend_confidence": "medium",
-    "trend_streak_months": 2,
+    "trend_direction": "stable",
+    "trend_slope_per_month": 1.2730492857157923e-05,
+    "trend_r_squared": 0.00024663698720961413,
+    "trend_confidence": "low",
+    "trend_streak_months": 0,
     "forecast_quality": "medium",
     "model_name": "holt_winters",
     "lines_driving_trend": [
@@ -7939,10 +7853,7 @@
         "upper": 0.569097
       }
     ],
-    "structural_breaks": [
-      "2023-10",
-      "2023-11"
-    ],
+    "structural_breaks": [],
     "engine_cp": -35,
     "p_engine": 0.478139,
     "human_win_rate": 0.542268,
@@ -7950,8 +7861,8 @@
     "interpretation": "humans outperform engine \u2014 rewards human skill",
     "narrative": "This opening has been showing signs of rising, with a major gap in favour of humans. A 2000-rated player should adopt this opening, as it rewards human skill.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.00019491146129678157,
-    "trend_r_squared": 0.018710268811318542,
+    "trend_slope_per_month": -0.0004865912122304043,
+    "trend_r_squared": 0.02129762182792372,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -8410,9 +8321,7 @@
         "upper": 0.522385
       }
     ],
-    "structural_breaks": [
-      "2025-09"
-    ],
+    "structural_breaks": [],
     "engine_cp": 28,
     "p_engine": 0.517493,
     "human_win_rate": 0.500964,
@@ -8420,8 +8329,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate trend for A23 is rising, with an engine-human delta of -0.01592, indicating a slight advantage for engines. However, this trend may not be significant enough to deter players from using this opening.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.00698798779481353,
-    "trend_r_squared": 0.8212289508463191,
+    "trend_slope_per_month": -0.000858315558035526,
+    "trend_r_squared": 0.03444147517779972,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -8715,35 +8624,18 @@
         "upper": 0.540946
       }
     ],
-    "structural_breaks": [
-      "2024-06",
-      "2024-07",
-      "2024-08",
-      "2024-09",
-      "2024-10",
-      "2024-11",
-      "2024-12",
-      "2025-01",
-      "2025-02",
-      "2025-03",
-      "2025-04",
-      "2025-05",
-      "2025-06",
-      "2025-07",
-      "2025-08",
-      "2025-09"
-    ],
+    "structural_breaks": [],
     "engine_cp": -3,
     "p_engine": 0.498125,
     "human_win_rate": 0.516193,
     "delta": 0.018068,
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate trend is falling, with a delta of 0.018, indicating a slight increase in engine evaluation, suggesting the player should focus on improving their endgame skills.",
-    "trend_direction": "stable",
-    "trend_slope_per_month": 0.0007191202624320834,
-    "trend_r_squared": 0.03012761134579023,
-    "trend_confidence": "low",
-    "trend_streak_months": 0,
+    "trend_direction": "rising",
+    "trend_slope_per_month": 0.0012032649521695293,
+    "trend_r_squared": 0.19567449710543205,
+    "trend_confidence": "medium",
+    "trend_streak_months": 2,
     "forecast_quality": "low",
     "model_name": "holt_winters",
     "lines_driving_trend": [
@@ -9196,9 +9088,7 @@
         "upper": 0.551581
       }
     ],
-    "structural_breaks": [
-      "2023-07"
-    ],
+    "structural_breaks": [],
     "engine_cp": -2,
     "p_engine": 0.49875,
     "human_win_rate": 0.522453,
@@ -9206,8 +9096,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "A29's win-rate is stable, with a delta of 0.024283, suggesting a consistent engine evaluation, which may not significantly affect the player's results.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.00025438200853771485,
-    "trend_r_squared": 0.0351738620051375,
+    "trend_slope_per_month": 8.046262333336905e-05,
+    "trend_r_squared": 0.00031542233843284695,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -9666,14 +9556,7 @@
         "upper": 0.503086
       }
     ],
-    "structural_breaks": [
-      "2023-08",
-      "2023-09",
-      "2023-10",
-      "2025-06",
-      "2025-07",
-      "2025-08"
-    ],
+    "structural_breaks": [],
     "engine_cp": -11,
     "p_engine": 0.493125,
     "human_win_rate": 0.487381,
@@ -9681,8 +9564,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The win-rate is falling with high confidence, indicating a decline. A notable gap exists between actual and forecasted win-rates.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0018526931473033467,
-    "trend_r_squared": 0.34751113593525185,
+    "trend_slope_per_month": -0.00052760583010101,
+    "trend_r_squared": 0.06392306378361978,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -9999,14 +9882,7 @@
         "upper": 0.502115
       }
     ],
-    "structural_breaks": [
-      "2023-07",
-      "2023-08",
-      "2023-09",
-      "2023-10",
-      "2024-04",
-      "2025-09"
-    ],
+    "structural_breaks": [],
     "engine_cp": 9,
     "p_engine": 0.505625,
     "human_win_rate": 0.485478,
@@ -10014,8 +9890,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "A36's win-rate is stable, with a delta of -0.02427, indicating a consistent engine evaluation, which may not impact the player's performance.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.001441072632046022,
-    "trend_r_squared": 0.15874034164419815,
+    "trend_slope_per_month": -0.0006484551278224216,
+    "trend_r_squared": 0.06366166390274153,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -10287,13 +10163,7 @@
       }
     ],
     "structural_breaks": [
-      "2024-10",
-      "2024-11",
-      "2024-12",
-      "2025-01",
-      "2025-02",
-      "2025-03",
-      "2025-04"
+      "2025-02"
     ],
     "engine_cp": -26,
     "p_engine": 0.483756,
@@ -10302,8 +10172,8 @@
     "interpretation": "humans outperform engine \u2014 rewards human skill",
     "narrative": "This opening has been rising consistently, with a notable gap between human and engine performance. However, the trend is erratic, making it hard to predict. A 2000-rated player should monitor this opening to see if it continues to favour humans.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.003269301606976973,
-    "trend_r_squared": 0.44903392844084455,
+    "trend_slope_per_month": 0.003184198003137835,
+    "trend_r_squared": 0.5004692751474581,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -10551,23 +10421,18 @@
         "upper": 0.487545
       }
     ],
-    "structural_breaks": [
-      "2023-08",
-      "2023-09",
-      "2023-10",
-      "2025-05"
-    ],
+    "structural_breaks": [],
     "engine_cp": 50,
     "p_engine": 0.531209,
     "human_win_rate": 0.480514,
     "delta": -0.050695,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "The trend for this opening is stable, with a notable gap between engine and human performance. A 2000-rated player should avoid this opening, as it may be difficult to execute effectively.",
-    "trend_direction": "stable",
+    "trend_direction": "rising",
     "trend_slope_per_month": 0.0005361079207889294,
     "trend_r_squared": 0.2859092609418312,
-    "trend_confidence": "low",
-    "trend_streak_months": 0,
+    "trend_confidence": "medium",
+    "trend_streak_months": 1,
     "forecast_quality": "medium",
     "model_name": "holt_winters",
     "lines_driving_trend": [
@@ -10790,9 +10655,7 @@
         "upper": 0.489479
       }
     ],
-    "structural_breaks": [
-      "2023-09"
-    ],
+    "structural_breaks": [],
     "engine_cp": -62,
     "p_engine": 0.461327,
     "human_win_rate": 0.482421,
@@ -10800,8 +10663,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The A42 opening is rising, with a delta of 0.017483, indicating a slight improvement in win rate. This trend is consistent with engine evaluation, suggesting players should consider this opening more often. A 1.75% increase in win rate is notable.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0002053446174953039,
-    "trend_r_squared": 0.16250158391822145,
+    "trend_slope_per_month": -0.0003376376646167796,
+    "trend_r_squared": 0.06806889090269852,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -11260,20 +11123,18 @@
         "upper": 0.485717
       }
     ],
-    "structural_breaks": [
-      "2025-05"
-    ],
+    "structural_breaks": [],
     "engine_cp": 125,
     "p_engine": 0.577495,
     "human_win_rate": 0.467165,
     "delta": -0.11033,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "This opening has been showing no clear trend, with a minor gap between engine and human performance. A 2000-rated player should monitor this opening to see if it becomes more viable.",
-    "trend_direction": "stable",
+    "trend_direction": "falling",
     "trend_slope_per_month": -0.0009489202300777637,
     "trend_r_squared": 0.37493938221795187,
-    "trend_confidence": "low",
-    "trend_streak_months": 0,
+    "trend_confidence": "medium",
+    "trend_streak_months": 1,
     "forecast_quality": "medium",
     "model_name": "holt_winters",
     "lines_driving_trend": [
@@ -11542,10 +11403,7 @@
         "upper": 0.492515
       }
     ],
-    "structural_breaks": [
-      "2024-10",
-      "2024-11"
-    ],
+    "structural_breaks": [],
     "engine_cp": 52,
     "p_engine": 0.532454,
     "human_win_rate": 0.486956,
@@ -11553,8 +11411,8 @@
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "The A48 opening has trended downward recently, with a major gap between human and engine performance. This opening is engine-favoured, making it a good choice for players who want to test their skills against a strong engine. A 2000-rated player should avoid this opening unless they're confident in their abilities.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -7.167763682385646e-05,
-    "trend_r_squared": 0.023871100994137584,
+    "trend_slope_per_month": 0.00010498090184118111,
+    "trend_r_squared": 0.02605856159293518,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -12505,20 +12363,7 @@
       }
     ],
     "structural_breaks": [
-      "2023-08",
-      "2024-01",
-      "2024-02",
-      "2024-03",
-      "2024-04",
-      "2024-05",
-      "2024-06",
-      "2024-07",
-      "2024-08",
-      "2024-09",
-      "2024-10",
-      "2024-11",
-      "2025-05",
-      "2025-10"
+      "2024-09"
     ],
     "engine_cp": 69,
     "p_engine": 0.543018,
@@ -12527,8 +12372,8 @@
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "The engine has a notable gap over human performance, indicating a theoretical advantage not being realised in play. A 2000-rated player should avoid this opening, as it may be difficult to exploit.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0010981328569900743,
-    "trend_r_squared": 0.4387859478412942,
+    "trend_slope_per_month": -5.112088593939206e-05,
+    "trend_r_squared": 0.009998257939853206,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -13010,15 +12855,7 @@
         "upper": 0.466529
       }
     ],
-    "structural_breaks": [
-      "2023-09",
-      "2023-10",
-      "2023-11",
-      "2023-12",
-      "2024-01",
-      "2024-02",
-      "2024-04"
-    ],
+    "structural_breaks": [],
     "engine_cp": 80,
     "p_engine": 0.549834,
     "human_win_rate": 0.457707,
@@ -13026,8 +12863,8 @@
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "The trend for this opening has trended upward recently, with a minor gap between engine and human performance. A 2000-rated player should monitor this opening to see if it becomes more consistent.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.00012322222359120586,
-    "trend_r_squared": 0.12193817593553391,
+    "trend_slope_per_month": 2.883015505731411e-05,
+    "trend_r_squared": 0.0032669694358917756,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -13252,20 +13089,18 @@
         "upper": 0.45558
       }
     ],
-    "structural_breaks": [
-      "2024-11"
-    ],
+    "structural_breaks": [],
     "engine_cp": 77,
     "p_engine": 0.547977,
     "human_win_rate": 0.445405,
     "delta": -0.102572,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "This opening has been range-bound, with a minor gap between engine and human performance. A 2000-rated player should monitor this opening to see if it becomes more viable.",
-    "trend_direction": "stable",
-    "trend_slope_per_month": 0.00032901389605997954,
-    "trend_r_squared": 0.2306326145167753,
-    "trend_confidence": "low",
-    "trend_streak_months": 0,
+    "trend_direction": "rising",
+    "trend_slope_per_month": 0.00032570689537554827,
+    "trend_r_squared": 0.1646821890273915,
+    "trend_confidence": "medium",
+    "trend_streak_months": 1,
     "forecast_quality": "high",
     "model_name": "holt_winters",
     "lines_driving_trend": [
@@ -16067,8 +15902,6 @@
       }
     ],
     "structural_breaks": [
-      "2025-03",
-      "2025-04",
       "2025-05"
     ],
     "engine_cp": 56,
@@ -16584,12 +16417,7 @@
         "upper": 0.494024
       }
     ],
-    "structural_breaks": [
-      "2024-09",
-      "2024-10",
-      "2024-12",
-      "2025-01"
-    ],
+    "structural_breaks": [],
     "engine_cp": -54,
     "p_engine": 0.466301,
     "human_win_rate": 0.483988,
@@ -16597,8 +16425,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The A84 opening is stable, with a delta of 0.016335, indicating no significant change in win rate. This trend is consistent with engine evaluation, suggesting players can maintain their current strategy. A 1.63% increase in win rate is negligible.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.00024728276587363874,
-    "trend_r_squared": 0.11405365390408484,
+    "trend_slope_per_month": 0.00036973776360145347,
+    "trend_r_squared": 0.1386080062742847,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -16823,22 +16651,16 @@
         "upper": 0.489636
       }
     ],
-    "structural_breaks": [
-      "2023-09",
-      "2024-05",
-      "2024-06",
-      "2024-09",
-      "2025-01"
-    ],
+    "structural_breaks": [],
     "engine_cp": -48,
     "p_engine": 0.470036,
     "human_win_rate": 0.478787,
     "delta": 0.008751,
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate trend is rising, with a delta of 0.010043, indicating a slight increase in engine evaluation, consistent with engine evaluation, suggesting a slight advantage for the player.",
-    "trend_direction": "stable",
-    "trend_slope_per_month": -0.00010538459496551499,
-    "trend_r_squared": 0.013751030492248795,
+    "trend_direction": "falling",
+    "trend_slope_per_month": -0.0005045814964529933,
+    "trend_r_squared": 0.267601504510672,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -18966,11 +18788,7 @@
       }
     ],
     "structural_breaks": [
-      "2024-11",
-      "2024-12",
-      "2025-01",
-      "2025-02",
-      "2025-04"
+      "2025-01"
     ],
     "engine_cp": 129,
     "p_engine": 0.579933,
@@ -18979,8 +18797,8 @@
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "This opening has been erratic, with no clear trend over the past few months. A minor gap exists between engine and human performance, suggesting that humans are not underperforming engine predictions. Monitor this opening for potential improvements.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0030578784958726927,
-    "trend_r_squared": 0.5890104149564921,
+    "trend_slope_per_month": -0.0026040337492168504,
+    "trend_r_squared": 0.5326764151127911,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -19205,20 +19023,18 @@
         "upper": 0.46989
       }
     ],
-    "structural_breaks": [
-      "2025-01"
-    ],
+    "structural_breaks": [],
     "engine_cp": 70,
     "p_engine": 0.543639,
     "human_win_rate": 0.463124,
     "delta": -0.080515,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "The trend for this opening is stable, with no clear direction. The engine's edge is substantial, suggesting frequent errors or theory-heavy play. A 2000-rated player should be cautious when adopting this opening, as it may not be fully understood.",
-    "trend_direction": "stable",
-    "trend_slope_per_month": 0.0003271992637322614,
-    "trend_r_squared": 0.28709156507775935,
-    "trend_confidence": "low",
-    "trend_streak_months": 0,
+    "trend_direction": "rising",
+    "trend_slope_per_month": 0.00044183451237787873,
+    "trend_r_squared": 0.24666230194565908,
+    "trend_confidence": "medium",
+    "trend_streak_months": 1,
     "forecast_quality": "medium",
     "model_name": "holt_winters",
     "lines_driving_trend": [
@@ -20662,9 +20478,7 @@
         "upper": 0.524165
       }
     ],
-    "structural_breaks": [
-      "2025-08"
-    ],
+    "structural_breaks": [],
     "engine_cp": -1,
     "p_engine": 0.499375,
     "human_win_rate": 0.506957,
@@ -20672,8 +20486,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The B24 is rising with a delta of 0.01325, indicating an increase in engine evaluation. This trend is consistent with engine evaluation, suggesting a favorable position for players. A rising trend indicates a need to maintain the momentum.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0021889802712720375,
-    "trend_r_squared": 0.618045719369215,
+    "trend_slope_per_month": -0.00027703128641335474,
+    "trend_r_squared": 0.012450458085324634,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -21379,26 +21193,18 @@
         "upper": 0.475765
       }
     ],
-    "structural_breaks": [
-      "2024-04",
-      "2024-06",
-      "2024-07",
-      "2024-08",
-      "2024-10",
-      "2025-01",
-      "2025-02"
-    ],
+    "structural_breaks": [],
     "engine_cp": 53,
     "p_engine": 0.533077,
     "human_win_rate": 0.463967,
     "delta": -0.06911,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "The trend in this opening has been stable, with a notable gap in favour of the engine. A 2000-rated player should avoid adopting this opening, as it may be frequently misplayed or theory-heavy.",
-    "trend_direction": "stable",
-    "trend_slope_per_month": 0.00010022359601959745,
-    "trend_r_squared": 0.020742614046825425,
-    "trend_confidence": "low",
-    "trend_streak_months": 0,
+    "trend_direction": "rising",
+    "trend_slope_per_month": 0.0004138243092969603,
+    "trend_r_squared": 0.1958846910401416,
+    "trend_confidence": "medium",
+    "trend_streak_months": 1,
     "forecast_quality": "high",
     "model_name": "holt_winters",
     "lines_driving_trend": [
@@ -21622,30 +21428,7 @@
       }
     ],
     "structural_breaks": [
-      "2023-07",
-      "2023-08",
-      "2023-09",
-      "2023-10",
-      "2023-12",
-      "2024-01",
-      "2024-02",
-      "2024-03",
-      "2024-04",
-      "2024-05",
-      "2024-06",
-      "2024-07",
-      "2024-08",
-      "2024-09",
-      "2024-10",
-      "2024-11",
-      "2024-12",
-      "2025-01",
-      "2025-02",
-      "2025-03",
-      "2025-04",
-      "2025-05",
-      "2025-06",
-      "2025-07"
+      "2024-03"
     ],
     "engine_cp": 73,
     "p_engine": 0.545499,
@@ -21654,8 +21437,8 @@
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "The trend for this opening has trended upward recently, but with a notable gap between engine and human performance. A 2000-rated player should avoid adopting this opening until the gap narrows.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0009000809315585242,
-    "trend_r_squared": 0.10924859153099065,
+    "trend_slope_per_month": -0.0004536567218458146,
+    "trend_r_squared": 0.15488903298528056,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -21880,9 +21663,7 @@
         "upper": 0.48923
       }
     ],
-    "structural_breaks": [
-      "2024-09"
-    ],
+    "structural_breaks": [],
     "engine_cp": 41,
     "p_engine": 0.525603,
     "human_win_rate": 0.474107,
@@ -21890,8 +21671,8 @@
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "The trend for this opening is stable, showing no clear direction. The engine's prediction is slightly more accurate than human play, indicating a minor gap. A 2000-rated player may want to avoid this opening due to its stable, engine-favoured nature.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0006201123424231859,
-    "trend_r_squared": 0.1727802665507323,
+    "trend_slope_per_month": -0.0007262017473199923,
+    "trend_r_squared": 0.07440391906498223,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -22116,10 +21897,7 @@
         "upper": 0.518673
       }
     ],
-    "structural_breaks": [
-      "2023-07",
-      "2023-08"
-    ],
+    "structural_breaks": [],
     "engine_cp": 39,
     "p_engine": 0.524356,
     "human_win_rate": 0.504596,
@@ -22127,8 +21905,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The B31 is experiencing a falling win-rate trend, with a delta of -0.01989, indicating a slight decrease in engine evaluation. This suggests that players may be able to regain an advantage by adapting their strategies.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.000326241518315804,
-    "trend_r_squared": 0.35514614109108256,
+    "trend_slope_per_month": -5.147778727010443e-05,
+    "trend_r_squared": 0.0014701486118691154,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -22587,11 +22365,7 @@
         "upper": 0.493138
       }
     ],
-    "structural_breaks": [
-      "2024-11",
-      "2025-05",
-      "2025-08"
-    ],
+    "structural_breaks": [],
     "engine_cp": 39,
     "p_engine": 0.524356,
     "human_win_rate": 0.480452,
@@ -22599,8 +22373,8 @@
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "This opening shows signs of falling, with a notable gap between human and engine performance. The trend is erratic, making it a high-risk, high-reward choice. A 2000-rated player should monitor this opening to see if it continues to decline.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0005840755010626922,
-    "trend_r_squared": 0.1471216670034563,
+    "trend_slope_per_month": 0.0001299333333118443,
+    "trend_r_squared": 0.011112629180466072,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -23049,18 +22823,16 @@
         "upper": 0.510196
       }
     ],
-    "structural_breaks": [
-      "2023-07"
-    ],
+    "structural_breaks": [],
     "engine_cp": -29,
     "p_engine": 0.481883,
     "human_win_rate": 0.481565,
     "delta": -0.000318,
     "interpretation": "consistent with engine evaluation",
     "narrative": "The B35 Sicilian Defense has seen a stable trend with a minor engine-human delta of 0.007487, indicating consistent engine evaluation. This means players can rely on their engines for strategic decisions.",
-    "trend_direction": "stable",
-    "trend_slope_per_month": 0.0006539503061625753,
-    "trend_r_squared": 0.38533712899795325,
+    "trend_direction": "rising",
+    "trend_slope_per_month": 0.0010328459079709292,
+    "trend_r_squared": 0.23852713456274666,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -23285,22 +23057,18 @@
         "upper": 0.49465
       }
     ],
-    "structural_breaks": [
-      "2023-07",
-      "2023-08",
-      "2023-09"
-    ],
+    "structural_breaks": [],
     "engine_cp": -55,
     "p_engine": 0.465679,
     "human_win_rate": 0.482188,
     "delta": 0.016509,
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate trend is rising, with a delta of 0.010124, indicating a slight increase in engine evaluation, consistent with engine evaluation, suggesting a slight advantage for the player.",
-    "trend_direction": "stable",
-    "trend_slope_per_month": -5.0930739532868885e-05,
-    "trend_r_squared": 0.004011726230508161,
-    "trend_confidence": "low",
-    "trend_streak_months": 0,
+    "trend_direction": "rising",
+    "trend_slope_per_month": 0.0010382375201296744,
+    "trend_r_squared": 0.16662915497474506,
+    "trend_confidence": "medium",
+    "trend_streak_months": 1,
     "forecast_quality": "low",
     "model_name": "holt_winters",
     "lines_driving_trend": [
@@ -23523,9 +23291,7 @@
         "upper": 0.515027
       }
     ],
-    "structural_breaks": [
-      "2023-08"
-    ],
+    "structural_breaks": [],
     "engine_cp": 60,
     "p_engine": 0.53743,
     "human_win_rate": 0.501218,
@@ -23533,8 +23299,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "This opening has been stable, with a minor gap between engine predictions and human performance. A 2000-rated player should avoid adopting this opening, as it may not be the best fit for their skill level.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 2.554634798002709e-05,
-    "trend_r_squared": 0.0016091466670475896,
+    "trend_slope_per_month": 0.0006305989252226724,
+    "trend_r_squared": 0.11397693893100147,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -24728,17 +24494,7 @@
       }
     ],
     "structural_breaks": [
-      "2024-05",
-      "2024-06",
-      "2024-07",
-      "2024-08",
-      "2024-09",
-      "2024-10",
-      "2024-11",
-      "2024-12",
-      "2025-01",
-      "2025-05",
-      "2025-08"
+      "2024-07"
     ],
     "engine_cp": 49,
     "p_engine": 0.530587,
@@ -24747,8 +24503,8 @@
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "This opening has been stable, with a minor gap between engine and human performance. A 2000-rated player should monitor this opening, as it may offer opportunities for improvement.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.00031112726710186587,
-    "trend_r_squared": 0.051682001056239435,
+    "trend_slope_per_month": 0.000437767007745095,
+    "trend_r_squared": 0.4621195015416215,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -24973,9 +24729,7 @@
         "upper": 0.464222
       }
     ],
-    "structural_breaks": [
-      "2025-02"
-    ],
+    "structural_breaks": [],
     "engine_cp": 44,
     "p_engine": 0.527472,
     "human_win_rate": 0.451034,
@@ -24983,8 +24737,8 @@
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "The trend for this opening is stable, with no clear direction. The engine's edge is minor, suggesting a relatively balanced position. A 2000-rated player can consider adopting this opening, but should be prepared to adapt to engine-favoured lines.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 7.587952977058704e-05,
-    "trend_r_squared": 0.006378689301317131,
+    "trend_slope_per_month": -2.647682550929419e-05,
+    "trend_r_squared": 0.0007137084608622724,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -25209,9 +24963,7 @@
         "upper": 0.49786
       }
     ],
-    "structural_breaks": [
-      "2023-08"
-    ],
+    "structural_breaks": [],
     "engine_cp": 57,
     "p_engine": 0.535565,
     "human_win_rate": 0.484651,
@@ -25219,8 +24971,8 @@
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "The trend for this opening is stable, with a notable gap between engine and human performance. A 2000-rated player should avoid this opening, as it may be difficult to execute effectively.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.00012556303010977473,
-    "trend_r_squared": 0.026941526748484934,
+    "trend_slope_per_month": 0.0004913701751678748,
+    "trend_r_squared": 0.05342734656939119,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -25446,10 +25198,7 @@
       }
     ],
     "structural_breaks": [
-      "2024-08",
-      "2024-09",
-      "2024-10",
-      "2024-11"
+      "2024-10"
     ],
     "engine_cp": 55,
     "p_engine": 0.534321,
@@ -25458,8 +25207,8 @@
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "The trend for this opening has trended upward recently, with a notable gap between engine and human performance. A 2000-rated player should avoid adopting this opening until the gap narrows.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0015614356966881567,
-    "trend_r_squared": 0.5718169581459676,
+    "trend_slope_per_month": 0.0015130273663505397,
+    "trend_r_squared": 0.5939406282071391,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -26138,12 +25887,7 @@
         "upper": 0.489668
       }
     ],
-    "structural_breaks": [
-      "2023-10",
-      "2023-11",
-      "2023-12",
-      "2024-01"
-    ],
+    "structural_breaks": [],
     "engine_cp": -42,
     "p_engine": 0.473774,
     "human_win_rate": 0.483664,
@@ -26151,8 +25895,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The B50 King's Pawn Opening has maintained a stable trend with a minor engine-human delta of 0.007223, indicating that engine evaluations are consistent with human play.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.00010433649262151739,
-    "trend_r_squared": 0.14519758749415812,
+    "trend_slope_per_month": 0.000258060845318586,
+    "trend_r_squared": 0.1409502493634156,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -26367,10 +26111,7 @@
         "upper": 0.511116
       }
     ],
-    "structural_breaks": [
-      "2024-08",
-      "2025-09"
-    ],
+    "structural_breaks": [],
     "engine_cp": -17,
     "p_engine": 0.489377,
     "human_win_rate": 0.497993,
@@ -26378,8 +26119,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate trend is rising, with a delta of 0.009753, indicating a slight increase in engine evaluation, consistent with engine evaluation, suggesting a slight advantage for the player.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0014859281369577486,
-    "trend_r_squared": 0.4781224083656678,
+    "trend_slope_per_month": -2.5855553857972637e-05,
+    "trend_r_squared": 0.00030180915940003494,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -27118,9 +26859,7 @@
         "upper": 0.479674
       }
     ],
-    "structural_breaks": [
-      "2025-09"
-    ],
+    "structural_breaks": [],
     "engine_cp": 48,
     "p_engine": 0.529964,
     "human_win_rate": 0.472404,
@@ -27128,8 +26867,8 @@
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "The engine has a notable gap over human performance, indicating a theoretical advantage not being realised in play. A 2000-rated player should avoid this opening, as it may be difficult to exploit.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0013523307462791775,
-    "trend_r_squared": 0.5061908150160496,
+    "trend_slope_per_month": -0.00010317605968696261,
+    "trend_r_squared": 0.0039248020878844825,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -27630,21 +27369,18 @@
         "upper": 0.520351
       }
     ],
-    "structural_breaks": [
-      "2025-09",
-      "2025-10"
-    ],
+    "structural_breaks": [],
     "engine_cp": -38,
     "p_engine": 0.476268,
     "human_win_rate": 0.497379,
     "delta": 0.021111,
     "interpretation": "consistent with engine evaluation",
     "narrative": "This opening has been rising consistently, with a high trend confidence and a sustained streak of 2 months. However, the engine delta is minor, indicating a small gap between human and engine performance. A 2000-rated player may want to monitor this opening, as it shows promise but requires further analysis.",
-    "trend_direction": "rising",
-    "trend_slope_per_month": 0.004899896380883415,
-    "trend_r_squared": 0.7960774305649355,
-    "trend_confidence": "high",
-    "trend_streak_months": 2,
+    "trend_direction": "stable",
+    "trend_slope_per_month": -3.734105663229644e-05,
+    "trend_r_squared": 6.758214167268406e-05,
+    "trend_confidence": "low",
+    "trend_streak_months": 0,
     "forecast_quality": "low",
     "model_name": "holt_winters",
     "lines_driving_trend": [
@@ -28285,10 +28021,7 @@
         "upper": 0.471681
       }
     ],
-    "structural_breaks": [
-      "2024-03",
-      "2025-06"
-    ],
+    "structural_breaks": [],
     "engine_cp": 62,
     "p_engine": 0.538673,
     "human_win_rate": 0.460392,
@@ -28296,8 +28029,8 @@
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "This opening has been stable, with no clear trend. The engine's advantage is notable, indicating possible misplay or theory-heavy play. A 2000-rated player should be aware of the engine's edge and adjust their strategy accordingly.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0004171446307706598,
-    "trend_r_squared": 0.08004358021695279,
+    "trend_slope_per_month": 6.048638798451827e-06,
+    "trend_r_squared": 1.7132969400757148e-05,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -29240,7 +28973,6 @@
       }
     ],
     "structural_breaks": [
-      "2025-05",
       "2025-06"
     ],
     "engine_cp": 74,
@@ -29476,15 +29208,7 @@
         "upper": 0.487988
       }
     ],
-    "structural_breaks": [
-      "2023-10",
-      "2023-11",
-      "2024-05",
-      "2024-08",
-      "2024-11",
-      "2024-12",
-      "2025-09"
-    ],
+    "structural_breaks": [],
     "engine_cp": 62,
     "p_engine": 0.538673,
     "human_win_rate": 0.473883,
@@ -29492,8 +29216,8 @@
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "This opening has been stable, with a minor gap in favour of the engine. A 2000-rated player should monitor this opening, as it may be showing no clear trend.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.002785319648679731,
-    "trend_r_squared": 0.4580738305699086,
+    "trend_slope_per_month": -0.0002468475012110969,
+    "trend_r_squared": 0.008822376599431081,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -30209,11 +29933,7 @@
         "upper": 0.495488
       }
     ],
-    "structural_breaks": [
-      "2024-08",
-      "2024-09",
-      "2024-12"
-    ],
+    "structural_breaks": [],
     "engine_cp": 65,
     "p_engine": 0.540536,
     "human_win_rate": 0.483329,
@@ -30221,8 +29941,8 @@
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "This opening has been stable, with no clear trend, but a minor gap between human and engine performance. A 2000-rated player should monitor this opening, as it may offer opportunities for counterplay.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0010602528924638268,
-    "trend_r_squared": 0.296837210439453,
+    "trend_slope_per_month": -0.0007582318007655363,
+    "trend_r_squared": 0.08151330605950713,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -31069,16 +30789,7 @@
       }
     ],
     "structural_breaks": [
-      "2025-01",
-      "2025-02",
-      "2025-03",
-      "2025-04",
-      "2025-05",
-      "2025-06",
-      "2025-07",
-      "2025-08",
-      "2025-09",
-      "2025-10"
+      "2025-05"
     ],
     "engine_cp": 37,
     "p_engine": 0.523109,
@@ -31087,8 +30798,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "This opening shows signs of rising, with a medium trend confidence and a sustained streak of 2 months. However, a notable gap exists between engine and human performance, with humans underperforming engine predictions. A 2000-rated player should monitor this opening to see if it continues to trend upward.",
     "trend_direction": "rising",
-    "trend_slope_per_month": 0.001216012862462286,
-    "trend_r_squared": 0.33344023842409687,
+    "trend_slope_per_month": 0.0008658537356203838,
+    "trend_r_squared": 0.5268111045737565,
     "trend_confidence": "medium",
     "trend_streak_months": 2,
     "forecast_quality": "medium",
@@ -31543,22 +31254,18 @@
         "upper": 0.488149
       }
     ],
-    "structural_breaks": [
-      "2025-07",
-      "2025-09",
-      "2025-10"
-    ],
+    "structural_breaks": [],
     "engine_cp": -25,
     "p_engine": 0.48438,
     "human_win_rate": 0.468695,
     "delta": -0.015685,
     "interpretation": "consistent with engine evaluation",
     "narrative": "The B92 opening is stable, with a delta of -0.017047, indicating no significant change in win rate. This trend is consistent with engine evaluation, suggesting players can maintain their current strategy. A 1.7% decrease in win rate is negligible.",
-    "trend_direction": "stable",
-    "trend_slope_per_month": 0.0037431806619258987,
-    "trend_r_squared": 0.44593358324301735,
-    "trend_confidence": "low",
-    "trend_streak_months": 0,
+    "trend_direction": "rising",
+    "trend_slope_per_month": 0.0013845588204853942,
+    "trend_r_squared": 0.22814551140706363,
+    "trend_confidence": "medium",
+    "trend_streak_months": 1,
     "forecast_quality": "high",
     "model_name": "holt_winters",
     "lines_driving_trend": [
@@ -33205,24 +32912,7 @@
       }
     ],
     "structural_breaks": [
-      "2023-09",
-      "2023-10",
-      "2023-11",
-      "2023-12",
-      "2024-01",
-      "2024-02",
-      "2024-03",
-      "2024-04",
-      "2024-05",
-      "2024-06",
-      "2024-07",
-      "2024-08",
-      "2024-09",
-      "2024-10",
-      "2024-11",
-      "2024-12",
-      "2025-01",
-      "2025-02"
+      "2023-10"
     ],
     "engine_cp": -19,
     "p_engine": 0.488127,
@@ -33231,8 +32921,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "This opening has been stable, with no clear trend over the past few months. The engine-human gap is minor, indicating that the engine's evaluation is consistent with practical play. A 2000-rated player should monitor this opening to see if it becomes more popular.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.00017966847728810996,
-    "trend_r_squared": 0.0819479614444435,
+    "trend_slope_per_month": 0.00019377153863521805,
+    "trend_r_squared": 0.3881969681195009,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -33682,8 +33372,7 @@
       }
     ],
     "structural_breaks": [
-      "2024-05",
-      "2024-07"
+      "2024-05"
     ],
     "engine_cp": -32,
     "p_engine": 0.480011,
@@ -33692,8 +33381,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate trend is rising, with a delta of 0.019, indicating a slight increase in engine evaluation, suggesting the player should focus on refining their opening strategy.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.00029784967083816994,
-    "trend_r_squared": 0.28848244175647875,
+    "trend_slope_per_month": -0.0002451209957922141,
+    "trend_r_squared": 0.20407903313443498,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -36086,29 +35775,7 @@
       }
     ],
     "structural_breaks": [
-      "2023-07",
-      "2023-08",
-      "2023-09",
-      "2023-10",
-      "2023-11",
-      "2023-12",
-      "2024-01",
-      "2024-02",
-      "2024-03",
-      "2024-04",
-      "2024-08",
-      "2024-09",
-      "2024-10",
-      "2024-11",
-      "2024-12",
-      "2025-01",
-      "2025-02",
-      "2025-03",
-      "2025-04",
-      "2025-05",
-      "2025-06",
-      "2025-07",
-      "2025-08"
+      "2023-11"
     ],
     "engine_cp": -51,
     "p_engine": 0.468168,
@@ -36116,11 +35783,11 @@
     "delta": 0.015589,
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate trend is rising, with a delta of 0.022538. This increase in engine evaluation suggests players should consider adopting this opening for better results.",
-    "trend_direction": "falling",
-    "trend_slope_per_month": -0.0007847528573933914,
-    "trend_r_squared": 0.17508125304463906,
-    "trend_confidence": "medium",
-    "trend_streak_months": 3,
+    "trend_direction": "stable",
+    "trend_slope_per_month": -2.383209787181869e-05,
+    "trend_r_squared": 0.0015653642659390066,
+    "trend_confidence": "low",
+    "trend_streak_months": 0,
     "forecast_quality": "medium",
     "model_name": "holt_winters",
     "lines_driving_trend": [
@@ -36344,17 +36011,7 @@
       }
     ],
     "structural_breaks": [
-      "2023-07",
-      "2023-08",
-      "2023-09",
-      "2023-10",
-      "2023-11",
-      "2023-12",
-      "2024-01",
-      "2024-02",
-      "2025-08",
-      "2025-09",
-      "2025-10"
+      "2023-11"
     ],
     "engine_cp": 49,
     "p_engine": 0.530587,
@@ -36362,11 +36019,11 @@
     "delta": -0.048451,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "This opening has trended downward recently, showing signs of a falling trend. A major gap exists between engine and human performance, indicating that humans are significantly underperforming engine predictions. Avoid adopting this opening.",
-    "trend_direction": "falling",
-    "trend_slope_per_month": -0.002021546368633267,
-    "trend_r_squared": 0.23083132538357476,
-    "trend_confidence": "medium",
-    "trend_streak_months": 3,
+    "trend_direction": "stable",
+    "trend_slope_per_month": -3.3896787360843254e-05,
+    "trend_r_squared": 0.002098833923856014,
+    "trend_confidence": "low",
+    "trend_streak_months": 0,
     "forecast_quality": "medium",
     "model_name": "holt_winters",
     "lines_driving_trend": [
@@ -37783,15 +37440,7 @@
       }
     ],
     "structural_breaks": [
-      "2023-08",
-      "2023-09",
-      "2023-10",
-      "2023-12",
-      "2024-05",
-      "2025-06",
-      "2025-07",
-      "2025-08",
-      "2025-09"
+      "2025-07"
     ],
     "engine_cp": 35,
     "p_engine": 0.521861,
@@ -37800,8 +37449,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate is erratic with a minor gap in engine evaluation. Recent volatility is low, indicating a consistent series.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0010282653716132356,
-    "trend_r_squared": 0.24677925991828098,
+    "trend_slope_per_month": -0.002348411472562542,
+    "trend_r_squared": 0.6146618101203809,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -39725,9 +39374,7 @@
         "upper": 0.474732
       }
     ],
-    "structural_breaks": [
-      "2025-10"
-    ],
+    "structural_breaks": [],
     "engine_cp": -5,
     "p_engine": 0.496875,
     "human_win_rate": 0.449058,
@@ -39735,8 +39382,8 @@
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "This opening has been erratic, with no clear trend over the past few months. A minor gap exists between engine and human performance, suggesting that humans are not underperforming engine predictions. Monitor this opening for potential improvements.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0028134418905337933,
-    "trend_r_squared": 0.5365849555196032,
+    "trend_slope_per_month": 0.0008903549866699791,
+    "trend_r_squared": 0.10687655757438164,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -40031,7 +39678,6 @@
       }
     ],
     "structural_breaks": [
-      "2023-08",
       "2023-09"
     ],
     "engine_cp": 106,
@@ -40267,18 +39913,16 @@
         "upper": 0.483333
       }
     ],
-    "structural_breaks": [
-      "2025-07"
-    ],
+    "structural_breaks": [],
     "engine_cp": 49,
     "p_engine": 0.530587,
     "human_win_rate": 0.482102,
     "delta": -0.048485,
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "The trend for this opening is stable, with no clear direction. A notable gap exists between engine and human performance, indicating that humans are underperforming engine predictions. Avoid adopting this opening until the trend stabilises.",
-    "trend_direction": "stable",
-    "trend_slope_per_month": 5.2954226908388355e-05,
-    "trend_r_squared": 0.005280598040128703,
+    "trend_direction": "falling",
+    "trend_slope_per_month": -0.0005538106318932234,
+    "trend_r_squared": 0.2753303275236981,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -40503,9 +40147,7 @@
         "upper": 0.524982
       }
     ],
-    "structural_breaks": [
-      "2024-05"
-    ],
+    "structural_breaks": [],
     "engine_cp": 18,
     "p_engine": 0.511248,
     "human_win_rate": 0.50653,
@@ -40513,8 +40155,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The C43 opening is falling with low trend confidence, resulting in an erratic win-rate. The minor gap in engine evaluation suggests a slight underperformance. Recent volatility is high.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0009035510070883538,
-    "trend_r_squared": 0.14206188708847756,
+    "trend_slope_per_month": -0.0002892021652148354,
+    "trend_r_squared": 0.00307164426494011,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -40740,10 +40382,7 @@
       }
     ],
     "structural_breaks": [
-      "2024-03",
-      "2024-04",
-      "2024-05",
-      "2025-09"
+      "2024-04"
     ],
     "engine_cp": -10,
     "p_engine": 0.49375,
@@ -40752,8 +40391,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate is stable with low confidence, described as range-bound. Minor gap from engine evaluation.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0002905148166533218,
-    "trend_r_squared": 0.059115480200632065,
+    "trend_slope_per_month": -0.00020716791386716872,
+    "trend_r_squared": 0.2713547661550033,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -40978,9 +40617,7 @@
         "upper": 0.514667
       }
     ],
-    "structural_breaks": [
-      "2024-01"
-    ],
+    "structural_breaks": [],
     "engine_cp": -30,
     "p_engine": 0.481259,
     "human_win_rate": 0.507516,
@@ -40988,8 +40625,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The C46 opening is stable, with a delta of 0.01632, indicating no significant change in win rate. This trend is consistent with engine evaluation, suggesting players can maintain their current strategy. A 1.63% increase in win rate is negligible.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -3.062701713797035e-05,
-    "trend_r_squared": 0.01208583167768329,
+    "trend_slope_per_month": 1.9633211466694134e-05,
+    "trend_r_squared": 0.0008780635476309806,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -42221,22 +41858,18 @@
         "upper": 0.48672
       }
     ],
-    "structural_breaks": [
-      "2025-06",
-      "2025-08",
-      "2025-10"
-    ],
+    "structural_breaks": [],
     "engine_cp": 15,
     "p_engine": 0.509374,
     "human_win_rate": 0.481476,
     "delta": -0.027898,
     "interpretation": "consistent with engine evaluation",
     "narrative": "The trend is stable, with a low trend confidence and no sustained streak. The engine-human gap is minor, indicating a stable theoretical advantage for white. A 2000-rated player should monitor this opening for potential growth.",
-    "trend_direction": "stable",
-    "trend_slope_per_month": -0.00014899113107820426,
-    "trend_r_squared": 0.03050624728883089,
-    "trend_confidence": "low",
-    "trend_streak_months": 0,
+    "trend_direction": "falling",
+    "trend_slope_per_month": -0.0003785770713620068,
+    "trend_r_squared": 0.20247012108395468,
+    "trend_confidence": "medium",
+    "trend_streak_months": 2,
     "forecast_quality": "medium",
     "model_name": "holt_winters",
     "lines_driving_trend": [
@@ -42460,12 +42093,7 @@
       }
     ],
     "structural_breaks": [
-      "2025-05",
-      "2025-06",
-      "2025-07",
-      "2025-08",
-      "2025-09",
-      "2025-10"
+      "2025-08"
     ],
     "engine_cp": 18,
     "p_engine": 0.511248,
@@ -42474,8 +42102,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The C56 is showing a rising win-rate trend, with a delta of -0.019782, but the engine's evaluation is still slightly lower than human predictions. This indicates a potential opportunity for players to exploit the engine's weaknesses.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.003957773688375827,
-    "trend_r_squared": 0.8397894417640817,
+    "trend_slope_per_month": -0.003456110547625489,
+    "trend_r_squared": 0.8770023394289185,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -42723,9 +42351,7 @@
         "upper": 0.527557
       }
     ],
-    "structural_breaks": [
-      "2025-10"
-    ],
+    "structural_breaks": [],
     "engine_cp": 13,
     "p_engine": 0.508124,
     "human_win_rate": 0.482156,
@@ -42733,8 +42359,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate trend is falling, with a delta of -0.023644. This indicates a slight decrease in engine evaluation, suggesting players should be cautious with this opening.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.009892255085502375,
-    "trend_r_squared": 0.42521532645681437,
+    "trend_slope_per_month": 0.0029061721164816623,
+    "trend_r_squared": 0.14586728855384512,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -43451,14 +43077,7 @@
       }
     ],
     "structural_breaks": [
-      "2023-07",
-      "2023-08",
-      "2023-09",
-      "2023-10",
-      "2023-11",
-      "2023-12",
-      "2024-01",
-      "2025-10"
+      "2023-12"
     ],
     "engine_cp": 36,
     "p_engine": 0.522485,
@@ -43467,8 +43086,8 @@
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "This opening has been stable, with no clear trend. The engine's advantage is significant, indicating frequent misplay or theory-heavy play. A 2000-rated player should be cautious when adopting this opening, as it may not be fully understood.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.003955443024431925,
-    "trend_r_squared": 0.47000242959143734,
+    "trend_slope_per_month": 7.329732668766978e-05,
+    "trend_r_squared": 0.007113434596233481,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -43716,21 +43335,18 @@
         "upper": 0.514803
       }
     ],
-    "structural_breaks": [
-      "2024-09",
-      "2025-01"
-    ],
+    "structural_breaks": [],
     "engine_cp": 32,
     "p_engine": 0.519989,
     "human_win_rate": 0.50717,
     "delta": -0.012819,
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate trend is rising, with a delta of -0.009491, indicating a slight decrease in engine evaluation, consistent with engine evaluation, suggesting a slight advantage for the player.",
-    "trend_direction": "stable",
-    "trend_slope_per_month": -0.00018226017817702777,
-    "trend_r_squared": 0.031244583513666435,
-    "trend_confidence": "low",
-    "trend_streak_months": 0,
+    "trend_direction": "falling",
+    "trend_slope_per_month": -0.0006098012538710321,
+    "trend_r_squared": 0.21214065783926372,
+    "trend_confidence": "medium",
+    "trend_streak_months": 3,
     "forecast_quality": "medium",
     "model_name": "holt_winters",
     "lines_driving_trend": [
@@ -45919,27 +45535,7 @@
       }
     ],
     "structural_breaks": [
-      "2024-02",
-      "2024-03",
-      "2024-04",
-      "2024-05",
-      "2024-06",
-      "2024-07",
-      "2024-08",
-      "2024-09",
-      "2024-10",
-      "2024-11",
-      "2024-12",
-      "2025-01",
-      "2025-02",
-      "2025-03",
-      "2025-04",
-      "2025-05",
-      "2025-06",
-      "2025-07",
-      "2025-08",
-      "2025-09",
-      "2025-10"
+      "2025-04"
     ],
     "engine_cp": -42,
     "p_engine": 0.473774,
@@ -45948,8 +45544,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The C88 is falling with a delta of 0.012347, indicating a decrease in engine evaluation. This trend is consistent with engine evaluation, suggesting a challenging position for players. A falling trend indicates a need to reassess strategies.",
     "trend_direction": "rising",
-    "trend_slope_per_month": 0.0025672379677745094,
-    "trend_r_squared": 0.286777347761521,
+    "trend_slope_per_month": 0.0016397313024477179,
+    "trend_r_squared": 0.4460406144893192,
     "trend_confidence": "medium",
     "trend_streak_months": 3,
     "forecast_quality": "medium",
@@ -47262,9 +46858,7 @@
       }
     ],
     "structural_breaks": [
-      "2025-06",
-      "2025-07",
-      "2025-08"
+      "2025-07"
     ],
     "engine_cp": 0,
     "p_engine": 0.5,
@@ -47273,8 +46867,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The D01 Queen's Pawn Game is falling, with a 0.008046 delta, indicating a slight decline in engine evaluations, suggesting players should reassess their strategy for this opening.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0015023712656339996,
-    "trend_r_squared": 0.6139356982355693,
+    "trend_slope_per_month": -0.0013365114456630723,
+    "trend_r_squared": 0.6176821581627902,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -48458,10 +48052,7 @@
         "upper": 0.503747
       }
     ],
-    "structural_breaks": [
-      "2025-09",
-      "2025-10"
-    ],
+    "structural_breaks": [],
     "engine_cp": 65,
     "p_engine": 0.540536,
     "human_win_rate": 0.489687,
@@ -48469,8 +48060,8 @@
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "This opening has been stable, with a minor gap between engine and human performance. A 2000-rated player should monitor this opening, as it may offer opportunities for improvement.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0015652522816890445,
-    "trend_r_squared": 0.33368886691188415,
+    "trend_slope_per_month": 0.0005459420188570251,
+    "trend_r_squared": 0.10309679794621485,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -48930,15 +48521,7 @@
       }
     ],
     "structural_breaks": [
-      "2024-03",
-      "2024-04",
-      "2024-05",
-      "2024-06",
-      "2024-07",
-      "2024-08",
-      "2024-09",
-      "2025-09",
-      "2025-10"
+      "2024-04"
     ],
     "engine_cp": 28,
     "p_engine": 0.517493,
@@ -48947,8 +48530,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The D10 Slav Defense has shown a stable trend with a minor engine-human delta of -0.007215, suggesting that players can trust engine recommendations for strategic decisions.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0005228899660947376,
-    "trend_r_squared": 0.39330409685145307,
+    "trend_slope_per_month": 0.00020377022519011442,
+    "trend_r_squared": 0.3952413552145463,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -49423,11 +49006,7 @@
       }
     ],
     "structural_breaks": [
-      "2023-08",
-      "2023-09",
-      "2023-11",
-      "2023-12",
-      "2024-01"
+      "2023-11"
     ],
     "engine_cp": 20,
     "p_engine": 0.512497,
@@ -49436,8 +49015,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "This opening has been stable, with no clear trend over the past few months. The engine-human gap is minor, indicating that the engine's evaluation is consistent with practical play. A 2000-rated player should monitor this opening to see if it becomes more popular.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -1.2204226863493208e-05,
-    "trend_r_squared": 0.00016150892916333426,
+    "trend_slope_per_month": 8.111942993964552e-06,
+    "trend_r_squared": 8.522272323541191e-05,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -50586,21 +50165,18 @@
         "upper": 0.505576
       }
     ],
-    "structural_breaks": [
-      "2024-06",
-      "2024-12"
-    ],
+    "structural_breaks": [],
     "engine_cp": -29,
     "p_engine": 0.481883,
     "human_win_rate": 0.468736,
     "delta": -0.013147,
     "interpretation": "consistent with engine evaluation",
     "narrative": "The D18 opening is stable with low trend confidence, leading to a range-bound win-rate. The minor gap in engine evaluation indicates a slight underperformance. Volatility is moderate.",
-    "trend_direction": "falling",
-    "trend_slope_per_month": -0.001620556373925297,
-    "trend_r_squared": 0.24404663056721865,
-    "trend_confidence": "medium",
-    "trend_streak_months": 3,
+    "trend_direction": "stable",
+    "trend_slope_per_month": -0.0006259759806406083,
+    "trend_r_squared": 0.021925627586718566,
+    "trend_confidence": "low",
+    "trend_streak_months": 0,
     "forecast_quality": "medium",
     "model_name": "holt_winters",
     "lines_driving_trend": [
@@ -50846,10 +50422,7 @@
         "upper": 0.510696
       }
     ],
-    "structural_breaks": [
-      "2024-06",
-      "2024-07"
-    ],
+    "structural_breaks": [],
     "engine_cp": 43,
     "p_engine": 0.526849,
     "human_win_rate": 0.510166,
@@ -50857,8 +50430,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The D20 is rising with a delta of -0.012327, indicating a slight decrease in engine evaluation. This trend is consistent with engine evaluation, suggesting a need for strategic adjustments. A rising trend indicates a need to maintain the momentum.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0001282632506903286,
-    "trend_r_squared": 0.0661125744528227,
+    "trend_slope_per_month": -0.00029114453414809063,
+    "trend_r_squared": 0.09582551355705327,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -51130,7 +50703,6 @@
       }
     ],
     "structural_breaks": [
-      "2025-09",
       "2025-10"
     ],
     "engine_cp": 29,
@@ -51366,20 +50938,18 @@
         "upper": 0.562261
       }
     ],
-    "structural_breaks": [
-      "2024-06"
-    ],
+    "structural_breaks": [],
     "engine_cp": -33,
     "p_engine": 0.479387,
     "human_win_rate": 0.537825,
     "delta": 0.058438,
     "interpretation": "humans outperform engine \u2014 rewards human skill",
     "narrative": "This opening has been stable, with no clear trend, but a minor gap between human and engine performance. A 2000-rated player should monitor this opening, as it may offer opportunities for counterplay.",
-    "trend_direction": "stable",
-    "trend_slope_per_month": -0.0004606787051704358,
-    "trend_r_squared": 0.054513587259483964,
-    "trend_confidence": "low",
-    "trend_streak_months": 0,
+    "trend_direction": "falling",
+    "trend_slope_per_month": -0.00206503763346306,
+    "trend_r_squared": 0.19962084707601235,
+    "trend_confidence": "medium",
+    "trend_streak_months": 1,
     "forecast_quality": "medium",
     "model_name": "holt_winters",
     "lines_driving_trend": [
@@ -52428,10 +51998,7 @@
         "upper": 0.530162
       }
     ],
-    "structural_breaks": [
-      "2024-02",
-      "2024-04"
-    ],
+    "structural_breaks": [],
     "engine_cp": -26,
     "p_engine": 0.483756,
     "human_win_rate": 0.519345,
@@ -52439,8 +52006,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "This opening has been stable, with a minor gap between engine predictions and human performance. A 2000-rated player should consider adopting this opening, as it may offer opportunities for growth.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 7.700722443946048e-05,
-    "trend_r_squared": 0.010637201758442405,
+    "trend_slope_per_month": 0.0003333774824226602,
+    "trend_r_squared": 0.03809049841731915,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -52899,14 +52466,7 @@
         "upper": 0.515557
       }
     ],
-    "structural_breaks": [
-      "2023-07",
-      "2023-08",
-      "2024-02",
-      "2024-03",
-      "2024-04",
-      "2024-05"
-    ],
+    "structural_breaks": [],
     "engine_cp": 32,
     "p_engine": 0.519989,
     "human_win_rate": 0.495042,
@@ -52914,8 +52474,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The trend for this opening is stable, with no significant changes in recent months. However, the engine delta is notable, suggesting a discrepancy between human and engine performance. A 2000-rated player may want to avoid this opening, as the engine's evaluation is not being realised in practice.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0001972470751989609,
-    "trend_r_squared": 0.017863288634169083,
+    "trend_slope_per_month": -0.0012497931517366598,
+    "trend_r_squared": 0.13092214520061263,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -53140,10 +52700,7 @@
         "upper": 0.541107
       }
     ],
-    "structural_breaks": [
-      "2024-09",
-      "2024-10"
-    ],
+    "structural_breaks": [],
     "engine_cp": 32,
     "p_engine": 0.519989,
     "human_win_rate": 0.530921,
@@ -53151,8 +52708,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The D38 is rising with a delta of 0.012702, indicating an increase in engine evaluation. This trend is consistent with engine evaluation, suggesting a favorable position for players. A rising trend indicates a need to adapt to the changing dynamics.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.00047945077295025873,
-    "trend_r_squared": 0.1823705843865957,
+    "trend_slope_per_month": 0.0004371831975104421,
+    "trend_r_squared": 0.07268393448323218,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -53681,8 +53238,7 @@
       }
     ],
     "structural_breaks": [
-      "2024-06",
-      "2024-07"
+      "2024-06"
     ],
     "engine_cp": 29,
     "p_engine": 0.518117,
@@ -53691,8 +53247,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The win-rate is stable with low confidence, indicating a range-bound trend. A minor gap exists between actual and forecasted win-rates.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.00018638968392997263,
-    "trend_r_squared": 0.1401583638260956,
+    "trend_slope_per_month": 0.00018191543574438328,
+    "trend_r_squared": 0.15061440968472894,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -53917,12 +53473,7 @@
         "upper": 0.501785
       }
     ],
-    "structural_breaks": [
-      "2024-05",
-      "2024-06",
-      "2024-07",
-      "2024-09"
-    ],
+    "structural_breaks": [],
     "engine_cp": 63,
     "p_engine": 0.539294,
     "human_win_rate": 0.46971,
@@ -53930,8 +53481,8 @@
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "This opening has been showing no clear trend, despite a minor gap in favour of the engine. A 2000-rated player should monitor this opening, as its performance may be erratic.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0013930629168667458,
-    "trend_r_squared": 0.2718765148770913,
+    "trend_slope_per_month": 0.0004920081906672909,
+    "trend_r_squared": 0.015571180565682075,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -54933,10 +54484,7 @@
         "upper": 0.512044
       }
     ],
-    "structural_breaks": [
-      "2024-11",
-      "2025-03"
-    ],
+    "structural_breaks": [],
     "engine_cp": 20,
     "p_engine": 0.512497,
     "human_win_rate": 0.500361,
@@ -54944,8 +54492,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The D53 is experiencing a rising trend with a delta of -0.013439, indicating a slight decrease in engine evaluation. This may pose a challenge for players, as they need to adapt to the changing dynamics. A consistent interpretation with engine evaluation suggests a need for strategic adjustments.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.00046291647473788703,
-    "trend_r_squared": 0.12092723291990792,
+    "trend_slope_per_month": -0.00023220390333192779,
+    "trend_r_squared": 0.04607838246434448,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -55519,10 +55067,7 @@
         "upper": 0.505742
       }
     ],
-    "structural_breaks": [
-      "2025-02",
-      "2025-03"
-    ],
+    "structural_breaks": [],
     "engine_cp": 24,
     "p_engine": 0.514996,
     "human_win_rate": 0.483569,
@@ -55530,8 +55075,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The trend for this opening is stable, with no clear direction. A minor gap exists between engine and human performance, suggesting that white's theoretical advantage is not being fully utilised. A 2000-rated player should monitor this opening for potential improvement opportunities.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0013551702962113592,
-    "trend_r_squared": 0.33315339895586815,
+    "trend_slope_per_month": -0.0009035355562889978,
+    "trend_r_squared": 0.1336316193596947,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -56965,7 +56510,6 @@
       }
     ],
     "structural_breaks": [
-      "2023-12",
       "2025-05"
     ],
     "engine_cp": 25,
@@ -57711,21 +57255,7 @@
         "upper": 0.489205
       }
     ],
-    "structural_breaks": [
-      "2023-12",
-      "2024-06",
-      "2024-11",
-      "2024-12",
-      "2025-01",
-      "2025-02",
-      "2025-03",
-      "2025-04",
-      "2025-05",
-      "2025-06",
-      "2025-07",
-      "2025-08",
-      "2025-09"
-    ],
+    "structural_breaks": [],
     "engine_cp": 28,
     "p_engine": 0.517493,
     "human_win_rate": 0.467102,
@@ -57733,8 +57263,8 @@
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "This opening has been rising consistently, with a minor gap between engine and human performance. A 2000-rated player should adopt this opening, as it may offer a competitive edge.",
     "trend_direction": "rising",
-    "trend_slope_per_month": 0.0008885045080434533,
-    "trend_r_squared": 0.23914530920524413,
+    "trend_slope_per_month": 0.0006165579121746533,
+    "trend_r_squared": 0.16064759370217163,
     "trend_confidence": "medium",
     "trend_streak_months": 2,
     "forecast_quality": "medium",
@@ -57960,30 +57490,7 @@
       }
     ],
     "structural_breaks": [
-      "2023-09",
-      "2023-12",
-      "2024-01",
-      "2024-02",
-      "2024-03",
-      "2024-04",
-      "2024-05",
-      "2024-06",
-      "2024-07",
-      "2024-08",
-      "2024-09",
-      "2024-10",
-      "2024-11",
-      "2024-12",
-      "2025-01",
-      "2025-02",
-      "2025-03",
-      "2025-04",
-      "2025-05",
-      "2025-06",
-      "2025-07",
-      "2025-08",
-      "2025-09",
-      "2025-10"
+      "2024-09"
     ],
     "engine_cp": -36,
     "p_engine": 0.477515,
@@ -57992,8 +57499,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The D86 opening is trending stable with a delta of -0.020894, indicating minimal change in engine evaluation. This stability suggests a neutral position for the player. Engine evaluation consistency supports this trend.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0019354096469319606,
-    "trend_r_squared": 0.16105223208434094,
+    "trend_slope_per_month": 0.0010598796189892176,
+    "trend_r_squared": 0.32355959715735927,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -58972,7 +58479,6 @@
       }
     ],
     "structural_breaks": [
-      "2023-09",
       "2023-12"
     ],
     "engine_cp": -5,
@@ -60326,20 +59832,18 @@
         "upper": 0.524756
       }
     ],
-    "structural_breaks": [
-      "2025-09"
-    ],
+    "structural_breaks": [],
     "engine_cp": -30,
     "p_engine": 0.481259,
     "human_win_rate": 0.5106,
     "delta": 0.029341,
     "interpretation": "consistent with engine evaluation",
     "narrative": "The trend of this opening has been falling recently, with a notable gap between engine prediction and human performance. A 2000-rated player should avoid adopting this opening for now.",
-    "trend_direction": "falling",
-    "trend_slope_per_month": -0.002546543212145144,
-    "trend_r_squared": 0.3758464982899492,
-    "trend_confidence": "medium",
-    "trend_streak_months": 2,
+    "trend_direction": "stable",
+    "trend_slope_per_month": -0.000150150258949887,
+    "trend_r_squared": 0.0036034456544208338,
+    "trend_confidence": "low",
+    "trend_streak_months": 0,
     "forecast_quality": "medium",
     "model_name": "holt_winters",
     "lines_driving_trend": [
@@ -60862,14 +60366,7 @@
       }
     ],
     "structural_breaks": [
-      "2024-06",
-      "2024-09",
-      "2024-10",
-      "2024-11",
-      "2024-12",
-      "2025-01",
-      "2025-09",
-      "2025-10"
+      "2024-09"
     ],
     "engine_cp": 38,
     "p_engine": 0.523732,
@@ -60878,8 +60375,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "The trend for this opening is stable, with a minor gap between engine predictions and human performance. A 2000-rated player should monitor this opening, as it may be worth exploring further.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.000867004556553111,
-    "trend_r_squared": 0.11659847331195505,
+    "trend_slope_per_month": 0.0008632581327375752,
+    "trend_r_squared": 0.4191161719545645,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -61710,34 +61207,18 @@
         "upper": 0.491187
       }
     ],
-    "structural_breaks": [
-      "2023-10",
-      "2024-09",
-      "2024-10",
-      "2024-11",
-      "2024-12",
-      "2025-01",
-      "2025-02",
-      "2025-03",
-      "2025-04",
-      "2025-05",
-      "2025-06",
-      "2025-07",
-      "2025-08",
-      "2025-09",
-      "2025-10"
-    ],
+    "structural_breaks": [],
     "engine_cp": -21,
     "p_engine": 0.486878,
     "human_win_rate": 0.474875,
     "delta": -0.012003,
     "interpretation": "consistent with engine evaluation",
     "narrative": "The E21 opening is experiencing a rising win-rate trend, with a small engine-human delta of -0.0115, suggesting engines are slightly underestimating its strength.",
-    "trend_direction": "stable",
-    "trend_slope_per_month": 1.979206076560191e-06,
-    "trend_r_squared": 7.558815587893619e-07,
-    "trend_confidence": "low",
-    "trend_streak_months": 0,
+    "trend_direction": "rising",
+    "trend_slope_per_month": 0.0012403762166077047,
+    "trend_r_squared": 0.4417046944493266,
+    "trend_confidence": "medium",
+    "trend_streak_months": 1,
     "forecast_quality": "low",
     "model_name": "holt_winters",
     "lines_driving_trend": [
@@ -61960,9 +61441,7 @@
         "upper": 0.51279
       }
     ],
-    "structural_breaks": [
-      "2023-12"
-    ],
+    "structural_breaks": [],
     "engine_cp": -3,
     "p_engine": 0.498125,
     "human_win_rate": 0.479778,
@@ -61970,8 +61449,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate trend for E22 is rising, with an engine-human delta of -0.015842, indicating a slight advantage for engines. Players should be aware of this trend when choosing this opening.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.000273822128132452,
-    "trend_r_squared": 0.03688392697116849,
+    "trend_slope_per_month": -0.0005326214029696205,
+    "trend_r_squared": 0.030652048215450423,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -62558,9 +62037,7 @@
         "upper": 0.475071
       }
     ],
-    "structural_breaks": [
-      "2024-05"
-    ],
+    "structural_breaks": [],
     "engine_cp": 16,
     "p_engine": 0.509999,
     "human_win_rate": 0.457069,
@@ -62568,8 +62045,8 @@
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "The trend for this opening is stable, showing no clear direction. The engine's prediction is slightly more accurate than human play, indicating a minor gap. A 2000-rated player may want to avoid this opening due to its stable, engine-favoured nature.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.00025577116942927927,
-    "trend_r_squared": 0.04762690982741735,
+    "trend_slope_per_month": -0.0004009428121087536,
+    "trend_r_squared": 0.02720076581847386,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -62817,9 +62294,7 @@
         "upper": 0.502415
       }
     ],
-    "structural_breaks": [
-      "2024-03"
-    ],
+    "structural_breaks": [],
     "engine_cp": -13,
     "p_engine": 0.491876,
     "human_win_rate": 0.491375,
@@ -62827,8 +62302,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate is stable with a minor gap in engine evaluation. Recent volatility is high (> 0.004), indicating a noisy series.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.00013426691929215804,
-    "trend_r_squared": 0.031554938581536573,
+    "trend_slope_per_month": -1.8520021505786337e-05,
+    "trend_r_squared": 0.00012847114015479555,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "high",
@@ -63169,13 +62644,7 @@
       }
     ],
     "structural_breaks": [
-      "2024-01",
-      "2024-02",
-      "2024-03",
-      "2024-04",
-      "2024-07",
-      "2024-09",
-      "2025-03"
+      "2024-03"
     ],
     "engine_cp": 41,
     "p_engine": 0.525603,
@@ -63184,8 +62653,8 @@
     "interpretation": "engine-favoured \u2014 frequently misplayed or theory-heavy",
     "narrative": "This opening has trended downward recently, with a notable gap between human and engine performance. A 2000-rated player should avoid this opening until the trend stabilizes.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0003203792708995891,
-    "trend_r_squared": 0.014291368664123172,
+    "trend_slope_per_month": 0.0010480947553187863,
+    "trend_r_squared": 0.3136607740859234,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -63433,9 +62902,7 @@
         "upper": 0.508679
       }
     ],
-    "structural_breaks": [
-      "2024-04"
-    ],
+    "structural_breaks": [],
     "engine_cp": -13,
     "p_engine": 0.491876,
     "human_win_rate": 0.492553,
@@ -63443,8 +62910,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate is stable with low confidence, described as erratic. Minor gap from engine evaluation.",
     "trend_direction": "stable",
-    "trend_slope_per_month": -0.0002350443073603291,
-    "trend_r_squared": 0.0641150750163072,
+    "trend_slope_per_month": 0.00044430607031415516,
+    "trend_r_squared": 0.03526534463069819,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "low",
@@ -64206,24 +63673,18 @@
         "upper": 0.512245
       }
     ],
-    "structural_breaks": [
-      "2024-10",
-      "2024-11",
-      "2024-12",
-      "2025-08",
-      "2025-09"
-    ],
+    "structural_breaks": [],
     "engine_cp": 17,
     "p_engine": 0.510623,
     "human_win_rate": 0.487777,
     "delta": -0.022846,
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate trend is falling, with a delta of -0.018, indicating a significant decrease in engine evaluation, suggesting the player should consider abandoning this opening.",
-    "trend_direction": "rising",
-    "trend_slope_per_month": 0.004723096753729299,
-    "trend_r_squared": 0.7996508839951644,
-    "trend_confidence": "high",
-    "trend_streak_months": 3,
+    "trend_direction": "stable",
+    "trend_slope_per_month": 0.0010541454616346101,
+    "trend_r_squared": 0.0822728219615837,
+    "trend_confidence": "low",
+    "trend_streak_months": 0,
     "forecast_quality": "medium",
     "model_name": "holt_winters",
     "lines_driving_trend": [
@@ -65140,10 +64601,7 @@
       }
     ],
     "structural_breaks": [
-      "2024-04",
-      "2024-05",
-      "2024-06",
-      "2024-07"
+      "2024-06"
     ],
     "engine_cp": 13,
     "p_engine": 0.508124,
@@ -65152,8 +64610,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate trend is falling, with a delta of -0.018, indicating a significant decrease in engine evaluation, suggesting the player should consider abandoning this opening.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.0007401387045505942,
-    "trend_r_squared": 0.11399082247520709,
+    "trend_slope_per_month": 0.0007191929623583132,
+    "trend_r_squared": 0.12181885321689079,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -65563,26 +65021,7 @@
       }
     ],
     "structural_breaks": [
-      "2023-12",
-      "2024-01",
-      "2024-02",
-      "2024-04",
-      "2024-06",
-      "2024-07",
-      "2024-08",
-      "2024-09",
-      "2024-10",
-      "2024-11",
-      "2024-12",
-      "2025-01",
-      "2025-02",
-      "2025-03",
-      "2025-04",
-      "2025-05",
-      "2025-06",
-      "2025-07",
-      "2025-08",
-      "2025-09"
+      "2025-05"
     ],
     "engine_cp": -35,
     "p_engine": 0.478139,
@@ -65591,8 +65030,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "Win-rate is stable with low confidence, described as erratic. Minor gap from engine evaluation.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.00014685680942355117,
-    "trend_r_squared": 0.04962466644784258,
+    "trend_slope_per_month": 0.0001733659518722912,
+    "trend_r_squared": 0.1319587473675201,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
@@ -66308,10 +65747,7 @@
         "upper": 0.537516
       }
     ],
-    "structural_breaks": [
-      "2023-12",
-      "2024-01"
-    ],
+    "structural_breaks": [],
     "engine_cp": -29,
     "p_engine": 0.481883,
     "human_win_rate": 0.511088,
@@ -66319,8 +65755,8 @@
     "interpretation": "consistent with engine evaluation",
     "narrative": "This opening has been showing erratic performance, with a minor gap between engine prediction and human performance. A 2000-rated player should monitor this opening for potential opportunities.",
     "trend_direction": "stable",
-    "trend_slope_per_month": 0.000270277055998596,
-    "trend_r_squared": 0.023551737986001964,
+    "trend_slope_per_month": 0.0012590205879785936,
+    "trend_r_squared": 0.0847637708379938,
     "trend_confidence": "low",
     "trend_streak_months": 0,
     "forecast_quality": "medium",
