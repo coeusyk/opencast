@@ -3,6 +3,7 @@ def _nav_html(current: str) -> str:
         ("index.html", "Overview"),
         ("openings.html", "Openings"),
         ("families.html", "Families"),
+        ("engine.html", "Engine"),
     ]
     links = ""
     for href, label in pages:
@@ -27,7 +28,7 @@ def _nav_html(current: str) -> str:
 </nav>"""
 
 
-def _page_shell(title: str, nav_fragment: str, body: str, head_extras: str = "") -> str:
+def _page_shell(title: str, nav_fragment: str, body: str, head_extras: str = "", body_extras: str = "") -> str:
     nav_css = """
 <style>
 /* Site nav */
@@ -97,7 +98,6 @@ def _page_shell(title: str, nav_fragment: str, body: str, head_extras: str = "")
   transition: color 150ms;
 }
 .nav-link:hover, .nav-link.active { color: var(--text-primary); }
-body { font-family: 'Satoshi', 'Inter', sans-serif; }
 .plotly-graph-div { touch-action: pan-y; }
 
 @media (max-width: 760px) {
@@ -181,6 +181,7 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
   }});
 }})();
 </script>
+{body_extras}
 </body>
 </html>
 """

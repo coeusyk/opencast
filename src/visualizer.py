@@ -21,6 +21,7 @@ from .dashboard.data_access import (
 	_serialize_openings_data,
 	_top_lines_for_opening,
 )
+from .dashboard.pages.engine import render_engine
 from .dashboard.pages.families import render_families, render_families_page
 from .dashboard.pages.opening_template import render_opening_template
 from .dashboard.pages.openings import render_openings_page, render_openings_table

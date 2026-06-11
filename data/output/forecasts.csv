@@ -12,7 +12,7 @@ A00,Polish Opening,2023-10,0.5043865508795369,,,,False,False,1,high,,holt_winter
 A00,Polish Opening,2023-11,0.501071861310467,,,,False,False,1,high,,holt_winters
 A00,Polish Opening,2023-12,0.5027423086811209,,,,False,False,1,high,,holt_winters
 A00,Polish Opening,2024-01,0.4936404689895182,,,,False,True,1,high,,holt_winters
-A00,Polish Opening,2024-02,0.4867892016082711,,,,False,True,1,high,,holt_winters
+A00,Polish Opening,2024-02,0.4867892016082711,,,,False,False,1,high,,holt_winters
 A00,Polish Opening,2024-03,0.4900834604684555,,,,False,False,1,high,,holt_winters
 A00,Polish Opening,2024-04,0.4876792567158149,,,,False,False,1,high,,holt_winters
 A00,Polish Opening,2024-05,0.4913784980684066,,,,False,False,1,high,,holt_winters
@@ -39,8 +39,8 @@ A00,Polish Opening,2026-01,0.5014329633682455,,,,False,False,1,high,,holt_winter
 A00,Polish Opening,2026-02,0.5083265083265083,,,,False,False,1,high,,holt_winters
 A00,Polish Opening,2026-03,0.4989827604668594,,,,False,False,1,high,,holt_winters
 A00,Polish Opening,2026-04,0.5113648604976839,,,,False,False,1,high,,holt_winters
-A00,Polish Opening,2026-05,,0.502303,0.492342,0.512264,True,False,1,high,,holt_winters
-A00,Polish Opening,2026-06,,0.502549,0.49254,0.512558,True,False,1,high,,holt_winters
+A00,Polish Opening,2026-05,,0.502303,0.492342,0.512263,True,False,1,high,,holt_winters
+A00,Polish Opening,2026-06,,0.502549,0.492539,0.512558,True,False,1,high,,holt_winters
 A00,Polish Opening,2026-07,,0.502795,0.492582,0.513007,True,False,1,high,,holt_winters
 A01,A01,2023-01,0.4939016469161819,,,,False,False,1,medium,,holt_winters
 A01,A01,2023-02,0.4963191028243146,,,,False,False,1,medium,,holt_winters
@@ -82,9 +82,9 @@ A01,A01,2026-01,0.4958022780422969,,,,False,False,1,medium,,holt_winters
 A01,A01,2026-02,0.4919225481209899,,,,False,False,1,medium,,holt_winters
 A01,A01,2026-03,0.4891028212327851,,,,False,False,1,medium,,holt_winters
 A01,A01,2026-04,0.4935533780299123,,,,False,False,1,medium,,holt_winters
-A01,A01,2026-05,,0.491956,0.486291,0.497622,True,False,1,medium,,holt_winters
-A01,A01,2026-06,,0.491871,0.486177,0.497564,True,False,1,medium,,holt_winters
-A01,A01,2026-07,,0.491785,0.485976,0.497594,True,False,1,medium,,holt_winters
+A01,A01,2026-05,,0.491957,0.486291,0.497624,True,False,1,medium,,holt_winters
+A01,A01,2026-06,,0.491872,0.486178,0.497566,True,False,1,medium,,holt_winters
+A01,A01,2026-07,,0.491787,0.485977,0.497596,True,False,1,medium,,holt_winters
 A02,A02,2023-01,0.4887467424780857,,,,False,False,1,medium,,holt_winters
 A02,A02,2023-02,0.4902581919749301,,,,False,False,1,medium,,holt_winters
 A02,A02,2023-03,0.4917016058856103,,,,False,False,1,medium,,holt_winters
@@ -95,12 +95,12 @@ A02,A02,2023-07,0.4887091338051904,,,,False,False,1,medium,,holt_winters
 A02,A02,2023-08,0.482868137592633,,,,False,False,1,medium,,holt_winters
 A02,A02,2023-09,0.4858757062146893,,,,False,False,1,medium,,holt_winters
 A02,A02,2023-10,0.4833220317091284,,,,False,False,1,medium,,holt_winters
-A02,A02,2023-11,0.4869685858685957,,,,False,True,1,medium,,holt_winters
-A02,A02,2023-12,0.4856524093123985,,,,False,True,1,medium,,holt_winters
-A02,A02,2024-01,0.4894941145039367,,,,False,True,1,medium,,holt_winters
+A02,A02,2023-11,0.4869685858685957,,,,False,False,1,medium,,holt_winters
+A02,A02,2023-12,0.4856524093123985,,,,False,False,1,medium,,holt_winters
+A02,A02,2024-01,0.4894941145039367,,,,False,False,1,medium,,holt_winters
 A02,A02,2024-02,0.485438022295692,,,,False,False,1,medium,,holt_winters
-A02,A02,2024-03,0.4859577572200669,,,,False,True,1,medium,,holt_winters
-A02,A02,2024-04,0.4894696822337359,,,,False,True,1,medium,,holt_winters
+A02,A02,2024-03,0.4859577572200669,,,,False,False,1,medium,,holt_winters
+A02,A02,2024-04,0.4894696822337359,,,,False,False,1,medium,,holt_winters
 A02,A02,2024-05,0.4896311218702917,,,,False,False,1,medium,,holt_winters
 A02,A02,2024-06,0.4884084870983003,,,,False,False,1,medium,,holt_winters
 A02,A02,2024-07,0.4869885839892222,,,,False,False,1,medium,,holt_winters
@@ -127,7 +127,7 @@ A02,A02,2026-03,0.4844171779141104,,,,False,False,1,medium,,holt_winters
 A02,A02,2026-04,0.4892572356763142,,,,False,False,1,medium,,holt_winters
 A02,A02,2026-05,,0.486313,0.481455,0.491172,True,False,1,medium,,holt_winters
 A02,A02,2026-06,,0.486258,0.481376,0.491139,True,False,1,medium,,holt_winters
-A02,A02,2026-07,,0.486202,0.481221,0.491182,True,False,1,medium,,holt_winters
+A02,A02,2026-07,,0.486202,0.481221,0.491183,True,False,1,medium,,holt_winters
 A03,A03,2023-01,0.4958434758646029,,,,False,False,1,medium,,holt_winters
 A03,A03,2023-02,0.4929193899782135,,,,False,False,1,medium,,holt_winters
 A03,A03,2023-03,0.496523330283623,,,,False,False,1,medium,,holt_winters
@@ -140,7 +140,7 @@ A03,A03,2023-09,0.493099660952199,,,,False,False,1,medium,,holt_winters
 A03,A03,2023-10,0.4873777363763391,,,,False,False,1,medium,,holt_winters
 A03,A03,2023-11,0.4902205177372962,,,,False,False,1,medium,,holt_winters
 A03,A03,2023-12,0.488021778584392,,,,False,False,1,medium,,holt_winters
-A03,A03,2024-01,0.5013947958110395,,,,False,True,1,medium,,holt_winters
+A03,A03,2024-01,0.5013947958110395,,,,False,False,1,medium,,holt_winters
 A03,A03,2024-02,0.4895539792051307,,,,False,False,1,medium,,holt_winters
 A03,A03,2024-03,0.493020121305478,,,,False,False,1,medium,,holt_winters
 A03,A03,2024-04,0.495973906839262,,,,False,False,1,medium,,holt_winters
@@ -168,29 +168,29 @@ A03,A03,2026-01,0.490017569078422,,,,False,False,1,medium,,holt_winters
 A03,A03,2026-02,0.4936140274921528,,,,False,False,1,medium,,holt_winters
 A03,A03,2026-03,0.4909582092843753,,,,False,False,1,medium,,holt_winters
 A03,A03,2026-04,0.4927962982437691,,,,False,False,1,medium,,holt_winters
-A03,A03,2026-05,,0.493119,0.485214,0.501023,True,False,1,medium,,holt_winters
+A03,A03,2026-05,,0.493119,0.485214,0.501024,True,False,1,medium,,holt_winters
 A03,A03,2026-06,,0.493139,0.485196,0.501082,True,False,1,medium,,holt_winters
-A03,A03,2026-07,,0.493158,0.485054,0.501263,True,False,1,medium,,holt_winters
+A03,A03,2026-07,,0.493159,0.485054,0.501263,True,False,1,medium,,holt_winters
 A05,A05,2023-01,0.5046536690506516,,,,False,False,1,high,,holt_winters
 A05,A05,2023-02,0.5091496232508074,,,,False,False,1,high,,holt_winters
 A05,A05,2023-03,0.5097092366176924,,,,False,False,1,high,,holt_winters
 A05,A05,2023-04,0.511863299956465,,,,False,False,1,high,,holt_winters
 A05,A05,2023-05,0.5168141592920354,,,,False,False,1,high,,holt_winters
 A05,A05,2023-06,0.5133648663513365,,,,False,False,1,high,,holt_winters
-A05,A05,2023-07,0.5195799606213083,,,,False,True,1,high,,holt_winters
-A05,A05,2023-08,0.5125723303524461,,,,False,True,1,high,,holt_winters
-A05,A05,2023-09,0.518705035971223,,,,False,True,1,high,,holt_winters
-A05,A05,2023-10,0.5181954887218045,,,,False,True,1,high,,holt_winters
-A05,A05,2023-11,0.5198525539757767,,,,False,True,1,high,,holt_winters
-A05,A05,2023-12,0.5124541780242504,,,,False,True,1,high,,holt_winters
-A05,A05,2024-01,0.5178972008192724,,,,False,True,1,high,,holt_winters
-A05,A05,2024-02,0.5159950145409223,,,,False,True,1,high,,holt_winters
-A05,A05,2024-03,0.5158371040723982,,,,False,True,1,high,,holt_winters
-A05,A05,2024-04,0.5196678775298391,,,,False,True,1,high,,holt_winters
-A05,A05,2024-05,0.5216315216315216,,,,False,True,1,high,,holt_winters
-A05,A05,2024-06,0.5244380284594762,,,,False,True,1,high,,holt_winters
+A05,A05,2023-07,0.5195799606213083,,,,False,False,1,high,,holt_winters
+A05,A05,2023-08,0.5125723303524461,,,,False,False,1,high,,holt_winters
+A05,A05,2023-09,0.518705035971223,,,,False,False,1,high,,holt_winters
+A05,A05,2023-10,0.5181954887218045,,,,False,False,1,high,,holt_winters
+A05,A05,2023-11,0.5198525539757767,,,,False,False,1,high,,holt_winters
+A05,A05,2023-12,0.5124541780242504,,,,False,False,1,high,,holt_winters
+A05,A05,2024-01,0.5178972008192724,,,,False,False,1,high,,holt_winters
+A05,A05,2024-02,0.5159950145409223,,,,False,False,1,high,,holt_winters
+A05,A05,2024-03,0.5158371040723982,,,,False,False,1,high,,holt_winters
+A05,A05,2024-04,0.5196678775298391,,,,False,False,1,high,,holt_winters
+A05,A05,2024-05,0.5216315216315216,,,,False,False,1,high,,holt_winters
+A05,A05,2024-06,0.5244380284594762,,,,False,False,1,high,,holt_winters
 A05,A05,2024-07,0.5077486910994764,,,,False,True,1,high,,holt_winters
-A05,A05,2024-08,0.5164357236775564,,,,False,True,1,high,,holt_winters
+A05,A05,2024-08,0.5164357236775564,,,,False,False,1,high,,holt_winters
 A05,A05,2024-09,0.5134133042529989,,,,False,False,1,high,,holt_winters
 A05,A05,2024-10,0.5122149011657374,,,,False,False,1,high,,holt_winters
 A05,A05,2024-11,0.5131983462313155,,,,False,False,1,high,,holt_winters
@@ -375,8 +375,8 @@ A10,English Opening,2025-05,0.5009729388325663,,,,False,False,1,high,,holt_winte
 A10,English Opening,2025-06,0.5021217557708408,,,,False,False,1,high,,holt_winters
 A10,English Opening,2025-07,0.5031197520582171,,,,False,False,1,high,,holt_winters
 A10,English Opening,2025-08,0.5024671744311013,,,,False,False,1,high,,holt_winters
-A10,English Opening,2025-09,0.5036401494454864,,,,False,True,1,high,,holt_winters
-A10,English Opening,2025-10,0.5020632737276479,,,,False,True,1,high,,holt_winters
+A10,English Opening,2025-09,0.5036401494454864,,,,False,False,1,high,,holt_winters
+A10,English Opening,2025-10,0.5020632737276479,,,,False,False,1,high,,holt_winters
 A10,English Opening,2025-11,0.5036418302833515,,,,False,False,1,high,,holt_winters
 A10,English Opening,2025-12,0.5025953592669321,,,,False,False,1,high,,holt_winters
 A10,English Opening,2026-01,0.5029955971688124,,,,False,False,1,high,,holt_winters
@@ -503,7 +503,7 @@ A15,A15,2025-04,0.4995798158829596,,,,False,False,1,medium,,holt_winters
 A15,A15,2025-05,0.4985834109972041,,,,False,False,1,medium,,holt_winters
 A15,A15,2025-06,0.4973735297476305,,,,False,False,1,medium,,holt_winters
 A15,A15,2025-07,0.4987759427068108,,,,False,False,1,medium,,holt_winters
-A15,A15,2025-08,0.5028056036755291,,,,False,True,1,medium,,holt_winters
+A15,A15,2025-08,0.5028056036755291,,,,False,False,1,medium,,holt_winters
 A15,A15,2025-09,0.5020390212697905,,,,False,False,1,medium,,holt_winters
 A15,A15,2025-10,0.4984686650587649,,,,False,False,1,medium,,holt_winters
 A15,A15,2025-11,0.5058015628699977,,,,False,False,1,medium,,holt_winters
@@ -610,8 +610,8 @@ A21,A21,2023-06,0.5450980392156862,,,,False,False,1,medium,,holt_winters
 A21,A21,2023-07,0.5594315245478036,,,,False,False,1,medium,,holt_winters
 A21,A21,2023-08,0.5551020408163265,,,,False,False,1,medium,,holt_winters
 A21,A21,2023-09,0.558868501529052,,,,False,False,1,medium,,holt_winters
-A21,A21,2023-10,0.5557083906464925,,,,False,True,1,medium,,holt_winters
-A21,A21,2023-11,0.5427408412483039,,,,False,True,1,medium,,holt_winters
+A21,A21,2023-10,0.5557083906464925,,,,False,False,1,medium,,holt_winters
+A21,A21,2023-11,0.5427408412483039,,,,False,False,1,medium,,holt_winters
 A21,A21,2023-12,0.5472972972972973,,,,False,False,1,medium,,holt_winters
 A21,A21,2024-01,0.5313887127457197,,,,False,False,1,medium,,holt_winters
 A21,A21,2024-02,0.5405046480743692,,,,False,False,1,medium,,holt_winters
@@ -719,7 +719,7 @@ A23,A23,2025-05,0.4955089820359281,,,,False,False,1,low,,holt_winters
 A23,A23,2025-06,0.478441127694859,,,,False,False,1,low,,holt_winters
 A23,A23,2025-07,0.4778947368421052,,,,False,False,1,low,,holt_winters
 A23,A23,2025-08,0.4894894894894895,,,,False,False,1,low,,holt_winters
-A23,A23,2025-09,0.5288,,,,False,True,1,low,,holt_winters
+A23,A23,2025-09,0.5288,,,,False,False,1,low,,holt_winters
 A23,A23,2025-10,0.5210355987055016,,,,False,False,1,low,,holt_winters
 A23,A23,2025-11,0.4954051796157059,,,,False,False,1,low,,holt_winters
 A23,A23,2025-12,0.4972847168347556,,,,False,False,1,low,,holt_winters
@@ -747,22 +747,22 @@ A27,A27,2024-02,0.5082574031890661,,,,False,False,1,low,,holt_winters
 A27,A27,2024-03,0.5157742402315485,,,,False,False,1,low,,holt_winters
 A27,A27,2024-04,0.5096153846153846,,,,False,False,1,low,,holt_winters
 A27,A27,2024-05,0.5262090935418476,,,,False,False,1,low,,holt_winters
-A27,A27,2024-06,0.5178737954616102,,,,False,True,1,low,,holt_winters
-A27,A27,2024-07,0.5131287567225562,,,,False,True,1,low,,holt_winters
-A27,A27,2024-08,0.5098448687350835,,,,False,True,1,low,,holt_winters
-A27,A27,2024-09,0.5107682417229187,,,,False,True,1,low,,holt_winters
-A27,A27,2024-10,0.5027539779681762,,,,False,True,1,low,,holt_winters
-A27,A27,2024-11,0.510752688172043,,,,False,True,1,low,,holt_winters
-A27,A27,2024-12,0.5149911816578483,,,,False,True,1,low,,holt_winters
-A27,A27,2025-01,0.5076877587226494,,,,False,True,1,low,,holt_winters
-A27,A27,2025-02,0.5136705399863295,,,,False,True,1,low,,holt_winters
-A27,A27,2025-03,0.5125292348813899,,,,False,True,1,low,,holt_winters
-A27,A27,2025-04,0.5192307692307693,,,,False,True,1,low,,holt_winters
-A27,A27,2025-05,0.5164473684210527,,,,False,True,1,low,,holt_winters
-A27,A27,2025-06,0.5022522522522522,,,,False,True,1,low,,holt_winters
-A27,A27,2025-07,0.5151890886546807,,,,False,True,1,low,,holt_winters
-A27,A27,2025-08,0.5112262521588946,,,,False,True,1,low,,holt_winters
-A27,A27,2025-09,0.5265647743813683,,,,False,True,1,low,,holt_winters
+A27,A27,2024-06,0.5178737954616102,,,,False,False,1,low,,holt_winters
+A27,A27,2024-07,0.5131287567225562,,,,False,False,1,low,,holt_winters
+A27,A27,2024-08,0.5098448687350835,,,,False,False,1,low,,holt_winters
+A27,A27,2024-09,0.5107682417229187,,,,False,False,1,low,,holt_winters
+A27,A27,2024-10,0.5027539779681762,,,,False,False,1,low,,holt_winters
+A27,A27,2024-11,0.510752688172043,,,,False,False,1,low,,holt_winters
+A27,A27,2024-12,0.5149911816578483,,,,False,False,1,low,,holt_winters
+A27,A27,2025-01,0.5076877587226494,,,,False,False,1,low,,holt_winters
+A27,A27,2025-02,0.5136705399863295,,,,False,False,1,low,,holt_winters
+A27,A27,2025-03,0.5125292348813899,,,,False,False,1,low,,holt_winters
+A27,A27,2025-04,0.5192307692307693,,,,False,False,1,low,,holt_winters
+A27,A27,2025-05,0.5164473684210527,,,,False,False,1,low,,holt_winters
+A27,A27,2025-06,0.5022522522522522,,,,False,False,1,low,,holt_winters
+A27,A27,2025-07,0.5151890886546807,,,,False,False,1,low,,holt_winters
+A27,A27,2025-08,0.5112262521588946,,,,False,False,1,low,,holt_winters
+A27,A27,2025-09,0.5265647743813683,,,,False,False,1,low,,holt_winters
 A27,A27,2025-10,0.5151006711409396,,,,False,False,1,low,,holt_winters
 A27,A27,2025-11,0.525987525987526,,,,False,False,1,low,,holt_winters
 A27,A27,2025-12,0.5075459317585301,,,,False,False,1,low,,holt_winters
@@ -779,7 +779,7 @@ A29,A29,2023-03,0.5630872483221476,,,,False,False,1,medium,,holt_winters
 A29,A29,2023-04,0.5543478260869565,,,,False,False,1,medium,,holt_winters
 A29,A29,2023-05,0.544891640866873,,,,False,False,1,medium,,holt_winters
 A29,A29,2023-06,0.5158839779005525,,,,False,False,1,medium,,holt_winters
-A29,A29,2023-07,0.5063291139240507,,,,False,True,1,medium,,holt_winters
+A29,A29,2023-07,0.5063291139240507,,,,False,False,1,medium,,holt_winters
 A29,A29,2023-08,0.5147501505117399,,,,False,False,1,medium,,holt_winters
 A29,A29,2023-09,0.5153121319199058,,,,False,False,1,medium,,holt_winters
 A29,A29,2023-10,0.5208070617906684,,,,False,False,1,medium,,holt_winters
@@ -815,7 +815,7 @@ A29,A29,2026-03,0.5197613721103654,,,,False,False,1,medium,,holt_winters
 A29,A29,2026-04,0.5241691842900302,,,,False,False,1,medium,,holt_winters
 A29,A29,2026-05,,0.519233,0.487375,0.55109,True,False,1,medium,,holt_winters
 A29,A29,2026-06,,0.519076,0.487063,0.551088,True,False,1,medium,,holt_winters
-A29,A29,2026-07,,0.518919,0.486256,0.551581,True,False,1,medium,,holt_winters
+A29,A29,2026-07,,0.518918,0.486256,0.551581,True,False,1,medium,,holt_winters
 A30,A30,2023-01,0.5066508235138792,,,,False,False,1,high,,holt_winters
 A30,A30,2023-02,0.4993037454921983,,,,False,False,1,high,,holt_winters
 A30,A30,2023-03,0.5029226014512228,,,,False,False,1,high,,holt_winters
@@ -866,9 +866,9 @@ A31,A31,2023-04,0.4817403459723921,,,,False,False,1,low,,holt_winters
 A31,A31,2023-05,0.4906790945406125,,,,False,False,1,low,,holt_winters
 A31,A31,2023-06,0.4973147153598281,,,,False,False,1,low,,holt_winters
 A31,A31,2023-07,0.4971499821873886,,,,False,False,1,low,,holt_winters
-A31,A31,2023-08,0.4906107257655219,,,,False,True,1,low,,holt_winters
-A31,A31,2023-09,0.4895980253878702,,,,False,True,1,low,,holt_winters
-A31,A31,2023-10,0.4749175490366256,,,,False,True,1,low,,holt_winters
+A31,A31,2023-08,0.4906107257655219,,,,False,False,1,low,,holt_winters
+A31,A31,2023-09,0.4895980253878702,,,,False,False,1,low,,holt_winters
+A31,A31,2023-10,0.4749175490366256,,,,False,False,1,low,,holt_winters
 A31,A31,2023-11,0.4797197640117994,,,,False,False,1,low,,holt_winters
 A31,A31,2023-12,0.478307065698601,,,,False,False,1,low,,holt_winters
 A31,A31,2024-01,0.4799929490569363,,,,False,False,1,low,,holt_winters
@@ -888,9 +888,9 @@ A31,A31,2025-02,0.4819071945508727,,,,False,False,1,low,,holt_winters
 A31,A31,2025-03,0.4850690556177678,,,,False,False,1,low,,holt_winters
 A31,A31,2025-04,0.4887000193162063,,,,False,False,1,low,,holt_winters
 A31,A31,2025-05,0.4851429639319753,,,,False,False,1,low,,holt_winters
-A31,A31,2025-06,0.4909055727554179,,,,False,True,1,low,,holt_winters
-A31,A31,2025-07,0.4894063752624547,,,,False,True,1,low,,holt_winters
-A31,A31,2025-08,0.4995292788552061,,,,False,True,1,low,,holt_winters
+A31,A31,2025-06,0.4909055727554179,,,,False,False,1,low,,holt_winters
+A31,A31,2025-07,0.4894063752624547,,,,False,False,1,low,,holt_winters
+A31,A31,2025-08,0.4995292788552061,,,,False,False,1,low,,holt_winters
 A31,A31,2025-09,0.4983896940418679,,,,False,False,1,low,,holt_winters
 A31,A31,2025-10,0.4838029518880583,,,,False,False,1,low,,holt_winters
 A31,A31,2025-11,0.497802636835797,,,,False,False,1,low,,holt_winters
@@ -908,16 +908,16 @@ A36,A36,2023-03,0.4777027027027027,,,,False,False,1,medium,,holt_winters
 A36,A36,2023-04,0.4867688022284122,,,,False,False,1,medium,,holt_winters
 A36,A36,2023-05,0.468937875751503,,,,False,False,1,medium,,holt_winters
 A36,A36,2023-06,0.4659753726506805,,,,False,False,1,medium,,holt_winters
-A36,A36,2023-07,0.4791528788881535,,,,False,True,1,medium,,holt_winters
-A36,A36,2023-08,0.4892761394101876,,,,False,True,1,medium,,holt_winters
-A36,A36,2023-09,0.4801945795691452,,,,False,True,1,medium,,holt_winters
-A36,A36,2023-10,0.5146471371504661,,,,False,True,1,medium,,holt_winters
+A36,A36,2023-07,0.4791528788881535,,,,False,False,1,medium,,holt_winters
+A36,A36,2023-08,0.4892761394101876,,,,False,False,1,medium,,holt_winters
+A36,A36,2023-09,0.4801945795691452,,,,False,False,1,medium,,holt_winters
+A36,A36,2023-10,0.5146471371504661,,,,False,False,1,medium,,holt_winters
 A36,A36,2023-11,0.4957709824333116,,,,False,False,1,medium,,holt_winters
 A36,A36,2023-12,0.4932432432432432,,,,False,False,1,medium,,holt_winters
 A36,A36,2024-01,0.4795539033457249,,,,False,False,1,medium,,holt_winters
 A36,A36,2024-02,0.4754664823773324,,,,False,False,1,medium,,holt_winters
 A36,A36,2024-03,0.4782345828295042,,,,False,False,1,medium,,holt_winters
-A36,A36,2024-04,0.5,,,,False,True,1,medium,,holt_winters
+A36,A36,2024-04,0.5,,,,False,False,1,medium,,holt_winters
 A36,A36,2024-05,0.5055350553505535,,,,False,False,1,medium,,holt_winters
 A36,A36,2024-06,0.4941434846266471,,,,False,False,1,medium,,holt_winters
 A36,A36,2024-07,0.4872169466764061,,,,False,False,1,medium,,holt_winters
@@ -934,7 +934,7 @@ A36,A36,2025-05,0.481935923653715,,,,False,False,1,medium,,holt_winters
 A36,A36,2025-06,0.4954128440366973,,,,False,False,1,medium,,holt_winters
 A36,A36,2025-07,0.4856938483547925,,,,False,False,1,medium,,holt_winters
 A36,A36,2025-08,0.492494639027877,,,,False,False,1,medium,,holt_winters
-A36,A36,2025-09,0.4701850582590816,,,,False,True,1,medium,,holt_winters
+A36,A36,2025-09,0.4701850582590816,,,,False,False,1,medium,,holt_winters
 A36,A36,2025-10,0.47953216374269,,,,False,False,1,medium,,holt_winters
 A36,A36,2025-11,0.4792092706203135,,,,False,False,1,medium,,holt_winters
 A36,A36,2025-12,0.4709193245778612,,,,False,False,1,medium,,holt_winters
@@ -966,13 +966,13 @@ A39,A39,2024-06,0.5721153846153846,,,,False,False,1,low,,holt_winters
 A39,A39,2024-07,0.5365384615384615,,,,False,False,1,low,,holt_winters
 A39,A39,2024-08,0.5414312617702448,,,,False,False,1,low,,holt_winters
 A39,A39,2024-09,0.5450145208131656,,,,False,False,1,low,,holt_winters
-A39,A39,2024-10,0.545615589016829,,,,False,True,1,low,,holt_winters
-A39,A39,2024-11,0.5251727541954591,,,,False,True,1,low,,holt_winters
-A39,A39,2024-12,0.5323336457357076,,,,False,True,1,low,,holt_winters
-A39,A39,2025-01,0.5334358186010761,,,,False,True,1,low,,holt_winters
+A39,A39,2024-10,0.545615589016829,,,,False,False,1,low,,holt_winters
+A39,A39,2024-11,0.5251727541954591,,,,False,False,1,low,,holt_winters
+A39,A39,2024-12,0.5323336457357076,,,,False,False,1,low,,holt_winters
+A39,A39,2025-01,0.5334358186010761,,,,False,False,1,low,,holt_winters
 A39,A39,2025-02,0.5196706312900274,,,,False,True,1,low,,holt_winters
-A39,A39,2025-03,0.493006993006993,,,,False,True,1,low,,holt_winters
-A39,A39,2025-04,0.5004830917874397,,,,False,True,1,low,,holt_winters
+A39,A39,2025-03,0.493006993006993,,,,False,False,1,low,,holt_winters
+A39,A39,2025-04,0.5004830917874397,,,,False,False,1,low,,holt_winters
 A39,A39,2025-05,0.530188679245283,,,,False,False,1,low,,holt_winters
 A39,A39,2025-06,0.4857667584940312,,,,False,False,1,low,,holt_winters
 A39,A39,2025-07,0.5232660228270413,,,,False,False,1,low,,holt_winters
@@ -995,9 +995,9 @@ A41,A41,2023-04,0.4764037202893558,,,,False,False,1,medium,,holt_winters
 A41,A41,2023-05,0.479617072197846,,,,False,False,1,medium,,holt_winters
 A41,A41,2023-06,0.4801148357679642,,,,False,False,1,medium,,holt_winters
 A41,A41,2023-07,0.473103909121283,,,,False,False,1,medium,,holt_winters
-A41,A41,2023-08,0.4775682424868682,,,,False,True,1,medium,,holt_winters
-A41,A41,2023-09,0.4793266117842937,,,,False,True,1,medium,,holt_winters
-A41,A41,2023-10,0.4809086088032526,,,,False,True,1,medium,,holt_winters
+A41,A41,2023-08,0.4775682424868682,,,,False,False,1,medium,,holt_winters
+A41,A41,2023-09,0.4793266117842937,,,,False,False,1,medium,,holt_winters
+A41,A41,2023-10,0.4809086088032526,,,,False,False,1,medium,,holt_winters
 A41,A41,2023-11,0.4857657348653747,,,,False,False,1,medium,,holt_winters
 A41,A41,2023-12,0.4872034690927642,,,,False,False,1,medium,,holt_winters
 A41,A41,2024-01,0.4820934328608571,,,,False,False,1,medium,,holt_winters
@@ -1016,7 +1016,7 @@ A41,A41,2025-01,0.4831388990156762,,,,False,False,1,medium,,holt_winters
 A41,A41,2025-02,0.4765350423816415,,,,False,False,1,medium,,holt_winters
 A41,A41,2025-03,0.4847495569443149,,,,False,False,1,medium,,holt_winters
 A41,A41,2025-04,0.4844042420461634,,,,False,False,1,medium,,holt_winters
-A41,A41,2025-05,0.4741074931345626,,,,False,True,1,medium,,holt_winters
+A41,A41,2025-05,0.4741074931345626,,,,False,False,1,medium,,holt_winters
 A41,A41,2025-06,0.4728909357337241,,,,False,False,1,medium,,holt_winters
 A41,A41,2025-07,0.4811063498246981,,,,False,False,1,medium,,holt_winters
 A41,A41,2025-08,0.4764314776223082,,,,False,False,1,medium,,holt_winters
@@ -1028,9 +1028,9 @@ A41,A41,2026-01,0.4812022990671817,,,,False,False,1,medium,,holt_winters
 A41,A41,2026-02,0.4804515135967163,,,,False,False,1,medium,,holt_winters
 A41,A41,2026-03,0.4774129353233831,,,,False,False,1,medium,,holt_winters
 A41,A41,2026-04,0.4820601851851852,,,,False,False,1,medium,,holt_winters
-A41,A41,2026-05,,0.47938,0.471308,0.487451,True,False,1,medium,,holt_winters
+A41,A41,2026-05,,0.47938,0.471309,0.487451,True,False,1,medium,,holt_winters
 A41,A41,2026-06,,0.479325,0.471214,0.487435,True,False,1,medium,,holt_winters
-A41,A41,2026-07,,0.479269,0.470994,0.487544,True,False,1,medium,,holt_winters
+A41,A41,2026-07,,0.47927,0.470994,0.487545,True,False,1,medium,,holt_winters
 A42,A42,2023-01,0.4926333108967168,,,,False,False,1,high,,holt_winters
 A42,A42,2023-02,0.4842373857930694,,,,False,False,1,high,,holt_winters
 A42,A42,2023-03,0.486682427107959,,,,False,False,1,high,,holt_winters
@@ -1039,7 +1039,7 @@ A42,A42,2023-05,0.4770904041962357,,,,False,False,1,high,,holt_winters
 A42,A42,2023-06,0.4898553067658233,,,,False,False,1,high,,holt_winters
 A42,A42,2023-07,0.4759961593855016,,,,False,False,1,high,,holt_winters
 A42,A42,2023-08,0.4768692173043261,,,,False,False,1,high,,holt_winters
-A42,A42,2023-09,0.48228259913831,,,,False,True,1,high,,holt_winters
+A42,A42,2023-09,0.48228259913831,,,,False,False,1,high,,holt_winters
 A42,A42,2023-10,0.4883585564610012,,,,False,False,1,high,,holt_winters
 A42,A42,2023-11,0.4845326716294458,,,,False,False,1,high,,holt_winters
 A42,A42,2023-12,0.487060546875,,,,False,False,1,high,,holt_winters
@@ -1145,7 +1145,7 @@ A44,A44,2025-01,0.4577114427860697,,,,False,False,1,medium,,holt_winters
 A44,A44,2025-02,0.4660900334185178,,,,False,False,1,medium,,holt_winters
 A44,A44,2025-03,0.4729780096906448,,,,False,False,1,medium,,holt_winters
 A44,A44,2025-04,0.4642216464022324,,,,False,False,1,medium,,holt_winters
-A44,A44,2025-05,0.4793893129770992,,,,False,True,1,medium,,holt_winters
+A44,A44,2025-05,0.4793893129770992,,,,False,False,1,medium,,holt_winters
 A44,A44,2025-06,0.4766971696105554,,,,False,False,1,medium,,holt_winters
 A44,A44,2025-07,0.4734452122408687,,,,False,False,1,medium,,holt_winters
 A44,A44,2025-08,0.4760815704211931,,,,False,False,1,medium,,holt_winters
@@ -1201,7 +1201,7 @@ A45,Trompowsky Attack,2026-02,0.5073073915919889,,,,False,False,1,medium,,holt_w
 A45,Trompowsky Attack,2026-03,0.5033003300330033,,,,False,False,1,medium,,holt_winters
 A45,Trompowsky Attack,2026-04,0.4990242222477327,,,,False,False,1,medium,,holt_winters
 A45,Trompowsky Attack,2026-05,,0.502198,0.494811,0.509585,True,False,1,medium,,holt_winters
-A45,Trompowsky Attack,2026-06,,0.502256,0.494833,0.509679,True,False,1,medium,,holt_winters
+A45,Trompowsky Attack,2026-06,,0.502256,0.494832,0.509679,True,False,1,medium,,holt_winters
 A45,Trompowsky Attack,2026-07,,0.502313,0.494739,0.509887,True,False,1,medium,,holt_winters
 A48,A48,2023-01,0.483352099083159,,,,False,False,1,medium,,holt_winters
 A48,A48,2023-02,0.491236995395925,,,,False,False,1,medium,,holt_winters
@@ -1224,8 +1224,8 @@ A48,A48,2024-06,0.4868111489385258,,,,False,False,1,medium,,holt_winters
 A48,A48,2024-07,0.4830298344309062,,,,False,False,1,medium,,holt_winters
 A48,A48,2024-08,0.4837980213285365,,,,False,False,1,medium,,holt_winters
 A48,A48,2024-09,0.485097013898445,,,,False,False,1,medium,,holt_winters
-A48,A48,2024-10,0.4856332215630642,,,,False,True,1,medium,,holt_winters
-A48,A48,2024-11,0.4908208079871246,,,,False,True,1,medium,,holt_winters
+A48,A48,2024-10,0.4856332215630642,,,,False,False,1,medium,,holt_winters
+A48,A48,2024-11,0.4908208079871246,,,,False,False,1,medium,,holt_winters
 A48,A48,2024-12,0.4918899947353907,,,,False,False,1,medium,,holt_winters
 A48,A48,2025-01,0.4885033289607207,,,,False,False,1,medium,,holt_winters
 A48,A48,2025-02,0.4842747479376718,,,,False,False,1,medium,,holt_winters
@@ -1382,42 +1382,42 @@ A53,A53,2023-04,0.4790431510027323,,,,False,False,1,medium,,holt_winters
 A53,A53,2023-05,0.4843720129994265,,,,False,False,1,medium,,holt_winters
 A53,A53,2023-06,0.4773098937040065,,,,False,False,1,medium,,holt_winters
 A53,A53,2023-07,0.481147916348649,,,,False,False,1,medium,,holt_winters
-A53,A53,2023-08,0.4862012151168777,,,,False,True,1,medium,,holt_winters
+A53,A53,2023-08,0.4862012151168777,,,,False,False,1,medium,,holt_winters
 A53,A53,2023-09,0.485965409696626,,,,False,False,1,medium,,holt_winters
 A53,A53,2023-10,0.4825647374393892,,,,False,False,1,medium,,holt_winters
 A53,A53,2023-11,0.4826714024324615,,,,False,False,1,medium,,holt_winters
 A53,A53,2023-12,0.4809064415636619,,,,False,False,1,medium,,holt_winters
-A53,A53,2024-01,0.4867768595041322,,,,False,True,1,medium,,holt_winters
-A53,A53,2024-02,0.4859587538394032,,,,False,True,1,medium,,holt_winters
-A53,A53,2024-03,0.4819824470831182,,,,False,True,1,medium,,holt_winters
-A53,A53,2024-04,0.4883720930232558,,,,False,True,1,medium,,holt_winters
-A53,A53,2024-05,0.4816413535837996,,,,False,True,1,medium,,holt_winters
-A53,A53,2024-06,0.4911310757889887,,,,False,True,1,medium,,holt_winters
-A53,A53,2024-07,0.4920795986244997,,,,False,True,1,medium,,holt_winters
-A53,A53,2024-08,0.4864417989417989,,,,False,True,1,medium,,holt_winters
+A53,A53,2024-01,0.4867768595041322,,,,False,False,1,medium,,holt_winters
+A53,A53,2024-02,0.4859587538394032,,,,False,False,1,medium,,holt_winters
+A53,A53,2024-03,0.4819824470831182,,,,False,False,1,medium,,holt_winters
+A53,A53,2024-04,0.4883720930232558,,,,False,False,1,medium,,holt_winters
+A53,A53,2024-05,0.4816413535837996,,,,False,False,1,medium,,holt_winters
+A53,A53,2024-06,0.4911310757889887,,,,False,False,1,medium,,holt_winters
+A53,A53,2024-07,0.4920795986244997,,,,False,False,1,medium,,holt_winters
+A53,A53,2024-08,0.4864417989417989,,,,False,False,1,medium,,holt_winters
 A53,A53,2024-09,0.4813503170160507,,,,False,True,1,medium,,holt_winters
-A53,A53,2024-10,0.4846958123408635,,,,False,True,1,medium,,holt_winters
-A53,A53,2024-11,0.4816062903678741,,,,False,True,1,medium,,holt_winters
+A53,A53,2024-10,0.4846958123408635,,,,False,False,1,medium,,holt_winters
+A53,A53,2024-11,0.4816062903678741,,,,False,False,1,medium,,holt_winters
 A53,A53,2024-12,0.4807751303814296,,,,False,False,1,medium,,holt_winters
 A53,A53,2025-01,0.4843300452116728,,,,False,False,1,medium,,holt_winters
 A53,A53,2025-02,0.4828915099848184,,,,False,False,1,medium,,holt_winters
 A53,A53,2025-03,0.4846401242098259,,,,False,False,1,medium,,holt_winters
 A53,A53,2025-04,0.4886926801481059,,,,False,False,1,medium,,holt_winters
-A53,A53,2025-05,0.4789021347380094,,,,False,True,1,medium,,holt_winters
+A53,A53,2025-05,0.4789021347380094,,,,False,False,1,medium,,holt_winters
 A53,A53,2025-06,0.4825824431026475,,,,False,False,1,medium,,holt_winters
 A53,A53,2025-07,0.4819204056884577,,,,False,False,1,medium,,holt_winters
 A53,A53,2025-08,0.4837282249481879,,,,False,False,1,medium,,holt_winters
 A53,A53,2025-09,0.4863647142518378,,,,False,False,1,medium,,holt_winters
-A53,A53,2025-10,0.4800935399006139,,,,False,True,1,medium,,holt_winters
+A53,A53,2025-10,0.4800935399006139,,,,False,False,1,medium,,holt_winters
 A53,A53,2025-11,0.4770256471860172,,,,False,False,1,medium,,holt_winters
 A53,A53,2025-12,0.4791818029396971,,,,False,False,1,medium,,holt_winters
 A53,A53,2026-01,0.4827645442052222,,,,False,False,1,medium,,holt_winters
 A53,A53,2026-02,0.4829676854803425,,,,False,False,1,medium,,holt_winters
 A53,A53,2026-03,0.4789438704609993,,,,False,False,1,medium,,holt_winters
 A53,A53,2026-04,0.4878020035356512,,,,False,False,1,medium,,holt_winters
-A53,A53,2026-05,,0.483001,0.475868,0.490133,True,False,1,medium,,holt_winters
-A53,A53,2026-06,,0.482985,0.475818,0.490151,True,False,1,medium,,holt_winters
-A53,A53,2026-07,,0.482969,0.475656,0.490281,True,False,1,medium,,holt_winters
+A53,A53,2026-05,,0.483,0.475868,0.490132,True,False,1,medium,,holt_winters
+A53,A53,2026-06,,0.482984,0.475817,0.49015,True,False,1,medium,,holt_winters
+A53,A53,2026-07,,0.482968,0.475655,0.49028,True,False,1,medium,,holt_winters
 A56,A56,2023-01,0.4566532258064516,,,,False,False,1,high,,holt_winters
 A56,A56,2023-02,0.4639361311635874,,,,False,False,1,high,,holt_winters
 A56,A56,2023-03,0.4565867418899859,,,,False,False,1,high,,holt_winters
@@ -1426,14 +1426,14 @@ A56,A56,2023-05,0.4542762044454473,,,,False,False,1,high,,holt_winters
 A56,A56,2023-06,0.458952188714488,,,,False,False,1,high,,holt_winters
 A56,A56,2023-07,0.4588864968305227,,,,False,False,1,high,,holt_winters
 A56,A56,2023-08,0.4582746478873239,,,,False,False,1,high,,holt_winters
-A56,A56,2023-09,0.4531516712702895,,,,False,True,1,high,,holt_winters
-A56,A56,2023-10,0.4519367852701186,,,,False,True,1,high,,holt_winters
-A56,A56,2023-11,0.4535407926867447,,,,False,True,1,high,,holt_winters
-A56,A56,2023-12,0.452172096908939,,,,False,True,1,high,,holt_winters
-A56,A56,2024-01,0.4558381186765108,,,,False,True,1,high,,holt_winters
-A56,A56,2024-02,0.4602350636630754,,,,False,True,1,high,,holt_winters
+A56,A56,2023-09,0.4531516712702895,,,,False,False,1,high,,holt_winters
+A56,A56,2023-10,0.4519367852701186,,,,False,False,1,high,,holt_winters
+A56,A56,2023-11,0.4535407926867447,,,,False,False,1,high,,holt_winters
+A56,A56,2023-12,0.452172096908939,,,,False,False,1,high,,holt_winters
+A56,A56,2024-01,0.4558381186765108,,,,False,False,1,high,,holt_winters
+A56,A56,2024-02,0.4602350636630754,,,,False,False,1,high,,holt_winters
 A56,A56,2024-03,0.4518171457515512,,,,False,False,1,high,,holt_winters
-A56,A56,2024-04,0.4582514571190674,,,,False,True,1,high,,holt_winters
+A56,A56,2024-04,0.4582514571190674,,,,False,False,1,high,,holt_winters
 A56,A56,2024-05,0.4558713069604406,,,,False,False,1,high,,holt_winters
 A56,A56,2024-06,0.4601249418488735,,,,False,False,1,high,,holt_winters
 A56,A56,2024-07,0.4617653807073322,,,,False,False,1,high,,holt_winters
@@ -1483,7 +1483,7 @@ A57,A57,2024-07,0.4536636322936875,,,,False,False,1,high,,holt_winters
 A57,A57,2024-08,0.4523640996602491,,,,False,False,1,high,,holt_winters
 A57,A57,2024-09,0.4462157443255143,,,,False,False,1,high,,holt_winters
 A57,A57,2024-10,0.4479107447413303,,,,False,False,1,high,,holt_winters
-A57,A57,2024-11,0.4361557103907906,,,,False,True,1,high,,holt_winters
+A57,A57,2024-11,0.4361557103907906,,,,False,False,1,high,,holt_winters
 A57,A57,2024-12,0.4474285318751297,,,,False,False,1,high,,holt_winters
 A57,A57,2025-01,0.448741434289979,,,,False,False,1,high,,holt_winters
 A57,A57,2025-02,0.4425133689839572,,,,False,False,1,high,,holt_winters
@@ -1702,8 +1702,8 @@ A80,A80,2024-11,0.5049738370421483,,,,False,False,1,medium,,holt_winters
 A80,A80,2024-12,0.5042891487269151,,,,False,False,1,medium,,holt_winters
 A80,A80,2025-01,0.5016239816836164,,,,False,False,1,medium,,holt_winters
 A80,A80,2025-02,0.5058552164655784,,,,False,False,1,medium,,holt_winters
-A80,A80,2025-03,0.5026912181303116,,,,False,True,1,medium,,holt_winters
-A80,A80,2025-04,0.5025633470830878,,,,False,True,1,medium,,holt_winters
+A80,A80,2025-03,0.5026912181303116,,,,False,False,1,medium,,holt_winters
+A80,A80,2025-04,0.5025633470830878,,,,False,False,1,medium,,holt_winters
 A80,A80,2025-05,0.4986089201204646,,,,False,True,1,medium,,holt_winters
 A80,A80,2025-06,0.5014304845385926,,,,False,False,1,medium,,holt_winters
 A80,A80,2025-07,0.4976413046624027,,,,False,False,1,medium,,holt_winters
@@ -1782,11 +1782,11 @@ A84,A84,2024-05,0.4896747547754259,,,,False,False,1,high,,holt_winters
 A84,A84,2024-06,0.4892234006158056,,,,False,False,1,high,,holt_winters
 A84,A84,2024-07,0.4902441158456558,,,,False,False,1,high,,holt_winters
 A84,A84,2024-08,0.4923374873694847,,,,False,False,1,high,,holt_winters
-A84,A84,2024-09,0.4837180175344426,,,,False,True,1,high,,holt_winters
-A84,A84,2024-10,0.4825418401155382,,,,False,True,1,high,,holt_winters
+A84,A84,2024-09,0.4837180175344426,,,,False,False,1,high,,holt_winters
+A84,A84,2024-10,0.4825418401155382,,,,False,False,1,high,,holt_winters
 A84,A84,2024-11,0.4882697947214076,,,,False,False,1,high,,holt_winters
-A84,A84,2024-12,0.4887602751216239,,,,False,True,1,high,,holt_winters
-A84,A84,2025-01,0.4776680003266106,,,,False,True,1,high,,holt_winters
+A84,A84,2024-12,0.4887602751216239,,,,False,False,1,high,,holt_winters
+A84,A84,2025-01,0.4776680003266106,,,,False,False,1,high,,holt_winters
 A84,A84,2025-02,0.4826532446521661,,,,False,False,1,high,,holt_winters
 A84,A84,2025-03,0.4864324230300922,,,,False,False,1,high,,holt_winters
 A84,A84,2025-04,0.4823282929495354,,,,False,False,1,high,,holt_winters
@@ -1813,7 +1813,7 @@ A85,A85,2023-05,0.4715687433502778,,,,False,False,1,high,,holt_winters
 A85,A85,2023-06,0.4828790116825567,,,,False,False,1,high,,holt_winters
 A85,A85,2023-07,0.4714762859051436,,,,False,False,1,high,,holt_winters
 A85,A85,2023-08,0.4747206703910614,,,,False,False,1,high,,holt_winters
-A85,A85,2023-09,0.4823919348156332,,,,False,True,1,high,,holt_winters
+A85,A85,2023-09,0.4823919348156332,,,,False,False,1,high,,holt_winters
 A85,A85,2023-10,0.4773127454964107,,,,False,False,1,high,,holt_winters
 A85,A85,2023-11,0.4793764657194095,,,,False,False,1,high,,holt_winters
 A85,A85,2023-12,0.4835718071012189,,,,False,False,1,high,,holt_winters
@@ -1821,15 +1821,15 @@ A85,A85,2024-01,0.4789584429247764,,,,False,False,1,high,,holt_winters
 A85,A85,2024-02,0.481344346340074,,,,False,False,1,high,,holt_winters
 A85,A85,2024-03,0.4798403193612774,,,,False,False,1,high,,holt_winters
 A85,A85,2024-04,0.4729786933822492,,,,False,False,1,high,,holt_winters
-A85,A85,2024-05,0.4790742793791574,,,,False,True,1,high,,holt_winters
-A85,A85,2024-06,0.4862424156907012,,,,False,True,1,high,,holt_winters
+A85,A85,2024-05,0.4790742793791574,,,,False,False,1,high,,holt_winters
+A85,A85,2024-06,0.4862424156907012,,,,False,False,1,high,,holt_winters
 A85,A85,2024-07,0.4844702879024252,,,,False,False,1,high,,holt_winters
 A85,A85,2024-08,0.489444988116874,,,,False,False,1,high,,holt_winters
-A85,A85,2024-09,0.4783053323593864,,,,False,True,1,high,,holt_winters
+A85,A85,2024-09,0.4783053323593864,,,,False,False,1,high,,holt_winters
 A85,A85,2024-10,0.4795093392807359,,,,False,False,1,high,,holt_winters
 A85,A85,2024-11,0.4792738707833047,,,,False,False,1,high,,holt_winters
 A85,A85,2024-12,0.4888423988842399,,,,False,False,1,high,,holt_winters
-A85,A85,2025-01,0.4684275691291787,,,,False,True,1,high,,holt_winters
+A85,A85,2025-01,0.4684275691291787,,,,False,False,1,high,,holt_winters
 A85,A85,2025-02,0.4807550508774517,,,,False,False,1,high,,holt_winters
 A85,A85,2025-03,0.4835086721637759,,,,False,False,1,high,,holt_winters
 A85,A85,2025-04,0.4746998936331864,,,,False,False,1,high,,holt_winters
@@ -1913,12 +1913,12 @@ B00,B00,2024-07,0.5152224824355972,,,,False,False,1,low,,holt_winters
 B00,B00,2024-08,0.521875,,,,False,False,1,low,,holt_winters
 B00,B00,2024-09,0.5309789343246593,,,,False,False,1,low,,holt_winters
 B00,B00,2024-10,0.4955423476968796,,,,False,False,1,low,,holt_winters
-B00,B00,2024-11,0.5104693140794224,,,,False,True,1,low,,holt_winters
-B00,B00,2024-12,0.5101763907734057,,,,False,True,1,low,,holt_winters
+B00,B00,2024-11,0.5104693140794224,,,,False,False,1,low,,holt_winters
+B00,B00,2024-12,0.5101763907734057,,,,False,False,1,low,,holt_winters
 B00,B00,2025-01,0.5407026563838904,,,,False,True,1,low,,holt_winters
-B00,B00,2025-02,0.5654596100278552,,,,False,True,1,low,,holt_winters
+B00,B00,2025-02,0.5654596100278552,,,,False,False,1,low,,holt_winters
 B00,B00,2025-03,0.5256598240469208,,,,False,False,1,low,,holt_winters
-B00,B00,2025-04,0.5436105476673428,,,,False,True,1,low,,holt_winters
+B00,B00,2025-04,0.5436105476673428,,,,False,False,1,low,,holt_winters
 B00,B00,2025-05,0.5443403028118241,,,,False,False,1,low,,holt_winters
 B00,B00,2025-06,0.5339335180055401,,,,False,False,1,low,,holt_winters
 B00,B00,2025-07,0.5385745775165319,,,,False,False,1,low,,holt_winters
@@ -1974,9 +1974,9 @@ B01,Scandinavian Defense,2026-01,0.4835918758995682,,,,False,False,1,high,,holt_
 B01,Scandinavian Defense,2026-02,0.4818379046626347,,,,False,False,1,high,,holt_winters
 B01,Scandinavian Defense,2026-03,0.4828278607658112,,,,False,False,1,high,,holt_winters
 B01,Scandinavian Defense,2026-04,0.4806402768764871,,,,False,False,1,high,,holt_winters
-B01,Scandinavian Defense,2026-05,,0.481893,0.478906,0.48488,True,False,1,high,,holt_winters
-B01,Scandinavian Defense,2026-06,,0.4819,0.478899,0.484902,True,False,1,high,,holt_winters
-B01,Scandinavian Defense,2026-07,,0.481908,0.478845,0.484971,True,False,1,high,,holt_winters
+B01,Scandinavian Defense,2026-05,,0.481892,0.478905,0.484879,True,False,1,high,,holt_winters
+B01,Scandinavian Defense,2026-06,,0.4819,0.478898,0.484901,True,False,1,high,,holt_winters
+B01,Scandinavian Defense,2026-07,,0.481907,0.478844,0.48497,True,False,1,high,,holt_winters
 B02,B02,2023-01,0.4636200453832172,,,,False,False,1,medium,,holt_winters
 B02,B02,2023-02,0.4594611070470616,,,,False,False,1,medium,,holt_winters
 B02,B02,2023-03,0.4615277986346152,,,,False,False,1,medium,,holt_winters
@@ -2001,7 +2001,7 @@ B02,B02,2024-09,0.4648870013650842,,,,False,False,1,medium,,holt_winters
 B02,B02,2024-10,0.4648447666852575,,,,False,False,1,medium,,holt_winters
 B02,B02,2024-11,0.4660963659706029,,,,False,False,1,medium,,holt_winters
 B02,B02,2024-12,0.4662810471308168,,,,False,False,1,medium,,holt_winters
-B02,B02,2025-01,0.4622215241869231,,,,False,True,1,medium,,holt_winters
+B02,B02,2025-01,0.4622215241869231,,,,False,False,1,medium,,holt_winters
 B02,B02,2025-02,0.4628152832079493,,,,False,False,1,medium,,holt_winters
 B02,B02,2025-03,0.4626259011196891,,,,False,False,1,medium,,holt_winters
 B02,B02,2025-04,0.4615140388172607,,,,False,False,1,medium,,holt_winters
@@ -2017,9 +2017,9 @@ B02,B02,2026-01,0.4640741998848011,,,,False,False,1,medium,,holt_winters
 B02,B02,2026-02,0.4643468784057294,,,,False,False,1,medium,,holt_winters
 B02,B02,2026-03,0.4621599573279784,,,,False,False,1,medium,,holt_winters
 B02,B02,2026-04,0.472470090554564,,,,False,False,1,medium,,holt_winters
-B02,B02,2026-05,,0.464963,0.460319,0.469608,True,False,1,medium,,holt_winters
-B02,B02,2026-06,,0.465047,0.46038,0.469715,True,False,1,medium,,holt_winters
-B02,B02,2026-07,,0.465131,0.460369,0.469893,True,False,1,medium,,holt_winters
+B02,B02,2026-05,,0.46496,0.460315,0.469605,True,False,1,medium,,holt_winters
+B02,B02,2026-06,,0.465044,0.460377,0.469712,True,False,1,medium,,holt_winters
+B02,B02,2026-07,,0.465128,0.460366,0.46989,True,False,1,medium,,holt_winters
 B03,B03,2023-01,0.4654849080192891,,,,False,False,1,high,,holt_winters
 B03,B03,2023-02,0.4585430715167632,,,,False,False,1,high,,holt_winters
 B03,B03,2023-03,0.4649618663077613,,,,False,False,1,high,,holt_winters
@@ -2082,8 +2082,8 @@ B06,Modern Defense,2024-04,0.4873309248733092,,,,False,False,1,high,,holt_winter
 B06,Modern Defense,2024-05,0.4868270998673401,,,,False,False,1,high,,holt_winters
 B06,Modern Defense,2024-06,0.4886636636636636,,,,False,False,1,high,,holt_winters
 B06,Modern Defense,2024-07,0.4850112185971236,,,,False,False,1,high,,holt_winters
-B06,Modern Defense,2024-08,0.4903696782105939,,,,False,True,1,high,,holt_winters
-B06,Modern Defense,2024-09,0.4908319031704453,,,,False,True,1,high,,holt_winters
+B06,Modern Defense,2024-08,0.4903696782105939,,,,False,False,1,high,,holt_winters
+B06,Modern Defense,2024-09,0.4908319031704453,,,,False,False,1,high,,holt_winters
 B06,Modern Defense,2024-10,0.4880609823817456,,,,False,False,1,high,,holt_winters
 B06,Modern Defense,2024-11,0.4938647061934733,,,,False,False,1,high,,holt_winters
 B06,Modern Defense,2024-12,0.489824035579619,,,,False,False,1,high,,holt_winters
@@ -2125,16 +2125,16 @@ B07,Pirc Defense,2024-04,0.4800901004085061,,,,False,False,1,low,,holt_winters
 B07,Pirc Defense,2024-05,0.4854123926580854,,,,False,False,1,low,,holt_winters
 B07,Pirc Defense,2024-06,0.4827525103366804,,,,False,False,1,low,,holt_winters
 B07,Pirc Defense,2024-07,0.483829845652984,,,,False,False,1,low,,holt_winters
-B07,Pirc Defense,2024-08,0.4806940604442749,,,,False,True,1,low,,holt_winters
+B07,Pirc Defense,2024-08,0.4806940604442749,,,,False,False,1,low,,holt_winters
 B07,Pirc Defense,2024-09,0.4831057510216286,,,,False,False,1,low,,holt_winters
-B07,Pirc Defense,2024-10,0.4790284841335834,,,,False,True,1,low,,holt_winters
+B07,Pirc Defense,2024-10,0.4790284841335834,,,,False,False,1,low,,holt_winters
 B07,Pirc Defense,2024-11,0.4831207332094616,,,,False,False,1,low,,holt_winters
 B07,Pirc Defense,2024-12,0.4794594999812586,,,,False,False,1,low,,holt_winters
 B07,Pirc Defense,2025-01,0.4819294800022026,,,,False,False,1,low,,holt_winters
 B07,Pirc Defense,2025-02,0.4823332059285684,,,,False,False,1,low,,holt_winters
 B07,Pirc Defense,2025-03,0.4829007004532344,,,,False,False,1,low,,holt_winters
-B07,Pirc Defense,2025-04,0.481292450237525,,,,False,True,1,low,,holt_winters
-B07,Pirc Defense,2025-05,0.4802577799745262,,,,False,True,1,low,,holt_winters
+B07,Pirc Defense,2025-04,0.481292450237525,,,,False,False,1,low,,holt_winters
+B07,Pirc Defense,2025-05,0.4802577799745262,,,,False,False,1,low,,holt_winters
 B07,Pirc Defense,2025-06,0.4774506582126771,,,,False,False,1,low,,holt_winters
 B07,Pirc Defense,2025-07,0.482734122310094,,,,False,False,1,low,,holt_winters
 B07,Pirc Defense,2025-08,0.4816702160024338,,,,False,False,1,low,,holt_winters
@@ -2146,9 +2146,9 @@ B07,Pirc Defense,2026-01,0.4816342042755344,,,,False,False,1,low,,holt_winters
 B07,Pirc Defense,2026-02,0.4819735146894207,,,,False,False,1,low,,holt_winters
 B07,Pirc Defense,2026-03,0.4903367854521732,,,,False,False,1,low,,holt_winters
 B07,Pirc Defense,2026-04,0.4827694358411416,,,,False,False,1,low,,holt_winters
-B07,Pirc Defense,2026-05,,0.483552,0.479284,0.487821,True,False,1,low,,holt_winters
-B07,Pirc Defense,2026-06,,0.483632,0.479343,0.487921,True,False,1,low,,holt_winters
-B07,Pirc Defense,2026-07,,0.483712,0.479336,0.488088,True,False,1,low,,holt_winters
+B07,Pirc Defense,2026-05,,0.483552,0.479283,0.48782,True,False,1,low,,holt_winters
+B07,Pirc Defense,2026-06,,0.483631,0.479342,0.48792,True,False,1,low,,holt_winters
+B07,Pirc Defense,2026-07,,0.483711,0.479335,0.488087,True,False,1,low,,holt_winters
 B12,Caro-Kann Defense,2023-01,0.4794851650647722,,,,False,False,1,low,,holt_winters
 B12,Caro-Kann Defense,2023-02,0.4766434899547057,,,,False,False,1,low,,holt_winters
 B12,Caro-Kann Defense,2023-03,0.4783118093462921,,,,False,False,1,low,,holt_winters
@@ -2173,10 +2173,10 @@ B12,Caro-Kann Defense,2024-09,0.4791339555572452,,,,False,False,1,low,,holt_wint
 B12,Caro-Kann Defense,2024-10,0.4814640202976265,,,,False,False,1,low,,holt_winters
 B12,Caro-Kann Defense,2024-11,0.4788991441767458,,,,False,False,1,low,,holt_winters
 B12,Caro-Kann Defense,2024-12,0.4796312551873952,,,,False,False,1,low,,holt_winters
-B12,Caro-Kann Defense,2025-01,0.4825453772174127,,,,False,True,1,low,,holt_winters
+B12,Caro-Kann Defense,2025-01,0.4825453772174127,,,,False,False,1,low,,holt_winters
 B12,Caro-Kann Defense,2025-02,0.4800615779948763,,,,False,False,1,low,,holt_winters
 B12,Caro-Kann Defense,2025-03,0.4830491344085245,,,,False,True,1,low,,holt_winters
-B12,Caro-Kann Defense,2025-04,0.4846319203499774,,,,False,True,1,low,,holt_winters
+B12,Caro-Kann Defense,2025-04,0.4846319203499774,,,,False,False,1,low,,holt_winters
 B12,Caro-Kann Defense,2025-05,0.4838510299360222,,,,False,False,1,low,,holt_winters
 B12,Caro-Kann Defense,2025-06,0.4824336392483231,,,,False,False,1,low,,holt_winters
 B12,Caro-Kann Defense,2025-07,0.4834954616135681,,,,False,False,1,low,,holt_winters
@@ -2200,8 +2200,8 @@ B20,Sicilian Defense,2023-05,0.4834489042486897,,,,False,False,1,medium,,holt_wi
 B20,Sicilian Defense,2023-06,0.4842554468754282,,,,False,False,1,medium,,holt_winters
 B20,Sicilian Defense,2023-07,0.4836194720168408,,,,False,False,1,medium,,holt_winters
 B20,Sicilian Defense,2023-08,0.4825246394907327,,,,False,True,1,medium,,holt_winters
-B20,Sicilian Defense,2023-09,0.4821757728689597,,,,False,True,1,medium,,holt_winters
-B20,Sicilian Defense,2023-10,0.4814415623636791,,,,False,True,1,medium,,holt_winters
+B20,Sicilian Defense,2023-09,0.4821757728689597,,,,False,False,1,medium,,holt_winters
+B20,Sicilian Defense,2023-10,0.4814415623636791,,,,False,False,1,medium,,holt_winters
 B20,Sicilian Defense,2023-11,0.4827104932958776,,,,False,False,1,medium,,holt_winters
 B20,Sicilian Defense,2023-12,0.4811785735027457,,,,False,False,1,medium,,holt_winters
 B20,Sicilian Defense,2024-01,0.4822537836369768,,,,False,False,1,medium,,holt_winters
@@ -2233,8 +2233,8 @@ B20,Sicilian Defense,2026-02,0.48351807904513,,,,False,False,1,medium,,holt_wint
 B20,Sicilian Defense,2026-03,0.4838710712457947,,,,False,False,1,medium,,holt_winters
 B20,Sicilian Defense,2026-04,0.4851757851013619,,,,False,False,1,medium,,holt_winters
 B20,Sicilian Defense,2026-05,,0.483207,0.481496,0.484918,True,False,1,medium,,holt_winters
-B20,Sicilian Defense,2026-06,,0.483227,0.481508,0.484947,True,False,1,medium,,holt_winters
-B20,Sicilian Defense,2026-07,,0.483248,0.481493,0.485002,True,False,1,medium,,holt_winters
+B20,Sicilian Defense,2026-06,,0.483228,0.481508,0.484947,True,False,1,medium,,holt_winters
+B20,Sicilian Defense,2026-07,,0.483248,0.481494,0.485002,True,False,1,medium,,holt_winters
 B22,B22,2023-01,0.4932712314123733,,,,False,False,1,high,,holt_winters
 B22,B22,2023-02,0.4967826575873055,,,,False,False,1,high,,holt_winters
 B22,B22,2023-03,0.4966743141375388,,,,False,False,1,high,,holt_winters
@@ -2352,7 +2352,7 @@ B24,B24,2025-04,0.5058618109254178,,,,False,False,1,high,,holt_winters
 B24,B24,2025-05,0.4940029985007496,,,,False,False,1,high,,holt_winters
 B24,B24,2025-06,0.5174289245982695,,,,False,False,1,high,,holt_winters
 B24,B24,2025-07,0.4974382859804378,,,,False,False,1,high,,holt_winters
-B24,B24,2025-08,0.5157944365865158,,,,False,True,1,high,,holt_winters
+B24,B24,2025-08,0.5157944365865158,,,,False,False,1,high,,holt_winters
 B24,B24,2025-09,0.5203562340966921,,,,False,False,1,high,,holt_winters
 B24,B24,2025-10,0.5165350444225074,,,,False,False,1,high,,holt_winters
 B24,B24,2025-11,0.5081967213114754,,,,False,False,1,high,,holt_winters
@@ -2422,17 +2422,17 @@ B28,B28,2023-12,0.4659338883051806,,,,False,False,1,high,,holt_winters
 B28,B28,2024-01,0.4578605524688943,,,,False,False,1,high,,holt_winters
 B28,B28,2024-02,0.4696263736263736,,,,False,False,1,high,,holt_winters
 B28,B28,2024-03,0.469254820218864,,,,False,False,1,high,,holt_winters
-B28,B28,2024-04,0.4598754756139744,,,,False,True,1,high,,holt_winters
+B28,B28,2024-04,0.4598754756139744,,,,False,False,1,high,,holt_winters
 B28,B28,2024-05,0.4644628099173554,,,,False,False,1,high,,holt_winters
-B28,B28,2024-06,0.4612612612612612,,,,False,True,1,high,,holt_winters
-B28,B28,2024-07,0.463093648674423,,,,False,True,1,high,,holt_winters
-B28,B28,2024-08,0.4503698292393389,,,,False,True,1,high,,holt_winters
+B28,B28,2024-06,0.4612612612612612,,,,False,False,1,high,,holt_winters
+B28,B28,2024-07,0.463093648674423,,,,False,False,1,high,,holt_winters
+B28,B28,2024-08,0.4503698292393389,,,,False,False,1,high,,holt_winters
 B28,B28,2024-09,0.4559649623916976,,,,False,False,1,high,,holt_winters
-B28,B28,2024-10,0.4693968197565959,,,,False,True,1,high,,holt_winters
+B28,B28,2024-10,0.4693968197565959,,,,False,False,1,high,,holt_winters
 B28,B28,2024-11,0.4557392102846648,,,,False,False,1,high,,holt_winters
 B28,B28,2024-12,0.457002457002457,,,,False,False,1,high,,holt_winters
-B28,B28,2025-01,0.4630633683497119,,,,False,True,1,high,,holt_winters
-B28,B28,2025-02,0.4661551908322812,,,,False,True,1,high,,holt_winters
+B28,B28,2025-01,0.4630633683497119,,,,False,False,1,high,,holt_winters
+B28,B28,2025-02,0.4661551908322812,,,,False,False,1,high,,holt_winters
 B28,B28,2025-03,0.4682774204762732,,,,False,False,1,high,,holt_winters
 B28,B28,2025-04,0.4679100383982446,,,,False,False,1,high,,holt_winters
 B28,B28,2025-05,0.4611250447868147,,,,False,False,1,high,,holt_winters
@@ -2456,31 +2456,31 @@ B29,B29,2023-03,0.4239152999792402,,,,False,False,1,medium,,holt_winters
 B29,B29,2023-04,0.4200377279396353,,,,False,False,1,medium,,holt_winters
 B29,B29,2023-05,0.4371380534279843,,,,False,False,1,medium,,holt_winters
 B29,B29,2023-06,0.4169446297531687,,,,False,False,1,medium,,holt_winters
-B29,B29,2023-07,0.4328558639212175,,,,False,True,1,medium,,holt_winters
-B29,B29,2023-08,0.4295173002990175,,,,False,True,1,medium,,holt_winters
-B29,B29,2023-09,0.4408427876823338,,,,False,True,1,medium,,holt_winters
-B29,B29,2023-10,0.4391327063740857,,,,False,True,1,medium,,holt_winters
+B29,B29,2023-07,0.4328558639212175,,,,False,False,1,medium,,holt_winters
+B29,B29,2023-08,0.4295173002990175,,,,False,False,1,medium,,holt_winters
+B29,B29,2023-09,0.4408427876823338,,,,False,False,1,medium,,holt_winters
+B29,B29,2023-10,0.4391327063740857,,,,False,False,1,medium,,holt_winters
 B29,B29,2023-11,0.4335904027420736,,,,False,False,1,medium,,holt_winters
-B29,B29,2023-12,0.4301156359979889,,,,False,True,1,medium,,holt_winters
-B29,B29,2024-01,0.4373388344507478,,,,False,True,1,medium,,holt_winters
-B29,B29,2024-02,0.4332788671023965,,,,False,True,1,medium,,holt_winters
+B29,B29,2023-12,0.4301156359979889,,,,False,False,1,medium,,holt_winters
+B29,B29,2024-01,0.4373388344507478,,,,False,False,1,medium,,holt_winters
+B29,B29,2024-02,0.4332788671023965,,,,False,False,1,medium,,holt_winters
 B29,B29,2024-03,0.4435826870152614,,,,False,True,1,medium,,holt_winters
-B29,B29,2024-04,0.4422925935618947,,,,False,True,1,medium,,holt_winters
-B29,B29,2024-05,0.4601183431952663,,,,False,True,1,medium,,holt_winters
-B29,B29,2024-06,0.4404314020566842,,,,False,True,1,medium,,holt_winters
-B29,B29,2024-07,0.4430754066042385,,,,False,True,1,medium,,holt_winters
-B29,B29,2024-08,0.4428121720881427,,,,False,True,1,medium,,holt_winters
-B29,B29,2024-09,0.4373104145601618,,,,False,True,1,medium,,holt_winters
-B29,B29,2024-10,0.4545877969259432,,,,False,True,1,medium,,holt_winters
-B29,B29,2024-11,0.4318347509113001,,,,False,True,1,medium,,holt_winters
-B29,B29,2024-12,0.4350201948206225,,,,False,True,1,medium,,holt_winters
-B29,B29,2025-01,0.4421803362200713,,,,False,True,1,medium,,holt_winters
-B29,B29,2025-02,0.4498119757014752,,,,False,True,1,medium,,holt_winters
-B29,B29,2025-03,0.4410585404971933,,,,False,True,1,medium,,holt_winters
-B29,B29,2025-04,0.4336396120469627,,,,False,True,1,medium,,holt_winters
-B29,B29,2025-05,0.4517713990173261,,,,False,True,1,medium,,holt_winters
-B29,B29,2025-06,0.4304565848508841,,,,False,True,1,medium,,holt_winters
-B29,B29,2025-07,0.4295936621518016,,,,False,True,1,medium,,holt_winters
+B29,B29,2024-04,0.4422925935618947,,,,False,False,1,medium,,holt_winters
+B29,B29,2024-05,0.4601183431952663,,,,False,False,1,medium,,holt_winters
+B29,B29,2024-06,0.4404314020566842,,,,False,False,1,medium,,holt_winters
+B29,B29,2024-07,0.4430754066042385,,,,False,False,1,medium,,holt_winters
+B29,B29,2024-08,0.4428121720881427,,,,False,False,1,medium,,holt_winters
+B29,B29,2024-09,0.4373104145601618,,,,False,False,1,medium,,holt_winters
+B29,B29,2024-10,0.4545877969259432,,,,False,False,1,medium,,holt_winters
+B29,B29,2024-11,0.4318347509113001,,,,False,False,1,medium,,holt_winters
+B29,B29,2024-12,0.4350201948206225,,,,False,False,1,medium,,holt_winters
+B29,B29,2025-01,0.4421803362200713,,,,False,False,1,medium,,holt_winters
+B29,B29,2025-02,0.4498119757014752,,,,False,False,1,medium,,holt_winters
+B29,B29,2025-03,0.4410585404971933,,,,False,False,1,medium,,holt_winters
+B29,B29,2025-04,0.4336396120469627,,,,False,False,1,medium,,holt_winters
+B29,B29,2025-05,0.4517713990173261,,,,False,False,1,medium,,holt_winters
+B29,B29,2025-06,0.4304565848508841,,,,False,False,1,medium,,holt_winters
+B29,B29,2025-07,0.4295936621518016,,,,False,False,1,medium,,holt_winters
 B29,B29,2025-08,0.4349691606328774,,,,False,False,1,medium,,holt_winters
 B29,B29,2025-09,0.4334357398873528,,,,False,False,1,medium,,holt_winters
 B29,B29,2025-10,0.4325007903888713,,,,False,False,1,medium,,holt_winters
@@ -2490,7 +2490,7 @@ B29,B29,2026-01,0.4299850074962518,,,,False,False,1,medium,,holt_winters
 B29,B29,2026-02,0.439631650750341,,,,False,False,1,medium,,holt_winters
 B29,B29,2026-03,0.4224455611390285,,,,False,False,1,medium,,holt_winters
 B29,B29,2026-04,0.4533169533169533,,,,False,False,1,medium,,holt_winters
-B29,B29,2026-05,,0.438688,0.420601,0.456774,True,False,1,medium,,holt_winters
+B29,B29,2026-05,,0.438688,0.420601,0.456775,True,False,1,medium,,holt_winters
 B29,B29,2026-06,,0.438908,0.420734,0.457083,True,False,1,medium,,holt_winters
 B29,B29,2026-07,,0.439129,0.420585,0.457672,True,False,1,medium,,holt_winters
 B30,B30,2023-01,0.4738823529411765,,,,False,False,1,medium,,holt_winters
@@ -2513,7 +2513,7 @@ B30,B30,2024-05,0.4637526652452025,,,,False,False,1,medium,,holt_winters
 B30,B30,2024-06,0.4476190476190476,,,,False,False,1,medium,,holt_winters
 B30,B30,2024-07,0.4675100632547441,,,,False,False,1,medium,,holt_winters
 B30,B30,2024-08,0.4583333333333333,,,,False,False,1,medium,,holt_winters
-B30,B30,2024-09,0.4798598949211909,,,,False,True,1,medium,,holt_winters
+B30,B30,2024-09,0.4798598949211909,,,,False,False,1,medium,,holt_winters
 B30,B30,2024-10,0.4696261682242991,,,,False,False,1,medium,,holt_winters
 B30,B30,2024-11,0.4745475113122172,,,,False,False,1,medium,,holt_winters
 B30,B30,2024-12,0.4823331463825014,,,,False,False,1,medium,,holt_winters
@@ -2542,8 +2542,8 @@ B31,B31,2023-03,0.5061374795417348,,,,False,False,1,high,,holt_winters
 B31,B31,2023-04,0.5003474635163307,,,,False,False,1,high,,holt_winters
 B31,B31,2023-05,0.513014055179594,,,,False,False,1,high,,holt_winters
 B31,B31,2023-06,0.508567415730337,,,,False,False,1,high,,holt_winters
-B31,B31,2023-07,0.5039391845196959,,,,False,True,1,high,,holt_winters
-B31,B31,2023-08,0.4977885002010454,,,,False,True,1,high,,holt_winters
+B31,B31,2023-07,0.5039391845196959,,,,False,False,1,high,,holt_winters
+B31,B31,2023-08,0.4977885002010454,,,,False,False,1,high,,holt_winters
 B31,B31,2023-09,0.4965106135504507,,,,False,False,1,high,,holt_winters
 B31,B31,2023-10,0.4961197339246119,,,,False,False,1,high,,holt_winters
 B31,B31,2023-11,0.5038913258808547,,,,False,False,1,high,,holt_winters
@@ -2578,7 +2578,7 @@ B31,B31,2026-03,0.5092978073827366,,,,False,False,1,high,,holt_winters
 B31,B31,2026-04,0.5096582466567607,,,,False,False,1,high,,holt_winters
 B31,B31,2026-05,,0.508438,0.498821,0.518056,True,False,1,high,,holt_winters
 B31,B31,2026-06,,0.508626,0.498962,0.51829,True,False,1,high,,holt_winters
-B31,B31,2026-07,,0.508813,0.498953,0.518674,True,False,1,high,,holt_winters
+B31,B31,2026-07,,0.508813,0.498953,0.518673,True,False,1,high,,holt_winters
 B32,B32,2023-01,0.4590210994689249,,,,False,False,1,high,,holt_winters
 B32,B32,2023-02,0.46,,,,False,False,1,high,,holt_winters
 B32,B32,2023-03,0.4595262096774193,,,,False,False,1,high,,holt_winters
@@ -2644,16 +2644,16 @@ B33,B33,2024-07,0.4805167301990682,,,,False,False,1,low,,holt_winters
 B33,B33,2024-08,0.4808569307455722,,,,False,False,1,low,,holt_winters
 B33,B33,2024-09,0.4777208846279551,,,,False,False,1,low,,holt_winters
 B33,B33,2024-10,0.4889032536091359,,,,False,False,1,low,,holt_winters
-B33,B33,2024-11,0.4725067702814082,,,,False,True,1,low,,holt_winters
+B33,B33,2024-11,0.4725067702814082,,,,False,False,1,low,,holt_winters
 B33,B33,2024-12,0.4738007380073801,,,,False,False,1,low,,holt_winters
 B33,B33,2025-01,0.482747637753477,,,,False,False,1,low,,holt_winters
 B33,B33,2025-02,0.4791795378722353,,,,False,False,1,low,,holt_winters
 B33,B33,2025-03,0.4732123568805357,,,,False,False,1,low,,holt_winters
 B33,B33,2025-04,0.4627846912420756,,,,False,False,1,low,,holt_winters
-B33,B33,2025-05,0.484427894380501,,,,False,True,1,low,,holt_winters
+B33,B33,2025-05,0.484427894380501,,,,False,False,1,low,,holt_winters
 B33,B33,2025-06,0.478333518992982,,,,False,False,1,low,,holt_winters
 B33,B33,2025-07,0.4769001490312965,,,,False,False,1,low,,holt_winters
-B33,B33,2025-08,0.4921069248579246,,,,False,True,1,low,,holt_winters
+B33,B33,2025-08,0.4921069248579246,,,,False,False,1,low,,holt_winters
 B33,B33,2025-09,0.4792402289053938,,,,False,False,1,low,,holt_winters
 B33,B33,2025-10,0.4876309338087809,,,,False,False,1,low,,holt_winters
 B33,B33,2025-11,0.4857009454885024,,,,False,False,1,low,,holt_winters
@@ -2714,7 +2714,7 @@ B35,B35,2023-03,0.473304101109105,,,,False,False,1,high,,holt_winters
 B35,B35,2023-04,0.4778761061946903,,,,False,False,1,high,,holt_winters
 B35,B35,2023-05,0.4811369509043928,,,,False,False,1,high,,holt_winters
 B35,B35,2023-06,0.4901531728665207,,,,False,False,1,high,,holt_winters
-B35,B35,2023-07,0.476027397260274,,,,False,True,1,high,,holt_winters
+B35,B35,2023-07,0.476027397260274,,,,False,False,1,high,,holt_winters
 B35,B35,2023-08,0.4760623991393222,,,,False,False,1,high,,holt_winters
 B35,B35,2023-09,0.4732221246707638,,,,False,False,1,high,,holt_winters
 B35,B35,2023-10,0.4821177133201915,,,,False,False,1,high,,holt_winters
@@ -2757,9 +2757,9 @@ B36,B36,2023-03,0.4829178208679593,,,,False,False,1,low,,holt_winters
 B36,B36,2023-04,0.4845748683220466,,,,False,False,1,low,,holt_winters
 B36,B36,2023-05,0.4991330195689868,,,,False,False,1,low,,holt_winters
 B36,B36,2023-06,0.5022149685241315,,,,False,False,1,low,,holt_winters
-B36,B36,2023-07,0.4920054819552307,,,,False,True,1,low,,holt_winters
-B36,B36,2023-08,0.4925969447708578,,,,False,True,1,low,,holt_winters
-B36,B36,2023-09,0.4822064056939502,,,,False,True,1,low,,holt_winters
+B36,B36,2023-07,0.4920054819552307,,,,False,False,1,low,,holt_winters
+B36,B36,2023-08,0.4925969447708578,,,,False,False,1,low,,holt_winters
+B36,B36,2023-09,0.4822064056939502,,,,False,False,1,low,,holt_winters
 B36,B36,2023-10,0.4837418709354677,,,,False,False,1,low,,holt_winters
 B36,B36,2023-11,0.4716223003515821,,,,False,False,1,low,,holt_winters
 B36,B36,2023-12,0.4799168975069252,,,,False,False,1,low,,holt_winters
@@ -2801,7 +2801,7 @@ B37,B37,2023-04,0.5054019014693172,,,,False,False,1,high,,holt_winters
 B37,B37,2023-05,0.5010597710894447,,,,False,False,1,high,,holt_winters
 B37,B37,2023-06,0.5123456790123457,,,,False,False,1,high,,holt_winters
 B37,B37,2023-07,0.5115654688145395,,,,False,False,1,high,,holt_winters
-B37,B37,2023-08,0.5015812776723593,,,,False,True,1,high,,holt_winters
+B37,B37,2023-08,0.5015812776723593,,,,False,False,1,high,,holt_winters
 B37,B37,2023-09,0.4985330625141052,,,,False,False,1,high,,holt_winters
 B37,B37,2023-10,0.4973474801061008,,,,False,False,1,high,,holt_winters
 B37,B37,2023-11,0.491401054803944,,,,False,False,1,high,,holt_winters
@@ -2982,22 +2982,22 @@ B44,B44,2024-01,0.4780060095561795,,,,False,False,1,medium,,holt_winters
 B44,B44,2024-02,0.4841984607827083,,,,False,False,1,medium,,holt_winters
 B44,B44,2024-03,0.4745710310712629,,,,False,False,1,medium,,holt_winters
 B44,B44,2024-04,0.484891631071033,,,,False,False,1,medium,,holt_winters
-B44,B44,2024-05,0.4783578991073282,,,,False,True,1,medium,,holt_winters
-B44,B44,2024-06,0.4833909263181362,,,,False,True,1,medium,,holt_winters
+B44,B44,2024-05,0.4783578991073282,,,,False,False,1,medium,,holt_winters
+B44,B44,2024-06,0.4833909263181362,,,,False,False,1,medium,,holt_winters
 B44,B44,2024-07,0.4774452396443288,,,,False,True,1,medium,,holt_winters
-B44,B44,2024-08,0.472552803688217,,,,False,True,1,medium,,holt_winters
-B44,B44,2024-09,0.4720776017975557,,,,False,True,1,medium,,holt_winters
-B44,B44,2024-10,0.4752123938030984,,,,False,True,1,medium,,holt_winters
-B44,B44,2024-11,0.4760685128861853,,,,False,True,1,medium,,holt_winters
-B44,B44,2024-12,0.4757011238230232,,,,False,True,1,medium,,holt_winters
-B44,B44,2025-01,0.4824160939146139,,,,False,True,1,medium,,holt_winters
+B44,B44,2024-08,0.472552803688217,,,,False,False,1,medium,,holt_winters
+B44,B44,2024-09,0.4720776017975557,,,,False,False,1,medium,,holt_winters
+B44,B44,2024-10,0.4752123938030984,,,,False,False,1,medium,,holt_winters
+B44,B44,2024-11,0.4760685128861853,,,,False,False,1,medium,,holt_winters
+B44,B44,2024-12,0.4757011238230232,,,,False,False,1,medium,,holt_winters
+B44,B44,2025-01,0.4824160939146139,,,,False,False,1,medium,,holt_winters
 B44,B44,2025-02,0.4779197622585438,,,,False,False,1,medium,,holt_winters
 B44,B44,2025-03,0.4812034165714596,,,,False,False,1,medium,,holt_winters
 B44,B44,2025-04,0.4744428364688857,,,,False,False,1,medium,,holt_winters
-B44,B44,2025-05,0.4791458679977814,,,,False,True,1,medium,,holt_winters
+B44,B44,2025-05,0.4791458679977814,,,,False,False,1,medium,,holt_winters
 B44,B44,2025-06,0.4803308932928644,,,,False,False,1,medium,,holt_winters
 B44,B44,2025-07,0.4769619418968642,,,,False,False,1,medium,,holt_winters
-B44,B44,2025-08,0.4813236677549665,,,,False,True,1,medium,,holt_winters
+B44,B44,2025-08,0.4813236677549665,,,,False,False,1,medium,,holt_winters
 B44,B44,2025-09,0.4788469901223831,,,,False,False,1,medium,,holt_winters
 B44,B44,2025-10,0.4809626658438753,,,,False,False,1,medium,,holt_winters
 B44,B44,2025-11,0.4886166869749246,,,,False,False,1,medium,,holt_winters
@@ -3034,7 +3034,7 @@ B45,B45,2024-10,0.4520247737017627,,,,False,False,1,medium,,holt_winters
 B45,B45,2024-11,0.442629521996192,,,,False,False,1,medium,,holt_winters
 B45,B45,2024-12,0.4459001374255611,,,,False,False,1,medium,,holt_winters
 B45,B45,2025-01,0.4443310447207274,,,,False,False,1,medium,,holt_winters
-B45,B45,2025-02,0.4608040734061737,,,,False,True,1,medium,,holt_winters
+B45,B45,2025-02,0.4608040734061737,,,,False,False,1,medium,,holt_winters
 B45,B45,2025-03,0.4465634075508228,,,,False,False,1,medium,,holt_winters
 B45,B45,2025-04,0.4518207855973813,,,,False,False,1,medium,,holt_winters
 B45,B45,2025-05,0.4522230889235569,,,,False,False,1,medium,,holt_winters
@@ -3059,7 +3059,7 @@ B46,B46,2023-04,0.4817388205950472,,,,False,False,1,high,,holt_winters
 B46,B46,2023-05,0.4898771413739401,,,,False,False,1,high,,holt_winters
 B46,B46,2023-06,0.5007595898214964,,,,False,False,1,high,,holt_winters
 B46,B46,2023-07,0.4944184371624054,,,,False,False,1,high,,holt_winters
-B46,B46,2023-08,0.4862275449101796,,,,False,True,1,high,,holt_winters
+B46,B46,2023-08,0.4862275449101796,,,,False,False,1,high,,holt_winters
 B46,B46,2023-09,0.4898109050853681,,,,False,False,1,high,,holt_winters
 B46,B46,2023-10,0.4853587115666178,,,,False,False,1,high,,holt_winters
 B46,B46,2023-11,0.4880552444942143,,,,False,False,1,high,,holt_winters
@@ -3114,10 +3114,10 @@ B47,B47,2024-04,0.4547926580557443,,,,False,False,1,medium,,holt_winters
 B47,B47,2024-05,0.4478951000690131,,,,False,False,1,medium,,holt_winters
 B47,B47,2024-06,0.4577841111506947,,,,False,False,1,medium,,holt_winters
 B47,B47,2024-07,0.4608837970540098,,,,False,False,1,medium,,holt_winters
-B47,B47,2024-08,0.4434782608695652,,,,False,True,1,medium,,holt_winters
-B47,B47,2024-09,0.4539408047888261,,,,False,True,1,medium,,holt_winters
+B47,B47,2024-08,0.4434782608695652,,,,False,False,1,medium,,holt_winters
+B47,B47,2024-09,0.4539408047888261,,,,False,False,1,medium,,holt_winters
 B47,B47,2024-10,0.4421019509125236,,,,False,True,1,medium,,holt_winters
-B47,B47,2024-11,0.4365365693670056,,,,False,True,1,medium,,holt_winters
+B47,B47,2024-11,0.4365365693670056,,,,False,False,1,medium,,holt_winters
 B47,B47,2024-12,0.4495586380832282,,,,False,False,1,medium,,holt_winters
 B47,B47,2025-01,0.4447556800497977,,,,False,False,1,medium,,holt_winters
 B47,B47,2025-02,0.4509940704569236,,,,False,False,1,medium,,holt_winters
@@ -3190,10 +3190,10 @@ B50,B50,2023-06,0.4830578816310663,,,,False,False,1,medium,,holt_winters
 B50,B50,2023-07,0.4837238105067602,,,,False,False,1,medium,,holt_winters
 B50,B50,2023-08,0.482294602991708,,,,False,False,1,medium,,holt_winters
 B50,B50,2023-09,0.4862185925511246,,,,False,False,1,medium,,holt_winters
-B50,B50,2023-10,0.4789370143643737,,,,False,True,1,medium,,holt_winters
-B50,B50,2023-11,0.4793071910369269,,,,False,True,1,medium,,holt_winters
-B50,B50,2023-12,0.4811435851480766,,,,False,True,1,medium,,holt_winters
-B50,B50,2024-01,0.4844370032941585,,,,False,True,1,medium,,holt_winters
+B50,B50,2023-10,0.4789370143643737,,,,False,False,1,medium,,holt_winters
+B50,B50,2023-11,0.4793071910369269,,,,False,False,1,medium,,holt_winters
+B50,B50,2023-12,0.4811435851480766,,,,False,False,1,medium,,holt_winters
+B50,B50,2024-01,0.4844370032941585,,,,False,False,1,medium,,holt_winters
 B50,B50,2024-02,0.482988886150524,,,,False,False,1,medium,,holt_winters
 B50,B50,2024-03,0.4814946540111587,,,,False,False,1,medium,,holt_winters
 B50,B50,2024-04,0.4810754189944134,,,,False,False,1,medium,,holt_winters
@@ -3243,7 +3243,7 @@ B51,B51,2024-04,0.5059472832809973,,,,False,False,1,high,,holt_winters
 B51,B51,2024-05,0.4913667757179207,,,,False,False,1,high,,holt_winters
 B51,B51,2024-06,0.4886469383956821,,,,False,False,1,high,,holt_winters
 B51,B51,2024-07,0.4887048192771084,,,,False,False,1,high,,holt_winters
-B51,B51,2024-08,0.5033401621092011,,,,False,True,1,high,,holt_winters
+B51,B51,2024-08,0.5033401621092011,,,,False,False,1,high,,holt_winters
 B51,B51,2024-09,0.4953315548780488,,,,False,False,1,high,,holt_winters
 B51,B51,2024-10,0.4997717937015061,,,,False,False,1,high,,holt_winters
 B51,B51,2024-11,0.5027529903170685,,,,False,False,1,high,,holt_winters
@@ -3256,7 +3256,7 @@ B51,B51,2025-05,0.4992855101457559,,,,False,False,1,high,,holt_winters
 B51,B51,2025-06,0.5020948390782708,,,,False,False,1,high,,holt_winters
 B51,B51,2025-07,0.4946562166013538,,,,False,False,1,high,,holt_winters
 B51,B51,2025-08,0.491599309781128,,,,False,False,1,high,,holt_winters
-B51,B51,2025-09,0.5093662813870068,,,,False,True,1,high,,holt_winters
+B51,B51,2025-09,0.5093662813870068,,,,False,False,1,high,,holt_winters
 B51,B51,2025-10,0.5069854388036206,,,,False,False,1,high,,holt_winters
 B51,B51,2025-11,0.5014132848778519,,,,False,False,1,high,,holt_winters
 B51,B51,2025-12,0.5035533944267814,,,,False,False,1,high,,holt_winters
@@ -3266,7 +3266,7 @@ B51,B51,2026-03,0.4950504850524648,,,,False,False,1,high,,holt_winters
 B51,B51,2026-04,0.5023832221163013,,,,False,False,1,high,,holt_winters
 B51,B51,2026-05,,0.500193,0.489749,0.510638,True,False,1,high,,holt_winters
 B51,B51,2026-06,,0.5003,0.489805,0.510796,True,False,1,high,,holt_winters
-B51,B51,2026-07,,0.500408,0.489699,0.511116,True,False,1,high,,holt_winters
+B51,B51,2026-07,,0.500408,0.4897,0.511116,True,False,1,high,,holt_winters
 B53,B53,2023-01,0.5103754158086489,,,,False,False,1,medium,,holt_winters
 B53,B53,2023-02,0.5144688644688644,,,,False,False,1,medium,,holt_winters
 B53,B53,2023-03,0.507311199036642,,,,False,False,1,medium,,holt_winters
@@ -3351,8 +3351,8 @@ B54,B54,2026-02,0.5302869287991498,,,,False,False,1,low,,holt_winters
 B54,B54,2026-03,0.5107066381156317,,,,False,False,1,low,,holt_winters
 B54,B54,2026-04,0.5073684210526316,,,,False,False,1,low,,holt_winters
 B54,B54,2026-05,,0.519721,0.489209,0.550232,True,False,1,low,,holt_winters
-B54,B54,2026-06,,0.519673,0.489013,0.550333,True,False,1,low,,holt_winters
-B54,B54,2026-07,,0.519625,0.488342,0.550907,True,False,1,low,,holt_winters
+B54,B54,2026-06,,0.519673,0.489013,0.550332,True,False,1,low,,holt_winters
+B54,B54,2026-07,,0.519624,0.488342,0.550907,True,False,1,low,,holt_winters
 B56,B56,2023-01,0.4835095965530748,,,,False,False,1,medium,,holt_winters
 B56,B56,2023-02,0.4722885176345797,,,,False,False,1,medium,,holt_winters
 B56,B56,2023-03,0.473633748801534,,,,False,False,1,medium,,holt_winters
@@ -3385,7 +3385,7 @@ B56,B56,2025-05,0.4673851389676687,,,,False,False,1,medium,,holt_winters
 B56,B56,2025-06,0.4771650367980643,,,,False,False,1,medium,,holt_winters
 B56,B56,2025-07,0.4702109861511293,,,,False,False,1,medium,,holt_winters
 B56,B56,2025-08,0.4830279921882265,,,,False,False,1,medium,,holt_winters
-B56,B56,2025-09,0.4592547712814299,,,,False,True,1,medium,,holt_winters
+B56,B56,2025-09,0.4592547712814299,,,,False,False,1,medium,,holt_winters
 B56,B56,2025-10,0.4644187216909914,,,,False,False,1,medium,,holt_winters
 B56,B56,2025-11,0.471531513244697,,,,False,False,1,medium,,holt_winters
 B56,B56,2025-12,0.4695431472081218,,,,False,False,1,medium,,holt_winters
@@ -3428,8 +3428,8 @@ B60,B60,2025-05,0.4726156751652502,,,,False,False,1,low,,holt_winters
 B60,B60,2025-06,0.5199795081967213,,,,False,False,1,low,,holt_winters
 B60,B60,2025-07,0.5049371633752244,,,,False,False,1,low,,holt_winters
 B60,B60,2025-08,0.5218390804597701,,,,False,False,1,low,,holt_winters
-B60,B60,2025-09,0.4865938430983118,,,,False,True,1,low,,holt_winters
-B60,B60,2025-10,0.4803871625063678,,,,False,True,1,low,,holt_winters
+B60,B60,2025-09,0.4865938430983118,,,,False,False,1,low,,holt_winters
+B60,B60,2025-10,0.4803871625063678,,,,False,False,1,low,,holt_winters
 B60,B60,2025-11,0.4832317073170731,,,,False,False,1,low,,holt_winters
 B60,B60,2025-12,0.4830207805372529,,,,False,False,1,low,,holt_winters
 B60,B60,2026-01,0.4920802534318901,,,,False,False,1,low,,holt_winters
@@ -3496,7 +3496,7 @@ B70,B70,2023-11,0.4550019312475859,,,,False,False,1,low,,holt_winters
 B70,B70,2023-12,0.4634323392414252,,,,False,False,1,low,,holt_winters
 B70,B70,2024-01,0.4653041243421857,,,,False,False,1,low,,holt_winters
 B70,B70,2024-02,0.4642179452426132,,,,False,False,1,low,,holt_winters
-B70,B70,2024-03,0.4528430160692213,,,,False,True,1,low,,holt_winters
+B70,B70,2024-03,0.4528430160692213,,,,False,False,1,low,,holt_winters
 B70,B70,2024-04,0.4554150560178209,,,,False,False,1,low,,holt_winters
 B70,B70,2024-05,0.4568357185253577,,,,False,False,1,low,,holt_winters
 B70,B70,2024-06,0.4582240022096395,,,,False,False,1,low,,holt_winters
@@ -3511,7 +3511,7 @@ B70,B70,2025-02,0.4582136808776967,,,,False,False,1,low,,holt_winters
 B70,B70,2025-03,0.4638135477715687,,,,False,False,1,low,,holt_winters
 B70,B70,2025-04,0.4570406599021826,,,,False,False,1,low,,holt_winters
 B70,B70,2025-05,0.4550829949419391,,,,False,False,1,low,,holt_winters
-B70,B70,2025-06,0.466,,,,False,True,1,low,,holt_winters
+B70,B70,2025-06,0.466,,,,False,False,1,low,,holt_winters
 B70,B70,2025-07,0.4679008869491764,,,,False,False,1,low,,holt_winters
 B70,B70,2025-08,0.4600790513833992,,,,False,False,1,low,,holt_winters
 B70,B70,2025-09,0.4654244638984821,,,,False,False,1,low,,holt_winters
@@ -3596,7 +3596,7 @@ B75,B75,2025-01,0.5184162062615101,,,,False,False,1,medium,,holt_winters
 B75,B75,2025-02,0.5019305019305019,,,,False,False,1,medium,,holt_winters
 B75,B75,2025-03,0.5062703204830469,,,,False,False,1,medium,,holt_winters
 B75,B75,2025-04,0.5056119722073757,,,,False,False,1,medium,,holt_winters
-B75,B75,2025-05,0.5117616309461579,,,,False,True,1,medium,,holt_winters
+B75,B75,2025-05,0.5117616309461579,,,,False,False,1,medium,,holt_winters
 B75,B75,2025-06,0.5408902691511387,,,,False,True,1,medium,,holt_winters
 B75,B75,2025-07,0.541501976284585,,,,False,False,1,medium,,holt_winters
 B75,B75,2025-08,0.5059431524547804,,,,False,False,1,medium,,holt_winters
@@ -3608,9 +3608,9 @@ B75,B75,2026-01,0.5044792833146696,,,,False,False,1,medium,,holt_winters
 B75,B75,2026-02,0.5119318181818182,,,,False,False,1,medium,,holt_winters
 B75,B75,2026-03,0.4979942693409742,,,,False,False,1,medium,,holt_winters
 B75,B75,2026-04,0.4967248908296943,,,,False,False,1,medium,,holt_winters
-B75,B75,2026-05,,0.505725,0.483079,0.528372,True,False,1,medium,,holt_winters
-B75,B75,2026-06,,0.505404,0.482648,0.528161,True,False,1,medium,,holt_winters
-B75,B75,2026-07,,0.505083,0.481865,0.528302,True,False,1,medium,,holt_winters
+B75,B75,2026-05,,0.505726,0.483079,0.528372,True,False,1,medium,,holt_winters
+B75,B75,2026-06,,0.505405,0.482648,0.528161,True,False,1,medium,,holt_winters
+B75,B75,2026-07,,0.505084,0.481865,0.528303,True,False,1,medium,,holt_winters
 B76,B76,2023-01,0.4792410294946458,,,,False,False,1,low,,holt_winters
 B76,B76,2023-02,0.4828928498258553,,,,False,False,1,low,,holt_winters
 B76,B76,2023-03,0.4805714285714286,,,,False,False,1,low,,holt_winters
@@ -3620,21 +3620,21 @@ B76,B76,2023-06,0.4722165682882149,,,,False,False,1,low,,holt_winters
 B76,B76,2023-07,0.4745730186144694,,,,False,False,1,low,,holt_winters
 B76,B76,2023-08,0.4699769053117782,,,,False,False,1,low,,holt_winters
 B76,B76,2023-09,0.4605508386829571,,,,False,False,1,low,,holt_winters
-B76,B76,2023-10,0.4665804225959465,,,,False,True,1,low,,holt_winters
-B76,B76,2023-11,0.4746384631987912,,,,False,True,1,low,,holt_winters
+B76,B76,2023-10,0.4665804225959465,,,,False,False,1,low,,holt_winters
+B76,B76,2023-11,0.4746384631987912,,,,False,False,1,low,,holt_winters
 B76,B76,2023-12,0.4718826405867971,,,,False,False,1,low,,holt_winters
 B76,B76,2024-01,0.4753236245954692,,,,False,False,1,low,,holt_winters
 B76,B76,2024-02,0.474572603332612,,,,False,False,1,low,,holt_winters
 B76,B76,2024-03,0.4574317492416582,,,,False,False,1,low,,holt_winters
 B76,B76,2024-04,0.4617814276689829,,,,False,False,1,low,,holt_winters
-B76,B76,2024-05,0.4755838641188959,,,,False,True,1,low,,holt_winters
+B76,B76,2024-05,0.4755838641188959,,,,False,False,1,low,,holt_winters
 B76,B76,2024-06,0.4706780030521038,,,,False,False,1,low,,holt_winters
 B76,B76,2024-07,0.4663769915166563,,,,False,False,1,low,,holt_winters
-B76,B76,2024-08,0.4738485558157689,,,,False,True,1,low,,holt_winters
+B76,B76,2024-08,0.4738485558157689,,,,False,False,1,low,,holt_winters
 B76,B76,2024-09,0.4745484400656814,,,,False,False,1,low,,holt_winters
 B76,B76,2024-10,0.4663628472222222,,,,False,False,1,low,,holt_winters
-B76,B76,2024-11,0.4754856614246068,,,,False,True,1,low,,holt_winters
-B76,B76,2024-12,0.4866992977229197,,,,False,True,1,low,,holt_winters
+B76,B76,2024-11,0.4754856614246068,,,,False,False,1,low,,holt_winters
+B76,B76,2024-12,0.4866992977229197,,,,False,False,1,low,,holt_winters
 B76,B76,2025-01,0.476288236501745,,,,False,False,1,low,,holt_winters
 B76,B76,2025-02,0.4797920113448357,,,,False,False,1,low,,holt_winters
 B76,B76,2025-03,0.4828265149857799,,,,False,False,1,low,,holt_winters
@@ -3643,7 +3643,7 @@ B76,B76,2025-05,0.4633348902382064,,,,False,False,1,low,,holt_winters
 B76,B76,2025-06,0.4750402576489533,,,,False,False,1,low,,holt_winters
 B76,B76,2025-07,0.4837662337662338,,,,False,False,1,low,,holt_winters
 B76,B76,2025-08,0.4692414431082331,,,,False,False,1,low,,holt_winters
-B76,B76,2025-09,0.4852441890833116,,,,False,True,1,low,,holt_winters
+B76,B76,2025-09,0.4852441890833116,,,,False,False,1,low,,holt_winters
 B76,B76,2025-10,0.4841448189762796,,,,False,False,1,low,,holt_winters
 B76,B76,2025-11,0.4859375,,,,False,False,1,low,,holt_winters
 B76,B76,2025-12,0.4779322116556937,,,,False,False,1,low,,holt_winters
@@ -3759,11 +3759,11 @@ B80,B80,2024-04,0.4825304393859185,,,,False,False,1,medium,,holt_winters
 B80,B80,2024-05,0.4816145977329278,,,,False,False,1,medium,,holt_winters
 B80,B80,2024-06,0.4836423118865867,,,,False,False,1,medium,,holt_winters
 B80,B80,2024-07,0.4715447154471545,,,,False,False,1,medium,,holt_winters
-B80,B80,2024-08,0.4843240531728116,,,,False,True,1,medium,,holt_winters
-B80,B80,2024-09,0.4888710109949048,,,,False,True,1,medium,,holt_winters
+B80,B80,2024-08,0.4843240531728116,,,,False,False,1,medium,,holt_winters
+B80,B80,2024-09,0.4888710109949048,,,,False,False,1,medium,,holt_winters
 B80,B80,2024-10,0.4911154985192497,,,,False,False,1,medium,,holt_winters
 B80,B80,2024-11,0.4770875763747454,,,,False,False,1,medium,,holt_winters
-B80,B80,2024-12,0.4894391842680262,,,,False,True,1,medium,,holt_winters
+B80,B80,2024-12,0.4894391842680262,,,,False,False,1,medium,,holt_winters
 B80,B80,2025-01,0.4967775199793761,,,,False,False,1,medium,,holt_winters
 B80,B80,2025-02,0.4871350101185314,,,,False,False,1,medium,,holt_winters
 B80,B80,2025-03,0.4949944382647386,,,,False,False,1,medium,,holt_winters
@@ -3807,16 +3807,16 @@ B90,B90,2024-09,0.4840289171452009,,,,False,False,1,medium,,holt_winters
 B90,B90,2024-10,0.4818301497801733,,,,False,False,1,medium,,holt_winters
 B90,B90,2024-11,0.4803014105806586,,,,False,False,1,medium,,holt_winters
 B90,B90,2024-12,0.4863107947805457,,,,False,False,1,medium,,holt_winters
-B90,B90,2025-01,0.4844159557737216,,,,False,True,1,medium,,holt_winters
-B90,B90,2025-02,0.4818739701119381,,,,False,True,1,medium,,holt_winters
-B90,B90,2025-03,0.4827485921264839,,,,False,True,1,medium,,holt_winters
-B90,B90,2025-04,0.4822280435681786,,,,False,True,1,medium,,holt_winters
+B90,B90,2025-01,0.4844159557737216,,,,False,False,1,medium,,holt_winters
+B90,B90,2025-02,0.4818739701119381,,,,False,False,1,medium,,holt_winters
+B90,B90,2025-03,0.4827485921264839,,,,False,False,1,medium,,holt_winters
+B90,B90,2025-04,0.4822280435681786,,,,False,False,1,medium,,holt_winters
 B90,B90,2025-05,0.4800508663169607,,,,False,True,1,medium,,holt_winters
-B90,B90,2025-06,0.4845688832325803,,,,False,True,1,medium,,holt_winters
-B90,B90,2025-07,0.4822623044689102,,,,False,True,1,medium,,holt_winters
-B90,B90,2025-08,0.4825538233110616,,,,False,True,1,medium,,holt_winters
-B90,B90,2025-09,0.4843413884620757,,,,False,True,1,medium,,holt_winters
-B90,B90,2025-10,0.4882998780082067,,,,False,True,1,medium,,holt_winters
+B90,B90,2025-06,0.4845688832325803,,,,False,False,1,medium,,holt_winters
+B90,B90,2025-07,0.4822623044689102,,,,False,False,1,medium,,holt_winters
+B90,B90,2025-08,0.4825538233110616,,,,False,False,1,medium,,holt_winters
+B90,B90,2025-09,0.4843413884620757,,,,False,False,1,medium,,holt_winters
+B90,B90,2025-10,0.4882998780082067,,,,False,False,1,medium,,holt_winters
 B90,B90,2025-11,0.4848590526009881,,,,False,False,1,medium,,holt_winters
 B90,B90,2025-12,0.481128263153641,,,,False,False,1,medium,,holt_winters
 B90,B90,2026-01,0.4882374434357345,,,,False,False,1,medium,,holt_winters
@@ -3856,10 +3856,10 @@ B92,B92,2025-03,0.4673250682916579,,,,False,False,1,high,,holt_winters
 B92,B92,2025-04,0.4754445385266723,,,,False,False,1,high,,holt_winters
 B92,B92,2025-05,0.464082578470613,,,,False,False,1,high,,holt_winters
 B92,B92,2025-06,0.4766394301278022,,,,False,False,1,high,,holt_winters
-B92,B92,2025-07,0.4592854175321977,,,,False,True,1,high,,holt_winters
+B92,B92,2025-07,0.4592854175321977,,,,False,False,1,high,,holt_winters
 B92,B92,2025-08,0.4710417078474007,,,,False,False,1,high,,holt_winters
-B92,B92,2025-09,0.4606451612903225,,,,False,True,1,high,,holt_winters
-B92,B92,2025-10,0.47052541648868,,,,False,True,1,high,,holt_winters
+B92,B92,2025-09,0.4606451612903225,,,,False,False,1,high,,holt_winters
+B92,B92,2025-10,0.47052541648868,,,,False,False,1,high,,holt_winters
 B92,B92,2025-11,0.4599211563731931,,,,False,False,1,high,,holt_winters
 B92,B92,2025-12,0.4680628272251309,,,,False,False,1,high,,holt_winters
 B92,B92,2026-01,0.4664310954063604,,,,False,False,1,high,,holt_winters
@@ -4107,8 +4107,8 @@ C00,French Defense,2024-08,0.4873019783764066,,,,False,False,1,high,,holt_winter
 C00,French Defense,2024-09,0.485116589033203,,,,False,False,1,high,,holt_winters
 C00,French Defense,2024-10,0.48253151165641,,,,False,False,1,high,,holt_winters
 C00,French Defense,2024-11,0.4850433796690746,,,,False,False,1,high,,holt_winters
-C00,French Defense,2024-12,0.4860168626367687,,,,False,True,1,high,,holt_winters
-C00,French Defense,2025-01,0.4874299975651327,,,,False,True,1,high,,holt_winters
+C00,French Defense,2024-12,0.4860168626367687,,,,False,False,1,high,,holt_winters
+C00,French Defense,2025-01,0.4874299975651327,,,,False,False,1,high,,holt_winters
 C00,French Defense,2025-02,0.485755581758016,,,,False,False,1,high,,holt_winters
 C00,French Defense,2025-03,0.4853344246069511,,,,False,False,1,high,,holt_winters
 C00,French Defense,2025-04,0.4870713474480023,,,,False,False,1,high,,holt_winters
@@ -4135,24 +4135,24 @@ C01,C01,2023-05,0.460639443891136,,,,False,False,1,medium,,holt_winters
 C01,C01,2023-06,0.4668606121932709,,,,False,False,1,medium,,holt_winters
 C01,C01,2023-07,0.4630490956072351,,,,False,False,1,medium,,holt_winters
 C01,C01,2023-08,0.4675255875060922,,,,False,False,1,medium,,holt_winters
-C01,C01,2023-09,0.4664294836708629,,,,False,True,1,medium,,holt_winters
+C01,C01,2023-09,0.4664294836708629,,,,False,False,1,medium,,holt_winters
 C01,C01,2023-10,0.4608334621585212,,,,False,True,1,medium,,holt_winters
-C01,C01,2023-11,0.4637415796374158,,,,False,True,1,medium,,holt_winters
-C01,C01,2023-12,0.4609021611660244,,,,False,True,1,medium,,holt_winters
-C01,C01,2024-01,0.4631721268850754,,,,False,True,1,medium,,holt_winters
-C01,C01,2024-02,0.4634426380086341,,,,False,True,1,medium,,holt_winters
-C01,C01,2024-03,0.4628497632371933,,,,False,True,1,medium,,holt_winters
-C01,C01,2024-04,0.4632043541895353,,,,False,True,1,medium,,holt_winters
-C01,C01,2024-05,0.4603883408868746,,,,False,True,1,medium,,holt_winters
-C01,C01,2024-06,0.4607119031735442,,,,False,True,1,medium,,holt_winters
-C01,C01,2024-07,0.4615835639570336,,,,False,True,1,medium,,holt_winters
-C01,C01,2024-08,0.4629054250396763,,,,False,True,1,medium,,holt_winters
-C01,C01,2024-09,0.4641176470588235,,,,False,True,1,medium,,holt_winters
-C01,C01,2024-10,0.459771968213751,,,,False,True,1,medium,,holt_winters
-C01,C01,2024-11,0.466172886249083,,,,False,True,1,medium,,holt_winters
-C01,C01,2024-12,0.4654683265582656,,,,False,True,1,medium,,holt_winters
-C01,C01,2025-01,0.4641354762161579,,,,False,True,1,medium,,holt_winters
-C01,C01,2025-02,0.4645319101623304,,,,False,True,1,medium,,holt_winters
+C01,C01,2023-11,0.4637415796374158,,,,False,False,1,medium,,holt_winters
+C01,C01,2023-12,0.4609021611660244,,,,False,False,1,medium,,holt_winters
+C01,C01,2024-01,0.4631721268850754,,,,False,False,1,medium,,holt_winters
+C01,C01,2024-02,0.4634426380086341,,,,False,False,1,medium,,holt_winters
+C01,C01,2024-03,0.4628497632371933,,,,False,False,1,medium,,holt_winters
+C01,C01,2024-04,0.4632043541895353,,,,False,False,1,medium,,holt_winters
+C01,C01,2024-05,0.4603883408868746,,,,False,False,1,medium,,holt_winters
+C01,C01,2024-06,0.4607119031735442,,,,False,False,1,medium,,holt_winters
+C01,C01,2024-07,0.4615835639570336,,,,False,False,1,medium,,holt_winters
+C01,C01,2024-08,0.4629054250396763,,,,False,False,1,medium,,holt_winters
+C01,C01,2024-09,0.4641176470588235,,,,False,False,1,medium,,holt_winters
+C01,C01,2024-10,0.459771968213751,,,,False,False,1,medium,,holt_winters
+C01,C01,2024-11,0.466172886249083,,,,False,False,1,medium,,holt_winters
+C01,C01,2024-12,0.4654683265582656,,,,False,False,1,medium,,holt_winters
+C01,C01,2025-01,0.4641354762161579,,,,False,False,1,medium,,holt_winters
+C01,C01,2025-02,0.4645319101623304,,,,False,False,1,medium,,holt_winters
 C01,C01,2025-03,0.4633836953813396,,,,False,False,1,medium,,holt_winters
 C01,C01,2025-04,0.4703977798334875,,,,False,False,1,medium,,holt_winters
 C01,C01,2025-05,0.4639488108400574,,,,False,False,1,medium,,holt_winters
@@ -4231,7 +4231,7 @@ C03,C03,2024-03,0.4965806757397251,,,,False,False,1,medium,,holt_winters
 C03,C03,2024-04,0.4883204383074815,,,,False,False,1,medium,,holt_winters
 C03,C03,2024-05,0.5065753918212934,,,,False,True,1,medium,,holt_winters
 C03,C03,2024-06,0.4951136406185644,,,,False,False,1,medium,,holt_winters
-C03,C03,2024-07,0.5053336731350347,,,,False,True,1,medium,,holt_winters
+C03,C03,2024-07,0.5053336731350347,,,,False,False,1,medium,,holt_winters
 C03,C03,2024-08,0.5025820599886813,,,,False,False,1,medium,,holt_winters
 C03,C03,2024-09,0.5037103228563659,,,,False,False,1,medium,,holt_winters
 C03,C03,2024-10,0.4993393040669505,,,,False,False,1,medium,,holt_winters
@@ -4477,32 +4477,32 @@ C16,C16,2023-03,0.4671066638279753,,,,False,False,1,medium,,holt_winters
 C16,C16,2023-04,0.4779657244602715,,,,False,False,1,medium,,holt_winters
 C16,C16,2023-05,0.4855799373040752,,,,False,False,1,medium,,holt_winters
 C16,C16,2023-06,0.4821840285055544,,,,False,False,1,medium,,holt_winters
-C16,C16,2023-07,0.4846700507614213,,,,False,True,1,medium,,holt_winters
-C16,C16,2023-08,0.481881497930756,,,,False,True,1,medium,,holt_winters
-C16,C16,2023-09,0.4913101604278075,,,,False,True,1,medium,,holt_winters
-C16,C16,2023-10,0.4955047228860817,,,,False,True,1,medium,,holt_winters
+C16,C16,2023-07,0.4846700507614213,,,,False,False,1,medium,,holt_winters
+C16,C16,2023-08,0.481881497930756,,,,False,False,1,medium,,holt_winters
+C16,C16,2023-09,0.4913101604278075,,,,False,False,1,medium,,holt_winters
+C16,C16,2023-10,0.4955047228860817,,,,False,False,1,medium,,holt_winters
 C16,C16,2023-11,0.4851049032108496,,,,False,True,1,medium,,holt_winters
-C16,C16,2023-12,0.4905070118662352,,,,False,True,1,medium,,holt_winters
-C16,C16,2024-01,0.4810887625710537,,,,False,True,1,medium,,holt_winters
-C16,C16,2024-02,0.483902558452687,,,,False,True,1,medium,,holt_winters
-C16,C16,2024-03,0.4860780580675868,,,,False,True,1,medium,,holt_winters
-C16,C16,2024-04,0.4791692575550305,,,,False,True,1,medium,,holt_winters
+C16,C16,2023-12,0.4905070118662352,,,,False,False,1,medium,,holt_winters
+C16,C16,2024-01,0.4810887625710537,,,,False,False,1,medium,,holt_winters
+C16,C16,2024-02,0.483902558452687,,,,False,False,1,medium,,holt_winters
+C16,C16,2024-03,0.4860780580675868,,,,False,False,1,medium,,holt_winters
+C16,C16,2024-04,0.4791692575550305,,,,False,False,1,medium,,holt_winters
 C16,C16,2024-05,0.4763943393982637,,,,False,False,1,medium,,holt_winters
 C16,C16,2024-06,0.4759704251386321,,,,False,False,1,medium,,holt_winters
 C16,C16,2024-07,0.4816036538949505,,,,False,False,1,medium,,holt_winters
-C16,C16,2024-08,0.4846603796108392,,,,False,True,1,medium,,holt_winters
-C16,C16,2024-09,0.4894586153045289,,,,False,True,1,medium,,holt_winters
-C16,C16,2024-10,0.4843444227005871,,,,False,True,1,medium,,holt_winters
-C16,C16,2024-11,0.489621336017109,,,,False,True,1,medium,,holt_winters
-C16,C16,2024-12,0.4886144783051999,,,,False,True,1,medium,,holt_winters
-C16,C16,2025-01,0.4893691181596375,,,,False,True,1,medium,,holt_winters
-C16,C16,2025-02,0.4855100714749837,,,,False,True,1,medium,,holt_winters
-C16,C16,2025-03,0.4957391205544824,,,,False,True,1,medium,,holt_winters
-C16,C16,2025-04,0.4886334610472541,,,,False,True,1,medium,,holt_winters
-C16,C16,2025-05,0.4756261453879047,,,,False,True,1,medium,,holt_winters
-C16,C16,2025-06,0.489085857917714,,,,False,True,1,medium,,holt_winters
-C16,C16,2025-07,0.4889682438464481,,,,False,True,1,medium,,holt_winters
-C16,C16,2025-08,0.4854134956874683,,,,False,True,1,medium,,holt_winters
+C16,C16,2024-08,0.4846603796108392,,,,False,False,1,medium,,holt_winters
+C16,C16,2024-09,0.4894586153045289,,,,False,False,1,medium,,holt_winters
+C16,C16,2024-10,0.4843444227005871,,,,False,False,1,medium,,holt_winters
+C16,C16,2024-11,0.489621336017109,,,,False,False,1,medium,,holt_winters
+C16,C16,2024-12,0.4886144783051999,,,,False,False,1,medium,,holt_winters
+C16,C16,2025-01,0.4893691181596375,,,,False,False,1,medium,,holt_winters
+C16,C16,2025-02,0.4855100714749837,,,,False,False,1,medium,,holt_winters
+C16,C16,2025-03,0.4957391205544824,,,,False,False,1,medium,,holt_winters
+C16,C16,2025-04,0.4886334610472541,,,,False,False,1,medium,,holt_winters
+C16,C16,2025-05,0.4756261453879047,,,,False,False,1,medium,,holt_winters
+C16,C16,2025-06,0.489085857917714,,,,False,False,1,medium,,holt_winters
+C16,C16,2025-07,0.4889682438464481,,,,False,False,1,medium,,holt_winters
+C16,C16,2025-08,0.4854134956874683,,,,False,False,1,medium,,holt_winters
 C16,C16,2025-09,0.4851154718996128,,,,False,False,1,medium,,holt_winters
 C16,C16,2025-10,0.4919537339703294,,,,False,False,1,medium,,holt_winters
 C16,C16,2025-11,0.4800690938081318,,,,False,False,1,medium,,holt_winters
@@ -4511,23 +4511,23 @@ C16,C16,2026-01,0.4859145252164353,,,,False,False,1,medium,,holt_winters
 C16,C16,2026-02,0.4837319863318972,,,,False,False,1,medium,,holt_winters
 C16,C16,2026-03,0.4807948786343025,,,,False,False,1,medium,,holt_winters
 C16,C16,2026-04,0.47953216374269,,,,False,False,1,medium,,holt_winters
-C16,C16,2026-05,,0.481503,0.469192,0.493815,True,False,1,medium,,holt_winters
-C16,C16,2026-06,,0.481697,0.469326,0.494068,True,False,1,medium,,holt_winters
-C16,C16,2026-07,,0.48189,0.469268,0.494512,True,False,1,medium,,holt_winters
+C16,C16,2026-05,,0.480766,0.46835,0.493182,True,False,1,medium,,holt_winters
+C16,C16,2026-06,,0.480718,0.468241,0.493194,True,False,1,medium,,holt_winters
+C16,C16,2026-07,,0.480669,0.467939,0.493399,True,False,1,medium,,holt_winters
 C17,C17,2023-01,0.4698308507952537,,,,False,False,1,medium,,holt_winters
 C17,C17,2023-02,0.4696676106722313,,,,False,False,1,medium,,holt_winters
 C17,C17,2023-03,0.4710065645514223,,,,False,False,1,medium,,holt_winters
 C17,C17,2023-04,0.4806037522922838,,,,False,False,1,medium,,holt_winters
 C17,C17,2023-05,0.4889333333333333,,,,False,False,1,medium,,holt_winters
 C17,C17,2023-06,0.4819196128511896,,,,False,False,1,medium,,holt_winters
-C17,C17,2023-07,0.4822420250548883,,,,False,True,1,medium,,holt_winters
-C17,C17,2023-08,0.4802673055100239,,,,False,True,1,medium,,holt_winters
-C17,C17,2023-09,0.4880754298391569,,,,False,True,1,medium,,holt_winters
-C17,C17,2023-10,0.4916546762589928,,,,False,True,1,medium,,holt_winters
+C17,C17,2023-07,0.4822420250548883,,,,False,False,1,medium,,holt_winters
+C17,C17,2023-08,0.4802673055100239,,,,False,False,1,medium,,holt_winters
+C17,C17,2023-09,0.4880754298391569,,,,False,False,1,medium,,holt_winters
+C17,C17,2023-10,0.4916546762589928,,,,False,False,1,medium,,holt_winters
 C17,C17,2023-11,0.483044572782467,,,,False,True,1,medium,,holt_winters
-C17,C17,2023-12,0.4867898699520876,,,,False,True,1,medium,,holt_winters
-C17,C17,2024-01,0.482513585063397,,,,False,True,1,medium,,holt_winters
-C17,C17,2024-02,0.4770368040264234,,,,False,True,1,medium,,holt_winters
+C17,C17,2023-12,0.4867898699520876,,,,False,False,1,medium,,holt_winters
+C17,C17,2024-01,0.482513585063397,,,,False,False,1,medium,,holt_winters
+C17,C17,2024-02,0.4770368040264234,,,,False,False,1,medium,,holt_winters
 C17,C17,2024-03,0.487438725490196,,,,False,False,1,medium,,holt_winters
 C17,C17,2024-04,0.481145584725537,,,,False,False,1,medium,,holt_winters
 C17,C17,2024-05,0.4732951116475558,,,,False,False,1,medium,,holt_winters
@@ -4545,9 +4545,9 @@ C17,C17,2025-04,0.48378728923476,,,,False,False,1,medium,,holt_winters
 C17,C17,2025-05,0.4751166407465008,,,,False,False,1,medium,,holt_winters
 C17,C17,2025-06,0.4886173418145296,,,,False,False,1,medium,,holt_winters
 C17,C17,2025-07,0.4818964117551551,,,,False,False,1,medium,,holt_winters
-C17,C17,2025-08,0.4841106719367589,,,,False,True,1,medium,,holt_winters
-C17,C17,2025-09,0.4895022011513715,,,,False,True,1,medium,,holt_winters
-C17,C17,2025-10,0.4939838470413713,,,,False,True,1,medium,,holt_winters
+C17,C17,2025-08,0.4841106719367589,,,,False,False,1,medium,,holt_winters
+C17,C17,2025-09,0.4895022011513715,,,,False,False,1,medium,,holt_winters
+C17,C17,2025-10,0.4939838470413713,,,,False,False,1,medium,,holt_winters
 C17,C17,2025-11,0.4784116525056355,,,,False,False,1,medium,,holt_winters
 C17,C17,2025-12,0.4696474634565778,,,,False,False,1,medium,,holt_winters
 C17,C17,2026-01,0.4869321171724259,,,,False,False,1,medium,,holt_winters
@@ -4726,7 +4726,7 @@ C22,C22,2026-01,0.5394957983193277,,,,False,False,1,medium,,holt_winters
 C22,C22,2026-02,0.5791100123609394,,,,False,False,1,medium,,holt_winters
 C22,C22,2026-03,0.5407011289364231,,,,False,False,1,medium,,holt_winters
 C22,C22,2026-04,0.5493975903614458,,,,False,False,1,medium,,holt_winters
-C22,C22,2026-05,,0.53816,0.509756,0.566563,True,False,1,medium,,holt_winters
+C22,C22,2026-05,,0.53816,0.509756,0.566564,True,False,1,medium,,holt_winters
 C22,C22,2026-06,,0.538103,0.509561,0.566645,True,False,1,medium,,holt_winters
 C22,C22,2026-07,,0.538046,0.508925,0.567168,True,False,1,medium,,holt_winters
 C23,C23,2023-01,0.4920081371694275,,,,False,False,1,medium,,holt_winters
@@ -4822,16 +4822,16 @@ C25,C25,2023-04,0.5269448946515397,,,,False,False,1,medium,,holt_winters
 C25,C25,2023-05,0.5166318190458088,,,,False,False,1,medium,,holt_winters
 C25,C25,2023-06,0.5124198717948718,,,,False,False,1,medium,,holt_winters
 C25,C25,2023-07,0.5168408826945412,,,,False,False,1,medium,,holt_winters
-C25,C25,2023-08,0.5226521485514292,,,,False,True,1,medium,,holt_winters
-C25,C25,2023-09,0.5250456296897181,,,,False,True,1,medium,,holt_winters
-C25,C25,2023-10,0.5285092266224342,,,,False,True,1,medium,,holt_winters
+C25,C25,2023-08,0.5226521485514292,,,,False,False,1,medium,,holt_winters
+C25,C25,2023-09,0.5250456296897181,,,,False,False,1,medium,,holt_winters
+C25,C25,2023-10,0.5285092266224342,,,,False,False,1,medium,,holt_winters
 C25,C25,2023-11,0.5213711383834109,,,,False,False,1,medium,,holt_winters
-C25,C25,2023-12,0.5326065797157874,,,,False,True,1,medium,,holt_winters
+C25,C25,2023-12,0.5326065797157874,,,,False,False,1,medium,,holt_winters
 C25,C25,2024-01,0.5220978196817914,,,,False,False,1,medium,,holt_winters
 C25,C25,2024-02,0.5292632545329355,,,,False,False,1,medium,,holt_winters
 C25,C25,2024-03,0.523192645215211,,,,False,False,1,medium,,holt_winters
 C25,C25,2024-04,0.5339949324324325,,,,False,False,1,medium,,holt_winters
-C25,C25,2024-05,0.5215874400348888,,,,False,True,1,medium,,holt_winters
+C25,C25,2024-05,0.5215874400348888,,,,False,False,1,medium,,holt_winters
 C25,C25,2024-06,0.5258462946020128,,,,False,False,1,medium,,holt_winters
 C25,C25,2024-07,0.5243342516069789,,,,False,False,1,medium,,holt_winters
 C25,C25,2024-08,0.5185104529616724,,,,False,False,1,medium,,holt_winters
@@ -4844,10 +4844,10 @@ C25,C25,2025-02,0.5203291384317522,,,,False,False,1,medium,,holt_winters
 C25,C25,2025-03,0.504723913499895,,,,False,False,1,medium,,holt_winters
 C25,C25,2025-04,0.5208995910949569,,,,False,False,1,medium,,holt_winters
 C25,C25,2025-05,0.5190807505798019,,,,False,False,1,medium,,holt_winters
-C25,C25,2025-06,0.5211782412384434,,,,False,True,1,medium,,holt_winters
+C25,C25,2025-06,0.5211782412384434,,,,False,False,1,medium,,holt_winters
 C25,C25,2025-07,0.535883199670985,,,,False,True,1,medium,,holt_winters
-C25,C25,2025-08,0.531084656084656,,,,False,True,1,medium,,holt_winters
-C25,C25,2025-09,0.512521274009239,,,,False,True,1,medium,,holt_winters
+C25,C25,2025-08,0.531084656084656,,,,False,False,1,medium,,holt_winters
+C25,C25,2025-09,0.512521274009239,,,,False,False,1,medium,,holt_winters
 C25,C25,2025-10,0.5190822353475693,,,,False,False,1,medium,,holt_winters
 C25,C25,2025-11,0.5162557276892865,,,,False,False,1,medium,,holt_winters
 C25,C25,2025-12,0.5228447384742609,,,,False,False,1,medium,,holt_winters
@@ -4985,7 +4985,7 @@ C33,C33,2026-02,0.4770081825515731,,,,False,False,1,high,,holt_winters
 C33,C33,2026-03,0.476027972027972,,,,False,False,1,high,,holt_winters
 C33,C33,2026-04,0.4826430193576295,,,,False,False,1,high,,holt_winters
 C33,C33,2026-05,,0.481384,0.474306,0.488463,True,False,1,high,,holt_winters
-C33,C33,2026-06,,0.481351,0.474238,0.488464,True,False,1,high,,holt_winters
+C33,C33,2026-06,,0.481351,0.474239,0.488464,True,False,1,high,,holt_winters
 C33,C33,2026-07,,0.481319,0.474061,0.488576,True,False,1,high,,holt_winters
 C35,C35,2023-01,0.4780600461893764,,,,False,False,1,medium,,holt_winters
 C35,C35,2023-02,0.4837573385518591,,,,False,False,1,medium,,holt_winters
@@ -5063,7 +5063,7 @@ C36,C36,2025-06,0.4440923494794024,,,,False,False,1,medium,,holt_winters
 C36,C36,2025-07,0.4455490284681428,,,,False,False,1,medium,,holt_winters
 C36,C36,2025-08,0.4385584020842379,,,,False,False,1,medium,,holt_winters
 C36,C36,2025-09,0.443649373881932,,,,False,False,1,medium,,holt_winters
-C36,C36,2025-10,0.4670424978317433,,,,False,True,1,medium,,holt_winters
+C36,C36,2025-10,0.4670424978317433,,,,False,False,1,medium,,holt_winters
 C36,C36,2025-11,0.4700934579439252,,,,False,False,1,medium,,holt_winters
 C36,C36,2025-12,0.4522785898538263,,,,False,False,1,medium,,holt_winters
 C36,C36,2026-01,0.4582763337893297,,,,False,False,1,medium,,holt_winters
@@ -5080,7 +5080,7 @@ C40,C40,2023-04,0.4491948125979763,,,,False,False,1,high,,holt_winters
 C40,C40,2023-05,0.4648522975929978,,,,False,False,1,high,,holt_winters
 C40,C40,2023-06,0.4640467684313089,,,,False,False,1,high,,holt_winters
 C40,C40,2023-07,0.4668280871670702,,,,False,False,1,high,,holt_winters
-C40,C40,2023-08,0.4668075830636105,,,,False,True,1,high,,holt_winters
+C40,C40,2023-08,0.4668075830636105,,,,False,False,1,high,,holt_winters
 C40,C40,2023-09,0.4502767958380577,,,,False,True,1,high,,holt_winters
 C40,C40,2023-10,0.4564049586776859,,,,False,False,1,high,,holt_winters
 C40,C40,2023-11,0.4562133935502082,,,,False,False,1,high,,holt_winters
@@ -5158,7 +5158,7 @@ C41,Philidor Defense,2026-03,0.5085190858786381,,,,False,False,1,medium,,holt_wi
 C41,Philidor Defense,2026-04,0.5089280382203643,,,,False,False,1,medium,,holt_winters
 C41,Philidor Defense,2026-05,,0.507872,0.504435,0.511309,True,False,1,medium,,holt_winters
 C41,Philidor Defense,2026-06,,0.50775,0.504297,0.511204,True,False,1,medium,,holt_winters
-C41,Philidor Defense,2026-07,,0.507628,0.504105,0.511152,True,False,1,medium,,holt_winters
+C41,Philidor Defense,2026-07,,0.507629,0.504105,0.511153,True,False,1,medium,,holt_winters
 C42,C42,2023-01,0.4863628663391496,,,,False,False,1,low,,holt_winters
 C42,C42,2023-02,0.4860699110077768,,,,False,False,1,low,,holt_winters
 C42,C42,2023-03,0.4873537604456824,,,,False,False,1,low,,holt_winters
@@ -5189,7 +5189,7 @@ C42,C42,2025-03,0.4809599695549794,,,,False,False,1,low,,holt_winters
 C42,C42,2025-04,0.4794066180887461,,,,False,False,1,low,,holt_winters
 C42,C42,2025-05,0.4869119436605131,,,,False,False,1,low,,holt_winters
 C42,C42,2025-06,0.4851676642011447,,,,False,False,1,low,,holt_winters
-C42,C42,2025-07,0.478384869408586,,,,False,True,1,low,,holt_winters
+C42,C42,2025-07,0.478384869408586,,,,False,False,1,low,,holt_winters
 C42,C42,2025-08,0.4766675185279836,,,,False,False,1,low,,holt_winters
 C42,C42,2025-09,0.4790106586499043,,,,False,False,1,low,,holt_winters
 C42,C42,2025-10,0.477772194747838,,,,False,False,1,low,,holt_winters
@@ -5218,7 +5218,7 @@ C43,C43,2024-01,0.5153605015673981,,,,False,False,1,low,,holt_winters
 C43,C43,2024-02,0.4963662790697674,,,,False,False,1,low,,holt_winters
 C43,C43,2024-03,0.5374531835205992,,,,False,False,1,low,,holt_winters
 C43,C43,2024-04,0.5439560439560439,,,,False,False,1,low,,holt_winters
-C43,C43,2024-05,0.5018270401948843,,,,False,True,1,low,,holt_winters
+C43,C43,2024-05,0.5018270401948843,,,,False,False,1,low,,holt_winters
 C43,C43,2024-06,0.4940600978336827,,,,False,False,1,low,,holt_winters
 C43,C43,2024-07,0.5165229885057471,,,,False,False,1,low,,holt_winters
 C43,C43,2024-08,0.5138686131386861,,,,False,False,1,low,,holt_winters
@@ -5257,28 +5257,28 @@ C44,King's Pawn Game,2023-09,0.4962808637820081,,,,False,False,1,medium,,holt_wi
 C44,King's Pawn Game,2023-10,0.4961999456778027,,,,False,False,1,medium,,holt_winters
 C44,King's Pawn Game,2023-11,0.4968620753513447,,,,False,False,1,medium,,holt_winters
 C44,King's Pawn Game,2023-12,0.4957929401978512,,,,False,False,1,medium,,holt_winters
-C44,King's Pawn Game,2024-01,0.496882853905955,,,,False,True,1,medium,,holt_winters
-C44,King's Pawn Game,2024-02,0.4964910270548975,,,,False,True,1,medium,,holt_winters
-C44,King's Pawn Game,2024-03,0.4974132124890866,,,,False,True,1,medium,,holt_winters
-C44,King's Pawn Game,2024-04,0.4980435248246834,,,,False,True,1,medium,,holt_winters
+C44,King's Pawn Game,2024-01,0.496882853905955,,,,False,False,1,medium,,holt_winters
+C44,King's Pawn Game,2024-02,0.4964910270548975,,,,False,False,1,medium,,holt_winters
+C44,King's Pawn Game,2024-03,0.4974132124890866,,,,False,False,1,medium,,holt_winters
+C44,King's Pawn Game,2024-04,0.4980435248246834,,,,False,False,1,medium,,holt_winters
 C44,King's Pawn Game,2024-05,0.496955992346495,,,,False,False,1,medium,,holt_winters
 C44,King's Pawn Game,2024-06,0.4966234076606099,,,,False,False,1,medium,,holt_winters
 C44,King's Pawn Game,2024-07,0.4965935730067703,,,,False,False,1,medium,,holt_winters
-C44,King's Pawn Game,2024-08,0.4956949461802606,,,,False,True,1,medium,,holt_winters
-C44,King's Pawn Game,2024-09,0.4972487686539734,,,,False,True,1,medium,,holt_winters
-C44,King's Pawn Game,2024-10,0.4980587577456269,,,,False,True,1,medium,,holt_winters
-C44,King's Pawn Game,2024-11,0.4958325256832719,,,,False,True,1,medium,,holt_winters
-C44,King's Pawn Game,2024-12,0.4968964515719485,,,,False,True,1,medium,,holt_winters
-C44,King's Pawn Game,2025-01,0.4979670539851454,,,,False,True,1,medium,,holt_winters
-C44,King's Pawn Game,2025-02,0.4969217169848792,,,,False,True,1,medium,,holt_winters
-C44,King's Pawn Game,2025-03,0.4954230891352038,,,,False,True,1,medium,,holt_winters
-C44,King's Pawn Game,2025-04,0.4968835566736007,,,,False,True,1,medium,,holt_winters
-C44,King's Pawn Game,2025-05,0.4966529099574519,,,,False,True,1,medium,,holt_winters
+C44,King's Pawn Game,2024-08,0.4956949461802606,,,,False,False,1,medium,,holt_winters
+C44,King's Pawn Game,2024-09,0.4972487686539734,,,,False,False,1,medium,,holt_winters
+C44,King's Pawn Game,2024-10,0.4980587577456269,,,,False,False,1,medium,,holt_winters
+C44,King's Pawn Game,2024-11,0.4958325256832719,,,,False,False,1,medium,,holt_winters
+C44,King's Pawn Game,2024-12,0.4968964515719485,,,,False,False,1,medium,,holt_winters
+C44,King's Pawn Game,2025-01,0.4979670539851454,,,,False,False,1,medium,,holt_winters
+C44,King's Pawn Game,2025-02,0.4969217169848792,,,,False,False,1,medium,,holt_winters
+C44,King's Pawn Game,2025-03,0.4954230891352038,,,,False,False,1,medium,,holt_winters
+C44,King's Pawn Game,2025-04,0.4968835566736007,,,,False,False,1,medium,,holt_winters
+C44,King's Pawn Game,2025-05,0.4966529099574519,,,,False,False,1,medium,,holt_winters
 C44,King's Pawn Game,2025-06,0.4978176466356763,,,,False,True,1,medium,,holt_winters
-C44,King's Pawn Game,2025-07,0.4979807118954597,,,,False,True,1,medium,,holt_winters
-C44,King's Pawn Game,2025-08,0.4968958236108667,,,,False,True,1,medium,,holt_winters
-C44,King's Pawn Game,2025-09,0.4959354040186122,,,,False,True,1,medium,,holt_winters
-C44,King's Pawn Game,2025-10,0.4959389888415246,,,,False,True,1,medium,,holt_winters
+C44,King's Pawn Game,2025-07,0.4979807118954597,,,,False,False,1,medium,,holt_winters
+C44,King's Pawn Game,2025-08,0.4968958236108667,,,,False,False,1,medium,,holt_winters
+C44,King's Pawn Game,2025-09,0.4959354040186122,,,,False,False,1,medium,,holt_winters
+C44,King's Pawn Game,2025-10,0.4959389888415246,,,,False,False,1,medium,,holt_winters
 C44,King's Pawn Game,2025-11,0.495500319486274,,,,False,False,1,medium,,holt_winters
 C44,King's Pawn Game,2025-12,0.4952737561895779,,,,False,False,1,medium,,holt_winters
 C44,King's Pawn Game,2026-01,0.4934312046639601,,,,False,False,1,medium,,holt_winters
@@ -5302,9 +5302,9 @@ C45,C45,2023-11,0.4980133390095076,,,,False,False,1,medium,,holt_winters
 C45,C45,2023-12,0.4960150798637521,,,,False,False,1,medium,,holt_winters
 C45,C45,2024-01,0.4962413292466527,,,,False,False,1,medium,,holt_winters
 C45,C45,2024-02,0.4956659658441223,,,,False,False,1,medium,,holt_winters
-C45,C45,2024-03,0.4987723366525712,,,,False,True,1,medium,,holt_winters
+C45,C45,2024-03,0.4987723366525712,,,,False,False,1,medium,,holt_winters
 C45,C45,2024-04,0.5004504666834841,,,,False,True,1,medium,,holt_winters
-C45,C45,2024-05,0.5032825001709635,,,,False,True,1,medium,,holt_winters
+C45,C45,2024-05,0.5032825001709635,,,,False,False,1,medium,,holt_winters
 C45,C45,2024-06,0.4998710818078014,,,,False,False,1,medium,,holt_winters
 C45,C45,2024-07,0.5029508671566675,,,,False,False,1,medium,,holt_winters
 C45,C45,2024-08,0.5012344795505779,,,,False,False,1,medium,,holt_winters
@@ -5320,7 +5320,7 @@ C45,C45,2025-05,0.5028074763479732,,,,False,False,1,medium,,holt_winters
 C45,C45,2025-06,0.5001982868020305,,,,False,False,1,medium,,holt_winters
 C45,C45,2025-07,0.5025465602432535,,,,False,False,1,medium,,holt_winters
 C45,C45,2025-08,0.500154380548051,,,,False,False,1,medium,,holt_winters
-C45,C45,2025-09,0.4939416729339015,,,,False,True,1,medium,,holt_winters
+C45,C45,2025-09,0.4939416729339015,,,,False,False,1,medium,,holt_winters
 C45,C45,2025-10,0.4966263474039332,,,,False,False,1,medium,,holt_winters
 C45,C45,2025-11,0.5008392782207302,,,,False,False,1,medium,,holt_winters
 C45,C45,2025-12,0.4965234375,,,,False,False,1,medium,,holt_winters
@@ -5328,9 +5328,9 @@ C45,C45,2026-01,0.4966510903426791,,,,False,False,1,medium,,holt_winters
 C45,C45,2026-02,0.4941915227629513,,,,False,False,1,medium,,holt_winters
 C45,C45,2026-03,0.4946269043200552,,,,False,False,1,medium,,holt_winters
 C45,C45,2026-04,0.5016868262980334,,,,False,False,1,medium,,holt_winters
-C45,C45,2026-05,,0.498387,0.492565,0.504208,True,False,1,medium,,holt_winters
-C45,C45,2026-06,,0.498355,0.492505,0.504205,True,False,1,medium,,holt_winters
-C45,C45,2026-07,,0.498323,0.492354,0.504292,True,False,1,medium,,holt_winters
+C45,C45,2026-05,,0.498321,0.49255,0.504092,True,False,1,medium,,holt_winters
+C45,C45,2026-06,,0.498276,0.492476,0.504075,True,False,1,medium,,holt_winters
+C45,C45,2026-07,,0.49823,0.492313,0.504147,True,False,1,medium,,holt_winters
 C46,C46,2023-01,0.5047448454590495,,,,False,False,1,high,,holt_winters
 C46,C46,2023-02,0.5078961623400975,,,,False,False,1,high,,holt_winters
 C46,C46,2023-03,0.5112176554551111,,,,False,False,1,high,,holt_winters
@@ -5343,7 +5343,7 @@ C46,C46,2023-09,0.5078540406705362,,,,False,False,1,high,,holt_winters
 C46,C46,2023-10,0.5034038563450328,,,,False,False,1,high,,holt_winters
 C46,C46,2023-11,0.5072783230743637,,,,False,False,1,high,,holt_winters
 C46,C46,2023-12,0.5021653466505404,,,,False,False,1,high,,holt_winters
-C46,C46,2024-01,0.5089923250219558,,,,False,True,1,high,,holt_winters
+C46,C46,2024-01,0.5089923250219558,,,,False,False,1,high,,holt_winters
 C46,C46,2024-02,0.5097808441558441,,,,False,False,1,high,,holt_winters
 C46,C46,2024-03,0.5050720568968744,,,,False,False,1,high,,holt_winters
 C46,C46,2024-04,0.5091389033316002,,,,False,False,1,high,,holt_winters
@@ -5457,9 +5457,9 @@ C48,C48,2026-01,0.508663691257548,,,,False,False,1,high,,holt_winters
 C48,C48,2026-02,0.5014514896867838,,,,False,False,1,high,,holt_winters
 C48,C48,2026-03,0.5073287466347592,,,,False,False,1,high,,holt_winters
 C48,C48,2026-04,0.5045506257110353,,,,False,False,1,high,,holt_winters
-C48,C48,2026-05,,0.506204,0.495271,0.517137,True,False,1,high,,holt_winters
-C48,C48,2026-06,,0.506167,0.495181,0.517153,True,False,1,high,,holt_winters
-C48,C48,2026-07,,0.50613,0.494921,0.517339,True,False,1,high,,holt_winters
+C48,C48,2026-05,,0.506203,0.49527,0.517136,True,False,1,high,,holt_winters
+C48,C48,2026-06,,0.506166,0.49518,0.517152,True,False,1,high,,holt_winters
+C48,C48,2026-07,,0.506129,0.49492,0.517338,True,False,1,high,,holt_winters
 C50,Italian Game,2023-01,0.4880098317843152,,,,False,False,1,medium,,holt_winters
 C50,Italian Game,2023-02,0.4855543932164757,,,,False,False,1,medium,,holt_winters
 C50,Italian Game,2023-03,0.4890618163635227,,,,False,False,1,medium,,holt_winters
@@ -5493,7 +5493,7 @@ C50,Italian Game,2025-06,0.4875827814569536,,,,False,False,1,medium,,holt_winter
 C50,Italian Game,2025-07,0.489029880515928,,,,False,False,1,medium,,holt_winters
 C50,Italian Game,2025-08,0.4889749528054025,,,,False,False,1,medium,,holt_winters
 C50,Italian Game,2025-09,0.4883807940137186,,,,False,False,1,medium,,holt_winters
-C50,Italian Game,2025-10,0.4851082480531659,,,,False,True,1,medium,,holt_winters
+C50,Italian Game,2025-10,0.4851082480531659,,,,False,False,1,medium,,holt_winters
 C50,Italian Game,2025-11,0.4849279433952448,,,,False,False,1,medium,,holt_winters
 C50,Italian Game,2025-12,0.4838898082351796,,,,False,False,1,medium,,holt_winters
 C50,Italian Game,2026-01,0.4797638024201229,,,,False,False,1,medium,,holt_winters
@@ -5618,11 +5618,11 @@ C55,C55,2025-02,0.4766744977705326,,,,False,False,1,medium,,holt_winters
 C55,C55,2025-03,0.4819774604188529,,,,False,False,1,medium,,holt_winters
 C55,C55,2025-04,0.4842488678873794,,,,False,False,1,medium,,holt_winters
 C55,C55,2025-05,0.4784067971647185,,,,False,False,1,medium,,holt_winters
-C55,C55,2025-06,0.4859239943985706,,,,False,True,1,medium,,holt_winters
+C55,C55,2025-06,0.4859239943985706,,,,False,False,1,medium,,holt_winters
 C55,C55,2025-07,0.4821878539889497,,,,False,False,1,medium,,holt_winters
-C55,C55,2025-08,0.485295163163258,,,,False,True,1,medium,,holt_winters
+C55,C55,2025-08,0.485295163163258,,,,False,False,1,medium,,holt_winters
 C55,C55,2025-09,0.4857485748574857,,,,False,False,1,medium,,holt_winters
-C55,C55,2025-10,0.480910717836548,,,,False,True,1,medium,,holt_winters
+C55,C55,2025-10,0.480910717836548,,,,False,False,1,medium,,holt_winters
 C55,C55,2025-11,0.4803572780258875,,,,False,False,1,medium,,holt_winters
 C55,C55,2025-12,0.4790804704569755,,,,False,False,1,medium,,holt_winters
 C55,C55,2026-01,0.4771973665241001,,,,False,False,1,medium,,holt_winters
@@ -5660,12 +5660,12 @@ C56,C56,2025-01,0.4949454104326728,,,,False,False,1,low,,holt_winters
 C56,C56,2025-02,0.4939759036144578,,,,False,False,1,low,,holt_winters
 C56,C56,2025-03,0.4996053670086819,,,,False,False,1,low,,holt_winters
 C56,C56,2025-04,0.4763427109974424,,,,False,False,1,low,,holt_winters
-C56,C56,2025-05,0.4871953738124742,,,,False,True,1,low,,holt_winters
-C56,C56,2025-06,0.4978279756733275,,,,False,True,1,low,,holt_winters
-C56,C56,2025-07,0.4932764140875133,,,,False,True,1,low,,holt_winters
+C56,C56,2025-05,0.4871953738124742,,,,False,False,1,low,,holt_winters
+C56,C56,2025-06,0.4978279756733275,,,,False,False,1,low,,holt_winters
+C56,C56,2025-07,0.4932764140875133,,,,False,False,1,low,,holt_winters
 C56,C56,2025-08,0.4988733663812528,,,,False,True,1,low,,holt_winters
-C56,C56,2025-09,0.4931834489356613,,,,False,True,1,low,,holt_winters
-C56,C56,2025-10,0.4965761511216057,,,,False,True,1,low,,holt_winters
+C56,C56,2025-09,0.4931834489356613,,,,False,False,1,low,,holt_winters
+C56,C56,2025-10,0.4965761511216057,,,,False,False,1,low,,holt_winters
 C56,C56,2025-11,0.493484555984556,,,,False,False,1,low,,holt_winters
 C56,C56,2025-12,0.4800870511425462,,,,False,False,1,low,,holt_winters
 C56,C56,2026-01,0.4845215759849906,,,,False,False,1,low,,holt_winters
@@ -5708,7 +5708,7 @@ C58,C58,2025-06,0.4887063655030801,,,,False,False,1,low,,holt_winters
 C58,C58,2025-07,0.4908424908424908,,,,False,False,1,low,,holt_winters
 C58,C58,2025-08,0.4978858350951374,,,,False,False,1,low,,holt_winters
 C58,C58,2025-09,0.5119825708061002,,,,False,False,1,low,,holt_winters
-C58,C58,2025-10,0.4655913978494623,,,,False,True,1,low,,holt_winters
+C58,C58,2025-10,0.4655913978494623,,,,False,False,1,low,,holt_winters
 C58,C58,2025-11,0.4447983014861996,,,,False,False,1,low,,holt_winters
 C58,C58,2025-12,0.5232198142414861,,,,False,False,1,low,,holt_winters
 C58,C58,2026-01,0.4702643171806167,,,,False,False,1,low,,holt_winters
@@ -5758,9 +5758,9 @@ C60,Ruy Lopez,2026-01,0.4995761693298415,,,,False,False,1,medium,,holt_winters
 C60,Ruy Lopez,2026-02,0.5010449847936695,,,,False,False,1,medium,,holt_winters
 C60,Ruy Lopez,2026-03,0.4988394929476879,,,,False,False,1,medium,,holt_winters
 C60,Ruy Lopez,2026-04,0.5011414904604011,,,,False,False,1,medium,,holt_winters
-C60,Ruy Lopez,2026-05,,0.501342,0.497578,0.505107,True,False,1,medium,,holt_winters
-C60,Ruy Lopez,2026-06,,0.501306,0.497524,0.505089,True,False,1,medium,,holt_winters
-C60,Ruy Lopez,2026-07,,0.50127,0.497411,0.50513,True,False,1,medium,,holt_winters
+C60,Ruy Lopez,2026-05,,0.501329,0.497564,0.505093,True,False,1,medium,,holt_winters
+C60,Ruy Lopez,2026-06,,0.501292,0.497509,0.505075,True,False,1,medium,,holt_winters
+C60,Ruy Lopez,2026-07,,0.501256,0.497396,0.505115,True,False,1,medium,,holt_winters
 C61,C61,2023-01,0.5243350311262026,,,,False,False,1,high,,holt_winters
 C61,C61,2023-02,0.4989536621823617,,,,False,False,1,high,,holt_winters
 C61,C61,2023-03,0.5164305949008499,,,,False,False,1,high,,holt_winters
@@ -5853,13 +5853,13 @@ C63,C63,2023-03,0.4417024320457797,,,,False,False,1,medium,,holt_winters
 C63,C63,2023-04,0.4260299625468164,,,,False,False,1,medium,,holt_winters
 C63,C63,2023-05,0.4384751773049645,,,,False,False,1,medium,,holt_winters
 C63,C63,2023-06,0.4403720930232558,,,,False,False,1,medium,,holt_winters
-C63,C63,2023-07,0.4500673465460842,,,,False,True,1,medium,,holt_winters
-C63,C63,2023-08,0.458441078684891,,,,False,True,1,medium,,holt_winters
-C63,C63,2023-09,0.4587784720822415,,,,False,True,1,medium,,holt_winters
-C63,C63,2023-10,0.4531963470319635,,,,False,True,1,medium,,holt_winters
-C63,C63,2023-11,0.4663766539786115,,,,False,True,1,medium,,holt_winters
+C63,C63,2023-07,0.4500673465460842,,,,False,False,1,medium,,holt_winters
+C63,C63,2023-08,0.458441078684891,,,,False,False,1,medium,,holt_winters
+C63,C63,2023-09,0.4587784720822415,,,,False,False,1,medium,,holt_winters
+C63,C63,2023-10,0.4531963470319635,,,,False,False,1,medium,,holt_winters
+C63,C63,2023-11,0.4663766539786115,,,,False,False,1,medium,,holt_winters
 C63,C63,2023-12,0.4506993610775341,,,,False,True,1,medium,,holt_winters
-C63,C63,2024-01,0.4416262588586348,,,,False,True,1,medium,,holt_winters
+C63,C63,2024-01,0.4416262588586348,,,,False,False,1,medium,,holt_winters
 C63,C63,2024-02,0.4548626253815961,,,,False,False,1,medium,,holt_winters
 C63,C63,2024-03,0.4509881422924901,,,,False,False,1,medium,,holt_winters
 C63,C63,2024-04,0.4417707567964732,,,,False,False,1,medium,,holt_winters
@@ -5880,7 +5880,7 @@ C63,C63,2025-06,0.4513292024785129,,,,False,False,1,medium,,holt_winters
 C63,C63,2025-07,0.4562164394878149,,,,False,False,1,medium,,holt_winters
 C63,C63,2025-08,0.4414800389483934,,,,False,False,1,medium,,holt_winters
 C63,C63,2025-09,0.4488270707909487,,,,False,False,1,medium,,holt_winters
-C63,C63,2025-10,0.4708138048572646,,,,False,True,1,medium,,holt_winters
+C63,C63,2025-10,0.4708138048572646,,,,False,False,1,medium,,holt_winters
 C63,C63,2025-11,0.4546475078581051,,,,False,False,1,medium,,holt_winters
 C63,C63,2025-12,0.4571545715457155,,,,False,False,1,medium,,holt_winters
 C63,C63,2026-01,0.4410141075444694,,,,False,False,1,medium,,holt_winters
@@ -5910,11 +5910,11 @@ C65,C65,2024-05,0.5109012982172806,,,,False,False,1,medium,,holt_winters
 C65,C65,2024-06,0.5017457383446293,,,,False,False,1,medium,,holt_winters
 C65,C65,2024-07,0.5106255810864657,,,,False,False,1,medium,,holt_winters
 C65,C65,2024-08,0.5083157338965153,,,,False,False,1,medium,,holt_winters
-C65,C65,2024-09,0.5168031629483197,,,,False,True,1,medium,,holt_winters
+C65,C65,2024-09,0.5168031629483197,,,,False,False,1,medium,,holt_winters
 C65,C65,2024-10,0.5093811830524664,,,,False,False,1,medium,,holt_winters
 C65,C65,2024-11,0.5126296958855099,,,,False,False,1,medium,,holt_winters
 C65,C65,2024-12,0.5129456418598346,,,,False,False,1,medium,,holt_winters
-C65,C65,2025-01,0.5038727234666108,,,,False,True,1,medium,,holt_winters
+C65,C65,2025-01,0.5038727234666108,,,,False,False,1,medium,,holt_winters
 C65,C65,2025-02,0.510552525492056,,,,False,False,1,medium,,holt_winters
 C65,C65,2025-03,0.4977986943980568,,,,False,False,1,medium,,holt_winters
 C65,C65,2025-04,0.5100558659217878,,,,False,False,1,medium,,holt_winters
@@ -6059,9 +6059,9 @@ C77,C77,2026-01,0.5112305624880016,,,,False,False,1,high,,holt_winters
 C77,C77,2026-02,0.5046226617931627,,,,False,False,1,high,,holt_winters
 C77,C77,2026-03,0.5042381641513335,,,,False,False,1,high,,holt_winters
 C77,C77,2026-04,0.50485027414593,,,,False,False,1,high,,holt_winters
-C77,C77,2026-05,,0.505965,0.490846,0.521083,True,False,1,high,,holt_winters
-C77,C77,2026-06,,0.505856,0.490664,0.521049,True,False,1,high,,holt_winters
-C77,C77,2026-07,,0.505748,0.490247,0.521249,True,False,1,high,,holt_winters
+C77,C77,2026-05,,0.505967,0.490848,0.521086,True,False,1,high,,holt_winters
+C77,C77,2026-06,,0.505858,0.490666,0.521051,True,False,1,high,,holt_winters
+C77,C77,2026-07,,0.50575,0.490249,0.521251,True,False,1,high,,holt_winters
 C84,C84,2023-01,0.491557734204793,,,,False,False,1,medium,,holt_winters
 C84,C84,2023-02,0.4703371117326659,,,,False,False,1,medium,,holt_winters
 C84,C84,2023-03,0.4857103787775195,,,,False,False,1,medium,,holt_winters
@@ -6102,9 +6102,9 @@ C84,C84,2026-01,0.4806629834254143,,,,False,False,1,medium,,holt_winters
 C84,C84,2026-02,0.4818034775576223,,,,False,False,1,medium,,holt_winters
 C84,C84,2026-03,0.4939422180801491,,,,False,False,1,medium,,holt_winters
 C84,C84,2026-04,0.4984871406959152,,,,False,False,1,medium,,holt_winters
-C84,C84,2026-05,,0.484774,0.471685,0.497862,True,False,1,medium,,holt_winters
-C84,C84,2026-06,,0.48481,0.471658,0.497961,True,False,1,medium,,holt_winters
-C84,C84,2026-07,,0.484846,0.471427,0.498265,True,False,1,medium,,holt_winters
+C84,C84,2026-05,,0.484773,0.471685,0.497861,True,False,1,medium,,holt_winters
+C84,C84,2026-06,,0.484809,0.471658,0.497961,True,False,1,medium,,holt_winters
+C84,C84,2026-07,,0.484845,0.471427,0.498264,True,False,1,medium,,holt_winters
 C88,C88,2023-01,0.4840756249206953,,,,False,False,1,medium,,holt_winters
 C88,C88,2023-02,0.4684449333150007,,,,False,False,1,medium,,holt_winters
 C88,C88,2023-03,0.4840692423482187,,,,False,False,1,medium,,holt_winters
@@ -6118,27 +6118,27 @@ C88,C88,2023-10,0.4721991701244813,,,,False,False,1,medium,,holt_winters
 C88,C88,2023-11,0.4803621169916434,,,,False,False,1,medium,,holt_winters
 C88,C88,2023-12,0.4741582374948039,,,,False,False,1,medium,,holt_winters
 C88,C88,2024-01,0.4799603455601189,,,,False,False,1,medium,,holt_winters
-C88,C88,2024-02,0.4737334372564302,,,,False,True,1,medium,,holt_winters
-C88,C88,2024-03,0.4734306569343066,,,,False,True,1,medium,,holt_winters
-C88,C88,2024-04,0.476048374430658,,,,False,True,1,medium,,holt_winters
-C88,C88,2024-05,0.4778882938026014,,,,False,True,1,medium,,holt_winters
-C88,C88,2024-06,0.4809185527837436,,,,False,True,1,medium,,holt_winters
-C88,C88,2024-07,0.4810836806668804,,,,False,True,1,medium,,holt_winters
-C88,C88,2024-08,0.4788306451612903,,,,False,True,1,medium,,holt_winters
-C88,C88,2024-09,0.4830900676397294,,,,False,True,1,medium,,holt_winters
-C88,C88,2024-10,0.4649181423321082,,,,False,True,1,medium,,holt_winters
-C88,C88,2024-11,0.4760869565217391,,,,False,True,1,medium,,holt_winters
-C88,C88,2024-12,0.4804134022337056,,,,False,True,1,medium,,holt_winters
-C88,C88,2025-01,0.4773820981713186,,,,False,True,1,medium,,holt_winters
-C88,C88,2025-02,0.4850704225352112,,,,False,True,1,medium,,holt_winters
-C88,C88,2025-03,0.4826287865822352,,,,False,True,1,medium,,holt_winters
+C88,C88,2024-02,0.4737334372564302,,,,False,False,1,medium,,holt_winters
+C88,C88,2024-03,0.4734306569343066,,,,False,False,1,medium,,holt_winters
+C88,C88,2024-04,0.476048374430658,,,,False,False,1,medium,,holt_winters
+C88,C88,2024-05,0.4778882938026014,,,,False,False,1,medium,,holt_winters
+C88,C88,2024-06,0.4809185527837436,,,,False,False,1,medium,,holt_winters
+C88,C88,2024-07,0.4810836806668804,,,,False,False,1,medium,,holt_winters
+C88,C88,2024-08,0.4788306451612903,,,,False,False,1,medium,,holt_winters
+C88,C88,2024-09,0.4830900676397294,,,,False,False,1,medium,,holt_winters
+C88,C88,2024-10,0.4649181423321082,,,,False,False,1,medium,,holt_winters
+C88,C88,2024-11,0.4760869565217391,,,,False,False,1,medium,,holt_winters
+C88,C88,2024-12,0.4804134022337056,,,,False,False,1,medium,,holt_winters
+C88,C88,2025-01,0.4773820981713186,,,,False,False,1,medium,,holt_winters
+C88,C88,2025-02,0.4850704225352112,,,,False,False,1,medium,,holt_winters
+C88,C88,2025-03,0.4826287865822352,,,,False,False,1,medium,,holt_winters
 C88,C88,2025-04,0.467403314917127,,,,False,True,1,medium,,holt_winters
-C88,C88,2025-05,0.4747252747252747,,,,False,True,1,medium,,holt_winters
-C88,C88,2025-06,0.4783705839942321,,,,False,True,1,medium,,holt_winters
-C88,C88,2025-07,0.4826203208556149,,,,False,True,1,medium,,holt_winters
-C88,C88,2025-08,0.4859130434782608,,,,False,True,1,medium,,holt_winters
-C88,C88,2025-09,0.4771207321365716,,,,False,True,1,medium,,holt_winters
-C88,C88,2025-10,0.4899982903060352,,,,False,True,1,medium,,holt_winters
+C88,C88,2025-05,0.4747252747252747,,,,False,False,1,medium,,holt_winters
+C88,C88,2025-06,0.4783705839942321,,,,False,False,1,medium,,holt_winters
+C88,C88,2025-07,0.4826203208556149,,,,False,False,1,medium,,holt_winters
+C88,C88,2025-08,0.4859130434782608,,,,False,False,1,medium,,holt_winters
+C88,C88,2025-09,0.4771207321365716,,,,False,False,1,medium,,holt_winters
+C88,C88,2025-10,0.4899982903060352,,,,False,False,1,medium,,holt_winters
 C88,C88,2025-11,0.4820006922810661,,,,False,False,1,medium,,holt_winters
 C88,C88,2025-12,0.4772248338466526,,,,False,False,1,medium,,holt_winters
 C88,C88,2026-01,0.4746218487394958,,,,False,False,1,medium,,holt_winters
@@ -6275,8 +6275,8 @@ C92,C92,2026-02,0.4826113483831604,,,,False,False,1,low,,holt_winters
 C92,C92,2026-03,0.5144230769230769,,,,False,False,1,low,,holt_winters
 C92,C92,2026-04,0.536036036036036,,,,False,False,1,low,,holt_winters
 C92,C92,2026-05,,0.507469,0.477556,0.537382,True,False,1,low,,holt_winters
-C92,C92,2026-06,,0.507829,0.477771,0.537888,True,False,1,low,,holt_winters
-C92,C92,2026-07,,0.50819,0.477521,0.538858,True,False,1,low,,holt_winters
+C92,C92,2026-06,,0.507829,0.47777,0.537887,True,False,1,low,,holt_winters
+C92,C92,2026-07,,0.508189,0.47752,0.538858,True,False,1,low,,holt_winters
 C97,C97,2023-01,0.4853291038858049,,,,False,False,1,low,,holt_winters
 C97,C97,2023-02,0.4906166219839142,,,,False,False,1,low,,holt_winters
 C97,C97,2023-03,0.5102207686017989,,,,False,False,1,low,,holt_winters
@@ -6392,9 +6392,9 @@ D01,D01,2025-02,0.5023060796645702,,,,False,False,1,medium,,holt_winters
 D01,D01,2025-03,0.505939524838013,,,,False,False,1,medium,,holt_winters
 D01,D01,2025-04,0.5032024325548295,,,,False,False,1,medium,,holt_winters
 D01,D01,2025-05,0.4956952958192713,,,,False,False,1,medium,,holt_winters
-D01,D01,2025-06,0.5042109623084358,,,,False,True,1,medium,,holt_winters
+D01,D01,2025-06,0.5042109623084358,,,,False,False,1,medium,,holt_winters
 D01,D01,2025-07,0.5129832286472835,,,,False,True,1,medium,,holt_winters
-D01,D01,2025-08,0.5173336577058752,,,,False,True,1,medium,,holt_winters
+D01,D01,2025-08,0.5173336577058752,,,,False,False,1,medium,,holt_winters
 D01,D01,2025-09,0.5126372555389513,,,,False,False,1,medium,,holt_winters
 D01,D01,2025-10,0.5137143210946691,,,,False,False,1,medium,,holt_winters
 D01,D01,2025-11,0.508730412535977,,,,False,False,1,medium,,holt_winters
@@ -6403,9 +6403,9 @@ D01,D01,2026-01,0.501274796343511,,,,False,False,1,medium,,holt_winters
 D01,D01,2026-02,0.5069277911004529,,,,False,False,1,medium,,holt_winters
 D01,D01,2026-03,0.5082547169811321,,,,False,False,1,medium,,holt_winters
 D01,D01,2026-04,0.5033421616849539,,,,False,False,1,medium,,holt_winters
-D01,D01,2026-05,,0.507033,0.496587,0.517478,True,False,1,medium,,holt_winters
-D01,D01,2026-06,,0.507078,0.496582,0.517574,True,False,1,medium,,holt_winters
-D01,D01,2026-07,,0.507124,0.496415,0.517833,True,False,1,medium,,holt_winters
+D01,D01,2026-05,,0.507034,0.496588,0.517479,True,False,1,medium,,holt_winters
+D01,D01,2026-06,,0.507079,0.496583,0.517575,True,False,1,medium,,holt_winters
+D01,D01,2026-07,,0.507125,0.496416,0.517834,True,False,1,medium,,holt_winters
 D03,D03,2023-01,0.4884025217081004,,,,False,False,1,high,,holt_winters
 D03,D03,2023-02,0.4989863152559554,,,,False,False,1,high,,holt_winters
 D03,D03,2023-03,0.4930451776066215,,,,False,False,1,high,,holt_winters
@@ -6547,13 +6547,13 @@ D06,Queen's Gambit,2023-09,0.5106504809894641,,,,False,False,1,low,,holt_winters
 D06,Queen's Gambit,2023-10,0.5115311816327033,,,,False,False,1,low,,holt_winters
 D06,Queen's Gambit,2023-11,0.511033004287566,,,,False,False,1,low,,holt_winters
 D06,Queen's Gambit,2023-12,0.5119379161254141,,,,False,False,1,low,,holt_winters
-D06,Queen's Gambit,2024-01,0.5106099475074329,,,,False,True,1,low,,holt_winters
+D06,Queen's Gambit,2024-01,0.5106099475074329,,,,False,False,1,low,,holt_winters
 D06,Queen's Gambit,2024-02,0.5127997969848102,,,,False,False,1,low,,holt_winters
-D06,Queen's Gambit,2024-03,0.5102070810246763,,,,False,True,1,low,,holt_winters
-D06,Queen's Gambit,2024-04,0.5109051505510214,,,,False,True,1,low,,holt_winters
-D06,Queen's Gambit,2024-05,0.5100604925106883,,,,False,True,1,low,,holt_winters
+D06,Queen's Gambit,2024-03,0.5102070810246763,,,,False,False,1,low,,holt_winters
+D06,Queen's Gambit,2024-04,0.5109051505510214,,,,False,False,1,low,,holt_winters
+D06,Queen's Gambit,2024-05,0.5100604925106883,,,,False,False,1,low,,holt_winters
 D06,Queen's Gambit,2024-06,0.5086849673202615,,,,False,True,1,low,,holt_winters
-D06,Queen's Gambit,2024-07,0.5080645995634047,,,,False,True,1,low,,holt_winters
+D06,Queen's Gambit,2024-07,0.5080645995634047,,,,False,False,1,low,,holt_winters
 D06,Queen's Gambit,2024-08,0.5086579208824186,,,,False,False,1,low,,holt_winters
 D06,Queen's Gambit,2024-09,0.5084650020911298,,,,False,False,1,low,,holt_winters
 D06,Queen's Gambit,2024-10,0.5083989108025856,,,,False,False,1,low,,holt_winters
@@ -6567,8 +6567,8 @@ D06,Queen's Gambit,2025-05,0.5066225875242453,,,,False,False,1,low,,holt_winters
 D06,Queen's Gambit,2025-06,0.5099013802265102,,,,False,False,1,low,,holt_winters
 D06,Queen's Gambit,2025-07,0.5074228270250613,,,,False,False,1,low,,holt_winters
 D06,Queen's Gambit,2025-08,0.5073015220074044,,,,False,False,1,low,,holt_winters
-D06,Queen's Gambit,2025-09,0.5111554238833181,,,,False,True,1,low,,holt_winters
-D06,Queen's Gambit,2025-10,0.5107636035074924,,,,False,True,1,low,,holt_winters
+D06,Queen's Gambit,2025-09,0.5111554238833181,,,,False,False,1,low,,holt_winters
+D06,Queen's Gambit,2025-10,0.5107636035074924,,,,False,False,1,low,,holt_winters
 D06,Queen's Gambit,2025-11,0.5120363791388376,,,,False,False,1,low,,holt_winters
 D06,Queen's Gambit,2025-12,0.5107057377579404,,,,False,False,1,low,,holt_winters
 D06,Queen's Gambit,2026-01,0.5099153485548548,,,,False,False,1,low,,holt_winters
@@ -6653,8 +6653,8 @@ D08,D08,2025-05,0.4848693259972489,,,,False,False,1,medium,,holt_winters
 D08,D08,2025-06,0.492977862413711,,,,False,False,1,medium,,holt_winters
 D08,D08,2025-07,0.4831584759801214,,,,False,False,1,medium,,holt_winters
 D08,D08,2025-08,0.4891460055096419,,,,False,False,1,medium,,holt_winters
-D08,D08,2025-09,0.4948548965198289,,,,False,True,1,medium,,holt_winters
-D08,D08,2025-10,0.5019011406844106,,,,False,True,1,medium,,holt_winters
+D08,D08,2025-09,0.4948548965198289,,,,False,False,1,medium,,holt_winters
+D08,D08,2025-10,0.5019011406844106,,,,False,False,1,medium,,holt_winters
 D08,D08,2025-11,0.49381274807378,,,,False,False,1,medium,,holt_winters
 D08,D08,2025-12,0.5020888302550571,,,,False,False,1,medium,,holt_winters
 D08,D08,2026-01,0.4947492625368732,,,,False,False,1,medium,,holt_winters
@@ -6721,13 +6721,13 @@ D10,D10,2023-11,0.5100343932902914,,,,False,False,1,medium,,holt_winters
 D10,D10,2023-12,0.5095299041820887,,,,False,False,1,medium,,holt_winters
 D10,D10,2024-01,0.5103873199111294,,,,False,False,1,medium,,holt_winters
 D10,D10,2024-02,0.5107435089982421,,,,False,False,1,medium,,holt_winters
-D10,D10,2024-03,0.5115545075276619,,,,False,True,1,medium,,holt_winters
+D10,D10,2024-03,0.5115545075276619,,,,False,False,1,medium,,holt_winters
 D10,D10,2024-04,0.5077149527966703,,,,False,True,1,medium,,holt_winters
-D10,D10,2024-05,0.5102092443352246,,,,False,True,1,medium,,holt_winters
-D10,D10,2024-06,0.5090621239946805,,,,False,True,1,medium,,holt_winters
-D10,D10,2024-07,0.5078584478314188,,,,False,True,1,medium,,holt_winters
-D10,D10,2024-08,0.509739624119029,,,,False,True,1,medium,,holt_winters
-D10,D10,2024-09,0.5066714509741381,,,,False,True,1,medium,,holt_winters
+D10,D10,2024-05,0.5102092443352246,,,,False,False,1,medium,,holt_winters
+D10,D10,2024-06,0.5090621239946805,,,,False,False,1,medium,,holt_winters
+D10,D10,2024-07,0.5078584478314188,,,,False,False,1,medium,,holt_winters
+D10,D10,2024-08,0.509739624119029,,,,False,False,1,medium,,holt_winters
+D10,D10,2024-09,0.5066714509741381,,,,False,False,1,medium,,holt_winters
 D10,D10,2024-10,0.5067376684417111,,,,False,False,1,medium,,holt_winters
 D10,D10,2024-11,0.5103088773049094,,,,False,False,1,medium,,holt_winters
 D10,D10,2024-12,0.5072898695113357,,,,False,False,1,medium,,holt_winters
@@ -6739,8 +6739,8 @@ D10,D10,2025-05,0.507025124847983,,,,False,False,1,medium,,holt_winters
 D10,D10,2025-06,0.5100144982011491,,,,False,False,1,medium,,holt_winters
 D10,D10,2025-07,0.5105894695429808,,,,False,False,1,medium,,holt_winters
 D10,D10,2025-08,0.5094024615942123,,,,False,False,1,medium,,holt_winters
-D10,D10,2025-09,0.512014965406253,,,,False,True,1,medium,,holt_winters
-D10,D10,2025-10,0.5145587908424094,,,,False,True,1,medium,,holt_winters
+D10,D10,2025-09,0.512014965406253,,,,False,False,1,medium,,holt_winters
+D10,D10,2025-10,0.5145587908424094,,,,False,False,1,medium,,holt_winters
 D10,D10,2025-11,0.5126066772301449,,,,False,False,1,medium,,holt_winters
 D10,D10,2025-12,0.5118573425835553,,,,False,False,1,medium,,holt_winters
 D10,D10,2026-01,0.5151511044857027,,,,False,False,1,medium,,holt_winters
@@ -6757,12 +6757,12 @@ D13,D13,2023-04,0.4839826839826839,,,,False,False,1,high,,holt_winters
 D13,D13,2023-05,0.4862668161434977,,,,False,False,1,high,,holt_winters
 D13,D13,2023-06,0.4912882033704656,,,,False,False,1,high,,holt_winters
 D13,D13,2023-07,0.4887133182844244,,,,False,False,1,high,,holt_winters
-D13,D13,2023-08,0.496523754345307,,,,False,True,1,high,,holt_winters
-D13,D13,2023-09,0.5081263416130022,,,,False,True,1,high,,holt_winters
+D13,D13,2023-08,0.496523754345307,,,,False,False,1,high,,holt_winters
+D13,D13,2023-09,0.5081263416130022,,,,False,False,1,high,,holt_winters
 D13,D13,2023-10,0.5252586731588558,,,,False,False,1,high,,holt_winters
 D13,D13,2023-11,0.4901084875558392,,,,False,True,1,high,,holt_winters
-D13,D13,2023-12,0.4998548621190131,,,,False,True,1,high,,holt_winters
-D13,D13,2024-01,0.4876649454962708,,,,False,True,1,high,,holt_winters
+D13,D13,2023-12,0.4998548621190131,,,,False,False,1,high,,holt_winters
+D13,D13,2024-01,0.4876649454962708,,,,False,False,1,high,,holt_winters
 D13,D13,2024-02,0.5027915632754343,,,,False,False,1,high,,holt_winters
 D13,D13,2024-03,0.5055207400775887,,,,False,False,1,high,,holt_winters
 D13,D13,2024-04,0.4899020807833537,,,,False,False,1,high,,holt_winters
@@ -6896,13 +6896,13 @@ D18,D18,2024-02,0.4965986394557823,,,,False,False,1,medium,,holt_winters
 D18,D18,2024-03,0.4463276836158192,,,,False,False,1,medium,,holt_winters
 D18,D18,2024-04,0.4629441624365482,,,,False,False,1,medium,,holt_winters
 D18,D18,2024-05,0.4646766169154229,,,,False,False,1,medium,,holt_winters
-D18,D18,2024-06,0.4812992125984252,,,,False,True,1,medium,,holt_winters
+D18,D18,2024-06,0.4812992125984252,,,,False,False,1,medium,,holt_winters
 D18,D18,2024-07,0.4698412698412698,,,,False,False,1,medium,,holt_winters
 D18,D18,2024-08,0.4900662251655629,,,,False,False,1,medium,,holt_winters
 D18,D18,2024-09,0.4879328436516264,,,,False,False,1,medium,,holt_winters
 D18,D18,2024-10,0.466,,,,False,False,1,medium,,holt_winters
 D18,D18,2024-11,0.4555198285101822,,,,False,False,1,medium,,holt_winters
-D18,D18,2024-12,0.49002849002849,,,,False,True,1,medium,,holt_winters
+D18,D18,2024-12,0.49002849002849,,,,False,False,1,medium,,holt_winters
 D18,D18,2025-01,0.4771300448430493,,,,False,False,1,medium,,holt_winters
 D18,D18,2025-02,0.501101321585903,,,,False,False,1,medium,,holt_winters
 D18,D18,2025-03,0.4890510948905109,,,,False,False,1,medium,,holt_winters
@@ -6939,8 +6939,8 @@ D20,D20,2024-02,0.5169304379830696,,,,False,False,1,high,,holt_winters
 D20,D20,2024-03,0.5089414090582315,,,,False,False,1,high,,holt_winters
 D20,D20,2024-04,0.5129704394635481,,,,False,False,1,high,,holt_winters
 D20,D20,2024-05,0.5145446507515473,,,,False,False,1,high,,holt_winters
-D20,D20,2024-06,0.5104132540833997,,,,False,True,1,high,,holt_winters
-D20,D20,2024-07,0.5087915030346305,,,,False,True,1,high,,holt_winters
+D20,D20,2024-06,0.5104132540833997,,,,False,False,1,high,,holt_winters
+D20,D20,2024-07,0.5087915030346305,,,,False,False,1,high,,holt_winters
 D20,D20,2024-08,0.5042178946423764,,,,False,False,1,high,,holt_winters
 D20,D20,2024-09,0.5123281175912755,,,,False,False,1,high,,holt_winters
 D20,D20,2024-10,0.5059243849493488,,,,False,False,1,high,,holt_winters
@@ -6962,9 +6962,9 @@ D20,D20,2026-01,0.506226469736461,,,,False,False,1,high,,holt_winters
 D20,D20,2026-02,0.5054874457947428,,,,False,False,1,high,,holt_winters
 D20,D20,2026-03,0.4999009900990099,,,,False,False,1,high,,holt_winters
 D20,D20,2026-04,0.510482079026181,,,,False,False,1,high,,holt_winters
-D20,D20,2026-05,,0.504001,0.497155,0.510847,True,False,1,high,,holt_winters
-D20,D20,2026-06,,0.503836,0.496957,0.510715,True,False,1,high,,holt_winters
-D20,D20,2026-07,,0.503672,0.496653,0.51069,True,False,1,high,,holt_winters
+D20,D20,2026-05,,0.504005,0.497158,0.510851,True,False,1,high,,holt_winters
+D20,D20,2026-06,,0.503841,0.496961,0.51072,True,False,1,high,,holt_winters
+D20,D20,2026-07,,0.503677,0.496658,0.510696,True,False,1,high,,holt_winters
 D23,D23,2023-01,0.5182926829268293,,,,False,False,1,medium,,holt_winters
 D23,D23,2023-02,0.5210553018772197,,,,False,False,1,medium,,holt_winters
 D23,D23,2023-03,0.5211627906976745,,,,False,False,1,medium,,holt_winters
@@ -6997,7 +6997,7 @@ D23,D23,2025-05,0.5170035671819263,,,,False,False,1,medium,,holt_winters
 D23,D23,2025-06,0.5196280991735537,,,,False,False,1,medium,,holt_winters
 D23,D23,2025-07,0.5098321342925659,,,,False,False,1,medium,,holt_winters
 D23,D23,2025-08,0.4959543074726321,,,,False,False,1,medium,,holt_winters
-D23,D23,2025-09,0.5124095139607032,,,,False,True,1,medium,,holt_winters
+D23,D23,2025-09,0.5124095139607032,,,,False,False,1,medium,,holt_winters
 D23,D23,2025-10,0.521622934888241,,,,False,True,1,medium,,holt_winters
 D23,D23,2025-11,0.509182389937107,,,,False,False,1,medium,,holt_winters
 D23,D23,2025-12,0.5129854658089111,,,,False,False,1,medium,,holt_winters
@@ -7025,7 +7025,7 @@ D24,D24,2024-02,0.5211618257261411,,,,False,False,1,medium,,holt_winters
 D24,D24,2024-03,0.5412684622067767,,,,False,False,1,medium,,holt_winters
 D24,D24,2024-04,0.5179352580927384,,,,False,False,1,medium,,holt_winters
 D24,D24,2024-05,0.5182829888712241,,,,False,False,1,medium,,holt_winters
-D24,D24,2024-06,0.543921916592724,,,,False,True,1,medium,,holt_winters
+D24,D24,2024-06,0.543921916592724,,,,False,False,1,medium,,holt_winters
 D24,D24,2024-07,0.5362745098039216,,,,False,False,1,medium,,holt_winters
 D24,D24,2024-08,0.5496688741721855,,,,False,False,1,medium,,holt_winters
 D24,D24,2024-09,0.544,,,,False,False,1,medium,,holt_winters
@@ -7150,9 +7150,9 @@ D35,D35,2023-10,0.5265729993891265,,,,False,False,1,medium,,holt_winters
 D35,D35,2023-11,0.5233045122939746,,,,False,False,1,medium,,holt_winters
 D35,D35,2023-12,0.5246699096594858,,,,False,False,1,medium,,holt_winters
 D35,D35,2024-01,0.5268643190056965,,,,False,False,1,medium,,holt_winters
-D35,D35,2024-02,0.5178950346583675,,,,False,True,1,medium,,holt_winters
+D35,D35,2024-02,0.5178950346583675,,,,False,False,1,medium,,holt_winters
 D35,D35,2024-03,0.5260103906618987,,,,False,False,1,medium,,holt_winters
-D35,D35,2024-04,0.5142535369888084,,,,False,True,1,medium,,holt_winters
+D35,D35,2024-04,0.5142535369888084,,,,False,False,1,medium,,holt_winters
 D35,D35,2024-05,0.5231628291741348,,,,False,False,1,medium,,holt_winters
 D35,D35,2024-06,0.5229831480817497,,,,False,False,1,medium,,holt_winters
 D35,D35,2024-07,0.5171776086492638,,,,False,False,1,medium,,holt_winters
@@ -7229,17 +7229,17 @@ D37,D37,2023-03,0.4687642498860009,,,,False,False,1,medium,,holt_winters
 D37,D37,2023-04,0.5036144578313253,,,,False,False,1,medium,,holt_winters
 D37,D37,2023-05,0.4991489361702128,,,,False,False,1,medium,,holt_winters
 D37,D37,2023-06,0.4953095684803001,,,,False,False,1,medium,,holt_winters
-D37,D37,2023-07,0.5174988334111059,,,,False,True,1,medium,,holt_winters
-D37,D37,2023-08,0.4844691701437181,,,,False,True,1,medium,,holt_winters
+D37,D37,2023-07,0.5174988334111059,,,,False,False,1,medium,,holt_winters
+D37,D37,2023-08,0.4844691701437181,,,,False,False,1,medium,,holt_winters
 D37,D37,2023-09,0.5034146341463415,,,,False,False,1,medium,,holt_winters
 D37,D37,2023-10,0.4884884884884884,,,,False,False,1,medium,,holt_winters
 D37,D37,2023-11,0.5067264573991032,,,,False,False,1,medium,,holt_winters
 D37,D37,2023-12,0.5133206470028544,,,,False,False,1,medium,,holt_winters
 D37,D37,2024-01,0.5100139729855613,,,,False,False,1,medium,,holt_winters
-D37,D37,2024-02,0.5117126496616345,,,,False,True,1,medium,,holt_winters
-D37,D37,2024-03,0.4951171875,,,,False,True,1,medium,,holt_winters
-D37,D37,2024-04,0.5013262599469496,,,,False,True,1,medium,,holt_winters
-D37,D37,2024-05,0.4873737373737373,,,,False,True,1,medium,,holt_winters
+D37,D37,2024-02,0.5117126496616345,,,,False,False,1,medium,,holt_winters
+D37,D37,2024-03,0.4951171875,,,,False,False,1,medium,,holt_winters
+D37,D37,2024-04,0.5013262599469496,,,,False,False,1,medium,,holt_winters
+D37,D37,2024-05,0.4873737373737373,,,,False,False,1,medium,,holt_winters
 D37,D37,2024-06,0.4901639344262295,,,,False,False,1,medium,,holt_winters
 D37,D37,2024-07,0.4943438914027149,,,,False,False,1,medium,,holt_winters
 D37,D37,2024-08,0.5041186161449753,,,,False,False,1,medium,,holt_winters
@@ -7286,8 +7286,8 @@ D38,D38,2024-05,0.5309095360509243,,,,False,False,1,high,,holt_winters
 D38,D38,2024-06,0.541913525778394,,,,False,False,1,high,,holt_winters
 D38,D38,2024-07,0.5300420972062763,,,,False,False,1,high,,holt_winters
 D38,D38,2024-08,0.5497173689619733,,,,False,False,1,high,,holt_winters
-D38,D38,2024-09,0.5322473844523904,,,,False,True,1,high,,holt_winters
-D38,D38,2024-10,0.5123661867847914,,,,False,True,1,high,,holt_winters
+D38,D38,2024-09,0.5322473844523904,,,,False,False,1,high,,holt_winters
+D38,D38,2024-10,0.5123661867847914,,,,False,False,1,high,,holt_winters
 D38,D38,2024-11,0.5192955192955193,,,,False,False,1,high,,holt_winters
 D38,D38,2024-12,0.5294257803192757,,,,False,False,1,high,,holt_winters
 D38,D38,2025-01,0.5282446311858077,,,,False,False,1,high,,holt_winters
@@ -7370,7 +7370,7 @@ D43,D43,2024-03,0.5152948023133161,,,,False,False,1,medium,,holt_winters
 D43,D43,2024-04,0.5187114931163003,,,,False,False,1,medium,,holt_winters
 D43,D43,2024-05,0.5222083547463475,,,,False,False,1,medium,,holt_winters
 D43,D43,2024-06,0.51359375,,,,False,True,1,medium,,holt_winters
-D43,D43,2024-07,0.5128284749446881,,,,False,True,1,medium,,holt_winters
+D43,D43,2024-07,0.5128284749446881,,,,False,False,1,medium,,holt_winters
 D43,D43,2024-08,0.5134066101243677,,,,False,False,1,medium,,holt_winters
 D43,D43,2024-09,0.513499376332837,,,,False,False,1,medium,,holt_winters
 D43,D43,2024-10,0.5176029962546816,,,,False,False,1,medium,,holt_winters
@@ -7392,7 +7392,7 @@ D43,D43,2026-01,0.5237138091776077,,,,False,False,1,medium,,holt_winters
 D43,D43,2026-02,0.517722681359045,,,,False,False,1,medium,,holt_winters
 D43,D43,2026-03,0.5190780817567261,,,,False,False,1,medium,,holt_winters
 D43,D43,2026-04,0.515194170737766,,,,False,False,1,medium,,holt_winters
-D43,D43,2026-05,,0.516192,0.509282,0.523102,True,False,1,medium,,holt_winters
+D43,D43,2026-05,,0.516192,0.509282,0.523103,True,False,1,medium,,holt_winters
 D43,D43,2026-06,,0.516216,0.509272,0.523159,True,False,1,medium,,holt_winters
 D43,D43,2026-07,,0.516239,0.509154,0.523324,True,False,1,medium,,holt_winters
 D44,D44,2023-01,0.4732636754763368,,,,False,False,1,low,,holt_winters
@@ -7411,11 +7411,11 @@ D44,D44,2024-01,0.4884196185286104,,,,False,False,1,low,,holt_winters
 D44,D44,2024-02,0.46875,,,,False,False,1,low,,holt_winters
 D44,D44,2024-03,0.4740437158469945,,,,False,False,1,low,,holt_winters
 D44,D44,2024-04,0.4834054834054834,,,,False,False,1,low,,holt_winters
-D44,D44,2024-05,0.4762859051436205,,,,False,True,1,low,,holt_winters
-D44,D44,2024-06,0.4644727000747943,,,,False,True,1,low,,holt_winters
-D44,D44,2024-07,0.4458841463414634,,,,False,True,1,low,,holt_winters
+D44,D44,2024-05,0.4762859051436205,,,,False,False,1,low,,holt_winters
+D44,D44,2024-06,0.4644727000747943,,,,False,False,1,low,,holt_winters
+D44,D44,2024-07,0.4458841463414634,,,,False,False,1,low,,holt_winters
 D44,D44,2024-08,0.4996446339729922,,,,False,False,1,low,,holt_winters
-D44,D44,2024-09,0.4496593489780469,,,,False,True,1,low,,holt_winters
+D44,D44,2024-09,0.4496593489780469,,,,False,False,1,low,,holt_winters
 D44,D44,2024-10,0.4556686046511627,,,,False,False,1,low,,holt_winters
 D44,D44,2024-11,0.4461172741679873,,,,False,False,1,low,,holt_winters
 D44,D44,2024-12,0.4369063772048847,,,,False,False,1,low,,holt_winters
@@ -7503,11 +7503,11 @@ D53,D53,2024-07,0.5003303600925009,,,,False,False,1,medium,,holt_winters
 D53,D53,2024-08,0.5043890865954923,,,,False,False,1,medium,,holt_winters
 D53,D53,2024-09,0.5060313114894345,,,,False,False,1,medium,,holt_winters
 D53,D53,2024-10,0.5102974828375286,,,,False,False,1,medium,,holt_winters
-D53,D53,2024-11,0.4989310529128808,,,,False,True,1,medium,,holt_winters
+D53,D53,2024-11,0.4989310529128808,,,,False,False,1,medium,,holt_winters
 D53,D53,2024-12,0.4913057742782152,,,,False,False,1,medium,,holt_winters
 D53,D53,2025-01,0.501632555546707,,,,False,False,1,medium,,holt_winters
 D53,D53,2025-02,0.5124396583735611,,,,False,False,1,medium,,holt_winters
-D53,D53,2025-03,0.4904058413992189,,,,False,True,1,medium,,holt_winters
+D53,D53,2025-03,0.4904058413992189,,,,False,False,1,medium,,holt_winters
 D53,D53,2025-04,0.4878754976474846,,,,False,False,1,medium,,holt_winters
 D53,D53,2025-05,0.5021078517477604,,,,False,False,1,medium,,holt_winters
 D53,D53,2025-06,0.4967014843320506,,,,False,False,1,medium,,holt_winters
@@ -7522,8 +7522,8 @@ D53,D53,2026-02,0.4974333165576245,,,,False,False,1,medium,,holt_winters
 D53,D53,2026-03,0.4966796875,,,,False,False,1,medium,,holt_winters
 D53,D53,2026-04,0.5024621557541492,,,,False,False,1,medium,,holt_winters
 D53,D53,2026-05,,0.501028,0.490346,0.51171,True,False,1,medium,,holt_winters
-D53,D53,2026-06,,0.501061,0.490327,0.511794,True,False,1,medium,,holt_winters
-D53,D53,2026-07,,0.501093,0.490141,0.512045,True,False,1,medium,,holt_winters
+D53,D53,2026-06,,0.50106,0.490327,0.511794,True,False,1,medium,,holt_winters
+D53,D53,2026-07,,0.501093,0.490141,0.512044,True,False,1,medium,,holt_winters
 D58,D58,2023-01,0.437847866419295,,,,False,False,1,medium,,holt_winters
 D58,D58,2023-02,0.4807321772639691,,,,False,False,1,medium,,holt_winters
 D58,D58,2023-03,0.4538590604026846,,,,False,False,1,medium,,holt_winters
@@ -7592,8 +7592,8 @@ D60,D60,2024-10,0.4859184531315679,,,,False,False,1,low,,holt_winters
 D60,D60,2024-11,0.4776523702031602,,,,False,False,1,low,,holt_winters
 D60,D60,2024-12,0.4922826969943135,,,,False,False,1,low,,holt_winters
 D60,D60,2025-01,0.4767210505372065,,,,False,False,1,low,,holt_winters
-D60,D60,2025-02,0.4873353596757852,,,,False,True,1,low,,holt_winters
-D60,D60,2025-03,0.5013009540329575,,,,False,True,1,low,,holt_winters
+D60,D60,2025-02,0.4873353596757852,,,,False,False,1,low,,holt_winters
+D60,D60,2025-03,0.5013009540329575,,,,False,False,1,low,,holt_winters
 D60,D60,2025-04,0.4978581627796287,,,,False,False,1,low,,holt_winters
 D60,D60,2025-05,0.4884135472370766,,,,False,False,1,low,,holt_winters
 D60,D60,2025-06,0.4932526756630991,,,,False,False,1,low,,holt_winters
@@ -7621,7 +7621,7 @@ D70,Grunfeld Defense,2023-08,0.4746551257776575,,,,False,False,1,medium,,holt_wi
 D70,Grunfeld Defense,2023-09,0.4704213938411669,,,,False,False,1,medium,,holt_winters
 D70,Grunfeld Defense,2023-10,0.471333702268954,,,,False,False,1,medium,,holt_winters
 D70,Grunfeld Defense,2023-11,0.4760218300046447,,,,False,False,1,medium,,holt_winters
-D70,Grunfeld Defense,2023-12,0.4579498389323516,,,,False,True,1,medium,,holt_winters
+D70,Grunfeld Defense,2023-12,0.4579498389323516,,,,False,False,1,medium,,holt_winters
 D70,Grunfeld Defense,2024-01,0.4616239648752293,,,,False,False,1,medium,,holt_winters
 D70,Grunfeld Defense,2024-02,0.4685779955241033,,,,False,False,1,medium,,holt_winters
 D70,Grunfeld Defense,2024-03,0.4691624810185726,,,,False,False,1,medium,,holt_winters
@@ -7693,7 +7693,7 @@ D77,D77,2026-01,0.4947291893856779,,,,False,False,1,medium,,holt_winters
 D77,D77,2026-02,0.5020833333333333,,,,False,False,1,medium,,holt_winters
 D77,D77,2026-03,0.4939670932358318,,,,False,False,1,medium,,holt_winters
 D77,D77,2026-04,0.5204638472032742,,,,False,False,1,medium,,holt_winters
-D77,D77,2026-05,,0.502923,0.483067,0.52278,True,False,1,medium,,holt_winters
+D77,D77,2026-05,,0.502923,0.483066,0.52278,True,False,1,medium,,holt_winters
 D77,D77,2026-06,,0.50291,0.482957,0.522863,True,False,1,medium,,holt_winters
 D77,D77,2026-07,,0.502897,0.482539,0.523255,True,False,1,medium,,holt_winters
 D78,D78,2023-01,0.520335869850433,,,,False,False,1,low,,holt_winters
@@ -7750,7 +7750,7 @@ D80,D80,2023-08,0.4746551257776575,,,,False,False,1,medium,,holt_winters
 D80,D80,2023-09,0.4704213938411669,,,,False,False,1,medium,,holt_winters
 D80,D80,2023-10,0.471333702268954,,,,False,False,1,medium,,holt_winters
 D80,D80,2023-11,0.4760218300046447,,,,False,False,1,medium,,holt_winters
-D80,D80,2023-12,0.4579498389323516,,,,False,True,1,medium,,holt_winters
+D80,D80,2023-12,0.4579498389323516,,,,False,False,1,medium,,holt_winters
 D80,D80,2024-01,0.4616239648752293,,,,False,False,1,medium,,holt_winters
 D80,D80,2024-02,0.4685779955241033,,,,False,False,1,medium,,holt_winters
 D80,D80,2024-03,0.4691624810185726,,,,False,False,1,medium,,holt_winters
@@ -7793,28 +7793,28 @@ D85,D85,2023-08,0.4735244519392917,,,,False,False,1,medium,,holt_winters
 D85,D85,2023-09,0.4701447160403745,,,,False,False,1,medium,,holt_winters
 D85,D85,2023-10,0.4687573685451544,,,,False,False,1,medium,,holt_winters
 D85,D85,2023-11,0.4773333333333333,,,,False,False,1,medium,,holt_winters
-D85,D85,2023-12,0.4595900094250706,,,,False,True,1,medium,,holt_winters
+D85,D85,2023-12,0.4595900094250706,,,,False,False,1,medium,,holt_winters
 D85,D85,2024-01,0.456430568499534,,,,False,False,1,medium,,holt_winters
 D85,D85,2024-02,0.4677378860155661,,,,False,False,1,medium,,holt_winters
 D85,D85,2024-03,0.4739099356683345,,,,False,False,1,medium,,holt_winters
 D85,D85,2024-04,0.4588414634146341,,,,False,False,1,medium,,holt_winters
 D85,D85,2024-05,0.4744251525105584,,,,False,False,1,medium,,holt_winters
-D85,D85,2024-06,0.4627774254914394,,,,False,True,1,medium,,holt_winters
+D85,D85,2024-06,0.4627774254914394,,,,False,False,1,medium,,holt_winters
 D85,D85,2024-07,0.4604124236252546,,,,False,False,1,medium,,holt_winters
 D85,D85,2024-08,0.465601198651517,,,,False,False,1,medium,,holt_winters
 D85,D85,2024-09,0.4664707453913972,,,,False,False,1,medium,,holt_winters
 D85,D85,2024-10,0.4706844489179668,,,,False,False,1,medium,,holt_winters
-D85,D85,2024-11,0.4643390843635375,,,,False,True,1,medium,,holt_winters
-D85,D85,2024-12,0.4562297359888837,,,,False,True,1,medium,,holt_winters
-D85,D85,2025-01,0.467298150654037,,,,False,True,1,medium,,holt_winters
-D85,D85,2025-02,0.4614083040478979,,,,False,True,1,medium,,holt_winters
-D85,D85,2025-03,0.4605619916194232,,,,False,True,1,medium,,holt_winters
-D85,D85,2025-04,0.4560653188180404,,,,False,True,1,medium,,holt_winters
-D85,D85,2025-05,0.4727200318598168,,,,False,True,1,medium,,holt_winters
-D85,D85,2025-06,0.4758106694560669,,,,False,True,1,medium,,holt_winters
-D85,D85,2025-07,0.4594627895515032,,,,False,True,1,medium,,holt_winters
-D85,D85,2025-08,0.4675390674628382,,,,False,True,1,medium,,holt_winters
-D85,D85,2025-09,0.4707368981111998,,,,False,True,1,medium,,holt_winters
+D85,D85,2024-11,0.4643390843635375,,,,False,False,1,medium,,holt_winters
+D85,D85,2024-12,0.4562297359888837,,,,False,False,1,medium,,holt_winters
+D85,D85,2025-01,0.467298150654037,,,,False,False,1,medium,,holt_winters
+D85,D85,2025-02,0.4614083040478979,,,,False,False,1,medium,,holt_winters
+D85,D85,2025-03,0.4605619916194232,,,,False,False,1,medium,,holt_winters
+D85,D85,2025-04,0.4560653188180404,,,,False,False,1,medium,,holt_winters
+D85,D85,2025-05,0.4727200318598168,,,,False,False,1,medium,,holt_winters
+D85,D85,2025-06,0.4758106694560669,,,,False,False,1,medium,,holt_winters
+D85,D85,2025-07,0.4594627895515032,,,,False,False,1,medium,,holt_winters
+D85,D85,2025-08,0.4675390674628382,,,,False,False,1,medium,,holt_winters
+D85,D85,2025-09,0.4707368981111998,,,,False,False,1,medium,,holt_winters
 D85,D85,2025-10,0.4692166623002358,,,,False,False,1,medium,,holt_winters
 D85,D85,2025-11,0.4676454594888526,,,,False,False,1,medium,,holt_winters
 D85,D85,2025-12,0.4751790875958275,,,,False,False,1,medium,,holt_winters
@@ -7833,32 +7833,32 @@ D86,D86,2023-05,0.4607460035523978,,,,False,False,1,low,,holt_winters
 D86,D86,2023-06,0.4809191629052113,,,,False,False,1,low,,holt_winters
 D86,D86,2023-07,0.4766982622432859,,,,False,False,1,low,,holt_winters
 D86,D86,2023-08,0.4795180722891566,,,,False,False,1,low,,holt_winters
-D86,D86,2023-09,0.4525235243798118,,,,False,True,1,low,,holt_winters
+D86,D86,2023-09,0.4525235243798118,,,,False,False,1,low,,holt_winters
 D86,D86,2023-10,0.4664082687338501,,,,False,False,1,low,,holt_winters
 D86,D86,2023-11,0.4729432468103827,,,,False,False,1,low,,holt_winters
-D86,D86,2023-12,0.4704853519895059,,,,False,True,1,low,,holt_winters
-D86,D86,2024-01,0.4503424657534247,,,,False,True,1,low,,holt_winters
-D86,D86,2024-02,0.4603392939018799,,,,False,True,1,low,,holt_winters
-D86,D86,2024-03,0.4678899082568807,,,,False,True,1,low,,holt_winters
-D86,D86,2024-04,0.4538570752484619,,,,False,True,1,low,,holt_winters
-D86,D86,2024-05,0.466044142614601,,,,False,True,1,low,,holt_winters
-D86,D86,2024-06,0.4638336347197107,,,,False,True,1,low,,holt_winters
-D86,D86,2024-07,0.4620689655172413,,,,False,True,1,low,,holt_winters
-D86,D86,2024-08,0.4626334519572954,,,,False,True,1,low,,holt_winters
+D86,D86,2023-12,0.4704853519895059,,,,False,False,1,low,,holt_winters
+D86,D86,2024-01,0.4503424657534247,,,,False,False,1,low,,holt_winters
+D86,D86,2024-02,0.4603392939018799,,,,False,False,1,low,,holt_winters
+D86,D86,2024-03,0.4678899082568807,,,,False,False,1,low,,holt_winters
+D86,D86,2024-04,0.4538570752484619,,,,False,False,1,low,,holt_winters
+D86,D86,2024-05,0.466044142614601,,,,False,False,1,low,,holt_winters
+D86,D86,2024-06,0.4638336347197107,,,,False,False,1,low,,holt_winters
+D86,D86,2024-07,0.4620689655172413,,,,False,False,1,low,,holt_winters
+D86,D86,2024-08,0.4626334519572954,,,,False,False,1,low,,holt_winters
 D86,D86,2024-09,0.4455112818050888,,,,False,True,1,low,,holt_winters
-D86,D86,2024-10,0.4652554072710538,,,,False,True,1,low,,holt_winters
-D86,D86,2024-11,0.4573947110675808,,,,False,True,1,low,,holt_winters
-D86,D86,2024-12,0.4617336152219873,,,,False,True,1,low,,holt_winters
-D86,D86,2025-01,0.460590212924916,,,,False,True,1,low,,holt_winters
-D86,D86,2025-02,0.4635879218472469,,,,False,True,1,low,,holt_winters
-D86,D86,2025-03,0.4492119089316987,,,,False,True,1,low,,holt_winters
-D86,D86,2025-04,0.4653138272770175,,,,False,True,1,low,,holt_winters
-D86,D86,2025-05,0.4667609618104668,,,,False,True,1,low,,holt_winters
-D86,D86,2025-06,0.4779874213836478,,,,False,True,1,low,,holt_winters
-D86,D86,2025-07,0.4553172475424486,,,,False,True,1,low,,holt_winters
-D86,D86,2025-08,0.473034734917733,,,,False,True,1,low,,holt_winters
-D86,D86,2025-09,0.4504591590140164,,,,False,True,1,low,,holt_winters
-D86,D86,2025-10,0.4590799031476997,,,,False,True,1,low,,holt_winters
+D86,D86,2024-10,0.4652554072710538,,,,False,False,1,low,,holt_winters
+D86,D86,2024-11,0.4573947110675808,,,,False,False,1,low,,holt_winters
+D86,D86,2024-12,0.4617336152219873,,,,False,False,1,low,,holt_winters
+D86,D86,2025-01,0.460590212924916,,,,False,False,1,low,,holt_winters
+D86,D86,2025-02,0.4635879218472469,,,,False,False,1,low,,holt_winters
+D86,D86,2025-03,0.4492119089316987,,,,False,False,1,low,,holt_winters
+D86,D86,2025-04,0.4653138272770175,,,,False,False,1,low,,holt_winters
+D86,D86,2025-05,0.4667609618104668,,,,False,False,1,low,,holt_winters
+D86,D86,2025-06,0.4779874213836478,,,,False,False,1,low,,holt_winters
+D86,D86,2025-07,0.4553172475424486,,,,False,False,1,low,,holt_winters
+D86,D86,2025-08,0.473034734917733,,,,False,False,1,low,,holt_winters
+D86,D86,2025-09,0.4504591590140164,,,,False,False,1,low,,holt_winters
+D86,D86,2025-10,0.4590799031476997,,,,False,False,1,low,,holt_winters
 D86,D86,2025-11,0.4685421994884911,,,,False,False,1,low,,holt_winters
 D86,D86,2025-12,0.4711090400745573,,,,False,False,1,low,,holt_winters
 D86,D86,2026-01,0.4919811320754716,,,,False,False,1,low,,holt_winters
@@ -7962,7 +7962,7 @@ D93,D93,2023-05,0.4694996572995202,,,,False,False,1,medium,,holt_winters
 D93,D93,2023-06,0.463229078613694,,,,False,False,1,medium,,holt_winters
 D93,D93,2023-07,0.4658333333333333,,,,False,False,1,medium,,holt_winters
 D93,D93,2023-08,0.4804780876494023,,,,False,False,1,medium,,holt_winters
-D93,D93,2023-09,0.460683081810961,,,,False,True,1,medium,,holt_winters
+D93,D93,2023-09,0.460683081810961,,,,False,False,1,medium,,holt_winters
 D93,D93,2023-10,0.4717775905644482,,,,False,False,1,medium,,holt_winters
 D93,D93,2023-11,0.4878444084278768,,,,False,False,1,medium,,holt_winters
 D93,D93,2023-12,0.4511092851273623,,,,False,True,1,medium,,holt_winters
@@ -7994,9 +7994,9 @@ D93,D93,2026-01,0.4633920296570899,,,,False,False,1,medium,,holt_winters
 D93,D93,2026-02,0.4585858585858586,,,,False,False,1,medium,,holt_winters
 D93,D93,2026-03,0.4471865745310958,,,,False,False,1,medium,,holt_winters
 D93,D93,2026-04,0.4671280276816609,,,,False,False,1,medium,,holt_winters
-D93,D93,2026-05,,0.460306,0.430834,0.489778,True,False,1,medium,,holt_winters
-D93,D93,2026-06,,0.46029,0.430675,0.489905,True,False,1,medium,,holt_winters
-D93,D93,2026-07,,0.460274,0.430057,0.490491,True,False,1,medium,,holt_winters
+D93,D93,2026-05,,0.4603,0.430828,0.489772,True,False,1,medium,,holt_winters
+D93,D93,2026-06,,0.460284,0.430669,0.4899,True,False,1,medium,,holt_winters
+D93,D93,2026-07,,0.460268,0.430052,0.490485,True,False,1,medium,,holt_winters
 E00,E00,2023-01,0.5152607546262917,,,,False,False,1,high,,holt_winters
 E00,E00,2023-02,0.5129142300194932,,,,False,False,1,high,,holt_winters
 E00,E00,2023-03,0.5184149184149184,,,,False,False,1,high,,holt_winters
@@ -8039,7 +8039,7 @@ E00,E00,2026-03,0.5207130303791112,,,,False,False,1,high,,holt_winters
 E00,E00,2026-04,0.5222691045475856,,,,False,False,1,high,,holt_winters
 E00,E00,2026-05,,0.514858,0.50156,0.528156,True,False,1,high,,holt_winters
 E00,E00,2026-06,,0.514723,0.50136,0.528085,True,False,1,high,,holt_winters
-E00,E00,2026-07,,0.514588,0.500954,0.528221,True,False,1,high,,holt_winters
+E00,E00,2026-07,,0.514587,0.500954,0.528221,True,False,1,high,,holt_winters
 E01,E01,2023-01,0.5160164922296225,,,,False,False,1,high,,holt_winters
 E01,E01,2023-02,0.511520737327189,,,,False,False,1,high,,holt_winters
 E01,E01,2023-03,0.5148883374689827,,,,False,False,1,high,,holt_winters
@@ -8158,7 +8158,7 @@ E06,E06,2025-05,0.5108989371284454,,,,False,False,1,medium,,holt_winters
 E06,E06,2025-06,0.5093189339836266,,,,False,False,1,medium,,holt_winters
 E06,E06,2025-07,0.5071525885558583,,,,False,False,1,medium,,holt_winters
 E06,E06,2025-08,0.5005971677188193,,,,False,False,1,medium,,holt_winters
-E06,E06,2025-09,0.5205676306807976,,,,False,True,1,medium,,holt_winters
+E06,E06,2025-09,0.5205676306807976,,,,False,False,1,medium,,holt_winters
 E06,E06,2025-10,0.5155599933433184,,,,False,False,1,medium,,holt_winters
 E06,E06,2025-11,0.5184926727145848,,,,False,False,1,medium,,holt_winters
 E06,E06,2025-12,0.5115365733922435,,,,False,False,1,medium,,holt_winters
@@ -8166,9 +8166,9 @@ E06,E06,2026-01,0.5157493368700266,,,,False,False,1,medium,,holt_winters
 E06,E06,2026-02,0.5234759560772435,,,,False,False,1,medium,,holt_winters
 E06,E06,2026-03,0.5111187726254094,,,,False,False,1,medium,,holt_winters
 E06,E06,2026-04,0.4904438964241677,,,,False,False,1,medium,,holt_winters
-E06,E06,2026-05,,0.507708,0.490725,0.524692,True,False,1,medium,,holt_winters
-E06,E06,2026-06,,0.507526,0.49046,0.524592,True,False,1,medium,,holt_winters
-E06,E06,2026-07,,0.507344,0.489931,0.524756,True,False,1,medium,,holt_winters
+E06,E06,2026-05,,0.507708,0.490724,0.524691,True,False,1,medium,,holt_winters
+E06,E06,2026-06,,0.507526,0.490459,0.524592,True,False,1,medium,,holt_winters
+E06,E06,2026-07,,0.507343,0.489931,0.524756,True,False,1,medium,,holt_winters
 E11,E11,2023-01,0.492132058006788,,,,False,False,1,high,,holt_winters
 E11,E11,2023-02,0.4910540301151461,,,,False,False,1,high,,holt_winters
 E11,E11,2023-03,0.482894286691755,,,,False,False,1,high,,holt_winters
@@ -8186,14 +8186,14 @@ E11,E11,2024-02,0.4891881638846737,,,,False,False,1,high,,holt_winters
 E11,E11,2024-03,0.485474959900196,,,,False,False,1,high,,holt_winters
 E11,E11,2024-04,0.4835672082717873,,,,False,False,1,high,,holt_winters
 E11,E11,2024-05,0.4966045620755702,,,,False,False,1,high,,holt_winters
-E11,E11,2024-06,0.4825825278132409,,,,False,True,1,high,,holt_winters
+E11,E11,2024-06,0.4825825278132409,,,,False,False,1,high,,holt_winters
 E11,E11,2024-07,0.4837458441078685,,,,False,False,1,high,,holt_winters
 E11,E11,2024-08,0.4983242194390545,,,,False,False,1,high,,holt_winters
 E11,E11,2024-09,0.4762331838565022,,,,False,True,1,high,,holt_winters
-E11,E11,2024-10,0.4798350958953217,,,,False,True,1,high,,holt_winters
-E11,E11,2024-11,0.4792822789493156,,,,False,True,1,high,,holt_winters
-E11,E11,2024-12,0.4704987320371935,,,,False,True,1,high,,holt_winters
-E11,E11,2025-01,0.4896127638357985,,,,False,True,1,high,,holt_winters
+E11,E11,2024-10,0.4798350958953217,,,,False,False,1,high,,holt_winters
+E11,E11,2024-11,0.4792822789493156,,,,False,False,1,high,,holt_winters
+E11,E11,2024-12,0.4704987320371935,,,,False,False,1,high,,holt_winters
+E11,E11,2025-01,0.4896127638357985,,,,False,False,1,high,,holt_winters
 E11,E11,2025-02,0.4841341795104261,,,,False,False,1,high,,holt_winters
 E11,E11,2025-03,0.4824531516183986,,,,False,False,1,high,,holt_winters
 E11,E11,2025-04,0.4928690498240415,,,,False,False,1,high,,holt_winters
@@ -8201,8 +8201,8 @@ E11,E11,2025-05,0.4777196464008659,,,,False,False,1,high,,holt_winters
 E11,E11,2025-06,0.4952972159518435,,,,False,False,1,high,,holt_winters
 E11,E11,2025-07,0.4820017559262511,,,,False,False,1,high,,holt_winters
 E11,E11,2025-08,0.482962962962963,,,,False,False,1,high,,holt_winters
-E11,E11,2025-09,0.488463123197363,,,,False,True,1,high,,holt_winters
-E11,E11,2025-10,0.495346628679962,,,,False,True,1,high,,holt_winters
+E11,E11,2025-09,0.488463123197363,,,,False,False,1,high,,holt_winters
+E11,E11,2025-10,0.495346628679962,,,,False,False,1,high,,holt_winters
 E11,E11,2025-11,0.4946960424316605,,,,False,False,1,high,,holt_winters
 E11,E11,2025-12,0.4972473805718345,,,,False,False,1,high,,holt_winters
 E11,E11,2026-01,0.4915413533834586,,,,False,False,1,high,,holt_winters
@@ -8307,7 +8307,7 @@ E21,E21,2023-06,0.4864864864864865,,,,False,False,1,low,,holt_winters
 E21,E21,2023-07,0.4835689045936396,,,,False,False,1,low,,holt_winters
 E21,E21,2023-08,0.4796968056307525,,,,False,False,1,low,,holt_winters
 E21,E21,2023-09,0.4850953527124607,,,,False,False,1,low,,holt_winters
-E21,E21,2023-10,0.4723777528928705,,,,False,True,1,low,,holt_winters
+E21,E21,2023-10,0.4723777528928705,,,,False,False,1,low,,holt_winters
 E21,E21,2023-11,0.4702651515151515,,,,False,False,1,low,,holt_winters
 E21,E21,2023-12,0.4814152966404574,,,,False,False,1,low,,holt_winters
 E21,E21,2024-01,0.4699653094759905,,,,False,False,1,low,,holt_winters
@@ -8318,27 +8318,27 @@ E21,E21,2024-05,0.4670747542199963,,,,False,False,1,low,,holt_winters
 E21,E21,2024-06,0.4757321318861355,,,,False,False,1,low,,holt_winters
 E21,E21,2024-07,0.4743747437474375,,,,False,False,1,low,,holt_winters
 E21,E21,2024-08,0.4851524879614767,,,,False,False,1,low,,holt_winters
-E21,E21,2024-09,0.4649928556848336,,,,False,True,1,low,,holt_winters
-E21,E21,2024-10,0.4699379363847944,,,,False,True,1,low,,holt_winters
-E21,E21,2024-11,0.468320133388912,,,,False,True,1,low,,holt_winters
-E21,E21,2024-12,0.4670557228915662,,,,False,True,1,low,,holt_winters
-E21,E21,2025-01,0.4656771799628942,,,,False,True,1,low,,holt_winters
-E21,E21,2025-02,0.4804226227470478,,,,False,True,1,low,,holt_winters
-E21,E21,2025-03,0.4654377880184331,,,,False,True,1,low,,holt_winters
-E21,E21,2025-04,0.4800085984522786,,,,False,True,1,low,,holt_winters
-E21,E21,2025-05,0.4661217466121746,,,,False,True,1,low,,holt_winters
-E21,E21,2025-06,0.4631602811153933,,,,False,True,1,low,,holt_winters
-E21,E21,2025-07,0.4762998538316976,,,,False,True,1,low,,holt_winters
-E21,E21,2025-08,0.4706766917293233,,,,False,True,1,low,,holt_winters
-E21,E21,2025-09,0.4692913385826772,,,,False,True,1,low,,holt_winters
-E21,E21,2025-10,0.4709565968473332,,,,False,True,1,low,,holt_winters
+E21,E21,2024-09,0.4649928556848336,,,,False,False,1,low,,holt_winters
+E21,E21,2024-10,0.4699379363847944,,,,False,False,1,low,,holt_winters
+E21,E21,2024-11,0.468320133388912,,,,False,False,1,low,,holt_winters
+E21,E21,2024-12,0.4670557228915662,,,,False,False,1,low,,holt_winters
+E21,E21,2025-01,0.4656771799628942,,,,False,False,1,low,,holt_winters
+E21,E21,2025-02,0.4804226227470478,,,,False,False,1,low,,holt_winters
+E21,E21,2025-03,0.4654377880184331,,,,False,False,1,low,,holt_winters
+E21,E21,2025-04,0.4800085984522786,,,,False,False,1,low,,holt_winters
+E21,E21,2025-05,0.4661217466121746,,,,False,False,1,low,,holt_winters
+E21,E21,2025-06,0.4631602811153933,,,,False,False,1,low,,holt_winters
+E21,E21,2025-07,0.4762998538316976,,,,False,False,1,low,,holt_winters
+E21,E21,2025-08,0.4706766917293233,,,,False,False,1,low,,holt_winters
+E21,E21,2025-09,0.4692913385826772,,,,False,False,1,low,,holt_winters
+E21,E21,2025-10,0.4709565968473332,,,,False,False,1,low,,holt_winters
 E21,E21,2025-11,0.4828391314499183,,,,False,False,1,low,,holt_winters
 E21,E21,2025-12,0.4818086225026288,,,,False,False,1,low,,holt_winters
 E21,E21,2026-01,0.4816247582205029,,,,False,False,1,low,,holt_winters
 E21,E21,2026-02,0.4815618221258134,,,,False,False,1,low,,holt_winters
 E21,E21,2026-03,0.4722419088117174,,,,False,False,1,low,,holt_winters
 E21,E21,2026-04,0.4781221513217867,,,,False,False,1,low,,holt_winters
-E21,E21,2026-05,,0.475733,0.460704,0.490761,True,False,1,low,,holt_winters
+E21,E21,2026-05,,0.475733,0.460705,0.490761,True,False,1,low,,holt_winters
 E21,E21,2026-06,,0.475756,0.460654,0.490857,True,False,1,low,,holt_winters
 E21,E21,2026-07,,0.475779,0.460371,0.491187,True,False,1,low,,holt_winters
 E22,E22,2023-01,0.4767959313413858,,,,False,False,1,medium,,holt_winters
@@ -8352,7 +8352,7 @@ E22,E22,2023-08,0.4832306639288158,,,,False,False,1,medium,,holt_winters
 E22,E22,2023-09,0.4870317002881844,,,,False,False,1,medium,,holt_winters
 E22,E22,2023-10,0.4459770114942529,,,,False,False,1,medium,,holt_winters
 E22,E22,2023-11,0.45390625,,,,False,False,1,medium,,holt_winters
-E22,E22,2023-12,0.4849137931034483,,,,False,True,1,medium,,holt_winters
+E22,E22,2023-12,0.4849137931034483,,,,False,False,1,medium,,holt_winters
 E22,E22,2024-01,0.4971791255289139,,,,False,False,1,medium,,holt_winters
 E22,E22,2024-02,0.4840667678300455,,,,False,False,1,medium,,holt_winters
 E22,E22,2024-03,0.4831130690161527,,,,False,False,1,medium,,holt_winters
@@ -8424,9 +8424,9 @@ E24,E24,2026-01,0.5134120171673819,,,,False,False,1,medium,,holt_winters
 E24,E24,2026-02,0.5239576851275669,,,,False,False,1,medium,,holt_winters
 E24,E24,2026-03,0.4927953890489913,,,,False,False,1,medium,,holt_winters
 E24,E24,2026-04,0.5191873589164786,,,,False,False,1,medium,,holt_winters
-E24,E24,2026-05,,0.507069,0.485315,0.528822,True,False,1,medium,,holt_winters
-E24,E24,2026-06,,0.507947,0.486087,0.529806,True,False,1,medium,,holt_winters
-E24,E24,2026-07,,0.508824,0.486521,0.531127,True,False,1,medium,,holt_winters
+E24,E24,2026-05,,0.50707,0.485317,0.528824,True,False,1,medium,,holt_winters
+E24,E24,2026-06,,0.507948,0.486089,0.529807,True,False,1,medium,,holt_winters
+E24,E24,2026-07,,0.508826,0.486523,0.531129,True,False,1,medium,,holt_winters
 E30,E30,2023-01,0.4637423935091277,,,,False,False,1,medium,,holt_winters
 E30,E30,2023-02,0.4552380952380952,,,,False,False,1,medium,,holt_winters
 E30,E30,2023-03,0.4475449423128521,,,,False,False,1,medium,,holt_winters
@@ -8443,7 +8443,7 @@ E30,E30,2024-01,0.4526932737929109,,,,False,False,1,medium,,holt_winters
 E30,E30,2024-02,0.4469820554649266,,,,False,False,1,medium,,holt_winters
 E30,E30,2024-03,0.445872149052361,,,,False,False,1,medium,,holt_winters
 E30,E30,2024-04,0.4514627659574468,,,,False,False,1,medium,,holt_winters
-E30,E30,2024-05,0.4594928880643166,,,,False,True,1,medium,,holt_winters
+E30,E30,2024-05,0.4594928880643166,,,,False,False,1,medium,,holt_winters
 E30,E30,2024-06,0.4724436741767764,,,,False,False,1,medium,,holt_winters
 E30,E30,2024-07,0.4570424784413925,,,,False,False,1,medium,,holt_winters
 E30,E30,2024-08,0.4707763884850247,,,,False,False,1,medium,,holt_winters
@@ -8484,7 +8484,7 @@ E32,E32,2023-11,0.4984688195991091,,,,False,False,1,high,,holt_winters
 E32,E32,2023-12,0.492561757881807,,,,False,False,1,high,,holt_winters
 E32,E32,2024-01,0.4972901520158625,,,,False,False,1,high,,holt_winters
 E32,E32,2024-02,0.4958131335390039,,,,False,False,1,high,,holt_winters
-E32,E32,2024-03,0.4806890803000833,,,,False,True,1,high,,holt_winters
+E32,E32,2024-03,0.4806890803000833,,,,False,False,1,high,,holt_winters
 E32,E32,2024-04,0.4881106787721573,,,,False,False,1,high,,holt_winters
 E32,E32,2024-05,0.494919972164231,,,,False,False,1,high,,holt_winters
 E32,E32,2024-06,0.4858400586940572,,,,False,False,1,high,,holt_winters
@@ -8512,7 +8512,7 @@ E32,E32,2026-03,0.4997542192364411,,,,False,False,1,high,,holt_winters
 E32,E32,2026-04,0.4866806345405567,,,,False,False,1,high,,holt_winters
 E32,E32,2026-05,,0.490732,0.479276,0.502188,True,False,1,high,,holt_winters
 E32,E32,2026-06,,0.490701,0.479189,0.502213,True,False,1,high,,holt_winters
-E32,E32,2026-07,,0.490669,0.478924,0.502415,True,False,1,high,,holt_winters
+E32,E32,2026-07,,0.49067,0.478924,0.502415,True,False,1,high,,holt_winters
 E38,E38,2023-01,0.4901543374135178,,,,False,False,1,medium,,holt_winters
 E38,E38,2023-02,0.4746070133010883,,,,False,False,1,medium,,holt_winters
 E38,E38,2023-03,0.474931129476584,,,,False,False,1,medium,,holt_winters
@@ -8525,21 +8525,21 @@ E38,E38,2023-09,0.4840336134453781,,,,False,False,1,medium,,holt_winters
 E38,E38,2023-10,0.4937533948940793,,,,False,False,1,medium,,holt_winters
 E38,E38,2023-11,0.4810810810810811,,,,False,False,1,medium,,holt_winters
 E38,E38,2023-12,0.4929971988795518,,,,False,False,1,medium,,holt_winters
-E38,E38,2024-01,0.4886749716874292,,,,False,True,1,medium,,holt_winters
-E38,E38,2024-02,0.4948139109212934,,,,False,True,1,medium,,holt_winters
+E38,E38,2024-01,0.4886749716874292,,,,False,False,1,medium,,holt_winters
+E38,E38,2024-02,0.4948139109212934,,,,False,False,1,medium,,holt_winters
 E38,E38,2024-03,0.4591836734693877,,,,False,True,1,medium,,holt_winters
-E38,E38,2024-04,0.4579710144927536,,,,False,True,1,medium,,holt_winters
+E38,E38,2024-04,0.4579710144927536,,,,False,False,1,medium,,holt_winters
 E38,E38,2024-05,0.4658523042754025,,,,False,False,1,medium,,holt_winters
 E38,E38,2024-06,0.4553789731051345,,,,False,False,1,medium,,holt_winters
-E38,E38,2024-07,0.483729662077597,,,,False,True,1,medium,,holt_winters
+E38,E38,2024-07,0.483729662077597,,,,False,False,1,medium,,holt_winters
 E38,E38,2024-08,0.4654434250764526,,,,False,False,1,medium,,holt_winters
-E38,E38,2024-09,0.4931992903607333,,,,False,True,1,medium,,holt_winters
+E38,E38,2024-09,0.4931992903607333,,,,False,False,1,medium,,holt_winters
 E38,E38,2024-10,0.4818621523579202,,,,False,False,1,medium,,holt_winters
 E38,E38,2024-11,0.4846153846153846,,,,False,False,1,medium,,holt_winters
 E38,E38,2024-12,0.4772447724477244,,,,False,False,1,medium,,holt_winters
 E38,E38,2025-01,0.4754376058723885,,,,False,False,1,medium,,holt_winters
 E38,E38,2025-02,0.4612903225806452,,,,False,False,1,medium,,holt_winters
-E38,E38,2025-03,0.4903189066059225,,,,False,True,1,medium,,holt_winters
+E38,E38,2025-03,0.4903189066059225,,,,False,False,1,medium,,holt_winters
 E38,E38,2025-04,0.4945547725816784,,,,False,False,1,medium,,holt_winters
 E38,E38,2025-05,0.5047923322683706,,,,False,False,1,medium,,holt_winters
 E38,E38,2025-06,0.4815286624203821,,,,False,False,1,medium,,holt_winters
@@ -8571,7 +8571,7 @@ E40,E40,2023-12,0.4875102375102375,,,,False,False,1,low,,holt_winters
 E40,E40,2024-01,0.4953076120959332,,,,False,False,1,low,,holt_winters
 E40,E40,2024-02,0.485377358490566,,,,False,False,1,low,,holt_winters
 E40,E40,2024-03,0.4857397504456328,,,,False,False,1,low,,holt_winters
-E40,E40,2024-04,0.4998843930635838,,,,False,True,1,low,,holt_winters
+E40,E40,2024-04,0.4998843930635838,,,,False,False,1,low,,holt_winters
 E40,E40,2024-05,0.505690358599957,,,,False,False,1,low,,holt_winters
 E40,E40,2024-06,0.5020125223613596,,,,False,False,1,low,,holt_winters
 E40,E40,2024-07,0.494298245614035,,,,False,False,1,low,,holt_winters
@@ -8596,9 +8596,9 @@ E40,E40,2026-01,0.4954598370197904,,,,False,False,1,low,,holt_winters
 E40,E40,2026-02,0.4905428641611398,,,,False,False,1,low,,holt_winters
 E40,E40,2026-03,0.4970544918998527,,,,False,False,1,low,,holt_winters
 E40,E40,2026-04,0.4936823104693141,,,,False,False,1,low,,holt_winters
-E40,E40,2026-05,,0.494577,0.481016,0.508138,True,False,1,low,,holt_winters
+E40,E40,2026-05,,0.494578,0.481016,0.508139,True,False,1,low,,holt_winters
 E40,E40,2026-06,,0.494676,0.481049,0.508303,True,False,1,low,,holt_winters
-E40,E40,2026-07,,0.494775,0.480871,0.508678,True,False,1,low,,holt_winters
+E40,E40,2026-07,,0.494775,0.480871,0.508679,True,False,1,low,,holt_winters
 E46,E46,2023-01,0.488120950323974,,,,False,False,1,medium,,holt_winters
 E46,E46,2023-02,0.4881489841986456,,,,False,False,1,medium,,holt_winters
 E46,E46,2023-03,0.4848966613672496,,,,False,False,1,medium,,holt_winters
@@ -8620,9 +8620,9 @@ E46,E46,2024-06,0.5094882116158712,,,,False,False,1,medium,,holt_winters
 E46,E46,2024-07,0.4957555178268251,,,,False,False,1,medium,,holt_winters
 E46,E46,2024-08,0.491218441273326,,,,False,False,1,medium,,holt_winters
 E46,E46,2024-09,0.5031482541499713,,,,False,False,1,medium,,holt_winters
-E46,E46,2024-10,0.4932926829268292,,,,False,True,1,medium,,holt_winters
-E46,E46,2024-11,0.4905545399146861,,,,False,True,1,medium,,holt_winters
-E46,E46,2024-12,0.4639386189258312,,,,False,True,1,medium,,holt_winters
+E46,E46,2024-10,0.4932926829268292,,,,False,False,1,medium,,holt_winters
+E46,E46,2024-11,0.4905545399146861,,,,False,False,1,medium,,holt_winters
+E46,E46,2024-12,0.4639386189258312,,,,False,False,1,medium,,holt_winters
 E46,E46,2025-01,0.4805194805194805,,,,False,False,1,medium,,holt_winters
 E46,E46,2025-02,0.4968152866242038,,,,False,False,1,medium,,holt_winters
 E46,E46,2025-03,0.4753914988814318,,,,False,False,1,medium,,holt_winters
@@ -8630,8 +8630,8 @@ E46,E46,2025-04,0.4914841849148418,,,,False,False,1,medium,,holt_winters
 E46,E46,2025-05,0.4694944799535154,,,,False,False,1,medium,,holt_winters
 E46,E46,2025-06,0.4964071856287425,,,,False,False,1,medium,,holt_winters
 E46,E46,2025-07,0.5048840048840049,,,,False,False,1,medium,,holt_winters
-E46,E46,2025-08,0.4855115316380839,,,,False,True,1,medium,,holt_winters
-E46,E46,2025-09,0.4665027658266749,,,,False,True,1,medium,,holt_winters
+E46,E46,2025-08,0.4855115316380839,,,,False,False,1,medium,,holt_winters
+E46,E46,2025-09,0.4665027658266749,,,,False,False,1,medium,,holt_winters
 E46,E46,2025-10,0.4663341645885286,,,,False,False,1,medium,,holt_winters
 E46,E46,2025-11,0.4874274661508704,,,,False,False,1,medium,,holt_winters
 E46,E46,2025-12,0.4871495327102804,,,,False,False,1,medium,,holt_winters
@@ -8657,10 +8657,10 @@ E51,E51,2023-12,0.4919168591224018,,,,False,False,1,medium,,holt_winters
 E51,E51,2024-01,0.5008488964346349,,,,False,False,1,medium,,holt_winters
 E51,E51,2024-02,0.5021570319240725,,,,False,False,1,medium,,holt_winters
 E51,E51,2024-03,0.5194054500412882,,,,False,False,1,medium,,holt_winters
-E51,E51,2024-04,0.4917218543046358,,,,False,True,1,medium,,holt_winters
-E51,E51,2024-05,0.5012787723785166,,,,False,True,1,medium,,holt_winters
+E51,E51,2024-04,0.4917218543046358,,,,False,False,1,medium,,holt_winters
+E51,E51,2024-05,0.5012787723785166,,,,False,False,1,medium,,holt_winters
 E51,E51,2024-06,0.4822429906542056,,,,False,True,1,medium,,holt_winters
-E51,E51,2024-07,0.4850352112676056,,,,False,True,1,medium,,holt_winters
+E51,E51,2024-07,0.4850352112676056,,,,False,False,1,medium,,holt_winters
 E51,E51,2024-08,0.4875222816399287,,,,False,False,1,medium,,holt_winters
 E51,E51,2024-09,0.4765702891326022,,,,False,False,1,medium,,holt_winters
 E51,E51,2024-10,0.4440333024976873,,,,False,False,1,medium,,holt_winters
@@ -8697,28 +8697,28 @@ E60,King's Indian Defense,2023-09,0.4904298022322302,,,,False,False,1,medium,,ho
 E60,King's Indian Defense,2023-10,0.4880005731069561,,,,False,False,1,medium,,holt_winters
 E60,King's Indian Defense,2023-11,0.4938099090485646,,,,False,False,1,medium,,holt_winters
 E60,King's Indian Defense,2023-12,0.4891687776699259,,,,False,False,1,medium,,holt_winters
-E60,King's Indian Defense,2024-01,0.4879851686354669,,,,False,True,1,medium,,holt_winters
-E60,King's Indian Defense,2024-02,0.484421441016706,,,,False,True,1,medium,,holt_winters
+E60,King's Indian Defense,2024-01,0.4879851686354669,,,,False,False,1,medium,,holt_winters
+E60,King's Indian Defense,2024-02,0.484421441016706,,,,False,False,1,medium,,holt_winters
 E60,King's Indian Defense,2024-03,0.4856662296866111,,,,False,False,1,medium,,holt_winters
 E60,King's Indian Defense,2024-04,0.4874830145291104,,,,False,False,1,medium,,holt_winters
 E60,King's Indian Defense,2024-05,0.4892782233189389,,,,False,False,1,medium,,holt_winters
 E60,King's Indian Defense,2024-06,0.4861877002258284,,,,False,False,1,medium,,holt_winters
 E60,King's Indian Defense,2024-07,0.4909977688994967,,,,False,False,1,medium,,holt_winters
-E60,King's Indian Defense,2024-08,0.4873695356224474,,,,False,True,1,medium,,holt_winters
-E60,King's Indian Defense,2024-09,0.4861814770138051,,,,False,True,1,medium,,holt_winters
-E60,King's Indian Defense,2024-10,0.4887459807073955,,,,False,True,1,medium,,holt_winters
-E60,King's Indian Defense,2024-11,0.4863365579056676,,,,False,True,1,medium,,holt_winters
-E60,King's Indian Defense,2024-12,0.4862556781310837,,,,False,True,1,medium,,holt_winters
-E60,King's Indian Defense,2025-01,0.4862263033175355,,,,False,True,1,medium,,holt_winters
-E60,King's Indian Defense,2025-02,0.4837700315826412,,,,False,True,1,medium,,holt_winters
-E60,King's Indian Defense,2025-03,0.4855497382198953,,,,False,True,1,medium,,holt_winters
-E60,King's Indian Defense,2025-04,0.4893976039147308,,,,False,True,1,medium,,holt_winters
-E60,King's Indian Defense,2025-05,0.4874750310424877,,,,False,True,1,medium,,holt_winters
-E60,King's Indian Defense,2025-06,0.4849854878321054,,,,False,True,1,medium,,holt_winters
-E60,King's Indian Defense,2025-07,0.4871941117357886,,,,False,True,1,medium,,holt_winters
+E60,King's Indian Defense,2024-08,0.4873695356224474,,,,False,False,1,medium,,holt_winters
+E60,King's Indian Defense,2024-09,0.4861814770138051,,,,False,False,1,medium,,holt_winters
+E60,King's Indian Defense,2024-10,0.4887459807073955,,,,False,False,1,medium,,holt_winters
+E60,King's Indian Defense,2024-11,0.4863365579056676,,,,False,False,1,medium,,holt_winters
+E60,King's Indian Defense,2024-12,0.4862556781310837,,,,False,False,1,medium,,holt_winters
+E60,King's Indian Defense,2025-01,0.4862263033175355,,,,False,False,1,medium,,holt_winters
+E60,King's Indian Defense,2025-02,0.4837700315826412,,,,False,False,1,medium,,holt_winters
+E60,King's Indian Defense,2025-03,0.4855497382198953,,,,False,False,1,medium,,holt_winters
+E60,King's Indian Defense,2025-04,0.4893976039147308,,,,False,False,1,medium,,holt_winters
+E60,King's Indian Defense,2025-05,0.4874750310424877,,,,False,False,1,medium,,holt_winters
+E60,King's Indian Defense,2025-06,0.4849854878321054,,,,False,False,1,medium,,holt_winters
+E60,King's Indian Defense,2025-07,0.4871941117357886,,,,False,False,1,medium,,holt_winters
 E60,King's Indian Defense,2025-08,0.489239004469952,,,,False,True,1,medium,,holt_winters
-E60,King's Indian Defense,2025-09,0.4915833620590601,,,,False,True,1,medium,,holt_winters
-E60,King's Indian Defense,2025-10,0.4897568085508381,,,,False,True,1,medium,,holt_winters
+E60,King's Indian Defense,2025-09,0.4915833620590601,,,,False,False,1,medium,,holt_winters
+E60,King's Indian Defense,2025-10,0.4897568085508381,,,,False,False,1,medium,,holt_winters
 E60,King's Indian Defense,2025-11,0.4926951560383829,,,,False,False,1,medium,,holt_winters
 E60,King's Indian Defense,2025-12,0.4902847943152167,,,,False,False,1,medium,,holt_winters
 E60,King's Indian Defense,2026-01,0.4889272279887999,,,,False,False,1,medium,,holt_winters
@@ -8739,28 +8739,28 @@ E61,E61,2023-08,0.4819699943448322,,,,False,False,1,medium,,holt_winters
 E61,E61,2023-09,0.4832121414863461,,,,False,False,1,medium,,holt_winters
 E61,E61,2023-10,0.4817685367342785,,,,False,False,1,medium,,holt_winters
 E61,E61,2023-11,0.4871443143048081,,,,False,False,1,medium,,holt_winters
-E61,E61,2023-12,0.4798861415000514,,,,False,True,1,medium,,holt_winters
-E61,E61,2024-01,0.4793388429752066,,,,False,True,1,medium,,holt_winters
-E61,E61,2024-02,0.477890906417702,,,,False,True,1,medium,,holt_winters
+E61,E61,2023-12,0.4798861415000514,,,,False,False,1,medium,,holt_winters
+E61,E61,2024-01,0.4793388429752066,,,,False,False,1,medium,,holt_winters
+E61,E61,2024-02,0.477890906417702,,,,False,False,1,medium,,holt_winters
 E61,E61,2024-03,0.4806404037173268,,,,False,False,1,medium,,holt_winters
-E61,E61,2024-04,0.477754693319857,,,,False,True,1,medium,,holt_winters
+E61,E61,2024-04,0.477754693319857,,,,False,False,1,medium,,holt_winters
 E61,E61,2024-05,0.4834495698658264,,,,False,False,1,medium,,holt_winters
-E61,E61,2024-06,0.4789617384149306,,,,False,True,1,medium,,holt_winters
-E61,E61,2024-07,0.4806156931189424,,,,False,True,1,medium,,holt_winters
-E61,E61,2024-08,0.4808683656429245,,,,False,True,1,medium,,holt_winters
-E61,E61,2024-09,0.4770911494275217,,,,False,True,1,medium,,holt_winters
-E61,E61,2024-10,0.4810999810999811,,,,False,True,1,medium,,holt_winters
-E61,E61,2024-11,0.4793793062602412,,,,False,True,1,medium,,holt_winters
-E61,E61,2024-12,0.477941985404672,,,,False,True,1,medium,,holt_winters
-E61,E61,2025-01,0.4798193817297673,,,,False,True,1,medium,,holt_winters
-E61,E61,2025-02,0.4765479955115781,,,,False,True,1,medium,,holt_winters
-E61,E61,2025-03,0.4781212885985748,,,,False,True,1,medium,,holt_winters
-E61,E61,2025-04,0.4793052109181141,,,,False,True,1,medium,,holt_winters
+E61,E61,2024-06,0.4789617384149306,,,,False,False,1,medium,,holt_winters
+E61,E61,2024-07,0.4806156931189424,,,,False,False,1,medium,,holt_winters
+E61,E61,2024-08,0.4808683656429245,,,,False,False,1,medium,,holt_winters
+E61,E61,2024-09,0.4770911494275217,,,,False,False,1,medium,,holt_winters
+E61,E61,2024-10,0.4810999810999811,,,,False,False,1,medium,,holt_winters
+E61,E61,2024-11,0.4793793062602412,,,,False,False,1,medium,,holt_winters
+E61,E61,2024-12,0.477941985404672,,,,False,False,1,medium,,holt_winters
+E61,E61,2025-01,0.4798193817297673,,,,False,False,1,medium,,holt_winters
+E61,E61,2025-02,0.4765479955115781,,,,False,False,1,medium,,holt_winters
+E61,E61,2025-03,0.4781212885985748,,,,False,False,1,medium,,holt_winters
+E61,E61,2025-04,0.4793052109181141,,,,False,False,1,medium,,holt_winters
 E61,E61,2025-05,0.4839322033898305,,,,False,True,1,medium,,holt_winters
-E61,E61,2025-06,0.4833953424280005,,,,False,True,1,medium,,holt_winters
-E61,E61,2025-07,0.4801127106135828,,,,False,True,1,medium,,holt_winters
-E61,E61,2025-08,0.4838703355283788,,,,False,True,1,medium,,holt_winters
-E61,E61,2025-09,0.485071406555019,,,,False,True,1,medium,,holt_winters
+E61,E61,2025-06,0.4833953424280005,,,,False,False,1,medium,,holt_winters
+E61,E61,2025-07,0.4801127106135828,,,,False,False,1,medium,,holt_winters
+E61,E61,2025-08,0.4838703355283788,,,,False,False,1,medium,,holt_winters
+E61,E61,2025-09,0.485071406555019,,,,False,False,1,medium,,holt_winters
 E61,E61,2025-10,0.4830034924330617,,,,False,False,1,medium,,holt_winters
 E61,E61,2025-11,0.4838013846375085,,,,False,False,1,medium,,holt_winters
 E61,E61,2025-12,0.4836908610049956,,,,False,False,1,medium,,holt_winters
@@ -8825,8 +8825,8 @@ E65,E65,2023-08,0.5180564674983585,,,,False,False,1,medium,,holt_winters
 E65,E65,2023-09,0.519639407598197,,,,False,False,1,medium,,holt_winters
 E65,E65,2023-10,0.5178683385579937,,,,False,False,1,medium,,holt_winters
 E65,E65,2023-11,0.5466760961810466,,,,False,False,1,medium,,holt_winters
-E65,E65,2023-12,0.5143620574482298,,,,False,True,1,medium,,holt_winters
-E65,E65,2024-01,0.4944912508101102,,,,False,True,1,medium,,holt_winters
+E65,E65,2023-12,0.5143620574482298,,,,False,False,1,medium,,holt_winters
+E65,E65,2024-01,0.4944912508101102,,,,False,False,1,medium,,holt_winters
 E65,E65,2024-02,0.4892032762472077,,,,False,False,1,medium,,holt_winters
 E65,E65,2024-03,0.4870538838348495,,,,False,False,1,medium,,holt_winters
 E65,E65,2024-04,0.5231078365706631,,,,False,False,1,medium,,holt_winters
@@ -8897,9 +8897,9 @@ E67,E67,2026-01,0.4832109129066107,,,,False,False,1,low,,holt_winters
 E67,E67,2026-02,0.4864864864864865,,,,False,False,1,low,,holt_winters
 E67,E67,2026-03,0.4995093228655544,,,,False,False,1,low,,holt_winters
 E67,E67,2026-04,0.4523809523809524,,,,False,False,1,low,,holt_winters
-E67,E67,2026-05,,0.48058,0.455674,0.505487,True,False,1,low,,holt_winters
-E67,E67,2026-06,,0.480421,0.455393,0.505448,True,False,1,low,,holt_winters
-E67,E67,2026-07,,0.480261,0.454725,0.505797,True,False,1,low,,holt_winters
+E67,E67,2026-05,,0.48058,0.455673,0.505486,True,False,1,low,,holt_winters
+E67,E67,2026-06,,0.48042,0.455392,0.505448,True,False,1,low,,holt_winters
+E67,E67,2026-07,,0.48026,0.454725,0.505796,True,False,1,low,,holt_winters
 E70,E70,2023-01,0.5120738636363636,,,,False,False,1,medium,,holt_winters
 E70,E70,2023-02,0.4756888168557536,,,,False,False,1,medium,,holt_winters
 E70,E70,2023-03,0.5060422960725075,,,,False,False,1,medium,,holt_winters
@@ -11107,9 +11107,9 @@ D66,D66,2025-12,0.4863945578231292,,,,False,False,2,low,,holt_winters
 D66,D66,2026-01,0.5504132231404959,,,,False,False,2,low,,holt_winters
 D66,D66,2026-02,0.503731343283582,,,,False,False,2,low,,holt_winters
 D66,D66,2026-03,0.5080971659919028,,,,False,False,2,low,,holt_winters
-D66,D66,2026-04,,0.518189,0.481971,0.554406,True,False,2,low,,holt_winters
-D66,D66,2026-05,,0.518155,0.481762,0.554549,True,False,2,low,,holt_winters
-D66,D66,2026-06,,0.518121,0.480989,0.555254,True,False,2,low,,holt_winters
+D66,D66,2026-04,,0.518188,0.48197,0.554405,True,False,2,low,,holt_winters
+D66,D66,2026-05,,0.518154,0.48176,0.554547,True,False,2,low,,holt_winters
+D66,D66,2026-06,,0.51812,0.480988,0.555252,True,False,2,low,,holt_winters
 D79,D79,2023-01,0.4983818770226537,,,,False,False,2,medium,,mean
 D79,D79,2023-02,0.4613466334164589,,,,False,False,2,medium,,mean
 D79,D79,2023-03,0.4963144963144963,,,,False,False,2,medium,,mean

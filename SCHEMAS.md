@@ -1,6 +1,8 @@
 # OpenCast Schemas
 
-This document is the release contract for generated artifacts. If one of these schemas changes, update the owning module and the dashboard or CI consumer that reads it.
+This document is the release contract for **pipeline-generated CSV/JSON artifacts**. If one of these schemas changes, update the owning module and the dashboard or CI consumer that reads it.
+
+> **Dashboard data contract:** Per-opening and per-family shapes consumed by the static dashboard (`assets/openings_data.json` and client-side aggregations) are documented in [`opencast-spec.yaml`](opencast-spec.yaml) (OpenAPI 3.1). Update that file when `data_access.py` changes serialized dashboard fields — not this document.
 
 ## CSV Artifacts
 

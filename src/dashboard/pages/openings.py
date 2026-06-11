@@ -91,7 +91,7 @@ def render_openings_table(
 #openings-table th {{ user-select:none; }}
 .sort-icon {{ font-size:0.75rem; opacity:0.5; }}
 .table-scroll-outer {{ position:relative; }}
-.table-scroll-outer::after {{
+.table-scroll-outer.show-scroll-fade::after {{
   content:'';
   position:absolute;
   top:0; right:0; bottom:0;
@@ -317,7 +317,20 @@ def render_openings_table(
   const rowCount = document.getElementById("row-count");
   const emptyState = document.getElementById("empty-state");
   const sortHeaders = document.querySelectorAll(".sortable");
+  const scrollOuter = document.querySelector(".table-scroll-outer");
+  const scrollWrap = document.querySelector(".table-scroll-wrap");
   searchBox.value = state.q;
+
+  function updateScrollFade() {{
+    if (!scrollOuter || !scrollWrap) return;
+    const hasOverflow = scrollWrap.scrollWidth > scrollWrap.clientWidth + 1;
+    const atEnd = scrollWrap.scrollLeft + scrollWrap.clientWidth >= scrollWrap.scrollWidth - 1;
+    scrollOuter.classList.toggle("show-scroll-fade", hasOverflow && !atEnd);
+  }}
+  if (scrollWrap) {{
+    scrollWrap.addEventListener("scroll", updateScrollFade, {{ passive: true }});
+    window.addEventListener("resize", updateScrollFade, {{ passive: true }});
+  }}
 
   initDropdown("group-dropdown", "group", "groups", "All classes");
   initDropdown("tier-dropdown", "tier", "tiers", "All tiers");
@@ -392,6 +405,7 @@ def render_openings_table(
         '</tr>';
     }}).join('');
     tbody.innerHTML = html || '';
+    requestAnimationFrame(updateScrollFade);
   }}
   function updateSortIcons() {{
     sortHeaders.forEach((th) => {{
@@ -419,6 +433,7 @@ def render_openings_table(
     }});
   }});
   applyFilters();
+  requestAnimationFrame(updateScrollFade);
 }})();
 </script>
 """

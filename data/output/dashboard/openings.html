@@ -80,7 +80,6 @@
   transition: color 150ms;
 }
 .nav-link:hover, .nav-link.active { color: var(--text-primary); }
-body { font-family: 'Satoshi', 'Inter', sans-serif; }
 .plotly-graph-div { touch-action: pan-y; }
 
 @media (max-width: 760px) {
@@ -133,6 +132,7 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
     <a href="index.html" class="nav-link">Overview</a>
     <a href="openings.html" class="nav-link active">Openings</a>
     <a href="families.html" class="nav-link">Families</a>
+    <a href="engine.html" class="nav-link">Engine</a>
     
     </div>
   </div>
@@ -217,7 +217,7 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
 #openings-table th { user-select:none; }
 .sort-icon { font-size:0.75rem; opacity:0.5; }
 .table-scroll-outer { position:relative; }
-.table-scroll-outer::after {
+.table-scroll-outer.show-scroll-fade::after {
   content:'';
   position:absolute;
   top:0; right:0; bottom:0;
@@ -443,7 +443,20 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
   const rowCount = document.getElementById("row-count");
   const emptyState = document.getElementById("empty-state");
   const sortHeaders = document.querySelectorAll(".sortable");
+  const scrollOuter = document.querySelector(".table-scroll-outer");
+  const scrollWrap = document.querySelector(".table-scroll-wrap");
   searchBox.value = state.q;
+
+  function updateScrollFade() {
+    if (!scrollOuter || !scrollWrap) return;
+    const hasOverflow = scrollWrap.scrollWidth > scrollWrap.clientWidth + 1;
+    const atEnd = scrollWrap.scrollLeft + scrollWrap.clientWidth >= scrollWrap.scrollWidth - 1;
+    scrollOuter.classList.toggle("show-scroll-fade", hasOverflow && !atEnd);
+  }
+  if (scrollWrap) {
+    scrollWrap.addEventListener("scroll", updateScrollFade, { passive: true });
+    window.addEventListener("resize", updateScrollFade, { passive: true });
+  }
 
   initDropdown("group-dropdown", "group", "groups", "All classes");
   initDropdown("tier-dropdown", "tier", "tiers", "All tiers");
@@ -518,6 +531,7 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
         '</tr>';
     }).join('');
     tbody.innerHTML = html || '';
+    requestAnimationFrame(updateScrollFade);
   }
   function updateSortIcons() {
     sortHeaders.forEach((th) => {
@@ -545,6 +559,7 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
     });
   });
   applyFilters();
+  requestAnimationFrame(updateScrollFade);
 })();
 </script>
 
@@ -577,5 +592,6 @@ body { font-family: 'Satoshi', 'Inter', sans-serif; }
   });
 })();
 </script>
+
 </body>
 </html>

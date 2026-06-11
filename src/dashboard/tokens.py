@@ -6,7 +6,7 @@ TEXT_PRIMARY = "#ededee"
 TEXT_SECONDARY = "#8b8b8f"
 ACCENT = "#57C7FF"
 ECO_COLORS = {"A": "#7CC7FF", "B": "#7BE495", "C": "#F6C177", "D": "#F28DA6", "E": "#B9A5FF"}
-BODY_FONT = "'Inter', system-ui, sans-serif"
+BODY_FONT = "'Satoshi', 'Inter', system-ui, sans-serif"
 DISPLAY_FONT = "'Instrument Serif', Georgia, serif"
 LINE_COLORS = ["#57C7FF", "#7BE495", "#F6C177", "#F28DA6", "#B9A5FF"]
 

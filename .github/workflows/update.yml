@@ -2,7 +2,12 @@ name: Update Data
 
 on:
   schedule:
-    - cron: '0 4 1 * *'   # 1st of every month, 4am UTC
+    # Runs on the 10th rather than the 1st because the Lichess Opening Explorer
+    # typically lags 5-10 days behind month end when indexing games. Running on
+    # the 1st risks writing an undersampled win-rate snapshot for the previous
+    # month, which would corrupt the time-series and downstream forecasts.
+    # By the 10th, indexing is reliably complete for the previous calendar month.
+    - cron: '0 4 10 * *'  # 10th of every month, 4am UTC
   workflow_dispatch:       # manual trigger
 
 permissions:
