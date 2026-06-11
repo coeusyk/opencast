@@ -19,6 +19,7 @@ from .data_access import (
     _safe_read_forecasts,
     _serialize_openings_data,
 )
+from .pages.engine import render_engine
 from .pages.families import render_families
 from .pages.opening_template import render_opening_template
 from .pages.openings import render_openings_table
@@ -130,5 +131,10 @@ def run_visualizer() -> None:
     families_path = os.path.join(OUTPUT_DIR, "families.html")
     Path(families_path).write_text(families_html, encoding="utf-8")
     print(f"Families page written -> {families_path}")
+
+    engine_html = render_engine(openings_data)
+    engine_path = os.path.join(OUTPUT_DIR, "engine.html")
+    Path(engine_path).write_text(engine_html, encoding="utf-8")
+    print(f"Engine page written -> {engine_path}")
 
     print(f"\nDashboard written -> {OUTPUT_DIR}/ ({len(openings_data)} ECOs)")

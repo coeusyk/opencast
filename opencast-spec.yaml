@@ -1,0 +1,352 @@
+openapi: "3.1.0"
+
+info:
+  title: OpenCast Dashboard Data Contract
+  version: "1.0.0"
+  description: >
+    OpenCast is a static site with no HTTP server. This document defines the
+    exact shapes of every JSON object the Python pipeline serialises and the
+    dashboard JavaScript consumes. There are no server paths — schemas only.
+
+    Primary artefact: assets/openings_data.json (dict of ECO → OpeningRecord).
+
+    Maintenance: update this file whenever data_access.py adds or removes
+    fields from _serialize_openings_data(), or whenever families.py changes
+    its FamilySummary aggregation.
+
+components:
+  schemas:
+
+    # ──────────────────────────────────────────────────────────────────────
+    # Core record: one entry per ECO in assets/openings_data.json
+    # ──────────────────────────────────────────────────────────────────────
+    OpeningRecord:
+      type: object
+      description: >
+        Per-ECO record serialised to assets/openings_data.json by
+        data_access._serialize_openings_data(). Keyed by ECO code (e.g. "B20").
+      required:
+        - name
+        - eco_group
+        - model_tier
+        - data_status
+        - actuals
+        - forecast
+        - structural_breaks
+        - trend_direction
+        - trend_slope_per_month
+        - trend_r_squared
+        - trend_confidence
+        - trend_streak_months
+        - narrative
+        - lines_driving_trend
+      properties:
+        name:
+          type: string
+          description: Human-readable opening name from openings_catalog.csv.
+          example: "Sicilian Defense: Najdorf Variation"
+        eco_group:
+          type: string
+          enum: [A, B, C, D, E]
+          description: Single letter derived from the first character of the ECO code.
+        model_tier:
+          type: integer
+          enum: [1, 2, 3]
+          nullable: true
+          description: >
+            1 = ARIMA + engine delta (≥1 000 avg monthly games, ≥24 months);
+            2 = Holt-Winters trend only (400–999 games);
+            3 = descriptive stats only (<400 games).
+        data_status:
+          type: string
+          description: Status field from openings_catalog.csv.
+          example: "ok"
+
+        # Time-series data
+        actuals:
+          type: array
+          items:
+            $ref: '#/components/schemas/ActualPoint'
+          description: Monthly observed win-rate data points, sorted ascending.
+        forecast:
+          type: array
+          items:
+            $ref: '#/components/schemas/ForecastPoint'
+          description: Forecast data points (is_forecast = true rows). Empty for Tier-3.
+        structural_breaks:
+          type: array
+          items:
+            type: string
+            description: ISO date string (YYYY-MM-DD or YYYY-MM-01).
+          description: Months where a structural break was detected (Chow test).
+
+        # Engine delta fields (Tier-1 only; null for Tier-2/3)
+        engine_cp:
+          type: integer
+          nullable: true
+          description: Stockfish centipawn evaluation at depth 20.
+        p_engine:
+          type: number
+          format: float
+          nullable: true
+          description: >
+            Engine win probability derived from engine_cp via the logistic
+            formula used in engine_delta.py.
+        human_win_rate:
+          type: number
+          format: float
+          nullable: true
+          description: Observed human win rate (white) at 2000-rated blitz.
+        delta:
+          type: number
+          format: float
+          nullable: true
+          description: >
+            human_win_rate − p_engine.
+            Positive = humans outperform engine prediction.
+            Negative = engine outperforms human play.
+        interpretation:
+          type: string
+          nullable: true
+          description: Text label for the delta magnitude (e.g. "humans outperform engine").
+
+        # Trend signal fields (from trend_classifier.TrendSignal)
+        trend_direction:
+          type: string
+          enum: [rising, stable, falling]
+        trend_slope_per_month:
+          type: number
+          format: float
+          description: Slope of the win-rate trend in percentage-points per month.
+        trend_r_squared:
+          type: number
+          format: float
+          description: R² of the linear trend fit (0–1).
+        trend_confidence:
+          type: string
+          enum: [high, medium, low]
+        trend_streak_months:
+          type: integer
+          description: Number of consecutive months the current trend direction has held.
+
+        # Forecast quality (cleared to null for Tier-3)
+        forecast_quality:
+          type: string
+          enum: [high, medium, low]
+          nullable: true
+          description: >
+            Model fit quality derived from residual diagnostics.
+            Null for Tier-3 openings.
+        model_name:
+          type: string
+          nullable: true
+          description: Name of the selected forecast model (e.g. "ARIMA(1,1,0)").
+
+        narrative:
+          type: string
+          description: LLM-generated or templated analysis paragraph for this opening.
+
+        lines_driving_trend:
+          type: array
+          items:
+            $ref: '#/components/schemas/MoveLine'
+          description: >
+            Up to 3 move continuations with the strongest trend signal
+            (pre-ranked by data_access._top_lines_for_opening()).
+
+        # Tier-3 extras (present only when model_tier == 3)
+        last_month:
+          type: string
+          nullable: true
+          description: Most recent month with data (Tier-3 only).
+        last_win_rate:
+          type: number
+          format: float
+          nullable: true
+        mean_win_rate:
+          type: number
+          format: float
+          nullable: true
+        std_win_rate:
+          type: number
+          format: float
+          nullable: true
+        ma3:
+          type: number
+          format: float
+          nullable: true
+          description: 3-month moving average of win rate.
+        months_available:
+          type: integer
+          nullable: true
+
+    # ──────────────────────────────────────────────────────────────────────
+    ActualPoint:
+      type: object
+      description: A single monthly observed win-rate data point.
+      required: [month, win_rate]
+      properties:
+        month:
+          type: string
+          description: ISO date string (YYYY-MM-DD).
+          example: "2024-03-01"
+        win_rate:
+          type: number
+          format: float
+          description: Observed white win rate (0–1).
+          example: 0.4923
+
+    # ──────────────────────────────────────────────────────────────────────
+    ForecastPoint:
+      type: object
+      description: A single monthly forecast data point with confidence interval.
+      required: [month]
+      properties:
+        month:
+          type: string
+          description: ISO date string (YYYY-MM-DD).
+        value:
+          type: number
+          format: float
+          nullable: true
+          description: Point forecast (0–1).
+        lower:
+          type: number
+          format: float
+          nullable: true
+          description: Lower confidence interval bound.
+        upper:
+          type: number
+          format: float
+          nullable: true
+          description: Upper confidence interval bound.
+
+    # ──────────────────────────────────────────────────────────────────────
+    MoveLine:
+      type: object
+      description: >
+        A single move continuation driving trend for an opening.
+        Produced by data_access._top_lines_for_opening() from move_stats.csv.
+      required: [month, uci, san, games, share_of_games]
+      properties:
+        month:
+          type: string
+          description: Latest month this row was observed in move_stats.csv.
+          example: "2025-02-01"
+        uci:
+          type: string
+          description: Move in UCI notation (e.g. "e2e4").
+        san:
+          type: string
+          description: Move in Standard Algebraic Notation (e.g. "e4").
+        games:
+          type: integer
+          description: Number of games this move was played in the given month.
+        white_win_rate:
+          type: number
+          format: float
+          nullable: true
+          description: White win rate after this move (0–1).
+        share_of_games:
+          type: number
+          format: float
+          description: Fraction of games in this opening that chose this move.
+        delta_share_12m:
+          type: number
+          format: float
+          nullable: true
+          description: 12-month change in share_of_games (positive = growing popularity).
+        delta_wr_12m:
+          type: number
+          format: float
+          nullable: true
+          description: 12-month change in white_win_rate.
+
+    # ──────────────────────────────────────────────────────────────────────
+    # Aggregated per-family summary computed at build time in families.py.
+    # Not written to disk — used for server-side card rendering only.
+    # ──────────────────────────────────────────────────────────────────────
+    FamilySummary:
+      type: object
+      description: >
+        Aggregated summary for one ECO family letter (A–E), computed by
+        render_families() in src/dashboard/pages/families.py.
+        Not serialised to JSON; used exclusively for server-side HTML rendering.
+      required: [group, n_ecos, tier_counts, trend_counts]
+      properties:
+        group:
+          type: string
+          enum: [A, B, C, D, E]
+        n_ecos:
+          type: integer
+          description: Number of distinct ECO codes tracked in this family.
+        avg_wr:
+          type: number
+          format: float
+          nullable: true
+          description: Mean win rate across openings in this family.
+        min_wr:
+          type: number
+          format: float
+          nullable: true
+          description: Minimum per-opening mean win rate.
+        max_wr:
+          type: number
+          format: float
+          nullable: true
+          description: Maximum per-opening mean win rate.
+        tier_counts:
+          type: object
+          description: Count of openings at each model tier.
+          properties:
+            "1":
+              type: integer
+            "2":
+              type: integer
+            "3":
+              type: integer
+        trend_counts:
+          type: object
+          description: Count of openings at each trend direction.
+          properties:
+            rising:
+              type: integer
+            stable:
+              type: integer
+            falling:
+              type: integer
+        top_eco:
+          type: string
+          nullable: true
+          description: ECO code of the opening with the largest absolute engine delta.
+        top_name:
+          type: string
+          nullable: true
+          description: Name of the top outlier opening.
+        top_delta:
+          type: number
+          format: float
+          nullable: true
+          description: Engine delta of the top outlier (signed).
+        avg_delta:
+          type: number
+          format: float
+          nullable: true
+          description: >
+            Mean signed delta across family openings with non-null delta.
+            Used for the ENGINE GAP chip colour threshold (±0.5 pp).
+        forecast_quality_counts:
+          type: object
+          description: Count of openings at each forecast quality level.
+          properties:
+            high:
+              type: integer
+            medium:
+              type: integer
+            low:
+              type: integer
+        regime_changes:
+          type: integer
+          description: >
+            Total count of structural_breaks entries across all openings in
+            this family. Drives the REGIME CHANGES chip on the family card.
