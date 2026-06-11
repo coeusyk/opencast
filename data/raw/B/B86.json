@@ -6697,6 +6697,92 @@
       "recentGames": [],
       "topGames": [],
       "white": 155
+    },
+    "2026-05": {
+      "black": 151,
+      "draws": 18,
+      "moves": [
+        {
+          "averageRating": 2092,
+          "black": 57,
+          "draws": 9,
+          "game": null,
+          "opening": null,
+          "san": "a6",
+          "uci": "a7a6",
+          "white": 71
+        },
+        {
+          "averageRating": 2096,
+          "black": 68,
+          "draws": 7,
+          "game": null,
+          "opening": null,
+          "san": "Be7",
+          "uci": "f8e7",
+          "white": 56
+        },
+        {
+          "averageRating": 2104,
+          "black": 19,
+          "draws": 1,
+          "game": null,
+          "opening": {
+            "eco": "B88",
+            "name": "Sicilian Defense: Sozin Attack, Leonhardt Variation"
+          },
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 10
+        },
+        {
+          "averageRating": 2118,
+          "black": 5,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qc7",
+          "uci": "d8c7",
+          "white": 2
+        },
+        {
+          "averageRating": 2053,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Qa5",
+          "uci": "d8a5",
+          "white": 0
+        },
+        {
+          "averageRating": 2017,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d5",
+          "uci": "d6d5",
+          "white": 0
+        },
+        {
+          "averageRating": 1987,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nbd7",
+          "uci": "b8d7",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "B86",
+        "name": "Sicilian Defense: Sozin Attack"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 140
     }
   }
 }

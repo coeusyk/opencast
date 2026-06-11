@@ -3397,6 +3397,59 @@
       "recentGames": [],
       "topGames": [],
       "white": 95
+    },
+    "2026-05": {
+      "black": 107,
+      "draws": 4,
+      "moves": [
+        {
+          "averageRating": 2046,
+          "black": 85,
+          "draws": 4,
+          "game": null,
+          "opening": null,
+          "san": "Ng5",
+          "uci": "f3g5",
+          "white": 55
+        },
+        {
+          "averageRating": 2064,
+          "black": 22,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ne5",
+          "uci": "f3e5",
+          "white": 25
+        },
+        {
+          "averageRating": 2178,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bb5+",
+          "uci": "f1b5",
+          "white": 1
+        },
+        {
+          "averageRating": 2064,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Ng1",
+          "uci": "f3g1",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "B21",
+        "name": "Bird Opening: Dutch Variation, Batavo Gambit"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 82
     }
   }
 }

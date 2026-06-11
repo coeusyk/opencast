@@ -5647,6 +5647,82 @@
       "recentGames": [],
       "topGames": [],
       "white": 163
+    },
+    "2026-05": {
+      "black": 92,
+      "draws": 18,
+      "moves": [
+        {
+          "averageRating": 2098,
+          "black": 58,
+          "draws": 14,
+          "game": null,
+          "opening": null,
+          "san": "Nxc3",
+          "uci": "e4c3",
+          "white": 72
+        },
+        {
+          "averageRating": 2119,
+          "black": 18,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nf6",
+          "uci": "e4f6",
+          "white": 19
+        },
+        {
+          "averageRating": 2089,
+          "black": 8,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nd6",
+          "uci": "e4d6",
+          "white": 16
+        },
+        {
+          "averageRating": 2109,
+          "black": 5,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "Nc6",
+          "uci": "b8c6",
+          "white": 15
+        },
+        {
+          "averageRating": 2063,
+          "black": 3,
+          "draws": 1,
+          "game": null,
+          "opening": {
+            "eco": "C27",
+            "name": "Bishop's Opening: Boden-Kieseritzky Gambit, Lichtenhein Defense"
+          },
+          "san": "d5",
+          "uci": "d7d5",
+          "white": 4
+        },
+        {
+          "averageRating": 2122,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nxf2",
+          "uci": "e4f2",
+          "white": 1
+        }
+      ],
+      "opening": {
+        "eco": "C27",
+        "name": "Bishop's Opening: Boden-Kieseritzky Gambit"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 127
     }
   }
 }

@@ -2884,6 +2884,78 @@
       "recentGames": [],
       "topGames": [],
       "white": 1373
+    },
+    "2026-05": {
+      "black": 996,
+      "draws": 125,
+      "moves": [
+        {
+          "averageRating": 2103,
+          "black": 600,
+          "draws": 77,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 646
+        },
+        {
+          "averageRating": 2113,
+          "black": 229,
+          "draws": 27,
+          "game": null,
+          "opening": {
+            "eco": "E11",
+            "name": "Bogo-Indian Defense: Grünfeld Variation"
+          },
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 245
+        },
+        {
+          "averageRating": 2080,
+          "black": 162,
+          "draws": 20,
+          "game": null,
+          "opening": {
+            "eco": "E21",
+            "name": "Nimzo-Indian Defense: Three Knights Variation"
+          },
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 170
+        },
+        {
+          "averageRating": 2138,
+          "black": 3,
+          "draws": 0,
+          "game": null,
+          "opening": {
+            "eco": "E11",
+            "name": "Bogo-Indian Defense: New England Variation"
+          },
+          "san": "Nfd2",
+          "uci": "f3d2",
+          "white": 2
+        },
+        {
+          "averageRating": 2103,
+          "black": 2,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Qd2",
+          "uci": "d1d2",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "E11",
+        "name": "Bogo-Indian Defense"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 1063
     }
   }
 }

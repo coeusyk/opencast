@@ -2312,6 +2312,49 @@
       "recentGames": [],
       "topGames": [],
       "white": 205
+    },
+    "2026-05": {
+      "black": 145,
+      "draws": 22,
+      "moves": [
+        {
+          "averageRating": 2104,
+          "black": 106,
+          "draws": 18,
+          "game": null,
+          "opening": null,
+          "san": "Bd2",
+          "uci": "c1d2",
+          "white": 108
+        },
+        {
+          "averageRating": 2112,
+          "black": 30,
+          "draws": 3,
+          "game": null,
+          "opening": null,
+          "san": "Nbd2",
+          "uci": "b1d2",
+          "white": 27
+        },
+        {
+          "averageRating": 2069,
+          "black": 9,
+          "draws": 1,
+          "game": null,
+          "opening": null,
+          "san": "Nc3",
+          "uci": "b1c3",
+          "white": 11
+        }
+      ],
+      "opening": {
+        "eco": "E16",
+        "name": "Queen's Indian Defense: Capablanca Variation"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 146
     }
   }
 }

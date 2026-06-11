@@ -5237,6 +5237,89 @@
       "recentGames": [],
       "topGames": [],
       "white": 1053
+    },
+    "2026-05": {
+      "black": 709,
+      "draws": 89,
+      "moves": [
+        {
+          "averageRating": 2100,
+          "black": 679,
+          "draws": 87,
+          "game": null,
+          "opening": null,
+          "san": "Bg2",
+          "uci": "f1g2",
+          "white": 790
+        },
+        {
+          "averageRating": 2140,
+          "black": 20,
+          "draws": 2,
+          "game": null,
+          "opening": null,
+          "san": "d3",
+          "uci": "d2d3",
+          "white": 31
+        },
+        {
+          "averageRating": 2074,
+          "black": 7,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nge2",
+          "uci": "g1e2",
+          "white": 5
+        },
+        {
+          "averageRating": 2075,
+          "black": 2,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "f4",
+          "uci": "f2f4",
+          "white": 0
+        },
+        {
+          "averageRating": 2175,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "d4",
+          "uci": "d2d4",
+          "white": 1
+        },
+        {
+          "averageRating": 2037,
+          "black": 0,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Nf3",
+          "uci": "g1f3",
+          "white": 1
+        },
+        {
+          "averageRating": 2211,
+          "black": 1,
+          "draws": 0,
+          "game": null,
+          "opening": null,
+          "san": "Bd3",
+          "uci": "f1d3",
+          "white": 0
+        }
+      ],
+      "opening": {
+        "eco": "B24",
+        "name": "Sicilian Defense: Closed"
+      },
+      "recentGames": [],
+      "topGames": [],
+      "white": 828
     }
   }
 }
