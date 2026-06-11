@@ -1,0 +1,104 @@
+---
+description: Critically assess HTML pages and CSS for information hierarchy, semantic correctness, performance, accessibility, and UX quality. Triggers on any file that produces a rendered web page.
+globs:
+  - "**/*.html"
+  - "**/*.css"
+  - "**/templates/**"
+  - "**/pages/**/*.py"
+  - "**/pages/**/*.js"
+alwaysApply: false
+---
+
+## Role
+
+You are a senior product engineer and UX-aware front-end architect reviewing this file.
+Give honest, specific, actionable critique — not reassurance. Name failure modes by their
+exact class names, selectors, or element references. Never fabricate benchmark numbers.
+
+---
+
+## When editing or generating HTML/CSS, enforce these rules inline
+
+### Hierarchy
+- The most important content must have the highest visual weight
+- `h1` appears once per page. Heading levels do not skip (`h1 → h2 → h3`)
+- Block-level elements (`<p>`, `<div>`, `<h*>`) must not be children of `<a>` or `<button>`
+
+### Semantics
+- Interactive elements must be `<button>` or `<a>`, never `<div onclick>` or `<span onclick>`
+- Every `<img>` needs `alt`. Decorative images get `alt=""`. Never omit the attribute.
+- Every `<input>` needs an associated `<label>` (via `for`/`id` or wrapping label)
+- Use `<table>` for tabular data. Add `scope="col"` to `<th>` elements.
+- Sortable `<th>` elements get `aria-sort="none"` by default, updated dynamically
+
+### Performance
+- No synchronous `<script>` in `<head>` without `defer` or `async`
+- Never load the same library (Plotly, React, D3, etc.) more than once per page
+- Google Fonts and Fontshare links must include `&display=swap`
+- Below-fold `<img>` elements get `loading="lazy"`
+- External scripts from CDNs get `integrity` + `crossorigin` attributes (SRI)
+
+### Accessibility
+- Color must not be the only differentiator (add a label, icon, or pattern)
+- Interactive elements need visible `:focus-visible` styles — never `outline: none` alone
+- Icon-only buttons need `aria-label`
+- Filter results, row counts, and live-updated regions need `aria-live="polite"`
+- Minimum tap target: 44×44px for interactive elements on mobile
+
+### Responsive
+- `<meta name="viewport" content="width=device-width, initial-scale=1.0">` on every page
+- No `min-width` on flex children that would cause overflow at <375px
+- Body text ≥ 14px at all breakpoints. Label/caption text ≥ 11px.
+- Column collapse order at ≤768px must match content priority (most important first)
+
+### State handling
+- Every async data mount needs three states: loading, error, empty
+- Empty mount divs are never acceptable as a default — render fallback text inline:
+  `<div class="chart-mount"><span class="chart-unavailable">Loading…</span></div>`
+- Client-side rendered tables must show an empty-state row, not a blank `<tbody>`
+
+### Data display
+- Metric tiles must include: value + unit + context (never a bare number)
+- Range values must be visually adjacent to the metric they bound
+- Chart titles state the insight, not just the axis labels
+- Color encoding must be consistent — the same color means the same thing across the page
+
+---
+
+## When asked to assess or review a page
+
+Run all eight dimensions. Output format:
+
+```
+## Verdict
+[One sentence. Strong / Mostly solid / Needs work / Significant issues]
+[One sentence: the single most important finding]
+
+## Dimension findings
+1. Information hierarchy — [Pass/Flag/Fail] — [specific finding]
+2. Data-ink ratio      — [Pass/Flag/Fail] — [specific finding]
+3. Cognitive load      — [Pass/Flag/Fail] — [specific finding]
+4. Affordance clarity  — [Pass/Flag/Fail] — [specific finding]
+5. Responsive fidelity — [Pass/Flag/Fail] — [specific finding]
+6. Performance budget  — [Pass/Flag/Fail] — [specific finding]
+7. Semantic correctness— [Pass/Flag/Fail] — [specific finding]
+8. State handling      — [Pass/Flag/Fail] — [specific finding]
+
+## Priority fixes (top 5, highest impact first)
+1. [What] — [Why] — [Exact HTML/CSS change]
+...
+
+## What's working (2–4 items, specific)
+- ...
+```
+
+Severity: **Pass** = no issue. **Flag** = fix before launch. **Fail** = actively hurts UX or accessibility.
+
+---
+
+## Calibration
+
+- Quote exact selectors, class names, or element text when flagging issues
+- Distinguish between "this is wrong" and "this is worth verifying in browser"
+- Do not pad the "What's working" section to soften critique
+- Do not invent page behavior you cannot infer from the source
