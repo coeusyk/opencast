@@ -7,8 +7,15 @@ Covers:
 """
 import html as _html
 
-from ..charts import _PLOTLY_CFG, _build_regime_scatter_figure
+from ..charts import (
+    _PLOTLY_CFG,
+    _build_regime_scatter_figure,
+    _flatten_regime_points,
+)
 from ..shell import _nav_html, _page_shell
+
+_REGIME_MIN_ENGINE_CP = 10
+_REGIME_MIN_POINTS = 5
 
 FAMILY_COLORS: dict[str, str] = {
     "A": "#7B9FFF",
@@ -114,14 +121,11 @@ function buildDivergenceTables(openings) {
       const dColor = d.delta > 0 ? "#7BE495" : "#F28DA6";
       const dStr   = (d.delta > 0 ? "+" : "") + (d.delta * 100).toFixed(1);
       const cp     = d.engine_cp != null ? (d.engine_cp > 0 ? "+" : "") + d.engine_cp : "—";
-      const maxLen = 34;
-      const nameHtml = d.name.length > maxLen
-        ? `<span title="${d.name.replace(/"/g, "&quot;")}" style="white-space:nowrap">${d.name.slice(0, maxLen)}&hellip;</span>`
-        : `<span style="white-space:nowrap">${d.name}</span>`;
+      const esc = s => String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/"/g,"&quot;");
       return (
         `<tr onclick="location.href='opening.html?eco=${encodeURIComponent(d.eco)}'" style="cursor:pointer">` +
           `<td><span style="color:${fColor};font-weight:700">${d.eco}</span></td>` +
-          `<td style="color:var(--text-secondary)">${nameHtml}</td>` +
+          `<td class="divergence-name-cell" title="${esc(d.name)}">${esc(d.name)}</td>` +
           `<td style="color:var(--text-secondary);font-variant-numeric:tabular-nums;text-align:right">${cp}</td>` +
           `<td style="color:${dColor};font-weight:600;font-variant-numeric:tabular-nums;text-align:right">${dStr} pp</td>` +
           `<td style="text-align:center">${confChip(d.forecast_quality)}</td>` +
@@ -210,10 +214,18 @@ _ENGINE_CSS = """<style>
 }
 .divergence-card-body  { overflow-x: hidden; overflow-y: auto; max-height: 540px; scrollbar-gutter: stable; }
 .divergence-table { table-layout: fixed; width: 100%; }
+.divergence-table th:nth-child(2),
+.divergence-table td.divergence-name-cell {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 0;
+  color: var(--text-secondary);
+}
 
 /* Regime chart */
 #regime-chart-mount {
-  background: var(--surface-raised); border: 1px solid var(--border);
+  background: #0B0D10; border: 1px solid var(--border);
   border-radius: var(--radius-md); min-height: 240px; overflow: clip;
 }
 #regime-chart-mount .chart-unavailable {
@@ -313,13 +325,27 @@ def render_engine(openings_data: dict) -> str:
         f"opening book construction and engine tuning."
     )
 
-    regime_fig = _build_regime_scatter_figure(openings_data)
-    regime_chart_html = regime_fig.to_html(
-        full_html=False,
-        include_plotlyjs="cdn",
-        config=_PLOTLY_CFG,
-        div_id="regime-chart-plot",
+    regime_points = _flatten_regime_points(
+        openings_data, min_engine_cp=_REGIME_MIN_ENGINE_CP,
     )
+    show_regime_chart = len(regime_points) >= _REGIME_MIN_POINTS
+    if show_regime_chart:
+        regime_fig = _build_regime_scatter_figure(
+            openings_data,
+            min_engine_cp=_REGIME_MIN_ENGINE_CP,
+            min_points=_REGIME_MIN_POINTS,
+        )
+        regime_mount_html = regime_fig.to_html(
+            full_html=False,
+            include_plotlyjs="cdn",
+            config=_PLOTLY_CFG,
+            div_id="regime-chart-plot",
+        )
+    else:
+        regime_mount_html = (
+            '<p style="padding:1.5rem 0;text-align:center;color:var(--text-faint);'
+            'font-size:0.85rem">No significant regime changes detected.</p>'
+        )
 
     body = f"""
 <section class="engine-shell">
@@ -398,7 +424,7 @@ def render_engine(openings_data: dict) -> str:
       Dot size scaled by absolute engine evaluation (centipawns).
     </p>
     <div id="regime-chart-mount">
-      {regime_chart_html}
+      {regime_mount_html}
     </div>
   </section>
 

@@ -6,7 +6,6 @@ import pandas as pd
 from ..charts import (
     _PLOTLY_CFG,
     _build_compare_families_figure,
-    _build_panel3_figure,
     _build_sparkline_figure,
     _family_sparkline_series,
 )
@@ -32,7 +31,7 @@ CLASSIFICATION_LABELS: dict[str, str] = {
 
 # ---------------------------------------------------------------------------
 # Client-side JS — sparkline toggle + compare trace visibility (Plotly).
-# Charts are server-rendered at build time; Plotly loaded by panel3 bar chart.
+# Compare + sparklines use Plotly; Plotly CDN loaded by compare chart.
 # ---------------------------------------------------------------------------
 _FAMILIES_JS = r"""
 (function() {
@@ -87,6 +86,74 @@ def _esc(value: object) -> str:
 
 def _fmt_pct(value: float | None) -> str:
     return f"{value * 100:.2f}%" if value is not None else "—"
+
+
+def _fmt_wr_range(min_wr: float | None, max_wr: float | None) -> str:
+    if min_wr is None or max_wr is None:
+        return "—"
+    return f"{min_wr * 100:.2f}% – {max_wr * 100:.2f}%"
+
+
+_FAM_BAR_Y_MIN = 0.46
+_FAM_BAR_Y_MAX = 0.54
+
+
+def _family_win_rate_bar_height(value: float) -> float:
+    span = _FAM_BAR_Y_MAX - _FAM_BAR_Y_MIN
+    return max(0.0, min(100.0, (value - _FAM_BAR_Y_MIN) / span * 100))
+
+
+def _family_winrate_chart_title(group_vals: dict[str, float]) -> str:
+    if len(group_vals) < 2:
+        return "Win rate by ECO family"
+    lowest_fam = min(group_vals, key=group_vals.get)
+    return f"Family {lowest_fam} has the lowest win rate across all openings"
+
+
+def _build_family_win_rate_css_chart(engine_df: pd.DataFrame) -> str:
+    """Pure CSS bar chart — avg human win rate per ECO family (A–E)."""
+    group_vals: dict[str, float] = {}
+    if not engine_df.empty and "human_win_rate_2000" in engine_df.columns:
+        df = engine_df.copy()
+        df["group"] = df["eco"].astype(str).str[0]
+        for grp, val in df.groupby("group")["human_win_rate_2000"].mean().items():
+            group_vals[str(grp)] = float(val)
+
+    chart_title = _family_winrate_chart_title(group_vals)
+
+    bar_cols: list[str] = []
+    for fam in sorted(FAMILY_COLORS):
+        color = FAMILY_COLORS[fam]
+        val = group_vals.get(fam)
+        if val is not None:
+            height = _family_win_rate_bar_height(val)
+            val_text = f"{val * 100:.1f}%"
+        else:
+            height = 0.0
+            val_text = "—"
+        bar_cols.append(
+            f'<div class="fam-bar-col">'
+            f'<div class="fam-bar-stack">'
+            f'<div class="fam-bar-unit" style="height:{height:.2f}%">'
+            f'<span class="fam-bar-value">{_esc(val_text)}</span>'
+            f'<div class="fam-bar-fill" style="background:{color}"></div>'
+            f"</div>"
+            f"</div>"
+            f'<span class="fam-bar-letter">{_esc(fam)}</span>'
+            f"</div>"
+        )
+
+    return (
+        f'<div class="engine-box fam-winrate-box">'
+        f'<p class="families-section-title fam-winrate-title">{_esc(chart_title)}</p>'
+        f'<div class="fam-winrate-chart">'
+        f'<div class="fam-winrate-bars-area">'
+        f'<div class="fam-winrate-refline" aria-hidden="true"></div>'
+        f'<div class="fam-winrate-bars">{"".join(bar_cols)}</div>'
+        f"</div>"
+        f"</div>"
+        f"</div>"
+    )
 
 
 def _fmt_delta(value: float | None) -> str:
@@ -196,15 +263,9 @@ def _family_card(item: dict, sparkline_html: str = "") -> str:
 
     wr_row = (
         f'<div class="fc-wr-row">'
-        f'<div class="fc-wr-left">'
         f'<p class="fc-wr-label">AVG WIN RATE</p>'
         f'<p class="fc-wr-value">{_fmt_pct(item["avg_wr"])}</p>'
-        f'</div>'
-        f'<div class="fc-range">'
-        f'<p class="fc-range-label">RANGE</p>'
-        f'<p class="fc-range-values">{_fmt_pct(item["min_wr"])}</p>'
-        f'<p class="fc-range-values">{_fmt_pct(item["max_wr"])}</p>'
-        f'</div>'
+        f'<p class="fc-wr-range">{_fmt_wr_range(item["min_wr"], item["max_wr"])}</p>'
         f"</div>"
     )
 
@@ -266,7 +327,7 @@ def _family_card(item: dict, sparkline_html: str = "") -> str:
     )
 
     return (
-        f'<div class="family-card">'
+        f'<div class="family-card" style="--fam-color:{color}">'
         f'{header}{accent_bar}{wr_row}{trends_row}'
         f'{engine_row}{confidence_row}{regime_html}{outlier_row}'
         f'{sparkline}'
@@ -295,17 +356,7 @@ def render_families(
     catalog      = catalog      if catalog      is not None and not catalog.empty      else pd.DataFrame()
     openings_data = openings_data or {}
 
-    panel3 = _build_panel3_figure(engine_df)
-    panel3.update_layout(title=None, height=320, margin=dict(l=40, r=20, t=12, b=40), yaxis_title="Win Rate")
-    panel3.update_yaxes(title="Win Rate")
-    _anns = getattr(panel3.layout, "annotations", ()) or ()
-    panel3.layout.annotations = tuple(
-        ann for ann in _anns if str(getattr(ann, "text", "")).strip() != "50 %"
-    )
-    panel3_html = panel3.to_html(
-        full_html=False, include_plotlyjs="cdn",
-        config={"scrollZoom": False, "displayModeBar": False},
-    )
+    family_winrate_chart_html = _build_family_win_rate_css_chart(engine_df)
 
     family_catalog: dict[str, pd.DataFrame] = {}
     if not catalog.empty and "eco" in catalog.columns:
@@ -426,12 +477,28 @@ def render_families(
         color = FAMILY_COLORS.get(group, TEXT_PRIMARY)
         months, values = _family_sparkline_series(openings_data, group)
         if months and values:
+            delta_pp = values[-1] - values[0]
+            if delta_pp > 0.05:
+                delta_color = "#7BE495"
+            elif delta_pp < -0.05:
+                delta_color = "#F28DA6"
+            else:
+                delta_color = TEXT_SECONDARY
+            delta_sign = "+" if delta_pp >= 0 else ""
+            delta_label = f"{delta_sign}{delta_pp:.1f}pp"
             sl_fig = _build_sparkline_figure(months, values, color)
-            sparkline_html = sl_fig.to_html(
+            plot_html = sl_fig.to_html(
                 full_html=False,
                 include_plotlyjs=False,
                 config=_PLOTLY_CFG,
                 div_id=f"sparkline-plot-{group}",
+            )
+            sparkline_html = (
+                f'<div class="sparkline-inner">'
+                f'<span class="sparkline-delta" style="color:{delta_color}">'
+                f"{_esc(delta_label)}</span>"
+                f"{plot_html}"
+                f"</div>"
             )
         else:
             sparkline_html = '<span class="chart-unavailable">No data</span>'
@@ -441,7 +508,7 @@ def render_families(
     compare_fig = _build_compare_families_figure(openings_data)
     compare_chart_html = compare_fig.to_html(
         full_html=False,
-        include_plotlyjs=False,
+        include_plotlyjs="cdn",
         config=_PLOTLY_CFG,
         div_id="compare-chart-plot",
     )
@@ -481,20 +548,115 @@ def render_families(
 .metric-tile {{ min-width: 5.5rem; }}
 .metric-label  {{ margin: 0 0 0.3rem; font-size: 0.6875rem; color: var(--text-faint); text-transform: uppercase; letter-spacing: 0.08em; font-family: var(--font-brand); font-weight: 600; }}
 .metric-value  {{ margin: 0; font-size: 1.375rem; font-weight: 700; line-height: 1; color: var(--text-primary); font-family: var(--font-brand); }}
-.families-chart {{ background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-md); margin-bottom: 1.5rem; padding: 1rem; }}
 .families-section-title {{ font-size: 1rem; font-weight: 600; color: var(--text-primary); margin: 0 0 1rem; }}
+
+/* ── Family win-rate CSS bar chart ─────────────────────────────────── */
+.fam-winrate-box {{ margin-bottom: 1.5rem; }}
+.fam-winrate-title {{ margin-top: 0; }}
+.fam-winrate-chart {{
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+}}
+.fam-winrate-bars-area {{
+  flex: 1;
+  position: relative;
+  min-height: 0;
+  padding-bottom: 1.25rem;
+  box-sizing: border-box;
+}}
+.fam-winrate-refline {{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: calc(1.25rem + (100% - 1.25rem) * 0.5);
+  border-top: 1px dashed var(--text-faint);
+  pointer-events: none;
+  z-index: 1;
+}}
+.fam-winrate-bars {{
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 2.25rem;
+  padding: 0 1.5rem;
+  z-index: 2;
+}}
+.fam-bar-col {{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  flex: 0 0 auto;
+  width: 34px;
+}}
+.fam-bar-stack {{
+  flex: 1;
+  width: 34px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 0;
+}}
+.fam-bar-unit {{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  min-height: 2px;
+}}
+.fam-bar-value {{
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 8px;
+  font-size: 11px;
+  color: var(--text-primary);
+  font-family: var(--font-brand);
+  font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
+}}
+.fam-bar-fill {{
+  width: 100%;
+  flex: 1;
+  min-height: 2px;
+  border-radius: 3px 3px 0 0;
+}}
+.fam-bar-letter {{
+  flex-shrink: 0;
+  margin-top: 0.35rem;
+  font-size: 11px;
+  font-family: var(--font-brand);
+  font-weight: 600;
+  color: var(--text-secondary);
+}}
 
 /* ── Card grid ─────────────────────────────────────────────────────── */
 .families-grid {{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 1rem;
   margin-bottom: 1.5rem;
   align-items: start;
 }}
+/* 3 cards top row; D + E centered on bottom row (desktop) */
+.family-card:nth-child(1) {{ grid-column: 1 / span 2; }}
+.family-card:nth-child(2) {{ grid-column: 3 / span 2; }}
+.family-card:nth-child(3) {{ grid-column: 5 / span 2; }}
+.family-card:nth-child(4) {{ grid-column: 2 / span 2; }}
+.family-card:nth-child(5) {{ grid-column: 4 / span 2; }}
 .family-card {{
-  background: var(--surface);
-  border: 1px solid var(--border);
+  background:
+    radial-gradient(ellipse 95% 70% at 100% 0%, color-mix(in srgb, var(--fam-color) 16%, transparent), transparent 68%),
+    radial-gradient(ellipse 75% 55% at 0% 100%, color-mix(in srgb, var(--fam-color) 9%, transparent), transparent 62%),
+    linear-gradient(168deg, color-mix(in srgb, var(--fam-color) 7%, var(--surface)) 0%, var(--surface) 52%);
+  border: 1px solid color-mix(in srgb, var(--fam-color) 12%, var(--border));
   border-radius: var(--radius-md);
   overflow: hidden;
   display: flex;
@@ -531,12 +693,10 @@ def render_families(
 .fc-bar {{ height: 2px; margin: 0 0 0.75rem; }}
 
 /* Win rate row */
-.fc-wr-row       {{ display: flex; justify-content: space-between; align-items: flex-start; padding: 0 1rem 0.75rem; border-bottom: 1px solid var(--border); }}
+.fc-wr-row       {{ padding: 0 1rem 0.75rem; border-bottom: 1px solid var(--border); }}
 .fc-wr-label     {{ font-family: var(--font-brand); font-size: 0.6875rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-faint); margin: 0 0 0.15rem; }}
 .fc-wr-value     {{ font-family: var(--font-brand); font-size: 1.75rem; font-weight: 700; color: var(--text-primary); line-height: 1; margin: 0; }}
-.fc-range        {{ text-align: right; }}
-.fc-range-label  {{ font-family: var(--font-brand); font-size: 0.6rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-faint); margin: 0 0 0.15rem; }}
-.fc-range-values {{ font-family: var(--font-body); font-size: 0.76rem; color: var(--text-secondary); margin: 0; }}
+.fc-wr-range     {{ margin: 2px 0 0; font-family: var(--font-body); font-size: 11px; color: var(--text-faint); line-height: 1.3; }}
 
 /* Row label shared */
 .fc-row-label {{ font-family: var(--font-brand); font-size: 0.6rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-faint); margin: 0 0 0.3rem; }}
@@ -596,6 +756,11 @@ def render_families(
 .fc-sparkline-btn:hover {{ background: rgba(255,255,255,0.05); color: var(--text-primary); }}
 .fc-sparkline-btn:active {{ background: rgba(255,255,255,0.07); }}
 .sparkline-mount {{ min-height: 80px; padding: 0 0.5rem 0.75rem; }}
+.sparkline-inner {{ position: relative; }}
+.sparkline-delta {{
+  position: absolute; top: 4px; right: 8px; z-index: 1;
+  font-family: var(--font-brand); font-size: 11px; font-weight: 600;
+}}
 .chart-unavailable {{ font-size: 0.75rem; color: var(--text-faint); }}
 
 /* Compare panel (#42) */
@@ -615,7 +780,10 @@ def render_families(
 #compare-chart {{ min-height: 240px; }}
 
 /* Responsive */
-@media (max-width: 1024px) {{ .families-grid {{ grid-template-columns: repeat(2, 1fr); }} }}
+@media (max-width: 1024px) {{
+  .families-grid {{ grid-template-columns: repeat(2, 1fr); }}
+  .family-card:nth-child(n) {{ grid-column: auto; }}
+}}
 @media (max-width: 768px)  {{
   .families-grid {{ grid-template-columns: 1fr; }}
   .families-shell {{ padding: 0.75rem 0.75rem 2.5rem; }}
@@ -652,9 +820,7 @@ def render_families(
     </div>
   </section>
 
-  <div class="families-chart">
-    {panel3_html}
-  </div>
+  {family_winrate_chart_html}
 
   <h2 class="families-section-title">Opening Families</h2>
   <div class="families-grid">
